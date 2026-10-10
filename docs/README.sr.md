@@ -44,3 +44,17 @@
 chmod +x deckywolf.AppImage
 ./deckywolf.AppImage
 ```
+
+---
+
+## ☕ Support the Project / Поддержка проекта
+
+<p align="center">
+  <a href="https://boosty.to/kowalski1997/donate">
+    <img src="https://img.shields.io/badge/Support_Author-Boosty-orange?style=for-the-badge&logo=boosty&logoColor=white" alt="Support on Boosty" height="40">
+  </a>
+</p>
+
+<p align="center">
+  👉 <b><a href="https://boosty.to/kowalski1997/donate">Поддержать автора на Boosty (Donate)</a></b> 🧡
+</p>

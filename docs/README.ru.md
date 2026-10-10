@@ -70,6 +70,22 @@ chmod +x deckywolf.AppImage
 
 ---
 
+---
+
+## ☕ Support the Project / Поддержка проекта
+
+<p align="center">
+  <a href="https://boosty.to/kowalski1997/donate">
+    <img src="https://img.shields.io/badge/Support_Author-Boosty-orange?style=for-the-badge&logo=boosty&logoColor=white" alt="Support on Boosty" height="40">
+  </a>
+</p>
+
+<p align="center">
+  👉 <b><a href="https://boosty.to/kowalski1997/donate">Поддержать автора на Boosty (Donate)</a></b> 🧡
+</p>
+
+---
+
 ## Лицензия и благодарности
 - Базируется на [LibreWolf](https://librewolf.net/) и [Mozilla Firefox](https://www.mozilla.org/firefox/).
 - Распространяется под лицензиями Mozilla Public License 2.0 (MPL 2.0) и GNU General Public License v3.0 (GPLv3).
