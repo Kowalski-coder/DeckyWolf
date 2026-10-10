@@ -5,18 +5,29 @@
 </p>
 
 <p align="center">
-  <b>A privacy-respecting browser tailored specifically for Steam Deck (SteamOS & Linux handhelds).</b><br>
-  <i>Браузер с упором на приватность, специально адаптированный для Steam Deck (SteamOS и портативных ПК).</i>
+  <b>A privacy-respecting browser tailored specifically for Steam Deck (SteamOS & Linux handhelds).</b>
 </p>
 
 <p align="center">
-  <a href="#english">English</a> • <a href="#русский">Русский</a>
+  <b>English</b> •
+  <a href="docs/README.ru.md">Русский</a> •
+  <a href="docs/README.be.md">Беларуская</a> •
+  <a href="docs/README.uk.md">Українська</a> •
+  <a href="docs/README.pl.md">Polski</a> •
+  <a href="docs/README.kk.md">Қазақша</a> •
+  <a href="docs/README.uz.md">O'zbekcha</a> •
+  <a href="docs/README.az.md">Azərbaycan</a> •
+  <a href="docs/README.hy.md">Հայերեն</a> •
+  <a href="docs/README.ky.md">Кыргызча</a> •
+  <a href="docs/README.tg.md">Тоҷикӣ</a> •
+  <a href="docs/README.sr.md">Српски</a> •
+  <a href="docs/README.fi.md">Suomi</a> •
+  <a href="docs/README.lt.md">Lietuvių</a> •
+  <a href="docs/README.lv.md">Latviešu</a> •
+  <a href="docs/README.et.md">Eesti</a>
 </p>
 
 ---
-
-<a name="english"></a>
-## English
 
 **DeckyWolf** is an optimized fork of **LibreWolf** built for handheld gaming devices like Valve's **Steam Deck**. It seamlessly integrates hardware controls, trackpad gestures with tactile haptic feedback, on-screen controller hints, and custom handheld settings directly into the browser.
 
@@ -52,50 +63,6 @@
 
 ### Installation
 Download the latest `deckywolf.AppImage` from the [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases) section, make it executable, and run:
-```bash
-chmod +x deckywolf.AppImage
-./deckywolf.AppImage
-```
-
----
-
-<a name="русский"></a>
-## Русский
-
-**DeckyWolf** — это оптимизированный форк браузера **LibreWolf**, созданный специально для портативной консоли **Steam Deck** и других портативных ПК под управлением Linux. Браузер объединяет полноценное управление с геймпада, круговую прокрутку трекпадом с виброотдачей, визуальные подсказки кнопок на интерфейсе и отдельную панель настроек.
-
-### Основные возможности
-- 🎮 **Полноценное управление с геймпада**: Работают стики, крестовина (D-pad), кнопки действий, триггеры и задние лепестки (L4, L5, R4, R5).
-- 🔄 **Круговая прокрутка левым трекпадом с тактильной отдачей**: Левый трекпад работает в точности как в режиме рабочего стола Steam Deck — вращение по трекпаду прокручивает страницу с реалистичными щелчками вибромотора, а нажатие эмулирует среднюю кнопку мыши.
-- 🔀 **Переключатель режима управления на панели инструментов**: Удобная кнопка возле меню для быстрого переключения между режимами «Контроллер» и «Клавиатура+мышь».
-- 💡 **Визуальные подсказки кнопок**: Наглядные иконки кнопок (A, B, X, Y, L1, R1, L5) прямо на вкладках и панели навигации с поддержкой стилей оформления Xbox, PlayStation и Steam Deck.
-- ⚙️ **Вкладка «Контроллер» в настройках**: Отдельный раздел `about:preferences#controller` для настройки чувствительности, инверсии прокрутки, выбора кнопки-модификатора и стиля подсказок (поддерживает 105 языков).
-- 🛡️ **Приватность LibreWolf + удобные дефолтные настройки**: Все защитные механизмы LibreWolf с удобными настройками по умолчанию (сохранение истории, отключен сброс при закрытии, быстрый поиск).
-- 🏷️ **Полная независимость**: DeckyWolf запускается как отдельное приложение со своим именем, иконкой и `app_id` на панели задач, не конфликтуя с оригинальным LibreWolf.
-
-### Схема управления
-| Элемент управления | Обычное действие | При зажатом модификаторе (L5 / L4 / R4 / R5 / Просмотр) |
-| :--- | :--- | :--- |
-| **Правый стик** | Перемещение курсора мыши | — |
-| **Левый стик** | Вертикальная прокрутка страницы | — |
-| **Левый трекпад (вращение)** | Круговая прокрутка с виброотдачей | — |
-| **Левый трекпад (нажатие)** | Средняя кнопка мыши | — |
-| **R2 (Правый триггер)** | Левая кнопка мыши (ЛКМ) | — |
-| **L2 (Левый триггер)** | Правая кнопка мыши (ПКМ) | — |
-| **R3 (Нажатие правого стика)** | Левая кнопка мыши (ЛКМ) | — |
-| **L3 (Нажатие левого стика)** | Средняя кнопка мыши (СКМ) | — |
-| **L3 + R3 (одновременно)** | Полноэкранный режим (F11) | — |
-| **Крестовина (D-Pad)** | Стрелки клавиатуры (Вверх, Вниз, Влево, Вправо) | — |
-| **L1 (LB)** | Предыдущая вкладка | — |
-| **R1 (RB)** | Следующая вкладка | — |
-| **Кнопка B** | Назад в истории | **Закрыть текущую вкладку** |
-| **Кнопка X** | Вперёд в истории | — |
-| **Y** | Обновить страницу | **Открыть новую вкладку** |
-
-> **Примечание для режима рабочего стола SteamOS:** Если запущен клиент Steam, зажмите кнопку меню (**☰**) на 3 секунды, чтобы переключить раскладку Steam с рабочего стола на геймпад.
-
-### Установка
-Скачайте актуальный файл `deckywolf.AppImage` из раздела [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases), сделайте его исполняемым и запустите:
 ```bash
 chmod +x deckywolf.AppImage
 ./deckywolf.AppImage
