@@ -1,0 +1,62 @@
+name: Release DeckyWolf
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget curl file libfuse2 zsync patch zip unzip gcc libevdev-dev
+
+      - name: Download official LibreWolf AppImage base
+        run: |
+          echo "Downloading LibreWolf 157.0.1-1 AppImage..."
+          wget -q -O /tmp/librewolf.AppImage https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/157.0.1-1/LibreWolf.x86_64.AppImage || \
+          wget -q -O /tmp/librewolf.AppImage https://github.com/librewolf-community/browser-appimage/releases/download/v157.0.1-1/LibreWolf.x86_64.AppImage || true
+          
+          # If download fails, report error
+          if [ ! -s /tmp/librewolf.AppImage ]; then
+            echo "Direct tag download failed, fetching latest..."
+            curl -s https://api.github.com/repos/librewolf-community/browser-appimage/releases/latest \
+              | grep "browser_download_url.*x86_64.AppImage\"" \
+              | head -n 1 \
+              | cut -d '"' -f 4 \
+              | xargs wget -q -O /tmp/librewolf.AppImage
+          fi
+          chmod +x /tmp/librewolf.AppImage
+
+      - name: Install appimagetool
+        run: |
+          wget -q -O /usr/local/bin/appimagetool https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          chmod +x /usr/local/bin/appimagetool
+          sed -i 's|AI\x02|\x00\x00\x00|' /usr/local/bin/appimagetool 2>/dev/null || true
+
+      - name: Build DeckyWolf AppImage
+        run: |
+          chmod +x build.sh
+          # Unpack and build using build.sh
+          ./build.sh /tmp/librewolf.AppImage
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          name: "DeckyWolf ${{ github.ref_name }}"
+          draft: false
+          prerelease: false
+          files: |
+            deckywolf.AppImage
+          generate_release_notes: true
