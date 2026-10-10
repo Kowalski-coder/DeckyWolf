@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Cluaisín Coimeádáin Nua
+all-tabs-menu-hidden-tabs =
+    .label = Cluaisíní Folaithe
+all-tabs-menu-recent-tab-groups-header = Dola cluaisíní le déanaí
+all-tabs-menu-tab-groups-show-all =
+    .label = Taispeáin uile
+all-tabs-menu-tab-groups-sub-view =
+    .title = Dola cluaisíní
+all-tabs-menu-current-window-header = An fhuinneog reatha

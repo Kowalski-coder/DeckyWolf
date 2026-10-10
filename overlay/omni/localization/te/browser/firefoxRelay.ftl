@@ -1,0 +1,16 @@
+firefox-relay-opt-in-title-1 = మీ ఈమెయిలు చిరునామాను సంరక్షించుకోండి:
+firefox-relay-opt-in-confirmation-disable =
+    .label = దీన్ని మళ్ళీ నాకు చూపించకు
+    .accesskey = D
+firefox-relay-opt-in-confirmation-postpone =
+    .label = ఇప్పుడు వద్దు
+    .accesskey = N
+firefox-relay-and-fxa-opt-in-confirmation-disable =
+    .label = దీన్ని మళ్ళీ నాకు చూపించకు
+    .accesskey = D
+firefox-relay-and-fxa-opt-in-confirmation-postpone =
+    .label = ఇప్పుడు వద్దు
+    .accesskey = N
+firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
+    .label = తరువాత
+    .accesskey = N

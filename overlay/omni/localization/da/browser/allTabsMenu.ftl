@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Søg i alle faneblade
+all-tabs-menu-new-user-context =
+    .label = Nyt kontekst-faneblad
+all-tabs-menu-hidden-tabs =
+    .label = Skjulte faneblade
+all-tabs-menu-close-duplicate-tabs =
+    .label = Luk kopierede faneblade
+all-tabs-menu-view-all-tabs =
+    .label = Vis alle faneblade
+all-tabs-menu-recent-tab-groups-header = Seneste fanebladsgrupper
+all-tabs-menu-tab-groups-show-all =
+    .label = Vis alle
+all-tabs-menu-tab-groups-sub-view =
+    .title = Fanebladsgrupper
+all-tabs-menu-current-window-header = Aktuelle vindue

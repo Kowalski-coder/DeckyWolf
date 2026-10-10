@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = 搜尋所有分頁
+all-tabs-menu-new-user-context =
+    .label = 新增容器分頁
+all-tabs-menu-hidden-tabs =
+    .label = 隱藏分頁
+all-tabs-menu-close-duplicate-tabs =
+    .label = 關閉重複的分頁
+all-tabs-menu-view-all-tabs =
+    .label = 檢視所有分頁
+all-tabs-menu-recent-tab-groups-header = 最近的分頁群組
+all-tabs-menu-tab-groups-show-all =
+    .label = 顯示全部
+all-tabs-menu-tab-groups-sub-view =
+    .title = 分頁群組
+all-tabs-menu-current-window-header = 目前視窗

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Apertura di una nuova finestra “pulita”
+panic-button-undo-warning = Questa operazione non può essere annullata.
+panic-button-forget-button =
+    .label = Dimentica
+panic-main-timeframe-desc = Dimentica:
+panic-button-5min =
+    .label = gli ultimi 5 minuti
+panic-button-2hr =
+    .label = le ultime 2 ore
+panic-button-day =
+    .label = le ultime 24 ore
+panic-button-action-desc = Questo comporta:
+panic-button-delete-cookies = Eliminazione dei <strong>cookie</strong> recenti
+panic-button-delete-history = Eliminazione della <strong>cronologia</strong> recente
+panic-button-delete-tabs-and-windows = Chiusura di tutte le <strong>schede</strong> e <strong>finestre</strong> aperte

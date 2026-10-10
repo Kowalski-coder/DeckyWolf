@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ŝatus ŝanĝi vian norman serĉilon { $currentEngine } al { $newEngine }. Ĉu en ordo?
+webext-default-search-yes =
+    .label = Jes
+    .accesskey = J
+webext-default-search-no =
+    .label = Ne
+    .accesskey = N
+addon-post-install-message = { $addonName } estis aldonita.
+webext-quarantine-confirmation-title = Ĉu funkciigi { $addonName } en limigitaj retejoj?
+webext-quarantine-confirmation-line-1 = Por protekti viajn datumojn, tiu ĉi etendaĵo ne estas permesata en tiu ĉi retejo.
+webext-quarantine-confirmation-line-2 = Se vi fidas tiun ĉi etendaĵon, permesu al ĝi legi kaj modifi viajn datumojn en retejoj limigitaj de { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permesi
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = Ne permesi
+    .accesskey = N

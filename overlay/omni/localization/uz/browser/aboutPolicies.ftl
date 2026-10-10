@@ -1,0 +1,15 @@
+about-policies-title = Korporativ siyosat
+active-policies-tab = Faol
+errors-tab = Xatolar
+documentation-tab = Qo‘llanma
+active-policies-tab-title =
+    .title = Faol
+errors-tab-title =
+    .title = Xatolar
+documentation-tab-title =
+    .title = Qo‘llanma
+no-specified-policies-message = Korporativ siyosatlar xizmati faol, lekin birorta ham siyosat yoqilmagan.
+inactive-message = Korporativ siyosatlar xizmati nofaol.
+policy-name = Siyosat nomi
+policy-value = Siyosat qiymati
+policy-errors = Siyosat xatolari

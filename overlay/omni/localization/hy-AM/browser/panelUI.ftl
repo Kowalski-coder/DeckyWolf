@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ապամրացնել լցված ցանկից
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Ավելացնել գործիքագոտուն
+    .accesskey = Ա
+customize-menu-add-to-overflowmenu =
+    .label = Ավելացնել լցված ցանկին
+    .accesskey = Ց
+panic-button-thankyou-msg1 = Վերջին պատմությունը մաքրվել է։
+panic-button-thankyou-msg2 = Անվտանգ դիտարկում:
+panic-button-thankyou-button =
+    .label = Շնորհակալություն:

@@ -1,0 +1,10 @@
+page-title = ¡Peg̃uahẽporãitéke, tapichakuéra!
+error-title-text = ¡Peg̃uahẽporãite, yvyporakuéra!
+error-short-desc-text = Roju penerendápe py’aguapy ha tekojekupytýre.
+error-long-desc1 = Avara’ãnga ndojapova’erãi ivaíva tapicháre térã, ojapo’ỹvo mba’eve, oheja ojehu mba’evai tapicháre.
+error-long-desc2 = Umi avara’ãnga ohecháma mba’eita peẽ peguerovia’ỹtava.
+error-long-desc3 = Umi avara’ãnga niko ne angirũ karéi ha hendivekuéra reñeñanduporãta.
+error-long-desc4 = Umi avara’ãnga hevi atã vera ojepytekuaa’ỹva.
+error-trailer-desc-text = Ha oreko peteĩ apopyrã.
+error-try-again = Eha’ã jey
+    .label2 = Ani rejopy jey ko votõ.

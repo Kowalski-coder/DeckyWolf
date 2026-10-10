@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (без назви)
+places-load-js-data-url-error = З міркувань безпеки, URL “javascript” або “data:” не можуть бути завантажені з вікна історії чи бічної панелі.
+places-bookmarks-backup-title = Назва резервної копії закладок
+places-bookmarks-restore-alert-title = Повернути закладки
+places-bookmarks-restore-alert = Це замінить всі ваші поточні закладки резервною копією. Ви певні?
+places-bookmarks-restore-title = Оберіть резервну копію закладок
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Непідтримуваний тип файлу
+places-bookmarks-restore-parse-error = Неможливо обробити файл резервної копії.
+places-bookmarks-import = Імпортувати файл закладок
+places-bookmarks-export = Експортувати файл закладок
+places-bookmarks-paste-error-title = Знайдено недійсні URL-адреси
+places-bookmarks-paste-error-message-header = Зазначені URL-адреси не вдалося додати до ваших закладок. Перевірте форматування і повторіть спробу.

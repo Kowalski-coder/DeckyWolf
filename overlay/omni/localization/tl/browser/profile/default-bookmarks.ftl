@@ -1,0 +1,14 @@
+default-bookmarks-title = Mga Bookmark
+default-bookmarks-heading = Mga Bookmark
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Kumuha ng Tulong
+default-bookmarks-firefox-customize = Ipasadya ang Firefox
+default-bookmarks-firefox-community = Makibahagi
+default-bookmarks-firefox-about = Tungkol Sa Amin
+default-bookmarks-nightly-heading = Resources para sa Firefox Nightly
+default-bookmarks-nightly-blog = Blog ng Firefox Nightly
+default-bookmarks-bugzilla = Bug Tracker para sa Mozilla
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Mga Kagamitan ng mga Nightly Tester
+default-bookmarks-crashes = Lahat ng mga crash mo
+default-bookmarks-planet = Planet Mozilla

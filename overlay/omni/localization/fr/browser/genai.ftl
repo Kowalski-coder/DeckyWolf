@@ -1,0 +1,151 @@
+genai-settings-chat-chatgpt-links = En choisissant ChatGPT, vous acceptez les <a data-l10n-name="link1">Conditions d’utilisation</a> et la <a data-l10n-name="link2">Politique de confidentialité</a> d’OpenAI.
+genai-settings-chat-claude-links = En choisissant Anthropic Claude, vous acceptez les <a data-l10n-name="link1">Conditions d’utilisation</a>, la <a data-l10n-name="link2">Politique d’utilisation</a> et la <a data-l10n-name="link3">Politique de confidentialité</a> d’Anthropic.
+genai-settings-chat-copilot-links = En choisissant Copilot, vous acceptez les <a data-l10n-name="link1">Conditions d’utilisation de Copilot AI Experiences</a> et la <a data-l10n-name="link2">Déclaration de confidentialité de Microsoft</a>.
+genai-settings-chat-gemini-links = En choisissant Google Gemini, vous acceptez les <a data-l10n-name="link1">Conditions d’utilisation de Google</a>, la <a data-l10n-name="link2">Politique d’utilisations interdites de l’IA générative</a>, et l’<a data-l10n-name="link3">Avis de confidentialité de Gemini Apps</a>.
+genai-settings-chat-huggingchat-links = En choisissant HuggingChat, vous acceptez <a data-l10n-name="link1">l’Avis de confidentialité d’HuggingChat</a> et la <a data-l10n-name="link2">Politique de confidentialité d’Hugging Face</a>.
+genai-settings-chat-lechat-links-2 = En choisissant Mistral Vibe, vous acceptez les <a data-l10n-name="link1">Conditions d’utilisation</a> et la <a data-l10n-name="link2">Politique de confidentialité</a> de Mistral AI.
+genai-settings-chat-localhost-links = Utilisez votre propre chatbot privé local, comme <a data-l10n-name="link1">llamafile</a>, conçu par le groupe Innovation de { -vendor-short-name }.
+genai-prompt-prefix-selection = Je suis sur la page « { $tabTitle } » et j’ai sélectionné « { $selection } ».
+genai-prompts-summarize =
+    .label = Résume
+    .value = Résume le texte sélectionné en utilisant une formulation précise et concise. Utilise des en-têtes et des listes à puces dans le résumé, afin qu’il soit facilement lisible. Conserve le sens et la véracité des faits.
+genai-prompts-simplify =
+    .label = Simplifie la formulation
+    .value = Réécris le texte sélectionné en utilisant des phrases courtes et des mots simples. Conserve le sens et la véracité des faits.
+genai-prompts-quiz =
+    .label = Teste-moi
+    .value = Teste-moi sur le texte sélectionné. Pose-moi différents types de questions, par exemple à choix multiples, vrai ou faux, ou à réponse courte. Attends ma réponse avant de passer à la question suivante.
+genai-prompts-explain =
+    .label = Explique ceci
+    .value = Explique les concepts clés du texte sélectionné, en utilisant des mots simples. Utilise également des exemples.
+genai-prompts-proofread =
+    .label = Relis
+    .value = Relis la sélection et détecte les fautes d’orthographe et de grammaire. Identifie les erreurs et fournis une version corrigée du texte. Préserve le sens et l’exactitude des faits et fournis d’abord la liste des corrections proposées, suivie de la version finale et corrigée du texte.
+genai-menu-ask-smart-window =
+    .label = Demander à…
+    .accesskey = D
+genai-menu-no-provider-2 =
+    .label = Demander à un chatbot IA
+    .accesskey = D
+genai-menu-choose-chatbot =
+    .label = Choisir un chatbot IA
+genai-menu-ask-generic-2 =
+    .label = Demander à un chatbot IA
+    .accesskey = D
+genai-menu-ask-provider-2 =
+    .label = Demander à { $provider }
+    .accesskey = D
+genai-menu-open-generic =
+    .label = Ouvrir le chatbot IA
+genai-menu-open-provider =
+    .label = Ouvrir { $provider }
+genai-menu-remove-generic =
+    .label = Retirer le chatbot IA
+genai-menu-remove-provider =
+    .label = Retirer { $provider }
+genai-menu-remove-sidebar =
+    .label = Retirer du panneau latéral
+genai-shortcut-button =
+    .aria-label = Demander à { $provider }
+genai-menu-new-badge = Nouveau
+genai-menu-summarize-page = Résumer la page
+genai-input-ask-smart-window =
+    .placeholder = Demander à…
+genai-input-ask-generic =
+    .placeholder = Demander à un chatbot IA…
+genai-input-ask-provider =
+    .placeholder = Demander à { $provider }…
+genai-shortcuts-selected-warning-generic =
+    .heading = Le chatbot IA ne recevra pas votre sélection complète
+    .message =
+        { $selectionLength ->
+           *[other] Vous avez sélectionné environ { $selectionLength } caractères. Le nombre maximal de caractères que nous pouvons envoyer au chatbot IA est d’environ { $maxLength }.
+        }
+genai-shortcuts-selected-warning =
+    .heading = { $provider } ne recevra pas votre sélection complète
+    .message =
+        { $selectionLength ->
+           *[other] Vous avez sélectionné environ { $selectionLength } caractères. Le nombre maximal de caractères que nous pouvons envoyer à { $provider } est d’environ { $maxLength }.
+        }
+genai-shortcuts-hide =
+    .label = Masquer le raccourci du chatbot
+genai-chatbot-title = Chatbot IA
+genai-header-provider-menu =
+    .title = Choisir un chatbot
+genai-header-settings-button =
+    .title = Paramètres du chat IA
+genai-header-close-button =
+    .title = Fermer
+genai-provider-view-details =
+    .label = Afficher le détail des chatbots
+genai-options-reload-generic =
+    .label = Recharger le chatbot IA
+genai-options-reload-provider =
+    .label = Recharger { $provider }
+genai-options-show-shortcut =
+    .label = Afficher un raccourci lors de la sélection de texte
+genai-options-hide-shortcut =
+    .label = Masquer le raccourci lors de la sélection de texte
+genai-options-about-chatbot =
+    .label = À propos des chatbots IA dans { -brand-short-name }
+genai-page-warning =
+    .message = La page étant longue, ce résumé n’est qu’un résumé partiel.
+genai-page-button-summarize = Résumer la page
+genai-chatbot-summarize-title = Nouveau ! Résumez les pages en un clic
+genai-chatbot-summarize-button = Résumer la page
+genai-chatbot-summarize-sidebar-provider-subtitle = Faites un clic droit sur votre chatbot IA dans le panneau latéral et choisissez « Résumer la page ».
+genai-chatbot-summarize-sidebar-generic-subtitle = Faites un clic droit sur le bouton étoilé dans le panneau latéral et choisissez « Résumer la page ». La première fois, vous choisirez également un chatbot IA.
+genai-chatbot-summarize-footer-provider-subtitle = Ouvrez votre chatbot IA dans le panneau latéral et choisissez « Résumer la page » en bas.
+genai-chatbot-summarize-footer-generic-subtitle = Ajoutez un chatbot IA au panneau latéral de { -brand-short-name } pour résumer rapidement les pages.
+genai-chatbot-contextual-title = Utilisez un chatbot IA sans changer d’onglet
+genai-chatbot-contextual-subtitle = Discutez et naviguez côte à côte en ajoutant un chatbot IA dans le panneau latéral de { -brand-short-name }.
+genai-chatbot-contextual-button = Choisir un chatbot
+genai-onboarding-choose-header = Choisissez un chatbot IA à utiliser dans le panneau latéral de { -brand-short-name }
+genai-onboarding-choose-description = Changez-en à tout moment. Pour vous aider à faire votre choix, <a data-l10n-name="learn-more">apprenez-en plus sur chacun des chatbots</a>.
+genai-onboarding-primary = Continuer
+genai-onboarding-secondary = Fermer
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
+genai-model-optin-continue =
+    .label = Continuer
+genai-model-optin-optout =
+    .label = Annuler
+genai-model-optin-cancel =
+    .label = Annuler
+link-preview-reading-time = { $range } min de lecture
+link-preview-error-message-v2 = { -brand-short-name } ne peut pas afficher d’aperçu pour ce lien
+link-preview-visit-link = Consulter le lien
+link-preview-generation-error-missing-data-v2 = { -brand-short-name } ne peut pas générer de points clés pour cette page web.
+link-preview-generation-error-unexpected = Une erreur s’est produite.
+link-preview-generation-retry = Réessayer
+link-preview-settings-button =
+    .title = Paramètres d’aperçu des liens
+link-preview-settings-enable =
+    .description = Afficher le titre de la page, sa description et d’autres informations lorsque vous utilisez le raccourci ou effectuez un clic droit sur un lien.
+    .label = Activer l’aperçu des liens
+link-preview-settings-key-points =
+    .label = Autoriser l’IA à lire le début de la page et à générer des points clés
+link-preview-settings-long-press =
+    .label = Raccourci : cliquer sur le lien pendant 1 seconde (appui long)
+link-preview-optin-title = En voir davantage grâce à l’IA ?
+link-preview-optin-message = { -brand-short-name } utilise l’IA pour lire le début de la page et générer quelques points clés. Afin de respecter votre vie privée, ces actions s’effectuent sur votre appareil.
+link-preview-onboarding-title-long-press = Nouveau : effectuez un clic long sur n’importe quel lien pour générer un aperçu
+link-preview-onboarding-description-long-press = Affichez une courte description, la durée de lecture, etc. pour décider si le lien vaut la peine d’être ouvert. Également disponible avec un clic droit.
+link-preview-key-points-header = Points clés
+link-preview-key-points-disclaimer = Les points clés sont générés par l’IA et peuvent contenir des erreurs.
+link-preview-setup = Configuration initiale • <strong>{ $progress } %</strong>
+link-preview-setup-faster-next-time = Les points clés seront affichés plus rapidement la prochaine fois.
+link-preview-onboarding-button = Voir un aperçu
+link-preview-onboarding-close = Fermer
+link-preview-first-time-setup-title = Configuration initiale
+link-preview-first-time-setup-message = Cela peut prendre un moment. Les points clés s’afficheront plus rapidement la prochaine fois.

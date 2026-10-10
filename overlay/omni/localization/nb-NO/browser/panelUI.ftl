@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Fjern fra overflytsmenyen
+    .accesskey = e
+customize-menu-add-to-toolbar =
+    .label = Legg til i verktøylinje
+    .accesskey = L
+customize-menu-add-to-overflowmenu =
+    .label = Legg til i overflytsmenyen
+    .accesskey = m
+panic-button-thankyou-msg1 = Nylig nettleserhistorikk er slettet.
+panic-button-thankyou-msg2 = Trygg nettlesing!
+panic-button-thankyou-button =
+    .label = Takk!

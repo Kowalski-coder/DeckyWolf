@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = ¡Afayáivos, humanos!
+error-short-desc-text = ¡Venimos a visitavos en paz y con bona voluntá!
+error-long-desc1 = Los robós nun puen firir a humanos o, pente inaición, permitir qu'estos últimos se manquen.
+error-long-desc2 = Los robós vimos coses que la xente nun sedría a creyer.
+error-long-desc3 = Los robós son collacios de plásticu colos que lo pasar podre.
+error-long-desc4 = Los robós tienen culeres de metal brillante que nun habríen mordese.
+error-trailer-desc-text = Y tienen un plan.
+error-try-again = Retentar
+    .label2 = Nun vuelvas primir esti botón, por favor.

@@ -1,0 +1,12 @@
+whypaused-debugger-statement = מושהה על משפט מנפה שגיאות
+whypaused-breakpoint = השהיה על נקודת עצירה
+whypaused-exception = השהיה על חריגה
+whypaused-mutation-breakpoint-added = נוסף:
+whypaused-mutation-breakpoint-removed = הוסר:
+whypaused-resume-limit = מושהה במהלך מעבר על צעדים
+whypaused-pause-on-dom-events = השהיה על האזנה לאירועים
+whypaused-breakpoint-condition-thrown = שגיאה עם נקודת עצירה מותנית
+whypaused-promise-rejection = מושהה עקב הבטחה דחויה
+whypaused-assert = מושהה במהלך הקצאה
+whypaused-debug-command = מושהה על פונקציה במהלך ניפוי שגיאות
+whypaused-other = מנפה שגיאות מושהה

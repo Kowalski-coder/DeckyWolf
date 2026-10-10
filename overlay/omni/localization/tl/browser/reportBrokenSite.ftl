@@ -1,0 +1,17 @@
+report-broken-site-mainview-title = Mag-ulat ng sirang site
+report-broken-site-panel-header =
+    .label = Mag-ulat ng sirang site
+    .title = Mag-ulat ng sirang site
+report-broken-site-panel-reason-other-moz-box-button =
+    .label = Iba pa
+report-broken-site-panel-send-more-info-button =
+    .label = Magpadala ng karagdagang impormasyon
+report-broken-site-panel-button-cancel =
+    .label = Ikansela
+report-broken-site-panel-button-okay =
+    .label = Ok
+report-broken-site-panel-report-sent-label = Naipadala na ang iyong ulat
+report-broken-site-panel-report-sent-header =
+    .label = Naipadala na ang iyong ulat
+    .title = Naipadala na ang iyong ulat
+report-broken-site-panel-invalid-url-label = Maglagay ng isang wastong URL.

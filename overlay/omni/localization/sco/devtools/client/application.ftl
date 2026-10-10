@@ -1,0 +1,10 @@
+serviceworker-worker-inspect-icon =
+    .alt = Luik-ower
+serviceworker-worker-start3 = Stert
+serviceworker-worker-updated = Updatit <time>{ DATETIME($date, day: "numeric", hour: "numeric", minute: "numeric", month: "long", second: "numeric", year: "numeric") }</time>
+serviceworker-worker-status-running = Rinnin
+serviceworker-empty-intro-link = Lairn mair
+manifest-item-icons = Icons
+manifest-loaded-devtools-error = Firefox DevTools mishanter
+manifest-icon-img =
+    .alt = Icon

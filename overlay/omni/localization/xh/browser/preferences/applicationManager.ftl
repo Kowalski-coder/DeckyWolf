@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Iinkcukacha ze-aplikheshini
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Susa
+    .accesskey = S
+app-manager-handle-protocol = Ezi aplikheshini zilandelayo zingasetyenziswa ukusingatha i-{ $type } iilinki.
+app-manager-handle-file = Ezi aplikheshini zilandelayo zingasetyenziswa ukusingatha i-{ $type } isiqulatho.
+app-manager-web-app-info = Le aplikheshini yewebhu igcinwe kwi:
+app-manager-local-app-info = Le aplikheshini ifakwe kwi:

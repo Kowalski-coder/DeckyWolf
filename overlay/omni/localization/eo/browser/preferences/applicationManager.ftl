@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detaloj de programo
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Forigi
+    .accesskey = F
+app-manager-handle-protocol = La jenaj programoj povas esti uzitaj por pritrakti { $type } ligiloj.
+app-manager-handle-file = La jenaj programoj povas esti uzitaj por pritrakti { $type } enhavo.
+app-manager-web-app-info = Tiu ĉi TTTa programo estas konservita ĉe:
+app-manager-local-app-info = Tiu ĉi programo estas konservita ĉe:

@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Kōnsek tyj strōny mo awaryjo.</strong>. Poślij raport, coby { -brand-product-name } sie ô tym przewiedzioł i pryndzyj to naprawiōł.
+crashed-subframe-title =
+    .title = Kōnsek tyj strōny mo awaryjo. Poślij raport, coby { -brand-product-name } sie ô tym przewiedzioł i pryndzyj to naprawiōł.
+crashed-subframe-learnmore-link =
+    .value = Przewiydz sie wiyncyj
+crashed-subframe-submit =
+    .label = Poślij rapaort
+    .accesskey = R
+pending-crash-reports-view-all =
+    .label = Pokoż
+pending-crash-reports-send =
+    .label = Poślij
+pending-crash-reports-always-send =
+    .label = Zawdy posyłej

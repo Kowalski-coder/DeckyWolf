@@ -1,0 +1,39 @@
+privatebrowsingpage-open-private-window-label = Vierç un barcon privât
+    .accesskey = p
+about-private-browsing-search-placeholder = Cîr tal web
+about-private-browsing-search-btn =
+    .title = Cîr tal web
+about-private-browsing-handoff =
+    .title = Cîr cun { $engine } o inserìs une direzion
+about-private-browsing-handoff-no-engine =
+    .title = Cîr o inserìs une direzion
+about-private-browsing-handoff-text = Cîr cun { $engine } o inserìs une direzion
+about-private-browsing-handoff-text-no-engine = Cîr o inserìs une direzion
+about-private-browsing-not-private = In chest moment no tu sês intun barcon privât.
+about-private-browsing-hide-activity = Plate la tô posizion e lis tôs ativitâts in rêt, dapardut là che tu navighis
+about-private-browsing-get-privacy = Protêç la tô riservatece dapardut là che tu navighis
+about-private-browsing-hide-activity-1 = Plate la ativitât di navigazion e la posizion cun { -mozilla-vpn-brand-name }. Un clic al cree une conession sigure, ancje su Wi-Fi public.
+about-private-browsing-prominent-cta = Reste riservât cun { -mozilla-vpn-brand-name }
+about-private-browsing-search-banner-title = { $engineName } al è il to motôr di ricercje predefinît tai barcons privâts
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] Par selezionâ un motôr di ricercje diferent va tes <a data-l10n-name="link-options">Opzions</a>
+       *[other] Par selezionâ un motôr di ricercje diferent va tes <a data-l10n-name="link-options">Preferencis</a>
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = Siere
+about-private-browsing-promo-close-button =
+    .title = Siere
+about-private-browsing-pin-promo-header = La libertât de navigazion privade intun clic
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+        [macos] Ten tal Dock
+       *[other] Fisse te sbare des aplicazions
+    }
+about-private-browsing-pin-promo-title = Nissun cookie o cronologjie salvâts, dret dal to scritori. Navighe come se nissun ti stes cjalant.
+about-private-browsing-felt-privacy-v1-info-header = No sta lassâ segns su chest dispositîf
+about-private-browsing-felt-privacy-v1-info-body = { -brand-short-name } al elimine i cookies, la cronologjie e i dâts dai sîts cuant che tu sieris ducj i barcons privâts.
+about-private-browsing-felt-privacy-v1-info-link = Cui podaressial viodi la mê ativitât?
+about-private-browsing-nova-info-header = La tô navigazion no vignarà salvade
+about-private-browsing-nova-info-body = Cuant che tu sieris ducj i barcons privâts a vegnin eliminâts i cookies, la cronologjie e i dâts dal sît.
+about-private-browsing-nova-info-link = Cui podaraial viodi in ogni câs la mê ativitât?

@@ -1,0 +1,16 @@
+backup-file-name = { -brand-product-name } بیک اپ
+settings-data-backup-last-backup-location-show-in-folder = فولڈر وِچ ݙکھاؤ
+settings-data-backup-last-backup-location-edit = تدوین کرو …
+enable-backup-encryption-support-link = ٻیا سِکھو
+enable-backup-encryption-create-password-label = پاس ورڈ
+password-rules-a11y-success =
+    .alt = کامیابی
+password-rules-a11y-warning =
+    .alt = چتاوݨی
+backup-file-encryption-state-label = انکرپٹ تھئی:
+backup-file-encryption-state-value-encrypted = جیا
+backup-file-encryption-state-value-not-encrypted = کو
+backup-file-creation-device-label = آلہ:
+backup-file-creation-date-label = بݨیا:
+backup-file-creation-date-value = { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+backup-file-download-moz-browser-button = ڈاؤن لوڈ

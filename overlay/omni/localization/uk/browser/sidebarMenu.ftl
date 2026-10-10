@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Закладки
+sidebar-menu-bookmarks-2 = Закладки
+sidebar-menu-history =
+    .label = Історія
+sidebar-menu-synced-tabs =
+    .label = Синхронізовані вкладки
+sidebar-menu-close =
+    .label = Закрити бічну панель
+sidebar-close-button =
+    .tooltiptext = Закрити бічну панель

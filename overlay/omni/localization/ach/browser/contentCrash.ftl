@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>But potbuk man opoto woko.</strong> Me weko { -brand-product-name } onge pi peko man dok wek oyub woko pi oyotoyot, tim ber i cwal ripot.
+crashed-subframe-title =
+    .title = But potbuk man opoto woko. Me weko { -brand-product-name } onge pi peko man dok wek oyub woko pi oyotoyot, tim ber i cwal ripot.
+crashed-subframe-learnmore-link =
+    .value = Nong ngec mapol
+crashed-subframe-submit =
+    .label = Cwal ripot
+    .accesskey = C
+pending-crash-reports-view-all =
+    .label = Nen
+pending-crash-reports-send =
+    .label = Cwal
+pending-crash-reports-always-send =
+    .label = Jwijwi cwal

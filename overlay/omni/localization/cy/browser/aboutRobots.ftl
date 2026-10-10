@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Croeso Ddynionach!
+error-short-desc-text = Rydym wedi dod i'ch cyfarfod mewn heddwch ac ewyllys da!
+error-long-desc1 = Nid yw robotiaid yn cael anafu dynion neu drwy ddiffyg gweithredu gadel iddynt gael eu niweidio.
+error-long-desc2 = Mae robotiaid wedi gweld pethau fyddwch chi ddim yn ei gredu.
+error-long-desc3 = Robot yw dy Ffrind Plastig sy'n Hwyl a Sbort.
+error-long-desc4 = Mae gan robotiaid rhan ôl metel disglair na ddylid ei gnoi.
+error-trailer-desc-text = Ac mae ganddyn nhw gynllun.
+error-try-again = Ceisiwch eto
+    .label2 = Paid pwyso'r botwm yma eto.

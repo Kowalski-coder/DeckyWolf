@@ -1,0 +1,61 @@
+fxa-toolbar-sync-syncing2 = กำลังซิงค์…
+sync-disconnect-dialog-title2 = ตัดการเชื่อมต่อหรือไม่
+sync-disconnect-dialog-body = { -brand-product-name } จะหยุดการซิงค์บัญชีของคุณ แต่จะไม่ลบข้อมูลการเรียกดูใด ๆ ของคุณบนอุปกรณ์นี้
+sync-disconnect-dialog-button = ตัดการเชื่อมต่อ
+fxa-signout-dialog-title2 = ออกจากระบบบัญชีของคุณหรือไม่?
+fxa-signout-dialog-body = ข้อมูลที่ซิงค์จะยังคงอยู่ในบัญชีของคุณ
+fxa-signout-dialog2-button = ลงชื่อออก
+fxa-signout-dialog2-checkbox = ลบข้อมูลจากอุปกรณ์นี้ (รหัสผ่าน ประวัติ ที่คั่นหน้า ฯลฯ)
+fxa-menu-sync-settings =
+    .label = การตั้งค่า Sync
+fxa-menu-turn-on-sync =
+    .value = เปิดใช้ Sync
+fxa-menu-turn-on-sync-default = เปิดใช้ Sync
+fxa-menu-connect-another-device =
+    .label = เชื่อมต่ออุปกรณ์อื่น…
+fxa-menu-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] ส่งไปยังอุปกรณ์
+           *[other] ส่ง { $tabCount } แท็บไปยังอุปกรณ์
+        }
+fxa-menu-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] ส่งไปยังมือถือ
+           *[other] ส่ง { $tabCount } แท็บไปยังมือถือ
+        }
+fxa-menu-send-to-mobile-sign-in = ลงชื่อเข้าเพื่อส่งแท็บ
+fxa-menu-send-to-mobile-turn-on-sync = เปิดการซิงค์เพื่อส่งแท็บ
+fxa-menu-send-to-mobile-connect-device = เชื่อมต่อกับอุปกรณ์เพื่อส่งแท็บ
+fxa-menu-send-to-mobile-device-missing2 = ไม่เห็นอุปกรณ์ของคุณ?
+fxviewtabrow-send-to-mobile-not-verified = บัญชีไม่ได้รับการยืนยัน
+fxviewtabrow-send-to-mobile-verify-account = ยืนยันบัญชีของคุณ
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = กำลังซิงค์อุปกรณ์…
+fxa-menu-send-tab-to-device-description = ส่งแท็บทันทีไปยังอุปกรณ์ใด ๆ ที่คุณลงชื่อเข้าใช้
+fxa-menu-sign-out =
+    .label = ลงชื่อออก…
+fxa-menu-sync-description = เข้าถึงเว็บของคุณได้ทุกที่
+fxa-avatar-sign-in = ลงชื่อเข้า
+fxa-avatar-sign-up = ลงทะเบียน
+fxa-avatar-tooltip =
+    .tooltiptext = ลงชื่อเข้าบัญชีของคุณ
+sync-setup-verify-continue = ดำเนินการต่อ
+sync-setup-verify-title = คำเตือนการผสาน
+sync-setup-verify-heading = คุณแน่ใจหรือไม่ว่าต้องการลงชื่อเข้า Sync?
+sync-setup-verify-description = ผู้ใช้ที่ต่างกันได้ลงชื่อเข้า Sync ก่อนหน้านี้บนคอมพิวเตอร์นี้ การลงชื่อเข้าจะผสานที่คั่นหน้า รหัสผ่าน และการตั้งค่าอื่น ๆ ของเบราว์เซอร์นี้กับ { $email }
+sync-profile-different-account-title = ถึงขีดจำกัดบัญชีสำหรับโปรไฟล์นี้แล้ว
+sync-profile-different-account-header = โปรไฟล์นี้ถูกซิงค์กับบัญชีอื่นก่อนหน้านี้
+sync-profile-different-account-description = เพื่อให้ข้อมูลของคุณเป็นระเบียบและปลอดภัย โปรไฟล์ { -brand-product-name } แต่ละโปรไฟล์สามารถซิงค์กับบัญชีได้เพียงบัญชีเดียวเท่านั้น ถ้าต้องการลงชื่อเข้าโดยใช้ { $acctEmail } ให้สร้างโปรไฟล์ใหม่
+sync-profile-different-account-title-merge = โปรไฟล์ถูกซิงค์กับบัญชีอื่น
+sync-profile-different-account-description-merge = เพื่อให้ข้อมูลของคุณเป็นระเบียบและปลอดภัย เราขอแนะนำให้สร้างโปรไฟล์ใหม่เพื่อลงชื่อเข้าโดยใช้ { $acctEmail } ถ้าคุณเลือกที่จะซิงค์ข้อมูลในโปรไฟล์นี้ต่อไป ข้อมูลจากทั้งสองบัญชีจะถูกผสานรวมเข้ากับ “{ $profileName }” อย่างถาวร
+sync-account-in-use-header = บัญชีถูกใช้ไปแล้ว
+sync-account-in-use-header-merge = { $acctEmail } ได้ลงชื่อเข้าโปรไฟล์ “{ $otherProfile }” ไปแล้ว
+sync-account-in-use-description = คุณสามารถเชื่อมโยงบัญชีนี้กับโปรไฟล์ได้เพียงโปรไฟล์เดียวเท่านั้นบนคอมพิวเตอร์เครื่องนี้
+sync-account-already-signed-in-header = บัญชีนี้ลงชื่อเข้าในโปรไฟล์อื่นแล้ว ต้องการซิงค์ทั้งสองโปรไฟล์หรือไม่?
+sync-account-in-use-description-merge = { $acctEmail } ได้ลงชื่อเข้าโปรไฟล์ “{ $otherProfile }” บนคอมพิวเตอร์เครื่องนี้ การซิงค์โปรไฟล์ “{ $currentProfile }” จะรวมข้อมูลจากทั้งสองโปรไฟล์อย่างถาวร เช่น รหัสผ่านและที่คั่นหน้า
+sync-button-switch-profile = สลับไปยัง “{ $profileName }”
+sync-button-create-profile = สร้างโปรไฟล์ใหม่
+sync-button-sync-and-merge = ซิงค์และผสานข้อมูล
+sync-button-sync-profile = ซิงค์ “{ $profileName }”

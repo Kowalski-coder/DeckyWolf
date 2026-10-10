@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Desanclar del menú de desbordamiento
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Agregar a la barra de herramientas
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Añadir al menú de desbordamiento
+    .accesskey = M
+panic-button-thankyou-msg1 = Se borró el historial reciente.
+panic-button-thankyou-msg2 = ¡Navega con cuidado!
+panic-button-thankyou-button =
+    .label = ¡Gracias!

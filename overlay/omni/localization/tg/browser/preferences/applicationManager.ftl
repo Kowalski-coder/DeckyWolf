@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Тафсилоти барнома
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Тоза кардан
+    .accesskey = Т
+app-manager-handle-protocol = Барномаҳои зерин метавонанд барои кор бо пайвандҳои { $type } истифода шаванд.
+app-manager-handle-file = Барномаҳои зерин метавонанд барои кор бо муҳтавои { $type } истифода шаванд.
+app-manager-web-app-info = Ин барномаи веб дар нишонии зерин ҷойгир шудааст:
+app-manager-local-app-info = Ин барномаи веб дар нишонии зерин ҷойгир шудааст:

@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Ôdewrzić aplikacyjo { -brand-short-name } we trybie rozwiōnzowanioo problymōw?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Ôdewrzij
+refresh-profile =
+    .label = Ôdświyż aplikacyjo { -brand-short-name }
+troubleshoot-mode-description = Użyj trybu aplikacyje { -brand-short-name }, co je ekstra do poznowanio problymōw. Rozszyrzynia i włosne sztalōnki bydōm czasowo zastawiōne.
+skip-troubleshoot-refresh-profile = Możesz tyż przeskoczyć rozwiōnzowanie problymōw i sprōbować resztartnōnć aplikacyjo { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } niyspodzianie sie zawar przi sztarcie. Może to być skuli jakigo rozszyrzynio abo inkszego problymu. Możesz sprōbować poznać i rozwiōnzać tyn problym we awaryjnym trybie.

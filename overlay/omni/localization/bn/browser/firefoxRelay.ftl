@@ -1,0 +1,11 @@
+firefox-relay-mask-generation-failed = { -relay-brand-name } একটি নতুন মুখোশ তৈরি করতে পারেনি৷ HTTP ত্রুটি কোড: { $status }।
+firefox-relay-get-reusable-masks-failed = { -relay-brand-name } পুনরায় ব্যবহারযোগ্য মুখোশ খুঁজে পায়নি৷ HTTP ত্রুটি কোড: { $status }।
+firefox-relay-get-unlimited-masks =
+    .label = মুখোশ পরিচালনা করুন
+    .accesskey = M
+firefox-relay-opt-in-confirmation-disable =
+    .label = আমাকে এটা আবার দেখাবেন না
+    .accesskey = D
+firefox-relay-opt-in-confirmation-postpone =
+    .label = এখন নয়
+    .accesskey = N

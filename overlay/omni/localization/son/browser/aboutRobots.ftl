@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Kubay war addamayzey!
+error-short-desc-text = Ir kaa nda alaafiya nda anniya henna!
+error-long-desc1 = Guuruborey ši hima ka addamayze woo, wala nga goy jaŋaa ra, ka too addamayze foo ma maray.
+error-long-desc2 = Guuruborey dii hayey kaŋ borey ši hin k'i miile.
+error-long-desc3 = Guuruborey ti war kawšin yaahey kaŋ nda war ga hin ka hooray.
+error-long-desc4 = Guuruborey goo nda guuru koreyaŋ kaŋ ši hima ka ɲamandi.
+error-trailer-desc-text = Nda i goo nda anniya.
+error-try-again = Ceeci koyne
+    .label2 = Taare wa ši butoŋoo woo naagu koyne.

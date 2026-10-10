@@ -1,0 +1,201 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = הפעלת VPN
+    .tooltiptext = הפעלת VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = פתיחת דף התמיכה של VPN
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = השקנו VPN, עכשיו ממש בדפדפן שלך
+ipprotection-feature-introduction-title-1 = לנסות את ה־VPN המובנה של { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = ניתן להשתמש ב־<a data-l10n-name="learn-more-vpn">VPN המובנה</a> החדש שלנו כדי להסתיר את המיקום שלך ולהגן על הנתונים שלך.
+ipprotection-feature-introduction-title-privacy = הוספת שכבה נוספת של פרטיות
+ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">ה־VPN המובנה של { -brand-product-name }</a> מסייע להגן על הגלישה שלך. ניתן לבחור מבין מספר מיקומים כדי לשמור על פרטיות המיקום שממנו מתבצעת הגלישה.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">ה־VPN המובנה של { -brand-product-name }</a> מסייע להגן על הגלישה שלך. ניתן לבחור מבין מספר מיקומים כדי לשמור על פרטיות המיקום שממנו מתבצעת הגלישה.
+ipprotection-feature-introduction-link-text-privacy-3 = ניתן לקבל <a data-l10n-name="learn-more-vpn">פרטיות מוגברת</a> על־ידי בחירה מבין מספר מיקומים להסתרת המקום שממנו מתבצעת הגלישה.
+ipprotection-feature-introduction-text-summer-promo-1 = ניתן להפעיל אותו כדי לגלוש בפרטיות רבה יותר. <a data-l10n-name="summer-promo-link">קבלו רוחב פס בלתי מוגבל</a> ויותר מיקומים לגלישה מהם. מעכשיו ועד 31 באוגוסט.
+ipprotection-feature-introduction-title-summer-promo = מתכננים לטייל? קחו את הפרטיות שלכם איתכם.
+ipprotection-summer-promo-offramp-generic-title = מגבלות ה־VPN המובנה שלך יתאפסו ב־1 בספטמבר
+ipprotection-summer-promo-offramp-generic-description = אפשר להשתמש בעד { $maxUsage } ג״ב וב־6 מיקומים כדי לשפר את הפרטיות ולהקשות על התחקות פעילות הגלישה שלך אליך.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = אפשר להשתמש בעד { $maxUsage } ג״ב ובלמעלה מ־20 מיקומים כדי לשפר את הפרטיות ולהקשות על התחקות פעילות הגלישה שלך אליך.
+ipprotection-summer-promo-offramp-subscriber-title = ה־VPN המובנה שלך עכשיו משופר יותר
+ipprotection-summer-promo-offramp-subscriber-description = כעת ניתן לקבל רוחב פס בלתי מוגבל ויותר מיקומים כמינוי של { -mozilla-vpn-brand-name }.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = שמירה על מיקומי ה־VPN המובנה הנוספים שלך
+ipprotection-summer-promo-offramp-default-browser-incentive-description = כדאי להפוך את { -brand-product-name } לדפדפן ברירת המחדל שלך ולקבל למעלה מ־20 מיקומים נוספים לגלוש מהם לאחר ה־31 באוגוסט.
+ipprotection-summer-promo-offramp-subscription-upsell-title = לעלות רמה עם { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-subscription-upsell-description = ניתן לשמור על רוחב פס בלתי מוגבל לאחר ה־31 באוגוסט, עם למעלה מ־300 מיקומים ב־5 מכשירים כדי להקשות על התחקות הגלישה שלך אליך.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = פתיחת VPN
+ipprotection-summer-promo-offramp-set-to-default-primary-button = הגדרה כברירת מחדל
+ipprotection-summer-promo-offramp-get-subscription-button = קבלת { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-dismiss-secondary-button = סגירה
+ipprotection-feature-introduction-link-text-private-browsing-2 = ניתן להשתמש ב־<a data-l10n-name="learn-more-vpn">VPN המובנה</a> החדש שלנו כדי להסתיר את המיקום שלך ולהגן על הנתונים שלך, אפילו כשנמצאים בחלון פרטי.
+ipprotection-feature-introduction-description-private-browsing = גלישה עם הגנה נוספת על־ידי הסתרת המיקום שלך, גם כשנמצאים בחלון פרטי.
+ipprotection-feature-introduction-title-captive-portal = התחברת ל־Wi-Fi ציבורי? ניתן לנסות את ה־VPN המובנה של { -brand-product-name }.
+ipprotection-feature-introduction-description-captive-portal = גלישה עם הגנה נוספת על־ידי הסתרת המיקום שלך, גם כשמחוברים ל־Wi-Fi ציבורי.
+ipprotection-feature-introduction-link-text-captive-portal-1 = ניתן לקבל <a data-l10n-name="learn-more-vpn">פרטיות מוגברת</a> על־ידי בחירה מבין מספר מיקומים להסתרת המקום שממנו מתבצעת הגלישה.
+ipprotection-feature-introduction-button-primary = הבא
+ipprotection-feature-introduction-button-secondary-not-now = לא כעת
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = לא כעת
+ipprotection-feature-introduction-button-secondary-no-thanks = לא תודה
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = לא תודה
+ipprotection-feature-introduction-button-secondary-remove = הסרת VPN מסרגל הכלים
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = הסרת VPN מסרגל הכלים
+ipprotection-feature-introduction-button-open-vpn = פתיחת VPN
+ipprotection-feature-introduction-button-get-started = תחילת עבודה
+ipprotection-site-settings-callout-title = בחירה באתרים שבהם יש להשתמש ב־VPN
+ipprotection-site-settings-callout-subtitle = ניתן לכבות את ה־VPN עבור אתר ספציפי, ונזכור זאת בביקור הבא.
+ipprotection-site-settings-callout-button = הבנתי
+ipprotection-location-selection-callout-title = חדש: שינוי המיקום שלך
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">ה־VPN המובנה של { -brand-product-name }</a> מאפשר לך לבחור מבין מספר מיקומי גלישה, או מאפשר לנו לבחור את המהיר ביותר עבורך.
+ipprotection-location-selection-callout-primary-button = בואו ננסה
+ipprotection-location-selection-callout-secondary-button = סגירה
+ipprotection-android-promo-callout-title = לקחת איתך VPN מובנה ב־Android
+ipprotection-android-promo-callout-description = יש לסרוק את קוד ה־QR כדי לקבל את { -brand-product-name } ל־Android ולהפעיל את ה־VPN המובנה לפרטיות רבה יותר בכל מקום. בקרוב גם ב־iOS.
+ipprotection-android-promo-callout-primary-button = הבנתי
+unauthenticated-vpn-title = לנסות את ה־VPN המובנה של { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">הסתרת המיקום שלך</a> בזמן גלישה ב־{ -brand-product-name }.
+unauthenticated-private-location-message = מסייע <a data-l10n-name="learn-more-vpn">לשמור על פרטיות המיקום שלך</a> ב־{ -brand-product-name }.
+unauthenticated-choose-location-message-1 = ניתן לבחור מבין מספר מיקומים או לתת ל־{ -brand-product-name } לבחור את המהיר ביותר.
+unauthenticated-site-rules-message = שליטה על אילו אתרים משתמשים ב־VPN ואילו לא.
+unauthenticated-get-started = תחילת עבודה
+unauthenticated-terms-of-service-privacy-notice = בחירה בהמשך התהליך מהווה הסכמה ל<a data-l10n-name="vpn-terms-of-service">תנאי השירות</a> ול<a data-l10n-name="vpn-privacy-notice">הצהרת הפרטיות</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = ה־VPN פעיל עבור אתר זה
+    .label = שימוש ב־VPN עבור אתר זה
+site-exclusion-toggle-disabled-1 =
+    .aria-label = ה־VPN כבוי עבור אתר זה
+    .label = שימוש ב־VPN עבור אתר זה
+site-exclusion-toggle-description = האתר לא עובד? ניתן לנסות לכבות את ה־VPN.
+site-rules-manage-rules-link-text = ניהול כללים של VPN
+site-rules-status-heading = הכלל שלך
+site-rules-description-exclusion = ה־VPN כבוי עבור אתר זה
+site-rules-description-inclusion = ה־VPN פעיל עבור אתר זה
+ipprotection-settings-link =
+    .label = הגדרות
+ipprotection-connection-status-connected-1 = ה־VPN פועל
+    .aria-label = ה־VPN פועל
+ipprotection-connection-status-disconnected-1 = ה־VPN כבוי
+    .aria-label = ה־VPN כבוי
+ipprotection-connection-status-excluded-1 = ה־VPN כבוי עבור אתר זה
+    .aria-label = ה־VPN כבוי עבור אתר זה
+ipprotection-connection-status-connecting-1 = ה־VPN מתחבר…
+    .aria-label = ה־VPN מתחבר…
+ipprotection-button-turn-vpn-off = כיבוי VPN
+ipprotection-button-turn-vpn-off-excluded-site = כיבוי VPN בכל מקום
+ipprotection-button-turn-vpn-on = הפעלת VPN
+ipprotection-button-connecting = בתהליך הפעלה…
+ipprotection-recommended-location-button = מיקום: מומלץ
+ipprotection-recommended-location-description = ‏{ -brand-product-name } מוצא את המיקום המהיר ביותר
+ipprotection-recommended-location-badge = חדש
+ipprotection-location-country-button = מיקום: { $country }
+ipprotection-locations-subview =
+    .title = בחירת מיקום
+ipprotection-locations-subview-description = בחירת מיקום שונה לגלישה ממנו.
+ipprotecion-locations-subview-recommended-label = מומלץ
+ipprotection-locations-subview-recommended-description = מוצא את המיקום המהיר ביותר
+ipprotection-locations-unavailable-label-1 = לא זמין
+    .aria-label = לא זמין, מושבת
+ipprotection-locations-subview-promo =
+    .heading = לקחת את ההגנה צעד קדימה עם { -mozilla-vpn-brand-name }
+    .message = בחירה מבין למעלה מ־300 מיקומים והגנה על כל היישומים שלך על עד 5 מכשירים.
+ipprotection-locations-subview-promo-button = קבלת { -mozilla-vpn-brand-name }
+ipprotection-connection-status-paused-title-2 = ה־VPN מושהה
+    .aria-label = ה־VPN מושהה
+ipprotection-connection-status-paused-description-1 = השתמשת בכל { $maxUsage } ג״ב של נתוני ה־VPN שלך. הגישה תתאפס בחודש הבא.
+upgrade-vpn-title = קבלת הגנה נוספת מעבר לדפדפן
+upgrade-vpn-description = ניתן לבחור את מיקום ה־VPN שלך, להשתמש ב־VPN עבור כל היישומים שלך ועד 5 מכשירים, ולהישאר מאובטח בכל רשת - בבית או ב־Wi-Fi ציבורי.
+upgrade-vpn-button = לנסות את { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = לא ניתן היה להתחבר ל־VPN
+    .aria-label = לא ניתן היה להתחבר ל־VPN
+ipprotection-connection-status-generic-error-description = נא לנסות שוב בעוד מספר דקות.
+ipprotection-connection-status-generic-error-try-again = נא לנסות שוב מאוחר יותר.
+ipprotection-connection-status-network-error-title-1 = יש לבדוק את חיבור האינטרנט שלך
+    .aria-label = יש לבדוק את חיבור האינטרנט שלך
+ipprotection-connection-status-network-error-description = יש התחבר לאינטרנט, ולאחר מכן לנסות להפעיל את ה־VPN.
+ipprotection-connection-status-blocked-error-title-1 = ה־VPN אינו זמין
+    .aria-label = ה־VPN אינו זמין
+ipprotection-connection-status-blocked-error-description-1 = חוקים ומגבלות מקומיים מגבילים את המיקומים בהם ניתן להשתמש ב־VPN. <a data-l10n-name="learn-more-link">מידע נוסף</a>
+ipprotection-message-bandwidth-warning =
+    .heading = הגעת כמעט למגבלת ה־VPN שלך
+    .message = נותרו לך { $usageLeft } ג״ב מתוך { $maxUsage } ג״ב החודש.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = הגעת כמעט למגבלת ה־VPN שלך
+    .message = נותרו לך { $usageLeft } מ״ב מתוך { $maxUsage } ג״ב החודש.
+ipprotection-message-continuous-onboarding-intro = ניתן להפעיל VPN כדי להסתיר את המיקום שלך ולהוסיף הצפנה נוספת לגלישה שלך.
+ipprotection-message-continuous-onboarding-autostart = ניתן <a data-l10n-name="setting-link">להגדיר שה־VPN יופעל</a> בכל פעם ש־{ -brand-short-name } נפתח, לקבלת שכבת הגנה נוספת.
+ipprotection-message-continuous-onboarding-site-settings = ‏{ -brand-short-name } יזכור באילו אתרים הגדרת להשתמש ב־VPN. ניתן לעדכן אותם ב<a data-l10n-name="setting-link">הגדרות</a> בכל עת.
+confirmation-hint-ipprotection-navigated-to-excluded-site = ה־VPN כבוי עבור אתר זה
+ipprotection-open-button = פתיחת { -brand-product-name }
+ipprotection-come-back-title = חזרה לנסות את ה־VPN המובנה
+ipprotection-message-body-hide-location = ניתן להסתיר את המיקום שלך בזמן גלישה ב־{ -brand-product-name } לקבלת פרטיות ושליטה רבה יותר.
+ipprotection-bandwidth-upgrade-title = אהבת את ה־VPN המובנה? ניתן לקבל אפילו עוד יותר הגנה מחוץ ל־{ -brand-product-name } באמצעות { -mozilla-vpn-brand-name }.
+ipprotection-bandwidth-upgrade-text = ניתן לבחור מיקום VPN ולהוסיף הגנה לכל היישומים שלך על עד 5 מכשירים, בין אם הינך בבית או ברשת Wi-Fi ציבורית.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>הגעת כמעט למגבלת ה־VPN שלך.</strong> נותרו לך { $usageLeft } ג״ב. הנתונים שלך יתאפסו בתחילת החודש הבא.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>כמעט נגמרו לך נתוני VPN הניתנים לשימוש.</strong> נותרו לך { $usageLeft } ג״ב. לאחר שכל הנתונים ינוצלו, ה־VPN שלך יושהה עד שהנתונים שלך יתאפסו בתחילת החודש הבא.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>כמעט נגמרו לך נתוני VPN הניתנים לשימוש.</strong> נותרו לך { $usageLeft } מ״ב. לאחר שכל הנתונים ינוצלו, ה־VPN שלך יושהה עד שהנתונים שלך יתאפסו בתחילת החודש הבא.
+ip-protection-description =
+    .description = ‏VPN מובנה כדי לשפר את הפרטיות שלך בזמן הגלישה ב־{ -brand-short-name }.
+    .label = VPN
+ip-protection-description-1 =
+    .description = קבלת פרטיות מוגברת על־ידי הסתרת המיקום שלך תוך כדי גלישה.
+    .label = ‏VPN מובנה
+ip-protection-learn-more = מידע נוסף
+ip-protection-not-opted-in-4 =
+    .heading = נסו את ה־VPN המובנה של { -brand-short-name }
+    .message = גלישה עם הגנה נוספת על־ידי הסתרת המיקום שלך
+ip-protection-not-opted-in-button = תחילת עבודה
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] אתר אחד
+           *[other] { $count } אתרים
+        }
+    .label = ניהול הגדרות אתרים
+ip-protection-site-rules-header =
+    .heading = ניהול כללים לאתרים
+ip-protection-site-rules-button =
+    .description = הגדרת כללים לאתרים שצריכים פרטיות נוספת, או שצריכים שה־VPN יהיה כבוי.
+    .label = ניהול כללים לאתרים
+ip-protection-autostart =
+    .label = הפעלת VPN באופן אוטומטי
+ip-protection-autostart-checkbox =
+    .label = בעת הפתיחה של { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = בחלונות פרטיים
+ip-protection-vpn-upgrade-link =
+    .description = ניתן לבחור במיקומי VPN מותאמים אישית ולהוסיף הגנה לכל היישומים שלך על עד 5 מכשירים, בין אם הינך בבית או ברשת Wi-Fi ציבורית.
+    .label = ניתן לקבל אפילו עוד יותר הגנה מחוץ ל־{ -brand-short-name } באמצעות { -mozilla-vpn-brand-name }
+ip-protection-vpn-upgrade-link-1 =
+    .description = בחירה מבין למעלה מ־300 מיקומים והגנה על כל היישומים שלך על עד 5 מכשירים.
+    .label = לקחת את ההגנה צעד קדימה עם { -mozilla-vpn-brand-name }
+ip-protection-exceptions-dialog-window =
+    .title = ניהול הגדרות אתרים
+ip-protection-exclusions-desc = יש להשתמש ב־VPN עבור כל האתרים מלבד אלה שברשימה זו. ניתן להוסיף אתרים כאן או על־ידי פתיחת VPN.
+ip-protection-bandwidth-header-1 = מגבלת נתונים חודשית
+ip-protection-bandwidth-left-this-month-gb = נותרו { $usageLeft } ג״ב מתוך { $maxUsage } ג״ב החודש
+ip-protection-bandwidth-left-gb-1 = נותרו <span data-l10n-name="usage">{ $usageLeft } ג״ב</span> מתוך { $maxUsage } ג״ב
+ip-protection-bandwidth-left-this-month-mb = נותרו { $usageLeft } מ״ב מתוך { $maxUsage } ג״ב החודש
+ip-protection-bandwidth-left-mb-1 = נותרו <span data-l10n-name="usage">{ $usageLeft } מ״ב</span> מתוך { $maxUsage } ג״ב
+ip-protection-bandwidth-hit-for-the-month = השתמשת בכל { $maxUsage } ג״ב של נתוני ה־VPN שלך. הגישה תתאפס בחודש הבא.
+ip-protection-bandwidth-help-text = מתאפס ל־{ $maxUsage } ג״ב בתחילת כל חודש.
+ipprotection-bandwidth-reset-title = { $maxUsage } ג״ב של VPN, רעננים ומוכנים לשימוש
+ipprotection-bandwidth-reset-text = ניתן להפעיל VPN לקבלת פרטיות מוגברת, בחינם בכל חודש.
+ipprotection-bandwidth-reset-button = הבנתי
+ipp-activator-breakage-sign-in-warning = <strong>ייתכן שאתר זה לא יעבוד עם VPN.</strong> נא לנסות להתחבר לחשבון באתר או לכבות את ה־VPN בזמן הגלישה באתר זה.
+ipp-activator-breakage-turn-off-warning = <strong>ייתכן שאתר זה לא יעבוד עם VPN.</strong> נא לנסות לכבות את ה־VPN בזמן הגלישה באתר זה.
+vpn-paused-alert-title = ה־VPN הושהה
+vpn-paused-alert-body = השתמשת בכל { $maxUsage } ג״ב של נתוני ה־VPN שלך. הגישה ל־VPN תתאפס בחודש הבא.
+vpn-error-page-paused-description = השתמשת בכל { $maxUsage } ג״ב של נתוני ה־VPN שלך. הגישה תתאפס בחודש הבא.
+vpn-error-page-continue-description = נא לבחור כיצד להמשיך ללא VPN
+vpn-error-page-keep-browsing = המשך גלישה בהפעלה זו
+vpn-error-page-new-session = התחלת הפעלה חדשה
+vpn-paused-alert-close-tabs-button = סגירת כל הלשוניות
+vpn-paused-alert-continue-wo-vpn-button = המשך ללא VPN
+vpn-error-alert-title = ה־VPN לא עובד כרגע.
+vpn-error-alert-body = נא לנסות שוב מאוחר יותר.

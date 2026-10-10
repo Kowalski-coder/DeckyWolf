@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>ایں ورقے دا کجھ حصہ کریش تھی ڳیا ہے۔ </strong>{ -brand-product-name } کوں ایں مسئلے دے بارے وِچ ݙساوݨ تے اینکوں تکھاجی نال حل کرݨ کیتے، براہ کرم ہک رپورٹ جمع کراؤ۔
+crashed-subframe-title =
+    .title = ایں ورقے دا کجھ حصہ کریش تھی ڳیا ہے۔ { -brand-product-name } کوں ایں مسئلے بارے ݙساوݨ تے اونکوں تکھاجی نال حل کرݨ کیتے، براہ کرم ہک رپورٹ جمع کراؤ۔
+crashed-subframe-learnmore-link =
+    .value = ٻیا سِکھو
+crashed-subframe-submit =
+    .label = رپورٹ جمع کرو
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = نظارہ
+pending-crash-reports-send =
+    .label = بھیڄو
+pending-crash-reports-always-send =
+    .label = ہمیشاں بھیڄو

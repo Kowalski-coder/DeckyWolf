@@ -1,0 +1,14 @@
+back = వెనుకకు
+forward = ముందుకు
+reload = తిరిగిలోడు చేయి
+home = ముంగిలి
+fullscreen = నిండు తెర
+find = కనుగొను
+new-tab = కొత్త ట్యాబు
+open-location = వెతకండి లేదా చిరునామా ఇవ్వండి
+share = పంచుకోండి
+close-window = విండోను మూసివేయి
+search-bookmarks = ఇష్టాంశాలు
+search-history = చరిత్ర
+search-opentabs = తెరిచివున్న ట్యాబులు
+search-tags = ట్యాగులు

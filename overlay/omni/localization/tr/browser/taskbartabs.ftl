@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Sekmeyi görev çubuğuna ekle
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Sekmeyi görev çubuğundan kaldır
+taskbar-tab-urlbar-button-show = Web uygulaması sayfa eylemini göster
+taskbar-tab-urlbar-button-hide = Web uygulaması sayfa eylemini gizle
+taskbar-tab-shortcut-description = { $name } Web Uygulaması
+taskbar-tab-shortcut-folder = { -brand-short-name } Web Uygulamaları
+taskbar-tab-audio-mute =
+    .tooltiptext = Sekmenin sesini kapat
+taskbar-tab-audio-unmute =
+    .tooltiptext = Sekmenin sesini aç
+taskbar-tab-title-default = { $name } — { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) — { -brand-full-name }
+taskbar-tab-title-profile = { $name } — { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) — { $profile } — { -brand-full-name }

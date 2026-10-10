@@ -1,0 +1,13 @@
+grid-row-column-positions = Vico { $row }, kolumno { $column }
+gridtype-container = Krada ingo
+gridtype-item = Krada elemento
+gridtype-dual = Krada ingo aŭ elemento
+flextype-container = Ingo flex
+flextype-item = Elemento flex
+flextype-dual = Ingo aŭ elemento flex
+remote-node-picker-notice = Elektilo de nodoj de DevTools aktiva. { $action }
+remote-node-picker-notice-action-desktop = Alklaku elementon por elekti ĝin en la Inspektilo
+remote-node-picker-notice-action-touch = Tuŝetu elementon por elekti ĝin en la Inspektilo
+remote-node-picker-notice-hide-button = Kaŝi
+simple-highlighters-message = Kiam prefers-reduced-motion estas aktiva, simpligita elstarigilo povas esti ŝaltita en la panelo de agordoj, por eviti lumpulsajn kolorojn.
+simple-highlighters-settings-button = Malfermi agordojn

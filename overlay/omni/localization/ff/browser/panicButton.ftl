@@ -1,0 +1,15 @@
+panic-button-open-new-window = Uddit Henorɗe hesere laaɓnde
+panic-button-undo-warning = Ngal baɗal waawaa firteede.
+panic-button-forget-button =
+    .label = Yejjit!
+panic-main-timeframe-desc = Yejjit ko ɓenni e:
+panic-button-5min =
+    .label = Hojomaaji joy
+panic-button-2hr =
+    .label = Waktuuji ɗiɗi
+panic-button-day =
+    .label = Waktuuji 24
+panic-button-action-desc = Nana waɗa yamiroore maa:
+panic-button-delete-cookies = Momtu <strong>Kukiije</strong> Cakkitiiɗe
+panic-button-delete-history = Momtu <strong>Aslol</strong> Cakkitiingol
+panic-button-delete-tabs-and-windows = Uddu <strong>Tabbe</strong> e <strong>Kenorɗe</strong> fof

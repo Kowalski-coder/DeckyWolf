@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Išsegti iš perpildymo meniu
+    .accesskey = I
+customize-menu-add-to-toolbar =
+    .label = Pridėti į priemonių juostą
+    .accesskey = P
+customize-menu-add-to-overflowmenu =
+    .label = Pridėti į perpildymo meniu
+    .accesskey = m
+panic-button-thankyou-msg1 = Paskiausi žurnalo įrašai išvalyti.
+panic-button-thankyou-msg2 = Saugaus naršymo!
+panic-button-thankyou-button =
+    .label = Ačiū!

@@ -1,0 +1,9 @@
+active-policies-tab = Aktief
+errors-tab = Foute
+documentation-tab = Dokumentasie
+active-policies-tab-title =
+    .title = Aktief
+errors-tab-title =
+    .title = Foute
+documentation-tab-title =
+    .title = Dokumentasie

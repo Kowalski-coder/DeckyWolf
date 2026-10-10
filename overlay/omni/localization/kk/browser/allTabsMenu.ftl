@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Барлық беттерден іздеу
+all-tabs-menu-new-user-context =
+    .label = Жаңа контейнерлік бет
+all-tabs-menu-hidden-tabs =
+    .label = Жасырын беттер
+all-tabs-menu-close-duplicate-tabs =
+    .label = Қайталама беттерді жабу
+all-tabs-menu-view-all-tabs =
+    .label = Барлық беттерді қарау
+all-tabs-menu-recent-tab-groups-header = Жуырдағы беттер топтары
+all-tabs-menu-tab-groups-show-all =
+    .label = Барлығын көрсету
+all-tabs-menu-tab-groups-sub-view =
+    .title = Беттер топтары
+all-tabs-menu-current-window-header = Ағымдағы терезе

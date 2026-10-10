@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Eheka opaite tendayképe
+all-tabs-menu-new-user-context =
+    .label = Tendayke pyahu rerekoha
+all-tabs-menu-hidden-tabs =
+    .label = Tendayke kañymby
+all-tabs-menu-close-duplicate-tabs =
+    .label = Emboty tendayke ikõiva
+all-tabs-menu-view-all-tabs =
+    .label = Ehechapaite tendayke
+all-tabs-menu-recent-tab-groups-header = Tendayke aty ramovegua
+all-tabs-menu-tab-groups-show-all =
+    .label = Techaukapaite
+all-tabs-menu-tab-groups-sub-view =
+    .title = Tendayke aty
+all-tabs-menu-current-window-header = Ovetã ag̃agua

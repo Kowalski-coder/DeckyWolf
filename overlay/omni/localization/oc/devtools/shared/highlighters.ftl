@@ -1,0 +1,12 @@
+grid-row-column-positions = Linha { $row } / Colomna { $column }
+gridtype-container = Contenedor grid
+gridtype-item = Element grid
+gridtype-dual = Contenedor / element grid
+flextype-container = Contenedor flex
+flextype-item = Elements flex
+flextype-dual = Contenedor / element flex
+remote-node-picker-notice = Selector d’element de las aisinas de desvolopament activat. { $action }
+remote-node-picker-notice-action-desktop = Clicar un element per lo seleccionar dins l’inspector
+remote-node-picker-notice-action-touch = Quichar sus un element per lo seleccionar dins l’inspector
+remote-node-picker-notice-hide-button = Amagar
+simple-highlighters-settings-button = Dobrir los paramètres

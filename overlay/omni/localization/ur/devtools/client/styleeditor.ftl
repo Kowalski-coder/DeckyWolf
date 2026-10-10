@@ -1,0 +1,34 @@
+styleeditor-new-button =
+    .tooltiptext = دستاویز کاری میں نئی طرز ورق ملائیں اور بنائیں
+    .accesskey = ن
+styleeditor-import-button =
+    .tooltiptext = درآمد اور دستاویز کے لئے ایک موجودہ انداز  شیٹ ملائیں
+    .accesskey = د
+styleeditor-visibility-toggle =
+    .tooltiptext = سٹائل شیٹ کی نمائش تبدیل کریں
+    .accesskey = م
+styleeditor-save-button = محفوظ کریں
+    .tooltiptext = ایک فائل میں اس کے انداز شیٹ محفوظ کریں
+    .accesskey = م
+styleeditor-options-button =
+    .tooltiptext = انداز تدوین کار اختیار
+styleeditor-no-stylesheet = اس صفحے کا کوئی طرز ورق نہیں ہے۔
+styleeditor-no-stylesheet-tip = شاید آپ کو کرنا چاہوں گا<a data-l10n-name="append-new-stylesheet">نیا طرز ورق ملائیں</a>؟
+styleeditor-open-link-new-tab =
+    .label = ربط نئی ٹیب میں کھولیں
+styleeditor-copy-url =
+    .label = URL نقل کریں
+styleeditor-find =
+    .label = ڈھونڈیں
+    .accesskey = ڈ
+styleeditor-find-again =
+    .label = دوبارہ ڈھونڈیں
+    .accesskey = د
+styleeditor-go-to-line =
+    .label = لائن پر جست لگائیں
+    .accesskey = ج
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } مامعل۔
+       *[other] { $ruleCount } مامول۔
+    }

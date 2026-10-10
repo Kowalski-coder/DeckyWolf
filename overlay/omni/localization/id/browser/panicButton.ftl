@@ -1,0 +1,15 @@
+panic-button-open-new-window = Jendela baru akan dibuka
+panic-button-undo-warning = Tindakan ini tidak dapat diurungkan.
+panic-button-forget-button =
+    .label = Lupakan!
+panic-main-timeframe-desc = Lupakan untuk:
+panic-button-5min =
+    .label = lima menit terakhir
+panic-button-2hr =
+    .label = dua jam terakhir
+panic-button-day =
+    .label = 24 jam terakhir
+panic-button-action-desc = Dengan melanjutkan, proses berikut akan dilakukan:
+panic-button-delete-cookies = <strong>Kuki</strong> terakhir akan dihapus
+panic-button-delete-history = <strong>Riwayat</strong> terakhir akan dihapus
+panic-button-delete-tabs-and-windows = Semua <strong>Tab</strong> dan <strong>Jendela</strong> akan ditutup

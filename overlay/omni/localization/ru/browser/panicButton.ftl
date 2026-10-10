@@ -1,0 +1,15 @@
+panic-button-open-new-window = Открыто новое чистое Окно
+panic-button-undo-warning = Это действие нельзя отменить.
+panic-button-forget-button =
+    .label = Забыть!
+panic-main-timeframe-desc = Забыть о последних:
+panic-button-5min =
+    .label = Пяти минутах
+panic-button-2hr =
+    .label = Двух часах
+panic-button-day =
+    .label = 24 часах
+panic-button-action-desc = При этом будут:
+panic-button-delete-cookies = Удалены последние <strong>куки</strong>
+panic-button-delete-history = Удалена недавняя <strong>история</strong>
+panic-button-delete-tabs-and-windows = Закрыты все <strong>вкладки</strong> и <strong>окна</strong>

@@ -1,0 +1,16 @@
+serviceworker-worker-unregister = अनोंदणीकृत करा
+serviceworker-worker-updated = अद्ययावत <time>{ DATETIME($date, day: "numeric", hour: "numeric", minute: "numeric", month: "long", second: "numeric", year: "numeric") }</time>
+serviceworker-worker-status-running = सुरू आहे
+serviceworker-worker-status-stopped = थांबले आहे
+manifest-item-identity = ओळख
+manifest-item-presentation = सादरीकरण
+manifest-item-icons = चिन्हे
+manifest-icon-img =
+    .alt = चिन्ह
+manifest-icon-img-title = आकार असलेले चिन्ह: { $sizes }
+icon-warning =
+    .alt = चेतावनी चिन्ह
+    .title = चेतावनी
+icon-error =
+    .alt = त्रुटी चिन्ह
+    .title = त्रुटी

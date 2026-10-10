@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Otsi kõikide kaartide hulgast
+all-tabs-menu-new-user-context =
+    .label = Uus konteinerkaart
+all-tabs-menu-hidden-tabs =
+    .label = Peidetud kaardid
+all-tabs-menu-close-duplicate-tabs =
+    .label = Sulge dubleerivad kaardid
+all-tabs-menu-view-all-tabs =
+    .label = Kuva kõiki kaarte
+all-tabs-menu-recent-tab-groups-header = Hiljutised kaardirühmad
+all-tabs-menu-tab-groups-show-all =
+    .label = Kuva kõiki
+all-tabs-menu-tab-groups-sub-view =
+    .title = Kaardigrupid
+all-tabs-menu-current-window-header = Aktiivne aken

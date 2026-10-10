@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Depingli el ekstra menuo
+    .accesskey = D
+customize-menu-add-to-toolbar =
+    .label = Aldoni al ilarstrio
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Aldoni al ekstra menuo
+    .accesskey = A
+panic-button-thankyou-msg1 = Via ĵusa historio estis viŝita.
+panic-button-thankyou-msg2 = Sekura retumo!
+panic-button-thankyou-button =
+    .label = Dankon!

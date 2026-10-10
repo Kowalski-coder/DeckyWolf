@@ -1,0 +1,14 @@
+default-bookmarks-title = Markah
+default-bookmarks-heading = Markah
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Dapatkan Bantuan
+default-bookmarks-firefox-customize = Ubahsuai Firefox
+default-bookmarks-firefox-community = Mari Berperan
+default-bookmarks-firefox-about = Tentang Kami
+default-bookmarks-nightly-heading = Sumber Daya Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Pelacak Bug Mozilla
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Alat Nightly Tester
+default-bookmarks-crashes = Semua data kerusakan Anda
+default-bookmarks-planet = Planet Mozilla

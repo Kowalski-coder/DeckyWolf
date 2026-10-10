@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (enginn titill)
+places-load-js-data-url-error = Af öryggisástæðum er ekki hægt að hlaða inn java-skriftum eða gagnaslóðum úr ferilglugga eða hliðarstiku.
+places-bookmarks-backup-title = Skráarheiti bókamerkjaafrits
+places-bookmarks-restore-alert-title = Endurheimta bókamerki
+places-bookmarks-restore-alert = Þetta yfirskrifar öll bókamerki með afritinu. Ertu viss?
+places-bookmarks-restore-title = Veldu bókamerkja afrit
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Óstudd skráartegund.
+places-bookmarks-restore-parse-error = Get ekki hlaðið inn afritunarskrá.
+places-bookmarks-import = Flytja inn bókamerkjaskrá
+places-bookmarks-export = Flytja út bókamerkjaskrá
+places-bookmarks-paste-error-title = Ógildar vefslóðir fundust
+places-bookmarks-paste-error-message-header = Ekki var hægt að bæta eftirfarandi vefslóð(um) í bókamerkin þín. Prófaðu að athuga snið þeirra og bæta þeim við aftur.

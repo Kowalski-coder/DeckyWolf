@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Откачи из додатног менија
+    .accesskey = О
+customize-menu-add-to-toolbar =
+    .label = Додај на траку са алаткама
+    .accesskey = Д
+customize-menu-add-to-overflowmenu =
+    .label = Додај у додатни мени
+    .accesskey = а
+panic-button-thankyou-msg1 = Обрисали сте недавну историју.
+panic-button-thankyou-msg2 = Желимо вам безбедно прегледање!
+panic-button-thankyou-button =
+    .label = Хвала!

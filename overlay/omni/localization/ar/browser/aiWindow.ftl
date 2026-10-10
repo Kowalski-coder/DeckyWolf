@@ -1,0 +1,3 @@
+smartwindow-document-title = لسان جديد
+aiwindow-input-cta-menu-label-search = ابحث بـ { $searchEngineName }
+aiwindow-input-cta-menu-label-search-with = ابحث بـ…

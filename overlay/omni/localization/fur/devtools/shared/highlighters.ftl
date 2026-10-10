@@ -1,0 +1,13 @@
+grid-row-column-positions = Rie { $row } / Colone { $column }
+gridtype-container = Contignidôr gridele
+gridtype-item = Element de gridele
+gridtype-dual = Contignidôr/element gridele
+flextype-container = Contignidôr Flex
+flextype-item = Element Flex
+flextype-dual = Contignidôr/element Flex
+remote-node-picker-notice = Seletôr grops dai DevTools ativât. { $action }
+remote-node-picker-notice-action-desktop = Fâs clic suntun element par selezionâlu tal ispetôr
+remote-node-picker-notice-action-touch = Tocje un element par selezionâlu tal ispetôr
+remote-node-picker-notice-hide-button = Plate
+simple-highlighters-message = Se prefers-reduced-motion al è atîf, al è pussibil ativâ tal panel des impostazions un evidenziadôr plui sempliç, par evitâ il lampament di colôrs.
+simple-highlighters-settings-button = Vierç Impostazions

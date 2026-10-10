@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Öppna { -brand-short-name } i felsökningsläge?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Öppna
+refresh-profile =
+    .label = Återställ { -brand-short-name }
+troubleshoot-mode-description = Använd detta specialläge av { -brand-short-name } för att diagnostisera problem. Dina tillägg och anpassningar kommer att inaktiveras tillfälligt.
+skip-troubleshoot-refresh-profile = Du kan också hoppa över felsökning och återställa { -brand-short-name } istället.
+auto-safe-mode-description = { -brand-short-name } stängdes oväntat under start. Detta kan orsakas av tillägg eller av andra problem. Du kan försöka lösa problemet genom att söka efter felet i felsäkert läge.

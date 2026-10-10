@@ -1,0 +1,14 @@
+default-bookmarks-title = Dấu trang
+default-bookmarks-heading = Dấu trang
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Nhận trợ giúp
+default-bookmarks-firefox-customize = Tùy biến Firefox
+default-bookmarks-firefox-community = Tham gia
+default-bookmarks-firefox-about = Giới thiệu về chúng tôi
+default-bookmarks-nightly-heading = Tài nguyên Firefox Nightly
+default-bookmarks-nightly-blog = Nhật ký Firefox Nightly
+default-bookmarks-bugzilla = Trình theo dõi lỗi Mozilla
+default-bookmarks-mdn = Mạng lưới nhà phát triển Mozilla
+default-bookmarks-nightly-tester-tools = Các công cụ thử nghiệm Nightly
+default-bookmarks-crashes = Tất cả những sự cố của bạn
+default-bookmarks-planet = Planet Mozilla

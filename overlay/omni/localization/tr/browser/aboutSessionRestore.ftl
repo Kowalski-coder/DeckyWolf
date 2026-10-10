@@ -1,0 +1,26 @@
+restore-page-tab-title = Oturumu Geri Getir
+restore-page-error-title = Özür dileriz. Sayfalarınızı geri getirmeyi başaramadık.
+restore-page-problem-desc = Son gezinti oturumunuzu geri getirmeyi başaramadık. Yeniden denemek için “Oturumu geri getir” seçeneğini seçebilirsiniz.
+restore-page-try-this = Yine mi olmadı? Bazen sorun tek bir sekmeden kaynaklanıyor olabilir. Önceki sekmelerinize bir bakın, geri yüklenmesi gerekmeyen sekmelerin işaretini kaldırıp yeniden deneyin.
+restore-page-hide-tabs = Önceki sekmeleri gizle
+restore-page-show-tabs = Önceki sekmeleri göster
+restore-page-window-label = { $windowNumber }. pencere
+restore-page-restore-header =
+    .label = Geri getir
+restore-page-list-header =
+    .label = Pencereler ve sekmeler
+restore-page-try-again-button =
+    .label = Oturumu geri getir
+    .accesskey = O
+restore-page-close-button =
+    .label = Yeni oturum başlat
+    .accesskey = e
+welcome-back-tab-title = Başardınız!
+welcome-back-page-title = Başardınız!
+welcome-back-page-info = { -brand-short-name } başlamaya hazır.
+welcome-back-restore-button =
+    .label = Başlayalım!
+    .accesskey = B
+welcome-back-restore-all-label = Tüm pencereleri ve sekmeleri geri yükle
+welcome-back-restore-some-label = Yalnızca istediklerimi geri yükle
+welcome-back-page-info-link = Eklentileriniz ve özelleştirmeleriniz kaldırıldı, tarayıcı ayarlarınız varsayılan ayarlara döndürüldü. Bu da sorununuzu çözmediyse <a data-l10n-name="link-more">başka ne yapabileceğinizi öğrenin.</a>

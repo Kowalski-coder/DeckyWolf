@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Podrobnosti o aplikácii
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Odstrániť
+    .accesskey = O
+app-manager-handle-protocol = Nasledujúce aplikácie môžu byť použité na spracovanie odkazov typu { $type }.
+app-manager-handle-file = Nasledujúce aplikácie môžu byť použité na spracovanie obsahu { $type }.
+app-manager-web-app-info = Táto webová aplikácia je umiestnená na serveri:
+app-manager-local-app-info = Táto aplikácia je umiestnená v priečinku:

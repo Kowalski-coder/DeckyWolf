@@ -1,0 +1,9 @@
+firefoxview-tabpickup-password-locked-primarybutton = Baş Parolu daxil edin
+firefoxview-recently-closed-nav = Son qapadılmış vərəqlər
+    .title = Son qapadılmış vərəqlər
+firefoxview-recently-closed-header = Son qapadılmış vərəqlər
+firefoxview-synced-tabs-nav = Digər cihazda olan vərəqələr
+    .title = Digər cihazda olan vərəqələr
+firefoxview-synced-tabs-header = Digər cihazda olan vərəqələr
+firefoxview-search-text-box-recentlyclosed =
+    .placeholder = Son qapadılmış vərəqlərdə axtar

@@ -1,0 +1,26 @@
+restore-page-tab-title = Restaurar sessão
+restore-page-error-title = Houve um problema ao restaurar suas páginas.
+restore-page-problem-desc = Houve um problema ao restaurar sua última sessão de navegação. Clique abaixo em 'Restaurar sessão' para tentar novamente.
+restore-page-try-this = Ainda não conseguiu? Uma aba pode estar causando problema. Veja as abas que estavam abertas, desmarque as que você não precisa recuperar e tente novamente.
+restore-page-hide-tabs = Ocultar abas da sessão anterior
+restore-page-show-tabs = Exibir abas da sessão anterior
+restore-page-window-label = Janela { $windowNumber }
+restore-page-restore-header =
+    .label = Restaurar
+restore-page-list-header =
+    .label = Janelas e abas
+restore-page-try-again-button =
+    .label = Restaurar sessão
+    .accesskey = R
+restore-page-close-button =
+    .label = Iniciar nova sessão
+    .accesskey = N
+welcome-back-tab-title = Sucesso!
+welcome-back-page-title = Sucesso!
+welcome-back-page-info = O { -brand-short-name } está pronto.
+welcome-back-restore-button =
+    .label = Vamos lá!
+    .accesskey = V
+welcome-back-restore-all-label = Restaurar todas as janelas e abas
+welcome-back-restore-some-label = Restaurar só algumas
+welcome-back-page-info-link = Suas extensões e personalizações foram removidas e as configurações do navegador foram restauradas. Se isso não resolver o problema, <a data-l10n-name="link-more">saiba mais sobre o que você pode fazer</a>.

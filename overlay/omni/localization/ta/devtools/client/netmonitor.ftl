@@ -1,0 +1,14 @@
+network-menu-summary-tooltip-perf =
+    .title = Start performance analysis
+network-menu-summary-tooltip-domcontentloaded =
+    .title = “DOMContentLoaded” நிகழ்ச்சி நிகழ்ந்த நேரம்
+network-menu-summary-tooltip-load =
+    .title = “சுமை” நிகழ்ச்சி நிகழ்ந்த நேரம்
+network-menu-summary-tooltip-requests-count =
+    .title = கோரிக்கைகளின் எண்ணிக்கைகள்
+network-menu-summary-transferred = { $formattedContentSize } / { $formattedTransferredSize } பரிமாற்றப்பட்டது
+network-menu-summary-tooltip-transferred =
+    .title = அளவு/பரிமாற்றப்பட்ட அனைத்துக் கோரிக்கைகளின் அளவு
+network-menu-summary-finish = முடிவு: { $formattedTime }
+network-menu-summary-tooltip-finish =
+    .title = அனைத்துக் கோரிக்கைகளையும் ஏற்ற தேவையான நேரம்

@@ -1,0 +1,43 @@
+content-sharing-modal-more-tabs =
+    { $count ->
+       *[other] +{ $count } til
+    }
+content-sharing-tabs-title =
+    { $count ->
+        [one] { $count } fane
+       *[other] { $count } faner
+    }
+content-sharing-modal-view-page-2 =
+    .label = Forhåndsvis side
+content-sharing-modal-copy-link =
+    .label = Kopier lenke
+content-sharing-modal-generating-page =
+    .label = Genererer side …
+content-sharing-modal-link-copied =
+    .label = Lenke kopiert
+content-sharing-modal-sign-in-2 =
+    .label = Logg inn for å dele
+content-sharing-modal-title-2 = Del disse sidene med hvem som helst
+content-sharing-modal-title-signed-in = Lenkene dine er klare for å deles
+content-sharing-modal-description-2 = Logg inn for å opprette en side med lenker som er enkel å dele. Den kan ikke redigeres eller slettes og utløper etter 7 dager.
+content-sharing-modal-description-signed-in = Vi har laget en side som er enkel å dele med lenkene dine. Den kan ikke redigeres eller slettes og utløper etter 7 dager.
+content-sharing-modal-policy = Ved å dele godtar du <a data-l10n-name="aup-link">retningslinjene våre for akseptabel bruk</a>
+content-sharing-modal-too-many-links-2 =
+    { $count ->
+        [one] Bare { $count } lenke vil bli inkludert
+       *[other] Bare { $count } lenker vil bli inkludert
+    }
+content-sharing-modal-no-shareable-links =
+    .heading = Ingen delbare lenker inkludert
+    .message = Bare lenker til nettinnhold kan deles.
+content-sharing-modal-too-many-pages =
+    .heading =
+        { $count ->
+            [one] Du har delt { $count } side
+           *[other] Du har delt { $count } sider
+        }
+    .message = Prøv igjen etter at en av sidene dine har utløpt.
+content-sharing-modal-some-invalid-links = Noen lenker kan ikke deles.
+content-sharing-modal-generic-error-2 =
+    .heading = Noe gikk galt
+    .message = Vi kunne ikke opprette den delte siden din denne gangen. Prøv igjen senere.

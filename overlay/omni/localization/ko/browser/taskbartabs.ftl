@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = 작업 표시줄에 탭 추가
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = 작업 표시줄에서 탭 제거
+taskbar-tab-urlbar-button-show = 웹 앱 페이지 작업 표시
+taskbar-tab-urlbar-button-hide = 웹 앱 페이지 작업 숨기기
+taskbar-tab-shortcut-description = { $name } 웹 앱
+taskbar-tab-shortcut-folder = { -brand-short-name } 웹 앱
+taskbar-tab-audio-mute =
+    .tooltiptext = 탭 음소거
+taskbar-tab-audio-unmute =
+    .tooltiptext = 탭 음소거 해제
+taskbar-tab-title-default = { $name } — { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) — { -brand-full-name }
+taskbar-tab-title-profile = { $name } — { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) — { $profile } — { -brand-full-name }

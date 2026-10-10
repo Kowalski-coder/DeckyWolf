@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Text i fons
+colors-text =
+    .label = Text
+    .accesskey = T
+colors-text-background =
+    .label = Fons
+    .accesskey = F
+colors-links-header = Colors dels enllaços
+colors-links-unvisited =
+    .label = Enllaços no visitats
+    .accesskey = l
+colors-links-visited =
+    .label = Enllaços visitats
+    .accesskey = v

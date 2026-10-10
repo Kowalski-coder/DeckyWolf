@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Fjern fra >>-menuen
+    .accesskey = r
+customize-menu-add-to-toolbar =
+    .label = Føj til værktøjslinje
+    .accesskey = v
+customize-menu-add-to-overflowmenu =
+    .label = Føj til >>-menuen
+    .accesskey = F
+panic-button-thankyou-msg1 = Din seneste historik er ryddet.
+panic-button-thankyou-msg2 = Sikker surfing!
+panic-button-thankyou-button =
+    .label = Tak!

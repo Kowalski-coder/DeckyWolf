@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Tembiporu’i mba’emimi
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Mboguete
+    .accesskey = R
+app-manager-handle-protocol = Ko’ã tembiporu’i ikatu ojeporu oñembohape hag̃ua { $type } juajuha.
+app-manager-handle-file = Ko’ã tembiporu’i ikatu ojeporu oñembohape hag̃ua { $type } hechapyrã.
+app-manager-web-app-info = Ko ñanduti rembiporu’i oĩhína amo:
+app-manager-local-app-info = Ko ñanduti rembiporu’i jajuhúta amo:

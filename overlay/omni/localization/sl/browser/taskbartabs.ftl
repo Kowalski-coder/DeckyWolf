@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Dodaj zavihek v opravilno vrstico
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Odstrani zavihek iz opravilne vrstice
+taskbar-tab-urlbar-button-show = Prikaži dejanje strani spletne aplikacije
+taskbar-tab-urlbar-button-hide = Skrij dejanje strani spletne aplikacije
+taskbar-tab-shortcut-description = Spletna aplikacija { $name }
+taskbar-tab-shortcut-folder = Spletne aplikacije { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Utišaj zavihek
+taskbar-tab-audio-unmute =
+    .tooltiptext = Povrni glasnost zavihka
+taskbar-tab-title-default = { $name } v { -brand-full-name(sklon: "mestnik") }
+taskbar-tab-title-container = { $name } ({ $container }) v { -brand-full-name(sklon: "mestnik") }
+taskbar-tab-title-profile = { $name } v profilu { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) v profilu { $profile } – { -brand-full-name }

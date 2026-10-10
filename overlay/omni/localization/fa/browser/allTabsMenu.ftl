@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = جست‌وجو در همهٔ زبانه‌ها
+all-tabs-menu-new-user-context =
+    .label = زبانهٔ ظرف جدید
+all-tabs-menu-hidden-tabs =
+    .label = زبانه‌های مخفی
+all-tabs-menu-close-duplicate-tabs =
+    .label = بستن زبانه‌های تکراری
+all-tabs-menu-view-all-tabs =
+    .label = مشاهدهٔ همهٔ زبانه‌ها
+all-tabs-menu-recent-tab-groups-header = گروه‌های زبانهٔ اخیر
+all-tabs-menu-tab-groups-show-all =
+    .label = نمایش همه
+all-tabs-menu-tab-groups-sub-view =
+    .title = گروه‌های زبانه
+all-tabs-menu-current-window-header = پنجرهٔ فعلی

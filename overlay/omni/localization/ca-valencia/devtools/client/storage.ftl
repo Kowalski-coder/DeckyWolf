@@ -1,0 +1,41 @@
+storage-filter-key = CmdOrCtrl+F
+storage-table-empty-text = No hi ha cap dada per a l'amfitrió seleccionat
+storage-table-type-cookies-hint = Seleccioneu un amfitrió per mostrar i editar les galetes. <a data-l10n-name="learn-more-link">Més informació</a>
+storage-table-type-localstorage-hint = Seleccioneu un amfitrió per mostrar i editar l'emmagatzematge local. <a data-l10n-name="learn-more-link">Més informació</a>
+storage-table-type-extensionstorage-hint = Seleccioneu un amfitrió per mostrar i editar l'emmagatzematge de les extensions. <a data-l10n-name="learn-more-link">Més informació</a>
+storage-search-box =
+    .placeholder = Filtra els elements
+storage-variable-view-search-box =
+    .placeholder = Filtra els valors
+storage-add-button =
+    .title = Afig un element
+storage-context-menu-delete-all =
+    .label = Suprimeix-ho tot
+storage-context-menu-delete-all-session-cookies =
+    .label = Suprimeix totes les galetes de sessió
+storage-context-menu-copy =
+    .label = Copia
+storage-context-menu-delete =
+    .label = Suprimeix «{ $itemName }»
+storage-context-menu-add-item =
+    .label = Afig un element
+storage-context-menu-delete-all-from =
+    .label = Suprimeix-ho tot de «{ $host }»
+storage-table-headers-cookies-name = Nom
+storage-table-headers-cookies-value = Valor
+storage-table-headers-cache-status = Estat
+storage-table-headers-extension-storage-area = Àrea d'emmagatzematge
+storage-tree-labels-cookies = Galetes
+storage-tree-labels-local-storage = Emmagatzematge local
+storage-tree-labels-session-storage = Emmagatzematge de la sessió
+storage-tree-labels-indexed-db = BD indexada
+storage-tree-labels-cache = Emmagatzematge de memòria cau
+storage-expand-pane =
+    .title = Amplia la subfinestra
+storage-collapse-pane =
+    .title = Redueix la subfinestra
+storage-expires-session = Sessió
+storage-data = Dades
+storage-parsed-value = Valor analitzat
+storage-idb-delete-blocked = La base de dades «{ $dbName }» se suprimirà quan s'hagen tancat totes les connexions.
+storage-idb-delete-error = No s'ha pogut suprimir la base de dades «{ $dbName }».

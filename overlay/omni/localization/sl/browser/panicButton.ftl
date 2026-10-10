@@ -1,0 +1,15 @@
+panic-button-open-new-window = Odprli novo prazno okno
+panic-button-undo-warning = Tega dejanja ni mogoče razveljaviti.
+panic-button-forget-button =
+    .label = Pozabi!
+panic-main-timeframe-desc = Pozabi:
+panic-button-5min =
+    .label = Zadnjih pet minut
+panic-button-2hr =
+    .label = Zadnji dve uri
+panic-button-day =
+    .label = Zadnjih 24 ur
+panic-button-action-desc = Če nadaljujete, boste:
+panic-button-delete-cookies = Izbrisali nedavne <strong>piškotke</strong>
+panic-button-delete-history = Izbrisali nedavno <strong>zgodovino</strong>
+panic-button-delete-tabs-and-windows = Zaprli vse <strong>zavihke</strong> in vsa <strong>okna</strong>

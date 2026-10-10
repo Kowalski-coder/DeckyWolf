@@ -1,0 +1,12 @@
+back = પાછળ
+forward = આગળ
+reload = ફરીથી લોડ કરો
+home = મુખ્ય પાનું
+fullscreen = સંપૂર્ણસ્ક્રીન
+find = શોધો
+new-tab = નવું ટૅબ
+add-bookmark = બુકમાર્ક ઉમેરો
+reader-view = વાંચક જુઓ
+open-location = સરનામું શોધો અથવા દાખલ કરો
+share = ફેલાવો
+close-window = વિન્ડો બંધ કરો

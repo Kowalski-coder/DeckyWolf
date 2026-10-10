@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Eipe’a poravorã hembypáva
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Tembiporu rendáre mbojoapy
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Embojuaju poravorã hembypáva rehegua
+    .accesskey = M
+panic-button-thankyou-msg1 = Tembiasakue ipyahuvéva oñemboguete.
+panic-button-thankyou-msg2 = ¡Jeikekatu!
+panic-button-thankyou-button =
+    .label = Aguyje

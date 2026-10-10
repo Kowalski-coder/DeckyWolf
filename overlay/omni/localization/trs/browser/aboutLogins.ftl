@@ -1,0 +1,164 @@
+about-logins-page-title-name = Da'nga' huìi
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Nānà’huì’ nej da’nga’ huìi
+create-login-button =
+    .title = Gūnutà’ a’ngô da’ga’ huìi
+fxaccounts-sign-in-text = Giri da'ngā huìi da' garasunt riña a'ngo aga'aj
+fxaccounts-sign-in-sync-button = Gāyi’ì sesión da’ nāgi’iaj gūñānt
+fxaccounts-avatar-button =
+    .title = Si Kuendâ administrador
+menu =
+    .title = Na'nïn' menû
+about-logins-menu-menuitem-import-from-another-browser = Asìj riña a'ngô nabegadôr duguachînt ga'naj…
+about-logins-menu-menuitem-import-from-a-file = Gūxūn gā’naj āsìj riña ‘ngō archivo…
+about-logins-menu-menuitem-export-logins2 = Gā’nïnj gan’ānj nej da’nga’ huìi…
+about-logins-menu-menuitem-remove-all-logins2 = Nādure’ daran’ nej da’nga’ huìi…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Nej sa huaa
+       *[other] Nej sa arajsunt doj
+    }
+about-logins-menu-menuitem-help = Sa rugûñu'unj un
+login-list =
+    .aria-label = Gayi'ì sesiûn sani gachinj nan'anjt sa nana'ui'i
+login-list-count2 =
+    { $count ->
+        [one] { $count } da'nga' huìi
+       *[other] { $count } nej da'nga' huìi
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } riña { $total } da'nga' huìi
+       *[other] { $count } riña { $total } nej da'nga' huìi
+    }
+login-list-sort-label-text = Nagi'aj chre' da':
+login-list-name-option = Si yugui (A-Z)
+login-list-name-reverse-option = Si yugui (Z-A)
+login-list-username-option = Si yūgui sa \‘iaj suun (A-Z)
+login-list-username-reverse-option = Si yūgui sa \‘iaj suun (Z-A)
+about-logins-login-list-alerts-option = Gā gūdadû
+login-list-last-changed-option = Sa nagi'iât ne' rukù ni'inj
+login-list-last-used-option = Sa garajsun rukù nï't
+login-list-intro-title2 = Nu na’nïn sà’aj nej da’nga’ huìi
+login-list-intro-description = Ngà na'ní sa't da'ngā' huìi { -brand-product-name }, ni ñuna gahui ma ni'iajt.
+about-logins-login-list-empty-search-title2 = Nu nārì’ij à’ngō da’nga’ huìi
+about-logins-login-list-empty-search-description = Nitaj nuguan' nikaj dugui' ngà sa nana'uî't 'na'.
+login-list-item-title-new-login2 = Gūnutà’ a’ngô da’nga’ huìi
+login-list-item-subtitle-missing-username = (nitaj si yugui usuario hua)
+about-logins-list-item-breach-icon =
+    .title = Gi'iaj yi'ì si riña sitiô nan
+about-logins-list-item-vulnerable-password-icon =
+    .title = Nitāj si ran hua da’nga’ huìi
+about-logins-list-section-breach = Nej sitio giran\’ sāñūun
+about-logins-list-section-vulnerable = Nej da’nga’ huì huā ahīi
+about-logins-list-section-nothing = Nitāj sa atāj snan’ānj an hua
+about-logins-list-section-today = Gui hìaj
+about-logins-list-section-yesterday = Guki
+about-logins-list-section-week = Sa gahuin 7 gui ga'na'
+about-logins-login-intro-heading-message = Nā’nïnj sà’ nej da’nga’ huìi riña huā huì doj
+login-intro-description2 = Daran’ nej da’nga’ huì na’nïn sà’t riña { -brand-product-name } nī huā arrán riña nū nej man. Dàdanj nī, màn ñûnj dugumîn ñûnj sisī huā sa ruhuâ gī’hiaj yī’ì nej man nī gātāj nan’ānj ñûnj gūnïnt. <a data-l10n-name="breach-alert-link">Gāhuin chrūn doj</a>
+login-intro-instructions-fxa2 = Gāyì’ì sēsiûn riña si keundât asìj riña aga’ nū sà’ ne riña ayì’ìt sēsiûn.
+login-intro-instructions-fxa-settings = Guīj riña Nāgi’hiô’ Nāgi’hiaj nūgun’ùn’ Nāchrūn sa nagi’hiaj nūguan’àan… Gūru’man ra’a riña tāj Nātsij riña ayi’ìt sēsiûn ngà nej da’nga’ huìi.
+login-intro-instructions-fxa-passwords-help = Gātū riñan <a data-l10n-name="passwords-help-link">nej sa nīkāj da’nga’ huìi</a> da’ nārì’t doj sa huā riña man.
+about-logins-intro-import3 = Gūru’man ra’a riña būtûn nì signo ‘na’ yātà’ dan da’ gā’hue gūnutà’t ‘ngō da’nga’ huìi akuan’ nïn. Así gā’hue <a data-l10n-name="import-browser-link">gānakājt nej da’nga’ huìi asìj riña a’ngô nej nābēgadôr</a>asi<a data-l10n-name="import-file-link">asìj riña archibô</a>.
+about-logins-login-item-new-login-title = Gūnutà’ a’ngô da’nga’ huìi
+login-item-edit-button = Nagi'iô'
+about-logins-login-item-remove-button = Guxūn
+login-item-origin-label = Si Direlsiûn Sîtio
+about-logins-origin-tooltip2 = Hue’êt chre gāchrūnt direksiûn nī gīni’hiā sisī nārì’ dugui’ man ngà hiūj ayi’ìt sēsiûn.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Si yuguî rè'
+about-logins-login-item-username =
+    .placeholder = (nitaj si yugui usuario hua)
+login-item-copy-username-button-text = Guxun' ni nachrun' a'ngô hiuj u
+login-item-copied-username-button-text = 'Ngà guxun'
+login-item-password-label = Da'nga' huìi
+login-item-password-reveal-checkbox =
+    .aria-label = Digûn' da'nga huìi
+login-item-password-conceal-checkbox =
+    .aria-label = Gā’nïnj hùi da’nga’ huìi
+login-item-copy-password-button-text = Guxun' ni nachrun' a'ngô hiuj u
+login-item-copied-password-button-text = 'Ngà guxun'!
+about-logins-login-item-save-changes-button = Nā'nïnj sà'
+login-item-save-new-button = Na'nïnj sà'
+login-item-cancel-button = Duyichin'
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Ngà girij
+login-item-timeline-action-updated = Ngà nahuin nàkaj
+login-item-timeline-action-used = Ngà garâj sunj
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-edit-login-os-auth-dialog-message2-macosx = Nātsij da’nga’ huì nū sà’a
+about-logins-reveal-password-os-auth-dialog-message-win = Da’ gīni’iājt riña si da'nga' huìt, gāchrūn si krēdenciât nga gayi’ìt Windows. Rugûñun’ūnj nan da’ dūguminj nej si kuendât.
+about-logins-reveal-password-os-auth-dialog-message-macosx = Gīni’iāj da’nga’ huì nū sà’ ‘iát
+about-logins-copy-password-os-auth-dialog-message-win = Da’ gūxūnt nī nāchrūnt a’ngô hiūj si da'nga' huìt, gāchrūn si krēdenciât nga gayi’ìt Windows. Rugûñun’ūnj nan da’ dūguminj nej si kuendât.
+about-logins-copy-password-os-auth-dialog-message-macosx = Gūxūn nī nāchrūn a’ngô hiūj da’nga’ huì nū sà’ ‘iát
+about-logins-export-password-os-auth-dialog-message2-macosx = gā’nïnj a’ngô hiūj u gān’ānj nej da’nga’ huì nū sà’ ‘hiát
+about-logins-primary-password-notification-message = Gāchrūn da'nga' huì ñān nīkājt nī ga'ue ni'iājt si yugui usuârio nī nej da'nga' huì na'nïn sà't
+master-password-reload-button =
+    .label = Gayi'ì sesiûn
+    .accesskey = L
+confirmation-dialog-cancel-button = Duyichin'
+confirmation-dialog-dismiss-button =
+    .title = Duyichin'
+about-logins-confirm-delete-dialog-title = Nādurê’t da’nga’ huìi aj
+about-logins-confirm-delete-dialog-message = Na’hue gā’nïn nādurê’t sa huin ruhuât nan.
+about-logins-confirm-remove-dialog-confirm-button = Guxūn
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Gūxūn
+        [one] Gūxūn daran'anj
+       *[other] Gūxūn daran'anj
+    }
+about-logins-confirm-export-dialog-confirm-button2 = Dūgu’nïn’ gā’nïnjt gān’an
+about-logins-alert-import-message = Ni'hio' daj gi'hiaj man gānūkua.
+confirm-discard-changes-dialog-title = ¿Nadurê't nej sa nun na'nïnj sà' raj?
+confirm-discard-changes-dialog-message = Gan'anj ni'ia daran' nej sa nagi'iát ni nu na'nïnj sà't.
+confirm-discard-changes-dialog-confirm-button = Dunâj man
+about-logins-breach-alert-title = Nuguan’ nata’ sna’ānj sa huā riña sitio
+breach-alert-text = Gi'iaj tu nej si da'nga' huì hua 'iát nga nagi'iaj nakàt riña ayi'ìt sesiûn. Naduna da'nga' huì hua 'iát daj dugumînt si kuentât.
+about-logins-breach-alert-date = Nuguan’ nan gurugui’ riña { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Gūij riña { $hostname }
+about-logins-vulnerable-alert-title = Nitāj si ran hua da’nga’ huìi
+about-logins-vulnerable-alert-text2 = Ngà garâj sun nej si da’nga’ huì nan riña a’ngô kuenta, si gūruhuaj nī giri huì si man. Sisī gārasun ñût man nī ga’ue gà’uì’ yi’ìj nej si kuentât. Nādunā da’nga’ huì nan ân.
+about-logins-vulnerable-alert-link = Gūij riña { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Gāhuin chrūn doj
+about-logins-error-message-duplicate-login-with-link = Ngà hua 'ngo nuguan' hua dàdanj riña { $loginTitle } dàj rû' hua sa gachrûnt. <a data-l10n-name="duplicate-link">Gatut ni'iajt riña nuguan' dan anj</a>
+about-logins-error-message-default = Hua 'ngo sa gire' ngà gahuin ruhuât na'nïnj sà' da'nga' huì nan.
+about-logins-export-file-picker-export-button = Gā’nïnj gān’an a’ngô hiūj u…
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV Ñanj
+       *[other] CSV archivo
+    }
+about-logins-import-file-picker-import-button = Gānāko'
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV Ñanj
+       *[other] CSV Archivo
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Ñanj TSV
+       *[other] Ñanj TSV
+    }
+about-logins-import-dialog-title = 'Ngà gisij gānūkuaj ma
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Sa gire'e:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nu guyunj)</span>
+       *[other] <span>Sa gire'e:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nu guyunj)</span>
+    }
+about-logins-import-dialog-done = Gà' huaj
+about-logins-import-dialog-error-title = Nū gūyunj
+about-logins-import-dialog-error-conflicting-values-title = Ûta ga'ì sa gire' guedâ ga'hue gāyi'ij.
+about-logins-import-dialog-error-conflicting-values-description = Daj run': ga'ì si yugui, da'ngà' huii, URLs, huin guenda gatu' riña aga' na.
+about-logins-import-dialog-error-file-format-title = Nitaj si hua hue'ej.
+about-logins-import-dialog-error-unable-to-read-title = Nā’hue gānatsi ārchîbo
+about-logins-import-dialog-error-no-logins-imported = Huā nïn’ nu nāchīn nej riña gayi’ìt sēsiûn
+about-logins-import-dialog-error-learn-more = Gāhuin chrūn doj
+about-logins-import-dialog-error-try-import-again = Ginùn huin gā’nïnj ñûnt…
+about-logins-import-dialog-error-cancel = Dūyichin\'
+about-logins-import-report-title = Nuguan’ huā rayi’î sa ga’nïnt
+about-logins-import-report-description2 = Nej da’nga’ huì gan’ānj riña { -brand-short-name }.
+about-logins-import-report-row-index = Dukuáan { $number }

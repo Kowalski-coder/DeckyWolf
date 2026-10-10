@@ -1,0 +1,15 @@
+panic-button-open-new-window = Új üres ablakot nyit meg
+panic-button-undo-warning = Ez a művelet nem vonható vissza.
+panic-button-forget-button =
+    .label = Elfelejtés!
+panic-main-timeframe-desc = Felejtse el az elmúlt:
+panic-button-5min =
+    .label = Öt percet
+panic-button-2hr =
+    .label = Két órát
+panic-button-day =
+    .label = 24 órát
+panic-button-action-desc = A folytatás:
+panic-button-delete-cookies = Törli a legutóbbi <strong>sütiket</strong>
+panic-button-delete-history = Törli a legutóbbi <strong>előzményeket</strong>
+panic-button-delete-tabs-and-windows = Bezár minden <strong>lapot</strong> és <strong>ablakot</strong>

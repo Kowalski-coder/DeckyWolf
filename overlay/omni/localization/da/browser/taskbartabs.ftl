@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Føj faneblad til proceslinjen
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Fjern faneblad fra proceslinjen
+taskbar-tab-urlbar-button-show = Vis sidehandling for web-apps
+taskbar-tab-urlbar-button-hide = Skjul sidehandling for web-apps
+taskbar-tab-shortcut-description = Web-app { $name }
+taskbar-tab-shortcut-folder = Web-apps fra { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Slå lyden fra i faneblad
+taskbar-tab-audio-unmute =
+    .tooltiptext = Slå lyden til i faneblad
+taskbar-tab-title-default = { $name } i { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) i { -brand-full-name }
+taskbar-tab-title-profile = { $name } i { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) i { $profile } — { -brand-full-name }

@@ -1,0 +1,88 @@
+webrtc-item-camera = కేమెరా
+webrtc-item-microphone = మైక్రోఫోన్
+webrtc-item-audio-capture = ట్యాబ్ ఆడియో
+webrtc-item-application = అనువర్తనం
+webrtc-item-screen = తెర
+webrtc-item-window = విండో
+webrtc-item-browser = ట్యాబు
+webrtc-sharing-menuitem-unknown-host = తెలియని మూలం
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-sharing-menu =
+    .label = పరికరాలను పంచుకుంటున్న ట్యాబ్ లు
+    .accesskey = d
+webrtc-indicator-menuitem-control-sharing =
+    .label = పంచుకోలు నియంత్రణ
+webrtc-indicator-menuitem-control-sharing-on =
+    .label = “{ $streamTitle }”లో పంచుకోడాన్ని నియంత్రించు
+webrtc-indicator-menuitem-sharing-camera-with =
+    .label = “{ $streamTitle }”తో కేమెరా పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో కేమెరా పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో కేమెరా పంచుకుంటున్నారు
+        }
+webrtc-indicator-menuitem-sharing-microphone-with =
+    .label = “{ $streamTitle }”తో మైక్రోఫోను పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో మైక్రోఫోను పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో మైక్రోఫోను పంచుకుంటున్నారు
+        }
+webrtc-indicator-menuitem-sharing-application-with =
+    .label = “{ $streamTitle }”తో ఒక అనువర్తనాన్ని పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-application-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో అనువర్తనాన్ని పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో అనువర్తనాలను పంచుకుంటున్నారు
+        }
+webrtc-indicator-menuitem-sharing-screen-with =
+    .label = “{ $streamTitle }”తో తెరను పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో తెరను పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో తెరను పంచుకుంటున్నారు
+        }
+webrtc-indicator-menuitem-sharing-window-with =
+    .label = “{ $streamTitle }”తో ఒక కిటికీని పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-window-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో విండోను పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో విండోలను పంచుకుంటున్నారు
+        }
+webrtc-indicator-menuitem-sharing-browser-with =
+    .label = “{ $streamTitle }”తో ఒక ట్యాబును పంచుకుంటున్నారు
+webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ట్యాబులో ట్యాబును పంచుకుంటున్నారు
+           *[other] { $tabCount } ట్యాబులలో ట్యాబులను పంచుకుంటున్నారు
+        }
+webrtc-pick-window-or-screen = కిటికీ లేదా తెరను ఎంచుకోండి
+webrtc-share-entire-screen = మొత్తం తెర
+webrtc-share-pipe-wire-portal = నిర్వాహక వ్యవస్థ అమరికలను వాడు
+webrtc-share-monitor = తెర { $monitorIndex }
+webrtc-share-application =
+    { $windowCount ->
+        [one] { $appName } ({ $windowCount } విండో)
+       *[other] { $appName } ({ $windowCount } విండోలు)
+    }
+webrtc-action-allow =
+    .label = అనుమతించు
+    .accesskey = A
+webrtc-action-block =
+    .label = నిరోధించు
+    .accesskey = B
+webrtc-action-always-block =
+    .label = ఎల్లప్పుడూ నిరోధించు
+    .accesskey = w
+webrtc-remember-allow-checkbox = ఈ నిర్ణయాన్ని గుర్తుంచుకో
+webrtc-mute-notifications-checkbox = పంచుకుంటున్నప్పుడు వెబ్‌సైటు గమనింపులను మౌనించు
+webrtc-reason-for-no-permanent-allow-screen = మీ తెరకు శాశ్వత ప్రాప్యతను { -brand-short-name } అనుమతించదు.
+webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } ఏ ట్యాబు పంచుకోవాలో అడగకుండా మీ ట్యాబు యొక్క ఆడియోను శాశ్వతంగా ప్రాప్యత చేసుటకు అనుమతించదు.
+webrtc-reason-for-no-permanent-allow-insecure = ఈ సైటుకు మీ అనుసంధానము సురక్షితమైనది కాదు. మిమ్మల్ని రక్షించుటకు, { -brand-short-name } కేవలం ఈ సెషన్ కు మాత్రమే ప్రాప్యతను అనుమతిస్తుంది.

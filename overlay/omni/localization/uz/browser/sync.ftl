@@ -1,0 +1,17 @@
+fxa-toolbar-sync-syncing2 = Sinxronlanmoqda…
+sync-disconnect-dialog-title2 = Uzilsinmi?
+sync-disconnect-dialog-body = { -brand-product-name } hisobingizni sinxronlashtirishni toʻxtatadi, lekin bu qurilmadagi brauzer maʼlumotlarini oʻchirib tashlamaydi.
+sync-disconnect-dialog-button = Uzish
+fxa-signout-dialog-body = Sinxronlangan maʼlumotlar hisobingizda qoladi.
+fxa-menu-sync-settings =
+    .label = Sinxronizatsiya sozlamalari
+fxa-menu-turn-on-sync =
+    .value = Sinxronizatsiyani yoqish
+fxa-menu-turn-on-sync-default = Sinxronizatsiyani yoqish
+fxa-menu-connect-another-device =
+    .label = Boshqa qurilmani ulash
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = Qurilmalar sinxronlanmoqda…
+fxa-menu-send-tab-to-device-description = Varaqni hisobingizdan kirilgan boshqa qurilmaga yuboring.
+fxa-menu-sign-out =
+    .label = Chiqish…

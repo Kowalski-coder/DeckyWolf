@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (nissunu tìtulu)
+places-load-js-data-url-error = Pro resones de seguresa, is URL “javascript:” o de “datos:” non podent èssere carrigados dae sa ventana de sa cronologia nen dae sa barra laterale.
+places-bookmarks-backup-title = Nòmine de archìviu de còpia de seguresa de is sinnalibros
+places-bookmarks-restore-alert-title = Riprìstina is sinnalibros
+places-bookmarks-restore-alert = Custu at a sostituire totu is sinnalibros atuales tuos cun sa còpia de seguresa. Boles sighire?
+places-bookmarks-restore-title = Sèbera una còpia de seguresa de is sinnalibros
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Genia de archìviu non cumpatìbile.
+places-bookmarks-restore-parse-error = Impossìbile protzessare s'archìviu de còpia de seguresa.
+places-bookmarks-import = Importa archìviu de sinnalibros
+places-bookmarks-export = Esporta archìviu de sinnalibros
+places-bookmarks-paste-error-title = URL non vàlidos agatados
+places-bookmarks-paste-error-message-header = No at fatu a agiùnghere is URL imbenientes a is sinnalibros. Proa a controllare su formadu e a ddos torrare a agiùnghere.

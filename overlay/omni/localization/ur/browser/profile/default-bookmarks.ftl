@@ -1,0 +1,10 @@
+default-bookmarks-title = بک مارک
+default-bookmarks-heading = بک مارک
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = مدد حاصل کریں
+default-bookmarks-firefox-customize = Firefox کی تخصیص کریں
+default-bookmarks-firefox-community = شامل ہوں
+default-bookmarks-firefox-about = ہمارے متعلق
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-crashes = آپ کے تمام کریش
+default-bookmarks-planet = Planet Mozilla

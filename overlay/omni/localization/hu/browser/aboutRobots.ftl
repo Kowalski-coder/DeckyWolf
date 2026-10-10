@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Üdv, emberek!
+error-short-desc-text = Látogatásunk békés és jószándékú!
+error-long-desc1 = A robotnak nem szabad kárt okoznia emberi lényben, vagy tétlenül tűrnie, hogy emberi lény bármilyen kárt szenvedjen.
+error-long-desc2 = A robotok láttak dolgokat, amiket ti emberek el sem hinnétek.
+error-long-desc3 = A robot a te műanyag haverod, akivel pompásan érzed magad.
+error-long-desc4 = A robotoknak fényes fémfenekük van, amelybe nem szabad beleharapni.
+error-trailer-desc-text = És van egy tervük.
+error-try-again = Próbálja újra
+    .label2 = Kérem, ne nyomja meg még egyszer ezt a gombot.

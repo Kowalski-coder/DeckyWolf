@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Taba soithich ùr
+all-tabs-menu-hidden-tabs =
+    .label = Tabaichean falaichte
+all-tabs-menu-recent-tab-groups-header = Buidhnean thabaichean o chionn goird
+all-tabs-menu-tab-groups-show-all =
+    .label = Seall na h-uile
+all-tabs-menu-tab-groups-sub-view =
+    .title = Buidhnean thabaichean
+all-tabs-menu-current-window-header = An uinneag làithreach

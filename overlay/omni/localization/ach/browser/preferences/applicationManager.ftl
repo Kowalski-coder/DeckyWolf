@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Lok matut ikom purugram
+    .style = min-width: 40em; min-height: 30em;
+app-manager-remove =
+    .label = Kwany
+    .accesskey = K
+app-manager-handle-protocol = Purugram magi kitwero tic kwedgi me timo { $type } kakube.
+app-manager-handle-file = Purugram magi kitwero tic kwedgi me timo { $type } gin manonge iye.
+app-manager-web-app-info = Puruguram me kakube man tye iye:
+app-manager-local-app-info = Puruguram man tye i kabedo:

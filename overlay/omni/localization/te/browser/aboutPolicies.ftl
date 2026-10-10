@@ -1,0 +1,17 @@
+about-policies-title = సంస్థ విధానాలు
+aboutpolicies-page-heading =
+    .heading = విధానాల గురించి
+active-policies-tab = క్రియాశీలం
+errors-tab = దోషాలు
+documentation-tab = పత్రావళి
+active-policies-tab-title =
+    .title = క్రియాశీలం
+errors-tab-title =
+    .title = దోషాలు
+documentation-tab-title =
+    .title = పత్రావళి
+no-specified-policies-message = ఎంటర్‌ప్రైజ్ విధానాల సేవ చేతనంగా ఉంది కానీ విధానాలు ఏమీ చేతనంగా లేవు.
+inactive-message = సంస్థాగత విధానాల సేవ అచేతనంగా ఉంది.
+policy-name = విధానపు పేరు
+policy-value = విధానపు విలువ
+policy-errors = విధానపు దోషాలు

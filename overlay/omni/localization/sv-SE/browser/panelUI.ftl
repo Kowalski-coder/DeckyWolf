@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ta bort från spillmeny
+    .accesskey = T
+customize-menu-add-to-toolbar =
+    .label = Lägg till i verktygsfält
+    .accesskey = L
+customize-menu-add-to-overflowmenu =
+    .label = Lägg till i spillmeny
+    .accesskey = L
+panic-button-thankyou-msg1 = Din senaste historik har rensats.
+panic-button-thankyou-msg2 = Säker webbläsning!
+panic-button-thankyou-button =
+    .label = Tack!

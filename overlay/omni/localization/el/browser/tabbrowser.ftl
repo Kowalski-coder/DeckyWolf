@@ -1,0 +1,303 @@
+tabbrowser-empty-tab-title = Νέα καρτέλα
+tabbrowser-empty-private-tab-title = Νέα ιδιωτική καρτέλα
+tabbrowser-menuitem-close-tab =
+    .label = Κλείσιμο καρτέλας
+tabbrowser-menuitem-close =
+    .label = Κλείσιμο
+tabbrowser-tab-tooltip-tab-group = { $tabGroupName }
+tabbrowser-tab-tooltip-container = { $containerName }
+tabbrowser-tab-tooltip-tab-group-container = { $tabGroupName } — { $containerName }
+tabbrowser-close-tabs-button =
+    .tooltiptext =
+        { $tabCount ->
+            [one] Κλείσιμο καρτέλας
+           *[other] Κλείσιμο { $tabCount } καρτελών
+        }
+tabbrowser-mute-tab-audio-tooltip =
+    .label =
+        { $tabCount ->
+            [one] Σίγαση καρτέλας ({ $shortcut })
+           *[other] Σίγαση { $tabCount } καρτελών ({ $shortcut })
+        }
+tabbrowser-unmute-tab-audio-tooltip =
+    .label =
+        { $tabCount ->
+            [one] Άρση σίγασης καρτέλας ({ $shortcut })
+           *[other] Άρση σίγασης { $tabCount } καρτελών ({ $shortcut })
+        }
+tabbrowser-mute-tab-audio-background-tooltip =
+    .label =
+        { $tabCount ->
+            [one] Σίγαση καρτέλας
+           *[other] Σίγαση { $tabCount } καρτελών
+        }
+tabbrowser-unmute-tab-audio-background-tooltip =
+    .label =
+        { $tabCount ->
+            [one] Άρση σίγασης καρτέλας
+           *[other] Άρση σίγασης { $tabCount } καρτελών
+        }
+tabbrowser-unblock-tab-audio-tooltip =
+    .label =
+        { $tabCount ->
+            [one] Αναπαραγωγή καρτέλας
+           *[other] Αναπαραγωγή { $tabCount } καρτελών
+        }
+tabbrowser-unmute-tab-audio-aria-label =
+    .aria-label = Άρση σίγασης καρτέλας
+tabbrowser-mute-tab-audio-aria-label =
+    .aria-label = Σίγαση καρτέλας
+tabbrowser-unblock-tab-audio-aria-label =
+    .aria-label = Αναπαραγωγή καρτέλας
+tabbrowser-confirm-close-tabs-title = Κλείσιμο { $tabCount } καρτελών;
+tabbrowser-confirm-close-tabs-button = Κλείσιμο καρτελών
+tabbrowser-ask-close-tabs-checkbox = Ερώτηση πριν από το κλείσιμο πολλαπλών καρτελών
+tabbrowser-confirm-close-windows-title = Κλείσιμο { $windowCount } παραθύρων;
+tabbrowser-confirm-close-windows-button =
+    { PLATFORM() ->
+        [windows] Κλείσιμο και έξοδος
+       *[other] Κλείσιμο και τερματισμός
+    }
+tabbrowser-confirm-close-tabs-with-key-title = Κλείσιμο παραθύρου και τερματισμός του { -brand-short-name };
+tabbrowser-confirm-close-tabs-with-key-button = Τερματισμός του { -brand-short-name }
+tabbrowser-ask-close-tabs-with-key-checkbox = Ερώτηση πριν από τον τερματισμό με { $quitKey }
+tabbrowser-confirm-close-warn-shortcut-title = Τερματισμός του { -brand-short-name } ή κλείσιμο τρέχουσας καρτέλας;
+tabbrowser-confirm-close-windows-warn-shortcut-button =
+    { PLATFORM() ->
+        [windows] Έξοδος από το { -brand-short-name }
+       *[other] Τερματισμός του { -brand-short-name }
+    }
+tabbrowser-confirm-close-tab-only-button = Κλείσιμο τρέχουσας καρτέλας
+tabbrowser-confirm-open-multiple-tabs-title = Επιβεβαίωση ανοίγματος
+tabbrowser-confirm-open-multiple-tabs-message =
+    { $tabCount ->
+       *[other] Πρόκειται να ανοίξετε { $tabCount } καρτέλες. Αυτό πιθανόν να επιβραδύνει το { -brand-short-name } κατά τη φόρτωση των σελίδων. Θέλετε σίγουρα να συνεχίσετε;
+    }
+tabbrowser-confirm-open-multiple-tabs-button = Άνοιγμα καρτελών
+tabbrowser-confirm-open-multiple-tabs-checkbox = Προειδοποίηση όταν το άνοιγμα πολλαπλών καρτελών ενδέχεται να επιβραδύνει το { -brand-short-name }
+tabbrowser-confirm-caretbrowsing-title = Περιήγηση με κέρσορα
+tabbrowser-confirm-caretbrowsing-message = Πατώντας το F7 (απ)ενεργοποιείται η περιήγηση με κέρσορα. Αυτή η λειτουργία προβάλλει έναν κινούμενο κέρσορα στις ιστοσελίδες και σας επιτρέπει να επιλέγετε κείμενο με το πληκτρολόγιο. Θέλετε να ενεργοποιήσετε την περιήγηση με κέρσορα;
+tabbrowser-confirm-caretbrowsing-checkbox = Να μην εμφανιστεί αυτός ο διάλογος ξανά.
+tabbrowser-confirm-close-all-duplicate-tabs-title = Κλείσιμο διπλών καρτελών;
+tabbrowser-confirm-close-all-duplicate-tabs-text =
+    Θα κλείσουμε τις διπλές καρτέλες σε αυτό το παράθυρο. Η τελευταία ενεργή
+    καρτέλα θα παραμείνει ανοικτή.
+tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs = Κλείσιμο καρτελών
+tabbrowser-allow-dialogs-to-get-focus =
+    .label = Να επιτρέπεται σε ειδοποιήσεις του { $domain } να σας μεταφέρουν στην καρτέλα τους
+tabbrowser-customizemode-tab-title = Προσαρμογή του { -brand-short-name }
+tabbrowser-context-mute-tab =
+    .label = Σίγαση καρτέλας
+    .accesskey = σ
+tabbrowser-context-mute-tab2 =
+    .label = Σίγαση
+    .accesskey = Σ
+tabbrowser-context-unmute-tab =
+    .label = Άρση σίγασης καρτέλας
+    .accesskey = σ
+tabbrowser-context-unmute-tab2 =
+    .label = Άρση σίγασης
+    .accesskey = σ
+tabbrowser-context-mute-selected-tabs =
+    .label = Σίγαση καρτελών
+    .accesskey = Σ
+tabbrowser-context-unmute-selected-tabs =
+    .label = Αναίρεση σίγασης καρτελών
+    .accesskey = ν
+tabbrowser-tab-audio-playing-description = Αναπαραγωγή ήχου
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = Παράθεση και των { $tabCount } καρτελών
+tabbrowser-manager-mute-tab =
+    .tooltiptext = Σίγαση καρτέλας
+tabbrowser-manager-unmute-tab =
+    .tooltiptext = Άρση σίγασης καρτέλας
+tabbrowser-manager-close-tab =
+    .tooltiptext = Κλείσιμο καρτέλας
+tabbrowser-manager-closed-tab-group =
+    .label = { $tabGroupName }
+    .tooltiptext = { $tabGroupName } — Έκλεισε
+tabbrowser-manager-current-window-tab-group =
+    .label = { $tabGroupName }
+    .tooltiptext = { $tabGroupName } — Τρέχον παράθυρο
+tab-groups-list-title = Ομάδες καρτελών
+tab-group-name-default = Ανώνυμη ομάδα
+tab-group-editor-title-create = Δημιουργία ομάδας καρτελών
+tab-group-editor-title-edit = Διαχείριση ομάδας καρτελών
+tab-group-editor-name-label = Όνομα
+tab-group-editor-name-field =
+    .placeholder = Παράδειγμα: Αγορές
+tab-group-editor-cancel =
+    .label = Ακύρωση
+    .accesskey = Α
+tab-group-editor-color-selector =
+    .aria-label = Χρώμα ομάδας καρτελών
+tab-group-editor-color-selector2-blue = Μπλε
+    .title = Μπλε
+tab-group-editor-color-selector2-purple = Μοβ
+    .title = Μοβ
+tab-group-editor-color-selector2-cyan = Κυανό
+    .title = Κυανό
+tab-group-editor-color-selector2-orange = Πορτοκαλί
+    .title = Πορτοκαλί
+tab-group-editor-color-selector2-yellow = Κίτρινο
+    .title = Κίτρινο
+tab-group-editor-color-selector2-pink = Ροζ
+    .title = Ροζ
+tab-group-editor-color-selector2-green = Πράσινο
+    .title = Πράσινο
+tab-group-editor-color-selector2-gray = Γκρι
+    .title = Γκρι
+tab-group-editor-color-selector2-red = Κόκκινο
+    .title = Κόκκινο
+tab-group-menu-closed-tab-group =
+    .label = { $tabGroupName }
+    .title = { $tabGroupName } — Κλειστό
+tab-group-description = { $tabGroupName } — Ομάδα καρτελών
+tab-group-label-tooltip-collapsed = { $tabGroupName } — Συμπτυγμένο
+tab-group-label-tooltip-expanded = { $tabGroupName } — Αναπτυγμένο
+tab-group-preview-name =
+    .aria-label = Καρτέλες σε συμπτυγμένη ομάδα
+tab-group-preview-open-description = Η λίστα καρτελών είναι ανοικτή
+tab-group-preview-closed-description = Η λίστα καρτελών είναι κλειστή
+tab-context-unnamed-group =
+    .label = Ανώνυμη ομάδα
+tab-group-overflow-count = +{ $tabCount }
+tab-group-overflow-count-tooltip =
+    { $tabCount ->
+        [one] { $tabCount } καρτέλα ακόμα
+       *[other] { $tabCount } καρτέλες ακόμα
+    }
+tab-context-move-tab-to-new-group =
+    .label =
+        { $tabCount ->
+            [1] Προσθήκη καρτέλας σε νέα ομάδα
+           *[other] Προσθήκη καρτελών σε νέα ομάδα
+        }
+    .accesskey = ο
+tab-context-move-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] Προσθήκη καρτέλας σε ομάδα
+           *[other] Προσθήκη καρτελών σε ομάδα
+        }
+    .accesskey = ο
+tab-context-move-split-view-to-new-group =
+    .label =
+        { $splitViewCount ->
+            [1] Προσθήκη διαχωρισμένης προβολής σε νέα ομάδα
+           *[other] Προσθήκη διαχωρισμένων προβολών σε νέα ομάδα
+        }
+    .accesskey = ο
+tab-context-move-split-view-to-group =
+    .label =
+        { $splitViewCount ->
+            [1] Προσθήκη διαχωρισμένης προβολής σε ομάδα
+           *[other] Προσθήκη διαχωρισμένων προβολών σε ομάδα
+        }
+    .accesskey = ο
+tab-splitview-splitter =
+    .aria-label = Αλλαγή μεγέθους καρτελών διαχωρισμού προβολής
+tab-devtools-splitter =
+    .aria-label = Αλλαγή μεγέθους πίνακα εργαλείων ανάπτυξης
+tab-context-move-tab-to-group-saved-groups =
+    .label = Κλεισμένες ομάδες
+tab-group-editor-action-new-tab =
+    .label = Νέα καρτέλα στην ομάδα
+tab-group-editor-action-new-window =
+    .label = Μετακίνηση ομάδας σε νέο παράθυρο
+tab-group-editor-action-copy-links =
+    .label =
+        { $linkCount ->
+            [1] Αντιγραφή συνδέσμου στην ομάδα
+           *[other] Αντιγραφή { $linkCount } συνδέσμων στην ομάδα
+        }
+tab-group-editor-action-save =
+    .label = Αποθήκευση και κλείσιμο ομάδας
+tab-group-editor-action-ungroup =
+    .label = Κατάργηση ομάδας καρτελών
+tab-group-editor-action-delete =
+    .label = Διαγραφή ομάδας
+tab-group-editor-done =
+    .label = Τέλος
+    .accessKey = Τ
+tab-group-editor-action-share-group =
+    .label = Κοινοποίηση ομάδας
+tab-context-reopen-tab-group =
+    .label = Επαναφορά ομάδας καρτελών
+tab-context-ungroup-tab =
+    .label =
+        { $groupCount ->
+            [1] Αφαίρεση από ομάδα
+           *[other] Αφαίρεση από ομάδες
+        }
+    .accesskey = Α
+tab-groups-list-create-group-button = Νέα ομάδα
+tab-groups-list-empty-header = Τακτοποιήστε τις καρτέλες σας
+tab-groups-list-empty-description = Σύρετε μία καρτέλα πάνω σε μια άλλη ή κάντε δεξί κλικ σε μια καρτέλα για να ξεκινήσετε την οργάνωση. Θα αποθηκεύσουμε τις ομάδες σας εδώ για εύκολη εύρεση αργότερα.
+tab-groups-list-empty-button = Δημιουργία ομάδας καρτελών
+tab-group-context-move-to-new-window =
+    .label = Μετακίνηση ομάδας σε νέο παράθυρο
+tab-group-context-move-to-this-window =
+    .label = Μετακίνηση ομάδας σε αυτό το παράθυρο
+tab-group-context-share-group =
+    .badge = Νέα
+    .label = Κοινή χρήση ομάδας
+tab-group-context-delete =
+    .label = Διαγραφή ομάδας
+tab-group-context-open-saved-group-in-this-window =
+    .label = Άνοιγμα ομάδας σε αυτό το παράθυρο
+tab-group-context-open-saved-group-in-new-window =
+    .label = Άνοιγμα ομάδας σε νέο παράθυρο
+tab-context-add-note =
+    .label = Προσθήκη σημείωσης
+    .accesskey = Π
+tab-context-edit-note =
+    .label = Επεξεργασία σημείωσης
+    .accesskey = Ε
+tab-context-delete-note =
+    .label = Διαγραφή σημείωσης
+    .accesskey = Δ
+tab-note-editor-title-create = Προσθήκη σημείωσης
+tab-note-editor-title-edit = Επεξεργασία σημείωσης
+tab-note-editor-text-field =
+    .placeholder = Τι θέλετε να θυμάστε από αυτήν την καρτέλα;
+tab-note-editor-button-cancel =
+    .label = Ακύρωση
+    .accesskey = Α
+tab-note-editor-button-save =
+    .label = Αποθήκευση
+    .accesskey = θ
+tab-note-editor-button-delete =
+    .aria-label = Διαγραφή σημείωσης
+    .title = Διαγραφή σημείωσης
+    .accesskey = Δ
+tab-note-preview-edit-icon =
+    .alt = Επεξεργασία σημείωσης
+tab-note-preview-expand = Διαβάστε περισσότερα
+tab-note-panel-add-note-new-badge =
+    .label = Νέο
+tab-note-editor-character-limit =
+    { $maxAllowedCharacters ->
+       *[other] { NUMBER($totalCharacters, useGrouping: "false") }/{ NUMBER($maxAllowedCharacters, useGrouping: "false") } χαρακτήρες
+    }
+tabbrowser-tab-label-tab-split-view-left = { $label }, Διαχωρισμός προβολής αριστερά
+tabbrowser-tab-label-tab-split-view-right = { $label }, Διαχωρισμός προβολής δεξιά
+tab-context-add-split-view =
+    .label = Έναρξη διαχωρισμού προβολής
+    .accesskey = ξ
+tab-context-open-in-split-view =
+    .label = Άνοιγμα σε διαχωρισμό προβολής
+    .accesskey = γ
+tab-context-separate-split-view =
+    .label = Αναίρεση διαχωρισμού προβολής
+    .accesskey = σ
+tab-context-reverse-split-view =
+    .label = Αντιστροφή καρτελών
+    .accesskey = ρ
+tab-context-badge-new = Νέο
+split-view-menuitem-separate-tabs =
+    .label = Διαχωρισμός καρτελών
+split-view-menuitem-reverse-tabs =
+    .label = Αντιστροφή καρτελών
+split-view-menuitem-close-both-tabs =
+    .label = Κλείσιμο και των δύο καρτελών

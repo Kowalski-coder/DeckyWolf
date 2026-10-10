@@ -1,0 +1,15 @@
+about-policies-title = उद्यम नीतियां
+active-policies-tab = सक्रिय
+errors-tab = त्रुटियाँ
+documentation-tab = प्रलेखन
+active-policies-tab-title =
+    .title = सक्रिय
+errors-tab-title =
+    .title = त्रुटियाँ
+documentation-tab-title =
+    .title = प्रलेखन
+no-specified-policies-message = एंटरप्राइज़ निति सेवा सक्रिय है, पर कोई भी निति सक्षम नहीं है।
+inactive-message = एंटरप्राइज़ निति सेवा निष्क्रिय है।
+policy-name = पॉलिसी का नाम
+policy-value = पॉलिसी मूल्य
+policy-errors = पॉलिसी त्रुटियाँ

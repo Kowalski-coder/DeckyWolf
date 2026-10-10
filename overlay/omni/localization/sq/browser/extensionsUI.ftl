@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } do të dojë të ndryshojë motorin tuaj parazgjedhje të kërkimeve nga { $currentEngine } në { $newEngine }. A është në rregull kjo?
+webext-default-search-yes =
+    .label = Po
+    .accesskey = P
+webext-default-search-no =
+    .label = Jo
+    .accesskey = J
+addon-post-install-message = { $addonName } u shtua.
+webext-quarantine-confirmation-title = Të xhirohet { $addonName } në sajte me kufizime?
+webext-quarantine-confirmation-line-1 = Që të mbrohen të dhënat tuaja, ky zgjerim në këtë sajt nuk lejohet.
+webext-quarantine-confirmation-line-2 = Lejojeni këtë zgjerim, nëse i zini besë të lexojë dhe ndryshojë të dhënat tuaja në sajte me kufizime nga { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Lejoje
+    .accesskey = L
+webext-quarantine-confirmation-deny =
+    .label = Mos e Lejo
+    .accesskey = M

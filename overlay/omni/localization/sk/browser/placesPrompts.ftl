@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (bez názvu)
+places-load-js-data-url-error = Z bezpečnostných dôvodov nemôžu byť adresy “javascript:” či “data:” načítané z okna histórie alebo bočného panela.
+places-bookmarks-backup-title = Názov súboru so zálohou záložiek
+places-bookmarks-restore-alert-title = Obnova záložiek
+places-bookmarks-restore-alert = Týmto nahradíte všetky svoje aktuálne záložky zálohou. Naozaj to chcete urobiť?
+places-bookmarks-restore-title = Výber zálohy záložiek
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Nepodporovaný typ súboru.
+places-bookmarks-restore-parse-error = Nie je možné spracovať súbor zálohy.
+places-bookmarks-import = Import súboru záložiek
+places-bookmarks-export = Export súboru záložiek
+places-bookmarks-paste-error-title = Našli sa neplatné adresy URL
+places-bookmarks-paste-error-message-header = Nasledujúce adresy URL sa nepodarilo pridať do vašich záložiek. Skúste skontrolovať formátovanie a znova ich pridať.

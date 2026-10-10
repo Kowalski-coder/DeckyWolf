@@ -1,0 +1,26 @@
+restore-page-tab-title = Враќање на сесија
+restore-page-error-title = Извинете. Имаме проблеми со враќањето на вашите страници.
+restore-page-problem-desc = Не успеав да ја вратам вашата последна сесија. Изберете Врати сесија за да се обидам повторно.
+restore-page-try-this = Сѐ уште не можете да ја вратите вашата сесија? Понекогаш некое јазиче може да биде проблем. Прегледајте ја листата со јазичињата од порано, отштиклирајте ги тие што не сакате да ги вратите и потоа обновете ја сесијата.
+restore-page-hide-tabs = Скриј претходни јазичиња
+restore-page-show-tabs = Види претходни јазичиња
+restore-page-window-label = Прозорец { $windowNumber }
+restore-page-restore-header =
+    .label = Врати
+restore-page-list-header =
+    .label = Прозорци и јазичиња
+restore-page-try-again-button =
+    .label = Врати сесија
+    .accesskey = В
+restore-page-close-button =
+    .label = Започни нова сесија
+    .accesskey = Н
+welcome-back-tab-title = Успех!
+welcome-back-page-title = Успех!
+welcome-back-page-info = { -brand-short-name } веќе се користи.
+welcome-back-restore-button =
+    .label = Да започнеме!
+    .accesskey = Д
+welcome-back-restore-all-label = Врати ги сите прозорци и јазичиња
+welcome-back-restore-some-label = Врати ги само тие што сакаш
+welcome-back-page-info-link = Вашите додатоци и прилагодувања беа избришани и прелистувачот е вратен на основните прилагодувања. Ако ова не го реши вашиот проблем, <a data-l10n-name="link-more">дознајте повеќе за тоа што Вие можете да направите.</a>

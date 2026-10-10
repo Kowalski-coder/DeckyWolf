@@ -1,0 +1,151 @@
+genai-settings-chat-chatgpt-links = ChatGPT を選ぶと、OpenAI の <a data-l10n-name="link1">利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-claude-links = Anthropic Claude を選ぶと、Anthropic の <a data-l10n-name="link1">顧客サービス規約</a> および <a data-l10n-name="link2">利用ポリシー</a>、<a data-l10n-name="link3">プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-copilot-links = Copilot を選ぶと、<a data-l10n-name="link1">Copilot AI 使用条件</a> および <a data-l10n-name="link2">Microsoft のプライバシーに関する声明</a> に同意したものとみなされます。
+genai-settings-chat-gemini-links = Google Gemini を選ぶと、<a data-l10n-name="link1">Google サービス利用規約</a> および <a data-l10n-name="link2">生成 AI の使用禁止に関するポリシー</a>、<a data-l10n-name="link3">Gemini アプリプライバシー通知</a> に同意したものとみなされます。
+genai-settings-chat-huggingchat-links = HuggingChat を選ぶと、<a data-l10n-name="link1">HuggingChat プライバシー通知</a> および <a data-l10n-name="link2">Hugging Face プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-lechat-links-2 = Mistral Vibe を選ぶと、Mistral AI の <a data-l10n-name="link1">サービス利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-localhost-links = { -vendor-short-name } の Innovation グループによる <a data-l10n-name="link1">llamafile</a> など独自のプライベートなローカルチャットボットを利用する。
+genai-prompt-prefix-selection = I’m on page “{ $tabTitle }” with “{ $selection }” selected.
+genai-prompts-summarize =
+    .label = 要約する
+    .value = Please summarize the selection using precise and concise language in Japanese. Use headers and bulleted lists in the summary, to make it scannable. Maintain the meaning and factual accuracy.
+genai-prompts-simplify =
+    .label = やさしい言葉にする
+    .value = Please rewrite the selection using short sentences and simple words in Japanese. Maintain the meaning and factual accuracy.
+genai-prompts-quiz =
+    .label = クイズを出す
+    .value = Please quiz me in Japanese on this selection. Ask me a variety of types of questions, for example multiple choice, true or false, and short answer. Wait for my response before moving on to the next question.
+genai-prompts-explain =
+    .label = これを説明する
+    .value = Please explain the key concepts in this selection, using simple words in Japanese. Also, use examples.
+genai-prompts-proofread =
+    .label = 校正
+    .value = Please proofread the selection for spelling and grammar errors. Identify any mistakes and provide a corrected version of the text. Maintain the meaning and factual accuracy and output the list of proposed corrections first, followed by the final, corrected version of the text.
+genai-menu-ask-smart-window =
+    .label = 尋ねる...
+    .accesskey = z
+genai-menu-no-provider-2 =
+    .label = AI チャットボットに尋ねる
+    .accesskey = z
+genai-menu-choose-chatbot =
+    .label = AI チャットボットを選ぶ
+genai-menu-ask-generic-2 =
+    .label = AI チャットボットに尋ねる
+    .accesskey = z
+genai-menu-ask-provider-2 =
+    .label = { $provider } に尋ねる
+    .accesskey = z
+genai-menu-open-generic =
+    .label = AI チャットボットを開く
+genai-menu-open-provider =
+    .label = { $provider } を開く
+genai-menu-remove-generic =
+    .label = AI チャットボットを削除
+genai-menu-remove-provider =
+    .label = { $provider } を削除
+genai-menu-remove-sidebar =
+    .label = サイドバーから削除
+genai-shortcut-button =
+    .aria-label = { $provider } に尋ねる
+genai-menu-new-badge = 新機能
+genai-menu-summarize-page = ページを要約
+genai-input-ask-smart-window =
+    .placeholder = 尋ねる...
+genai-input-ask-generic =
+    .placeholder = AI チャットボットに尋ねる...
+genai-input-ask-provider =
+    .placeholder = { $provider } に尋ねる...
+genai-shortcuts-selected-warning-generic =
+    .heading = 選択範囲が AI チャットボットの取得できる文字数を超えています
+    .message =
+        { $selectionLength ->
+           *[other] { $selectionLength } 文字選択されています。AI チャットボットに送信できる文字数は最大 { $maxLength } 文字までです。
+        }
+genai-shortcuts-selected-warning =
+    .heading = 選択範囲が { $provider } の取得できる文字数を超えています
+    .message =
+        { $selectionLength ->
+           *[other] { $selectionLength } 文字選択されています。{ $provider } に送信できる文字数は最大 { $maxLength } 文字までです。
+        }
+genai-shortcuts-hide =
+    .label = チャットボットのショートカットを隠す
+genai-chatbot-title = AI chatbot
+genai-header-provider-menu =
+    .title = チャットボットを選んでください
+genai-header-settings-button =
+    .title = AI チャット設定
+genai-header-close-button =
+    .title = 閉じる
+genai-provider-view-details =
+    .label = チャットボットの詳細を表示
+genai-options-reload-generic =
+    .label = AI チャットボットを再読み込み
+genai-options-reload-provider =
+    .label = { $provider } を再読み込み
+genai-options-show-shortcut =
+    .label = テキスト選択時にショートカットを表示する
+genai-options-hide-shortcut =
+    .label = テキスト選択時のショートカットを隠す
+genai-options-about-chatbot =
+    .label = { -brand-short-name } の AI チャットボットについて
+genai-page-warning =
+    .message = ページ内容が多いため、部分的な要約が表示されています。
+genai-page-button-summarize = ページを要約
+genai-chatbot-summarize-title = 新機能！ ワンクリックでページを要約
+genai-chatbot-summarize-button = ページを要約
+genai-chatbot-summarize-sidebar-provider-subtitle = サイドバーで AI チャットボットを右クリックし、[{ genai-menu-summarize-page }] を選択します。
+genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーでキラ星を右クリックし、[{ genai-menu-summarize-page }] を選択します。初めて利用するときは AI チャットボットを選んでください。
+genai-chatbot-summarize-footer-provider-subtitle = サイドバーで AI チャットボットを開き、下部の [{ genai-menu-summarize-page }] を選択します。
+genai-chatbot-summarize-footer-generic-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加して、すばやくページを要約しましょう。
+genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使用する
+genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットとブラウザーを並べて表示できます。
+genai-chatbot-contextual-button = チャットボットを選ぶ
+genai-onboarding-choose-header = { -brand-short-name } サイドバー内で使用する AI チャットボットを選んでください
+genai-onboarding-choose-description = いつでも切り替えられます。チャットボットの選び方については、<a data-l10n-name="learn-more">各チャットボットの詳細</a> をご覧ください。
+genai-onboarding-primary = 続ける
+genai-onboarding-secondary = 閉じる
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
+genai-model-optin-continue =
+    .label = 続ける
+genai-model-optin-optout =
+    .label = キャンセル
+genai-model-optin-cancel =
+    .label = キャンセル
+link-preview-reading-time = 読了時間 { $range } 分
+link-preview-error-message-v2 = { -brand-short-name } はこのリンクをプレビューできません
+link-preview-visit-link = リンク先を開く
+link-preview-generation-error-missing-data-v2 = { -brand-short-name } はこのウェブページの要点を生成できません。
+link-preview-generation-error-unexpected = 問題が発生しました。
+link-preview-generation-retry = 再度試す
+link-preview-settings-button =
+    .title = リンク先プレビュー設定
+link-preview-settings-enable =
+    .label = リンク先プレビューを有効にする
+    .description = リンクをショートカット操作または右クリックし、リンク先ページのタイトルや説明をプレビュー表示します。
+link-preview-settings-key-points =
+    .label = AI にページの冒頭を読み込んで要点を生成することを許可する
+link-preview-settings-long-press =
+    .label = リンク先プレビューのショートカットを有効にする (リンクを 1 秒以上長押し)
+link-preview-optin-title = AI でさらに表示しますか？
+link-preview-optin-message = { -brand-short-name } が AI を利用してページの冒頭を読み込み、要点を生成します。この処理はプライバシーを優先するため端末上で行われます。
+link-preview-onboarding-title-long-press = 新機能: リンクを長押ししてプレビュー
+link-preview-onboarding-description-long-press = リンク先の短い説明、読了時間などを表示して、リンク先を開くかどうかを判断できます。右クリックメニューからもプレビューできます。
+link-preview-key-points-header = 要点
+link-preview-key-points-disclaimer = 要点は AI が生成するため誤りを含む可能性があります。
+link-preview-setup = 初回セットアップ • <strong>{ $progress }%</strong>
+link-preview-setup-faster-next-time = 次回以降はさらに早く要点が表示されます。
+link-preview-onboarding-button = プレビューを表示
+link-preview-onboarding-close = 閉じる
+link-preview-first-time-setup-title = 初回セットアップ
+link-preview-first-time-setup-message = しばらくお待ちください。次回からは要点がすばやく表示されます。

@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (без заголовка)
+places-load-js-data-url-error = Из соображений безопасности загрузка адресов «javascript:» или «data:» из окна журнала или боковой панели запрещена.
+places-bookmarks-backup-title = Имя файла резервной копии закладок
+places-bookmarks-restore-alert-title = Восстановление закладок
+places-bookmarks-restore-alert = Все ваши текущие закладки будут заменены закладками из резервной копии. Вы уверены?
+places-bookmarks-restore-title = Выберите резервную копию закладок
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Неподдерживаемый тип файла.
+places-bookmarks-restore-parse-error = Не удалось обработать файл резервной копии.
+places-bookmarks-import = Импорт файла закладок
+places-bookmarks-export = Экспорт файла закладок
+places-bookmarks-paste-error-title = Найдены некорректные URL
+places-bookmarks-paste-error-message-header = Не удалось добавить следующие URL в ваши закладки. Попробуйте проверить форматирование и добавить их снова.

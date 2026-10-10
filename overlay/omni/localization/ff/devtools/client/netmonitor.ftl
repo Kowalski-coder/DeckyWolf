@@ -1,0 +1,14 @@
+network-menu-summary-tooltip-perf =
+    .title = Fuɗɗo ƴeewndo jaawgol golle
+network-menu-summary-tooltip-domcontentloaded =
+    .title = Sahaa nde “DOMContentLoaded” joljolal ngal waɗi
+network-menu-summary-tooltip-load =
+    .title = Sahaa nde “loowdi” kewu waɗi
+network-menu-summary-tooltip-requests-count =
+    .title = Limoore ɗaɓɓitanɗe
+network-menu-summary-transferred = { $formattedContentSize } / { $formattedTransferredSize } ɓenninaama
+network-menu-summary-tooltip-transferred =
+    .title = Mawneeki/transferred mawneeki ɗaɓɓitanɗe ɗee fof
+network-menu-summary-finish = Gasnu: { $formattedTime }
+network-menu-summary-tooltip-finish =
+    .title = Kuuɓal sahaa coklaaɗo ngam loowde ɗaɓɓitanɗe ɗee fof

@@ -1,0 +1,14 @@
+identity-credential-header-providers = Se connectar amb un provesidor d’identificants
+identity-credential-header-accounts = Se connectar amb { $provider }
+identity-credential-urlbar-anchor =
+    .tooltiptext = Dobrir lo panèl d’identificants
+identity-credential-cancel-button =
+    .label = Anullar
+    .accesskey = n
+identity-credential-accept-button =
+    .label = Contunhar
+    .accesskey = C
+identity-credential-sign-in-button =
+    .label = Se connectar
+    .accesskey = S
+identity-credential-policy-title = Utilizar { $provider } coma provesidor d’identificants

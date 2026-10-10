@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Nova lapela contedor
+all-tabs-menu-hidden-tabs =
+    .label = Lapelas agochadas
+all-tabs-menu-recent-tab-groups-header = Grupos de pestanas recentes
+all-tabs-menu-tab-groups-show-all =
+    .label = Amosar todo
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de pestanas
+all-tabs-menu-current-window-header = Ventá actual

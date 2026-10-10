@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Pösa inta diciaraçion do debugger
+whypaused-breakpoint = In pösa into ponto de interuçion
+whypaused-exception = In pösa inta eceçion
+whypaused-resume-limit = In pösa passo a passo
+whypaused-pause-on-dom-events = In pösa into listener evento
+whypaused-breakpoint-condition-thrown = Erô do pónto de interuçión co-a condiçión
+whypaused-promise-rejection = In pösa in sciâ promissa de refuo
+whypaused-assert = In pösa inta aserçion
+whypaused-debug-command = In pösa inta fonçion debagâ
+whypaused-other = Debugger in pösa

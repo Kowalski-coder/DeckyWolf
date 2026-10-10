@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cerca in tutte le schede
+all-tabs-menu-new-user-context =
+    .label = Nuova scheda contenitore
+all-tabs-menu-hidden-tabs =
+    .label = Schede nascoste
+all-tabs-menu-close-duplicate-tabs =
+    .label = Chiudi schede duplicate
+all-tabs-menu-view-all-tabs =
+    .label = Visualizza tutte le schede
+all-tabs-menu-recent-tab-groups-header = Gruppi di schede recenti
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostra tutto
+all-tabs-menu-tab-groups-sub-view =
+    .title = Gruppi di schede
+all-tabs-menu-current-window-header = Finestra corrente

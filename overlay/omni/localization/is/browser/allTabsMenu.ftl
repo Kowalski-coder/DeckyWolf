@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Leita í öllum flipum
+all-tabs-menu-new-user-context =
+    .label = Nýr sérefnisflipi
+all-tabs-menu-hidden-tabs =
+    .label = Faldir flipar
+all-tabs-menu-close-duplicate-tabs =
+    .label = Loka tvíteknum flipum
+all-tabs-menu-view-all-tabs =
+    .label = Skoða alla flipa
+all-tabs-menu-recent-tab-groups-header = Nýlegir flipahópar
+all-tabs-menu-tab-groups-show-all =
+    .label = Birta allt
+all-tabs-menu-tab-groups-sub-view =
+    .title = Flipahópar
+all-tabs-menu-current-window-header = Núverandi gluggi

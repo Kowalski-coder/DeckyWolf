@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Адкрыць { -brand-short-name } у рэжыме вырашэння праблем?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Адкрыць
+refresh-profile =
+    .label = Ачысціць { -brand-short-name }
+troubleshoot-mode-description = Выкарыстоўвайце гэты спецыяльны рэжым { -brand-short-name } для дыягностыкі праблем. Вашы пашырэнні і налады будуць часова адключаны.
+skip-troubleshoot-refresh-profile = Яшчэ вы можаце прапусціць пошук рашэння і замест ачысціць { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } нечакана закрыўся падчас запуску. Гэта магло стацца з-за дадаткаў ці іншых праблем. Вы можаце паспрабаваць вырашыць праблему, запусціўшыся ў бяспечным рэжыме.

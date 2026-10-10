@@ -1,0 +1,181 @@
+tab-context-new-tab-open =
+    .label = Ny fane til høgre
+    .accesskey = h
+tab-context-new-tab-open-vertical =
+    .label = Ny fane nedanfor
+    .accesskey = n
+tab-context-new-group =
+    .label = Ny gruppe
+    .accesskey = N
+reload-tab =
+    .label = Oppdater fane
+    .accesskey = O
+reload-tab2 =
+    .label = Oppdater
+    .accesskey = O
+select-all-tabs =
+    .label = Vel alle faner
+    .accesskey = f
+tab-context-play-tab =
+    .label = Spel fane
+    .accesskey = S
+tab-context-play-tabs =
+    .label = Spel av faner
+    .accesskey = S
+duplicate-tab =
+    .label = Dupliser fane
+    .accesskey = D
+duplicate-tab2 =
+    .label = Duplikat
+    .accesskey = D
+duplicate-tabs =
+    .label = Dupliser faner
+    .accesskey = D
+duplicate-tabs2 =
+    .label = Duplikat
+    .accesskey = D
+close-tabs-to-the-start =
+    .label = Lat att faner til venstre
+    .accesskey = L
+close-tabs-to-the-start-vertical =
+    .label = Lat att fana ovanfor
+    .accesskey = o
+close-tabs-to-the-end =
+    .label = Lat att faner til høgre
+    .accesskey = h
+close-tabs-to-the-end-vertical =
+    .label = Lat att fana nedanfor
+    .accesskey = n
+close-other-tabs =
+    .label = Lat att andre faner
+    .accesskey = a
+tab-context-unload-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] Frigjer fane
+           *[other] Frigjer { $tabCount } faner
+        }
+    .accesskey = F
+tab-context-unload-tabs =
+    .label = Frigjer
+    .accesskey = F
+reload-tabs =
+    .label = Oppdater faner
+    .accesskey = O
+pin-tab =
+    .label = Fest fane
+    .accesskey = F
+tab-context-pin-tab2 =
+    .label = Fest
+    .accesskey = F
+unpin-tab =
+    .label = Løys fane
+    .accesskey = s
+tab-context-unpin-tab2 =
+    .label = Løys
+    .accesskey = L
+pin-selected-tabs =
+    .label = Fest faner
+    .accesskey = F
+unpin-selected-tabs =
+    .label = Løys faner
+    .accesskey = e
+bookmark-selected-tabs =
+    .label = Bokmerk faner…
+    .accesskey = B
+tab-context-bookmark-tab =
+    .label = Bokmerk fane…
+    .accesskey = B
+tab-context-bookmark-tab2 =
+    .label = Bokmerk
+    .accesskey = B
+tab-context-open-in-new-container-tab =
+    .label = Opne i ny behaldarfane
+    .accesskey = O
+tab-context-open-in-new-container-tab2 =
+    .label = Opne i ei ny behaldarfane
+    .accesskey = O
+move-to-start =
+    .label = Flytt heilt til venstre
+    .accesskey = v
+move-to-end =
+    .label = Flytt heilt til høgre
+    .accesskey = h
+move-to-new-window =
+    .label = Flytt til eit nytt vindauge
+    .accesskey = F
+move-to-new-profile =
+    .label = Flytt til { $profileName }
+tab-context-close-multiple-tabs =
+    .label = Lat att fleire faner
+    .accesskey = f
+tab-context-close-multiple-tabs2 =
+    .label = Lat att fleire
+    .accesskey = L
+tab-context-close-duplicate-tabs =
+    .label = Lat att dupliserte faner
+    .accesskey = a
+tab-context-close-duplicate-tabs2 =
+    .label = Lat att duplikat av denne fana
+    .accesskey = a
+tab-context-share-url =
+    .label = Del
+    .accesskey = D
+tab-context-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] Opne attlaten fane
+           *[other] Opne attlatne faner
+        }
+    .accesskey = a
+tab-context-close-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] Lat att fane
+           *[other] Lat att { $tabCount } faner
+        }
+    .accesskey = L
+tab-context-close-n-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] Lat att
+           *[other] Lat att { $tabCount } faner
+        }
+    .accesskey = L
+tab-context-move-tabs =
+    .label =
+        { $tabCount ->
+            [1] Flytt fane
+           *[other] Flytt faner
+        }
+    .accesskey = F
+tab-context-move-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] Flytt fane til
+           *[other] Flytt { $tabCount } faner til
+        }
+    .accesskey = F
+tab-context-move-split-view =
+    .label = Flytt splitt vising til
+    .accesskey = F
+tab-context-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] Send til eining
+           *[other] Send { $tabCount } faner til eining
+        }
+    .accesskey = n
+tab-context-send-to-device2 =
+    .label = Send til einingane dine
+    .accesskey = n
+tab-context-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] Send til mobil
+           *[other] Send { $tabCount } faner til mobil
+        }
+    .accesskey = n
+tab-context-share-selected-tabs =
+    .label = Opprett delbar lenke
+    .accesskey = e

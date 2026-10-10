@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Hae kaikista välilehdistä
+all-tabs-menu-new-user-context =
+    .label = Uusi eristetty välilehti
+all-tabs-menu-hidden-tabs =
+    .label = Piilotetut välilehdet
+all-tabs-menu-close-duplicate-tabs =
+    .label = Sulje välilehtien kaksoiskappaleet
+all-tabs-menu-view-all-tabs =
+    .label = Näytä kaikki välilehdet
+all-tabs-menu-recent-tab-groups-header = Viimeisimmät välilehtiryhmät
+all-tabs-menu-tab-groups-show-all =
+    .label = Näytä kaikki
+all-tabs-menu-tab-groups-sub-view =
+    .title = Välilehtiryhmät
+all-tabs-menu-current-window-header = Nykyinen ikkuna

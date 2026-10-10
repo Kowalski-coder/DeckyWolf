@@ -1,0 +1,43 @@
+aboutDialog-title =
+    .title = { -brand-full-name } အကြောင်း
+releaseNotes-link = ဘာအသစ်တွေ ပါဝင်ပါသလဲ။
+update-checkForUpdatesButton =
+    .label = မွမ်းမံချက်များရှိ/မရှိ စစ်ဆေးမည်
+    .accesskey = C
+update-updateButton =
+    .label = { -brand-shorter-name } ကို အဆင့်မြှင့်ရန် ပြန်ဖွင့်ပါ
+    .accesskey = R
+update-checkingForUpdates = မွမ်းမံချက် အသစ်ရှိမရှိ စစ်နေသည်...
+settings-update-checking-for-updates =
+    .label = မွမ်းမံချက် အသစ်ရှိမရှိ စစ်နေသည်...
+settings-update-downloading-2 =
+    .label = နောက်ဆုံးပေါ်ပြုပြင်ချက်ကို ရယူနေသည် — { $transfer }
+aboutdialog-update-downloading = အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်နေသည် — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = အဆင့်မြှင့်တင်မှု ဆောင်ရွက်နေသည်…
+settings-update-applying =
+    .label = အဆင့်မြှင့်တင်မှု ဆောင်ရွက်နေသည်…
+update-failed = အဆင့်မြှင့်တင်ခြင်း မပြုလုပ်နိုင်ပါ။ <label data-l10n-name="failed-link">နောက်ဆုံးထွက်ဗားရှင်းကို ရယူမည်</label>
+update-failed-main = အဆင့်မြှင့်တင်ခြင်း မပြုလုပ်နိုင်ပါ။ <a data-l10n-name="failed-link-main">နောက်ဆုံးထွက်ဗားရှင်းကို ရယူမည်</a>
+update-noUpdatesFound = { -brand-short-name } သည် နောက်ဆုံးပေါ်အသစ် ဖြစ်သွားပြီဖြစ်သည်။
+settings-update-no-updates-found =
+    .label = { -brand-short-name } သည် နောက်ဆုံးပေါ်အသစ် ဖြစ်သွားပြီဖြစ်သည်။
+update-otherInstanceHandlingUpdates = { -brand-short-name } ကို အခြားတစ်ဖက်မှာ အဆင့်မြှင့်ပေးနေပါသည်။
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } ကို အခြားတစ်ဖက်မှာ အဆင့်မြှင့်ပေးနေပါသည်။
+aboutdialog-update-manual-with-link = နောက်ဆုံးပေါ်ရနိုင်သောနေရာသည် <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = နောက်ဆုံးပေါ်ရနိုင်သောနေရာသည် <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = ဒီကွန်ပျူတာစနစ်တွင် နောင်လာမည့် အဆင့်မြှင့်တင်မှုများကို လုပ်ဆောင်နိုင်တော့မည် မဟုတ်ပါ။ <label data-l10n-name="unsupported-link">ပိုမို လေ့လာပါ</label>
+settings-update-unsupported = ဒီကွန်ပျူတာစနစ်တွင် နောင်လာမည့် အဆင့်မြှင့်တင်မှုများကို လုပ်ဆောင်နိုင်တော့မည် မဟုတ်ပါ။ <a data-l10n-name="unsupported-link">ပိုမို လေ့လာပါ</a>
+update-restarting = ပြန်ဖွင့်နေသည်…
+settings-update-restarting =
+    .label = ပြန်ဖွင့်နေသည်…
+aboutdialog-channel-description = သင်သည် နောက်ဆုံး ထွက်ရှိသော အဆင့်မြင့်တင်မှု့ ချန်နယ် <label data-l10n-name="current-channel">{ $channel }</label> သို့‌ ရောက်ရှိနေပါသည်။
+warningDesc-version = { -brand-short-name } သည် စမ်းသပ်နေဆဲအရာဖြစ်ပြီး မတည်ငြိမ်မှု ဖြစ်ကောင်းဖြစ်နိုင်သည်။
+aboutdialog-help-user = { -brand-product-name } အကူအညီ
+aboutdialog-submit-feedback = အကြုံပြုချက်ကို ပေးပို့ရန်
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> သည် လွတ်လပ် ပွင့်လင်းပြီး အများပြည်သူတို့ အားလုံး လက်လှမ်းမီနိုင်စေရန် လုပ်ဆောင်နေသော <label data-l10n-name="community-exp-creditsLink">ကမ္ဘာလုံးဆိုင်ရာ လူမှုအဖွဲ့အစည်း </label>  ဖြစ်ပါသည်။
+community-2 = { -brand-short-name } ကို <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, a<label data-l10n-name="community-creditsLink">ကမ္ဘာလုံးဆိုင်ရာ လူမှုအဖွဲ့အစည်း</label> ဝဘ် အများပိုင်ဖြစ်ရန် ၊ ပွင့်လင်းမြင်သာရန် ၊ အသုံးပြုနိုင်ရန် ရည်ရွယ်သည်။
+helpus = အကူအညီပေးချင်ပါသလား။ <label data-l10n-name="helpus-donateLink">လှူဒါန်းပါ</label> သို့မဟုတ် <label data-l10n-name="helpus-getInvolvedLink">ပါဝင်ဆောင်ရွက်ပါ။</label>
+bottomLinks-license = လိုင်စင်အကြောင်းသိကောင်းစရာ
+aboutDialog-version = { $version }({ $bits } -bit)
+aboutDialog-version-nightly = { $version }{ $isodate } ({ $bits }-bit)

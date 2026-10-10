@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Part d’aquesta pagina a fracassat.</strong> Per notificar { -brand-product-name } d’aqueste problèma e que siá reglat, enviatz un rapòrt.
+crashed-subframe-title =
+    .title = Part d’aquesta pagina a fracassat. Per notificar { -brand-product-name } d’aqueste problèma e que siá reglat, enviatz un rapòrt.
+crashed-subframe-learnmore-link =
+    .value = Ne saber mai
+crashed-subframe-submit =
+    .label = Enviar un rapòrt
+    .accesskey = E
+pending-crash-reports-view-all =
+    .label = Afichar
+pending-crash-reports-send =
+    .label = Mandar
+pending-crash-reports-always-send =
+    .label = Mandar sempre

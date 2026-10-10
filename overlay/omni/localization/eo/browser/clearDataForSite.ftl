@@ -1,0 +1,9 @@
+clear-data-for-site-title = Ĉu viŝi ĉiujn datumojn por tiu ĉi retejo?
+clear-data-for-site-list = Tio ĉi viŝos ĉiujn datumojn por { $site }, kaj tio inkuzivas:
+clear-data-for-site-browsing-history = Retuman kaj elŝutan historion
+clear-data-for-site-cookies = Kuketojn kaj datumojn retejajn, kio povus fini seancon en tiu retejo
+clear-data-for-site-cache = Staplitajn dosierojn kaj paĝojn
+cclear-data-for-site-permissions = Permesojn kaj preferojn
+clear-data-for-site-exceptions = Legosignoj kaj konservitaj pasvortoj ne estos forigitaj
+clear-data-for-site-dialog-accept-button = Viŝi datumojn
+clear-data-for-site-dialog-cancel-button = Nuligi

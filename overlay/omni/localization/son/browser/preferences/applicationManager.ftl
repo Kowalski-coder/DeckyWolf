@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Porogaram šilbayhayey
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Kaa
+    .accesskey = K
+app-manager-handle-protocol = Porogaramey wey ga hin ka goy nda { $type } dobey.
+app-manager-handle-file = Porogaramey wey ga hin ka goy nda { $type } gundekunaa.
+app-manager-web-app-info = Interneti porogaramoo woo goo nda zunbudoo ne:
+app-manager-local-app-info = Porogaramoo woo ga jiši ne:

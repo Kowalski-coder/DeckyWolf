@@ -1,0 +1,15 @@
+panic-button-open-new-window = S'obrirà una finestra nova buida
+panic-button-undo-warning = Aquesta acció no es pot desfer.
+panic-button-forget-button =
+    .label = Oblida!
+panic-main-timeframe-desc = Oblida:
+panic-button-5min =
+    .label = Els darrers cinc minuts
+panic-button-2hr =
+    .label = Les darreres dues hores
+panic-button-day =
+    .label = Les darreres 24 hores
+panic-button-action-desc = En continuar:
+panic-button-delete-cookies = Se suprimiran les <strong>galetes</strong> recents
+panic-button-delete-history = Se suprimirà l'<strong>historial</strong> recent
+panic-button-delete-tabs-and-windows = Es tancaran totes les <strong>pestanyes</strong> i <strong>finestres</strong>

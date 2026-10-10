@@ -1,0 +1,24 @@
+privatebrowsingpage-open-private-window-label = Ga'nin riña 'ngo ventanahuìi
+    .accesskey = h
+about-private-browsing-search-placeholder = Nanà'uì' Web
+about-private-browsing-search-btn =
+    .title = Nānà\'huì\' riña web
+about-private-browsing-handoff =
+    .title = Nānà’huì’ ngà { $engine } nej si gāchrūn direksiûn
+about-private-browsing-handoff-no-engine =
+    .title = Gachrūn nuguan' ruhuât nanà'huìt
+about-private-browsing-handoff-text = Nānà’huì’ ngà { $engine } nej si gāchrūn direksiûn
+about-private-browsing-handoff-text-no-engine = Gāchrūn nuguan' ruhuât nanà'huìt
+about-private-browsing-not-private = Se riña ventana hua huìi nut akuan' nï
+about-private-browsing-hide-activity = Gāchrī huì sa ‘hiát así danè’ huājt, danè’ nānj gahuin aché nunt
+about-private-browsing-get-privacy = Gīrì’ sa nārán mā’ânt da’ gāchē nunt danè’ garan’ ruhuât
+about-private-browsing-search-banner-title = { $engineName } huin sa nana'uì't nuguan'an ngà hua niña riña Private Windows
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] Si ruhuât garasunt a'ngô sa riña nanà'uì't ni gui riña <a data-l10n-name="link-options">Sa huaa</a>
+       *[other] Si ruhuât garasunt a'ngô sa riña nanà'uì't ni gui riña <a data-l10n-name="link-options">Sa aran' ruhuât doj</a>
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = Narán
+about-private-browsing-promo-close-button =
+    .title = Nārán

@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Benvenuti umani
+error-short-desc-text = Veniamo in pace
+error-long-desc1 = I robot non possono danneggiare un essere umano né, attraverso l’inazione, permettere che un essere umano venga danneggiato.
+error-long-desc2 = I robot ne hanno viste cose che voi umani non potreste immaginarvi.
+error-long-desc3 = I robot sono gli amici di plastica con cui è bello stare.
+error-long-desc4 = I robot hanno scintillanti fondoschiena metallici che non dovrebbero essere baciati.
+error-trailer-desc-text = E hanno un piano.
+error-try-again = Riprova
+    .label2 = Non premere nuovamente questo pulsante

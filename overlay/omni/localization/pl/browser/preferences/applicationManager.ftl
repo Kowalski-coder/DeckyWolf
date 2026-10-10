@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Szczegóły aplikacji
+    .style = min-width: 32em; min-height: 20em;
+app-manager-remove =
+    .label = Usuń
+    .accesskey = U
+app-manager-handle-protocol = Do obsługi odnośników „{ $type }” można użyć następujących aplikacji:
+app-manager-handle-file = Do obsługi treści „{ $type }” można użyć następujących aplikacji:
+app-manager-web-app-info = Ta aplikacja internetowa pochodzi z serwera:
+app-manager-local-app-info = Ta aplikacja znajduje się w:

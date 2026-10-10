@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = პროგრამის მონაცემები
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = მოცილება
+    .accesskey = ც
+app-manager-handle-protocol = { $type } ბმული შეიძლება გაიხსნას შემდეგი პროგრამით.
+app-manager-handle-file = { $type } შიგთავსი შეიძლება გაიხსნას შემდეგი პროგრამით.
+app-manager-web-app-info = ვებპროგრამის მისამართია:
+app-manager-local-app-info = პროგრამის მისამართია:

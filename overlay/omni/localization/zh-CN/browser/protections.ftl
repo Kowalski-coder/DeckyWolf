@@ -1,0 +1,157 @@
+graph-week-summary =
+    { $count ->
+       *[other] 过去一周，{ -brand-short-name } 拦截了 { $count } 个跟踪器
+    }
+graph-total-tracker-summary =
+    { $count ->
+       *[other] 自{ DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }起，已拦截 <b>{ $count }</b> 个跟踪器
+    }
+graph-private-window = { -brand-short-name } 将继续在隐私窗口中拦截跟踪器，但不会记录拦截了什么。
+graph-week-summary-private-window = 本周 { -brand-short-name } 所拦截跟踪器
+protection-report-webpage-title = 保护信息面板
+protection-report-page-content-title = 保护信息面板
+protection-report-page-summary = 当您上网时，{ -brand-short-name } 会在后台保护您的隐私。以下是这些保护的个性化摘要，以及能够用来保护在线安全的各种工具。
+protection-report-page-summary-default = 当您上网时，{ -brand-short-name } 会在后台保护您的隐私。以下是这些保护的个性化摘要，以及能够用来保护在线安全的各种工具。
+protection-report-settings-link = 管理您的隐私与安全设置
+etp-card-title-always = 增强型跟踪保护：始终开启
+etp-card-title-custom-not-blocking = 增强型跟踪保护：关闭
+etp-card-content-description = { -brand-short-name } 会自动阻止大公司在网上偷偷跟踪您。
+protection-report-etp-card-content-custom-not-blocking = 目前已关闭所有保护功能。通过管理 { -brand-short-name } 保护设置，即可选择要拦截的跟踪器。
+protection-report-manage-protections = 管理设置
+graph-today = 今日
+graph-legend-description = 此图展示了本周各类型跟踪器的总拦截数。
+social-tab-title = 社交媒体跟踪器
+social-tab-contant = 社交网站会在众多网站上安插跟踪器。除了您在社交网站上分享、发言外，它们还监视您在其他地方看些什么、做些什么。<a data-l10n-name="learn-more-link">详细了解</a>
+cookie-tab-title = 跨站跟踪性 Cookie
+cookie-tab-content = 这些 Cookie 由第三方广告商或分析公司设置，能够在不同网站间跟踪您，以收集您的在线活动数据。<a data-l10n-name="learn-more-link">详细了解</a>
+tracker-tab-title = 跟踪性内容
+tracker-tab-description = 网站可能会加载包含跟踪代码的外部广告、视频等内容。拦截跟踪性内容可以让网站加载更快，但某些按钮、表单、登录栏可能无法正常工作。<a data-l10n-name="learn-more-link">详细了解</a>
+fingerprinter-tab-title = 数字指纹跟踪程序
+fingerprinter-tab-content = 数字指纹跟踪程序会针对您的浏览器、计算机设置，给您生成独一无二的编号，以便在不同网站间追踪您，勾勒出您的精准画像。<a data-l10n-name="learn-more-link">详细了解</a>
+cryptominer-tab-title = 加密货币挖矿程序
+cryptominer-tab-content = 加密货币挖矿程序盗用您的计算机算力来“挖掘”数字货币，这会消耗您的电力、拖慢机器性能、增加电费支出。<a data-l10n-name="learn-more-link">详细了解</a>
+protections-close-button2 =
+    .aria-label = 关闭
+    .title = 关闭
+mobile-app-title = 在更多设备上拦截广告跟踪器
+mobile-app-card-content = 使用内置广告跟踪保护的移动浏览器。
+mobile-app-links = { -brand-product-name } 浏览器 <a data-l10n-name="android-mobile-inline-link">Android</a> 与 <a data-l10n-name="ios-mobile-inline-link">iOS</a> 版
+lockwise-title = 密码不怕再忘
+passwords-title-logged-in = 管理您的密码
+passwords-header-content = { -brand-product-name } 能将您的密码安全地存储在浏览器中。
+lockwise-header-content-logged-in = 安全地存储密码，并同步到您的所有设备中。
+protection-report-passwords-save-passwords-button = 保存密码
+    .title = 保存密码
+protection-report-passwords-manage-passwords-button = 管理密码
+    .title = 管理密码
+lockwise-scanned-text-breached-logins =
+    { $count ->
+       *[other] 有 { $count } 个密码可能在数据外泄事件中泄露。
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+       *[other] 您的 { $count } 个密码皆已安全保存。
+    }
+lockwise-how-it-works-link = 工作原理
+monitor-title = 帮您关心数据外泄事件
+monitor-link = 工作原理
+monitor-header-content-no-account = 到 { -monitor-brand-name } 检测您是否处于已知数据外泄事件之中，并在有新外泄事件时收到警报。
+monitor-header-content-signed-in = 若您的信息出现在已知的数据外泄事件中，{ -monitor-brand-name } 会警示您。
+monitor-sign-up-link = 订阅数据外泄警报
+    .title = 在 { -monitor-brand-name } 订阅数据外泄警报
+auto-scan = 今日已自动扫描
+monitor-emails-tooltip =
+    .title = 到 { -monitor-brand-short-name } 查看监控中的电子邮件地址
+monitor-breaches-tooltip =
+    .title = 到 { -monitor-brand-short-name } 查看已知的数据外泄事件
+monitor-passwords-tooltip =
+    .title = 到 { -monitor-brand-short-name } 查看遭泄露的密码
+info-monitored-emails =
+    { $count ->
+       *[other] 正在监控的电子邮件地址
+    }
+info-known-breaches-found =
+    { $count ->
+       *[other] 爆出的涉及您的数据泄露事件
+    }
+info-known-breaches-resolved =
+    { $count ->
+       *[other] 标记为已处理的数据外泄事件数
+    }
+info-exposed-passwords-found =
+    { $count ->
+       *[other] 在所有事件中泄露的密码
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+       *[other] 在未处理事件中泄露的密码
+    }
+monitor-no-breaches-title = 好消息！
+monitor-no-breaches-description = 您没有已知的数据外泄。如果情况发生变化，我们将通知您。
+monitor-view-report-link = 查看报告
+    .title = 在 { -monitor-brand-short-name } 解决数据外泄。
+monitor-breaches-unresolved-title = 处理遇到的数据外泄事件
+monitor-breaches-unresolved-description = 确认事件详细信息并采取措施保护自己的数据后，就可以将事件标记为“已处理”。
+monitor-manage-breaches-link = 管理数据外泄事件
+    .title = 在 { -monitor-brand-short-name } 管理数据外泄事件
+monitor-breaches-resolved-title = 真好！您已处理完所有已知的数据外泄事件。
+monitor-breaches-resolved-description = 如果您的邮箱地址出现在新的数据外泄事件中，我们将通知您。
+monitor-partial-breaches-title =
+    { $numBreaches ->
+       *[other] 已处理 { $numBreachesResolved } 起事件，共 { $numBreaches } 起
+    }
+monitor-partial-breaches-percentage = 完成 { $percentageResolved }%
+monitor-partial-breaches-motivation-title-start = 很棒的开始！
+monitor-partial-breaches-motivation-title-middle = 请保持！
+monitor-partial-breaches-motivation-title-end = 就要完成了！请保持。
+monitor-partial-breaches-motivation-description = 到 { -monitor-brand-short-name } 处理其他的数据外泄事件。
+monitor-resolve-breaches-link = 处理数据外泄事件
+    .title = 到 { -monitor-brand-short-name } 处理数据外泄事件
+bar-tooltip-social =
+    .aria-label =
+        { $count ->
+           *[other] { $count } 个社交媒体跟踪器（{ $percentage }%）
+        }
+    .title = 社交媒体跟踪器
+bar-tooltip-cookie =
+    .aria-label =
+        { $count ->
+           *[other] { $count } 个跨站跟踪性 Cookie（{ $percentage }%）
+        }
+    .title = 跨站跟踪性 Cookie
+bar-tooltip-tracker =
+    .aria-label =
+        { $count ->
+           *[other] { $count } 个跟踪性内容（{ $percentage }%）
+        }
+    .title = 跟踪性内容
+bar-tooltip-fingerprinter =
+    .aria-label =
+        { $count ->
+           *[other] { $count } 个数字指纹跟踪程序（{ $percentage }%）
+        }
+    .title = 数字指纹跟踪程序
+bar-tooltip-cryptominer =
+    .aria-label =
+        { $count ->
+           *[other] { $count } 个加密货币挖矿程序（{ $percentage }%）
+        }
+    .title = 加密货币挖矿程序
+privacy-metrics-title = 隐私保护
+privacy-metrics-blocked-this-week = 本周已拦截 { $count } 个项目
+privacy-metrics-trackers = { $count } 个跟踪器
+privacy-metrics-fingerprinters = { $count } 个数字指纹跟踪程序
+privacy-metrics-cookies = { $count } 个跟踪性 Cookie
+privacy-metrics-social = { $count } 个社交媒体跟踪器
+privacy-metrics-empty = 本周未拦截跟踪器。 { -brand-short-name } 会在您浏览时保护您免受以下威胁。
+privacy-metrics-loading = 正在加载保护统计信息…
+privacy-metrics-error = 无法加载保护统计信息。
+privacy-metrics-private-window = { -brand-short-name } 将继续在隐私窗口中拦截跟踪器，但不会记录拦截了什么。
+protections-vpn-title = 将隐私保护扩展到浏览器外
+protections-vpn-header-content = 使用 { -mozilla-vpn-brand-name }，保护全设备。只需一触，即可加密所有流量，并隐藏真实位置。
+protections-get-vpn-link = 获取 { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN：已订阅
+protections-vpn-header-content-subscribed = 使用 { -mozilla-vpn-brand-name }，为至多 { $count } 台设备加密全部流量，并隐藏真实位置。可从 <a data-l10n-name="playstore-link">Google Play 商店</a>或<a data-l10n-name="appstore-link">Apple App Store</a>添加，以充分利用您的订阅。
+protections-vpn-banner-header = 将保护扩展到浏览器外
+protections-vpn-banner-content = 放心试用 { -mozilla-vpn-brand-name }，亲身体验 TechRadar 为何评价它“速度快、简单易用、每月费用低，值得一试。”
+protections-vpn-banner-link = 获取 { -mozilla-vpn-brand-name }

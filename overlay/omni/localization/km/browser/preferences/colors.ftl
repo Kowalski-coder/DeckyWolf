@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = អត្ថបទ និង​ផ្ទៃខាងក្រោយ
+colors-text =
+    .label = អត្ថបទ
+    .accesskey = T
+colors-text-background =
+    .label = ផ្ទៃ​ខាងក្រោយ
+    .accesskey = B
+colors-links-header = ពណ៌​តំណ
+colors-links-unvisited =
+    .label = តំណ​ដែល​មិន​បាន​ទស្សនា
+    .accesskey = L
+colors-links-visited =
+    .label = តំណ​ដែល​បាន​ទស្សនា
+    .accesskey = V

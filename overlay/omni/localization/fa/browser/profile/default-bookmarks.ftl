@@ -1,0 +1,14 @@
+default-bookmarks-title = نشانک‌ها
+default-bookmarks-heading = نشانک‌ها
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = دریافت راهنمایی
+default-bookmarks-firefox-customize = سفارشی‌سازی Firefox
+default-bookmarks-firefox-community = مشارکت کنید
+default-bookmarks-firefox-about = دربارهٔ ما
+default-bookmarks-nightly-heading = منابع Firefox شبانه
+default-bookmarks-nightly-blog = وب‌نوشت Firefox شبانه
+default-bookmarks-bugzilla = سامانهٔ ردیاب اشکال Mozilla
+default-bookmarks-mdn = شبکهٔ توسعه‌دهندگان Mozilla
+default-bookmarks-nightly-tester-tools = ابزارهای آزمایشگر شبانه
+default-bookmarks-crashes = تمام فروپاشی‌های شما
+default-bookmarks-planet = سیارهٔ Mozilla

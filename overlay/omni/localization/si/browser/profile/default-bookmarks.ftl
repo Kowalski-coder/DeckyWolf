@@ -1,0 +1,10 @@
+default-bookmarks-title = පොත්යොමු
+default-bookmarks-heading = පොත්යොමු
+default-bookmarks-firefox-heading = මොසිල්ලා ෆයර්ෆොක්ස්
+default-bookmarks-firefox-get-help = උදව් ගන්න
+default-bookmarks-firefox-customize = ෆයර්ෆොක්ස් අභිරුචිකරණය
+default-bookmarks-firefox-community = දායක වන්න
+default-bookmarks-firefox-about = අප ගැන
+default-bookmarks-mdn = මොසිල්ලා සංවර්ධක ජාලය
+default-bookmarks-crashes = ඔබගේ සියළු බිඳවැටීම්
+default-bookmarks-planet = මොසිල්ලා ලෝකය

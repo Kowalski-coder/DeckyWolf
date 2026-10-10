@@ -1,0 +1,26 @@
+restore-page-tab-title = Endurheimta vafralotu
+restore-page-error-title = Því miður erum við í smá vandræðum með að ná í síðurnar aftur.
+restore-page-problem-desc = Vandræði eru við að endurheimta seinustu lotu. Veldu endurheimta vafralotu til að reyna aftur.
+restore-page-try-this = Geturðu ekki endurheimt lotu? Stundum er einn flipi sem er að valda vandræðum. Skoðaðu fyrri flipa, fjarlægðu hakið á þeim flipum sem þú vilt ekki og reyndu að endurheimta aftur.
+restore-page-hide-tabs = Fela fyrri flipa
+restore-page-show-tabs = Sýna fyrri flipa
+restore-page-window-label = Gluggi { $windowNumber }
+restore-page-restore-header =
+    .label = Endurheimta
+restore-page-list-header =
+    .label = Gluggar og flipar
+restore-page-try-again-button =
+    .label = Endurheimta vafralotu
+    .accesskey = R
+restore-page-close-button =
+    .label = Byrja nýja lotu
+    .accesskey = N
+welcome-back-tab-title = Aðgerð tókst!
+welcome-back-page-title = Aðgerð tókst!
+welcome-back-page-info = { -brand-short-name } er tilbúinn.
+welcome-back-restore-button =
+    .label = Áfram!
+    .accesskey = f
+welcome-back-restore-all-label = Endurheimta alla glugga og flipa
+welcome-back-restore-some-label = Endurheimta bara það sem þú vilt
+welcome-back-page-info-link = Búið er að fjarlægja viðbætur og sérsniðnar stillingar og búið er að setja vafrastillingar á sjálfgefnar stillingar. Ef þetta lagaði ekki vandamálið, <a data-l10n-name="link-more">fá meiri upplýsingar um hvað er hægt að gera.</a>

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ओव्हरफ्लो मेनू मधून पिन काढून टाका
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = साधनपट्टीमध्ये समाविष्ट करा
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = ओव्हरफ्लो मेनू मध्ये जोडा
+    .accesskey = M
+panic-button-thankyou-msg1 = आपला अलीकडील इतिहास नष्ट केला आहे
+panic-button-thankyou-msg2 = आपला ब्राउझिंग सुरक्षित असो!
+panic-button-thankyou-button =
+    .label = धन्यवाद!

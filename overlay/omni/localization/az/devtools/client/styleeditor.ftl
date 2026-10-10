@@ -1,0 +1,34 @@
+styleeditor-new-button =
+    .tooltiptext = Sənədə yeni stil örtüyü yarat və birləşdir
+    .accesskey = N
+styleeditor-import-button =
+    .tooltiptext = Sənədə mövcud stil örtüyünü idxal et və birləşdir
+    .accesskey = a
+styleeditor-visibility-toggle =
+    .tooltiptext = Stil örtüyü görünməsini çevir
+    .accesskey = S
+styleeditor-save-button = Saxla
+    .tooltiptext = Bu stil səhifəsini bir fayla saxla
+    .accesskey = S
+styleeditor-options-button =
+    .tooltiptext = Stil Redaktoru seçimləri
+styleeditor-no-stylesheet = Bu səhifənin stil səhifəsi yoxdur.
+styleeditor-no-stylesheet-tip = Belkə də <a data-l10n-name="append-new-stylesheet">yeni bir stil səhifəsi əlavə etmək</a> istərdiniz?
+styleeditor-open-link-new-tab =
+    .label = Keçidi Yeni Vərəqdə Aç
+styleeditor-copy-url =
+    .label = URL-u köçür
+styleeditor-find =
+    .label = Tap
+    .accesskey = T
+styleeditor-find-again =
+    .label = Yenidən Tap
+    .accesskey = Y
+styleeditor-go-to-line =
+    .label = Sətrə keç…
+    .accesskey = J
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } qayda.
+       *[other] { $ruleCount } qayda.
+    }

@@ -1,0 +1,12 @@
+protections-popup-footer-protection-label-strict = Sərt
+    .label = Sərt
+protections-popup-footer-protection-label-standard = Standart
+    .label = Standart
+protections-panel-content-blocking-socialblock = Sosial Media İzləyiciləri
+protections-panel-content-blocking-cryptominers-label = Kriptomaynerlər
+protections-panel-content-blocking-fingerprinters-label = Barmaq izi toplayıcıları
+protections-panel-blocking-label = Əngəllənib
+protections-panel-protectionsdashboard-label = Qoruma paneli
+protections-panel-report-broken-site =
+    .label = İşləməyən saytı bildir
+    .title = İşləməyən saytı bildir

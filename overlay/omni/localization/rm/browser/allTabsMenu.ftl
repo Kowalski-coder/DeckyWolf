@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Nov tab da container
+all-tabs-menu-hidden-tabs =
+    .label = Tabs zuppentads
+all-tabs-menu-recent-tab-groups-header = Gruppas da tabs recentas
+all-tabs-menu-tab-groups-show-all =
+    .label = Mussar tut
+all-tabs-menu-tab-groups-sub-view =
+    .title = Gruppas da tabs
+all-tabs-menu-current-window-header = Fanestra actuala

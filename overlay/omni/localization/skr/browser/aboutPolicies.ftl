@@ -1,0 +1,17 @@
+about-policies-title = انٹرپرائز پالیسیاں
+aboutpolicies-page-heading =
+    .heading = پالیسیاں بارے
+active-policies-tab = فعال
+errors-tab = نقص
+documentation-tab = دستاویزیت
+active-policies-tab-title =
+    .title = فعال
+errors-tab-title =
+    .title = نقص
+documentation-tab-title =
+    .title = دستاویزیت
+no-specified-policies-message = انٹرپرائز پالیسیاں خدمات  فعال ہن پر اتھاں کوئی پالیسیاں فعال کائنی۔
+inactive-message = انٹرپرائز پالیسیاں خدمات غیر فعال ہن۔
+policy-name = پالیسی ناں
+policy-value = پالیسی دی مالیت
+policy-errors = پالیسی وچ غلطیاں

@@ -1,0 +1,15 @@
+about-policies-title = Įmonės strategijos
+active-policies-tab = Aktyvios
+errors-tab = Klaidos
+documentation-tab = Dokumentacija
+active-policies-tab-title =
+    .title = Aktyvios
+errors-tab-title =
+    .title = Klaidos
+documentation-tab-title =
+    .title = Dokumentacija
+no-specified-policies-message = Įmonės strategijų paslauga yra aktyvi, tačiau nėra įjungtų strategijų
+inactive-message = Įmonės strategijų paslauga yra neaktyvi.
+policy-name = Strategijos pavadinimas
+policy-value = Strategijos reikšmė
+policy-errors = Strategijos klaidos

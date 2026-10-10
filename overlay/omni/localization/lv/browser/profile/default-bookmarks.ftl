@@ -1,0 +1,14 @@
+default-bookmarks-title = Grāmatzīmes
+default-bookmarks-heading = Grāmatzīmes
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Iegūt palīdzību
+default-bookmarks-firefox-customize = Pielāgot Firefox
+default-bookmarks-firefox-community = Iesaistīties
+default-bookmarks-firefox-about = Par mums
+default-bookmarks-nightly-heading = Firefox iknakts laidiena resursi
+default-bookmarks-nightly-blog = Firefox iknakts laidiena emuārs
+default-bookmarks-bugzilla = Mozilla kļūdu izsekotājs
+default-bookmarks-mdn = Mozilla izstrādātāju tīkls
+default-bookmarks-nightly-tester-tools = Iknakts laidiena testēšanas rīki
+default-bookmarks-crashes = Visas avārijas
+default-bookmarks-planet = Mozilla planēta

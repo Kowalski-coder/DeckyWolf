@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Anulează fixarea în meniul excedentar
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Adaugă în bara de instrumente
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Adaugă în meniul excedentar
+    .accesskey = M
+panic-button-thankyou-msg1 = Istoricul tău recent a fost șters.
+panic-button-thankyou-msg2 = Navigare în siguranță!
+panic-button-thankyou-button =
+    .label = Îți mulțumim!

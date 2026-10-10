@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ایپلی کیشن تفاصیل
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ہٹائیں
+    .accesskey = R
+app-manager-handle-protocol = مندرجہ ذیل ایپلی کیشن { $type } روابط کو ہینڈل کرنے کے لیے استعمال کی جا سکتی ہیں۔
+app-manager-handle-file = مندرجہ ذیل ایپلی کیشن { $type } مواد کو ہینڈل کرنے کے لیے استعمال کی جا سکتی ہیں۔
+app-manager-web-app-info = اس ویب ایپلی کیشن کی میزبانی:
+app-manager-local-app-info = یہ ایپلی کیشن واقع ہے از:

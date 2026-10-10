@@ -1,0 +1,196 @@
+graph-week-summary =
+    { $count ->
+        [one] Το { -brand-short-name } απέκλεισε { $count } ιχνηλάτη την προηγούμενη εβδομάδα
+       *[other] Το { -brand-short-name } απέκλεισε { $count } ιχνηλάτες την προηγούμενη εβδομάδα
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] Αποκλείστηκε <b>{ $count }</b> ιχνηλάτης από τις { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+       *[other] Αποκλείστηκαν <b>{ $count }</b> ιχνηλάτες από τις { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+    }
+graph-private-window = Το { -brand-short-name } συνεχίζει να αποκλείει τους ιχνηλάτες στα ιδιωτικά παράθυρα, αλλά δεν διατηρείται αρχείο καταγραφής των αποκλεισμένων στοιχείων.
+graph-week-summary-private-window = Αποκλεισμένοι ιχνηλάτες στο { -brand-short-name } αυτήν την εβδομάδα
+protection-report-webpage-title = Πίνακας προστασίας
+protection-report-page-content-title = Πίνακας προστασίας
+protection-report-page-summary = Το { -brand-short-name } μπορεί να προστατεύει το απόρρητό σας στο παρασκήνιο, ενώ περιηγείστε. Ορίστε μια εξατομικευμένη περίληψη αυτών των μεθόδων προστασίας, καθώς και τα εργαλεία για να αποκτήσετε τον έλεγχο της διαδικτυακής σας ασφάλειας.
+protection-report-page-summary-default = Το { -brand-short-name } προστατεύει το απόρρητό σας στο παρασκήνιο, ενώ περιηγείστε. Ορίστε μια εξατομικευμένη περίληψη αυτών των μεθόδων προστασίας, καθώς και τα εργαλεία για να αποκτήσετε τον έλεγχο της διαδικτυακής σας ασφάλειας.
+protection-report-settings-link = Διαχείριση ρυθμίσεων απορρήτου και ασφαλείας
+etp-card-title-always = Ενισχυμένη προστασία από καταγραφή: Πάντα ενεργή
+etp-card-title-custom-not-blocking = Ενισχυμένη προστασία από καταγραφή: Ανενεργή
+etp-card-content-description = Το { -brand-short-name } σταματά αυτόματα τις εταιρείες που σας παρακολουθούν κρυφά στο διαδίκτυο.
+protection-report-etp-card-content-custom-not-blocking = Όλες οι μέθοδοι προστασίας είναι ανενεργές. Επιλέξτε ποιοι ιχνηλάτες θα αποκλείονται από τις ρυθμίσεις προστασίας του { -brand-short-name }.
+protection-report-manage-protections = Διαχείριση ρυθμίσεων
+graph-today = Σήμερα
+graph-legend-description = Ένα γράφημα με τον συνολικό αριθμό κάθε τύπου ιχνηλάτη που έχει αποκλειστεί αυτήν την εβδομάδα.
+social-tab-title = Ιχνηλάτες κοινωνικών δικτύων
+social-tab-contant = Τα μέσα κοινωνικής δικτύωσης τοποθετούν ιχνηλάτες σε άλλους ιστοτόπους για να παρακολουθούν ό,τι κάνετε και βλέπετε στο διαδίκτυο. Αυτό επιτρέπει στις εταιρείες να μαθαίνουν περισσότερα για εσάς, πέρα από αυτά που κοινοποιείτε στα δημόσια προφίλ σας. <a data-l10n-name="learn-more-link">Μάθετε περισσότερα</a>
+cookie-tab-title = Cookie καταγραφής μεταξύ ιστοτόπων
+cookie-tab-content = Αυτά τα cookie σάς ακολουθούν από ιστότοπο σε ιστότοπο για να συλλέξουν δεδομένα για ό,τι κάνετε στο διαδίκτυο. Δημιουργούνται από τρίτους, όπως διαφημιστές και εταιρείες ανάλυσης. Η φραγή των cookie καταγραφής μεταξύ ιστοτόπων μειώνει τον αριθμό των διαφημίσεων που σας καταγράφουν. <a data-l10n-name="learn-more-link">Μάθετε περισσότερα</a>
+tracker-tab-title = Περιεχόμενο καταγραφής
+tracker-tab-description = Οι ιστότοποι ενδέχεται να φορτώσουν εξωτερικές διαφημίσεις, βίντεο και άλλο περιεχόμενο με κώδικα καταγραφής. Η φραγή περιεχομένου καταγραφής μπορεί να συμβάλει στην ταχύτερη φόρτωση ιστοτόπων, αλλά ορισμένα κουμπιά, φόρμες και πεδία σύνδεσης ενδέχεται να μην λειτουργούν. <a data-l10n-name="learn-more-link">Μάθετε περισσότερα</a>
+fingerprinter-tab-title = Fingerprinter
+fingerprinter-tab-content = Τα fingerprinter συλλέγουν ρυθμίσεις από το πρόγραμμα περιήγησης και τον υπολογιστή σας για να δημιουργήσουν ένα προφίλ για εσάς. Με τη χρήση αυτού του ψηφιακού αποτυπώματος, μπορούν να σας καταγράφουν σε διάφορους ιστοτόπους. <a data-l10n-name="learn-more-link">Μάθετε περισσότερα</a>
+cryptominer-tab-title = Cryptominer
+cryptominer-tab-content = Τα cryptominer χρησιμοποιούν την υπολογιστική ισχύ του συστήματός σας για να κάνουν εξόρυξη κρυπτονομισμάτων. Τα σενάρια εξόρυξης κρυπτονομισμάτων καταναλώνουν μπαταρία, επιβραδύνουν τον υπολογιστή σας, ενώ ενδέχεται να δείτε αυξημένες χρεώσεις στον λογαριασμό ρεύματός σας. <a data-l10n-name="learn-more-link">Μάθετε περισσότερα</a>
+protections-close-button2 =
+    .aria-label = Κλείσιμο
+    .title = Κλείσιμο
+mobile-app-title = Φραγή ιχνηλατών διαφημίσεων σε περισσότερες συσκευές
+mobile-app-card-content = Χρησιμοποιήστε το πρόγραμμα περιήγησης για κινητές συσκευές με ενσωματωμένη προστασία από την καταγραφή διαφημίσεων.
+mobile-app-links = Πρόγραμμα περιήγησης { -brand-product-name } για <a data-l10n-name="android-mobile-inline-link">Android</a> και <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+lockwise-title = Φύλαξη κωδικών πρόσβασης
+passwords-title-logged-in = Διαχείριση κωδικών πρόσβασης
+passwords-header-content = Το { -brand-product-name } αποθηκεύει με ασφάλεια τους κωδικούς πρόσβασής σας.
+lockwise-header-content-logged-in = Αποθηκεύστε και συγχρονίστε με ασφάλεια τους κωδικούς πρόσβασής σας σε όλες τις συσκευές σας.
+protection-report-passwords-save-passwords-button = Αποθήκευση κωδικών πρόσβασης
+    .title = Αποθήκευση κωδικών πρόσβασης
+protection-report-passwords-manage-passwords-button = Διαχείριση κωδικών πρόσβασης
+    .title = Διαχείριση κωδικών πρόσβασης
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [one] 1 κωδικός πρόσβασης ενδέχεται να έχει εκτεθεί σε παραβίαση δεδομένων.
+       *[other] { $count } κωδικοί πρόσβασης ενδέχεται να έχουν εκτεθεί σε παραβίαση δεδομένων.
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] 1 κωδικός πρόσβασης αποθηκεύτηκε με ασφάλεια.
+       *[other] Οι κωδικοί πρόσβασής σας αποθηκεύτηκαν με ασφάλεια.
+    }
+lockwise-how-it-works-link = Πώς λειτουργεί
+monitor-title = Εποπτεία παραβιάσεων δεδομένων
+monitor-link = Πώς λειτουργεί
+monitor-header-content-no-account = Ελέγξτε το { -monitor-brand-name } για να δείτε αν έχετε επηρεαστεί από γνωστή παραβίαση δεδομένων και λάβετε ειδοποιήσεις σχετικά με νέες παραβιάσεις.
+monitor-header-content-signed-in = Το { -monitor-brand-name } σας προειδοποιεί αν οι πληροφορίες σας έχουν εμφανιστεί σε παραβίαση δεδομένων.
+monitor-sign-up-link = Ειδοποίηση για παραβιάσεις
+    .title = Εγγραφή για ειδοποιήσεις παραβιάσεων στο { -monitor-brand-name }
+auto-scan = Έγινε αυτόματη σάρωση σήμερα
+monitor-emails-tooltip =
+    .title = Προβολή διευθύνσεων email υπό εποπτεία στο { -monitor-brand-short-name }
+monitor-breaches-tooltip =
+    .title = Προβολή γνωστών παραβιάσεων δεδομένων στο { -monitor-brand-short-name }
+monitor-passwords-tooltip =
+    .title = Προβολή εκτεθειμένων κωδικών πρόσβασης στο { -monitor-brand-short-name }
+info-monitored-emails =
+    { $count ->
+        [one] διεύθυνση email υπό εποπτεία
+       *[other] διευθύνσεις email υπό εποπτεία
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] γνωστή παραβίαση δεδομένων έχει εκθέσει τις πληροφορίες σας
+       *[other] γνωστές παραβιάσεις δεδομένων έχουν εκθέσει τις πληροφορίες σας
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] Γνωστή παραβίαση δεδομένων επισημάνθηκε ως επιλυμένη
+       *[other] Γνωστές παραβιάσεις δεδομένων επισημάνθηκαν ως επιλυμένες
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] κωδικός πρόσβασης έχει εκτεθεί σε όλες τις παραβιάσεις
+       *[other] κωδικοί πρόσβασης έχουν εκτεθεί σε όλες τις παραβιάσεις
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] Εκτεθειμένος κωδικός πρόσβασης σε μη επιλυμένες παραβιάσεις
+       *[other] Εκτεθειμένοι κωδικοί πρόσβασης σε μη επιλυμένες παραβιάσεις
+    }
+monitor-no-breaches-title = Καλά νέα!
+monitor-no-breaches-description = Δεν έχετε γνωστές παραβιάσεις. Αν αλλάξει αυτό, θα σας ενημερώσουμε.
+monitor-view-report-link = Προβολή αναφοράς
+    .title = Επίλυση παραβιάσεων στο { -monitor-brand-short-name }
+monitor-breaches-unresolved-title = Επίλυση παραβιάσεων
+monitor-breaches-unresolved-description = Αφού ελέγξετε τις λεπτομέρειες παραβίασης και λάβετε μέτρα για την προστασία των πληροφοριών σας, μπορείτε να επισημάνετε τις παραβιάσεις ως επιλυμένες.
+monitor-manage-breaches-link = Διαχείριση παραβιάσεων
+    .title = Διαχείριση παραβιάσεων στο { -monitor-brand-short-name }
+monitor-breaches-resolved-title = Ωραία! Επιλύσατε όλες τις γνωστές παραβιάσεις.
+monitor-breaches-resolved-description = Αν το email σας εμφανιστεί σε νέες παραβιάσεις, θα σας ενημερώσουμε.
+monitor-partial-breaches-title =
+    { $numBreaches ->
+        [one] { $numBreachesResolved } από { $numBreaches } παραβίαση επισημάνθηκε ως επιλυμένη
+       *[other] { $numBreachesResolved }από { $numBreaches } παραβιάσεις επισημάνθηκαν ως επιλυμένες
+    }
+monitor-partial-breaches-percentage = { $percentageResolved }% ολοκλήρωση
+monitor-partial-breaches-motivation-title-start = Τέλεια αρχή!
+monitor-partial-breaches-motivation-title-middle = Συνεχίστε!
+monitor-partial-breaches-motivation-title-end = Σχεδόν τελειώσατε! Συνεχίστε.
+monitor-partial-breaches-motivation-description = Επιλύστε τις υπόλοιπες παραβιάσεις σας στο { -monitor-brand-short-name }.
+monitor-resolve-breaches-link = Επίλυση παραβιάσεων
+    .title = Επίλυση παραβιάσεων στο { -monitor-brand-short-name }
+bar-tooltip-social =
+    .title = Ιχνηλάτες κοινωνικών δικτύων
+    .aria-label =
+        { $count ->
+            [one] { $count } ιχνηλάτης κοινωνικών δικτύων ({ $percentage }%)
+           *[other] { $count } ιχνηλάτες κοινωνικών δικτύων { $percentage }%)
+        }
+bar-tooltip-cookie =
+    .title = Cookie καταγραφής μεταξύ ιστοτόπων
+    .aria-label =
+        { $count ->
+            [one] { $count } cookie καταγραφής μεταξύ ιστοτόπων ({ $percentage }%)
+           *[other] { $count } cookie καταγραφής μεταξύ ιστοτόπων ({ $percentage }%)
+        }
+bar-tooltip-tracker =
+    .title = Περιεχόμενο καταγραφής
+    .aria-label =
+        { $count ->
+            [one] { $count } περιεχόμενο καταγραφής ({ $percentage }%)
+           *[other] { $count } περιεχόμενα καταγραφής ({ $percentage }%)
+        }
+bar-tooltip-fingerprinter =
+    .title = Fingerprinter
+    .aria-label =
+        { $count ->
+            [one] { $count } fingerprinter ({ $percentage }%)
+           *[other] { $count } fingerprinter ({ $percentage }%)
+        }
+bar-tooltip-cryptominer =
+    .title = Cryptominer
+    .aria-label =
+        { $count ->
+            [one] { $count } cryptominer ({ $percentage }%)
+           *[other] { $count } cryptominer ({ $percentage }%)
+        }
+privacy-metrics-title = Προστασία απορρήτου
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } αποκλεισμός αυτήν την εβδομάδα
+       *[other] { $count } αποκλεισμοί αυτήν την εβδομάδα
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } ιχνηλάτης
+       *[other] { $count } ιχνηλάτες
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } fingerprinter
+       *[other] { $count } fingerprinter
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } cookie καταγραφής
+       *[other] { $count } cookie καταγραφής
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } ιχνηλάτης κοινωνικών δικτύων
+       *[other] { $count } ιχνηλάτες κοινωνικών δικτύων
+    }
+privacy-metrics-empty = Δεν αποκλείστηκαν ιχνηλάτες αυτήν την εβδομάδα. Το { -brand-short-name } σάς προστατεύει από τις ακόλουθες απειλές κατά την περιήγησή σας.
+privacy-metrics-loading = Φόρτωση στατιστικών προστασίας…
+privacy-metrics-error = Δεν είναι δυνατή η φόρτωση των στατιστικών προστασίας.
+privacy-metrics-private-window = Το { -brand-short-name } συνεχίζει να αποκλείει τους ιχνηλάτες στα ιδιωτικά παράθυρα, αλλά δεν διατηρείται αρχείο καταγραφής των αποκλεισμένων στοιχείων.
+protections-vpn-title = Λάβετε προστασία απορρήτου πέρα από το πρόγραμμα περιήγησης
+protections-vpn-header-content = Προστατέψτε ολόκληρη τη συσκευή σας με το { -mozilla-vpn-brand-name }. Με ένα πάτημα κρυπτογραφεί όλη την κίνηση και αποκρύπτει την τοποθεσία σας.
+protections-get-vpn-link = Απόκτηση του { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN: Έχετε εγγραφεί
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [one] Η χρήση του { -mozilla-vpn-brand-name } κρυπτογραφεί όλη την κίνηση και αποκρύπτει την τοποθεσία σας, σε έως και { $count } συσκευή. Αξιοποιήστε στο έπακρο τη συνδρομή σας, προσθέτοντάς την από το <a data-l10n-name="playstore-link">Google Play Store</a> ή το <a data-l10n-name="appstore-link">Apple App Store </a>.
+       *[other] Η χρήση του { -mozilla-vpn-brand-name } κρυπτογραφεί όλη την κίνηση και αποκρύπτει την τοποθεσία σας, σε έως και { $count } συσκευών. Αξιοποιήστε στο έπακρο τη συνδρομή σας, προσθέτοντάς την από το <a data-l10n-name="playstore-link">Google Play Store</a> ή το <a data-l10n-name="appstore-link">Apple App Store </a>.
+    }
+protections-vpn-banner-header = Προστασία που εκτείνεται πέρα από το πρόγραμμα περιήγησης
+protections-vpn-banner-content = Δοκιμάστε το { -mozilla-vpn-brand-name } και δείτε γιατί αναφέρει το TechRadar: «Η ταχύτητα, η απλότητα και η χαμηλή μηνιαία τιμή του, το κάνουν να αξίζει την προσοχή σας».
+protections-vpn-banner-link = Απόκτηση του { -mozilla-vpn-brand-name }

@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (sem título)
+places-load-js-data-url-error = Por motivos de segurança, URLs do tipo “javascript:” ou “data:” não podem ser carregadas a partir da janela ou painel lateral do histórico.
+places-bookmarks-backup-title = Nome do arquivo de backup dos favoritos
+places-bookmarks-restore-alert-title = Reverter favoritos
+places-bookmarks-restore-alert = Todos os favoritos serão substituídos pelos do backup. Tem certeza?
+places-bookmarks-restore-title = Selecionar um backup de favoritos
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Tipo de arquivo não suportado.
+places-bookmarks-restore-parse-error = Não foi possível processar o arquivo de backup.
+places-bookmarks-import = Importar arquivo de favoritos
+places-bookmarks-export = Exportar arquivo de favoritos
+places-bookmarks-paste-error-title = Foram encontradas URLs inválidas
+places-bookmarks-paste-error-message-header = As URLs a seguir não puderam ser adicionadas aos seus favoritos. Verifique a formatação e tente adicionar novamente.

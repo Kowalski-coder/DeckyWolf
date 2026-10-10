@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = جزئیات برنامه
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = حذف‌
+    .accesskey = ح
+app-manager-handle-protocol = برنامه‌های زیر می‌توانند پیوندهای { $type } را اجرا کنند.
+app-manager-handle-file = برنامه‌های زیر می‌توانند محتوای { $type } را اجرا کنند.
+app-manager-web-app-info = این برنامه وب میزبانی شده است در:
+app-manager-local-app-info = این برنامه در این مکان واقع شده است:

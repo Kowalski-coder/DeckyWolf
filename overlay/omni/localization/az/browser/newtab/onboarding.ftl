@@ -1,0 +1,13 @@
+onboarding-welcome-header = { -brand-short-name } səyyahına xoş gəlmisiniz
+onboarding-start-browsing-button-label = Səyahətə Başla
+mr2022-upgrade-onboarding-pin-private-window-header = Bir toxunuşla məxfi səyahət imkanı əldə edin
+mr2022-upgrade-onboarding-pin-private-window-subtitle = İş masanızdan birbaşa çərəzlər və baxış tarixçəsi saxlanılmadan istifadə edin. Heç kim sizi izləmirmiş kimi internetdə səyahət edin.
+onboarding-focused-tabs-title = Vərəqlərinizin düzənini seçin
+onboarding-existing-tabs-title = Şaquli vərəqlər buradadır
+onboarding-existing-tabs-title2 = Şaquli vərəqlərlə tanışlıq
+onboarding-existing-vertical-tabs-label = Şaquli vərəqləri sınayın
+onboarding-existing-horizontal-tabs-label = Üfüqi vərəqləri saxla
+onboarding-minimal-tabs-tooltip =
+    .title = Vərəqləri ekranın kənarı boyunca kiçildilmiş yan paneldə kiçik simgələr kimi göstərən səyyah pəncərəsi.
+onboarding-minimal-tabs-description =
+    .aria-description = Vərəqləri ekranın kənarı boyunca kiçildilmiş yan paneldə kiçik simgələr kimi göstərən səyyah pəncərəsi.

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = הוספת לשונית לשורת המשימות
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = הסרת לשונית משורת המשימות
+taskbar-tab-urlbar-button-show = הצגת פעולת הדף ״יישומון רשת״
+taskbar-tab-urlbar-button-hide = הסתרת פעולת הדף ״יישומון רשת״
+taskbar-tab-shortcut-description = יישומון רשת של { $name }
+taskbar-tab-shortcut-folder = יישומוני רשת של { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = השתקת לשונית
+taskbar-tab-audio-unmute =
+    .tooltiptext = ביטול השתקת לשונית
+taskbar-tab-title-default = ‏{ $name } ב־{ -brand-full-name }
+taskbar-tab-title-container = ‏{ $name } (‏{ $container }) ב־{ -brand-full-name }
+taskbar-tab-title-profile = ‏{ $name } ב־{ $profile } — ‏{ -brand-full-name }
+taskbar-tab-title-container-profile = { $name } (‏{ $container }) ב־{ $profile } — ‏{ -brand-full-name }

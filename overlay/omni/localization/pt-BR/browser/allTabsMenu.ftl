@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Pesquisar em todas as abas
+all-tabs-menu-new-user-context =
+    .label = Nova aba contêiner
+all-tabs-menu-hidden-tabs =
+    .label = Abas ocultas
+all-tabs-menu-close-duplicate-tabs =
+    .label = Fechar abas duplicadas
+all-tabs-menu-view-all-tabs =
+    .label = Ver todas as abas
+all-tabs-menu-recent-tab-groups-header = Grupos de abas recentes
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostrar todos
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de abas
+all-tabs-menu-current-window-header = Janela atual

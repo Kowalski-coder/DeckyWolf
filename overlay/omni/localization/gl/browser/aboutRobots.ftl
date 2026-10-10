@@ -1,0 +1,10 @@
+page-title = Benvidos, humanos!
+error-title-text = Benvidos humanos!
+error-short-desc-text = Vimos a visitarvos en son de paz e con boa vontade!
+error-long-desc1 = Os robots nin poden mancar os seres humanos nin ficar quietos se ven que corren perigo.
+error-long-desc2 = Os robots viron cousas que nin imaxinades.
+error-long-desc3 = Os robots son 'Os vosos divertidos colegas de plástico'.
+error-long-desc4 = Os robots teñen traseiros brillantes de metal que non se deberían morder.
+error-trailer-desc-text = E teñen un plan.
+error-try-again = Tentar de novo
+    .label2 = Non volva premer este botón.

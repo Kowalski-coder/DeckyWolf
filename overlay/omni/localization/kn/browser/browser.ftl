@@ -1,0 +1,213 @@
+urlbar-services-notification-anchor =
+    .tooltiptext = ಸ್ಥಾಪನಾ ಸಂದೇಶ ಹಲಗೆಯನ್ನು ತೆರೆಯಿರಿ
+urlbar-web-notification-anchor =
+    .tooltiptext = ತಾಣದಿಂದ ನೀವು ಸೂಚನೆಗಳನ್ನು ಪಡೆಯಬೇಕೆ ಅಥವ ಬೇಡವೆ ಎನ್ನುವುದನ್ನು ಬದಲಾಯಿಸಿ
+urlbar-eme-notification-anchor =
+    .tooltiptext = DRM ತಂತ್ರಾಂಶವನ್ನು ನಿರ್ವಹಿಸಿ
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = ಈ ತಾಣದೊಂದಿಗೆ ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್‌ ಅನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ನಿರ್ವಹಿಸಿ
+urlbar-default-notification-anchor =
+    .tooltiptext = ಸಂದೇಶಗಳ ಪಟ್ಟಿ ತೆರೆ
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = ಸ್ಥಳವನ್ನು ಕೋರುವ ಹಲಗೆಯನ್ನು ತೆರೆಯಿರಿ
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = ನಿಮ್ಮ ಕಿಟಿಗಳನ್ನು ಅಥವ ತೆರೆಯನ್ನು ತಾಣದೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳುವುದನ್ನು ನಿರ್ವಹಿಸಿ
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = ಆಫ್‌ಲೈನ್ ಶೇಖರಣಾ ಸಂದೇಶ ಹಲಗೆಯನ್ನು ತೆರೆಯಿರಿ
+urlbar-password-notification-anchor =
+    .tooltiptext = ಗುಪ್ತಪದ ಉಳಿಸುವ ಸಂದೇಶ ಹಲಗೆಯನ್ನು ತೆರೆಯಿರಿ
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = ನಿಮ್ಮ ಕ್ಯಾಮೆರಾ ಮತ್ತು ಮೈಕ್ರೊಫೋನ್ ಅನ್ನು ನೀವು ಪ್ರಸಕ್ತ ಹಂಚಿಕೊಂಡಿರುವ ತಾಣಗಳನ್ನು ತೋರಿಸು
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = ಪರ್ಸಿಸ್‌ಟೆಂಟ್ ಶೇಖರಣೆಯಲ್ಲಿ ದತ್ತಾಂಶವನ್ನು ಶೇಖರಿಸಿ
+urlbar-addons-notification-anchor =
+    .tooltiptext = ಆಡ್-ಆನ್ ಸ್ಥಾಪನಾ ಸಂದೇಶ ಹಲಗೆಯನ್ನು ತೆರೆಯಿರಿ
+urlbar-geolocation-blocked =
+    .tooltiptext = ನಿಮ್ಮ ಸ್ಥಳದ ಮಾಹಿತಿಯನ್ನು ಈ ಜಾಲತಾಣದಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-web-notifications-blocked =
+    .tooltiptext = ನೀವು ಅಧಿಸೂಚನೆಗಳನ್ನು ಈ ಜಾಲತಾಣಕ್ಕೆ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-camera-blocked =
+    .tooltiptext = ನಿಮ್ಮ ಕ್ಯಾಮರವನ್ನು ಈ ಜಾಲತಾಣದಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-microphone-blocked =
+    .tooltiptext = ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ಅನ್ನು ಈ ಜಾಲತಾಣದಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-screen-blocked =
+    .tooltiptext = ನಿಮ್ಮ ಪರದೆಯನ್ನು ಈ ಜಾಲತಾಣದಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳದಂತೆ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = ಪರ್‌ಸಿಸ್‌ಟೆಂಟ್ ಶೇಖರಣೆಯನ್ನು ನೀವು ಈ ಜಾಲತಾಣಕ್ಕೆ ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-canvas-blocked =
+    .tooltiptext = ಕ್ಯಾನ್ವಸ್ ದತ್ತಾಂಶ ಶೇಖರಿಸುವುದನ್ನು ಈ ಜಾಲತಾಣಕ್ಕೆ ನೀವು ನಿರ್ಬಂಧಿಸಿದ್ದೀರಿ.
+urlbar-star-edit-bookmark =
+    .tooltiptext = ಈ ಬುಕ್‌ಮಾರ್ಕನ್ನು ತಿದ್ದು ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = ಈ ಪುಟವನ್ನು ಬುಕ್‌ಮಾರ್ಕ್ ಮಾಡು ({ $shortcut })
+clear-search-history =
+    .label = ಹುಡುಕು ಇತಿಹಾಸವನ್ನು ಅಳಿಸಿಹಾಕು
+    .accesskey = H
+full-screen-autohide =
+    .label = ಉಪಕರಣಪಟ್ಟಿಗಳನ್ನು ಅಡಗಿಸು
+    .accesskey = H
+full-screen-exit =
+    .label = ಪೂರ್ಣತೆರೆಯ ವಿಧಾನದಿಂದ ಹೊರನಡೆ
+    .accesskey = F
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = ‍ಹುಡುಕು ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸು
+search-one-offs-context-open-new-tab =
+    .label = ಹೊಸ ಹಾಳೆಯಲ್ಲಿ ಹುಡುಕು
+    .accesskey = T
+search-one-offs-context-set-as-default =
+    .label = ಪೂರ್ವನಿಯೋಜಿತ ಹುಡುಕು ಎಂಜಿನ್‌ ಆಗಿ ಹೊಂದಿಸು
+    .accesskey = D
+search-one-offs-add-engine-menu =
+    .label = ಹುಡುಕು ಸಾಧನವನ್ನು ಸೇರಿಸಿ
+identity-connection-internal = ಇದು ಸುರಕ್ಷಿತ { -brand-short-name } ಪುಟ
+identity-connection-file = ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಈ ಪುಟವನ್ನು ಶೇಖರಿಸಿಡಲಾಗಿದೆ.
+identity-active-blocked = ಈ ಪುಟದ ಸುರಕ್ಷಿತವಲ್ಲದ ಕೆಲ ಭಾಗಗಳನ್ನು { -brand-short-name } ವು ನಿರ್ಬಂಧಿಸಿದೆ.
+identity-passive-loaded = ಪುಟದ ಕೆಲ ಭಾಗಗಳು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ(ಉದಾ. ಚಿತ್ರಗಳು).
+identity-active-loaded = ಈ ಪುಟದಲ್ಲಿ ಸುರಕ್ಷತೆಯನ್ನು ನೀವು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದೀರಿ.
+identity-weak-encryption = ಈ ಪುಟವು ದುರ್ಬಲ ಎನ್‌ಕ್ರಿಪ್ಷನ್‌ ಅನ್ನು ಬಳಸುತ್ತದೆ.
+identity-permissions-reload-hint = ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಲು ನೀವು ಪುಟವನ್ನು ಪುನಃ ಲೋಡಮಾಡಬೇಕಾಗುತ್ತದೆ.
+identity-remove-cert-exception =
+    .label = ಆಕ್ಷೇಪಣೆಯನ್ನು ತೆಗೆದುಹಾಕು
+    .accesskey = R
+identity-description-insecure = ಈ ತಾಣಕ್ಕೆ ನಿಮ್ಮ ಸಂಪರ್ಕವು ಗೌಪ್ಯವಾಗಿಲ್ಲ. ನೀವು ಇಲ್ಲಿ ಸಲ್ಲಿಸುವ ಮಾಹಿತಿಯನ್ನು ಇತರರು ನೋಡಬಹುದು (ಗುಪ್ತಪದಗಳು, ಸಂದೇಶಗಳು ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್‌ಗಳು, ಇತರೆ.)
+identity-description-weak-cipher-intro = ಈ ಜಾಲತಾಣಕ್ಕೆ ನಿಮ್ಮ ಸಂಪರ್ಕವು ದುರ್ಬಲ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಅನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಖಾಸಗಿಯಾಗಿಲ್ಲ.
+identity-description-weak-cipher-risk = ಇತರೆ ವ್ಯಕ್ತಿಗಳು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ನೋಡಬಹುದು ಅಥವಾ ಜಾಲತಾಣದ ವರ್ತನೆಯನ್ನು ಬದಲಾಯಿಸಬಹುದು.
+identity-description-active-blocked2 = ಈ ಪುಟದ ಸುರಕ್ಷಿತವಲ್ಲದ ಕೆಲ ಭಾಗಗಳನ್ನು { -brand-short-name } ವು ನಿರ್ಬಂಧಿಸಿದೆ.
+identity-description-passive-loaded = ನಿಮ್ಮ ಸಂಪರ್ಕ ಖಾಸಗಿಯಾಗಿಲ್ಲ ಮತ್ತು ನೀವು ತಾಣದ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳುವ ಮಾಹಿತಿಯನ್ನು ಇತರರು ನೋಡಬಹುದು.
+identity-description-passive-loaded-insecure2 = ಈ ತಾಣವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲದ ಕೆಲವು ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡಿದೆ (ಉದಾ. ಚಿತ್ರಗಳು).
+identity-description-passive-loaded-mixed2 = { -brand-short-name } ವು ಸುರಕ್ಷಿತವಲ್ಲದ ವಿಷಯವನ್ನು ನಿರ್ಬಂಧಿಸಿದ್ದರೂ ಸಹ, ಪುಟವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲದ ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡಿದೆ (ಉದಾ. ಚಿತ್ರಗಳು).
+identity-description-active-loaded = ಈ ತಾಣವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲದ ಕೆಲವು ವಿಷಯಗಳನ್ನು ಒಳಗೊಂಡಿದೆ (ಉದಾ. ಸ್ಕ್ರಿಪ್ಟ್‌) ಮತ್ತು ನಿಮ್ಮ ಸಂಪರ್ಕ ಖಾಸಗಿಯಾದುದಲ್ಲ.
+identity-description-active-loaded-insecure = ನೀವು ಈ ತಾಣದ ಜೊತೆ ಹಂಚಿಕೊಳ್ಳುವ ಮಾಹಿತಿಯನ್ನು ಇತರರು ನೋಡಬಹುದು (ಗುಪ್ತಪದಗಳು, ಸಂದೇಶಗಳು ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್‌ಗಳು, ಇತರೆ.
+identity-more-info-link-text =
+    .label = ಹೆಚ್ಚಿನ ಮಾಹಿತಿ
+browser-window-minimize-button =
+    .tooltiptext = ಕುಗ್ಗಿಸು
+browser-window-close-button =
+    .tooltiptext = ಮುಚ್ಚು
+popup-all-windows-shared = ನಿಮ್ಮ ತೆರೆಯಲ್ಲಿರುವ ಎಲ್ಲಾ ಗೋಚರಿಸುವ ಕಿಟಕಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.
+urlbar-search-mode-indicator-close =
+    .aria-label = ಮುಚ್ಚು
+urlbar-placeholder =
+    .placeholder = ವಿಳಾಸವನ್ನು ಹುಡುಕು ಅಥವಾ ನಮೂದಿಸು
+urlbar-switch-to-tab =
+    .value = ಟ್ಯಾಬ್‌ಗೆ ಬದಲಾಯಿಸು:
+urlbar-extension =
+    .value = ವಿಸ್ತರಣೆ:‍
+urlbar-go-button2 =
+    .title = ಸ್ಥಿತಿ ಪಟ್ಟಿಯಲ್ಲಿನ ವಿಳಾಸಕ್ಕೆ ತೆರಳು
+urlbar-page-action-button =
+    .tooltiptext = ಪುಟದ ಕಾರ್ಯಗಳು
+urlbar-result-action-search-w-engine = ಇದರೊಂದಿಗೆ { $engine } ಹುಡುಕು
+urlbar-result-action-switch-tab = ಹಾಳೆಗೆ ಬದಲಾಯಿಸು
+urlbar-result-action-visit = ಬೇಟಿನೀಡಿ
+reader-view-enter-button =
+    .aria-label = ಓದುಗ ನೋಟಕ್ಕೆ ಪ್ರವೇಶಿಸು
+reader-view-close-button =
+    .aria-label = ಓದುಗ ನೋಟ ಮುಚ್ಚು
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> ಈಗ ಪೂರ್ಣ ತೆರೆಯಲ್ಲಿದೆ
+fullscreen-warning-no-domain = ಈ ದಸ್ತಾವೇಜು ಈಗ ಪೂರ್ಣ ತೆರೆಯಲ್ಲಿದೆ
+fullscreen-exit-button = ಪೂರ್ಣತೆರೆಯಿಂದ ನಿರ್ಗಮಿಸು (Esc)
+fullscreen-exit-mac-button = ಪೂರ್ಣತೆರೆಯಿಂದ ನಿರ್ಗಮಿಸು (esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> ಯು ನಿಮ್ಮ ಪಾಯಿಂಟರ್‍‍ನ ನಿಯಂತ್ರಣ ಹೊಂದಿದೆ. ನಿಯಂತ್ರಣ ಹಿಂಪಡೆಯಲು ಎಸ್ಕೇಪ್ ಪ್ರೆಸ್ ಮಾಡಿ.
+pointerlock-warning-no-domain = ಈ ದಸ್ತಾವೇಜು ನಿಮ್ಮ ಪಾಯಿಂಟರ್‍‍ನ ನಿಯಂತ್ರಣ ಹೊಂದಿದೆ. ನಿಯಂತ್ರಣ ಹಿಂಪಡೆಯಲು ಎಸ್ಕೇಪ್ ಪ್ರೆಸ್ ಮಾಡಿ.
+bookmarks-toolbar-chevron =
+    .tooltiptext = ಇನ್ನಷ್ಟು ಪುಟಗುರುತುಗಳನ್ನು ತೋರಿಸು
+bookmarks-sidebar-content =
+    .aria-label = ಪುಟಗುರುತುಗಳು
+bookmarks-menu-button =
+    .label = ಪುಟಗುರುತುಗಳ ಪರಿವಿಡಿ
+bookmarks-other-bookmarks-menu =
+    .label = ಇತರೆ ಪುಟಗುರುತುಗಳು
+bookmarks-mobile-bookmarks-menu =
+    .label = ಮೊಬೈಲ್ ಬುಕ್‌ಮಾರ್ಕುಗಳು
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] ಪುಟಗುರುತುಗಳ ಬದಿಪಟ್ಟಿಯನ್ನು ಅಡಗಿಸು
+           *[other] ಪುಟಗುರುತುಗಳ ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ನೋಡು
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] ‍ಪುಟಗುರುತುಗಳ ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ಅಡಗಿಸು
+           *[other] ಪುಟಗುರುತುಗಳ ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ನೋಡು
+        }
+bookmarks-search =
+    .label = ಬುಕ್‌ಮಾರ್ಕುಗಳಿಗಾಗಿ ಹುಡುಕು
+bookmarks-tools =
+    .label = ಬುಕ್‌ಮಾರ್ಕುಗಳ ಉಪಕರಣಗಳು
+bookmarks-toolbar-menu =
+    .label = ಪುಟಗುರುತುಗಳ ಉಪಕರಣ ಪಟ್ಟಿ
+bookmarks-toolbar-placeholder =
+    .title = ಪುಟಗುರುತುಗಳ ಉಪಕರಣ ಪಟ್ಟಿ ಯ ಅಂಶಗಳು
+bookmarks-toolbar-placeholder-button =
+    .label = ಪುಟಗುರುತುಗಳ ಉಪಕರಣ ಪಟ್ಟಿ ಯ ಅಂಶಗಳು
+library-bookmarks-menu =
+    .label = ಪುಟಗುರುತುಗಳು
+toolbar-overflow-customize-button =
+    .label = ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ನನ್ನಿಚ್ಛೆಗೆ ತಕ್ಕಂತೆ ಹೊಂದಿಸು…
+    .accesskey = C
+toolbar-button-email-link =
+    .label = ಕೊಂಡಿಯನ್ನು ಇಮೈಲ್ ಮಾಡು
+    .tooltiptext = ಈ ಪುಟದ ಕೊಂಡಿಯನ್ನು ವಿ-ಅಂಚೆ ಮಾಡು
+toolbar-button-save-page =
+    .label = ಪುಟ ಉಳಿಸು
+    .tooltiptext = ಈ ಪುಟ ಉಳಿಸು ({ $shortcut })
+toolbar-button-open-file =
+    .label = ಕಡತವನ್ನು ತೆರೆ
+    .tooltiptext = ಕಡತವನ್ನು ತೆಗೆ ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = ಸಿಂಕ್ ಮಾಡಿದ ಟ್ಯಾಬ್‌ಗಳು
+    .tooltiptext = ‌ಇತರೆ ಸಾಧನಗಳ ಹಾಳೆಗಳನ್ನು ತೋರಿಸು
+toolbar-button-new-private-window =
+    .label = ಹೊಸ ಖಾಸಗಿ ಕಿಟಕಿ
+    .tooltiptext = ಒಂದು ಹೊಸ ಖಾಸಗಿ ಜಾಲಾಟ ಪರದೆಯನ್ನು ತೆರೆಯಿರಿ ({ $shortcut })
+eme-notifications-drm-content-playing = ಈ ತಾಣದಲ್ಲಿರುವ ಕೆಲವೊಂದು ಧ್ವನಿ ಅಥವಾ ವಿಡಿಯೋ DRM ತಂತ್ರಾಂಶ ಬಳಸುತ್ತವೆ, ಇವು ನೀವು { -brand-short-name } ನೊಂದಿಗೆ ಏನು ಮಾಡಬಹುದೋ ಅದನ್ನು ಮಿತಿಗೆ ಒಳಪಡಿಸುತ್ತದೆ.
+ui-tour-info-panel-close =
+    .tooltiptext = ಮುಚ್ಚು
+navbar-downloads =
+    .label = ಡೌನ್‍ಲೋಡ್‍ಗಳು
+navbar-print =
+    .label = ಮುದ್ರಿಸು
+    .tooltiptext = ಈ ಪುಟವನ್ನು ಮುದ್ರಿಸಿ… ({ $shortcut })
+navbar-library =
+    .label = ಲೈಬ್ರರಿ
+    .tooltiptext = ಇತಿಹಾಸ, ಉಳಿಸಿದ ಬುಕ್‍ಮಾರ್ಕ್‌ಗಳು ಮತ್ತು ಹೆಚ್ಚಿದುದನ್ನು ನೋಡಿ
+navbar-search =
+    .title = ಹುಡುಕು
+tabs-toolbar =
+    .aria-label = ಜಾಲವೀಕ್ಷಣಾ ಟ್ಯಾಬ್‌ಗಳು
+tabs-toolbar-new-tab =
+    .label = ಹೊಸ ಹಾಳೆ
+tabs-toolbar-list-all-tabs =
+    .label = ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡು
+    .tooltiptext = ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡು
+data-reporting-notification-message = ನಿಮ್ಮ ಅನುಭವವನ್ನು ಉತ್ತಮಗೊಳಿಸಲು { -brand-short-name } ಸ್ವಯಂಚಾಲಿತವಾಗಿ { -vendor-short-name } ಗೆ ಕೆಲವು ಮಾಹಿತಿಯನ್ನು ಕಳುಹಿಸುತ್ತದೆ.
+data-reporting-notification-button =
+    .label = ನಾನು ಏನನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತೇನೆ Choose
+    .accesskey = C
+refresh-blocked-refresh-label = ಈ ಪುಟವು ತಾನಾಗಿಯೆ ಮತ್ತೊಮ್ಮೆ ಲೋಡ್‌ ಆಗುವುದನ್ನು { -brand-short-name } ನಿರ್ಬಂಧಿಸಿದೆ.
+refresh-blocked-redirect-label = ಈ ಪುಟವು ತಾನಾಗಿಯೆ ಇನ್ನೊಂದು ಪುಟಕ್ಕೆ  ಮರಳಿ ನಿರ್ದೇಶಿತಗೊಳ್ಳುವುದನ್ನು { -brand-short-name } ನಿರ್ಬಂಧಿಸಿದೆ.
+refresh-blocked-allow =
+    .label = ಅನುಮತಿಸು
+    .accesskey = A
+popup-notification-addon-install-unsigned =
+    .value = (ದೃಢಪಡಿಸಿಲ್ಲದ)
+popup-warning-message =
+    { $popupCount ->
+        [one] ಪಾಪ್-ಅಪ್ ಕಿಟಕಿಯನ್ನು ತೆರೆಯದಂತೆ { -brand-short-name } ಈ ತಾಣವನ್ನು ತಡೆದಿದೆ.
+       *[other] { $popupCount } ಪಾಪ್-ಅಪ್ ಕಿಟಕಿಗಳನ್ನು ತೆರೆಯದಂತೆ { -brand-short-name } ಈ ತಾಣವನ್ನು ತಡೆದಿದೆ.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] ಆಯ್ಕೆಗಳು
+           *[other] ಆದ್ಯತೆಗಳು
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] P
+        }
+popup-show-popup-menuitem =
+    .label = '{ $popupURI }' ಅನ್ನು ತೋರಿಸು

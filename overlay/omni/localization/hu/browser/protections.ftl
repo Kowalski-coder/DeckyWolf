@@ -1,0 +1,195 @@
+graph-week-summary =
+    { $count ->
+        [one] A { -brand-short-name } { $count } nyomkövetőt blokkolt az elmúlt héten
+       *[other] A { -brand-short-name } { $count } nyomkövetőt blokkolt az elmúlt héten
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] <b>{ $count }</b> nyomkövető blokkolva { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") } óta
+       *[other] <b>{ $count }</b> nyomkövető blokkolva { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") } óta
+    }
+graph-private-window = A { -brand-short-name } továbbra is blokkolja a nyomkövetőket a privát ablakokban, de nem tárolja, hogy mi lett blokkolva.
+graph-week-summary-private-window = Követők, melyet a { -brand-short-name } blokkolt a héten
+protection-report-webpage-title = Védelmi vezérlőpult
+protection-report-page-content-title = Védelmi vezérlőpult
+protection-report-page-summary = Amíg Ön böngészik, a { -brand-short-name } a színfalak mögött gondoskodik az adatvédelméről. Ez ezen védelmek személyre szabott összefoglalója, olyan eszközökkel, melyekkel átveheti az irányítást az online biztonsága felett.
+protection-report-page-summary-default = Amíg Ön böngészik, a { -brand-short-name } a színfalak mögött gondoskodik az adatvédelméről. Ez ezen védelmek személyre szabott összefoglalója, olyan eszközökkel, melyekkel átveheti az irányítást az online biztonsága felett.
+protection-report-settings-link = Kezelje az adatvédelmi és biztonsági beállításait
+etp-card-title-always = Fokozott követés elleni védelem: Mindig bekapcsolva
+etp-card-title-custom-not-blocking = Fokozott követés elleni védelem: KI
+etp-card-content-description = A { -brand-short-name } automatikusan megakadályozza, hogy a cégek titokban kövessék Önt a weben.
+protection-report-etp-card-content-custom-not-blocking = Jelenleg minden védelem ki van kapcsolva. A { -brand-short-name } védelmi beállításainak kezelésével válassza ki, mely nyomkövetőket blokkolja.
+protection-report-manage-protections = Beállítások kezelése
+graph-today = Ma
+graph-legend-description = Grafikon, amely típusonként tartalmazza a héten blokkolt nyomkövetők számát.
+social-tab-title = Közösségimédia-követők
+social-tab-contant = A közösségi hálózatok nyomkövetőket helyeznek el más weboldalakon, hogy kövessék mit tesz, lát és néz online. Így a közösségi médiával foglalkozó cégek többet tudhatnak meg Önről, mint amit megoszt a közösségimédia-profiljaiban. <a data-l10n-name="learn-more-link">További tudnivalók</a>
+cookie-tab-title = Webhelyek közötti nyomkövető sütik
+cookie-tab-content = Ezek a sütik követik a webhelyek között, és információkat gyűjtenek az online tevékenységéről. Ezeket harmadik felek, például hirdető és elemző cégek állítják be. A webhelyek közötti nyomkövető sütik blokkolása csökkenti azon hirdetések számát, amelyek követik Önt. <a data-l10n-name="learn-more-link">További tudnivalók</a>
+tracker-tab-title = Nyomkövető tartalom
+tracker-tab-description = A weboldalak külső hirdetéseket, videókat és más nyomkövető kódot tartalmazó tartalmat tölthetnek be. A nyomkövető tartalmak blokkolása az oldalak gyorsabb betöltését eredményezheti, de egyes gombok, űrlapok és bejelentkezési mezők lehet, hogy nem fognak működni. <a data-l10n-name="learn-more-link">További tudnivalók</a>
+fingerprinter-tab-title = Ujjlenyomat-készítők
+fingerprinter-tab-content = A ujjlenyomat-készítők beállításokat gyűjtenek a böngészőjéből és számítógépéből, hogy profilt hozzanak létre Önről. A digitális ujjlenyomat használatával követhetik Ön a különböző webhelyek között. <a data-l10n-name="learn-more-link">További tudnivalók</a>
+cryptominer-tab-title = Kriptobányászok
+cryptominer-tab-content = A kriptobányászok az Ön rendszerének erőforrásait használják digitális pénzek bányászatához. A kriptobányászok lemerítik az akkumulátort, lelassítják a számítógépét és növelhetik a villanyszámláját. <a data-l10n-name="learn-more-link">További tudnivalók</a>
+protections-close-button2 =
+    .aria-label = Bezárás
+    .title = Bezárás
+mobile-app-title = Blokkolja a hirdetéskövetőket több eszközön
+mobile-app-card-content = Használja a beépített hirdetéskövetés elleni védelemmel ellátott mobilböngészőt.
+mobile-app-links = { -brand-product-name } böngésző <a data-l10n-name="android-mobile-inline-link">Androidra</a> és <a data-l10n-name="ios-mobile-inline-link">iOS-re</a>
+lockwise-title = Ne felejtsen el egyetlen jelszót sem
+passwords-title-logged-in = Jelszavak kezelése
+passwords-header-content = A { -brand-product-name } biztonságosan tárolja a jelszavait a böngészőjében.
+lockwise-header-content-logged-in = Tárolja biztonságosan, és szinkronizálja a jelszavait az összes eszközén.
+protection-report-passwords-save-passwords-button = Jelszavak mentése
+    .title = Jelszavak mentése
+protection-report-passwords-manage-passwords-button = Jelszavak kezelése
+    .title = Jelszavak kezelése
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [one] 1 jelszó adatvédelmi incidensben lehet érintett.
+       *[other] { $count } jelszó adatvédelmi incidensben lehet érintett.
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] 1 jelszó biztonságosan tárolva.
+       *[other] Jelszavait biztonságosan tárolja.
+    }
+lockwise-how-it-works-link = Hogyan működik
+monitor-title = Legyen résen az adatvédelmi incidensek miatt.
+monitor-link = Hogyan működik
+monitor-header-content-no-account = Ellenőrizze a { -monitor-brand-name } oldalt, és nézze meg, hogy szerepelt-e valamilyen ismert adatvédelmi incidensben, és kapjon értesítést az új incidensekről.
+monitor-header-content-signed-in = A { -monitor-brand-name } figyelmezteti, ha az adatai új adatvédelmi incidensben jelennek meg.
+monitor-sign-up-link = Iratkozzon fel az adatvédelmi incidensek figyelmeztetéseire
+    .title = Iratkozzon fel az adatvédelmi incidensek figyelmeztetéseire a { -monitor-brand-name }on
+auto-scan = Automatikusan ellenőrizve ma
+monitor-emails-tooltip =
+    .title = Megfigyelt e-mail-címek megtekintése a { -monitor-brand-short-name }on
+monitor-breaches-tooltip =
+    .title = Ismert adatvédelmi incidensek megtekintése a { -monitor-brand-short-name }on
+monitor-passwords-tooltip =
+    .title = Kikerült jelszavak megtekintése a { -monitor-brand-short-name }on
+info-monitored-emails =
+    { $count ->
+        [one] Figyelt e-mail-cím
+       *[other] Figyelt e-mail-cím
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] Ismert adatvédelmi incidensben kerültek ki az információi
+       *[other] Ismert adatvédelmi incidensben kerültek ki az információi
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] Megoldottként megjelölt adatvédelmi incidens
+       *[other] Megoldottként megjelölt adatvédelmi incidens
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] Adatvédelmi incidens során kikerült jelszó
+       *[other] Adatvédelmi incidensek során kikerült jelszavak
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] Megoldatlan adatvédelmi incidensben kikerült jelszó
+       *[other] Megoldatlan adatvédelmi incidensekben kikerült jelszavak
+    }
+monitor-no-breaches-title = Jó hírek!
+monitor-no-breaches-description = Nincs ismert adatvédelmi incidens. Ha ez megváltozik, tájékoztatni fogjuk.
+monitor-view-report-link = Jelentés megtekintése
+    .title = Adatsértések megoldása a { -monitor-brand-short-name }on
+monitor-breaches-unresolved-title = Oldja meg az adatvédelmi incidenseit
+monitor-breaches-unresolved-description = Az adatvédelmi incidens részleteinek áttekintése és az adatvédelmi lépések megtétele után megoldottnak jelölheti az adatvédelmi incidenseket.
+monitor-manage-breaches-link = Adatvédelmi incidensek kezelése
+    .title = Adatvédelmi incidensek kezelése a { -monitor-brand-short-name }on
+monitor-breaches-resolved-title = Szép! Megoldotta az összes ismert adatvédelmi incidenst.
+monitor-breaches-resolved-description = Ha az e-mail-címe új adatvédelmi incidensben jelenik meg, értesíteni fogjuk.
+monitor-partial-breaches-title =
+    { $numBreaches ->
+       *[other] { $numBreachesResolved } / { $numBreaches } adatvédelmi incidens megjelölve megoldottként
+    }
+monitor-partial-breaches-percentage = { $percentageResolved }% kész
+monitor-partial-breaches-motivation-title-start = Nagyszerű kezdés!
+monitor-partial-breaches-motivation-title-middle = Csak így tovább!
+monitor-partial-breaches-motivation-title-end = Majdnem kész! Csak így tovább.
+monitor-partial-breaches-motivation-description = Oldja meg a többi adatvédelmi incidenst a { -monitor-brand-short-name }.
+monitor-resolve-breaches-link = Adatvédelmi incidensek megoldása
+    .title = Adatvédelmi incidensek megoldása a { -monitor-brand-short-name }on
+bar-tooltip-social =
+    .title = Közösségimédia-követők
+    .aria-label =
+        { $count ->
+            [one] { $count } közösségimédia-követő ({ $percentage }%)
+           *[other] { $count } közösségimédia-követő ({ $percentage }%)
+        }
+bar-tooltip-cookie =
+    .title = Webhelyek közötti nyomkövető sütik
+    .aria-label =
+        { $count ->
+            [one] { $count } webhelyek közötti nyomkövető ({ $percentage }%)
+           *[other] { $count } webhelyek közötti nyomkövető ({ $percentage }%)
+        }
+bar-tooltip-tracker =
+    .title = Nyomkövető tartalom
+    .aria-label =
+        { $count ->
+            [one] { $count } nyomkövető tartalom ({ $percentage }%)
+           *[other] { $count } nyomkövető tartalom ({ $percentage }%)
+        }
+bar-tooltip-fingerprinter =
+    .title = Ujjlenyomat-készítők
+    .aria-label =
+        { $count ->
+            [one] { $count } ujjlenyomat-készítő ({ $percentage }%)
+           *[other] { $count } ujjlenyomat-készítő ({ $percentage }%)
+        }
+bar-tooltip-cryptominer =
+    .title = Kriptobányászok
+    .aria-label =
+        { $count ->
+            [one] { $count } kriptobányász ({ $percentage }%)
+           *[other] { $count } kriptobányász ({ $percentage }%)
+        }
+privacy-metrics-title = Adatvédelem
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } blokkolva a héten
+       *[other] { $count } blokkolva a héten
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } követő
+       *[other] { $count } követő
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } ujjlenyomat-készítő
+       *[other] { $count } ujjlenyomat-készítő
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } nyomkövető süti
+       *[other] { $count } nyomkövető süti
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } közösségi követő
+       *[other] { $count } közösségi követő
+    }
+privacy-metrics-empty = A héten egy követő sem volt blokkolva. A { -brand-short-name } megvédi a következő fenyegetésektől böngészés közben.
+privacy-metrics-loading = Védelmi statisztikák betöltése…
+privacy-metrics-error = Nem sikerült betölteni a védelmi statisztikákat.
+privacy-metrics-private-window = A { -brand-short-name } a privát ablakokban is blokkolja a követőket, de nem tárolja, hogy mik kerültek blokkolásra.
+protections-vpn-title = Kapjon további adatvédelmet a böngészőn túl
+protections-vpn-header-content = Védje meg az egész eszközét a { -mozilla-vpn-brand-name } segítségével. Egy koppintás titkosítja az összes forgalmat, és elrejti a tartózkodási helyét.
+protections-get-vpn-link = A { -mozilla-vpn-brand-name } beszerzése
+protections-vpn-title-subscribed = VPN: Előfizetve
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [one] A { -mozilla-vpn-brand-name } titkosítja az összes forgalmát és elrejti tartózkodási helyét – akár { $count } eszközön. Hozza ki a legtöbbet az előfizetéséből – adja hozzá a <a data-l10n-name="playstore-link">Google Play Áruházból</a> vagy az <a data-l10n-name="appstore-link">Apple App Store-ból </a>.
+       *[other] A { -mozilla-vpn-brand-name } titkosítja az összes forgalmát és elrejti tartózkodási helyét – akár { $count } eszközön. Hozza ki a legtöbbet az előfizetéséből – adja hozzá a <a data-l10n-name="playstore-link">Google Play Áruházból</a> vagy az <a data-l10n-name="appstore-link">Apple App Store-ból </a>.
+    }
+protections-vpn-banner-header = Védelem, mely túlmutat a böngészőn
+protections-vpn-banner-content = Próbálja ki a { -mozilla-vpn-brand-name }-t kockázatmentesen, és tudja meg, miért mondja ezt a TechRadar: „gyorsasága, egyszerűsége és alacsony havidíja miatt megéri megnézni”.
+protections-vpn-banner-link = A { -mozilla-vpn-brand-name } beszerzése

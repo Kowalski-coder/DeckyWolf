@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Åpne { -brand-short-name } i feilsøkingsmodus?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Åpne
+refresh-profile =
+    .label = Tilbakestill { -brand-short-name }
+troubleshoot-mode-description = Bruk denne spesielle modusen for { -brand-short-name } for å diagnostisere problemer. Dine utvidelser og tilpasninger blir deaktivert midlertidig.
+skip-troubleshoot-refresh-profile = Du kan også hoppe over feilsøking, og tilbakestille { -brand-short-name } i stedet.
+auto-safe-mode-description = { -brand-short-name } lukktet uventet mens den startet. Dette kan være forårsaket av en utvidelse eller annet problem. Du kan forsøke å rette problemet ved å feilsøke i Sikker Modus.

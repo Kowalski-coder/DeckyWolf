@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cari Semua Tab
+all-tabs-menu-new-user-context =
+    .label = Tab Penyimpan Baru
+all-tabs-menu-hidden-tabs =
+    .label = Tab Tersorok
+all-tabs-menu-close-duplicate-tabs =
+    .label = Tutup Tab Pendua
+all-tabs-menu-view-all-tabs =
+    .label = Lihat Semua Tab
+all-tabs-menu-recent-tab-groups-header = Kumpulan tab terkini
+all-tabs-menu-tab-groups-show-all =
+    .label = Tunjuk semua
+all-tabs-menu-tab-groups-sub-view =
+    .title = Kumpulan tab
+all-tabs-menu-current-window-header = Tetingkap semasa

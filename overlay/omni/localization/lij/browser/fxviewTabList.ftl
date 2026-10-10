@@ -1,0 +1,17 @@
+fxviewtabrow-date = { DATETIME($date, dateStyle: "short") }
+fxviewtabrow-time = { DATETIME($time, timeStyle: "short") }
+fxviewtabrow-just-now-timestamp = Oua
+fxviewtabrow-delete = Scancella
+    .accesskey = S
+fxviewtabrow-forget-about-this-site = Ascòrdite de questo scito…
+    .accesskey = A
+fxviewtabrow-open-in-window = Arvi in Neuvo Barcon
+    .accesskey = N
+fxviewtabrow-open-in-private-window = Arvi in Neuvo Barcon Privòu
+    .accesskey = P
+fxviewtabrow-add-bookmark = Segnalibbro…
+    .accesskey = S
+fxviewtabrow-save-to-pocket = Sarva in { -pocket-brand-name }
+    .accesskey = S
+fxviewtabrow-copy-link = Còpia colegamento
+    .accesskey = l

@@ -1,0 +1,202 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = VPN’i aç
+    .tooltiptext = VPN’i aç
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = VPN destek sayfasını aç
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = VPN artık tarayıcınızın içinde
+ipprotection-feature-introduction-title-1 = Yerleşik { -brand-product-name } VPN’i deneyin
+ipprotection-feature-introduction-link-text-2 = Konumunuzu gizlemek ve verilerinizi korumak için yeni <a data-l10n-name="learn-more-vpn">yerleşik VPN</a>’imizi kullanabilirsiniz.
+ipprotection-feature-introduction-title-privacy = Gizliliğinizi bir kat daha artırın
+ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } tarayıcısının yerleşik VPN özelliği</a> ile gezintinizi koruyabilirsiniz. Farklı konumlardan istediğinizi seçerek gezintilerinizi daha gizli tutun.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } tarayıcısının yerleşik VPN özelliği</a> ile gezintinizi koruyabilirsiniz. Çok sayıda konumdan istediğinizi seçerek gezintilerinizi daha gizli tutun.
+ipprotection-feature-introduction-link-text-privacy-3 = İnternette gezdiğiniz yerleri gizlemek için çok sayıda konumdan istediğinizi seçerek <a data-l10n-name="learn-more-vpn">ekstra gizliliğe</a> kavuşun.
+ipprotection-feature-introduction-text-summer-promo-1 = Gezintilerinizi daha gizli tutmak için bu özelliği açın. 31 Ağustos’a kadar <a data-l10n-name="summer-promo-link">sınırsız bant genişliği</a> ve daha fazla konum üzerinden gezinme imkânına kavuşun.
+ipprotection-feature-introduction-title-summer-promo = Seyahat planlarınız mı var? Gizliliği yanınızda taşıyın.
+ipprotection-feature-introduction-description-summer-promo = { -brand-product-name }’un yerleşik VPN’iyle sınırları aşın: 31 Ağustos’a kadar daha fazla konum, sınırsız bant genişliği.
+ipprotection-summer-promo-offramp-generic-title = VPN limitleriniz 1 Eylül’de sıfırlanacak
+ipprotection-summer-promo-offramp-generic-description = İnternette yaptıklarınızın izinin sürülmesini zorlaştırmak istiyorsanız { $maxUsage } GB kota ve 6 konumla ekstra gizlilikten yararlanın.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = İnternette yaptıklarınızın izinin sürülmesini zorlaştırmak istiyorsanız { $maxUsage } GB kota ve 20’den fazla konumla ekstra gizlilikten yararlanın.
+ipprotection-summer-promo-offramp-subscriber-title = Yerleşik VPN’iniz artık daha iyi
+ipprotection-summer-promo-offramp-subscriber-description = { -mozilla-vpn-brand-name } abonesi olarak artık sınırsız bant genişliğine ve daha fazla konuma sahip olabilirsiniz.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = İlave yerleşik VPN konumlarınızı kaybetmeyin
+ipprotection-summer-promo-offramp-default-browser-incentive-description = { -brand-product-name }’u varsayılan tarayıcınız yapın, 31 Ağustos’tan sonra bağlanabileceğiniz 20’den fazla ilave konuma kavuşun.
+ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } ile seviye atlayın
+ipprotection-summer-promo-offramp-subscription-upsell-description = 31 Ağustos’tan sonra da sınırsız bant genişliğini kaybetmeyin, 5 cihazda 300’den fazla konumla internette gezinirken izinizin sürülmesini zorlaştırın.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN’i aç
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Varsayılan yap
+ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name }’i edinin
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Kapat
+ipprotection-feature-introduction-link-text-private-browsing-2 = Gizli pencerede konumunuzu gizlemek ve verilerinizi korumak için yeni <a data-l10n-name="learn-more-vpn">yerleşik VPN</a>’imizi kullanabilirsiniz.
+ipprotection-feature-introduction-description-private-browsing = Konumunuzu gizleyin, Gizli Pencere’de bile ekstra korumayla gezinin.
+ipprotection-feature-introduction-title-captive-portal = Halka açık bir Wi-Fi ağında mısınız? { -brand-product-name } tarayıcısının yerleşik VPN’ini deneyin.
+ipprotection-feature-introduction-description-captive-portal = Konumunuzu gizleyin, halka açık Wi-Fi ağlarında bile ekstra korumayla gezinin.
+ipprotection-feature-introduction-link-text-captive-portal-1 = İnternette gezdiğiniz yerleri gizlemek için çeşitli konumlardan istediğinizi seçerek <a data-l10n-name="learn-more-vpn">ekstra gizliliğe</a> kavuşun.
+ipprotection-feature-introduction-button-primary = İleri
+ipprotection-feature-introduction-button-secondary-not-now = Şimdi değil
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Şimdi değil
+ipprotection-feature-introduction-button-secondary-no-thanks = Hayır
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Hayır
+ipprotection-feature-introduction-button-secondary-remove = VPN’i araç çubuğundan kaldır
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = VPN’i araç çubuğundan kaldır
+ipprotection-feature-introduction-button-open-vpn = VPN’i aç
+ipprotection-feature-introduction-button-get-started = Kullanmaya başlayın
+ipprotection-site-settings-callout-title = VPN’i nerede kullanacağınızı seçin
+ipprotection-site-settings-callout-subtitle = Belirli bir sitede VPN’i kapatırsanız o siteye tekrar girdiğinizde bu kararınızı hatırlarız.
+ipprotection-site-settings-callout-button = Anladım
+ipprotection-location-selection-callout-title = Yeni: Konumunuzu değiştirin
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } tarayıcısının yerleşik VPN’i</a> ile ister farklı konumlardan dilediğinizi seçin, isterseniz en hızlısını biz seçelim.
+ipprotection-location-selection-callout-primary-button = Deneyin
+ipprotection-location-selection-callout-secondary-button = Kapat
+ipprotection-android-promo-callout-title = Yerleşik VPN’i Android’de de kullanın
+ipprotection-android-promo-callout-description = QR kodunu okutarak Android için { -brand-product-name } uygulamasını indirin, yoldayken daha fazla gizlilik için VPN’i açın. Çok yakında iOS’e de geliyor.
+ipprotection-android-promo-callout-primary-button = Anladım
+unauthenticated-vpn-title = Yerleşik { -brand-product-name } VPN’i deneyin
+unauthenticated-hide-location-message-3 = { -brand-product-name } ile gezinirken <a data-l10n-name="learn-more-vpn">konumunuzu gizleyin</a>.
+unauthenticated-private-location-message = { -brand-product-name } tarayıcısında <a data-l10n-name="learn-more-vpn">konumunuzu gizli tutmamıza</a> yardımcı olur.
+unauthenticated-choose-location-message-1 = Farklı konumlar arasından seçim yapın veya en hızlısını { -brand-product-name } seçsin.
+unauthenticated-site-rules-message = Hangi sitelerin VPN kullanıp hangilerinin kullanmayacağını yönetin.
+unauthenticated-get-started = Kullanmaya başlayın
+unauthenticated-terms-of-service-privacy-notice = Devam ederseniz <a data-l10n-name="vpn-terms-of-service">Hizmet Koşulları</a>’nı ve <a data-l10n-name="vpn-privacy-notice">Gizlilik Bildirimi</a>’ni kabul etmiş olursunuz.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = Bu sitede VPN açık
+    .label = Bu sitede VPN kullan
+site-exclusion-toggle-disabled-1 =
+    .aria-label = Bu sitede VPN kapalı
+    .label = Bu sitede VPN kullan
+site-exclusion-toggle-description = Site çalışmıyor mu? VPN’i kapatmayı deneyin.
+site-rules-manage-rules-link-text = VPN kurallarını yönet
+site-rules-status-heading = Kuralınız
+site-rules-description-exclusion = Bu sitede VPN kapalı
+site-rules-description-inclusion = Bu sitede VPN açık
+ipprotection-settings-link =
+    .label = Ayarlar
+ipprotection-connection-status-connected-1 = VPN açık
+    .aria-label = VPN açık
+ipprotection-connection-status-disconnected-1 = VPN kapalı
+    .aria-label = VPN kapalı
+ipprotection-connection-status-excluded-1 = Bu sitede VPN kapalı
+    .aria-label = Bu sitede VPN kapalı
+ipprotection-connection-status-connecting-1 = VPN’e bağlanılıyor…
+    .aria-label = VPN’e bağlanılıyor…
+ipprotection-button-turn-vpn-off = VPN’i kapat
+ipprotection-button-turn-vpn-off-excluded-site = VPN’i her yerde kapat
+ipprotection-button-turn-vpn-on = VPN’i aç
+ipprotection-button-connecting = Açılıyor…
+ipprotection-recommended-location-button = Konum: Önerilen
+ipprotection-recommended-location-description = { -brand-product-name } en hızlı konumu bulur
+ipprotection-recommended-location-badge = YENİ
+ipprotection-location-country-button = Konum: { $country }
+ipprotection-locations-subview =
+    .title = Konum seç
+ipprotection-locations-subview-description = Gezinmek için farklı bir konum seçin.
+ipprotecion-locations-subview-recommended-label = Önerilen
+ipprotection-locations-subview-recommended-description = En hızlı konumu bulur
+ipprotection-locations-unavailable-label-1 = Kullanılamıyor
+    .aria-label = Kullanılamıyor, devre dışı
+ipprotection-locations-subview-promo =
+    .heading = { -mozilla-vpn-brand-name } ile korumayı ileri taşıyın
+    .message = 300’den fazla konumdan istediğinizi seçin, 5 ayrı cihazınızda tüm uygulamalarınızı koruyun.
+ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name }’i edinin
+ipprotection-connection-status-paused-title-2 = VPN duraklatıldı
+    .aria-label = VPN duraklatıldı
+ipprotection-connection-status-paused-description-1 = { $maxUsage } GB VPN kotanızın hepsini kullandınız. Hakkınız gelecek ay sıfırlanacaktır.
+upgrade-vpn-title = Tarayıcının ötesinde ekstra korumaya kavuşun
+upgrade-vpn-description = VPN konumunuzu seçin, tüm uygulamalarınızda ve 5 cihazınızda VPN kullanın. İster evde ister halka açık Wi-Fi ağlarında, her yerde güvende kalın.
+upgrade-vpn-button = { -mozilla-vpn-brand-name }’i deneyin
+ipprotection-connection-status-generic-error-title-1 = VPN’e bağlanılamadı
+    .aria-label = VPN’e bağlanılamadı
+ipprotection-connection-status-generic-error-description = Birkaç dakika sonra yeniden deneyin.
+ipprotection-connection-status-generic-error-try-again = Lütfen daha sonra yeniden deneyin.
+ipprotection-connection-status-network-error-title-1 = İnternet bağlantınızı kontrol edin
+    .aria-label = İnternet bağlantınızı kontrol edin
+ipprotection-connection-status-network-error-description = İnternete bağlandıktan sonra VPN’i açmayı deneyin.
+ipprotection-connection-status-blocked-error-title-1 = VPN kullanılamıyor
+    .aria-label = VPN kullanılamıyor
+ipprotection-connection-status-blocked-error-description-1 = Yerel yasalar ve kısıtlamalar VPN’i kullanabileceğiniz yerleri sınırlayabilir. <a data-l10n-name="learn-more-link">Daha fazla bilgi alın</a>
+ipprotection-message-bandwidth-warning =
+    .heading = VPN kotanız dolmak üzere
+    .message = Bu ayki { $maxUsage } GB kotanızdan { $usageLeft } GB kaldı.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = VPN kotanız dolmak üzere
+    .message = Bu ayki { $maxUsage } GB hakkınızdan { $usageLeft } MB kaldı.
+ipprotection-message-continuous-onboarding-intro = Konumunuzu gizlemek ve gezintilerinize ekstra şifreleme eklemek için VPN’i açabilirsiniz.
+ipprotection-message-continuous-onboarding-autostart = Ekstra koruma için { -brand-short-name } tarayıcınızı her açtığınızda <a data-l10n-name="setting-link">VPN’i açılacak şekilde ayarlayabilirsiniz</a>.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } hangi sitelerde VPN kullandığınızı hatırlayacaktır. Bunları istediğiniz zaman <a data-l10n-name="setting-link">ayarlar</a> üzerinden güncelleyebilirsiniz.
+confirmation-hint-ipprotection-navigated-to-excluded-site = Bu sitede VPN kapalı
+ipprotection-open-button = { -brand-product-name }’u aç
+ipprotection-come-back-title = Yerleşik VPN’i denemek için yine gelin
+ipprotection-message-body-hide-location = { -brand-product-name } ile gezinirken daha fazla gizlilik ve kontrol için konumunuzu gizleyin.
+ipprotection-bandwidth-upgrade-title = Yerleşik VPN’i beğendiniz mi? { -mozilla-vpn-brand-name } ile { -brand-product-name } dışında daha fazla korumaya sahip olabilirsiniz.
+ipprotection-bandwidth-upgrade-text = İstediğiniz VPN konumunu seçin, ister evde ister halka açık Wi-Fi ağlarında 5 cihaza kadar tüm uygulamalarınızı koruyun.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>VPN kotanız bitmeye yaklaşıyor.</strong> { $usageLeft } GB hakkınız kaldı. Kotanız ay başında sıfırlanacaktır.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>VPN kotanız bitmek üzere.</strong> { $usageLeft } GB hakkınız kaldı. Kotanız bitince gelecek ayın ilk günü kotanız sıfırlanana kadar VPN’iniz duraklayacaktır.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN kotanız bitmek üzere.</strong> { $usageLeft } MB hakkınız kaldı. Kotanız bitince gelecek ayın ilk günü kotanız sıfırlanana kadar VPN’iniz duraklayacaktır.
+ip-protection-description =
+    .description = { -brand-short-name } ile gezinirken gizliliğinizi artıracak yerleşik VPN.
+    .label = VPN
+ip-protection-description-1 =
+    .description = İnternette gezinirken konumunuzu gizleyerek ekstra gizliliğe kavuşun.
+    .label = Yerleşik VPN
+ip-protection-learn-more = Daha fazla bilgi al
+ip-protection-not-opted-in-4 =
+    .heading = Yerleşik { -brand-short-name } VPN’i deneyin
+    .message = Konumunuzu gizleyerek ekstra korumayla gezinin.
+ip-protection-not-opted-in-button = Başla
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } web sitesi
+           *[other] { $count } web sitesi
+        }
+    .label = Web sitesi ayarlarını yönet
+ip-protection-site-rules-header =
+    .heading = Site kurallarını yönet
+ip-protection-site-rules-button =
+    .description = Ekstra gizlilik gerektiren veya VPN’in kapatılması gereken siteler için kurallar belirleyin.
+    .label = Site kurallarını yönet
+ip-protection-autostart =
+    .label = VPN’i otomatik olarak aç
+ip-protection-autostart-checkbox =
+    .label = { -brand-short-name } tarayıcısını açtığımda
+ip-protection-autostart-private-checkbox =
+    .label = Gizli pencerelerde
+ip-protection-vpn-upgrade-link =
+    .description = İstediğiniz VPN konumunu seçin, ister evde ister halka açık Wi-Fi ağlarında beş ayrı cihazda tüm uygulamalarınızı koruyun.
+    .label = { -mozilla-vpn-brand-name } ile { -brand-short-name } dışında daha da fazla korumaya sahip olun
+ip-protection-vpn-upgrade-link-1 =
+    .description = 300’den fazla konumdan istediğinizi seçin, 5 ayrı cihazınızda tüm uygulamalarınızı koruyun.
+    .label = { -mozilla-vpn-brand-name } ile korumayı ileri taşıyın
+ip-protection-exceptions-dialog-window =
+    .title = Web sitesi ayarlarını yönet
+ip-protection-exclusions-desc = Bu listedeki siteler hariç tüm web siteleri için VPN kullanılır. Buradan veya VPN’i açarak site ekleyebilirsiniz.
+ip-protection-bandwidth-header-1 = Aylık kota
+ip-protection-bandwidth-left-this-month-gb = Bu ay { $maxUsage } GB kotanızdan { $usageLeft } GB kaldı
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">{ $usageLeft } GB</span> / { $maxUsage } GB kaldı
+ip-protection-bandwidth-left-this-month-mb = Bu ay { $maxUsage } GB kotanızdan { $usageLeft } MB kaldı
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">{ $usageLeft } MB</span> / { $maxUsage } GB kaldı
+ip-protection-bandwidth-hit-for-the-month = { $maxUsage } GB VPN kotanızın hepsini kullandınız. Hakkınız gelecek ay sıfırlanacaktır.
+ip-protection-bandwidth-help-text = Her ayın ilk günü { $maxUsage } GB hakkınız sıfırlanır.
+ipprotection-bandwidth-reset-title = { $maxUsage } GB VPN kotanız yenilendi ve kullanıma hazır
+ipprotection-bandwidth-reset-text = Gizliliğinizi artırmak için VPN’i açabilirsiniz. Her ay ücretsiz.
+ipprotection-bandwidth-reset-button = Anladım
+ipp-activator-breakage-sign-in-warning = <strong>Bu site VPN ile çalışmayabilir.</strong> Bu siteyi kullanırken sitede oturum açmayı veya VPN’i kapatmayı deneyin.
+ipp-activator-breakage-turn-off-warning = <strong>Bu site VPN ile çalışmayabilir.</strong> Bu siteyi kullanırken VPN’i kapatmayı deneyin.
+vpn-paused-alert-title = VPN duraklatıldı
+vpn-paused-alert-body = { $maxUsage } GB VPN kotanızın hepsini kullandınız. VPN kullanım hakkınız gelecek ay sıfırlanacaktır.
+vpn-error-page-paused-description = { $maxUsage } GB VPN kotanızın hepsini kullandınız. Hakkınız gelecek ay sıfırlanacaktır.
+vpn-error-page-continue-description = VPN olmadan nasıl devam edeceğinizi seçin
+vpn-error-page-keep-browsing = Bu oturumda gezinmeye devam et
+vpn-error-page-new-session = Yeni oturum başlat
+vpn-paused-alert-close-tabs-button = Tüm sekmeleri kapat
+vpn-paused-alert-continue-wo-vpn-button = VPN olmadan devam et
+vpn-error-alert-title = VPN şu anda çalışmıyor.
+vpn-error-alert-body = Daha sonra yeniden deneyin.

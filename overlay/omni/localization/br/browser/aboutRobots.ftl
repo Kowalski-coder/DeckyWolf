@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Donemat deoc’h, tud!
+error-short-desc-text = E peoc’h ha gant youl vat ez omp deuet d’ho kwelout!
+error-long-desc1 = Ne c’hell ket ar robotoù kunujañ mab-den pe, dre zioberiantiz, lezel mab-den da vezañ gloazet.
+error-long-desc2 = Traoù na gredfec’h ket enno o deus gwelet ar robotoù.
+error-long-desc3 = Ho mignoned mezell eo ar robotoù ha plijadur ez eus pa vezer ganto.
+error-long-desc4 = Pennoù a-dreñv lufrus ez eus gant ar robotoù hag a vefe gwell chom hep bezañ toset.
+error-trailer-desc-text = Hag ur steuñv o deus.
+error-try-again = Klask en-dro
+    .label2 = Mar plij, na pouezit ket war an afell-mañ en-dro.

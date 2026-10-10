@@ -1,0 +1,15 @@
+panic-button-open-new-window = เปิดหน้าต่างว่างใหม่
+panic-button-undo-warning = การกระทำนี้ไม่สามารถเลิกทำได้
+panic-button-forget-button =
+    .label = ลืม!
+panic-main-timeframe-desc = ลืมก่อนหน้านี้:
+panic-button-5min =
+    .label = ห้านาที
+panic-button-2hr =
+    .label = สองชั่วโมง
+panic-button-day =
+    .label = 24 ชั่วโมง
+panic-button-action-desc = การดำเนินการต่อจะ:
+panic-button-delete-cookies = ลบ<strong>คุกกี้</strong>ล่าสุด
+panic-button-delete-history = ลบ<strong>ประวัติ</strong>ล่าสุด
+panic-button-delete-tabs-and-windows = ปิด<strong>แท็บ</strong>และ<strong>หน้าต่าง</strong>ทั้งหมด

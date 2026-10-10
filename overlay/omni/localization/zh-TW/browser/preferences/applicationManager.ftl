@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = 程式詳細資訊
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = 移除
+    .accesskey = R
+app-manager-handle-protocol = 下列程式可用來處理 { $type } 鏈結。
+app-manager-handle-file = 下列程式可用來處理 { $type } 內容。
+app-manager-web-app-info = 此網路應用程式架設在:
+app-manager-local-app-info = 此程式位於:

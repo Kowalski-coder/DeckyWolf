@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Tambahkan tab ke bilah tugas
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Hapus tab dari bilah tugas
+taskbar-tab-urlbar-button-show = Tampilkan aksi laman Aplikasi Web
+taskbar-tab-urlbar-button-hide = Sembunyikan tindakan laman Aplikasi Web
+taskbar-tab-shortcut-description = Aplikasi Web { $name }
+taskbar-tab-shortcut-folder = Aplikasi Web { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Bisukan Tab
+taskbar-tab-audio-unmute =
+    .tooltiptext = Suarakan Tab
+taskbar-tab-title-default = { $name } di { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) di { -brand-full-name }
+taskbar-tab-title-profile = { $name } di { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) di { $profile } — { -brand-full-name }

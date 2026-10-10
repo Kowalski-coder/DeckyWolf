@@ -1,0 +1,13 @@
+grid-row-column-positions = Tysýi { $row } / Yta { $column }
+gridtype-container = Mbyatyha ikora’ietáva
+gridtype-item = Mba’eporu ikora’ietáva
+gridtype-dual = Mbyatyha ikora’ietáva/Item
+flextype-container = Mbyatyha hu’ũva
+flextype-item = Mba’eporu hu’ũva
+flextype-dual = Mbyatyha hu’ũva/Item
+remote-node-picker-notice = Mohendaha poravoha DevTools myandypyre. { $action }
+remote-node-picker-notice-action-desktop = Eikutu mba’eporu eiporavo hag̃ua moambuekuaahápe
+remote-node-picker-notice-action-touch = Eikutu mba’eporu eiporavo hag̃ua moambuekuaahápe
+remote-node-picker-notice-hide-button = Moñemi
+simple-highlighters-message = Oñemyandývo prefers-reduced-motion, ikatuhína omyandy pe mbosa’yha ñembohekoha rupapegua ani hag̃ua omymýi sa’ykuéra.
+simple-highlighters-settings-button = Embojuruja Ñemboheko

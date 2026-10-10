@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Сведения о приложении
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Удалить
+    .accesskey = д
+app-manager-handle-protocol = Для работы с Ссылки { $type } могут быть использованы следующие приложения.
+app-manager-handle-file = Для работы с Содержимое { $type } могут быть использованы следующие приложения.
+app-manager-web-app-info = Это веб-приложение расположено на:
+app-manager-local-app-info = Это приложение расположено на:

@@ -1,0 +1,14 @@
+network-menu-summary-tooltip-perf =
+    .title = Tosaigh an anailís feidhmíochta
+network-menu-summary-tooltip-domcontentloaded =
+    .title = An t-am a tharla "DOMContentLoaded"
+network-menu-summary-tooltip-load =
+    .title = An t-am a tharla an ócáid "lódála".
+network-menu-summary-tooltip-requests-count =
+    .title = Líon iarratais
+network-menu-summary-transferred = { $formattedContentSize } / { $formattedTransferredSize } aistrithe
+network-menu-summary-tooltip-transferred =
+    .title = Méid/méid aistrithe gach iarratais
+network-menu-summary-finish = Críoch: { $formattedTime }
+network-menu-summary-tooltip-finish =
+    .title = Méid iomlán ama de dhíth gach iarratas a lódáil

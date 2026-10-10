@@ -1,0 +1,15 @@
+preferences-ai-controls-block-confirmation-smart-window = { -smart-window-brand-name }
+smart-window-block-title = Sewḥel { -smart-window-brand-name }?
+smart-window-block-description-both = Ayagi ad ikkes idiwennyen-inek { -smart-window-brand-name } akked tkatutin.
+smart-window-select-label =
+    .label = { -smart-window-brand-name }
+ai-window-activate-link =
+    .label = Bdu
+ai-window-personalize-button =
+    .label = Iɣewwaren n { -smart-window-brand-name }
+ai-window-personalize-header =
+    .heading = { -smart-window-brand-name }
+ai-window-default-section =
+    .label = Iɣewwaren imezwar
+smart-window-model-custom-save =
+    .label = Sekles

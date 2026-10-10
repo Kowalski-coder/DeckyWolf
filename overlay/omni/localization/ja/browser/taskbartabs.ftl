@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = タブをタスクバーに追加します
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = タブをタスクバーから削除します
+taskbar-tab-urlbar-button-show = ウェブアプリページの操作を表示
+taskbar-tab-urlbar-button-hide = ウェブアプリページの操作を隠す
+taskbar-tab-shortcut-description = { $name } ウェブアプリ
+taskbar-tab-shortcut-folder = { -brand-short-name } ウェブアプリ
+taskbar-tab-audio-mute =
+    .tooltiptext = タブをミュートにします
+taskbar-tab-audio-unmute =
+    .tooltiptext = タブのミュートを解除します
+taskbar-tab-title-default = { $name } | { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) | { -brand-full-name }
+taskbar-tab-title-profile = { $name } | { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) | { $profile } — { -brand-full-name }

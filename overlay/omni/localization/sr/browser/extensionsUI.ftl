@@ -1,0 +1,17 @@
+webext-default-search-description = Желите ли да дозволите да додатак { $addonName } промени подразумевани претраживач из „{ $currentEngine }” у „{ $newEngine }”?
+webext-default-search-yes =
+    .label = Да
+    .accesskey = Д
+webext-default-search-no =
+    .label = Не
+    .accesskey = Н
+addon-post-install-message = Додатак { $addonName } је додат.
+webext-quarantine-confirmation-title = Покренути { $addonName } на ограниченим сајтовима?
+webext-quarantine-confirmation-line-1 = Ради заштите ваших података, овај додатак није дозвољен на овом сајту.
+webext-quarantine-confirmation-line-2 = Дозволи овом додатку, ако му верујете, да чита и мења ваше податке на сајтовима које је { -vendor-short-name } ограничио.
+webext-quarantine-confirmation-allow =
+    .label = Дозволи
+    .accesskey = Д
+webext-quarantine-confirmation-deny =
+    .label = Немој
+    .accesskey = Н

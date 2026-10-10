@@ -1,0 +1,54 @@
+xpinstall-prompt = { -brand-short-name } ने इस साइट को आपके कंप्यूटर पर सॉफ़्टवेयर संस्थापन के लिए आपसे पूछने से रोका है.
+xpinstall-prompt-header = { $host } को ऐड-ऑन स्थापित करने की अनुमति दें?
+xpinstall-prompt-header-unknown = किसी अज्ञात साइट को ऐड-ऑन स्थापित करने की अनुमति दें?
+xpinstall-prompt-message-unknown = आप किसी अज्ञात साइट से ऐड-ऑन स्थापित करने का प्रयास कर रहे हैं। सुनिश्चित करें कि आप जारी रखने से पहले इस साइट पर भरोसा करते हैं।
+xpinstall-prompt-dont-allow =
+    .label = अनुमति न दें
+    .accesskey = D
+xpinstall-prompt-never-allow =
+    .label = कभी अनुमति न दें
+    .accesskey = N
+xpinstall-prompt-install =
+    .label = स्थापना के लिए जारी रखें
+    .accesskey = C
+xpinstall-disabled = सॉफ्टवेयर संस्थापन अभी निष्क्रिय है. सक्रिय पर क्लिक करें और फिर कोशिश करें.
+xpinstall-disabled-button =
+    .label = 0सक्रिय करें
+    .accesskey = n
+webext-perms-sideload-menu-item = { $addonName } को { -brand-short-name } से जोड़ा गया
+webext-perms-update-menu-item = { $addonName } को नई अनुमाति की आवशयकता है
+addon-removal-button = हटाएँ
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [one] ऐड-ऑन डाउनलोड और सत्यापित हो रहा हैं…
+       *[other] { $addonCount } ऐड-ऑनस डाउनलोड और सत्यापित हो रहा हैं…
+    }
+addon-download-verifying = जाँच रहा है
+addon-install-cancel-button =
+    .label = रद्द करें
+    .accesskey = C
+addon-install-accept-button =
+    .label = जोड़ें
+    .accesskey = A
+addon-confirm-install-message =
+    { $addonCount ->
+        [one] यह साइट { -brand-short-name } में एक ऐड-ऑन स्थापित करना चाहेंगे:
+       *[other] यह साइट { -brand-short-name } में { $addonCount } ऐड-ऑन स्थापित करना चाहेंगे:‌
+    }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] सावधान: यह साइट { -brand-short-name } में एक असत्यापित ऐड-ऑन स्थापित करना चाहेंगे. अपने जोखिम में आगे बढ़े.
+       *[other] सावधान: यह साइट { -brand-short-name } में { $addonCount } असत्यापित ऐड-ऑन स्थापित करना चाहेंगे. अपने जोखिम में आगे बढ़े.
+    }
+addon-confirm-install-some-unsigned-message = सावधान: यह साइट { -brand-short-name } में { $addonCount } ऐड-ऑन स्थापित करना चाहेंगे, जिसमे से कुछ असत्यापित हैं. अपने जोखिम में आगे बढ़े.
+addon-install-error-network-failure = ऐड-ऑन कनेक्शन विफलता के कारण डाउनलोड नहीं किया जा सका.
+addon-install-error-incorrect-hash = यह सहयुक्ति संस्थापित नहीं किया जा सका क्योंकि यह उन प्रत्याशित { -brand-short-name } सहयुक्ति से मेल नहीं खाता है.
+addon-install-error-corrupt-file = ऐड-ऑन इस साइट से डाउनलोड स्थापित नहीं किया जा सका क्योंकि यह भ्रष्ट दिखता था.
+addon-install-error-file-access = { $addonName } संस्थापित नहीं किया जा सका क्योंकि { -brand-short-name } जरूरी फ़ाइल को बदल नहीं सकता है.
+addon-install-error-not-signed = { -brand-short-name } एक असत्यापित ऐड-ऑन स्थापित करने से इस साइट को मना किया हैं.
+addon-local-install-error-network-failure = यह सहयुक्ति संस्थापित नहीं किया जा सका क्योंकि फ़ाइलसिस्टम त्रुटि थी.
+addon-local-install-error-incorrect-hash = यह ऐड-ऑन स्थापित नहीं किया जा सका क्योंकि यह { -brand-short-name } अपेक्षित ऐड-ऑन से मेल नहीं खाता है.
+addon-local-install-error-corrupt-file = यह सहयुक्ति संस्थापित नहीं किया जा सका क्योंकि यह दूषित दिखता है.
+addon-local-install-error-file-access = { $addonName } स्थापित नहीं किया जा सका क्योंकि { -brand-short-name } जरूरी फ़ाइल को बदल नहीं सकता है.
+addon-local-install-error-not-signed = यह सहयुक्ति संस्थापित नहीं किया जा सका क्योंकि यह दूषित दिखता है.
+addon-install-error-incompatible = { $addonName } स्थापित नहीं किया जा सका क्योंकि यह { -brand-short-name } { $appVersion } के साथ अनुकूल नहीं है.

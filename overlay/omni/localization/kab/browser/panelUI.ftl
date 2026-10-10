@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Kkes seg wumuɣ n tfuli
+    .accesskey = S
+customize-menu-add-to-toolbar =
+    .label = Rnu ɣer ufeggag n yifecka
+    .accesskey = R
+customize-menu-add-to-overflowmenu =
+    .label = Rnu ɣer wumuɣ n tfuli
+    .accesskey = F
+panic-button-thankyou-msg1 = Azray-ik n melmi kan yesfeḍ.
+panic-button-thankyou-msg2 = Tunigin igerrzen!
+panic-button-thankyou-button =
+    .label = Tanemmirt!

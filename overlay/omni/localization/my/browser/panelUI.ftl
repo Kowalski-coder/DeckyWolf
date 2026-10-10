@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ပိုလျှံမီနူးတွင် တွယ်ထားခြင်းမှ ဖြုတ်ပါ
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = ကိရိယာအတန်းသို့ ထည့်ပါ
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = ပိုလျှံမီနူးသို့ ထည့်ပါ
+    .accesskey = M
+panic-button-thankyou-msg1 = သင့် လတ်တလောမှတ်တမ်းကို ရှင်းလင်းထားသည်။
+panic-button-thankyou-msg2 = လုံခြုံစိတ်ချရသော ရှာဖွေကြည့်ရှုခြင်း။
+panic-button-thankyou-button =
+    .label = ကျေးဇူးတင်ပါသည်။

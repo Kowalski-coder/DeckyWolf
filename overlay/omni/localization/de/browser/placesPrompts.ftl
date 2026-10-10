@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (kein Titel)
+places-load-js-data-url-error = Aus Sicherheitsgründen können "javascript:"- oder "data:"-URLs nicht aus Chronik-Fenster oder -Sidebar geladen werden.
+places-bookmarks-backup-title = Dateiname für Lesezeichen-Backup
+places-bookmarks-restore-alert-title = Lesezeichen zurücksetzen
+places-bookmarks-restore-alert = Dies wird alle aktuellen Lesezeichen durch das Backup ersetzen. Sind Sie sicher?
+places-bookmarks-restore-title = Wählen Sie ein Lesezeichen-Backup
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Nichtunterstützter Dateityp.
+places-bookmarks-restore-parse-error = Die Backup-Datei konnte nicht verarbeitet werden.
+places-bookmarks-import = Lesezeichendatei importieren
+places-bookmarks-export = Lesezeichendatei exportieren
+places-bookmarks-paste-error-title = Ungültige URL(s) gefunden
+places-bookmarks-paste-error-message-header = Die folgenden URLs konnten nicht zu Ihren Lesezeichen hinzugefügt werden. Versuchen Sie, die Formatierung zu überprüfen und sie erneut hinzuzufügen.

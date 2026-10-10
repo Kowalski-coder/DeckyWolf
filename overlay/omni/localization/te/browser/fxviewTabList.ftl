@@ -1,0 +1,17 @@
+fxviewtabrow-tabs-list-tab =
+    .title = { $targetURI }ని కొత్త ట్యాబులో తెరువు
+fxviewtabrow-close-tab-button =
+    .title = { $tabTitle }ను మూసివేయి
+fxviewtabrow-just-now-timestamp = ఇప్పుడే
+fxviewtabrow-delete = తొలగించు
+    .accesskey = D
+fxviewtabrow-open-in-window = కొత్త విండోలో తెరువు
+    .accesskey = N
+fxviewtabrow-copy-link = లంకెను కాపీచేయి
+    .accesskey = L
+fxviewtabrow-close-tab = ట్యాబును మూసివేయి
+    .accesskey = C
+fxviewtabrow-mute-tab-button-no-context =
+    .title = ట్యాబును మౌనించు
+fxviewtabrow-unmute-tab-button-no-context =
+    .title = ట్యాబును అమౌనించు

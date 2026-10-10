@@ -1,0 +1,13 @@
+grid-row-column-positions = Рядок { $row } / Стовпчик { $column }
+gridtype-container = Контейнер сітки
+gridtype-item = Елемент сітки
+gridtype-dual = Контейнер/Елемент сітки
+flextype-container = Контейнер Flex
+flextype-item = Елемент Flex
+flextype-dual = Контейнер/Елемент Flex
+remote-node-picker-notice = Засіб вибору вузлів DevTools увімкнено. { $action }
+remote-node-picker-notice-action-desktop = Клацніть елемент, щоб вибрати його в інспекторі
+remote-node-picker-notice-action-touch = Торкніться елемента, щоб вибрати його в Інспекторі
+remote-node-picker-notice-hide-button = Приховати
+simple-highlighters-message = Якщо використовується prefers-reduced-motion, можна увімкнути спрощене підсвічення в панелі налаштувань, щоб уникнути миготіння кольорів.
+simple-highlighters-settings-button = Відкрити налаштування

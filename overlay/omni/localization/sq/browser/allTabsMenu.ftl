@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Skedë e Re Kontejneri
+all-tabs-menu-hidden-tabs =
+    .label = Skeda të Fshehura
+all-tabs-menu-recent-tab-groups-header = Grupe skedash së fundi
+all-tabs-menu-tab-groups-show-all =
+    .label = Shfaqi krejt
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupe skedash
+all-tabs-menu-current-window-header = Dritarja e tanishme

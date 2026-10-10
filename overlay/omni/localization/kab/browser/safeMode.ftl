@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Ldi{ -brand-short-name } deg uskar n usellek?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Ldi
+refresh-profile =
+    .label = Smiren { -brand-short-name }
+troubleshoot-mode-description = Seqdec askar-a imeẓli n { -brand-short-name } i tifin n wuguren. Isiɣzaf-inek·inem d wagganen ad ttwasensen i kra n wakud.
+skip-troubleshoot-refresh-profile = Tzemreḍ daɣen ad teffɣeḍ seg uskar syen εreḍ asnirem n { -brand-short-name }, deg ubdil-is.
+auto-safe-mode-description = { -brand-short-name } yeḥbes s wudem ur netturaju. Aya yezmer ad yili s sebba n izegrar neɣ n wuguren-nniḍen. Tzemreḍ ad tefruḍ ugur-a s useggem deg uskar aɣelsan.

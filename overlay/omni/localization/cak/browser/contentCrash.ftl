@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Xsach jun peraj ruxaq.</strong> Chi ri { -brand-product-name } nretamaj chi rij re k'ayewal chuqa' anin nich'ojmïr, tataqa' jun rutzijol.
+crashed-subframe-title =
+    .title = Xsach jun peraj ruxaq. Chi ri { -brand-product-name } nretamaj chi rij re k'ayewal chuqa' anin nich'ojmïr, tataqa' jun rutzijol.
+crashed-subframe-learnmore-link =
+    .value = Tisik'ïx Ch'aqa' Chik
+crashed-subframe-submit =
+    .label = Titaq Rutzijol
+    .accesskey = t
+pending-crash-reports-view-all =
+    .label = Titz'et
+pending-crash-reports-send =
+    .label = Titaq
+pending-crash-reports-always-send =
+    .label = Junelïk titaq

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = No fixis al menú d'eines addicionals (»)
+    .accesskey = N
+customize-menu-add-to-toolbar =
+    .label = Afegeix a la barra d'eines
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Afegeix al menú d'eines addicionals (»)
+    .accesskey = m
+panic-button-thankyou-msg1 = S'ha esborrat el vostre historial recent.
+panic-button-thankyou-msg2 = Navegueu amb seguretat!
+panic-button-thankyou-button =
+    .label = Gràcies!

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cari Semua Tab
+all-tabs-menu-new-user-context =
+    .label = Tab Kontainer Baru
+all-tabs-menu-hidden-tabs =
+    .label = Tab Tersembunyi
+all-tabs-menu-close-duplicate-tabs =
+    .label = Tutup Tab Duplikat
+all-tabs-menu-view-all-tabs =
+    .label = Lihat Semua Tab
+all-tabs-menu-recent-tab-groups-header = Grup tab terbaru
+all-tabs-menu-tab-groups-show-all =
+    .label = Tampilkan semua
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grup tab
+all-tabs-menu-current-window-header = Jendela saat ini

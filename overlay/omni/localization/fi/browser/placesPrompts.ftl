@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (ei otsikkoa)
+places-load-js-data-url-error = Turvallisuussyistä "javascript:"- tai "data:"-osoitteita ei voi ladata historiaikkunasta tai sivupalkista.
+places-bookmarks-backup-title = Kirjanmerkkien varmuuskopion tiedostonimi
+places-bookmarks-restore-alert-title = Palauta kirjanmerkit
+places-bookmarks-restore-alert = Tämä toiminto korvaa olemassa olevat kirjanmerkit varmuuskopioiduilla kirjanmerkeillä. Palautetaanko kirjanmerkit?
+places-bookmarks-restore-title = Valitse kirjanmerkkien varmuuskopio
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Tiedostomuotoa ei tueta.
+places-bookmarks-restore-parse-error = Varmuuskopiota ei voitu käsitellä.
+places-bookmarks-import = Tuo kirjanmerkkitiedosto
+places-bookmarks-export = Vie kirjanmerkkitiedosto
+places-bookmarks-paste-error-title = Virheellisiä URL-osoitteita löytynyt
+places-bookmarks-paste-error-message-header = Seuraavia URL-osoitteita ei voitu lisätä kirjanmerkkeihin. Tarkista muotoilu ja yritä lisätä ne uudelleen.

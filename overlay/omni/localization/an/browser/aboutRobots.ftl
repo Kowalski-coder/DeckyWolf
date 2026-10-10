@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bienplegaus humans!
+error-short-desc-text = Venimos a visitar-tos en paz y con buena voluntat!
+error-long-desc1 = Un robot no ha de fer mal ta garra ser human ni, por a suya inacción, deixar que garra ser human se faiga mal.
+error-long-desc2 = Os robots han visto cosas que vusatros nunca creyeríatz.
+error-long-desc3 = Os robots son os suyos amigos de plastico pa pasar-lo bien.
+error-long-desc4 = Os robots tienen brillants culos metalicos que no s'ha de mosegar.
+error-trailer-desc-text = Y tienen un plan.
+error-try-again = Torna-lo a probar
+    .label2 = No torne a pretar iste botón.

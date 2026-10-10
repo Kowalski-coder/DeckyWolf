@@ -1,0 +1,14 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Azonzi a-a bara de aplicaçioin
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Scancella da bara de aplicaçioin
+taskbar-tab-shortcut-description = Web App { $name }
+taskbar-tab-shortcut-folder = App web de { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Silençia feuggio
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ativa aodio into feuggio
+taskbar-tab-title-default = { $name } in { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) in { -brand-full-name }
+taskbar-tab-title-profile = { $name } in { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) in { $profile } — { -brand-full-name }

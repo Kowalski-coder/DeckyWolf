@@ -1,0 +1,13 @@
+grid-row-column-positions = แถว { $row } / คอลัมน์ { $column }
+gridtype-container = ตัวบรรจุ Grid
+gridtype-item = รายการ Grid
+gridtype-dual = ตัวบรรจุ/รายการ Grid
+flextype-container = ตัวบรรจุ Flex
+flextype-item = รายการ Flex
+flextype-dual = ตัวบรรจุ/รายการ Flex
+remote-node-picker-notice = เปิดใช้งานตัวเลือกโหนด DevTools แล้ว { $action }
+remote-node-picker-notice-action-desktop = คลิกอิลิเมนต์เพื่อเลือกในตัวตรวจสอบ
+remote-node-picker-notice-action-touch = แตะอิลิเมนต์เพื่อเลือกในตัวตรวจสอบ
+remote-node-picker-notice-hide-button = ซ่อน
+simple-highlighters-message = เมื่อเปิดใช้ prefers-reduced-motion แล้ว ก็จะสามารถเปิดใช้ตัวเน้นสีจากในแผงการตั้งค่า เพื่อป้องกันการเปลี่ยนไปมาของสีได้
+simple-highlighters-settings-button = เปิดการตั้งค่า

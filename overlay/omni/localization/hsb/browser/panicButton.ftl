@@ -1,0 +1,15 @@
+panic-button-open-new-window = So nowe čiste wokno wočini
+panic-button-undo-warning = Tuta akcija njeda so cofnyć.
+panic-button-forget-button =
+    .label = Zabudź!
+panic-main-timeframe-desc = Zabudź:
+panic-button-5min =
+    .label = zańdźenych pjeć mjeńšin
+panic-button-2hr =
+    .label = zańdźenej dwě hodźinje
+panic-button-day =
+    .label = zańdźenych 24 hodźin
+panic-button-action-desc = Hdyž pokročujeće:
+panic-button-delete-cookies = So najnowše <strong>placki</strong> zhašeja
+panic-button-delete-history = So najnowša <strong>historija</strong> zhaša
+panic-button-delete-tabs-and-windows = So wšě <strong>rajtarki</strong> a <strong>wokna</strong> začinja

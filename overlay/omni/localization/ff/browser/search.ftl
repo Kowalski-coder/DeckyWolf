@@ -1,0 +1,14 @@
+opensearch-error-duplicate-title = Juumre Aafgol
+opensearch-error-duplicate-desc = { -brand-short-name } horiima aafde ceŋol njiilaw ngol iwde e "{ $location-url }" sabu won yiilorde jogginde ndee innde woodnde tawo.
+opensearch-error-format-title = Mbayka woodaani
+opensearch-error-format-desc = { -brand-short-name } waawaani aafirde yiilorde nde: { $location-url }
+opensearch-error-download-title = Huulre Aawtagol
+opensearch-error-download-desc = { -brand-short-name } horiima aawtaade ceŋol njiilaw ngol iwde: { $location-url }
+searchbar-submit =
+    .tooltiptext = Naatnu njiilaw
+searchbar-input =
+    .placeholder = Yiylo
+searchbar-icon =
+    .tooltiptext = Yiylo
+install-search-engine-add = Ɓeydu
+install-search-engine-no = Alaa

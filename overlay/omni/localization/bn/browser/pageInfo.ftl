@@ -1,0 +1,175 @@
+page-info-window =
+    .style = width: 600px; min-height: 550px;
+copy =
+    .key = C
+menu-copy =
+    .label = অনুলিপি
+    .accesskey = C
+select-all =
+    .key = A
+menu-select-all =
+    .label = সব নির্বাচন
+    .accesskey = A
+close-dialog =
+    .key = w
+general-tab =
+    .label = সাধারণ
+    .accesskey = G
+general-title =
+    .value = শিরোনাম:
+general-url =
+    .value = ঠিকানা:
+general-type =
+    .value = শ্রেণী:
+general-mode =
+    .value = রেন্ডার মোড:
+general-size =
+    .value = আকার:
+general-referrer =
+    .value = নির্দেশকারী URL:
+general-modified =
+    .value = পরিবর্তিত:
+general-encoding =
+    .value = টেক্সট এনকোডিং:
+general-meta-name =
+    .label = নাম
+general-meta-content =
+    .label = কন্টেন্ট
+media-tab =
+    .label = মিডিয়া
+    .accesskey = M
+media-location =
+    .value = অবস্থান:
+media-text =
+    .value = সংশ্লিষ্ট পাঠ্য:
+media-alt-header =
+    .label = বিকল্প পাঠ্য:
+media-address =
+    .label = ঠিকানা
+media-type =
+    .label = শ্রেণী
+media-size =
+    .label = আকার
+media-count =
+    .label = মোট
+media-dimension =
+    .value = মাত্রা:
+media-long-desc =
+    .value = বিস্তারিত বিবরণ:
+media-select-all =
+    .label = সব নির্বাচন
+    .accesskey = e
+media-save-as =
+    .label = অন্যভাবে সংরক্ষণ...
+    .accesskey = A
+media-save-image-as =
+    .label = অন্যভাবে সংরক্ষণ...
+    .accesskey = e
+perm-tab =
+    .label = অনুমোদন
+    .accesskey = P
+permissions-for =
+    .value = অনুমোদন:
+security-tab =
+    .label = নিরাপত্তা
+    .accesskey = S
+security-view =
+    .label = সার্টিফিকেট প্রদর্শন
+    .accesskey = V
+security-view-unknown = অজানা
+    .value = অজানা
+security-view-identity =
+    .value = ওয়েবসাইটের পরিচয়
+security-view-identity-owner =
+    .value = মালিকানা:
+security-view-identity-domain =
+    .value = ওয়েবসাইট:
+security-view-identity-verifier =
+    .value = যাচাইকারী:
+security-view-identity-validity =
+    .value = মেয়াদোত্তীর্ণের তারিখ:
+security-view-privacy =
+    .value = গোপণীয়তা এবং ইতিহাস
+security-view-privacy-history-value = আগে কোন সময় এই ওয়েবসাইট আমি পরিদর্শন করেছি কি?
+security-view-privacy-sitedata-value = ওয়েবসাইটটি কি আমার কম্পিউটারে তথ্য সংরক্ষণ করছে?
+security-view-privacy-clearsitedata =
+    .label = কুকি এবং সাইট ডাটা পরিষ্কার
+    .accesskey = C
+security-view-privacy-passwords-value = এই ওয়েবসাইটের জন্য কি আমি কোনো পাসওয়ার্ড সংরক্ষণ করেছি?
+security-view-privacy-viewpasswords =
+    .label = সংরক্ষিত পাসওয়ার্ড পরিদর্শন
+    .accesskey = w
+security-view-technical =
+    .value = প্রযুক্তিগত বিবরণ
+help-button =
+    .label = সাহায্য
+security-site-data-cookies = হ্যাঁ, কুকি এবং সাইট ডাটার { $value } { $unit }
+security-site-data-only = হ্যাঁ, সাইট ডাটার { $value } { $unit }
+security-site-data-cookies-only = হ্যাঁ, কুকি
+security-site-data-no = না
+image-size-unknown = অজানা
+page-info-not-specified =
+    .value = নির্ধারিত নয়
+not-set-alternative-text = নির্ধারিত নয়
+not-set-date = নির্ধারিত নয়
+media-img = ছবি
+media-bg-img = পটভূমি
+media-border-img = সীমানা
+media-list-img = বুলেট
+media-cursor = কার্সার
+media-object = অবজেক্ট
+media-embed = সন্নিবেশ
+media-link = আইকন
+media-input = ইনপুট
+media-video = ভিডিও
+media-audio = অডিও
+saved-passwords-yes = হ্যাঁ
+saved-passwords-no = না
+no-page-title =
+    .value = শিরোনামহীন পাতা:
+general-quirks-mode =
+    .value = Quirks মোড
+general-strict-mode =
+    .value = প্রমিত সমর্থিন মোড
+page-info-security-no-owner =
+    .value = এই ওয়েবসাইটটি মালিকানা তথ্য সরবরাহ করে না।
+media-select-folder = ছবি সংরক্ষণের জন্য ফোল্ডার নির্বাচন করুন
+media-unknown-not-cached =
+    .value = অজানা (ক্যাশ করা হয়নি)
+permissions-use-default =
+    .label = ডিফল্ট ব্যবহার করা হবে
+general-meta-tags =
+    .value =
+        { $tags ->
+            [one] মেটা (১টি ট্যাগ)
+           *[other] মেটা ({ $tags }টি ট্যাগ)
+        }
+security-visits-number =
+    { $visits ->
+        [0] না
+        [one] হ্যাঁ, একবার
+       *[other] হ্যাঁ, { $visits } বার
+    }
+properties-general-size =
+    .value =
+        { $bytes ->
+            [one] { $kb } কেবি ({ $bytes } বাইট)
+           *[other] { $kb } কেবি ({ $bytes } বাইট)
+        }
+media-animated-image-type =
+    .value =
+        { $frames ->
+            [one] { $type } ইমেজ (অ্যানিমেডেট, { $frames } ফ্রেম)
+           *[other] { $type } ইমেজ (অ্যানিমেডেট, { $frames } ফ্রেম)
+        }
+media-image-type =
+    .value = { $type } ছবি
+media-dimensions-scaled =
+    .value = { $dimx }px × { $dimy }px (আনুপাতিকভাবে পরিবর্তিত { $scaledx }px × { $scaledy }px)
+media-dimensions =
+    .value = { $dimx }px × { $dimy }px
+media-file-size = { $size } KB
+page-info-page =
+    .title = পাতার তথ্য - { $website }
+page-info-frame =
+    .title = ফ্রেম সংক্রান্ত তথ্য - { $website }

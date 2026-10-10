@@ -1,0 +1,315 @@
+onboarding-welcome-header = مرحبًا بك في { -brand-short-name }
+onboarding-start-browsing-button-label = ابدأ التصفح
+onboarding-not-now-button-label = ليس الآن
+mr1-onboarding-get-started-primary-button-label = ابدأ
+return-to-amo-subtitle = هذا رائع، لديك الآن { -brand-short-name }
+return-to-amo-addon-title = هيا نثبّت لك <img data-l10n-name="icon"/> <b>{ $addon-name }</b>.
+return-to-amo-add-extension-label = أضِف الامتداد
+return-to-amo-add-theme-label = أضِف السمة
+return-to-amo-theme-install-complete-label = ثُبتت السمة
+return-to-amo-extension-install-complete-label = ثُبتت الامتداد
+mr1-return-to-amo-subtitle = رحّب بـ{ -brand-short-name }
+mr1-return-to-amo-addon-title = لديك متصفح سريع وخاص في متناول يديك. الآن يمكنك إضافة <b>{ $addon-name }</b> والقيام بالمزيد باستخدام { -brand-short-name }.
+mr1-return-to-amo-add-extension-label = أضف { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = التقدم: الخطوة { $current } من { $total }
+mr1-onboarding-reduce-motion-button-label = عطّل الرسوم المتحركة
+mr1-onboarding-sign-in-button-label = لِج
+mr1-onboarding-import-primary-button-label-attribution = استورِد من { $previous }
+mr1-onboarding-theme-header = طوّعه كما ترغب
+mr1-onboarding-theme-subtitle = خصّص { -brand-short-name } باستعمال سمة.
+mr1-onboarding-theme-secondary-button-label = ليس الآن
+mr1-onboarding-theme-label-system = سمة النظام
+mr1-onboarding-theme-label-light = فاتحة
+mr1-onboarding-theme-label-dark = داكنة
+mr1-onboarding-theme-label-alpenglow = شفق ألبي (Alpenglow)
+onboarding-theme-primary-button-label = تمّ
+onboarding-animation-pause-button =
+    .aria-label = ألبِث الرسوم المتحركة
+onboarding-animation-play-button =
+    .aria-label = شغّل الرسوم المتحركة
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        اتبع سمة نظام التشغيل لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        اتبع سمة نظام التشغيل لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        استعمل سمة فاتحة لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        استعمل سمة فاتحة لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        استعمل سمة داكنة لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        استعمل سمة داكنة لعرض
+        الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        استعمل سمة مفعمة بالألوان
+        لعرض الأزرار والقوائم والنوافذ.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        استعمل سمة مفعمة بالألوان
+        لعرض الأزرار والقوائم والنوافذ.
+mr2-onboarding-default-theme-label = استكشف السمات المبدئية.
+mr2-onboarding-thank-you-header = شكرًا لكم على اختيارنا
+mr2-onboarding-thank-you-text = متصفّح { -brand-short-name } هو متصفّح مستقل تدعمه مؤسسة غير ربحية. نعمل معكم لنبني منظومة وِب آمنة وصحية وخاصة.
+mr2-onboarding-start-browsing-button-label = ابدأ التصفح
+onboarding-live-language-header = اختر لغتك
+mr2022-onboarding-live-language-text = { -brand-short-name } يتحدّث لغتك
+mr2022-language-mismatch-subtitle = بفضل مجتمعنا، ترجمت { -brand-short-name } بأكثر من 90 لغة. يبدو أن نظامك يستخدم { $systemLanguage }، و { -brand-short-name } يستخدم { $appLanguage }.
+onboarding-live-language-button-label-downloading = جارٍ تنزيل حزمة اللغة لـ{ $negotiatedLanguage }…
+onboarding-live-language-waiting-button = جارٍ الحصول على اللغات المتاحة...
+onboarding-live-language-installing = جارٍ تثبيت حزمة اللغة لـ{ $negotiatedLanguage }...
+mr2022-onboarding-live-language-switch-to = التبديل إلى { $negotiatedLanguage }
+mr2022-onboarding-live-language-continue-in = واصِل في { $appLanguage }
+onboarding-live-language-secondary-cancel-download = ألغِ
+onboarding-live-language-skip-button-label = تخطَّ
+fx100-thank-you-hero-text =
+    100
+    شكرًا
+    <span data-l10n-name="zap">لكم</span>
+fx100-thank-you-subtitle = هذا الإصدار رقم 100! شكرا لمساعدتنا في بناء إنترنت أفضل وأكثر صحة.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] ثبّت { -brand-short-name } على التصريفة
+       *[other] ثبّت { -brand-short-name } على شريط المهام
+    }
+fx100-upgrade-thanks-header = 100 شكرا لكم
+fx100-upgrade-thank-you-body = هذا الإصدار 100 من { -brand-short-name } لدينا . شكرا <em> لك </em> على مساعدتنا في بناء إنترنت أفضل وأكثر صحة.
+fx100-upgrade-thanks-keep-body = هذا الإصدار  رفم 100! شكرا لكونك طرفا في مجتمعنا. أبق { -brand-short-name } بعيدا بنقرة واحدة لأجل ال100 القادمة.
+mr2022-onboarding-secondary-skip-button-label = تخطَّ هذه الخطوة
+mr2022-onboarding-easy-setup-primary-button-label = احفظ و واصِل
+mr2022-onboarding-easy-setup-set-default-checkbox-label = عيّن { -brand-short-name } كمتصفّح مبدئي
+mr2022-onboarding-easy-setup-import-checkbox-label = استورِدها من المتصفّح السابق
+mr2022-onboarding-welcome-pin-header = افتح شبكة إنترنت مذهلة
+mr2022-onboarding-welcome-pin-subtitle = شغّل { -brand-short-name } من أي مكان بنقرة واحدة. في كل مرة تفعل ذلك، فإنك تختار شبكة وب أكثر انفتاحًا واستقلالية.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] ثبّت { -brand-short-name } على التصريفة
+       *[other] ثبّت { -brand-short-name } على شريط المهام
+    }
+mr2022-onboarding-pin-primary-button-label-msix = ثبّت { -brand-short-name } في شريط المهام وقائمة البدء
+mr2022-onboarding-existing-pin-header = شكرًا لمحبتك { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = أطلق إنترنت أكثر صحة من أي مكان بنقرة واحدة. تحديثنا الأخير مليء بالميزات الجديدة التي نعتقد أنها ستنال إعجابك.
+mr2022-onboarding-existing-set-default-only-subtitle = استخدم متصفحًا يدافع عن خصوصيتك أثناء التنقل عبر الويب. آخر تحديث لدينا مليء بالأشياء التي تعشقها.
+mr2022-onboarding-existing-pin-checkbox-label = أضِف أيضًا التصفح الخاص { -brand-short-name }.
+mr2022-onboarding-set-default-title = أجعل { -brand-short-name } متصفحك الأساسي
+mr2022-onboarding-set-default-primary-button-label = اضبط { -brand-short-name } ليكون متصفّحي الافتراضي
+mr2022-onboarding-set-default-subtitle = استخدم متصفحًا مدعومًا من مؤسسة غير ربحية. نحن ندافع عن خصوصيتك أثناء تصفحك للويب.
+mr2022-onboarding-get-started-primary-subtitle = أحدث نسخة منا تدور حولك، مما يجعلها أسهل من أي وقت مضى في جميع أنحاء الويب. إنه مليء بالمزايا التي نعتقد أنك ستحبها.
+mr2022-onboarding-get-started-primary-button-label = أعدّه في ثوانٍ
+mr2022-onboarding-import-primary-button-label-no-attribution = استورِدها من المتصفّح السابق
+mr2022-onboarding-mobile-download-cta-text = امسح رمز QR ضوئيا للحصول على { -brand-product-name } للجوال أو <a data-l10n-name="download-label"> لإرسال رابط التنزيل إلى نفسك.</a>
+mr2022-onboarding-no-mobile-download-cta-text = امسح رمز QR ضوئيا للحصول على { -brand-product-name } الجوال.
+mr2022-upgrade-onboarding-pin-private-window-header = احصل على حرية التصفح الخاص بنقرة واحدة
+mr2022-upgrade-onboarding-pin-private-window-subtitle = لا كعكات أو تأريخ محفوظة، مباشرة من سطح مكتبك. تصفح و لا أحد يراقبك.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] أبقِ تصفُح { -brand-short-name } الخاص في الإرساء
+       *[other] ثبّت تصفُح { -brand-short-name } الخاص في شريط المهام
+    }
+mr2022-onboarding-privacy-segmentation-title = نحن نحترم خصوصياتك دائمًا
+mr2022-onboarding-privacy-segmentation-subtitle = بدءًا من الاقتراحات الذكية وحتى البحث الأكثر ذكاءً، نعمل باستمرار على إنشاء { -brand-product-name } أفضل وأكثر تخصيصًا.
+mr2022-onboarding-privacy-segmentation-text-cta = ما الذي تريد رؤيته عندما نقدم ميزات جديدة تستخدم بياناتك لتحسين تصفحك؟
+mr2022-onboarding-privacy-segmentation-button-primary-label = استخدم توصيات { -brand-product-name }.
+mr2022-onboarding-privacy-segmentation-button-secondary-label = أظهر المعلومات المفصلة
+mr2022-onboarding-gratitude-title = أنت تساعدنا على بناء ويب أفضل
+mr2022-onboarding-gratitude-subtitle = شكرا لاستخدامك { -brand-short-name }، مدعوم من مؤسسة موزيلا. بدعمك، نعمل على جعل الإنترنت أكثر انفتاحا، و متاحا، و أفضل للجميع.
+mr2022-onboarding-gratitude-primary-button-label = اعرف ما الجديد
+mr2022-onboarding-gratitude-secondary-button-label = ابدأ التصفح
+onboarding-infrequent-import-title = البيت بيتك
+onboarding-infrequent-import-subtitle = سواء كنت تصفي أو فقط تتوقف، تذكر أنك تستطيع إستيراد العلامات، كلمات سرك، و غيرها المزيد.
+onboarding-infrequent-import-primary-button = استورد إلى { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = شخص يعمل على حاسوب محمول محاط بالنجوم والزهور
+mr2022-onboarding-default-image-alt =
+    .aria-label = شخص يعانق شعار { -brand-product-name }
+mr2022-onboarding-import-image-alt =
+    .aria-label = شخص يركب لوح تزلج مع صندوق من أيقونات البرامج
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = ضفادع تقفز فوق أوراق زنبق الماء، وفي المنتصف رمز QR لتنزيل تطبيق { -brand-product-name } للجوّال.
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = أيدي ذوي البشرة الفاتحة والبشرة الداكنة تصافح باليد الأخرى
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = منظر لغروب الشمس من خلال نافذة مع ثعلب ونبات منزلي على حافة النافذة
+onboarding-device-migration-image-alt =
+    .aria-label = ثعلب يلوّح على شاشة حاسوب محمول. الحاسوب المحمول موصول بفأرة.
+onboarding-device-migration-title = مرحبا بعودتك!
+onboarding-device-migration-subtitle2 = لِج إلى حسابك لجلب العلامات وكلمات السر وسجلك معك إلى جهازك الجديد.
+onboarding-device-migration-primary-button-label = لِج
+amo-picker-title = خصّص { -brand-short-name }
+amo-picker-subtitle = تُعتبر الامتدادات بمثابة تطبيقات لمتصفحك، وهي تتيح لك حماية كلمات السر، وتنزيل مقاطع الفيديو، والعثور على العروض، وحظر الإعلانات المزعجة، وتغيير مظهر متصفحك، وغير ذلك الكثير.
+amo-picker-install-button-label = أضِف إلى { -brand-short-name }
+amo-picker-install-complete-label = مُثبت
+amo-picker-collection-link = استكشف المزيد من الإضافات
+onboarding-easy-setup-security-and-privacy-title = نحن نحب إبقاءك آمنًا
+onboarding-easy-setup-security-and-privacy-subtitle = يساعدك متصفحنا الذي تدعمه مؤسستنا غير الربحية على منع الشركات من متابعتك سراً عبر الوِب.
+onboarding-mobile-download-security-and-privacy-title = حافظ على تعمية بياناتك عند التنقل بين الأجهزة
+onboarding-mobile-download-security-and-privacy-subtitle = عند مزامنة بياناتك، يقوم { -brand-short-name } بتعمية كلمات سرك وعلاماتك والمزيد. كما يمكنك الوصول إلى اﻷلسنة من أجهزتك الأخرى.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } يدعمك
+onboarding-gratitude-security-and-privacy-subtitle = شكرًا لاستخدامك { -brand-short-name }، بدعم من مؤسسة Mozilla. بدعمكم، نعمل على جعل الإنترنت أكثر أمانًا وسهولةً للجميع.
+onboarding-sign-up-title = زامن بياناتك عبر الأجهزة
+onboarding-sign-up-description = سجّل للحصول على حساب وسيتم تخزين جميع معلوماتك المهمة - كلمات السر والعلامات والمزيد - بشكل آمن وستكون متاحة عند ولوجك إلى أي جهاز.
+onboarding-sign-up-button = سجل حسابًا أو لج
+onboarding-sign-up-secondary-button = ابدأ التصفح
+onboarding-new-user-time-based-survey-title = منذ متى تستخدم { -brand-short-name }؟
+onboarding-new-user-familiarity-based-survey-title = ما مدى معرفتك بـ { -brand-short-name }؟
+onboarding-new-user-survey-subtitle = تُساعد تعليقاتك في جعل { -brand-short-name } أفضل.
+onboarding-new-user-survey-next-button-label = التالي
+onboarding-new-user-survey-legal-link-label = من خلال تحديد "{ onboarding-new-user-survey-next-button-label }"، فإنك توافق على <a data-l10n-name="privacy_notice">تنويه الخصوصية</a> الخاص بـ { -brand-product-name }
+onboarding-new-user-survey-time-based-option-1 = أنا جديد تمامًا
+onboarding-new-user-survey-time-based-option-2 = أقل من شهر
+onboarding-new-user-survey-time-based-option-3 = أكثر من شهر، بانتظام
+onboarding-new-user-survey-time-based-option-4 = أكثر من شهر، في بعض الأحيان
+onboarding-new-user-survey-familiarity-based-option-1 = أنا جديد تمامًا
+onboarding-new-user-survey-familiarity-based-option-2 = لقد استخدمته بعض الشيء
+onboarding-new-user-survey-familiarity-based-option-3 = أنا على دراية به للغاية
+onboarding-new-user-survey-familiarity-based-option-4 = لقد استخدمته في الماضي، ولكن مر وقت طويل
+onboarding-new-tabs-title = أخبرنا أين تريد ألسنتك
+onboarding-new-tabs-subtitle = غيّرها متى شئت من إعدادات الشريط الجانبي.
+onboarding-many-tabs-title = ألسنتك، بأسلوبك
+onboarding-many-tabs-subtitle = هل تُبقي الكثير من الألسنة مفتوحة؟ جرّب وضع الألسنة على الجانب لعرض أكثر انسيابية. أو اجعلها كلاسيكية بوضع الألسنة في الأعلى. غيّرها في أي وقت.
+onboarding-focused-tabs-title = اختر تخطيط لسانك
+onboarding-focused-tabs-subtitle = للحصول على عرض مُبسّط يُساعدك على التركيز، جرّب وضع ألسنتك على الجانب. أو حافظ على التصميم الكلاسيكي مع وضع الألسنة في الأعلى. يمكنك التبديل بينهما في أي وقت.
+onboarding-new-vertical-tabs-label = الألسنة على الجانب
+onboarding-new-horizontal-tabs-label = الألسنة في الأعلى
+onboarding-existing-tabs-title = الألسنة الرأسية موجودة هنا
+onboarding-existing-tabs-title2 = مقدمة عن الألسنة الرأسية
+onboarding-existing-tabs-subtitle = جرّب الألسنة الجانبية. غيّرها متى شئت من إعدادات الشريط الجانبي.
+onboarding-existing-vertical-tabs-label = جرّب الألسنة الرأسية
+onboarding-flair-text = جديد!
+onboarding-existing-horizontal-tabs-label = حافظ على الألسنة الأفقية
+onboarding-vertical-tabs-tooltip =
+    .title = نافذة متصفح تعرض الألسنة على طول جانب الشاشة كجزء من الشريط الجانبي { -brand-shorter-name }.
+onboarding-vertical-tabs-description =
+    .aria-description = نافذة متصفح تعرض ألسنة على طول جانب الشاشة كجزء من الشريط الجانبي { -brand-shorter-name }.
+onboarding-horizontal-tabs-tooltip =
+    .title = نافذة متصفح تعرض ألسنة على طول الجزء العلوي.
+onboarding-horizontal-tabs-description =
+    .aria-description = نافذة متصفح تعرض ألسنة على طول الجزء العلوي.
+onboarding-genai-sidebar-title = جرّب روبوت المحادثة بالذكاء الاصطناعي في الشريط الجانبي
+onboarding-genai-sidebar-subtitle = لخّص محتوى الويب، وفكّر في الأفكار، وصياغة الرسائل - كل ذلك أثناء تصفّحك. اختر من بين مزوّدين متعددين. غيّر الخدمة في أي وقت. <a data-l10n-name="learn-more">اطّلع على المزيد</a>
+onboarding-genai-sidebar-primary-button = اختر روبوت المحادثة
+onboarding-genai-sidebar-secondary-button = ابدأ التصفح
+onboarding-checklist-title = أكمل إعداد { -brand-short-name }
+onboarding-checklist-subtitle = أكمل هذه الخطوات للحصول على أقصى استفادة من تجربة تصفحك.
+onboarding-checklist-set-default = اضبط { -brand-short-name } ليكون متصفّحي المبدئي
+onboarding-checklist-pin = ثبّت { -brand-short-name } في شريط المهام
+onboarding-checklist-import = استورِدها من المتصفّح السابق
+onboarding-checklist-extension = أضِف امتدادة
+onboarding-checklist-sign-up = سجّل أو لِج إلى حسابك
+onboarding-checklist-remove =
+    .label = أزِل قائمة التحقق
+onboarding-checklist-remove-2 = أزِل قائمة التحقق
+tab-groups-onboarding-feature-callout-title = جرّب مجموعات اللسان لتقليل الفوضى وزيادة التركيز
+tab-groups-onboarding-feature-callout-subtitle = نظم أمورك عن طريق سحب لسان واحد فوق أخرى لإنشاء مجموعتك الأولى.
+tab-groups-onboarding-create-group-title-3 = اعثر على مجموعات ألسنتك في قائمة "اسرد كل الألسنة" في أي وقت.
+tab-groups-onboarding-create-group-no-alltabs-button-title = ابحث عن مجموعاتك من خلال البحث عنها في شريط العناوين.
+tab-groups-onboarding-saved-groups-title-3 = عند إغلاق مجموعة ألسنة، يمكنك إعادة فتحها من قائمة "اسرد كل الألسنة" في أي وقت.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = ابحث عن مجموعاتك المغلقة عن طريق البحث عنها في شريط العناوين.
+tab-groups-onboarding-session-restore-title-2 = يمكنك إعادة فتح مجموعات ألسنتك من قائمة "اسرد كل الألسنة" في أي وقت.
+tab-groups-onboarding-dismiss = حسنًا
+multi-profile-spotlight-title = قُل مرحبًا بملفات { -brand-product-name } الشخصية
+multi-profile-spotlight-body = تنقل بسهولة بين التصفح للعمل والترفيه. تُبقي الملفات الشخصية معلومات تصفحك، بما في ذلك تأريخ البحث وكلمات السر، منفصلة تمامًا لتبقى منظمًا.
+multi-profile-spotlight-cta = أنشئ ملفًا شخصيًا
+multi-profile-callout-title = أنشئ ملفات شخصية مختلفة للعمل والمتعة
+multi-profile-callout-subtitle = تتيح لك الملفات الشخصية الاحتفاظ بمعلومات تصفحك، مثل تأريخ البحث وكلمات السر، منفصلة تمامًا.
+multi-profile-callout-cta = أنشئ ملفًا شخصيًا
+desktop-to-mobile-headline = نزّل وزامِن وانطلق!
+desktop-to-mobile-subtitle = امسح رمز QR لتنزيل تطبيق { -brand-product-name } للجوّال. بعد التثبيت، اختر "زامن مع الجوّال" للوصول إلى كلمات سرك وعلاماتك والمزيد أينما كنت.
+dismiss-button-label = أهمِل
+sync-to-mobile-button-label = زامن مع الجوّال
+desktop-to-mobile-qr-code-alt =
+    .aria-label = رمز QR لتنزيل { -brand-product-name } للجوال
+create-backup-screen-1-subtitle = احمِ كلمات سرك وعلاماتك والمزيد تلقائيًا في غضون دقيقة إلى دقيقتين.
+create-backup-screen-1-flair = يُنصح به
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">اطّلع على المزيد</a>
+create-backup-screen-1-sync-label = زامن مع { -brand-product-name }
+create-backup-screen-1-sync-body = انسخ احتياطيًا لجميع الأجهزة التي ولِجت فيها
+create-backup-screen-1-backup-label = انسخ احتياطيًا على الحاسوب
+create-backup-screen-1-backup-body = يُحفظ على جهازك أو على OneDrive
+create-backup-select-tile-button-label = حدّد
+create-backup-back-button-label = السابق
+create-backup-show-fewer =
+    .label = أظهر عدد أقل من هذا النوع
+create-backup-screen-2-title = اختر بيانات { -brand-product-name } المراد نسخها احتياطيًا
+create-backup-screen-2-subtitle = لا يستغرق الأمر سوى دقيقة واحدة. تُنسخ بياناتك احتياطيًا مرة واحدة يوميًا.
+create-backup-screen-2-easy-label = إعداد سهل
+create-backup-screen-2-easy-list-1 = العلامات والتأريخ والإعدادات والمزيد
+create-backup-screen-2-easy-list-2 = لا يشمل كلمات السر والمدفوعات
+create-backup-screen-2-easy-list-3 = غير مُعمّاة
+create-backup-screen-2-all-label = جميع البيانات
+create-backup-screen-2-all-list-2 = يشمل كلمات السر والمدفوعات
+create-backup-screen-2-all-list-3 = مُعمّى بكلمة سر
+create-backup-screen-3-location = أين تريد حفظ نسختك الاحتياطية؟
+create-backup-screen-3-title = أنشئ كلمة سر ملف النسخ الاحتياطي
+create-backup-screen-3-subtitle = مطلوب لتعمية بياناتك. احفظها في مكان يسهل تذكره.
+fx-backup-opt-in-header = اختر مكان الملف
+fx-backup-opt-in-create-password-label = أدخل كلمة السر
+fx-backup-opt-in-confirm-btn-label = واصِل
+fx-backup-opt-in-cancel-btn-label = السابق
+fx-backup-confirmation-screen-title = نُسختك الاحتياطية مجدولة
+fx-backup-confirmation-screen-close-button = أغلق
+fx-backup-confirmation-screen-all-data-item-text-1 = جميع بيانات التصفح مضمّنة
+fx-backup-confirmation-screen-all-data-item-text-2 = حُفظ إلى جهازك
+fx-backup-confirmation-screen-all-data-item-text-3 = مُعمّى ومحمي بكلمة سر
+fx-backup-confirmation-screen-easy-setup-item-text-1 = العلامات والتأريخ والإعدادات وغيرها من البيانات المضمّنة
+fx-backup-confirmation-screen-easy-setup-item-text-2 = حُفظ إلى جهازك
+fx-backup-confirmation-screen-easy-setup-item-text-3 = لا يشمل ذلك كلمات السر والمدفوعات
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = انتقل إلى <a data-l10n-name="settings">الإعدادات</a> لتضمين البيانات الحساسة.
+fx-backup-confirmation-screen-item-subtext-1 = ستبدأ عملية النسخ الاحتياطي خلال دقائق قليلة، وستُجرى مرة واحدة يوميًا. يمكنك متابعة التقدم في <a data-l10n-name="settings">الإعدادات</a>.
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } سيبحث عن نسختك الاحتياطية إذا كنت بحاجة إلى إعادة التثبيت.
+restore-from-backup-secondary-top-button = استعد من النسخة الاحتياطية
+restore-from-backup-title = لنعد { -brand-short-name } كما تريد
+restore-from-backup-subtitle = استرجع جميع علاماتك وتأريخك والبيانات الأخرى للعودة إلى التصفح.
+restore-from-backup-secondary-button = لا تستعيد
+multiple-backups-info-tile = <strong>عُثر على عدة ملفات نسخ احتياطي</strong>. حُدِّد أحدث ملف. لاستعادة الملفات الشخصية الأخرى، انتقل إلى <a data-l10n-name="settings-label">الإعدادات</a>.
+restored-from-backup-success-title = لقد عدنا! اُستعيدت بيانات { -brand-short-name } الخاصة بك.
+restored-from-backup-success-with-checklist-subtitle = أتريد أن يبقى متصفحك المفضل الذي يركز على الخصوصية على بُعد نقرة واحدة؟
+restored-from-backup-success-no-checklist-subtitle = يمكنك تشغيل النسخ الاحتياطي لهذا الجهاز في <a data-l10n-name="settings">الإعدادات</a>.
+restored-from-backup-success-with-checklist-primary-button = احفظ و واصِل
+restored-from-backup-success-with-checklist-secondary-button = تخطَّ هذه الخطوة
+restored-from-backup-success-no-checklist-primary-button = واصِل
+restored-from-backup-error-title = همم، يبدو أن هناك مشكلة في ملف نُسختك الاحتياطية.
+restored-from-backup-error-subtitle = إذا كان لديك ملف نسخ احتياطي آخر من نوع { -brand-short-name }، فحاول الاستعادة منه. <a data-l10n-name="restore-problems">أما زلت تواجه مشاكل؟</a>
+restored-from-backup-error-primary-button = أغلق
+onboarding-personalization-title = خصّص تجربتك في { -brand-short-name }
+onboarding-personalization-subtitle = أجب عن بعض الأسئلة وسنوصي بميزات وإضافات لتحسين استخدامك لـ { -brand-short-name }.
+onboarding-personalization-use-case-title = ما غرضك مِن استخدام { -brand-short-name }؟
+onboarding-personalization-use-case-personal-option = شخصي
+onboarding-personalization-use-case-school-option = مدرسة
+onboarding-personalization-use-case-work-option = عمل
+onboarding-personalization-motivation-title = ما هي أهم ميزات { -brand-short-name } بالنسبة لك؟
+onboarding-personalization-motivation-privacy-option = الخصوصية والأمان
+onboarding-personalization-motivation-productivity-option = الإنتاجية
+onboarding-personalization-motivation-other-option = أخرى
+onboarding-refresh-pin-set-default-subtitle = نحن نحمي بياناتك ونمنع الشركات من التجسس على نقراتك - تلقائيًا.
+onboarding-refresh-pin-set-default-title = أنت في أيدٍ أمينة
+onboarding-refresh-import-subtitle = انقل كلمات سرك وعلاماتك وتأريخك وغيرها.
+onboarding-refresh-import-title = اجعل { -brand-short-name } يشعرك وكأنك في بيتك
+onboarding-refresh-onboarding-addons-subtitle = الامتدادات عبارة عن تطبيقات صغيرة تتيح لك تخصيص { -brand-short-name }. يمكنها تعزيز خصوصيتك، وتحسين الإنتاجية، وتغيير مظهر { -brand-short-name }، وغير ذلك الكثير.
+onboarding-refresh-onboarding-addons-title = امنح متصفحك دفعة قوية
+onboarding-refresh-sync-subtitle = احفظ العلامات وكلمات السر وغيرها في أي مكان ولِجت فيه إلى { -brand-short-name }. بالإضافة إلى ذلك، بياناتك مُعمّاة بحيث لا يمكن لأحد سواك رؤيتها.
+onboarding-refresh-sync-title = اذهب إلى أي مكان. زامن كل شيء.
+onboarding-refresh-gratitude-subtitle = نشكرك على استخدامك { -brand-short-name }، المتصفح الرئيسي الوحيد المدعوم من مؤسسة غير ربحية. بدعمك، نعمل على جعل الإنترنت أكثر أمانًا وسهولة في الوصول إليه للجميع.
+onboarding-refresh-gratitude-title = { -brand-short-name } يدعمك
+smartwindow-existing-user-fx-tou-accept = اقبل
+smartwindow-existing-user-fx-tou-go-back = عُد للسابق
+smartwindow-onboarding-primary-button = واصِل
+smartwindow-sidebar-auto-open-callout-title = أتريد إبقاء المساعد مغلقًا؟
+smartwindow-sidebar-auto-open-callout-body = لا يزال بإمكانك فتحه متى احتجت إليه.
+smartwindow-sidebar-auto-open-callout-accept = نعم، أبقِه مغلقًا
+smartwindow-sidebar-auto-open-callout-dismiss = لا، شكرًا
+smartwindow-sidebar-auto-open-callout-accepted-title = سيظل المساعد مغلقًا
+smartwindow-sidebar-auto-open-callout-rejected-title = فهمت
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = إذا غيرت رأيك، يمكنك تحديث الإعدادات المبدئية في <a data-l10n-name="settings">الإعدادات</a> في أي وقت.

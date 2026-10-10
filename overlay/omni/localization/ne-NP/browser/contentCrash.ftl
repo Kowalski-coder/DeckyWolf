@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>यस पृष्ठको भाग क्र्यास भयो।</strong> { -brand-product-name } लाई यस समस्याको बारेमा थाहा दिन र यसलाई छिटो समाधान गर्न, कृपया रिपोर्ट पेश गर्नुहोस्।
+crashed-subframe-title =
+    .title = यस पृष्ठको भाग क्र्यास भयो। { -brand-product-name } लाई यस समस्याको बारेमा थाहा दिन र यसलाई छिटो समाधान गर्न, कृपया रिपोर्ट पेश गर्नुहोस्।
+crashed-subframe-learnmore-link =
+    .value = अझ जान्नुहोस्
+crashed-subframe-submit =
+    .label = प्रतिवेदन पेश गर्नुहोस्
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = हेर्नुहोस्
+pending-crash-reports-send =
+    .label = पठाउनुहोस्
+pending-crash-reports-always-send =
+    .label = सधैँ पठाउनुहोस्

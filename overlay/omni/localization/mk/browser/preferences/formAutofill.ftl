@@ -1,0 +1,1 @@
+autofill-cancel-button = Откажи

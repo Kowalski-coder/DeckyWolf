@@ -1,0 +1,171 @@
+smartwindow-messages-document-title = { -smart-window-brand-name } ᱪᱟᱴ ᱠᱷᱚᱵᱚᱨ ᱠᱚ
+smart-window-context-chips-tag-count =
+    { $tags ->
+        [one] { $tags } ᱴᱟᱜᱽ
+        [two] { $tags } ᱴᱟᱜᱽ ᱠᱤᱱ
+       *[other] { $tags } ᱴᱟᱜᱽ ᱠᱚ
+    }
+smartwindow-assistant-error-generic-header = ᱡᱟᱦᱟᱱᱟᱜ ᱜᱮ ᱵᱟᱹᱲᱤᱡ ᱪᱟᱞᱟᱣ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ ᱾
+smartwindow-assistant-error-budget-header = ᱟᱢ ᱛᱮᱦᱮᱧᱟᱜ ᱪᱟᱴ ᱥᱤᱢᱟᱹ ᱨᱮᱢ ᱥᱮᱴᱮᱨ ᱟᱠᱟᱱᱟ ᱾
+smartwindow-assistant-error-account-header = { -smart-window-brand-name } ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ, ᱟᱢ ᱥᱩᱦᱤ ᱮᱢ ᱛᱮ ᱦᱩᱭᱩᱜᱼᱟ ᱾
+smartwindow-assistant-error-capacity-header = { -smart-window-brand-name } ᱱᱤᱛᱚᱜ ᱫᱟᱲᱮ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ ᱾
+smartwindow-assistant-error-budget-body = ᱟᱢ ᱱᱤᱛ ᱦᱚᱸ ᱱᱚᱣᱟ ᱡᱷᱚᱨᱠᱟ ᱨᱮ ᱵᱽᱨᱟᱣᱩᱡᱽ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱾ ᱟᱢᱟᱜ ᱫᱤᱱᱟᱹᱢ ᱥᱤᱢᱟᱹ ᱨᱤᱥᱮᱴ ᱛᱟᱭᱚᱢ ᱪᱟᱴ ᱫᱚ ᱫᱩᱦᱲᱟᱹ ᱧᱟᱢᱚᱜᱼᱟ ᱾
+smartwindow-assistant-error-many-requests-header = ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱢᱤᱫ ᱜᱷᱟᱹᱲᱤ ᱛᱟᱺᱜᱤ ᱢᱮ ᱟᱨ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ ᱾ ᱟᱹᱰᱤ ᱟᱭᱢᱟ ᱠᱷᱚᱵᱚᱨ ᱠᱚᱢ ᱚᱠᱛᱚ ᱨᱮ ᱵᱷᱮᱡᱟ ᱞᱮᱱᱟ ᱾
+smartwindow-assistant-error-max-length-header = ᱱᱚᱣᱟ ᱫᱚ ᱱᱟᱶᱟ ᱪᱟᱴ ᱮᱦᱚᱵ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱠᱟᱱᱟ ᱾ ᱱᱚᱣᱟ ᱫᱚ ᱟᱡᱟᱜ ᱡᱮᱞᱮᱝ ᱥᱤᱢᱟᱹ ᱨᱮ ᱥᱮᱴᱮᱨ ᱟᱠᱟᱱᱟ ᱾
+smartwindow-assistant-error-request-blocked-header = { -smart-window-brand-name } ᱥᱮᱨᱵᱷᱟᱨ ᱴᱷᱮᱱ ᱵᱟᱝ ᱥᱮᱴᱮᱨ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱟᱱᱟ ᱾ ᱮᱴᱟᱜ ᱱᱮᱴᱣᱟᱨᱠ ᱪᱮᱥᱴᱟᱭ ᱢᱮ, ᱟᱨᱵᱟᱝ ᱟᱢᱟᱜ VPN ᱚᱠᱟᱹᱡᱽᱣᱟᱹ ᱢᱮ ᱾
+smartwindow-assistant-error-http-header = ᱥᱮᱨᱵᱷᱟᱨ ᱦᱩᱰᱟᱹᱜ (HTTP { $status })᱾ ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩᱭ ᱢᱮ ᱾
+smartwindow-retry-btn = ᱫᱩᱦᱲᱟᱹ ᱠᱩᱨᱩᱢᱩᱴᱩ
+smartwindow-clear-btn = ᱱᱟᱶᱟ ᱪᱟᱴ
+smartwindow-signin-btn = ᱵᱚᱞᱚᱱ ᱥᱩᱦᱤ
+aiwindow-memories-used = ᱩᱭᱦᱟᱹᱨ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱟᱠᱟᱱᱟ
+aiwindow-memories-callout-description = ᱩᱭᱦᱟᱹᱨ ᱠᱚ ᱱᱚᱣᱟ ᱛᱮᱞᱟ ᱯᱚᱨᱥᱚᱱᱟᱞ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱞᱮᱫᱟᱭ ᱾
+aiwindow-memories-learn-more = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
+aiwindow-manage-memories =
+    .label = ᱢᱮᱢᱚᱨᱤ ᱥᱟᱡᱟᱣᱠᱚ
+aiwindow-retry-without-memories =
+    .label = ᱵᱤᱱᱟᱹ ᱩᱭᱦᱟᱹᱨ ᱛᱮ ᱫᱚᱦᱲᱟ ᱪᱮᱥᱴᱟᱭ ᱢᱮ
+aiwindow-retry =
+    .aria-label = ᱫᱚᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ
+    .tooltiptext = ᱫᱚᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ
+aiwindow-copy-message =
+    .aria-label = ᱠᱷᱚᱵᱚᱨ ᱱᱚᱠᱚᱞ ᱢᱮ
+    .tooltiptext = ᱱᱚᱠᱚᱞ
+aiwindow-copy-table =
+    .aria-label = ᱴᱮᱵᱩᱞ ᱱᱚᱠᱚᱞ ᱢᱮ
+    .tooltiptext = ᱴᱮᱵᱩᱞ ᱱᱚᱠᱚᱞ ᱢᱮ
+aiwindow-table-scroll-indicator = ᱵᱟᱹᱲᱛᱤ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱠᱷᱚᱥᱨᱚᱫ ᱢᱮ
+aiwindow-thumbs-up =
+    .aria-label = ᱵᱮᱥ ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+    .tooltiptext = ᱵᱮᱥ ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+aiwindow-thumbs-down =
+    .aria-label = ᱵᱟᱝ ᱠᱩᱥᱤ ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+    .tooltiptext = ᱵᱟᱝ ᱠᱩᱥᱤ ᱢᱚᱱᱚᱛ ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+aiwindow-applied-memories-popover =
+    .aria-label = ᱩᱱᱩᱭᱦᱟᱹᱨ ᱯᱮᱱᱟᱞ
+aiwindow-applied-memories-list =
+    .aria-label = ᱩᱱᱩᱭᱦᱟᱹᱨ
+aiwindow-delete-memory-button =
+    .aria-label = { $summary } ᱢᱮᱴᱟᱣ ᱢᱮ
+aiwindow-jump-to-bottom =
+    .aria-label = ᱪᱟᱴ ᱨᱮᱭᱟᱜ ᱞᱟᱛᱟᱨ ᱛᱮ ᱫᱚᱱ ᱢᱮ
+    .tooltiptext = ᱞᱟᱛᱟᱨ ᱛᱮ ᱫᱚᱱ ᱢᱮ
+smartwindow-nl-retry-tool-button =
+    .label = ᱫᱚᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ
+smartwindow-nl-retry-message = ᱡᱩᱫᱤ ᱟᱢ ᱱᱤᱛ ᱦᱚᱸ ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ, <strong>ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ</strong> ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱟᱨ ᱡᱷᱤᱡᱚᱜ ᱠᱟᱱ ᱠᱟᱨᱰ ᱨᱮ ᱟᱢᱟᱜ ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱾
+smartwindow-nl-retry-group-tabs-message = ᱡᱩᱫᱤ ᱟᱢ ᱱᱤᱛ ᱦᱚᱸ ᱴᱮᱵᱽ ᱜᱟᱫᱮᱞ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ, <strong>ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ</strong> ᱵᱟᱪᱷᱟᱣ ᱢᱮ ᱟᱨ ᱚᱠᱟ ᱠᱟᱨᱰ ᱨᱮ ᱡᱷᱤᱡᱽᱚᱜᱼᱟ ᱚᱱᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ  ᱾
+smartwindow-nl-thinking = ᱢᱮᱪᱤᱝ ᱴᱮᱵᱽ ᱠᱚ ᱧᱮᱞ ᱮᱫᱟᱹᱧ...
+smartwindow-loading-assistant-response =
+    .aria-label = ᱜᱚᱲᱚᱭᱤᱡ ᱛᱮᱞᱟ ᱞᱳᱰᱤᱝ
+smartwindow-nl-undo-button =
+    .label = ᱨᱩᱣᱟᱹᱲ
+smart-window-closed-tabs-label =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    }
+smart-window-closed-tabs-summary =
+    { $count ->
+        [one] ᱦᱩᱭᱮᱱᱟ! ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚ ᱮᱱᱟ ᱾
+        [two] ᱦᱩᱭᱮᱱᱟ! ᱴᱮᱵᱽ ᱠᱤᱱ ᱵᱚᱸᱫᱚ ᱮᱱᱟ ᱾
+       *[other] ᱦᱩᱭᱮᱱᱟ! ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚ ᱮᱱᱟ ᱾
+    }
+smart-window-closed-tabs-row-label = ᱵᱚᱸᱫᱚ ᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ
+smart-window-closed-and-restored-label = ᱵᱚᱸᱫᱚ ᱟᱨ ᱫᱚᱦᱚ ᱟᱠᱟᱱ ᱴᱮᱵᱽ
+smart-window-restored-row-label =
+    { $count ->
+        [one] ᱫᱚᱦᱲᱟ ᱛᱮ ᱫᱚᱦᱚ ᱟᱠᱟᱱ { $count } ᱴᱮᱵᱽ
+        [two] ᱫᱚᱦᱲᱟ ᱛᱮ ᱫᱚᱦᱚ ᱟᱠᱟᱱ { $count } ᱴᱮᱵᱽ ᱠᱤᱱ
+       *[other] ᱫᱚᱦᱲᱟ ᱛᱮ ᱫᱚᱦᱚ ᱟᱠᱟᱱ { $count } ᱴᱮᱵᱽ ᱠᱚ
+    }
+smart-window-restore-success-summary =
+    { $count ->
+        [one] ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚ ᱮᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱫᱚᱦᱲᱟᱹ ᱫᱚᱦᱚ ᱮᱱᱟ ᱾
+        [two] ᱴᱮᱵᱽ ᱠᱤᱱ ᱵᱚᱸᱫᱚ ᱮᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱫᱚᱦᱲᱟᱹ ᱫᱚᱦᱚ ᱮᱱᱟ ᱾
+       *[other] ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚ ᱮᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱫᱚᱦᱲᱟᱹ ᱫᱚᱦᱚ ᱮᱱᱟ ᱾
+    }
+smart-window-cancelled-label = ᱟᱨᱫᱟᱥ ᱵᱟᱛᱤᱞ ᱮᱱᱟ ᱾
+smart-window-confirm-group-tab = ᱫᱳᱞ
+smart-window-confirm-group-tabs =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱫᱳᱞ ᱠᱟᱠᱚ ᱢᱮ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱫᱳᱞ ᱠᱟᱠᱚ ᱢᱮ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱫᱳᱞ ᱠᱟᱠᱚ ᱢᱮ
+    }
+smart-window-confirm-open-tab = ᱡᱷᱤᱡᱽ ᱢᱮ
+smart-window-confirm-open-tabs =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱢᱮ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱡᱷᱤᱡᱽ ᱢᱮ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱡᱷᱤᱡᱽ ᱢᱮ
+    }
+smart-window-grouped-tabs-label =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱫᱳᱞ ᱠᱟᱱᱟ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱫᱳᱞ ᱠᱟᱱᱟ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱫᱳᱞ ᱠᱟᱱᱟ
+    }
+smart-window-default-tab-group-label = ᱴᱮᱵᱽ ᱫᱳᱞ ᱠᱚ
+smart-window-grouped-tabs-summary =
+    { $count ->
+        [one] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱥᱮᱞᱮᱫ ᱮᱱᱟ ᱾
+        [two] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱥᱮᱞᱮᱫ ᱮᱱᱟ ᱾
+       *[other] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱠᱚ ᱥᱮᱞᱮᱫ ᱮᱱᱟ ᱾
+    }
+smart-window-grouped-tabs-row-label = ᱫᱳᱞ ᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ
+smart-window-opened-tabs-label =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱮᱱᱟ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱡᱷᱤᱡᱽ ᱮᱱᱟ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱡᱷᱤᱡᱽ ᱮᱱᱟ
+    }
+smart-window-opened-tabs-summary-single =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+    }
+smart-window-opened-tabs-summary-group =
+    { $count ->
+        [one] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+        [two] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+       *[other] “{ $label }” ᱜᱟᱫᱮᱞ ᱛᱮᱭᱟᱨ ᱮᱱᱟ ᱟᱨ { $count } ᱴᱮᱵᱽ ᱠᱚ ᱡᱷᱤᱡᱽ ᱮᱱᱟ ᱾
+    }
+smart-window-opened-tabs-row-label = ᱡᱷᱤᱡᱽ ᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ
+smart-window-switched-tab-label = ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱴᱮᱵᱽ
+smart-window-switched-tab-summary = “{ $title }” ᱨᱮ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ ᱾
+smart-window-grouped-and-ungrouped-label = ᱴᱮᱵᱽ ᱠᱚ ᱫᱚᱞ ᱠᱷᱚᱱ ᱪᱷᱟᱰᱟᱣ ᱮᱱᱟ
+smart-window-ungroup-success-summary =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱫᱳᱞ ᱟᱠᱟᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱜᱟᱫᱮᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱮᱱᱟ ᱾
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱫᱳᱞ ᱟᱠᱟᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱜᱟᱫᱮᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱮᱱᱟ ᱾
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱫᱳᱞ ᱟᱠᱟᱱᱟ, ᱤᱱᱟᱹ ᱛᱟᱭᱚᱢ ᱜᱟᱫᱮᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱮᱱᱟ ᱾
+    }
+smart-window-ungrouped-row-label =
+    { $count ->
+        [one] { $count } ᱴᱮᱵᱽ ᱫᱳᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱠᱟᱱᱟ
+        [two] { $count } ᱴᱮᱵᱽ ᱠᱤᱱ ᱫᱳᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱠᱟᱱᱟ
+       *[other] { $count } ᱴᱮᱵᱽ ᱠᱚ ᱫᱳᱞ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱠᱟᱱᱟ
+    }
+action-log-searching-tabs = ᱴᱮᱵᱽ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ
+action-log-searched-open-tabs = ᱡᱷᱤᱡ ᱴᱮᱵᱽ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟ ᱠᱮᱫᱟ
+action-log-searching-history = ᱱᱟᱜᱟᱢ ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ
+action-log-searched-history = ᱱᱟᱜᱟᱢ ᱥᱮᱸᱫᱽᱨᱟ ᱟᱠᱟᱱᱟ
+action-log-reading-page = ᱥᱟᱦᱴᱟ ᱯᱟᱲᱦᱟᱣᱜ ᱮᱫᱟᱹᱧ
+action-log-read-page = ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱡᱤᱱᱤᱥ ᱯᱟᱲᱦᱟᱣ ᱢᱮ
+action-log-searching-web = ᱣᱮᱵᱽ ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ
+action-log-searched-web = ᱣᱮᱵᱽ ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱦᱩᱭ ᱮᱱᱟ
+action-log-searching-web-with-exa = <a data-l10n-name="exa-link">Exa</a> ᱥᱟᱶᱛᱮ ᱣᱮᱵᱽ ᱥᱮᱸᱫᱽᱨᱟ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ
+action-log-searched-web-with-exa = <a data-l10n-name="exa-link">Exa</a> ᱥᱟᱶᱛᱮ ᱣᱮᱵᱽ ᱥᱮᱸᱫᱽᱨᱟ ᱦᱩᱭ ᱮᱱᱟ
+action-log-checking-memories = ᱩᱭᱦᱟᱹᱨ ᱠᱚ ᱧᱮᱞ ᱦᱩᱭᱩᱜ ᱟᱠᱟᱱᱟ
+action-log-checked-memories = ᱩᱭᱦᱟᱹᱨ ᱠᱚ ᱧᱮᱞ ᱦᱩᱭᱩᱜ ᱮᱱᱟ
+action-log-searching-settings = ᱥᱟᱡᱟᱣ ᱠᱚ ᱥᱮᱸᱫᱽᱨᱟᱜ ᱠᱟᱱᱟ
+action-log-searched-settings = ᱥᱮᱸᱫᱽᱨᱟ ᱟᱠᱟᱱ ᱥᱟᱡᱟᱣ ᱠᱚ
+action-log-completed-steps =
+    { $count ->
+        [one] { $count } ᱫᱷᱟᱯ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ
+        [two] { $count } ᱫᱷᱟᱯ ᱠᱤᱱ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ
+       *[other] { $count } ᱫᱷᱟᱯ ᱠᱚ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ
+    }
+smartwindow-search-loader-text = ᱱᱚᱣᱟ ᱴᱮᱵᱽ ᱨᱮ ᱥᱮᱸᱫᱽᱨᱟ ᱚᱨᱡᱚ ᱞᱟᱫᱮ ᱦᱩᱭ ᱟᱠᱟᱱᱟ ᱾ ᱵᱤᱥᱲᱤ ᱛᱮ ...
+smartwindow-assistant-citations-more-label = +{ $count } ᱰᱷᱮᱨ

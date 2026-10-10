@@ -1,0 +1,346 @@
+onboarding-welcome-header = 歡迎使用 { -brand-short-name }
+onboarding-start-browsing-button-label = 開始上網
+onboarding-not-now-button-label = 現在不要
+mr1-onboarding-get-started-primary-button-label = 開始使用
+return-to-amo-subtitle = 恭喜，您已經安裝好 { -brand-short-name }
+return-to-amo-addon-title = 現在來安裝 <img data-l10n-name="icon"/><b>{ $addon-name }</b> 吧。
+return-to-amo-add-extension-label = 安裝擴充套件
+return-to-amo-add-theme-label = 安裝佈景主題
+return-to-amo-theme-install-complete-label = 已安裝佈景主題
+return-to-amo-extension-install-complete-label = 已安裝擴充套件
+mr1-return-to-amo-subtitle = 跟 { -brand-short-name } 說聲嗨！
+mr1-return-to-amo-addon-title = 您有了一套觸手可及，又快又有隱私斯的瀏覽器。現在您還可以新增 <b>{ $addon-name }</b>，讓 { -brand-short-name } 能做更多事。
+mr1-return-to-amo-add-extension-label = 新增 { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = 進度：第 { $current } 步，共 { $total } 步
+mr1-onboarding-reduce-motion-button-label = 關閉動畫
+mr1-onboarding-sign-in-button-label = 登入
+mr1-onboarding-import-primary-button-label-attribution = 從 { $previous } 匯入
+mr1-onboarding-theme-header = 有您的風格
+mr1-onboarding-theme-subtitle = 使用佈景主題，讓 { -brand-short-name } 有您的風格
+mr1-onboarding-theme-secondary-button-label = 現在不要
+mr1-onboarding-theme-label-system = 系統佈景主題
+mr1-onboarding-theme-label-light = 亮色
+mr1-onboarding-theme-label-dark = 暗色
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = 完成
+onboarding-animation-pause-button =
+    .aria-label = 暫停動畫
+onboarding-animation-play-button =
+    .aria-label = 播放動畫
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        依照作業系統的佈景主題設定來顯示
+        按鈕、選單、視窗的外觀。
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        依照作業系統的佈景主題設定來顯示
+        按鈕、選單、視窗的外觀。
+mr1-onboarding-theme-tooltip-light =
+    .title = 使用亮色按鈕、選單、視窗佈景主題。
+mr1-onboarding-theme-description-light =
+    .aria-description = 使用亮色按鈕、選單、視窗佈景主題。
+mr1-onboarding-theme-tooltip-dark =
+    .title = 使用暗色按鈕、選單、視窗佈景主題。
+mr1-onboarding-theme-description-dark =
+    .aria-description = 使用暗色按鈕、選單、視窗佈景主題。
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title = 使用色彩繽紛的按鈕、選單、視窗佈景主題。
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description = 使用色彩繽紛的按鈕、選單、視窗佈景主題。
+mr2-onboarding-default-theme-label = 探索預設佈景主題。
+mr2-onboarding-thank-you-header = 感謝您選用
+mr2-onboarding-thank-you-text = { -brand-short-name } 是一套由非營利組織所打造的獨立瀏覽器。由我們一起讓網路環境更安全、更健康、也更有隱私。
+mr2-onboarding-start-browsing-button-label = 開始上網
+onboarding-live-language-header = 選擇您的語言
+mr2022-onboarding-live-language-text = { -brand-short-name } 會說您的語言
+mr2022-language-mismatch-subtitle = 透過社群的努力，{ -brand-short-name } 已翻譯成超過 90 種語言版本。您的系統使用 { $systemLanguage }，而 { -brand-short-name } 則是 { $appLanguage } 版本。
+onboarding-live-language-button-label-downloading = 正在下載 { $negotiatedLanguage } 的語言套件…
+onboarding-live-language-waiting-button = 正在取得可用的語言清單…
+onboarding-live-language-installing = 正在安裝 { $negotiatedLanguage } 的語言套件…
+mr2022-onboarding-live-language-switch-to = 切換為 { $negotiatedLanguage } 版
+mr2022-onboarding-live-language-continue-in = 以 { $appLanguage } 版繼續
+onboarding-live-language-secondary-cancel-download = 取消
+onboarding-live-language-skip-button-label = 略過
+fx100-thank-you-hero-text =
+    100 倍的
+    感謝<span data-l10n-name="zap">您</span>
+fx100-thank-you-subtitle = 這一版是我們的第 100 版！非常感謝您與我們一起打造更好、更健康的網路環境。
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] 將 { -brand-short-name } 放置於 Dock
+       *[other] 將 { -brand-short-name } 釘選到工具列
+    }
+fx100-upgrade-thanks-header = 100 倍的感謝您
+fx100-upgrade-thank-you-body = 這一版是 { -brand-short-name } 的第 100 版！非常感謝<em>您</em>與我們一起打造更好、更健康的網路環境。
+fx100-upgrade-thanks-keep-body = 這一版是我們的第 100 版！非常感謝您參與我們的社群，只要點一下即可進入 { -brand-short-name } 的下一個 100 版旅程。
+mr2022-onboarding-secondary-skip-button-label = 跳過這步
+mr2022-onboarding-easy-setup-primary-button-label = 儲存並繼續
+mr2022-onboarding-easy-setup-set-default-checkbox-label = 將 { -brand-short-name } 設為預設瀏覽器
+mr2022-onboarding-easy-setup-import-checkbox-label = 從先前使用的瀏覽器匯入資料
+mr2022-onboarding-welcome-pin-header = 探索驚人的網路世界
+mr2022-onboarding-welcome-pin-subtitle = 只要輕鬆一點就可以從任何地方啟動 { -brand-short-name }。您每次這麼做的時候就是在選擇讓網路環境更加開放、獨立。
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] 將 { -brand-short-name } 放置於 Dock
+       *[other] 將 { -brand-short-name } 釘選到工具列
+    }
+mr2022-onboarding-pin-primary-button-label-msix = 將 { -brand-short-name } 釘選到工具列與開始選單
+mr2022-onboarding-existing-pin-header = 感謝您愛用 { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = 只要輕鬆一點就可以從任何地方啟動更健康的網路環境。最新推出的版本中，有我們認為您會喜歡的滿滿新鮮事。
+mr2022-onboarding-existing-set-default-only-subtitle = 使用會在您上網時保護您隱私的瀏覽器。我們最新推出的更新，有我們認為您會喜歡的滿滿新鮮事。
+mr2022-onboarding-existing-pin-checkbox-label = 也加入 { -brand-short-name } 隱私瀏覽模式
+mr2022-onboarding-set-default-title = 要將 { -brand-short-name } 設為您的預設瀏覽器嗎？
+mr2022-onboarding-set-default-primary-button-label = 將 { -brand-short-name } 設為預設瀏覽器
+mr2022-onboarding-set-default-subtitle = 使用由非營利組織在背後開發的瀏覽器。我們會在您上網時捍衛您的隱私權。
+mr2022-onboarding-get-started-primary-subtitle = 最新版本是圍繞您打造的。讓您更簡單就可在網路中探索，希望您也會喜歡我們推出的滿滿功能。
+mr2022-onboarding-get-started-primary-button-label = 幾秒鐘就能設定完成
+mr2022-onboarding-import-primary-button-label-no-attribution = 從先前使用的瀏覽器匯入資料
+mr2022-onboarding-mobile-download-cta-text = 掃描 QR Code 即可下載 { -brand-product-name } 行動版，也可以<a data-l10n-name="download-label">傳送下載鏈結給自己。</a>
+mr2022-onboarding-no-mobile-download-cta-text = 掃描這組 QR Code，下載 { -brand-product-name } 行動版。
+mr2022-upgrade-onboarding-pin-private-window-header = 只要點一下，自動進入隱私瀏覽模式
+mr2022-upgrade-onboarding-pin-private-window-subtitle = 不留下任何 Cookie 與瀏覽紀錄。隱私瀏覽不留痕跡。
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] 將 { -brand-short-name } 隱私瀏覽模式放置在 Dock
+       *[other] 將 { -brand-short-name } 隱私瀏覽模式釘選到工作列
+    }
+mr2022-onboarding-privacy-segmentation-title = 我們始終尊重您的隱私權
+mr2022-onboarding-privacy-segmentation-subtitle = 不論是搜尋建議或是更聰明的搜尋功能，我們會持續打造更好、更有個人風格的 { -brand-product-name }。
+mr2022-onboarding-privacy-segmentation-text-cta = 當我們推出會使用您的資料來加強上網體驗的新功能時，您想收到什麼消息？
+mr2022-onboarding-privacy-segmentation-button-primary-label = 使用 { -brand-product-name } 推薦設定
+mr2022-onboarding-privacy-segmentation-button-secondary-label = 顯示詳細資訊
+mr2022-onboarding-gratitude-title = 您正在幫助我們打造更好的網路環境
+mr2022-onboarding-gratitude-subtitle = 感謝您使用由 Mozilla 基金會開發的 { -brand-short-name }。透過您的支援，我們努力讓網路環境變得更好、更開放、更可被所有人使用。
+mr2022-onboarding-gratitude-primary-button-label = 看看有什麼新鮮事
+mr2022-onboarding-gratitude-secondary-button-label = 開始上網
+onboarding-infrequent-import-title = 別客氣，當自己家
+onboarding-infrequent-import-subtitle = 不論您只是要暫時試用，還是已經決定好要使用，都可以匯入其他瀏覽器的書籤、密碼與其他資料。
+onboarding-infrequent-import-primary-button = 匯入 { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = 有人的周圍圍繞著星星與花朵，並且正在使用筆記型電腦
+mr2022-onboarding-default-image-alt =
+    .aria-label = 有人擁抱著 { -brand-product-name } 圖示
+mr2022-onboarding-import-image-alt =
+    .aria-label = 有人踩著滑板，還有一盒軟體圖示
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = 有隻青蛙跳過水蓮，正中間有一組能夠下載 { -brand-product-name } 行動版的 QR Code
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = 一支讓 { -brand-product-name } 隱私瀏覽圖示從帽子中冒出來的魔術棒
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = 淺色與深色皮膚的人舉手擊掌
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = 從窗戶看到日落，窗台上有隻狐狸與一顆盆栽
+onboarding-device-migration-image-alt =
+    .aria-label = 有一隻狐狸在筆記型電腦螢幕上揮手，筆記型電腦連接著滑鼠。
+onboarding-device-migration-title = 歡迎回來！
+onboarding-device-migration-subtitle2 = 登入帳號後，即可將書籤、密碼、上網紀錄帶到新裝置。
+onboarding-device-migration-primary-button-label = 登入
+amo-picker-title = 自訂您的 { -brand-short-name }
+amo-picker-subtitle = 擴充套件就像是在您的瀏覽器中安裝應用程式，這些套件可讓您保護密碼、下載影音內容、購物比價、封鎖討人厭的廣告、更改瀏覽器外觀等等功能。
+amo-picker-install-button-label = 新增至 { -brand-short-name }
+amo-picker-install-complete-label = 已安裝
+amo-picker-collection-link = 探索更多附加元件
+onboarding-easy-setup-security-and-privacy-title = 我們希望確保您上網安全
+onboarding-easy-setup-security-and-privacy-subtitle = 我們這套由非營利組織所開發的瀏覽器，會自動封鎖讓大企業在網路上偷偷跟蹤您的程式。
+onboarding-mobile-download-security-and-privacy-title = 在不同裝置間切換時保持加密
+onboarding-mobile-download-security-and-privacy-subtitle = 資料同步完成後，{ -brand-short-name } 即可加密您的網站密碼、書籤與更多資料。另外還可以直接取得您在其他裝置上開啟的分頁。
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } 是您的堅強後盾
+onboarding-gratitude-security-and-privacy-subtitle = 感謝您使用由 Mozilla 基金會開發的 { -brand-short-name }。透過您的支援，我們努力讓網路環境變得更安全、更可被所有人使用。
+onboarding-sign-up-title = 在不同裝置間同步資料
+onboarding-sign-up-description = 註冊一組帳號，即可將您的所有重要資訊（密碼、書籤等資訊）安全地儲存下來，並且在登入的裝置中同步使用。
+onboarding-sign-up-button = 註冊或登入
+onboarding-sign-up-secondary-button = 開始上網
+onboarding-new-user-time-based-survey-title = 您已經使用 { -brand-short-name } 多久了？
+onboarding-new-user-familiarity-based-survey-title = 您對 { -brand-short-name } 有多熟悉？
+onboarding-new-user-survey-subtitle = 您的意見回饋可協助讓 { -brand-short-name } 變得更好。
+onboarding-new-user-survey-next-button-label = 下一步
+onboarding-new-user-survey-legal-link-label = 選擇「{ onboarding-new-user-survey-next-button-label }」，代表您同意 { -brand-product-name } 的<a data-l10n-name="privacy_notice">隱私權公告</a>
+onboarding-new-user-survey-time-based-option-1 = 我剛開始使用
+onboarding-new-user-survey-time-based-option-2 = 不到 1 個月
+onboarding-new-user-survey-time-based-option-3 = 超過 1 個月，常常使用
+onboarding-new-user-survey-time-based-option-4 = 超過 1 個月，偶爾用
+onboarding-new-user-survey-familiarity-based-option-1 = 我剛開始使用
+onboarding-new-user-survey-familiarity-based-option-2 = 我大概會用
+onboarding-new-user-survey-familiarity-based-option-3 = 我很熟悉操作
+onboarding-new-user-survey-familiarity-based-option-4 = 我曾經用過，但已經好一陣子了
+onboarding-new-tabs-title = 告訴我們您想將分頁列放在哪裡
+onboarding-new-tabs-subtitle = 可以到側邊欄設定中隨時切換。
+onboarding-many-tabs-title = 用您的方式管理分頁
+onboarding-many-tabs-subtitle = 開啟很多分頁嗎？可以將分頁放到畫面側邊，讓畫面更流暢；也可以繼續放在畫面頂部，或隨時切換。
+onboarding-focused-tabs-title = 選擇您的分頁版面
+onboarding-focused-tabs-subtitle = 若想讓畫面更流暢，可以將分頁放到畫面側邊；也可以繼續放在畫面頂部，或隨時切換。
+onboarding-new-vertical-tabs-label = 放在側邊
+onboarding-new-horizontal-tabs-label = 放在頂端
+onboarding-existing-tabs-title = 垂直分頁將顯示於此處
+onboarding-existing-tabs-title2 = 正式推出垂直分頁功能
+onboarding-existing-tabs-subtitle = 試試看將分頁列移到側邊，可在側邊欄設定中隨時切換。
+onboarding-existing-vertical-tabs-label = 試用垂直分頁標籤功能
+onboarding-flair-text = 新功能！
+onboarding-existing-horizontal-tabs-label = 保留水平分頁標籤
+onboarding-vertical-tabs-tooltip =
+    .title = 於 { -brand-shorter-name } 側邊欄顯示分頁列的瀏覽器視窗。
+onboarding-vertical-tabs-description =
+    .aria-description = 於 { -brand-shorter-name } 側邊欄顯示分頁列的瀏覽器視窗。
+onboarding-horizontal-tabs-tooltip =
+    .title = 於頂端顯示分頁列的瀏覽器視窗。
+onboarding-horizontal-tabs-description =
+    .aria-description = 於頂端顯示分頁列的瀏覽器視窗。
+onboarding-genai-sidebar-title = 在側邊欄試用 AI 聊天機器人
+onboarding-genai-sidebar-subtitle = 一邊上網一邊摘要網頁內容、找出新點子、撰寫訊息草稿。多套機器人可供使用，並可隨時切換。<a data-l10n-name="learn-more">更多資訊</a>
+onboarding-genai-sidebar-primary-button = 挑選一套機器人
+onboarding-genai-sidebar-secondary-button = 開始上網
+onboarding-checklist-title = 完成設定 { -brand-short-name }
+onboarding-checklist-subtitle = 完成下列步驟，讓您獲得最完整的的上網體驗。
+onboarding-checklist-set-default = 將 { -brand-short-name } 設為預設瀏覽器
+onboarding-checklist-pin = 將 { -brand-short-name } 釘選到工具列
+onboarding-checklist-import = 從先前使用的瀏覽器匯入資料
+onboarding-checklist-extension = 新增擴充套件
+onboarding-checklist-sign-up = 註冊或登入帳號
+onboarding-checklist-minimize =
+    .label = 縮到最小
+onboarding-checklist-remove =
+    .label = 移除確認清單
+onboarding-checklist-remove-2 = 移除確認清單
+tab-groups-onboarding-feature-callout-title = 試用分頁群組，減少雜亂、更能專注
+tab-groups-onboarding-feature-callout-subtitle = 將一個分頁拖曳到另一個分頁，即可建立第一個分頁群組。
+tab-groups-onboarding-create-group-title-3 = 隨時使用「列出所有分頁」選單來尋找您的分頁群組。
+tab-groups-onboarding-create-group-no-alltabs-button-title = 可以在網址列搜尋分頁群組。
+tab-groups-onboarding-saved-groups-title-3 = 關閉分頁群組後，可隨時到「列出所有分頁」選單重新開啟。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = 可以在網址列搜尋關閉的分頁群組。
+tab-groups-onboarding-session-restore-title-2 = 隨時從「列出所有分頁」選單重新開啟分頁群組。
+tab-groups-onboarding-dismiss = 確定
+multi-profile-spotlight-title = 跟 { -brand-product-name } 設定檔切換功能說聲嗨！
+multi-profile-spotlight-body = 設定檔中包含您的搜尋紀錄、密碼等上網資訊，不同設定檔間彼此完全隔離，您可輕鬆切換、更能管理工作與私人上網情境。
+multi-profile-spotlight-cta = 建立設定檔
+multi-profile-callout-title = 為工作與私人上網情境，建立不同設定檔
+multi-profile-callout-subtitle = 您可以透過不同設定檔完全隔離搜尋紀錄、網站密碼等上網資訊。
+multi-profile-callout-cta = 建立設定檔
+desktop-to-mobile-headline = 下載、同步、出發！
+desktop-to-mobile-subtitle = 掃描 QR Code 即可下載 { -brand-product-name } 行動版。安裝完成後，請選擇「同步到行動裝置」即可隨時隨地取得您的密碼、書籤與更多資訊。
+dismiss-button-label = 知道了！
+sync-to-mobile-button-label = 同步到行動裝置
+desktop-to-mobile-qr-code-alt =
+    .aria-label = { -brand-product-name } 行動版的下載 QR Code
+create-backup-screen-1-title =
+    準備升級到 Windows 11 嗎？
+    一起來備份您的 { -brand-product-name } 資料。
+create-backup-screen-1-subtitle = 只要 1~2 分鐘，就能自動保護您的密碼、書籤與更多資料。
+create-backup-screen-1-flair = 推薦
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">更多資訊</a>
+create-backup-screen-1-sync-label = 與 { -brand-product-name } 同步
+create-backup-screen-1-sync-body = 可備份所有登入的裝置
+create-backup-screen-1-backup-label = 備份到電腦
+create-backup-screen-1-backup-body = 儲存到您的裝置或 OneDrive 當中
+create-backup-select-tile-button-label = 選擇
+create-backup-back-button-label = 上一頁
+create-backup-show-fewer =
+    .label = 減少顯示這類內容
+create-backup-screen-2-title = 請選擇要備份的 { -brand-product-name } 資料
+create-backup-screen-2-subtitle = 只要一分鐘就能完成。您的資料會每天備份一次。
+create-backup-screen-2-easy-label = 設定簡單
+create-backup-screen-2-easy-list-1 = 書籤、瀏覽紀錄、設定與更多資訊
+create-backup-screen-2-easy-list-2 = 不包含密碼與付款資訊
+create-backup-screen-2-easy-list-3 = 未加密
+create-backup-screen-2-all-label = 所有資料
+create-backup-screen-2-all-list-2 = 包含密碼與付款資訊
+create-backup-screen-2-all-list-3 = 使用密碼加密
+create-backup-screen-3-location = 您想將備份檔案放在哪裡？
+create-backup-screen-3-title = 為備份檔設定密碼
+create-backup-screen-3-subtitle = 需要有密碼才能加密資料，請將密碼保存於能記得的地方。
+fx-backup-opt-in-header = 選擇檔案位置
+fx-backup-opt-in-filepath-label = 挑一個能將備份檔轉移到新裝置的地方，例如 OneDrive。
+fx-backup-opt-in-create-password-label = 輸入密碼
+fx-backup-opt-in-confirm-btn-label = 繼續
+fx-backup-opt-in-cancel-btn-label = 上一頁
+fx-backup-confirmation-screen-title = 已排定備份
+fx-backup-confirmation-screen-close-button = 關閉
+fx-backup-confirmation-screen-all-data-item-text-1 = 包含所有瀏覽資料
+fx-backup-confirmation-screen-all-data-item-text-2 = 已儲存到您的裝置
+fx-backup-confirmation-screen-all-data-item-text-3 = 已加密，並用密碼保護
+fx-backup-confirmation-screen-easy-setup-item-text-1 = 包含書籤、上網紀錄、設定與其他資料
+fx-backup-confirmation-screen-easy-setup-item-text-2 = 已儲存到您的裝置
+fx-backup-confirmation-screen-easy-setup-item-text-3 = 不含密碼與付款資訊
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 可到<a data-l10n-name="settings">設定</a>當中將敏感資料列入備份。
+fx-backup-confirmation-screen-item-subtext-1 = 將在幾分鐘後開始備份，接下來每天備份一次。可以到<a data-l10n-name="settings">設定</a>當中確認備份狀態。
+fx-backup-confirmation-screen-item-subtext-2 = 需要重新安裝時，{ -brand-short-name } 會自動尋找您的備份資料。
+restore-from-backup-secondary-top-button = 從備份還原
+restore-from-backup-title = 讓我們把 { -brand-short-name } 還原成您習慣的樣子
+restore-from-backup-subtitle = 還原您所有書籤、瀏覽紀錄與其他資料，即可繼續上網。
+restore-from-backup-secondary-button = 不要還原
+multiple-backups-info-tile = <strong>找到多個備份檔案。</strong>已選擇最新的備份檔，可到<a data-l10n-name="settings-label">設定</a>中還原其他的設定檔。
+restored-from-backup-success-title = 歡迎回來！已將您的 { -brand-short-name } 資料還原成功！
+restored-from-backup-success-with-checklist-subtitle = 想要維持讓您最愛的隱私保護瀏覽器，只要滑鼠一點就能立即使用嗎？
+restored-from-backup-success-no-checklist-subtitle = 您可以在<a data-l10n-name="settings">設定</a>當中，替此裝置開啟備份功能。
+restored-from-backup-success-with-checklist-primary-button = 儲存並繼續
+restored-from-backup-success-with-checklist-secondary-button = 跳過這步
+restored-from-backup-success-no-checklist-primary-button = 繼續
+restored-from-backup-error-title = 嗯…您的備份檔案有點問題。
+restored-from-backup-error-subtitle = 若您有其他的 { -brand-short-name } 備份檔，請嘗試還原該檔案。<a data-l10n-name="restore-problems">還有問題嗎？</a>
+restored-from-backup-error-primary-button = 關閉
+onboarding-personalization-title = 自訂您的 { -brand-short-name } 使用體驗
+onboarding-personalization-subtitle = 回答幾個小問題，我們就可推薦您能夠加強 { -brand-short-name } 使用體驗的功能與擴充套件。
+onboarding-personalization-use-case-title = 您的 { -brand-short-name } 主要用於什麼環境？
+onboarding-personalization-use-case-personal-option = 私人
+onboarding-personalization-use-case-school-option = 學校
+onboarding-personalization-use-case-work-option = 工作
+onboarding-personalization-motivation-title = { -brand-short-name } 的哪些功能，對您來說最重要？
+onboarding-personalization-motivation-privacy-option = 隱私權與安全性
+onboarding-personalization-motivation-productivity-option = 生產力
+onboarding-personalization-motivation-other-option = 其他
+onboarding-refresh-pin-set-default-subtitle = 我們會保護您的資料，並自動防止企業偷窺您的點擊行為。
+onboarding-refresh-pin-set-default-title = 一切都安全了
+onboarding-refresh-import-subtitle = 將您的密碼、書籤、瀏覽紀錄等資料移轉過來。
+onboarding-refresh-import-title = 讓 { -brand-short-name } 更有家的風格
+onboarding-refresh-onboarding-addons-subtitle = 擴充套件就是一些能讓您自訂 { -brand-short-name } 的迷你小程式。它們可以加強您的隱私、提高生產力、改變 { -brand-short-name } 的外觀，或有更多功能。
+onboarding-refresh-onboarding-addons-title = 加強您的上網體驗
+onboarding-refresh-sync-subtitle = 在您登入 { -brand-short-name } 的所有裝置取得同步的書籤、密碼與更多資料。此外，所有資料都加密後才同步，只有您看得見。
+onboarding-refresh-sync-title = 去到哪就同步到哪
+onboarding-refresh-gratitude-subtitle = 感謝您使用 { -brand-short-name }，這是唯一一套由非營利組織在背後全力相挺的主流瀏覽器。透過您的支援，我們努力讓網際網路環境變得更安全、更可被所有人使用。
+onboarding-refresh-gratitude-title = { -brand-short-name } 是您的堅強後盾
+onboarding-refresh-splash-screen-title = 現在起，{ -brand-product-name } 在背後全力挺您
+onboarding-refresh-hero-text = 打造來保護您，而非追蹤您。
+onboarding-refresh-tou-default = 用 { -brand-short-name } 開啟所有鏈結
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] 將 { -brand-short-name } 保留於 Dock
+       *[other] 將 { -brand-short-name } 新增到您的工具列
+    }
+onboarding-refresh-tou-default-unchecked = 每次上網都保留內建防護
+onboarding-refresh-tou-pin-unchecked = 讓唯一的主流獨立瀏覽器隨手可得
+onboarding-refresh-terms-of-use-with-links = 繼續使用，代表您同意 <a data-l10n-name="terms_of_use">{ -brand-product-name } 的使用條款</a>與我們的<a data-l10n-name="privacy_notice">隱私權公告</a>。為了協助改善瀏覽器，{ -brand-product-name } 會將除錯用資料與互動資料傳送回 { -vendor-short-name }。
+onboarding-refresh-data-collection-link = 管理資料收集選項
+onboarding-refresh-primary-button = 繼續
+onboarding-refresh-fro-import-header = 匯入您的資料
+onboarding-refresh-fro-import-body = 您的個人資料只屬於您，{ -brand-product-name } 絕不將其出售。
+onboarding-refresh-fro-skip-button = 略過
+onboarding-refresh-fro-theme-header = 玩出您的風格
+onboarding-refresh-tab-layout-header = 試用不同的分頁版面
+onboarding-refresh-tab-layout-top = 置於頂端
+onboarding-refresh-tab-layout-side = 置於側邊
+onboarding-refresh-tab-layout-minimal = 極簡
+onboarding-minimal-tabs-tooltip =
+    .title = 一個將分頁用小圖示在畫面側邊的最小化側邊欄顯示的瀏覽器視窗。
+onboarding-minimal-tabs-description =
+    .aria-description = 一個將分頁用小圖示在畫面側邊的最小化側邊欄顯示的瀏覽器視窗。
+smartwindow-switcher-callout = 隨時切換智慧與經典視窗。
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 使用條款
+smartwindow-existing-user-fx-tou-body = 若要使用{ -smart-window-brand-name }，請接受 <a data-l10n-name="terms_of_use">使用條款</a>以及更新的<a data-l10n-name="privacy_notice">隱私權公告</a>。
+smartwindow-existing-user-fx-tou-accept = 接受
+smartwindow-existing-user-fx-tou-go-back = 返回
+smartwindow-onboarding-title = 將 { -smart-window-brand-name }設為您的預設瀏覽模式
+smartwindow-onboarding-subtitle = 快速摘要、比較、問問題不漏拍。
+smartwindow-onboarding-primary-button = 繼續
+smartwindow-onboarding-image-alt =
+    .aria-label = { -brand-product-name } 的吉祥物（Kit）與星星道具
+smartwindow-sidebar-auto-open-callout-title = 要維持關閉助理功能嗎？
+smartwindow-sidebar-auto-open-callout-body = 需要時可以再開啟。
+smartwindow-sidebar-auto-open-callout-accept = 好，請關掉
+smartwindow-sidebar-auto-open-callout-dismiss = 不要，謝謝
+smartwindow-sidebar-auto-open-callout-accepted-title = 將維持關閉助理功能
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = 在任何頁面使用「詢問」功能即可開啟。您隨時可以在<a data-l10n-name="settings">設定</a>修改此設定。
+smartwindow-sidebar-auto-open-callout-rejected-title = 知道了！
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 若您改變心意，可隨時到<a data-l10n-name="settings">設定</a>更改預設值。
+onboarding-theme-picker-title = 挑選佈景主題
+onboarding-theme-picker-subtitle = 為 { -brand-short-name } 帶來更多色彩。
+onboarding-theme-picker-button-label = 儲存並繼續

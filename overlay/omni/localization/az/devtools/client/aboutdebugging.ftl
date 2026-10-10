@@ -1,0 +1,3 @@
+about-debugging-setup-usb-enable-button = USB cihazlarını aktiv et
+about-debugging-setup-usb-updating-button = Yenilənir…
+about-debugging-network-locations-add-button = Əlavə et

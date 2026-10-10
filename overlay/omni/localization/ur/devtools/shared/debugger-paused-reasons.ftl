@@ -1,0 +1,12 @@
+whypaused-debugger-statement = ڈیبگر اسٹیٹمنٹ پر توقف کریں
+whypaused-breakpoint = بریکپوئنٹ پر روک دیا گیا
+whypaused-exception = استثنا پر توقعف کیا گیا ہے
+whypaused-mutation-breakpoint-added = شامل شدہ:
+whypaused-mutation-breakpoint-removed = ہٹا دیا گیا:
+whypaused-resume-limit = قدم رکھتے وقت توقف کریں
+whypaused-pause-on-dom-events = وقوعہ سامع پر توقعف کیا گیا ہے
+whypaused-xhr = XMLHttpRequest پر توقف کیا گیا ہے
+whypaused-promise-rejection = پرومس ریجیکشن پر توقف کریں
+whypaused-assert = اشرشن پر توقف کریں
+whypaused-debug-command = ڈیبگڈ فنکشن پر توقف کریں
+whypaused-other = ٹھیک کرنے والا توقف کر دیا گیا

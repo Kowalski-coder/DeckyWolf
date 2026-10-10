@@ -1,0 +1,251 @@
+contextual-manager-filter-input =
+    .aria-label = Lorg sna faclan-faire
+    .key = f
+    .placeholder = Lorg sna faclan-faire
+contextual-manager-menu-more-options-button =
+    .title = Barrachd roghainnean
+contextual-manager-more-options-popup =
+    .aria-label = Barrachd roghainnean
+contextual-manager-passwords-title = Faclan-faire
+contextual-manager-passwords-command-create = Cuir facal-faire ris
+contextual-manager-passwords-command-import-from-browser = Ion-phortaich o bhrabhsair eile…
+contextual-manager-passwords-command-import = Ion-phortaich o fhaidhle…
+contextual-manager-passwords-command-export = Às-phortaich na faclan-faire
+contextual-manager-passwords-command-remove-all = Thoir air falbh a h-uile facal-faire
+contextual-manager-passwords-command-options = Roghainnean
+contextual-manager-passwords-command-help = Cobhair
+contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
+contextual-manager-passwords-export-os-auth-dialog-message-win = Airson na faclan-faire agad às-phortadh, cuir a-steach teisteas clàraidh a-steach Windows. Cuiridh seo ri dìon tèarainteachd nan cunntasan agad.
+contextual-manager-passwords-export-os-auth-dialog-message-macosx = am facal-faire a shàbhail thu às-phortadh
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = Airson am facal-faire agad a shealltainn, cuir a-steach teisteas clàraidh a-steach Windows. Cuiridh seo ri dìon tèarainteachd nan cunntasan agad.
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = am facal-faire a shàbhail thu a nochdadh
+contextual-manager-passwords-edit-password-os-auth-dialog-message-win = Airson am facal-faire agad a dheasachadh, cuir a-steach teisteas clàraidh a-steach Windows. Cuiridh seo ri dìon tèarainteachd nan cunntasan agad.
+contextual-manager-passwords-edit-password-os-auth-dialog-message-macosx = am facal-faire a shàbhail thu a dheasachadh
+contextual-manager-passwords-copy-password-os-auth-dialog-message-win = Airson lethbhreac a dhèanamh dhen fhacal-faire agad, cuir a-steach teisteas clàraidh a-steach Windows. Cuiridh seo ri dìon tèarainteachd nan cunntasan agad.
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = lethbhreac a dhèanamh dhen fhacal-fhaire a shàbhail thu
+contextual-manager-passwords-import-file-picker-title = Ion-phortaich na faclan-faire
+contextual-manager-passwords-import-file-picker-import-button = Ion-phortaich
+contextual-manager-passwords-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Sgrìobhainn CSV
+       *[other] Faidhle CSV
+    }
+contextual-manager-passwords-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Sgrìobhainn TSV
+       *[other] Faidhle TSV
+    }
+contextual-manager-passwords-import-success-heading =
+    .heading = Chaidh na faclan-faire ion-phortadh
+contextual-manager-passwords-import-success-message-2 = Ùr: { $added }, air ùrachadh: { $modified }, feadhainn dhùblaichte: { $no_change }, mearachdan: { $error }
+contextual-manager-passwords-import-detailed-report = Seall an aithisg mhionaideach
+contextual-manager-passwords-import-success-button = Deiseil
+contextual-manager-passwords-import-error-heading-and-message =
+    .heading = Cha b’ urrainn dhuinn na faclan-faire ion-phortadh
+    .message = Dèan cinnteach gum bi colbh airson làraichean-lìn, ainmean-chleachdaichean is faclan-faire san fhaidhle agad.
+contextual-manager-passwords-import-error-button-try-again = Feuch ris a-rithist
+contextual-manager-passwords-import-error-button-cancel = Sguir dheth
+contextual-manager-passwords-import-learn-more = Barrachd fiosrachaidh mu ion-phortadh fhaclan-faire
+contextual-manager-passwords-export-success-heading =
+    .heading = Chaidh na faclan-faire às-phortadh
+contextual-manager-passwords-export-success-button = Deiseil
+contextual-manager-export-passwords-dialog-title = Airson na faclan-faire às-phortadh mar fhaidhle?
+contextual-manager-export-passwords-dialog-message = An dèidh dhut an às-phortadh, mholamaid dhut a sguabadh às airson ’s nach fhaic daoine eile a chleachdas an t-uidheam seo na faclan-faire agad.
+contextual-manager-export-passwords-dialog-confirm-button = Lean air adhart leis an às-phortadh
+contextual-manager-passwords-export-file-picker-title = Às-phortaich na faclan-faire o { -brand-short-name }
+contextual-manager-passwords-export-file-picker-default-filename = faclan-faire
+contextual-manager-passwords-export-file-picker-export-button = Às-phortaich
+contextual-manager-passwords-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Sgrìobhainn CSV
+       *[other] Faidhle CSV
+    }
+contextual-manager-passwords-remove-all-title =
+    { $total ->
+        [1] Airson am facal-faire a thoirt air falbh?
+        [one] Airson an { $total } fhacal-faire a thoirt air falbh?
+        [two] Airson an { $total } fhacal-faire a thoirt air falbh?
+        [few] Airson na { $total } faclan-faire a thoirt air falbh?
+       *[other] Airson an { $total } facal-faire a thoirt air falbh?
+    }
+contextual-manager-passwords-remove-all-confirm =
+    { $total ->
+        [1] Tha, thoiribh air falbh am facal-faire
+        [one] Tha, thoiribh air falbh am facal-faire
+        [two] Tha, thoiribh air falbh na faclan-faire
+        [few] Tha, thoiribh air falbh na faclan-faire
+       *[other] Tha, thoiribh air falbh na faclan-faire
+    }
+contextual-manager-passwords-remove-all-confirm-button =
+    { $total ->
+        [1] Thoir air falbh
+        [one] Thoir air falbh na h-uile
+        [two] Thoir air falbh na h-uile
+        [few] Thoir air falbh na h-uile
+       *[other] Thoir air falbh na h-uile
+    }
+contextual-manager-passwords-remove-all-message =
+    { $total ->
+        [1] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [one] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [two] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [few] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+       *[other] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+    }
+contextual-manager-passwords-remove-all-message-sync =
+    { $total ->
+        [1] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } air gach uidheam sioncronaichte agad agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [one] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } air gach uidheam sioncronaichte agad agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [two] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } air gach uidheam sioncronaichte agad agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+        [few] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } air gach uidheam sioncronaichte agad agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+       *[other] Bheir seo air falbh na faclan-faire a shàbhail thu ann am { -brand-short-name } air gach uidheam sioncronaichte agad agus caismeachd sam bith mu bhriseadh a-steach air dàta. Chan urrainn dhut seo a neo-dhèanamh.
+    }
+contextual-manager-passwords-origin-label = Làrach-lìn
+contextual-manager-passwords-username-label = Ainm-cleachdaiche
+    .data-after = Air lethbhreac a dhèanamh
+contextual-manager-passwords-password-label = Facal-faire
+    .data-after = Air lethbhreac a dhèanamh
+contextual-manager-passwords-radiogroup-label =
+    .aria-label = Criathraich na faclan-faire
+contextual-manager-passwords-add-password-success-heading =
+    .heading = Chaidh facal-faire airson { $url } a chur ris
+contextual-manager-passwords-add-password-success-button = Seall
+contextual-manager-passwords-password-already-exists-error-heading =
+    .heading = Tha facal-faire agus ainm-cleachdaiche airson { $url } ann mar-thà
+contextual-manager-passwords-password-already-exists-error-button = Tadhail air an fhacal-fhaire
+contextual-manager-passwords-update-password-success-heading =
+    .heading = Chaidh am facal-faire a shàbhaladh
+contextual-manager-passwords-update-password-success-button = Deiseil
+contextual-manager-passwords-update-username-success-heading-3 =
+    .heading = Chaidh an t-ainm-chleachdaiche a shàbhaladh
+contextual-manager-passwords-delete-password-success-heading =
+    .heading =
+        { $total ->
+            [1] Chaidh am facal-faire a thoirt air falbh
+            [one] Chaidh am facal-faire a thoirt air falbh
+            [two] Chaidh na faclan-faire a thoirt air falbh
+            [few] Chaidh na faclan-faire a thoirt air falbh
+           *[other] Chaidh na faclan-faire a thoirt air falbh
+        }
+contextual-manager-passwords-delete-password-success-button = Deiseil
+contextual-manager-passwords-radiobutton-all = Na h-uile ({ $total })
+contextual-manager-passwords-radiobutton-alerts = Caismeachdan ({ $total })
+contextual-manager-passwords-remove-login-card-title = A bheil thu airson am facal-faire a thoirt air falbh?
+contextual-manager-passwords-remove-login-card-message = Chan urrainn dhut seo a neo-dhèanamh.
+contextual-manager-passwords-remove-login-card-back-message = Air ais
+contextual-manager-passwords-remove-login-card-remove-button = Thoir air falbh
+contextual-manager-passwords-remove-login-card-cancel-button = Sguir dheth
+contextual-manager-passwords-alert-card =
+    .aria-label = Caismeachdan fhaclan-faire
+contextual-manager-passwords-alert-back-button =
+    .label = Air ais
+contextual-manager-passwords-alert-list =
+    .aria-label = Liosta nan caismeachdan
+contextual-manager-passwords-breached-origin-heading-and-message =
+    .heading = Mholamaid dhut am facal-faire atharrachadh
+    .message = Chaidh innse gun deach faclan-faire a ghoid air an làrach-lìn seo no a leigeil air èalaidh. Atharraich am facal-faire agad airson an cunntas agad a dhìon.
+contextual-manager-passwords-breached-origin-link-message = Ciamar a gheibh { -brand-product-name } fios gun deach briseadh a-steach air dàta?
+contextual-manager-passwords-change-password-button = Atharraich am facal-faire
+contextual-manager-passwords-vulnerable-password-heading-and-message =
+    .heading = Mholamaid dhut am facal-faire atharrachadh
+    .message = Tha am facal-faire seo cho furasta ri thomhas. Tagh fear nas làidire airson an cunntas agad a dhìon.
+contextual-manager-passwords-vulnerable-password-link-message = Ciamar a bhios fios aig { -brand-product-name } gu bheil facal-faire lag agam?
+contextual-manager-passwords-no-username-heading-and-message =
+    .heading = Cuir ainm-cleachdaiche ris
+    .message = Cuir fear ris airson clàradh a-steach nas luaithe.
+contextual-manager-passwords-add-username-button = Cuir ainm-cleachdaiche ris
+contextual-manager-passwords-create-label =
+    .label = Cuir facal-faire ris
+contextual-manager-passwords-update-label =
+    .label = Ùraich am facal-faire
+contextual-manager-passwords-remove-label =
+    .title = Thoir am facal-faire air falbh
+contextual-manager-passwords-origin-field =
+    .label = Seòladh na làraich-lìn
+    .placeholder = https://www.example.com
+contextual-manager-passwords-origin-field-description = Cuir a-steach an dearbh-sheòladh far an clàraich thu a-steach dhan làrach.
+contextual-manager-passwords-username-field =
+    .label = Ainm-cleachdaiche
+contextual-manager-passwords-username-field-description = Cuir a-steach an t-ainm-cleachdaiche, seòladh puist-d no àireamh a’ chunntais a chleachdas tu airson clàradh a-steach.
+contextual-manager-passwords-password-field =
+    .label = Facal-faire
+contextual-manager-passwords-password-field-description = Cuir a-steach am facal-faire airson clàradh a-steach chun a’ chunntais seo.
+contextual-manager-passwords-list-label =
+    .aria-label = Faclan-faire
+contextual-manager-website-icon =
+    .alt = Ìomhaigheag na làraich-lìn
+contextual-manager-copy-icon =
+    .alt = Lethbhreac
+contextual-manager-check-icon-username =
+    .alt = Chaidh lethbhreac a dhèanamh
+contextual-manager-check-icon-password =
+    .alt = Chaidh lethbhreac a dhèanamh
+contextual-manager-alert-icon =
+    .alt = Rabhadh
+contextual-manager-origin-login-line =
+    .aria-label = Tadhail air { $url }
+    .title = Tadhail air { $url }
+contextual-manager-origin-login-line-with-alert =
+    .aria-label = Tadhail air { $url } (rabhadh)
+    .title = Tadhail air { $url } (rabhadh)
+contextual-manager-username-login-line =
+    .aria-label = Dèan lethbhreac dhen ainm-chleachdaiche { $username }
+    .title = Dèan lethbhreac dhen ainm-chleachdaiche { $username }
+contextual-manager-username-login-line-with-alert =
+    .aria-label = Dèan lethbhreac dhen ainm-chleachdaiche { $username } (rabhadh)
+    .title = Dèan lethbhreac dhen ainm-chleachdaiche { $username } (rabhadh)
+contextual-manager-password-login-line =
+    .aria-label = Dèan lethbhreac dhen fhacal-fhaire
+    .title = Dèan lethbhreac dhen fhacal-fhaire
+contextual-manager-password-login-line-with-alert =
+    .aria-label = Dèan lethbhreac dhen fhacal-fhaire (rabhadh)
+    .title = Dèan lethbhreac dhen fhacal-fhaire (rabhadh)
+contextual-manager-edit-login-button = Deasaich
+    .tooltiptext = Deasaich am facal-faire
+contextual-manager-view-alert-heading-2 =
+    .heading =
+        { $count ->
+            [1] Seall a’ chaismeachd
+            [one] Seall a’ chaismeachd
+            [two] Seall na caismeachdan
+            [few] Seall na caismeachdan
+           *[other] Seall na caismeachdan
+        }
+contextual-manager-view-alert-button-2 =
+    .tooltiptext =
+        { $count ->
+            [1] Thoir sùil air a’ chaismeachd
+            [one] Thoir sùil air a’ chaismeachd
+            [two] Thoir sùil air na caismeachdan
+            [few] Thoir sùil air na caismeachdan
+           *[other] Thoir sùil air na caismeachdan
+        }
+contextual-manager-show-password-button =
+    .aria-label = Seall am facal-faire
+    .title = Seall am facal-faire
+contextual-manager-hide-password-button =
+    .aria-label = Falaich am facal-faire
+    .title = Falaich am facal-faire
+contextual-manager-passwords-no-passwords-found-header =
+    .heading = Cha deach facal-faire sam bith a lorg
+contextual-manager-passwords-no-passwords-found-message-2 = Feuch facal-luirg eile ’s dèan lorg as ùr.
+contextual-manager-passwords-no-passwords-header-2 = Sàbhail na faclan-faire agad ann an àite sàbhailte
+contextual-manager-passwords-no-passwords-message = Bidh gach facal-faire air a chrioptachadh is cumaidh sinn sùil airson briseadh a-steach air dàta agus innsidh sinn dhut ma chì sinn fear agadsa ann.
+contextual-manager-passwords-no-passwords-get-started-message = Cuir ris iad an-seo airson toiseach-tòiseachaidh.
+contextual-manager-passwords-add-manually = Cuir ris de làimh
+contextual-manager-passwords-discard-changes-heading-and-message =
+    .heading = Airson a dhùnadh gun sàbhaladh?
+    .message = Cha tèid na h-atharraichean agad a shàbhaladh.
+contextual-manager-passwords-discard-changes-close-button = Dùin
+contextual-manager-passwords-discard-changes-go-back-button = Air ais
+contextual-manager-passwords-remove-all-passwords-checkbox =
+    { $total ->
+        [1] Tha, thoiribh air falbh na faclan-faire
+        [one] Tha, thoiribh air falbh na faclan-faire
+        [two] Tha, thoiribh air falbh na faclan-faire
+        [few] Tha, thoiribh air falbh na faclan-faire
+       *[other] Tha, thoiribh air falbh na faclan-faire
+    }
+contextual-manager-primary-password-reauth-header = Airson na faclan-faire a shàbhail thu fhaicinn, cuir a-steach am prìomh-fhacal-faire agad.
+contextual-manager-primary-password-reauth-button = Cuir a-steach am prìomh-fhacal-faire
+contextual-manager-primary-password-learn-more-link = Barrachd fiosrachaidh

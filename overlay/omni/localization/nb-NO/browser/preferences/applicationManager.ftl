@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Programdetaljer
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Fjern
+    .accesskey = F
+app-manager-handle-protocol = Følgende programmer kan brukes for å håndtere { $type }-lenker.
+app-manager-handle-file = Følgende programmer kan brukes for å håndtere { $type }-innhold.
+app-manager-web-app-info = Denne webapplikasjonen er tilbydt av:
+app-manager-local-app-info = Dette programmet fins på:

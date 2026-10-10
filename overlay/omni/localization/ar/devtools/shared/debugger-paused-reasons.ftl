@@ -1,0 +1,15 @@
+whypaused-breakpoint = أُلبث عند نقطة توقف
+whypaused-event-breakpoint = أُلبث عند نقطة توقف أحداث
+whypaused-exception = أُلبث عند استثناء
+whypaused-mutation-breakpoint = أُلبث عند تعديل شجرة DOM
+whypaused-mutation-breakpoint-added = أُضيفت:
+whypaused-mutation-breakpoint-removed = أُزيلت:
+whypaused-interrupted = أُلبث عند استثناء
+whypaused-resume-limit = أُلبث أثناء الخطو
+whypaused-pause-on-dom-events = أُلبث عند مُستمع للأحداث
+whypaused-breakpoint-condition-thrown = عطل في نقطة توقف شرطية
+whypaused-xhr = أُلبث عند XMLHttpRequest
+whypaused-promise-rejection = أُلبث عند رفض الوعد
+whypaused-get-watchpoint = أُلبث عند جلب الخاصية
+whypaused-set-watchpoint = أُلبث عند ضبط الخاصية
+whypaused-other = أُلبث المنقّح

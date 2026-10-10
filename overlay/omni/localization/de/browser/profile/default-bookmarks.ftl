@@ -1,0 +1,14 @@
+default-bookmarks-title = Lesezeichen
+default-bookmarks-heading = Lesezeichen
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Hilfe erhalten
+default-bookmarks-firefox-customize = Firefox anpassen
+default-bookmarks-firefox-community = Mitmachen
+default-bookmarks-firefox-about = Über uns
+default-bookmarks-nightly-heading = Ressourcen zu Firefox Nightly
+default-bookmarks-nightly-blog = Blog zu Firefox Nightly (englisch)
+default-bookmarks-bugzilla = Fehler und Vorschläge melden (englisch)
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools (englisch)
+default-bookmarks-crashes = Alle Absturzberichte
+default-bookmarks-planet = Planet Mozilla (englisch)

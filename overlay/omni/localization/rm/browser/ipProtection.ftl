@@ -1,0 +1,97 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = Activar il VPN
+    .tooltiptext = Activar il VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = Avrir la pagina d’agid dal VPN
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Qua vegn il VPN, ussa directamain en tes navigatur
+ipprotection-feature-introduction-title-1 = Emprova il VPN integrà da { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = Utilisescha noss nov <a data-l10n-name="learn-more-vpn">VPN integrà</a> per zuppentar tia posiziun e proteger tias datas.
+ipprotection-feature-introduction-link-text-private-browsing-2 = Utilisescha noss nov <a data-l10n-name="learn-more-vpn">VPN integrà</a> per zuppentar tia posiziun e proteger tias datas, era sche ti ta chattas en ina fanestra privata.
+ipprotection-feature-introduction-description-private-browsing = Navighescha a moda anc pli segira cun zuppentar tia posiziun, era sche ti ta chattas en ina fanestra privata.
+ipprotection-feature-introduction-description-captive-portal = Navighescha a moda anc pli segira cun zuppentar tia posiziun, era sche ti ta chattas en ina rait WLAN publica.
+ipprotection-feature-introduction-button-primary = Enavant
+ipprotection-feature-introduction-button-secondary-not-now = Betg ussa
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Betg ussa
+ipprotection-feature-introduction-button-secondary-no-thanks = Na, grazia
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Na, grazia
+ipprotection-feature-introduction-button-get-started = Cumenzar
+ipprotection-site-settings-callout-title = Tscherna nua utilisar il VPN
+ipprotection-site-settings-callout-subtitle = Deactivescha il VPN per ina website specifica e nus tegnain endament quai per la proxima visita.
+ipprotection-site-settings-callout-button = Chapì
+ipprotection-android-promo-callout-primary-button = Chapì
+unauthenticated-vpn-title = Emprova il VPN integrà da { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Zuppenta tia posiziun</a> durant che ti navigheschas cun { -brand-product-name }.
+unauthenticated-get-started = Cumenzar
+site-exclusion-toggle-enabled-1 =
+    .aria-label = Il VPN è activà per questa website
+    .label = Utilisar il VPN per questa website
+site-exclusion-toggle-disabled-1 =
+    .aria-label = Il VPN è deactivà per questa website
+    .label = Utilisar il VPN per questa website
+ipprotection-settings-link =
+    .label = Parameters
+ipprotection-connection-status-connected-1 = Il VPN è activà
+    .aria-label = Il VPN è activà
+ipprotection-connection-status-disconnected-1 = Il VPN è deactivà
+    .aria-label = Il VPN è deactivà
+ipprotection-connection-status-excluded-1 = Il VPN è deactivà per questa website
+    .aria-label = Il VPN è deactivà per questa website
+ipprotection-connection-status-connecting-1 = Il VPN connectescha…
+    .aria-label = Il VPN connectescha…
+ipprotection-button-turn-vpn-off = Deactivar il VPN
+ipprotection-button-turn-vpn-off-excluded-site = Deactivar dapertut il VPN
+ipprotection-button-turn-vpn-on = Activar il VPN
+ipprotection-button-connecting = Activaziun…
+upgrade-vpn-title = Profitescha d’ina protecziun supplementara era ordaifer il navigatur
+upgrade-vpn-description = Tscherna tia posiziun VPN, utilisescha il VPN per tut tias apps sin enfin 5 apparats e ta protegia en mintga rait – a chasa u en raits WLAN publicas.
+upgrade-vpn-button = Emprova { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Impussibel da connectar cun il VPN
+    .aria-label = Impussibel da connectar cun il VPN
+ipprotection-connection-status-generic-error-description = Emprova anc ina giada en in pèr minutas.
+ipprotection-connection-status-generic-error-try-again = Emprova per plaschair pli tard anc ina giada.
+ipprotection-connection-status-network-error-title-1 = Controllescha tia connexiun cun l’internet
+    .aria-label = Controllescha tia connexiun cun l’internet
+ipprotection-connection-status-network-error-description = Ta connectescha cun l’internet ed emprova lura d’activar il VPN.
+ipprotection-connection-status-blocked-error-title-1 = Il VPN n’è betg disponibel
+    .aria-label = Il VPN n’è betg disponibel
+ipprotection-message-bandwidth-warning =
+    .heading = Ti cuntanschas prest la limita dal VPN
+    .message = Per quest mais ta restan anc { $usageLeft } GB da { $maxUsage } GB.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Ti cuntanschas prest la limita dal VPN
+    .message = Per quest mais ta restan anc { $usageLeft } MB da { $maxUsage } GB.
+ipprotection-message-continuous-onboarding-intro = Activescha il VPN per zuppentar tia posiziun e proteger tia navigaziun cun in ulteriur nivel da criptadi.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Configurescha il VPN uschia ch’el vegn avert</a> mintga giada cura che ti avras { -brand-short-name } per agiuntar in ulteriur nivel da protecziun.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } vegn a tegnair endament tge websites che duain utilisar il VPN. Ti pos da tut temp actualisar la glista en ils <a data-l10n-name="setting-link">parameters</a>.
+confirmation-hint-ipprotection-navigated-to-excluded-site = Il VPN è deactivà per questa website
+ipprotection-bandwidth-upgrade-title = Ta plascha il VPN integrà? Profitescha d’ina protecziun anc pli avanzada ordaifer { -brand-product-name } grazia a { -mozilla-vpn-brand-name }.
+ipprotection-bandwidth-upgrade-text = Tscherna ina posiziun VPN e protegia tut tias apps sin enfin a 5 apparats – saja quai a chasa u en raits WLAN publicas.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Ti cuntanschas prest tia limita dal VPN.</strong> Ti has anc { $usageLeft } GB. Tia quota da datas vegn reinizialisada l’entschatta dal mais che vegn.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Ti n’has prest naginas datas VPN pli.</strong> I restan anc { $usageLeft } GB. Cura che ti las has duvrà dal tuttafatg vegn tes VPN a pussar enfin che la quota da datas vegn reinizialisada l’emprim di dal mais che vegn.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Ti n’has prest naginas datas VPN pli.</strong> I restan anc { $usageLeft } MB. Cura che ti las has duvrà dal tuttafatg vegn tes VPN a pussar enfin che la quota da datas vegn reinizialisada l’emprim di dal mais che vegn.
+ip-protection-description =
+    .description = Il VPN integrà per meglierar la protecziun da tias datas durant che ti navigheschas cun { -brand-short-name }.
+    .label = VPN
+ip-protection-learn-more = Ulteriuras infurmaziuns
+ip-protection-not-opted-in-button = Cumenzar
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } website
+           *[other] { $count } websites
+        }
+    .label = Administrar ils parameters da las websites
+ip-protection-autostart =
+    .label = Activar automaticamain il VPN
+ip-protection-autostart-checkbox =
+    .label = Cura che jau avr { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = En fanestras privatas

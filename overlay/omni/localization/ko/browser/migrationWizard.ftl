@@ -1,0 +1,131 @@
+migration-wizard-selection-header = 브라우저 데이터 가져오기
+migration-wizard-selection-list = 가져올 데이터를 선택하세요.
+migration-wizard-selection-option-without-profile = { $sourceBrowser }
+migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
+migration-wizard-migrator-display-name-brave = Brave
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chrome-beta = Chrome Beta
+migration-wizard-migrator-display-name-chrome-dev = Chrome Dev
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = 360 Secure Browser
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
+migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge 레거시
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = CSV 파일의 비밀번호
+migration-wizard-migrator-display-name-file-bookmarks = HTML 파일의 북마크
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
+migration-wizard-migrator-display-name-opera = Opera
+migration-wizard-migrator-display-name-opera-gx = Opera GX
+migration-wizard-migrator-display-name-safari = Safari
+migration-wizard-migrator-display-name-vivaldi = Vivaldi
+migration-source-name-ie = Internet Explorer
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = Google Chrome
+migration-imported-safari-reading-list = 구독 목록 (Safari로부터)
+migration-imported-edge-reading-list = 구독 목록 (Edge로부터)
+migration-no-permissions-message = { -brand-short-name }는 이 기기에 설치된 다른 브라우저의 프로필에 액세스할 수 없습니다.
+migration-no-permissions-instructions = 계속 다른 브라우저에서 데이터를 가져오려면, 해당 프로필 폴더에 대한 { -brand-short-name } 액세스 권한을 부여하세요.
+migration-no-permissions-instructions-step1 = "계속"을 선택하세요
+migration-no-permissions-instructions-step2 = 파일 선택기에서 <code>{ $permissionsPath }</code>로 이동하여 “선택”을 선택하세요.
+migration-all-available-data-label = 사용 가능한 모든 데이터 가져오기
+migration-no-selected-data-label = 가져올 데이터가 선택되지 않음
+migration-selected-data-label = 선택한 데이터 가져오기
+migration-select-all-option-label = 모두 선택
+migration-bookmarks-option-label = 북마크
+migration-favorites-option-label = 즐겨찾기
+migration-passwords-option-label = 저장된 비밀번호
+migration-history-option-label = 방문 기록
+migration-extensions-option-label = 확장 기능
+migration-form-autofill-option-label = 양식 자동 채우기 데이터
+migration-payment-methods-option-label = 결제 수단
+migration-cookies-option-label = 쿠키
+migration-session-option-label = 창과 탭
+migration-otherdata-option-label = 기타 데이터
+migration-passwords-from-file-progress-header = 비밀번호 파일 가져오기
+migration-passwords-from-file-success-header = 비밀번호를 성공적으로 가져옴
+migration-passwords-from-file = 비밀번호 파일 확인 중
+migration-passwords-new = 새 비밀번호
+migration-passwords-updated = 기존 비밀번호
+migration-passwords-from-file-no-valid-data = 파일에 유효한 비밀번호 데이터가 포함되어 있지 않습니다. 다른 파일을 선택하세요.
+migration-passwords-from-file-picker-title = 비밀번호 파일 가져오기
+migration-passwords-from-file-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV 문서
+       *[other] CSV 파일
+    }
+migration-passwords-from-file-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV 문서
+       *[other] TSV 파일
+    }
+migration-wizard-progress-success-new-passwords = { $newEntries }개 추가됨
+migration-wizard-progress-success-updated-passwords = { $updatedEntries }개 업데이트됨
+migration-bookmarks-from-file-picker-title = 북마크 파일 가져오기
+migration-bookmarks-from-file-progress-header = 북마크 가져오는 중
+migration-bookmarks-from-file = 북마크
+migration-bookmarks-from-file-success-header = 북마크를 성공적으로 가져옴
+migration-bookmarks-from-file-no-valid-data = 파일에 북마크 데이터가 포함되어 있지 않습니다. 다른 파일을 선택하세요.
+migration-bookmarks-from-file-html-filter-title =
+    { PLATFORM() ->
+        [macos] HTML 문서
+       *[other] HTML 파일
+    }
+migration-bookmarks-from-file-json-filter-title = JSON 파일
+migration-wizard-progress-success-new-bookmarks = 북마크 { $newEntries }개
+migration-import-button-label = 가져오기
+migration-choose-to-import-from-file-button-label = 파일에서 가져오기
+migration-import-from-file-button-label = 파일 선택
+migration-cancel-button-label = 취소
+migration-done-button-label = 완료
+migration-continue-button-label = 계속
+migration-wizard-import-browser-no-browsers = { -brand-short-name }는 북마크, 기록 또는 비밀번호 데이터가 포함된 프로그램을 찾을 수 없습니다.
+migration-wizard-import-browser-no-resources = 오류가 발생했습니다. { -brand-short-name }는 해당 브라우저 프로필에서 가져올 데이터를 찾을 수 없습니다.
+migration-list-bookmark-label = 북마크
+migration-list-favorites-label = 즐겨찾기
+migration-list-password-label = 비밀번호
+migration-list-history-label = 기록
+migration-list-extensions-label = 확장 기능
+migration-list-autofill-label = 자동 채우기 데이터
+migration-list-payment-methods-label = 결제 수단
+migration-wizard-progress-header = 데이터 가져오기
+migration-wizard-progress-done-header = 데이터를 성공적으로 가져옴
+migration-wizard-progress-done-with-warnings-header = 데이터 가져오기 완료
+migration-wizard-progress-icon-in-progress =
+    .aria-label = 가져오는 중…
+migration-wizard-progress-icon-completed =
+    .aria-label = 완료
+migration-safari-password-import-header = Safari에서 비밀번호 가져오기
+migration-safari-password-import-post-sequoia-step1 = Mac에서 <a data-l10n-name="macos-passwords-app">비밀번호 앱</a> 열기
+migration-safari-password-import-post-sequoia-step2 = 화면 상단의 메뉴 모음에서 파일 > 모든 비밀번호를 파일로 내보내기…를 선택합니다.
+migration-safari-password-import-post-sequoia-step3 = 파일 저장
+migration-safari-password-import-post-sequoia-step4 = 저장한 파일 선택
+migration-safari-password-import-steps-header = Safari 비밀번호를 가져오려면:
+migration-safari-password-import-step1 = Safari에서 "Safari" 메뉴를 열고 설정 > 비밀번호로 이동하세요
+migration-safari-password-import-step2 = <img data-l10n-name="safari-icon-3dots"/> 버튼을 선택하고 "모든 비밀번호 내보내기"를 선택하세요
+migration-safari-password-import-step3 = 비밀번호 파일을 저장하세요
+migration-safari-password-import-step4 = 아래의 "파일 선택"을 사용하여 저장한 비밀번호 파일을 선택하세요.
+migration-chrome-windows-password-import-header = Chrome에서 비밀번호를 가져오는 방법
+migration-chrome-windows-password-import-steps-header = Chrome:
+migration-chrome-windows-password-import-step1 = 주 메뉴 <img data-l10n-name="chrome-icon-3dots"/>를 열고, 비밀번호 및 자동 완성 > Google 비밀번호 관리자로 이동하세요.
+migration-chrome-windows-password-import-step2 = 메뉴에서 "설정"을 선택하세요.
+migration-chrome-windows-password-import-step3 = "파일 다운로드"를 선택하고 기기에 저장하세요.
+migration-chrome-windows-password-import-step4 = 가져오기를 마치려면, 여기로 돌아와서 "파일 선택"을 하세요.
+migration-manual-password-import-skip-button = 건너뛰기
+migration-manual-password-import-cancel-button = 취소
+migration-manual-password-import-select-button = 파일 선택
+migration-wizard-progress-success-bookmarks = 북마크 { $quantity }개
+migration-wizard-progress-success-favorites = 즐겨찾기 { $quantity }개
+migration-wizard-progress-success-extensions = 확장 기능 { $quantity }개
+migration-wizard-progress-partial-success-extensions = { $matched } / { $quantity } 확장 기능
+migration-wizard-progress-extensions-support-link = { -brand-product-name }가 확장 기능 일치하는 방법 알아보기
+migration-wizard-progress-no-matched-extensions = 일치하는 확장 기능 없음
+migration-wizard-progress-extensions-addons-link = { -brand-short-name } 확장 기능 탐색
+migration-wizard-progress-success-passwords = 비밀번호 { $quantity }개
+migration-wizard-progress-success-history = 지난 { $maxAgeInDays }일부터
+migration-wizard-progress-success-formdata = 양식 기록
+migration-wizard-progress-success-payment-methods = 결제 수단 { $quantity }개
+migration-wizard-safari-permissions-sub-header = Safari 북마크 및 방문 기록을 가져오려면:
+migration-wizard-safari-instructions-continue = "계속"을 선택하세요
+migration-wizard-safari-instructions-folder = 목록에서 Safari 폴더를 선택하고 "열기"를 선택하세요

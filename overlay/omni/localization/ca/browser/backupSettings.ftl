@@ -1,0 +1,156 @@
+backup-folder-name = Restaura { -brand-product-name }
+backup-file-name = Còpia de seguretat del { -brand-product-name }
+settings-data-backup-header2 =
+    .description = Protegiu automàticament les adreces d'interès, l'historial i altres dades.
+    .label = Còpia de seguretat
+settings-data-backup-toggle = Gestiona la còpia de seguretat
+settings-data-backup-toggle-on2 =
+    .label = Activa la còpia de seguretat
+settings-data-backup-toggle-off2 =
+    .label = Desactiva la còpia de seguretat
+settings-data-backup-trigger-button = Fes una còpia de seguretat ara
+settings-data-backup-in-progress-button = Còpia de seguretat en curs…
+settings-data-backup-in-progress-message =
+    .message = Còpia de seguretat en curs…
+settings-data-backup-last-backup-date = Darrera còpia de seguretat: { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+settings-data-backup-scheduled-backups-on2 =
+    .label = La còpia de seguretat està activada
+settings-data-backup-scheduled-backups-off2 =
+    .label = La còpia de seguretat està desactivada
+settings-data-backup-last-backup-location2 =
+    .label = Ubicació de còpia de seguretat
+settings-data-backup-last-backup-location-show-in-folder = Mostra a la carpeta
+settings-data-backup-last-backup-location-edit = Edita…
+settings-data-create-backup-error = S'ha produït un error en crear la còpia de seguretat el dia { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+settings-data-backup-last-backup-filename = Nom del fitxer: { $fileName }
+settings-data-backup-restore-scheduled-on =
+    .description = Recupereu les dades del { -brand-product-name } des de l'última vegada que es va fer una còpia de seguretat.
+    .label = Restaureu les dades
+settings-data-backup-restore-scheduled-off =
+    .description = Feu servir una còpia de seguretat del { -brand-product-name } des d'un altre dispositiu per restaurar les dades.
+    .label = Restaureu les dades
+settings-sensitive-data =
+    .label = Dades confidencials
+settings-sensitive-data-encryption-description = Feu una còpia de seguretat de les vostres contrasenyes i mètodes de pagament i protegiu totes les vostres dades xifrant-les.
+settings-data-toggle-encryption-label2 =
+    .description = Feu una còpia de seguretat de les contrasenyes i mètodes de pagament i protegiu les dades xifrant-les.
+    .label = Feu una còpia de seguretat de les dades confidencials
+settings-data-toggle-encryption-support-link = Més informació
+settings-data-change-password2 =
+    .label = Canvia la contrasenya
+turn-on-scheduled-backups-header = Activa la còpia de seguretat
+turn-on-scheduled-backups-description = El { -brand-short-name } crearà una instantània de les vostres dades cada 24 hores. Les podeu restaurar si hi ha algun problema o si compreu un dispositiu nou.
+turn-on-scheduled-backups-support-link = De què es farà una còpia de seguretat?
+turn-on-scheduled-backups-location-label = Ubicació
+turn-on-scheduled-backups-location-default-folder =
+    .value = { $recommendedFolder } (recomanada)
+turn-on-scheduled-backups-location-choose-folder =
+    .value = Trieu una ubicació
+turn-on-scheduled-backups-location-choose-button =
+    { PLATFORM() ->
+        [macos] Tria…
+       *[other] Navega…
+    }
+turn-on-scheduled-backups-encryption-label = Feu una còpia de seguretat de les vostres dades sensibles
+turn-on-scheduled-backups-encryption-create-password-label = Contrasenya
+turn-on-scheduled-backups-encryption-repeat-password-label = Repetiu la contrasenya
+turn-on-scheduled-backups-cancel-button = Cancel·la
+turn-on-scheduled-backups-confirm-button = Activa la còpia de seguretat
+turn-on-scheduled-backups-error-file-system = Hi ha hagut un problema amb la carpeta de còpia de seguretat que heu seleccionat. Trieu una altra carpeta i torneu-ho a provar.
+turn-on-scheduled-backups-error-default-dir-denied = No hem pogut accedir a la carpeta de còpia de seguretat. Proveu de triar una altra ubicació.
+backup-error-file-system = Hi ha hagut un problema amb la carpeta de còpia de seguretat seleccionada en fer la còpia de seguretat del { -brand-short-name }.
+turn-off-scheduled-backups-header = Voleu desactivar la còpia de seguretat?
+turn-off-scheduled-backups-description = Això també elimina totes les dades de la còpia de seguretat. No es pot desfer.
+turn-off-scheduled-backups-support-link = Més informació
+turn-off-scheduled-backups-cancel-button = Cancel·la
+turn-off-scheduled-backups-confirm-button = Desactiva i suprimeix la còpia de seguretat
+restore-from-backup-header = Restaureu les vostres dades
+restore-from-backup-support-link1 = Què es restaurarà?
+restore-from-backup-filepicker-label = Fitxer de la còpia de seguretat
+restore-from-backup-filepicker-title = Trieu el fitxer de la còpia de seguretat:
+restore-from-backup-file-choose-button =
+    { PLATFORM() ->
+        [macos] Tria…
+       *[other] Navega…
+    }
+restore-from-backup-password-label = Contrasenya
+restore-from-backup-password-description = Això desbloqueja la còpia de seguretat xifrada.
+restore-from-backup-cancel-button = Cancel·la
+restore-from-backup-confirm-button = Restaura i reinicia
+restore-from-backup-restoring-button = S'està restaurant…
+restore-from-backup-type-group-label =
+    .label = Voleu substituir el perfil actual?
+restore-from-backup-type-replace =
+    .label = Substitueix totes les dades amb aquesta còpia de seguretat
+restore-from-backup-type-add =
+    .label = Conserva les dades i crea un perfil nou
+restore-from-backup-profiles-disabled-message = Això substituirà totes les dades actuals del { -brand-short-name } amb la còpia de seguretat.
+backup-service-error-incorrect-password = Contrasenya incorrecta. <a data-l10n-name="incorrect-password-support-link">Encara teniu problemes?</a>
+backup-service-error-corrupt-file =
+    .heading = Aquest fitxer no funciona
+    .message = Hi ha hagut un problema amb el fitxer de la còpia de seguretat. Trieu un altre fitxer i torneu-ho a provar.
+backup-service-error-unsupported-version =
+    .heading = Aquest fitxer no funciona
+    .message = El fitxer que heu triat no és compatible amb aquesta versió del { -brand-short-name }. Trieu un altre fitxer i torneu-ho a provar.
+backup-service-error-unsupported-application =
+    .heading = Aquest fitxer no funciona
+    .message = El fitxer que heu triat no l'ha creat el { -brand-short-name }. Trieu un altre fitxer i torneu-ho a provar.
+backup-service-error-recovery-failed =
+    .heading = No s'ha pogut restaurar el { -brand-short-name }
+    .message = Reinicieu el { -brand-short-name } i proveu de tornar a restaurar la còpia de seguretat.
+backup-service-error-went-wrong2 =
+    .heading = Hi ha hagut un problema en fer la còpia de seguretat.
+    .message = Torneu-ho a provar d'aquí a uns quants minuts.
+enable-backup-encryption-header = Feu una còpia de seguretat de les dades sensibles
+enable-backup-encryption-support-link = Més informació
+enable-backup-encryption-create-password-label = Contrasenya
+enable-backup-encryption-repeat-password-label = Repetiu la contrasenya
+enable-backup-encryption-cancel-button = Cancel·la
+enable-backup-encryption-confirm-button = Desa
+change-backup-encryption-header = Canvieu la contrasenya de la còpia de seguretat
+password-rules-header = Requisits de la contrasenya
+password-rules-length-description = 8 caràcters com a mínim
+password-rules-email-description = No pot ser la vostra adreça electrònica
+password-rules-disclaimer = Protegiu-vos: no reutilitzeu les contrasenyes. Vegeu més consells per a la <a data-l10n-name="password-support-link">creació de contrasenyes segures</a>.
+password-validity-has-email = No pot ser una adreça electrònica
+password-validity-do-not-match = Les contrasenyes no coincideixen
+password-rules-a11y-success =
+    .alt = Correcte
+password-rules-a11y-warning =
+    .alt = Avís
+disable-backup-encryption-header = Elimina la protecció amb contrasenya
+disable-backup-encryption-description2 = Tampoc es faran còpies de seguretat de les contrasenyes i els mètodes de pagament desats.
+disable-backup-encryption-support-link = De què es farà una còpia de seguretat?
+disable-backup-encryption-cancel-button = Cancel·la
+disable-backup-encryption-confirm-button = Elimina la contrasenya
+backup-error-password-requirements = La contrasenya no compleix els requisits. Proveu-ne una altra.
+backup-error-retry = Hi ha hagut un error. Torneu-ho a provar.
+backup-file-header = Ja es pot restaurar el { -brand-short-name }
+backup-file-title = Restaura el { -brand-short-name }
+backup-file-intro = Torneu a navegar i recupereu totes les adreces d'interès, l'historial i altres dades. <a data-l10n-name="backup-file-support-link">Més informació</a>
+backup-file-path-label = Fitxer de la còpia de seguretat:
+backup-file-encryption-state-label = Xifrat:
+backup-file-encryption-state-value-encrypted = Sí
+backup-file-encryption-state-value-not-encrypted = No
+backup-file-creation-device-label = Dispositiu:
+backup-file-creation-date-label = S'ha creat:
+backup-file-creation-date-value = { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+backup-file-how-to-restore-header = Com es restaura:
+backup-file-moz-browser-restore-step-1 = Obriu el menú de l'aplicació ☰ i aneu a Configuració > Sincronització
+backup-file-moz-browser-restore-step-2-1 = Feu clic a "Restaureu les vostres dades"i seleccioneu aquest fitxer
+backup-file-moz-browser-restore-step-3 = Reinicieu el { -brand-short-name } quan se us demani
+backup-file-other-browser-restore-step-1 = Baixeu i instal·leu el { -brand-short-name }
+backup-file-download-moz-browser-button = Baixa
+backup-file-other-browser-restore-step-2 = Inicieu el { -brand-short-name }, obriu el menú de l'aplicació ☰ i aneu a Configuració > Sincronització
+backup-file-other-browser-restore-step-3-1 = Feu clic a "Restaureu les vostres dades"i seleccioneu aquest fitxer
+backup-file-other-browser-restore-step-4 = Reinicieu el { -brand-short-name } quan se us demani
+other-backup-files-founds =
+    { $numberOfOtherBackupsFound ->
+        [one] <b>Nota:</b> S'ha trobat { $numberOfOtherBackupsFound } altre fitxer de còpia de seguretat
+       *[other] <b>Nota:</b> S'han trobat { $numberOfOtherBackupsFound } fitxers més de còpia de seguretat
+    }
+backup-file-creation-metadata2 = <b>{ $profileName }</b> creat el dia { DATETIME($date, day: "numeric", month: "numeric", year: "numeric") } a { $machineName }
+backup-restored-profile-name = Restaurat des de { $deviceName } el dia { DATETIME($date, day: "numeric", month: "numeric", year: "numeric") } a les { DATETIME($date, hour: "2-digit", minute: "2-digit") }
+backup-file-restore-file-validation-error = Aquest fitxer no funciona. Proveu de triar-ne un altre. <a data-l10n-name="restore-problems">Encara teniu problemes?</a>
+restore-from-backup-filepicker-input =
+    .placeholder = No s'ha seleccionat cap fitxer

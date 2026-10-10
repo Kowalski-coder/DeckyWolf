@@ -1,0 +1,9 @@
+clear-data-for-site-title = Netâ vie ducj i dâts par chest sît web?
+clear-data-for-site-list = Cheste operazion e netarà vie ducj i dâts par { $site } includûts:
+clear-data-for-site-browsing-history = Cronologjie di navigazion e dai discjariâts
+clear-data-for-site-cookies = Cookies e dâts dai sîts, al è pussibil che l'utent al vegni disconetût
+clear-data-for-site-cache = Files e pagjinis memorizâts te cache
+cclear-data-for-site-permissions = Permès e preferencis
+clear-data-for-site-exceptions = I segnelibris e lis passwords salvadis no vignaran eliminâts
+clear-data-for-site-dialog-accept-button = Nete vie dâts
+clear-data-for-site-dialog-cancel-button = Anule

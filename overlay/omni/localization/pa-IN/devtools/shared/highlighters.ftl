@@ -1,0 +1,9 @@
+grid-row-column-positions = ਕਤਾਰ { $row } / ਕਾਲਮ { $column }
+gridtype-container = ਗਰਿੱਡ ਗਲਾਫ
+gridtype-item = ਗਰਿੱਡ ਆਈਟਮ
+gridtype-dual = ਗਰਿੱਡ ਗਲਾਫ/ਆਈਟਮ
+flextype-container = ਫਲੈਕਸ ਗਲਾਫ
+flextype-item = ਫਲੈਕਸ ਆਈਟਮ
+flextype-dual = ਫਲੈਕਸ ਗਲਾਫ/ਆਈਟਮ
+remote-node-picker-notice-hide-button = ਓਹਲੇ
+simple-highlighters-settings-button = ਸੈਟਿੰਗਾਂ ਨੂੰ ਖੋਲ੍ਹੋ

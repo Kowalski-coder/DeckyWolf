@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = Ускладите { -brand-product-name } на свом телефону или таблету
+fxa-qrcode-pair-step1 = 1. Отворите { -brand-product-name } на свом мобилном уређају.
+fxa-qrcode-pair-step2-device-steps = 2. Идите на мени и додирните <strong>Пријави се</strong>
+fxa-qrcode-pair-step3 = 3. Одаберите <strong>Спремно за скенирање</strong> и држите телефон изнад овог кода
+fxa-qrcode-error-title = Упаривање није успело.
+fxa-qrcode-error-body = Покушајте поново.

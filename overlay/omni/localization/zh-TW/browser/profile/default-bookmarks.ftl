@@ -1,0 +1,14 @@
+default-bookmarks-title = 書籤
+default-bookmarks-heading = 書籤
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = 取得幫助
+default-bookmarks-firefox-customize = 自訂 Firefox
+default-bookmarks-firefox-community = 參與我們
+default-bookmarks-firefox-about = 關於我們
+default-bookmarks-nightly-heading = Firefox Nightly 資源
+default-bookmarks-nightly-blog = Firefox Nightly 部落格
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly 測試者工具
+default-bookmarks-crashes = 您遇到過的所有錯誤
+default-bookmarks-planet = Planet Mozilla

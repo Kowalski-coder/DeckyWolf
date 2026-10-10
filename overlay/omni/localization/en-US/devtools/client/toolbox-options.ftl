@@ -1,0 +1,198 @@
+
+
+
+options-select-default-tools-label = Default Developer Tools
+
+options-tool-not-supported-label = * Not supported for current toolbox target
+
+options-select-additional-tools-label = Developer Tools installed by add-ons
+
+options-select-enabled-toolbox-buttons-label = Available Toolbox Buttons
+
+options-select-dev-tools-theme-label = Themes
+
+
+options-context-inspector = Inspector
+
+options-show-user-agent-styles-label = Show Browser Styles
+options-show-user-agent-styles-tooltip =
+    .title = Turning this on will show default styles that are loaded by the browser.
+
+options-show-user-agent-shadow-dom-label = Show Browser Shadow DOM
+options-show-user-agent-shadow-dom-tooltip =
+    .title = Turning this on will show Shadow DOM elements handled by the browser.
+
+options-collapse-attrs-label = Truncate DOM attributes
+options-collapse-attrs-tooltip =
+    .title = Truncate long attributes in the inspector
+
+options-show-comments-label = Show comments
+options-show-comments-tooltip =
+    .title = Display comment nodes in the inspector
+
+options-inspector-draggable-properties-label = Click and drag to edit size values
+options-inspector-draggable-properties-tooltip =
+    .title = Click and drag to edit size values in the inspector rules view.
+
+options-inspector-simplified-highlighters-label = Use simpler highlighters with prefers-reduced-motion
+options-inspector-simplified-highlighters-tooltip =
+    .title = Enables simplified highlighters when prefers-reduced-motion is enabled. Draws lines instead of filled rectangles around highlighted elements to avoid flashing effects.
+
+options-inspector-rules-focus-next-on-enter-label = Focus next input on <kbd>Enter</kbd>
+options-inspector-rules-focus-next-on-enter-tooltip =
+    .title = When enabled, hitting the Enter key when editing a selector, a property name or value will move the focus to the next input.
+
+
+options-default-color-unit-label = Default color unit
+options-default-color-unit-authored = As Authored
+options-default-color-unit-hex = Hex
+options-default-color-unit-hsl = HSL(A)
+options-default-color-unit-rgb = RGB(A)
+options-default-color-unit-hwb = HWB
+options-default-color-unit-name = Color Names
+
+
+options-webconsole-label = Web Console
+
+options-webconsole-split-console-label = Enable Split Console
+options-webconsole-split-console-tooltip =
+    .title = Open Split Console with the Escape Key
+
+
+options-netmonitor-label = Network Monitor
+
+options-netmonitor-body-limit-label = Maximum request and response body size (set to 0 for unlimited):
+options-netmonitor-body-limit-tooltip =
+    .title = Request or response bodies which exceed the specified size will be truncated when displayed or downloaded in the Network Monitor. Set to 0 to have no limitation.
+options-netmonitor-body-limit-unlimited-label = Unlimited
+options-netmonitor-body-limit-button =
+    .title = Edit the maximum request/response body size.
+options-netmonitor-body-limit-restore-default =
+    .title = Restore the default value for maximum request/response body size.
+options-netmonitor-body-limit-set =
+    .title = Set the current input value as maximum request/response body size.
+
+
+options-experimental-label = Experimental Features
+
+options-stylesheets-in-the-debugger-label = Show stylesheets in the debugger
+options-stylesheets-in-the-debugger-tooltip =
+    .title = List and view stylesheets in the debugger
+
+options-reopen-toolbox-message = (requires reopening the toolbox)
+
+
+options-styleeditor-label = Style Editor
+
+options-stylesheet-autocompletion-label = Autocomplete CSS
+options-stylesheet-autocompletion-tooltip =
+    .title = Autocomplete CSS properties, values and selectors in Style Editor as you type
+
+
+options-screenshot-label = Screenshot Behavior
+
+options-screenshot-clipboard-only-label = Screenshot to clipboard only
+options-screenshot-clipboard-tooltip2 =
+    .title = Saves the screenshot directly to the clipboard
+
+options-screenshot-audio-label = Play camera shutter sound
+options-screenshot-audio-tooltip =
+    .title = Enables the camera audio sound when taking screenshot
+
+
+options-sourceeditor-label = Editor Preferences
+
+options-sourceeditor-detectindentation-tooltip =
+    .title = Guess indentation based on source content
+options-sourceeditor-detectindentation-label = Detect indentation
+options-sourceeditor-autoclosebrackets-tooltip =
+    .title = Automatically insert closing brackets
+options-sourceeditor-autoclosebrackets-label = Autoclose brackets
+options-sourceeditor-expandtab-tooltip =
+    .title = Use spaces instead of the tab character
+options-sourceeditor-expandtab-label = Indent using spaces
+options-sourceeditor-tabsize-label = Tab size
+options-sourceeditor-keybinding-label = Keybindings
+options-sourceeditor-keybinding-default-label = Default
+
+
+options-local-mode-label = Local Mode
+
+options-local-mode-only-work-locally = Local Mode only works locally and is disabled when debugging remote contexts
+
+options-local-mode-behavior = Local Mode allows you to load local files via https URL without any external dependency. The URLs can only be loaded from tabs with DevTools opened.
+
+options-local-mode-domain-label = Custom domain:
+
+options-local-mode-origin-input =
+    .placeholder = Origin for the local mapping
+
+options-local-mode-origin-conflict = This origin conflicts with another existing mapping
+options-local-mode-origin-invalid = This origin is invalid
+
+options-local-mode-folder-label = Local folder:
+
+options-local-mode-choose-folder = Browse…
+    .title = Choose a local folder to serve this mapping
+
+options-local-mode-choose-folder-picker-title = Choose local mode folder for: { $url }
+
+options-local-mode-folder-invalid = This folder doesn’t exists, or is invalid.
+
+options-local-mode-toggle =
+    .title = Toggle this local mapping
+
+options-local-mode-toggle-enable = Enable
+options-local-mode-toggle-disable = Disable
+
+options-local-mode-navigate-to =
+    .title = Navigate to this mapping URL
+
+options-local-mode-confirm-deletion = Do you want to remove “{ $mappingOrigin }” mapping?
+
+options-local-mode-new-mapping = Add a new local mapping
+
+
+options-context-advanced-settings = Advanced settings
+
+options-disable-http-cache-label = Disable HTTP Cache (when toolbox is open)
+options-disable-http-cache-tooltip =
+    .title = Turning this option on will disable the HTTP cache for all tabs that have the toolbox open. Service Workers are not affected by this option.
+
+options-disable-javascript-label-2 = Disable JavaScript
+options-disable-javascript-tooltip =
+    .title = Turning this option on will disable JavaScript for the current tab. If the tab or the toolbox is closed then this setting will be forgotten.
+
+options-enable-chrome-label = Enable browser chrome and add-on debugging toolboxes
+options-enable-chrome-tooltip =
+    .title = Turning this option on will allow you to use various developer tools in browser context (via Tools > Web Developer > Browser Toolbox) and debug add-ons from the Add-ons Manager
+
+options-enable-remote-label = Enable remote debugging
+options-enable-remote-tooltip2 =
+    .title = Turning this option on will allow to debug this browser instance remotely
+
+options-enable-f12-label = Use the F12 key to open or close DevTools
+options-enable-f12-tooltip =
+    .title = Turning this option on will bind the F12 key to open or close the DevTools toolbox
+
+options-enable-custom-formatters-label = Enable custom formatters
+options-enable-custom-formatters-tooltip =
+    .title = Turning this option on will allow sites to define custom formatters for DOM objects
+
+options-enable-service-workers-http-label = Enable Service Workers over HTTP (when toolbox is open)
+options-enable-service-workers-http-tooltip =
+    .title = Turning this option on will enable the service workers over HTTP for all tabs that have the toolbox open.
+
+options-source-maps-label = Enable Source Maps
+options-source-maps-tooltip =
+    .title = If you enable this option sources will be mapped in the tools.
+
+options-context-triggers-page-refresh-temporary = (current session only, reloads the page)
+
+options-context-triggers-page-refresh-persists = (reloads the page)
+
+options-tool-not-supported-marker = { $toolLabel } *
+
+options-auto-theme-label = Auto
+
+options-deprecation-notice = Deprecated. Learn More…

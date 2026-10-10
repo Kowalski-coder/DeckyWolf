@@ -1,0 +1,13 @@
+urlbar-translations-button2 =
+    .tooltiptext = Isalin ang pahinang ito - Beta
+translations-panel-header = Isalin ang pahinang ito?
+translations-panel-translate-button =
+    .label = Isalin
+translations-panel-from-label = Isalin mula
+translations-panel-to-label = Isalin sa
+translations-manage-intro-2 = Itakda ang iyong mga kagustuhan sa wika at pagsasalin ng site at pamahalaan ang mga wikang na-download para sa pagsasalin offline.
+translations-manage-download-description = Mag-download ng mga wika para sa offline na pagsasalin
+select-translations-panel-copy-button =
+    .label = Kopyahin
+select-translations-panel-translate-button =
+    .label = Isalin

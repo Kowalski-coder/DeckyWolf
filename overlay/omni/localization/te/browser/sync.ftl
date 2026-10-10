@@ -1,0 +1,3 @@
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = పరికరాలను సమకాలీకరిస్తోంది…
+sync-setup-verify-continue = కొనసాగించు

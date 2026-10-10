@@ -1,0 +1,17 @@
+about-policies-title = Poileasaidhean Enterprise
+aboutpolicies-page-heading =
+    .heading = Mu na poileasaidhean
+active-policies-tab = Gnìomhach
+errors-tab = Mearachdan
+documentation-tab = Docamaideadh
+active-policies-tab-title =
+    .title = Gnìomhach
+errors-tab-title =
+    .title = Mearachdan
+documentation-tab-title =
+    .title = Docamaideadh
+no-specified-policies-message = Tha seirbheis nam poileasaidhean enterprise an gnìomh ach cha deach poileasaidh sam bith a chur an comas.
+inactive-message = Tha seirbheis nam poileasaidhean enterprise à gnìomh.
+policy-name = Ainm a’ phoileasaidh
+policy-value = Luach a’ phoileasaidh
+policy-errors = Mearachdan a’ phoileasaidh

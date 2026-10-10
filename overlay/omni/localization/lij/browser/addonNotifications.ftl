@@ -1,0 +1,55 @@
+xpinstall-prompt = { -brand-short-name } o l'à inpedio a sto scito de domandâ l’instalaçion de software in sciô teu computer.
+xpinstall-prompt-header = Permette a { $host } de instalâ un conponente azonto?
+xpinstall-prompt-dont-allow =
+    .label = No Permétte
+    .accesskey = N
+xpinstall-prompt-never-allow =
+    .label = No permette mai
+    .accesskey = N
+xpinstall-prompt-never-allow-and-report =
+    .label = Segnala scito sospetto
+    .accesskey = S
+xpinstall-prompt-install =
+    .label = Avanti con l'Instalaçion
+    .accesskey = A
+xpinstall-disabled = L'instalaçion do software a l'é dizabilita. Sciacca Abilita e preuva torna.
+xpinstall-disabled-button =
+    .label = Abilita
+    .accesskey = A
+webext-perms-sideload-menu-item = { $addonName } azonto a { -brand-short-name }
+webext-perms-update-menu-item = { $addonName } o l'à bezeugno de neuvi permissi
+addon-removal-button = Scancella
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [one] Descaregamento e verifica conp. azonto…
+       *[other] Descaregamento e verifica { $addonCount } conp. azonti…
+    }
+addon-download-verifying = Verifica in corso
+addon-install-cancel-button =
+    .label = Anulla
+    .accesskey = A
+addon-install-accept-button =
+    .label = Azonzi
+    .accesskey = A
+addon-confirm-install-message =
+    { $addonCount ->
+        [one] Sto scito o voeiva instalâ 'n conponente azonto in { -brand-short-name }
+       *[other] Sto scito o voeiva instalâ { $addonCount } conponenti azonti in { -brand-short-name }
+    }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] Atençion: sto scito o voeiva instalâ un conponente azonto no verificæ in { -brand-short-name }. Procede con caotela.
+       *[other] Atençion: sto scito voeiva instalâ { $addonCount } componenti azonti no verificæ in { -brand-short-name }. Procede con caotela.
+    }
+addon-confirm-install-some-unsigned-message = Atençion: sto scito o voeiva instalâ { $addonCount } componenti azonti in { -brand-short-name }, quarchedun di quæ o no l'é verificou. Procede con caotela.
+addon-install-error-network-failure = Inposcibile scaregâ o conponente azonto perché gh'é 'n'erô inta conescion.
+addon-install-error-incorrect-hash = Inposcibile instalâ o conponente azonto perché o no corisponde a quelo che m'aspetavo da { -brand-short-name }.
+addon-install-error-corrupt-file = Inposcibile instalâ o conponente azonto scaregou da sto scito perché o file o l'é aroinou.
+addon-install-error-file-access = Inposcibile instalâ { $addonName } perché { -brand-short-name } o no l'é in graddo de cangiâ o file domandou.
+addon-install-error-not-signed = L’instalaçion de 'n conponente azonto no verificou a l'é stæta blocâ da { -brand-short-name }.
+addon-local-install-error-network-failure = Inposcibile instalâ sto conponente azonto perché gh'é 'n'erô into scistema de schedai.
+addon-local-install-error-incorrect-hash = Inposcibile instalâ sto conponente azonto perché o no corisponde a quello che m'aspetavo da { -brand-short-name }.
+addon-local-install-error-corrupt-file = Inposcibile instalâ sto conponente azonto perché o l'é aroinou.
+addon-local-install-error-file-access = Inposcibile instalâ { $addonName } perché { -brand-short-name } o no l'é in graddo de cangiâ o schedaio domandou.
+addon-local-install-error-not-signed = Inposcibile instalâ sto conponente azonto perché o no l'é verificou.
+addon-install-error-incompatible = Inposcibile instalâ { $addonName } perché o no l'é conpatibile con { -brand-short-name } { $appVersion }.

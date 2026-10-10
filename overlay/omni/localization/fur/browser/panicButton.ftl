@@ -1,0 +1,15 @@
+panic-button-open-new-window = Si vierzarà un gnûf barcon “net”
+panic-button-undo-warning = No si podarà anulâ cheste azion.
+panic-button-forget-button =
+    .label = Dismentee!
+panic-main-timeframe-desc = Dismentee i ultins:
+panic-button-5min =
+    .label = Cinc minûts
+panic-button-2hr =
+    .label = Dôs oris
+panic-button-day =
+    .label = 24 oris
+panic-button-action-desc = Chest al compuarte:
+panic-button-delete-cookies = Eliminazion dai <strong>cookies</strong> plui resints
+panic-button-delete-history = Eliminazion de <strong>cronologjie</strong> plui resinte
+panic-button-delete-tabs-and-windows = Il sierâ dutis lis <strong>schedis</strong> e i <strong>barcons</strong>

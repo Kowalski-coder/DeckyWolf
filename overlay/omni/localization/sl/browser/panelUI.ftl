@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Odpni iz menija prekoračitve
+    .accesskey = O
+customize-menu-add-to-toolbar =
+    .label = Dodaj v orodno vrstico
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Dodaj v meni prekoračitve
+    .accesskey = M
+panic-button-thankyou-msg1 = Vsa nedavna zgodovina je izbrisana.
+panic-button-thankyou-msg2 = Varno brskanje!
+panic-button-thankyou-button =
+    .label = Hvala!

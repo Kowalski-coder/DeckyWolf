@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Pausau en una sentencia de depuración
+whypaused-breakpoint = Pausau en un punto d'aturada
+whypaused-exception = Pausau en una excepción
+whypaused-resume-limit = Pausau quan iba paso a paso
+whypaused-pause-on-dom-events = Pausau en un escuitador d'evento
+whypaused-breakpoint-condition-thrown = Error en o punto d'aturada condicional
+whypaused-promise-rejection = Pausau en refús de promesa
+whypaused-assert = Pausau en una afirmación
+whypaused-debug-command = Pausau en una función depurada
+whypaused-other = Depuración pausada

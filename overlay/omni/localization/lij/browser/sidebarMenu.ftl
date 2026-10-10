@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Segnalibbri
+sidebar-menu-bookmarks-2 = Segnalibbri
+sidebar-menu-history =
+    .label = Stöia
+sidebar-menu-synced-tabs =
+    .label = Feuggi scincronizæ
+sidebar-menu-close =
+    .label = Særa a bara de scianco
+sidebar-close-button =
+    .tooltiptext = Særa a bara de scianco

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } vil ændre din standard-søgetjeneste fra { $currentEngine } til { $newEngine }. Er det i orden?
+webext-default-search-yes =
+    .label = Ja
+    .accesskey = J
+webext-default-search-no =
+    .label = Nej
+    .accesskey = N
+addon-post-install-message = { $addonName } blev tilføjet.
+webext-quarantine-confirmation-title = Kør { $addonName } på websteder underlagt begrænsninger?
+webext-quarantine-confirmation-line-1 = For at beskytte dine data er denne udvidelse ikke tilladt på dette websted.
+webext-quarantine-confirmation-line-2 = Tillad kun denne udvidelse, hvis du stoler på den og vil give den adgang til at læse og ændre dine data på websteder, som er underlagt begrænsninger af { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Tillad
+    .accesskey = T
+webext-quarantine-confirmation-deny =
+    .label = Tillad ikke
+    .accesskey = k

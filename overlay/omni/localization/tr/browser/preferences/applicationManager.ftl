@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Uygulama ayrıntıları
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Sil
+    .accesskey = l
+app-manager-handle-protocol = { $type } bağlantıları aşağıdaki uygulamalarla kullanılabilir.
+app-manager-handle-file = { $type } içeriği aşağıdaki uygulamalarla kullanılabilir.
+app-manager-web-app-info = Bu web uygulamasının barındırıldığı yer:
+app-manager-local-app-info = Bu uygulamanın bulunduğu konum:

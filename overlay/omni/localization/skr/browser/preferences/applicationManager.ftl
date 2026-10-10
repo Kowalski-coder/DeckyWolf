@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ایپلی کیشن دیاں تفصیلاں
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ہٹاؤ
+    .accesskey = R
+app-manager-handle-protocol = ہیٹھ درج ایپلی کیشنز کوں { $type } لنکس کوں ہینڈل کرݨ کیتے استعمال کیتا ونڄ سڳدا ہے۔
+app-manager-handle-file = ہیٹھ درج ایپلی کیشنز { $type } مواد کوں ہینڈل کرݨ کیتے استعمال کیتیاں ونڄ سڳدیاں ہن۔
+app-manager-web-app-info = ایں ویب ایپلی کیشن دی میزبانی:
+app-manager-local-app-info = ایہ ایپلی کیشن واقع ہے:

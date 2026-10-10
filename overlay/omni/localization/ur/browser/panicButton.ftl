@@ -1,0 +1,15 @@
+panic-button-open-new-window = ایک نیا صاف ونڈوں کھولیں
+panic-button-undo-warning = یہ عمل کلعدم نہیں ہو سکتا۔
+panic-button-forget-button =
+    .label = بھول جائیں!
+panic-main-timeframe-desc = پچھلے بھول جائیں:
+panic-button-5min =
+    .label = پانچ منٹ
+panic-button-2hr =
+    .label = دو گھنٹے
+panic-button-day =
+    .label = 24 گھنٹے
+panic-button-action-desc = آگے چلنے سے:
+panic-button-delete-cookies = حالیہ <strong>کوکیز</strong> حذف کریں
+panic-button-delete-history = حالیہ <strong>سابقات</strong> حذف کریں
+panic-button-delete-tabs-and-windows = تمام <strong>ٹیب</strong> اور <strong>دریچے</strong> بند کر دیں

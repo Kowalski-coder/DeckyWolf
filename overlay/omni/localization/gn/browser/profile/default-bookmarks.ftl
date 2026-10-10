@@ -1,0 +1,14 @@
+default-bookmarks-title = Techaukaha
+default-bookmarks-heading = Techaukaha
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Eipota pytyvõ
+default-bookmarks-firefox-customize = Emboava Firefox
+default-bookmarks-firefox-community = Eike pype
+default-bookmarks-firefox-about = Ore rehegua
+default-bookmarks-nightly-heading = Firefox Nightly Mba’eita
+default-bookmarks-nightly-blog = Blog Firefox Nightly mba’e
+default-bookmarks-bugzilla = Mozilla rembiporu ohechaukáva jejavy
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Opaichagua jejavy
+default-bookmarks-planet = Planet Mozilla

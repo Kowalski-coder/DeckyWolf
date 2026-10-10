@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bonvenon homoj!
+error-short-desc-text = Ni alvenis por viziti vin pace kaj bonanime!
+error-long-desc1 = Robotoj ne rajtas vundi homon nek, per manko de ago, permesi ke homo estu vundita.
+error-long-desc2 = Robotoj vidis aĵojn kiujn vi homoj ne povus kredi.
+error-long-desc3 = Robotoj estas plastaj kunuloj kun kiuj estas amuze ĉeesti.
+error-long-desc4 = Robotoj havas metalajn postaĵojn kiujn oni ne devus mordi.
+error-trailer-desc-text = Kaj ili havas planon.
+error-try-again = Klopodi denove
+    .label2 = Bonvolu ne premi tiun ĉi butonon denove.

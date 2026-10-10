@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = 휴대폰 또는 태블릿에서 { -brand-product-name } 동기화
+fxa-qrcode-pair-step1 = 1. 모바일 기기에서 { -brand-product-name }를 여세요.
+fxa-qrcode-pair-step2-device-steps = 2. 메뉴에서 <strong>로그인</strong>을 탭하세요
+fxa-qrcode-pair-step3 = 3. <strong>스캔 준비 완료</strong>를 탭하고 이 코드 위에 휴대폰을 갖다 대세요.
+fxa-qrcode-error-title = 페어링에 실패했습니다.
+fxa-qrcode-error-body = 다시 시도하세요.

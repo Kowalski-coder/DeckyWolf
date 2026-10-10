@@ -1,0 +1,51 @@
+xpinstall-prompt = { -brand-short-name } මගින් මෙම අඩවිය ඔබගේ පරිගණකයෙහි මෘදුකාංග ස්ථාපනයට විමසීම වැළැක්වීය.
+xpinstall-prompt-header = { $host } සඳහා එක්කහු ස්ථාපනයට ඉඩ දෙන්නද?
+xpinstall-prompt-message = ඔබ { $host } වෙතින් එක්කහුවක් ස්ථාපනයට තැත් කරයි. ඉදිරියට යාමට පෙර මෙම අඩවිය විශ්වාස දැයි වග බලා ගන්න.
+xpinstall-prompt-header-unknown = නොදන්නා අඩවියකට එක්කහු ස්ථාපනයට ඉඩ දෙනවාද?
+xpinstall-prompt-message-unknown = ඔබ නොදන්නා අඩවියකින් එක්කහුවක් ස්ථාපනයට තැත් කරයි. ඉදිරියට යාමට පෙර ඔබ මෙම වියමන අඩවිය විශ්වාස කරන බවට වග බලා ගන්න.
+xpinstall-prompt-dont-allow =
+    .label = ඉඩ නොදෙන්න
+    .accesskey = D
+xpinstall-prompt-never-allow =
+    .label = කිසිවිටක ඉඩ නොදෙන්න
+    .accesskey = N
+xpinstall-prompt-never-allow-and-report =
+    .label = සැක සහිත අඩවිය වාර්තා කරන්න
+    .accesskey = R
+xpinstall-prompt-install =
+    .label = ස්ථාපනයට ඉදිරියට
+    .accesskey = C
+xpinstall-disabled = මෘදුකාංග ස්ථාපනය දැනට අබල කර ඇත. සබල කරන්න යන්න ඔබන්න.
+xpinstall-disabled-button =
+    .label = සබල
+    .accesskey = n
+addon-install-full-screen-blocked = පූර්ණ තිර ප්‍රකාරයේ සිටින විට හෝ ඊට පෙර එක්කහු ස්ථාපනයට ඉඩ නොදේ.
+webext-perms-sideload-menu-item = { -brand-short-name } වෙත { $addonName } එක් කෙරිණි
+webext-perms-update-menu-item = { $addonName } සඳහා නව අවසර අවශ්‍යයි
+webext-imported-addons = { -brand-short-name } වෙත ආයාත වූ දිගු ස්ථාපනය නිමා වෙමින්
+addon-removal-title = { $name } ඉවතලන්නද?
+addon-removal-button = ඉවත් කරන්න
+addon-removal-abuse-report-checkbox = මෙම එක්කහුව { -vendor-short-name } වෙත වාර්තා කරන්න
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [1] එක්කහුවක් බාගැනෙමින් හා සත්‍යාපනය වෙමින්…
+       *[other] එක්කහු { $addonCount } ක් බාගැනෙමින් හා සත්‍යාපනය වෙමින්…
+    }
+addon-download-verifying = සත්‍යාපනය වෙමින්
+addon-install-cancel-button =
+    .label = අවලංගු
+    .accesskey = C
+addon-install-accept-button =
+    .label = එකතු
+    .accesskey = A
+addon-install-error-network-failure = සම්බන්ධතාවයට බාධා වීමක් නිසා එක්කහුව බාගැනීමට නොහැකි විය.
+addon-install-error-corrupt-file = මෙම අඩවියෙන් බාගත කළ එක්කහුවට හානි වී තිබෙන නිසා ස්ථාපනය නොකෙරේ.
+addon-install-error-file-access = { -brand-short-name } සඳහා අවශ්‍ය ගොනුව වෙනස් කළ නොහැකි නිසා { $addonName } ස්ථාපනය කළ නොහැකිය.
+addon-install-error-not-signed = { -brand-short-name } විසින් මෙම අඩවිය සත්‍යාපනය නොකළ එක්කහු ස්ථාපනයෙන් වලක්වා ඇත.
+addon-install-error-invalid-domain = { $addonName } එක්කහුව මෙම ස්ථානයෙන් ස්ථාපනය කළ නොහැකිය.
+addon-local-install-error-network-failure = ගොනු පද්ධතියේ දෝෂයක් නිසා මෙම එක්කහුව ස්ථාපනය කළ නොහැකිය.
+addon-local-install-error-incorrect-hash = { -brand-short-name } එක්කහුව සමඟ නොගැළපෙන නිසා මෙම එක්කහුව ස්ථාපනය කළ නොහැකිය.
+addon-local-install-error-corrupt-file = හානි වූ බව පෙනෙන නිසා මෙම එක්කහුව ස්ථාපනයට නොහැකිය.
+addon-local-install-error-file-access = { -brand-short-name } සඳහා අවශ්‍ය ගොනුව වෙනස් කළ නොහැකි නිසා { $addonName } ස්ථාපනය කළ නොහැකිය.
+addon-local-install-error-not-signed = සත්‍යාපනය නොකළ එක්කහුවක් බැවින් ස්ථාපනය කිරීමට නොහැකිය.
+addon-install-error-incompatible = { -brand-short-name } { $appVersion } සමඟ නොගැළපෙන නිසා { $addonName } ස්ථාපනය කිරීමට නොහැකිය.

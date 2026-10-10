@@ -1,0 +1,16 @@
+customize-mode-restore-defaults =
+    .label = Laai verstek terug
+customize-mode-done =
+    .label = Klaar
+customize-mode-toolbars =
+    .label = Nutsbalke
+customize-mode-titlebar =
+    .label = Titelbalk
+customize-mode-uidensity-menu-touch =
+    .label = Aanraking
+    .accesskey = r
+    .tooltiptext = Aanraking
+customize-mode-uidensity-auto-touch-mode-checkbox =
+    .label = Gebruik aanraking vir tabletmodus
+customize-mode-undo-cmd =
+    .label = Ontdoen

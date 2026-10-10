@@ -1,0 +1,15 @@
+about-policies-title = Polasaithe Fiontraíochta
+active-policies-tab = Gníomhach
+errors-tab = Earráidí
+documentation-tab = Doiciméadú
+active-policies-tab-title =
+    .title = Gníomhach
+errors-tab-title =
+    .title = Earráidí
+documentation-tab-title =
+    .title = Doiciméadú
+no-specified-policies-message = Tá an tseirbhís um Pholasaithe Fiontraíochta gníomhach ach níl aon pholasaí cumasaithe.
+inactive-message = Níl an tseirbhís um Pholasaithe Fiontraíochta gníomhach.
+policy-name = Ainm an Pholasaí
+policy-value = Luach an Pholasaí
+policy-errors = Earráidí Polasaí

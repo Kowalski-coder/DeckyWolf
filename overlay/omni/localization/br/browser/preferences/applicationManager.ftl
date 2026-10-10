@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Munudoù an arload
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Dilemel
+    .accesskey = D
+app-manager-handle-protocol = Ar goulevioù da heul a c'hell bezañ arveret evit dornata ereoù { $type }.
+app-manager-handle-file = Ar goulevioù da heul a c'hell bezañ arveret evit dornata endalc'had { $type }.
+app-manager-web-app-info = Herberc'hiet eo ar goulev internet-mañ e:
+app-manager-local-app-info = Emañ an arload e:

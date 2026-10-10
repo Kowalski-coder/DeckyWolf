@@ -1,0 +1,12 @@
+crashed-subframe-message = <strong>Bumagsak ang parte ng pahinang ito.</strong> Upang ipaalam sa { -brand-product-name } ang tungkol sa isyung ito at mas mabilis itong maayos, mangyaring magsumite ng ulat.
+crashed-subframe-learnmore-link =
+    .value = Alamin
+crashed-subframe-submit =
+    .label = Magsumite ng ulat
+    .accesskey = s
+pending-crash-reports-view-all =
+    .label = Tingnan
+pending-crash-reports-send =
+    .label = Ipadala
+pending-crash-reports-always-send =
+    .label = Laging Ipadala

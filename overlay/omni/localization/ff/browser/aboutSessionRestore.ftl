@@ -1,0 +1,26 @@
+restore-page-tab-title = Artin Naatal
+restore-page-error-title = Ay haame. A min ngondi e caɗeele heɓtude kelle maa.
+restore-page-problem-desc = A min njogii caɗeele artirde naatal maa banngagol cakkitiingal. Suɓo Artir naatal ngal ngam ennditde.
+restore-page-try-this = Haa hannde a waawaa artirde naatal maa ? Heen sahaaji cegenel ina waawi addude saɗeende ndee. Hollit cegenon caggal kon, momtaa maantal cegenon kon a soklaani artirde kon, caggal ɗuum ngartiraa kon.
+restore-page-hide-tabs = Suuɗ cegenon caggal kon
+restore-page-show-tabs = Hollit cegenon ɓennukon kon
+restore-page-window-label = Henorde { $windowNumber }
+restore-page-restore-header =
+    .label = Artir
+restore-page-list-header =
+    .label = Kenorɗe e Tabbe
+restore-page-try-again-button =
+    .label = Artir naatannde
+    .accesskey = R
+restore-page-close-button =
+    .label = Fuɗɗo naatal kesal
+    .accesskey = N
+welcome-back-tab-title = Moƴƴii!
+welcome-back-page-title = Moƴƴii!
+welcome-back-page-info = { -brand-short-name } hebiima yahde.
+welcome-back-restore-button =
+    .label = Njehen!
+    .accesskey = N
+welcome-back-restore-all-label = Artir Kenorɗe e tabbe ɗee fof
+welcome-back-restore-some-label = Artir tan ɗe njiɗ-ɗaa
+welcome-back-page-info-link = Ɓeyditte maa e keertine maa momtaama tee teelte wanngorde maa ngartiraama e goowaaɗe majje. So ɗuum ñawndaani caɗe maa, <a data-l10n-name="link-more">humpito baɗte peeje goɗɗe.</a>

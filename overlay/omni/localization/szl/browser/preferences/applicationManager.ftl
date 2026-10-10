@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detajle ôd aplikacyje
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Wyciep
+    .accesskey = W
+app-manager-handle-protocol = Te aplikacyje poradzōm ôbsugować linki { $type }.
+app-manager-handle-file = Te aplikacyje poradzōm ôbsugować zawartość { $type }.
+app-manager-web-app-info = Ta nacowo aplikacyjo mo swōj plac na:
+app-manager-local-app-info = Ta aplikacyjo je w:

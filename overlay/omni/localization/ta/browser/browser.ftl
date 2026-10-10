@@ -1,0 +1,246 @@
+urlbar-services-notification-anchor =
+    .tooltiptext = நிறுவல் செய்திப் பலகத்தைத் திற
+urlbar-web-notification-anchor =
+    .tooltiptext = இத்தளத்திலிருந்து அறிவிப்புகளை உங்களால் பெற முடிகிறதா என மாற்று
+urlbar-midi-notification-anchor =
+    .tooltiptext = MIDI பலகத்தைத் திற
+urlbar-eme-notification-anchor =
+    .tooltiptext = DRM மென்பொருள் பயன்பாட்டை நிர்வகிக்கவும்
+urlbar-web-authn-anchor =
+    .tooltiptext = வலை உறுதிப்படுத்தல் பலகத்தைத் திற
+urlbar-canvas-notification-anchor =
+    .tooltiptext = திரை எடுப்பு அனுமதிகளை நிர்வகி
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = தளத்துடன் உங்கள் ஒலிவாங்கியை பகிர்வதை நிர்வகி
+urlbar-default-notification-anchor =
+    .tooltiptext = செய்தி பலகத்தை திறக்கவும்
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = இடம் கோரும் பலகத்தை திறக்கவும்
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = உங்கள் விண்டோஸ் அல்லது திரையை தளத்துடன் பகிர்வதை நிர்வகி
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = இணைப்பில்லா சேமிப்பு செய்தி பலகத்தைத் திற
+urlbar-password-notification-anchor =
+    .tooltiptext = கடவுச்சொல் சேமிப்பு செய்தி பலகத்தைத் திற
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = தளத்துடன் உங்கள் படக்கருவி மேலும்/அல்லது ஒலிவாங்கியை பகிர்வதை நிர்வகி
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = தானியக்கி பலகத்தைத் திற
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = நிரந்தர சேமிப்பகத்தில் தரவை வை
+urlbar-addons-notification-anchor =
+    .tooltiptext = கூடுதல் இணைப்பு நிறுவல் செய்திப் பலகத்தை திற
+urlbar-geolocation-blocked =
+    .tooltiptext = உங்கள் இடத்தகவலை இந்த தளத்தில் முடக்கியுள்ளீர்கள்.
+urlbar-web-notifications-blocked =
+    .tooltiptext = அறிவிப்புகளை இந்த தளத்தில் முடக்கியுள்ளீர்கள்.
+urlbar-camera-blocked =
+    .tooltiptext = இந்த தளத்தில் நிழற்படக் கருவியை முடக்கியுள்ளீர்கள்.
+urlbar-microphone-blocked =
+    .tooltiptext = இத்தளத்தில் ஒலிவாங்கியை முடக்கியுள்ளீர்கள்.
+urlbar-screen-blocked =
+    .tooltiptext = இத்தளத்தில் திரைப் பகிர்வை முடக்கியுள்ளீர்கள்.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = நீங்கள் நிரந்தர சேமிப்பை இந்த தளத்தில் முடக்கியுள்ளீர்கள்.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = இத்தளத்தில் தானாக சத்தமாக இயங்கும் ஊடகத்தை நீங்கள் தடுத்துள்ளீர்கள்.
+urlbar-canvas-blocked =
+    .tooltiptext = திரை தரவு எடுப்பை இந்த தளத்தில் முடக்கியுள்ளீர்கள்.
+urlbar-midi-blocked =
+    .tooltiptext = இந்த தளத்தில் MIDI அணுகலை முடக்கியுள்ளீர்கள்.
+urlbar-star-edit-bookmark =
+    .tooltiptext = இப்புத்தகக்குறியைத் தொகு ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = பக்கத்தைப் புத்தகக்குறியிடு ({ $shortcut })
+clear-search-history =
+    .label = தேடும் வரலாற்றைத் துடை
+    .accesskey = H
+full-screen-autohide =
+    .label = கருவிப்பட்டைகளை மறை
+    .accesskey = க
+full-screen-exit =
+    .label = முழுத்திரை முறைமையை விட்டு வெளியேறு
+    .accesskey = F
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = தேடல் அமைவுகளை மாற்று
+search-one-offs-context-open-new-tab =
+    .label = புதிய கீற்றில் தேடு
+    .accesskey = T
+search-one-offs-context-set-as-default =
+    .label = இயல்புநிலை தேடும் பொறியாக அமை
+    .accesskey = D
+search-one-offs-add-engine-menu =
+    .label = தேடுபொறியைச் சேர்
+bookmark-panel-cancel =
+    .label = ரத்து
+    .accesskey = C
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [one] புத்தகக்குறியை நீக்கு
+           *[other] புத்தகக்குறிகளை { $count } நீக்கு
+        }
+    .accesskey = R
+bookmark-panel-show-editor-checkbox =
+    .label = சேமிக்கும்பொருட்டு தொகுப்பதைக் காண்பி
+    .accesskey = S
+bookmark-panel =
+    .style = min-width: 23em
+identity-connection-internal = இது பாதுகாப்பான { -brand-short-name } பக்கம்.
+identity-connection-file = உங்கள் கணினியில் இப்பக்கம் சேமிக்கப்பட்டது.
+identity-extension-page = ஏற்கனவே உள்ள நீட்சியிலிருந்து இந்தப்இந்தப் பக்கம்.
+identity-active-blocked = { -brand-short-name } இப்பக்கத்தின் பாதுகாப்பற்ற சில பகுதிகளைத் தடுத்துள்ளது.
+identity-passive-loaded = இந்த பக்கத்தின் சில பகுதிகள் பாதுகாப்பற்றது (எ.கா. படங்கள்).
+identity-active-loaded = நீங்கள் இப்பக்கத்தில் பாதுகாப்பை முடக்கிவிட்டீர்கள்.
+identity-weak-encryption = இப்பக்கம் பாதுகாப்பற்ற மறைகுறியாக்கத்தைப் பயன்படுத்துகிறது.
+identity-permissions-reload-hint = மாற்றங்களைச் செயற்படுத்த பக்கத்தை மீளேற்று.
+identity-clear-site-data =
+    .label = நினைவிகளையும் தள தரவையும் துடை…
+identity-remove-cert-exception =
+    .label = விதிவிலக்கை நீக்கு
+    .accesskey = R
+identity-description-insecure = இத்தளத்துடன் உங்கள் இணைப்பு தனிமையானதல்ல. நீங்கள் சமர்பிக்கும் தகவல்கள் பிறரால் பார்க்க முடியும் (கடவுச்சொல், செய்தி, கடன் அட்டை, மேலும் பல.).
+identity-description-weak-cipher-intro = இத்தளத்துடன் உங்கள் இணைப்பு வலுவற்ற குறியாக்கத்தைப் பயன்படுத்துகிறது மேலும் தனிமையானதல்ல.
+identity-description-weak-cipher-risk = மற்றவர்கள் உங்கள் தகவல்களை பார்க்கலாம் அல்லது தளத்தின் நடத்தையை மாற்றியமைக்கலாம்.
+identity-description-active-blocked2 = { -brand-short-name } பாதுகாப்பற்ற பக்கத்தின் பகுதிகளை முடக்கியுள்ளது.
+identity-description-passive-loaded = உங்கள் இணைப்பு தனிமையானதல்ல மற்றும் நீங்கள் தளத்துடன் பகிரும் தகவல்கள் மற்றவர்களால் பார்க்க இயலும்.
+identity-description-passive-loaded-insecure2 = இத்தளம் பாதுகாப்பற்ற உள்ளடக்கங்களை கொண்டுள்ளது (எகா.படங்கள்).
+identity-description-passive-loaded-mixed2 = { -brand-short-name } சில உள்ளடக்கங்களை முடக்கினாலும், இன்னும் பாதுகாப்பற்ற உள்ளடக்கம் உள்ளது (எ.கா.படங்கள் போன்றவை).
+identity-description-active-loaded = இத்தளம் பாதுகாப்பற்ற உள்ளடக்கம் கொண்டுள்ளது (சிறுநிரல் போன்றவை) மேலும் உங்கள் இணைப்பு தனிமையானதல்ல.
+identity-description-active-loaded-insecure = இத்தளத்துடன் நீங்கள் பகிரும் தகவல்கள் பிறரால் பார்க்க முடியும் (கடவுச்சொல், செய்தி, கடன் அட்டை, மேலும் பல.).
+identity-more-info-link-text =
+    .label = கூடுதல் தகவலுக்கு...
+browser-window-minimize-button =
+    .tooltiptext = குறைத்தல்
+browser-window-close-button =
+    .tooltiptext = மூடுக
+popup-all-windows-shared = திரையில் பார்வையிலுள்ள அனைத்து சாளரங்களும் பகிரப்படும்.
+urlbar-search-mode-indicator-close =
+    .aria-label = மூடுக
+urlbar-placeholder =
+    .placeholder = சொல்லைத் தேடுங்கள் அல்லது முகவரியை உள்ளிடுங்கள்
+urlbar-switch-to-tab =
+    .value = கீற்றுக்கு மாற்று:
+urlbar-extension =
+    .value = நீட்சிகள்:
+urlbar-go-button2 =
+    .title = இடப் பட்டையில் முகவரிக்கு செல்லவும்
+urlbar-page-action-button =
+    .tooltiptext = பக்க செயல்கள்
+urlbar-result-action-search-w-engine = { $engine } மூலம் தேடவும்
+urlbar-result-action-switch-tab = கீற்றிற்கு மாறு
+urlbar-result-action-visit = பார்
+reader-view-enter-button =
+    .aria-label = வாசிக்கும் முறைக்கு மாறவும்
+reader-view-close-button =
+    .aria-label = வாசிப்பு தோற்றத்தை மூடு
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> தற்பொழுது முழுத்திரையில்
+fullscreen-warning-no-domain = இவ்வாணம் தற்பொழுது முழுத்திரையில் உள்ளது
+fullscreen-exit-button = முழுத்திரையிலிருந்து வெளியேறுக (Esc)
+fullscreen-exit-mac-button = முழுத்திரையிலிருந்து வெளியேறுக (Esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> உங்கள் சுட்டியைக் கட்டுப்படுத்துகிறது. கட்டுப்பாட்டை எடுக்க Esc விசையை அழுத்தவும்.
+pointerlock-warning-no-domain = இந்த ஆவணம் உங்கள் சுட்டியைக் கட்டுப்பாட்டில் வைத்திருக்கிறது. கட்டுப்பாட்டைத் திரும்ப எடுக்க Esc விசையை அழுத்தவும்.
+bookmarks-toolbar-chevron =
+    .tooltiptext = இன்னும் காண்பி
+bookmarks-sidebar-content =
+    .aria-label = புத்தகக்குறிகள்
+bookmarks-menu-button =
+    .label = புத்தகக்குறிகள் பட்டி
+bookmarks-other-bookmarks-menu =
+    .label = பிற புத்தகக்குறிகள்
+bookmarks-mobile-bookmarks-menu =
+    .label = கைகப்பேசி புத்தகக்குறிகள்
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] புத்தகக்குறிகள் பக்கப்பட்டையை மறை
+           *[other] புத்தகக்குறிகள் பக்கப்பட்டையைக் காட்டு
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] புத்தகக்குறிகள் கருவிப்பட்டையை மறை
+           *[other] புத்தகக்குறிகள் கருவிப்பட்டையைக் காட்டு
+        }
+bookmarks-search =
+    .label = புத்தகக்குறிகளைத் தேடு
+bookmarks-tools =
+    .label = புத்தக்குறியிடும் கருவிகள்
+bookmarks-toolbar-menu =
+    .label = புத்தகக்குறி கருவிப்பட்டை
+bookmarks-toolbar-placeholder =
+    .title = புத்தகக்குறிகள் கருவிப்பட்டை உருப்படிகள்
+bookmarks-toolbar-placeholder-button =
+    .label = புத்தகக்குறிகள் கருவிப்பட்டை உருப்படிகள்
+library-bookmarks-menu =
+    .label = புத்தகக்குறிகள்
+toolbar-overflow-customize-button =
+    .label = கருவிப்பட்டையை விருப்பமை...
+    .accesskey = C
+toolbar-button-email-link =
+    .label = மடல்
+    .tooltiptext = இப்பக்க தொடுப்பை மின்னஞ்சல் செய்
+toolbar-button-save-page =
+    .label = சேமி
+    .tooltiptext = இந்தப் பக்கத்தை சேமி ({ $shortcut })
+toolbar-button-open-file =
+    .label = திற
+    .tooltiptext = கோப்பினைத் திற ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = ஒத்திசைவு
+    .tooltiptext = பிற சாதனங்களிலிருந்து கீற்றுகளைக் காட்டு
+toolbar-button-new-private-window =
+    .label = புதிய கமுக்க சாளரம்
+    .tooltiptext = புதிய கமுக்க சாளரத்தைத் திற ({ $shortcut })
+eme-notifications-drm-content-playing = இந்த தளத்தில் சில பாடல் அல்லது காணொளி DRM மென்பொருளைப் பயன்படுத்துகிறது, { -brand-short-name } நீங்கள் அதை செய்ய விட்டால் வசதிகளைக் குறைக்க கூடும்.
+ui-tour-info-panel-close =
+    .tooltiptext = மூடுக
+navbar-downloads =
+    .label = பதிவிறக்கங்கள்
+navbar-print =
+    .label = அச்சிடு
+    .tooltiptext = இப்பக்கத்தை அச்சிடு... ({ $shortcut })
+navbar-home =
+    .label = இல்லம்
+    .tooltiptext = { -brand-short-name } அகப்பக்கம்
+navbar-library =
+    .label = தரவகம்
+    .tooltiptext = வரலாறு, சேமித்த புத்தகக்குறிகள், மற்றும் பலவற்றைப் பார்
+navbar-search =
+    .title = தேடு
+tabs-toolbar =
+    .aria-label = உலாவி கீற்றுகள்
+tabs-toolbar-new-tab =
+    .label = புதிய கீற்று
+tabs-toolbar-list-all-tabs =
+    .label = அனைத்து கீற்றுகளையும் பட்டியலிடு
+    .tooltiptext = அனைத்து கீற்றுகளையும் பட்டியலிடு
+data-reporting-notification-message = { -brand-short-name } தானாகவே சில தரவை { -vendor-short-name } க்கு அனுப்பும், அதன் மூலம் நாங்கள் உங்கள் அனுபவத்தை மேம்படுத்த முடியும்.
+data-reporting-notification-button =
+    .label = நான் என்ன பகிர்கிறேன் என்பதைத் தேர்வு செய்யவும்
+    .accesskey = த
+refresh-blocked-refresh-label = { -brand-short-name } தானாக மீளேற்றப்படுவதிலிருந்து இந்தப் பக்கத்தில் தடுக்கிறது.
+refresh-blocked-redirect-label = { -brand-short-name } தானாக வேறு பக்கத்திற்குச் செல்வதிலிருந்து தடுக்கிறது.
+refresh-blocked-allow =
+    .label = அனுமதி
+    .accesskey = A
+popup-notification-addon-install-unsigned =
+    .value = (சரிபார்க்காத)
+popup-warning-message =
+    { $popupCount ->
+        [one] { -brand-short-name } இந்த தளத்தை ஒரு பாப்-அப் சாளரத்தைத் திறப்பதைத் தடுத்துவிட்டது.
+       *[other] { -brand-short-name } இந்த தளத்தை { $popupCount } பாப்-அப் சாளரங்களைத் திறப்பதைத் தடுத்துவிட்டது.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] தேர்வுகள்
+           *[other] முன்னுரிமைகள்
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] P
+        }
+popup-show-popup-menuitem =
+    .label = '{ $popupURI }'ஐ காட்டு

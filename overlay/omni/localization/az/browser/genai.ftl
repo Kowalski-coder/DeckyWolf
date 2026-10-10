@@ -1,0 +1,37 @@
+genai-settings-chat-chatgpt-links = ChatGPT-ni seçməklə siz, OpenAI-ın <a data-l10n-name="link1">istifadə şərtləri</a> və <a data-l10n-name="link2">məxfilik siyasəti</a> ilə razılaşırsız.
+genai-prompts-summarize =
+    .label = Xülasə et
+    .value = Seçilmiş mətni dəqiq və yığcam şəkildə xülasə et. Xülasənin asan oxunması üçün başlıqlardan və markerli siyahılardan istifadə et. Mənanı və faktiki dəqiqliyi qoruyub saxla.
+genai-menu-ask-provider-2 =
+    .label = { $provider } Botundan Soruş
+    .accesskey = z
+genai-menu-summarize-page = Səhifənin xülasəsini hazırla
+genai-provider-view-details =
+    .label = Söhbət botu təfərrüatlarına baxın
+genai-options-reload-generic =
+    .label = Sİ söhbət botunu yenilə
+genai-options-reload-provider =
+    .label = { $provider } botunu yenilə
+genai-options-about-chatbot =
+    .label = { -brand-short-name } Sİ söhbət botları haqqında
+genai-page-button-summarize = Səhifənin icmalını çıxart
+genai-chatbot-summarize-button = Səhifənin icmalını çıxart
+genai-onboarding-choose-header = { -brand-short-name } yan panelində istifadə edəcəyiniz Sİ söhbət botunu seçin
+genai-onboarding-choose-description = İstənilən vaxt dəyişin. Seçim etməkdə kömək üçün <a data-l10n-name="learn-more">hər bir söhbət botu haqqında ətraflı öyrənin</a>.
+genai-onboarding-primary = Davam et
+genai-onboarding-secondary = Bağla
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-model-optin-continue =
+    .label = Davam et
+genai-model-optin-optout =
+    .label = Ləğv et
+genai-model-optin-cancel =
+    .label = Ləğv et
+link-preview-optin-title = Sİ ilə daha çoxunu görmək istəyirsiz?

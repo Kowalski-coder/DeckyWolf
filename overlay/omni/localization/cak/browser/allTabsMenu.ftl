@@ -1,0 +1,14 @@
+all-tabs-menu-search-all-tabs =
+    .label = Tikanöx pa ronojel taq ruwi'
+all-tabs-menu-new-user-context =
+    .label = K'ak'a' k'ojlib'äl ruwi'
+all-tabs-menu-hidden-tabs =
+    .label = Ewan taq Ruwi'
+all-tabs-menu-close-duplicate-tabs =
+    .label = Ketz'apïx kamulun taq ruwi'
+all-tabs-menu-view-all-tabs =
+    .label = Ketz'et ronojel ri taq ruwi'
+all-tabs-menu-tab-groups-show-all =
+    .label = Tik'ut ronojel
+all-tabs-menu-tab-groups-sub-view =
+    .title = Molaj taq ruwi'

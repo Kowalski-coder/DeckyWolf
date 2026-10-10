@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Wšykne rejtariki pśepytaś
+all-tabs-menu-new-user-context =
+    .label = Nowy kontejnerowy rejtarik
+all-tabs-menu-hidden-tabs =
+    .label = Schowane rejtariki
+all-tabs-menu-close-duplicate-tabs =
+    .label = Dwójne rejtariki zacyniś
+all-tabs-menu-view-all-tabs =
+    .label = Wšykne rejtariki pokazaś
+all-tabs-menu-recent-tab-groups-header = Kupki nejnowšych rejtarikow
+all-tabs-menu-tab-groups-show-all =
+    .label = Wšykne pokazaś
+all-tabs-menu-tab-groups-sub-view =
+    .title = Kupki rejtarikow
+all-tabs-menu-current-window-header = Aktualne wokno

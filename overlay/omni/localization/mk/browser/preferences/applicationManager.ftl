@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Детали за програмата
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Отстрани
+    .accesskey = р
+app-manager-handle-protocol = Следниве програми може да се користат за работа со { $type } врски.
+app-manager-handle-file = Следниве програми може да се користат за работа со { $type } содржина.
+app-manager-web-app-info = Оваа мрежнa програма се наоѓа на:
+app-manager-local-app-info = Ова програма се наоѓа на:

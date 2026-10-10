@@ -1,0 +1,13 @@
+grid-row-column-positions = 列 { $row } / 行 { $column }
+gridtype-container = Grid 容器
+gridtype-item = Grid 項目
+gridtype-dual = Grid 容器 / 項目
+flextype-container = Flex 容器
+flextype-item = Flex 項目
+flextype-dual = Flex 容器 / 項目
+remote-node-picker-notice = 已啟用 DevTools 元素挑選器，{ $action }
+remote-node-picker-notice-action-desktop = 點擊元素即可在檢測器中選擇
+remote-node-picker-notice-action-touch = 點擊元素即可在檢測器中選擇
+remote-node-picker-notice-hide-button = 隱藏
+simple-highlighters-message = 開啟 prefers-reduced-motion 後，可在設定面板中開啟比較簡單的強調器，來避免色彩閃爍。
+simple-highlighters-settings-button = 開啟選項

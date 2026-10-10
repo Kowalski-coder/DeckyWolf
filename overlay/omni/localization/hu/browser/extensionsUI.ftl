@@ -1,0 +1,17 @@
+webext-default-search-description = A(z) { $addonName } szeretné megváltoztatni az alapértelmezett keresőszolgáltatást erről: { $currentEngine }, erre: { $newEngine }. Ez így rendben van?
+webext-default-search-yes =
+    .label = Igen
+    .accesskey = I
+webext-default-search-no =
+    .label = Nem
+    .accesskey = N
+addon-post-install-message = A(z) { $addonName } hozzá lett adva.
+webext-quarantine-confirmation-title = Futtatja a(z) { $addonName } kiegészítőt a korlátozott webhelyeken?
+webext-quarantine-confirmation-line-1 = Az adatai védelme érdekében ez a kiegészítő nem engedélyezett ezen az oldalon.
+webext-quarantine-confirmation-line-2 = Ha megbízik a kiegészítőben, akkor engedélyezze számára, hogy olvassa és módosítsa az adatait a { -vendor-short-name } által korlátozott webhelyeken.
+webext-quarantine-confirmation-allow =
+    .label = Engedélyezés
+    .accesskey = E
+webext-quarantine-confirmation-deny =
+    .label = Tiltás
+    .accesskey = T

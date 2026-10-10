@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Tere, inimesed!
+error-short-desc-text = Me oleme tulnud, et külastada teid rahus ja hea tahtega!
+error-long-desc1 = Robotid ei või inimest vigastada või valeliigutuse tõttu inimesele ohtlikuks muutuda.
+error-long-desc2 = Robotid on näinud asju, mida inimesed ei suudaks uskuda.
+error-long-desc3 = Robotid on teie plastikust sõbrad, kellega on lõbus koos olla.
+error-long-desc4 = Robotid on läikiva metalse tagumikuga, mida ei tohiks hammustada.
+error-trailer-desc-text = Ja neil on plaan.
+error-try-again = Proovi uuesti
+    .label2 = Palun ära vajuta seda nuppu uuesti.

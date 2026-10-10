@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Si nuto' riña menu
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Nuto' dukuán rasùun
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Nuto' riña menu
+    .accesskey = M
+panic-button-thankyou-msg1 = 'Ngà ganare' riña gaché nut.
+panic-button-thankyou-msg2 = ¡Gadadù gache nut!
+panic-button-thankyou-button =
+    .label = ¡Guruat!

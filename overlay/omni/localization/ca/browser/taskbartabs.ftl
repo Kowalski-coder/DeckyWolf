@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Afegeix la pestanya a la barra de tasques
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Elimina la pestanya de la barra de tasques
+taskbar-tab-urlbar-button-show = Mostra l'acció de la pàgina de l'aplicació web
+taskbar-tab-urlbar-button-hide = Amaga l'acció de la pàgina de l'aplicació web
+taskbar-tab-shortcut-description = Aplicació web { $name }
+taskbar-tab-shortcut-folder = Aplicacions web del { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Silencia la pestanya
+taskbar-tab-audio-unmute =
+    .tooltiptext = No silenciïs la pestanya
+taskbar-tab-title-default = { $name } en el { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) en el { -brand-full-name }
+taskbar-tab-title-profile = { $name } en { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) en { $profile } — { -brand-full-name }

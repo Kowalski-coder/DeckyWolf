@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Dispilhennañ eus al lañser dic'hlann
+    .accesskey = i
+customize-menu-add-to-toolbar =
+    .label = Ouzhpennañ d'ar varrenn ostilhoù
+    .accesskey = O
+customize-menu-add-to-overflowmenu =
+    .label = Ouzhpennañ d'al lañser dic'hlann
+    .accesskey = d
+panic-button-thankyou-msg1 = Skarzhet eo ho roll istor nevesañ.
+panic-button-thankyou-msg2 = Merdeiñ diogel!
+panic-button-thankyou-button =
+    .label = Trugarez!

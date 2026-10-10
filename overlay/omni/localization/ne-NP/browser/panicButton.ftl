@@ -1,0 +1,15 @@
+panic-button-open-new-window = नयाँ सफा सञ्झ्याल खोल्नुहोस्
+panic-button-undo-warning = यो क्रियाकलाप नहुन सक्दैन।
+panic-button-forget-button =
+    .label = बिर्सिनु!
+panic-main-timeframe-desc = अन्तिमलाई बिर्सनुहोस्:
+panic-button-5min =
+    .label = पाँच मिनेट
+panic-button-2hr =
+    .label = दुई घन्टा
+panic-button-day =
+    .label = २४ घण्टा
+panic-button-action-desc = अगाडि जानाले:
+panic-button-delete-cookies = हालको <strong>कुकिज</strong> मेटाउनुहोस्
+panic-button-delete-history = हालको <strong>इतिहास</strong> मेट्नुहोस्
+panic-button-delete-tabs-and-windows = सबै <strong>ट्याबहरू</strong> र <strong>सञ्झ्याल</strong> बन्द गर्नुहोस

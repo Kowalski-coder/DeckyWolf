@@ -1,0 +1,9 @@
+clear-data-for-site-title = ¿Borrar todos los datos de este sitio web?
+clear-data-for-site-list = Esto borrará todos los datos de { $site } incluyendo:
+clear-data-for-site-browsing-history = Historial de navegación y descargas
+clear-data-for-site-cookies = Cookies y datos del sitio, que pueden cerrar la sesión en ese sitio.
+clear-data-for-site-cache = Archivos y páginas en caché
+cclear-data-for-site-permissions = Permisos y preferencias
+clear-data-for-site-exceptions = Los marcadores y contraseñas guardadas no se eliminarán
+clear-data-for-site-dialog-accept-button = Limpiar datos
+clear-data-for-site-dialog-cancel-button = Cancelar

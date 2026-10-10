@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName }-ը ցանկանում է փոխել ձեր հիմնական որոնիչը { $currentEngine }-ից { $newEngine }-ին: Ցանկանո՞ւմ եք:
+webext-default-search-yes =
+    .label = Այո
+    .accesskey = Y
+webext-default-search-no =
+    .label = Ոչ
+    .accesskey = N
+addon-post-install-message = { $addonName }-ն ավելացվել է;
+webext-quarantine-confirmation-title = Աշխատեցնե՞լ { $addonName }-ը սահմանափակված կայքերում:
+webext-quarantine-confirmation-line-1 = Ձեր տվյալները պաշտպանելու համար այս ընդլայնումն արգելված է այս կայքում:
+webext-quarantine-confirmation-line-2 = Թույլատրեք այս ընդլայնումը, եթե վստահում եք Ձեր տվյալների կարդալը կամ փոխելը իրեն՝ { -vendor-short-name }-ի կողմից սահմանափակված կայքերում:
+webext-quarantine-confirmation-allow =
+    .label = Թույլատրել
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Չթույլատրել
+    .accesskey = D

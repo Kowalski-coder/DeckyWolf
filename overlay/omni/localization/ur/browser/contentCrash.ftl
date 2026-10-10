@@ -1,0 +1,11 @@
+crashed-subframe-learnmore-link =
+    .value = مزید سیکھیں
+crashed-subframe-submit =
+    .label = رپورٹ جمع کریں
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = نظارہ
+pending-crash-reports-send =
+    .label = ارسال کریں
+pending-crash-reports-always-send =
+    .label = ہمیشہ ارسال کریں

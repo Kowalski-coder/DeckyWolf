@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Dadbinio o'r Ddewislen Ychwanegol
+    .accesskey = D
+customize-menu-add-to-toolbar =
+    .label = Ychwanegu i'r Bar Offer
+    .accesskey = Y
+customize-menu-add-to-overflowmenu =
+    .label = Ychwanegu at y Ddewislen Ychwanegol
+    .accesskey = D
+panic-button-thankyou-msg1 = Mae eich hanes diweddar wedi ei glirio.
+panic-button-thankyou-msg2 = Pori diogel!
+panic-button-thankyou-button =
+    .label = Diolch!

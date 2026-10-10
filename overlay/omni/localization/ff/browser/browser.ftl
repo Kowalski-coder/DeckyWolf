@@ -1,0 +1,270 @@
+urlbar-services-notification-anchor =
+    .tooltiptext = Uddit alluwal ɓatakuuje aafgol
+urlbar-web-notification-anchor =
+    .tooltiptext = Waylu mbele aɗa waawi heɓde tintine iwɗe e ndee lowre
+urlbar-midi-notification-anchor =
+    .tooltiptext = Uddit ɗaldugal MIDI
+urlbar-eme-notification-anchor =
+    .tooltiptext = Toppito kuutoragol topirde DRM
+urlbar-web-authn-anchor =
+    .tooltiptext = Uddit tammborde heɓtinirde geese
+urlbar-canvas-notification-anchor =
+    .tooltiptext = Toppito jamirooje jaltingol canvas
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = Toppito lollingol mikkoroo maa e ndee lowre
+urlbar-default-notification-anchor =
+    .tooltiptext = Uddit ɗaldugal ɓatakuuje
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = Uddit ɗaldugal ɗaɓɓitanɗe nokkuuje
+urlbar-storage-access-anchor =
+    .tooltiptext = Uddit alluwal yamiroore coftal banngogol
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = Toppito lollingol kenorɗe walla yaynirde maa e ndee lowre
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = Uddit alluwal ɓatakuuje ndesgu ceŋtol
+urlbar-password-notification-anchor =
+    .tooltiptext = Uddit alluwal ɓatakuuje danndugol finnde
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = Toppito lollingol kameraa e/walla mikkoroo maa e ndee lowre
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = Uddit ɗaldugal janngol ɗoon e ɗoon
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = Mooftu keɓe e Ndesgu Duumiingu
+urlbar-addons-notification-anchor =
+    .tooltiptext = Uddit ɗaldugal ɓatakuure aafirgal ɓeyditte
+urlbar-search-tips-confirm = Eey, mi faamii
+urlbar-search-tips-onboard = Tappu seeɗa, yiytu ko heewi: Yiylo { $engineName } e palal ñiiɓirde maa.
+urlbar-search-tips-redirect-2 = Fuɗɗo njiilaw e palal ñiiɓirde ngam yiyde baggine ummoraade e { $engineName } kam e aslol banngogol maa.
+urlbar-geolocation-blocked =
+    .tooltiptext = A daaƴii humpito nokkuure e ndee lowre.
+urlbar-web-notifications-blocked =
+    .tooltiptext = A daaƴii tintine e ndee lowre.
+urlbar-camera-blocked =
+    .tooltiptext = A daaƴii kameraa maa e ndee lowre.
+urlbar-microphone-blocked =
+    .tooltiptext = A daaƴii mikoroo maa e ndee lowre.
+urlbar-screen-blocked =
+    .tooltiptext = A daaƴii ndee lowre e lollingol yaynirde maa.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = A daaƴii ndesgu duumiingu e ndee lowre.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = A faddiima mejaa janngol ɗoon e ɗoon hito wonande ndee lowre.
+urlbar-canvas-blocked =
+    .tooltiptext = A daaƴii aaftogol keɓe keertol wonande ndee lowre geese.
+urlbar-midi-blocked =
+    .tooltiptext = A daaƴii keɓgol MIDI wonande ndee lowre geese.
+urlbar-install-blocked =
+    .tooltiptext = A daaƴii aafgol ɓeyditte e ndee lowre geese.
+urlbar-star-edit-bookmark =
+    .tooltiptext = Taƴto ngol maantorol ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = Maantoro ngoo hello ({ $shortcut })
+clear-search-history =
+    .label = Momtu aslol njiilaw
+    .accesskey = H
+full-screen-autohide =
+    .label = Suuɗ Palal Kuutorɗe
+    .accesskey = S
+full-screen-exit =
+    .label = Yaltu Mbaydi Njaajeendi Yaynirde
+    .accesskey = N
+search-one-offs-with-title = Ngol laawol, yiylo e:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = Waylu teelte njiilaw
+search-one-offs-context-open-new-tab =
+    .label = Yiylo e Tabbere Hesere
+    .accesskey = T
+search-one-offs-context-set-as-default =
+    .label = Waɗtu Yiylorɗe Woowaanɗe
+    .accesskey = D
+search-one-offs-context-set-as-default-private =
+    .label = Waɗtu Yiylorɗe Woowaanɗe ngam Windows Keeriiɗo
+    .accesskey = P
+search-one-offs-add-engine-menu =
+    .label = Ɓeydu yiylorde
+bookmark-panel-cancel =
+    .label = Haaytu
+    .accesskey = C
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [one] Momtu Maantorol
+           *[other] Momtu Maantore { $count }
+        }
+    .accesskey = R
+bookmark-panel-show-editor-checkbox =
+    .label = Hollu taƴtorde kisnugol
+    .accesskey = 5
+bookmark-panel =
+    .style = min-width: 23em
+identity-connection-not-secure = Ceŋagol hisaani
+identity-connection-secure = Ceŋagol kisngol
+identity-connection-internal = Ɗum ko hello { -brand-short-name } hisngo.
+identity-connection-file = Ngoo hello mooftaa ko e ordinateer maa.
+identity-extension-page = Ngoo hello loowraa ko jokkel
+identity-active-blocked = { -brand-short-name } faliima geɗe e ngoo hello ɗe kisaani.
+identity-custom-root = Ƴeewtii ceŋagol ngol ko dokkoowo seedamfaagu mo Mozilla heftinaani.
+identity-passive-loaded = Geɗe ɗe kisaani nana e ngoo hello (wano nate).
+identity-active-loaded = A dartinii ndeenka e ngoo hello.
+identity-weak-encryption = Ngoo hello huutortoo ko gannugol jaafngol.
+identity-permissions-reload-hint = Ena waawi coaklaa loowtude hello ngoo ngam bayle ɗee njaaɓa.
+identity-clear-site-data =
+    .label = Mumtu kuukiije e keɓe lowre ndee…
+identity-connection-not-secure-security-view = A seŋaaki kisngol e ndee lowre.
+identity-connection-verified = Aɗa seŋii kisngol e ndee lowre.
+identity-description-custom-root2 = Mozilla heftinaani dokkoowo seedamfaagu oo. Haɗum waawi ɓeydeede ummoraade e yuɓɓo maa huuɓnungo walla taw ko jiiloowo yuɓɓo ɓeydi ɗum.
+identity-remove-cert-exception =
+    .label = Momtu Paltol
+    .accesskey = M
+identity-description-insecure = Ƴeŋagol maa e ndee lowre wonaa suuriinde. Humpito ngo naatnataa e mayre ena waawi yiyeede woɗɓe (wano findeeji, ɓatakuuje, karte banke, ekn.).
+identity-description-weak-cipher-intro = Ceŋagol maa e ndee lowre huutortoo ko gannugol jaafngol tee wonaa suuriinde.
+identity-description-weak-cipher-risk = Yimɓe woɗɓe ena mbaawi yiyde humpito maa walla mbayla ngonka lowre ndee.
+identity-description-active-blocked2 = { -brand-short-name } faliima geɗe e ngoo hello ɗe kisaani.
+identity-description-passive-loaded = Ceŋagol maa suuraaki tee humpito lollintaa e ndee lowre ena waawi woɗɓe njiya ɗum.
+identity-description-passive-loaded-insecure2 = Ndee lowre ena waɗi loowdi ndi hisaani (wano nate).
+identity-description-passive-loaded-mixed2 = Goonga { -brand-short-name } daaƴii won e loowdi, haa jooni ena waɗi loowdi e ngoo hello ndi hisaani (wano nate).
+identity-description-active-loaded = Ndee lowre ena waɗi loowdi ndi hisaani (wano dokkore) tee ceŋagol maa e mayre suuraaki.
+identity-description-active-loaded-insecure = Humpito ngo lollintaa e ngoo hello ena waawi woɗɓe njiya ɗum (wano finndeeji, ɓatakuuje, karte banke, ekn.).
+identity-more-info-link-text =
+    .label = Ɓeydu Humpito
+browser-window-minimize-button =
+    .tooltiptext = Taggu
+browser-window-maximize-button =
+    .tooltiptext = Mawnin
+browser-window-close-button =
+    .tooltiptext = Uddu
+popup-all-windows-shared = Kala henorde yiyotonde e yaynirde maaɗa maa lolline.
+urlbar-search-mode-indicator-close =
+    .aria-label = Uddu
+urlbar-placeholder =
+    .placeholder = Yiylo walla naatnu ñiiɓirde
+urlbar-placeholder-with-name =
+    .placeholder = Yiiloro { $name } walla naatnu ñiiɓirde
+urlbar-permissions-granted =
+    .tooltiptext = A hokkii ndee lowre jamirooje goɗɗe.
+urlbar-switch-to-tab =
+    .value = Yah to tabbere:
+urlbar-extension =
+    .value = Timmitere:
+urlbar-go-button2 =
+    .title = Yah to ñiiɓirde wonde e Palal Nokkuuje
+urlbar-page-action-button =
+    .tooltiptext = Baɗe hello
+urlbar-result-action-search-w-engine = Yiyloro { $engine }
+urlbar-result-action-switch-tab = Yah to Tabbere
+urlbar-result-action-visit = Yillo
+reader-view-enter-button =
+    .aria-label = Naat Jiytol Taro
+reader-view-close-button =
+    .aria-label = Yaltu Jiytol Taro
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> jooni ko e jaajeende yaynirde
+fullscreen-warning-no-domain = Ndee fiilannde jonni ko e njaajeendi yaynirde
+fullscreen-exit-button = Yaltu njaajeendi yaynirde (Ech)
+fullscreen-exit-mac-button = Yaltu njaajeendi yaynirde (Ech)
+pointerlock-warning-domain = Tamde <span data-l10n-name="domain">{ $domain }</span> nana ɗowa doborde maa. Ñoƴƴu Ech ngam ɓamtude ɗowgol.
+pointerlock-warning-no-domain = Ndee fiilannde nana ɗowa doborde maa. Ñoƴƴu Ech ngam ɓamtude ɗowgol.
+bookmarks-toolbar-chevron =
+    .tooltiptext = Hollu maantore goɗɗe
+bookmarks-sidebar-content =
+    .aria-label = Maantore
+bookmarks-menu-button =
+    .label = Dosol Maantore
+bookmarks-other-bookmarks-menu =
+    .label = Maantore Goɗɗe
+bookmarks-mobile-bookmarks-menu =
+    .label = Maantore Cinndel
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] Suuɗ Palal Sawndo Maantore
+           *[other] Hollu Palal Maantore
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] Suuɗ Palal Maantore
+           *[other] Hollu Palal Maantore
+        }
+bookmarks-search =
+    .label = Yiylo Maantore
+bookmarks-tools =
+    .label = Kuutorɗe Maantorgol
+bookmarks-toolbar-menu =
+    .label = Palal Maantore
+bookmarks-toolbar-placeholder =
+    .title = Maantorto Teme Palal Kuutorɗe
+bookmarks-toolbar-placeholder-button =
+    .label = Maantorto Teme Palal Kuutorɗe
+library-bookmarks-menu =
+    .label = Maantore
+toolbar-overflow-customize-button =
+    .label = Heertin Palal Kuutorɗe…
+    .accesskey = H
+toolbar-button-email-link =
+    .label = Neldu Jokkol e Iimeel
+    .tooltiptext = Neldu jokkol ngoo hello e iimeel
+toolbar-button-save-page =
+    .label = Danndu Hello
+    .tooltiptext = Danndu ngoo hello ({ $shortcut })
+toolbar-button-open-file =
+    .label = Uddit Fiilde
+    .tooltiptext = Uddit fiilde ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = Tabbe synckaaɗe
+    .tooltiptext = Hollu tabbe ummiiɗe e kaɓirɗi goɗɗi
+toolbar-button-new-private-window =
+    .label = Henorde Suturo Hesere
+    .tooltiptext = uddit henorde wanngorde suuriinde hesere ({ $shortcut })
+eme-notifications-drm-content-playing = Yoga e ojooji e widewooji ndee lowre ena kuutoroo topirde DRM, ɗum ena haɗa { -brand-short-name } waɗde heen won e geɗe.
+ui-tour-info-panel-close =
+    .tooltiptext = Uddu
+navbar-downloads =
+    .label = Gaawte
+navbar-print =
+    .label = Waanjito
+    .tooltiptext = Muul hello… ({ $shortcut })
+navbar-home =
+    .label = Jaɓɓorgo
+    .tooltiptext = { -brand-short-name } Jaɓɓorgo
+navbar-library =
+    .label = Deftordu
+    .tooltiptext = Yiy aslol, maantore danndaaɗe, e goɗɗe
+navbar-search =
+    .title = Yiylo
+tabs-toolbar =
+    .aria-label = Tabbe wanngorde
+tabs-toolbar-new-tab =
+    .label = Tabbere Hesere
+tabs-toolbar-list-all-tabs =
+    .label = Waɗ doggol tabbe kala
+    .tooltiptext = Waɗ doggol tabbe kala
+data-reporting-notification-message = { -brand-short-name } neldat keɓe seeɗa e jaajol to { -vendor-short-name } ngam min mbaawa ƴellitde dawtol maa.
+data-reporting-notification-button =
+    .label = Suɓo Ko Lollintu-mi
+    .accesskey = S
+refresh-blocked-refresh-label = { -brand-short-name } haɗii ngoo hello hesɗitinde hoore mum.
+refresh-blocked-redirect-label = { -brand-short-name } haɗii ngoo hello ɓennitaade e jaajol to hello woɗngo.
+refresh-blocked-allow =
+    .label = Yamir
+    .accesskey = A
+popup-notification-addon-install-unsigned =
+    .value = (Ƴeewtaaka)
+popup-warning-message =
+    { $popupCount ->
+        [one] { -brand-short-name } haɗii ndee lowre udditde henorde suppitere.
+       *[other] { -brand-short-name } haɗii ndee lowre udditde kenorɗe cuppitte { $popupCount }.
+    }
+popup-warning-exceeded-message = { -brand-short-name } haɗii ndee lowre udditde kenorɗe { $popupCount } ngonkeeje.
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] Cuɓe
+           *[other] Cuɓoraaɗe
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] P
+        }
+popup-show-popup-menuitem =
+    .label = Hollir '{ $popupURI }'

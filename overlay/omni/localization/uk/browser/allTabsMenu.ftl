@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Пошук у всіх вкладках
+all-tabs-menu-new-user-context =
+    .label = Нова вкладка в контейнері
+all-tabs-menu-hidden-tabs =
+    .label = Приховані вкладки
+all-tabs-menu-close-duplicate-tabs =
+    .label = Закрити дублікати вкладок
+all-tabs-menu-view-all-tabs =
+    .label = Переглянути всі вкладки
+all-tabs-menu-recent-tab-groups-header = Нещодавні групи вкладок
+all-tabs-menu-tab-groups-show-all =
+    .label = Показати всі
+all-tabs-menu-tab-groups-sub-view =
+    .title = Групи вкладок
+all-tabs-menu-current-window-header = Поточне вікно

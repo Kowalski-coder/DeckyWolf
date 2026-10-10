@@ -1,0 +1,13 @@
+grid-row-column-positions = Zeile { $row }, Spalte { $column }
+gridtype-container = Grid-Container
+gridtype-item = Grid-Element
+gridtype-dual = Grid-Container/Element
+flextype-container = Flex-Container
+flextype-item = Flex-Element
+flextype-dual = Flex-Container/Element
+remote-node-picker-notice = DevTools-Knotenauswahl aktiviert. { $action }
+remote-node-picker-notice-action-desktop = Auf ein Element klicken, um es im Inspektor auszuwählen
+remote-node-picker-notice-action-touch = Auf ein Element tippen, um es im Inspektor auszuwählen
+remote-node-picker-notice-hide-button = Ausblenden
+simple-highlighters-message = Wenn prefers-reduced-motion aktiviert ist, kann in den Einstellungen eine vereinfachte Hervorhebung aktiviert werden, um blinkende Farben zu vermeiden.
+simple-highlighters-settings-button = Einstellungen öffnen

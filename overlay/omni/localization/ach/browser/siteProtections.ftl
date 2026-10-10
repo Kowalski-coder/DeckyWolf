@@ -1,0 +1,17 @@
+content-blocking-trackers-view-empty = Pe kinongo mo i kakube man
+content-blocking-cookies-blocking-all-label = Angija Weng
+content-blocking-cookies-view-first-party-label = Ki i Kakube Man
+content-blocking-cookies-view-allowed-label =
+    .value = Ki yee
+content-blocking-cookies-view-blocked-label =
+    .value = Kigengo
+tracking-protection-icon-active-container =
+    .aria-label = { tracking-protection-icon-active }
+tracking-protection-icon-disabled-container =
+    .aria-label = { tracking-protection-icon-disabled }
+tracking-protection-icon-no-trackers-detected = Pe tye lulub kor mo ma ngene bot { -brand-short-name } ma ononge i potbuk man.
+tracking-protection-icon-no-trackers-detected-container =
+    .aria-label = { tracking-protection-icon-no-trackers-detected }
+protections-header = Gwokke pi { $host }
+protections-blocking-cookies-all =
+    .title = Kigengo Angija Weng

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Søk i alle faner
+all-tabs-menu-new-user-context =
+    .label = Ny behaldarfane
+all-tabs-menu-hidden-tabs =
+    .label = Gøymde faner
+all-tabs-menu-close-duplicate-tabs =
+    .label = Lat att dupliserte faner
+all-tabs-menu-view-all-tabs =
+    .label = Vis alle faner
+all-tabs-menu-recent-tab-groups-header = Nylege fanegrupper
+all-tabs-menu-tab-groups-show-all =
+    .label = Vis alle
+all-tabs-menu-tab-groups-sub-view =
+    .title = Fanegrupper
+all-tabs-menu-current-window-header = Gjeldande vindauge

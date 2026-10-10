@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Որոնել բոլոր ներդիրներում
+all-tabs-menu-new-user-context =
+    .label = Նոր պարունակ ներդիր
+all-tabs-menu-hidden-tabs =
+    .label = Թաքնված ներդիրներ
+all-tabs-menu-close-duplicate-tabs =
+    .label = Փակել կրկնօրինակված ներդիրները
+all-tabs-menu-view-all-tabs =
+    .label = Դիտել բոլոր ներդիրները
+all-tabs-menu-recent-tab-groups-header = Վերջին ներդիրների խմբեր
+all-tabs-menu-tab-groups-show-all =
+    .label = Ցուցադրել բոլորը
+all-tabs-menu-tab-groups-sub-view =
+    .title = Ներդիրների խմբեր
+all-tabs-menu-current-window-header = Ընթացիկ պատուհան

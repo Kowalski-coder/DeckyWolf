@@ -1,0 +1,11 @@
+perftools-range-entries-label = Mida de la memòria intermèdia:
+perftools-devtools-interval-label = Interval:
+perftools-devtools-settings-label = Paràmetres
+perftools-button-start-recording = Inicia l'enregistrament
+perftools-button-capture-recording = Captura l'enregistrament
+perftools-button-cancel-recording = Cancel·la l'enregistrament
+perftools-button-save-settings = Guarda les preferències i vés arrere
+perftools-button-restart = Reinicia
+perftools-button-add-directory = Afig un directori
+perftools-button-remove-directory = Elimina la selecció
+perftools-button-edit-settings = Edita els paràmetres…

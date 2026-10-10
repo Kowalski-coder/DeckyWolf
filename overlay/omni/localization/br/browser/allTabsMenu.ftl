@@ -1,0 +1,12 @@
+all-tabs-menu-search-all-tabs =
+    .label = Klask en holl ivinelloù
+all-tabs-menu-new-user-context =
+    .label = Ivinell endalc'her nevez
+all-tabs-menu-hidden-tabs =
+    .label = Ivinell kuzh
+all-tabs-menu-recent-tab-groups-header = Strolladoù ivinelloù nevesañ
+all-tabs-menu-tab-groups-show-all =
+    .label = Diskouez pep tra
+all-tabs-menu-tab-groups-sub-view =
+    .title = Strolladoù ivinelloù
+all-tabs-menu-current-window-header = Prenestr a-vremañ

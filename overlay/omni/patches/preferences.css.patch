@@ -1,0 +1,101 @@
+--- /tmp/orig_browser_omni/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 17:18:23.000000000 +0300
++++ /tmp/browser_work/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 20:28:08.037596697 +0300
+@@ -1787,3 +1787,98 @@
+ a:hover, .text-link:hover {
+   color: #38bdf8 !important;
+ }
++
++/* DeckyWolf: Controller Settings Pane */
++.deckywolf-controller-groupbox,
++.deckywolf-controller-hints-card {
++  background-color: #0d1424 !important;
++  border: 1px solid rgba(255, 255, 255, 0.08) !important;
++  border-radius: 8px !important;
++  padding: 18px 22px !important;
++}
++
++.deckywolf-setting-label {
++  font-size: 14px !important;
++  font-weight: 600 !important;
++  color: #f1f5f9 !important;
++}
++
++.deckywolf-value-label {
++  font-size: 13px !important;
++  font-weight: 700 !important;
++  color: #1098fe !important;
++}
++
++.deckywolf-slider {
++  accent-color: #1098fe !important;
++  height: 6px !important;
++  cursor: pointer !important;
++}
++
++.deckywolf-select {
++  background-color: #131c31 !important;
++  color: #f8fafc !important;
++  border: 1px solid rgba(255, 255, 255, 0.15) !important;
++  font-size: 13px !important;
++  cursor: pointer !important;
++}
++
++.deckywolf-select:focus {
++  border-color: #1098fe !important;
++  outline: 2px solid rgba(16, 152, 254, 0.3) !important;
++}
++
++.hint-item {
++  display: flex !important;
++  align-items: center !important;
++  padding: 6px 0 !important;
++  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
++}
++
++.hint-key {
++  min-width: 220px !important;
++  font-weight: 600 !important;
++  color: #e2e8f0 !important;
++  font-size: 13px !important;
++}
++
++.hint-desc {
++  color: #94a3b8 !important;
++  font-size: 13px !important;
++}
++
++.badge-b, .badge-x, .badge-y, .hint-badge-btn, .badge-mod {
++  display: inline-flex !important;
++  align-items: center !important;
++  justify-content: center !important;
++  width: 20px !important;
++  height: 20px !important;
++  border-radius: 50% !important;
++  font-size: 11px !important;
++  font-weight: 800 !important;
++  color: #fff !important;
++  text-align: center !important;
++  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
++}
++
++.hint-badge-back {
++  background: #ef4444 !important;
++}
++
++.hint-badge-forward {
++  background: #1098fe !important;
++}
++
++.hint-badge-reload {
++  background: #eab308 !important;
++}
++
++.badge-mod {
++  width: auto !important;
++  padding: 2px 8px !important;
++  border-radius: 4px !important;
++  background: rgba(16, 152, 254, 0.25) !important;
++  border: 1px solid #1098fe !important;
++  color: #38bdf8 !important;
++}
++

@@ -1,0 +1,132 @@
+onboarding-welcome-header = { -brand-short-name } වෙත පිළිගනිමු
+onboarding-start-browsing-button-label = පිරික්සීම අරඹන්න
+onboarding-not-now-button-label = දැන් නොවේ
+mr1-onboarding-get-started-primary-button-label = පටන් ගන්න
+return-to-amo-subtitle = කදිමයි, දැන් ඔබ සතුව { -brand-short-name } තිබේ
+return-to-amo-add-extension-label = දිගුව එක් කරන්න
+return-to-amo-add-theme-label = තේමාව එක් කරන්න
+mr1-return-to-amo-subtitle = { -brand-short-name } පිළිගන්න
+mr1-return-to-amo-add-extension-label = { $addon-name } එක් කරන්න
+onboarding-welcome-steps-indicator-label =
+    .aria-label = ප්‍රගතිය: { $total } න් { $current } වන පියවර
+mr1-onboarding-reduce-motion-button-label = සජීවිකරණ අක්‍රිය කරන්න
+mr1-onboarding-sign-in-button-label = පිවිසෙන්න
+mr1-onboarding-import-primary-button-label-attribution = { $previous } වෙතින් ආයාතය
+mr1-onboarding-theme-header = ඔබගේම කරගන්න
+mr1-onboarding-theme-subtitle = තේමාවකින් { -brand-short-name } පුද්ගලීකරණය කරන්න.
+mr1-onboarding-theme-secondary-button-label = දැන් නොවේ
+mr1-onboarding-theme-label-system = පද්ධතියේ තේමාව
+mr1-onboarding-theme-label-light = දීප්ත
+mr1-onboarding-theme-label-dark = අඳුරු
+mr1-onboarding-theme-label-alpenglow = ඇල්පෙන්ග්ලෝ
+onboarding-theme-primary-button-label = අහවරයි
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        මෙ. පද්. තේමාව අනුගමනය කරන්න.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        මෙ. පද්. තේමාව අනුගමනය කරන්න.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        දීප්තිමත් තේමාවක් යොදා ගන්න.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        දීප්තිමත් තේමාවක් යොදා ගන්න.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        අඳුරු තේමාවක් යොදා ගන්න.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        අඳුරු තේමාවක් යොදා ගන්න.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        අහඹු, වර්ණවත් තේමාවක් යොදා ගන්න.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        බොත්තම්, වට්ටෝරු හා කවුළු සඳහා
+        අහඹු, වර්ණවත් තේමාවක් යොදා ගන්න.
+mr2-onboarding-default-theme-label = පෙරනිමි තේමා ගවේශනය.
+mr2-onboarding-thank-you-header = අපිව තෝරා ගැනීමට තුති
+mr2-onboarding-thank-you-text = { -brand-short-name } යනු ලාභ නොලබන ස්වාධීන අතිරික්සුවකි. අපි වියමන ආරක්‍ෂිත, යහපත් හා වඩාත් පෞද්ගලික කරන්නෙමු.
+mr2-onboarding-start-browsing-button-label = පිරික්සුම අරඹන්න
+onboarding-live-language-header = ඔබගේ භාෂාව තෝරන්න
+mr2022-onboarding-live-language-text = { -brand-short-name } ඔබගේ භාෂාව කතා කරයි
+mr2022-language-mismatch-subtitle = { -brand-short-name } අතිරික්සුව භාෂා 90 කට වඩා වැඩි ගණනකට සහාය දක්වයි. ඔබගේ පද්ධතියෙහි { $systemLanguage } භාවිතා වන බව පෙනෙන අතර { -brand-short-name } අතිරික්සුව { $appLanguage } භාවිතා කරයි.
+onboarding-live-language-button-label-downloading = { $negotiatedLanguage } සඳහා භාෂා ඇසුරුම බාගැනෙමින්…
+onboarding-live-language-waiting-button = තිබෙන භාෂා ගැනෙමින්...
+onboarding-live-language-installing = { $negotiatedLanguage } සඳහා භාෂා ඇසුරුම ස්ථාපනය වෙමින්…
+mr2022-onboarding-live-language-switch-to = { $negotiatedLanguage } වෙත මාරු වන්න
+mr2022-onboarding-live-language-continue-in = { $appLanguage } න් ඉදිරියට
+onboarding-live-language-secondary-cancel-download = අවලංගු
+onboarding-live-language-skip-button-label = මඟහරින්න
+fx100-thank-you-hero-text =
+    100
+    <span data-l10n-name="zap">ඔබට</span>
+    ස්තූතියි
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } තැටියෙහි තබන්න
+       *[other] කාර්ය තීරුවට { -brand-short-name } අමුණන්න
+    }
+fx100-upgrade-thanks-header = 100 ස්තූතියි
+mr2022-onboarding-secondary-skip-button-label = පියවර මඟ හරින්න
+mr2022-onboarding-easy-setup-primary-button-label = සුරකින්න සහ ඉදිරියට
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } පෙරනිමි අතිරික්සුව කරන්න
+mr2022-onboarding-easy-setup-import-checkbox-label = කලින් අතිරික්සුවෙන් ආයාත කරන්න
+mr2022-onboarding-welcome-pin-header = විස්මජනක අන්තර්ජාලය බලන්න
+mr2022-onboarding-welcome-pin-subtitle = තනි එබීමකින් ඕනෑම තැනක දී { -brand-short-name } දියත් කරන්න. එම සෑම අවස්ථාවකම, ඔබ වඩාත් විවෘත සහ ස්වාධීන වියමනක් තෝරා ගනියි.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] තැටියෙහි { -brand-short-name } තබාගන්න
+       *[other] කාර්ය තීරුවට { -brand-short-name } අමුණන්න
+    }
+mr2022-onboarding-existing-pin-header = { -brand-product-name } තෝරා ගැනීමට තුති!
+mr2022-onboarding-existing-set-default-only-subtitle = ඔබ අන්තර්ජාලය පුරා සැරිසරන අතරතුර ඔබගේ පෞද්ගලිකත්‍වය සුරකින අතිරික්සුවක් භාවිතා කරන්න. අපගේ නවතම යාවත්කාලය ඔබ කැමති දේවල් වලින් පුරවා ඇත.
+mr2022-onboarding-existing-pin-checkbox-label = එසේම { -brand-short-name } පෞද්. පිරික්සුමට යොදන්න
+mr2022-onboarding-set-default-title = { -brand-short-name } දෛනික අතිරික්සුව කරන්න
+mr2022-onboarding-set-default-primary-button-label = { -brand-short-name } පෙරනිමි අතිරික්සුව කරන්න
+mr2022-onboarding-set-default-subtitle = ලාභ නොලබන පිටුබලයක් සහිත අතිරික්සුවක් භාවිතා කරන්න. ඔබ අන්තර්ජාලය පුරා සැරිසරන අතරතුර ඔබගේ පෞද්ගලිකත්‍වය සුරකිනු ඇත
+mr2022-onboarding-get-started-primary-subtitle = අපගේ නවතම අනුවාදය ඔබ වෙනුවෙන්ම තනන ලදි. වියමන පුරා වේගයෙන් සැරිසැරීමට අන් කවරදාටත් වඩා පහසු කරයි. ඔබ ඇලුම් කරනු ඇතැයි සිතන විශේෂාංග වලින් පුරවා ඇත.
+mr2022-onboarding-get-started-primary-button-label = තත්පර කිහිපයකින් සකසන්න
+mr2022-onboarding-import-primary-button-label-no-attribution = කලින් අතිරික්සුවෙන් ආයාත කරන්න
+mr2022-onboarding-mobile-download-cta-text = ජංගම දුරකථන සඳහා { -brand-product-name } ලබා ගැනීමට QR කේතය සුපිරික්සන්න හෝ <a data-l10n-name="download-label">ඔබටම බාගැනීමේ සබැඳියක් යවන්න.</a>
+mr2022-onboarding-no-mobile-download-cta-text = දුරකථනයට { -brand-product-name } බාගැනීමට QR කේතය සුපිරික්සන්න.
+mr2022-upgrade-onboarding-pin-private-window-header = තනි එබීමකින් නිදහසේ රහසිගතව පිරික්සන්න
+mr2022-upgrade-onboarding-pin-private-window-subtitle = සුරකින ලද දත්තකඩ හෝ ඉතිහාස නැත. ඔබගේ වැඩතලය හරහා කිසිවෙකු නොබලන ලෙස පිරික්සන්න.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } පෞද්. පිරික්සුම තැටියෙහි තබාගන්න
+       *[other] { -brand-short-name } පෞද්. පිරික්සුම කාර්ය තීරුවට අමුණන්න
+    }
+mr2022-onboarding-privacy-segmentation-title = අපි සැමවිට පෞද්ගලිකත්‍වයට ගරු කරන්නෙමු
+mr2022-onboarding-privacy-segmentation-button-primary-label = { -brand-product-name } නිර්දේශ භාවිතා කරන්න
+mr2022-onboarding-privacy-segmentation-button-secondary-label = විස්තරාත්මක තොරතුරු පෙන්වන්න
+mr2022-onboarding-gratitude-title = ඔබ යහපත් වියමනක් තැනීමට උපකාර කරයි
+mr2022-onboarding-gratitude-subtitle = මොසිල්ලා පදනම මගින් පිටුබලය ලබන { -brand-short-name } භාවිතා කිරීමට තුති. ඔබගේ සහාය ඇතිව වඩාත් විවෘත, ප්‍රවේශ්‍ය සහ සැවොම සඳහා යහපත් අන්තර්ජාලයක් ගොඩනැගීමට කටයුතු කරමින් සිටින්නෙමු.
+mr2022-onboarding-gratitude-primary-button-label = අළුත් දෑ බලන්න
+mr2022-onboarding-gratitude-secondary-button-label = පිරික්සුම අරඹන්න
+onboarding-infrequent-import-primary-button = { -brand-short-name } වෙත ආයාත කරන්න
+onboarding-device-migration-title = සාදරයෙන් පිළිගනිමු!
+onboarding-device-migration-primary-button-label = පිවිසෙන්න
+amo-picker-install-button-label = { -brand-short-name } වෙත එක් කරන්න
+amo-picker-install-complete-label = ස්ථාපිතයි
+amo-picker-collection-link = තවත් එක්කහු සොයාගන්න
+onboarding-easy-setup-security-and-privacy-title = ඔබට ආරක්‍ෂාව සලසන්නෙමු
+onboarding-easy-setup-security-and-privacy-subtitle = අපගේ ලාභ නොලබන පිටුබලයක් සහිත අතිරික්සුව අන්තර්ජාලය පුරා ඔබව රහසින් ලුහුබඳින සමාගම් නවත්වයි.
+onboarding-mobile-download-security-and-privacy-title = ඔබ උපාංග අතර පනින විට සංකේතිතව සිටින්න
+onboarding-mobile-download-security-and-privacy-subtitle = ඔබ සමමුහූර්ත විට, { -brand-short-name } ඔබගේ මුරපද, පොත්යොමු සහ අනෙකුත් දෑ සංකේතනය කරයි. තවද ඔබගේ වෙනත් උපාංග වලින් පටිති ඇහිඳීමට හැකිය.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } ඔබ සමඟයි
+onboarding-gratitude-security-and-privacy-subtitle = මොසිල්ලා පදනම මගින් පිටුබලය ලබන { -brand-short-name } භාවිතා කිරීමට තුති. ඔබගේ සහාය ඇතිව සැවොම සඳහා ප්‍රවේශ්‍ය සහ ආරක්‍ෂිත අන්තර්ජාලයක් ගොඩනගමින් සිටින්නෙමු.
+onboarding-new-user-survey-next-button-label = ඊළඟ
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” තේරීමෙන් ඔබ { -brand-product-name } <a data-l10n-name="privacy_notice">රහස්‍යතා දැන්වීම</a> එකඟ වේ.
+onboarding-flair-text = නව!
+onboarding-existing-horizontal-tabs-label = තිරස් පටිති තබාගන්න
+onboarding-genai-sidebar-title = පැති තීරුවේ AI කතා ක්‍රමලේඛයක් තබා බලන්න
+onboarding-genai-sidebar-primary-button = කතා ක්‍රමලේඛයක් තෝරන්න

@@ -1,0 +1,55 @@
+aboutDialog-title =
+    .title = Ɣef { -brand-full-name }
+releaseNotes-link = D acu i d amaynut
+update-checkForUpdatesButton =
+    .label = Nadi ileqman
+    .accesskey = N
+update-updateButton =
+    .label = Sker i tikkelt-nniḍen akken ad tleqqmeḍ{ -brand-shorter-name }
+    .accesskey = R
+update-checkingForUpdates = Muqel ma yella lqem amaynut...
+settings-update-checking-for-updates =
+    .label = Muqel ma yella lqem amaynut...
+settings-update-downloading-2 =
+    .label = Asader n lqem—  { $transfer }
+aboutdialog-update-downloading = Asader n lqem — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Asnas n uleqqem.
+settings-update-applying =
+    .label = Asnas n uleqqem.
+update-failed = Aleqqem ur yemmid ara. <label data-l10n-name="failed-link">Sader lqem aneggaru </label>
+update-failed-main = Aleqqem ur yemmid ara. <a data-l10n-name="failed-link-main">Sader lqem aneggaru </a>
+update-policy-disabled = Ileqman ttwasensen sɣur tkebbanit
+settings-update-policy-disabled =
+    .label = Ileqman ttwasensen sɣur tkebbanit
+update-noUpdatesFound = { -brand-short-name } yettwaleqqem
+settings-update-no-updates-found =
+    .label = { -brand-short-name } yettwaleqqem
+aboutdialog-update-checking-failed = Aɣelluy deg usenqed n yileqman.
+settings-update-checking-failed =
+    .label = Aɣelluy deg usenqed n yileqman.
+update-otherInstanceHandlingUpdates = { -brand-short-name } tleqqem-it tummant-nniḍen
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } tleqqem-it tummant-nniḍen
+aboutdialog-update-manual-with-link = Ileqman llan deg  <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Ileqman llan deg  <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Ur tezmireḍ ara ad tleqmeḍ ugar ɣef unagraw-agi. <label data-l10n-name="unsupported-link">Issin ugar </label>
+settings-update-unsupported = Ur tezmireḍ ara ad tleqmeḍ ugar ɣef unagraw-agi. <a data-l10n-name="unsupported-link">Issin ugar </a>
+update-restarting = Aɛiwed n usenker…
+settings-update-restarting =
+    .label = Aɛiwed n usenker…
+update-internal-error2 = Tella-d tuccḍa tagensant i yesweḥlen asenqed n yileqman. Ad ten-tafeḍ deg <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-internal-error = Tella-d tuccḍa tagensant i yesweḥlen asenqed n yileqman. Ad ten-tafeḍ deg <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-channel-description = Aqli-k tura deg <label data-l10n-name="current-channel">{ $channel }</label>.
+warningDesc-version = { -brand-short-name } d armitan yerna ur yerkid.
+aboutdialog-help-user = Tallalt n { -brand-product-name }
+aboutdialog-submit-feedback = Azen tamuɣli-ik·im
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name } </label> d <label data-l10n-name="community-exp-creditsLink">tamezdagnut tamaḍalant </label> ad neqdec lwaḥid akken ad neǧǧ Web yeldi, d azayez, d uffran i yal yiwen.
+community-2 = { -brand-short-name } ifeṣṣel-it <label data-l10n-name="community-mozillaLink">{ -vendor-short-name } </label>,agraw amaḍlan n  <label data-l10n-name="community-creditsLink">imttekkiyen </label> ad nexdem lwaḥid akken ad neǧǧ Web yeldi, d azayez, d uffran i yal yiwen.
+helpus = Tebɣiḍ tallelt? <label data-l10n-name="helpus-donateLink">Efk tawsa</label> neɣ <label data-l10n-name="helpus-getInvolvedLink">kki!</label>
+bottomLinks-license = Talɣut n turagt
+bottom-links-terms = Tiwtilin n useqdec
+bottom-links-privacy = Tasertit n tbaḍnit
+aboutDialog-version = { $version } ({ $bits }-ibiten)
+aboutDialog-version-nightly = { $version } ({ $isodate })({ $bits }-ibiten)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })

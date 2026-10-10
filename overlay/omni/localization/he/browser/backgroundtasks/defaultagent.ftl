@@ -1,0 +1,5 @@
+default-browser-agent-task-description = המשימה המתוזמנת Default Browser Agent בודקת כאשר דפדפן ברירת המחדל משתנה מ־{ -brand-short-name } לדפדפן אחר. אם השינוי מתרחש בנסיבות חשודות, תוצג בקשה בפני המשתמשים לשנות את ברירת המחדל ל־{ -brand-short-name } לא יותר מפעמיים. משימה זו מותקנת באופן אוטומטי על־ידי { -brand-short-name }, והיא מותקנת מחדש כאשר { -brand-short-name } מתעדכן. כדי להשבית משימה זו יש לעדכן את ההעדפה “default-browser-agent.enabled” בדף about:config או את הגדרת המדיניות הארגונית “DisableDefaultBrowserAgent” ב־{ -brand-short-name }.
+default-browser-notification-privacy-header-text = להישאר עם { -brand-short-name }?
+default-browser-notification-privacy-body-text = ברירת המחדל שלך השתנתה. כדאי להחזיר אותה ל־{ -brand-short-name } לקבלת פרטיות והגנה מובנות.
+default-browser-notification-yes-button-text = כן
+default-browser-notification-privacy-no-button-text = לא תודה

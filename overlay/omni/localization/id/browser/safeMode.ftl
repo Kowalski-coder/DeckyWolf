@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Buka { -brand-short-name } dalam Mode Pemecahan Masalah?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Buka
+refresh-profile =
+    .label = Segarkan { -brand-short-name }
+troubleshoot-mode-description = Gunakan mode khusus { -brand-short-name } ini untuk mendiagnosis masalah. Ekstensi dan penyesuaian Anda akan dinonaktifkan untuk sementara.
+skip-troubleshoot-refresh-profile = Anda juga dapat melewati proses pemecahan masalah ini dan mencoba untuk menyegarkan { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } tertutup tiba-tiba saat mulai. Ini dapat disebabkan oleh pengaya atau masalah lainnya. Anda dapat mencoba untuk memecahkan masalahnya dalam Mode Aman.

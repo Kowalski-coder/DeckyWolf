@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Rnu iccer ɣer uffag n temsekra
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Kkes iccer seg ufeggag n temsekra
+taskbar-tab-urlbar-button-show = Sken tigawt n usebter n usnas web
+taskbar-tab-urlbar-button-hide = Ffer tigawt n usebter n usnas web
+taskbar-tab-shortcut-description = Asnas web { $name }
+taskbar-tab-shortcut-folder = Isnasen web n { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Sgugem iccer
+taskbar-tab-audio-unmute =
+    .tooltiptext = Kkes tasusmi n yiccer
+taskbar-tab-title-default = { $name } deg { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) deg { -brand-full-name }
+taskbar-tab-title-profile = { $name } deg { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) deg { $profile } — { -brand-full-name }

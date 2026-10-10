@@ -1,0 +1,15 @@
+panic-button-open-new-window = ஒரு புதிய சுத்தமான சாளரத்தை திற
+panic-button-undo-warning = இந்த செயல் மறைக்க முடியாது.
+panic-button-forget-button =
+    .label = மற!
+panic-main-timeframe-desc = முன்னர் நடந்ததை மற:
+panic-button-5min =
+    .label = ஐந்து நிமிடங்கள்
+panic-button-2hr =
+    .label = இரண்டு மணிநேரம்
+panic-button-day =
+    .label = 24 மணி நேரம்
+panic-button-action-desc = தொடரும்பொருட்டு:
+panic-button-delete-cookies = சமீபத்திய <strong>நினைவிகளை</strong> அழி
+panic-button-delete-history = சமீபத்திய <strong>வரலாறுகளை</strong> அழி
+panic-button-delete-tabs-and-windows = அனைத்து <strong>கீற்றுகள்</strong> மற்றும் <strong>சாளரங்களை</strong> மூடு

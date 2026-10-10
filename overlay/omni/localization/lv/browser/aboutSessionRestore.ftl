@@ -1,0 +1,26 @@
+restore-page-tab-title = Atjaunot sesiju
+restore-page-error-title = Atvainojamies! Mums neizdevās atgūt Tavas lapas.
+restore-page-problem-desc = Mums neizdodas atjaunot iepriekšējo pārlūkošanas sesiju. Lai mēģinātu vēlreiz, jāizvēlas “Atjaunot sesiju”.
+restore-page-try-this = Joprojām neizdodas atjaunot sesiju? Reizēm kāda cilne rada sarežģījumus. Aplūko iepriekšējās cilnes un noņem atzīmi no tām, kuras nav nepieciešamas atjaunot, tad mēģini vēlreiz!
+restore-page-hide-tabs = Paslēpt iepriekšējās cilnes
+restore-page-show-tabs = Rādīt iepriekšējās cilnes
+restore-page-window-label = Logs { $windowNumber }
+restore-page-restore-header =
+    .label = Atjaunot
+restore-page-list-header =
+    .label = Logi un cilnes
+restore-page-try-again-button =
+    .label = Atjaunot sesiju
+    .accesskey = A
+restore-page-close-button =
+    .label = Sākt jaunu sesiju
+    .accesskey = N
+welcome-back-tab-title = Veiksme!
+welcome-back-page-title = Veiksme!
+welcome-back-page-info = { -brand-short-name } ir gatavs darbam.
+welcome-back-restore-button =
+    .label = Lai notiek!
+    .accesskey = L
+welcome-back-restore-all-label = Atjaunot visus logus un cilnes
+welcome-back-restore-some-label = Atjaunot tikai atlasītos
+welcome-back-page-info-link = Tavi papildinājumu un pārlūka pielāgojumi ir izņemti. Iestatījumi ir atjaunoti uz noklusējumu. Ja tas neatrisināja nebūšanu, <a data-l10n-name="link-more">uzzini vairāk par to, ko vēl var darīt</a>.

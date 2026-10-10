@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Witajcie, ludzie!
+error-short-desc-text = Przybywamy do Was w pokoju i dobrej woli!
+error-long-desc1 = Robot nie może skrzywdzić człowieka, ani przez zaniechanie dopuścić, by doznał on krzywdy.
+error-long-desc2 = Roboty widziały rzeczy, o których Wam, ludziom, się nie śniło.
+error-long-desc3 = Roboty to Twoi plastikowi kumple, z którymi fajnie jest przebywać.
+error-long-desc4 = Roboty mają lśniące, metalowe tyłki, których nie należy gryźć.
+error-trailer-desc-text = I mają plan.
+error-try-again = Spróbuj ponownie
+    .label2 = Proszę więcej nie naciskać tego przycisku.

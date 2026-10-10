@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Обележувачи
+sidebar-menu-bookmarks-2 = Обележувачи
+sidebar-menu-history =
+    .label = Историја
+sidebar-menu-synced-tabs =
+    .label = Синхронизирани јазичиња
+sidebar-menu-close =
+    .label = Затвори странична лента
+sidebar-close-button =
+    .tooltiptext = Ја затвора страничната лента

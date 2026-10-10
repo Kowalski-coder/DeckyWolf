@@ -1,0 +1,12 @@
+active-policies-tab = Dirante
+errors-tab = Firkawey
+documentation-tab = Bayraytiira
+active-policies-tab-title =
+    .title = Dirante
+errors-tab-title =
+    .title = Firkawey
+documentation-tab-title =
+    .title = Bayraytiira
+policy-name = Alaada maa
+policy-value = Alaada hinna
+policy-errors = Alaada firkawey

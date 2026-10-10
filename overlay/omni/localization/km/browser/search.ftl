@@ -1,0 +1,16 @@
+opensearch-error-duplicate-title = កំហុស​ដំឡើង
+opensearch-error-duplicate-desc = { -brand-short-name } មិន​អាច​ដំឡើង​កម្មវិធី​ជំនួយ​ស្វែងរក​ពី "{ $location-url }" បាន​ទេ ពីព្រោះ​មាន​ម៉ាស៊ីន​ដែល​មាន​ឈ្មោះ​ដូចគ្នា​រួច​ហើយ ។
+opensearch-error-format-title = ទម្រង់​មិន​ត្រឹមត្រូវ
+opensearch-error-format-desc = { -brand-short-name } មិន​អាច​ដំឡើង​ម៉ាស៊ីន​ស្វែងរក​ចេញពី៖ { $location-url } បាន​ទេ
+opensearch-error-download-title = កំហុស​ទាញ​យក
+opensearch-error-download-desc = { -brand-short-name } មិន​អាច​ទាញ​យក​កម្មវិធី​ជំនួយ​ស្វែងរក​ពី ៖ { $location-url }
+searchbar-submit =
+    .tooltiptext = ដាក់​ស្នើ​ការ​ស្វែងរក
+searchbar-input =
+    .placeholder = ស្វែងរក
+searchbar-icon =
+    .tooltiptext = ស្វែងរក
+add-engine-window =
+    .style = min-width: 32em;
+    .title = បញ្ចូល​​ម៉ាស៊ីន​ស្វែងរក
+add-engine-button = បញ្ចូល​ម៉ាស៊ីនផ្ទាល់ខ្លួន

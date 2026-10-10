@@ -1,0 +1,14 @@
+panic-button-open-new-window = නව පිරිසිදු කවුළුවක් අරින්න
+panic-button-undo-warning = මෙම ක්‍රියාමාර්ගය අප්‍රතිවර්ත්‍යයි.
+panic-button-forget-button =
+    .label = අමතක!
+panic-button-5min =
+    .label = විනාඩි පහක්
+panic-button-2hr =
+    .label = පැය දෙකක්
+panic-button-day =
+    .label = පැය 24
+panic-button-action-desc = ඉදිරියට යාමෙන්:
+panic-button-delete-cookies = මෑත <strong>දත්තකඩ</strong> මකන්න
+panic-button-delete-history = මෑත <strong>ඉතිහාසය</strong> මකන්න
+panic-button-delete-tabs-and-windows = සියළුම <strong>පටිති</strong> හා <strong>කවුළු</strong> වසන්න

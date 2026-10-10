@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = பயன்பாட்டு விவரங்கள்
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = நீக்கு
+    .accesskey = ந
+app-manager-handle-protocol = பின்வரும் பயன்பாடுகள் { $type } இணைப்புகள்-ஐ கையாள பயன்படுத்தப்படும்.
+app-manager-handle-file = பின்வரும் பயன்பாடுகள் { $type } உள்ளடக்கம்-ஐ கையாள பயன்படுத்தப்படும்.
+app-manager-web-app-info = இந்த இணைய பயன்பாடு இங்கு நிறுவப்பட்டு இருக்கிறது:
+app-manager-local-app-info = இந்தப் பயன்பாடு இங்குள்ளது:

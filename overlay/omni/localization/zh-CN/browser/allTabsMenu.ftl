@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = 搜索所有标签页
+all-tabs-menu-new-user-context =
+    .label = 新建身份标签页
+all-tabs-menu-hidden-tabs =
+    .label = 隐藏标签页
+all-tabs-menu-close-duplicate-tabs =
+    .label = 关闭重复标签页
+all-tabs-menu-view-all-tabs =
+    .label = 查看所有标签页
+all-tabs-menu-recent-tab-groups-header = 近期标签页群组
+all-tabs-menu-tab-groups-show-all =
+    .label = 全部显示
+all-tabs-menu-tab-groups-sub-view =
+    .title = 标签页群组
+all-tabs-menu-current-window-header = 当前窗口

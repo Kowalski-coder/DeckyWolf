@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (không tiêu đề)
+places-load-js-data-url-error = Vì lý do bảo mật, không thể tải các URL “javascript:” hoặc “data:” từ cửa sổ lịch sử hoặc thanh lề.
+places-bookmarks-backup-title = Tên tập tin sao lưu dấu trang
+places-bookmarks-restore-alert-title = Khôi phục dấu trang
+places-bookmarks-restore-alert = Việc này sẽ ghi đè tất cả các dấu trang hiện thời của bạn. Bạn có chắc không?
+places-bookmarks-restore-title = Chọn bản sao lưu chứa dấu trang
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Kiểu tập tin không hỗ trợ.
+places-bookmarks-restore-parse-error = Không thể xử lí tập tin sao lưu.
+places-bookmarks-import = Nhập tập tin chứa dấu trang
+places-bookmarks-export = Xuất dấu trang sang tập tin
+places-bookmarks-paste-error-title = Đã tìm thấy (các) URL không hợp lệ
+places-bookmarks-paste-error-message-header = Không thể thêm (các) URL sau vào dấu trang của bạn. Hãy thử kiểm tra định dạng và thêm lại chúng.

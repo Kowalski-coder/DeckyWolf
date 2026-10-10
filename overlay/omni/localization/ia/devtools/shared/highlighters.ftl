@@ -1,0 +1,13 @@
+grid-row-column-positions = Linea { $row } / Columna { $column }
+gridtype-container = Contentor de grillia
+gridtype-item = Elemento del grillia
+gridtype-dual = Contentor/elemento de grillia
+flextype-container = Contentor Flex
+flextype-item = Elemento flex
+flextype-dual = Contentor/elemento Flex
+remote-node-picker-notice = DevTools Node Picker activate. { $action }
+remote-node-picker-notice-action-desktop = Clicca un elemento pro seliger lo in le Inspector
+remote-node-picker-notice-action-touch = Tocca un elemento pro seliger lo in le Inspector
+remote-node-picker-notice-hide-button = Celar
+simple-highlighters-message = Quando le preferentia de motion reducite es activate, un evidentiator plus simple pote esser activate in le quadro del parametros, pro evitar colores fulgurante.
+simple-highlighters-settings-button = Aperir le parametros

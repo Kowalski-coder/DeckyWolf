@@ -1,0 +1,9 @@
+aiwindow-starter-scroll-start =
+    .aria-label = Pomakni se natrag
+    .tooltiptext = Pomakni se natrag
+aiwindow-starter-scroll-end =
+    .aria-label = Pomakni se naprijed
+    .tooltiptext = Pomakni se naprijed
+aiwindow-starter-dismiss =
+    .aria-label = Odbaci { $text }
+    .title = Odbaci { $text }

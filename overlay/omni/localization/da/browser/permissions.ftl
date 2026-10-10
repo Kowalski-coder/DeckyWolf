@@ -1,0 +1,14 @@
+perm-persistent-storage-remember = Husk dette valg
+speech-recognition-model-download-header = Opsæt talegenkendelse?
+speech-recognition-model-download-allow =
+    .label = Fortsæt
+    .accesskey = F
+speech-recognition-model-download-not-now =
+    .label = Ikke nu
+    .accesskey = k
+speech-recognition-model-download-cancel =
+    .label = Annuller
+    .accesskey = A
+speech-recognition-model-download-ok =
+    .label = OK
+    .accesskey = O

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Қайта аймалау мәзіріне бекітуді алып тастау
+    .accesskey = а
+customize-menu-add-to-toolbar =
+    .label = Құралдар панеліне қосу
+    .accesskey = о
+customize-menu-add-to-overflowmenu =
+    .label = Қайта аймалау мәзіріне қосу
+    .accesskey = м
+panic-button-thankyou-msg1 = Жуырдағы тарих өшірілді.
+panic-button-thankyou-msg2 = Қауіпсіз шолу!
+panic-button-thankyou-button =
+    .label = Рахмет!

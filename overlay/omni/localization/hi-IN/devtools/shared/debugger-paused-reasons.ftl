@@ -1,0 +1,12 @@
+whypaused-debugger-statement = डीबगर कथन पर रोका गया
+whypaused-breakpoint = ब्रेकपॉइंट पर रोका गया
+whypaused-exception = अपवाद पर रोक
+whypaused-mutation-breakpoint-added = जोड़ा गया:
+whypaused-mutation-breakpoint-removed = हटाया गया:
+whypaused-resume-limit = निकलते हुए रोका गया
+whypaused-pause-on-dom-events = आयोजित श्रोताओ को रोका गया
+whypaused-breakpoint-condition-thrown = प्रतिबंधात्मक ब्रेकपॉइंट के साथ त्रुटि
+whypaused-promise-rejection = वादा अस्वीकृति पर रोक दिया गया
+whypaused-assert = अभिकथन पर रोका गया
+whypaused-debug-command = डीबग फ़ंक्शन पर रोका गया
+whypaused-other = डीबगर रोका गया

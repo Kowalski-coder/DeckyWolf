@@ -1,0 +1,9 @@
+crashed-subframe-message = <strong>Cascó parte d'esta páxina.</strong> Pa facer que { -brand-product-name } sepa d'esti fallu ya igualu rápido, unvia un informe.
+crashed-subframe-learnmore-link =
+    .value = Lleer más
+pending-crash-reports-view-all =
+    .label = Ver
+pending-crash-reports-send =
+    .label = Unviar
+pending-crash-reports-always-send =
+    .label = Unviar siempres

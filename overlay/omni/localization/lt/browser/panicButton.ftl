@@ -1,0 +1,15 @@
+panic-button-open-new-window = atvertas naujas tuščias naršyklės langas
+panic-button-undo-warning = Atlikus šį veiksmą, jo atšaukti neįmanoma.
+panic-button-forget-button =
+    .label = Valyti!
+panic-main-timeframe-desc = Pašalinti įrašus:
+panic-button-5min =
+    .label = penkių minučių
+panic-button-2hr =
+    .label = dviejų valandų
+panic-button-day =
+    .label = 24 valandų
+panic-button-action-desc = Jeigu tęsite, bus:
+panic-button-delete-cookies = pašalinti paskiausi <strong>slapukai</strong>
+panic-button-delete-history = išvalyti <strong>naršymo žurnalo</strong> įrašai
+panic-button-delete-tabs-and-windows = užvertos visos <strong>kortelės</strong> ir <strong>langai</strong>

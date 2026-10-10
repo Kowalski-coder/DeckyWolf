@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Osa sellest lehest jooksis kokku.</strong> Kui soovid, et { -brand-product-name } teaks sellest probleemist ja lahendaks selle kiiremini, siis raporteeri sellest palun.
+crashed-subframe-title =
+    .title = Osa sellest lehest jooksis kokku. Kui soovid, et { -brand-product-name } teaks sellest probleemist ja lahendaks selle kiiremini, siis raporteeri sellest palun.
+crashed-subframe-learnmore-link =
+    .value = Rohkem teavet
+crashed-subframe-submit =
+    .label = Saada raport
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = Vaata
+pending-crash-reports-send =
+    .label = Saada
+pending-crash-reports-always-send =
+    .label = Saada alati

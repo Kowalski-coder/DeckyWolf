@@ -1,0 +1,12 @@
+serviceworker-empty-intro-link = Lleer más
+manifest-item-warnings = Fallos y alvertencies
+manifest-item-identity = Identidá
+manifest-item-presentation = Presentación
+manifest-icon-img =
+    .alt = Iconu
+icon-warning =
+    .alt = Iconu d'alvertencia
+    .title = Alvertencia
+icon-error =
+    .alt = Iconu de fallu
+    .title = Fallu

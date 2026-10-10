@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Avataanko { -brand-short-name } vianmääritystilassa?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Avaa
+refresh-profile =
+    .label = Palauta { -brand-short-name } uudenveroiseksi
+troubleshoot-mode-description = Käytä tätä { -brand-short-name }in erikoistilaa ongelmien diagnosointiin. Laajennukset ja mukautukset poistetaan väliaikaisesti käytöstä.
+skip-troubleshoot-refresh-profile = Voit myös ohittaa vian syyn etsimisen ja sen sijaan palauttaa { -brand-short-name } uudenveroiseksi.
+auto-safe-mode-description = { -brand-short-name } yllättäen sulkeutui käynnistettäessä. Tämä voi johtua viallisista lisäosista tai muista syistä. Voit yrittää etsiä vian syytä vikasietotilassa.

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Dobrir una novèla fenèstra verge
+panic-button-undo-warning = Impossible d'anullar aquesta accion.
+panic-button-forget-button =
+    .label = Escafar
+panic-main-timeframe-desc = Escafar :
+panic-button-5min =
+    .label = Las darrièras cinc minutas
+panic-button-2hr =
+    .label = Las darrièras doas oras
+panic-button-day =
+    .label = Las darrièras 24 oras
+panic-button-action-desc = Se contunhatz, anatz :
+panic-button-delete-cookies = Suprimir los <strong>Cookies</strong> recents
+panic-button-delete-history = Suprimir l'<strong>Istoric</strong> recent
+panic-button-delete-tabs-and-windows = Tampar totes los <strong>onglets</strong> e totas las <strong>fenèstras</strong>

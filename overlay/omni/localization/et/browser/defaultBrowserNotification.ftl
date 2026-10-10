@@ -1,0 +1,12 @@
+default-browser-notification-message = <strong>Kas määrata { -brand-short-name } vaikebrauseriks?</strong> Kasuta kiiret, turvalist ja privaatset veebilehitsejat igal pool.
+default-browser-notification-button =
+    .label = Määra vaikeväärtuseks
+    .accesskey = M
+default-browser-prompt-title-pin = Kas muuta { -brand-short-name } peamiseks brauseriks?
+default-browser-prompt-message-pin = Hoia { -brand-short-name } käeulatuses — tee see oma vaikebrauseriks ja kinnita tegumiribale.
+default-browser-prompt-message-pin-mac = Hoia { -brand-short-name } käeulatuses — tee see oma vaikebrauseriks ning hoia seda dokis.
+default-browser-prompt-title-alt = Kas määrata { -brand-short-name } vaikebrauseriks?
+default-browser-prompt-message-alt = Lehitse veebi kiirelt, turvaliselt ja privaatselt alati.
+default-browser-prompt-button-primary-alt = Määra vaikebrauseriks
+default-browser-prompt-checkbox-not-again-label = Seda teadet rohkem ei kuvata
+default-browser-prompt-button-secondary = Mitte praegu

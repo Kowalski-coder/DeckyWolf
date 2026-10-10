@@ -1,0 +1,29 @@
+about-unloads-page-title = إلغاء تحميل الألسنة
+about-unloads-intro =
+    يحتوي { -brand-short-name } على ميزة إلغاء تحميل الألسنة تلقائيًا
+    لمنع إنهيار التطبيق بسبب نقص الذاكرة
+    عندما تكون الذاكرة المتاحة في النظام منخفضة. يتم اختيار اللسان التالي المراد إلغاء تحميلها
+    بناءً على عدة خصائص. توضح هذه الصفحة كيف
+    يُعطي { -brand-short-name } الأولوية لألسنة، وأي لسان سيتم إلغاء تحميله
+    عند بدء عملية إلغاء تحميل لألسنة. يمكنك بدء عملية إلغاء تحميل لألسنة يدويًا
+    بالنقر على زر "ألغِ التحميل" أدناه.
+about-unloads-learn-more = راجِع <a data-l10n-name="doc-link">إلغاء تحميل الألسنة</a> للاطّلاع على المزيد بخصوص هذه الميزة والصفحة.
+about-unloads-last-updated = آخر تحديث: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric", hour12: "false") }
+about-unloads-button-unload = ألغِ التحميل
+    .title = ألغِ تحميل اللسان ذو الأولوية العالية
+about-unloads-no-unloadable-tab = لا توجد ألسنة يمكن إلغاء تحميلها.
+about-unloads-column-priority = الأولويّة
+about-unloads-column-host = المضيف
+about-unloads-column-last-accessed = تاريخ آخر وصول
+about-unloads-column-weight = الوزن الأساسي
+    .title = تُرتّب الألسنة أولًا حسب هذه القيمة التي تعتمد على بعض الصفات مثل تشغيل الأصوات أو بروتوكول WebRTC أو غيرها.
+about-unloads-column-sortweight = الوزن الثانوي
+    .title = تُرتّب الألسنة حسب هذه القيمة (إن توفّرت) بعد ترتيبها حسب الوزن الأساسي. تُحتسب القيمة من استعمال اللسان للذاكرة وعدد العمليات.
+about-unloads-column-memory = الذاكرة
+    .title = استعمال اللسان المقدّر للذاكرة
+about-unloads-column-processes = معرّفات العمليات
+    .title = معرّفات العمليات التي تستضيف محتوى اللسان
+about-unloads-last-accessed = { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric", hour12: "false") }
+about-unloads-memory-in-mb = { NUMBER($mem, maxFractionalUnits: 2) } م.بايت
+about-unloads-memory-in-mb-tooltip =
+    .title = { NUMBER($mem, maxFractionalUnits: 2) } م.بايت

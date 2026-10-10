@@ -1,0 +1,16 @@
+protections-panel-etp-more-info =
+    .aria-label = Tuilleadh eolais faoi Ardchosaint ar Lorgaireacht
+protections-panel-etp-on-header = Tá Ardchosaint ar Lorgaireacht AR SIÚL don suíomh seo
+protections-panel-etp-off-header = Tá Ardchosaint ar Lorgaireacht MÚCHTA don suíomh seo
+protections-panel-not-blocking-why-label = Cén fáth?
+protections-panel-content-blocking-tracking-protection = Ábhar Lorgaireachta
+protections-panel-content-blocking-socialblock = Lorgairí Meán Sóisialta
+protections-panel-content-blocking-cryptominers-label = Criptimhianadóirí
+protections-panel-content-blocking-fingerprinters-label = Méarlorgairí
+protections-panel-blocking-label = Coiscthe
+protections-panel-not-blocking-label = Ceadaithe
+protections-panel-settings-label = Socruithe Cosanta
+protections-panel-content-blocking-manage-settings =
+    .label = Bainistigh na Socruithe Cosanta
+    .accesskey = B
+cfr-protections-panel-link-text = Tuilleadh eolais

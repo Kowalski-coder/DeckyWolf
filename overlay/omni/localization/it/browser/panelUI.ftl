@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Rimuovi dal menu extra
+    .accesskey = x
+customize-menu-add-to-toolbar =
+    .label = Aggiungi alla barra degli strumenti
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Aggiungi al menu extra
+    .accesskey = x
+panic-button-thankyou-msg1 = La cronologia recente è stata eliminata.
+panic-button-thankyou-msg2 = Buona navigazione.
+panic-button-thankyou-button =
+    .label = Grazie

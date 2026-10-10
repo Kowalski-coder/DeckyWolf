@@ -1,0 +1,47 @@
+styleeditor-new-button =
+    .tooltiptext = Vytvoří nový stylopis a připojí ho k dokumentu
+    .accesskey = N
+styleeditor-import-button =
+    .tooltiptext = Naimportuje stávající stylopis a připojí ho k dokumentu
+    .accesskey = I
+styleeditor-filter-input =
+    .placeholder = Filtrovat kaskádové styly
+styleeditor-visibility-toggle =
+    .tooltiptext = Přepne viditelnost stylopisu
+    .accesskey = U
+styleeditor-visibility-toggle-system =
+    .tooltiptext = Systémové styly není možné deaktivovat
+styleeditor-save-button = Uložit
+    .tooltiptext = Uloží stylopis do souboru
+    .accesskey = U
+styleeditor-options-button =
+    .tooltiptext = Možnosti Editoru stylů
+styleeditor-at-rules = @-pravidla
+styleeditor-no-stylesheet = Tato stránka nemá připojený stylopis.
+styleeditor-no-stylesheet-tip = Můžete <a data-l10n-name="append-new-stylesheet">připojit nový stylopis</a>.
+styleeditor-open-link-new-tab =
+    .label = Otevřít odkaz v novém panelu
+styleeditor-copy-url =
+    .label = Kopírovat URL
+styleeditor-find =
+    .label = Najít
+    .accesskey = j
+styleeditor-find-again =
+    .label = Najít další
+    .accesskey = t
+styleeditor-go-to-line =
+    .label = Přejít na řádek…
+    .accesskey = n
+styleeditor-stylesheet-all-filtered = Nebyly nalezeny žádná odpovídající kaskádové styly.
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } pravidlo.
+        [few] { $ruleCount } pravidla..
+       *[other] { $ruleCount } pravidel.
+    }
+styleeditor-pretty-print-button =
+    .title = Naformátuje soubor stylů
+styleeditor-pretty-print-button-disabled =
+    .title = Dokáže naformátovat pouze soubory CSS
+styleeditor-pretty-print-button-disabled-read-only =
+    .title = Kaskádový styl pouze pro čtení nelze naformátovat.

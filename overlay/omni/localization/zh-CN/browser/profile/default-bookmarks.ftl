@@ -1,0 +1,14 @@
+default-bookmarks-title = 书签
+default-bookmarks-heading = 书签
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = 获取帮助
+default-bookmarks-firefox-customize = 定制 Firefox
+default-bookmarks-firefox-community = 参与进来
+default-bookmarks-firefox-about = 关于我们
+default-bookmarks-nightly-heading = Firefox Nightly 资源
+default-bookmarks-nightly-blog = Firefox Nightly 博客
+default-bookmarks-bugzilla = Mozilla 缺陷跟踪网站
+default-bookmarks-mdn = Mozilla 开发者网络
+default-bookmarks-nightly-tester-tools = Nightly 测试者工具
+default-bookmarks-crashes = 所有崩溃信息
+default-bookmarks-planet = Planet Mozilla

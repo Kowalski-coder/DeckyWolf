@@ -1,0 +1,15 @@
+panic-button-open-new-window = Åpne et nytt, friskt vindu
+panic-button-undo-warning = Denne handlingen kan ikke angres.
+panic-button-forget-button =
+    .label = Glem!
+panic-main-timeframe-desc = Glem de siste:
+panic-button-5min =
+    .label = Fem minutter
+panic-button-2hr =
+    .label = To timene
+panic-button-day =
+    .label = 24 timer
+panic-button-action-desc = Hvis du fortsetter vil:
+panic-button-delete-cookies = Nylig opprettede <strong>infokapsler</strong> slettes
+panic-button-delete-history = Nylig <strong>historikk</strong> slettes
+panic-button-delete-tabs-and-windows = Lukke alle <strong>faner</strong> og <strong>vinduer</strong>

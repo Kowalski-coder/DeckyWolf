@@ -1,0 +1,17 @@
+opensearch-error-duplicate-title = Error d'instal·lació
+opensearch-error-duplicate-desc = El { -brand-short-name } no ha pogut instal·lar el motor de cerca de «{ $location-url }» perquè ja n'existeix un amb el mateix nom.
+opensearch-error-format-title = Format no vàlid
+opensearch-error-format-desc = El { -brand-short-name } no ha pogut instal·lar el motor de cerca des de: { $location-url }
+opensearch-error-download-title = Error en la baixada
+opensearch-error-download-desc = El { -brand-short-name } no ha pogut baixar el connector de cerca de: { $location-url }
+searchbar-submit =
+    .tooltiptext = Envia la cerca
+searchbar-input =
+    .placeholder = Cerca
+searchbar-icon =
+    .tooltiptext = Cerca
+add-engine-window =
+    .style = min-width: 32em;
+    .title = Afig un motor de cerca
+add-engine-button = Afig un motor personalitzat
+add-engine-name = Nom del motor de cerca

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = অ্যাপ্লিকেশনের বিবরণ
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = অপসারণ করুন
+    .accesskey = R
+app-manager-handle-protocol = { $type } লিঙ্ক নিম্নলিখিত অ্যাপ্লিকেশন পরিচালনার জন্যে ব্যবহার করা যাবে।
+app-manager-handle-file = { $type } কন্টেন্ট নিম্নলিখিত অ্যাপ্লিকেশন পরিচালনার জন্যে ব্যবহার করা যাবে।
+app-manager-web-app-info = এই ওয়েব অ্যাপ্লিকেশন হোস্ট করা হয়েছে:
+app-manager-local-app-info = এই অ্যাপ্লিকেশনের অবস্থান:

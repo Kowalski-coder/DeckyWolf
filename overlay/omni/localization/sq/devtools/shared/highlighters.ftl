@@ -1,0 +1,13 @@
+grid-row-column-positions = Rreshti { $row } / Shtylla { $column }
+gridtype-container = Kontejner Rrjete
+gridtype-item = Element Rrjete
+gridtype-dual = Kontejner/Element Rrjete
+flextype-container = Kontejner Fleks
+flextype-item = Element Fleks
+flextype-dual = Kontejner/Element Fleks
+remote-node-picker-notice = U aktivizua Zgjedhës Nyjash DevTools. { $action }
+remote-node-picker-notice-action-desktop = Klikoni mbi një element që të përzgjidhet te Mbikëqyrësi
+remote-node-picker-notice-action-touch = Prekni mbi një element që të përzgjidhet te Mbikëqyrësi
+remote-node-picker-notice-hide-button = Fshihe
+simple-highlighters-message = Kur prefers-reduced-motion është e aktivizuar, te paneli i rregullimeve mund të aktivizohet një theksues më i thjeshtë, për të shmangur ngjyra të ndezura.
+simple-highlighters-settings-button = Hap Rregullimet

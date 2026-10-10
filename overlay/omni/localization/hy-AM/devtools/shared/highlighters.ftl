@@ -1,0 +1,9 @@
+grid-row-column-positions = Տող { $row } / Սյունակ { $column }
+gridtype-container = Ցանցային պարունակ
+gridtype-item = Ցանցային բաղադրիչ
+gridtype-dual = Ցանցային պարունակ/Տարր
+flextype-container = Սնուցման պարունակ
+flextype-item = Սնուցման տարր
+flextype-dual = Սնուցման պարունակ/Տարր
+remote-node-picker-notice-hide-button = Թաքցնել
+simple-highlighters-settings-button = Բացել կարգավորումները

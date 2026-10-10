@@ -1,0 +1,9 @@
+clear-data-for-site-title = לנקות את כל הנתונים עבור אתר זה?
+clear-data-for-site-list = פעולה זו תנקה את כל הנתונים עבור { $site } לרבות:
+clear-data-for-site-browsing-history = היסטוריית גלישה והורדות
+clear-data-for-site-cookies = עוגיות ונתוני אתרים, שמחיקתם עשויה לנתק אותך מהאתר
+clear-data-for-site-cache = קבצים ודפים במטמון
+cclear-data-for-site-permissions = הרשאות והעדפות
+clear-data-for-site-exceptions = סימניות וססמאות שמורות לא יימחקו
+clear-data-for-site-dialog-accept-button = ניקוי נתונים
+clear-data-for-site-dialog-cancel-button = ביטול

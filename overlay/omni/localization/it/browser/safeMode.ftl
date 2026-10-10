@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .style = max-width: 400px
+    .title = Aprire { -brand-short-name } in Modalità risoluzione problemi?
+start-troubleshoot-mode =
+    .label = Apri
+refresh-profile =
+    .label = Ripristina { -brand-short-name }
+troubleshoot-mode-description = Utilizza questa speciale modalità di { -brand-short-name } per identificare e risolvere problemi. Estensioni e personalizzazioni verranno temporaneamente disattivate.
+skip-troubleshoot-refresh-profile = È possibile saltare questo passaggio e ripristinare { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } si è chiuso in modo imprevisto durante l’avvio. Questo potrebbe essere dovuto ai componenti aggiuntivi installati o altre cause. È possibile cercare di risolvere l’errore utilizzando la Modalità provvisoria.

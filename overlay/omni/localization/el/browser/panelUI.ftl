@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ξεκαρφίτσωμα από το μενού υπερχείλισης
+    .accesskey = Ξ
+customize-menu-add-to-toolbar =
+    .label = Προσθήκη στη γραμμή εργαλείων
+    .accesskey = Α
+customize-menu-add-to-overflowmenu =
+    .label = Προσθήκη στο μενού υπερχείλισης
+    .accesskey = μ
+panic-button-thankyou-msg1 = Το πρόσφατο ιστορικό σας έχει διαγραφτεί.
+panic-button-thankyou-msg2 = Καλή και ασφαλή περιήγηση!
+panic-button-thankyou-button =
+    .label = Ευχαριστώ!

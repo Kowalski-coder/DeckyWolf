@@ -1,0 +1,15 @@
+panic-button-open-new-window = Opna nýjan tóman glugga
+panic-button-undo-warning = Ekki er ekki hægt að bakfæra þessa aðgerð.
+panic-button-forget-button =
+    .label = Gleyma!
+panic-main-timeframe-desc = Gleyma seinustu:
+panic-button-5min =
+    .label = Fimm mínútum
+panic-button-2hr =
+    .label = Tveimur klukkutímum
+panic-button-day =
+    .label = 24 tímum
+panic-button-action-desc = Sé haldið áfram mun:
+panic-button-delete-cookies = Eyða nýjustu <strong>vefkökum</strong>
+panic-button-delete-history = Eyða nýjasta <strong>vafurferli</strong>
+panic-button-delete-tabs-and-windows = Loka öllum <strong>flipum</strong> og <strong>gluggum</strong>

@@ -1,0 +1,12 @@
+grid-row-column-positions = Izirig { $row } / tigejda { $column }
+gridtype-container = Amagbar n yiẓiki
+gridtype-item = Aferdis n yiẓiki
+gridtype-dual = Amagbar /Item n yiẓiki
+flextype-container = Amagbar Flex
+flextype-item = Aferdis Flex
+flextype-dual = Amagbar /Item Flex
+remote-node-picker-notice = Amefran n tkerrist DevTools yermed. { $action }
+remote-node-picker-notice-action-desktop = Sit ɣef uferdis i wakken ad t-id-tferneḍ deg umaswaḍ
+remote-node-picker-notice-action-touch = Sit ɣef uferdis i wakken ad t-id-tferneḍ deg umaswaḍ
+remote-node-picker-notice-hide-button = Ffer
+simple-highlighters-settings-button = Ldi iɣewwaren

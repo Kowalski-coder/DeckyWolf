@@ -1,0 +1,13 @@
+places-error-title = { -brand-short-name }
+places-no-title = (անվերնագիր)
+places-load-js-data-url-error = Անվտանգության նկատառումներով «javascript:» կամ «data:» հասցեները չեն կարող բեռնվել պատմության պատուհանից կամ կողագոտուց:
+places-bookmarks-backup-title = Էջանիշերի պահուստային ֆայլի անունը
+places-bookmarks-restore-alert-title = Էջանիշերի վերականգնում
+places-bookmarks-restore-alert = Դուք կփոխարինեք ձեր ընթացիկ էջանիշերը պահեստայիով: Դուք համոզվա՞ծ էք:
+places-bookmarks-restore-title = Ընտրեք էջանիշերի պահուց
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Չսպասարկվող ֆայլի տեսակ:
+places-bookmarks-restore-parse-error = Հնարավոր չէ մշակել պահեստային ֆայլը:
+places-bookmarks-import = Ներմուծել էջանիշերի ֆայլը
+places-bookmarks-export = Արտահանել էջանիշերի ֆայլը
+places-bookmarks-paste-error-title = Գտնվել են անվավեր URL(ներ):

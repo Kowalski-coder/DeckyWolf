@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalli da aplicaçion
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Scancella
+    .accesskey = S
+app-manager-handle-protocol = Ste aplicaçioin peuan ese uzæ pe colegamenti de { $type }.
+app-manager-handle-file = Ste aplicaçioin peuan ese uzæ pe contegnuo de { $type }.
+app-manager-web-app-info = Sta aplicaçion web a l'é in scio:
+app-manager-local-app-info = L'indirisso de sta aplicaçion o l'e:

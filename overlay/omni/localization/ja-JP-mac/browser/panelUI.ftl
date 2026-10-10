@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = オーバーフローメニューからピン留めを外す
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = ツールバーに追加
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = オーバーフローメニューに追加
+    .accesskey = M
+panic-button-thankyou-msg1 = 最近の履歴を消去しました。
+panic-button-thankyou-msg2 = 安全なブラウジングをお楽しみください！
+panic-button-thankyou-button =
+    .label = OK

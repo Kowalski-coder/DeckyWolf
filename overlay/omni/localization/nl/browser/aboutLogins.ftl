@@ -1,0 +1,254 @@
+about-logins-page-title-name = Wachtwoorden
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Wachtwoorden zoeken
+create-login-button =
+    .title = Wachtwoord toevoegen
+fxaccounts-sign-in-text = Breng uw wachtwoorden naar uw andere apparaten
+fxaccounts-sign-in-sync-button = Aanmelden om te synchroniseren
+fxaccounts-avatar-button =
+    .title = Account beheren
+menu =
+    .title = Menu openen
+about-logins-menu-menuitem-import-from-another-browser = Importeren vanuit een andere browser…
+about-logins-menu-menuitem-import-from-a-file = Uit een bestand importeren…
+about-logins-menu-menuitem-export-logins2 = Wachtwoorden exporteren…
+about-logins-menu-menuitem-remove-all-logins2 = Alle wachtwoorden verwijderen…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opties
+       *[other] Voorkeuren
+    }
+about-logins-menu-menuitem-help = Help
+login-list =
+    .aria-label = Aanmeldingen die overeenkomen met de zoekterm
+login-list-count2 =
+    { $count ->
+        [one] { $count } wachtwoord
+       *[other] { $count } wachtwoorden
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } van { $total } wachtwoord
+       *[other] { $count } van { $total } wachtwoorden
+    }
+login-list-sort-label-text = Sorteren op:
+login-list-name-option = Naam (A-Z)
+login-list-name-reverse-option = Naam (Z-A)
+login-list-username-option = Gebruikersnaam (A-Z)
+login-list-username-reverse-option = Gebruikersnaam (Z-A)
+about-logins-login-list-alerts-option = Waarschuwingen
+login-list-last-changed-option = Laatst gewijzigd
+login-list-last-used-option = Laatst gebruikt
+login-list-intro-title2 = Geen opgeslagen wachtwoorden
+login-list-intro-description = Wanneer u een wachtwoord opslaat in { -brand-product-name }, wordt dit hier weergegeven.
+about-logins-login-list-empty-search-title2 = Geen wachtwoorden gevonden
+about-logins-login-list-empty-search-description = Uw zoekopdracht heeft geen resultaten opgeleverd.
+login-list-item-title-new-login2 = Wachtwoord toevoegen
+login-list-item-subtitle-missing-username = (geen gebruikersnaam)
+about-logins-list-item-breach-icon =
+    .title = Website met datalek
+about-logins-list-item-vulnerable-password-icon =
+    .title = Kwetsbaar wachtwoord
+about-logins-list-section-breach = Websites met datalek
+about-logins-list-section-vulnerable = Kwetsbare wachtwoorden
+about-logins-list-section-nothing = Geen waarschuwing
+about-logins-list-section-today = Vandaag
+about-logins-list-section-yesterday = Gisteren
+about-logins-list-section-week = Afgelopen 7 dagen
+about-logins-login-intro-heading-message = Bewaar uw wachtwoorden op een veilige plek
+login-intro-description2 = Alle wachtwoorden die u opslaat naar { -brand-product-name } worden versleuteld. Bovendien letten we op datalekken en geven we een waarschuwing als dit voor u geldt. <a data-l10n-name="breach-alert-link">Meer info</a>
+login-intro-instructions-fxa2 = Maak op het apparaat waarop uw aanmeldgegevens staan een account of meld u aan.
+login-intro-instructions-fxa-settings = Ga naar Instellingen > Synchronisatie > Synchronisatie inschakelen… Plaats een vinkje bij Aanmeldingen en wachtwoorden.
+login-intro-instructions-fxa-passwords-help = Bezoek <a data-l10n-name="passwords-help-link">hulp bij wachtwoorden</a> voor meer hulp.
+about-logins-intro-import3 = Selecteer de knop met het plusteken hierboven om direct een wachtwoord toe te voegen. U kunt ook <a data-l10n-name="import-browser-link">wachtwoorden uit een andere browser</a> of  <a data-l10n-name="import-file-link">uit een bestand importeren</a>.
+about-logins-login-item-new-login-title = Wachtwoord toevoegen
+login-item-edit-button = Bewerken
+about-logins-login-item-remove-button = Verwijderen
+login-item-origin-label = Websiteadres
+about-logins-origin-tooltip2 = Voer het volledige adres in en zorg ervoor dat het exact overeenkomt met waar u zich aanmeldt.
+about-logins-edit-password-tooltip = Zorg ervoor dat u uw huidige wachtwoord voor deze website opslaat. Als u het wachtwoord hier wijzigt, wordt het niet gewijzigd bij { $webTitle }.
+about-logins-add-password-tooltip = Zorg ervoor dat u uw huidige wachtwoord voor deze website opslaat.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Gebruikersnaam
+about-logins-login-item-username =
+    .placeholder = (geen gebruikersnaam)
+login-item-copy-username-button-text = Kopiëren
+login-item-copied-username-button-text = Gekopieerd!
+login-item-password-label = Wachtwoord
+login-item-password-reveal-checkbox =
+    .aria-label = Wachtwoord tonen
+login-item-password-conceal-checkbox =
+    .aria-label = Wachtwoord verbergen
+login-item-copy-password-button-text = Kopiëren
+login-item-copied-password-button-text = Gekopieerd!
+about-logins-login-item-save-changes-button = Opslaan
+login-item-save-new-button = Opslaan
+login-item-cancel-button = Annuleren
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Gemaakt
+login-item-timeline-action-updated = Bijgewerkt
+login-item-timeline-action-used = Gebruikt
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] instellingen voor wachtwoorden wijzigen
+       *[other] { -brand-short-name } probeert de instellingen voor wachtwoorden te wijzigen. Gebruik uw apparaataanmelding om dit toe te staan.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Voer uw aanmeldgegevens voor Windows in om uw wachtwoord te bewerken. Hierdoor wordt de beveiliging van uw accounts beschermd.
+about-logins-edit-login-os-auth-dialog-message2-macosx = het opgeslagen wachtwoord te bewerken
+about-logins-reveal-password-os-auth-dialog-message-win = Voer uw aanmeldgegevens voor Windows in om uw wachtwoord te bekijken. Hierdoor wordt de beveiliging van uw accounts beschermd.
+about-logins-reveal-password-os-auth-dialog-message-macosx = toon het opgeslagen wachtwoord
+about-logins-copy-password-os-auth-dialog-message-win = Voer uw aanmeldgegevens voor Windows in om uw wachtwoord te kopiëren. Hierdoor wordt de beveiliging van uw accounts beschermd.
+about-logins-copy-password-os-auth-dialog-message-macosx = kopieer het opgeslagen wachtwoord
+about-logins-export-password-os-auth-dialog-message2-win = Voer uw aanmeldgegevens voor Windows in om uw wachtwoorden te exporteren. Hierdoor wordt de beveiliging van uw accounts beschermd.
+about-logins-export-password-os-auth-dialog-message2-macosx = opgeslagen wachtwoorden te exporteren
+about-logins-primary-password-notification-message = Voer uw hoofdwachtwoord in om opgeslagen aanmeldingen en wachtwoorden te bekijken
+master-password-reload-button =
+    .label = Aanmelden
+    .accesskey = A
+confirmation-dialog-cancel-button = Annuleren
+confirmation-dialog-dismiss-button =
+    .title = Annuleren
+about-logins-confirm-delete-dialog-title = Wachtwoord verwijderen?
+about-logins-confirm-delete-dialog-message = U kunt deze actie niet ongedaan maken.
+about-logins-confirm-remove-dialog-confirm-button = Verwijderen
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Verwijderen
+        [one] Verwijderen
+       *[other] Alle verwijderen
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Ja, wachtwoord verwijderen
+        [one] Ja, wachtwoord verwijderen
+       *[other] Ja, wachtwoorden verwijderen
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] { $count } wachtwoord verwijderen?
+       *[other] Alle { $count } wachtwoorden verwijderen?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Dit verwijdert het wachtwoord dat is opgeslagen in { -brand-short-name } en alle waarschuwingen over datalekken. U kunt deze actie niet ongedaan maken.
+        [one] Dit verwijdert het wachtwoord dat is opgeslagen in { -brand-short-name } en alle waarschuwingen over datalekken. U kunt deze actie niet ongedaan maken.
+       *[other] Dit verwijdert de wachtwoorden die zijn opgeslagen in { -brand-short-name } en alle waarschuwingen over datalekken. U kunt deze actie niet ongedaan maken.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] { $count } wachtwoord van alle apparaten verwijderen?
+       *[other] Alle { $count } wachtwoorden van alle apparaten verwijderen?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Dit verwijdert het wachtwoord dat in { -brand-short-name } is opgeslagen van al uw gesynchroniseerde apparaten. Dit verwijdert ook alle waarschuwingen voor datalekken die hier verschijnen. U kunt deze actie niet ongedaan maken.
+        [one] Dit verwijdert het wachtwoord dat in { -brand-short-name } is opgeslagen van al uw gesynchroniseerde apparaten. Dit verwijdert ook alle waarschuwingen voor datalekken die hier verschijnen. U kunt deze actie niet ongedaan maken.
+       *[other] Dit verwijdert alle wachtwoorden die in { -brand-short-name } zijn opgeslagen van al uw gesynchroniseerde apparaten. Dit verwijdert ook alle waarschuwingen voor datalekken die hier verschijnen. U kunt deze actie niet ongedaan maken.
+    }
+about-logins-confirm-export-dialog-title2 = Een opmerking over het exporteren van wachtwoorden
+about-logins-confirm-export-dialog-message2 =
+    Wanneer u exporteert, worden uw wachtwoorden als leesbare tekst opgeslagen in een bestand.
+    Als u het bestand niet meer nodig hebt, raden we u aan het te verwijderen, zodat anderen die dit apparaat gebruiken uw wachtwoorden niet kunnen zien.
+about-logins-confirm-export-dialog-confirm-button2 = Doorgaan met exporteren
+about-logins-alert-import-message = Gedetailleerde importsamenvatting bekijken
+confirm-discard-changes-dialog-title = Niet-opgeslagen wijzigingen verwijderen?
+confirm-discard-changes-dialog-message = Alle niet-opgeslagen wijzigingen gaan verloren.
+confirm-discard-changes-dialog-confirm-button = Verwerpen
+about-logins-breach-alert-title = Websitedatalek
+breach-alert-text = Wachtwoorden uit deze website zijn gelekt of gestolen sinds u voor het laatst uw aanmeldgegevens hebt bijgewerkt. Wijzig uw wachtwoord om uw account te beschermen.
+about-logins-breach-alert-date = Dit lek is voorgevallen op { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Naar { $hostname }
+about-logins-vulnerable-alert-title = Kwetsbaar wachtwoord
+about-logins-vulnerable-alert-text2 = Dit wachtwoord is gebruikt op een andere account, die waarschijnlijk door een datalek is getroffen. Het hergebruiken van aanmeldgegevens brengt al uw accounts in gevaar. Wijzig dit wachtwoord.
+about-logins-vulnerable-alert-link = Naar { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Meer info
+about-logins-error-message-duplicate-login-with-link = Er bestaat al een vermelding voor { $loginTitle } met die gebruikersnaam. <a data-l10n-name="duplicate-link">Naar bestaande vermelding gaan?</a>
+about-logins-error-message-default = Er is een fout opgetreden tijdens het opslaan van dit wachtwoord.
+about-logins-export-file-picker-title2 = Wachtwoorden exporteren uit { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = wachtwoorden.csv
+about-logins-export-file-picker-export-button = Exporteren
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-document
+       *[other] CSV-bestand
+    }
+about-logins-import-file-picker-title2 = Wachtwoorden importeren in { -brand-short-name }
+about-logins-import-file-picker-import-button = Importeren
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-document
+       *[other] CSV-bestand
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV-document
+       *[other] TSV-bestand
+    }
+about-logins-import-dialog-title = Importeren voltooid
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Nieuw wachtwoord toegevoegd:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Nieuwe wachtwoorden toegevoegd:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Bestaand item bijgewerkt:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Bestaande items bijgewerkt:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Dubbele vermelding gevonden:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(niet geïmporteerd)</span>
+       *[other] <span>Dubbele vermeldingen gevonden:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(niet geïmporteerd)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Fout:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(niet geïmporteerd)</span>
+       *[other] <span>Fouten:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(niet geïmporteerd)</span>
+    }
+about-logins-import-dialog-done = Gereed
+about-logins-import-dialog-error-title = Importeerfout
+about-logins-import-dialog-error-conflicting-values-title = Meerdere tegenstrijdige waarden voor één aanmelding
+about-logins-import-dialog-error-conflicting-values-description = Bijvoorbeeld: meerdere gebruikersnamen, wachtwoorden, URL’s enz. voor één aanmelding.
+about-logins-import-dialog-error-file-format-title = Probleem met bestandsindeling
+about-logins-import-dialog-error-file-format-description = Onjuiste of ontbrekende kolomheaders. Zorg ervoor dat het bestand kolommen voor gebruikersnaam, wachtwoord en URL bevat.
+about-logins-import-dialog-error-file-permission-title = Kan bestand niet lezen
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } heeft geen toestemming om het bestand te lezen. Probeer de bestandsrechten te wijzigen.
+about-logins-import-dialog-error-unable-to-read-title = Kan bestand niet ontleden
+about-logins-import-dialog-error-unable-to-read-description = Controleer of u een CSV- of TSV-bestand hebt geselecteerd.
+about-logins-import-dialog-error-no-logins-imported = Er zijn geen aanmeldingen geïmporteerd
+about-logins-import-dialog-error-learn-more = Meer info
+about-logins-import-dialog-error-try-import-again = Probeer nogmaals te importeren…
+about-logins-import-dialog-error-cancel = Annuleren
+about-logins-import-report-title = Importsamenvatting
+about-logins-import-report-description2 = Wachtwoorden geïmporteerd in { -brand-short-name }.
+about-logins-import-report-row-index = Rij { $number }
+about-logins-import-report-row-description-no-change2 = Duplicaat: exacte overeenkomst met bestaande invoer
+about-logins-import-report-row-description-modified2 = Bestaande invoer bijgewerkt
+about-logins-import-report-row-description-added2 = Nieuw wachtwoord toegevoegd
+about-logins-import-report-row-description-error = Fout: veld ontbreekt
+about-logins-import-report-row-description-error-multiple-values = Fout: meerdere waarden voor { $field }
+about-logins-import-report-row-description-error-missing-field = Fout: { $field } ontbreekt
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nieuw wachtwoord toegevoegd</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nieuwe wachtwoorden toegevoegd</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">bestaand item bijgewerkt</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">bestaande items bijgewerkt</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">dubbele vermelding</div> <div data-l10n-name="not-imported">(niet geïmporteerd)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">dubbele vermeldingen</div> <div data-l10n-name="not-imported">(niet geïmporteerd)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">fout</div><div data-l10n-name="not-imported">(niet geïmporteerd)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">fouten</div><div data-l10n-name="not-imported">(niet geïmporteerd)</div>
+    }
+about-logins-import-report-page-title = Samenvattend importrapport

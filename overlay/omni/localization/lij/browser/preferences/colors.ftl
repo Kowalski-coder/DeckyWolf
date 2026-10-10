@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Testo e sfondo
+colors-text =
+    .label = Testo
+    .accesskey = T
+colors-text-background =
+    .label = Sfondo
+    .accesskey = S
+colors-links-header = Coî di colegamenti
+colors-links-unvisited =
+    .label = Colegamenti no vixitæ
+    .accesskey = n
+colors-links-visited =
+    .label = Colegamenti vixitæ
+    .accesskey = v

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } co wašu standardnu pytnicu wót { $currentEngine } do { $newEngine } změniś. Jo to w pórěźe?
+webext-default-search-yes =
+    .label = Jo
+    .accesskey = J
+webext-default-search-no =
+    .label = Ně
+    .accesskey = N
+addon-post-install-message = { $addonName } jo se pśidał.
+webext-quarantine-confirmation-title = { $addonName } na wobgranicowanych sedłach wuwjasć?
+webext-quarantine-confirmation-line-1 = Aby se waše daty šćitali, toś to rozšyrjenje njejo na toś tom sedle dowólone.
+webext-quarantine-confirmation-line-2 = Dowólśo toś to rozšyrjenje, jolic jomu dowěriśo, waše daty na sedłach cytaś a změniś, kótarež su wót { -vendor-short-name } wobgranicowane.
+webext-quarantine-confirmation-allow =
+    .label = Dowóliś
+    .accesskey = D
+webext-quarantine-confirmation-deny =
+    .label = Njedowóliś
+    .accesskey = N

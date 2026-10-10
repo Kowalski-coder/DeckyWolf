@@ -1,0 +1,215 @@
+cfr-doorhanger-extension-heading = Estensione cussigiada
+cfr-doorhanger-feature-heading = Funtzionalidade cussigiada
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Pro ite bido custu?
+cfr-doorhanger-extension-cancel-button = Immoe nono
+    .accesskey = I
+cfr-doorhanger-extension-ok-button = Agiunghe immoe
+    .accesskey = A
+cfr-doorhanger-extension-manage-settings-button = Gesti sa cunfiguratzione de is cussìgios
+    .accesskey = G
+cfr-doorhanger-extension-never-show-recommendation = No m'ammustres prus custu cussìgiu
+    .accesskey = o
+cfr-doorhanger-extension-learn-more-link = Àteras informatziones
+cfr-doorhanger-extension-author = dae { $name }
+cfr-doorhanger-extension-notification = Cussìgiu
+cfr-doorhanger-extension-notification2 = Cussìgiu
+    .a11y-announcement = Estensione cussigiada a disponimentu
+    .tooltiptext = Estensione cussigiada
+cfr-doorhanger-feature-notification = Cussìgiu
+    .a11y-announcement = Funtzionalidade cussigiada a disponimentu
+    .tooltiptext = Funtzionalidade cussigiada
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } isteddu
+           *[other] { $total } isteddos
+        }
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } utente
+       *[other] { $total } utentes
+    }
+cfr-doorhanger-bookmark-fxa-header = Sincroniza is sinnalibros tuos in ònnia logu.
+cfr-doorhanger-bookmark-fxa-body-2 = Ite iscoberta! Immoe no abarres chene custu sinnalibru in is dispositivos tuos. Est tempus de creare unu contu.
+cfr-doorhanger-bookmark-fxa-link-text = Sincroniza is sinnalibros immoe…
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Butone Serra
+    .title = Serra
+fxa-adoption-addresses-backup-title = Immoe amus a fàghere una còpia de seguresa de is indiritzos sarvados
+fxa-adoption-addresses-backup-subtitle = Ampara is indiritzos sarvados cun una sincronizatzione tzifrada intre dispositivos.
+fxa-adoption-credit-cards-backup-title = Immoe amus a fàghere una còpia de seguresa de is mètodos de pagamentu
+fxa-adoption-credit-cards-backup-subtitle = Ampara is mètodos de pagamentu tuos cun una sincronizatzione tzifrada intre dispositivos.
+fxa-adoption-bookmarks-treatment-backup-title = Fatzamus una còpia de seguresa de is sinnalibros tuos
+fxa-adoption-primary-button-label = Registra·ti
+cfr-badge-reader-label-newfeature = Funtzionalidade noa:
+cfr-whatsnew-button =
+    .label = Novidades
+    .tooltiptext = Novidades
+cfr-whatsnew-release-notes-link-text = Leghe is notas de sa versione
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+        [one] { -brand-short-name } at blocadu <b>{ $blockedCount }</b> sighidore dae su { DATETIME($date, month: "long", year: "numeric") }
+       *[other] { -brand-short-name } at blocadu prus de <b>{ $blockedCount }</b> sighidores dae su{ DATETIME($date, month: "long", year: "numeric") }
+    }
+cfr-doorhanger-milestone-ok-button = Ammustra totu
+    .accesskey = A
+cfr-doorhanger-milestone-close-button = Serra
+    .accesskey = S
+cfr-doorhanger-doh-body = Sa seguresa tua est de importu. Immoe { -brand-short-name } imbia is rechestas DNS tuas in manera segura, cando possìbile, a unu servìtziu assotziadu pro t'amparare cando ses in lìnia.
+cfr-doorhanger-doh-header = Consultas prus seguras e tzifradas
+cfr-doorhanger-doh-primary-button-2 = AB
+    .accesskey = A
+cfr-doorhanger-doh-secondary-button = Disativa
+    .accesskey = D
+cfr-doorhanger-video-support-body = Podet èssere chi is vìdeos de custu situ no siant ammustrados in manera curreta in custa versione de { -brand-short-name }. Pro una riprodutzione curreta, agiorna { -brand-short-name } immoe.
+cfr-doorhanger-video-support-header = Agiorna pro { -brand-short-name } bìdere su vìdeu
+cfr-doorhanger-video-support-primary-button = Agiorna immoe
+    .accesskey = i
+spotlight-public-wifi-vpn-header = Paret chi ses impreende una rete Wi-Fi pùblica
+spotlight-public-wifi-vpn-body = Pro cuare sa positzione tua e s'atividade de navigatzione, cunsìdera de impreare una rete privada virtuale (VPN). T'at a agiudare a abarrare suta amparu cando ses navighende in logos pùblicos comente aeroportos e tzilleris.
+spotlight-public-wifi-vpn-primary-button = Abarra suta amparu cun { -mozilla-vpn-brand-name }
+    .accesskey = s
+spotlight-public-wifi-vpn-link = Immoe nono
+    .accesskey = n
+spotlight-better-internet-header = Un’internet mègius cumintzat dae tue
+spotlight-better-internet-body = Impreende { -brand-short-name }, ses votende pro unu internet prus abertu e atzessìbile, chi est mègius pro totus.
+spotlight-peace-mind-header = Semus semper cun tue
+spotlight-peace-mind-body = Ònnia mese, { -brand-short-name } blocat una mèdia de prus che 3.000 sighiduras pro ònnia utente. Proite nudda si diat dèpere pònnere in mesu intre tue e s'internet bonu, mescamente genas pro sa riservadesa che a is sighiduras.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Apica a su Dock
+       *[other] Apica a sa barra de is tareas
+    }
+spotlight-pin-secondary-button = Immoe nono
+mr2022-background-update-toast-title = Su { -brand-short-name } nou. Prus privadu. Prus pagu sighiduras. Nissunu cumpromissu.
+mr2022-background-update-toast-text = Proa su { -brand-short-name } nou immoe, atualizadu cun sa prus protetzione manna contra a is sighiduras.
+mr2022-background-update-toast-primary-button-label = Aberi { -brand-shorter-name } immoe
+mr2022-background-update-toast-secondary-button-label = Regorda·mi·ddu a pustis
+july-jam-headline = Semus semper cun tue
+july-jam-body = { -brand-short-name } blocat unos 3000 e prus sighiduras a su mese pro onni utente, e ti donat un’atzessu a internet prus seguru, lestru e de calidade.
+july-jam-set-default-primary = Aberi is ligòngios cun { -brand-short-name }
+fox-doodle-pin-headline = Ti donamus torra su benebènnidu!
+fox-doodle-pin-body = Un’apuntu a su bolu: podes portare su navigadore tuo indipendente preferidu semper acanta.
+fox-doodle-pin-primary = Aberi is ligòngios mios cun { -brand-short-name }
+fox-doodle-pin-secondary = Immoe nono
+set-default-pdf-handler-headline =
+    <strong>Immoe podes abèrrere is documentos PDF in { -brand-short-name }.</strong>
+    Modìfica o firma is formulàrios deretu in su navigadore tuo. Pro cambiare custa optzione, chirca “PDF” in is cunfiguratziones.
+set-default-pdf-handler-primary = Apo cumprèndidu
+annotations-default-pdf-handler-headline = Agiunghe sa firma tua in onni logu!
+annotations-default-pdf-handler-body = Disinna, iscrie o càrriga sa firma tua, pone·dda in su logu chi ti serbit e sarva is firmas tuas pro sa borta chi benit.
+annotations-make-default-pdf-handler-title = Boles cunfigurare { -brand-short-name } comente s’editore de PDF predefinidu?
+annotations-make-default-pdf-handler-subtitle = As a tènnere atzessu a is ainas nostras onni borta chi abèrgias unu PDF.
+annotations-make-default-pdf-primary-cta-label = Cunfigura comente predefinidu
+annotations-make-default-pdf-next-label = Imbeniente
+fxa-sync-cfr-header = Ses acanta de tènnere unu dispositivu nou?
+fxa-sync-cfr-body = Assegura·ti chi is ùrtimos sinnalibros, craes e ischedas bèngiant cun tue in ònnia momentu cando aberis unu navigadore { -brand-product-name } nou.
+fxa-sync-cfr-primary = Àteras informatziones
+    .accesskey = A
+fxa-sync-cfr-secondary = Regorda·mi·ddu prus tardu
+    .accesskey = R
+device-migration-fxa-spotlight-heavy-user-header = Non t’iscaressas de fàghere una còpia de seguresa de is datos tuos
+device-migration-fxa-spotlight-heavy-user-body = Assegura·ti chi informatziones de importu, comente sinnalibros e craes, siant atuales e protetas in totu is dispositivos tuos.
+device-migration-fxa-spotlight-heavy-user-primary-button = Cumintza
+device-migration-fxa-spotlight-older-device-header = Trancuillidade, dae { -brand-product-name }
+device-migration-fxa-spotlight-older-device-body = Unu contu cunservat is informatziones tuas de importu atualizadas e amparadas in cale si siat dispositivu acàpies.
+device-migration-fxa-spotlight-older-device-primary-button = Crea unu contu
+device-migration-fxa-spotlight-getting-new-device-header-2 = Ses acanta de tènnere unu dispositivu nou?
+device-migration-fxa-spotlight-getting-new-device-body-2 = Sighi una pariga de passos simpres pro ti nche portare a fatu sinnalibros, cronologia e craes cando incumentzas cun unu dispositivu nou.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Comente potzo fàghere una còpia de is datos mios?
+device-migration-fxa-spotlight-sync-header = Nàviga chene de ti pèrdere nudda
+device-migration-fxa-spotlight-sync-body = Sincroniza e tzifra totu s’informatzione de importu, comente sinnalibros e craes. Podes atzèdere a totu is datos tuos in onni logu si impreas { -brand-product-name }.
+device-migration-fxa-spotlight-sync-primary-button = Cumintza
+pdf-default-notification-message = <strong>Boles chi { -brand-short-name } siat su programma predefinidu pro lèghere is PDF?</strong> Imprea { -brand-short-name } pro lèghere e cambiare is PDF sarbados in s’elaboradore tuo.
+pdf-default-notification-set-default-button =
+    .label = Cunfigura comente predefinidu
+pdf-default-notification-decline-button =
+    .label = Immoe nono
+tail-fox-spotlight-title = Lassa·nche is sighidores infadosos a tesu
+tail-fox-spotlight-subtitle = Nara adiosu a publitzidades infadosas chi ti sighint e gosa·ti un’esperièntzia de navigatzione segura e lestra.
+tail-fox-spotlight-primary-button = Aberi is ligòngios mios cun { -brand-short-name }
+tail-fox-spotlight-secondary-button = Immoe nono
+root-certificate-succession-infobar-january-message = Podet èssere chi <strong>is versiones betzas de { -brand-short-name } cumintzent a tènnere problemas su 14 de ghennàrgiu de su 2025.</strong>
+root-certificate-succession-infobar-march-message = <strong>Atualiza pro sighire a impreare { -brand-short-name } a pustis de su 14 de martzu de su 2025.</strong>
+root-certificate-succession-infobar-link = Pro ite depo atualizare?
+root-certificate-succession-infobar-primary-button =
+    .label = Atualiza immoe
+    .accesskey = A
+root-certificate-succession-infobar-secondary-button =
+    .label = A pustis
+    .accesskey = p
+root-certificate-windows-background-notification-title = As pèrdidu un’atualizatzione de importu de { -brand-short-name }
+root-certificate-windows-background-notification-subtitle = Partes de importu de su navigadore no ant a funtzionare prus in pagora si no installas is atualizatziones. Est unu momentu bonu pro otènnere is ùrtimas protetziones e funtziones.
+root-certificate-windows-background-notification-learn-more-button = Àteras informatziones
+root-certificate-windows-background-notification-update-button = Atualiza { -brand-short-name }
+fxa-menu-message-close-button =
+    .aria-label = Serra
+    .title = Serra
+fxa-menu-message-sign-up-button = Registra·ti
+fxa-menu-message-sign-in-button = Identìfica·ti
+fxa-menu-message-sync-button = Avia sa sincronizatzione
+fxa-menu-message-sync-devices-primary-text = Sincroniza totu is dispositivos tuos
+fxa-menu-message-sync-devices-secondary-text = Atzede deretu a totu is datos tuos, comente sinnalibros e craes, in onni logu cun { -brand-short-name }.
+fxa-menu-message-sync-devices-secondary-text2 = Atzede deretu a totu is sinnalibros, is craes e àteru, dae totu is dispositivos in ue as fatu s’identificatzione cun { -brand-short-name }.
+fxa-menu-message-sync-devices-collapsed-text = Sincroniza totu is dispositivos tuos
+fxa-menu-message-backup-data-primary-text = Faghe una còpia de seguresa de is datos de navigatzione tuos
+fxa-menu-message-backup-data-secondary-text = Ampara in automàticu is sinnalibros, is craes e àteras informatziones in totu is dispositivos tuos.
+fxa-menu-message-backup-data-collapsed-text = Faghe una còpia de seguresa de is datos de navigatzione
+fxa-menu-message-backup-sync-primary-text = Mantene is datos tuos seguros e sincronizados
+fxa-menu-message-backup-sync-secondary-text = Sync faghet una còpia de seguresa de su prus de is datos tuos in manera chi nche potzas atzèdere dae ònnia logu cun { -brand-short-name }.
+fxa-menu-message-backup-sync-collapsed-text = Sincroniza e faghe una còpia de seguresa de is datos tuos
+fxa-menu-message-mobile-primary-text = Imbia ischedas a su telèfonu
+fxa-menu-message-mobile-secondary-text = Torra a cumintzare dae ue aias lassadu cando sincronizas is ischedas cun unu dispositivu mòbile.
+fxa-menu-message-mobile-collapsed-text = Sincroniza cun su telèfonu
+multi-cta-fox-doodle-title = Ti donamus torra su benebènnidu!
+multi-cta-fox-doodle-set-default-checkbox = Faghe de { -brand-short-name } su navigadore predefinidu
+multi-cta-fox-doodle-pin-startmenu-checkbox = Apica { -brand-short-name } a su menù de aviu
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] Mantene { -brand-short-name } in su Dock
+       *[other] Apica { -brand-short-name } a sa barra de is tareas
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Cumintza a navigare
+multi-cta-fox-doodle-main-browser-primary-button-label = Faghe de { -brand-short-name } su navigadore predefinidu
+multi-cta-fox-doodle-quick-reminder-subtitle = Un’apuntu a su bolu: podes portare su navigadore tuo preferidu e rispetosu de sa riservadesa semper acanta.
+windows-10-eos-sync-spotlight-title = Depes atualizare dae Windows 10 de immoe a pagu?
+windows-10-eos-sync-spotlight-subtitle = Faghe una còpia de seguresa de is craes e de is sinnalibros in preparatzione pro brincare a cale si siat dispositivu.
+windows-10-eos-sync-spotlight-primary-label = Faghe una còpia de seguresa de { -brand-short-name }
+windows-10-eos-sync-toast-title = Ses atualizende a Windows 11? Non perdas is sinnalibros e is craes.
+windows-10-eos-sync-toast-subtitle = Faghe una còpia de seguresa de is datos tuos in manera chi { -brand-short-name } siat prontu in cale si siat momentu, in custu elaboradore o in cussu imbeniente.
+windows-10-eos-sync-toast-primary-label = Cumintza
+windows-10-eos-sync-toast-secondary-label = Regorda·mi·ddu prus tardu
+windows-10-eos-challenger-callout-title = { -brand-product-name } no est installadu in manera predefinida comente is àteros navigadores de is gigantes de sa tecnologia. Pro una resone.
+windows-10-eos-challenger-sync-callout-subtitle = Cando faghes una còpia de seguresa de is sinnalibros e is craes de { -brand-product-name }, est prus fàtzile a tramudare su navigadore chi preferis a su dispositivu imbeniente tuo.
+windows-10-eos-challenger-pin-callout-subtitle = Apica { -brand-shorter-name } a sa barra de tareas in manera chi su navigadore chi preferis siat semper in ue ti serbit.
+windows-10-eos-challenger-sync-primary-button = Faghe una còpia de seguresa de { -brand-shorter-name }
+windows-10-eos-challenger-pin-primary-button = Apica { -brand-shorter-name }
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } blocat is cripto-minadores, is sighiduras de retes sotziales e is generadores de imprentas digitales.
+windows-10-eos-sync-callout-privacy-screen-2-title = Pone is craes e is sinnalibros in seguresa pro su dispositivu imbeniente.
+windows-10-eos-callout-addons-primary-button = Càstia sa seletzione nostra
+windows-10-eos-sync-callout-addons-title = Non perdas is cumplementos tuos durante s’atualizatzione dae Windows 10.
+windows-10-eos-sync-callout-next-button = Imbeniente
+windows-10-eos-sync-callout-get-started-button = Cumintza
+windows-10-eos-feature-toast-title = Is ischedas verticales e is grupos de ischedas sunt inoghe!
+windows-10-eos-feature-toast-whats-new-button = Bide is novidades
+windows-10-eos-feature-toast-dismiss-button = Iscarta
+windows-10-eos-global-infobar-learn-more-link = Àteras informatziones
+    .accessKey = À
+etp-strict-exceptions-infobar-learn-more = Àteras informatziones
+etp-strict-exceptions-infobar-button = Àplica is curretziones
+    .accesskey = A
+etp-strict-exceptions-infobar-not-now = Immoe nono
+    .accesskey = n
+set-default-menu-message-simple-layout-title = { -brand-short-name } no est su navigadore predefinidu tuo
+set-default-menu-message-simple-layout-title-variant = { -brand-short-name } no est su navigadore printzipale
+set-default-menu-message-row-layout-title = Faghe chi { -brand-short-name } siat su navigadore printzipale
+set-default-menu-message-row-layout-title-variant = Cunfigura { -brand-short-name } comente su navigadore predefinidu
+set-default-menu-message-row-layout-subtitle = Nàviga semper a sa lestra, cun seguresa e in manera privada.
+set-default-menu-message-primary-button = Cunfigura comente predefinidu
+set-default-menu-message-primary-button-variant = Cunfigura comente navigadore printzipale
+set-default-menu-message-primary-button-short-variant = Cunfigura { -brand-short-name } comente predefinidu
+relay-50-masks-announcement-secondary-button = Iscarta
+    .accesskey = I
+nova-early-access-infobar-primary-button = Apo cumprèndidu
+    .accesskey = C

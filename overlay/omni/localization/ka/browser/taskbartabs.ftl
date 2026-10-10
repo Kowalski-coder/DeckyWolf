@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = ჩანართის დამატება ამოცანათა ზოლზე
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = ჩანართის მოცილება ამოცანათა ზოლიდან
+taskbar-tab-urlbar-button-show = ვებპროგრამის გვერდის მოქმედების ჩვენება
+taskbar-tab-urlbar-button-hide = ვებპროგრამის გვერდის მოქმედების დამალვა
+taskbar-tab-shortcut-description = { $name } ვებპროგრამა
+taskbar-tab-shortcut-folder = { -brand-short-name } ვებპროგრამები
+taskbar-tab-audio-mute =
+    .tooltiptext = ჩანართის დადუმება
+taskbar-tab-audio-unmute =
+    .tooltiptext = ჩანართის ხმის ჩართვა
+taskbar-tab-title-default = { $name } – { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) – { -brand-full-name }
+taskbar-tab-title-profile = { $name }, { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }), { $profile } — { -brand-full-name }

@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (namnlaus)
+places-load-js-data-url-error = Av tryggingsårsaker kan ikjke «javascript:»- eller «data:»-URL-er lastast frå historikkvindauget eller sidestolpen.
+places-bookmarks-backup-title = Filnamn for sikkerheitskopi til bokmerke
+places-bookmarks-restore-alert-title = Tilbakestill bokmerke
+places-bookmarks-restore-alert = Dette vil byte ut alle dei eksisterande bokmerka dine med sikkerheitskopien. Er du sikker på at du vil gjere dette?
+places-bookmarks-restore-title = Vel ein sikkerheitskopi
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Filtypen er ikkje støtta.
+places-bookmarks-restore-parse-error = Klarer ikkje å bruke sikkerheitskopien.
+places-bookmarks-import = Importer bokmerkefil
+places-bookmarks-export = Eksporter bokmerkefil
+places-bookmarks-paste-error-title = Fann ugyldig(e) URL(-ar)
+places-bookmarks-paste-error-message-header = Klarte ikkje å leggje til følgjande nettadresser i bokmerka dine. Prøv å sjekke formateringa og legg dei til på nytt.

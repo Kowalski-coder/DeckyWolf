@@ -1,0 +1,13 @@
+grid-row-column-positions = { $row }. sor / { $column }. oszlop
+gridtype-container = Rácstároló
+gridtype-item = Rácselem
+gridtype-dual = Rácstároló/-elem
+flextype-container = Flex tároló
+flextype-item = Flex elem
+flextype-dual = Flex tároló/elem
+remote-node-picker-notice = A DevTools csomópontválasztója engedélyezve. { $action }
+remote-node-picker-notice-action-desktop = Kattintson egy elemre, hogy kiválassza a Vizsgálóban
+remote-node-picker-notice-action-touch = Koppintson egy elemre, hogy kiválassza a Vizsgálóban
+remote-node-picker-notice-hide-button = Elrejtés
+simple-highlighters-message = Ha a prefers-reduced-motion engedélyezve van, akkor egy egyszerűbb kiemelő engedélyezhető a beállítások panelen, a villogó színek elkerülése érdekében.
+simple-highlighters-settings-button = Beállítások megnyitása

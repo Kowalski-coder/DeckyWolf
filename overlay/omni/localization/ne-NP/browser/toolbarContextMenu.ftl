@@ -1,0 +1,12 @@
+toolbar-context-menu-pin-to-overflow-menu =
+    .label = ओभरफ्लो मेनुमा पिन गर्नुहोस्
+    .accesskey = P
+toolbar-context-menu-remove-from-toolbar =
+    .label = टुलबारबाट हटाउनुहोस्
+    .accesskey = R
+toolbar-context-menu-view-customize-toolbar =
+    .label = अनुकुलित बनाउनुहोस्...
+    .accesskey = C
+toolbar-context-menu-menu-bar-cmd =
+    .toolbarname = मेनु बार
+    .accesskey = M

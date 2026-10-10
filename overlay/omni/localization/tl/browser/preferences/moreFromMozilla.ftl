@@ -1,0 +1,13 @@
+more-from-moz-title2 = Marami pa galing sa { -vendor-short-name }
+    .title = Marami pa galing sa { -vendor-short-name }
+more-from-moz-category =
+    .tooltiptext = Marami pa galing sa { -vendor-short-name }
+more-from-moz-firefox-mobile-title = { -brand-product-name } Mobile
+more-from-moz-firefox-mobile-description = Mobile browser na inuuna ang iyong privacy.
+more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
+more-from-moz-qr-code-firefox-mobile-img =
+    .alt = QR code para i-download ang { -brand-product-name } Mobile
+more-from-moz-button-mozilla-vpn-2 = Kumuha ng VPN
+more-from-moz-learn-more-link = Alamin
+more-from-moz-firefox-relay-title = { -relay-brand-name }
+more-from-moz-firefox-relay-button = Kunin ang { -relay-brand-short-name }

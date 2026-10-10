@@ -1,0 +1,15 @@
+panic-button-open-new-window = Відкрито нове чисте вікно
+panic-button-undo-warning = Цю дію неможливо скасувати.
+panic-button-forget-button =
+    .label = Забути!
+panic-main-timeframe-desc = Забути останні:
+panic-button-5min =
+    .label = П'ять хвилин
+panic-button-2hr =
+    .label = Дві години
+panic-button-day =
+    .label = 24 години
+panic-button-action-desc = Це призведе до:
+panic-button-delete-cookies = видалення недавніх <strong>файлів cookie</strong>
+panic-button-delete-history = видалення недавньої <strong>історії</strong>
+panic-button-delete-tabs-and-windows = закриття всіх <strong>вкладок</strong> і <strong>вікон</strong>

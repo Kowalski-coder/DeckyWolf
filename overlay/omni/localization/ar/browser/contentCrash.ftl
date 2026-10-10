@@ -1,0 +1,17 @@
+crashed-subframe-message = <strong>انهار جزء من هذه الصفحة.</strong> لإبلاغ { -brand-product-name } بهذه المشكلة وإصلاحها أسرع، رجاء أرسل بلاغا.
+crashed-subframe-title =
+    .title = انهار جزء من هذه الصفحة. لإبلاغ { -brand-product-name } بهذه المشكلة وإصلاحها أسرع، رجاء أرسل بلاغا.
+crashed-subframe-learnmore-link =
+    .value = اطّلع على المزيد
+crashed-subframe-submit =
+    .label = أرسِل تقريرًا
+    .accesskey = س
+pending-crash-reports-view-all =
+    .label = اعرض
+pending-crash-reports-send =
+    .label = أرسل
+pending-crash-reports-always-send =
+    .label = أرسل دائمًا
+requested-crash-reports-dont-show-again =
+    .label = لا تُظهر مجددًا
+    .accesskey = ه

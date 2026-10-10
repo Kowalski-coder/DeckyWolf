@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Αναζήτηση σε όλες τις καρτέλες
+all-tabs-menu-new-user-context =
+    .label = Νέα θεματική καρτέλα
+all-tabs-menu-hidden-tabs =
+    .label = Κρυμμένες καρτέλες
+all-tabs-menu-close-duplicate-tabs =
+    .label = Κλείσιμο διπλών καρτελών
+all-tabs-menu-view-all-tabs =
+    .label = Προβολή όλων των καρτελών
+all-tabs-menu-recent-tab-groups-header = Πρόσφατες ομάδες καρτελών
+all-tabs-menu-tab-groups-show-all =
+    .label = Εμφάνιση όλων
+all-tabs-menu-tab-groups-sub-view =
+    .title = Ομάδες καρτελών
+all-tabs-menu-current-window-header = Τρέχον παράθυρο

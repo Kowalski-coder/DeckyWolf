@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalhs de l'aplicacion
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Suprimir
+    .accesskey = S
+app-manager-handle-protocol = Se pòdon utilizar las aplicacions seguentas per gerir Ligams { $type }.
+app-manager-handle-file = Se pòdon utilizar las aplicacions seguentas per gerir Contengut { $type }.
+app-manager-web-app-info = Aquesta aplicacion es albergada per :
+app-manager-local-app-info = L'adreça d'aquesta aplicacion es :

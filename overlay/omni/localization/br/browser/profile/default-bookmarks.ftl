@@ -1,0 +1,14 @@
+default-bookmarks-title = Sinedoù
+default-bookmarks-heading = Sinedoù
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Kaout skoazell
+default-bookmarks-firefox-customize = Personelaat Firefox
+default-bookmarks-firefox-community = Kemerit perzh enni
+default-bookmarks-firefox-about = Diwar hor penn
+default-bookmarks-nightly-heading = Loazioù Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Heulier Beugoù Mozilla
+default-bookmarks-mdn = Rouedad an diorroerien Mozilla
+default-bookmarks-nightly-tester-tools = Ostilhoù prouadiñ Nightly
+default-bookmarks-crashes = Ho holl sac'hadennoù
+default-bookmarks-planet = Planet Mozilla

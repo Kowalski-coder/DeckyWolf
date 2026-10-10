@@ -1,0 +1,17 @@
+about-policies-title = Reolennoù embregerezh
+aboutpolicies-page-heading =
+    .heading = A-zivout ar reolennoù
+active-policies-tab = Oberiant
+errors-tab = Fazioù
+documentation-tab = Teuliadur
+active-policies-tab-title =
+    .title = Oberiant
+errors-tab-title =
+    .title = Fazioù
+documentation-tab-title =
+    .title = Teuliadur
+no-specified-policies-message = Oberiant eo ar gwazerezh reolennoù embregerezh met n’eus reolenn ebet gweredekaet.
+inactive-message = Dioberiant eo ar gwazerezh reolennoù embregerezh.
+policy-name = Anv ar reolenn
+policy-value = Gwerzh ar reolenn
+policy-errors = Fazioù ar reolenn

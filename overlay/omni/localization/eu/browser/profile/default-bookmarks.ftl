@@ -1,0 +1,14 @@
+default-bookmarks-title = Laster-markak
+default-bookmarks-heading = Laster-markak
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Lortu laguntza
+default-bookmarks-firefox-customize = Pertsonalizatu Firefox
+default-bookmarks-firefox-community = Parte hartu
+default-bookmarks-firefox-about = Guri buruz
+default-bookmarks-nightly-heading = Firefox Nightly baliabideak
+default-bookmarks-nightly-blog = Firefox Nightly bloga
+default-bookmarks-bugzilla = Mozilla akatsen biltegia
+default-bookmarks-mdn = Mozillako garatzaileen sarea
+default-bookmarks-nightly-tester-tools = Nightly probatzailearen tresnak
+default-bookmarks-crashes = Zure hutsegite guztiak
+default-bookmarks-planet = Planet Mozilla

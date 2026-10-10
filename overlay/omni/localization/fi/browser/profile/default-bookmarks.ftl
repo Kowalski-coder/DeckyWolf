@@ -1,0 +1,14 @@
+default-bookmarks-title = Kirjanmerkit
+default-bookmarks-heading = Kirjanmerkit
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Etsi ohjeita
+default-bookmarks-firefox-customize = Mukauta Firefoxia
+default-bookmarks-firefox-community = Tule mukaan
+default-bookmarks-firefox-about = Tietoja meistä
+default-bookmarks-nightly-heading = Firefox Nightly -resurssit
+default-bookmarks-nightly-blog = Firefox Nightly -blogi
+default-bookmarks-bugzilla = Mozillan vianseurantajärjestelmä
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly-testaajan työkalut
+default-bookmarks-crashes = Kaikki kaatumisilmoituksesi
+default-bookmarks-planet = Planet Mozilla

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Кушодани равзанаи тозаи нав
+panic-button-undo-warning = Ин амал бекор карда намешавад.
+panic-button-forget-button =
+    .label = Фаромӯш кунед!
+panic-main-timeframe-desc = Фаромӯш кардани охиринҳои зерин:
+panic-button-5min =
+    .label = Панҷ дақиқа
+panic-button-2hr =
+    .label = Ду соат
+panic-button-day =
+    .label = 24 соат
+panic-button-action-desc = Агар идома диҳед:
+panic-button-delete-cookies = <strong>Кукиҳои</strong> охирин нест карда мешаванд
+panic-button-delete-history = <strong>Таърихи</strong> охирин нест карда мешавад
+panic-button-delete-tabs-and-windows = Ҳамаи <strong>варақаҳо</strong> ва <strong>равзанаҳо</strong> пӯшида мешаванд

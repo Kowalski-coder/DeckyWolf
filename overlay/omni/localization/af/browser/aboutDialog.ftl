@@ -1,0 +1,40 @@
+aboutDialog-title =
+    .title = Aangaande { -brand-full-name }
+releaseNotes-link = Wat’s nuut?
+update-checkForUpdatesButton =
+    .label = Kontroleer vir bywerkings
+    .accesskey = K
+update-updateButton =
+    .label = Herbegin om { -brand-shorter-name } by te werk
+    .accesskey = r
+update-checkingForUpdates = Kontroleer vir bywerkings…
+settings-update-checking-for-updates =
+    .label = Kontroleer vir bywerkings…
+settings-update-downloading-2 =
+    .label = Laai tans bywerking af — { $transfer }
+update-applying = Pas tans bywerking toe…
+settings-update-applying =
+    .label = Pas tans bywerking toe…
+update-failed = Bywerking het misluk. <label data-l10n-name="failed-link">Laai die jongste weergawe af</label>
+update-failed-main = Bywerking het misluk. <a data-l10n-name="failed-link-main">Laai die jongste weergawe af</a>
+update-noUpdatesFound = { -brand-short-name } is op datum
+settings-update-no-updates-found =
+    .label = { -brand-short-name } is op datum
+update-otherInstanceHandlingUpdates = { -brand-short-name } word tans bygewerk deur 'n ander programkopie
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } word tans bygewerk deur 'n ander programkopie
+aboutdialog-update-manual-with-link = Bywerkings beskikbaar by <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Bywerkings beskikbaar by <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = U kan nie verdere bywerkings op dié stelsel doen nie. <label data-l10n-name="unsupported-link">Meer inligting</label>
+settings-update-unsupported = U kan nie verdere bywerkings op dié stelsel doen nie. <a data-l10n-name="unsupported-link">Meer inligting</a>
+update-restarting = Herbegin tans…
+settings-update-restarting =
+    .label = Herbegin tans…
+aboutdialog-channel-description = U is tans op die <label data-l10n-name="current-channel">{ $channel }</label>-bywerkkanaal.
+warningDesc-version = { -brand-short-name } is eksperimenteel en moontlik onstabiel.
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> is 'n <label data-l10n-name="community-exp-creditsLink">wêreldwye gemeenskap</label> wat saamwerk om die Web oop, publiek en toeganklik vir almal te hou.
+community-2 = { -brand-short-name } word ontwerp deur <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, 'n <label data-l10n-name="community-creditsLink">wêreldwye gemeenskap</label> wat saamwerk om die Web oop, publiek en toeganklik vir almal te hou.
+helpus = Lus om te help? <label data-l10n-name="helpus-donateLink">Maak 'n donasie</label> of <label data-l10n-name="helpus-getInvolvedLink">raak betrokke!</label>
+bottomLinks-license = Lisensiëringinligting
+aboutDialog-version = { $version } ({ $bits }-bis)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bis)

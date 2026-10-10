@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ಒವರ್‌ಫ್ಲೋ ಮೆನುವಿನಿಂದ ಅನ್‌ಪಿನ್ ಮಾಡಿ
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Add ಉಪಕರಣಪಟ್ಟಿಗೆ
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = ಒವರ್‌ಫ್ಲೋ ಮೆನುವಿಗೆ ಸೇರಿಸಿ
+    .accesskey = M
+panic-button-thankyou-msg1 = ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಜಾಲ ಇತಿಹಾಸವನ್ನು ಅಳಿಸಲಾಗಿದೆ.
+panic-button-thankyou-msg2 = ಸುರಕ್ಷಿತ ಜಾಲವೀಕ್ಷಣೆ!
+panic-button-thankyou-button =
+    .label = ಧನ್ಯವಾದಗಳು!

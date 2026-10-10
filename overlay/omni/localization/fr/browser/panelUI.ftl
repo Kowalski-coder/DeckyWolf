@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Retirer du menu de dépassement
+    .accesskey = R
+customize-menu-add-to-toolbar =
+    .label = Ajouter à la barre d’outils
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Ajouter au menu de dépassement
+    .accesskey = m
+panic-button-thankyou-msg1 = Votre historique récent a été correctement effacé.
+panic-button-thankyou-msg2 = Bonne navigation !
+panic-button-thankyou-button =
+    .label = Fermer

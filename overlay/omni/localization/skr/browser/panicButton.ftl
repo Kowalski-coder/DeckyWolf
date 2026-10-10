@@ -1,0 +1,15 @@
+panic-button-open-new-window = ہک نواں صاف ونڈو کھولو
+panic-button-undo-warning = ایہ عمل آیا ون٘ڄایا نئیں تھی سڳدا۔
+panic-button-forget-button =
+    .label = بھل ونڄو
+panic-main-timeframe-desc = پچھلے بھل ونڄو:
+panic-button-5min =
+    .label = بنج منٹ
+panic-button-2hr =
+    .label = ݙو گھنٹے
+panic-button-day =
+    .label = 24 گھنٹے
+panic-button-action-desc = کارروائی تھیسے:
+panic-button-delete-cookies = حالیہ <strong>کوکیز</strong> حذف کرو
+panic-button-delete-history = حالیہ <strong>تاریخ</strong> حذف کرو
+panic-button-delete-tabs-and-windows = تمام <strong>ٹیباں</strong> تے <strong>ونڈوز</strong> بند کر ݙیو

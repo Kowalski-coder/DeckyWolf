@@ -1,0 +1,27 @@
+crashed-subframe-message = <strong>Parte de custa pàgina est faddida.</strong> Pro sinnalare custu problema a { -brand-product-name }, pro chi ddu risolvat a lestru, imbia un'informe.
+crashed-subframe-title =
+    .title = Parte de custa pàgina est faddida. Pro sinnalare custu problema a { -brand-product-name }, pro chi ddu risolvat a lestru, imbia un'informe.
+crashed-subframe-learnmore-link =
+    .value = Àteras informatziones
+crashed-subframe-submit =
+    .label = Imbia informe
+    .accesskey = I
+pending-crash-reports-message-new =
+    { $reportCount ->
+        [one] Tenes un’informe de faddinas reghente de imbiare
+       *[other] Tenes { $reportCount } informes de faddinas reghentes de imbiare
+    }
+pending-crash-reports-view-all =
+    .label = Visualiza
+pending-crash-reports-send =
+    .label = Imbia
+pending-crash-reports-always-send =
+    .label = Imbia·ddos semper
+requested-crash-reports-message-new =
+    { $reportCount ->
+        [one] Tenes un’informe chi pertocat faddinas chi semus averiguende. Imbiende·ddu nos as a agiudare a megiorare { -brand-product-name }. Serra custu avisu pro inniorare custu informe.
+       *[other] Tenes { $reportCount } informes chi pertocant faddinas chi semus averiguende. Imbiende·ddos nos as a agiudare a megiorare { -brand-product-name }. Serra custu avisu pro inniorare custos informes.
+    }
+requested-crash-reports-dont-show-again =
+    .label = No dd’ammustres prus
+    .accesskey = N

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Despegar de menú flotante
+    .accesskey = D
+customize-menu-add-to-toolbar =
+    .label = Agregar a barra de herramientas
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Agregar a menú flotante
+    .accesskey = m
+panic-button-thankyou-msg1 = Se limpió es historial reciente
+panic-button-thankyou-msg2 = ¡Navegación segura!
+panic-button-thankyou-button =
+    .label = ¡Gracias!

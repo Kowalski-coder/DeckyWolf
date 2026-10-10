@@ -1,0 +1,9 @@
+clear-data-for-site-title = Garbitu webgune honetako datu guztiak?
+clear-data-for-site-list = Honek { $site } webguneko datu guztiak garbituko ditu, hauek barne:
+clear-data-for-site-browsing-history = Nabigatze- eta deskarga-historia
+clear-data-for-site-cookies = Cookieak eta gunearen datuak; honek gunetik saioa amaitzea ekar lezake
+clear-data-for-site-cache = Cachean gordetako fitxategi eta orriak
+cclear-data-for-site-permissions = Baimenak eta hobespenak
+clear-data-for-site-exceptions = Laster-markak eta gordetako pasahitzak ez dira ezabatuko
+clear-data-for-site-dialog-accept-button = Garbitu datuak
+clear-data-for-site-dialog-cancel-button = Utzi

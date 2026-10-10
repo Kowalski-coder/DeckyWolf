@@ -1,0 +1,17 @@
+about-policies-title = Directivas d'interpresa
+aboutpolicies-page-heading =
+    .heading = Davart las directivas
+active-policies-tab = Activas
+errors-tab = Errurs
+documentation-tab = Documentaziun
+active-policies-tab-title =
+    .title = Activas
+errors-tab-title =
+    .title = Errurs
+documentation-tab-title =
+    .title = Documentaziun
+no-specified-policies-message = Il servetsch Enterprise Policies è activ, ma naginas directivas èn activas.
+inactive-message = Il servetsch Enterprise Policies è inactiv.
+policy-name = Num da la directiva
+policy-value = Valur da la directiva
+policy-errors = Errurs da la directiva

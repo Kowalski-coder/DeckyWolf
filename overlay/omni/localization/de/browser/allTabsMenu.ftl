@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Alle Tabs durchsuchen
+all-tabs-menu-new-user-context =
+    .label = Neuer Tab in Umgebung
+all-tabs-menu-hidden-tabs =
+    .label = Ausgeblendete Tabs
+all-tabs-menu-close-duplicate-tabs =
+    .label = Doppelte Tabs schließen
+all-tabs-menu-view-all-tabs =
+    .label = Alle Tabs anzeigen
+all-tabs-menu-recent-tab-groups-header = Zuletzt verwendete Tab-Gruppen
+all-tabs-menu-tab-groups-show-all =
+    .label = Alle anzeigen
+all-tabs-menu-tab-groups-sub-view =
+    .title = Tab-Gruppen
+all-tabs-menu-current-window-header = Aktuelles Fenster

@@ -1,0 +1,13 @@
+smartwindow-assistant-error-generic-header = Prišlo je do napake. Poskusite znova pozneje.
+smartwindow-retry-btn = Poskusite znova
+aiwindow-memories-learn-more = Več o tem
+aiwindow-manage-memories =
+    .label = Nastavitve spomina
+aiwindow-applied-memories-list =
+    .aria-label = Spomini
+aiwindow-delete-memory-button =
+    .aria-label = Izbriši { $summary }
+smartwindow-nl-undo-button =
+    .label = Razveljavi
+smart-window-confirm-group-tab = Skupina
+smart-window-grouped-tabs-row-label = Združeni zavihki

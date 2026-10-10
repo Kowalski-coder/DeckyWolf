@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Atspraust no izvēlnes
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Pievienot rīkjoslai
+    .accesskey = a
+customize-menu-add-to-overflowmenu =
+    .label = Pievienot izvēlnei
+    .accesskey = M
+panic-button-thankyou-msg1 = Nesenā vēsture ir notīrīta.
+panic-button-thankyou-msg2 = Drošu pārlūkošanu!
+panic-button-thankyou-button =
+    .label = Paldies!

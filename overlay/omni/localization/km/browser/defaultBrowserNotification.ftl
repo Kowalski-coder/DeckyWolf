@@ -1,0 +1,11 @@
+default-browser-notification-message = <strong>កំណត់ { -brand-short-name } ជាកម្មវិធីរុករកលំនាំដើមរបស់អ្នក?</strong> ទទួលបានការរុករករហ័ស សុវត្ថិភាព និងភាពឯកជននៅពេលណាដែលអ្នកប្រើអ៊ីនធឺណិត
+default-browser-notification-button =
+    .label = កំណត់ជាលំនាំដើម
+    .accesskey = S
+default-browser-prompt-title-pin = ធ្វើឱ្យ { -brand-short-name } ក្លាយជាកម្មវិធីរុករកចម្បងរបស់អ្នក?
+default-browser-prompt-title-alt = ធ្វើឱ្យ { -brand-short-name } ជាកម្មវិធីរុករកលំនាំដើមរបស់អ្នក?
+default-browser-prompt-message-alt = ទទួលបានល្បឿន សុវត្ថិភាព និងឯកជនភាពរាល់ពេលដែលអ្នករុករកលើអ៊ីនធឺណិត។
+default-browser-prompt-button-primary-alt = កំណត់ជាកម្មវិធីរុករកលំនាំដើម
+default-browser-prompt-checkbox-not-again-label = កុំបង្ហាញសារនេះម្តងទៀត
+default-browser-prompt-button-secondary = មិនមែន​ឥឡូវ​ទេ
+default-browser-guidance-notification-dismiss = ធ្វើ​រួច

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = اورفلو مینو کنوں ان پن کرو
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = ٹول بار وِچ شامل کرو
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = اوور فلو مینو اِچ شامل کرو
+    .accesskey = M
+panic-button-thankyou-msg1 = تہاݙی حالیہ تاریخ میس ݙتی ڳئی ہے۔
+panic-button-thankyou-msg2 = محفوظ براؤزنگ
+panic-button-thankyou-button =
+    .label = شکریہ!

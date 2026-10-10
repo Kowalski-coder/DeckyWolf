@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Text and Backgrund
+colors-text =
+    .label = Text
+    .accesskey = T
+colors-text-background =
+    .label = Backgrund
+    .accesskey = B
+colors-links-header = Link Colours
+colors-links-unvisited =
+    .label = Links No Veesitit
+    .accesskey = L
+colors-links-visited =
+    .label = Veesitit Links
+    .accesskey = V

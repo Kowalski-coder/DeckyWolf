@@ -1,0 +1,13 @@
+grid-row-column-positions = Redak { $row } / stupac { $column }
+gridtype-container = Grid kontejner
+gridtype-item = Element mreže
+gridtype-dual = Grid kontejner/element
+flextype-container = Flex kontejner
+flextype-item = Flex element
+flextype-dual = Flex kontejner/element
+remote-node-picker-notice = Programerski alat za biranje čvorova je aktiviran. { $action }
+remote-node-picker-notice-action-desktop = Pritisni jedan element za biranje u Inspektoru
+remote-node-picker-notice-action-touch = Dodirni jedan element za biranje u Inspektoru
+remote-node-picker-notice-hide-button = Sakrij
+simple-highlighters-message = Kada je funkcija prefers-reduced-motion aktivirana, na ploči s postavkama je moguće aktivirati jednostavnija isticanja kako bi se izbjeglo treperanja boja.
+simple-highlighters-settings-button = Otvori postavke

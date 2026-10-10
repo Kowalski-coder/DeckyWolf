@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bismilla, aadee !
+error-short-desc-text = Min ngardi ko jam e newuya!
+error-long-desc1 = Roboo waawaa gaañde aadee, walla woppa aadee gaañee tawa ina deeƴii.
+error-long-desc2 = Robooji njiyii geɗe ɗe on mbaawaa miijaade.
+error-long-desc3 = Robooji ko sehilaaɓe mon peewniraaɗi dalli, belɗi wondude.
+error-long-desc4 = Keeceeje robooji peewniraa ko njamndi ñilkoori ndi fotaani ŋateede.
+error-trailer-desc-text = Tee eɗi njogii feere.
+error-try-again = Fuɗɗito
+    .label2 = Hoto ɓoɗɗit ooɗoo butoŋ.

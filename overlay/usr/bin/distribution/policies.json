@@ -1,0 +1,203 @@
+{
+    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
+    "policies": {
+        "AIControls": {
+            "Translations": {
+                "Value": "available"
+            },
+            "PDFAltText": {
+                "Value": "blocked"
+            },
+            "SmartTabGroups": {
+                "Value": "blocked"
+            },
+            "LinkPreviewKeyPoints": {
+                "Value": "blocked"
+            },
+            "SidebarChatbot": {
+                "Value": "blocked"
+            },
+            "SmartWindow": {
+                "Value": "blocked"
+            },
+            "SpeechRecognition": {
+                "Value": "blocked"
+            }
+        },
+        "AppUpdateURL": "https://localhost",
+        "DisableAppUpdate": true,
+        "DisableDefaultBrowserAgent": true,
+        "DisableFeedbackCommands": true,
+        "DisableFirefoxStudies": true,
+        "DisableRemoteImprovements": true,
+        "DisableSetDesktopBackground": false,
+        "DisableTelemetry": true,
+        "DontCheckDefaultBrowser": true,
+        "WebsiteFilter": {
+            "Block": [
+                "https://localhost/*"
+            ],
+            "Exceptions": [
+                "https://localhost/*"
+            ]
+        },
+        "EncryptedMediaExtensions": {
+            "Enabled": false
+        },
+        "ExtensionSettings": {
+            "*": {
+                "blocked_install_message": "LibreWolf does not allow installing Language Packs.",
+                "installation_mode": "allowed",
+                "allowed_types": [
+                    "dictionary",
+                    "extension",
+                    "sitepermission"
+                ]
+            },
+            "uBlock0@raymondhill.net": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi",
+                "installation_mode": "normal_installed",
+                "private_browsing": true
+            }
+        },
+        "FirefoxHome": {
+            "Weather": true,
+            "TopSites": true,
+            "SponsoredTopSites": false,
+            "Highlights": false,
+            "Stories": false,
+            "SponsoredStories": false
+        },
+        "FirefoxSuggest": {
+            "WebSuggestions": false,
+            "SponsoredSuggestions": false,
+            "ImproveSuggest": false
+        },
+        "HttpsOnlyMode": "enabled",
+        "LocalNetworkAccess": {
+            "Enabled": true,
+            "BlockTrackers": true,
+            "EnablePrompting": true
+        },
+        "NoDefaultBookmarks": true,
+        "OverridePostUpdatePage": "",
+        "SkipTermsOfUse": true,
+        "SupportMenu": {
+            "Title": "Открыть чат ВКонтакте",
+            "URL": "https://vk.me/join/rw2nYVr_hsTcVmSEcuQYzetq75HYXgbvLFA="
+        },
+        "UserMessaging": {
+            "UrlbarInterventions": false,
+            "SkipOnboarding": true,
+            "MoreFromMozilla": false,
+            "FirefoxLabs": false
+        },
+        "Preferences": {
+            "privacy.spoof_english": {
+                "Value": 2,
+                "Status": "locked"
+            },
+            "librewolf.language_notification": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.pinned": {
+                "Value": "[{\"url\": \"https://deckyloader.ru/\", \"title\": \"Decky Loader\"}, {\"url\": \"https://store.steampowered.com/\", \"title\": \"Steam\"}, {\"url\": \"https://vk.ru/valvesteamdeck\", \"title\": \"Steam Deck Россия\"}]",
+                "Status": "locked"
+            },
+            "extensions.activeThemeID": {
+                "Value": "firefox-compact-dark@mozilla.org",
+                "Status": "locked"
+            },
+            "layout.css.prefers-color-scheme.content-override": {
+                "Value": 2,
+                "Status": "locked"
+            },
+            "browser.nova.enabled": {
+                "Value": true,
+                "Status": "locked"
+            },
+            "toolkit.legacyUserProfileCustomizations.stylesheets": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.newtabWallpapers.enabled": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.newtabWallpapers.user.enabled": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.enabled": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.startup.homepage": {
+                "Value": "about:home",
+                "Status": "locked"
+            },
+            "browser.newtabpage.enabled": {
+                "Value": true,
+                "Status": "locked"
+            },
+            "librewolf.externalWallpapers.enabled": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.showSponsoredCheckboxes": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.showSponsoredTopSites": {
+                "Value": false,
+                "Status": "locked"
+            },
+            "browser.newtabpage.activity-stream.showSponsored": {
+                "Value": false,
+                "Status": "locked"
+            }
+        },
+        "SearchEngines": {
+            "Add": [
+                {
+                    "Name": "Яндекс",
+                    "URLTemplate": "https://yandex.ru/search/?text={searchTerms}",
+                    "Method": "GET",
+                    "IconURL": "https://yandex.ru/favicon.ico",
+                    "Alias": "ya",
+                    "Description": "Яндекс",
+                    "SuggestURLTemplate": "https://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}"
+                },
+                {
+                    "Name": "Google",
+                    "URLTemplate": "https://www.google.com/search?q={searchTerms}",
+                    "Method": "GET",
+                    "IconURL": "https://www.google.com/favicon.ico",
+                    "Alias": "g",
+                    "Description": "Google",
+                    "SuggestURLTemplate": "https://www.google.com/complete/search?client=firefox&q={searchTerms}"
+                },
+                {
+                    "Name": "Perplexity",
+                    "URLTemplate": "https://www.perplexity.ai/search?q={searchTerms}",
+                    "Method": "GET",
+                    "IconURL": "https://www.perplexity.ai/favicon.ico",
+                    "Alias": "ppx",
+                    "Description": "Perplexity"
+                }
+            ],
+            "Remove": [
+                "Startpage",
+                "Mojeek",
+                "Википедия",
+                "Википедия (ru)",
+                "Wikipedia",
+                "Wikipedia (en)"
+            ],
+            "Default": "Яндекс",
+            "DefaultPrivate": "Яндекс",
+            "PreventInstalls": false
+        }
+    }
+}

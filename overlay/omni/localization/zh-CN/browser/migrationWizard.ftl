@@ -1,0 +1,135 @@
+migration-wizard-selection-header = 导入浏览器数据
+migration-wizard-selection-list = 选择要导入的数据。
+migration-wizard-selection-option-without-profile = { $sourceBrowser }
+migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
+migration-wizard-migrator-display-name-brave = Brave
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chrome-beta = Chrome Beta
+migration-wizard-migrator-display-name-chrome-dev = Chrome Dev
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = 360 安全浏览器
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
+migration-wizard-migrator-display-name-edge-legacy = 旧版 Microsoft Edge
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = CSV 文件中的密码
+migration-wizard-migrator-display-name-file-bookmarks = HTML 文件中的书签
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer（IE 浏览器）
+migration-wizard-migrator-display-name-opera = Opera
+migration-wizard-migrator-display-name-opera-gx = Opera GX
+migration-wizard-migrator-display-name-safari = Safari 浏览器
+migration-wizard-migrator-display-name-vivaldi = Vivaldi
+migration-source-name-ie = Internet Explorer（IE 浏览器）
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = Google Chrome
+migration-imported-safari-reading-list = 阅读列表（来自 Safari 浏览器）
+migration-imported-edge-reading-list = 阅读列表（来自 Edge）
+migration-no-permissions-message = { -brand-short-name } 无法访问此设备上安装的其他浏览器的配置文件。
+migration-no-permissions-instructions = 如需继续从其他浏览器导入数据，请允许 { -brand-short-name } 访问其配置文件夹。
+migration-no-permissions-instructions-step1 = 选择“继续”
+migration-no-permissions-instructions-step2 = 在文件选择器中找到 <code>{ $permissionsPath }</code> 并点击“选择”
+migration-all-available-data-label = 导入所有可用数据
+migration-no-selected-data-label = 未选择要导入的数据
+migration-selected-data-label = 导入所选数据
+migration-select-all-option-label = 全选
+migration-bookmarks-option-label = 书签
+migration-favorites-option-label = 收藏夹
+migration-passwords-option-label = 保存的密码
+migration-history-option-label = 浏览历史
+migration-extensions-option-label = 扩展
+migration-form-autofill-option-label = 自动填写表单数据
+migration-payment-methods-option-label = 付款方式
+migration-cookies-option-label = Cookie
+migration-session-option-label = 窗口和标签页
+migration-otherdata-option-label = 其他数据
+migration-passwords-from-file-progress-header = 导入密码文件
+migration-passwords-from-file-success-header = 已成功导入密码
+migration-passwords-from-file = 正在检查文件中的密码
+migration-passwords-new = 新密码
+migration-passwords-updated = 现有密码
+migration-passwords-from-file-no-valid-data = 此文件不含有效的密码数据，请选择其他文件。
+migration-passwords-from-file-picker-title = 导入密码文件
+migration-passwords-from-file-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV 文档
+       *[other] CSV 文件
+    }
+migration-passwords-from-file-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV 文档
+       *[other] TSV 文件
+    }
+migration-wizard-progress-success-new-passwords = 已添加 { $newEntries } 个
+migration-wizard-progress-success-updated-passwords = 已更新 { $updatedEntries } 个
+migration-bookmarks-from-file-picker-title = 导入书签文件
+migration-bookmarks-from-file-progress-header = 导入书签
+migration-bookmarks-from-file = 书签
+migration-bookmarks-from-file-success-header = 书签导入成功
+migration-bookmarks-from-file-no-valid-data = 此文件不含书签数据，请选择其他文件。
+migration-bookmarks-from-file-html-filter-title =
+    { PLATFORM() ->
+        [macos] HTML 文稿
+       *[other] HTML 文件
+    }
+migration-bookmarks-from-file-json-filter-title = JSON 文件
+migration-wizard-progress-success-new-bookmarks = { $newEntries } 个书签
+migration-import-button-label = 导入
+migration-choose-to-import-from-file-button-label = 从文件导入
+migration-import-from-file-button-label = 选择文件
+migration-cancel-button-label = 取消
+migration-done-button-label = 完成
+migration-continue-button-label = 继续
+migration-wizard-import-browser-no-browsers = { -brand-short-name } 找不到存有书签、历史记录或密码数据的程序。
+migration-wizard-import-browser-no-resources = 出错了。{ -brand-short-name } 在所选的浏览器配置文件中找不到数据。
+migration-list-bookmark-label = 书签
+migration-list-favorites-label = 收藏夹
+migration-list-password-label = 密码
+migration-list-history-label = 历史记录
+migration-list-extensions-label = 扩展
+migration-list-autofill-label = 自动填写数据
+migration-list-payment-methods-label = 付款方式
+migration-wizard-progress-header = 正在导入数据
+migration-wizard-progress-done-header = 数据导入成功
+migration-wizard-progress-done-with-warnings-header = 数据导入完成
+migration-wizard-progress-icon-in-progress =
+    .aria-label = 正在导入…
+migration-wizard-progress-icon-completed =
+    .aria-label = 已完成
+migration-safari-password-import-header = 从 Safari 浏览器导入密码
+migration-safari-password-import-post-sequoia-step1 = 在 Mac 上打开<a data-l10n-name="macos-passwords-app">“密码”App</a>
+migration-safari-password-import-post-sequoia-step2 = 在屏幕顶部的菜单栏中，选择“文件”>“将所有密码导出至文件…”
+migration-safari-password-import-post-sequoia-step3 = 保存文件
+migration-safari-password-import-post-sequoia-step4 = 选择您刚才保存的文件
+migration-safari-password-import-steps-header = 如需导入 Safari 浏览器密码：
+migration-safari-password-import-step1 = 在 Safari 浏览器中，打开“Safari 浏览器”菜单，前往“偏好设置”>“密码”
+migration-safari-password-import-step2 = 点按 <img data-l10n-name="safari-icon-3dots"/> 按钮，然后选取“导出所有密码”
+migration-safari-password-import-step3 = 保存密码文件
+migration-safari-password-import-step4 = 使用下方的“选择文件”来选取您保存的密码文件
+migration-chrome-windows-password-import-header = 从 Chrome 导入密码的方法
+migration-chrome-windows-password-import-steps-header = 在 Chrome 中：
+migration-chrome-windows-password-import-step1 = 打开主菜单 <img data-l10n-name="chrome-icon-3dots"/>，前往“密码和自动填充”>“Google 密码管理工具”。
+migration-chrome-windows-password-import-step2 = 选择菜单中的“设置”。
+migration-chrome-windows-password-import-step3 = 选择“下载文件”并将其保存到设备。
+migration-chrome-windows-password-import-step4 = 回到此处，选择“选择文件”以完成导入。
+migration-manual-password-import-skip-button = 跳过
+migration-manual-password-import-cancel-button = 取消
+migration-manual-password-import-select-button = 选择文件
+migration-wizard-progress-success-bookmarks = { $quantity } 个书签
+migration-wizard-progress-success-favorites = { $quantity } 个收藏
+migration-wizard-progress-success-extensions = { $quantity } 个扩展
+migration-wizard-progress-partial-success-extensions = 检测到 { $quantity } 个扩展，成功匹配 { $matched } 个
+migration-wizard-progress-extensions-support-link = 详细了解 { -brand-product-name } 匹配扩展的方式
+migration-wizard-progress-no-matched-extensions = 没有匹配的扩展
+migration-wizard-progress-extensions-addons-link = 浏览 { -brand-short-name } 的扩展
+migration-wizard-progress-success-passwords = { $quantity } 个密码
+migration-wizard-progress-success-history =
+    { $maxAgeInDays ->
+        [one] 昨天以来的数据
+       *[other] 过去 { $maxAgeInDays } 天内的数据
+    }
+migration-wizard-progress-success-formdata = 表单历史记录
+migration-wizard-progress-success-payment-methods = { $quantity } 个付款方式
+migration-wizard-safari-permissions-sub-header = 如需导入 Safari 浏览器书签和浏览历史：
+migration-wizard-safari-instructions-continue = 选择“继续”
+migration-wizard-safari-instructions-folder = 在列表中选择“Safari”文件夹，然后选取“打开”

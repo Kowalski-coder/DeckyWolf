@@ -1,0 +1,196 @@
+graph-week-summary =
+    { $count ->
+        [one] { -brand-short-name } a bloqué { $count } traqueur au cours de la semaine passée
+       *[other] { -brand-short-name } a bloqué { $count } traqueurs au cours de la semaine passée
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] <b>{ $count }</b> traqueur bloqué depuis le { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+       *[other] <b>{ $count }</b> traqueurs bloqués depuis le { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+    }
+graph-private-window = { -brand-short-name } continue de bloquer les traqueurs dans les fenêtres de navigation privée, mais ne conserve aucune trace de ce qui a été bloqué.
+graph-week-summary-private-window = Traqueurs bloqués par { -brand-short-name } cette semaine
+protection-report-webpage-title = Tableau de bord des protections
+protection-report-page-content-title = Tableau de bord des protections
+protection-report-page-summary = { -brand-short-name } peut protéger votre vie privée en arrière-plan pendant que vous naviguez. Voici un résumé personnalisé de ces protections, avec des outils pour prendre le contrôle de votre sécurité en ligne.
+protection-report-page-summary-default = { -brand-short-name } protège votre vie privée en arrière-plan pendant que vous naviguez. Voici un résumé personnalisé de ces protections, avec des outils pour prendre le contrôle de votre sécurité en ligne.
+protection-report-settings-link = Gérer vos paramètres de confidentialité et de sécurité
+etp-card-title-always = Protection renforcée contre le pistage : toujours activée
+etp-card-title-custom-not-blocking = Protection renforcée contre le pistage : DÉSACTIVÉE
+etp-card-content-description = { -brand-short-name } empêche automatiquement les entreprises de vous suivre secrètement sur le Web.
+protection-report-etp-card-content-custom-not-blocking = Toutes les protections sont actuellement désactivées. Choisissez les traqueurs à bloquer en gérant les paramètres de protection de { -brand-short-name }.
+protection-report-manage-protections = Gérer les paramètres
+graph-today = aujourd’hui
+graph-legend-description = Un graphique contenant le nombre total de chaque type de traqueur bloqué cette semaine.
+social-tab-title = Traqueurs de réseaux sociaux
+social-tab-contant = Les réseaux sociaux placent des traqueurs sur d’autres sites web pour suivre ce que vous faites, lisez et regardez en ligne. Cela permet aux entreprises de réseaux sociaux d’en savoir plus sur vous au-delà de ce que vous partagez sur vos profils en ligne. <a data-l10n-name="learn-more-link">En savoir plus</a>
+cookie-tab-title = Cookies de pistage intersites
+cookie-tab-content = Ces cookies vous suivent d’un site à l’autre pour collecter des données sur vos faits et gestes en ligne. Ils sont déposés par des tiers, tels que des annonceurs ou des entreprises d’analyse de données. Bloquer les cookies de pistage intersites permet de réduire le nombre de publicités qui vous suivent d’un site à l’autre. <a data-l10n-name="learn-more-link">En savoir plus</a>
+tracker-tab-title = Contenu utilisé pour le pistage
+tracker-tab-description = Les sites web peuvent charger des publicités, des vidéos et d’autres contenus externes qui contiennent des éléments de pistage. Le blocage du contenu utilisé pour le pistage peut accélérer le chargement des sites, mais certains boutons, formulaires ou champs de connexion risquent de ne pas fonctionner. <a data-l10n-name="learn-more-link">En savoir plus</a>
+fingerprinter-tab-title = Détecteurs d’empreinte numérique
+fingerprinter-tab-content = Les détecteurs d’empreinte numérique recueillent les paramètres de votre navigateur et de votre ordinateur pour créer un profil de vous. En utilisant cette empreinte numérique, ils peuvent vous pister sur différents sites web. <a data-l10n-name="learn-more-link">En savoir plus</a>
+cryptominer-tab-title = Mineurs de cryptomonnaies
+cryptominer-tab-content = Les mineurs de cryptomonnaies utilisent la puissance de calcul de votre système pour « extraire » de l’argent numérique. Les scripts de cryptominage déchargent votre batterie, ralentissent votre ordinateur et peuvent augmenter votre facture énergétique. <a data-l10n-name="learn-more-link">En savoir plus</a>
+protections-close-button2 =
+    .aria-label = Fermer
+    .title = Fermer
+mobile-app-title = Bloquez les traqueurs publicitaires sur plusieurs appareils
+mobile-app-card-content = Utilisez le navigateur mobile avec une protection intégrée contre le pistage publicitaire.
+mobile-app-links = Navigateur { -brand-product-name } pour <a data-l10n-name="android-mobile-inline-link">Android</a> et <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+lockwise-title = N’oubliez plus jamais vos mots de passe
+passwords-title-logged-in = Gérer vos mots de passe
+passwords-header-content = { -brand-product-name } conserve de manière sécurisée vos mots de passe dans votre navigateur.
+lockwise-header-content-logged-in = Enregistrez et synchronisez vos mots de passe sur tous vos appareils en toute sécurité.
+protection-report-passwords-save-passwords-button = Enregistrer les mots de passe
+    .title = Enregistrer les mots de passe
+protection-report-passwords-manage-passwords-button = Gérer les mots de passe
+    .title = Gérer les mots de passe
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [one] 1 mot de passe peut avoir été compromis dans une fuite de données.
+       *[other] { $count } mots de passe peuvent avoir été compromis dans une fuite de données.
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] 1 mot de passe stocké en toute sécurité.
+       *[other] Vos mots de passe sont stockés en toute sécurité.
+    }
+lockwise-how-it-works-link = Principes de fonctionnement
+monitor-title = Gardez un œil sur les fuites de données
+monitor-link = Principes de fonctionnement
+monitor-header-content-no-account = Consultez { -monitor-brand-name } pour vérifier si une fuite de données vous concerne et pour recevoir des alertes en cas de nouvelles fuites.
+monitor-header-content-signed-in = { -monitor-brand-name } vous alerte si vos informations apparaissent dans une fuite de données connue
+monitor-sign-up-link = S’inscrire aux alertes de fuites de données
+    .title = S’inscrire aux alertes de fuites de données sur { -monitor-brand-name }
+auto-scan = Vérifiées aujourd’hui automatiquement
+monitor-emails-tooltip =
+    .title = Afficher les adresses e-mail surveillées sur { -monitor-brand-short-name }
+monitor-breaches-tooltip =
+    .title = Afficher les fuites de données connues sur { -monitor-brand-short-name }
+monitor-passwords-tooltip =
+    .title = Afficher les mots de passe compromis sur { -monitor-brand-short-name }
+info-monitored-emails =
+    { $count ->
+        [one] adresse e-mail surveillée
+       *[other] adresses e-mail surveillées
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] fuite de données connue a compromis vos informations
+       *[other] fuites de données connues ont compromis vos informations
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] fuite de données connue marquée comme réglée
+       *[other] fuites de données connues marquées comme réglées
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] mot de passe compromis parmi toutes les fuites de données
+       *[other] mots de passe compromis parmi toutes les fuites de données
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] mot de passe compromis parmi les fuites de données non réglées
+       *[other] mots de passe compromis parmi les fuites de données non réglées
+    }
+monitor-no-breaches-title = Bonne nouvelle !
+monitor-no-breaches-description = Vous n’apparaissez dans aucune fuite de données connue. Si cela vient à changer, nous vous en aviserons.
+monitor-view-report-link = Voir le rapport
+    .title = Régler les fuites de données avec { -monitor-brand-short-name }
+monitor-breaches-unresolved-title = Réglez vos fuites de données
+monitor-breaches-unresolved-description = Après avoir examiné les détails des fuites de données et pris des mesures pour protéger vos informations, vous pouvez marquer les fuites comme réglées.
+monitor-manage-breaches-link = Gérer les fuites de données
+    .title = Gérer les fuites de données avec { -monitor-brand-short-name }
+monitor-breaches-resolved-title = Bien ! Vous avez réglé toutes les fuites de données connues.
+monitor-breaches-resolved-description = Si votre adresse e-mail figure dans de nouvelles fuites de données, nous vous préviendrons.
+monitor-partial-breaches-title =
+    { $numBreachesResolved ->
+        [one] { $numBreachesResolved } fuite sur { $numBreaches } marquée comme réglée
+       *[other] { $numBreachesResolved } fuites sur { $numBreaches } marquées comme réglées
+    }
+monitor-partial-breaches-percentage = Terminé à { $percentageResolved } %
+monitor-partial-breaches-motivation-title-start = Un bon début !
+monitor-partial-breaches-motivation-title-middle = Gardez le rythme !
+monitor-partial-breaches-motivation-title-end = C’est presque fini. Continuez !
+monitor-partial-breaches-motivation-description = Réglez vos autres fuites de données avec { -monitor-brand-short-name }.
+monitor-resolve-breaches-link = Régler vos fuites de données
+    .title = Régler vos fuites de données avec { -monitor-brand-short-name }
+bar-tooltip-social =
+    .title = Traqueurs de réseaux sociaux
+    .aria-label =
+        { $count ->
+            [one] { $count } traqueur de réseau social ({ $percentage } %)
+           *[other] { $count } traqueurs de réseaux sociaux ({ $percentage } %)
+        }
+bar-tooltip-cookie =
+    .title = Cookies de pistage intersites
+    .aria-label =
+        { $count ->
+            [one] { $count } cookie de pistage intersites ({ $percentage } %)
+           *[other] { $count } cookies de pistage intersites ({ $percentage } %)
+        }
+bar-tooltip-tracker =
+    .title = Contenu utilisé pour le pistage
+    .aria-label =
+        { $count ->
+            [one] { $count } contenu utilisé pour le pistage ({ $percentage } %)
+           *[other] { $count } contenus utilisés pour le pistage ({ $percentage } %)
+        }
+bar-tooltip-fingerprinter =
+    .title = Détecteurs d’empreinte numérique
+    .aria-label =
+        { $count ->
+            [one] { $count } détecteur d’empreinte numérique ({ $percentage } %)
+           *[other] { $count } détecteurs d’empreinte numérique ({ $percentage } %)
+        }
+bar-tooltip-cryptominer =
+    .title = Mineurs de cryptomonnaies
+    .aria-label =
+        { $count ->
+            [one] { $count } mineur de cryptomonnaies ({ $percentage } %)
+           *[other] { $count } mineurs de cryptomonnaies ({ $percentage } %)
+        }
+privacy-metrics-title = Protection de la vie privée
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } bloqué cette semaine
+       *[other] { $count } bloqués cette semaine
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } traqueur
+       *[other] { $count } traqueurs
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } détecteur d’empreinte numérique
+       *[other] { $count } détecteurs d’empreinte numérique
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } cookie de pistage
+       *[other] { $count } cookies de pistage
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } traqueur de réseaux sociaux
+       *[other] { $count } traqueurs de réseaux sociaux
+    }
+privacy-metrics-empty = Aucun traqueur bloqué cette semaine. { -brand-short-name } vous protège contre les menaces suivantes pendant votre navigation.
+privacy-metrics-loading = Chargement des statistiques de protection…
+privacy-metrics-error = Impossible de charger les statistiques de protection.
+privacy-metrics-private-window = { -brand-short-name } continue de bloquer les traqueurs dans les fenêtres de navigation privée, mais ne conserve aucune trace de ce qui a été bloqué.
+protections-vpn-title = Protégez votre vie privée au-delà du navigateur
+protections-vpn-header-content = Sécurisez tout votre appareil avec { -mozilla-vpn-brand-name }. En un seul geste, tout votre trafic est chiffré et votre position reste cachée.
+protections-get-vpn-link = Obtenir { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN : abonné·e
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [1] L’utilisation de { -mozilla-vpn-brand-name } permet de chiffrer tout votre trafic et de masquer votre localisation sur un seul appareil. Tirez le meilleur parti de votre abonnement ; installez-le depuis le <a data-l10n-name="playstore-link">Google Play Store</a> ou l’<a data-l10n-name="appstore-link">App Store d’Apple</a>.
+       *[other] L’utilisation de { -mozilla-vpn-brand-name } permet de chiffrer tout votre trafic et de masquer votre localisation sur un maximum de { $count } appareils. Tirez le meilleur parti de votre abonnement ; installez-le depuis le <a data-l10n-name="playstore-link">Google Play Store</a> ou l’<a data-l10n-name="appstore-link">App Store d’Apple</a>.
+    }
+protections-vpn-banner-header = Une protection qui va au-delà du navigateur
+protections-vpn-banner-content = Essayez { -mozilla-vpn-brand-name } sans risque et voyez pourquoi TechRadar affirme : « sa rapidité, sa simplicité, et son tarif mensuel abordable valent le détour ».
+protections-vpn-banner-link = Obtenir { -mozilla-vpn-brand-name }

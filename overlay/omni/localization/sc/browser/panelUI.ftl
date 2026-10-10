@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Boga dae su menù de ainas agiuntivas
+    .accesskey = B
+customize-menu-add-to-toolbar =
+    .label = Agiunghe a sa barra de ainas
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Agiunghe a su menù de ainas agiuntivas
+    .accesskey = A
+panic-button-thankyou-msg1 = Cronologia reghente cantzellada.
+panic-button-thankyou-msg2 = Bonu navigatzione!
+panic-button-thankyou-button =
+    .label = Gràtzias!

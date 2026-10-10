@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Ongi etorri gizakiak!
+error-short-desc-text = Bakean eta borondate onez etorri gara zuek bisitatzera!
+error-long-desc1 = Robot batek ez lioke gizaki bati minik eman behar edo, ekintzarik egin gabe, ez lioke gizaki bati min hartzen utzi behar.
+error-long-desc2 = Sinistuko ez zenituzketen gauzak ikusi dituzte robotek.
+error-long-desc3 = Robotak plastikozko zure lagunak dira eta beraiekin egon nahiko duzu.
+error-long-desc4 = Miazkatu behar ez den metalezko ipurdi distiratsua dute robotek.
+error-trailer-desc-text = ...eta plan bat dute.
+error-try-again = Saiatu berriro
+    .label2 = Ez sakatu botoi hau berriro.

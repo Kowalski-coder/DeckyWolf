@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Benvinguts humans!
+error-short-desc-text = Us hem vingut a visitar en pau i amb bona voluntat!
+error-long-desc1 = Un robot no pot fer mal a un ésser humà o, per inacció, permetre que un ésser humà prengui mal.
+error-long-desc2 = Els robots han vist coses que vosaltres, humans, mai creuríeu.
+error-long-desc3 = Els robots són els vostres companys de plàstic amb qui passar-s'ho bé.
+error-long-desc4 = Els robots tenen darreres de metall lluent que no han de mossegar-se.
+error-trailer-desc-text = I tenen un pla.
+error-try-again = Torna-ho a provar
+    .label2 = No torneu a prémer aquest botó.

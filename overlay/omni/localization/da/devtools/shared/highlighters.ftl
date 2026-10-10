@@ -1,0 +1,13 @@
+grid-row-column-positions = Række { $row }, kolonne { $column }
+gridtype-container = Grid-container
+gridtype-item = Grid-element
+gridtype-dual = Grid-container/-element
+flextype-container = Flex-container
+flextype-item = Flex-element
+flextype-dual = Flex-container/-element
+remote-node-picker-notice = Node-vælger i Udviklerværktøj er aktiv. { $action }
+remote-node-picker-notice-action-desktop = Klik på et element for at vælge det i Inspektøren
+remote-node-picker-notice-action-touch = Tryk på et element for at vælge det i Inspektøren
+remote-node-picker-notice-hide-button = Skjul
+simple-highlighters-message = Når prefers-reduced-motion er aktiveret, kan en mere enkelt markering aktiveres i indstillings-panelet for at undgå blinkende farver.
+simple-highlighters-settings-button = Åbn Indstillinger

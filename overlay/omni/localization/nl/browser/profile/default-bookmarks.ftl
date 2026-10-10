@@ -1,0 +1,14 @@
+default-bookmarks-title = Bladwijzers
+default-bookmarks-heading = Bladwijzers
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Hulp verkrijgen
+default-bookmarks-firefox-customize = Firefox aanpassen
+default-bookmarks-firefox-community = Meewerken
+default-bookmarks-firefox-about = Over ons
+default-bookmarks-nightly-heading = Firefox Nightly-bronnen
+default-bookmarks-nightly-blog = Firefox Nightly-blog
+default-bookmarks-bugzilla = Mozilla-bugtracker
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Al uw crashes
+default-bookmarks-planet = Planet Mozilla

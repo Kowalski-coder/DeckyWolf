@@ -1,0 +1,17 @@
+about-policies-title = Polítiques d'empresa
+aboutpolicies-page-heading =
+    .heading = Quant a les polítiques
+active-policies-tab = Actives
+errors-tab = Errors
+documentation-tab = Documentació
+active-policies-tab-title =
+    .title = Actives
+errors-tab-title =
+    .title = Errors
+documentation-tab-title =
+    .title = Documentació
+no-specified-policies-message = El servei de polítiques d'empresa està actiu, però no hi ha cap política activada.
+inactive-message = El servei de polítiques d'empresa està inactiu.
+policy-name = Nom de la política
+policy-value = Valor de la política
+policy-errors = Errors de la política

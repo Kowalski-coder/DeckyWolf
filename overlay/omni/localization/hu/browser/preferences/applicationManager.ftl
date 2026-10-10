@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Alkalmazás részletei
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Eltávolítás
+    .accesskey = E
+app-manager-handle-protocol = A következő alkalmazások képesek kezelni ezt: { $type } hivatkozás.
+app-manager-handle-file = A következő alkalmazások képesek kezelni ezt: { $type } tartalom.
+app-manager-web-app-info = Ez a webalkalmazás itt van:
+app-manager-local-app-info = Ez az alkalmazás itt van:

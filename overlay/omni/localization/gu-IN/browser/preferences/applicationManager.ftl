@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = કાર્યક્રમ વિગતો
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = દૂર કરો
+    .accesskey = R
+app-manager-handle-protocol = નીચેના કાર્યક્રમો { $type } કડીઓ ને સંભાળવા માટે વાપરી શકાશે.
+app-manager-handle-file = નીચેના કાર્યક્રમો { $type } સમાવિષ્ટ ને સંભાળવા માટે વાપરી શકાશે.
+app-manager-web-app-info = આ વેબ કાર્યક્રમ અહીં યજમાનિત થયેલ છે:
+app-manager-local-app-info = આ કાર્યક્રમ અહીં સ્થિત થયેલ છે:

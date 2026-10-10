@@ -1,0 +1,15 @@
+panic-button-open-new-window = Avaa uuden puhtaan ikkunan
+panic-button-undo-warning = Tätä toimintoa ei voi perua.
+panic-button-forget-button =
+    .label = Unohda!
+panic-main-timeframe-desc = Unohda viimeiset:
+panic-button-5min =
+    .label = Viisi minuuttia
+panic-button-2hr =
+    .label = Kaksi tuntia
+panic-button-day =
+    .label = 24 tuntia
+panic-button-action-desc = Toiminnon suorittaminen:
+panic-button-delete-cookies = Poistaa kertyneet <strong>evästeet</strong>
+panic-button-delete-history = Poistaa kertyneen <strong>sivuhistorian</strong>
+panic-button-delete-tabs-and-windows = Sulkee kaikki avatut <strong>välilehdet</strong> ja <strong>ikkunat</strong>

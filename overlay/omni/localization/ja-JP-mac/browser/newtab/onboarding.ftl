@@ -1,0 +1,343 @@
+onboarding-welcome-header = { -brand-short-name } にようこそ
+onboarding-start-browsing-button-label = ブラウジングを開始
+onboarding-not-now-button-label = 後で
+mr1-onboarding-get-started-primary-button-label = はじめましょう
+return-to-amo-subtitle = { -brand-short-name } をインストールしました
+return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
+return-to-amo-add-extension-label = 拡張機能を追加
+return-to-amo-add-theme-label = テーマを追加
+return-to-amo-theme-install-complete-label = テーマをインストールしました
+return-to-amo-extension-install-complete-label = 拡張機能をインストールしました
+mr1-return-to-amo-subtitle = { -brand-short-name } をどうぞよろしく
+mr1-return-to-amo-addon-title = 高速でプライベートなブラウザーをあなたの手元に。<b>{ $addon-name }</b> を追加して、{ -brand-short-name } でより多くのことができるようになります。
+mr1-return-to-amo-add-extension-label = { $addon-name } を追加
+onboarding-welcome-steps-indicator-label =
+    .aria-label = 完了まで: { $current } / { $total }
+mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
+mr1-onboarding-sign-in-button-label = ログイン
+mr1-onboarding-import-primary-button-label-attribution = { $previous } から読み込む
+mr1-onboarding-theme-header = 自分らしく
+mr1-onboarding-theme-subtitle = テーマで { -brand-short-name } をパーソナライズできます。
+mr1-onboarding-theme-secondary-button-label = 後で
+mr1-onboarding-theme-label-system = システムテーマ
+mr1-onboarding-theme-label-light = Light
+mr1-onboarding-theme-label-dark = Dark
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = 完了
+onboarding-animation-pause-button =
+    .aria-label = アニメーションを一時停止
+onboarding-animation-play-button =
+    .aria-label = アニメーションを再生
+mr1-onboarding-theme-tooltip-system =
+    .title = OS のボタン、メニュー、ウインドウの外観です。
+mr1-onboarding-theme-description-system =
+    .aria-description = OS のボタン、メニュー、ウインドウの外観です。
+mr1-onboarding-theme-tooltip-light =
+    .title = 明るい外観のボタン、メニュー、ウインドウを使用します。
+mr1-onboarding-theme-description-light =
+    .aria-description = 明るい外観のボタン、メニュー、ウインドウを使用します。
+mr1-onboarding-theme-tooltip-dark =
+    .title = 暗い外観のボタン、メニュー、ウインドウを使用します。
+mr1-onboarding-theme-description-dark =
+    .aria-description = 暗い外観のボタン、メニュー、ウインドウを使用します。
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title = ダイナミックでカラフルな外観のボタン、メニュー、ウインドウを使用します。
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description = ダイナミックでカラフルな外観のボタン、メニュー、ウインドウを使用します。
+mr2-onboarding-default-theme-label = デフォルトテーマを見てみます。
+mr2-onboarding-thank-you-header = ありがとうございます
+mr2-onboarding-thank-you-text = { -brand-short-name } は非営利を背景とする独立したブラウザーです。私たちはユーザーとともにウェブをより安全、健全にし、個人情報を保護していきます。
+mr2-onboarding-start-browsing-button-label = ブラウジングを開始
+onboarding-live-language-header = 言語を選択してください
+mr2022-onboarding-live-language-text = { -brand-short-name } はあなたの言語を話します
+mr2022-language-mismatch-subtitle = コミュニティのおかげで、{ -brand-short-name } は 90 を超える言語に翻訳されています。あなたのシステムは { $systemLanguage } を使っているようです。{ -brand-short-name } は { $appLanguage } を使っています。
+onboarding-live-language-button-label-downloading = { $negotiatedLanguage } の言語パックをダウンロード中...
+onboarding-live-language-waiting-button = 利用可能な言語を取得中...
+onboarding-live-language-installing = { $negotiatedLanguage } の言語パックをインストール中...
+mr2022-onboarding-live-language-switch-to = { $negotiatedLanguage } に切り替える
+mr2022-onboarding-live-language-continue-in = { $appLanguage } のままにする
+onboarding-live-language-secondary-cancel-download = キャンセル
+onboarding-live-language-skip-button-label = スキップ
+fx100-thank-you-hero-text =
+    100
+    Thank
+    <span data-l10n-name="zap">You</span>
+fx100-thank-you-subtitle = 100 番目のリリースです！ より良い健全なインターネットの構築へのご協力に感謝します。
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } を Dock に追加
+       *[other] { -brand-short-name } をタスクバーにピン留め
+    }
+fx100-upgrade-thanks-header = 100 Thank You
+fx100-upgrade-thank-you-body = { -brand-short-name } の 100 番目のリリースです。より良い健全なインターネットの構築へのご協力に<em>感謝</em>します。
+fx100-upgrade-thanks-keep-body = 100 番目のリリースです！ 私たちのコミュニティへの参加に感謝します。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
+mr2022-onboarding-secondary-skip-button-label = この手順をスキップ
+mr2022-onboarding-easy-setup-primary-button-label = 保存して続ける
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } をデフォルトウェブブラウザーに設定する
+mr2022-onboarding-easy-setup-import-checkbox-label = 以前のブラウザーから読み込む
+mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットへの扉を開きましょう
+mr2022-onboarding-welcome-pin-subtitle = クリック一つでどこからでも { -brand-short-name } は起動します。その一回一回が、より開かれて独立したウェブへの選択です。
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } を Dock に追加
+       *[other] { -brand-short-name } をタスクバーにピン留め
+    }
+mr2022-onboarding-pin-primary-button-label-msix = { -brand-short-name } をタスクバーとスタートメニューにピン留め
+mr2022-onboarding-existing-pin-header = { -brand-product-name } をご愛用いただき、ありがとうございます
+mr2022-onboarding-existing-pin-subtitle = クリック一つでどこからでもより健全なインターネットが始まります。最新の更新にはきっと気に入っていただける新機能が満載です。
+mr2022-onboarding-existing-set-default-only-subtitle = ウェブを巡るあなたのプライバシーを守るブラウザーを使いましょう。きっと気に入っていただける新機能が満載です。
+mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } プライベートブラウジングも追加する
+mr2022-onboarding-set-default-title = { -brand-short-name } をお気に入りのブラウザーにしましょう
+mr2022-onboarding-set-default-primary-button-label = { -brand-short-name } をデフォルトウェブブラウザーに設定する
+mr2022-onboarding-set-default-subtitle = 非営利のブラウザーを使いましょう。ウェブを巡るあなたのプライバシーを守ります。
+mr2022-onboarding-get-started-primary-subtitle = この最新版はユーザー中心で設計されており、これまで以上に簡単にウェブを巡ることができます。きっと気に入っていただける新機能が満載です。
+mr2022-onboarding-get-started-primary-button-label = 今すぐ設定する
+mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーから読み込む
+mr2022-onboarding-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ダウンロードリンクをあなたの携帯端末に送信しましょう。</a>
+mr2022-onboarding-no-mobile-download-cta-text = QR をスキャンしてモバイル版 { -brand-product-name } を入手しましょう。
+mr2022-upgrade-onboarding-pin-private-window-header = クリック一つで自由にプライベートブラウジング
+mr2022-upgrade-onboarding-pin-private-window-subtitle = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } プライベートブラウジングを Dock に追加
+       *[other] { -brand-short-name } プライベートブラウジングをタスクバーにピン留め
+    }
+mr2022-onboarding-privacy-segmentation-title = 私たちはいつもあなたのプライバシーを尊重します
+mr2022-onboarding-privacy-segmentation-subtitle = 知的なサジェストからスマートな検索まで、より良いパーソナルな { -brand-product-name } の開発を続けます。
+mr2022-onboarding-privacy-segmentation-text-cta = より良いユーザー体験のために、あなたのデータを使用する新機能を提案されたときはどうしましょうか？
+mr2022-onboarding-privacy-segmentation-button-primary-label = { -brand-product-name } のおすすめを利用する
+mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細情報を表示する
+mr2022-onboarding-gratitude-title = より良いウェブ構築の助けになります
+mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が提供する { -brand-short-name } のご利用ありがとうございます。あなたのご協力とともに、よりオープンでアクセシブルな、すべての人にとってのより良いインターネットの構築に努めます。
+mr2022-onboarding-gratitude-primary-button-label = 新機能を確認する
+mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始する
+onboarding-infrequent-import-title = ゆっくりしていってね
+onboarding-infrequent-import-subtitle = ちょっと使っただけだとしても、ブックマーク、パスワードなどを読み込めることをお忘れなく。
+onboarding-infrequent-import-primary-button = { -brand-short-name } に読み込み
+mr2022-onboarding-pin-image-alt =
+    .aria-label = 満点の星空の下でノート PC で仕事する人
+mr2022-onboarding-default-image-alt =
+    .aria-label = { -brand-product-name } ロゴを抱きしめる人
+mr2022-onboarding-import-image-alt =
+    .aria-label = ソフトウェアのアイコンが入った箱を持ってスケートボードに乗る人
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = 真ん中にモバイル版 { -brand-product-name } のダウンロード QR コードが入ったスイレンの葉を跳ね回るカエル
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = 帽子から { -brand-product-name } プライベートブラウジングのロゴを取り出せる魔法の杖
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = ハイタッチしている色白の手と色黒の手
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = キツネのいる窓から眺める夕日と窓台に置かれた鉢植え
+onboarding-device-migration-image-alt =
+    .aria-label = ラップトップコンピューターの画面上のキツネがウェーブしています。ラップトップにマウスが接続されています。
+onboarding-device-migration-title = おかえりなさい！
+onboarding-device-migration-subtitle2 = アカウントにログインして、ブックマークやパスワード、履歴を新しい端末とともに持ち歩きましょう。
+onboarding-device-migration-primary-button-label = ログイン
+amo-picker-title = { -brand-short-name } をカスタマイズ
+amo-picker-subtitle = 拡張機能はブラウザー用のアプリのようなものです。パスワード保護や動画のダウンロード、取引の検索、迷惑な広告のブロック、ブラウザーの外観の変更など、さらに多くの拡張機能があります。
+amo-picker-install-button-label = { -brand-short-name } に追加
+amo-picker-install-complete-label = インストール完了
+amo-picker-collection-link = 他のアドオンを探す
+onboarding-easy-setup-security-and-privacy-title = あなたの安全を守ります
+onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利組織によるブラウザーがウェブ上であなたを秘密裏に付け回す企業を阻止します。
+onboarding-mobile-download-security-and-privacy-title = 端末を切り替える時も暗号化されます
+onboarding-mobile-download-security-and-privacy-subtitle = 同期した端末でも { -brand-short-name } があなたのパスワードやブックマークを暗号化して保護します。さらに開いているタブを他の端末で持ち歩くことができます。
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } があなたを守ります
+onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation による { -brand-short-name } をご使用くださりありがとうございます。あなたのご支援によって、私たちはインターネットをすべての人々のために安全でアクセシブルなものにすることができます。
+onboarding-sign-up-title = 端末間でデータを同期する
+onboarding-sign-up-description = アカウント登録すると、パスワードやブックマークなど、すべての重要な情報を安全に保管し、ログインしたどの端末でも利用できるようになります。
+onboarding-sign-up-button = 登録またはログイン
+onboarding-sign-up-secondary-button = ブラウジングを開始
+onboarding-new-user-time-based-survey-title = { -brand-short-name } をどのくらい長く使っていますか？
+onboarding-new-user-familiarity-based-survey-title = { -brand-short-name } にどのくらい親しんでいますか？
+onboarding-new-user-survey-subtitle = あなたのフィードバックが { -brand-short-name } をより良くします。
+onboarding-new-user-survey-next-button-label = 次へ
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” を選択すると、{ -brand-product-name } の <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意したものとみなされます。
+onboarding-new-user-survey-time-based-option-1 = 初めて使う
+onboarding-new-user-survey-time-based-option-2 = 使い始めて 1 か月未満
+onboarding-new-user-survey-time-based-option-3 = 1 か月以上、よく使う
+onboarding-new-user-survey-time-based-option-4 = 1 か月以上、たまに使う
+onboarding-new-user-survey-familiarity-based-option-1 = 初めて使う
+onboarding-new-user-survey-familiarity-based-option-2 = 何度か使っている
+onboarding-new-user-survey-familiarity-based-option-3 = よく使っている
+onboarding-new-user-survey-familiarity-based-option-4 = 以前使ったことがあり、久しぶりに使う
+onboarding-new-tabs-title = タブを配置したい場所を教えてください
+onboarding-new-tabs-subtitle = サイドバー設定でいつでも垂直タブに切り替えられます。
+onboarding-many-tabs-title = あなたのタブをお好みの場所に
+onboarding-many-tabs-subtitle = 多くのタブを開いておきたいときは、サイドバーに配置して能率的に表示しましょう。または、いつでも従来のように最上部の配置に切り替えられます。
+onboarding-focused-tabs-title = タブのレイアウトを選んでください
+onboarding-focused-tabs-subtitle = タブをサイドバーに配置して能率的な表示にすることで作業に集中できます。または、いつでも従来のように最上部の配置に切り替えられます。
+onboarding-new-vertical-tabs-label = タブをサイドに配置
+onboarding-new-horizontal-tabs-label = タブを最上部に配置
+onboarding-existing-tabs-title = 垂直タブがここに表示されます
+onboarding-existing-tabs-title2 = 垂直タブの導入
+onboarding-existing-tabs-subtitle = タブをサイドバーに配置してみましょう。サイドバー設定でいつでも切り替えられます。
+onboarding-existing-vertical-tabs-label = 垂直タブを試す
+onboarding-flair-text = 新機能！
+onboarding-existing-horizontal-tabs-label = 水平タブのままにする
+onboarding-vertical-tabs-tooltip =
+    .title = ブラウザーウインドウのタブが画面の側面に { -brand-shorter-name } サイドバーの一部として表示されます。
+onboarding-vertical-tabs-description =
+    .aria-description = ブラウザーウインドウのタブが画面の側面に { -brand-shorter-name } サイドバーの一部として表示されます。
+onboarding-horizontal-tabs-tooltip =
+    .title = ブラウザーウインドウのタブが最上部に表示されます。
+onboarding-horizontal-tabs-description =
+    .aria-description = ブラウザーウインドウのタブが最上部に表示されます。
+onboarding-genai-sidebar-title = サイドバーで AI チャットボットを試してみよう
+onboarding-genai-sidebar-subtitle = AI によるウェブコンテンツの要約、アイデアのブレーンストーミング、メッセージの下書きなどをブラウジングしながら。複数の AI プロバイダーから選んでください。いつでも切り替えられます。<a data-l10n-name="learn-more">詳細情報</a>
+onboarding-genai-sidebar-primary-button = チャットボットを選ぶ
+onboarding-genai-sidebar-secondary-button = ブラウジングを始める
+onboarding-checklist-title = { -brand-short-name } のセットアップを完了してください
+onboarding-checklist-subtitle = これらのステップを完了して、ブラウジングを最大限快適にしましょう。
+onboarding-checklist-set-default = { -brand-short-name } をデフォルトウェブブラウザーに設定する
+onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留めする
+onboarding-checklist-import = 以前のブラウザーから読み込む
+onboarding-checklist-extension = 拡張機能を追加する
+onboarding-checklist-sign-up = アカウント登録またはログインする
+onboarding-checklist-minimize =
+    .label = 最小化
+onboarding-checklist-remove =
+    .label = チェックリストを削除
+onboarding-checklist-remove-2 = チェックリストを削除
+tab-groups-onboarding-feature-callout-title = タブをグループ化して整理しましょう
+tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグすると最初のグループが作成できます。
+tab-groups-onboarding-create-group-title-3 = いつでも “タブを一覧表示” メニューからタブグループを見つけられます。
+tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索するとグループを見つけられます。
+tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、“タブを一覧表示” メニューからいつでも再び開けます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索すると閉じてしまったタブグループを見つけられます。
+tab-groups-onboarding-session-restore-title-2 = タブグループは “タブを一覧表示” メニューからいつでも再び開けます。
+tab-groups-onboarding-dismiss = OK
+multi-profile-spotlight-title = { -brand-product-name } プロファイルにご挨拶
+multi-profile-spotlight-body = 仕事用と趣味用のブラウジングを簡単に切り替えられます。検索履歴やパスワードなど、プロファイルごとにユーザーのブラウジング情報が保存され、完全に別のデータとして整理できます。
+multi-profile-spotlight-cta = プロファイルを作成
+multi-profile-callout-title = 仕事用と趣味用で別のプロファイルを作成
+multi-profile-callout-subtitle = プロファイルには検索履歴やパスワードなどのブラウジング情報が保存され、完全に分かれています。
+multi-profile-callout-cta = プロファイルを作成
+desktop-to-mobile-headline = ダウンロード、同期、モバイル GO!
+desktop-to-mobile-subtitle = QR コードをスキャンしてモバイル版 { -brand-product-name } をダウンロードしてください。インストールが完了したら “モバイル端末と同期” するだけで、パスワードやブックマークなどのデータを持ち歩けます。
+dismiss-button-label = 閉じる
+sync-to-mobile-button-label = モバイル端末と同期
+desktop-to-mobile-qr-code-alt =
+    .aria-label = モバイル版 { -brand-product-name } のダウンロード用 QR コード
+create-backup-screen-1-title =
+    Windows 11 にアップグレードしますか？
+    { -brand-product-name } のデータをバックアップしましょう。
+create-backup-screen-1-subtitle = 1-2 分でパスワードやブックマークなどを自動的に保護します。
+create-backup-screen-1-flair = 推奨
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">詳細情報</a>
+create-backup-screen-1-sync-label = { -brand-product-name } と同期
+create-backup-screen-1-sync-body = ログインしているすべての端末のデータをバックアップします
+create-backup-screen-1-backup-label = PC にバックアップ
+create-backup-screen-1-backup-body = 自分の端末または OneDrive に保存します
+create-backup-select-tile-button-label = 選択
+create-backup-back-button-label = 戻る
+create-backup-show-fewer =
+    .label = このような表示を少なくする
+create-backup-screen-2-title = バックアップする { -brand-product-name } のデータを選択してください
+create-backup-screen-2-subtitle = 時間はかかりません。データは 1 日 1 回バックアップされます
+create-backup-screen-2-easy-label = 簡単セットアップ
+create-backup-screen-2-easy-list-1 = ブックマーク、履歴、設定など
+create-backup-screen-2-easy-list-2 = パスワードと支払い情報は含みません
+create-backup-screen-2-easy-list-3 = 暗号化なし
+create-backup-screen-2-all-label = すべてのデータ
+create-backup-screen-2-all-list-2 = パスワードと支払い情報を含みます
+create-backup-screen-2-all-list-3 = パスワードで暗号化
+create-backup-screen-3-location = どこにバックアップを保存しますか？
+create-backup-screen-3-title = バックアップファイルを作成します
+create-backup-screen-3-subtitle = データを暗号化する必要があります。思い出しやすい場所に保管しておいてください。
+fx-backup-opt-in-header = ファイルの保存場所を選択
+fx-backup-opt-in-filepath-label = OneDrive など新しい端末に転送する予定の場所を選択してください。
+fx-backup-opt-in-create-password-label = パスワードを入力
+fx-backup-opt-in-confirm-btn-label = 続ける
+fx-backup-opt-in-cancel-btn-label = 戻る
+fx-backup-confirmation-screen-title = バックアップの設定を完了しました
+fx-backup-confirmation-screen-close-button = 閉じる
+fx-backup-confirmation-screen-all-data-item-text-1 = すべての閲覧データを含みます
+fx-backup-confirmation-screen-all-data-item-text-2 = 端末に保存します
+fx-backup-confirmation-screen-all-data-item-text-3 = 暗号化されパスワードで保護されます
+fx-backup-confirmation-screen-easy-setup-item-text-1 = ブックマーク、履歴、設定などのデータを含みます
+fx-backup-confirmation-screen-easy-setup-item-text-2 = 端末に保存します
+fx-backup-confirmation-screen-easy-setup-item-text-3 = パスワードと支払い方法は含みません
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 機密性の高い情報を含むには <a data-l10n-name="settings">設定</a> を開いてください。
+fx-backup-confirmation-screen-item-subtext-1 = バックアップはあと数分で開始され、1 日 1 回実行されます。進捗状況は <a data-l10n-name="settings">設定</a> で確認できます。
+fx-backup-confirmation-screen-item-subtext-2 = 再インストールが必要になった場合には、{ -brand-short-name } がバックアップを探します
+restore-from-backup-secondary-top-button = バックアップから復元
+restore-from-backup-title = あなた好みの { -brand-short-name } に戻しましょう
+restore-from-backup-subtitle = ブラウジングに必要なすべてのブックマーク、履歴および他のデータをバックアップデータから復元します。
+restore-from-backup-secondary-button = 復元しない
+multiple-backups-info-tile = <strong>複数のバックアップファイルが見つかりました。</strong> 最近のファイルが選択されています。他のプロファイルは <a data-l10n-name="settings-label">設定</a> で復元してください。
+restored-from-backup-success-title = お帰りなさい！ { -brand-short-name } が復元されました。
+restored-from-backup-success-with-checklist-subtitle = クリック一つでお気に入りのプライバシー優先ブラウザーを使い続けましょう。
+restored-from-backup-success-no-checklist-subtitle = <a data-l10n-name="settings">設定</a> でこの端末のバックアップをオンにしてください。
+restored-from-backup-success-with-checklist-primary-button = 保存して続ける
+restored-from-backup-success-with-checklist-secondary-button = この手順をスキップ
+restored-from-backup-success-no-checklist-primary-button = 続ける
+restored-from-backup-error-title = 申し訳ありません。バックアップファイルに問題があるようです。
+restored-from-backup-error-subtitle = 別の { -brand-short-name } バックアップファイルがあれば、それで復元を試してください。<a data-l10n-name="restore-problems">まだ問題がある場合はこちら</a>。
+restored-from-backup-error-primary-button = 閉じる
+onboarding-personalization-title = { -brand-short-name } をカスタマイズしましょう
+onboarding-personalization-subtitle = いくつかの質問にご回答ください。{ -brand-short-name } を使いこなす、おすすめの機能と拡張機能を紹介します。
+onboarding-personalization-use-case-title = { -brand-short-name } を何のために使いますか？
+onboarding-personalization-use-case-personal-option = 個人
+onboarding-personalization-use-case-school-option = 学校
+onboarding-personalization-use-case-work-option = 仕事
+onboarding-personalization-motivation-title = { -brand-short-name } のどの機能を重視しますか？
+onboarding-personalization-motivation-privacy-option = プライバシーとセキュリティ
+onboarding-personalization-motivation-productivity-option = 生産性
+onboarding-personalization-motivation-other-option = その他
+onboarding-refresh-pin-set-default-subtitle = 私たちはユーザーデータを保護し、クリックを盗み取る企業を自動的にブロックします。
+onboarding-refresh-pin-set-default-title = あなたは { -brand-short-name } に守られています
+onboarding-refresh-import-subtitle = パスワード、ブックマーク、履歴などのデータを持ち歩けます。
+onboarding-refresh-import-title = { -brand-short-name } をアットホームな環境にします
+onboarding-refresh-onboarding-addons-subtitle = 拡張機能は { -brand-short-name } をカスタマイズできる小さなアプリです。ユーザーのプライバシーをさらに保護したり、生産性を向上したり、{ -brand-short-name } の外観を変えたり、さらに多くのことができます。
+onboarding-refresh-onboarding-addons-title = ブラウジングを加速します
+onboarding-refresh-sync-subtitle = { -brand-short-name } にログインすれば、どこでもブックマークやパスワードを持ち歩けます。さらにデータは暗号化され、あなただけしか見られません。
+onboarding-refresh-sync-title = どこへでも、すべてのデータを同期して。
+onboarding-refresh-gratitude-subtitle = { -brand-short-name } をご使用いただきありがとうございます。非営利で支持された唯一のメジャーブラウザーです。あなたのご支援により、私たちはインターネットを安全ですべての人々がアクセスできるようにすることができます。
+onboarding-refresh-gratitude-title = { -brand-short-name } があなたを守ります
+onboarding-refresh-splash-screen-title = { -brand-product-name } が支援します。今すぐ始めましょう。
+onboarding-refresh-hero-text = ユーザーを追跡するのではなく、保護するために作られたブラウザー
+onboarding-refresh-tou-default = すべてのリンクを { -brand-short-name } で開く
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } をドックに保持
+       *[other] { -brand-short-name } をタスクバーに追加
+    }
+onboarding-refresh-tou-default-unchecked = 組み込みの保護機能でユーザーのブラウジングを保護する
+onboarding-refresh-tou-pin-unchecked = クリック一つで唯一の独立系ブラウザーを使い続ける
+onboarding-refresh-terms-of-use-with-links = 続けることにより、<a data-l10n-name="terms_of_use">{ -brand-product-name } 利用規約</a> および私たちの <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意したものとみなされます。ブラウザーの改善に役立てるため、{ -brand-product-name } は診断データと対話データを { -vendor-short-name } に送信します。
+onboarding-refresh-data-collection-link = データ収集設定を管理
+onboarding-refresh-primary-button = 続行
+onboarding-refresh-fro-import-header = 個人データを守ります
+onboarding-refresh-fro-import-body = あなたの個人情報はあなただけのものです。{ -brand-product-name } はこれを決して売りません。
+onboarding-refresh-fro-skip-button = スキップ
+onboarding-refresh-fro-theme-header = お好みのレイアウトで楽しもう
+onboarding-refresh-tab-layout-header = 別のタブレイアウトをお試しください
+onboarding-refresh-tab-layout-top = 上部
+onboarding-refresh-tab-layout-side = 側面
+onboarding-refresh-tab-layout-minimal = 最小
+onboarding-minimal-tabs-tooltip =
+    .title = ブラウザーウインドウの側面に沿って、タブを最小化されたサイドバー内に小さなアイコンのように表示します。
+onboarding-minimal-tabs-description =
+    .aria-description = ブラウザーウインドウの側面に沿って、タブを最小化されたサイドバー内に小さなアイコンのように表示します。
+smartwindow-switcher-callout = いつでもスマートウインドウとクラシックウインドウを切り替えられます。
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 利用規約
+smartwindow-existing-user-fx-tou-body = { -smart-window-brand-name }を使用するには、<a data-l10n-name="terms_of_use">利用規約</a> および更新された <a data-l10n-name="privacy_notice">プライバシー通知</a> に承諾していただく必要があります。
+smartwindow-existing-user-fx-tou-accept = 承諾
+smartwindow-existing-user-fx-tou-go-back = 戻る
+smartwindow-onboarding-title = { -smart-window-brand-name }をデフォルト設定にしましょう
+smartwindow-onboarding-subtitle = いつもの画面で要約、比較、質問を尋ねることができます。
+smartwindow-onboarding-primary-button = 続ける
+smartwindow-onboarding-image-alt =
+    .aria-label = 星のアイテムを付けた { -brand-product-name } のマスコット (Kit)
+smartwindow-sidebar-auto-open-callout-title = アシスタントを閉じておきますか？
+smartwindow-sidebar-auto-open-callout-body = 必要であればいつでも開けます。
+smartwindow-sidebar-auto-open-callout-accept = はい、閉じます
+smartwindow-sidebar-auto-open-callout-dismiss = いいえ
+smartwindow-sidebar-auto-open-callout-accepted-title = アシスタントは閉じたままです
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = どのページでも尋ねることで開けます。いつでも <a data-l10n-name="settings">設定</a> から変更できます。
+smartwindow-sidebar-auto-open-callout-rejected-title = 了解
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わったら、いつでも <a data-l10n-name="settings">設定</a> からデフォルトに設定してください。
+onboarding-theme-picker-title = テーマを選択
+onboarding-theme-picker-subtitle = { -brand-short-name } にちょっとした彩りを加えます。
+onboarding-theme-picker-button-label = 保存して続ける

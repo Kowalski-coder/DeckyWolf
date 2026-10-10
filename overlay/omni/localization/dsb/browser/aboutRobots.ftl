@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Witajśo cłowjeki!
+error-short-desc-text = Smy pśišli, aby k wam w měrje a z dobrośiwosću woglědali!
+error-long-desc1 = Robotery njesměju cłowjeka zraniś abo pśez njecynitosć pśiwdaś, až cłowjek pśiźo do škódy.
+error-long-desc2 = Robotery su wěcy wiźeli, kótarež wy, luźe, njeby wěrili.
+error-long-desc3 = Robotery su waše plastiske pśijaśele, kótarež daju wjaselo.
+error-long-desc4 = Robotery maju błyšćece se slědki, do kótarychž wy njeby měli kusnuś.
+error-trailer-desc-text = A wóni maju plan.
+error-try-again = Hyšći raz wopytaś
+    .label2 = Pšosym njeklikniśo na tłocašk hyšći raz.

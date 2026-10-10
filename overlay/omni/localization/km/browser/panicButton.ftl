@@ -1,0 +1,15 @@
+panic-button-open-new-window = បើក​បង្អួច​ស្អាត​ថ្មី
+panic-button-undo-warning = សកម្មភាព​នេះ​មិន​អាច​ត្រឡប់​ក្រោយ​បាន​ទេ។
+panic-button-forget-button =
+    .label = បំភ្លេច!
+panic-main-timeframe-desc = បំភ្លេច​ចុងក្រោយ៖
+panic-button-5min =
+    .label = ប្រាំ​នាទី
+panic-button-2hr =
+    .label = ពីរ​ម៉ោង
+panic-button-day =
+    .label = ២៤ ម៉ោង
+panic-button-action-desc = ការ​ធ្វើ​បន្ត​នឹង៖
+panic-button-delete-cookies = លុប​ <strong>ខូគី</strong> ថ្មីៗ
+panic-button-delete-history = លុប <strong>ប្រវត្តិ</strong> ថ្មីៗ
+panic-button-delete-tabs-and-windows = បិទ <strong>ផ្ទាំង</strong> និង <strong>បង្អួច</strong> ទាំងអស់

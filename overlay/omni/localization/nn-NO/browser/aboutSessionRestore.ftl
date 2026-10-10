@@ -1,0 +1,26 @@
+restore-page-tab-title = Bygg oppatt programøkta
+restore-page-error-title = Orsak. Vi har problem med å få sidene dine tilbake.
+restore-page-problem-desc = Vi har problem med å byggje oppatt den siste nettlesarøkta di. Vel Bygg oppatt programøkta for å prøve på nytt.
+restore-page-try-this = Kan du framleis ikkje byggje oppatt programøkta di? Nokre gongar er ei fane årsak til problemet. Sjå over tidlegare faner, fjern merket frå fanene du ikkje treng å byggje oppatt, og bygg oppatt deretter.
+restore-page-hide-tabs = Gøym tidlegare faner
+restore-page-show-tabs = Vis tidlegare faner
+restore-page-window-label = Vindauge { $windowNumber }
+restore-page-restore-header =
+    .label = Bygg oppatt
+restore-page-list-header =
+    .label = Vindauge og faner
+restore-page-try-again-button =
+    .label = Bygg oppatt programøkta
+    .accesskey = B
+restore-page-close-button =
+    .label = Start ny programøkt
+    .accesskey = n
+welcome-back-tab-title = Vellykka!
+welcome-back-page-title = Vellykka!
+welcome-back-page-info = { -brand-short-name } er klar.
+welcome-back-restore-button =
+    .label = La oss starte
+    .accesskey = L
+welcome-back-restore-all-label = Bygg oppatt alle vindauge og faner
+welcome-back-restore-some-label = Bygg oppatt berre dei du ønskjer å ha
+welcome-back-page-info-link = Tillegg og tilpassingar er bygde oppatt til standardverdiar. Om dette ikkje rettar problemet, <a data-l10n-name="link-more">les meir om kva du kan gjere.</a>

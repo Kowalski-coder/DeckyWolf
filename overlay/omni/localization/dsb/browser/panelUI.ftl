@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Z woběžkowego menija wótpěś
+    .accesskey = t
+customize-menu-add-to-toolbar =
+    .label = Symbolowej rědce pśidaś
+    .accesskey = S
+customize-menu-add-to-overflowmenu =
+    .label = Woběžkowemu menijoju pśidás
+    .accesskey = m
+panic-button-thankyou-msg1 = Waša nejnowša historija jo wulašowana.
+panic-button-thankyou-msg2 = Wěste pśeglědowanje!
+panic-button-thankyou-button =
+    .label = Wjeliki źěk!

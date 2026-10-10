@@ -1,0 +1,9 @@
+grid-row-column-positions = Cholaj { $row } / Tem { $column }
+gridtype-container = Ruk'wayöl Kajtz'ikil
+gridtype-item = Ruwachinaq Kajtz'ikil
+gridtype-dual = Ruk'wayöl Kajtz'ikil/Item
+flextype-container = Flex Ajk'wayöl
+flextype-item = Jalel Wachinäq
+flextype-dual = Flex Ajk'wayöl/Item
+remote-node-picker-notice-hide-button = Tewäx
+simple-highlighters-settings-button = Tijaq taq runuk'ulem

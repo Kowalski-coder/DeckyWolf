@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = ਇਨਸਾਨਾਂ ਨੂੰ ਜੀ ਆਇਆਂ ਨੂੰ!
+error-short-desc-text = ਅਸੀਂ ਤੁਹਾਨੂੰ ਸੁੱਖ ਲਈ ਅਤੇ ਚੰਗੀ ਸੋਚ ਨਾਲ ਮਿਲਣ ਆਏ ਹਾਂ!
+error-long-desc1 = ਰੋਬੋਟ ਇਨਸਾਨਾਂ ਨੂੰ ਨੁਕਸਾਨ ਨਹੀਂ ਪਹੁੰਚਾਉਂਦੇ ਜਾਂ ਵੇਹਲੇ ਹੋਣ ਉੱਤੇ ਇਨਸਾਨ ਨੂੰ ਕੋਈ ਨੁਕਸਾਨ ਨਹੀਂ ਪਹੁੰਚਾਉਂਦੇ।
+error-long-desc2 = ਰੋਬੋਟ ਨੇ ਉਹ ਚੀਜ਼ਾਂ ਵੇਖੀਆਂ ਹਨ, ਜਿਸ ਉੱਤੇ ਤੁਸੀਂ ਲੋਕ ਭਰੋਸਾ ਵੀ ਨਹੀਂ ਕਰੋਗੇ।
+error-long-desc3 = Robots are Your Plastic Pal Who's Fun To Be With
+error-long-desc4 = ਰੋਬੋਟ ਲੋਹੇ ਦੇ ਖੋਖੋ ਹਨ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਖਾਣਾ ਨਹੀਂ ਚਾਹੀਦਾ ਹੈ।
+error-trailer-desc-text = ਅਤੇ ਉਨ੍ਹਾਂ ਕੋਲ ਪਲਾਨ ਹੈ।
+error-try-again = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+    .label2 = ਇਹ ਬਟਨ ਮੁੜ ਕੇ ਨਾ ਦੱਬਿਓ ਜੀ

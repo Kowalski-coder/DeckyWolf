@@ -1,0 +1,72 @@
+fxa-toolbar-sync-syncing2 = 正在同步…
+sync-disconnect-dialog-title2 = 要断开连接吗？
+sync-disconnect-dialog-body = { -brand-product-name } 将停止与您账户的同步，但不会删除此设备上的任何浏览数据。
+sync-disconnect-dialog-button = 断开连接
+fxa-signout-dialog-title2 = 确定要退出账户吗？
+fxa-signout-dialog-body = 已同步的数据将保留在您的账户中。
+fxa-signout-dialog2-button = 退出
+fxa-signout-dialog2-checkbox = 删除此设备上的数据（密码、历史记录、书签等）。
+fxa-menu-sync-settings =
+    .label = 同步设置
+fxa-menu-turn-on-sync =
+    .value = 开启同步
+fxa-menu-turn-on-sync-default = 开启同步
+fxa-menu-connect-another-device =
+    .label = 连接其他设备…
+fxa-menu-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] 发送到设备
+           *[other] 发送 { $tabCount } 个标签页到设备
+        }
+fxa-menu-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] 发送到移动设备
+           *[other] 发送 { $tabCount } 个标签页到移动设备
+        }
+fxa-menu-send-to-mobile-sign-in = 登录以发送标签页
+fxa-menu-send-to-mobile-turn-on-sync = 开启同步以发送标签页
+fxa-menu-send-to-mobile-connect-device = 连接设备以发送标签页
+fxa-menu-send-to-mobile-device-missing2 = 看不到您的设备？
+fxviewtabrow-send-to-mobile-not-verified = 账户未验证
+fxviewtabrow-send-to-mobile-verify-account = 验证您的账户
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = 正在同步设备…
+fxa-menu-send-tab-to-device-description = 立即发送标签页到任何您登录过的设备。
+fxa-menu-sign-out =
+    .label = 退出登录…
+fxa-menu-sync-description = 让您个性化的网络体验随身相伴
+fxa-menu-manage-account-subtitle = 管理账户
+fxa-menu-sign-in-promo-heading = 登录同步服务
+fxa-menu-sign-in-promo-message = 数据随身带着走
+fxa-menu-sign-in-promo-button =
+    .label = 登录
+fxa-menu-signed-out-sign-in-button =
+    .label = 登录
+fxa-menu-signed-out-message-login-failed = 您已退出登录
+fxa-menu-signed-out-message-unverified = 完成设置
+fxa-menu-signed-out-title = 登录同步服务
+fxa-menu-signed-out-description = 您已退出登录
+fxa-avatar-sign-in = 登录
+fxa-avatar-sign-up = 注册
+fxa-avatar-tooltip =
+    .tooltiptext = 登录账户
+sync-setup-verify-continue = 继续
+sync-setup-verify-title = 合并警告
+sync-setup-verify-heading = 您确定要登录同步服务吗？
+sync-setup-verify-description = 先前有另外的用户在此计算机上登录过同步服务。若继续同步，将与 { $email } 合并此浏览器的书签、密码等设置
+sync-profile-different-account-title = 已达到此配置文件的账户数量限制
+sync-profile-different-account-header = 此配置文件先前已同步到另一个账户
+sync-profile-different-account-description = 为确保您的数据安全有序，每份 { -brand-product-name } 配置文件仅能同步到一个账户。若要使用 { $acctEmail } 登录，请创建新的配置文件。
+sync-profile-different-account-title-merge = 配置文件已同步至其他账户
+sync-profile-different-account-description-merge = 为确保您的数据安全有序，建议您创建新的配置文件以使用 { $acctEmail } 登录。若您选择继续对此配置文件进行同步，那么来自这两个账户的数据将永久合并到“{ $profileName }”。
+sync-account-in-use-header = 账户已在使用
+sync-account-in-use-header-merge = { $acctEmail } 已在“{ $otherProfile }”配置文件中登录
+sync-account-in-use-description = 在这台计算机上，您只能将此账户与 1 份配置文件关联。
+sync-account-already-signed-in-header = 此账户已在另一份配置文件中登录。要同步两份配置文件吗？
+sync-account-in-use-description-merge = { $acctEmail } 已在此计算机上的“{ $otherProfile }”配置文件中登录。同步“{ $currentProfile }”配置文件将永久合并来自两份配置文件的数据，例如密码和书签。
+sync-button-switch-profile = 切换到“{ $profileName }”
+sync-button-create-profile = 新建配置文件
+sync-button-sync-and-merge = 同步并合并数据
+sync-button-sync-profile = 同步“{ $profileName }”

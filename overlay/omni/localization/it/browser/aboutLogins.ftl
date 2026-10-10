@@ -1,0 +1,222 @@
+about-logins-page-title-name = Password
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Cerca nelle password
+create-login-button =
+    .title = Aggiungi password
+fxaccounts-sign-in-text = Ritrova le tue password su tutti i tuoi dispositivi
+fxaccounts-sign-in-sync-button = Accedi per sincronizzare
+fxaccounts-avatar-button =
+    .title = Gestisci account
+menu =
+    .title = Apri menu
+about-logins-menu-menuitem-import-from-another-browser = Importa da un altro browser…
+about-logins-menu-menuitem-import-from-a-file = Importa da file…
+about-logins-menu-menuitem-export-logins2 = Esporta password…
+about-logins-menu-menuitem-remove-all-logins2 = Elimina tutte le password…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opzioni
+       *[other] Preferenze
+    }
+about-logins-menu-menuitem-help = Supporto
+login-list =
+    .aria-label = Credenziali corrispondenti ai criteri di ricerca
+login-list-count2 = { $count } password
+login-list-filtered-count2 = { $count } di { $total } password
+login-list-sort-label-text = Ordina per:
+login-list-name-option = Nome (A-Z)
+login-list-name-reverse-option = Nome (Z-A)
+login-list-username-option = Nome utente (A-Z)
+login-list-username-reverse-option = Nome utente (Z-A)
+about-logins-login-list-alerts-option = Avvisi
+login-list-last-changed-option = Ultima modifica
+login-list-last-used-option = Ultimo utilizzo
+login-list-intro-title2 = Nessuna password salvata
+login-list-intro-description = Le password salvate in { -brand-product-name } verranno visualizzate qui.
+about-logins-login-list-empty-search-title2 = Nessuna password trovata
+about-logins-login-list-empty-search-description = Non ci sono risultati corrispondenti ai criteri di ricerca inseriti.
+login-list-item-title-new-login2 = Aggiungi password
+login-list-item-subtitle-missing-username = (nessun nome utente)
+about-logins-list-item-breach-icon =
+    .title = Sito web coinvolto in violazioni di dati
+about-logins-list-item-vulnerable-password-icon =
+    .title = Password vulnerabile
+about-logins-list-section-breach = Siti con violazioni
+about-logins-list-section-vulnerable = Password vulnerabili
+about-logins-list-section-nothing = Nessun avviso
+about-logins-list-section-today = Oggi
+about-logins-list-section-yesterday = Ieri
+about-logins-list-section-week = Ultimi 7 giorni
+about-logins-login-intro-heading-message = Salva le tue password in un posto sicuro
+login-intro-description2 = Tutte le password che salvi in { -brand-product-name } sono crittate. In più, teniamo d’occhio le violazioni di dati e ti avvisiamo se sei stato coinvolto. <a data-l10n-name="breach-alert-link">Scopri di più</a>
+login-intro-instructions-fxa2 = Accedi al tuo account o creane uno nuovo sul dispositivo dove sono salvate le credenziali.
+login-intro-instructions-fxa-settings = Apri Impostazioni > Sincronizzazione > Attiva sincronizzazione… e seleziona la casella Credenziali e password.
+login-intro-instructions-fxa-passwords-help = Visita la pagina di <a data-l10n-name="passwords-help-link">supporto per le password</a> per ottenere aiuto.
+about-logins-intro-import3 = Seleziona il pulsante con il simbolo “+” per aggiungere una password. Puoi anche <a data-l10n-name="import-browser-link">importare le password da un altro browser</a> o <a data-l10n-name="import-file-link">da un file</a>.
+about-logins-login-item-new-login-title = Aggiungi password
+login-item-edit-button = Modifica
+about-logins-login-item-remove-button = Rimuovi
+login-item-origin-label = Indirizzo web
+about-logins-origin-tooltip2 = Inserisci l’indirizzo completo e assicurati che corrisponda esattamente a quello in cui hai effettuato l’accesso.
+about-logins-edit-password-tooltip = Assicurarsi di salvare la password attuale per questo sito. La modifica della password in questa pagina non cambierà la password in { $webTitle }.
+about-logins-add-password-tooltip = Assicurarsi di salvare la password attuale per questo sito.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Nome utente
+about-logins-login-item-username =
+    .placeholder = (nessun nome utente)
+login-item-copy-username-button-text = Copia
+login-item-copied-username-button-text = Copiato.
+login-item-password-label = Password
+login-item-password-reveal-checkbox =
+    .aria-label = Mostra password
+login-item-password-conceal-checkbox =
+    .aria-label = Nascondi password
+login-item-copy-password-button-text = Copia
+login-item-copied-password-button-text = Copiata.
+about-logins-login-item-save-changes-button = Salva
+login-item-save-new-button = Salva
+login-item-cancel-button = Annulla
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Creazione
+login-item-timeline-action-updated = Aggiornamento
+login-item-timeline-action-used = Utilizzo
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] modificare le impostazioni relative alle password
+       *[other] { -brand-short-name } sta cercando di modificare le impostazioni relative alle password. Confermare l’accesso al dispositivo per consentire l’operazione.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Per modificare la password, inserire le credenziali di accesso a Windows. Questo aiuta a garantire la sicurezza dei tuoi account.
+about-logins-edit-login-os-auth-dialog-message2-macosx = modificare la password salvata
+about-logins-reveal-password-os-auth-dialog-message-win = Per visualizzare la password, inserire le credenziali di accesso a Windows. Questo aiuta a garantire la sicurezza dei tuoi account.
+about-logins-reveal-password-os-auth-dialog-message-macosx = mostrare la password salvata
+about-logins-copy-password-os-auth-dialog-message-win = Per copiare la password, inserire le credenziali di accesso a Windows. Questo aiuta a garantire la sicurezza dei tuoi account.
+about-logins-copy-password-os-auth-dialog-message-macosx = copiare la password salvata
+about-logins-export-password-os-auth-dialog-message2-win = Per esportare le password, inserire le credenziali di accesso a Windows. Questo aiuta a garantire la sicurezza dei tuoi account.
+about-logins-export-password-os-auth-dialog-message2-macosx = esportare le password salvate
+about-logins-primary-password-notification-message = Inserire la password principale per visualizzare le credenziali e le password salvate
+master-password-reload-button =
+    .label = Accedi
+    .accesskey = A
+confirmation-dialog-cancel-button = Annulla
+confirmation-dialog-dismiss-button =
+    .title = Annulla
+about-logins-confirm-delete-dialog-title = Eliminare la password?
+about-logins-confirm-delete-dialog-message = Non è possibile annullare questa azione.
+about-logins-confirm-remove-dialog-confirm-button = Rimuovi
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Rimuovi
+       *[other] Rimuovi tutte
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Sì, elimina la password
+       *[other] Sì, elimina le password
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Eliminare la password?
+       *[other] Eliminare { $count } password?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Questa operazione eliminerà la password salvata in { -brand-short-name } e i relativi avvisi sulle violazioni. Non sarà possibile annullare questa operazione.
+       *[other] Questa operazione eliminerà le password salvate in { -brand-short-name } e i relativi avvisi sulle violazioni. Non sarà possibile annullare questa operazione.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Eliminare la password da tutti i dispositivi?
+       *[other] Eliminare { $count } password da tutti i dispositivi?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Questa operazione rimuoverà la password salvata in { -brand-short-name } su tutti i dispositivi sincronizzati con il tuo account. Anche i relativi avvisi sulle violazioni verranno eliminati. Non sarà possibile annullare questa operazione.
+       *[other] Questa operazione rimuoverà le password salvate in { -brand-short-name } su tutti i dispositivi sincronizzati con il tuo account. Anche i relativi avvisi sulle violazioni verranno eliminati. Non sarà possibile annullare questa operazione.
+    }
+about-logins-confirm-export-dialog-title2 = Avviso relativo all’esportazione di password
+about-logins-confirm-export-dialog-message2 =
+    Il processo di esportazione salva le password in un file con testo leggibile.
+    Ti consigliamo di eliminare il file dopo averlo utilizzato, così da impedire ad altri utenti che utilizzano questo dispositivo di vedere le tue password.
+about-logins-confirm-export-dialog-confirm-button2 = Prosegui l’esportazione
+about-logins-alert-import-message = Visualizza riepilogo dettagliato dell’importazione
+confirm-discard-changes-dialog-title = Ignorare le modifiche non salvate?
+confirm-discard-changes-dialog-message = Tutte le modifiche non salvate andranno perse.
+confirm-discard-changes-dialog-confirm-button = Ignora
+about-logins-breach-alert-title = Violazione sito web
+breach-alert-text = Dall’ultima volta in cui hai aggiornato queste credenziali, le password di questo sito web sono state rubate o diffuse pubblicamente. Modifica la tua password per proteggere questo account.
+about-logins-breach-alert-date = Questa violazione si è verificata il giorno { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Apri { $hostname }
+about-logins-vulnerable-alert-title = Password vulnerabile
+about-logins-vulnerable-alert-text2 = Questa password è stata utilizzata in un altro account potenzialmente coinvolto in una violazione di dati. Il riutilizzo delle credenziali mette in pericolo tutti i tuoi account. Si consiglia di cambiare questa password.
+about-logins-vulnerable-alert-link = Apri { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Ulteriori informazioni
+about-logins-error-message-duplicate-login-with-link = È già presente un elemento per { $loginTitle } con lo stesso nome utente. <a data-l10n-name="duplicate-link">Passare all’elemento esistente?</a>
+about-logins-error-message-default = Si è verificato un errore durante il salvataggio della password.
+about-logins-export-file-picker-title2 = Esporta password da { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = password.csv
+about-logins-export-file-picker-export-button = Esporta
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Documento CSV
+       *[other] File CSV
+    }
+about-logins-import-file-picker-title2 = Importazione password in { -brand-short-name }
+about-logins-import-file-picker-import-button = Importa
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Documento CSV
+       *[other] File CSV
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Documento TSV
+       *[other] File TSV
+    }
+about-logins-import-dialog-title = Importazione completata
+about-logins-import-dialog-items-added2 = <span>Nuove password aggiunte:</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-modified2 = <span>Elementi aggiornati:</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-no-change2 = <span>Elementi duplicati:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(non importati)</span>
+about-logins-import-dialog-items-error = <span>Errori:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(non importate)</span>
+about-logins-import-dialog-done = Fatto
+about-logins-import-dialog-error-title = Errore in fase di importazione
+about-logins-import-dialog-error-conflicting-values-title = Valori multipli in conflitto per una credenziale
+about-logins-import-dialog-error-conflicting-values-description = Ad esempio: diversi nome utente, password, URL ecc. per una credenziale.
+about-logins-import-dialog-error-file-format-title = Errore nel formato del file
+about-logins-import-dialog-error-file-format-description = Intestazioni di colonna errate o assenti. Assicurarsi che il file includa colonne per nome utente, password e URL.
+about-logins-import-dialog-error-file-permission-title = Impossibile leggere il file
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } non è in grado di leggere il file. Provare a modificare i permessi del file.
+about-logins-import-dialog-error-unable-to-read-title = Impossibile elaborare il file
+about-logins-import-dialog-error-unable-to-read-description = Assicurarsi di aver selezionato un file CSV o TSV.
+about-logins-import-dialog-error-no-logins-imported = Non è stata importata alcuna credenziale
+about-logins-import-dialog-error-learn-more = Ulteriori informazioni
+about-logins-import-dialog-error-try-import-again = Riprova importazione…
+about-logins-import-dialog-error-cancel = Annulla
+about-logins-import-report-title = Riepilogo importazione
+about-logins-import-report-description2 = Password importate in { -brand-short-name }.
+about-logins-import-report-row-index = Riga { $number }
+about-logins-import-report-row-description-no-change2 = Duplicata (corrisponde esattamente a un elemento esistente)
+about-logins-import-report-row-description-modified2 = Elemento esistente aggiornato
+about-logins-import-report-row-description-added2 = Nuova password aggiunta
+about-logins-import-report-row-description-error = Errore: campo mancante
+about-logins-import-report-row-description-error-multiple-values = Errore: valori multipli per il campo “{ $field }”
+about-logins-import-report-row-description-error-missing-field = Errore: campo “{ $field }” mancante
+about-logins-import-report-added2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nuove password aggiunte</div>
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elemento esistente aggiornato</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elementi esistenti aggiornati</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elemento duplicato</div> <div data-l10n-name="not-imported">(non importato)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elementi duplicati</div> <div data-l10n-name="not-imported">(non importati)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">errore</div> <div data-l10n-name="not-imported">(credenziale non importata)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">errori</div> <div data-l10n-name="not-imported">(credenziali non importate)</div>
+    }
+about-logins-import-report-page-title = Riepilogo importazione

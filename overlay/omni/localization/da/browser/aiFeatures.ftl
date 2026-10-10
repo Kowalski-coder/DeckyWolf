@@ -1,0 +1,15 @@
+preferences-ai-controls-block-confirmation-smart-window = { -smart-window-brand-name }
+smart-window-block-title = Bloker { -smart-window-brand-name }?
+smart-window-select-label =
+    .label = { -smart-window-brand-name }
+ai-window-activate-link =
+    .label = Kom i gang
+ai-window-personalize-header =
+    .heading = { -smart-window-brand-name }
+ai-window-default-section =
+    .label = Standardindstillinger
+smart-window-model-learn-link = Læs mere om modeller
+smart-window-model-custom-save =
+    .label = Gem
+ai-window-delete-all-memories-confirm = Slet
+ai-window-delete-all-memories-cancel = Annuller

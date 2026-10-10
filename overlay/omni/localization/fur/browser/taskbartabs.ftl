@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Zonte schede ae sbare des aplicazions
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Gjav schede de sbare des aplicazions
+taskbar-tab-urlbar-button-show = Mostre azion pagjine pe aplicazion web
+taskbar-tab-urlbar-button-hide = Plate azion pagjine pe aplicazion web
+taskbar-tab-shortcut-description = Aplicazion web { $name }
+taskbar-tab-shortcut-folder = Aplicazion web di { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Cidine la schede
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ative audio te schede
+taskbar-tab-title-default = { $name } in { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) in { -brand-full-name }
+taskbar-tab-title-profile = { $name } in { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) in { $profile } — { -brand-full-name }

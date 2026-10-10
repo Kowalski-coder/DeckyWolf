@@ -1,0 +1,10 @@
+sidebar-menu-bookmarks =
+    .label = Xatcho‘plar
+sidebar-menu-history =
+    .label = Tarix
+sidebar-menu-synced-tabs =
+    .label = Sinxronlangan varaqlar
+sidebar-menu-close =
+    .label = Yon panelni yopish
+sidebar-close-button =
+    .tooltiptext = Yon panelni yopish

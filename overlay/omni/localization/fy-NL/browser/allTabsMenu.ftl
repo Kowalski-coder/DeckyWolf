@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Alle ljepblêden trochsykje
+all-tabs-menu-new-user-context =
+    .label = Nij kontenerljepblêd
+all-tabs-menu-hidden-tabs =
+    .label = Ferstoppe ljepblêden
+all-tabs-menu-close-duplicate-tabs =
+    .label = Dûbele ljepblêden slute
+all-tabs-menu-view-all-tabs =
+    .label = Alle ljepblêden besjen
+all-tabs-menu-recent-tab-groups-header = Resinte ljepblêdgroepen
+all-tabs-menu-tab-groups-show-all =
+    .label = Alles toane
+all-tabs-menu-tab-groups-sub-view =
+    .title = Ljepblêdgroepen
+all-tabs-menu-current-window-header = Aktuele finster

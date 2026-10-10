@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Mionsonraí feidhmchláir
+    .style = min-width: 36em; min-height: 24em;
+app-manager-remove =
+    .label = Bain
+    .accesskey = B
+app-manager-handle-protocol = Is féidir na feidhmchláir seo a leanas a úsáid chun naisc { $type } a láimhseáil.
+app-manager-handle-file = Is féidir na feidhmchláir seo a leanas a úsáid chun ábhar { $type } a láimhseáil.
+app-manager-web-app-info = Tá an feidhmchlár Gréasáin seo faoi óstaíocht:
+app-manager-local-app-info = Tá an feidhmchlár seo le fáil ag:

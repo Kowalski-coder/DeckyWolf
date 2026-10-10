@@ -1,0 +1,15 @@
+panic-button-open-new-window = Отвори нови празан прозор
+panic-button-undo-warning = Ова радња се не може опозвати.
+panic-button-forget-button =
+    .label = Заборави!
+panic-main-timeframe-desc = Заборави последњих:
+panic-button-5min =
+    .label = 5 минута
+panic-button-2hr =
+    .label = 2 сата
+panic-button-day =
+    .label = 24 сата
+panic-button-action-desc = Поступак ће:
+panic-button-delete-cookies = Избрисати недавне <strong>колачиће</strong>
+panic-button-delete-history = брисање <strong>историје</strong>
+panic-button-delete-tabs-and-windows = Затвори све <strong>језичке</strong> и <strong>прозоре</strong>

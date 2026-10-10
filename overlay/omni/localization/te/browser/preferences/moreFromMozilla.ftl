@@ -1,0 +1,9 @@
+more-from-moz-title2 = { -vendor-short-name } నుండి మరిన్ని
+    .title = { -vendor-short-name } నుండి మరిన్ని
+more-from-moz-category =
+    .tooltiptext = { -vendor-short-name } నుండి మరిన్ని
+more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
+more-from-moz-learn-more-link = ఇంకా తెలుసుకోండి
+more-from-moz-firefox-relay-title = { -relay-brand-name }
+more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
+more-from-moz-mdn-title2 = { -mdn-brand-name }

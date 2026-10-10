@@ -1,0 +1,24 @@
+confirmation-hint-extensions-button-hidden = Preseljen v meni
+confirmation-hint-password-removed = Geslo odstranjeno!
+confirmation-hint-page-bookmarked = Shranjeno med zaznamke
+confirmation-hint-password-created = Geslo shranjeno
+confirmation-hint-password-updated = Geslo posodobljeno
+confirmation-hint-address-created = Naslov shranjen
+confirmation-hint-address-updated = Naslov posodobljen
+confirmation-hint-credit-card-created = Kartica shranjena
+confirmation-hint-credit-card-updated = Kartica posodobljena
+confirmation-hint-passport-created = Podatki potnega lista shranjeni
+confirmation-hint-passport-updated = Podatki potnega lista urejeni
+confirmation-hint-pin-tab = Pripeto!
+confirmation-hint-pin-tab-description = Desno-kliknite zavihek, da ga odpnete.
+confirmation-hint-send-to-device = Poslano!
+confirmation-hint-firefox-relay-mask-created = Nova maska ustvarjena!
+confirmation-hint-firefox-relay-mask-reused = Obstoječa maska znova uporabljena!
+confirmation-hint-screenshot-copied = Posnetek zaslona kopiran!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] { $tabCount } zavihek zaprt
+        [two] { $tabCount } zavihka zaprta
+        [few] { $tabCount } zavihki zaprti
+       *[other] { $tabCount } zavihkov zaprtih
+    }

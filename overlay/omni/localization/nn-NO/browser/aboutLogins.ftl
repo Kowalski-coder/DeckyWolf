@@ -1,0 +1,247 @@
+about-logins-page-title-name = Passord
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Søk etter passord
+create-login-button =
+    .title = Legg til passord
+fxaccounts-sign-in-text = Få passorda dine på dei andre einingane dine
+fxaccounts-sign-in-sync-button = Logg inn for å synkronisere
+fxaccounts-avatar-button =
+    .title = Handsam konto
+menu =
+    .title = Opne meny
+about-logins-menu-menuitem-import-from-another-browser = Importer frå ein annan nettlesar…
+about-logins-menu-menuitem-import-from-a-file = Importer frå ei fil…
+about-logins-menu-menuitem-export-logins2 = Eksporter passord…
+about-logins-menu-menuitem-remove-all-logins2 = Slett alle passord…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Innstillingar
+       *[other] Val
+    }
+about-logins-menu-menuitem-help = Hjelp
+login-list =
+    .aria-label = Innloggingar som samsvarar med søket
+login-list-count2 =
+    { $count ->
+        [one] { $count } passord
+       *[other] { $count } passord
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } av { $total } passord
+       *[other] { $count } av { $total } passord
+    }
+login-list-sort-label-text = Sorter etter:
+login-list-name-option = Namn (A-Å)
+login-list-name-reverse-option = Namn (Å-A)
+login-list-username-option = Brukarnamn (A-Å)
+login-list-username-reverse-option = Brukarnamn (Å-A)
+about-logins-login-list-alerts-option = Varsel
+login-list-last-changed-option = Sist endra
+login-list-last-used-option = Sist brukt
+login-list-intro-title2 = Ingen passord lagra
+login-list-intro-description = Når du lagrar eit passord i { -brand-product-name }, vil det visast her.
+about-logins-login-list-empty-search-title2 = Fann ingen passord
+about-logins-login-list-empty-search-description = Ingen resultat passar med søket ditt.
+login-list-item-title-new-login2 = Legg til passord
+login-list-item-subtitle-missing-username = (ikkje noko brukarnamn)
+about-logins-list-item-breach-icon =
+    .title = Nettstad med datalekkasje
+about-logins-list-item-vulnerable-password-icon =
+    .title = Sårbart passord
+about-logins-list-section-breach = Nettstadar med datalekkasjar
+about-logins-list-section-vulnerable = Sårbare passord
+about-logins-list-section-nothing = Ingen varsel
+about-logins-list-section-today = I dag
+about-logins-list-section-yesterday = I går
+about-logins-list-section-week = Siste 7 dagar
+about-logins-login-intro-heading-message = Lagre passorda dine på ein trygg stad
+login-intro-description2 = Alle passorda du lagrar i { -brand-product-name } blir krypterte. I tillegg ser vi etter datalekkasjar, og varslar om det gjeld deg. <a data-l10n-name="breach-alert-link">Les meir</a>
+login-intro-instructions-fxa2 = Lag eller logg inn på kontoen din på eininga der innloggingane dine er lagra.
+login-intro-instructions-fxa-settings = Gå til Innstillingar > Synkronisering > Slå på synkronisering… Merk av for innloggingar og passord.
+login-intro-instructions-fxa-passwords-help = Besøk <a data-l10n-name="passwords-help-link">passordstøtte</a> for meir hjelp.
+about-logins-intro-import3 = Vel plussteiknet ovanfor for å leggje til eit passord no. Du kan òg <a data-l10n-name="import-browser-link">importere passord frå ein annan nettlesar</a> eller <a data-l10n-name="import-file-link">frå ei fil</a>.
+about-logins-login-item-new-login-title = Legg til passord
+login-item-edit-button = Rediger
+about-logins-login-item-remove-button = Fjern
+login-item-origin-label = Nettstadadresse
+about-logins-origin-tooltip2 = Skriv inn heile adressa og sørg for at ho stemmer nøyaktig overeins med kvar du loggar på.
+about-logins-edit-password-tooltip = Sørg for at du lagrar det gjeldande passordet ditt for denne nettstaden. Dersom du endrar passordet her, vert det ikkje endra med { $webTitle }.
+about-logins-add-password-tooltip = Sørg for at du lagrar det gjeldande passordet ditt for denne nettstaden.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Brukarnamn
+about-logins-login-item-username =
+    .placeholder = (ikkje noko brukarnamn)
+login-item-copy-username-button-text = Kopier
+login-item-copied-username-button-text = Kopiert!
+login-item-password-label = Passord
+login-item-password-reveal-checkbox =
+    .aria-label = Vis passord
+login-item-password-conceal-checkbox =
+    .aria-label = Gøym passord
+login-item-copy-password-button-text = Kopier
+login-item-copied-password-button-text = Kopiert!
+about-logins-login-item-save-changes-button = Lagre
+login-item-save-new-button = Lagre
+login-item-cancel-button = Avbryt
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Oppretta
+login-item-timeline-action-updated = Oppdatert
+login-item-timeline-action-used = Brukt
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] Endre innstillingane for passord
+       *[other] { -brand-short-name } prøver å endre innstillingane for passord. Bruk einingsinnlogginga for å tillate dette.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Skriv inn innloggingsinformasjonen for Windows for å redigere passordet. Dette vil gjere kontoane dine tryggare.
+about-logins-edit-login-os-auth-dialog-message2-macosx = redigere det lagra passordet
+about-logins-reveal-password-os-auth-dialog-message-win = Skriv inn innloggingsinformasjonen for Windows for å vise passordet. Dette vil gjere kontoane dine tryggare.
+about-logins-reveal-password-os-auth-dialog-message-macosx = vis det lagra passordet
+about-logins-copy-password-os-auth-dialog-message-win = Skriv inn innloggingsinformasjonen for Windows for å kopiere passordet. Dette vil gjere kontoane dine tryggare.
+about-logins-copy-password-os-auth-dialog-message-macosx = kopier det lagra passordet
+about-logins-export-password-os-auth-dialog-message2-win = Skriv inn innloggingsinformasjonen for Windows for å eksportere passorda dine. Dette vil gjere kontoane dine tryggare.
+about-logins-export-password-os-auth-dialog-message2-macosx = eksporter lagra passord
+about-logins-primary-password-notification-message = Skriv inn hovudpassordet ditt for å vise lagra innloggingar og passord
+master-password-reload-button =
+    .label = Logg inn
+    .accesskey = L
+confirmation-dialog-cancel-button = Avbryt
+confirmation-dialog-dismiss-button =
+    .title = Avbryt
+about-logins-confirm-delete-dialog-title = Fjerne passordet?
+about-logins-confirm-delete-dialog-message = Du kan ikkje angre denne handlinga.
+about-logins-confirm-remove-dialog-confirm-button = Fjern
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Fjern
+       *[other] Fjern alle
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Ja, fjern passordet
+       *[other] Yes, remove passwords
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Fjerne { $count } passordet?
+       *[other] Fjerne alle { $count } passorda?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Dette vil fjerne passordet som er lagra i { -brand-short-name } og eventuelle varslingar om datalekkasjar. Du kan ikkje angre denne handlinga.
+        [one] Dette vil fjerne passordet som er lagra i { -brand-short-name } og eventuelle varslingar om datalekkasjar. Du kan ikkje angre denne handlinga.
+       *[other] Dette vil fjerne passorda som er lagra i { -brand-short-name } og eventuelle varslingar om datalekkasjar. Du kan ikkje angre denne handlinga.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Fjerne { $count } passord frå alle einingar?
+       *[other] Fjerne alle { $count } passord frå alle einingar?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Dette vil fjerne passordet som er lagra i { -brand-short-name } på alle dei synkroniserte einingane dine. Dette vil også fjerne alle varsel om datalekkasjer som vert vist her. Du kan ikkje angre denne handlinga.
+       *[other] This will remove all passwords saved to { -brand-short-name } on all your synced devices. This will also remove any breach alerts that appear here. You cannot undo this action.
+    }
+about-logins-confirm-export-dialog-title2 = Ein merknad om eksport av passord
+about-logins-confirm-export-dialog-message2 =
+    Når du eksporterer, vert passorda dine lagra i ei fil med lesbar tekst.
+    Når du er ferdig med å bruke fila, anbefalar vi at du slettar henne slik at andre som brukar denne eininga ikkje kan sjå passorda dine.
+about-logins-confirm-export-dialog-confirm-button2 = Hald fram med eksport
+about-logins-alert-import-message = Vis detaljert importoversikt
+confirm-discard-changes-dialog-title = Vil du forkaste endringar som ikkje er lagra?
+confirm-discard-changes-dialog-message = Alle ikkje-lagra endringar vil gå tapt.
+confirm-discard-changes-dialog-confirm-button = Ignorer
+about-logins-breach-alert-title = Nettstad-datalekkasje
+breach-alert-text = Passord vart lekne eller stolne frå denne nettstaden sidan du sist oppdaterte innloggingsdetaljane dine. Endre passordet ditt for å beskytte kontoen din.
+about-logins-breach-alert-date = Denne datalekkasjen skjedde den { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Gå til { $hostname }
+about-logins-vulnerable-alert-title = Sårbart passord
+about-logins-vulnerable-alert-text2 = Dette passordet har blitt brukt på ein annen konto som sannsynlegvis var i ein datalekkasje. Å bruke oppattt legitimasjon er ein risiko på alle kontoane dine. Endre passordet.
+about-logins-vulnerable-alert-link = Gå til { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Les meir
+about-logins-error-message-duplicate-login-with-link = Ei oppføring for { $loginTitle } med dette brukarnamnet finst allereie. <a data-l10n-name="duplicate-link">Gå til eksisterande oppføring?</a>
+about-logins-error-message-default = Det oppstod ein feil ved forsøk på å lagre dette passordet.
+about-logins-export-file-picker-title2 = Eksporter passord frå { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = passord.csv
+about-logins-export-file-picker-export-button = Eksporter
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-dokument
+       *[other] CSV-fil
+    }
+about-logins-import-file-picker-title2 = Importer passord til { -brand-short-name }
+about-logins-import-file-picker-import-button = Importer
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-dokument
+       *[other] CSV-fil
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV-dokument
+       *[other] TSV-fil
+    }
+about-logins-import-dialog-title = Import fullført
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Nytt passord lagt til: </span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Nye passord lagt til: </span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Eksisterande element oppdatert:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Eksisterande element oppdatert:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Duplikat element funne:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ikkje importert)</span >
+       *[other] <span>Duplikate element funne:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ikkje importert)</span >
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>Feil:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ikkje importerte)</span>
+    }
+about-logins-import-dialog-done = Ferdig
+about-logins-import-dialog-error-title = Importfeil
+about-logins-import-dialog-error-conflicting-values-title = Fleire motstridande verdiar for ei innlogging
+about-logins-import-dialog-error-conflicting-values-description = Til dømes: fleire brukarnamn, passord, nettadresser, osb. for ei innlogging.
+about-logins-import-dialog-error-file-format-title = Problem med filformatet
+about-logins-import-dialog-error-file-format-description = Feil eller manglande kolonneoverskrifter. Forsikre deg om at fila inneheld  kolonner for brukarnamn, passord og nettadresse.
+about-logins-import-dialog-error-file-permission-title = Klarte ikkje å lese fila
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } har ikkje løyve til å lese fila. Prøv å endre filløyva for fila.
+about-logins-import-dialog-error-unable-to-read-title = Klarte ikkje å tolke fila
+about-logins-import-dialog-error-unable-to-read-description = Forsikre deg om at du valde ei CSV- eller ei TSV-fil.
+about-logins-import-dialog-error-no-logins-imported = Ingen innloggingar er importerte
+about-logins-import-dialog-error-learn-more = Les meir
+about-logins-import-dialog-error-try-import-again = Prøv å importere ein gong til…
+about-logins-import-dialog-error-cancel = Avbryt
+about-logins-import-report-title = Importsamandrag
+about-logins-import-report-description2 = Passord importerte til { -brand-short-name }.
+about-logins-import-report-row-index = Rad { $number }
+about-logins-import-report-row-description-no-change2 = Duplikat: Nøyaktig samsvar med eksisterande oppføring
+about-logins-import-report-row-description-modified2 = Eksisterande oppføring oppdatert
+about-logins-import-report-row-description-added2 = Nytt passord lagt til
+about-logins-import-report-row-description-error = Feil: Manglar felt
+about-logins-import-report-row-description-error-multiple-values = Feil: Fleire verdiar for { $field }
+about-logins-import-report-row-description-error-missing-field = Feil: { $field } manglar
+about-logins-import-report-added2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nye passord lagt til</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">eksisterande element oppdatert</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">eksisterande element oppdatert</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Duplikate element</div> <div data-l10n-name="not-imported">(ikkje importert)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">feil</div> <div data-l10n-name="not-imported">(ikkje importert)</div>
+    }
+about-logins-import-report-page-title = Samandragsrapport for import

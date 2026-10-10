@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Sveiki, Žmonės!
+error-short-desc-text = Mes atvykome pas jus su taika ir draugiškais ketinimais!
+error-long-desc1 = Robotui draudžiama žaloti žmogų, arba savo neveiksnumu leisti žmogui susižaloti.
+error-long-desc2 = Robotai matė dalykų, kuriais jūs, žmonės, nepatikėtumėte.
+error-long-desc3 = Robotas – plastikinis jūsų draugas, su kuriuo smagu leisti laiką.
+error-long-desc4 = Robotai turi spindinčius metalinius užpakalius, kurių geriau nekandžioti.
+error-trailer-desc-text = Ir jie turi planą.
+error-try-again = Bandyti dar kartą
+    .label2 = Prašau pakartotinai nespausti šio mygtuko.

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = පිටාර වට්ටෝරුවෙන් ගළවන්න
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = මෙවලම් තීරුවට යොදන්න
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = පිටාර වට්ටෝරුවට යොදන්න
+    .accesskey = M
+panic-button-thankyou-msg1 = ඔබගේ මෑත ඉතිහාසය හිස් කර ඇත.
+panic-button-thankyou-msg2 = ආරක්‍ෂිත පිරික්සීම!
+panic-button-thankyou-button =
+    .label = ස්තූතියි!

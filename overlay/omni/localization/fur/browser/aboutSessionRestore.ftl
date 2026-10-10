@@ -1,0 +1,26 @@
+restore-page-tab-title = Ripristine session
+restore-page-error-title = Scuse, o vin fastidis cul ripristinament des pagjinis.
+restore-page-problem-desc = O vin vût problemis a ripristinâ la tô session di navigazion di prime. Selezione Ripristine session par tornâ a provâ.
+restore-page-try-this = No tu rivis ancjemò a ripristinâ la tô session? Cualchi volte une schede e cause chest probleme. Viôt lis schedis di prime, gjave il segn des schedis che no ti covente recuperâ e dopo ripristine.
+restore-page-hide-tabs = Plate schedis di prime
+restore-page-show-tabs = Viôt schedis di prime
+restore-page-window-label = Barcon { $windowNumber }
+restore-page-restore-header =
+    .label = Ripristine
+restore-page-list-header =
+    .label = Barcons e schedis
+restore-page-try-again-button =
+    .label = Ripristine session
+    .accesskey = R
+restore-page-close-button =
+    .label = Scomence gnove session
+    .accesskey = S
+welcome-back-tab-title = Sucès!
+welcome-back-page-title = Sucès!
+welcome-back-page-info = { -brand-short-name } al è pront par continuâ.
+welcome-back-restore-button =
+    .label = Anìn!
+    .accesskey = A
+welcome-back-restore-all-label = Ripristine ducj i barcons e lis schedis
+welcome-back-restore-some-label = Ripristine dome chês che tu desideris
+welcome-back-page-info-link = I tiei components adizionâi e lis tôs personalizazions a son stâts gjavâts e lis impostazions dal navigadôr a son stadis ristabilidis ai lôr valôrs predefinîts. Se chest nol à justât il probleme, <a data-l10n-name="link-more">lei di plui su ce che tu puedis fâ.</a>

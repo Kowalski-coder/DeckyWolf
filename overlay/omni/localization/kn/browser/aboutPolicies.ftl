@@ -1,0 +1,13 @@
+about-policies-title = ಎಂಟರ್ಪ್ರೈಸ್ ನೀತಿಗಳು
+active-policies-tab = ಸಕ್ರಿಯ
+errors-tab = ದೋಷಗಳು
+documentation-tab = ದಸ್ತಾವೇಜು
+active-policies-tab-title =
+    .title = ಸಕ್ರಿಯ
+errors-tab-title =
+    .title = ದೋಷಗಳು
+documentation-tab-title =
+    .title = ದಸ್ತಾವೇಜು
+policy-name = ನೀತಿ ಹೆಸರು
+policy-value = ನೀತಿ ಮೌಲ್ಯ
+policy-errors = ನೀತಿ ದೋಷಗಳು

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } mahu menukar enjin carian piawai anda daripada { $currentEngine } ke { $newEngine }. Anda setuju?
+webext-default-search-yes =
+    .label = Ya
+    .accesskey = Y
+webext-default-search-no =
+    .label = Tidak
+    .accesskey = T
+addon-post-install-message = { $addonName } ditambahkan.
+webext-quarantine-confirmation-title = Jalankan { $addonName } pada laman terhad?
+webext-quarantine-confirmation-line-1 = Untuk melindungi data anda, sambungan ini tidak dibenarkan di laman ini.
+webext-quarantine-confirmation-line-2 = Benarkan sambungan ini jika anda mempercayainya untuk membaca dan menukar data anda pada laman yang dihadkan oleh { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Benarkan
+    .accesskey = B
+webext-quarantine-confirmation-deny =
+    .label = Jangan Benarkan
+    .accesskey = J

@@ -1,0 +1,15 @@
+panic-button-open-new-window = باز کردن یک پنجره تمیز جدید
+panic-button-undo-warning = این عمل قابل واگرد نیست.
+panic-button-forget-button =
+    .label = فراموش کن!
+panic-main-timeframe-desc = آخرین را فراموش کن:
+panic-button-5min =
+    .label = پنج دقیقه
+panic-button-2hr =
+    .label = دو ساعت
+panic-button-day =
+    .label = ۲۴ ساعت
+panic-button-action-desc = پیگیری خواهد:
+panic-button-delete-cookies = حذف <strong>کلوچک‌های</strong> اخیر
+panic-button-delete-history = حذف <strong>تاریخچه</strong> اخیر
+panic-button-delete-tabs-and-windows = بستن همهٔ <strong>زبانه‌ها</strong> و <strong>پنجره‌ها</strong>

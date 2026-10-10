@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } quiere cambiar tu motor de búsqueda predeterminado de { $currentEngine } a { $newEngine }. ¿Está eso bien?
+webext-default-search-yes =
+    .label = Sí
+    .accesskey = Y
+webext-default-search-no =
+    .label = No
+    .accesskey = N
+addon-post-install-message = { $addonName } fue añadida.
+webext-quarantine-confirmation-title = ¿Ejecutar { $addonName } en sitios restringidos?
+webext-quarantine-confirmation-line-1 = Para proteger tus datos, esta extensión no está permitida en este sitio.
+webext-quarantine-confirmation-line-2 = Permite esta extensión si confías en ella para leer y cambiar tus datos en sitios restringidos por { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permitir
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = No permitir
+    .accesskey = D

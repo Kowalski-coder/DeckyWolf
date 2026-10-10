@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = Synchronizujće { -brand-product-name } na swojim telefonje abo tableće
+fxa-qrcode-pair-step1 = 1. Wočińće { -brand-product-name } na swojim mobilnym graće.
+fxa-qrcode-pair-step2-device-steps = 2. Přeńdźće k menijej a podótkńće so <strong>Přizjewić</strong>
+fxa-qrcode-pair-step3 = 3. Podótkńće so <strong>Hotowy za skenowanje</strong> a dźeržće swój telefon nad tutym kodom
+fxa-qrcode-error-title = Koplowanje je so nimokuliło.
+fxa-qrcode-error-body = Hišće raz spytać.

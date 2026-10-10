@@ -1,0 +1,15 @@
+panic-button-open-new-window = Yeni bir temiz pencere açılacak
+panic-button-undo-warning = Bu işlem geri alınamaz.
+panic-button-forget-button =
+    .label = Unut!
+panic-main-timeframe-desc = Yaptıklarımı unut:
+panic-button-5min =
+    .label = Son 5 dakika
+panic-button-2hr =
+    .label = Son 2 saat
+panic-button-day =
+    .label = Son 24 saat
+panic-button-action-desc = Devam ederseniz…
+panic-button-delete-cookies = En son <strong>çerezler</strong> silinecek
+panic-button-delete-history = Yakın <strong>geçmişiniz</strong> silinecek
+panic-button-delete-tabs-and-windows = Tüm <strong>sekme</strong> ve <strong>pencereler</strong> kapatılacak

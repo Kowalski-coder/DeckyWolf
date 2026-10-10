@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Mion-fhiosrachadh na h-aplacaid
+    .style = min-width: 36em; min-height: 24em;
+app-manager-remove =
+    .label = Thoir air falbh
+    .accesskey = r
+app-manager-handle-protocol = Gabhaidh na h-aplacaidean a leanas an cleachdadh gus Ceanglaichean { $type } a làimhseachadh.
+app-manager-handle-file = Gabhaidh na h-aplacaidean a leanas an cleachdadh gus Susbaint { $type } a làimhseachadh.
+app-manager-web-app-info = Tha an aplacaid-lìn seo air òstaireacht le:
+app-manager-local-app-info = Tha an aplacaid seo ri fhaighinn aig:

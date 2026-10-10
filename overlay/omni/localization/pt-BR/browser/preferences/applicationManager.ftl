@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalhes do aplicativo
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Remover
+    .accesskey = R
+app-manager-handle-protocol = Os seguintes aplicativos podem ser usados para lidar com links { $type }.
+app-manager-handle-file = Estes aplicativos podem ser usados para gerenciar conteúdo { $type }.
+app-manager-web-app-info = Este aplicativo web está hospedado em:
+app-manager-local-app-info = Este aplicativo está localizado em:

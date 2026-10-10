@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ᱟᱨᱚᱡᱤ ᱥᱟᱠᱟᱢ ᱵᱤᱵᱨᱚᱬ ᱠᱚ
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ᱚᱪᱚᱜᱽ ᱢᱮ
+    .accesskey = ᱚ
+app-manager-handle-protocol = ᱱᱚᱣᱟ ᱠᱚ ᱟᱹᱨᱚᱡᱤ ᱥᱟᱠᱟᱢ ᱠᱚ ᱞᱤᱝᱠ { $type } ᱪᱟᱞᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜ ᱟ ᱾
+app-manager-handle-file = ᱱᱚᱣᱟ ᱠᱚ ᱟᱹᱨᱚᱡᱤ ᱥᱟᱠᱟᱢ ᱠᱚ ᱪᱟᱞᱟᱣ ᱞᱟᱹᱜᱤᱫ { $type } ᱡᱤᱱᱤᱥ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜ ᱟ ᱾
+app-manager-web-app-info = ᱣᱮᱵᱽ ᱟᱹᱨᱚᱡᱤ ᱥᱟᱠᱟᱢ ᱱᱚᱣᱟ ᱨᱮ ᱨᱟᱠᱟᱵ ᱟᱠᱟᱱᱟ :
+app-manager-local-app-info = ᱟᱹᱨᱚᱡᱤ ᱥᱟᱠᱟᱢ ᱱᱚᱣᱟ ᱡᱟᱭᱜᱟ ᱨᱮ ᱩᱫᱩᱣᱟᱜ ᱟᱠᱟᱱᱟ :

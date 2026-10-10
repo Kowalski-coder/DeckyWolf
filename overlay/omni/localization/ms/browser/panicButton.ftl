@@ -1,0 +1,15 @@
+panic-button-open-new-window = Buka Tetingkap baru
+panic-button-undo-warning = Tindakan ini tidak boleh dibatalkan.
+panic-button-forget-button =
+    .label = Lupakan!
+panic-main-timeframe-desc = Lupakan tempoh terdahulu:
+panic-button-5min =
+    .label = Lima minit
+panic-button-2hr =
+    .label = Dua jam
+panic-button-day =
+    .label = 24 jam
+panic-button-action-desc = Dengan meneruskan akan:
+panic-button-delete-cookies = Buang <strong>Kuki</strong> Terkini
+panic-button-delete-history = Buang <strong>Sejarah</strong> Terkini
+panic-button-delete-tabs-and-windows = Tutup semua <strong>Tab</strong> dan <strong>Tetingkap</strong>

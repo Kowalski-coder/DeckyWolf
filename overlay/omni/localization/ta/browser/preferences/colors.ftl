@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = உரை மற்றும் பின்னணி
+colors-text =
+    .label = உரை
+    .accesskey = T
+colors-text-background =
+    .label = பின்னணி
+    .accesskey = B
+colors-links-header = இணைப்பு நிறங்கள்
+colors-links-unvisited =
+    .label = பார்வையிடாத தொடுப்புகள்
+    .accesskey = L
+colors-links-visited =
+    .label = பார்வையிட்ட தொடுப்புகள்
+    .accesskey = V

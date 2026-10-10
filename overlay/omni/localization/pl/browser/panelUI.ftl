@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Odepnij z menu ukrywania
+    .accesskey = z
+customize-menu-add-to-toolbar =
+    .label = Dodaj do paska narzędzi
+    .accesskey = D
+customize-menu-add-to-overflowmenu =
+    .label = Dodaj do menu ukrywania
+    .accesskey = k
+panic-button-thankyou-msg1 = Historia ostatniego przeglądania została wyczyszczona.
+panic-button-thankyou-msg2 = Bezpiecznego przeglądania!
+panic-button-thankyou-button =
+    .label = Dzięki!

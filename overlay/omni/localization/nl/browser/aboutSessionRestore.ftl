@@ -1,0 +1,26 @@
+restore-page-tab-title = Sessie herstellen
+restore-page-error-title = Sorry. We hebben problemen bij het terugzetten van uw pagina’s.
+restore-page-problem-desc = We hebben problemen bij het herstellen van uw laatste browsersessie. Selecteer Sessie herstellen om het opnieuw te proberen.
+restore-page-try-this = Kunt u uw sessie nog steeds niet herstellen? Soms veroorzaakt een tabblad het probleem. Bekijk vorige tabbladen, verwijder het vinkje naast de tabbladen die u niet nodig hebt, en herstel daarna.
+restore-page-hide-tabs = Vorige tabbladen verbergen
+restore-page-show-tabs = Vorige tabbladen bekijken
+restore-page-window-label = Venster { $windowNumber }
+restore-page-restore-header =
+    .label = Herstellen
+restore-page-list-header =
+    .label = Vensters en tabbladen
+restore-page-try-again-button =
+    .label = Sessie herstellen
+    .accesskey = S
+restore-page-close-button =
+    .label = Nieuwe sessie starten
+    .accesskey = N
+welcome-back-tab-title = Gelukt!
+welcome-back-page-title = Gelukt!
+welcome-back-page-info = { -brand-short-name } is gereed voor gebruik.
+welcome-back-restore-button =
+    .label = Beginnen!
+    .accesskey = B
+welcome-back-restore-all-label = Alle vensters en tabbladen herstellen
+welcome-back-restore-some-label = Alleen bepaalde vensters en tabbladen
+welcome-back-page-info-link = Uw add-ons en aanpassingen zijn verwijderd en uw browserinstellingen zijn naar hun standaardwaarden teruggezet. Als dit uw probleem niet heeft opgelost, <a data-l10n-name="link-more">lees dan hier wat u kunt doen.</a>

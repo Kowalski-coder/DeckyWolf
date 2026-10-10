@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Hledat ve všech panelech
+all-tabs-menu-new-user-context =
+    .label = Nový kontejnerový panel
+all-tabs-menu-hidden-tabs =
+    .label = Skryté panely
+all-tabs-menu-close-duplicate-tabs =
+    .label = Zavřít duplicitní panely
+all-tabs-menu-view-all-tabs =
+    .label = Zobrazit všechny panely
+all-tabs-menu-recent-tab-groups-header = Nedávné skupiny panelů
+all-tabs-menu-tab-groups-show-all =
+    .label = Zobrazit vše
+all-tabs-menu-tab-groups-sub-view =
+    .title = Skupiny panelů
+all-tabs-menu-current-window-header = Aktuální okno

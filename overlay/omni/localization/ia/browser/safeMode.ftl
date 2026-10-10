@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Aperir { -brand-short-name } in Modo diagnostic?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Aperir
+refresh-profile =
+    .label = Refrescar { -brand-short-name }
+troubleshoot-mode-description = Usa iste modo special de { -brand-short-name } pro diagnosticar problemas. Tu extensiones e personalisationes se disactivara temporarimente.
+skip-troubleshoot-refresh-profile = Tu pote etiam saltar le diagnostico e tentar refrescar { -brand-short-name }, in vice.
+auto-safe-mode-description = { -brand-short-name } ha claudite inexpectatemente durante que initiava. Isto pote haber essite causate per additivos e altere problemas. Tu pote tentar de solver le problema investigante lo in modo secur.

@@ -1,0 +1,17 @@
+crashed-subframe-message = <strong>Sac’het eo ul lodenn eus al lec’hienn.</strong> Evit kelaouiñ { -brand-product-name } eus ar gudenn-se ha kempenn anezhi buanoc’h e c’hallit leuniañ un danevell.
+crashed-subframe-title =
+    .title = Sac'het eo ul lodenn eus ar bajenn-mañ. Evit leuskel { -brand-product-name } da c'houzout ez eus bet ur gudenn ha kempenn anezhi buanoc'h, kinnig un danevell.
+crashed-subframe-learnmore-link =
+    .value = Gouzout hiroc’h
+crashed-subframe-submit =
+    .label = Kas danevell
+    .accesskey = K
+pending-crash-reports-view-all =
+    .label = Gwelout
+pending-crash-reports-send =
+    .label = Kas
+pending-crash-reports-always-send =
+    .label = Kas bepred
+requested-crash-reports-dont-show-again =
+    .label = Na ziskouez din en-dro
+    .accesskey = N

@@ -1,0 +1,10 @@
+options-select-default-tools-label = DevTools predeterminaes
+options-select-enabled-toolbox-buttons-label = Botones disponibles na caxa de ferramientes
+options-select-dev-tools-theme-label = Estilos
+options-context-inspector = Inspeutor
+options-show-user-agent-styles-label = Amosar los estilos del restolador
+options-styleeditor-label = Editor d'estilos
+options-sourceeditor-label = Preferencies del editor
+options-context-advanced-settings = Axustes avanzaos
+options-enable-remote-label = Activar la depuración remota
+options-tool-not-supported-marker = { $toolLabel } *

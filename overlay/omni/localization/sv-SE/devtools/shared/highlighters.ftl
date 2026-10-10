@@ -1,0 +1,13 @@
+grid-row-column-positions = Rad { $row } / Kolumn { $column }
+gridtype-container = Rutnätsbehållare
+gridtype-item = Rutnätsobjekt
+gridtype-dual = Rutnätsbehållare/Item
+flextype-container = Flex-behållare
+flextype-item = Flex-objekt
+flextype-dual = Flex-behållare/Item
+remote-node-picker-notice = DevTools nodväljare aktiverad. { $action }
+remote-node-picker-notice-action-desktop = Klicka på ett element för att välja det i Inspektören
+remote-node-picker-notice-action-touch = Tryck på ett element för att välja det i Inspektören
+remote-node-picker-notice-hide-button = Dölj
+simple-highlighters-message = När prefers-reduced-motion är aktiverat kan förenklad markering aktiveras i inställningspanelen för att undvika blinkande färger.
+simple-highlighters-settings-button = Öppna inställningar

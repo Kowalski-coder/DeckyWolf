@@ -1,0 +1,15 @@
+panic-button-open-new-window = افتح نافذة جديدة خالية
+panic-button-undo-warning = لا يمكن التراجع عن هذا الإجراء.
+panic-button-forget-button =
+    .label = انسَ!
+panic-main-timeframe-desc = انسَ الأخير:
+panic-button-5min =
+    .label = خمس دقائق
+panic-button-2hr =
+    .label = ساعتين
+panic-button-day =
+    .label = 24 ساعة
+panic-button-action-desc = المتابعة سوف:
+panic-button-delete-cookies = تحذف <strong>الكعكات</strong> الحديثة
+panic-button-delete-history = تحذف <strong>السجل</strong> الحديث
+panic-button-delete-tabs-and-windows = تغلق كل <strong>الألسنة</strong> و <strong>النوافذ</strong>

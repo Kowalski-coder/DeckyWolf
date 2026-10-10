@@ -1,0 +1,13 @@
+grid-row-column-positions = Linka { $row } / Špalta { $column }
+gridtype-container = Lěsyčny kontejner
+gridtype-item = Lěsyčny zapisk
+gridtype-dual = Lěsyčny kontejner/zapisk
+flextype-container = Kontejner flex
+flextype-item = Zapisk flex
+flextype-dual = Kontejner flex/zapisk
+remote-node-picker-notice = Sukowy wuběrak DevTools je zmóžnjeny. { $action }
+remote-node-picker-notice-action-desktop = Klikńće na element, zo byšće jón w inspektorje wubrał
+remote-node-picker-notice-action-touch = Podótkńće so elementa, zo byšće jón w inspektorje wubrał
+remote-node-picker-notice-hide-button = Schować
+simple-highlighters-message = Hdyž prefers-reduced-motion je zmóžnjeny, jednoriši wuzběhowak da so w nastajenjach zmóžnić, zo bychu so błyskotace barby wobešli.
+simple-highlighters-settings-button = Nastajenja wočinić

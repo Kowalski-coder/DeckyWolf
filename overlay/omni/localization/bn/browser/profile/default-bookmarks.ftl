@@ -1,0 +1,12 @@
+default-bookmarks-title = বুকমার্ক
+default-bookmarks-heading = বুকমার্ক
+default-bookmarks-firefox-heading = মজিলা ফায়ারফক্স
+default-bookmarks-firefox-get-help = সাহায্য নিন
+default-bookmarks-firefox-community = জড়িত হোন
+default-bookmarks-firefox-about = আমাদের সম্পর্কে
+default-bookmarks-nightly-blog = ফায়ারফক্স নাইটলি ব্লগ
+default-bookmarks-bugzilla = মজিলা বাগ ট্র্যাকার
+default-bookmarks-mdn = মজিলা ডেভেলপার নেটওয়ার্ক
+default-bookmarks-nightly-tester-tools = নাইটলি পরীক্ষণ সরঞ্জাম
+default-bookmarks-crashes = আপনার সমস্ত ক্র্যাশ
+default-bookmarks-planet = প্ল্যানেট মজিলা

@@ -1,0 +1,15 @@
+containers-window-new3 =
+    .style = min-width: 32em
+    .title = เพิ่มที่แยกข้อมูลใหม่
+containers-window-update-settings3 =
+    .style = min-width: 32em
+    .title = การตั้งค่าที่แยกข้อมูล { $name }
+containers-window-close =
+    .key = w
+containers-name-label2 =
+    .label = ชื่อ
+    .placeholder = เพิ่มชื่อ
+containers-icon-label2 =
+    .label = ไอคอน
+containers-color-label2 =
+    .label = สี

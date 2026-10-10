@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Détails de l’application
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Supprimer
+    .accesskey = S
+app-manager-handle-protocol = Les applications suivantes peuvent être utilisées pour les liens { $type }.
+app-manager-handle-file = Les applications suivantes peuvent être utilisées pour les contenus { $type }.
+app-manager-web-app-info = Cette application web est hébergée par :
+app-manager-local-app-info = L’emplacement de cette application est :

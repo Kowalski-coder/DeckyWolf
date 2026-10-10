@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } vēlas mainīt noklusējuma meklētāju no { $currentEngine } uz { $newEngine }. Vai tas ir pieņemami?
+webext-default-search-yes =
+    .label = Jā
+    .accesskey = J
+webext-default-search-no =
+    .label = Nē
+    .accesskey = N
+addon-post-install-message = { $addonName } tika pievienots.
+webext-quarantine-confirmation-title = Vai palaist { $addonName } ierobežotajās vietnēs?
+webext-quarantine-confirmation-line-1 = Lai aizsargātu jūsu datus, šis paplašinājums šajā vietnē nav atļauts.
+webext-quarantine-confirmation-line-2 = Ja uzticaties šim paplašinājumam, varat ļaut tam lasīt un mainīt jūsu datus vietnēs, kuras ierobežo { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Atļaut
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Neatļaut
+    .accesskey = N

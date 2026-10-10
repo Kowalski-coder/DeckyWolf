@@ -1,0 +1,13 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-title = VPN
+ipprotection-summer-promo-offramp-open-vpn-primary-button = Ldi VPN
+ipprotection-feature-introduction-button-primary = Ɣer zdat
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Mačči tura
+ipprotection-feature-introduction-button-secondary-no-thanks = Uhu, tanemmirt
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Uhu, tanemmirt
+ipprotection-feature-introduction-button-open-vpn = Ldi VPN
+ipprotection-location-selection-callout-primary-button = Ɛreḍ-it

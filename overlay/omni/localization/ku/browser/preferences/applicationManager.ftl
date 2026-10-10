@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Hûrgiliyên sepanê
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Rake
+    .accesskey = R
+app-manager-handle-protocol = Ev sepan dikarin bikaranîna { $type } girêdan'ê ragirin.
+app-manager-handle-file = Ev sepan dikarin bikaranîna { $type } naverok'ê ragirin.
+app-manager-web-app-info = Ev sepana webê li ser vê hostê ye:
+app-manager-local-app-info = Ev sepan li ser vê ye:

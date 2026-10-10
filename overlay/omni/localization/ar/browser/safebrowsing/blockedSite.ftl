@@ -1,0 +1,30 @@
+safeb-blocked-phishing-page-title = الموقع القادم مخادع
+safeb-blocked-malware-page-title = قد تؤذي زيارة هذا الموقع حاسوبك
+safeb-blocked-unwanted-page-title = قد يحتوي هذا الموقع برنامج ضارة
+safeb-blocked-harmful-page-title = قد يحتوي هذا الموقع برمجيات خبيثة
+safeb-blocked-addon-page-title = حُظر الموقع من أجل سلامتك
+safeb-blocked-phishing-page-short-desc = حجب { -brand-short-name } هذه الصفحة لأنها قد تحاول خداعك لفعل شيء خطير مثل تثبيت برمجيات أو كشف معلوماتك الشخصية مثل كلمات السر أو بطاقات الائتمان.
+safeb-blocked-malware-page-short-desc = حجب { -brand-short-name } هذه الصفحة لأنها قد تحاول تثبيت برمجيات خبيثة قد تسرق معلوماتك الشخصية على الحاسوب أو تحذفها.
+safeb-blocked-unwanted-page-short-desc = حجب { -brand-short-name } هذه الصفحة لأنها قد تحاول خداعك لتثبيت برمجيات تضرك في تصفح الوب (مثل تغيير صفحتك الرئيسية أو عرض إعلانات إضافية في المواقع التي تزورها).
+safeb-blocked-harmful-page-short-desc = حجب { -brand-short-name } هذه الصفحة لأنها قد تحاول تثبيت تطبيقات خطرة تحاول سرقة معلوماتك أو حذفها (معلوماتك مثل الصور، وكلمات السر، والرسائل والبطاقات الائتمانية).
+safeb-blocked-addon-page-short-desc = قام { -brand-short-name } بحظر هذه الصفحة لأن أحد إضافاتك حاول فتحها. قد يُستخدم هذا الموقع لسرقة معلوماتك الشخصية، مثل كلمات السر أو أرقام بطاقات الائتمان.
+safeb-palm-advisory-desc = تقرير من <a data-l10n-name='advisory_provider'>{ $advisoryname }</a>.
+safeb-palm-accept-label = عُد للسابق
+safeb-palm-see-details-label = اعرض التفاصيل
+safeb-blocked-phishing-page-error-desc-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>موقع مخادع</a>. يمكنك <a data-l10n-name='report_detection'>الإبلاغ عن مشكلة في الاكتشاف</a> أو <a data-l10n-name='ignore_warning_link'>تجاهل المخاطر</a> و زيارة هذا الموقع غير الآمن.
+safeb-blocked-phishing-page-error-desc-no-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>موقع مخادع</a>. يمكنك <a data-l10n-name='report_detection'>الإبلاغ عن مشكلة في الاكتشاف</a>.
+safeb-blocked-phishing-page-learn-more = اطلع على المزيد عن الاحتيال في <a data-l10n-name='learn_more_link'>www.antiphishing.org</a>. اطلع على المزيد عن حماية { -brand-short-name } من الاحتيال و البرمجيات الخبيثة في <a data-l10n-name='firefox_support'>support.mozilla.org</a>.
+safeb-blocked-malware-page-error-desc-override-sumo = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي برمجيات خبيثة</a>. يمكنك <a data-l10n-name='ignore_warning_link'>تجاهل المخاطر</a> و زيارة هذا الموقع غير الآمن.
+safeb-blocked-malware-page-error-desc-no-override-sumo = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي برمجيات خبيثة</a>.
+safeb-blocked-malware-page-learn-more-sumo = اطّلع على المزيد عن حماية { -brand-short-name } من الاحتيال و البرمجيات الخبيثة في <a data-l10n-name='firefox_support'>support.mozilla.org</a>.
+safeb-blocked-unwanted-page-error-desc-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي برمجيات خبيثة</a>. يمكنك <a data-l10n-name='ignore_warning_link'>تجاهل المخاطر</a> و زيارة هذا الموقع غير الآمن.
+safeb-blocked-unwanted-page-error-desc-no-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي برمجيات خبيثة</a>.
+safeb-blocked-unwanted-page-learn-more = اطلع على المزيد عن البرمجيات الضارة و غير المرغوب فيها في <a data-l10n-name='learn_more_link'>سياسة البرمجيات غير المرغوب فيها</a>. اطلع على المزيد عن حماية { -brand-short-name } من الاحتيال و البرمجيات الخبيثة في <a data-l10n-name='firefox_support'>support.mozilla.org</a>.
+safeb-blocked-harmful-page-error-desc-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي تطبيقًا قد يكون ضارًا</a>. يمكنك <a data-l10n-name='ignore_warning_link'>تجاهل المخاطر</a> و زيارة هذا الموقع غير الآمن.
+safeb-blocked-harmful-page-error-desc-no-override = أُبلغ عن أن <span data-l10n-name='sitename'>{ $sitename }</span> <a data-l10n-name='error_desc_link'>يحتوي تطبيقًا قد يكون ضارًا</a>.
+safeb-blocked-harmful-page-learn-more = اطلع على المزيد عن حماية { -brand-short-name } من الاحتيال و البرمجيات الخبيثة في <a data-l10n-name='firefox_support'>support.mozilla.org</a>.
+safeb-blocked-addon-page-error-desc-override = <strong>لمَ حُظر هذا الموقع؟</strong>
+safeb-blocked-addon-page-error-desc2-override = قد يكون الموقع <strong>{ $sitename }</strong> مرتبطًا بنشاط خادع وضار.
+safeb-blocked-addon-page-error-desc3-override = <strong>ما الذي يمكنك فعله حيال ذلك؟</strong>
+safeb-blocked-addon-page-error-desc4-override = لمنع حدوث ذلك مرة أخرى، يمكنك إزالة أو تعطيل <strong>{ $addonName }</strong> من صفحة about:addons.
+safeb-blocked-addon-page-learn-more3 = <a data-l10n-name='firefox_support_harmful_addons'>تعرّف على المزيد حول حماية الإضافات الضارة من { -brand-short-name }</a>.

@@ -1,0 +1,17 @@
+crashed-subframe-message = <strong>Daļa šīs lapas avarēja.</strong> Lai informētu { -brand-product-name } par šo problēmu un ātrāk to novērstu, lūdzu, iesniedziet ziņojumu.
+crashed-subframe-title =
+    .title = Daļa šīs lapas avarēja. Lai { -brand-product-name } informētu par šo problēmu un ātrāk to novērstu, lūdzu, iesniedziet ziņojumu.
+crashed-subframe-learnmore-link =
+    .value = Uzzināt vairāk
+crashed-subframe-submit =
+    .label = Iesniegt ziņojumu
+    .accesskey = I
+pending-crash-reports-view-all =
+    .label = Skats
+pending-crash-reports-send =
+    .label = Nosūtīt
+pending-crash-reports-always-send =
+    .label = Vienmēr sūtīt
+requested-crash-reports-dont-show-again =
+    .label = Vairs nerādīt
+    .accesskey = V

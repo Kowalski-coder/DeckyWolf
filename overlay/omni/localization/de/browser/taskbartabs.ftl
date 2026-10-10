@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Tab zur Taskleiste hinzufügen
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Tab aus Taskleiste entfernen
+taskbar-tab-urlbar-button-show = Web-App-Seitenaktion anzeigen
+taskbar-tab-urlbar-button-hide = Web-App-Seitenaktion ausblenden
+taskbar-tab-shortcut-description = { $name } Web-App
+taskbar-tab-shortcut-folder = { -brand-short-name } Web-Apps
+taskbar-tab-audio-mute =
+    .tooltiptext = Tab stummschalten
+taskbar-tab-audio-unmute =
+    .tooltiptext = Stummschaltung für Tab beenden
+taskbar-tab-title-default = { $name } in { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) in { -brand-full-name }
+taskbar-tab-title-profile = { $name } in { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) in { $profile } – { -brand-full-name }

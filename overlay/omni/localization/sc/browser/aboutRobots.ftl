@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bene bènnidos umanos!
+error-short-desc-text = Bos torramus bìsita in paghe e bonu voluntade!
+error-long-desc1 = Unu robot non podet fàghere dannu a un'umanu o, pro inatzione, permìtere chi un'umanu siat fertu.
+error-long-desc2 = Is robot ant bidu cosas chi boisàteros, umanos, non diais àere mai crèidu.
+error-long-desc3 = Is robot sunt is amigos de plàstica bostros cun chie bos podides ispassiare.
+error-long-desc4 = Is robot tenent traseris de metallu lughente chi no si diant dèpere mossigare.
+error-trailer-desc-text = E tenent unu pranu.
+error-try-again = Torra a nche proare
+    .label2 = No incarches prus custu butone.

@@ -1,0 +1,13 @@
+back = Geri
+forward = İrəli
+reload = Yenilə
+home = Ev
+fullscreen = Tam ekran
+find = Tap
+new-tab = Yeni vərəq
+add-bookmark = Əlfəcin əlavə et
+reader-view = Oxuyucu Görünüşü
+open-location = Ünvanı daxil et və ya axtar
+share = Paylaş
+close-window = Pəncərəni Qapat
+search-popover = Qısayolları axtar

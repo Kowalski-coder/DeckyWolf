@@ -1,0 +1,26 @@
+restore-page-tab-title = Seanso atkūrimas
+restore-page-error-title = Atsiprašome. Mums nepavyksta atkurti jūsų tinklalapių.
+restore-page-problem-desc = Mums nepavyksta atkurti jūsų paskutinio naršymo seanso. Pasirinkite „Atkurti seansą“ norėdami pabandyti dar kartą.
+restore-page-try-this = Vis tiek nepavyksta atkurti seanso? Kartais taip būna dėl kortelių. Peržiūrėkite ankstesnes korteles ir nuimkite varneles nuo tų, kurių nebūtinai reikia, ir pabandykite atkurti tada.
+restore-page-hide-tabs = Slėpti ankstesnes korteles
+restore-page-show-tabs = Rodyti ankstesnes korteles
+restore-page-window-label = Langas nr. { $windowNumber }
+restore-page-restore-header =
+    .label = Atkurti
+restore-page-list-header =
+    .label = Langai ir kortelės
+restore-page-try-again-button =
+    .label = Atkurti seansą
+    .accesskey = r
+restore-page-close-button =
+    .label = Pradėti naują seansą
+    .accesskey = n
+welcome-back-tab-title = Pavyko!
+welcome-back-page-title = Pavyko!
+welcome-back-page-info = „{ -brand-short-name }“ jau pasiruošė.
+welcome-back-restore-button =
+    .label = Pirmyn!
+    .accesskey = m
+welcome-back-restore-all-label = Atkurti visus langus ir korteles
+welcome-back-restore-some-label = Atkurti tik pageidaujamus
+welcome-back-page-info-link = Jūsų priedai ir suasmeninimai buvo pašalinti, o naršyklės nuostatos sugrąžintos į numatytąsias. Jeigu tai neišsprendė problemos, <a data-l10n-name="link-more">sužinokite, ką dar galite išbandyti.</a>

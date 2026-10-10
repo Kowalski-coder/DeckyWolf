@@ -1,0 +1,10 @@
+toolbox-meatball-menu-dock-bottom-label = Pastga joylash
+toolbox-meatball-menu-dock-left-label = Chapga joylash
+toolbox-meatball-menu-dock-right-label = O‘ngga joylash
+toolbox-meatball-menu-dock-separate-window-label = Alohida oyna
+toolbox-meatball-menu-splitconsole-label = Ajratish konsolini ko‘rsatish
+toolbox-meatball-menu-hideconsole-label = Ajratish konsolini yashirish
+toolbox-meatball-menu-settings-label = Sozlamalar
+toolbox-meatball-menu-documentation-label = Qo‘llanma
+toolbox-meatball-menu-community-label = Jamoa…
+toolbox-meatball-menu-noautohide-label = Qalqib chiqadigan oynalarni avtoyashirishni o‘chirib qo‘yish

@@ -1,0 +1,13 @@
+about-policies-title = Dawrugol gollorɗi
+active-policies-tab = Ena hurmi
+errors-tab = Juume
+documentation-tab = Duttorɗe
+active-policies-tab-title =
+    .title = Ena hurmi
+errors-tab-title =
+    .title = Juume
+documentation-tab-title =
+    .title = Duttorɗe
+policy-name = Innde dawrugol
+policy-value = Njaru dawrugol
+policy-errors = Juume dawrugol

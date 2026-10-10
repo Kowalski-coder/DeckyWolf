@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = รายละเอียดแอปพลิเคชัน
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = เอาออก
+    .accesskey = อ
+app-manager-handle-protocol = แอปพลิเคชันต่อไปนี้สามารถใช้จัดการกับลิงก์ { $type } ได้
+app-manager-handle-file = แอปพลิเคชันต่อไปนี้สามารถใช้จัดการกับเนื้อหา { $type } ได้
+app-manager-web-app-info = เว็บแอปพลิเคชันนี้ตั้งอยู่ที่:
+app-manager-local-app-info = แอปพลิเคชันนี้ตั้งอยู่ที่:

@@ -1,0 +1,26 @@
+restore-page-tab-title = Сессияны қалпына келтіру
+restore-page-error-title = Кешіріңіз. Беттерді қалпына келтіру кезінде мәселелер орын алды.
+restore-page-problem-desc = Соңғы сессияны қалпына келтіруде мәселелер орын алды. Қайталап көру үшін, Сессияны қалпына келтіруді таңдаңыз.
+restore-page-try-this = Әлі де сессияны қалпына келтіре алмайсыз ба? Кейде бұл мәселе бір беттен болуы мүмкін. Алдыңғы беттерді қарап, керек емес беттерден белгілеуді алып тастап, қалпына келтіріңіз.
+restore-page-hide-tabs = Алдыңғы беттерді жасыру
+restore-page-show-tabs = Алдыңғы беттерді қарау
+restore-page-window-label = Терезе { $windowNumber }
+restore-page-restore-header =
+    .label = Қалпына келтіру
+restore-page-list-header =
+    .label = Терезелер мен беттер
+restore-page-try-again-button =
+    .label = Сессияны қалпына келтіру
+    .accesskey = п
+restore-page-close-button =
+    .label = Жаңа сессияны бастау
+    .accesskey = ж
+welcome-back-tab-title = Сәтті!
+welcome-back-page-title = Сәтті!
+welcome-back-page-info = { -brand-short-name } жұмысқа дайын.
+welcome-back-restore-button =
+    .label = Ал, кеттік!
+    .accesskey = е
+welcome-back-restore-all-label = Барлық терезелер және беттерді қалпына келтіру
+welcome-back-restore-some-label = Тек өзіңізге керектерді қалпына келтіру
+welcome-back-page-info-link = Сіздің кеңейтулер және баптаулар өшірілді және браузер баптаулары бастапқы мәндерге тасталды. Бұл мәселеңізді шешпесе, <a data-l10n-name="link-more">өзіңіз не жасай алатыныңыз туралы көбірек біліңіз.</a>

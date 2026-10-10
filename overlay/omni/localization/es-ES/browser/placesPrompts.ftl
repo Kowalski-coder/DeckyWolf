@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (sin título)
+places-load-js-data-url-error = Por razones de seguridad, las URLs “javascript:” o “data:” no se pueden cargar desde la ventana o el panel lateral del historial.
+places-bookmarks-backup-title = Nombre del fichero de copia de marcadores
+places-bookmarks-restore-alert-title = Revertir marcadores
+places-bookmarks-restore-alert = Esta acción reemplazará todos sus marcadores por los de la copia de seguridad. ¿Está seguro?
+places-bookmarks-restore-title = Seleccionar una copia de los marcadores
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Tipo de archivo no soportado.
+places-bookmarks-restore-parse-error = Incapaz de procesar el archivo de copia de seguridad.
+places-bookmarks-import = Importar archivo de marcadores
+places-bookmarks-export = Exportar archivo de marcadores
+places-bookmarks-paste-error-title = Se han encontrado URL no válidas
+places-bookmarks-paste-error-message-header = No se han podido añadir las siguientes URL a sus marcadores. Intente verificar el formato y añadirlas nuevamente.

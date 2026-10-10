@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = 인간을 환영합니다!
+error-short-desc-text = 우리는 평화와 친목을 도모할 목적으로 여러분에게 방문했습니다!
+error-long-desc1 = 로봇은 스스로 인간에게 해를 끼치지는 않지만, 로봇 때문에 발생할 수 있는 나태로 인하여 인류 스스로 해를 입을 수 있습니다.
+error-long-desc2 = 로봇은 인류가 믿기 어려운 일을 할 수 있습니다.
+error-long-desc3 = 로봇은 누구나 함께 즐길 수 있는 플라스틱 친구입니다.
+error-long-desc4 = 로봇은 누구도 깨물 수 없는 반짝이는 금속 엉덩이를 가지고 있습니다.
+error-trailer-desc-text = 그리고 그들은 계획을 가지고 있습니다.
+error-try-again = 다시 시도
+    .label2 = 이 버튼을 다시 누르지 마세요.

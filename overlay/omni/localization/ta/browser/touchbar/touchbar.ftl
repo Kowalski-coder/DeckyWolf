@@ -1,0 +1,12 @@
+back = பின்செல்
+forward = முன்செல்
+reload = மீளேற்று
+home = முகப்பு
+fullscreen = முழுத்திரை
+find = கண்டுபிடி
+new-tab = புதிய கீற்று
+add-bookmark = புத்தகக்குறியாக சேர்
+reader-view = வாசகர் காட்சி
+open-location = தேடு அல்லது முகவரியை உள்ளிடு
+share = பகிர்க
+close-window = சாளரத்தை மூடுக

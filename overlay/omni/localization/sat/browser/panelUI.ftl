@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ᱚᱛᱤᱯᱨᱚᱵᱷᱟᱣ ᱢᱮᱱᱩ ᱠᱷᱚᱱ ᱚᱪᱚᱜᱽ ᱢᱮ
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = ᱦᱟᱹᱛᱤᱭᱟᱹᱨ ᱵᱟᱨ ᱛᱮ ᱥᱮᱞᱮᱫ ᱢᱮ
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = ᱚᱣᱟᱹᱨᱯᱷᱞᱚ ᱢᱮᱱᱩ ᱛᱮ ᱥᱮᱞᱮᱫ ᱢᱮ
+    .accesskey = M
+panic-button-thankyou-msg1 = ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜᱟᱜ ᱦᱤᱛᱟᱹᱞ ᱢᱮᱴᱟᱣ ᱮᱱᱟ ᱾
+panic-button-thankyou-msg2 = ᱵᱮᱥ ᱛᱮ ᱵᱽᱨᱟᱣᱡᱤᱝ !
+panic-button-thankyou-button =
+    .label = ᱥᱟᱨᱦᱟᱣ ᱜᱮ !

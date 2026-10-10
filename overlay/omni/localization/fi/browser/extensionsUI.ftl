@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } haluaa vaihtaa oletushakukoneen { $currentEngine } hakukoneeksi { $newEngine }. Sopiiko tämä?
+webext-default-search-yes =
+    .label = Kyllä
+    .accesskey = K
+webext-default-search-no =
+    .label = Ei
+    .accesskey = E
+addon-post-install-message = { $addonName } lisättiin.
+webext-quarantine-confirmation-title = Suoritetaanko { $addonName } rajoitetuilla sivustoilla?
+webext-quarantine-confirmation-line-1 = Tietojesi suojaamiseksi tämä laajennus ei ole sallittu tällä sivustolla.
+webext-quarantine-confirmation-line-2 = Salli tämän laajennuksen, jos luotat siihen, lukea ja muuttaa tietojasi sivustoilla, joita { -vendor-short-name } rajoittaa.
+webext-quarantine-confirmation-allow =
+    .label = Salli
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Älä salli
+    .accesskey = Ä

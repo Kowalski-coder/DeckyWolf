@@ -1,0 +1,53 @@
+genai-settings-chat-chatgpt-links = ChatGPT තේරීමෙන් ඔබ OpenAI <a data-l10n-name="link1">භාවිත නියම</a> සහ <a data-l10n-name="link2">රහස්‍යතා ප්‍රතිපත්තියට</a> එකඟ වේ.
+genai-settings-chat-claude-links = Anthropic Claude තේරීමෙන් ඔබ Anthropic <a data-l10n-name="link1">පරිභෝජක සේවා නියම</a>, <a data-l10n-name="link2">භාවිත ප්‍රතිපත්තියට</a> සහ <a data-l10n-name="link3">රහස්‍යතා ප්‍රතිපත්තියට</a> එකඟ වේ.
+genai-settings-chat-copilot-links = Copilot තේරීමෙන් ඔබ <a data-l10n-name="link1">Copilot කෘතිම බුද්ධි අත්දැකීම් නියම</a> සහ <a data-l10n-name="link2">මයික්‍රොසොෆ්ට් රහස්‍යතා ප්‍රකාශයට</a> එකඟ වේ.
+genai-settings-chat-gemini-links = ගූගල් ජෙමිනි තේරීමෙන් ඔබ <a data-l10n-name="link1">ගූගල් සේවා නියම</a>, <a data-l10n-name="link2">තහනම් AI උත්පාදක භාවිත ප්‍රතිපත්තියට</a> සහ <a data-l10n-name="link3">ජෙමිනි යෙදුම් රහස්‍යතා දැන්වීමට</a> එකඟ වේ.
+genai-settings-chat-huggingchat-links = HuggingChat තේරීමෙන් ඔබ <a data-l10n-name="link1">HuggingChat රහස්‍යතා දැන්වීමට</a> සහ <a data-l10n-name="link2">Hugging Face රහස්‍යතා ප්‍රතිපත්තියට</a> එකඟ වේ.
+genai-settings-chat-localhost-links = { -vendor-short-name } නවෝත්පාදන සමූහයෙන් <a data-l10n-name="link1">llamafile</a> වැනි ඔබගේම පුද්ගලික ස්ථානීය කතා ක්‍රමලේඛ රැගෙන එන්න.
+genai-prompts-summarize =
+    .label = සාරාංශයක්
+    .value = කරුණාකර නිවැරදි සහ සංක්‍ෂිප්ත භාෂාව භාවිතයෙන් තේරීම සාරාංශ කරන්න. එය සුපිරික්සීමට හැකි වන පරිදි සාරාංශයට ශ්‍රීර්ෂක සහ ගුලි ලැයිස්තු භාවිතා කරන්න. අර්ථය සහ සත්‍ය නිරවද්‍යතාවය පවත්වා ගන්න.
+genai-prompts-simplify =
+    .label = සරල භාෂාවෙන්
+    .value = කරුණාකර කෙටි වාක්‍ය සහ සරල වචන භාවිතයෙන් තේරීම නැවත ලියන්න. අර්ථය සහ සත්‍ය නිරවද්‍යතාවය පවත්වා ගන්න.
+genai-prompts-quiz =
+    .label = ප්‍රශ්න කරන්න
+    .value = කරුණාකර මෙම තේරීම ගැන මාගෙන් ප්‍රශ්න කරන්න. විවිධ ආකාරයේ ප්‍රශ්න අසන්න; උදාහරණයක් ලෙස බහුවරණ, සත්‍ය හෝ අසත්‍ය සහ කෙටි උත්තර. ඊළඟ ප්‍රශ්නයට යාමට පෙර මාගේ ප්‍රතිචාරය බලාපොරොත්තු වන්න.
+genai-prompts-explain =
+    .label = මෙය පැහැදිලි කරන්න
+    .value = කරුණාකර සරල වචන භාවිතයෙන් මෙම තේරීමේ ප්‍රධාන සංකල්ප පැහැදිලි කරන්න. එසේම, උදාහරණ භාවිතා කරන්න.
+genai-input-ask-generic =
+    .placeholder = AI කතා ක්‍රමලේඛයෙන් අහන්න…
+genai-input-ask-provider =
+    .placeholder = { $provider } වෙතින් අසන්න…
+genai-shortcuts-hide =
+    .label = කතා ක්‍රමලේඛයේ කෙටිමඟ සඟවන්න
+genai-chatbot-title = AI කතා ක්‍රමලේඛය
+genai-header-provider-menu =
+    .title = කතා ක්‍රමලේඛයක් තෝරන්න
+genai-header-close-button =
+    .title = වසන්න
+genai-provider-view-details =
+    .label = කතා ක්‍රමලේඛයේ විස්තර බලන්න
+genai-options-reload-generic =
+    .label = AI කතා ක්‍රමලේඛය යළි පූරණය කරන්න
+genai-options-reload-provider =
+    .label = { $provider } යළි පූරණය කරන්න
+genai-options-show-shortcut =
+    .label = පෙළ තෝරන විට කෙටිමඟ පෙන්වන්න
+genai-options-hide-shortcut =
+    .label = පෙළ තෝරන විට කෙටිමඟ සඟවන්න
+genai-options-about-chatbot =
+    .label = { -brand-short-name } හි AI කතා ක්‍රමලේඛ ගැන
+genai-onboarding-primary = ඉදිරියට
+genai-onboarding-secondary = වසන්න
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = ගූගල් ජෙමිනි
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat

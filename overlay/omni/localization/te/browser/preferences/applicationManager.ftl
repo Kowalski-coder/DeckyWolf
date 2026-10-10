@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = అనువర్తనపు వివరాలు
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = తీసివేయి
+    .accesskey = R
+app-manager-handle-protocol = { $type }లంకెలను సంభాళించుటకు ఈ క్రింది అనువర్తనాలను వాడవచ్చు.
+app-manager-handle-file = { $type } సారము ను సంభాళించుటకు ఈ క్రింది అనువర్తనాలను ఉపయోగించవచ్చు.
+app-manager-web-app-info = ఈ వెబ్ అనువర్తనం ఇచట హోస్టు ‌చేయబడింది:
+app-manager-local-app-info = ఈ అనువర్తనం ఇక్కడ ఉంది:

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Sifaaji kuutorgal
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Ittu
+    .accesskey = I
+app-manager-handle-protocol = Ɗee kuutorɗe garooje ina mbaawi huutoreede ngam tammbaade Jokkorɗe { $type }.
+app-manager-handle-file = Ɗee kuutorɗe garooje ina mbaawi huutoreede ngam tammbaade { $type } loowdi ndi.
+app-manager-web-app-info = Ngal jaaɓnirgal geese mooftaa ko to:
+app-manager-local-app-info = Jaaɓnirgal ngal woni ko to:

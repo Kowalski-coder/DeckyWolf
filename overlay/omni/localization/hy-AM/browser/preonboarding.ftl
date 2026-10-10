@@ -1,0 +1,11 @@
+preonboarding-title = Բարի գալուստ  { -brand-product-name }
+preonboarding-primary-cta = Հաստատել և շարունակել
+preonboarding-primary-cta-v2 = Շարունակել
+preonboarding-terms-of-use-header-button-title = Կարդացեք մեր օգտագործման պայմանները
+preonboarding-privacy-notice-header-button-title = Կարդացեք մեր Գաղտնիության ծանուցումը
+preonboarding-terms-of-use-header-button-title-b-v2 = Օգտագործման պայմաններ
+preonboarding-privacy-notice-header-button-title-b-v2 = Գաղտնիության դրույթներ
+preonboarding-header-button-description = Կարդալ ավելին
+preonboarding-checklist-interaction-data-label = Ուղարկել տեխնիկական և փոխազդեցության տվյալները { -vendor-short-name }-ին
+preonboarding-checklist-crash-reports-label = Ինքնաբար ուղարկել խափանումների մասին զեկույցը
+preonboarding-checklist-crash-reports-description = Խափանումների զեկույցները մեզ թույլ են տալիս ախտորոշել և շտկել դիտարկիչի հետ կապված խնդիրները: Զեկույցները կարող են ներառել անձնական կամ զգայուն տվյալներ:

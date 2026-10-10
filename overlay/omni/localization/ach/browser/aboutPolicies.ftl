@@ -1,0 +1,9 @@
+active-policies-tab = Tye katic
+errors-tab = Bal
+documentation-tab = Gin acoya
+active-policies-tab-title =
+    .title = Tye katic
+errors-tab-title =
+    .title = Bal
+documentation-tab-title =
+    .title = Gin acoya

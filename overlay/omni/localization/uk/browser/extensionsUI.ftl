@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } бажає змінити вашу типову пошукову систему з { $currentEngine } на { $newEngine }. Ви згодні?
+webext-default-search-yes =
+    .label = Так
+    .accesskey = Т
+webext-default-search-no =
+    .label = Ні
+    .accesskey = Н
+addon-post-install-message = { $addonName } додано.
+webext-quarantine-confirmation-title = Запускати { $addonName } на обмежуваних сайтах?
+webext-quarantine-confirmation-line-1 = Щоб захистити ваші дані, це розширення не дозволено на цьому сайті.
+webext-quarantine-confirmation-line-2 = Якщо ви довіряєте цьому розширенню, дозвольте йому читати та змінювати ваші дані на сайтах, доступ до яких обмежує { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Дозволити
+    .accesskey = о
+webext-quarantine-confirmation-deny =
+    .label = Не дозволяти
+    .accesskey = Н

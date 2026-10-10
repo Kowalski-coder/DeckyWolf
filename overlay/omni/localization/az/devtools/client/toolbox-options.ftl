@@ -1,0 +1,17 @@
+options-select-additional-tools-label = Əlavələr tərəfindən quraşdırılmış Tərtibatçı Alətləri
+options-select-dev-tools-theme-label = Mövzular
+options-context-inspector = İnspektor
+options-show-user-agent-styles-label = Səyyah Stillərini Göstər
+options-show-user-agent-styles-tooltip =
+    .title = Bunu aktiv etsəniz səyyah tərəfindən yüklənən ön-qurulu stillər göstəriləcək.
+options-default-color-unit-hex = Hex
+options-default-color-unit-hsl = HSL(A)
+options-default-color-unit-rgb = RGB(A)
+options-default-color-unit-name = Rəng Adları
+options-styleeditor-label = Stil Redaktoru
+options-sourceeditor-label = Redaktor Nizamlamaları
+options-sourceeditor-keybinding-default-label = Standart
+options-context-advanced-settings = Təkmilləşmiş tənzimləmələr
+options-enable-chrome-label = Səyyah chrome-u və əlavə sazlama alət qutularını aktivləşdir
+options-enable-remote-label = Uzaq sazlamanı aktivləşdir
+options-tool-not-supported-marker = { $toolLabel } *

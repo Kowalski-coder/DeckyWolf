@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Lägg till flik i aktivitetsfältet
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Ta bort flik från aktivitetsfältet
+taskbar-tab-urlbar-button-show = Visa sidåtgärd för webbappen
+taskbar-tab-urlbar-button-hide = Dölj sidåtgärd för webbappen
+taskbar-tab-shortcut-description = { $name } webbapp
+taskbar-tab-shortcut-folder = { -brand-short-name } webbappar
+taskbar-tab-audio-mute =
+    .tooltiptext = Ljud av för flik
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ljud på för flik
+taskbar-tab-title-default = { $name } i { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) i { -brand-full-name }
+taskbar-tab-title-profile = { $name } i { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) i { $profile } — { -brand-full-name }

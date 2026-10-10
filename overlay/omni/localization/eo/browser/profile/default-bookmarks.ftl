@@ -1,0 +1,14 @@
+default-bookmarks-title = Legosignoj
+default-bookmarks-heading = Legosignoj
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Helpo
+default-bookmarks-firefox-customize = Personecigi Firefox
+default-bookmarks-firefox-community = Partopreni
+default-bookmarks-firefox-about = Pri ni
+default-bookmarks-nightly-heading = Rimedoj por Firefox Nightly
+default-bookmarks-nightly-blog = Blogo de Firefox Nightly
+default-bookmarks-bugzilla = Registro de problemoj de Mozilla
+default-bookmarks-mdn = Reto de programistoj de Mozilla
+default-bookmarks-nightly-tester-tools = Iloj por testantoj de Nightly
+default-bookmarks-crashes = Ĉiuj viaj paneoj
+default-bookmarks-planet = Planedo Mozilla

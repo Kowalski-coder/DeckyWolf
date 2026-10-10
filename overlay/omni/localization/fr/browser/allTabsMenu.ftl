@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Rechercher dans tous les onglets
+all-tabs-menu-new-user-context =
+    .label = Nouvel onglet conteneur
+all-tabs-menu-hidden-tabs =
+    .label = Onglets masqués
+all-tabs-menu-close-duplicate-tabs =
+    .label = Fermer les onglets en double
+all-tabs-menu-view-all-tabs =
+    .label = Voir tous les onglets
+all-tabs-menu-recent-tab-groups-header = Groupes d’onglets récents
+all-tabs-menu-tab-groups-show-all =
+    .label = Tout afficher
+all-tabs-menu-tab-groups-sub-view =
+    .title = Groupes d’onglets
+all-tabs-menu-current-window-header = Fenêtre actuelle

@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Pairt o this page crashed.</strong> Fur tae lat { -brand-product-name } ken aboot this issue and get it sortit faster, gonnae inpit a report.
+crashed-subframe-title =
+    .title = Pairt o this page crashed. Fur tae lat { -brand-product-name } ken aboot this issue and get it sortit faster, gonnae inpit a report.
+crashed-subframe-learnmore-link =
+    .value = Lairn mair
+crashed-subframe-submit =
+    .label = Inpit report
+    .accesskey = I
+pending-crash-reports-view-all =
+    .label = View
+pending-crash-reports-send =
+    .label = Send
+pending-crash-reports-always-send =
+    .label = Aye send

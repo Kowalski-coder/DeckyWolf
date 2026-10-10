@@ -1,0 +1,13 @@
+grid-row-column-positions = Řádek { $row } / Sloupec { $column }
+gridtype-container = Kontejner zobrazení grid
+gridtype-item = Položka zobrazení grid
+gridtype-dual = Kontejner/položka zobrazení grid
+flextype-container = Kontejner zobrazení flex
+flextype-item = Položka zobrazení flex
+flextype-dual = Kontejner/položka zobrazení flex
+remote-node-picker-notice = Výběr uzlu v DevTools povolen. { $action }
+remote-node-picker-notice-action-desktop = Klepnutím na prvek jej vyberete v Průzkumníku
+remote-node-picker-notice-action-touch = Klepnutím na prvek jej vyberete v Průzkumníkovi
+remote-node-picker-notice-hide-button = Skrýt
+simple-highlighters-message = Pokud je povolena funkce prefers-reduced-motion, lze na panelu nastavení povolit jednodušší zvýrazňovač, aby se zabránilo blikání barev.
+simple-highlighters-settings-button = Otevřít nastavení

@@ -1,0 +1,13 @@
+grid-row-column-positions = 行 { $row } / 列 { $column }
+gridtype-container = グリッドコンテナー
+gridtype-item = グリッドアイテム
+gridtype-dual = グリッドコンテナー / アイテム
+flextype-container = フレックスコンテナー
+flextype-item = フレックスアイテム
+flextype-dual = フレックスコンテナー / アイテム
+remote-node-picker-notice = 開発ツールのノード選択が有効です。{ $action }
+remote-node-picker-notice-action-desktop = 要素をクリックすると、インスペクターでその要素を選択できます
+remote-node-picker-notice-action-touch = 要素をタップすると、インスペクターでその要素を選択できます
+remote-node-picker-notice-hide-button = 閉じる
+simple-highlighters-message = prefers-reduced-motion が有効な場合、色フラッシュを避けるため、設定パネルで簡易強調を有効化できます。
+simple-highlighters-settings-button = 設定を開く

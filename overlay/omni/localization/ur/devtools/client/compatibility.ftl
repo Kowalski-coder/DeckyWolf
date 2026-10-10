@@ -1,0 +1,12 @@
+compatibility-selected-element-header = منتخب شدہ عنصر
+compatibility-all-elements-header = تمام امور
+compatibility-issue-deprecated = (فرسودہ)
+compatibility-issue-experimental = (یتجرباتی)
+compatibility-issue-deprecated-experimental = (فرسودہ ، تجرباتی)
+compatibility-settings-button-label = سیٹنگز
+compatibility-settings-button-title =
+    .title = سیٹنگز
+compatibility-settings-header = سیٹنگز
+compatibility-target-browsers-header = ہدف براؤزر
+compatibility-close-settings-button =
+    .title = ترتیبات بند کریں

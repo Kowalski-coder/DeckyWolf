@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } hedapenak zure bilaketa-motor lehenetsia { $currentEngine }(e)tik { $newEngine }(e)ra aldatu nahi du. Ados zaude?
+webext-default-search-yes =
+    .label = Bai
+    .accesskey = B
+webext-default-search-no =
+    .label = Ez
+    .accesskey = E
+addon-post-install-message = { $addonName } gehitu egin da.
+webext-quarantine-confirmation-title = Exekutatu { $addonName } mugatutako guneetan?
+webext-quarantine-confirmation-line-1 = Zure datuak babesteko, hedapen hau ez dago baimenduta gune honetan.
+webext-quarantine-confirmation-line-2 = Baimendu hedapen hau { -vendor-short-name }(e)k mugatutako guneetan zure datuak irakurri eta aldatzeko konfiantza baduzu.
+webext-quarantine-confirmation-allow =
+    .label = Baimendu
+    .accesskey = B
+webext-quarantine-confirmation-deny =
+    .label = Ez baimendu
+    .accesskey = z

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Шукаць ува ўсіх картках
+all-tabs-menu-new-user-context =
+    .label = Новая картка кантэйнера
+all-tabs-menu-hidden-tabs =
+    .label = Схаваныя карткі
+all-tabs-menu-close-duplicate-tabs =
+    .label = Закрыць дублікаты картак
+all-tabs-menu-view-all-tabs =
+    .label = Паглядзець усе карткі
+all-tabs-menu-recent-tab-groups-header = Нядаўнія групы картак
+all-tabs-menu-tab-groups-show-all =
+    .label = Паказаць усе
+all-tabs-menu-tab-groups-sub-view =
+    .title = Групы картак
+all-tabs-menu-current-window-header = Цяперашняе акно

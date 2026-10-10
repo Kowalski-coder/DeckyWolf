@@ -1,0 +1,12 @@
+report-broken-site-mainview-title = పనిచేయని సైటును నివేదించండి
+report-broken-site-panel-header =
+    .label = పనిచేయని సైటును నివేదించండి
+    .title = పనిచేయని సైటును నివేదించండి
+report-broken-site-panel-reason-slow-moz-box-button =
+    .label = సైటు నెమ్మదిగా ఉంది
+report-broken-site-panel-send-more-info-button =
+    .label = మరింత సమాచారం పంపండి
+report-broken-site-panel-button-cancel =
+    .label = రద్దుచేయి
+report-broken-site-panel-button-okay =
+    .label = సరే

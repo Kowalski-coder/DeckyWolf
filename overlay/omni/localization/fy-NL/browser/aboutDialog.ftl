@@ -1,0 +1,56 @@
+aboutDialog-title =
+    .title = Oer { -brand-full-name }
+releaseNotes-link = Wat is der nij
+update-checkForUpdatesButton =
+    .label = Kontrolearje op fernijingen
+    .accesskey = K
+update-updateButton =
+    .label = Start { -brand-shorter-name } opnij om te fernijen
+    .accesskey = S
+update-checkingForUpdates = Kontrolearret op fernijingen…
+settings-update-checking-for-updates =
+    .label = Kontrolearret op fernijingen…
+settings-update-downloading-2 =
+    .label = Fernijing downloade — { $transfer }
+aboutdialog-update-downloading = Update downloade – <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Fernijing tapasse…
+settings-update-applying =
+    .label = Fernijing tapasse…
+update-failed = Fernijing mislearre. <label data-l10n-name="failed-link">Laad de lêste ferzje yn</label>
+update-failed-main = Fernijing mislearre. <a data-l10n-name="failed-link-main">Laad de lêste ferzje yn</a>
+update-policy-disabled = Fernijingen útskeakele troch jo organisaasje
+settings-update-policy-disabled =
+    .label = Fernijingen útskeakele troch jo organisaasje
+update-noUpdatesFound = { -brand-short-name } is by de tiid
+settings-update-no-updates-found =
+    .label = { -brand-short-name } is by de tiid
+aboutdialog-update-checking-failed = Kontrôle op fernijingen is mislearre.
+settings-update-checking-failed =
+    .label = Kontrôle op fernijingen is mislearre.
+update-otherInstanceHandlingUpdates = { -brand-short-name } wurdt fernijd troch in oare sesje
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } wurdt fernijd troch in oare sesje
+aboutdialog-update-manual-with-link = Fernijingen beskikber op <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Fernijingen beskikber op <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Jo kinne gjin fernijngen mear útfiere op dit systeem. <label data-l10n-name="unsupported-link">Mear ynfo</label>
+settings-update-unsupported = Jo kinne gjin fernijngen mear útfiere op dit systeem. <a data-l10n-name="unsupported-link">Mear ynfo</a>
+update-restarting = Opnij starte…
+settings-update-restarting =
+    .label = Opnij starte…
+update-internal-error2 = Kin net kontrolearje op fernijingen fanwegen in ynterne flater. Fernijingen beskikber op <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-internal-error = Kin net kontrolearje op fernijingen fanwegen in ynterne flater. Fernijingen beskikber op <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-channel-description = Jo binne op dit stuit op it <label data-l10n-name="current-channel">{ $channel }</label>-fernijingskanaal.
+warningDesc-version = { -brand-short-name } is eksperiminteel en is mooglik net stabyl.
+aboutdialog-help-user = { -brand-product-name } Help
+aboutdialog-submit-feedback = Kommentaar ferstjoere
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> is in <label data-l10n-name="community-exp-creditsLink">wrâldwide mienskip</label> dy’t gearwurket om it ynternet iepen, iepenbier, en foar elkenien tagonklik te hâlden.
+community-2 = { -brand-short-name } is makke troch <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, in <label data-l10n-name="community-creditsLink">wrâldwide mienskip</label> dy’t gearwurket om it ynternet iepen, iepenbier, en foar elkenien tagonklik te hâlden.
+helpus = Wolle jo helpe? <label data-l10n-name="helpus-donateLink">Jou in donaasje</label> of <label data-l10n-name="helpus-getInvolvedLink">doch mei!</label>
+helpus-referrals2 = Wolle jo helpe? <label data-l10n-name="helpus-donateLink">Doch in donaasje</label>, <label data-l10n-name="helpus-shareFirefoxLink">Diel { -brand-product-name }</label>, of <label data-l10n-name="helpus-getInvolvedLink">help mei!</label>
+bottomLinks-license = Lisinsje-ynformaasje
+bottom-links-terms = Brûkersbetingsten
+bottom-links-privacy = Privacyferklearring
+aboutDialog-version = { $version } ({ $bits }-bits)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bits)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })

@@ -1,0 +1,46 @@
+styleeditor-new-button =
+    .tooltiptext = Crear y adjuntar una nueva hoja de estilos al documento
+    .accesskey = N
+styleeditor-import-button =
+    .tooltiptext = Importar y adjuntar una hoja de estilos existente al documento
+    .accesskey = I
+styleeditor-filter-input =
+    .placeholder = Filtrar hojas de estilo
+styleeditor-visibility-toggle =
+    .tooltiptext = Alternar la visibilidad de la hoja de estilos
+    .accesskey = S
+styleeditor-visibility-toggle-system =
+    .tooltiptext = Las hojas de estilo del sistema no se pueden deshabilitar
+styleeditor-save-button = Guardar
+    .tooltiptext = Guardar esta hoja de estilos a un fichero
+    .accesskey = G
+styleeditor-options-button =
+    .tooltiptext = Opciones del editor de estilos
+styleeditor-at-rules = At-rules
+styleeditor-no-stylesheet = Esta página no tiene hoja de estilos.
+styleeditor-no-stylesheet-tip = ¿Quizás te gustaría <a data-l10n-name="append-new-stylesheet">adjuntar una nueva hoja de estilos</a>?
+styleeditor-open-link-new-tab =
+    .label = Abrir enlace en una nueva pestaña
+styleeditor-copy-url =
+    .label = Copiar URL
+styleeditor-find =
+    .label = Buscar
+    .accesskey = B
+styleeditor-find-again =
+    .label = Repetir la búsqueda
+    .accesskey = R
+styleeditor-go-to-line =
+    .label = Saltar a la línea…
+    .accesskey = l
+styleeditor-stylesheet-all-filtered = No se encontró ninguna hoja de estilo.
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } regla
+       *[other] { $ruleCount } reglas.
+    }
+styleeditor-pretty-print-button =
+    .title = Imprimir hoja de estilos formateada
+styleeditor-pretty-print-button-disabled =
+    .title = Solo se puede dar formato a archivos CSS
+styleeditor-pretty-print-button-disabled-read-only =
+    .title = No se puede imprimir con formato una hoja de estilo de solo lectura.

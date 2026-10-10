@@ -1,0 +1,169 @@
+genai-settings-chat-chatgpt-links = Drwy ddewis ChatGPT, rydych yn cytuno i'r <a data-l10n-name="link1">Telerau Defnydd</a> a <a data-l10n-name="link2">Pholisi Preifatrwydd</a> OpenAI.
+genai-settings-chat-claude-links = Trwy ddewis Anthropic Claude, rydych yn cytuno i'w <a data-l10n-name="link1">Telerau Gwasanaeth Defnyddwyr</a>, <a data-l10n-name="link2">Polisi Defnydd</a>, a'u <a data-l10n-name="link3">Polisi Preifatrwydd</a>.
+genai-settings-chat-copilot-links = Drwy ddewis Copilot, rydych yn cytuno i'w <a data-l10n-name="link1">Telerau Profiadau Copilot AI</a> ac i <a data-l10n-name="link2">Ddatganiad Preifatrwydd Microsoft</a>.
+genai-settings-chat-gemini-links = Trwy ddewis Google Gemini, rydych yn cytuno i <a data-l10n-name="link1">Delerau Gwasanaeth Google</a>, <a data-l10n-name="link2">Polisi Defnydd Gwaharddedig AI Cynhyrchol</a>, a <a data-l10n-name="link3">Hysbysiad Preifatrwydd Apiau Gemini</a>.
+genai-settings-chat-huggingchat-links = Trwy ddewis HuggingChat, rydych yn cytuno i'r <a data-l10n-name="link1">Hysbysiad Preifatrwydd HuggingChat</a> a <a data-l10n-name="link2">Pholisi Preifatrwydd Hugging Face</a>.
+genai-settings-chat-lechat-links-2 = Trwy ddewis Mistral Vibe, rydych chi'n cytuno i <a data-l10n-name="link1">Delerau Gwasanaeth</a> a <a data-l10n-name="link2">Polisi Preifatrwydd</a> Mistral AI.
+genai-settings-chat-localhost-links = Defnyddiwch eich sgwrsfot lleol preifat eich hun, megis <a data-l10n-name="link1">llamafile</a> { -vendor-short-name }, grŵp Innovation.
+genai-prompt-prefix-selection = Rwyf ar dudalen “{ $tabTitle }” gyda “{ $selection }” wedi'i ddewis.
+genai-prompts-summarize =
+    .label = Crynhoi
+    .value = Crynhowch y dewis drwy ddefnyddio iaith fanwl a chynnil. Defnyddiwch benynnau a rhestr bwledi yn y crynodeb, i'w wneud yn sganadwy. Cofiwch gynnal yr ystyr a'r cywirdeb ffeithiol.
+genai-prompts-simplify =
+    .label = Symleiddio'r iaith
+    .value = Ail ysgrifennu’r dewis gan ddefnyddio brawddegau byr a geiriau syml. Cofio cadw ystyr a'r cywirdeb ffeithiol.
+genai-prompts-quiz =
+    .label = Gofyn i mi
+    .value = Gofynnwch i mi am y dewis hwn. Gofynnwch i mi amrywiol fathau o gwestiynau, er enghraifft, dewis lluosog, gwir neu gau, ac atebion byr. Arhoswch am fy ateb cyn gofyn y cwestiwn nesaf.
+genai-prompts-explain =
+    .label = Esbonio hyn
+    .value = Esboniwch y prif gysyniadau yn y dewis hwn, gan ddefnyddio geiriau syml. Hefyd, defnyddiwch esiamplau.
+genai-prompts-proofread =
+    .label = Prawf ddarllen
+    .value = Prawf ddarllenwch y dewis am wallau sillafu a gramadeg. Cywirwch unrhyw gamgymeriadau a darparu fersiwn gywir o'r testun. Cadwch ystyr a chywirdeb ffeithiol ac allbwn y cywiriadau sy'n cael eu cynnig gyntaf, wedi ei ddilyn gan y fersiwn terfynol, y fersiwn wedi'i gywiro o'r testun., y fersiwn wedi'i gywiro o'r testun.
+genai-menu-ask-smart-window =
+    .label = Gofynnwch…
+    .accesskey = G
+genai-menu-no-provider-2 =
+    .label = Gofyn i Sgwrsfot AI
+    .accesskey = G
+genai-menu-choose-chatbot =
+    .label = Dewis Sgwrsfot
+genai-menu-ask-generic-2 =
+    .label = Gofyn i'r Sgwrsfot AI
+    .accesskey = G
+genai-menu-ask-provider-2 =
+    .label = Gofyn i { $provider }
+    .accesskey = G
+genai-menu-open-generic =
+    .label = Agor Sgwrsfot AI
+genai-menu-open-provider =
+    .label = Agor { $provider }
+genai-menu-remove-generic =
+    .label = Tynnu'r sgwrsfot AI
+genai-menu-remove-provider =
+    .label = Tynnu { $provider }
+genai-menu-remove-sidebar =
+    .label = Tynnu o'r Bar Ochr
+genai-shortcut-button =
+    .aria-label = Gofyn i { $provider }
+genai-menu-new-badge = Newydd
+genai-menu-summarize-page = Crynhoi Tudalen
+genai-input-ask-smart-window =
+    .placeholder = Gofynnwch…
+genai-input-ask-generic =
+    .placeholder = Gofyn i'r sgwrsfot AI…
+genai-input-ask-provider =
+    .placeholder = Gofyn i { $provider }…
+genai-shortcuts-selected-warning-generic =
+    .heading = Fydd y sgwrsfot AI ddim yn cael eich dewis llawn
+    .message =
+        { $selectionLength ->
+            [zero] Rydych wedi dewis tua { $selectionLength } nodau. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+            [one] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+            [two] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+            [few] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+            [many] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+           *[other] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at y sgwrsfot AI.
+        }
+genai-shortcuts-selected-warning =
+    .heading = Fydd { $provider } ddim yn cael eich dewis llawn
+    .message =
+        { $selectionLength ->
+            [zero] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+            [one] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+            [two] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+            [few] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+            [many] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+           *[other] Rydych wedi dewis tua { $selectionLength } nod. Fedrwn anfon tua { $maxLength }  at { $provider }.
+        }
+genai-shortcuts-hide =
+    .label = Cuddio llwybr byr sgwrsfot
+genai-chatbot-title = Sgwrsfot AI
+genai-header-provider-menu =
+    .title = Dewiswch sgwrsfot
+genai-header-settings-button =
+    .title = Gosodiadau Sgwrsfot AI
+genai-header-close-button =
+    .title = Cau
+genai-provider-view-details =
+    .label = Gweld manylion y sgwrsfot
+genai-options-reload-generic =
+    .label = Ail-lwytho'r sgwrsfot AI
+genai-options-reload-provider =
+    .label = Ail-lwytho { $provider }
+genai-options-show-shortcut =
+    .label = Dangos llwybr byr wrth ddewis testun
+genai-options-hide-shortcut =
+    .label = Cuddio llwybr byr wrth ddewis testun
+genai-options-about-chatbot =
+    .label = Ynghylch y sgyrsfotiau AI yn { -brand-short-name }
+genai-page-warning =
+    .message = Gan fod y dudalen yn hir, mae hwn yn grynodeb rhannol.
+genai-page-button-summarize = Crynhoi Tudalen
+genai-chatbot-summarize-title = Newydd! Crynhoi tudalennau gydag un clic
+genai-chatbot-summarize-button = Crynhoi tudalen
+genai-chatbot-summarize-sidebar-provider-subtitle = De-glicio ar eich sgwrsfot AI yn y bar ochr a dewis “Crynhoi Tudalen”.
+genai-chatbot-summarize-sidebar-generic-subtitle = De-glicio ar y botwm pefriog yn y bar ochr a dewis “Crynhoi Tudalen”. Y tro cyntaf, byddwch hefyd yn dewis sgwrsfot AI.
+genai-chatbot-summarize-footer-provider-subtitle = Agorwch eich sgwrsfot AI yn y bar ochr a dewis “Crynhoi Tudalen” ar y gwaelod.
+genai-chatbot-summarize-footer-generic-subtitle = Ychwanegu sgwrsfot AI at y bar ochr { -brand-short-name } i grynhoi tudalennau'n gyflym.
+genai-chatbot-contextual-title = Defnyddiwch sgwrsfot AI heb newid tabiau
+genai-chatbot-contextual-subtitle = Sgwrsio a phori ochr yn ochr pan fyddwch chi'n ychwanegu sgwrsfot AI ym mar ochr { -brand-short-name }.
+genai-chatbot-contextual-button = Dewiswch sgwrsfot
+genai-onboarding-choose-header = Dewiswch sgwrsfot AI i'w ddefnyddio ym mar ochr { -brand-short-name }
+genai-onboarding-choose-description = Newidiwch unrhyw bryd. I gael help i ddewis, <a data-l10n-name="learn-more">darllenwch ragor am bob sgwrsfot</a>.
+genai-onboarding-primary = Parhau
+genai-onboarding-secondary = Cau
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
+genai-model-optin-continue =
+    .label = Parhau
+genai-model-optin-optout =
+    .label = Diddymu
+genai-model-optin-cancel =
+    .label = Diddymu
+link-preview-reading-time =
+    { $rangePlural ->
+        [zero] { $range } munudau o amser darllen
+        [one] { $range } munud o amser darllen
+        [two] { $range } funud o amser darllen
+        [few] { $range } munud o amser darllen
+        [many] { $range } munud o amser darllen
+       *[other] { $range } munud o amser darllen
+    }
+link-preview-error-message-v2 = Dyw { -brand-short-name } ddim yn gallu rhagweld y dudalen hon
+link-preview-visit-link = Ewch i'r ddolen
+link-preview-generation-error-missing-data-v2 = Dyw { -brand-short-name } ddim yn gallu cynhyrchu pwyntiau allweddol ar gyfer y dudalen we hon.
+link-preview-generation-error-unexpected = Aeth rhywbeth o'i le.
+link-preview-generation-retry = Ceisiwch eto
+link-preview-settings-button =
+    .title = Gosodiadau Rhagolwg Dolen
+link-preview-settings-enable =
+    .description = Gweld teitl y dudalen, disgrifiad a rhagor pan fyddwch chi'n defnyddio llwybr byr neu roi clic de i ddolen.
+    .label = Galluogi rhagolygon dolenni
+link-preview-settings-key-points =
+    .label = Caniatáu i AI ddarllen dechrau'r dudalen a chynhyrchu pwyntiau allweddol
+link-preview-settings-long-press =
+    .label = Llwybr byr: Clicio a dal y ddolen am 1 eiliad (pwyso'n hir)
+link-preview-optin-title = Gweld rhagor gydag AI?
+link-preview-optin-message = Mae { -brand-short-name } yn defnyddio AI i ddarllen dechrau'r dudalen a chynhyrchu ychydig o bwyntiau allweddol. Er mwyn blaenoriaethu eich preifatrwydd, mae hyn yn digwydd ar eich dyfais.
+link-preview-onboarding-title-long-press = Newydd: Cliciwch a dal unrhyw ddolen i gael rhagolwg
+link-preview-onboarding-description-long-press = Cewch weld disgrifiad byr, yr amser darllen, a rhagor i benderfynu a yw'r ddolen yn werth ei hagor. Ar gael hefyd wrth roi clic de.
+link-preview-key-points-header = Prif bwyntiau
+link-preview-key-points-disclaimer = Mae'r prif bwyntiau'n cael eu cynhyrchu gan AI ac efallai bod nhw'n cynnwys camgymeriadau.
+link-preview-setup = Gosodiadau'r tro cyntaf • <strong>{ $progress }%</strong>
+link-preview-setup-faster-next-time = Byddwch yn gweld y prif bwyntiau'n gyflymach y tro nesaf.
+link-preview-onboarding-button = Gweld rhagolwg
+link-preview-onboarding-close = Cau
+link-preview-first-time-setup-title = Gosod am y tro cyntaf
+link-preview-first-time-setup-message = Gall hyn gymryd ychydig eiliadau. Byddwch yn gweld y pwyntiau allweddol yn gyflymach y tro nesaf.

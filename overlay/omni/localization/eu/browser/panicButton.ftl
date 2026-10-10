@@ -1,0 +1,15 @@
+panic-button-open-new-window = Ireki leiho garbi berria
+panic-button-undo-warning = Aldaketa hau ezin da desegin.
+panic-button-forget-button =
+    .label = Ahaztu!
+panic-main-timeframe-desc = Ahaztu azken:
+panic-button-5min =
+    .label = Bost minutuak
+panic-button-2hr =
+    .label = Bi orduak
+panic-button-day =
+    .label = 24 orduak
+panic-button-action-desc = Jarraitzearekin bat:
+panic-button-delete-cookies = Azken <strong>cookieak</strong> ezabatu egingo dira
+panic-button-delete-history = Azken <strong>historia</strong> ezabatu egingo da
+panic-button-delete-tabs-and-windows = <strong>Fitxa</strong> eta <strong>leiho</strong> guztiak itxi egingo dira

@@ -1,0 +1,9 @@
+policy-AppUpdateURL = Ilovani yangilash uchun boshqa havolani o‘rnatadi.
+policy-BlockAboutAddons = Qoʻshimchalar menejeriga kirishni bloklang (about:addons).
+policy-DisableProfileImport = Boshqa brauzerdan import qilish uchun menyu buyruqlarini faolsizlantiradi.
+policy-DisableSetAsDesktopBackground = Rasmlar uchun ish stoli orqa foni sifatida saqlash menyu buyrugʻini oʻchirish.
+policy-DisableSystemAddonUpdate = Brauzerga tizim qoʻshimchalarini oʻrnatish va yangilashni taqiqlang.
+policy-Proxy = Proksi sozlamalarini sozlash
+policy-SearchBar = Qidiruv panelining joriy joylashuvini tayinlaydi. Foydalanuvchida uni sozlash huquqi qolaveradi.
+policy-SearchEngines = Qidiruv tizimi sozlamalarini sozlaydi. Bu siyosat faqat "Uzaytirilgan ko‘mak relizi" (ESR) versiyasida mavjud.
+policy-WebsiteFilter = Kiriladigan saytlarni bloklaydi. Format haqida batafsil ma’lumot olish uchun qo‘llanmani o‘qib chiqing.

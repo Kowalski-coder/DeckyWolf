@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Rakenduse üksikasjad
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Eemalda
+    .accesskey = E
+app-manager-handle-protocol = Järgnevaid rakendusi saab kasutada käsitlemaks { $type } linke.
+app-manager-handle-file = Järgnevaid rakendusi saab kasutada käsitlemaks { $type } sisu.
+app-manager-web-app-info = See rakendus paikneb masinas:
+app-manager-local-app-info = See rakendus asub kaustas:

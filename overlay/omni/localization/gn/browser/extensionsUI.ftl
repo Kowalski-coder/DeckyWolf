@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ombyekoviase ne Heka Ku’eha { $currentEngine } { $newEngine } pe. Oĩporãpa upéva?
+webext-default-search-yes =
+    .label = Héẽ
+    .accesskey = S
+webext-default-search-no =
+    .label = Nahániri
+    .accesskey = N
+addon-post-install-message = { $addonName } oñembojuaju.
+webext-quarantine-confirmation-title = ¿Eiporu { $addonName } tenda hekojopývape?
+webext-quarantine-confirmation-line-1 = Emo’ã hag̃ua ne mba’ekuaarã, ko jepysokue ndaijurujái tendápe.
+webext-quarantine-confirmation-line-2 = Emoneĩ jepysokue ejeroviárõ hese emoñe’ẽ ha emoambue umi mba’ekuaarã tenda ohekojejopýva { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Moneĩ
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Ani emoneĩ
+    .accesskey = D

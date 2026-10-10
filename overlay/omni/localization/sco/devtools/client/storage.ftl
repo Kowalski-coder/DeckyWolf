@@ -1,0 +1,13 @@
+storage-filter-key = CmdOrCtrl+F
+storage-context-menu-delete-all =
+    .label = Dicht Aw
+storage-context-menu-copy =
+    .label = Copy
+storage-context-menu-delete =
+    .label = Dicht “{ $itemName }”
+storage-context-menu-delete-all-from =
+    .label = Dicht Aw Fae “{ $host }”
+storage-table-headers-cookies-name = Nemme
+storage-table-headers-cookies-value = Vailue
+storage-table-headers-cookies-size = Size
+storage-table-headers-cache-status = Status

@@ -1,0 +1,45 @@
+webpage-languages-window2 =
+    .style = min-width: 40em
+    .title = Jazyk webových stránek
+languages-close-key =
+    .key = w
+languages-description = Webové stránky jsou někdy k dispozici v několika jazycích. Zvolte jazyky v takovém pořadí, v jakém se mají používat pro zobrazování webových stránek
+languages-customize-spoof-english =
+    .label = Požadovat anglické verze webových stránek pro vyšší úroveň soukromí
+languages-customize-moveup =
+    .label = Posunout výše
+    .accesskey = u
+languages-customize-movedown =
+    .label = Posunout níže
+    .accesskey = n
+languages-customize-remove =
+    .label = Odebrat
+    .accesskey = r
+languages-customize-select-language =
+    .placeholder = Zvolte jazyk…
+languages-customize-add =
+    .label = Přidat
+    .accesskey = a
+languages-code-format =
+    .label = { $locale } [{ $code }]
+languages-active-code-format =
+    .value = { languages-code-format.label }
+browser-languages-window2 =
+    .style = min-width: 40em
+    .title =
+        { -brand-short-name.case-status ->
+            [with-cases] Jazyk { -brand-short-name(case: "gen") }
+           *[no-cases] Jazyk aplikace { -brand-short-name }
+        }
+browser-languages-description = { -brand-short-name } zobrazí své uživatelské rozhraní v prvním uvedeném jazyce. Ostatní jazyky použije jen pokud bude potřeba, a to v uvedeném pořadí.
+browser-languages-search = Najít další jazyky…
+browser-languages-searching =
+    .label = Hledání jazyků…
+browser-languages-downloading =
+    .label = Stahování…
+browser-languages-select-language =
+    .label = Zvolte jazyk, který chcete přidat…
+    .placeholder = Zvolte jazyk, který chcete přidat…
+browser-languages-installed-label = Nainstalované jazyky
+browser-languages-available-label = Dostupné jazyky
+browser-languages-error = { -brand-short-name } nyní nemůže aktualizovat seznam jazyků. Zkontrolujte internetové připojení a zkuste to znovu.

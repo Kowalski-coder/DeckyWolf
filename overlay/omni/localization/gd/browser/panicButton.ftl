@@ -1,0 +1,15 @@
+panic-button-open-new-window = thèid uinneag ùr bhàn fhosgladh
+panic-button-undo-warning = Chan urrainn dhut an gnìomh seo a neo-dhèanamh.
+panic-button-forget-button =
+    .label = Dìochuimhnich!
+panic-main-timeframe-desc = Dìochuimhnich:
+panic-button-5min =
+    .label = na 5 mionaidean seo chaidh
+panic-button-2hr =
+    .label = an dà uair a thìde seo chaidh
+panic-button-day =
+    .label = na 24 uair a thìde seo chaidh
+panic-button-action-desc = Ma leanas tu air adhart:
+panic-button-delete-cookies = thèid <strong>briosgaidean</strong> ùra a sguabadh às
+panic-button-delete-history = thèid an <strong>eachdraidh</strong> ùr a sguabadh às
+panic-button-delete-tabs-and-windows = thèid na <strong>tabaichean</strong> is <strong>uinneagan</strong> air fad a dhùnadh

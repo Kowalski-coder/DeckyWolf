@@ -1,0 +1,26 @@
+restore-page-tab-title = เรียกคืนเซสชัน
+restore-page-error-title = ขออภัย เรามีปัญหาในการนำหน้าของคุณกลับมา
+restore-page-problem-desc = เรามีปัญหาในการเรียกคืนเซสชันการเรียกดูครั้งล่าสุดของคุณ ให้เลือก เรียกคืนเซสชัน เพื่อลองอีกครั้ง
+restore-page-try-this = ยังไม่สามารถเรียกคืนเซสชันของคุณได้งั้นหรือ? บางครั้งอาจมีบางแท็บที่กำลังก่อให้เกิดปัญหา ดูแท็บก่อนหน้า, เอาเครื่องหมายออกจากแท็บที่คุณไม่ต้องการเรียกคืน แล้วลองเรียกคืนใหม่
+restore-page-hide-tabs = ซ่อนแท็บก่อนหน้า
+restore-page-show-tabs = ดูแท็บก่อนหน้า
+restore-page-window-label = หน้าต่าง { $windowNumber }
+restore-page-restore-header =
+    .label = เรียกคืน
+restore-page-list-header =
+    .label = หน้าต่างและแท็บ
+restore-page-try-again-button =
+    .label = เรียกคืนเซสชัน
+    .accesskey = ร
+restore-page-close-button =
+    .label = เริ่มเซสชันใหม่
+    .accesskey = ม
+welcome-back-tab-title = สำเร็จ!
+welcome-back-page-title = สำเร็จ!
+welcome-back-page-info = { -brand-short-name } พร้อมที่จะเริ่ม
+welcome-back-restore-button =
+    .label = ไปกันเลย!
+    .accesskey = ป
+welcome-back-restore-all-label = เรียกคืนหน้าต่างและแท็บทั้งหมด
+welcome-back-restore-some-label = เรียกคืนเฉพาะที่คุณต้องการ
+welcome-back-page-info-link = ส่วนเสริมและการปรับแต่งของคุณถูกเอาออกและการตั้งค่าเบราว์เซอร์ของคุณถูกเรียกคืนเป็นค่าเริ่มต้น ถ้านี่ไม่แก้ปัญหาของคุณ <a data-l10n-name="link-more">เรียนรู้เพิ่มเกี่ยวกับสิ่งที่คุณสามารถทำได้</a>

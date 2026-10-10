@@ -1,0 +1,17 @@
+webext-default-search-description = Mae { $addonName } eisiau newid eich peiriant chwilio rhagosodedig o { $currentEngine } i { $newEngine }. Ydy hynny'n iawn?
+webext-default-search-yes =
+    .label = Iawn
+    .accesskey = I
+webext-default-search-no =
+    .label = Na
+    .accesskey = N
+addon-post-install-message = Ychwanegwyd { $addonName }
+webext-quarantine-confirmation-title = Rhedeg { $addonName } ar wefannau cyfyngedig?
+webext-quarantine-confirmation-line-1 = Er mwyn diogelu eich data, nid  oes caniatâd i'r estyniad hwn ar y wefan hon.
+webext-quarantine-confirmation-line-2 = Caniatáu'r estyniad hwn os ydych yn ymddiried ynddo i ddarllen a newid eich data ar wefannau sy'n cael eu cyfyngu gan { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Caniatáu
+    .accesskey = C
+webext-quarantine-confirmation-deny =
+    .label = Peidio â Chaniatáu
+    .accesskey = C

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Dodaj karticu u programsku traku
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Ukloni karticu iz programske trake
+taskbar-tab-urlbar-button-show = Prikaži radnju stranice web-aplikacije
+taskbar-tab-urlbar-button-hide = Sakrij radnju stranice web-aplikacije
+taskbar-tab-shortcut-description = { $name } web aplikacija
+taskbar-tab-shortcut-folder = { -brand-short-name } web aplikacije
+taskbar-tab-audio-mute =
+    .tooltiptext = Isključi zvuk kartice
+taskbar-tab-audio-unmute =
+    .tooltiptext = Uključi zvuk kartice
+taskbar-tab-title-default = { $name } u aplikaciji { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) u aplikaciji { -brand-full-name }
+taskbar-tab-title-profile = { $name } u profilu { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) u profilu { $profile } – { -brand-full-name }

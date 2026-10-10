@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = Synkronoi { -brand-product-name } puhelimellasi tai tablet-laitteellasi
+fxa-qrcode-pair-step1 = 1. Avaa { -brand-product-name } mobiililaitteellasi.
+fxa-qrcode-pair-step2-device-steps = 2. Siirry valikkoon ja napauta <strong>Kirjaudu sisään</strong>
+fxa-qrcode-pair-step3 = 3. Napauta <strong>Valmis skannaamaan</strong> ja pidä puhelintasi tämän koodin päällä
+fxa-qrcode-error-title = Paritus epäonnistui.
+fxa-qrcode-error-body = Yritä uudelleen.

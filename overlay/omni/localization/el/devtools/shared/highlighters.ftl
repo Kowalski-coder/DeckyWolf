@@ -1,0 +1,13 @@
+grid-row-column-positions = Σειρά { $row } / Στήλη { $column }
+gridtype-container = Περιέκτης πλέγματος
+gridtype-item = Στοιχείο πλέγματος
+gridtype-dual = Στοιχείο/περιέκτης πλέγματος
+flextype-container = Περιέκτης flex
+flextype-item = Στοιχείο flex
+flextype-dual = Στοιχεία/περιέκτης flex
+remote-node-picker-notice = Ενεργοποιήθηκε η Επιλογή κόμβου των εργαλείων ανάπτυξης. { $action }
+remote-node-picker-notice-action-desktop = Κάντε κλικ σε ένα στοιχείο για να το επιλέξετε στην Επιθεώρηση
+remote-node-picker-notice-action-touch = Πατήστε ένα στοιχείο για να το επιλέξετε στην Επιθεώρηση
+remote-node-picker-notice-hide-button = Απόκρυψη
+simple-highlighters-message = Όταν είναι ενεργό το prefers-reduced-motion, μπορεί να ενεργοποιηθεί απλούστερη επισήμανση στις ρυθμίσεις, ώστε να αποφευχθούν χρώματα που αναβοσβήνουν.
+simple-highlighters-settings-button = Άνοιγμα ρυθμίσεων

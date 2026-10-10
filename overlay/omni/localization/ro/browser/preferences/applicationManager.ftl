@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalii privind aplicația
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Elimină
+    .accesskey = R
+app-manager-handle-protocol = Următoarele aplicații pot fi folosite pentru gestionarea linkurilor de tip { $type }.
+app-manager-handle-file = Următoarele aplicații pot fi folosite pentru gestionarea conținutului de tip { $type }.
+app-manager-web-app-info = Această aplicație web este găzduită la:
+app-manager-local-app-info = Aplicația se găsește la:

@@ -1,0 +1,15 @@
+panic-button-open-new-window = לפתיחת חלון נקי חדש
+panic-button-undo-warning = לא ניתן לבטל פעולה זו.
+panic-button-forget-button =
+    .label = לשכוח!
+panic-main-timeframe-desc = לשכוח
+panic-button-5min =
+    .label = חמש דקות
+panic-button-2hr =
+    .label = שעתיים
+panic-button-day =
+    .label = יממה
+panic-button-action-desc = המשך יוביל
+panic-button-delete-cookies = למחיקת <strong>עוגיות</strong> אחרונות
+panic-button-delete-history = למחיקת <strong>היסטוריה</strong> אחרונה
+panic-button-delete-tabs-and-windows = לסגירת כל <strong>הלשוניות</strong> ו<strong>החלונות</strong>

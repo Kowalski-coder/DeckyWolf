@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Losmaken van overloopmenu
+    .accesskey = L
+customize-menu-add-to-toolbar =
+    .label = Toevoegen aan werkbalk
+    .accesskey = w
+customize-menu-add-to-overflowmenu =
+    .label = Toevoegen aan overloopmenu
+    .accesskey = m
+panic-button-thankyou-msg1 = Uw recente geschiedenis is gewist.
+panic-button-thankyou-msg2 = Hou het veilig!
+panic-button-thankyou-button =
+    .label = Bedankt!

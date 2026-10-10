@@ -1,0 +1,13 @@
+toolbox-meatball-menu-dock-separate-window-label = වෙනම කවුළුවක්
+toolbox-meatball-menu-settings-label = සැකසුම්
+toolbox-meatball-menu-documentation-label = ප්‍රලේඛනය…
+toolbox-meatball-menu-community-label = ප්‍රජාව…
+toolbox-meatball-menu-noautohide-label = උත්පතන ඉබේ සැඟවීම අබල කරන්න
+toolbox-mode-browser-toolbox-label = අතිරික්සු මෙ.පෙට්ටි ප්‍රකාරය
+toolbox-mode-browser-console-label = අතිරික්සු හසුරුව ප්‍රකාරය
+toolbox-mode-everything-sub-label = (සෙමින්)
+toolbox-mode-parent-process-sub-label = (වේගයෙන්)
+toolbox-always-on-top-enabled2 = සෑමවිට මුදුනට අබල කරන්න
+    .title = මෙය සංවර්ධක මෙවලම් යළි අරඹනු ඇත
+toolbox-always-on-top-disabled2 = සෑමවිට මුදුනට සබල කරන්න
+    .title = මෙය සංවර්ධක මෙවලම් යළි අරඹනු ඇත

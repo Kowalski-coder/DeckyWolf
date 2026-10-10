@@ -1,0 +1,9 @@
+clear-data-for-site-title = Бұл веб сайт үшін барлық деректерді өшіру керек пе?
+clear-data-for-site-list = Бұл { $site } үшін барлық деректерді өшіреді, соның ішінде:
+clear-data-for-site-browsing-history = Шолу және жүктемелер тарихы
+clear-data-for-site-cookies = Сайттан шығаруы мүмкін cookie файлдары мен сайт деректері
+clear-data-for-site-cache = Кэштелген суреттер мен файлдар
+cclear-data-for-site-permissions = Рұқсаттар мен баптаулар
+clear-data-for-site-exceptions = Бетбелгілер мен сақталған парольдер өшірілмейді
+clear-data-for-site-dialog-accept-button = Деректерді өшіру
+clear-data-for-site-dialog-cancel-button = Бас тарту

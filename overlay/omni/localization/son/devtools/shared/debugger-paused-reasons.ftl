@@ -1,0 +1,9 @@
+whypaused-debugger-statement = A hunanzam hanseyan yaamaroo
+whypaused-breakpoint = Hunanzam kayridoo ga
+whypaused-exception = Hunanzam hasaraw ga
+whypaused-resume-limit = Hunanzam bisayan waate
+whypaused-pause-on-dom-events = Hunanzam haŋajerkaw batu ga
+whypaused-promise-rejection = Hunanzam allaahidu furyan ga
+whypaused-assert = Hunanzam haryan ga
+whypaused-debug-command = Hunanzam goyyan hansante ga
+whypaused-other = Hansekaw hunanzamante

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalles de l'aplicación
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Quitar
+    .accesskey = Q
+app-manager-handle-protocol = Les aplicaciones de darréu puen usase pa remanar enllaces { $type }.
+app-manager-handle-file = Les aplicaciones de darréu puen usase pa remanar conteníu { $type }.
+app-manager-web-app-info = Esta aplicación web agóspiase en:
+app-manager-local-app-info = Esta aplicación asítiase en:

@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Chcete aplikáciu { -brand-short-name } otvoriť v režime riešenia problémov?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Otvoriť
+refresh-profile =
+    .label = Obnoviť { -brand-short-name(case: "acc") }
+troubleshoot-mode-description = Tento režim aplikácie { -brand-short-name } vám pomôže s riešením problémov. Vaše rozšírenia a úpravy budú dočasne vypnuté.
+skip-troubleshoot-refresh-profile = Tento režim môžete preskočiť a skúsiť obnovenie prehliadača { -brand-short-name } do pôvodných nastavení.
+auto-safe-mode-description = { -brand-short-name } bol počas spúšťania neočakávane ukončený. Toto môže byť spôsobené doplnkami alebo nastaveniami. Problém sa môžete pokúsiť vyriešiť spustením prehliadača v Núdzovom režime.

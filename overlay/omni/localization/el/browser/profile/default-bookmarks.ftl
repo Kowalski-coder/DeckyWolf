@@ -1,0 +1,14 @@
+default-bookmarks-title = Σελιδοδείκτες
+default-bookmarks-heading = Σελιδοδείκτες
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Λήψη βοήθειας
+default-bookmarks-firefox-customize = Προσαρμογή του Firefox
+default-bookmarks-firefox-community = Συμμετοχή
+default-bookmarks-firefox-about = Σχετικά με εμάς
+default-bookmarks-nightly-heading = Πόροι του Firefox Nightly
+default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-bugzilla = Καταγραφή σφαλμάτων Mozilla
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Εργαλεία δοκιμαστών του Nightly
+default-bookmarks-crashes = Όλες οι καταρρεύσεις
+default-bookmarks-planet = Planet Mozilla

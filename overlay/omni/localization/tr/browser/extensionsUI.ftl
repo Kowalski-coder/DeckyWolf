@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName }, varsayılan arama motorunuzu { $currentEngine } yerine { $newEngine } yapmak istiyor. İzin veriyor musunuz?
+webext-default-search-yes =
+    .label = Evet
+    .accesskey = E
+webext-default-search-no =
+    .label = Hayır
+    .accesskey = H
+addon-post-install-message = { $addonName } eklendi.
+webext-quarantine-confirmation-title = { $addonName } kısıtlı sitelerde çalıştırılsın mı?
+webext-quarantine-confirmation-line-1 = Verilerinizi korumak için bu sitede bu uzantıya izin verilmiyor.
+webext-quarantine-confirmation-line-2 = Bu uzantının { -vendor-short-name } tarafından kısıtlanan sitelerdeki verilerinizi okuyup değiştirmesini onaylıyorsanız uzantıya izin verebilirsiniz.
+webext-quarantine-confirmation-allow =
+    .label = İzin ver
+    .accesskey = z
+webext-quarantine-confirmation-deny =
+    .label = İzin verme
+    .accesskey = m

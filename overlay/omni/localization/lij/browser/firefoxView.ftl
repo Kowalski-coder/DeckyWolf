@@ -1,0 +1,17 @@
+menu-tools-firefox-view =
+    .label = { -firefoxview-brand-name }
+    .accesskey = F
+firefoxview-page-title = { -firefoxview-brand-name }
+firefoxview-just-now-timestamp = oua
+firefoxview-tabpickup-network-offline-header = Contròlla a conescion internet
+firefoxview-tabpickup-password-locked-link = Atre informaçioin
+firefoxview-history-nav = Stöia
+    .title = Stöia
+firefoxview-history-header = Stöia
+firefoxview-opentabs-nav = Arvi feuggi
+    .title = Arvi feuggi
+firefoxview-opentabs-header = Arvi Feuggi
+firefoxview-recently-closed-nav = Feuggi seræ urtimamente
+    .title = Feuggi seræ urtimamente
+firefoxview-recently-closed-header = Feuggi seræ urtimamente
+firefoxview-view-all-link = Veddi tutto

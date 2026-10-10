@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (bez naslova)
+places-load-js-data-url-error = Iz sigurnosnih razloga, URL-ovi “javascript:” ili “data:” ne mogu se učitati iz prozora historije ili bočne trake.
+places-bookmarks-backup-title = Naziv fajla sa backupom zabilješki
+places-bookmarks-restore-alert-title = Vrati Zabilješke
+places-bookmarks-restore-alert = Ovo će zamijeniti sve vaše trenutne zabilješke sa onim iz backupa. Da li ste sigurni?
+places-bookmarks-restore-title = Izaberite backup zabilješki
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Nepodržani tip fajla.
+places-bookmarks-restore-parse-error = Nije moguće obraditi fajl backupa.
+places-bookmarks-import = Uvoz fajla sa zabilješkama
+places-bookmarks-export = Izvoz fajla sa zabilješkama
+places-bookmarks-paste-error-title = Pronađeni su nevažeći URL-ovi
+places-bookmarks-paste-error-message-header = Sljedeći URL-ovi nisu mogli biti dodani u vaše zabilješke. Pokušajte provjeriti formatiranje i ponovo ih dodati.

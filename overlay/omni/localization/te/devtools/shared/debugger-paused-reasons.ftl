@@ -1,0 +1,10 @@
+whypaused-debugger-statement = డీబగ్గర్ ప్రకటన పై విరమించబడింది
+whypaused-breakpoint = బ్రేక్‌పాయింట్ పై విరమించబడింది
+whypaused-exception = ఆక్షేపణల పై విరమించబడింది
+whypaused-resume-limit = పునాదిలోనే విరమించబడింది
+whypaused-pause-on-dom-events = ఈవెంట్ లిసనర్ పై విరమించబడినది
+whypaused-breakpoint-condition-thrown = షరతుల బ్రేక్‌పాయింటులో లోపం
+whypaused-promise-rejection = వాగ్దానం తిరస్కరణ పై విరమించబడినది
+whypaused-assert = ప్రకటన పై విరమించబడింది
+whypaused-debug-command = డీబగ్ చేసిన ఫంక్షన్ పై విరమించబడింది
+whypaused-other = డీబగ్గర్ విరమించబడింది

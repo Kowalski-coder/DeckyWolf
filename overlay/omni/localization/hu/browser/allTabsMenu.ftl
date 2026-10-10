@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Összes lap keresése
+all-tabs-menu-new-user-context =
+    .label = Új konténerlap
+all-tabs-menu-hidden-tabs =
+    .label = Rejtett lapok
+all-tabs-menu-close-duplicate-tabs =
+    .label = Ismétlődő lapok bezárása
+all-tabs-menu-view-all-tabs =
+    .label = Összes lap megtekintése
+all-tabs-menu-recent-tab-groups-header = Legutóbbi lapcsoportok
+all-tabs-menu-tab-groups-show-all =
+    .label = Összes megjelenítése
+all-tabs-menu-tab-groups-sub-view =
+    .title = Lapcsoportok
+all-tabs-menu-current-window-header = Jelenlegi ablak

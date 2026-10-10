@@ -1,0 +1,14 @@
+fxa-toolbar-sync-syncing2 = ہمہ وقت سازی کر رہا ہے…
+sync-disconnect-dialog-title2 = منقطع کریں
+sync-disconnect-dialog-button = منقطع کریں
+fxa-signout-dialog-body = سنک شدہ ڈیٹا اکاؤنٹ میں  ہی رہے گا
+fxa-menu-turn-on-sync =
+    .value = سنک چالو کریں
+fxa-menu-turn-on-sync-default = سنک چالو کریں
+fxa-menu-connect-another-device =
+    .label = ایک اور آلہ جوڑیں…
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = آلات کی ہمہ وقت سازی کر رہے ہے…
+fxa-menu-send-tab-to-device-description = کسی بھی آلے پر فوری طور پر ایک ٹیب بھیجیں جس پر آپ نے سائن ان کیا ہے۔
+fxa-menu-sign-out =
+    .label = سائن آؤٹ…

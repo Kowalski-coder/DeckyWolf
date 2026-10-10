@@ -1,0 +1,15 @@
+toolbox-meatball-menu-dock-bottom-label = Հարակցել վար
+toolbox-meatball-menu-dock-left-label = Հարակցել ձախ
+toolbox-meatball-menu-dock-right-label = Հարակցել աջ
+toolbox-meatball-menu-dock-separate-window-label = Առանձնացված պատուհան
+toolbox-meatball-menu-splitconsole-label = Ցուցադրել բաժանման վահանակ
+toolbox-meatball-menu-hideconsole-label = Թաքցնել բաժանման վահանակ
+toolbox-meatball-menu-settings-label = Կարգավորումներ
+toolbox-meatball-menu-documentation-label = Փաստաթղթավորում…
+toolbox-meatball-menu-community-label = Համայնք…
+toolbox-meatball-menu-noautohide-label = Անջատել թռուցիկի ինքնաթաքցումը
+toolbox-meatball-menu-pseudo-locale-accented = Միացնել «accented» տեղայնացումը
+toolbox-meatball-menu-pseudo-locale-bidi = Միացնել «bidi» տեղայնացումը
+toolbox-mode-everything-label = Բազմագործընթաց
+toolbox-mode-everything-sub-label = (Ավելի դանդաղ)
+toolbox-mode-parent-process-sub-label = (Արագ)

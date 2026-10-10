@@ -1,0 +1,15 @@
+panic-button-open-new-window = Abrir unha nova xanela en branco
+panic-button-undo-warning = Non é posíbel desfacer esta acción.
+panic-button-forget-button =
+    .label = Esquecer
+panic-main-timeframe-desc = Esquecer:
+panic-button-5min =
+    .label = Os últimos 5 minutos
+panic-button-2hr =
+    .label = As últimas 2 horas
+panic-button-day =
+    .label = As últimas 24 horas
+panic-button-action-desc = Se continúa:
+panic-button-delete-cookies = Eliminaranse as <strong>cookies</strong> recentes
+panic-button-delete-history = Eliminarase o <strong>historial</strong> recente
+panic-button-delete-tabs-and-windows = Pecháranse todas as <strong>lapelas</strong> e <strong>xanelas</strong>

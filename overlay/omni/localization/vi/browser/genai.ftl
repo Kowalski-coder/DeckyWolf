@@ -1,0 +1,151 @@
+genai-settings-chat-chatgpt-links = Bằng cách chọn ChatGPT, bạn đồng ý với <a data-l10n-name="link1">điều khoản sử dụng</a> và <a data-l10n-name="link2">chính sách riêng tư</a> của OpenAI.
+genai-settings-chat-claude-links = Bằng việc chọn Anthropic Claude, bạn đồng ý với <a data-l10n-name="link1">điều khoản dịch vụ của người dùng</a>, <a data-l10n-name="link2">chính sách sử dụng</a> và <a data-l10n-name="link3">chính sách riêng tư</a> của Anthropic.
+genai-settings-chat-copilot-links = Bằng cách chọn Copilot, bạn đồng ý với <a data-l10n-name="link1">điều khoản trải nghiệm của Copilot AI</a> và <a data-l10n-name="link2">cam kết quyền riêng tư của Microsoft</a>.
+genai-settings-chat-gemini-links = Bằng cách chọn Google Gemini, bạn đồng ý với <a data-l10n-name="link1">điều khoản dịch vụ của Google</a>, <a data-l10n-name="link2">chính sách cấm sử dụng AI sáng tạo</a>, và <a data-l10n-name="link3">thông báo về quyền riêng tư của ứng dụng Gemini</a>.
+genai-settings-chat-huggingchat-links = Bằng cách sử dụng HuggingChat, bạn đồng ý với <a data-l10n-name="link1">thông báo về quyền riêng tư của HuggingChat</a> và <a data-l10n-name="link2">chính sách riêng tư của Hugging Face</a>.
+genai-settings-chat-lechat-links-2 = Bằng cách sử dụng Mistral Vibe, bạn đồng ý với <a data-l10n-name="link1">điều khoản dịch vụ</a> và <a data-l10n-name="link2">chính sách riêng tư</a> của Mistral AI.
+genai-settings-chat-localhost-links = Mang theo chatbot cục bộ của riêng bạn, chẳng hạn như <a data-l10n-name="link1">llamafile</a> từ nhóm Innovation của { -vendor-short-name }.
+genai-prompt-prefix-selection = Tôi đang ở trên trang “{ $tabTitle }” với “{ $selection }” được chọn.
+genai-prompts-summarize =
+    .label = Tóm tắt
+    .value = Vui lòng tóm tắt lựa chọn bằng ngôn ngữ chính xác và ngắn gọn. Sử dụng các header và danh sách có dấu đầu dòng trong phần tóm tắt để làm cho nó có thể quét được. Duy trì ý nghĩa và độ chính xác thực tế.
+genai-prompts-simplify =
+    .label = Đơn giản hóa ngôn ngữ
+    .value = Vui lòng viết lại lựa chọn bằng cách sử dụng các câu ngắn và các từ đơn giản. Duy trì ý nghĩa và độ chính xác thực tế.
+genai-prompts-quiz =
+    .label = Hỏi đố tôi
+    .value = Hãy hỏi tôi về sự lựa chọn này. Hãy hỏi tôi nhiều loại câu hỏi khác nhau, ví dụ như câu hỏi trắc nghiệm, đúng hay sai và câu trả lời ngắn. Hãy đợi câu trả lời của tôi trước khi chuyển sang câu hỏi tiếp theo.
+genai-prompts-explain =
+    .label = Giải thích điều này
+    .value = Vui lòng giải thích các khái niệm chính trong lựa chọn này bằng cách sử dụng các từ đơn giản. Ngoài ra, hãy sử dụng các ví dụ.
+genai-prompts-proofread =
+    .label = Đọc rà soát
+    .value = Vui lòng đọc lại phần đã chọn để tìm lỗi chính tả và ngữ pháp. Xác định bất kỳ sai sót nào và cung cấp một phiên bản sửa chữa của văn bản. Duy trì ý nghĩa và độ chính xác thực tế và đưa ra danh sách các chỉnh sửa được đề xuất trước, sau đó là phiên bản sửa chữa cuối cùng của văn bản.
+genai-menu-ask-smart-window =
+    .label = Hỏi…
+    .accesskey = z
+genai-menu-no-provider-2 =
+    .label = Hỏi một chatbot AI
+    .accesskey = h
+genai-menu-choose-chatbot =
+    .label = Chọn một chatbot AI
+genai-menu-ask-generic-2 =
+    .label = Hỏi chatbot AI
+    .accesskey = h
+genai-menu-ask-provider-2 =
+    .label = Hỏi { $provider }
+    .accesskey = h
+genai-menu-open-generic =
+    .label = Mở chatbot AI
+genai-menu-open-provider =
+    .label = Mở { $provider }
+genai-menu-remove-generic =
+    .label = Xoá chatbot AI
+genai-menu-remove-provider =
+    .label = Xoá { $provider }
+genai-menu-remove-sidebar =
+    .label = Gỡ khỏi thanh lề
+genai-shortcut-button =
+    .aria-label = Hỏi { $provider }
+genai-menu-new-badge = Mới
+genai-menu-summarize-page = Tóm tắt trang
+genai-input-ask-smart-window =
+    .placeholder = Hỏi…
+genai-input-ask-generic =
+    .placeholder = Hỏi chatbot AI…
+genai-input-ask-provider =
+    .placeholder = Hỏi { $provider }…
+genai-shortcuts-selected-warning-generic =
+    .heading = Chatbot AI sẽ không nhận được lựa chọn đầy đủ của bạn
+    .message =
+        { $selectionLength ->
+           *[other] Bạn đã chọn một đoạn gồm { $selectionLength } ký tự. Số lượng ký tự chúng tôi có thể gửi tới chatbot AI là khoảng { $maxLength }.
+        }
+genai-shortcuts-selected-warning =
+    .heading = { $provider } sẽ không nhận được lựa chọn đầy đủ của bạn
+    .message =
+        { $selectionLength ->
+           *[other] Bạn đã chọn một đoạn gồm { $selectionLength } ký tự. Số lượng ký tự chúng tôi có thể gửi tới { $provider } là khoảng { $maxLength }.
+        }
+genai-shortcuts-hide =
+    .label = Ẩn lối tắt chatbot
+genai-chatbot-title = Chatbot AI
+genai-header-provider-menu =
+    .title = Chọn một chatbot
+genai-header-settings-button =
+    .title = Cài đặt trò chuyện AI
+genai-header-close-button =
+    .title = Đóng
+genai-provider-view-details =
+    .label = Xem chi tiết chatbot
+genai-options-reload-generic =
+    .label = Tải lại chatbot AI
+genai-options-reload-provider =
+    .label = Tải lại { $provider }
+genai-options-show-shortcut =
+    .label = Hiển thị lối tắt khi chọn văn bản
+genai-options-hide-shortcut =
+    .label = Ẩn lối tắt khi chọn văn bản
+genai-options-about-chatbot =
+    .label = Về chatbot AI trong { -brand-short-name }
+genai-page-warning =
+    .message = Vì trang này khá dài nên đây chỉ là bản tóm tắt một phần.
+genai-page-button-summarize = Tóm tắt trang
+genai-chatbot-summarize-title = Mới! Tóm tắt trang chỉ bằng một cú nhấp chuột
+genai-chatbot-summarize-button = Tóm tắt trang
+genai-chatbot-summarize-sidebar-provider-subtitle = Nhấp chuột phải vào chatbot AI của bạn trong thanh lề và chọn “Tóm tắt trang”.
+genai-chatbot-summarize-sidebar-generic-subtitle = Nhấp chuột phải vào nút lấp lánh trong lề và chọn “Tóm tắt trang”. Trong lần đầu tiên, bạn cũng sẽ chọn một chatbot AI.
+genai-chatbot-summarize-footer-provider-subtitle = Mở chatbot AI của bạn trong thanh lề và chọn “Tóm tắt trang” ở cuối.
+genai-chatbot-summarize-footer-generic-subtitle = Thêm chatbot AI vào thanh lề { -brand-short-name } để tóm tắt nhanh trang.
+genai-chatbot-contextual-title = Sử dụng chatbot AI mà không cần chuyển đổi thẻ
+genai-chatbot-contextual-subtitle = Trò chuyện và duyệt song song khi bạn thêm chatbot AI trong thanh lề của { -brand-short-name }.
+genai-chatbot-contextual-button = Chọn một chatbot
+genai-onboarding-choose-header = Chọn một chatbot AI để sử dụng trong thanh lề { -brand-short-name }
+genai-onboarding-choose-description = Chuyển đổi bất cứ lúc nào. Để được hỗ trợ về lựa chọn này, <a data-l10n-name="learn-more">tìm hiểu thêm về từng chatbot</a>.
+genai-onboarding-primary = Tiếp tục
+genai-onboarding-secondary = Đóng
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-copilot-tooltip =
+    .title = Copilot
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
+genai-model-optin-continue =
+    .label = Tiếp tục
+genai-model-optin-optout =
+    .label = Hủy bỏ
+genai-model-optin-cancel =
+    .label = Hủy bỏ
+link-preview-reading-time = { $range } phút để đọc
+link-preview-error-message-v2 = { -brand-short-name } không thể xem trước liên kết này
+link-preview-visit-link = Truy cập liên kết
+link-preview-generation-error-missing-data-v2 = { -brand-short-name } không thể tạo các nội dung chính cho trang web này.
+link-preview-generation-error-unexpected = Có gì đó không ổn.
+link-preview-generation-retry = Thử lại
+link-preview-settings-button =
+    .title = Cài đặt xem trước liên kết
+link-preview-settings-enable =
+    .description = Xem tiêu đề trang, mô tả và nhiều thông tin khác khi bạn sử dụng phím tắt hoặc nhấp chuột phải vào liên kết.
+    .label = Bật xem trước liên kết
+link-preview-settings-key-points =
+    .label = Cho phép AI đọc phần đầu của trang và tạo ra nội dung chính
+link-preview-settings-long-press =
+    .label = Phím tắt: Nhấp và giữ liên kết trong 1 giây (nhấn và giữ)
+link-preview-optin-title = Xem thêm với AI?
+link-preview-optin-message = { -brand-short-name } sử dụng AI để đọc phần đầu trang và tạo ra một vài nội dung chính. Để ưu tiên quyền riêng tư của bạn, việc này sẽ diễn ra trên thiết bị của bạn.
+link-preview-onboarding-title-long-press = Mới: Nhấp và giữ bất kỳ liên kết nào để xem trước
+link-preview-onboarding-description-long-press = Xem mô tả ngắn, thời gian đọc và nhiều thông tin khác để quyết định xem liên kết có đáng mở hay không. Bạn cũng có thể nhấp chuột phải để xem.
+link-preview-key-points-header = Nội dung chính
+link-preview-key-points-disclaimer = Nội dung chính được tạo ra bởi AI và có thể có sai sót.
+link-preview-setup = Thiết lập ban đầu • <strong>{ $progress }%</strong>
+link-preview-setup-faster-next-time = Lần sau bạn sẽ thấy nội dung chính nhanh hơn.
+link-preview-onboarding-button = Xem bản xem trước
+link-preview-onboarding-close = Đóng
+link-preview-first-time-setup-title = Thiết lập ban đầu
+link-preview-first-time-setup-message = Việc này có thể mất một chút thời gian. Lần sau bạn sẽ thấy nội dung chính nhanh hơn.

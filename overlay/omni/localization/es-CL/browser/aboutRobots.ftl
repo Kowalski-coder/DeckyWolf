@@ -1,0 +1,10 @@
+page-title = ¡Gort! ¡Klaatu barada nikto!
+error-title-text = ¡Hola humanos!
+error-short-desc-text = ¡Venimos a visitarlos en son de paz y buena voluntad!
+error-long-desc1 = Un robot no debe dañar a un ser humano o, por su inacción, dejar que un ser humano sufra daño.
+error-long-desc2 = Los robots han visto cosas que ustedes no creerían.
+error-long-desc3 = Los robots son sus compañeros de plástico con quiénes se pueden divertir.
+error-long-desc4 = Los robots tiene traseros brillantes y metálicos que no deben ser mordidos.
+error-trailer-desc-text = Y tienen un plan.
+error-try-again = Volver a intentarlo
+    .label2 = No vuelvas a presionar este botón.

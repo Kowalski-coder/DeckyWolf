@@ -1,0 +1,17 @@
+about-policies-title = Políticas empresariales
+aboutpolicies-page-heading =
+    .heading = Acerca de las políticas
+active-policies-tab = Activa
+errors-tab = Errores
+documentation-tab = Documentación
+active-policies-tab-title =
+    .title = Activa
+errors-tab-title =
+    .title = Errores
+documentation-tab-title =
+    .title = Documentación
+no-specified-policies-message = El servicio de políticas empresariales está activo pero no hay políticas habilitadas.
+inactive-message = El servicio de políticas empresariales está inactivo.
+policy-name = Nombre de la política
+policy-value = Valor de la política
+policy-errors = Errores de la política

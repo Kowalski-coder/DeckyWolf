@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ჩამოსაშლელი მენიუდან მოცილება
+    .accesskey = ც
+customize-menu-add-to-toolbar =
+    .label = ხელსაწყოთა ზოლში დამატება
+    .accesskey = დ
+customize-menu-add-to-overflowmenu =
+    .label = ჩამოსაშლელ მენიუში დამატება
+    .accesskey = ჩ
+panic-button-thankyou-msg1 = ბოლოს მონახულებული გვერდების ისტორია გასუფთავებულია.
+panic-button-thankyou-msg2 = მოინახულეთ გვერდები უსაფრთხოდ!
+panic-button-thankyou-button =
+    .label = გმადლობთ!

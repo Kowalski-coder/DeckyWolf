@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Benvenguts, umans !
+error-short-desc-text = Vos sèm venguts visitar en patz e amb bona volontat !
+error-long-desc1 = Un robòt pòt pas ferir un èsser uman o, per son inaccion, permetre qu'un èsser uman siá ferit.
+error-long-desc2 = Los robòts an vist de causas que poiriatz pas imaginar.
+error-long-desc3 = Los robòts son vòstres amics de plastic amb los quals es risolièr d'èsser.
+error-long-desc4 = Los robòts an de tafanaris de metal brilhant que devon pas èsser morduts.
+error-trailer-desc-text = E an un plan.
+error-try-again = Tornar ensajar
+    .label2 = Quichetz pas sus aqueste boton tornarmai.

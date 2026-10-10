@@ -1,0 +1,16 @@
+contextual-manager-passwords-command-import-from-browser = Digər səyyahdan daxil et…
+contextual-manager-passwords-command-help = Kömək
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = saxlanılmış parolu göstər
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = saxlanılmış parolu köçür
+contextual-manager-passwords-remove-login-card-remove-button = Sil
+contextual-manager-passwords-remove-login-card-cancel-button = Ləğv et
+contextual-manager-passwords-origin-field =
+    .label = Sayt ünvanı
+    .placeholder = https://www.example.com
+contextual-manager-passwords-username-field =
+    .label = İstifadəçi adı
+contextual-manager-passwords-password-field =
+    .label = Parol
+contextual-manager-copy-icon =
+    .alt = Köçür
+contextual-manager-primary-password-reauth-button = Baş parolu daxil edin

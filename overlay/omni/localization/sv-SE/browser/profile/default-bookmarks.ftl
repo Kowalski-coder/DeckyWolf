@@ -1,0 +1,14 @@
+default-bookmarks-title = Bokmärken
+default-bookmarks-heading = Bokmärken
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Få hjälp
+default-bookmarks-firefox-customize = Anpassa Firefox
+default-bookmarks-firefox-community = Engagera dig
+default-bookmarks-firefox-about = Om oss
+default-bookmarks-nightly-heading = Resurs för Firefox Nightly
+default-bookmarks-nightly-blog = Firefox Nightly blogg
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly testverktyg
+default-bookmarks-crashes = Alla dina krascher
+default-bookmarks-planet = Planet Mozilla

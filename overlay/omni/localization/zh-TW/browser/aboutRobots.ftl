@@ -1,0 +1,10 @@
+page-title = 高特！不要炸飛這個世界！ (Gort! Klaatu barada nikto!)
+error-title-text = 歡迎，人類！
+error-short-desc-text = 我們帶著和平與友好前來拜訪您！
+error-long-desc1 = 機器人不得傷害人類，或袖手旁觀坐視人類受到傷害。
+error-long-desc2 = 機器人見過你們人類絕對無法置信的事物。
+error-long-desc3 = 機器人是您的塑膠伙伴，有它作伴快樂無比。
+error-long-desc4 = 機器人有著不該被咬的閃亮鐵屁股。
+error-trailer-desc-text = 而且他們有個計劃…
+error-try-again = 重試
+    .label2 = 請勿再按此鈕

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Unpeen fae Owerteem Menu
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Eik On Tae Toolbaur
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Eik On tae Owerteem Menu
+    .accesskey = M
+panic-button-thankyou-msg1 = Yer recent historie has been dichtit.
+panic-button-thankyou-msg2 = Stravaig awa!
+panic-button-thankyou-button =
+    .label = Cheers!

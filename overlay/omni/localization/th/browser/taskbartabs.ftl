@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = เพิ่มแท็บลงในแถบงาน
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = เอาแท็บออกจากแถบงาน
+taskbar-tab-urlbar-button-show = แสดงการกระทำสำหรับหน้าเว็บแอป
+taskbar-tab-urlbar-button-hide = ซ่อนการกระทำสำหรับหน้าเว็บแอป
+taskbar-tab-shortcut-description = เว็บแอป { $name }
+taskbar-tab-shortcut-folder = เว็บแอป { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = ปิดเสียงแท็บ
+taskbar-tab-audio-unmute =
+    .tooltiptext = เปิดเสียงแท็บ
+taskbar-tab-title-default = { $name } ใน { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) ใน { -brand-full-name }
+taskbar-tab-title-profile = { $name } ใน { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) ใน { $profile } — { -brand-full-name }

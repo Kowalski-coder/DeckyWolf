@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Fàilte oirbh, a mhac an duine!
+error-short-desc-text = Thàinig sinn a chèilidh oirbh ann an sìth is le deagh ghean!
+error-long-desc1 = Cha fhaod robotairean duine a leònadh no leigeil le cron a thachairt do dhuine le bhith 'nan tàmh.
+error-long-desc2 = Chunnaic robotairean rudan nach creid sibhse idir.
+error-long-desc3 = Tha robotairean ’nur caraidean plastaig a tha a chuideachd spòrsail.
+error-long-desc4 = Tha tòin mheatailteach ghleansach air robotairean nach bu chòir dhut bìdeadh.
+error-trailer-desc-text = Agus tha plana aca.
+error-try-again = Feuch ris a-rithist
+    .label2 = Saoil nach put thu am putan seo a-rithist?

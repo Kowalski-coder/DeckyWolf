@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Открепить от расширенного меню
+    .accesskey = п
+customize-menu-add-to-toolbar =
+    .label = Добавить на панель инструментов
+    .accesskey = о
+customize-menu-add-to-overflowmenu =
+    .label = Добавить в расширенное меню
+    .accesskey = а
+panic-button-thankyou-msg1 = Ваша недавняя история была удалена.
+panic-button-thankyou-msg2 = Безопасного веб-сёрфинга!
+panic-button-thankyou-button =
+    .label = Спасибо!

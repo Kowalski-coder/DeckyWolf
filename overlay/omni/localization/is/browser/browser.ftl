@@ -1,0 +1,894 @@
+browser-main-window-default-title = { -brand-full-name }
+browser-main-private-window-title =
+    { PLATFORM() ->
+        [macos] { -brand-full-name } — huliðsvafur
+       *[other] { -brand-full-name } huliðsvafur
+    }
+browser-main-private-suffix-for-content = Huliðsvafur
+private-browsing-shortcut-text-2 = Huliðsvafur { -brand-shortcut-name }
+browser-shortcut-description = Hraðvirkt vafur með verndun persónuupplýsinga
+urlbar-identity-button2 =
+    .aria-label =
+        { $count ->
+            [0] Skoða upplýsingar um vefsvæði
+            [1] Skoða upplýsingar um vefsvæði (1 rekjari útilokaður)
+            [one] Skoða upplýsingar um vefsvæði (1 rekjari útilokaður)
+           *[other] Skoða upplýsingar um vefsvæði ({ $count } rekjarar útilokaðir)
+        }
+urlbar-services-notification-anchor =
+    .tooltiptext = Opna skilaboðaflipa uppsetninga
+urlbar-web-notification-anchor =
+    .tooltiptext = Breyta hvort vefsvæði getur sent þér tilkynningar
+urlbar-midi-notification-anchor =
+    .tooltiptext = Opna MIDI-spjald
+urlbar-serial-notification-anchor =
+    .tooltiptext = Opna raðtengjaspjaldið
+urlbar-eme-notification-anchor =
+    .tooltiptext = Sýsla með notkun á DRM hugbúnaði
+urlbar-web-authn-anchor =
+    .tooltiptext = Opna auðkenningarspjald vefs
+urlbar-canvas-notification-anchor =
+    .tooltiptext = Sýsla með öryggi fyrir canvas upplýsingar
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = Sýsla með að deila hljóðnema á vefsvæðinu
+urlbar-default-notification-anchor =
+    .tooltiptext = Opna skilaboðaflipa
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = Opna staðsetningarbeiðnaflipa
+urlbar-localhost-notification-anchor =
+    .tooltiptext = Stýrðu aðgangi staðbundinna tækja að þessu vefsvæði
+urlbar-local-network-notification-anchor =
+    .tooltiptext = Stýrðu deilingu á aðgangi að staðarneti þínu með þessu vefsvæði
+urlbar-xr-notification-anchor =
+    .tooltiptext = Opnaðu heimildaspjald fyrir sýndarveruleika
+urlbar-storage-access-anchor =
+    .tooltiptext = Opna heimildaspjald vafravirkni
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = Sýsla með að deila gluggum eða skjá á vefsvæðinu
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = Opna skilaboðaflipa fyrir aftengda geymslu
+urlbar-password-notification-anchor =
+    .tooltiptext = Opna skilaboðaflipa fyrir vistuð lykilorð
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = Sýsla með deilingu á myndavél og/eða hljóðnema fyrir þetta vefsvæði
+urlbar-web-rtc-share-speaker-notification-anchor =
+    .tooltiptext = Sýsla með að deila öðrum hátölurum á vefsvæðinu
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = Opna spjald sjálfkrafa afspilunar
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = Geyma gögn í varanlegri gagnageymslu
+urlbar-addons-notification-anchor =
+    .tooltiptext = Opna skilaboðaflipa fyrir viðbótauppsetningu
+urlbar-search-tips-confirm = Allt í lagi, ég skil
+urlbar-search-tips-confirm-short = Náði því
+urlbar-result-menu-button =
+    .title = Opna valmynd
+urlbar-result-menu-button-feedback = Viðbrögð
+    .title = Opna valmynd
+urlbar-result-menu-learn-more2 = Kanna nánar
+    .accesskey = K
+urlbar-result-menu-remove-from-history2 = Eyða úr vafurferli
+    .accesskey = r
+urlbar-result-menu-tip-get-help2 = Fá aðstoð
+    .accesskey = a
+urlbar-result-menu-dismiss-suggestion2 = Vísa þessari tillögu frá
+    .accesskey = V
+urlbar-result-menu-manage-firefox-suggest2 = Sýsla með { -firefox-suggest-brand-name }
+    .accesskey = m
+urlbar-result-menu-report-inaccurate-location2 = Tilkynna ónákvæma staðsetningu
+urlbar-result-menu-show-less-frequently2 = Sýna sjaldnar
+urlbar-result-menu-dont-show-weather-suggestions2 = Ekki sýna tillögur um veður
+urlbar-input-dismiss-autofill =
+    .label = Vísa þessari tillögu frá
+    .accesskey = i
+urlbar-input-remove-from-history =
+    .label = Eyða úr vafurferli
+    .accesskey = E
+urlbar-splitbutton-dropmarker =
+    .title = Opna valmynd
+urlbar-feedback-acknowledgment = Takk fyrir álit þitt
+urlbar-dismissal-acknowledgment-weather = Takk fyrir álit þitt. Þú munt ekki lengur sjá tillögur um veðurupplýsingar.
+urlbar-search-tips-onboard = Minni innsláttur, finna meira: Leitaðu með { $engineName } beint úr veffangastikunni.
+urlbar-search-tips-redirect-2 = Byrjaðu að leita í veffangastikunni til að sjá tillögur frá { $engineName } og úr leitarferli þínum.
+urlbar-tabtosearch-onboard = Veldu þessa flýtileið til að finna það sem þú þarft hraðar.
+urlbar-search-mode-bookmarks = Bókamerki
+urlbar-search-mode-tabs = Flipar
+urlbar-search-mode-history = Ferill
+urlbar-search-mode-actions = Aðgerðir
+urlbar-geolocation-blocked =
+    .tooltiptext = Þú hefur lokað fyrir staðsetningarupplýsingar á þessu vefsvæði.
+urlbar-localhost-blocked =
+    .tooltiptext = Þú hefur lokað fyrir tengingar staðbundinna tækja á þessu vefsvæði.
+urlbar-local-network-blocked =
+    .tooltiptext = Þú hefur lokað fyrir tengingar staðbundins nets á þessu vefsvæði.
+urlbar-xr-blocked =
+    .tooltiptext = Þú hefur lokað fyrir aðgang sýndarveruleikatækja á þessu vefsvæði.
+urlbar-web-notifications-blocked =
+    .tooltiptext = Þú hefur lokað fyrir tilkynningar á þessu vefsvæði.
+urlbar-camera-blocked =
+    .tooltiptext = Þú hefur lokað fyrir myndavélina á þessu vefsvæði.
+urlbar-microphone-blocked =
+    .tooltiptext = Þú hefur lokað fyrir hljóðnema á þessu vefsvæði.
+urlbar-screen-blocked =
+    .tooltiptext = Þú hefur lokað fyrir að deila skjáum á þessu vefsvæði.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = Þú hefur lokað fyrir gagna geymslu á þessu vefsvæði.
+urlbar-popup-blocked2 =
+    .tooltiptext = Þú hefur lokað á sprettglugga og utanaðkomandi endurbeiningar fyrir þetta vefsvæði.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = Þú hefur lokað fyrir sjálfkrafa afspilun á þessari vefsíðu.
+urlbar-canvas-blocked =
+    .tooltiptext = Þú hefur lokað á að nálgast gluggagögn fyrir þetta vefsvæði.
+urlbar-midi-blocked =
+    .tooltiptext = Þú hefur lokað fyrir MIDI aðgang á þessu vefsvæði.
+urlbar-serial-blocked =
+    .tooltiptext = Þú hefur lokað fyrir aðgang að raðtengi fyrir þetta vefsvæði.
+urlbar-install-blocked =
+    .tooltiptext = Þú hefur lokað fyrir staðsetningarupplýsingar á þessu vefsvæði.
+urlbar-star-edit-bookmark =
+    .tooltiptext = Breyta bókamerki ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = Setja síðu í bókamerki ({ $shortcut })
+urlbar-split-view-button =
+    .aria-label = Skipt sýn
+    .tooltiptext = Skipt sýn
+clear-search-history =
+    .label = Hreinsa leitarferil
+    .accesskey = H
+page-action-manage-extension2 =
+    .label = Sýsla með forritsauka…
+    .accesskey = e
+page-action-remove-extension2 =
+    .label = Fjarlægja forritsauka
+    .accesskey = F
+full-screen-autohide =
+    .label = Fela verkfærastikur
+    .accesskey = F
+full-screen-exit =
+    .label = Ekki fylla skjá
+    .accesskey = f
+search-one-offs-with-title = Að þessu sinni leita með:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = Breyta leitarstillingum
+search-one-offs-context-open-new-tab =
+    .label = Leita og birta í nýjum flipa
+    .accesskey = f
+search-one-offs-context-set-as-default =
+    .label = Setja sem sjálfgefna leitarvél
+    .accesskey = l
+search-one-offs-context-set-as-default-private =
+    .label = Stillt sem sjálfgefin leitarvél fyrir huliðsglugga
+    .accesskey = h
+search-one-offs-engine-with-alias =
+    .tooltiptext = { $engineName } ({ $alias })
+search-one-offs-add-engine =
+    .aria-label = Bæta við leitarvélinni “{ $engineName }”
+    .label = Bæta við “{ $engineName }”
+    .tooltiptext = Bæta við leitarvélinni “{ $engineName }”
+search-one-offs-add-engine-menu =
+    .label = Bæta við leitarvél
+search-one-offs-bookmarks =
+    .tooltiptext = Bókamerki ({ $restrict })
+search-one-offs-tabs =
+    .tooltiptext = Flipar ({ $restrict })
+search-one-offs-history =
+    .tooltiptext = Ferill ({ $restrict })
+search-one-offs-actions =
+    .tooltiptext = Aðgerðir ({ $restrict })
+quickactions-addons = Skoða viðbætur
+quickactions-cmd-addons3 = forritsaukar, þemu, viðbætur
+quickactions-manageai = Sýsla með gervigreindarstýringar
+quickactions-cmd-manageai = gera gervigreind óvirka, slökkva á gervigreind, stjórna gervigreind
+quickactions-bookmarks2 = Sýsla með bókamerki
+quickactions-cmd-bookmarks = bókamerki
+quickactions-clearrecenthistory = Hreinsa nýlega ferla
+quickactions-downloads2 = Skoða sóttar skrár
+quickactions-cmd-downloads = sóttar skrár
+quickactions-extensions = Sýsla með forritsauka
+quickactions-cmd-extensions2 = forritsaukar, viðbætur
+quickactions-firefoxview = Opna { -firefoxview-brand-name }
+quickactions-cmd-firefoxview = opna { -firefoxview-brand-name }, { -firefoxview-brand-name }, opna sýn, skoða
+quickactions-help = { -brand-product-name } hjálp
+quickactions-cmd-help = hjálp, aðstoð
+quickactions-inspector2 = Opna forritunarverkfæri
+quickactions-cmd-inspector2 = skoðunaverkfæri, þróunartól, verkfæri fyrir forritara
+quickactions-colorpicker = Veldu lit
+quickactions-logins2 = Sýsla með lykilorð
+quickactions-cmd-logins = innskráningar, lykilorð
+quickactions-print2 = Prenta síðu
+quickactions-cmd-print = prenta
+quickactions-savepdf = Vista síðu sem PDF
+quickactions-cmd-savepdf2 = pdf, vista síðu
+quickactions-editpdf = Opna PDF-ritilinn
+quickactions-cmd-editpdf = pdf
+quickactions-private2 = Opna huliðsglugga
+quickactions-cmd-private = huliðsvafur
+quickactions-refresh = Endurlesa { -brand-short-name }
+quickactions-cmd-refresh = endurlesa
+quickactions-restart = Endurræsa { -brand-short-name }
+quickactions-cmd-restart = endurræsa
+quickactions-screenshot3 = Taka skjámynd
+quickactions-cmd-screenshot2 = skjámynd, taka skjámynd
+quickactions-translate = Þýða
+quickactions-cmd-translate = þýða
+quickactions-settings2 = Sýsla með stillingar
+quickactions-cmd-settings2 = stillingar, kjörstillingar, valkostir, sýsla með, breyta
+quickactions-themes = Sýsla með þemu
+quickactions-cmd-themes2 = þemu, forritsaukar, viðbætur
+quickactions-update = Uppfæra { -brand-short-name }
+quickactions-cmd-update = uppfærsla
+quickactions-viewsource2 = Skoða frumkóða síðu
+quickactions-cmd-viewsource2 = skoða frumkóða, frumkóði, frumkóði síðu
+quickactions-labs = Opna { -firefoxlabs-brand-name }
+quickactions-learn-more =
+    .title = Fræðast meira um flýtiaðgerðir
+press-tab-label = Ýttu á Tab-dálklykil til að velja:
+bookmarks-add-bookmark = Bæta við bókamerki
+bookmarks-edit-bookmark = Breyta bókamerki
+bookmark-panel-cancel =
+    .label = Hætta við
+    .accesskey = C
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [one] Fjarlægja { $count } bókamerki
+           *[other] Fjarlægja { $count } bókamerki
+        }
+    .accesskey = R
+bookmark-panel-show-editor-checkbox =
+    .label = Sýna ritil þegar vistað er
+    .accesskey = S
+bookmark-panel-save-button =
+    .label = Vista
+bookmark-panel =
+    .style = min-width: 23em
+identity-site-information = Upplýsingar um vefsvæðið { $host }
+identity-header-security-with-host =
+    .title = Öryggi tengingar fyrir { $host }
+identity-connection-not-secure = Tenging er ekki örugg
+identity-connection-secure = Tenging er örugg
+identity-connection-failure = Tenging mistókst
+identity-connection-internal = Þetta er örugg { -brand-short-name } síða.
+identity-connection-file = Þessi síða er vistuð á tölvunni þinni.
+identity-connection-associated = Þessari síðu er hlaðið inn af annarri síðu.
+identity-extension-page = Þessari síðu er hlaðið inn af forritsauka.
+identity-active-blocked = { -brand-short-name } hefur lokað á suma hluta á þessari síðu sem eru ekki öruggir.
+identity-custom-root = Tenging staðfest af útgefanda skilríkis sem ekki er viðurkennt af Mozilla.
+identity-passive-loaded = Sumir hlutir á þessari síðu eru ekki öruggir (eins og myndir).
+identity-active-loaded = Þú hefur slökkt á vernd fyrir þessa síðu.
+identity-weak-encryption = Þessi síða notar lélega dulkóðun.
+identity-https-only-connection-upgraded = (uppfært í HTTPS)
+identity-https-only-label2 = Uppfæra sjálfkrafa þetta vefsvæði í örugga tengingu
+identity-https-only-dropdown-on =
+    .label = Virkt
+identity-https-only-dropdown-off =
+    .label = Óvirkt
+identity-https-only-dropdown-off-temporarily =
+    .label = Slökkt tímabundið
+identity-https-only-info-turn-on3 = Kveiktu á HTTPS-uppfærslum fyrir þetta vefsvæði ef þú vilt að { -brand-short-name } uppfæri tenginguna þegar mögulegt er.
+identity-https-only-info-turn-off3 = Ef síðan virðist biluð gætirðu viljað slökkva á HTTPS-uppfærslum fyrir þessa síðu til að endurlesa hana með óöruggu HTTP.
+identity-https-only-info-no-upgrade = Ekki er hægt að uppfæra tengingu úr HTTP.
+identity-permissions-storage-access-header = Vefkökur á milli vefsvæða
+identity-permissions-storage-access-hint = Þessir aðilar geta notað vefkökur milli vefsvæða og vefgögn á meðan þú ert á þessu vefsvæði.
+identity-permissions-storage-access-learn-more = Kanna nánar
+identity-permissions-reload-hint = Þú gætir þurft að endurhlaða síðuna til að virkja breytingar.
+identity-clear-site-data =
+    .label = Hreinsa vefkökur og síðugögn…
+identity-connection-not-secure-security-view = Þú ert ekki með örugga tengingu við þetta vefsvæði.
+identity-connection-verified = Þú ert með örugga tengingu við þetta vefsvæði.
+identity-ev-owner-label2 = Skilríki útgefið til
+identity-verifier-label2 = Sannvottað af
+identity-etsi = Hæfni samkvæmt reglugerð (ESB) 2024/1183.
+identity-description-custom-root2 = Mozilla viðurkennir ekki þennan skilríkisútgefanda. Það kann að hafa verið bætt við af hálfu stýrikerfisins þíns eða af stjórnanda.
+identity-cert-exception-overridden = Þú hefur bætt við öryggisundantekningu fyrir þetta vefsvæði.
+identity-remove-cert-exception =
+    .label = Fjarlægja undantekningu
+    .accesskey = r
+identity-description-insecure = Tengingin við þetta vefsvæði er ekki læst. Þær upplýsingar sem þú sendir gætu aðrir skoðað (til dæmis lykilorð, skilaboð, greiðslukort, og fleira).
+identity-description-weak-cipher-intro = Tengingin við þetta vefsvæði notar lélega dulkóðun og er ekki lokuð.
+identity-description-weak-cipher-risk = Aðrir geta skoðað þessar upplýsingar eða breytt virkni vefsvæðisins.
+identity-description-active-blocked2 = { -brand-short-name } hefur lokað á suma hluta á þessari síðu sem eru ekki öruggir.
+identity-description-passive-loaded = Tengingin við þetta vefsvæði er ekki lokuð og upplýsingar sem þú sendir gætu aðrir skoðað.
+identity-description-passive-loaded-insecure2 = Þetta vefsvæði inniheldur gögn sem eru ekki örugg (eins og myndir).
+identity-description-passive-loaded-mixed2 = Þótt { -brand-short-name } hafi lokað á sumt efni, er ennþá efni á síðunni sem er ekki öruggt (eins og t.d. myndir).
+identity-description-active-loaded = Þetta vefsvæði inniheldur gögn sem eru ekki örugg (eins og skriftur) og tengingin er ekki lokuð.
+identity-description-active-loaded-insecure = Þær upplýsingar sem þú gefur upp á þessu vefsvæði gætu aðrir skoðað (til dæmis lykilorð, skilaboð, greiðslukort, og fleira).
+identity-description-tls-key-logging-heading = Tengingin þín er hugsanlega ekki einkamál
+identity-more-info-link-text =
+    .label = Nánari upplýsingar
+browser-window-minimize-button =
+    .tooltiptext = Minnka
+browser-window-maximize-button =
+    .tooltiptext = Hámarka
+browser-window-restore-down-button =
+    .tooltiptext = Endurheimta niður
+browser-window-close-button =
+    .tooltiptext = Loka
+browser-window-return-to-opener =
+    .tooltiptext = Til baka
+browser-import-button2 =
+    .label = Flytja inn bókamerki...
+    .tooltiptext = Flytja inn bókamerki úr öðrum vafra yfir í { -brand-short-name }.
+bookmarks-toolbar-empty-message = Fyrir fljótlegan aðgang að þeim, skaltu setja bókamerkin þín hér á bókamerkjastikuna. <a data-l10n-name="manage-bookmarks">Sýsla með bókamerki...</a>
+popup-select-camera-device =
+    .value = Myndavél:
+    .accesskey = M
+popup-select-camera-icon =
+    .tooltiptext = Myndavél
+popup-select-microphone-device =
+    .value = Hljóðnemi:
+    .accesskey = H
+popup-select-microphone-icon =
+    .tooltiptext = Hljóðnemi
+popup-select-speaker-icon =
+    .tooltiptext = Hátalarar
+popup-select-window-or-screen =
+    .label = Gluggi eða skjár:
+    .accesskey = W
+popup-all-windows-shared = Öllum sýnilegum gluggum á skjánum verður deilt.
+sharing-warning-window = Þú ert að deila { -brand-short-name }. Annað fólk getur séð þegar þú skiptir yfir í nýjan flipa.
+sharing-warning-screen = Þú ert að deila öllum skjánum þínum. Annað fólk getur séð þegar þú skiptir yfir í nýjan flipa.
+sharing-warning-proceed-to-tab =
+    .label = Halda áfram á flipa
+sharing-warning-disable-for-session =
+    .label = Slökkva á deilivörn fyrir þessa lotu
+webserial-select-port-label = Veldu raðtengi:
+webserial-no-ports-available = Engin raðtengi tiltæk
+urlbar-search-mode-indicator-close =
+    .aria-label = Loka
+urlbar-placeholder =
+    .placeholder = Leitaðu eða settu inn vistfang
+urlbar-placeholder-keyword-disabled =
+    .placeholder = Settu inn vistfang
+urlbar-placeholder-search-mode-web-2 =
+    .aria-label = Leita með { $name }
+    .placeholder = Leita á vefnum
+urlbar-placeholder-search-mode-other-engine =
+    .aria-label = Leita með { $name }
+    .placeholder = Settu inn leitarorð
+urlbar-placeholder-search-mode-other-bookmarks =
+    .aria-label = Leita í bókamerkjum
+    .placeholder = Settu inn leitarorð
+urlbar-placeholder-search-mode-other-history =
+    .aria-label = Leita í vafurferli
+    .placeholder = Settu inn leitarorð
+urlbar-placeholder-search-mode-other-tabs =
+    .aria-label = Leita í flipum
+    .placeholder = Settu inn leitarorð
+urlbar-placeholder-search-mode-other-actions =
+    .aria-label = Leita í aðgerðum
+    .placeholder = Settu inn leitarorð
+urlbar-placeholder-with-name =
+    .placeholder = Leitaðu með { $name } eða settu inn vistfang
+urlbar-remote-control-notification-anchor2 =
+    .tooltiptext = Vafrinn er í fjarstýringu (ástæða: { $component })
+urlbar-permissions-granted =
+    .tooltiptext = Þú hefur gefið þessu vefsvæði aukin réttindi.
+urlbar-switch-to-tab =
+    .value = Fara á flipa:
+urlbar-extension =
+    .value = Forritsauki:
+urlbar-go-button2 =
+    .title = Hoppa á tengilinn sem er í veffangastikunni
+urlbar-page-action-button =
+    .tooltiptext = Síðu aðgerðir
+urlbar-revert-button =
+    .tooltiptext = Birta vistfangið í staðsetningarstikunni
+urlbar-result-action-ai-chat = Spyrja
+urlbar-result-action-search-in-private-w-engine = Leita með { $engine } í huliðsglugga
+urlbar-result-action-search-in-private = Leita í huliðsglugga
+urlbar-result-action-search-w-engine = Leita með { $engine }
+urlbar-result-action-sponsored = Kostað
+urlbar-result-action-switch-tab = Fara á flipa
+urlbar-result-action-visit = Heimsækja
+urlbar-result-action-switch-tab-with-container = Skipta á flipann · <span>{ $container }</span>
+urlbar-result-action-tab-group-unnamed = Ónefndur hópur
+urlbar-result-action-visit-from-clipboard = Heimsækja af klippispjaldinu
+urlbar-result-action-before-tabtosearch-web = Ýttu á dálklykil/Tab til að leita með { $engine }
+urlbar-result-action-before-tabtosearch-other = Ýttu á dálklykil/Tab til að leita með { $engine }
+urlbar-result-action-tabtosearch-web = Leita með { $engine } beint af veffangastikunni
+urlbar-result-action-tabtosearch-other-engine = Leita með { $engine } beint af veffangastikunni
+urlbar-result-action-copy-to-clipboard = Afrita
+urlbar-result-action-undefined-calculator-result = óskilgreint
+urlbar-result-mdn-subtitle = { -mdn-brand-name }
+urlbar-result-yelp-subtitle = { -yelp-brand-name }
+urlbar-result-suggestion-recommended = Mælt með
+urlbar-result-weather-title = <strong>{ $temperature }°{ $unit }</strong> í { $city }, { $region }
+urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> í { $city }, { $region }, { $country }
+urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</strong> í { $city }
+urlbar-result-weather-provider-sponsored = { $provider }∙Kostað
+urlbar-result-market-opt-in-title = Fáðu upplýsingar um hlutabréfamarkaðinn beint í leitarstikuna þína
+urlbar-result-market-opt-in-description = Sýna markaðsfréttir og fleira frá samstarfsaðilum okkar þegar þú deilir leitarfyrirspurnargögnum með { -vendor-short-name }. <a data-l10n-name="learn-more-link">Frekari upplýsingar</a>
+urlbar-result-realtime-opt-in-allow = Sýna tillögur
+urlbar-result-realtime-opt-in-not-now = Ekki núna
+urlbar-result-realtime-opt-in-dismiss = Afgreiða
+urlbar-result-realtime-opt-in-dismiss-all2 = Ekki sýna þessar tillögur
+urlbar-result-menu-dont-show-market2 = Ekki sýna tillögur um fjármálamarkaði
+urlbar-result-dismissal-acknowledgment-market = Takk fyrir álit þitt. Þú munt ekki lengur sjá tillögur um fjármálamarkaði.
+urlbar-result-dismissal-acknowledgment-all = Takk fyrir álit þitt. Þú munt ekki lengur sjá þessar tillögur.
+urlbar-result-dates-countdown =
+    { $daysUntilStart ->
+        [one] { $name } · Eftir { $daysUntilStart } dag
+       *[other] { $name } · Eftir { $daysUntilStart } daga
+    }
+urlbar-result-dates-countdown-range =
+    { $daysUntilStart ->
+        [one] { $name } · Byrjar eftir { $daysUntilStart } dag
+       *[other] { $name } · Byrjar eftir { $daysUntilStart } daga
+    }
+urlbar-result-dates-ongoing =
+    { $daysUntilEnd ->
+        [one] { $name } · Lýkur eftir { $daysUntilEnd } dag
+       *[other] { $name } · Lýkur eftir { $daysUntilEnd } daga
+    }
+urlbar-result-dates-today = { $name } · Í dag
+urlbar-result-dates-ends-today = { $name } · Lýkur í dag
+urlbar-searchmode-button3 =
+    .title = { $engine }, veldu leitarvél
+urlbar-searchmode-button-no-engine2 =
+    .title = Engin flýtileið valin, veldu flýtileið
+urlbar-searchmode-dropmarker2 =
+    .title = Veldu leitarvél
+urlbar-searchmode-bookmarks3 = Bókamerki
+    .accesskey = B
+urlbar-searchmode-tabs3 = Flipar
+    .accesskey = F
+urlbar-searchmode-history3 = Ferill
+    .accesskey = i
+urlbar-searchmode-actions3 = Aðgerðir
+    .accesskey = A
+urlbar-searchmode-exit-button2 =
+    .title = Loka
+urlbar-searchmode-default2 =
+    .title = Sjálfgefin leitarvél
+urlbar-searchmode-popup-add-engine = Bæta við “{ $engineName }”
+    .title = Bæta við leitarvélinni “{ $engineName }”
+urlbar-searchmode-popup-one-off-header = Að þessu sinni leita með:
+urlbar-searchmode-popup-header = Leita með:
+urlbar-searchmode-popup-search-settings = Leitarstillingar
+    .accesskey = L
+urlbar-searchmode-popup-settings = Stillingar
+    .accesskey = S
+urlbar-result-search-with = Leita með { $engine }
+urlbar-result-search-with-local-search-mode = { $keywords } - Leita í { $localSearchMode }
+urlbar-result-search-with-engine-keywords = { $keywords } - Leita með { $engine }
+urlbar-result-action-search-bookmarks = Leita í bókamerkjum
+urlbar-result-action-search-history = Leita í vafurferli
+urlbar-result-action-search-tabs = Leita í flipum
+urlbar-result-action-search-actions = Leitaraðgerðir
+urlbar-result-action-switch-to-tabgroup = Skipta yfir í { $group }
+urlbar-result-action-open-saved-tabgroup = Opna { $group }
+urlbar-view-context-menu-open-in-tab2 = Opna í nýjum flipa
+    .accesskey = j
+urlbar-view-context-menu-open-in-container-tab2 = Opna í nýjum sérefnisflipa
+    .accesskey = l
+urlbar-view-context-menu-open-in-window2 = Opna í nýjum glugga
+    .accesskey = n
+urlbar-view-context-menu-open-in-private-window2 = Opna í nýjum huliðsglugga
+    .accesskey = p
+urlbar-group-firefox-suggest =
+    .label = { -firefox-suggest-brand-name }
+urlbar-group-search-suggestions =
+    .label = { $engine } tillögur
+urlbar-group-quickactions =
+    .label = Flýtiaðgerðir
+urlbar-group-recent-searches =
+    .label = Nýlegar leitir
+urlbar-group-trending =
+    .label = Vinsælt á { $engine }
+urlbar-result-menu-trending-dont-show2 = Ekki sýna vinsælar leitir
+    .accesskey = k
+urlbar-trending-dismissal-acknowledgment = Takk fyrir álit þitt. Þú munt ekki lengur sjá vinsælar leitir.
+reader-view-enter-button =
+    .aria-label = Fara í lesham
+reader-view-close-button =
+    .aria-label = Loka lesham
+picture-in-picture-urlbar-button-open =
+    .tooltiptext = Opna mynd-í-mynd ({ $shortcut })
+picture-in-picture-urlbar-button-close =
+    .tooltiptext = Loka mynd-í-mynd ({ $shortcut })
+picture-in-picture-panel-header = Mynd-í-mynd
+picture-in-picture-panel-headline = Þetta vefsvæði mælir ekki með mynd-í-mynd
+picture-in-picture-panel-body = Myndskeið birtast kannski ekki eins og hönnuðir ætluðu sér á meðan kveikt er á mynd-í-mynd.
+picture-in-picture-enable-toggle =
+    .label = Virkja samt
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> er með fylltan skjá
+fullscreen-warning-no-domain = Þetta skjal er nú á fylltum skjá
+fullscreen-exit-button = Hætta í fullum skjá (Esc)
+fullscreen-exit-mac-button = Hætta í fullum skjá (esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> hefur stjórn á bendi. Ýttu á Esc til að taka aftur yfir stjórn.
+pointerlock-warning-no-domain = Þetta skjal hefur nú stjórnina á bendi. Ýttu á Esc til að taka aftur yfir stjórn.
+bookmarks-manage-bookmarks =
+    .label = Sýsla með bókamerki
+bookmarks-recent-bookmarks-panel-subheader = Nýleg bókamerki
+bookmarks-toolbar-chevron =
+    .tooltiptext = Sýna fleiri bókamerki
+bookmarks-sidebar-content =
+    .aria-label = Bókamerki
+bookmarks-menu-button =
+    .label = Bókarmerkja valmynd
+bookmarks-other-bookmarks-menu =
+    .label = Önnur bókamerki
+bookmarks-mobile-bookmarks-menu =
+    .label = Bókamerki farsíma
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] Fela bókamerki á hliðarstiku
+           *[other] Birta bókamerki á hliðarstiku
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] Fela bókamerkjastiku
+           *[other] Skoða bókamerkjastiku
+        }
+bookmarks-tools-toolbar-visibility-panel =
+    .label =
+        { $isVisible ->
+            [true] Fela bókamerkjastiku
+           *[other] Sýna bókamerkjastiku
+        }
+bookmarks-search =
+    .label = Leita í bókamerkjum
+bookmarks-tools =
+    .label = Verkfæri fyrir bókamerki
+bookmarks-subview-edit-bookmark =
+    .label = Breyta þessu bókamerki…
+bookmarks-toolbar =
+    .aria-label = Bókamerki
+    .toolbarname = Bókamerkjastika
+    .accesskey = B
+bookmarks-toolbar-menu =
+    .label = Bókamerkjastika
+bookmarks-toolbar-placeholder =
+    .title = Atriði í bókamerkjastiku
+bookmarks-toolbar-placeholder-button =
+    .label = Atriði í bókamerkjastiku
+bookmarks-subview-bookmark-tab =
+    .label = Bókamerkja núverandi flipa…
+library-bookmarks-menu =
+    .label = Bókamerki
+repair-text-encoding-button =
+    .label = Gera við textakóðun
+    .tooltiptext = Giska á rétta stafatöflu texta út frá efni síðunnar
+toolbar-settings-button =
+    .label = Stillingar
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] Opna stillingar ({ $shortcut })
+           *[other] Opna stillingar
+        }
+toolbar-overflow-customize-button =
+    .label = Sérsníða verkfærastiku…
+    .accesskey = S
+toolbar-button-email-link =
+    .label = Senda tengil
+    .tooltiptext = Senda tengil á þessa síðu í pósti
+toolbar-button-logins =
+    .label = Lykilorð
+    .tooltiptext = Skoðaðu og sýslaðu með vistuðu lykilorðin þín
+qrcode-copy-button =
+    .label = Afrita
+qrcode-copy-success =
+    .message = QR-kóði afritaður á klippispjald.
+qrcode-copy-error =
+    .message = Mistókst að afrita QR-kóða
+qrcode-save-button =
+    .label = Vista
+qrcode-save-filename-base = qr-kóði
+qrcode-save-filename-with-domain-base = qrkóði-{ $domain }
+qrcode-window-title = QR-kóði
+qrcode-dialog-title = QR-kóði
+qrcode-image =
+    .aria-label = QR-kóði
+qrcode-close-button =
+    .aria-label = Loka
+toolbar-button-save-page =
+    .label = Vista síðu
+    .tooltiptext = Vista þessa síðu ({ $shortcut })
+toolbar-button-open-file =
+    .label = Opna skrá
+    .tooltiptext = Opna skrá ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = Samstilltir flipar
+    .tooltiptext = Sýna flipa frá öðrum tækjum
+toolbar-button-send-tab =
+    .label = Senda flipa
+    .tooltiptext = Senda núverandi flipa á annað tæki
+toolbar-button-new-private-window =
+    .label = Nýr huliðsgluggi
+    .tooltiptext = Opna nýjan glugga í huliðsstillingu ({ $shortcut })
+toolbar-button-share-tab =
+    .label = Deila
+    .tooltiptext = Deila þessari síðu
+toolbar-button-tab-groups =
+    .label = Flipahópar
+    .tooltiptext = Sýna flipahópana þína
+eme-notifications-drm-content-playing = Sumar hljóðskrár eða myndbönd á þessu vefsvæði nota DRM hugbúnað, sem gæti hugsanlega takmarkað hvað { -brand-short-name } getur gert með það efni.
+eme-notifications-drm-content-playing-manage = Sýsla með stillingar
+eme-notifications-drm-content-playing-manage-accesskey = m
+eme-notifications-drm-content-playing-dismiss = Hafna
+eme-notifications-drm-content-playing-dismiss-accesskey = H
+panel-save-update-username-2 =
+    .label = Notandanafn
+panel-save-update-password-2 =
+    .label = Lykilorð
+menu-share-more =
+    .label = Meira…
+menu-share-windows =
+    .label = Fleiri valkostir
+menu-share-copy-links =
+    .label =
+        { $count ->
+            [one] Afrita tengil
+           *[other] Afrita { $count } tengla
+        }
+    .accesskey = l
+ui-tour-info-panel-close =
+    .tooltiptext = Loka
+popups-infobar-allow2 =
+    .label = Leyfa sprettglugga og utanaðkomandi endurbeiningar fyrir { $uriHost }
+    .accesskey = p
+popups-infobar-dont-show-message2 =
+    .label = Ekki birta þessi skilaboð þegar lokað er á sprettglugga eða utanaðkomandi endurbeiningar
+    .accesskey = b
+edit-popup-settings2 =
+    .label = Sýsla með stillingar sprettglugga og utanaðkomandi endurbeiningar…
+    .accesskey = m
+picture-in-picture-hide-toggle =
+    .label = Fela mynd-í-mynd víxlhnapp
+    .accesskey = F
+picture-in-picture-move-toggle-right =
+    .label = Færa mynd-í-mynd víxlhnapp á hægri hlið
+    .accesskey = h
+picture-in-picture-move-toggle-left =
+    .label = Færa mynd-í-mynd víxlhnapp á vinstri hlið
+    .accesskey = v
+navbar-accessible =
+    .aria-label = Flakk
+navbar-downloads =
+    .label = Niðurhal
+navbar-overflow-2 =
+    .tooltiptext = Fleiri verkfæri
+navbar-print =
+    .label = Prenta
+    .tooltiptext = Prenta þessa síðu… ({ $shortcut })
+navbar-home =
+    .label = Upphafssíða
+    .tooltiptext = { -brand-short-name } upphafssíða
+navbar-library =
+    .label = Safn
+    .tooltiptext = Skoða feril, vistuð bókamerki, og meira
+navbar-search =
+    .title = Leita
+tabs-toolbar =
+    .aria-label = Vafraflipar
+tabs-toolbar-new-tab =
+    .label = Nýr flipi
+tabs-toolbar-list-all-tabs =
+    .label = Sýna alla flipa
+    .tooltiptext = Sýna alla flipa
+pinned-tabs-drop-indicator = Slepptu flipanum hér til að festa hann
+restore-session-startup-suggestion-message = <strong>Opna fyrri flipa?</strong> Þú getur endurheimt fyrri lotu þína úr { -brand-short-name } forritavalmyndinni <img data-l10n-name="icon"/>, undir Ferill-færslunni.
+restore-session-startup-suggestion-button = Sýna mér hvernig
+filepicker-blocked-infobar = Stofnunin/fyrirtækið þitt hefur lokað fyrir aðgang að staðbundnum skrám á þessari tölvu
+data-reporting-notification-message = { -brand-short-name } sendir sjálfkrafa gögn til { -vendor-short-name } til að hægt sé að betrumbæta vafrann.
+data-reporting-notification-button =
+    .label = Velja hverju ég deili
+    .accesskey = V
+private-browsing-indicator-label = Huliðsvafur
+private-browsing-indicator-tooltip =
+    .tooltiptext = Huliðsvafur
+private-browsing-indicator-button =
+    .tooltiptext = Upplýsingar um huliðsvafur
+private-browsing-info-panel-title = Þú ert í huliðsglugga
+content-analysis-indicator-tooltip =
+    .tooltiptext = Gagnatapsvörn (DLP) með { $agentName }. Smelltu til að fá frekari upplýsingar.
+content-analysis-panel-title = Gagnavarnir
+content-analysis-panel-text-styled = Stofnunin þín notar <b>{ $agentName }</b> til að verjast gagnatapi. <a data-l10n-name="info">Frekari upplýsingar</a>
+unified-extensions-button =
+    .label = Forritsaukar
+    .tooltiptext = Forritsaukar
+unified-extensions-button-permissions-needed =
+    .label = Forritsaukar
+    .tooltiptext =
+        Forritsaukar
+        Heimildir nauðsynlegar
+unified-extensions-button-quarantined =
+    .label = Forritsaukar
+    .tooltiptext =
+        Forritsaukar
+        Sumir forritsaukar eru ekki leyfðir
+unified-extensions-button-blocklisted =
+    .label = Forritsaukar
+    .tooltiptext =
+        Forritsaukar
+        Sumir forritsaukar eru óvirkir
+reset-pbm-panel-always-ask-checkbox =
+    .label = Spyrja alltaf
+    .accesskey = a
+reset-pbm-panel-cancel-button =
+    .label = Hætta við
+    .accesskey = H
+reset-pbm-panel-complete = Huliðsvafurgögnum eytt
+refresh-blocked-refresh-label = { -brand-short-name } kom í veg fyrir að síðan myndi endurnýjast sjálfkrafa.
+refresh-blocked-redirect-label = { -brand-short-name } kom í veg fyrir að síðan sendi þig áfram á aðra síðu.
+refresh-blocked-allow =
+    .label = Leyfa
+    .accesskey = a
+firefox-relay-offer-why-to-use-relay = Öruggar og einfaldar pósthulur okkar vernda auðkennin þín og koma í veg fyrir ruslpóstsendingar með því að fela tölvupóstfangið þitt.
+firefox-relay-offer-what-relay-provides = Allur tölvupóstur sem sendur er á tölvupósthulurnar þínar verða sendar til <strong>{ $useremail }</strong> (nema þú ákveðir að loka á viðkomandi).
+firefox-relay-offer-legal-notice = Með því að smella á „Nota tölvupósthulu“ samþykkir þú <label data-l10n-name="tos-url">þjónustuskilmála</label> og <label data-l10n-name="privacy-url">persónuverndarstefnu </label> okkar.
+firefox-relay-offer-legal-notice-1 = Með því að skrá þig og búa til tölvupósthulu samþykkir þú <label data-l10n-name="tos-url">þjónustuskilmála</label> og <label data-l10n-name="privacy-url">persónuverndarstefnu</label> okkar.
+popup-notification-addon-install-unsigned =
+    .value = (Óstaðfest)
+popup-notification-xpinstall-prompt-learn-more = Sjáðu meira um að setja upp viðbætur á öruggan hátt
+popup-notification-xpinstall-prompt-block-url = Sjá nánar
+popup-notification-addon-privatebrowsing-checkbox2 =
+    .label = Leyfa forritsaukum að keyra í huliðsgluggum
+    .accesskey = y
+popup-notification-addon-technical-and-interaction-checkbox =
+    .label = Deildu tæknilegum gögnum og gagnvirknigögnum með höfundi forritsaukans
+    .accesskey = k
+popup-warning-message =
+    { $popupCount ->
+        [one] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði { $popupCount } sprettiglugga.
+       *[other] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði { $popupCount } sprettiglugga.
+    }
+redirect-warning-with-popup-message =
+    { $popupCount ->
+        [0] { -brand-short-name } kom í veg fyrir að þetta vefsvæði endurbeindi.
+        [1] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði sprettglugga og endurbeiningar.
+        [one] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði sprettglugga og endurbeiningar.
+       *[other] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði { $popupCount } sprettglugga og endurbeiningar.
+    }
+popup-warning-exceeded-message = { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði fleiri en { $popupCount } sprettiglugga.
+popup-warning-exceeded-with-redirect-message =
+    { $popupCount ->
+        [one] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði fleiri en { $popupCount } sprettiglugga og endurbeiningar.
+       *[other] { -brand-short-name } kom í veg fyrir að þetta vefsvæði opnaði fleiri en { $popupCount } sprettiglugga og endurbeiningar.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] Valkostir
+           *[other] Kjörstillingar
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] V
+        }
+popup-show-popup-menuitem =
+    .label = Sýna “{ $popupURI }”
+popup-trigger-redirect-menuitem =
+    .label = Sýna „{ $redirectURI }“
+file-picker-failed-open = Ekki var hægt að opna Windows-skráagluggann. Ekki var hægt að velja neina skrá eða möppu.
+file-picker-failed-save-somewhere = Ekki var hægt að opna Windows-skráagluggann. Skráin verður vistuð í { $path }.
+file-picker-failed-save-nowhere = Ekki var hægt að opna Windows-skráagluggann. Engin sjálfgefin mappa fannst; skráin verður ekki vistuð.
+file-picker-crashed-open = Windows-skráaglugginn hefur hrunið. Ekki var hægt að velja neina skrá eða möppu.
+file-picker-crashed-save-somewhere = Windows-skráaglugginn hefur hrunið. Skráin verður vistuð í { $path }.
+file-picker-crashed-save-nowhere = Windows-skráaglugginn hefur hrunið. Engin sjálfgefin mappa fannst; skráin verður ekki vistuð.
+file-picker-crashed-show-in-folder =
+    .label = Sýna í möppu
+    .accessKey = m
+onboarding-aw-finish-setup-button =
+    .label = Ljúka uppsetningu
+    .tooltiptext = Ljúka uppsetningu á { -brand-short-name }
+onboarding-checklist-button-label = Ljúka uppsetningu
+urlbar-trust-icon-notsecure-label = Ekki öruggt
+trustpanel-etp-label-enabled = Aukin rakningarvörn er virk
+trustpanel-etp-label-disabled = Aukin rakningarvörn er óvirk
+trustpanel-etp-toggle-on =
+    .aria-label = Aukin rakningarvörn: Virk fyrir { $host }
+trustpanel-etp-toggle-off =
+    .aria-label = Aukin rakningarvörn: Óvirk fyrir { $host }
+trustpanel-etp-description-enabled = Ef eitthvað virðist bilað á þessu vefsvæði, skaltu prófa að slökkva á vörnum.
+trustpanel-etp-description-disabled = { -brand-product-name } telur að fyrirtæki ættu að fylgjast minna með þér. Við lokum á eins mörg rakningarforrit ogauðið er þegar þú kveikir á vörnum.
+trustpanel-connection-label-secure = Tenging er örugg
+trustpanel-connection-label-insecure = Tenging er ekki örugg
+trustpanel-header-enabled = { -brand-product-name } er á verði
+trustpanel-description-enabled2 = Þú ert varin/n. Ef við komum auga á eitthvað látum við þig vita.
+trustpanel-header-enabled-insecure = Farðu varlega á þessum vef
+trustpanel-description-enabled-insecure = { -brand-product-name } tók eftir einhverju grunsamlegu.
+trustpanel-header-disabled = Þú slökktir á vörnum
+trustpanel-description-disabled = { -brand-product-name } er ekki á vakt. Við mælum með að kveikja aftur á vörnum.
+trustpanel-clear-cookies-button = Hreinsa vefkökur og gögn vefsvæðis
+trustpanel-privacy-link = Persónuverndarstillingar
+trustpanel-clear-cookies-header =
+    .title = Hreinsa vefkökur og vefgögn fyrir { $host }
+trustpanel-clear-cookies-description = Ef þú fjarlægir vefkökur og vefgögn gætirðu skráðst út af vefsvæðum og hreinsað innkaupakörfur.
+trustpanel-clear-cookies-subview-button-clear = Hreinsa
+trustpanel-clear-cookies-subview-button-cancel = Hætta við
+trustpanel-site-information-header =
+    .title = Tengivarnir fyrir { $host }
+trustpanel-siteinformation-morelink = Meiri upplýsingar um vefsvæði
+trustpanel-blocker-see-all = Sjá allt
+trustpanel-blocker-header =
+    .title = Rakningarvarnir fyrir { $host }
+trustpanel-blocker-description = { -brand-product-name } telur að fyrirtæki ættu að fylgjast minna með þér. Þess vegna lokum við á eins marga og auðið er.
+trustpanel-blocked-header = { -brand-product-name } lokaði á þetta fyrir þig:
+trustpanel-tracking-header = { -brand-product-name } leyfði þetta svo vefsvæði birtist rétt:
+trustpanel-tracking-description = Án rekjara gætu sumir hnappar, innfyllingaform og innskráningarreitir ekki virkað rétt.
+trustpanel-insecure-section-header = Tengingin þín er ekki örugg
+trustpanel-insecure-description = Gögnin sem þú sendir á þetta vefsvæði eru ekki dulrituð. Þau gætu verið skoðuð af óviðkomandi, þeim stolið eða breytt.
+trustpanel-list-label-tracking-cookies =
+    { $count ->
+        [one] { $count } vefaka til rakningar á milli vefsvæða
+       *[other] { $count } vefökur til rakningar á milli vefsvæða
+    }
+trustpanel-list-label-tracking-content = Rakning efnis
+trustpanel-list-label-fingerprinter =
+    { $count ->
+        [one] { $count } fingrafarasöfnun
+       *[other] { $count } fingrafarasöfnun
+    }
+trustpanel-list-label-social-tracking =
+    { $count ->
+        [one] { $count } rekjari fyrir samfélagsmiðla
+       *[other] { $count } rekjarar fyrir samfélagsmiðla
+    }
+trustpanel-list-label-cryptominer =
+    { $count ->
+        [one] { $count } rafmyntagrafari
+       *[other] { $count } rafmyntagrafarar
+    }
+trustpanel-social-tracking-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } lokaði á { $count } samfélagsmiðlarekjara
+       *[other] { -brand-product-name } lokaði á { $count } samfélagsmiðlarekjara
+    }
+trustpanel-social-tracking-not-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } leyfði { $count } samfélagsmiðlarekjara
+       *[other] { -brand-product-name } leyfði { $count } samfélagsmiðlarekjara
+    }
+trustpanel-tracking-cookies-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } lokaði á { $count } rekjara þvert á vefsvæði
+       *[other] { -brand-product-name } lokaði á { $count } rekjara þvert á vefsvæði
+    }
+trustpanel-tracking-cookies-not-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } leyfði { $count } rekjara þvert á vefsvæði
+       *[other] { -brand-product-name } leyfði { $count } rekjara þvert á vefsvæði
+    }
+trustpanel-tracking-content-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } lokaði á { $count } rekjara
+       *[other] { -brand-product-name } lokaði á { $count } rekjara
+    }
+trustpanel-tracking-content-not-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } leyfði { $count } rekjara
+       *[other] { -brand-product-name } leyfði { $count } rekjara
+    }
+trustpanel-tracking-content-tab-list-header = Þessi vefsvæði eru að reyna að rekja ferðir þínar:
+trustpanel-fingerprinter-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } lokaði á { $count } fingrafarasafnara
+       *[other] { -brand-product-name } lokaði á { $count } fingrafarasafnara
+    }
+trustpanel-fingerprinter-not-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } leyfði { $count } fingrafarasafnara
+       *[other] { -brand-product-name } leyfði { $count } fingrafarasafnara
+    }
+trustpanel-fingerprinter-list-header = Þessi vefsvæði eru að reyna að gera fingrafar af þér:
+trustpanel-cryptominer-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } lokaði á { $count } rafmyntagrafara
+       *[other] { -brand-product-name } lokaði á { $count } rafmyntagrafara
+    }
+trustpanel-cryptominer-not-blocking-tab-header =
+    { $count ->
+        [one] { -brand-product-name } leyfði { $count } rafmyntagrafara
+       *[other] { -brand-product-name } leyfði { $count } rafmyntagrafara
+    }
+trustpanel-cryptominer-tab-list-header = Þessi vefsvæði eru að reyna að grafa eftir rafmyntum hjá þér:
+trustpanel-breachalerts-anonymous-breached-button-dismiss = Afgreiða
+reduced-protection-infobar-reload-button = Endurhlaða
+    .accesskey = r
+reduced-protection-infobar-never-show-button = Ekki sýna þetta aftur
+    .accesskey = f

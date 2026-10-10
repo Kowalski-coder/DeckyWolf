@@ -1,0 +1,15 @@
+panic-button-open-new-window = In nij finster iepenje
+panic-button-undo-warning = Dizze aksje kin net ûngedien makke wurde.
+panic-button-forget-button =
+    .label = Ferjit!
+panic-main-timeframe-desc = Ferjit:
+panic-button-5min =
+    .label = Lêste fiif minuten
+panic-button-2hr =
+    .label = Lêste twa oeren
+panic-button-day =
+    .label = Lêste 24 oeren
+panic-button-action-desc = Trochgean sil:
+panic-button-delete-cookies = Resinte <strong>cookies</strong> fuortsmite
+panic-button-delete-history = Resinte <strong>skiednis</strong> fuortsmite
+panic-button-delete-tabs-and-windows = Alle <strong>ljepblêden</strong> en <strong>finsters</strong> slute

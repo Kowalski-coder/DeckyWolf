@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } сіздің негізгі іздеу жүйесін { $currentEngine } мәнінен { $newEngine } мәніне орнатқысы келеді. Бұл дұрыс па?
+webext-default-search-yes =
+    .label = Иә
+    .accesskey = И
+webext-default-search-no =
+    .label = Жоқ
+    .accesskey = Ж
+addon-post-install-message = { $addonName } қосылды.
+webext-quarantine-confirmation-title = { $addonName } кеңейтуін шектелген сайттарда орындау керек пе?
+webext-quarantine-confirmation-line-1 = Сіздің деректеріңізді қорғау үшін, бұл сайтта бұл кеңейтуге рұқсат етілмейді.
+webext-quarantine-confirmation-line-2 = { -vendor-short-name } арқылы шектелген сайттардағы деректеріңізді оқуға және өзгертуге бұл кеңейтуге сенімді болсаңыз, рұқсат беріңіз.
+webext-quarantine-confirmation-allow =
+    .label = Рұқсат ету
+    .accesskey = а
+webext-quarantine-confirmation-deny =
+    .label = Рұқсат етпеу
+    .accesskey = п

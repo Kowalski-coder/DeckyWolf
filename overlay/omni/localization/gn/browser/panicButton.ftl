@@ -1,0 +1,15 @@
+panic-button-open-new-window = Eipe’a ovetã pyahu nandíva
+panic-button-undo-warning = Ko tembiapo ndaikatúi emboguevi.
+panic-button-forget-button =
+    .label = ¡Ereko hag̃ua!
+panic-main-timeframe-desc = Eñembyesarái ahasava’ekuégui:
+panic-button-5min =
+    .label = Po aravo’i
+panic-button-2hr =
+    .label = Mokõi aravo
+panic-button-day =
+    .label = 24 aravo
+panic-button-action-desc = Ojapohína péicha:
+panic-button-delete-cookies = Emboguete <strong>Cookie</strong>ramoguáva
+panic-button-delete-history = Emboguete <strong>Tembiasakue</strong>ramoguáva
+panic-button-delete-tabs-and-windows = Embotypa <strong>Tendayke</strong> ha <strong>Ovetã</strong>

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = යෙදුමේ විස්තර
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ඉවත් කරන්න
+    .accesskey = R
+app-manager-handle-protocol = { $type } සබැඳි හැසිරවීමට පහත යෙදුම් භාවිතා කළ හැකිය.
+app-manager-handle-file = { $type } අන්තර්ගතය හැසිරවීමට පහත යෙදුම් භාවිතා කළ හැකිය.
+app-manager-web-app-info = මෙම වියමන යෙදුම සඳහා සත්කාරකත්වය දරන්නේ:
+app-manager-local-app-info = මෙම යෙදුම ස්ථානගත කර තිබෙන්නේ:

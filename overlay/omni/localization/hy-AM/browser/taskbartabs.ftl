@@ -1,0 +1,14 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Ավելացնել ներդիրը խնդրագոտիում
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Հեռացնել ներդիրը խնդրագոտուց
+taskbar-tab-shortcut-description = { $name } վեբ հավելված
+taskbar-tab-shortcut-folder = { -brand-short-name } վեբ հավելվածներ
+taskbar-tab-audio-mute =
+    .tooltiptext = Լռեցնել ներդիրը
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ապալռեցնել ներդիրը
+taskbar-tab-title-default = { $name }՝ { -brand-full-name }-ում
+taskbar-tab-title-container = { $name } ({ $container })՝ { -brand-full-name }-ում
+taskbar-tab-title-profile = { $name }՝ { $profile }-ում․ { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container })՝ { $profile }-ում․ { -brand-full-name }

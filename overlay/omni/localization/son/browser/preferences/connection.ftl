@@ -1,0 +1,35 @@
+connection-window2 =
+    .style =
+        { PLATFORM() ->
+            [macos] min-width: 44em
+           *[other] min-width: 49em
+        }
+    .title = Ciyari kayandiyaney
+connection-close-key =
+    .key = w
+connection-proxy-option-no =
+    .label = Tokore ši
+    .accesskey = k
+connection-proxy-option-system =
+    .label = Dabariɲaa tokore kayandiyaney goyandi
+    .accesskey = g
+connection-proxy-option-auto =
+    .label = Tokore kayandiyaney boŋ honnay sankaa woo se
+    .accesskey = k
+connection-proxy-socks4 =
+    .label = SOCKS v4
+    .accesskey = K
+connection-proxy-socks5 =
+    .label = SOCKS v5
+    .accesskey = v
+connection-proxy-noproxy-desc = Sanda: .mozilla.org, .net.nz, 192.168.1.0/24
+connection-proxy-reload =
+    .label = Zumandi taaga
+    .accesskey = t
+connection-proxy-autologin-checkbox =
+    .label = Ma ši hãa y'ay boŋ bayrandi nda šennikufaloo gaabundi
+    .tooltiptext = Suubaroo ka monno ka war šilbay feršikaw tokorey kaŋyaŋ se war na tammaasayaŋ gaabu se. War ga duu alhabar nd'a mana tabatandi.
+    .accesskey = i
+connection-proxy-socks-remote-dns =
+    .label = DNS tokore SOCKS v5 goyyan waate
+    .accesskey = d

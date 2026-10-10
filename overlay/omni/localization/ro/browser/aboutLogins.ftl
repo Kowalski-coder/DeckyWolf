@@ -1,0 +1,248 @@
+about-logins-page-title-name = Parole
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Caută parole
+create-login-button =
+    .title = Adaugă o parolă
+fxaccounts-sign-in-text = Obține parolele de pe celelalte dispozitive
+fxaccounts-sign-in-sync-button = Intră în cont pentru sincronizare
+fxaccounts-avatar-button =
+    .title = Gestionează contul
+menu =
+    .title = Deschide meniul
+about-logins-menu-menuitem-import-from-another-browser = Importă dintr-un alt browser…
+about-logins-menu-menuitem-import-from-a-file = Importă dintr-un fișier…
+about-logins-menu-menuitem-export-logins2 = Exportă parolele…
+about-logins-menu-menuitem-remove-all-logins2 = Elimină toate parolele…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opțiuni
+       *[other] Preferințe
+    }
+about-logins-menu-menuitem-help = Ajutor
+login-list =
+    .aria-label = Date de autentificare corespondente criteriilor de căutare
+login-list-count2 =
+    { $count ->
+        [one] { $count } parolă
+        [few] { $count } parole
+       *[other] { $count } de parole
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } din { $total } parolă
+        [few] { $count } din { $total } parole
+       *[other] { $count } din { $total } de parole
+    }
+login-list-sort-label-text = Sortează după:
+login-list-name-option = Nume (A-Z)
+login-list-name-reverse-option = Nume (Z-A)
+login-list-username-option = Nume de utilizator (A-Z)
+login-list-username-reverse-option = Nume de utilizator (Z-A)
+about-logins-login-list-alerts-option = Alerte
+login-list-last-changed-option = Ultima modificare
+login-list-last-used-option = Ultima utilizare
+login-list-intro-title2 = Nu au fost salvate parole
+login-list-intro-description = Când salvezi o parolă în { -brand-product-name }, va apărea aici.
+about-logins-login-list-empty-search-title2 = Nu s-au găsit parole
+about-logins-login-list-empty-search-description = Nu există rezultate care să corespundă căutării.
+login-list-item-title-new-login2 = Adaugă parola
+login-list-item-subtitle-missing-username = (niciun nume de utilizator)
+about-logins-list-item-breach-icon =
+    .title = Site web a cărui securitate a fost încălcată
+about-logins-list-item-vulnerable-password-icon =
+    .title = Parolă vulnerabilă
+about-logins-list-section-breach = Site web a cărui securitate a fost încălcată
+about-logins-list-section-vulnerable = Parole vulnerabile
+about-logins-list-section-nothing = Nicio alertă
+about-logins-list-section-today = Astăzi
+about-logins-list-section-yesterday = Ieri
+about-logins-list-section-week = Ultimele 7 zile
+about-logins-login-intro-heading-message = Salvează-ți parolele într-un loc sigur
+login-intro-description2 = Toate parolele pe care le salvezi în { -brand-product-name } sunt criptate. În plus, suntem atenți la încălcarea securității datelor și te alertăm dacă te afectează. <a data-l10n-name="breach-alert-link">Află mai multe</a>
+login-intro-instructions-fxa2 = Fă-ți un cont sau intră în contul tău de pe dispozitivul pe care sunt salvate datele de autentificare.
+login-intro-instructions-fxa-settings = Mergi la Setări > Sincronizare > Activează sincronizarea… Bifează caseta de selectare Date de autentificare și parole.
+login-intro-instructions-fxa-passwords-help = Intră pe<a data-l10n-name="passwords-help-link">asistență pentru parole</a> pentru mai mult ajutor.
+about-logins-intro-import3 = Selectează butonul cu semnul plus de mai sus ca să adaugi acum o parolă. Poți și <a data-l10n-name="import-browser-link">importa parole dintr-un alt browser</a> sau <a data-l10n-name="import-file-link">dintr-un fișier</a>.
+about-logins-login-item-new-login-title = Adaugă parolă
+login-item-edit-button = Editează
+about-logins-login-item-remove-button = Elimină
+login-item-origin-label = Adresa site-ului web
+about-logins-origin-tooltip2 = Introdu adresa completă și asigură-te că este exact cea unde te autentifici.
+about-logins-edit-password-tooltip = Asigură-te că salvezi parola actuală pentru acest site. Schimbarea parolei aici nu o va schimba și pentru { $webTitle }.
+about-logins-add-password-tooltip = Asigură-te că salvezi parola actuală pentru acest site.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Nume de utilizator
+about-logins-login-item-username =
+    .placeholder = (lipsă nume de utilizator)
+login-item-copy-username-button-text = Copiază
+login-item-copied-username-button-text = Copiat!
+login-item-password-label = Parolă
+login-item-password-reveal-checkbox =
+    .aria-label = Afișează parola
+login-item-password-conceal-checkbox =
+    .aria-label = Ascunde parola
+login-item-copy-password-button-text = Copiază
+login-item-copied-password-button-text = Copiată!
+about-logins-login-item-save-changes-button = Salvează
+login-item-save-new-button = Salvează
+login-item-cancel-button = Anulează
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Creată
+login-item-timeline-action-updated = Actualizată
+login-item-timeline-action-used = Folosită
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] schimbă setările pentru parole
+       *[other] { -brand-short-name } încearcă să schimbe setările pentru parole. Folosește autentificarea pe dispozitiv ca să permiți acțiunea.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Pentru editarea parolei, introdu datele de autentificare în Windows. Te ajută la protejarea securității conturilor.
+about-logins-edit-login-os-auth-dialog-message2-macosx = editează parola salvată
+about-logins-reveal-password-os-auth-dialog-message-win = Pentru a vedea parola, introdu datele de autentificare în Windows. Te ajută la protejarea securității conturilor.
+about-logins-reveal-password-os-auth-dialog-message-macosx = afișează parola salvată
+about-logins-copy-password-os-auth-dialog-message-win = Pentru copierea parolei, introdu datele de autentificare în Windows. Te ajută la protejarea securității conturilor.
+about-logins-copy-password-os-auth-dialog-message-macosx = copiază parola salvată
+about-logins-export-password-os-auth-dialog-message2-win = Pentru exportul parolelor, introdu datele de autentificare în Windows. Te ajută la protejarea securității conturilor.
+about-logins-export-password-os-auth-dialog-message2-macosx = exportă parolele salvate
+about-logins-primary-password-notification-message = Te rugăm să îți introduci parola primară pentru a vedea datele de autentificare și parolele salvate
+master-password-reload-button =
+    .label = Intră în cont
+    .accesskey = L
+confirmation-dialog-cancel-button = Anulează
+confirmation-dialog-dismiss-button =
+    .title = Anulează
+about-logins-confirm-delete-dialog-title = Elimini parola?
+about-logins-confirm-delete-dialog-message = Acțiunea este ireversibilă.
+about-logins-confirm-remove-dialog-confirm-button = Elimină
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Elimină
+        [one] Elimină
+        [few] Elimină-le pe toate
+       *[other] Elimină-le pe toate
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Da, elimină parola
+       *[other] Yes, remove passwords
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Elimini { $count } parolă?
+        [few] Elimini { $count } parole?
+       *[other] Elimini { $count } de parole?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Vei elimina parola salvată pentru { -brand-short-name } și orice alerte de încălcare a securității datelor. Acțiunea este ireversibilă.
+       *[other] Vei elimina parola salvată pentru { -brand-short-name } și orice alerte de încălcare a securității datelor. Acțiunea este ireversibilă.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Elimini { $count } parolă de pe toate dispozitivele?
+        [few] Elimini { $count } parole de pe toate dispozitivele?
+       *[other] Elimini { $count } de parole de pe toate dispozitivele?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Vei elimina parola salvată în { -brand-short-name } și pe toate dispozitivele sincronizate. Vei elimina și orice alerte de încălcare a securității datelor care apar aici. Acțiunea este ireversibilă.
+       *[other] Vei elimina parola salvată în { -brand-short-name } și pe toate dispozitivele sincronizate. Vei elimina și orice alerte de încălcare a securității datelor care apar aici. Acțiunea este ireversibilă.
+    }
+about-logins-confirm-export-dialog-title2 = O notă despre exportarea parolelor
+about-logins-confirm-export-dialog-message2 =
+    La export, parolele sunt salvate într-un fișier cu text lizibil.
+    Când ai terminat de folosit fișierul, îți recomandăm să îl elimini pentru ca alții care folosesc acest dispozitiv să nu îți vadă parolele.
+about-logins-confirm-export-dialog-confirm-button2 = Continuă exportul
+about-logins-alert-import-message = Vezi sumarul detaliat al importării
+confirm-discard-changes-dialog-title = Înlături modificările nesalvate?
+confirm-discard-changes-dialog-message = Toate modificările nesalvate vor fi pierdute.
+confirm-discard-changes-dialog-confirm-button = Înlătură
+about-logins-breach-alert-title = Încălcare a securității datelor în cazul unui site web
+breach-alert-text = Parolele au fost divulgate sau furate de pe acest site web după ce ți-ai actualizat ultima oară datele de autentificare. Schimbă parola ca să îți protejezi contul.
+about-logins-breach-alert-date = Această încălcare a securității datelor a avut loc la data de { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Mergi la { $hostname }
+about-logins-vulnerable-alert-title = Parolă vulnerabilă
+about-logins-vulnerable-alert-text2 = Parola a fost folosită pentru un alt cont implicat, cel mai probabil, într-o încălcare a securității datelor. Refolosirea datelor de autentificare îți va pune contul în pericol. Schimbă parola.
+about-logins-vulnerable-alert-link = Mergi la { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Află mai multe
+about-logins-error-message-duplicate-login-with-link = Deja există o intrare pentru { $loginTitle } cu acest nume de utilizator. <a data-l10n-name="duplicate-link">Mergi la intrarea existentă?</a>
+about-logins-error-message-default = A apărut o eroare la încercarea de salvare a acestei parole.
+about-logins-export-file-picker-title2 = Exportă parolele din { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = parole.csv
+about-logins-export-file-picker-export-button = Exportă
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV
+       *[other] Fișier CSV
+    }
+about-logins-import-file-picker-title2 = Importă parolele în { -brand-short-name }
+about-logins-import-file-picker-import-button = Importă
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV
+       *[other] Fișier CSV
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Document TSV
+       *[other] Fișier TSV
+    }
+about-logins-import-dialog-title = Importare finalizată
+about-logins-import-dialog-items-added2 =
+    { $count ->
+       *[other] <span>Parole noi adăugate:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+       *[other] <span>Intrări existente actualizate:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+       *[other] <span>Intrări duplicate găsite:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(neimportate)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>Erori:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nu importate)</span>
+    }
+about-logins-import-dialog-done = Terminat
+about-logins-import-dialog-error-title = Eroare la importare
+about-logins-import-dialog-error-conflicting-values-title = Mai multe valori conflictuale pentru un singur set de date de autentificare
+about-logins-import-dialog-error-conflicting-values-description = De exemplu: mai multe nume de utilizator, parole, adrese URL-uri etc. pentru pentru un singur set de date de autentificare.
+about-logins-import-dialog-error-file-format-title = Problemă cu formatul fișierului
+about-logins-import-dialog-error-file-format-description = Anteturi de coloană incorecte sau lipsă. Asigură-te că fișierul include coloane pentru nume de utilizator, parolă și URL.
+about-logins-import-dialog-error-file-permission-title = Fișierul nu poate fi citit
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } nu are permisiunea de a citi fișierul. Încearcă să schimbi permisiunile pentru fișiere.
+about-logins-import-dialog-error-unable-to-read-title = Fișierul nu poate fi analizat
+about-logins-import-dialog-error-unable-to-read-description = Asigură-te că ai selectat un fișier CSV sau TSV.
+about-logins-import-dialog-error-no-logins-imported = Nu au fost importate date de autentificare
+about-logins-import-dialog-error-learn-more = Află mai multe
+about-logins-import-dialog-error-try-import-again = Încearcă să imporți din nou…
+about-logins-import-dialog-error-cancel = Anulează
+about-logins-import-report-title = Sumar de importare
+about-logins-import-report-description2 = Parole importate în { -brand-short-name }.
+about-logins-import-report-row-index = Rândul { $number }
+about-logins-import-report-row-description-no-change2 = Duplicat: Potrivire exactă cu o intrare existentă
+about-logins-import-report-row-description-modified2 = Intrare existentă actualizată
+about-logins-import-report-row-description-added2 = Parolă nouă adăugată
+about-logins-import-report-row-description-error = Eroare: Câmp lipsă
+about-logins-import-report-row-description-error-multiple-values = Eroare: Valori multiple pentru { $field }
+about-logins-import-report-row-description-error-missing-field = Eroare: Lipsește { $field }
+about-logins-import-report-added2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Parole noi adăugate</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Intrări existente adăugate</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Intrări duplicate</div> <div data-l10n-name="not-imported">(nu importate)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Erori</div> <div data-l10n-name="not-imported">(nu importate)</div>
+    }
+about-logins-import-report-page-title = Raportul sumarului de importare

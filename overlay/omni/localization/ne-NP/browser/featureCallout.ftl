@@ -1,0 +1,17 @@
+callout-primary-advance-button-label = अर्को
+callout-primary-complete-button-label = बुझे!
+callout-firefox-view-tab-pickup-title = ट्याब पिकअपको साथ यन्त्रहरू बीच हप गर्नुहोस्
+callout-firefox-view-tab-pickup-subtitle = आफ्नो फोनबाट खुला ट्याबहरू द्रुत रूपमा समात्नुहोस् र अधिकतम प्रवाहको लागि तिनीहरूलाई यहाँ खोल्नुहोस्।
+callout-firefox-view-recently-closed-title = एकैछिनमा आफ्नो बन्द ट्याबहरू फिर्ता लिनुहोस्
+callout-firefox-view-recently-closed-subtitle = तपाईंका सबै बन्द ट्याबहरू जादुई रूपमा यहाँ देखिनेछन्। गल्तिले फेरि साइट बन्द गर्ने बारे कहिल्यै चिन्ता नगर्नुहोस्।
+continuous-onboarding-firefox-view-tab-pickup-title = ट्याब पिकअपको साथ आफ्नो ब्राउजिङ बढाउनुहोस्
+continuous-onboarding-firefox-view-tab-pickup-subtitle = कुनै पनि उपकरणबाट आफ्नो खुला ट्याबहरू पहुँच गर्नुहोस्। साथै आफ्नो बुकमार्क, पासवर्ड, र थप सिंक गर्नुहोस्।
+continuous-onboarding-firefox-view-tab-pickup-primary-button-label = सुरु गर्नुहोस्
+callout-pdfjs-edit-title = हाम्रो नयाँ पाठ उपकरणको साथ PDF हरू सम्पादन गर्नुहोस्
+callout-pdfjs-edit-body-a = फारमहरू भर्नुहोस्, टिप्पणीहरू थप्नुहोस्, वा सीधै { -brand-short-name } मा नोटहरू लिनुहोस्।
+callout-pdfjs-edit-body-b = नि: शुल्क अनलाइन सम्पादकहरूको खोजी छोड्नुहोस्। फारमहरू भर्नुहोस्, टिप्पणीहरू थप्नुहोस्, वा सीधै { -brand-short-name } मा नोटहरू लिनुहोस्।
+callout-pdfjs-edit-button = अर्को
+callout-pdfjs-draw-title = हाम्रो नयाँ ड्र उपकरणको साथ कागजातहरूमा हस्ताक्षर गर्नुहोस्
+callout-pdfjs-draw-body-a = PDF मा चिन्ह लगाउनुहोस्, त्यसपछि आफ्नो परिवर्तनहरू बचत गर्नुहोस्।
+callout-pdfjs-draw-body-b = थप मुद्रण र स्क्यानिङ छैन। PDF मा चिन्ह लगाउनुहोस्, त्यसपछि आफ्नो परिवर्तनहरू बचत गर्नुहोस्।
+callout-pdfjs-draw-button = बुझे!

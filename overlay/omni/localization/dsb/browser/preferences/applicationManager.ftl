@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Drobnostki nałoženja
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Wótpóraś
+    .accesskey = W
+app-manager-handle-protocol = Slědujuce nałoženja daju se wužywaś, aby z { $type } wótkaze wobchadali.
+app-manager-handle-file = Slědujuce nałoženja daju se wužywaś, aby z { $type } wopśimjeśe wobchadali.
+app-manager-web-app-info = Toś to webnałoženje jo zaměstnjone na:
+app-manager-local-app-info = Toś to webnałoženje jo na:

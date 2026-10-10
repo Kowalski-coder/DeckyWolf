@@ -1,0 +1,24 @@
+confirmation-hint-extensions-button-hidden = Do menija přesunjeny
+confirmation-hint-password-removed = Hesło je so wotstroniło!
+confirmation-hint-page-bookmarked = Do zapołožkow składowane
+confirmation-hint-password-created = Hesło je so składowało
+confirmation-hint-password-updated = Hesło je so zaktualizowało
+confirmation-hint-address-created = Adresa je so składowała
+confirmation-hint-address-updated = Adresa je so zaktualizowała
+confirmation-hint-credit-card-created = Karta je so składowała
+confirmation-hint-credit-card-updated = Karta je so zaktualizowała
+confirmation-hint-passport-created = Pućowanski pas je so składował
+confirmation-hint-passport-updated = Pućowanski pas je so aktualizował
+confirmation-hint-pin-tab = Připjaty!
+confirmation-hint-pin-tab-description = Klikńće z prawej tastu, zo byšće jón wotpjał.
+confirmation-hint-send-to-device = Pósłany!
+confirmation-hint-firefox-relay-mask-created = Nowa maska je so wutworiła!
+confirmation-hint-firefox-relay-mask-reused = Eksistowaca maska wužita!
+confirmation-hint-screenshot-copied = Foto wobrazowki kopěrowane!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] { $tabCount } rajtark začinjeny
+        [two] { $tabCount } rajtarkaj začinjenej
+        [few] { $tabCount } rajtarki začinjene
+       *[other] { $tabCount } rajtarkow začinjene
+    }

@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (pa titull)
+places-load-js-data-url-error = Për arsye sigurie, URL të formës “javascript:” apo “data:” nuk mund të ngarkohen prej dritares apo anështyllës së historikut.
+places-bookmarks-backup-title = Emër kartele kopjeruajtjeje faqerojtësish
+places-bookmarks-restore-alert-title = Riktheni Faqerojtësit
+places-bookmarks-restore-alert = Në këtë mënyrë do të zëvendësohen tërë faqerojtësit tuaj të tanishëm me ata të kopjeruajtjes. Jeni i sigurt?
+places-bookmarks-restore-title = Përzgjidhni një kopjeruajtje faqerojtësish
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Lloj kartele i pambuluar.
+places-bookmarks-restore-parse-error = S’arrihet të përpunohet kartela kopjeruajtjeje.
+places-bookmarks-import = Importoni Kartelë Faqerojtësish
+places-bookmarks-export = Eksportoni Kartelë Faqerojtësish
+places-bookmarks-paste-error-title = U gjet URL(ra) të pavlefshme
+places-bookmarks-paste-error-message-header = URL-ja(të) vijuese s’u shtua dot te faqerojtësit tuaj. Provoni të kontrolloni formatimin dhe të riprovoni.

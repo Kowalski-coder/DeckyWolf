@@ -1,0 +1,33 @@
+#!/bin/sh
+CURRENTDIR="$(dirname "$(readlink -f "$0")")"
+export PATH="${CURRENTDIR}/usr/bin:${PATH}"
+export MOZ_LEGACY_PROFILES=1          # Prevent per installation profiles
+export MOZ_APP_LAUNCHER="${APPIMAGE}" # Allows setting as default browser
+
+# Start background controller daemon
+if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
+    "${CURRENTDIR}/usr/bin/deckywolf-controller" &
+    CONTROLLER_PID=$!
+    cleanup() {
+        if [ -n "${CONTROLLER_PID}" ]; then
+            kill "${CONTROLLER_PID}" 2>/dev/null
+        fi
+    }
+    trap cleanup EXIT INT TERM
+fi
+
+# Ensure LD_PRELOAD path has no spaces (AppImage path might contain spaces)
+if [ -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" ]; then
+    cp -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" /tmp/deckywolf-hook.so 2>/dev/null
+    if [ -n "${LD_PRELOAD}" ]; then
+        export LD_PRELOAD="/tmp/deckywolf-hook.so:${LD_PRELOAD}"
+    else
+        export LD_PRELOAD="/tmp/deckywolf-hook.so"
+    fi
+fi
+
+"${CURRENTDIR}/usr/bin/deckywolf" "$@"
+EXIT_CODE=$?
+
+cleanup 2>/dev/null
+exit ${EXIT_CODE}

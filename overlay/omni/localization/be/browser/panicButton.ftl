@@ -1,0 +1,15 @@
+panic-button-open-new-window = Адкрыць новае чыстае акно
+panic-button-undo-warning = Гэта дзеянне нельга адмяніць.
+panic-button-forget-button =
+    .label = Забыцца!
+panic-main-timeframe-desc = Забыцца пра апошнія:
+panic-button-5min =
+    .label = Пяць хвілін
+panic-button-2hr =
+    .label = Дзве гадзіны
+panic-button-day =
+    .label = 24 гадзіны
+panic-button-action-desc = Пры гэтым будуць:
+panic-button-delete-cookies = Выдалены апошнія <strong>Кукі</strong>
+panic-button-delete-history = Выдалена нядаўняя <strong>Гісторыя</strong>
+panic-button-delete-tabs-and-windows = Закрыты ўсе <strong>Карткі</strong> і <strong>Вокны</strong>

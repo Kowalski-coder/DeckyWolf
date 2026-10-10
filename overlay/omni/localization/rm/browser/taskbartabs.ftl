@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Agiuntar il tab a la taskbar
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Allontanar il tab da la taskbar
+taskbar-tab-urlbar-button-show = Mussar l’acziun da la pagina per app web
+taskbar-tab-urlbar-button-hide = Zuppentar l’acziun da la pagina per app web
+taskbar-tab-shortcut-description = App web { $name }
+taskbar-tab-shortcut-folder = Apps web da { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Deactivar il tun dal tab
+taskbar-tab-audio-unmute =
+    .tooltiptext = Reactivar il tun dal tab
+taskbar-tab-title-default = { $name } en { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) en { -brand-full-name }
+taskbar-tab-title-profile = { $name } en { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) en { $profile } – { -brand-full-name }

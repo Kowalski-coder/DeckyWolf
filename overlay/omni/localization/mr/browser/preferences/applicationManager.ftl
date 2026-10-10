@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ॲप्लिकेशन तपशील
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = काढून टाका
+    .accesskey = R
+app-manager-handle-protocol = खालिल ॲप्लिकेशन्सचा वापर { $type } लिंक हाताळणीकरिता केला जाऊ शकतो.
+app-manager-handle-file = खालिल ॲप्लिकेशन्सचा वापर { $type } अंतर्भुत माहिती हाताळणीकरिता केला जाऊ शकतो.
+app-manager-web-app-info = हे वेब ॲप्लिकेशन येथे स्थायीत केले आहे:
+app-manager-local-app-info = हा ॲप्लिकेशन येथे स्थायीत केले आहे:

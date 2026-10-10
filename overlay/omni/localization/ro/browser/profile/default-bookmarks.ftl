@@ -1,0 +1,14 @@
+default-bookmarks-title = Marcaje
+default-bookmarks-heading = Marcaje
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Obține ajutor
+default-bookmarks-firefox-customize = Personalizează Firefox
+default-bookmarks-firefox-community = Implică-te
+default-bookmarks-firefox-about = Despre noi
+default-bookmarks-nightly-heading = Resurse Firefox Nightly
+default-bookmarks-nightly-blog = Blogul Firefox Nightly
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Instrumente de testare Nightly
+default-bookmarks-crashes = Toate închiderile neașteptate
+default-bookmarks-planet = Planeta Mozilla

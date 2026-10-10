@@ -1,0 +1,14 @@
+default-bookmarks-title = Хатбаракҳо
+default-bookmarks-heading = Хатбаракҳо
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Гирифтани кумак
+default-bookmarks-firefox-customize = Фармоишдиҳии Firefox
+default-bookmarks-firefox-community = Ҳамроҳ шавед
+default-bookmarks-firefox-about = Дар бораи мо
+default-bookmarks-nightly-heading = Манбаъҳои «Firefox Nightly»
+default-bookmarks-nightly-blog = Блоги «Firefox Nightly»
+default-bookmarks-bugzilla = Пайгирикунандаи нуқсонҳои Mozilla
+default-bookmarks-mdn = Шабакаи барномарезии Mozilla
+default-bookmarks-nightly-tester-tools = Абзорҳои санҷиши нашри «Firefox Nightly»
+default-bookmarks-crashes = Ҳамаи вайрониҳои браузери шумо
+default-bookmarks-planet = Сайёраи Mozilla

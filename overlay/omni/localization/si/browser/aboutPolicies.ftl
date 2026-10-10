@@ -1,0 +1,15 @@
+about-policies-title = ව්‍යවසාය ප්‍රතිපත්ති
+active-policies-tab = සක්‍රිය
+errors-tab = දෝෂ
+documentation-tab = ප්‍රලේඛනය
+active-policies-tab-title =
+    .title = සක්‍රිය
+errors-tab-title =
+    .title = දෝෂ
+documentation-tab-title =
+    .title = ප්‍රලේඛනය
+no-specified-policies-message = ව්‍යවසාය ප්‍රතිපත්ති සේවාව සක්‍රිය නමුත් සබල කළ ප්‍රතිපත්ති නැත.
+inactive-message = ව්‍යවසාය ප්‍රතිපත්ති සේවාව අක්‍රියයි.
+policy-name = ප්‍රතිපත්ති නාමය
+policy-value = ප්‍රතිපත්ති අගය
+policy-errors = ප්‍රතිපත්ති දෝෂ

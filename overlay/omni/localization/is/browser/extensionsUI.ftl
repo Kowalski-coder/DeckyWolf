@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } vill breyta sjálfgefnu leitarvélinni þinni úr { $currentEngine } yfir í { $newEngine }. Er það í lagi?
+webext-default-search-yes =
+    .label = Já
+    .accesskey = J
+webext-default-search-no =
+    .label = Nei
+    .accesskey = N
+addon-post-install-message = { $addonName } var bætt við.
+webext-quarantine-confirmation-title = Keyra { $addonName } á takmörkuðum vefsvæðum?
+webext-quarantine-confirmation-line-1 = Til að vernda gögnin þín er þessi forritsauki ekki leyfður á þessu vefsvæði.
+webext-quarantine-confirmation-line-2 = Leyfðu þennan forritsauka ef þú treystir honum til að lesa og breyta gögnum þínum á vefsvæðum sem eru takmörkuð af { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Leyfa
+    .accesskey = a
+webext-quarantine-confirmation-deny =
+    .label = Ekki leyfa
+    .accesskey = k

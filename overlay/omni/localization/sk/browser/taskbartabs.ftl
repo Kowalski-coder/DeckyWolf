@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Pridať kartu na panel úloh
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Odstrániť kartu z panela úloh
+taskbar-tab-urlbar-button-show = Akcia stránky Zobraziť webovú aplikáciu
+taskbar-tab-urlbar-button-hide = Akcia stránky Skryť webovú aplikáciu
+taskbar-tab-shortcut-description = Webová aplikácia { $name }
+taskbar-tab-shortcut-folder = Webové aplikácie { -brand-short-name(case: "gen") }
+taskbar-tab-audio-mute =
+    .tooltiptext = Stlmiť zvuk na karte
+taskbar-tab-audio-unmute =
+    .tooltiptext = Zapnúť zvuk na karte
+taskbar-tab-title-default = { $name } vo { -brand-full-name(case: "loc") }
+taskbar-tab-title-container = { $name } ({ $container }) vo { -brand-full-name(case: "loc") }
+taskbar-tab-title-profile = { $name } v profile { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) v profile { $profile } — { -brand-full-name }

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Lap hozzáadása a tálcához
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Lap eltávolítása a tálcáról
+taskbar-tab-urlbar-button-show = Webalkalmazás oldalműveleteinek megjelenítése
+taskbar-tab-urlbar-button-hide = Webalkalmazás oldalműveleteinek elrejtése
+taskbar-tab-shortcut-description = { $name } webalkalmazás
+taskbar-tab-shortcut-folder = { -brand-short-name } webalkalmazások
+taskbar-tab-audio-mute =
+    .tooltiptext = Lap némítása
+taskbar-tab-audio-unmute =
+    .tooltiptext = Lap némításának feloldása
+taskbar-tab-title-default = { $name } a { -brand-full-name }ban
+taskbar-tab-title-container = { $name } ({ $container }) a { -brand-full-name }ban
+taskbar-tab-title-profile = { $name } ebben: { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) ebben: { $profile } – { -brand-full-name }

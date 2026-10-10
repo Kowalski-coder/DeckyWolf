@@ -1,0 +1,112 @@
+about-logins-page-title-name = पासवर्ड
+fxaccounts-sign-in-text = अपने पासवर्ड को अपने अन्य उपकरणों पर प्राप्त करें
+fxaccounts-sign-in-sync-button = सिंक करने के लिए साइन इन करें
+fxaccounts-avatar-button =
+    .title = खाता प्रबंधित करें
+menu =
+    .title = मेन्यू खोलें
+about-logins-menu-menuitem-import-from-another-browser = दूसरे ब्राउज़र से आयात करें…
+about-logins-menu-menuitem-import-from-a-file = इस फ़ाइल से आयात करें…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] विकल्प
+       *[other] प्राथमिकताएँ
+    }
+about-logins-menu-menuitem-help = सहायता
+login-list =
+    .aria-label = खोजे गए प्रश्न से मेल खाते लॉगिन
+login-list-sort-label-text = इसके अनुसार:
+login-list-name-option = नाम (A-Z)
+login-list-name-reverse-option = नाम (Z-A)
+login-list-username-option = उपयोगकर्ता नाम (A-Z)
+login-list-username-reverse-option = उपयोगकर्ता नाम (Z-A)
+about-logins-login-list-alerts-option = चेतावनी
+login-list-last-changed-option = अंतिम परिवर्तन
+login-list-last-used-option = अंतिम प्रयुक्त
+login-list-intro-description = जब आप { -brand-product-name } में पासवर्ड सहेजते हैं, तो वह यहाँ दिखाई देगा।
+about-logins-login-list-empty-search-description = आपकी खोज के अनुरूप कोई परिणाम नहीं मिला है।
+login-list-item-subtitle-missing-username = (कोई उपयोगकर्ता नाम नहीं)
+about-logins-list-item-breach-icon =
+    .title = उलंघित वेबसाइट
+about-logins-list-item-vulnerable-password-icon =
+    .title = असुरक्षित पासवर्ड
+about-logins-list-section-breach = उलंघित वेबसाइटें
+about-logins-list-section-vulnerable = असुरक्षित पासवर्ड
+about-logins-list-section-today = आज
+about-logins-list-section-yesterday = कल
+about-logins-list-section-week = पिछले 7 दिन
+login-item-edit-button = संपादित करें
+about-logins-login-item-remove-button = हटाएँ
+login-item-origin-label = वेबसाइट का पता
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = उपयोक्ता नाम
+about-logins-login-item-username =
+    .placeholder = (कोई उपयोक्तानाम नहीं)
+login-item-copy-username-button-text = कॉपी करें
+login-item-copied-username-button-text = कॉपी हो गया!
+login-item-password-label = पासवर्ड
+login-item-password-reveal-checkbox =
+    .aria-label = पासवर्ड दिखाएं
+login-item-password-conceal-checkbox =
+    .aria-label = पासवर्ड छिपाएं
+login-item-copy-password-button-text = कॉपी करें
+login-item-copied-password-button-text = कॉपी हो गया!
+login-item-save-new-button = सहेजें
+login-item-cancel-button = रद्द करें
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-edit-login-os-auth-dialog-message2-macosx = सहेजे गए पासवर्ड को संपादित करें
+about-logins-reveal-password-os-auth-dialog-message-win = अपना पासवर्ड देखने के लिए, अपनी Windows लॉगिन क्रेडेंशियल्स दर्ज करें। यह आपके खातों की सुरक्षा को बनाए रखने में मदद करता है।
+about-logins-reveal-password-os-auth-dialog-message-macosx = सहेजे गए पासवर्ड देखें
+about-logins-copy-password-os-auth-dialog-message-win = अपने पासवर्ड को कॉपी करने के लिए, अपनी Windows लॉगिन क्रेडेंशियल्स दर्ज करें। यह आपके खातों की सुरक्षा को बनाए रखने में मदद करता है।
+about-logins-copy-password-os-auth-dialog-message-macosx = सहेजे गए पासवर्ड को कॉपी करें
+about-logins-primary-password-notification-message = सहेजे गए लॉगिन और पासवर्ड देखने के लिए कृपया प्राईमरी पासवर्ड दर्ज करें
+master-password-reload-button =
+    .label = लॉग इन
+    .accesskey = L
+confirmation-dialog-cancel-button = रद्द करें
+confirmation-dialog-dismiss-button =
+    .title = रद्द करें
+about-logins-confirm-remove-dialog-confirm-button = हटाएँ
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] हटाएँ
+        [one] हटाएँ
+       *[other] सभी हटाएं
+    }
+confirm-discard-changes-dialog-title = न सहेजे गए परिवर्तनों को छोड़ें?
+confirm-discard-changes-dialog-message = सभी सहेजे न गए परिवर्तन खो जाएंगे।
+confirm-discard-changes-dialog-confirm-button = छोड़ें
+about-logins-breach-alert-title = वेबसाइट उल्लंघन
+breach-alert-text = आपके अंतिम बार अपना लॉगिन विवरण अपडेट करते समय पासवर्ड इस वेबसाइट से लीक या चोरी हो गए थे। अपने खाते की सुरक्षा के लिए अपना पासवर्ड बदलें।
+about-logins-breach-alert-date = यह उल्लंघन { DATETIME($date, day: "numeric", month: "long", year: "numeric") } पर हुआ
+about-logins-breach-alert-link = { $hostname } पर जाएं
+about-logins-vulnerable-alert-title = कमजोर पासवर्ड
+about-logins-vulnerable-alert-text2 = यह पासवर्ड किसी अन्य खाते पर उपयोग किया गया है जिसकी डेटा ब्रीच में होने की संभावना थी। क्रेडेंशियल का दोबारा उपयोग करना आपके सभी खातों को जोखिम में डालता है। इस पासवर्ड को बदलें।
+about-logins-vulnerable-alert-link = { $hostname } पर जाएं
+about-logins-vulnerable-alert-learn-more-link = अधिक जानें
+about-logins-error-message-default = पासवर्ड सहेजने का प्रयास करते समय एक त्रुटि हुई।
+about-logins-export-file-picker-export-button = निर्यात करें
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV दस्तावेज़
+       *[other] CSV फाइल
+    }
+about-logins-import-file-picker-import-button = आयात करें
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV दस्तावेज़
+       *[other] CSV फ़ाइल
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV दस्तावेज़
+       *[other] TSV फ़ाइल
+    }
+about-logins-import-dialog-title = आयात संपन्न‌
+about-logins-import-dialog-done = संपन्न
+about-logins-import-dialog-error-file-permission-title = फ़ाइल पढ़ने में असमर्थ
+about-logins-import-dialog-error-learn-more = अधिक जानें
+about-logins-import-dialog-error-cancel = रद्द करें
+about-logins-import-report-title = आयात सारांश

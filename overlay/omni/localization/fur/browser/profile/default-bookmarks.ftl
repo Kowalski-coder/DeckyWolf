@@ -1,0 +1,14 @@
+default-bookmarks-title = Segnelibris
+default-bookmarks-heading = Segnelibris
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Oten jutori
+default-bookmarks-firefox-customize = Personalize Firefox
+default-bookmarks-firefox-community = Partecipe
+default-bookmarks-firefox-about = Informazions su di nô
+default-bookmarks-nightly-heading = Risorsis par Firefox Nightly
+default-bookmarks-nightly-blog = Blog di Firefox Nightly
+default-bookmarks-bugzilla = Mozilla - Segnalazion erôrs
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Struments di prove di Nightly
+default-bookmarks-crashes = Liste di ducj i colàs vûts
+default-bookmarks-planet = Planet Mozilla

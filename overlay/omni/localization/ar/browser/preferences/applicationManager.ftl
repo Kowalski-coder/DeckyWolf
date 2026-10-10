@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = تفاصيل التطبيق
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = احذف
+    .accesskey = ح
+app-manager-handle-protocol = يمكن استخدام التطبيق التالي لمعالجة روابط { $type }.
+app-manager-handle-file = يمكن استخدام التطبيق التالي لمعالجة محتوى { $type }.
+app-manager-web-app-info = برنامج الوِب مستضاف في:
+app-manager-local-app-info = التطبيق موجود في:

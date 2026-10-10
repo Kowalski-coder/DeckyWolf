@@ -1,0 +1,9 @@
+clear-data-for-site-title = このウェブサイトのデータをすべて消去しますか？
+clear-data-for-site-list = これは { $site } の以下のデータをすべて消去します:
+clear-data-for-site-browsing-history = 閲覧履歴とダウンロード履歴
+clear-data-for-site-cookies = Cookie とサイトデータ (サイトからログアウトします)
+clear-data-for-site-cache = キャッシュされたファイルとページ
+cclear-data-for-site-permissions = サイトの許可設定
+clear-data-for-site-exceptions = ブックマークと保存されたパスワードは削除されません
+clear-data-for-site-dialog-accept-button = データを消去
+clear-data-for-site-dialog-cancel-button = キャンセル

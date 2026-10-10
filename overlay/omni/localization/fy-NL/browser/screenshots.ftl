@@ -1,0 +1,41 @@
+screenshot-toolbar-button =
+    .label = Skermôfdruk
+    .tooltiptext = In skermôfdruk meitsje ({ $shortcut })
+screenshot-shortcut =
+    .key = S
+screenshots-instructions = Sleep of klik op de side om in gebiet te selektearjen. Druk op ESC om te annulearjen.
+screenshots-cancel-button = Annulearje
+screenshots-save-visible-button = Sichtbere bewarje
+screenshots-save-page-button = Folsleine side bewarje
+screenshots-meta-key =
+    { PLATFORM() ->
+        [macos] ⌘
+       *[other] Ctrl
+    }
+screenshots-notification-link-copied-title = Keppeling kopiearre
+screenshots-notification-link-copied-details = De keppeling nei jo skermôfdruk is nei it klamboerd kopiearre. Brûk { screenshots-meta-key }-V om te plakken.
+screenshots-notification-image-copied-title = Ofbylding kopiearre
+screenshots-notification-image-copied-details = Jo ôfbylding is nei it klamboerd kopiearre. Druk op { screenshots-meta-key }-V om te plakken.
+screenshots-too-large-error-title = Jo skermôfdruk is bysnien, omdat it te grut wie
+screenshots-too-large-error-details = Probearje in gebied te selektearjen dat lytser is as 32.700 pixels oan de langste side of in totaal oerflak fan 124.900.000 pixels.
+screenshots-component-retry-button =
+    .aria-label = Skermôfdruk opnij probearje
+    .title = Skermôfdruk opnij probearje
+screenshots-component-cancel-button =
+    .aria-label = Annulearje
+    .title =
+        { PLATFORM() ->
+            [macos] Annulearje (esc)
+           *[other] Annulearje (Esc)
+        }
+screenshots-component-copy-button-2 = Kopiearje
+    .aria-label = Kopiearje
+    .title = Kopiearje ({ $shortcut })
+screenshots-component-download-button-2 = Downloade
+    .aria-label = Downloade
+    .title = Downloade ({ $shortcut })
+screenshots-component-download-key = S
+screenshots-component-copy-key = C
+screenshots-overlay-selection-region-size-3 = { $width } × { $height }
+screenshots-overlay-preview-face-label =
+    .aria-label = Dizze regio selektearje

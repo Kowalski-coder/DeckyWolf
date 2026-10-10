@@ -1,0 +1,9 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Pievienot cilni uzdevumjoslai
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Noņemt cilni no uzdevumjoslas
+taskbar-tab-shortcut-description = Tīmekļa lietotne { $name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Apklusināt cilni
+taskbar-tab-audio-unmute =
+    .tooltiptext = Atjaunot skaņu cilnei

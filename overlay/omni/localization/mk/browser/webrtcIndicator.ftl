@@ -1,0 +1,14 @@
+webrtc-item-camera = камера
+webrtc-sharing-menuitem-unknown-host = Непознато потекло
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-action-allow =
+    .label = Дозволи
+    .accesskey = Д
+webrtc-action-block =
+    .label = Блокирај
+    .accesskey = Б
+webrtc-action-always-block =
+    .label = Секогаш блокирај
+    .accesskey = к
+webrtc-mute-notifications-checkbox = Исклучете го звукот на известувањата на веб-локациите додека споделувате

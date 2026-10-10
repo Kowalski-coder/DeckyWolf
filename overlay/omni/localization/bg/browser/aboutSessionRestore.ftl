@@ -1,0 +1,26 @@
+restore-page-tab-title = Възстановяване на сесия
+restore-page-error-title = Съжаляваме. Не можем да възстановим разделите.
+restore-page-problem-desc = Не можем да възстановим вашата последна сесия. Изберете „Възстановяване на сесия“ за повторен опит.
+restore-page-try-this = Все още ли не можете да възстановите сесията? Причината понякога е у някой раздел. Прегледайте предишните раздели, махнете отметката пред тези, които не ви трябват и отново пробвайте възстановяване.
+restore-page-hide-tabs = Скриване на предишните раздели
+restore-page-show-tabs = Показване на предишните раздели
+restore-page-window-label = Прозорец №{ $windowNumber }
+restore-page-restore-header =
+    .label = Възстановяване
+restore-page-list-header =
+    .label = Прозорци и раздели
+restore-page-try-again-button =
+    .label = Възстановяване на сесия
+    .accesskey = в
+restore-page-close-button =
+    .label = Нова сесия
+    .accesskey = н
+welcome-back-tab-title = Успяхме!
+welcome-back-page-title = Успяхме!
+welcome-back-page-info = { -brand-short-name } е готов.
+welcome-back-restore-button =
+    .label = Напред!
+    .accesskey = Н
+welcome-back-restore-all-label = Възстановяване на всички прозорци и раздели
+welcome-back-restore-some-label = Възстановяване само на избраните
+welcome-back-page-info-link = Добавките и приспособленията ви бяха премахнати, а настройките на уеб-четеца бяха върнати до заводските. <a data-l10n-name="link-more">научете какво още може да направите.</a>, ако това не оправи проблема.

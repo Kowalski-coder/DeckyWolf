@@ -1,0 +1,15 @@
+panic-button-open-new-window = Atvērt jaunu tukšu logu
+panic-button-undo-warning = Šī darbība ir neatgriezeniska.
+panic-button-forget-button =
+    .label = Aizmirst!
+panic-main-timeframe-desc = Aizmirst pēdējās:
+panic-button-5min =
+    .label = Piecas minūtes
+panic-button-2hr =
+    .label = Divas stundas
+panic-button-day =
+    .label = 24 stundas
+panic-button-action-desc = Turpinot tiks:
+panic-button-delete-cookies = izdzēstas nesenās <strong>sīkdatnes</strong>
+panic-button-delete-history = izdzēsta pārlūkošanas <strong>vēsture</strong>
+panic-button-delete-tabs-and-windows = aizvērtas visas <strong>cilnes</strong> un <strong>logi</strong>

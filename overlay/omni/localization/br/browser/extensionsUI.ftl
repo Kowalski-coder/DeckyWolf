@@ -1,0 +1,17 @@
+webext-default-search-description = Fellout a ra da { $addonName } kemmañ ho lusker enklask eus { $currentEngine } da { $newEngine }. A-du oc'h?
+webext-default-search-yes =
+    .label = Ya
+    .accesskey = Y
+webext-default-search-no =
+    .label = N'on ket
+    .accesskey = N
+addon-post-install-message = Ouzhpennet eo bet { $addonName }.
+webext-quarantine-confirmation-title = Lañsañ { $addonName } war al lec’hiennoù strishaet?
+webext-quarantine-confirmation-line-1 = Evit gwareziñ ho roadennoù n’eo ket aotreet an askouezh-mañ war al lec’hienn-mañ.
+webext-quarantine-confirmation-line-2 = Aotren an askouezh m’ho peus fiziañs ennañ evit ma c’hallfe lenn ha kemmañ ho roadennoù war al lec’hiennoù strishaet gant { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Aotren
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Na aotren
+    .accesskey = N

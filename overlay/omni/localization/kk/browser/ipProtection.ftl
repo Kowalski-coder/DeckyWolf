@@ -1,0 +1,202 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = VPN іске қосу
+    .tooltiptext = VPN іске қосу
+ipprotection-experiment-badge =
+    .label = БЕТА
+ipprotection-help-button =
+    .tooltiptext = VPN қолдау бетін ашу
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Енді браузеріңіздің ішінде қолжетімді болатын VPN ұсынамыз
+ipprotection-feature-introduction-title-1 = { -brand-product-name } құрамындағы VPN қолданып көріңіз
+ipprotection-feature-introduction-link-text-2 = Орналасқан жеріңізді жасыру және деректеріңізді қорғау үшін жаңа <a data-l10n-name="learn-more-vpn">кірістірілген VPN</a> мүмкіндігін қолданыңыз.
+ipprotection-feature-introduction-title-privacy = Жекеліктің тағы бір деңгейін қосыңыз
+ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } кірістірілген VPN-і</a> шолуыңызды қорғауға көмектеседі. Шолу орнын құпиялырақ сақтау үшін бірнеше орналасудың бірін таңдаңыз.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } ішіне орнатылған VPN</a> шолуыңызды қорғауға көмектеседі. Шолуыңызды көбірек жеке сақтау үшін бірнеше орналасудың бірін таңдаңыз.
+ipprotection-feature-introduction-link-text-privacy-3 = Шолу кезінде қай жерде екеніңізді жасыру үшін бірнеше орналасудың бірін таңдап, <a data-l10n-name="learn-more-vpn">қосымша жекелікке</a> қол жеткізіңіз.
+ipprotection-feature-introduction-text-summer-promo-1 = Шолуды барынша жеке сақтау үшін оны іске қосыңыз. <a data-l10n-name="summer-promo-link">Шексіз өткізу жолағын</a> және шолуға арналған көбірек орналасуларды алыңыз. 31 тамызға дейін жарамды.
+ipprotection-feature-introduction-title-summer-promo = Сапарға шығуды жоспарладыңыз ба? Жекелікті өзіңізбен бірге алыңыз.
+ipprotection-feature-introduction-description-summer-promo = { -brand-product-name } ішіне ендірілген VPN арқылы көбірек мүмкіндікке ие болыңыз: көбірек орналасулар, шексіз өткізу жолағы. 31 тамызға дейін жарамды.
+ipprotection-summer-promo-offramp-generic-title = Сіздің кірістірілген VPN шектеулеріңіз 1 қыркүйекте қалпына келтіріледі
+ipprotection-summer-promo-offramp-generic-description = Шолуыңызды бақылауды қиындату үшін қосымша жекелік үшін { $maxUsage } ГБ және 6 орналасуды пайдаланыңыз.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = Шолуыңызды бақылауды қиындату үшін қосымша жекелік үшін { $maxUsage } ГБ және 20-дан астам орналасуды пайдаланыңыз.
+ipprotection-summer-promo-offramp-subscriber-title = Сіздің кірістірілген VPN жақсарды
+ipprotection-summer-promo-offramp-subscriber-description = Енді сіз { -mozilla-vpn-brand-name } жазылушысы ретінде шексіз өткізу қабілетін және көбірек орындарды аласыз.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = Қосымша кіріктірілген VPN орналасуларды сақтаңыз
+ipprotection-summer-promo-offramp-default-browser-incentive-description = { -brand-product-name } браузерін негізгі браузер етіп, 31 тамыздан кейін шолуға болатын 20-дан астам қосымша орналасуды алыңыз.
+ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } көмегімен деңгейіңізді көтеріңіз
+ipprotection-summer-promo-offramp-subscription-upsell-description = Шолуыңызды бақылауды қиындату үшін, 31 тамыздан кейін 5 құрылғыда 300-ден астам орналасуы бар шексіз өткізу қабілеттілігін сақтаңыз.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN ашу
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Әдепкі күйге орнату
+ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } алу
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Елемеу
+ipprotection-feature-introduction-link-text-private-browsing-2 = Жекелік шолу терезесінде болсаңыз да, орналасқан жеріңізді жасыру және деректеріңізді қорғау үшін жаңа <a data-l10n-name="learn-more-vpn">кірістірілген VPN</a> мүмкіндігін қолданыңыз.
+ipprotection-feature-introduction-description-private-browsing = Жекелік терезесінде болсаңыз да, орналасқан жеріңізді жасыру арқылы қосымша қорғаныспен шолыңыз.
+ipprotection-feature-introduction-title-captive-portal = Жалпыға ортақ Wi-Fi желісіндесіз бе? { -brand-product-name } құрамындағы VPN қызметін қолданып көріңіз.
+ipprotection-feature-introduction-description-captive-portal = Қоғамдық Wi-Fi желісінде болсаңыз да, орналасқан жеріңізді жасыру арқылы қосымша қорғаныспен шолыңыз.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Шолу орнын жасыру үшін бірнеше орналасудың бірін таңдау арқылы <a data-l10n-name="learn-more-vpn">қосымша жекелікке</a> қол жеткізіңіз.
+ipprotection-feature-introduction-button-primary = Келесі
+ipprotection-feature-introduction-button-secondary-not-now = Қазір емес
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Қазір емес
+ipprotection-feature-introduction-button-secondary-no-thanks = Жоқ, рахмет
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Жоқ, рахмет
+ipprotection-feature-introduction-button-secondary-remove = VPN-ды саймандар тақтасынан алып тастау
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = VPN-ды саймандар тақтасынан алып тастау
+ipprotection-feature-introduction-button-open-vpn = VPN ашу
+ipprotection-feature-introduction-button-get-started = Бастау
+ipprotection-site-settings-callout-title = VPN қайда қолданатыңызды таңдаңыз
+ipprotection-site-settings-callout-subtitle = Белгілі бір сайт үшін VPN сөндіріңіз, сонда сіз келесі кірген кезде оны есте сақтаймыз.
+ipprotection-site-settings-callout-button = Түсіндім
+ipprotection-location-selection-callout-title = Жаңа: Орналасқан жеріңізді өзгертіңіз
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } кірістірілген VPN-і</a> сізге бірнеше шолу орнын таңдауға немесе ең жылдамын бізге таңдауға мүмкіндік береді.
+ipprotection-location-selection-callout-primary-button = Қолданып көріңіз
+ipprotection-location-selection-callout-secondary-button = Елемеу
+ipprotection-android-promo-callout-title = Android-та кіріктірілген VPN қызметін өзіңізбен бірге алыңыз
+ipprotection-android-promo-callout-description = Android-ке арналған { -brand-product-name } алу үшін QR кодын сканерлеңіз және жолда көбірек жекелік үшін кіріктірілген VPN іске қосыңыз. Жақында iOS жүйесінде қолжетімді болады.
+ipprotection-android-promo-callout-primary-button = Түсіндім
+unauthenticated-vpn-title = { -brand-product-name } құрамындағы VPN қолданып көріңіз
+unauthenticated-hide-location-message-3 = { -brand-product-name } ішінде шолу кезінде <a data-l10n-name="learn-more-vpn">Орналасқан жеріңізді жасырыңыз</a>.
+unauthenticated-private-location-message = { -brand-product-name } ішінде <a data-l10n-name="learn-more-vpn">орналасуыңызды құпия сақтауға көмектеседі</a>.
+unauthenticated-choose-location-message-1 = Бірнеше орналасудың бірін таңдаңыз немесе ең жылдамын { -brand-product-name } таңдауына рұқсат етіңіз.
+unauthenticated-site-rules-message = Қай сайттар VPN пайдаланатынын және қайсысы пайдаланбайтынын басқару.
+unauthenticated-get-started = Бастау
+unauthenticated-terms-of-service-privacy-notice = Жалғастыру арқылы сіз <a data-l10n-name="vpn-terms-of-service">Қызмет көрсету шарттары</a> және <a data-l10n-name="vpn-privacy-notice">Жекелік ескертуі</a> шарттарымен келісесіз.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = Бұл сайт үшін VPN іске қосулы тұр
+    .label = Бұл сайт үшін VPN пайдалану
+site-exclusion-toggle-disabled-1 =
+    .aria-label = Бұл сайт үшін VPN сөндірулі тұр
+    .label = Бұл сайт үшін VPN пайдалану
+site-exclusion-toggle-description = Сайт жұмыс істемей тұр ма? VPN сөндіріп көріңіз.
+site-rules-manage-rules-link-text = VPN ережелерін басқару
+site-rules-status-heading = Сіздің ережеңіз
+site-rules-description-exclusion = VPN бұл сайт үшін сөндірулі тұр
+site-rules-description-inclusion = Бұл сайт үшін VPN іске қосулы тұр
+ipprotection-settings-link =
+    .label = Баптаулар
+ipprotection-connection-status-connected-1 = VPN іске қосылған
+    .aria-label = VPN іске қосылған
+ipprotection-connection-status-disconnected-1 = VPN сөндірілген
+    .aria-label = VPN сөндірілген
+ipprotection-connection-status-excluded-1 = VPN бұл сайт үшін сөндірулі тұр
+    .aria-label = VPN бұл сайт үшін сөндірулі тұр
+ipprotection-connection-status-connecting-1 = VPN қосылуда…
+    .aria-label = VPN қосылуда…
+ipprotection-button-turn-vpn-off = VPN сөндіру
+ipprotection-button-turn-vpn-off-excluded-site = VPN-ді барлық жерде сөндіру
+ipprotection-button-turn-vpn-on = VPN іске қосу
+ipprotection-button-connecting = Іске қосу…
+ipprotection-recommended-location-button = Орналасқан жері: Ұсынылған
+ipprotection-recommended-location-description = { -brand-product-name } ең жылдам орналасқан жерді табады
+ipprotection-recommended-location-badge = ЖАҢА
+ipprotection-location-country-button = Орналасқан жері: { $country }
+ipprotection-locations-subview =
+    .title = Орналасқан жерді таңдау
+ipprotection-locations-subview-description = Шолу үшін басқа орынды таңдаңыз.
+ipprotecion-locations-subview-recommended-label = Ұсынылатын
+ipprotection-locations-subview-recommended-description = Ең жылдам орналасқан жерді табады
+ipprotection-locations-unavailable-label-1 = Қолжетімді емес
+    .aria-label = Қолжетімді емес, сөндірілген
+ipprotection-locations-subview-promo =
+    .heading = { -mozilla-vpn-brand-name } арқылы қорғанысты одан әрі арттырыңыз
+    .message = 300-ден астам орналасуды таңдаңыз және барлық қолданбаларыңызды қорғаңыз - 5 құрылғыға дейін.
+ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name } алу
+ipprotection-connection-status-paused-title-2 = VPN аялдатылды
+    .aria-label = VPN аялдатылды
+ipprotection-connection-status-paused-description-1 = Сіз VPN деректеріңіздің барлық { $maxUsage } ГБ көлемін пайдаландыңыз. Кіру мүмкіндігі келесі айда қалпына келтіріледі.
+upgrade-vpn-title = Браузерден тыс қосымша қорғанысты алыңыз
+upgrade-vpn-description = VPN орналасқан жерін өзіңіз таңдаңыз, оны барлық қолданбаларыңыз бен 5 құрылғыға дейін пайдаланыңыз және кез келген желіде — үйде немесе қоғамдық Wi-Fi нүктелерінде қауіпсіздікті сақтаңыз.
+upgrade-vpn-button = { -mozilla-vpn-brand-name } қолданып көру
+ipprotection-connection-status-generic-error-title-1 = VPN-ге қосылу мүмкін болмады
+    .aria-label = VPN-ге қосылу мүмкін болмады
+ipprotection-connection-status-generic-error-description = Бірнеше минуттан кейін қайталап көріңіз.
+ipprotection-connection-status-generic-error-try-again = Кейінірек қайталап көріңіз.
+ipprotection-connection-status-network-error-title-1 = Интернетпен байланысын тексеріңіз
+    .aria-label = Интернетпен байланысын тексеріңіз
+ipprotection-connection-status-network-error-description = Интернетке қосылыңыз, содан кейін VPN іске қосып көріңіз.
+ipprotection-connection-status-blocked-error-title-1 = VPN қолжетімді емес
+    .aria-label = VPN қолжетімді емес
+ipprotection-connection-status-blocked-error-description-1 = Жергілікті заңдар мен шектеулер VPN пайдалануға болатын жерлерді шектейді. <a data-l10n-name="learn-more-link">Көбірек білу</a>
+ipprotection-message-bandwidth-warning =
+    .heading = VPN лимитіне жақындадыңыз
+    .message = Осы айда сізде { $maxUsage } ГБ көлемінің { $usageLeft } ГБ қалды.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = VPN лимитіне жақындадыңыз
+    .message = Бұл айда қалған { $maxUsage } ГБ ішінен сізде { $usageLeft } МБ қалды.
+ipprotection-message-continuous-onboarding-intro = Орналасқан жеріңізді жасыру және шолуыңызға қосымша шифрлеуді қосу үшін VPN іске қосыңыз.
+ipprotection-message-continuous-onboarding-autostart = { -brand-short-name } браузерін әр ашқан сайын қосымша қорғаныс қабатын қамтамасыз ету үшін <a data-l10n-name="setting-link">VPN-ді автоматты түрде іске қосылатындай етіп баптаңыз</a>.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } қай веб-сайттар үшін VPN қолдануды таңдағаныңызды есте сақтайды. Бұл тізімді кез келген уақытта <a data-l10n-name="setting-link">баптаулар</a> бөлімінде өзгерте аласыз.
+confirmation-hint-ipprotection-navigated-to-excluded-site = VPN бұл сайт үшін сөндірулі тұр
+ipprotection-open-button = { -brand-product-name } ашу
+ipprotection-come-back-title = Кірістірілген VPN-ді қолданып көру үшін оралыңыз
+ipprotection-message-body-hide-location = Көбірек жекелік пен басқару үшін { -brand-product-name } ішінде шолу кезінде орналасуыңызды жасырыңыз.
+ipprotection-bandwidth-upgrade-title = Құрамындағы VPN ұнады ма? { -mozilla-vpn-brand-name } арқылы { -brand-product-name } браузерінен тыс жерде де жоғары деңгейлі қорғанысқа ие болыңыз.
+ipprotection-bandwidth-upgrade-text = VPN серверінің орналасуын таңдап, 5 құрылғыға дейін барлық қолданбаларыңызды қорғауға алыңыз; бұл кез келген жерде (үйде немесе ашық Wi-Fi нүктелерінде) қауіпсіздікті қамтамасыз етеді.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>VPN лимитіне жақындадыңыз.</strong> Сізде { $usageLeft } ГБ қалды. Деректер көлемі келесі айдың басында қайта қалпына келеді.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>VPN деректеріңіз таусылуға жақын.</strong> Сізде { $usageLeft } ГБ қалды. Барлық деректерді пайдаланып қойған соң, келесі айдың бірінші жұлдызында лимит жаңартылғанға дейін VPN жұмысы уақытша тоқтайды.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN деректеріңіз таусылуға жақын.</strong> Сізде { $usageLeft } МБ қалды. Барлық деректерді пайдаланып қойған соң, келесі айдың бірінші күнінде лимит жаңартылғанға дейін VPN жұмысы уақытша тоқтайды.
+ip-protection-description =
+    .description = { -brand-short-name } браузерінде жұмыс істеу кезінде жекелігіңізді арттыруға арналған кірістірілген VPN.
+    .label = VPN
+ip-protection-description-1 =
+    .description = Шолу кезінде орналасуыңызды жасыру арқылы қосымша жекелікті алыңыз.
+    .label = Кіріктірілген VPN
+ip-protection-learn-more = Көбірек білу
+ip-protection-not-opted-in-4 =
+    .heading = { -brand-short-name } құрамындағы VPN мүмкіндігін байқап көріңіз.
+    .message = Орналасқан жеріңізді жасыру арқылы қосымша қорғаныспен шолыңыз.
+ip-protection-not-opted-in-button = Бастау
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } веб-сайт
+           *[other] { $count } веб-сайт
+        }
+    .label = Веб-сайт баптауларын басқару
+ip-protection-site-rules-header =
+    .heading = Веб-сайт ережелерін басқару
+ip-protection-site-rules-button =
+    .description = Қосымша жекелікті қажет ететін немесе VPN сөндірілген сайттар үшін ережелерді орнату.
+    .label = Веб-сайт ережелерін басқару
+ip-protection-autostart =
+    .label = VPN автоматты түрде іске қосу
+ip-protection-autostart-checkbox =
+    .label = Мен { -brand-short-name } ашқан кезде
+ip-protection-autostart-private-checkbox =
+    .label = Жекелік шолу терезелерінде
+ip-protection-vpn-upgrade-link =
+    .description = VPN орналасқан жерін еркін таңдаңыз және үйде немесе қоғамдық Wi-Fi желісінде болсаңыз да, 5 құрылғыға дейін барлық қолданбаларыңызды қорғаңыз.
+    .label = { -mozilla-vpn-brand-name } арқылы { -brand-short-name } браузерінен тыс жерде де жоғары деңгейлі қорғанысқа ие болыңыз.
+ip-protection-vpn-upgrade-link-1 =
+    .description = 300-ден астам орналасуды таңдаңыз және барлық қолданбаларыңызды қорғаңыз - 5 құрылғыға дейін.
+    .label = { -mozilla-vpn-brand-name } арқылы қорғанысты одан әрі арттырыңыз
+ip-protection-exceptions-dialog-window =
+    .title = Веб-сайт баптауларын басқару
+ip-protection-exclusions-desc = Осы тізімдегілерден басқа барлық веб-сайттар үшін VPN пайдаланыңыз. Веб-сайтты осы жерге немесе VPN ашу арқылы қосыңыз.
+ip-protection-bandwidth-header-1 = Ай сайынғы деректер шегі
+ip-protection-bandwidth-left-this-month-gb = Осы айда { $maxUsage } ГБ ішінен { $usageLeft } ГБ қалды
+ip-protection-bandwidth-left-gb-1 = { $maxUsage } ГБ ішінен <span data-l10n-name="usage">{ $usageLeft } ГБ</span> қалды
+ip-protection-bandwidth-left-this-month-mb = Осы айда { $maxUsage } ГБ ішінен { $usageLeft } МБ қалды
+ip-protection-bandwidth-left-mb-1 = { $maxUsage } ГБ ішінен <span data-l10n-name="usage">{ $usageLeft } МБ</span> қалды
+ip-protection-bandwidth-hit-for-the-month = Сіз VPN деректеріңіздің барлық { $maxUsage } ГБ көлемін пайдаландыңыз. Кіру мүмкіндігі келесі айда қалпына келтіріледі.
+ip-protection-bandwidth-help-text = Әр айдың бірінші күнінде { $maxUsage } ГБ қалпына келтіріледі.
+ipprotection-bandwidth-reset-title = { $maxUsage } ГБ VPN деректері, жаңартылды және пайдалануға дайын
+ipprotection-bandwidth-reset-text = Жекелікті арттыру үшін VPN-ді іске қосыңыз, ол ай сайын тегін беріледі.
+ipprotection-bandwidth-reset-button = Түсіндім
+ipp-activator-breakage-sign-in-warning = <strong>Бұл веб-сайт VPN-мен жұмыс істемеуі мүмкін.</strong> Бұл сайтты пайдалану кезінде жүйеге кіріп көріңіз немесе VPN-ді сөндіріңіз.
+ipp-activator-breakage-turn-off-warning = <strong>Бұл веб-сайт VPN-мен жұмыс істемеуі мүмкін.</strong> Бұл сайтты пайдалану кезінде VPN-ді сөндіріп көріңіз.
+vpn-paused-alert-title = VPN аялдатылды
+vpn-paused-alert-body = Сіз VPN деректеріңіздің барлық { $maxUsage } ГБ көлемін пайдаландыңыз. VPN-ге қол жеткізу мүмкіндігі келесі айда қалпына келтіріледі.
+vpn-error-page-paused-description = Сіз VPN деректеріңіздің барлық { $maxUsage } ГБ көлемін пайдаландыңыз. Кіру мүмкіндігі келесі айда қалпына келтіріледі.
+vpn-error-page-continue-description = VPN-сіз қалай жалғастыру керектігін таңдаңыз
+vpn-error-page-keep-browsing = Осы сессияда шолуды жалғастыру
+vpn-error-page-new-session = Жаңа сессияны бастау
+vpn-paused-alert-close-tabs-button = Барлық беттерді жабу
+vpn-paused-alert-continue-wo-vpn-button = VPN-сіз жалғастыру
+vpn-error-alert-title = VPN қазір жұмыс істеп тұрған жоқ.
+vpn-error-alert-body = Кейінірек қайталап көріңіз.

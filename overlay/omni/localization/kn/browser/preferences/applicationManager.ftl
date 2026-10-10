@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ಅನ್ವಯ ವಿವರಗಳು
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ತೆಗೆದು ಹಾಕು
+    .accesskey = R
+app-manager-handle-protocol = ಈ ಕೆಳಗಿನ ಅನ್ವಯಗಳು { $type } ಕೊಂಡಿಗಳು ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲ್ಪಡುತ್ತದೆ.
+app-manager-handle-file = ಈ ಕೆಳಗಿನ ಅನ್ವಯಗಳು { $type } ವಿಷಯ ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲ್ಪಡುತ್ತದೆ.
+app-manager-web-app-info = ಈ ಜಾಲ ಅನ್ವಯವನ್ನು ಹೋಸ್ಟ್ ಮಾಡಲಾದ ಸ್ಥಳ:
+app-manager-local-app-info = ಈ ಅನ್ವಯವು ಇರಿಸಲ್ಪಟ್ಟ ಜಾಗ:

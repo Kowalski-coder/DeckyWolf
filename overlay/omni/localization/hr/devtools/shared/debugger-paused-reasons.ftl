@@ -1,0 +1,16 @@
+whypaused-debugger-statement = Zaustavljeno pri izjavi ispravljača grešaka
+whypaused-breakpoint = Zaustavljeno pri točci prekida
+whypaused-event-breakpoint = Zaustavljeno pri točci prekida događaja
+whypaused-exception = Zaustavljeno pri iznimci
+whypaused-mutation-breakpoint = Zaustavljeno pri DOM mutaciji
+whypaused-mutation-breakpoint-added = Dodano:
+whypaused-mutation-breakpoint-removed = Uklonjeno:
+whypaused-interrupted = Zaustavljeno prilikom izvršavanja
+whypaused-resume-limit = Zaustavljen prilikom koračanja
+whypaused-pause-on-dom-events = Zaustavljeno pri prepoznavanju događaja
+whypaused-breakpoint-condition-thrown = Greška s uslovnom točkom prekida
+whypaused-xhr = Zaustavljeno pri XMLHttpRequest
+whypaused-get-watchpoint = Zaustavljeno pri čitanju svojstva
+whypaused-set-watchpoint = Zaustavljeno pri postavljanju svojstva
+whypaused-debug-command = Zaustavljeno pri ispravljenoj funkciji
+whypaused-other = Ispravljač grešaka zaustavljen

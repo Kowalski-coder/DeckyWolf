@@ -1,0 +1,26 @@
+restore-page-tab-title = Restaurar sesión
+restore-page-error-title = Disculpe. Tenemos dificultades para recuperar sus páginas.
+restore-page-problem-desc = Hay algunos problemas intentando restaurar la última sesión. Elegí Restaurar sesión para volver a intentarlo.
+restore-page-try-this = ¿Todavía no pudo restaurar la sesión? A veces una pestaña puede causar el problema. Mire las pestañas previas, quite de la lista las pestañas que no necesite, y vuelva a intentarlo.
+restore-page-hide-tabs = Ocultar pestañas anteriores
+restore-page-show-tabs = Mostrar pestañas anteriores
+restore-page-window-label = Ventana { $windowNumber }
+restore-page-restore-header =
+    .label = Restaurar
+restore-page-list-header =
+    .label = Ventanas y pestañas
+restore-page-try-again-button =
+    .label = Restaurar sesión
+    .accesskey = R
+restore-page-close-button =
+    .label = Empezar una sesión nueva
+    .accesskey = N
+welcome-back-tab-title = ¡Éxito!
+welcome-back-page-title = ¡Éxito!
+welcome-back-page-info = { -brand-short-name } está listo.
+welcome-back-restore-button =
+    .label = ¡Vamos!
+    .accesskey = V
+welcome-back-restore-all-label = Restaurar todas las ventanas & pestañas
+welcome-back-restore-some-label = Restaurar solo las que quiere
+welcome-back-page-info-link = Los complementos y personalizaciones se eliminaron y los ajustes del navegador se restauraron a sus valores predeterminados. Si esto no corrige el problema, <a data-l10n-name="link-more">conozca más acerca de lo que puede hacer.</a>

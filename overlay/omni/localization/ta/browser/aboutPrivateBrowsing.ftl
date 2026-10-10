@@ -1,0 +1,12 @@
+privatebrowsingpage-open-private-window-label = கமுக்க சாளரத்தைத் திற
+    .accesskey = P
+about-private-browsing-search-placeholder = இணையத்தில் தேடு
+about-private-browsing-not-private = நீங்கள் தற்போது கமுக்க சாளரத்தில் இல்லை.
+about-private-browsing-search-banner-title = { $engineName } உங்கள் கமுக்க சாளரத்தின் இயல்புநிலை தேடுபொறி
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] வேறு தேடுபொறியைத் தேர்ந்தெடுக்க <a data-l10n-name="link-options">விருப்பங்களுக்குச்</a> செல்லவும்
+       *[other] வேறு தேடுபொறியைத் தேர்ந்தெடுக்க <a data-l10n-name="link-options">முன்னுரிமைகளுக்குச்</a> செல்லவும்
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = மூடு

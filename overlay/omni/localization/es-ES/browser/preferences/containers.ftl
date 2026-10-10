@@ -1,0 +1,15 @@
+containers-window-new3 =
+    .style = min-width: 32em
+    .title = Añadir nuevo contenedor
+containers-window-update-settings3 =
+    .style = min-width: 32em
+    .title = Ajustes del contenedor { $name }
+containers-window-close =
+    .key = w
+containers-name-label2 =
+    .label = Nombre
+    .placeholder = Añadir un nombre
+containers-icon-label2 =
+    .label = Icono
+containers-color-label2 =
+    .label = Color

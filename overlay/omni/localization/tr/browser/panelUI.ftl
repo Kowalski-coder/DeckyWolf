@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Adres çubuğu menüsünden kaldır
+    .accesskey = k
+customize-menu-add-to-toolbar =
+    .label = Araç çubuğuna ekle
+    .accesskey = e
+customize-menu-add-to-overflowmenu =
+    .label = Adres çubuğu menüsüne ekle
+    .accesskey = m
+panic-button-thankyou-msg1 = Yakın geçmişiniz temizlendi.
+panic-button-thankyou-msg2 = Güvenli gezintiler dileriz!
+panic-button-thankyou-button =
+    .label = Teşekkürler!

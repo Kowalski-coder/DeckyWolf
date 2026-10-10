@@ -1,0 +1,9 @@
+appmenu-theme-installed =
+    .secondarybuttonlabel = មិន​ធ្វើ​វិញ​
+    .secondarybuttonaccesskey = U
+appmenu-tab-hide-controlled =
+    .buttonlabel = បន្តលាក់ផ្ទាំង
+    .buttonaccesskey = K
+    .label = ចូលប្រើផ្ទាំងដែលបានលាក់របស់អ្នក
+    .secondarybuttonlabel = មិនអនុញ្ញាតផ្នែកបន្ថែម
+    .secondarybuttonaccesskey = D

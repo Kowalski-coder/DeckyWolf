@@ -1,0 +1,15 @@
+panic-button-open-new-window = გაიხსნება ახალი სუფთა ფანჯარა
+panic-button-undo-warning = ეს ქმედება შეუქცევადია.
+panic-button-forget-button =
+    .label = დავიწყება!
+panic-main-timeframe-desc = დავიწყება ბოლო:
+panic-button-5min =
+    .label = ხუთი წუთის
+panic-button-2hr =
+    .label = ორი საათის
+panic-button-day =
+    .label = 24 საათის
+panic-button-action-desc = გაგრძელებისას:
+panic-button-delete-cookies = წაიშლება <strong>ფუნთუშები</strong>
+panic-button-delete-history = წაიშლება <strong>ისტორია</strong>
+panic-button-delete-tabs-and-windows = დაიხურება ყველა <strong>ჩანართი</strong> და <strong>ფანჯარა</strong>

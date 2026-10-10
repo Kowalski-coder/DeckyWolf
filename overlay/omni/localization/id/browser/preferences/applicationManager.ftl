@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detail aplikasi
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Hapus
+    .accesskey = H
+app-manager-handle-protocol = Aplikasi berikut dapat digunakan untuk menangani Tautan { $type }.
+app-manager-handle-file = Aplikasi berikut dapat digunakan untuk menangani Isi { $type }.
+app-manager-web-app-info = Aplikasi web berada di:
+app-manager-local-app-info = Aplikasi berada di:

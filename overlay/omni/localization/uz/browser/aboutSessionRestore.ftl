@@ -1,0 +1,26 @@
+restore-page-tab-title = Seansni tiklash
+restore-page-error-title = Uzr, sahifalaringiz tiklanmadi
+restore-page-problem-desc = Oxirgi brauzerdagi seansni tiklashda xatolik yuz berdi. Qayta urinish uchun "Seansni tiklash" tugmasini bosing.
+restore-page-try-this = Seansingiz hamon tiklanmadimi? Baʻzan varaqda nosozlik yuz beadi. Avvalgi oynalarni koʻrish uchun tiklash shart boʻlmagan sahifalardan belgini olib tashlab, keyin tiklang.
+restore-page-hide-tabs = Avvalgi varaqlarni yashirish
+restore-page-show-tabs = Avvalgi varaqlarni koʻrish
+restore-page-window-label = { $windowNumber }-oyna
+restore-page-restore-header =
+    .label = Tiklash
+restore-page-list-header =
+    .label = Oynalar va varaqlar
+restore-page-try-again-button =
+    .label = Seansni tiklash
+    .accesskey = R
+restore-page-close-button =
+    .label = Yangi seans boshlash
+    .accesskey = N
+welcome-back-tab-title = Muvaffaqiyatli!
+welcome-back-page-title = Muvaffaqiyatli!
+welcome-back-page-info = { -brand-short-name } ishlash uchun tayyor.
+welcome-back-restore-button =
+    .label = Qani, ketdik!
+    .accesskey = L
+welcome-back-restore-all-label = Barcha oynalarni tiklash
+welcome-back-restore-some-label = Faqat siz xohlaganlarni tiklash
+welcome-back-page-info-link = Qo‘shimcha dasturlaringiz va sozlamalaringiz olib tashlandi va brauzeringiz sozlamalari standart holiga tiklandi. Agar bu muammoni hal qilmasa, <a data-l10n-name="link-more">nima qila olishingiz haqida batafsil.</a>

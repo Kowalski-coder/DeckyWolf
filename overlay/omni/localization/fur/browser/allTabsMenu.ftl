@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cîr in dutis lis schedis
+all-tabs-menu-new-user-context =
+    .label = Gnove schede contignidôr
+all-tabs-menu-hidden-tabs =
+    .label = Schedis platadis
+all-tabs-menu-close-duplicate-tabs =
+    .label = Siere schedis duplicadis
+all-tabs-menu-view-all-tabs =
+    .label = Viôt dutis lis schedis
+all-tabs-menu-recent-tab-groups-header = Grups di schedis resintis
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostre dut
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grups di schedis
+all-tabs-menu-current-window-header = Barcon corint

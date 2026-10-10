@@ -1,0 +1,15 @@
+panic-button-open-new-window = Отворен нов празен прозорец
+panic-button-undo-warning = Действието е необратимо.
+panic-button-forget-button =
+    .label = Забравяне!
+panic-main-timeframe-desc = Забравяне на последните:
+panic-button-5min =
+    .label = Пет митути
+panic-button-2hr =
+    .label = Два часа
+panic-button-day =
+    .label = 24 часа
+panic-button-action-desc = Ако продължите ще бъдат:
+panic-button-delete-cookies = Изтрити скорошните <strong>бисквитки</strong>
+panic-button-delete-history = Изтрита скорошната <strong>история</strong>
+panic-button-delete-tabs-and-windows = Затворени всички <strong>раздели</strong> и <strong>прозорци</strong>

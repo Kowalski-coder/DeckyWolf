@@ -1,0 +1,202 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = VPN ynskeakelje
+    .tooltiptext = VPN ynskeakelje
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = VPN-stipeside iepenje
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Nij: VPN, no streekrjocht yn jo browser
+ipprotection-feature-introduction-title-1 = De ynboude VPN fan { -brand-product-name } probearje
+ipprotection-feature-introduction-link-text-2 = Brûk ús nije <a data-l10n-name="learn-more-vpn">ynboude VPN</a> om jo lokaasje te ferstopjen en jo gegevens te beskermjen.
+ipprotection-feature-introduction-title-privacy = Foegje noch in laach privacy ta
+ipprotection-feature-introduction-link-text-privacy-1 = De ynboude VPN fan <a data-l10n-name="learn-more-vpn">{ -brand-product-name }</a> helpt jo navigaasje te beskermjen. Kies út ferskate lokaasjes om jo navigaasje mear privee te hâlden.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">De ynboude VPN fan { -brand-product-name }</a> helpt jo navigaasje te beskermjen. Kies út meardere lokaasjes om jo navigaasje mear privee te hâlden.
+ipprotection-feature-introduction-link-text-privacy-3 = Untfang <a data-l10n-name="learn-more-vpn">ekstra privacy</a> troch te kiezen út meardere lokaasjes  om te ferbergjen wêr’t jo sneupe.
+ipprotection-feature-introduction-text-summer-promo-1 = Skeakelje it yn om jo navigaasje mear privee te hâlden. <a data-l10n-name="summer-promo-link">Untfang ûnbeheinde bânbreedte</a> en mear lokaasjes om fan te blêdzjen. No oant en mei 31 augustus.
+ipprotection-feature-introduction-title-summer-promo = Hawwe jo reisplannen? Nim jo privacy mei jo mei.
+ipprotection-feature-introduction-description-summer-promo = Gean fierder mei de ynboude VPN fan { -brand-product-name }: mear lokaasjes, ûnbeheinde bânbreedte. No oant en mei 31 augustus.
+ipprotection-summer-promo-offramp-generic-title = De limiten foar jo ynboude VPN wurde op 1 septimber opnij ynsteld
+ipprotection-summer-promo-offramp-generic-description = Brûk jo { $maxUsage } GB en 6 lokaasjes foar ekstra privacy om it dreger te meitsjen jo navigaasje nei jo werom te trasearjen.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = Brûk jo { $maxUsage } GB en mear as 20 lokaasjes foar ekstra privacy om it dreger te meitsjen jo navigaasje nei jo werom te trasearjen.
+ipprotection-summer-promo-offramp-subscriber-title = Jo ynboude VPN is no noch better wurden
+ipprotection-summer-promo-offramp-subscriber-description = Jo ûntfange no ûnbeheinde bânbreedte en mear lokaasjes as { -mozilla-vpn-brand-name }-abonnee.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = Behâld jo ekstra lokaasjes foar ynboude VPN
+ipprotection-summer-promo-offramp-default-browser-incentive-description = Meitsje fan { -brand-product-name } jo favorite browser en ûntfang mear as 20 ekstra plakken om fan te sneupen nei 31 augustus.
+ipprotection-summer-promo-offramp-subscription-upsell-title = In nivo heger mei { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-subscription-upsell-description = Behâld nei 31 augustus ûnbeheinde bânbreedte, mei mear as 300 lokaasjes op 5 apparaten om it dreger te meitsjen jo navigaasje nei jo werom te trasearjen.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN iepenje
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Ynstelle as standert
+ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } downloade
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Slute
+ipprotection-feature-introduction-link-text-private-browsing-2 = Brûk ús nije <a data-l10n-name="learn-more-vpn">ynboude VPN</a> om jo lokaasje te ferstopjen en jo gegevens te beskermjen, sels as jo yn in priveefinster binne.
+ipprotection-feature-introduction-description-private-browsing = Navigearje mei ekstra beskerming troch jo lokaasje te ferstopjen, sels as jo in priveefinster brûke.
+ipprotection-feature-introduction-title-captive-portal = Brûke jo iepenbiere wifi? Probearje de ynboude VPN fan { -brand-product-name }.
+ipprotection-feature-introduction-description-captive-portal = Navigearje mei ekstra beskerming troch jo lokaasje te ferstopjen, sels op iepenbiere wifi.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Untfang <a data-l10n-name="learn-more-vpn">ekstra privacy</a> troch te kiezen út ferskate lokaasjes om te ferbergjen wêr’t jo sneupe.
+ipprotection-feature-introduction-button-primary = Folgjende
+ipprotection-feature-introduction-button-secondary-not-now = No net
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = No net
+ipprotection-feature-introduction-button-secondary-no-thanks = Nee, tankewol
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Nee, tankewol
+ipprotection-feature-introduction-button-secondary-remove = VPN fan arkbalke fuortsmite
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = VPN fan arkbalke fuortsmite
+ipprotection-feature-introduction-button-open-vpn = VPN iepenje
+ipprotection-feature-introduction-button-get-started = Begjinne
+ipprotection-site-settings-callout-title = Kies wêr’t jo VPN brûke
+ipprotection-site-settings-callout-subtitle = Skeakelje VPN út foar in spesifike website en wy sille dit ûnthâlde foar de folgjende kear  dat jo dizze besykje.
+ipprotection-site-settings-callout-button = Begrepen
+ipprotection-location-selection-callout-title = Nij: wizigje jo lokaasje
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">Mei de ynboude VPN fan { -brand-product-name }</a> kinne jo kieze út ferskate navigaasjelokaasjes, of lit ús de rapste foar jo kieze.
+ipprotection-location-selection-callout-primary-button = Probearje
+ipprotection-location-selection-callout-secondary-button = Slute
+ipprotection-android-promo-callout-title = Nim ynboude VPN mei op Android
+ipprotection-android-promo-callout-description = Scan de QR-koade om { -brand-product-name } foar Android te krijen en ynboude VPN yn te skeakeljen foar mear privacy ûnderweis. Komt gau nei iOS.
+ipprotection-android-promo-callout-primary-button = Begrepen
+unauthenticated-vpn-title = De ynboude VPN fan { -brand-product-name } probearje
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Ferstopje jo lokaasje</a> by it navigearjen yn { -brand-product-name }.
+unauthenticated-private-location-message = Helpt <a data-l10n-name="learn-more-vpn">jo lokaasje privee te hâlden</a> yn { -brand-product-name }.
+unauthenticated-choose-location-message-1 = Kies út ferskate lokaasjes of lit { -brand-product-name } de rapste kieze.
+unauthenticated-site-rules-message = Bepale hokker websites VPN brûke en hokker websites net.
+unauthenticated-get-started = Begjinne
+unauthenticated-terms-of-service-privacy-notice = Troch fierder te gean, geane jo akkoard mei de <a data-l10n-name="vpn-terms-of-service">Tsjinstbetingsten</a> en <a data-l10n-name="vpn-privacy-notice">Privacyferklearring</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = VPN is oan foar dizze website
+    .label = VPN foar dizze website brûke
+site-exclusion-toggle-disabled-1 =
+    .aria-label = VPN is út foar dizze website
+    .label = VPN foar dizze website brûke
+site-exclusion-toggle-description = Wurket de website net? Probearje VPN út te skeakeljen.
+site-rules-manage-rules-link-text = VPN-regels beheare
+site-rules-status-heading = Jo regel
+site-rules-description-exclusion = VPN is út foar dizze website
+site-rules-description-inclusion = VPN is oan foar dizze website
+ipprotection-settings-link =
+    .label = Ynstellingen
+ipprotection-connection-status-connected-1 = VPN is ynskeakele
+    .aria-label = VPN is ynskeakele
+ipprotection-connection-status-disconnected-1 = VPN is útskeakele
+    .aria-label = VPN is útskeakele
+ipprotection-connection-status-excluded-1 = VPN is út foar dizze website
+    .aria-label = VPN is út foar dizze website
+ipprotection-connection-status-connecting-1 = VPN makket ferbining…
+    .aria-label = VPN makket ferbining…
+ipprotection-button-turn-vpn-off = VPN útskeakelje
+ipprotection-button-turn-vpn-off-excluded-site = VPN oeral útskeakelje
+ipprotection-button-turn-vpn-on = VPN ynskeakelje
+ipprotection-button-connecting = Ynskeakelje…
+ipprotection-recommended-location-button = Lokaasje: oanrekommandearre
+ipprotection-recommended-location-description = { -brand-product-name } fynt de rapste lokaasje
+ipprotection-recommended-location-badge = NIJ
+ipprotection-location-country-button = Lokaasje: { $country }
+ipprotection-locations-subview =
+    .title = Lokaasje kieze
+ipprotection-locations-subview-description = Kies in oare lokaasje om fan te navigearjen.
+ipprotecion-locations-subview-recommended-label = Oanrekommandearre
+ipprotection-locations-subview-recommended-description = Fyn de rapste lokaasje
+ipprotection-locations-unavailable-label-1 = Net beskikber
+    .aria-label = Net beskikber, útskeakele
+ipprotection-locations-subview-promo =
+    .heading = Bring beskerming fierder mei { -mozilla-vpn-brand-name }
+    .message = Kies út mear as300 lokaasjes en beskermje al jo apps op maksimaal fiif apparaten
+ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name } downloade
+ipprotection-connection-status-paused-title-2 = VPN is pauzearre
+    .aria-label = VPN is pauzearre
+ipprotection-connection-status-paused-description-1 = Jo hawwe alle { $maxUsage } GB fan jo VPN-gegevens brûkt. De tagong wurdt folgjende moanne opnij ynsteld.
+upgrade-vpn-title = Untfang ekstra beskerming bûten de browser
+upgrade-vpn-description = Kies jo VPN-lokaasje, brûk VPN foar al jo apps en maksimaal 5 apparaten, en bliuw feilich op elk netwurk – thús of op iepenbiere wifi.
+upgrade-vpn-button = Probearje { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Kin net ferbine mei VPN
+    .aria-label = Kin net ferbine mei VPN
+ipprotection-connection-status-generic-error-description = Probearje it oer in pear minuten opnij.
+ipprotection-connection-status-generic-error-try-again = Probearje it letter noch ris.
+ipprotection-connection-status-network-error-title-1 = Kontrolearje jo ynternetferbining
+    .aria-label = Kontrolearje jo ynternetferbining
+ipprotection-connection-status-network-error-description = Meitsje ferbining mei it ynternet en probearje dernei VPN yn te skeakeljen.
+ipprotection-connection-status-blocked-error-title-1 = VPN is net beskikber
+    .aria-label = VPN is net beskikber
+ipprotection-connection-status-blocked-error-description-1 = Lokale wetten en beheiningen, beheine wêr’t jo VPN brûke kinne. <a data-l10n-name="learn-more-link">Mear ynfo</a>
+ipprotection-message-bandwidth-warning =
+    .heading = Jo naderje jo VPN-limyt
+    .message = Jo hawwe noch { $usageLeft } GB fan { $maxUsage } GB oer dizze moanne
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Jo naderje jo VPN-limyt
+    .message = Jo hawwe noch { $usageLeft } MB fan { $maxUsage } GB oer dizze moanne.
+ipprotection-message-continuous-onboarding-intro = Skeakelje VPN yn om jo lokaasje te ferstopjen en ekstra fersifering oan jo navigaasje ta te foegjen.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Stel VPN yn om</a> hieltyd as jo { -brand-short-name } iepenje yn te skeakeljen foar in ekstra beskermingslaach.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } ûnthâldt hokker websites jo ynsteld hawwe foar it gebrûk fan VPN. Wurkje dizze op elk winske momint by yn de <a data-l10n-name="setting-link">ynstellingen</a>.
+confirmation-hint-ipprotection-navigated-to-excluded-site = VPN is út foar dizze website
+ipprotection-open-button = { -brand-product-name } iepenje
+ipprotection-come-back-title = Kom werom om de ynboude VPN te probearjen
+ipprotection-message-body-hide-location = Ferbergje jo lokaasje as jo navigearje yn { -brand-product-name } foar mear privacy en kontrôle.
+ipprotection-bandwidth-upgrade-title = Befalt ynboude VPN jo? Untfang noch mear beskerming bûten { -brand-product-name } mei { -mozilla-vpn-brand-name }.
+ipprotection-bandwidth-upgrade-text = Kies in VPN-lokaasje en foegje beskerming ta oan al jo apps op maksimaal 5 apparaten, oft jo no thús binne of op iepenbiere wifi.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Jo naderje jo VPN-limyt.</strong> Jo hawwe noch { $usageLeft } GB oer. Jo gegevens wurde begjin folgjende moanne opnij ynsteld.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Jo hawwe hast gjin VPN-gegevens mear.</strong> Jo hawwe noch { $usageLeft } GB oer. As alles brûkt is, wurdt jo VPN pauzearre oant jo gegevens opnij ynsteld wurde op de earste dei fan de folgjende moanne.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Jo hawwe hast gjin VPN-gegevens mear.</strong> Jo hawwe noch { $usageLeft } MB oer. As alles brûkt is, wurdt jo VPN pauzearre oant jo gegevens opnij ynsteld wurde op de earste dei fan de folgjende moanne.
+ip-protection-description =
+    .description = Ynboude VPN om jo privacy te ferbetterjen wylst jo mei { -brand-short-name } sneupe.
+    .label = VPN
+ip-protection-description-1 =
+    .description = Untfang ekstra privacy troch jo lokaasje te ferstopjen wylst jo navigearje
+    .label = Ynboude VPN
+ip-protection-learn-more = Mear ynfo
+ip-protection-not-opted-in-4 =
+    .heading = Probearje de ynboude VPN fan { -brand-short-name }
+    .message = Sneup mei ekstra beskerming troch jo lokaasje te ferstopjen.
+ip-protection-not-opted-in-button = Begjinne
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } website
+           *[other] { $count } websites
+        }
+    .label = Website-ynstellingen beheare
+ip-protection-site-rules-header =
+    .heading = Websiteregels beheare
+ip-protection-site-rules-button =
+    .description = Regels ynstelle foar websites dy’t ekstra privacy nedich hawwe of VPN útskeakele wêze moat.
+    .label = Websiteregels beheare
+ip-protection-autostart =
+    .label = VPN automatysk ynskeakelje
+ip-protection-autostart-checkbox =
+    .label = As ik { -brand-short-name } iepenje
+ip-protection-autostart-private-checkbox =
+    .label = Yn priveefinsters
+ip-protection-vpn-upgrade-link =
+    .description = Kies oanpaste VPN-lokaasjes en foegje beskerming ta oan al jo apps op maksimaal fiif apparaten, oft jo no thús binne of iepenbiere wifi brûke.
+    .label = Untfang noch mear beskerming bûten { -brand-short-name } mei { -mozilla-vpn-brand-name }
+ip-protection-vpn-upgrade-link-1 =
+    .description = Kies út mear as 300 lokaasjes en beskermje al jo apps op maksimaal fiif apparaten.
+    .label = Bring beskerming fierder mei { -mozilla-vpn-brand-name }
+ip-protection-exceptions-dialog-window =
+    .title = Website-ynstellingen beheare
+ip-protection-exclusions-desc = VPN foar alle websites brûke, útsein websites yn dizze list. Foegje hjir in website ta of troch VPN te iepenjen.
+ip-protection-bandwidth-header-1 = Moanlikse gegevenslimyt
+ip-protection-bandwidth-left-this-month-gb = { $usageLeft } GB fan { $maxUsage } GB restearjend dizze moanne
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">{ $usageLeft } GB</span> fan { $maxUsage } GB restearjend
+ip-protection-bandwidth-left-this-month-mb = { $usageLeft } MB fan { $maxUsage } GB restearjend dizze moanne
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">{ $usageLeft } MB</span> fan { $maxUsage } GB restearjend
+ip-protection-bandwidth-hit-for-the-month = Jo hawwe alle { $maxUsage } GB fan jo VPN-gegevens brûkt. De tagong wurdt folgjende moanne opnij ynsteld.
+ip-protection-bandwidth-help-text = Wurdt opnij ynsteld nei { $maxUsage } GB op de earste fan elke moanne.
+ipprotection-bandwidth-reset-title = { $maxUsage } GB oan VPN, fernijd en klear foar gebrûk
+ipprotection-bandwidth-reset-text = Skeakelje VPN yn foar in ekstra privacyboost, elke moanne fergees.
+ipprotection-bandwidth-reset-button = Begrepen
+ipp-activator-breakage-sign-in-warning = <strong>Dizze website wurket mooglik net mei in VPN.</strong> Probearje jo oan te melden of VPN út te skeakeljen wylst jo dizze website brûke.
+ipp-activator-breakage-turn-off-warning = <strong>Dizze website wurket mooglik net mei in VPN.</strong> Probearje VPN út te skeakeljen wylst jo dizze website brûke.
+vpn-paused-alert-title = VPN pauzearre
+vpn-paused-alert-body = Jo hawwe alle { $maxUsage } GB fan jo VPN-gegevens brûkt. VPN-tagong wurdt folgjende moanne opnij ynsteld.
+vpn-error-page-paused-description = Jo hawwe alle { $maxUsage } GB fan jo VPN-gegevens brûkt. De tagong wurdt folgjende moanne opnij ynsteld.
+vpn-error-page-continue-description = Kies hoe’t jo trochgean wolle sûnder VPN
+vpn-error-page-keep-browsing = Yn dizze sesje fierder navigearje
+vpn-error-page-new-session = In nije sesje starte
+vpn-paused-alert-close-tabs-button = Alle ljepblêden slute
+vpn-paused-alert-continue-wo-vpn-button = Trochgean sûnder VPN
+vpn-error-alert-title = VPN wurket op dit stuit net.
+vpn-error-alert-body = Probearje it letter opnij.

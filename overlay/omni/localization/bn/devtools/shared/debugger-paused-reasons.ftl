@@ -1,0 +1,15 @@
+whypaused-debugger-statement = ডিবাগার বিবৃতিতে বিরতি দেওয়া হয়েছে
+whypaused-breakpoint = ব্রেকপয়েন্টে বিরতি দেওয়া হয়েছে
+whypaused-event-breakpoint = ইভেন্ট ব্রেকপয়েন্টে বিরতি দেওয়া হয়েছে
+whypaused-exception = ব্যতিক্রমে বিরতি দেওয়া হয়েছে
+whypaused-mutation-breakpoint-added = সংযুক্ত:
+whypaused-mutation-breakpoint-removed = অপসারিত:
+whypaused-interrupted = এক্সিকিউশন এ বিরতি দেওয়া হয়েছে
+whypaused-resume-limit = পদবিন্যাসের সময় বিরতি দেওয়া হয়েছে
+whypaused-pause-on-dom-events = ইভেন্ট লিসেনার বন্ধ করা হয়েছে
+whypaused-breakpoint-condition-thrown = শর্তাধীন ব্রেকপয়েন্টে ত্রুটি
+whypaused-xhr = XMLHttpRequest এ বিরতি দেওয়া হয়েছে
+whypaused-promise-rejection = প্রতিশ্রুতি প্রত্যাখ্যানে বিরতি দেওয়া হয়েছে
+whypaused-assert = প্রতিবাদে বিরতি দেওয়া হয়েছে
+whypaused-debug-command = ডিবাগেড ফাংশন এ বিরতি দেওয়া হয়েছে
+whypaused-other = ডিবাগার বিরতি দেওয়া হয়েছে

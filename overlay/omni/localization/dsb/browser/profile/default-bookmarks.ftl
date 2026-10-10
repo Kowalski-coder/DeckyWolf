@@ -1,0 +1,14 @@
+default-bookmarks-title = Cytańske znamjenja
+default-bookmarks-heading = Cytańske znamjenja
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Pomoc wobstaraś
+default-bookmarks-firefox-customize = Firefox pśiměriś
+default-bookmarks-firefox-community = Cyńśo sobu
+default-bookmarks-firefox-about = Wó nas
+default-bookmarks-nightly-heading = Resurse Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Slědowanje zmólkow Mozilla
+default-bookmarks-mdn = Seś wuwijarjow Mozilla
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Wše waše wowalenja
+default-bookmarks-planet = Planet Mozilla

@@ -1,0 +1,6 @@
+site-permissions-open-blocked-popups =
+    { $count ->
+        [one] { $count } ਪਾਬੰਦੀ ਲਾਏ ਪੌਪ-ਅੱਪ ਨੂੰ ਖੋਲ੍ਹੋ…
+       *[other] { $count } ਪਾਬੰਦੀ ਲਾਏ ਪੌਪ-ਅੱਪਾਂ ਨੂੰ ਖੋਲ੍ਹੋ…
+    }
+site-permissions-unblock-redirect = …ਤੀਜੀ-ਧਿਰ ਰੀ-ਡਾਇਰੈਕਟ ਤੋਂ ਪਾਬੰਦੀ ਨੂੰ ਹਟਾਓ

@@ -1,0 +1,26 @@
+restore-page-tab-title = Berreskuratu saioa
+restore-page-error-title = Sentitzen dugu. Arazoak izaten ari gara zure orriak berreskuratzen.
+restore-page-problem-desc = Arazoak izaten ari gara zure azken nabigatze-saioa berreskuratzen. Berriro saiatzeko, hautatu 'Berreskuratu saioa'.
+restore-page-try-this = Oraindik ezin duzu zure saioa berreskuratu? Batzuetan fitxa batek eragin lezake hau. Ikusi aurreko fitxak, kendu marka berreskuratu behar ez dituzun fitxetatik eta gero berreskuratu.
+restore-page-hide-tabs = Ezkutatu aurreko fitxak
+restore-page-show-tabs = Ikusi aurreko fitxak
+restore-page-window-label = { $windowNumber } leihoa
+restore-page-restore-header =
+    .label = Berreskuratu
+restore-page-list-header =
+    .label = Leihoak eta fitxak
+restore-page-try-again-button =
+    .label = Berreskuratu saioa
+    .accesskey = B
+restore-page-close-button =
+    .label = Hasi saio berria
+    .accesskey = H
+welcome-back-tab-title = Ongi!
+welcome-back-page-title = Ongi!
+welcome-back-page-info = { -brand-short-name } erabiltzeko prest dago.
+welcome-back-restore-button =
+    .label = Aurrera!
+    .accesskey = A
+welcome-back-restore-all-label = Berreskuratu leiho eta fitxa guztiak
+welcome-back-restore-some-label = Berreskuratu nahi dituzunak soilik
+welcome-back-page-info-link = Zure gehigarriak eta pertsonalizazioak kendu egin dira eta nabigatzailearen ezarpenak lehenespenetara leheneratu dira. Honek ez badu zure arazoa konpondu, <a data-l10n-name="link-more">irakurri argibide gehiago egin dezakezunaren inguruan.</a>

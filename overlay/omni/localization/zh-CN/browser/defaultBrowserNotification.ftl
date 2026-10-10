@@ -1,0 +1,27 @@
+default-browser-notification-message = <strong>要将 { -brand-short-name } 设为默认浏览器吗？</strong>随时在网上进行快速、安全且私密的浏览。
+default-browser-notification-button =
+    .label = 设为默认
+    .accesskey = S
+default-browser-prompt-title-pin = 要将 { -brand-short-name } 设为您的主浏览器吗？
+default-browser-prompt-message-pin = 将 { -brand-short-name } 设为默认浏览器并固定到任务栏，方便随手开启。
+default-browser-prompt-message-pin-msix = 将 { -brand-short-name } 设为默认浏览器，并固定到任务栏和“开始”菜单，方便随手开启。
+default-browser-prompt-message-pin-mac = 将 { -brand-short-name } 设为默认浏览器并保留在程序坞中，方便随手开启。
+default-browser-prompt-button-primary-set = 设为主浏览器
+default-browser-prompt-title-alt = 要将 { -brand-short-name } 设为您的默认浏览器吗？
+default-browser-prompt-message-alt = 每一次浏览，都有最快速度、安全与隐私保护。
+default-browser-prompt-button-primary-alt = 设为默认浏览器
+default-browser-prompt-checkbox-not-again-label = 不再显示此消息
+default-browser-prompt-button-secondary = 暂时不要
+default-browser-guidance-notification-title = 完成设置，将 { -brand-short-name } 设为默认浏览器
+default-browser-guidance-notification-body-instruction-win10 =
+    第一步：前往“设置”>“默认应用”
+    第二步：向下滚动到“Web 浏览器”
+    第三步：选择，然后选取 { -brand-short-name }
+default-browser-guidance-notification-body-instruction-win11 =
+    第一步：前往“设置”>“默认应用”
+    第二步：对 { -brand-short-name } 选择“设置默认值”
+default-browser-guidance-notification-info-page = 前往设置
+default-browser-guidance-notification-dismiss = 完成
+default-browser-guidance-notification-v2-title = 完成设置，将 { -brand-short-name } 设为默认浏览器
+default-browser-guidance-notification-v2-body = 在“设置”中，为 { -brand-short-name } 选择“设为默认”。
+default-browser-guidance-notification-v2-title-only = 完成步骤，在“设置”中将 { -brand-short-name } 设为默认浏览器

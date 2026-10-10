@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = 도구 더보기 메뉴에서 고정 해제
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = 도구 모음에 추가
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = 도구 더보기 메뉴에 추가
+    .accesskey = M
+panic-button-thankyou-msg1 = 최근 기록이 지워졌습니다.
+panic-button-thankyou-msg2 = 안전한 탐색!
+panic-button-thankyou-button =
+    .label = 감사합니다!

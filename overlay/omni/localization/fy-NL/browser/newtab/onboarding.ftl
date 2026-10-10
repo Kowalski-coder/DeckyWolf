@@ -1,0 +1,359 @@
+onboarding-welcome-header = Wolkom by { -brand-short-name }
+onboarding-start-browsing-button-label = Begjinne mei sneupen
+onboarding-not-now-button-label = No net
+mr1-onboarding-get-started-primary-button-label = Begjinne
+return-to-amo-subtitle = Geweldich, jo hawwe { -brand-short-name }
+return-to-amo-addon-title = Litte wy no <img data-l10n-name="icon"/> <b>{ $addon-name }</b> ophelje.
+return-to-amo-add-extension-label = De útwreiding tafoegje
+return-to-amo-add-theme-label = It tema tafoegje
+return-to-amo-theme-install-complete-label = Tema ynstallearre
+return-to-amo-extension-install-complete-label = Utwreiding ynstallearre
+mr1-return-to-amo-subtitle = Hertlik wolkom by { -brand-short-name }
+mr1-return-to-amo-addon-title = Jo hawwe in rappe, priveebrowser binnen hânberik. Jo kinne no <b>{ $addon-name }</b> tafoegje en noch mear dwaan mei { -brand-short-name }.
+mr1-return-to-amo-add-extension-label = { $addon-name } tafoegje
+onboarding-welcome-steps-indicator-label =
+    .aria-label = Fuortgong: stap { $current } fan { $total }
+mr1-onboarding-reduce-motion-button-label = Animaasjes útskeakelje
+mr1-onboarding-sign-in-button-label = Oanmelde
+mr1-onboarding-import-primary-button-label-attribution = Ymportearje út { $previous }
+mr1-onboarding-theme-header = Meitsje it fan josels
+mr1-onboarding-theme-subtitle = Personalisearje { -brand-short-name } mei in tema.
+mr1-onboarding-theme-secondary-button-label = No net
+mr1-onboarding-theme-label-system = Systeemtema
+mr1-onboarding-theme-label-light = Ljocht
+mr1-onboarding-theme-label-dark = Donker
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = Dien
+onboarding-animation-pause-button =
+    .aria-label = Animaasjes pauzearje
+onboarding-animation-play-button =
+    .aria-label = Animaasjes ôfspylje
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        It tema fan it bestjoeringssysteem
+        foar knoppen, menu’s en finsters folgje.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        It tema fan it bestjoeringssysteem
+        foar knoppen, menu’s en finsters folgje.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        In ljocht tema brûke foar knoppen,
+        menu‘s en finsters.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        In ljocht tema brûke foar knoppen,
+        menu‘s en finsters.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        In donker tema brûke foar knoppen,
+        menu‘s en finsters.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        In donker tema brûke foar knoppen,
+        menu‘s en finsters.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        In dynamysk, kleurryk tema brûke foar knoppen,
+        menu’s en finsters.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        In dynamysk, kleurryk tema brûke foar knoppen,
+        menu’s en finsters.
+mr2-onboarding-default-theme-label = Standerttema’s ferkenne.
+mr2-onboarding-thank-you-header = Tank dat jo keazen hawwe foar ús
+mr2-onboarding-thank-you-text = { -brand-short-name } is in ûnôfhinklike browser dy’t stipe wurdt troch in non-profit. Tegearre meitsje wy it web feiliger, sûner en mear privee.
+mr2-onboarding-start-browsing-button-label = Start mei browsen
+onboarding-live-language-header = Kies jo taal
+mr2022-onboarding-live-language-text = { -brand-short-name } sprekt jo taal
+mr2022-language-mismatch-subtitle = Mei tank oan ús mienskip, { -brand-short-name } is yn mear as 90 talen oerset. It liket derop dat jo systeem { $systemLanguage } brûkt, en { -brand-short-name } { $appLanguage } brûkt.
+onboarding-live-language-button-label-downloading = It taalpakket downloade foar { $negotiatedLanguage }…
+onboarding-live-language-waiting-button = Beskikbere talen ophelje…
+onboarding-live-language-installing = It taalpakket foar { $negotiatedLanguage } ynstallearje…
+mr2022-onboarding-live-language-switch-to = Wikselje nei { $negotiatedLanguage }
+mr2022-onboarding-live-language-continue-in = Trochgean yn { $appLanguage }
+onboarding-live-language-secondary-cancel-download = Annulearje
+onboarding-live-language-skip-button-label = Oerslaan
+fx100-thank-you-hero-text =
+    100
+    Kear
+    <span data-l10n-name="zap">tank</span>
+fx100-thank-you-subtitle = Dit is ús 100ste ferzje! Tank foar it helpen bouwen oan in better, sûner ynternet.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } oan de Dock fêstmeitsje
+       *[other] { -brand-short-name } oan de taakbalke fêstmeitsje
+    }
+fx100-upgrade-thanks-header = 100 kear tank
+fx100-upgrade-thank-you-body = It is ús 100e ferzje fan { -brand-short-name }. <em>Tank</em> foar jo help by it bouwen fan in better, sûner ynternet.
+fx100-upgrade-thanks-keep-body = It is ús 100ste ferzje! Tank dat jo ûnderdiel binne fan ús mienskip. Hâld { -brand-short-name } ien klik ôf fan de folgjende 100.
+mr2022-onboarding-secondary-skip-button-label = Dizze stap oerslaan
+mr2022-onboarding-easy-setup-primary-button-label = Bewarje en trochgean
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } ynstelle as standertbrowser
+mr2022-onboarding-easy-setup-import-checkbox-label = Ymportearje út foarige browser
+mr2022-onboarding-welcome-pin-header = Iepenje in geweldich ynternet
+mr2022-onboarding-welcome-pin-subtitle = Start { -brand-short-name } fan oeral wei mei ien klik. Elke kear as jo dat dogge, kieze jo in mear iepen en ûnôfhinklik web.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } yn Dock hâlde
+       *[other] { -brand-short-name } oan taakbalke fêstmeitsje
+    }
+mr2022-onboarding-pin-primary-button-label-msix = { -brand-short-name } oan taakbalke en it startmenu fêstmeitsje
+mr2022-onboarding-existing-pin-header = Tank foar jo kar foar { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = Start in sûner ynternet fan oeral wei mei ien klik. Us lêste fernijing is fol mei nije saken wêrfan wy tinke dat jo se wurdearje sille.
+mr2022-onboarding-existing-set-default-only-subtitle = Brûk in browser dy’t jo privacy ferdigenet wylst jo op it web sneupe. Us lêste fernijing is fol mei saken wêr’t jo fan hâlde.
+mr2022-onboarding-existing-pin-checkbox-label = Foegje ek { -brand-short-name }-priveenavigaasje ta
+mr2022-onboarding-set-default-title = Meitsje { -brand-short-name } earste browser
+mr2022-onboarding-set-default-primary-button-label = { -brand-short-name } ynstelle as standertbrowser
+mr2022-onboarding-set-default-subtitle = Brûk in browser stipe troch in non-profit. Wy ferdigenje jo privacy wylst jo sneupe op it ynternet.
+mr2022-onboarding-get-started-primary-subtitle = Us lêste ferzje is om jo hinne boud, wêrtroch it makliker is dan ea om op it web te sneupen. It is fol mei funksjes wêrfan wy tinke dat jo se wurdearje sille.
+mr2022-onboarding-get-started-primary-button-label = Ynstelle yn in pear tellen
+mr2022-onboarding-import-primary-button-label-no-attribution = Ymportearje út foarige browser
+mr2022-onboarding-mobile-download-cta-text = Scan de QR-koade om { -brand-product-name } foar mobyl te krijen of <a data-l10n-name="download-label">stjoer josels in downloadkeppeling.</a>
+mr2022-onboarding-no-mobile-download-cta-text = Scan de QR-koade om { -brand-product-name } op mobyl te downloaden.
+mr2022-upgrade-onboarding-pin-private-window-header = Krij frijheid fan priveenavigaasje mei ien klik
+mr2022-upgrade-onboarding-pin-private-window-subtitle = Gjin bewarre cookies of skiednis, streekrjocht fan jo buroblêd ôf. Blêdzje as oft net ien sjocht.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name }-priveenavigaasje yn Dock hâlde
+       *[other] { -brand-short-name }-priveenavigaasje yn taakbalke fêst meitsje
+    }
+mr2022-onboarding-privacy-segmentation-title = Wy respektearje altyd jo privacy
+mr2022-onboarding-privacy-segmentation-subtitle = Fan yntelliginte suggestjes oant tûker sykjen, wy wurkje konstant oan it meitsjen fan in bettere, mear persoanlike { -brand-product-name }.
+mr2022-onboarding-privacy-segmentation-text-cta = Wat wolle jo sjen as wy nije funksjes oanbiede dy’t jo gegevens brûke om jo navigaasje te ferbetterjen?
+mr2022-onboarding-privacy-segmentation-button-primary-label = { -brand-product-name }-oanrekommandaasjes brûke
+mr2022-onboarding-privacy-segmentation-button-secondary-label = Detailynformaasje toane
+mr2022-onboarding-gratitude-title = Jo helpe ús in better web te bouwen
+mr2022-onboarding-gratitude-subtitle = Tank foar it brûken fan { -brand-short-name }, stipe troch de Mozilla Foundation. Mei jo stipe wurkje wy om it ynternet iepener, tagonkliker en better te meitsjen foar elkenien.
+mr2022-onboarding-gratitude-primary-button-label = Besjoch wat nij is
+mr2022-onboarding-gratitude-secondary-button-label = Start mei browsen
+onboarding-infrequent-import-title = Doch as oft jo thús binne
+onboarding-infrequent-import-subtitle = Oft jo no bliuwe of gewoan delkomme, ûnthâld dat jo jo blêdwizers, wachtwurden en mear ymportearje kinne.
+onboarding-infrequent-import-primary-button = Ymportearje yn { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = Persoan dy’t wurket op in laptop omjûn troch stjerren en blommen
+mr2022-onboarding-default-image-alt =
+    .aria-label = Persoan dy’t it { -brand-product-name }-logo oankrûpt
+mr2022-onboarding-import-image-alt =
+    .aria-label = Persoan dy’t op in skateboard rydt mei in doaze mei softwarepiktogrammen
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = Kikkerts dy’t oer pompeblêden springe mei in QR-koade om { -brand-product-name } te downloaden foar mobyl yn it midden
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = Toverstêf lit it { -brand-product-name }-priveenavigaasjelogo út in ferskine
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = Lichte en donkere hannen dogge in high five
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = Utsicht op in sinneûndergong troch in finster mei in foks en in keamerplant op in finsterbank
+onboarding-device-migration-image-alt =
+    .aria-label = In swaaiende foks op it skerm fan in laptop. De laptop hat in mûs oansluten.
+onboarding-device-migration-title = Wolkom werom!
+onboarding-device-migration-subtitle2 = Meld jo oan by jo account om jo blêdwizers, wachtwurden en skiednis mei jo mei te nimmen op jo nije apparaat.
+onboarding-device-migration-primary-button-label = Oanmelde
+amo-picker-title = Jo { -brand-short-name } oanpasse
+amo-picker-subtitle = Utwreidingen binne as apps foar jo browser, en jo kinne der wachtwurden mei beskermje, fideo’s downloade, oanbiedingen fine, ferfelende advertinsjes blokkearje, it uterlik fan jo browser wizigje, en noch folle mear.
+amo-picker-install-button-label = Tafoegje oan { -brand-short-name }
+amo-picker-install-complete-label = Ynstallearre
+amo-picker-collection-link = Mear add-ons ferkenne
+onboarding-easy-setup-security-and-privacy-title = Wy hâlde jo graach feilich
+onboarding-easy-setup-security-and-privacy-subtitle = Us troch in non-profitorganisaasje browser helpt bedriuwen foar te kommen dat bedriuwen jo stikem folgje op ynternet.
+onboarding-mobile-download-security-and-privacy-title = Bliuw fersifere wannear’t jo fan apparaat wikselje
+onboarding-mobile-download-security-and-privacy-subtitle = Wannear’t jo syngronisearre binne, fersiferet { -brand-short-name } jo wachtwurden, blêdwizers en mear. Boppedat kinne jo ljepblêden fan jo oare apparaten ophelje.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } is der foar jo
+onboarding-gratitude-security-and-privacy-subtitle = Tank foar it brûken fan { -brand-short-name }, stipe troch de Mozilla Foundation. Mei jo stipe wurkje wy om it ynternet  foar elkenien feiliger en mear tagonklik te meitsjen.
+onboarding-sign-up-title = Jo gegevens tusken apparaten syngronisearje
+onboarding-sign-up-description = Skriuw jo yn foar in account en al jo wichtige gegevens – wachtwurden, blêdwizers en mear – wurde feilich bewarre en binne beskikber wannear’t jo jo oanmelde op in apparaat.
+onboarding-sign-up-button = Registrearje of meld jo oan
+onboarding-sign-up-secondary-button = Start mei browsen
+onboarding-new-user-time-based-survey-title = Hoe lang brûke jo { -brand-short-name } al?
+onboarding-new-user-familiarity-based-survey-title = Hoe bekend binne jo mei { -brand-short-name }?
+onboarding-new-user-survey-subtitle = Jo feedback helpt { -brand-short-name } noch better te meitsjen.
+onboarding-new-user-survey-next-button-label = Folgjende
+onboarding-new-user-survey-legal-link-label = Troch ‘{ onboarding-new-user-survey-next-button-label }’ te selektearjen, geane jo akkoard mei de <a data-l10n-name="privacy_notice">Privacyferklearring</a> fan { -brand-product-name }
+onboarding-new-user-survey-time-based-option-1 = Ik bin hielendal nij
+onboarding-new-user-survey-time-based-option-2 = Minder as in moanne
+onboarding-new-user-survey-time-based-option-3 = Mear as in moanne, regelmjittich
+onboarding-new-user-survey-time-based-option-4 = Mear as in moanne, sa no en dan
+onboarding-new-user-survey-familiarity-based-option-1 = Ik bin hielendal nij
+onboarding-new-user-survey-familiarity-based-option-2 = Ik haw it wat brûkt
+onboarding-new-user-survey-familiarity-based-option-3 = Ik bin der tige bekend mei
+onboarding-new-user-survey-familiarity-based-option-4 = Ik haw it yn it ferline brûkt, mar it is in tydsje lyn
+onboarding-new-tabs-title = Fertel ús wêr’t jo jo ljepblêden hawwe wolle
+onboarding-new-tabs-subtitle = Wizigje it wannear’t jo mar wolle yn de sybalkeynstellingen.
+onboarding-many-tabs-title = Jo ljepblêden, op jo manier
+onboarding-many-tabs-subtitle = In protte ljepblêden iepen? Probearje jo ljepblêden oan de sydkant foar in streamline werjefte. Of hâld it klassyk mei ljepblêden oan de boppekant. Skeakelje op elk momint.
+onboarding-focused-tabs-title = Kies jo ljepblêdyndieling
+onboarding-focused-tabs-subtitle = Probearje jo ljepblêden oan de sydkant foar in streamline werjefte dy’t jo helpe kin fokus te hâlden. Of hâld it klassyk mei ljepblêden oan de boppekant. Skeakelje op elk momint.
+onboarding-new-vertical-tabs-label = Ljepblêden oan de sydkant
+onboarding-new-horizontal-tabs-label = Ljepblêden boppe oan
+onboarding-existing-tabs-title = Der binne no fertikale ljepblêden
+onboarding-existing-tabs-title2 = Nij: fertikale ljepblêden
+onboarding-existing-tabs-subtitle = Probearje jo ljepblêden oan de sydkant. Wizigje it wannear’t jo mar wolle yn de sidebalkeynstellingen.
+onboarding-existing-vertical-tabs-label = Fertikale ljepblêden probearje
+onboarding-flair-text = Nij!
+onboarding-existing-horizontal-tabs-label = Horizontale ljepblêden behâlde
+onboarding-vertical-tabs-tooltip =
+    .title = In browserfinster dat ljepblêden lâns de sydkant fan it skerm toant as ûnderdiel fan de { -brand-shorter-name }-sidebalke.
+onboarding-vertical-tabs-description =
+    .aria-description = In browserfinster dat ljepblêden lâns de sydkant fan it skerm toant as ûnderdiel fan de { -brand-shorter-name }-sidebalke.
+onboarding-horizontal-tabs-tooltip =
+    .title = In browserfinster mei ljepblêden oan de boppekant.
+onboarding-horizontal-tabs-description =
+    .aria-description = In browserfinster mei ljepblêden oan de boppekant.
+onboarding-genai-sidebar-title = Probearje in AI-chatbot yn de sidebalke
+onboarding-genai-sidebar-subtitle = Gearfetsje webynhâld, brainstorm ideeën, konseptberjochten – alles as jo sneupe. Kies út meardere providers. Wikselje elk momint. <a data-l10n-name="learn-more">Mear ynfo</a>
+onboarding-genai-sidebar-primary-button = Kies in chatbot
+onboarding-genai-sidebar-secondary-button = Begjinne mei sneupen
+onboarding-checklist-title = Ynstellen fan { -brand-short-name } foltôgje
+onboarding-checklist-subtitle = Foltôgje dizze stappen om it measte út jo sneupûnderfining te heljen.
+onboarding-checklist-set-default = { -brand-short-name } ynstelle as standertbrowser
+onboarding-checklist-pin = { -brand-short-name } oan de taakbalke fêstmeitsje
+onboarding-checklist-import = Ymportearje út foarige browser
+onboarding-checklist-extension = In útwreiding tafoegje
+onboarding-checklist-sign-up = Registrearje of oanmelde by jo account
+onboarding-checklist-minimize =
+    .label = Minimalisearje
+onboarding-checklist-remove =
+    .label = Kontrôlelist fuortsmite
+onboarding-checklist-remove-2 = Kontrôlelist fuortsmite
+tab-groups-onboarding-feature-callout-title = Probearje ljepblêdgroepen foar minder rommel, mear fokus
+tab-groups-onboarding-feature-callout-subtitle = Wês organisearre troch it iene ljepblêd op it oar te slepen om jo earste groep te meitsjen.
+tab-groups-onboarding-create-group-title-3 = Fyn jo ljepblêdgroepen altyd werom yn it menu Alle ljepblêdtitels toane.
+tab-groups-onboarding-create-group-no-alltabs-button-title = Fyn jo groepen troch dernei te sykjen yn de adresbalke.
+tab-groups-onboarding-saved-groups-title-3 = Wannear’t jo in ljepblêdgroep slute, kinne jo dizze op elk winske momint opnij iepenje fan it menu Alle ljepblêdtitels toane út.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = Fyn jo sletten groepen troch dernei te sykjen yn de adresbalke.
+tab-groups-onboarding-session-restore-title-2 = Jo kinne jo ljepblêdgroepen op elk winske momint opnij iepenje fan it menu Alle ljepblêdtitels toane út.
+tab-groups-onboarding-dismiss = OK
+multi-profile-spotlight-title = Hertlik wolkom by { -brand-product-name }-profilen
+multi-profile-spotlight-body = Skeakelje maklik tusken sneupen foar wurk en wille. Profilen hâlde jo sneupynformaasje, ynklusyf sykskiednis en wachtwurden, folslein apart, sadat jo organisearre bliuwe kinne.
+multi-profile-spotlight-cta = In profyl oanmeitsje
+multi-profile-callout-title = Meitsje ferskate profilen foar wurk en wille
+multi-profile-callout-subtitle = Profilen litte jo jo sneupynformaasje, lykas sykskiednis en wachtwurden, folslein apart te hâlden.
+multi-profile-callout-cta = In profyl oanmeitsje
+desktop-to-mobile-headline = Downloade, syngronisearje en gean!
+desktop-to-mobile-subtitle = Scan de QR-koade om { -brand-product-name } foar mobyl te downloaden. Selektearje nei ynstallaasje ‘Syngronisearje mei mobyl’ om ûnderweis tagong ta jo wachtwurden, blêdwizers en mear te krijen.
+dismiss-button-label = Slute
+sync-to-mobile-button-label = Syngronisearje mei mobyl
+desktop-to-mobile-qr-code-alt =
+    .aria-label = QR-koade om { -brand-product-name } foar mobyl te downloaden
+create-backup-screen-1-title =
+    Upgrade nei Windows 11?
+    Litte wy in reservekopy fan jo { -brand-product-name }-gegevens meitjse
+create-backup-screen-1-subtitle = Beskermje automatysk jo wachtwurden, blêdwizers en mear yn 1–2 minuten.
+create-backup-screen-1-flair = Oanrekommandearre
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">Mear ynfo</a>
+create-backup-screen-1-sync-label = Syngronisearje mei { -brand-product-name }
+create-backup-screen-1-sync-body = Makket in reservekopy fan alle oanmelde apparaten
+create-backup-screen-1-backup-label = Reservekopy meitsje op PC
+create-backup-screen-1-backup-body = Bewarret op jo apparaat of OneDrive
+create-backup-select-tile-button-label = Selektearje
+create-backup-back-button-label = Tebek
+create-backup-show-fewer =
+    .label = Minder lykas dit toane
+create-backup-screen-2-title = Kies { -brand-product-name }-gegevens om in reservekopy fan te meitsjen
+create-backup-screen-2-subtitle = It duorret mar in minút. Der wurdt ien kear deis in reservekopy fan jo gegevens makke.
+create-backup-screen-2-easy-label = Ienfâldige ynstellingen
+create-backup-screen-2-easy-list-1 = Blêdwizers, skiednis, ynstellingen en mear
+create-backup-screen-2-easy-list-2 = Befettet gjin wachtwurden en betelmetoaden
+create-backup-screen-2-easy-list-3 = Net fersifere
+create-backup-screen-2-all-label = Alle gegevens
+create-backup-screen-2-all-list-2 = Befettet wachtwurden en betelmetoaden
+create-backup-screen-2-all-list-3 = Fersifere mei in wachtwurd
+create-backup-screen-3-location = Wêr wolle jo jo reservekopy bewarje?
+create-backup-screen-3-title = Wachtwurd foar in reservekopybestân oanmeitsje
+create-backup-screen-3-subtitle = Fereaske om jo gegevens te fersiferjen. Bewarje it op in plak dat jo ûnthâlde kinne.
+fx-backup-opt-in-header = Bestânslokaasje kieze
+fx-backup-opt-in-filepath-label = Kies in lokaasje dy’t jo nei in nij apparaat oersette wolle, lykas OneDrive.
+fx-backup-opt-in-create-password-label = Fier wachtwurd yn
+fx-backup-opt-in-confirm-btn-label = Trochgean
+fx-backup-opt-in-cancel-btn-label = Tebek
+fx-backup-confirmation-screen-title = Jo reservekopy is ynpland
+fx-backup-confirmation-screen-close-button = Slute
+fx-backup-confirmation-screen-all-data-item-text-1 = Alle navigaasjegegevens ynbegrepen
+fx-backup-confirmation-screen-all-data-item-text-2 = Bewarre op jo apparaat
+fx-backup-confirmation-screen-all-data-item-text-3 = Fersifere en befeilige mei in wachtwurd
+fx-backup-confirmation-screen-easy-setup-item-text-1 = Ynklusyf blêdwizers, skiednis, ynstellingen en oare gegevens
+fx-backup-confirmation-screen-easy-setup-item-text-2 = Bewarre op jo apparaat
+fx-backup-confirmation-screen-easy-setup-item-text-3 = Wachtwurden en betelmetoaden net ynbegrepen
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = Gean nei <a data-l10n-name="settings">Ynstellingen</a> om gefoelige gegevens op te nimmen.
+fx-backup-confirmation-screen-item-subtext-1 = It meitsjen fan jo reservekopy begjint oer in pear minuten en wurdt ien kear deis útfierd. Jo kinne de fuortgong kontrolearje yn <a data-l10n-name="settings">Ynstellingen</a>.
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } siket nei jo reservekopy as jo opnij ynstallearje moatte.
+restore-from-backup-secondary-top-button = Weromsette fan reservekopy út
+restore-from-backup-title = Litte wy { -brand-short-name } weromkrije sa as jo it wolle
+restore-from-backup-subtitle = Werstel al jo blêdwizers, skiednis en oare gegevens om werom te kearen nei sneupen.
+restore-from-backup-secondary-button = Net weromsette
+multiple-backups-info-tile = <strong>Meardere reservekopybestannen fûn.</strong> It meast resinte bestân is selektearre. Werstel oare profilen yn <a data-l10n-name="settings-label">Ynstellingen.</a>
+restored-from-backup-success-title = Wy binne werom! { -brand-short-name }-gegevens binne weromset.
+restored-from-backup-success-with-checklist-subtitle = Wolle jo jo favorite op privacy rjochte browser ien klik tichteby hâlde?
+restored-from-backup-success-no-checklist-subtitle = Jo kinne reservekopyen foar dit apparaat ynskeakelje yn <a data-l10n-name="settings">Ynstellingen</a>.
+restored-from-backup-success-with-checklist-primary-button = Bewarje en trochgean
+restored-from-backup-success-with-checklist-secondary-button = Dizze stap oerslaan
+restored-from-backup-success-no-checklist-primary-button = Trochgean
+restored-from-backup-error-title = Hmm, der is in probleem mei jo reservekopybestân.
+restored-from-backup-error-subtitle = As jo in oar { -brand-short-name }-reservekopybestân hawwe, probearje dan derfan werom te setten. <a data-l10n-name="restore-problems">Noch hieltyd problemen?</a>
+restored-from-backup-error-primary-button = Slute
+onboarding-personalization-title = Pas jo { -brand-short-name }-ûnderfining oan
+onboarding-personalization-subtitle = Beantwurdzje in pear fragen en wy sille funksjes en útwreidingen oanrekommandearje om jo gebrûk fan { -brand-short-name } te ferbetterjen.
+onboarding-personalization-use-case-title = Wêrfoar sille jo { -brand-short-name } brûke?
+onboarding-personalization-use-case-personal-option = Persoanlik
+onboarding-personalization-use-case-school-option = Skoalle
+onboarding-personalization-use-case-work-option = Wurk
+onboarding-personalization-motivation-title = Hokker funksjes fan { -brand-short-name } binne it wichtichst foar jo?
+onboarding-personalization-motivation-privacy-option = Privacy en befeiliging
+onboarding-personalization-motivation-productivity-option = Produktiviteit
+onboarding-personalization-motivation-other-option = Oars
+onboarding-refresh-pin-set-default-subtitle = Wy beskermje jo gegevens en blokkearje bedriuwen dy’t jo klikken bespionearje – automatysk.
+onboarding-refresh-pin-set-default-title = Jo binne yn feilige poaten
+onboarding-refresh-import-subtitle = Bring jo wachtwurden, blêdwizers, skiednis en mear oer.
+onboarding-refresh-import-title = Lit { -brand-short-name } mear as thús fiele.
+onboarding-refresh-onboarding-addons-subtitle = Utwreidingen binne lytse apps wêrmei’t jo { -brand-short-name } oanpasse kinne. Se kinne jo privacy ferbetterje, produktiviteit ferbetterje, it uterlik fan { -brand-short-name } wizigje, en noch folle mear.
+onboarding-refresh-onboarding-addons-title = Jou jo navigaasje in boost
+onboarding-refresh-sync-subtitle = Download blêdwizers, wachtwurden en mear, oeral wêr’t jo oanmeld binne by { -brand-short-name }. Plus, jo gegevens binne fersifere, sadat allinnich jo se sjen kinne.
+onboarding-refresh-sync-title = Gean oeral hinne. Syngronisearje alles.
+onboarding-refresh-gratitude-subtitle = Tank foar it brûken fan { -brand-short-name }, de iennige browser dy’t stipe wurdt troch in non-profitorganisaasje. Mei jo stipe wurkje wy om it ynternet  foar elkenien feiliger en mear tagonklik te meitsjen.
+onboarding-refresh-gratitude-title = { -brand-short-name } is der foar jo
+onboarding-refresh-splash-screen-title = { -brand-product-name } stiet fan no ôf foar jo klear
+onboarding-refresh-hero-text = Boud om jo te beskermjen, net om jo te folgjen.
+onboarding-refresh-tou-default = Alle keppelingen iepenje mei { -brand-short-name }
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } yn de Dock hâlde
+       *[other] { -brand-short-name } oan jo taakbalke tafoegje
+    }
+onboarding-refresh-tou-default-unchecked = Altyd ynboude beskerming wylst it navigearjen
+onboarding-refresh-tou-pin-unchecked = Hâld de iennige grutte ûnôfhinklike browser ien klik fuort
+onboarding-refresh-terms-of-use-with-links = Troch fierder te gean geane jo akkoard mei de <a data-l10n-name="terms_of_use">Brûksbetingsten foar { -brand-product-name }</a> en ús <a data-l10n-name="privacy_notice">Privacyferklearring</a>. Om de browser te ferbetterjen, ferstjoert { -brand-product-name } diagnostyske en ynteraksjegegevens nei { -vendor-short-name }.
+onboarding-refresh-data-collection-link = Ynstellingen foar gegevenssamling beheare
+onboarding-refresh-primary-button = Trochgean
+onboarding-refresh-fro-import-header = Jo gegevens ymportearje
+onboarding-refresh-fro-import-body = Jo persoanlike gegevens bliuwe persoanlik. { -brand-product-name } sil se nea ferkeapje.
+onboarding-refresh-fro-skip-button = Oerslaan
+onboarding-refresh-fro-theme-header = Boartsje mei jo útstrieling
+onboarding-refresh-tab-layout-header = Probearje in oare ljepblêdyndieling
+onboarding-refresh-tab-layout-top = Boppe-oan
+onboarding-refresh-tab-layout-side = Oan de sydkant
+onboarding-refresh-tab-layout-minimal = Minimaal
+onboarding-minimal-tabs-tooltip =
+    .title = In browserfinster dat ljepblêden as lytse piktogrammen langs de sydkant fan it skerm toant, yn in ferlytse sydbalke.
+onboarding-minimal-tabs-description =
+    .aria-description = In browserfinster dat ljepblêden as lytse piktogrammen langs de sydkant fan it skerm toant, yn in ferlytse sydbalke.
+smartwindow-switcher-callout = Wikselje op elk winske momint tusken Tûke en klassike finsters.
+smartwindow-existing-user-fx-tou-title = { -brand-product-name }-brûksbetingsten
+smartwindow-existing-user-fx-tou-body = Om { -smart-window-brand-name } te brûken, moatte jo de <a data-l10n-name="terms_of_use">Brûksbetingsten</a> en de bywurke <a data-l10n-name="privacy_notice">Privacyferklearring</a> akseptearje.
+smartwindow-existing-user-fx-tou-accept = Akseptearje
+smartwindow-existing-user-fx-tou-go-back = Tebek
+smartwindow-onboarding-title = Meitsje { -smart-window-brand-name } jo favoryt
+smartwindow-onboarding-subtitle = Gearfetsje, fergelykje en stel fragen sûnder in wat te missen.
+smartwindow-onboarding-primary-button = Trochgean
+smartwindow-onboarding-image-alt =
+    .aria-label = { -brand-product-name }-maskotte (Kit) mei stjerrekwisiten
+smartwindow-sidebar-auto-open-callout-title = Wolle jo de assistint ticht hâlde?
+smartwindow-sidebar-auto-open-callout-body = Jo kinne it noch altyd iepenje wannear’t jo it nedich binne.
+smartwindow-sidebar-auto-open-callout-accept = Ja, ticht hâlde
+smartwindow-sidebar-auto-open-callout-dismiss = Nee, tankewol
+smartwindow-sidebar-auto-open-callout-accepted-title = De assistint bliuwt ticht
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = Brûk Freegje om it op elke side te iepenjen. Wizigje dit op elk winske momint yn <a data-l10n-name="settings">Ynstellingen</a>.
+smartwindow-sidebar-auto-open-callout-rejected-title = Begrepen
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = As jo fan gedachten feroarje, kinne jo de standertwearde op elk momint bywurkje yn <a data-l10n-name="settings">Ynstellingen</a>.
+onboarding-theme-picker-title = Kies in tema
+onboarding-theme-picker-subtitle = Bring wat mear kleur yn { -brand-short-name }.
+onboarding-theme-picker-button-label = Bewarje en trochgean

@@ -1,0 +1,15 @@
+panic-button-open-new-window = 빈 새 창 열기
+panic-button-undo-warning = 이 작업은 취소할 수 없습니다.
+panic-button-forget-button =
+    .label = 삭제!
+panic-main-timeframe-desc = 삭제할 최근 기간:
+panic-button-5min =
+    .label = 5분
+panic-button-2hr =
+    .label = 2시간
+panic-button-day =
+    .label = 24시간
+panic-button-action-desc = 진행할 작업:
+panic-button-delete-cookies = 최근 <strong>쿠키</strong> 삭제
+panic-button-delete-history = 최근 <strong>기록</strong> 삭제
+panic-button-delete-tabs-and-windows = 모든 <strong>탭</strong>과 <strong>창</strong> 닫기

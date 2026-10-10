@@ -1,0 +1,11 @@
+protection-report-webpage-title = Papan Pemuka Perlindungan
+protection-report-page-content-title = Papan Pemuka Perlindungan
+protection-report-manage-protections = Urus Tetapan
+graph-today = Hari ini
+protections-close-button2 =
+    .aria-label = Tutup
+    .title = Tutup
+protection-report-passwords-save-passwords-button = Simpan Kata Laluan
+    .title = Simpan Kata Laluan
+monitor-no-breaches-title = Berita baik!
+monitor-partial-breaches-motivation-title-start = Permulaan yang hebat!

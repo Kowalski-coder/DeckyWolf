@@ -1,0 +1,56 @@
+aboutDialog-title =
+    .title = Rreth { -brand-full-name }-it
+releaseNotes-link = Ç’ka të re
+update-checkForUpdatesButton =
+    .label = Kontrollo për përditësime
+    .accesskey = K
+update-updateButton =
+    .label = Që të përditësohet { -brand-shorter-name }-i, riniseni
+    .accesskey = R
+update-checkingForUpdates = Po shihet për përditësime…
+settings-update-checking-for-updates =
+    .label = Po shihet për përditësime…
+settings-update-downloading-2 =
+    .label = Po shkarkohet përditësimi — { $transfer }
+aboutdialog-update-downloading = Po shkarkohet përditësim — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Po zbatohet përditësimi…
+settings-update-applying =
+    .label = Po zbatohet përditësimi…
+update-failed = Përditësimi dështoi. <label data-l10n-name="failed-link">Shkarkoni versionin më të ri</label>
+update-failed-main = Përditësimi dështoi. <a data-l10n-name="failed-link-main">Shkarkoni versionin më të ri</a>
+update-policy-disabled = Përditësimet të çaktivizuara nga enti juaj
+settings-update-policy-disabled =
+    .label = Përditësimet të çaktivizuara nga enti juaj
+update-noUpdatesFound = { -brand-short-name }-i është i përditësuar
+settings-update-no-updates-found =
+    .label = { -brand-short-name }-i është i përditësuar
+aboutdialog-update-checking-failed = S’u arrit të kontrollohet për përditësime.
+settings-update-checking-failed =
+    .label = S’u arrit të kontrollohet për përditësime.
+update-otherInstanceHandlingUpdates = { -brand-short-name }-i po përditësohet nga një instancë tjetër
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name }-i po përditësohet nga një instancë tjetër
+aboutdialog-update-manual-with-link = Përditësimet gjenden te <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Përditësimet gjenden te <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Nuk mund të kryeni përditësime të mëtejshme në këtë sistem. <label data-l10n-name="unsupported-link">Mësoni më tepër</label>
+settings-update-unsupported = Nuk mund të kryeni përditësime të mëtejshme në këtë sistem. <a data-l10n-name="unsupported-link">Mësoni më tepër</a>
+update-restarting = Po riniset…
+settings-update-restarting =
+    .label = Po riniset…
+update-internal-error2 = S’arrihet të kontrollohet për përditësime, për shkak gabimi të brendshëm. Përditësime të passhme te <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-internal-error = S’arrihet të kontrollohet për përditësime, për shkak gabimi të brendshëm. Përditësime të passhme te <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-channel-description = Tani gjendeni te kanali i përditësimit për <label data-l10n-name="current-channel">{ $channel }</label>.
+warningDesc-version = { -brand-short-name }-i është eksperimental dhe mund të jetë i paqëndrueshëm.
+aboutdialog-help-user = Ndihmë mbi { -brand-product-name }-in
+aboutdialog-submit-feedback = Parashtroni Përshtypje
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> është një <label data-l10n-name="community-exp-creditsLink">bashkësi mbarëbotërore</label> që punon tok për ta mbajtur Web-in të hapët, publik dhe të përdorshëm nga kushdo.
+community-2 = { -brand-short-name }-i është hartuar nga <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, një <label data-l10n-name="community-creditsLink">bashkësi mbarëbotërore</label> që punon tok për ta mbajtur Web-in të hapët, publik dhe të përdorshëm nga kushdo.
+helpus = Doni të ndihmoni? <label data-l10n-name="helpus-donateLink">Bëni një dhurim</label> ose <label data-l10n-name="helpus-getInvolvedLink">përfshihuni!</label>
+bottomLinks-license = Të dhëna Licencimi
+bottom-links-terms = Kushte Përdorimi
+bottom-links-privacy = Shënim Mbi Privatësinë
+aboutDialog-version = { $version } ({ $bits }-bit)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
+about-librewolf = DeckyWolf është një version i përshtatur i Firefox-it, me privatësinë, sigurinë dhe lirinë e përdoruesit si synime parësore.

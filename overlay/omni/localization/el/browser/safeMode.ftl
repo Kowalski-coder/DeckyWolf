@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Εκκίνηση του { -brand-short-name } σε λειτουργία επίλυσης προβλημάτων;
+    .style = max-width: 500px
+start-troubleshoot-mode =
+    .label = Εκκίνηση
+refresh-profile =
+    .label = Ανανέωση του { -brand-short-name }
+troubleshoot-mode-description = Χρησιμοποιήστε την ειδική λειτουργία του { -brand-short-name } για διάγνωση ζητημάτων. Οι επεκτάσεις και οι προσαρμογές σας θα απενεργοποιηθούν προσωρινά.
+skip-troubleshoot-refresh-profile = Εναλλακτικά, μπορείτε να παραλείψετε την επίλυση προβλημάτων και να κάνετε ανανέωση του { -brand-short-name }.
+auto-safe-mode-description = Το { -brand-short-name } τερματίστηκε απρόσμενα κατά την εκκίνηση. Αυτό μπορεί να προκλήθηκε από κάποιο πρόσθετο ή άλλα προβλήματα. Μπορείτε να προσπαθήσετε να επιλύσετε το πρόβλημα στην Ασφαλή λειτουργία.

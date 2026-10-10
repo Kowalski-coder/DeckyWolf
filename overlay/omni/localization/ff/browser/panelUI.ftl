@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Pintu ummoraade Overflow Cuɓirgol
+    .accesskey = P
+customize-menu-add-to-toolbar =
+    .label = Ɓeydu e palal kuutorɗe
+    .accesskey = Ɓ
+customize-menu-add-to-overflowmenu =
+    .label = Ɓeydu e Overflow Cuɓirgol
+    .accesskey = C
+panic-button-thankyou-msg1 = Aslol maa cakkitiingol momtaama.
+panic-button-thankyou-msg2 = Wanngo e suturo!
+panic-button-thankyou-button =
+    .label = Jaaraama!

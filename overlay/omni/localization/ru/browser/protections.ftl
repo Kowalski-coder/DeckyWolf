@@ -1,0 +1,218 @@
+graph-week-summary =
+    { $count ->
+        [one] { -brand-short-name } заблокировал { $count } трекер за последнюю неделю
+        [few] { -brand-short-name } заблокировал { $count } трекера за последнюю неделю
+       *[many] { -brand-short-name } заблокировал { $count } трекеров за последнюю неделю
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] <b>{ $count }</b> трекер заблокирован с { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+        [few] <b>{ $count }</b> трекера заблокировано с { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+       *[many] <b>{ $count }</b> трекеров заблокировано с { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+    }
+graph-private-window = { -brand-short-name } продолжает блокировать трекеры во время работы в приватном режиме, но не ведёт запись того, что было заблокировано.
+graph-week-summary-private-window = Трекеры, заблокированные { -brand-short-name } на этой неделе.
+protection-report-webpage-title = Панель состояния защиты
+protection-report-page-content-title = Панель состояния защиты
+protection-report-page-summary = { -brand-short-name } может незаметно защищать вашу приватность во время пребывания в Интернете. Это персонализированная сводка состояния защиты, включая средства контроля вашей безопасности в Интернете.
+protection-report-page-summary-default = { -brand-short-name } незаметно защищает вашу приватность во время пребывания в Интернете. Это персонализированная сводка состояния защиты, включая средства контроля вашей безопасности в Интернете.
+protection-report-settings-link = Управление настройками защиты и приватности
+etp-card-title-always = Улучшенная защита от отслеживания: всегда включена
+etp-card-title-custom-not-blocking = Улучшенная защита от отслеживания: ОТКЛЮЧЕНА
+etp-card-content-description = { -brand-short-name } автоматически блокирует тайную слежку компаний за вами в Интернете.
+protection-report-etp-card-content-custom-not-blocking = Все защиты в настоящее время отключены. Выберите, какие трекеры нужно блокировать, управляя настройками защиты { -brand-short-name }.
+protection-report-manage-protections = Управление настройками
+graph-today = Сегодня
+graph-legend-description = График содержит общее число трекеров каждого типа, заблокированных на этой неделе.
+social-tab-title = Трекеры соцсетей
+social-tab-contant = Соцсети размещают трекеры на других сайтах, чтобы следить за тем, что вы делаете, видите и смотрите в Интернете. Это позволяет их владельцам узнавать о вас больше, чем вы указываете на своих страницах в соцсетях. <a data-l10n-name="learn-more-link">Подробнее</a>
+cookie-tab-title = Межсайтовые отслеживающие куки
+cookie-tab-content = Такие куки ходят за вами с сайта на сайт для сбора информации о том, что вы делаете в Интернете. Они устанавливаются такими сторонними организациями, как рекламодатели и аналитические компании. Блокировка межсайтовых отслеживающих куков снижает количество рекламы, отслеживающей вас. <a data-l10n-name="learn-more-link">Подробнее</a>
+tracker-tab-title = Отслеживающее содержимое
+tracker-tab-description = Веб-сайты могут загружать внешнюю рекламу, видео и другой контент с отслеживающим кодом. Блокировка отслеживающего содержимого может помочь сайтам загружаться быстрее, но некоторые кнопки, формы и поля для входа могут не работать. <a data-l10n-name="learn-more-link">Подробнее</a>
+fingerprinter-tab-title = Сборщики цифровых отпечатков
+fingerprinter-tab-content = Сборщики цифровых отпечатков используют параметры вашего браузера и компьютера, чтобы создать ваш профиль. Используя этот цифровой отпечаток, они могут отслеживать вас на различных веб-сайтах. <a data-l10n-name="learn-more-link">Подробнее</a>
+cryptominer-tab-title = Криптомайнеры
+cryptominer-tab-content = Криптомайнеры используют вычислительные мощности вашей системы для добычи цифровых валют. Такие скрипты разряжают вашу батарею, замедляют работу компьютера и могут увеличить ваш счёт за электроэнергию. <a data-l10n-name="learn-more-link">Подробнее</a>
+protections-close-button2 =
+    .aria-label = Закрыть
+    .title = Закрыть
+mobile-app-title = Блокируйте рекламные трекеры сразу на нескольких устройствах
+mobile-app-card-content = Используйте мобильный браузер со встроенной защитой от рекламных трекеров.
+mobile-app-links = Браузер { -brand-product-name } для <a data-l10n-name="android-mobile-inline-link">Android</a> и <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+lockwise-title = Никогда больше не забывайте свои пароли
+passwords-title-logged-in = Управление вашими паролями
+passwords-header-content = { -brand-product-name } надёжно хранит пароли в вашем браузере.
+lockwise-header-content-logged-in = Надёжно храните и синхронизируйте свои пароли со всеми вашими устройствами.
+protection-report-passwords-save-passwords-button = Сохранить пароли
+    .title = Сохранить пароли
+protection-report-passwords-manage-passwords-button = Управление паролями
+    .title = Управление паролями
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [1] Возможно, произошла утечка одного пароля.
+        [one] Возможно, произошла утечка { $count } пароля.
+        [few] Возможно, произошла утечка { $count } паролей.
+       *[many] Возможно, произошла утечка { $count } паролей.
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] { $count } пароль хранится в безопасности.
+        [few] { $count } пароля хранятся в безопасности.
+       *[many] { $count } паролей хранятся в безопасности.
+    }
+lockwise-how-it-works-link = Как это работает
+monitor-title = Следите за утечками данных
+monitor-link = Как это работает
+monitor-header-content-no-account = Попробуйте { -monitor-brand-name }, чтобы узнать, не стали ли вы жертвой известной утечки данных, и получать уведомления о новых утечках.
+monitor-header-content-signed-in = { -monitor-brand-name } предупредит вас, если ваша информация будет затронута новой утечкой данных.
+monitor-sign-up-link = Подпишитесь на уведомления об утечках
+    .title = Подпишитесь на уведомления об утечках от { -monitor-brand-name }
+auto-scan = Автоматически просканировано сегодня
+monitor-emails-tooltip =
+    .title = Посмотреть отслеживаемые адреса электронной почты на { -monitor-brand-short-name }
+monitor-breaches-tooltip =
+    .title = Просмотреть известные утечки данных на { -monitor-brand-short-name }
+monitor-passwords-tooltip =
+    .title = Просмотреть раскрытые пароли на { -monitor-brand-short-name }
+info-monitored-emails =
+    { $count ->
+        [one] Адрес электронной почты отслеживается
+        [few] Адреса электронной почты отслеживаются
+       *[many] Адресов электронной почты отслеживаются
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] Известная утечка данных раскрыла вашу информацию
+        [few] Известных утечки данных раскрыли вашу информацию
+       *[many] Известных утечек данных раскрыли вашу информацию
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] Известная утечка отмеченная как решённая
+        [few] Известные утечки отмеченные как решённые
+       *[many] Известных утечек отмеченных как решённые
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] Раскрытый пароль во всех утечках
+        [few] Раскрытых пароля во всех утечках
+       *[many] Раскрытых паролей во всех утечках
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] Раскрытый пароль в нерешённых утечках
+        [few] Раскрытых пароля в нерешённых утечках
+       *[many] Раскрытых паролей в нерешённых утечках
+    }
+monitor-no-breaches-title = Хорошие новости!
+monitor-no-breaches-description = Ваши адреса не замечены ни в одной утечке. Если это изменится, мы дадим вам знать.
+monitor-view-report-link = Посмотреть отчёт
+    .title = Разобраться с утечками с помощью { -monitor-brand-short-name }
+monitor-breaches-unresolved-title = Разберитесь с вашими утечками
+monitor-breaches-unresolved-description = Изучив информацию об утечке и предприняв меры по защите вашей информации, вы можете отметить утечки как решённые.
+monitor-manage-breaches-link = Управление утечками
+    .title = Управление утечками с помощью { -monitor-brand-short-name }
+monitor-breaches-resolved-title = Отлично! Вы разобрались со всеми известными утечками.
+monitor-breaches-resolved-description = Если ваш адрес электронной почты появится в каких-либо новых утечках, мы сообщим вам об этом.
+monitor-partial-breaches-title =
+    { $numBreaches ->
+        [one] Вы разобрались с { $numBreachesResolved } из { $numBreaches } утечки
+        [few] Вы разобрались с { $numBreachesResolved } из { $numBreaches } утечек
+       *[many] Вы разобрались с { $numBreachesResolved } из { $numBreaches } утечек
+    }
+monitor-partial-breaches-percentage = { $percentageResolved }% завершено
+monitor-partial-breaches-motivation-title-start = Отличное начало!
+monitor-partial-breaches-motivation-title-middle = Так держать!
+monitor-partial-breaches-motivation-title-end = Почти готово! Так держать.
+monitor-partial-breaches-motivation-description = Разберитесь с остальными вашими утечками на { -monitor-brand-short-name }.
+monitor-resolve-breaches-link = Разобраться с утечками
+    .title = Разобраться с утечками с помощью { -monitor-brand-short-name }
+bar-tooltip-social =
+    .title = Трекеры социальных сетей
+    .aria-label =
+        { $count ->
+            [one] { $count } трекер социальных сетей ({ $percentage }%)
+            [few] { $count } трекера социальных сетей ({ $percentage }%)
+           *[many] { $count } трекеров социальных сетей ({ $percentage }%)
+        }
+bar-tooltip-cookie =
+    .title = Межсайтовые отслеживающие куки
+    .aria-label =
+        { $count ->
+            [one] { $count } межсайтовая отслеживающая кука ({ $percentage }%)
+            [few] { $count } межсайтовых отслеживающих куки ({ $percentage }%)
+           *[many] { $count } межсайтовых отслеживающих куков ({ $percentage }%)
+        }
+bar-tooltip-tracker =
+    .title = Отслеживающее содержимое
+    .aria-label =
+        { $count ->
+            [one] { $count } отслеживающее содержимое ({ $percentage }%)
+            [few] { $count } отслеживающих содержимых ({ $percentage }%)
+           *[many] { $count } отслеживающих содержимых ({ $percentage }%)
+        }
+bar-tooltip-fingerprinter =
+    .title = Сборщики цифровых отпечатков
+    .aria-label =
+        { $count ->
+            [one] { $count } сборщик цифровых отпечатков ({ $percentage }%)
+            [few] { $count } сборщика цифровых отпечатков ({ $percentage }%)
+           *[many] { $count } сборщиков цифровых отпечатков ({ $percentage }%)
+        }
+bar-tooltip-cryptominer =
+    .title = Криптомайнеры
+    .aria-label =
+        { $count ->
+            [one] { $count } криптомайнер ({ $percentage }%)
+            [few] { $count } криптомайнера ({ $percentage }%)
+           *[many] { $count } криптомайнеров ({ $percentage }%)
+        }
+privacy-metrics-title = Защита приватности
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } заблокирован на этой неделе
+        [few] { $count } заблокировано на этой неделе
+       *[many] { $count } заблокировано на этой неделе
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } трекер
+        [few] { $count } трекера
+       *[many] { $count } трекеров
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } сборщик цифровых отпечатков
+        [few] { $count } сборщика цифровых отпечатков
+       *[many] { $count } сборщиков цифровых отпечатков
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } отслеживающий куки
+        [few] { $count } отслеживающих кука
+       *[many] { $count } отслеживающих куков
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } социальный трекер
+        [few] { $count } социальных трекера
+       *[many] { $count } социальных трекеров
+    }
+privacy-metrics-empty = На этой неделе трекеры не блокировались. { -brand-short-name } защищает вас во время интернет-сёрфинга от следующих угроз.
+privacy-metrics-loading = Загрузка статистики защиты…
+privacy-metrics-error = Не удалось загрузить статистику защиты.
+privacy-metrics-private-window = { -brand-short-name } продолжает блокировать трекеры во время работы в приватном режиме, но не ведёт запись того, что было заблокировано.
+protections-vpn-title = Возьмите защиту приватности за пределы браузера
+protections-vpn-header-content = Защитите всё своё устройство с помощью { -mozilla-vpn-brand-name }. Одно касание шифрует весь трафик и скрывает ваше местоположение.
+protections-get-vpn-link = Получить { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN: Вы подписаны
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [one] Использование { -mozilla-vpn-brand-name } шифрует весь ваш трафик и скрывает ваше местоположение на { $count } устройстве. Получите максимум от своей подписки — добавьте её из <a data-l10n-name="playstore-link">google Play Store</a> или <a data-l10n-name="appstore-link">Apple App Store </a>.
+        [few] Использование { -mozilla-vpn-brand-name } шифрует весь ваш трафик и скрывает ваше местоположение на { $count } устройствах. Получите максимум от своей подписки — добавьте её из <a data-l10n-name="playstore-link">google Play Store</a> или <a data-l10n-name="appstore-link">Apple App Store </a>.
+       *[many] Использование { -mozilla-vpn-brand-name } шифрует весь ваш трафик и скрывает ваше местоположение на { $count } устройствах. Получите максимум от своей подписки — добавьте её из <a data-l10n-name="playstore-link">google Play Store</a> или <a data-l10n-name="appstore-link">Apple App Store </a>.
+    }
+protections-vpn-banner-header = Защита, выходящая за пределы браузера
+protections-vpn-banner-content = Попробуйте { -mozilla-vpn-brand-name } без риска и узнайте, почему, по словам TechRadar, «его скорость, простота и низкая ежемесячная цена привлекают к нему внимание».
+protections-vpn-banner-link = Получить { -mozilla-vpn-brand-name }

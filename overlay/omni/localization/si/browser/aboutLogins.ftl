@@ -1,0 +1,189 @@
+about-logins-page-title-name = මුරපද
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = මුරපද සොයන්න
+create-login-button =
+    .title = මුරපදය එක් කරන්න
+fxaccounts-sign-in-text = ඔබගේ වෙනත් උපාංගවල තිබෙන මුරපද ගන්න
+fxaccounts-sign-in-sync-button = සමමුහූර්තයට පිවිසෙන්න
+fxaccounts-avatar-button =
+    .title = ගිණුම කළමනාකරණය
+menu =
+    .title = වට්ටෝරුව අරින්න
+about-logins-menu-menuitem-import-from-another-browser = වෙනත් අතිරික්සුවකින් ආයාත කරන්න...
+about-logins-menu-menuitem-import-from-a-file = ගොනුවකින් ආයාත කරන්න…
+about-logins-menu-menuitem-export-logins2 = මුරපද නිර්යාතය…
+about-logins-menu-menuitem-remove-all-logins2 = සියලු මුරපද ඉවත් කරන්න…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] විකල්ප
+       *[other] අභිප්‍රේත
+    }
+about-logins-menu-menuitem-help = උදව්
+login-list =
+    .aria-label = සෙවුම් විමසුමට ගැළපෙන පිවිසුම්
+login-list-count2 =
+    { $count ->
+        [one] මුරපද { $count }
+       *[other] මුරපද { $count }
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] මුරපද { $total } න් { $count }
+       *[other] මුරපද { $total } න් { $count }
+    }
+login-list-sort-label-text = වර්ග කරන්න:
+login-list-name-option = නම (අ-ෆ)
+login-list-name-reverse-option = නම (ෆ-අ)
+login-list-username-option = පරිශ්‍රීලක නාමය (අ-ෆ)
+login-list-username-reverse-option = පරිශ්‍රීලක නාමය (ෆ-අ)
+about-logins-login-list-alerts-option = ඇඟවීම්
+login-list-last-changed-option = අවසන් සංශෝධනය
+login-list-last-used-option = අවසන් භාවිතය
+login-list-intro-title2 = සුරැකි මුරපද නැත
+login-list-intro-description = ඔබ මුරපදයක් { -brand-product-name } හි සුරකින විට, එය මෙහි පෙන්වනු ඇත.
+about-logins-login-list-empty-search-title2 = මුරපද හමු නොවුණි
+about-logins-login-list-empty-search-description = ඔබගේ සෙවුමට ගැළපෙන ප්‍රතිඵල නැත.
+login-list-item-title-new-login2 = මුරපදය එක් කරන්න
+login-list-item-subtitle-missing-username = (පරිශ්‍රීලක නාමය නැත)
+about-logins-list-item-breach-icon =
+    .title = උල්ලංඝනය වූ අඩවියකි
+about-logins-list-section-breach = උල්ලංඝනය වූ අඩවි
+about-logins-list-section-nothing = ඇඟවීම් නැත
+about-logins-list-section-today = අද
+about-logins-list-section-yesterday = ඊයේ
+about-logins-list-section-week = පසුගිය දවස් 7
+about-logins-login-intro-heading-message = ඔබගේ මුරපද ආරක්ෂිත තැනක සුරකින්න
+login-intro-description2 = ඔබ { -brand-product-name } වෙත සුරකින සියලුම මුරපද සංකේතිතයි. තවද, අපි උල්ලංඝන ගැන විමසිල්ලෙන් සිටින අතර ඔබට බලපා ඇත්නම් අඟවන්නෙමු. <a data-l10n-name="breach-alert-link">තව දැනගන්න</a>
+login-intro-instructions-fxa2 = පිවිසුම් සුරැකි උපාංගයෙන් ඔබගේ ගිණුමට පිවිසෙන්න හෝ සාදන්න.
+login-intro-instructions-fxa-settings = සැකසුම් > සමමුහූර්තය > සමමුහූර්තය සක්‍රිය කරන්න... වෙත ගොස් පිවිසුම් හා මුරපද කොටුව තෝරන්න.
+login-intro-instructions-fxa-passwords-help = උපකාර සඳහා <a data-l10n-name="passwords-help-link">මුරපද සහාය</a> වෙත ගොඩවදින්න.
+about-logins-intro-import3 = දැන් මුරපදයක් එක් කිරීමට ඉහත + බොත්තම තෝරන්න. ඔබට <a data-l10n-name="import-browser-link">වෙනත් අතිරික්සුවකින්</a> හෝ <a data-l10n-name="import-file-link">ගොනුවකින්</a> මුරපද ආයාත කිරීමට හැකිය.
+about-logins-login-item-new-login-title = මුරපදය එක් කරන්න
+login-item-edit-button = සංස්කරණය
+about-logins-login-item-remove-button = ඉවත් කරන්න
+login-item-origin-label = අඩවියේ ලිපිනය
+about-logins-origin-tooltip2 = සම්පූර්ණ ලිපිනය ඇතුළත් කර එය ඔබ පිවිසෙන තැනට හරියටම ගැළපෙනවා දැයි බලන්න.
+about-logins-edit-password-tooltip = ඔබ මෙම අඩවිය සඳහා ඔබගේ වත්මන් මුරපදය සුරකින බවට වග බලා ගන්න. මෙහි මුරපදය වෙනස් කිරීමෙන් එය { $webTitle } සමඟ වෙනස් නොවේ.
+about-logins-add-password-tooltip = ඔබ මෙම අඩවිය සඳහා ඔබගේ වත්මන් මුරපදය සුරකින බවට වග බලා ගන්න.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = පරිශ්‍රීලක නාමය
+about-logins-login-item-username =
+    .placeholder = (පරිශ්‍රීලක නාමය නැත)
+login-item-copy-username-button-text = පිටපතක්
+login-item-copied-username-button-text = පිටපත් විය!
+login-item-password-label = මුරපදය
+login-item-password-reveal-checkbox =
+    .aria-label = මුරපදය පෙන්වන්න
+login-item-password-conceal-checkbox =
+    .aria-label = මුරපදය සඟවන්න
+login-item-copy-password-button-text = පිටපතක්
+login-item-copied-password-button-text = පිටපත් විය!
+about-logins-login-item-save-changes-button = සුරකින්න
+login-item-save-new-button = සුරකින්න
+login-item-cancel-button = අවලංගු
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = සෑදිණි
+login-item-timeline-action-updated = යාවත්කාලීනයි
+login-item-timeline-action-used = භාවිතයි
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-edit-login-os-auth-dialog-message2-macosx = සුරැකි මුරපදය සංස්කරණය
+about-logins-reveal-password-os-auth-dialog-message-win = ඔබගේ මුරපදය දැකීමට, ඔබගේ වින්ඩෝස් පිවිසුම් අක්තපත්‍ර යොදන්න. මෙය ඔබගේ ගිණුම්වල සුරක්‍ෂිත බව රැක දීමට උපකාරී වේ.
+about-logins-reveal-password-os-auth-dialog-message-macosx = සුරකින ලද මුරපදය පෙන්වන්න
+about-logins-copy-password-os-auth-dialog-message-win = ඔබගේ මුරපදය පිටපත් කිරීමට, ඔබගේ වින්ඩෝස් පිවිසුම් අක්තපත්‍ර යොදන්න. මෙය ඔබගේ ගිණුම්වල සුරක්‍ෂිත බව රැක දීමට උපකාරී වේ.
+about-logins-copy-password-os-auth-dialog-message-macosx = සුරකින ලද මුරපදය පෙන්වන්න
+about-logins-export-password-os-auth-dialog-message2-macosx = සුරැකි මුරපද නිර්යාත කරන්න
+about-logins-primary-password-notification-message = සුරැකි පිවිසුම් හා මුරපද දැකීමට ඔබගේ ප්‍රාථමික මුරපදය ඇතුල් කරන්න
+master-password-reload-button =
+    .label = පිවිසෙන්න
+    .accesskey = L
+confirmation-dialog-cancel-button = අවලංගු
+confirmation-dialog-dismiss-button =
+    .title = අවලංගු
+about-logins-confirm-delete-dialog-title = මුරපදය ඉවත් කරන්නද?
+about-logins-confirm-delete-dialog-message = මෙම ක්‍රියාමාර්ගය අප්‍රතිවර්ත්‍යයි.
+about-logins-confirm-remove-dialog-confirm-button = ඉවත් කරන්න
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] ඉවත් කරන්න
+       *[other] සියල්ල ඉවතලන්න
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] ඔව්, මුරපදය ඉවත් කරන්න
+       *[other] Yes, remove passwords
+    }
+about-logins-confirm-export-dialog-title2 = මුරපද නිර්යාතය පිළිබඳ සටහනක්
+about-logins-confirm-export-dialog-confirm-button2 = දිගටම නිර්යාත කරන්න
+about-logins-alert-import-message = සවිස්තරාත්මක ආයාත සාරාංශය බලන්න
+confirm-discard-changes-dialog-title = සුරැකි වෙනස්කම් ඉවත් කරන්නද?
+confirm-discard-changes-dialog-message = සුරකින ලද සියළුම වෙනස්කම් අහිමි වී යනු ඇත.
+confirm-discard-changes-dialog-confirm-button = ඉවතලන්න
+about-logins-breach-alert-title = අඩවියක් උල්ලංඝනයකි
+breach-alert-text = ඔබ අවසන් වරට පිවිසුම් තොරතුරු යාවත්කාල කළ දිනට පසු මෙම වියමන අඩවියෙන් මුරපද කාන්දු වී හෝ සොරකම් කර ඇත. ඔබගේ ගිණුම ආරක්‍ෂා කර ගැනීමට මුරපදය වෙනස් කරන්න.
+about-logins-breach-alert-date = මෙම උල්ලංඝනය සිදු වූයේ { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = { $hostname } වෙත යන්න
+about-logins-vulnerable-alert-text2 = මෙම මුරපදය දත්ත උල්ලංඝනයක දී විය හැකි වෙනත් ගිණුමක භාවිතා කර ඇත. අක්තපත්‍ර නැවත භාවිතා කිරීම ඔබගේ සියළුම ගිණුම් අවදානමට ලක් කරයි. මෙම මුරපදය වෙනස් කරන්න.
+about-logins-vulnerable-alert-link = { $hostname } වෙත යන්න
+about-logins-vulnerable-alert-learn-more-link = තව දැනගන්න
+about-logins-error-message-duplicate-login-with-link = එම පරිශ්‍රීලක නාමය සහිත { $loginTitle } සඳහා නිවේශිතයක් දැනටමත් පවතී. <a data-l10n-name="duplicate-link">පවතින නිවේශිතයට යන්නද?</a>
+about-logins-error-message-default = මෙම මුරපදය සුරැකීමේදී දෝෂයක් සිදු විය.
+about-logins-export-file-picker-title2 = { -brand-short-name } වෙතින් මුරපද නිර්යාත කරන්න
+about-logins-export-file-picker-default-filename2 = මුරපද.csv
+about-logins-export-file-picker-export-button = නිර්යාත
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV ලේඛනය
+       *[other] CSV ගොනුව
+    }
+about-logins-import-file-picker-title2 = { -brand-short-name } වෙත මුරපද ආයාත කරන්න
+about-logins-import-file-picker-import-button = ආයාතය
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV ලේඛනය
+       *[other] CSV ගොනුව
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV ලේඛනය
+       *[other] TSV ගොනුව
+    }
+about-logins-import-dialog-title = ආයාත වීම සම්පූර්ණයි
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>දෝෂ:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ආයාත කර නැත)</span>
+    }
+about-logins-import-dialog-done = අහවරයි
+about-logins-import-dialog-error-title = ආයාත දෝෂයකි
+about-logins-import-dialog-error-conflicting-values-description = නිදසුනක් ලෙස: එක් පිවිසුමක් සඳහා පරි. නාම, මුරපද, ඒ.ස.නි. කිහිපයක්.
+about-logins-import-dialog-error-file-format-title = ගොනු ආකෘතියේ ගැටලුවකි
+about-logins-import-dialog-error-file-permission-title = ගොනුව කියවීමට නොහැකිය
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } මගින් ගොනුව කියවීමට අවසර නැත. ගොනුවේ අවසර වෙනස් කිරීමට උත්සාහ කරන්න.
+about-logins-import-dialog-error-unable-to-read-title = ගොනුව විග්‍රහ කළ නොහැකිය
+about-logins-import-dialog-error-unable-to-read-description = CSV හෝ TSV ගොනුවක් තේරූ බවට වගබලා ගන්න.
+about-logins-import-dialog-error-no-logins-imported = කිසිදු පිවිසුමක් ආයාත කර නැත
+about-logins-import-dialog-error-learn-more = තව දැනගන්න
+about-logins-import-dialog-error-try-import-again = යළි ආයාත කිරීමට බලන්න...
+about-logins-import-dialog-error-cancel = අවලංගු
+about-logins-import-report-title = ආයාත සාරාංශය
+about-logins-import-report-description2 = { -brand-short-name } වෙත මුරපද ආයාත කර ඇත.
+about-logins-import-report-row-index = පේළිය { $number }
+about-logins-import-report-row-description-modified2 = පවතින නිවේශිතය යාවත්කාල විය
+about-logins-import-report-row-description-added2 = නව මුරපදය එක් කෙරිණි
+about-logins-import-report-row-description-error = දෝෂය: මඟ හැරුණු ක්‍ෂේත්‍රයකි
+about-logins-import-report-row-description-error-multiple-values = දෝෂය: { $field } සඳහා අගයන් කිහිපයකි
+about-logins-import-report-row-description-error-missing-field = දෝෂය: { $field } මඟහැරී ඇත
+about-logins-import-report-added2 =
+    { $count ->
+       *[other] <div data-l10n-name="details">නව මුරපද එක් කෙරිණි:</div> <div data-l10n-name="count">{ $count }</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+       *[other] <div data-l10n-name="details">පවතින නිවේශිත යාවත්කාල විය:</div> <div data-l10n-name="count">{ $count }</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">දෝෂ</div> <div data-l10n-name="not-imported" >(ආයාත කර නැත)</div>
+    }
+about-logins-import-report-page-title = සාරාංශ වාර්තාව ආයාත කරන්න

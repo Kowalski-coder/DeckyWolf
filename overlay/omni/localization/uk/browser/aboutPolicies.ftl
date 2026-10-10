@@ -1,0 +1,17 @@
+about-policies-title = Корпоративна політика
+aboutpolicies-page-heading =
+    .heading = Про політики
+active-policies-tab = Активні
+errors-tab = Помилки
+documentation-tab = Документація
+active-policies-tab-title =
+    .title = Активні
+errors-tab-title =
+    .title = Помилки
+documentation-tab-title =
+    .title = Документація
+no-specified-policies-message = Служба корпоративних політик активна, але жодної політики не увімкнено.
+inactive-message = Служба корпоративних політик неактивна.
+policy-name = Назва політики
+policy-value = Значення політики
+policy-errors = Помилки політики

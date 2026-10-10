@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Da'nga'a ni ne' rukù ma
+colors-text =
+    .label = Formatù
+    .accesskey = T
+colors-text-background =
+    .label = Sa nu dâ gunun
+    .accesskey = S
+colors-links-header = Si kolô enlase
+colors-links-unvisited =
+    .label = Riña nu gun'
+    .accesskey = R
+colors-links-visited =
+    .label = Nej enlase gini'io'
+    .accesskey = N

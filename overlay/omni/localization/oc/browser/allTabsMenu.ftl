@@ -1,0 +1,9 @@
+all-tabs-menu-new-user-context =
+    .label = Onglet contextual novèl
+all-tabs-menu-hidden-tabs =
+    .label = Onglets amagats
+all-tabs-menu-tab-groups-show-all =
+    .label = O afichar tot
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grops d’onglets
+all-tabs-menu-current-window-header = Fenèstra actuala

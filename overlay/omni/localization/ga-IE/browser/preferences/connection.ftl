@@ -1,0 +1,45 @@
+connection-window2 =
+    .style =
+        { PLATFORM() ->
+            [macos] min-width: 48em
+           *[other] min-width: 54em
+        }
+    .title = Socruithe Ceangail
+connection-close-key =
+    .key = w
+connection-proxy-option-no =
+    .label = Gan seachfhreastalaí
+    .accesskey = G
+connection-proxy-option-system =
+    .label = Úsáid socruithe seachfhreastalaí an chórais
+    .accesskey = s
+connection-proxy-option-auto =
+    .label = Aimsigh socruithe seachfhreastalaí an líonra seo go huathoibríoch
+    .accesskey = A
+connection-proxy-http = Seachfhreastalaí HTTP
+    .accesskey = f
+connection-proxy-http-port = Port
+    .accesskey = P
+connection-proxy-ssl-port = Port
+    .accesskey = o
+connection-proxy-socks = Óstach SOCKS
+    .accesskey = C
+connection-proxy-socks-port = Port
+    .accesskey = t
+connection-proxy-socks4 =
+    .label = SOCKS v4
+    .accesskey = K
+connection-proxy-socks5 =
+    .label = SOCKS v5
+    .accesskey = v
+connection-proxy-noproxy-desc = Sampla: .mozilla.org, .net.nz, 192.168.1.0/24
+connection-proxy-reload =
+    .label = Athlódáil
+    .accesskey = A
+connection-proxy-autologin-checkbox =
+    .label = Ná hiarr orm logáil isteach má tá focal faire sábháilte agam
+    .tooltiptext = Beidh an rogha seo do d'fhíordheimhniú ar sheachfhreastalaithe nuair a bhíonn dintiúir shábháilte agat. Iarrfar na dintiúir ort má theipeann ar an bhfíordheimhniú.
+    .accesskey = i
+connection-proxy-socks-remote-dns =
+    .label = DNS an tseachfhreastalaí agus SOCKS v5 á úsáid
+    .accesskey = d

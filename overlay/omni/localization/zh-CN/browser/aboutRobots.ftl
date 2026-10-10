@@ -1,0 +1,10 @@
+page-title = 高特！不要炸飞这个世界！
+error-title-text = 欢迎你，人类！
+error-short-desc-text = 我们带着和平与友好前来拜访您！
+error-long-desc1 = 机器人不得伤害人类，或袖手旁观坐视人类受到伤害。
+error-long-desc2 = 机器人见过你们人类绝对无法相信的事物。
+error-long-desc3 = 机器人是有趣的塑料伙伴。
+error-long-desc4 = 机器人有咬不得的闪亮的金属屁股。
+error-trailer-desc-text = 而且他们有个计划。
+error-try-again = 重试
+    .label2 = 请不要重复点击此按钮。

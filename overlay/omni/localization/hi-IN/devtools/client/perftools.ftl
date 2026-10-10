@@ -1,0 +1,12 @@
+perftools-intro-title = प्रोफाइलर सेटिंग
+perftools-range-interval-milliseconds = { NUMBER($interval, maxFractionalUnits: 2) } ms
+perftools-devtools-settings-label = सेटिंग
+perftools-button-start-recording = रिकॉर्डिंग शुरू करें
+perftools-button-cancel-recording = रिकॉर्डिंग रद्द करें
+perftools-button-save-settings = सेटिंग सहेजें और वापस जाएं
+perftools-thread-render-backend =
+    .title = WebRender RenderBackend थ्रेड
+perftools-presets-web-developer-label = वेब डेवलपर
+perftools-presets-firefox-label = { -brand-shorter-name }
+perftools-presets-graphics-label = ग्राफिक्स
+perftools-presets-media-label = मीडिया

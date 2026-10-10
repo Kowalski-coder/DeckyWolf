@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } wil uw standaardzoekmachine wijzigen van { $currentEngine } naar { $newEngine }. Is dat in orde?
+webext-default-search-yes =
+    .label = Ja
+    .accesskey = J
+webext-default-search-no =
+    .label = Nee
+    .accesskey = N
+addon-post-install-message = { $addonName } is toegevoegd.
+webext-quarantine-confirmation-title = { $addonName } uitvoeren op beperkte websites?
+webext-quarantine-confirmation-line-1 = Om uw gegevens te beschermen is deze extensie niet toegestaan op deze website.
+webext-quarantine-confirmation-line-2 = Sta deze extensie toe als u deze vertrouwt om uw gegevens op websites die zijn beperkt door { -vendor-short-name } te lezen en wijzigen.
+webext-quarantine-confirmation-allow =
+    .label = Toestaan
+    .accesskey = T
+webext-quarantine-confirmation-deny =
+    .label = Niet toestaan
+    .accesskey = N

@@ -1,0 +1,13 @@
+grid-row-column-positions = { $row } errenkada / { $column } zutabea
+gridtype-container = Sareta edukiontzia
+gridtype-item = Grid elementua
+gridtype-dual = Sareta edukiontzia/elementua
+flextype-container = Flex edukiontzia
+flextype-item = Flex elementua
+flextype-dual = Flex edukiontzia/elementua
+remote-node-picker-notice = Garatzaile-tresnen nodoak hautatzekoa gaituta. { $action }
+remote-node-picker-notice-action-desktop = Egin klik elementu batean ikuskatzailean hauta dadin
+remote-node-picker-notice-action-touch = Sakatu elementu batean ikuskatzailean hauta dadin
+remote-node-picker-notice-hide-button = Ezkutatu
+simple-highlighters-message = prefers-reduced-motion gaituta dagoenean, nabarmengailu sinpleago bat gai daiteke ezarpenen panelean, horrela kolore-flashak ekiditeko.
+simple-highlighters-settings-button = Ireki ezarpenak

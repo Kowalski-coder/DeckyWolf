@@ -1,0 +1,17 @@
+webext-default-search-description = Doplnok { $addonName } chce zmeniť váš predvolený vyhľadávač z { $currentEngine } na { $newEngine }. Je to v poriadku?
+webext-default-search-yes =
+    .label = Áno
+    .accesskey = o
+webext-default-search-no =
+    .label = Nie
+    .accesskey = N
+addon-post-install-message = Rozšírenie { $addonName } bolo pridané
+webext-quarantine-confirmation-title = Spúšťať { $addonName } na stránkach s obmedzením?
+webext-quarantine-confirmation-line-1 = Z dôvodu ochrany vašich údajov nie je toto rozšírenie na tejto stránke povolené.
+webext-quarantine-confirmation-line-2 = Ak rozšíreniu dôverujete, povoľte mu čítať a meniť vaše údaje na stránkach, pre ktoré { -vendor-short-name } zaviedla obmedzenia.
+webext-quarantine-confirmation-allow =
+    .label = Povoliť
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = Nepovoliť
+    .accesskey = N

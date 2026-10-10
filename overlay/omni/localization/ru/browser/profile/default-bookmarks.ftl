@@ -1,0 +1,14 @@
+default-bookmarks-title = Закладки
+default-bookmarks-heading = Закладки
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Получить помощь
+default-bookmarks-firefox-customize = Настроить Firefox
+default-bookmarks-firefox-community = Присоединиться
+default-bookmarks-firefox-about = О нас
+default-bookmarks-nightly-heading = Ресурсы Firefox Nightly
+default-bookmarks-nightly-blog = Блог Firefox Nightly
+default-bookmarks-bugzilla = Система отслеживания ошибок Mozilla
+default-bookmarks-mdn = Сеть разработчиков Mozilla
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Все ваши падения
+default-bookmarks-planet = Планета Mozilla

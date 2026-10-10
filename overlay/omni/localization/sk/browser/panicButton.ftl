@@ -1,0 +1,15 @@
+panic-button-open-new-window = otvoríte nové prázdne okno
+panic-button-undo-warning = Akciu nie je možné vrátiť späť.
+panic-button-forget-button =
+    .label = Zabudnúť!
+panic-main-timeframe-desc = Zabudnúť na:
+panic-button-5min =
+    .label = posledných 5 minút
+panic-button-2hr =
+    .label = posledné 2 hodiny
+panic-button-day =
+    .label = posledných 24 hodín
+panic-button-action-desc = Pokračovaním:
+panic-button-delete-cookies = odstránite nedávno vytvorené <strong>cookies</strong>
+panic-button-delete-history = vymažete <strong>históriu</strong> prehliadania
+panic-button-delete-tabs-and-windows = zavriete všetky <strong>karty</strong> a <strong>okná</strong>

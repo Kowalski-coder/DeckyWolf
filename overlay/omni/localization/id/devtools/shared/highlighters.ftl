@@ -1,0 +1,13 @@
+grid-row-column-positions = Baris { $row } / Kolom { $column }
+gridtype-container = Kontainer Kisi
+gridtype-item = Item Kisi
+gridtype-dual = Kontainer/Item Kisi
+flextype-container = Kontainer Flex
+flextype-item = Item Flex
+flextype-dual = Kontainer Flex /Item
+remote-node-picker-notice = Pemilih Simpul DevTools diaktifkan. { $action }
+remote-node-picker-notice-action-desktop = Klik elemen untuk memilihnya di Inspektur
+remote-node-picker-notice-action-touch = Ketuk elemen untuk memilihnya di Inspektur
+remote-node-picker-notice-hide-button = Sembunyikan
+simple-highlighters-message = Saat prefers-reduced-motion aktif, sorotan yang lebih sederhana dapat diaktifkan di panel pengaturan untuk menghindari efek warna berkedip.
+simple-highlighters-settings-button = Buka Pengaturan

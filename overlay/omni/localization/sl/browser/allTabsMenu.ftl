@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Iskanje med vsemi zavihki
+all-tabs-menu-new-user-context =
+    .label = Nov vsebniški zavihek
+all-tabs-menu-hidden-tabs =
+    .label = Skriti zavihki
+all-tabs-menu-close-duplicate-tabs =
+    .label = Zapri podvojene zavihke
+all-tabs-menu-view-all-tabs =
+    .label = Prikaži vse zavihke
+all-tabs-menu-recent-tab-groups-header = Nedavne skupine zavihkov
+all-tabs-menu-tab-groups-show-all =
+    .label = Prikaži vse
+all-tabs-menu-tab-groups-sub-view =
+    .title = Skupine zavihkov
+all-tabs-menu-current-window-header = Trenutno okno

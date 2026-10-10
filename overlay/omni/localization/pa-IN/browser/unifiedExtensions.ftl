@@ -1,0 +1,56 @@
+unified-extensions-header-title = ਇਕਸਟੈਨਸ਼ਨ
+unified-extensions-manage-extensions =
+    .label = ਇਕਸਟੈਨਸ਼ਨ ਦਾ ਇੰਤਜ਼ਾਮ
+unified-extensions-discover-extensions =
+    .label = ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਲੱਭੋ
+unified-extensions-empty-reason-private-browsing-not-allowed = ਤੁਹਾਡੇ ਕੋਲ ਇਕਸਟੈਨਸ਼ਨਾਂ ਤਾਂ ਇੰਸਟਾਲ ਹਨ, ਪਰ ਪ੍ਰਾਈਵੇਟ ਵਿੰਡੋਆਂ ਲਈ ਸਮਰੱਥ ਨਹੀਂ ਕੀਤੀਆਂ ਹਨ
+unified-extensions-empty-reason-extension-not-enabled = ਤੁਹਾਡੇ ਕੋਲ ਇਕਸਟੈਨਸ਼ਨਾਂ ਇੰਸਟਾਲ ਤਾਂ ਹਨ, ਪਰ ਸਮਰੱਥ ਨਹੀ
+unified-extensions-empty-reason-zero-extensions-onboarding2 = ਕੁਝ ਇਕਸਟੈਨਸ਼ਨਾਂ ਦਾ ਵੱਡਾ ਅਸਰ ਪੈਂਦਾ ਹੈ
+unified-extensions-empty-content-explain-enable2 = ਸੈਟਿੰਗਾਂ ਵਿੱਚ { unified-extensions-manage-extensions.label } ਨੂੰ ਸਮਰੱਥ ਕਰਨ ਲਈ ਚੁਣੋ।
+unified-extensions-empty-content-explain-manage2 = { unified-extensions-manage-extensions.label } ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਲਈ ਸੈਟਿੰਗਾਂ ਵਿੱਚੋਂ ਚੁਣੋ।
+unified-extensions-empty-content-explain-extensions-onboarding2 = ਸਾਡੇ ਕੋਲ ਤੁਹਾਡੇ ਫੋਕਸ, ਪਰਦੇਦਾਰੀ ਅਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨੂੰ ਸੁਧਾਰਨ ਲਈ ਮਦਦ ਵਾਸਤੇ ਕੁਝ ਸਿਫਾਰਸ਼ਾਂ ਹਨ।
+unified-extensions-item-open-menu =
+    .aria-label = { $extensionName } ਲਈ ਮੇਨੂ ਖੋਲ੍ਹੋ
+unified-extensions-item-message-manage = ਇਕਸਟੈਨਸ਼ਨ ਦਾ ਇੰਤਜ਼ਾਮ
+unified-extensions-item-messagebar-softblocked2 = { $extensionName } ਉੱਤੇ ਪਾਬੰਦੀ ਲੱਗੀ ਹੈ। ਇਸ ਨੂੰ ਵਰਤਣਾ ਖ਼ਤਰਨਾਕ ਹੋ ਸਕਦਾ ਹੈ।
+unified-extensions-context-menu-pin-to-toolbar =
+    .label = ਟੂਲਬਾਰ ਵਿੱਚ ਟੰਗੋ
+unified-extensions-context-menu-manage-extension =
+    .label = ਇਕਸਟੈਨਸ਼ਨ ਦਾ ਇੰਤਜ਼ਾਮ
+unified-extensions-context-menu-remove-extension =
+    .label = ਇਕਸਟੈਨਸ਼ਨ ਹਟਾਓ
+unified-extensions-context-menu-report-extension =
+    .label = ਇਕਸਟੈਨਸ਼ਨ ਬਾਰੇ ਰਿਪੋਰਟ ਕਰੋ
+unified-extensions-context-menu-move-widget-up =
+    .label = ਉੱਤੇ ਭੇਜੋ
+unified-extensions-context-menu-move-widget-down =
+    .label = ਹੇਠਾਂ ਭੇਜੋ
+unified-extensions-notice-safe-mode =
+    .message = ਸਮੱਸਿਆ ਨਿਪਟਾਰੇ ਦੌਰਾਨ ਸਾਰੀਆਂ ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ।
+unified-extensions-mb-quarantined-domain-message-3 =
+    .heading = ਕੁਝ ਇਕਸਟੈਨਸ਼ਨਾਂ ਦੀ ਮਨਜ਼ੂਰੀ ਨਹੀਂ ਹੈ
+    .message = ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਕੁਝ ਇਕਸਟੈਨਸ਼ਨਾਂ ਇਸ ਸਾਈਟ ਉੱਤੇ ਡਾਟਾ ਪੜ੍ਹ ਜਾਂ ਬਦਲ ਨਹੀਂ ਸਕਦੀਆਂ ਹਨ। ਇਕਸਟੈਨਸ਼ਨ ਦੀ ਸੈਟਿੰਗਾਂ ਨੂੰ { -vendor-short-name } ਵਲੋਂ ਪਾਬੰਦੀ ਲਾਈਆਂ ਸਾਈਟਾਂ ਉੱਤੇ ਮਨਜ਼ੂਰੀ ਦੇਣ ਲਈ ਵਰਤੋਂ।
+unified-extensions-mb-quarantined-domain-learn-more = ਹੋਰ ਜਾਣੋ
+    .aria-label = ਹੋਰ ਜਾਣੋ: ਕੁਝ ਇਕਸਟੈਸ਼ਨਾਂ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ
+unified-extensions-mb-about-addons-link = ਇਕਸਟੈਨਸ਼ਨ ਸੈਟਿੰਗਾਂ ਉੱਤੇ ਜਾਓ
+unified-extensions-mb-blocklist-warning-single2 =
+    .heading = { $extensionName } ਅਸਮਰੱਥ ਹੈ
+    .message =
+        ਇਸ ਇਕਸਟੈਨਸ਼ਨ ਉੱਤੇ ਰੋਕ ਲਾਈ ਹੈ ਅਤੇ ਅਸਮਰੱਥ ਕੀਤਾ ਜਾ ਚੁੱਕਾਹ ੈ। 
+        ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੈਟਿੰਗਾਂ ਵਿੱਚੋਂ ਸਮਰੱਥ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਇਕ ਖ਼ਤਰਨਾਕ ਹੋ ਸਕਦਾ ਹੈ।
+unified-extensions-mb-blocklist-error-single =
+    .heading = { $extensionName } ਅਸਮਰੱਥ ਹੈ
+    .message = ਇਸ ਇਕਸਟੈਨਸ਼ਨ ਨੇ Mozilla ਦੀਆਂ ਪਾਲਸੀਆਂ ਦੀ ਉਲੰਘਣਾ ਕੀਤੀ ਹੈ ਅਤੇ ਇਸ ਨੂੰ ਅਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ।
+unified-extensions-mb-blocklist-warning-multiple2 =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } extensions disabled
+        }
+    .message = { $extensionsCount } ਇਕਸਟੈਨਸ਼ਨਾਂ ਅਸਮਰੱਥ ਹਨ।
+unified-extensions-mb-blocklist-error-multiple =
+    .heading =
+        { $extensionsCount ->
+            [one] { $extensionsCount } ਇਕਸਟੈਨਸ਼ਨ ਅਸਮਰੱਥ ਹੈ
+           *[other] { $extensionsCount } ਇਕਸਟੈਨਸ਼ਨਾਂ ਅਸਮਰੱਥ ਹਨ
+        }
+    .message = ਤੁਹਾਡੀਆਂ ਕੁਝ ਇਕਸਟੈਨਸ਼ਨਾਂ ਨੂੰ Mozilla ਦੀਆਂ ਪਾਲਸੀਆਂ ਦੀਆਂ ਉਲੰਘਣਾ ਕਰਨ ਕਰਕੇ ਅਸਮਰੱਥ ਕੀਤਾ ਹੈ।

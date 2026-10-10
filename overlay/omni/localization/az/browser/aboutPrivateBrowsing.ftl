@@ -1,0 +1,31 @@
+privatebrowsingpage-open-private-window-label = Məxfi Pəncərə Aç
+    .accesskey = M
+about-private-browsing-search-placeholder = İnternetdə Axtar
+about-private-browsing-search-btn =
+    .title = İnternetdə axtar
+about-private-browsing-handoff =
+    .title = { $engine } ilə axtarın və ya ünvanı daxil edin
+about-private-browsing-handoff-no-engine =
+    .title = Axtar və ya ünvanı daxil et
+about-private-browsing-handoff-text = { $engine } ilə axtarın və ya ünvanı daxil edin
+about-private-browsing-handoff-text-no-engine = Axtar və ya ünvanı daxil et
+about-private-browsing-not-private = Hazırda məxfi pəncərədə deyilsiniz.
+about-private-browsing-hide-activity = İnternetdə gəzdiyiniz hər yerdə fəaliyyətinizi və yerinizi gizlədin.
+about-private-browsing-get-privacy = İnternetdə gəzdiyiniz hər yerdə məxfilik qoruması alın
+about-private-browsing-search-banner-title = { $engineName } sizin Məxfi Pəncərədəki standart axtarış mühərrikinizdir
+about-private-browsing-search-banner-close-button =
+    .aria-label = Qapat
+about-private-browsing-pin-promo-header = Bir toxunuşla məxfi səyahət azadlığı
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+        [macos] Dock-da saxla
+       *[other] Tapşırıq panelinə bərkit
+    }
+about-private-browsing-pin-promo-title = İş masanızdan birbaşa çərəzlər və baxış tarixçəsi saxlanılmadan istifadə edin. Heç kim sizi izləmirmiş kimi internetdə səyahət edin.
+about-private-browsing-felt-privacy-v1-info-header = Bu cihazda iz buraxmayın
+about-private-browsing-felt-privacy-v1-info-body = Bütün məxfi pəncərələrinizi qapatdıqda { -brand-short-name } sizin çərəzlərinizi, tarixçənizi və sayt məlumatlarınızı siləcək.
+about-private-browsing-felt-privacy-v1-info-link = Kim mənim fəaliyyətimi görə bilər?
+about-private-browsing-nova-info-header = Siz qeyddən kənarsınız
+about-private-browsing-nova-info-subheader2 = Bütün Məxfi Pəncərələri bağladığınız zaman bütün axtarışlarınızı və giriş məlumatlarınızı siləcəyik. Burada { -brand-short-name } səyyahının izləyiciləri əngəlləmə kimi daxili qoruma özəllikləri də aktivdir.
+about-private-browsing-nova-info-body = Bütün məxfi pəncərələriniz qapadıldıqda sizin çərəzləriniz, tarixçəniz və sayt məlumatlarınız silinəcəkdir.
+about-private-browsing-nova-info-link = Kim hələ də mənim fəaliyyətimi görə bilir?

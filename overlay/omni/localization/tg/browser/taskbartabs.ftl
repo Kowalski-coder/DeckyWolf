@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Илова кардани варақа ба навори вазифа
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Тоза кардани варақа аз навори вазифа
+taskbar-tab-urlbar-button-show = Нишон додани амалҳои саҳифа дар барномаи сомона
+taskbar-tab-urlbar-button-hide = Пинҳон кардани амалҳои саҳифа дар барномаи сомона
+taskbar-tab-shortcut-description = Барномаи веби «{ $name }»
+taskbar-tab-shortcut-folder = Барномаҳои веби «{ -brand-short-name }»
+taskbar-tab-audio-mute =
+    .tooltiptext = Хомӯш кардани садо дар варақа
+taskbar-tab-audio-unmute =
+    .tooltiptext = Фаъол кардани садо дар варақа
+taskbar-tab-title-default = «{ $name }» дар «{ -brand-full-name }»
+taskbar-tab-title-container = «{ $name }» ({ $container }) дар «{ -brand-full-name }»
+taskbar-tab-title-profile = «{ $name }» дар «{ $profile }» — «{ -brand-full-name }»
+taskbar-tab-title-container-profile = «{ $name }» ({ $container }) дар «{ $profile }» — «{ -brand-full-name }»

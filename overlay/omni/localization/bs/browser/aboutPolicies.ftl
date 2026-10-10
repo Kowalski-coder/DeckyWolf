@@ -1,0 +1,17 @@
+about-policies-title = Enterprise police
+aboutpolicies-page-heading =
+    .heading = O pravilima
+active-policies-tab = Aktivne
+errors-tab = Greške
+documentation-tab = Dokumentacija
+active-policies-tab-title =
+    .title = Aktivne
+errors-tab-title =
+    .title = Greške
+documentation-tab-title =
+    .title = Dokumentacija
+no-specified-policies-message = Enterprice police servis je aktivan, ali nema omogućenih polica.
+inactive-message = Enterprise police servis je deaktiviran.
+policy-name = Naziv police
+policy-value = Vrijednost police
+policy-errors = Greške police

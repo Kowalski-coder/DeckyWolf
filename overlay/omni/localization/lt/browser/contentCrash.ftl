@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Dalis šio tinklalapio užstrigo.</strong> Norėdami pranešti apie šią problemą „{ -brand-product-name }“ ir greičiau ją išspręsti, nusiųskite pranešimą.
+crashed-subframe-title =
+    .title = Dalis šio tinklalapio užstrigo. Norėdami pranešti apie šią problemą „{ -brand-product-name }“ ir greičiau ją išspręsti, nusiųskite pranešimą.
+crashed-subframe-learnmore-link =
+    .value = Sužinoti daugiau
+crashed-subframe-submit =
+    .label = Siųsti pranešimą
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = Peržiūrėti
+pending-crash-reports-send =
+    .label = Siųsti
+pending-crash-reports-always-send =
+    .label = Siųsti visada

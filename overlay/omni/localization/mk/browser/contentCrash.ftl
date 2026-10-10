@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Дел од оваа страница падна.</strong> За да го известите { -brand-product-name } за овој проблем и да го поправите побрзо, поднесете извештај.
+crashed-subframe-title =
+    .title = Дел од оваа страница падна. За да го известите { -brand-product-name } за овој проблем и да го поправите побрзо, поднесете извештај.
+crashed-subframe-learnmore-link =
+    .value = Дознајте повеќе
+crashed-subframe-submit =
+    .label = Поднесете извештај
+    .accesskey = П
+pending-crash-reports-view-all =
+    .label = Прикажи
+pending-crash-reports-send =
+    .label = Испрати
+pending-crash-reports-always-send =
+    .label = Секогаш испраќај

@@ -1,0 +1,13 @@
+grid-row-column-positions = Vrstica { $row } / Stolpec { $column }
+gridtype-container = Vsebnik Grid
+gridtype-item = Element Grid
+gridtype-dual = Vsebnik/element Grid
+flextype-container = Vsebnik Flex
+flextype-item = Element Flex
+flextype-dual = Vsebnik/element Flex
+remote-node-picker-notice = Izbirnik vozlišč v razvojnih orodjih je omogočen. { $action }
+remote-node-picker-notice-action-desktop = Kliknite element, da ga izberete v pregledovalniku
+remote-node-picker-notice-action-touch = Tapnite element, da ga izberete v pregledovalniku
+remote-node-picker-notice-hide-button = Skrij
+simple-highlighters-message = Ko je omogočena možnost prefers-reduced-motion, lahko v nastavitvah omogočite preprostejši označevalnik, ki ne vsebuje utripajočih barv.
+simple-highlighters-settings-button = Odpri nastavitve

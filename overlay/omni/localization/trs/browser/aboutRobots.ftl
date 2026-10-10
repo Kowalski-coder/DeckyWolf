@@ -1,0 +1,10 @@
+page-title = ¡Guruhuât numâant nij ân!
+error-title-text = ¡Guruhuât numâat nij ân!
+error-short-desc-text = ¡Ma si 'na' ni'iaj ñûnj si hua nï mâant naj ân!
+error-long-desc1 = 'Ngo guì aga' nitaj si da'ui gi'iaj yi'ìj 'ngo guì yangà'a, si nitaj si sikïj ni, dunajt giran' sañun ma'an.
+error-long-desc2 = Hua sa sê sa guyumàn ruhuô' huin nej sa ni'in nej robôt
+error-long-desc3 = Sa nikaj dugui' ngàt huin nej robôt nakaj a ni nihià' ruhuô' nga nu' ngà.
+error-long-desc4 = Se sa yatañû' huin dakan siu nej robôt.
+error-trailer-desc-text = Ni hua sa anïn ruhuâ ni
+error-try-again = A'ngô ñû
+    .label2 = Gi'iaj 'ngo sunuj, ni si guru'man ra'a ñûnt.

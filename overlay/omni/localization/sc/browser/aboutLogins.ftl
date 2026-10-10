@@ -1,0 +1,246 @@
+about-logins-page-title-name = Craes
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Chirca craes
+create-login-button =
+    .title = Agiunghe crae
+fxaccounts-sign-in-text = Otene is craes tuas pro is àteros dispositivos tuos
+fxaccounts-sign-in-sync-button = Identìfica·ti a Sync
+fxaccounts-avatar-button =
+    .title = Gesti su contu
+menu =
+    .title = Aberi su menù
+about-logins-menu-menuitem-import-from-another-browser = Importa dae un'àteru navigadore...
+about-logins-menu-menuitem-import-from-a-file = Importa dae un’archìviu...
+about-logins-menu-menuitem-export-logins2 = Esporta craes…
+about-logins-menu-menuitem-remove-all-logins2 = Boga totu is craes…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Optziones
+       *[other] Preferèntzias
+    }
+about-logins-menu-menuitem-help = Agiudu
+login-list =
+    .aria-label = Credentziales chi cointzident cun is critèrios de chirca
+login-list-count2 =
+    { $count ->
+        [one] { $count } crae
+       *[other] { $count } craes
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } crae de { $total }
+       *[other] { $count } craes de { $total }
+    }
+login-list-sort-label-text = Assenta dae:
+login-list-name-option = Nòmine (A-Z)
+login-list-name-reverse-option = Nòmine (Z-A)
+login-list-username-option = Nòmine utente (A-Z)
+login-list-username-reverse-option = Nòmine utente (Z-A)
+about-logins-login-list-alerts-option = Avisos
+login-list-last-changed-option = Ùrtima modìfica
+login-list-last-used-option = Ùrtimu impreu
+login-list-intro-title2 = Nissuna crae sarvada
+login-list-intro-description = Cando sarvas una crae in { -brand-product-name }, at a aparèssere inoghe.
+about-logins-login-list-empty-search-title2 = Nissuna crae agatada
+about-logins-login-list-empty-search-description = Non b'at resurtados chi currispondent a sa chirca tua.
+login-list-item-title-new-login2 = Agiunghe crae
+login-list-item-subtitle-missing-username = (nissunu nòmine utente)
+about-logins-list-item-breach-icon =
+    .title = Situ web vìtima de violatzione de datos
+about-logins-list-item-vulnerable-password-icon =
+    .title = Crae non segura
+about-logins-list-section-breach = Sitos web vìtima de violatzione de datos
+about-logins-list-section-vulnerable = Craes non seguras
+about-logins-list-section-nothing = Nissunu avisu
+about-logins-list-section-today = Oe
+about-logins-list-section-yesterday = Erisero
+about-logins-list-section-week = Ùrtimas 7 dies
+about-logins-login-intro-heading-message = Sarva is craes tuas in logu seguru
+login-intro-description2 = Totu is craes chi sarvas in { -brand-product-name } sunt tzifradas. In prus, chircamus puntos dèbiles e ti naramus si ti pertocant. <a data-l10n-name="breach-alert-link">Impara de prus</a>
+login-intro-instructions-fxa2 = Crea unu contu o identìfica·ti in su dispositivu in ue is atzessos tuos sunt sarvados.
+login-intro-instructions-fxa-settings = Bae a Cunfiguratzione > Sincroniza > Ativa sincronizatzione... Seletziona sa casella «Credentziales e craes».
+login-intro-instructions-fxa-passwords-help = Bìsita s'<a data-l10n-name="passwords-help-link">assistèntzia pro is craes</a> pro àteru agiudu.
+about-logins-intro-import3 = Sèbera su sinnu "prus" in artu pro agiùnghere una crae. Podes fintzas <a data-l10n-name="import-browser-link">importare craes dae un’àteru navigadore</a> o <a data-l10n-name="import-file-link">dae un’archìviu</a>.
+about-logins-login-item-new-login-title = Agiunghe crae
+login-item-edit-button = Modìfica
+about-logins-login-item-remove-button = Boga
+login-item-origin-label = Indiritzu de su situ
+about-logins-origin-tooltip2 = Inserta s’indiritzu cumpletu e assegura·ti chi currispondat a su chi as impreadu pro t’identificare.
+about-logins-edit-password-tooltip = Assegura·ti de sarvare sa crae tua pro custu situ. Sa modìfica de sa crae in custa pàgina no at a modificare sa crae in { $webTitle }.
+about-logins-add-password-tooltip = Assegura·ti de sarvare sa crae tua pro custu situ.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Nòmine utente
+about-logins-login-item-username =
+    .placeholder = (nissunu nòmine utente)
+login-item-copy-username-button-text = Còpia
+login-item-copied-username-button-text = Copiadu!
+login-item-password-label = Crae
+login-item-password-reveal-checkbox =
+    .aria-label = Ammustra crae
+login-item-password-conceal-checkbox =
+    .aria-label = Cua sa crae
+login-item-copy-password-button-text = Còpia
+login-item-copied-password-button-text = Copiadu!
+about-logins-login-item-save-changes-button = Sarva
+login-item-save-new-button = Sarva
+login-item-cancel-button = Annulla
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Creada
+login-item-timeline-action-updated = Atualizada
+login-item-timeline-action-used = Impreada
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] modìfica sa cunfiguratzione de is craes
+       *[other] { -brand-short-name } est proende a modificare is cunfiguratziones de is craes. Imprea s'identificatzione de su dispositivu tuo pro ddu permìtere.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win =
+    Pro cambiare sa crae tua, inserta is credentziales de atzessu a Windows.
+    Custu at a agiudare a amparare sa seguresa de is contos tuos.
+about-logins-edit-login-os-auth-dialog-message2-macosx = modìfica sa crae sarvada
+about-logins-reveal-password-os-auth-dialog-message-win = Pro bìdere sa crae tua, inserta is credentziales tuas de Windows. Custu agiudat a amparare sa seguresa de is contos tuos.
+about-logins-reveal-password-os-auth-dialog-message-macosx = ammustra sa crae sarvada
+about-logins-copy-password-os-auth-dialog-message-win = Pro copiare sa crae tua, inserta is credentziales tuas de Windows. Custu agiudat a amparare sa seguresa de is contos tuos.
+about-logins-copy-password-os-auth-dialog-message-macosx = còpia sa crae sarvada
+about-logins-export-password-os-auth-dialog-message2-win =
+    Pro esportare is craes tuas, inserta is credentziales de atzessu a Windows.
+    Custu at a agiudare a amparare sa seguresa de is contos tuos.
+about-logins-export-password-os-auth-dialog-message2-macosx = esporta is craes sarvadas
+about-logins-primary-password-notification-message = Inserta sa crae printzipale pro bìdere is credentziales e is craes sarvadas
+master-password-reload-button =
+    .label = Atzede
+    .accesskey = A
+confirmation-dialog-cancel-button = Annulla
+confirmation-dialog-dismiss-button =
+    .title = Annulla
+about-logins-confirm-delete-dialog-title = Boles bogare sa crae?
+about-logins-confirm-delete-dialog-message = Custa atzione non podet èssere annullada.
+about-logins-confirm-remove-dialog-confirm-button = Boga
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] 1
+        [one] Boga
+       *[other] Boga·nche totu
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Eja, boga sa crae
+        [one] Eja, boga sa crae
+       *[other] Eja, boga is craes
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Boles bogare { $count } crae?
+       *[other] Boles bogare totu is { $count } craes?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Custu at a bogare sa crae sarvada in { -brand-short-name } e totu is avisos de debilesa. Custa operatzione non podet èssere annullada.
+        [one] Custu at a bogare sa crae sarvada in { -brand-short-name } e totu is avisos de debilesa. Custa operatzione non podet èssere annullada.
+       *[other] Custu at a bogare is craes sarvadas in { -brand-short-name } e totu is avisos de debilesa. Custa operatzione non podet èssere annullada.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Boles bogare { $count } crae dae totu is dispositivos?
+       *[other] Boles bogare totu is { $count } craes dae totu is dispositivos?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Custu nch’at a bogare sa crae sarvada in { -brand-short-name } dae totu is dispositivos tuos sincronizados. Custu at a bogare fintzas totu is avisos de debilesa chi aparent inoghe. No as a pòdere annullare custa atzione.
+        [one] Custu nch’at a bogare sa crae sarvada in { -brand-short-name } dae totu is dispositivos tuos sincronizados. Custu at a bogare fintzas totu is avisos de debilesa chi aparent inoghe. No as a pòdere annullare custa atzione.
+       *[other] Custu nch’at a bogare is craes sarvadas in { -brand-short-name } dae totu is dispositivos tuos sincronizados. Custu at a bogare fintzas totu is avisos de debilesa chi aparent inoghe. No as a pòdere annullare custa atzione.
+    }
+about-logins-confirm-export-dialog-title2 = Avisu in contu de s’esportatzione de craes
+about-logins-confirm-export-dialog-message2 =
+    Cando ddas esportas, is craes tuas sunt sarvadas in un’archìviu cun cuntenutu atzessìbile.
+    Cando as finidu de impreare s’archìviu, ti cussigiamus de ddu cantzellare, a manera chi, si àteros impreant custu dispositivu, no ant a bìdere is craes tuas.
+about-logins-confirm-export-dialog-confirm-button2 = Sighi a esportare
+about-logins-alert-import-message = Visualiza su resumu detalliadu de s'importatzione
+confirm-discard-changes-dialog-title = Boles iscartare is modìficas non sarvadas?
+confirm-discard-changes-dialog-message = S'ant a pèrdere totu is modìficas non sarvadas.
+confirm-discard-changes-dialog-confirm-button = Iscarta
+about-logins-breach-alert-title = Violatzione de su situ
+breach-alert-text = Is craes de custu situ sunt istadas furadas o isparghinadas s'ùrtima borta chi as atualizadu is credentziales. Muda sa crae pro amparare su contu tuo.
+about-logins-breach-alert-date = Custa violatzione est acontèssida su { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Bae a { $hostname }
+about-logins-vulnerable-alert-title = Crae non segura
+about-logins-vulnerable-alert-text2 = Custa crae est istada impreada in un'àteru contu mancari cumpromìtidu in una violatzione de datos. Torrare a impreare is credentziales est perigulosu pro is contos tuos. Muda custa crae.
+about-logins-vulnerable-alert-link = Bae a { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Àteras informatziones
+about-logins-error-message-duplicate-login-with-link = Esistet giai un'intrada pro { $loginTitle } cun custu nòmine de utente. <a data-l10n-name="duplicate-link">Boles andare a cussa intrada?</a>
+about-logins-error-message-default = Faddina in su sarvamentu de custa crae.
+about-logins-export-file-picker-title2 = Esporta is craes dae { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = craes.csv
+about-logins-export-file-picker-export-button = Esporta
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Documentu CSV
+       *[other] Archìviu CSV
+    }
+about-logins-import-file-picker-title2 = Importa is craes in { -brand-short-name }
+about-logins-import-file-picker-import-button = Importa
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Documentu CSV
+       *[other] Archìviu CSV
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Documentu TSV
+       *[other] Archìviu TSV
+    }
+about-logins-import-dialog-title = Importatzione cumpletada
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Crae noa agiunta:</span><span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Craes noas agiuntas:</span><span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Elementu atualizadu:</span><span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Elementos atualizados:</span><span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Intradas duplicadas agatadas:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(nissuna importatzione)</span>
+       *[other] <span>Intradas duplicadas agatadas:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(nissuna importatzione)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Faddina:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(nissuna importatzione)</span>
+       *[other] <span>Faddinas:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(nissuna importatzione)</span>
+    }
+about-logins-import-dialog-done = Fatu
+about-logins-import-dialog-error-title = Faddina in s'importatzione
+about-logins-import-dialog-error-conflicting-values-title = Prus valores in cunflitu pro una credentziale ispetzìfica
+about-logins-import-dialog-error-conflicting-values-description = Pro esempru: prus nòmines utentes, craes, URL, etc. pro una credentziale ispetzìfica.
+about-logins-import-dialog-error-file-format-title = Problema de formatu de s'archìviu
+about-logins-import-dialog-error-file-format-description = Is intestatziones de colunna ammancant o no sunt curretas. Assegura·ti chi s'archìviu includet colunnas pro su nòmine utente, sa crae e s'URL.
+about-logins-import-dialog-error-file-permission-title = Impossìbile lèghere s'archìviu
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } non tenet permissu pro lèghere s'archìviu. Proa a modificare is permissos de s'archìviu.
+about-logins-import-dialog-error-unable-to-read-title = Impossìbile analizare s'archìviu
+about-logins-import-dialog-error-unable-to-read-description = Assegura·ti chi as seberadu un'archìviu CSV o TSV.
+about-logins-import-dialog-error-no-logins-imported = Nissuna credentziale importada
+about-logins-import-dialog-error-learn-more = Àteras informatziones
+about-logins-import-dialog-error-try-import-again = Torra a proare s'importatzione...
+about-logins-import-dialog-error-cancel = Annulla
+about-logins-import-report-title = Resumu de s'importatzione
+about-logins-import-report-description2 = Craes importadas in { -brand-short-name }.
+about-logins-import-report-row-index = Lìnia { $number }
+about-logins-import-report-row-description-no-change2 = Elementu dòpiu: currispondet a unu chi esistit giai
+about-logins-import-report-row-description-modified2 = Elementu atualizadu
+about-logins-import-report-row-description-added2 = Agiunta una crae noa
+about-logins-import-report-row-description-error = Faddina: ammancat unu campu
+about-logins-import-report-row-description-error-multiple-values = Faddina: prus valores pro { $field }
+about-logins-import-report-row-description-error-missing-field = Faddina: ammancat { $field }
+about-logins-import-report-added2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Craes noas agiuntas</div>
+about-logins-import-report-modified2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elementos atualizados</div>
+about-logins-import-report-no-change2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Intradas duplicadas</div> <div data-l10n-name="not-imported">(no importadas)</div>
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Faddina</div> <div data-l10n-name="not-imported">(nissuna importatzione)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Faddinas</div> <div data-l10n-name="not-imported">(nissuna importatzione)</div>
+    }
+about-logins-import-report-page-title = Informe de su resumu de s'importatzione

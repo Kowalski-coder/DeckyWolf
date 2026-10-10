@@ -1,0 +1,17 @@
+opensearch-error-duplicate-title = Error d'instalación
+opensearch-error-duplicate-desc = { -brand-short-name } no ha puesto instalar o plugin de busca dende "{ $location-url }" porque ya existe un buscador con o mesmo nombre.
+opensearch-error-format-title = Formato invalido
+opensearch-error-format-desc = { -brand-short-name } no ha puesto instalar lo motor de busca dende: { $location-url }
+opensearch-error-download-title = Error en a descarga
+opensearch-error-download-desc = { -brand-short-name } no ha puesto descargar o plugin de busca dende: { $location-url }
+searchbar-submit =
+    .tooltiptext = Ninvia la busca
+searchbar-input =
+    .placeholder = Mirar
+searchbar-icon =
+    .tooltiptext = Mirar
+add-engine-window =
+    .style = min-width: 32em;
+    .title = Anyadir buscador
+add-engine-button = Anyadir buscador personalizau
+add-engine-name = Nombre d'o motor de busqueda

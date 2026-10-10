@@ -1,0 +1,26 @@
+restore-page-tab-title = Rikthim Sesioni
+restore-page-error-title = Na ndjeni. Po kemi probleme me rikthimin e faqevet tuaja.
+restore-page-problem-desc = Po kemi problem me rikthimin e sesionit tuaj të fundit të shfletimit. Përzgjidhni “Rikthe Sesionin”, që të riprovohet.
+restore-page-try-this = Ende s’arrihet të rikthehet sesioni juaj? Ndonjëherë problemin e shkakton një skedë. Shihni skedat e mëparshme, hiquani shenjën atyre që nuk ju duhet t’i riktheni dhe mandej provoni rikthimin.
+restore-page-hide-tabs = Fshihi Skedat e Mëparshme
+restore-page-show-tabs = Shihni Skedat e Mëparshme
+restore-page-window-label = Dritaren { $windowNumber }
+restore-page-restore-header =
+    .label = Rikthim
+restore-page-list-header =
+    .label = Dritare dhe Skeda
+restore-page-try-again-button =
+    .label = Rikthe Sesionin
+    .accesskey = R
+restore-page-close-button =
+    .label = Fillo Sesion të Ri
+    .accesskey = F
+welcome-back-tab-title = Sukses!
+welcome-back-page-title = Sukses!
+welcome-back-page-info = { -brand-short-name }-i është gati.
+welcome-back-restore-button =
+    .label = Shkojmë!
+    .accesskey = O
+welcome-back-restore-all-label = Riktheni krejt dritaret & skedat
+welcome-back-restore-some-label = Riktheni vetëm ato që doni
+welcome-back-page-info-link = Shtesat dhe përshtatjet tuaja janë hequr dhe rregullimet e shfletuesit tuaj janë kthyer te parazgjedhjet për to. Nëse kjo nuk e zgjidh problemin tuaj, <a data-l10n-name="link-more">mësoni më tepër rreth asaj çka mund të bëni.</a>

@@ -1,0 +1,14 @@
+default-bookmarks-title = ᱵᱩᱠᱢᱟᱨᱠ ᱠᱚ
+default-bookmarks-heading = ᱵᱩᱠᱢᱟᱨᱠ ᱠᱚ
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = ᱜᱚᱲᱚ ᱤᱫᱤ ᱢᱮ
+default-bookmarks-firefox-customize = Firefox ᱫᱚ ᱠᱩᱥᱤᱭᱟᱠ ᱛᱮ ᱛᱮᱭᱟᱨ ᱢᱮ
+default-bookmarks-firefox-community = ᱪᱷᱩᱴᱟᱹᱣᱜ ᱢᱮ
+default-bookmarks-firefox-about = ᱟᱞᱮ ᱵᱟᱵᱚᱛ
+default-bookmarks-nightly-heading = Firefox Nightly ᱡᱤᱱᱤᱥ ᱠᱚ
+default-bookmarks-nightly-blog = Firefox Nightly ᱵᱞᱚᱜᱽ
+default-bookmarks-bugzilla = Mozilla Bug ᱜᱷᱮᱨ ᱮᱥᱮᱫ
+default-bookmarks-mdn = Mozilla ᱰᱮᱵᱷᱞᱚᱯᱟᱹᱨ ᱡᱟᱹᱞᱤ
+default-bookmarks-nightly-tester-tools = Nightly ᱡᱟᱸᱪ ᱦᱟᱹᱛᱤᱭᱟᱨ ᱠᱚ
+default-bookmarks-crashes = ᱟᱢᱟᱜ ᱡᱷᱚᱛᱚ ᱰᱤᱜᱟᱹᱣ ᱡᱤᱱᱤᱥ ᱠᱚ
+default-bookmarks-planet = Planet Mozilla

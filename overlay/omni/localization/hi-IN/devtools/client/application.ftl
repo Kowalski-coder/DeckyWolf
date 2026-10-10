@@ -1,0 +1,9 @@
+serviceworker-list-header = सेवा कार्यकर्त्ता
+serviceworker-worker-unregister = अपंजीकृत
+serviceworker-worker-updated = <time>{ DATETIME($date, day: "numeric", hour: "numeric", minute: "numeric", month: "long", second: "numeric", year: "numeric") }</time> को अपडेट हुआ
+serviceworker-worker-status-running = क्रियाशील
+serviceworker-worker-status-stopped = रुकी हुई
+serviceworker-empty-intro-link = अधिक जानें
+manifest-item-warnings = त्रुटियां तथा चेतावनीयां
+manifest-loaded-devtools-error = Firefox DevTools त्रुटि
+manifest-icon-purpose = उद्देश्य: <code>{ $purpose }</code>

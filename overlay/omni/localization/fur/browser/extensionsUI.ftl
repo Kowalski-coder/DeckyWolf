@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } al desidere cambiâ il to motôr di ricercje predefinît di { $currentEngine } a { $newEngine }. Vadial ben?
+webext-default-search-yes =
+    .label = Sì
+    .accesskey = S
+webext-default-search-no =
+    .label = No
+    .accesskey = N
+addon-post-install-message = { $addonName } al è stât zontât.
+webext-quarantine-confirmation-title = Eseguî { $addonName } in sîts cun limitazions?
+webext-quarantine-confirmation-line-1 = Par protezi i tiei dâts, cheste estension no je ametude su chest sît.
+webext-quarantine-confirmation-line-2 = Permet cheste estension se tu ti fidis che e lei e che e cambi i tiei dâts sui sîts che a son stâts limitâts di { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permet
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = No sta permeti
+    .accesskey = N

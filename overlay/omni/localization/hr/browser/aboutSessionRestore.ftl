@@ -1,0 +1,26 @@
+restore-page-tab-title = Obnovi sesiju
+restore-page-error-title = Žao nam je. Ne možemo vratiti tvoje stranice.
+restore-page-problem-desc = Ne možemo obnoviti tvoju zadnju sesiju pregledavanja. Odaberi „Obnovi sesiju” za ponovni pokušaj.
+restore-page-try-this = Još uvijek ne možeš obnoviti sesiju? Ponekad je kartica uzrok tome. Pregledaj prethodne kartice, ukloni kvačicu s kartica koje ne želiš obnoviti i zatim obnovi sesiju.
+restore-page-hide-tabs = Sakrij prethodne kartice
+restore-page-show-tabs = Prikaži prethodne kartice
+restore-page-window-label = Prozor { $windowNumber }
+restore-page-restore-header =
+    .label = Obnovi
+restore-page-list-header =
+    .label = Prozori i kartice
+restore-page-try-again-button =
+    .label = Obnovi sesiju
+    .accesskey = O
+restore-page-close-button =
+    .label = Započni novu sesiju
+    .accesskey = n
+welcome-back-tab-title = Uspjeh!
+welcome-back-page-title = Uspjeh!
+welcome-back-page-info = { -brand-short-name } je spreman.
+welcome-back-restore-button =
+    .label = Krenimo!
+    .accesskey = K
+welcome-back-restore-all-label = Obnovi sve prozore i kartice
+welcome-back-restore-some-label = Obnovi samo one koje želiš
+welcome-back-page-info-link = Tvoji dodaci i prilagodbe su uklonjeni i postavke tvog preglednika vraćene su na standardne vrijednosti. Ukoliko ovo nije popravilo tvoj problem, <a data-l10n-name="link-more">saznaj više o tome što možeš uraditi.</a>

@@ -1,0 +1,14 @@
+identity-credential-header-providers = පිවිසුම් ප්‍රතිපාදකයක් සමඟ පුරන්න
+identity-credential-header-accounts = { $provider } සමඟ පිවිසෙන්න
+identity-credential-urlbar-anchor =
+    .tooltiptext = පිවිසුම් මඬල අරින්න
+identity-credential-cancel-button =
+    .label = අවලංගු
+    .accesskey = n
+identity-credential-accept-button =
+    .label = ඉදිරියට
+    .accesskey = C
+identity-credential-sign-in-button =
+    .label = පිවිසෙන්න
+    .accesskey = S
+identity-credential-policy-title = පිවිසුම් ප්‍රතිපාදකයක් ලෙස { $provider } යොදාගන්න

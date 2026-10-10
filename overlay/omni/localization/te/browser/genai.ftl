@@ -1,0 +1,13 @@
+genai-header-close-button =
+    .title = మూసివేయి
+genai-onboarding-primary = కొనసాగించు
+genai-onboarding-secondary = మూసివేయి
+genai-model-optin-continue =
+    .label = కొనసాగించు
+genai-model-optin-optout =
+    .label = రద్దుచేయి
+genai-model-optin-cancel =
+    .label = రద్దుచేయి
+link-preview-generation-error-unexpected = ఏదో తప్పు జరిగింది.
+link-preview-generation-retry = మళ్ళీ ప్రయత్నించు
+link-preview-onboarding-close = మూసివేయి

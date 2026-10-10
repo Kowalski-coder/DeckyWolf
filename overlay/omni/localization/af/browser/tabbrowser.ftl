@@ -1,0 +1,15 @@
+tabbrowser-empty-tab-title = Nuwe oortjie
+tabbrowser-menuitem-close-tab =
+    .label = Sluit oortjie
+tabbrowser-menuitem-close =
+    .label = Sluit
+tabbrowser-confirm-close-tabs-button = Sluit oortjies
+tabbrowser-customizemode-tab-title = Pas { -brand-short-name } aan
+tabbrowser-context-mute-tab =
+    .label = Doof oortjie
+    .accesskey = D
+tabbrowser-context-unmute-tab =
+    .label = Ontdoof oortjie
+    .accesskey = n
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = Lys al { $tabCount } oortjies

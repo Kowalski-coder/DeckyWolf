@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong>Part d'esta pàgina ha fallat.</strong> Per notificar el problema al { -brand-product-name } i que s'arregli més ràpidament, envieu un informe.
+crashed-subframe-title =
+    .title = Part d'esta pàgina ha fallat. Per notificar el problema al { -brand-product-name } i que s'arregli més ràpidament, envieu un informe.
+crashed-subframe-learnmore-link =
+    .value = Més informació
+crashed-subframe-submit =
+    .label = Envia l'informe
+    .accesskey = E
+pending-crash-reports-view-all =
+    .label = Visualitza
+pending-crash-reports-send =
+    .label = Envia
+pending-crash-reports-always-send =
+    .label = Envia'ls sempre

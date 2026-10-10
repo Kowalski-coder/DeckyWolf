@@ -1,0 +1,26 @@
+restore-page-tab-title = Tembiapopa’ũ mbojevy
+restore-page-error-title = Oreñyrõmi katu ndajaikatúi jahechauka jey ndéve togue rehechava’ekue.
+restore-page-problem-desc = Oreapañuaihína rohechaukajey hag̃ua rehechava’ekue. Eiporavomi Tembiapopa’ũ Jehechaukajey.
+restore-page-try-this = Ndaikatúi gueteri reikejey rehechava’ekuépe? Sapy’ánte oĩ pe tendayke ombyaíva upéva. Ema’ẽmi tendayke rehechava’ekue, ha tysýipe eiporavomi tendayke eikotevẽva, upéi eha’ã jey.
+restore-page-hide-tabs = Tendayke Ramoitéva Ñomi
+restore-page-show-tabs = Tendayke Ramoitéva Jechauka
+restore-page-window-label = Ovetã { $windowNumber }
+restore-page-restore-header =
+    .label = Mbojevy
+restore-page-list-header =
+    .label = Ovetã ha tendayke
+restore-page-try-again-button =
+    .label = Tembiapopa’ũ Ñemoñepyrũjey
+    .accesskey = R
+restore-page-close-button =
+    .label = Tembiapopa’ũ Pyahu Moñepyrũ
+    .accesskey = N
+welcome-back-tab-title = Tandepo’a
+welcome-back-page-title = ¡Tandepo’a!
+welcome-back-page-info = { -brand-short-name } oĩma oguata haguáicha
+welcome-back-restore-button =
+    .label = ¡Jahake!
+    .accesskey = L
+welcome-back-restore-all-label = Ovetã ha tendayke mbojevyjey
+welcome-back-restore-some-label = Embojevyjey reipotávante
+welcome-back-page-info-link = Umi moĩmbaha ha ñemomba’eguáva oñemboguepáma ha Kundahára oñemboheko porãma ojevyjeývo ijypykuetépe. Ko apañuái guasu ñoñemoĩporãiramo, <a data-l10n-name="link-more">Reñemoaranduve upe ejaposévape.</a>

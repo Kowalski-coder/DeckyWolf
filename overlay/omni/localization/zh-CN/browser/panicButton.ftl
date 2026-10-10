@@ -1,0 +1,15 @@
+panic-button-open-new-window = 新建一个干净的窗口
+panic-button-undo-warning = 此操作无法撤销。
+panic-button-forget-button =
+    .label = 抹去吧！
+panic-main-timeframe-desc = 抹去最近的上网痕迹：
+panic-button-5min =
+    .label = 5 分钟
+panic-button-2hr =
+    .label = 2 小时
+panic-button-day =
+    .label = 24 小时
+panic-button-action-desc = 这将：
+panic-button-delete-cookies = 删除近期的 <strong>Cookie</strong>
+panic-button-delete-history = 删除近期的<strong>历史记录</strong>
+panic-button-delete-tabs-and-windows = 关闭所有<strong>标签页</strong>和<strong>窗口</strong>

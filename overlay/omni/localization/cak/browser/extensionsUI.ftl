@@ -1,0 +1,16 @@
+webext-default-search-description = { $addonName } nawajo' najäl ri akanob'al kan k'o wi richin { $currentEngine } rik'in { $newEngine }. ¿La ÜTZ ke ri'?
+webext-default-search-yes =
+    .label = Ja'
+    .accesskey = J
+webext-default-search-no =
+    .label = Mani
+    .accesskey = M
+addon-post-install-message = Xtz'aqatisäx { $addonName }.
+webext-quarantine-confirmation-title = ¿La nokisäx { $addonName } pa chajin taq ruxaq?
+webext-quarantine-confirmation-line-1 = Richin yechajïx ri taq atzij, man niya' ta q'ij chi re re k'amal re' pa re ruxaq re'.
+webext-quarantine-confirmation-allow =
+    .label = Tiya' q'ij
+    .accesskey = q
+webext-quarantine-confirmation-deny =
+    .label = Man Tiya' Q'ij
+    .accesskey = M

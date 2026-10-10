@@ -1,0 +1,17 @@
+about-policies-title = គោលនយោបាយ​សហគ្រាស
+aboutpolicies-page-heading =
+    .heading = អំពីគោលការណ៍
+active-policies-tab = សកម្ម
+errors-tab = កំហុស
+documentation-tab = ឯកសារ
+active-policies-tab-title =
+    .title = សកម្ម
+errors-tab-title =
+    .title = កំហុស
+documentation-tab-title =
+    .title = ឯកសារ
+no-specified-policies-message = សេវាកម្ម​គោលការណ៍​សហគ្រាស​សកម្ម ប៉ុន្តែ​មិនបាន​បើក​ដំណើរការ​គោលការណ៍។
+inactive-message = សេវាកម្មគោលការណ៍សហគ្រាសគឺអសកម្ម។
+policy-name = ឈ្មោះ​គោលនយោបាយ
+policy-value = តម្លៃ​គោលនយោបាយ
+policy-errors = កំហុស​គោលនយោបាយ

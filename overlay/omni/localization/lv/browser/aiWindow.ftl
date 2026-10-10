@@ -1,0 +1,115 @@
+menu-history-chats =
+    .label = Tērzēšanas
+menu-history-chats-recent =
+    .label = Nesenās tērzēšanas
+smartwindow-fullpage-heading = { -smart-window-brand-name }
+smartwindow-document-title = Jauna cilne
+aiwindow-input-cta-submit-label-chat = Vaicāt
+aiwindow-input-cta-submit-label-navigate = Doties
+aiwindow-input-cta-submit-label-search = Meklēt
+aiwindow-input-cta-submit-label-stop = Apturēt
+aiwindow-input-cta-menu-label-chat = Vaicāt
+aiwindow-input-cta-menu-label-navigate = Doties uz vietni
+aiwindow-input-cta-menu-label-search = Meklēt ar { $searchEngineName }
+aiwindow-input-cta-menu-label-search-with = Meklēt ar…
+aiwindow-input-cta-search-submenu-header = Meklēt
+aiwindow-input-cta-stop-button =
+    .aria-label = Apturēt atbildes izveidošanu
+    .title = Apturēt atbildi
+smartbar-mentions-list-no-results-label = Nekas netika atrasts
+smartbar-context-menu-button =
+    .aria-label = Pievienot cilni vai vietni
+    .tooltiptext = Pievienot cilni vai vietni
+aiwindow-website-chip-remove-button =
+    .aria-label = Noņemt
+aiwindow-firstrun-title = Laipni lūdzam { -smart-window-brand-name }
+aiwindow-firstrun-model-title = Kas Tev ir svarīgs?
+aiwindow-firstrun-model-recommended = Ieteikts
+aiwindow-firstrun-button = Aiziet
+aiwindow-firstrun-back-button = Atpakaļ
+aiwindow-input-model-select-button-label-fast = Ātrs
+aiwindow-firstrun-memories-subtitle = { -smart-window-brand-name } var mācīties no Tavām tērzēšanām, pārlūkošanu vai abiem, lai izveidotu atmiņas. Tās laika gaidā atbildes padara jēgpilnākas.
+aiwindow-firstrun-memories-no-create = Sapratu. { -smart-window-brand-name } neveidos atmiņas. To jebkurā laikā var mainīt iestatījumos.
+aiwindow-new-chat =
+    .aria-label = Jauna tērzēšana
+    .tooltiptext = Jauna tērzēšana
+aiwindow-close-sidebar =
+    .aria-label = Aizvērt
+    .tooltiptext = Aizvērt
+aiwindow-history-menu =
+    .aria-label = Vairāk iespēju
+    .tooltiptext = Vairāk iespēju
+aiwindow-history-menu-chat-history = Tērzēšanas vēsture
+aiwindow-history-menu-back =
+    .aria-label = Atpakaļ
+    .tooltiptext = Atpakaļ
+aiwindow-history-menu-view-all-chats = Apskatīt visas tērzēšanas
+aiwindow-history-menu-settings = { -smart-window-brand-name } iestatījumi
+aiwindow-fullpage-new-chat =
+    .label = Jauna tērzēšana
+aiwindow-fullpage-chat-history =
+    .label = Tērzēšanas vēsture
+aiwindow-fullpage-more =
+    .label = Vairāk
+    .title = Vairāk
+smartwindow-footer-chats =
+    .aria-label = Tērzēšanas
+    .label = Tērzēšanas
+    .tooltiptext = Tērzēšanas
+smartwindow-footer-history =
+    .aria-label = Vēsture
+    .label = Vēsture
+    .tooltiptext = Vēsture
+smartwindow-disclaimer = AI var kļūdīties!
+firefoxview-chats-nav = Tērzēšanas
+    .title = Tērzēšanas
+firefoxview-chats-header = Tērzēšanas
+firefoxview-chat-context-delete = Izdzēst no tērzēšanām
+    .accesskey = d
+firefoxview-search-text-box-chats =
+    .placeholder = Meklēt tērzēšanās
+firefoxview-chat-date-today = Šodien — { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-yesterday = Vakar — { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-this-month = { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-prev-month = { DATETIME($date, month: "long", year: "numeric") }
+firefoxview-search-chat-results-count =
+    { $count ->
+        [zero] { $count } tērzēšanu
+        [one] { $count } tērzēšana
+       *[other] { $count } tērzēšanas
+    }
+item-history-downloads-and-chat-description = Notīra vietņu, lejupielāžu un tērzēšanas vēsturi
+smart-window-confirm-select-all =
+    .aria-label = Atlasīt visu
+    .label = Atlasīt visu
+smart-window-close-confirm =
+    .aria-label = Atcelt pieprasījumu un aizvērt
+    .tooltiptext = Atcelt pieprasījumu un aizvērt
+smart-window-confirm-close-tab = Aizvērt
+smart-window-confirm-close-tabs =
+    { $count ->
+        [zero] Aizvērt { $count } ciļņu
+        [one] Aizvērt { $count } cilni
+       *[other] Aizvērt { $count } cilnes
+    }
+smartwindow-close-tab-callout-title = Cilne aizvērta
+smartwindow-close-tab-callout-subtitle = Cilnes jebkurā laikā ir atveramas vēsturē.
+smart-window-default-promo-heading = Padarīt { -smart-window-brand-name } par noklusējumu?
+smart-window-default-promo-message = { -brand-short-name } katru reizi atvērs { -smart-window-brand-name }.
+smart-window-default-promo-primary-button = Iestatīt kā noklusējuma
+smart-window-default-promo-additional-button = Ne tagad
+aiwindow-feedback-modal-title = Kopīgot atsauksmi
+aiwindow-feedback-what-worked-well = Kas darbojās labi? Lūgums neiekļaut personīgu informāciju.
+aiwindow-feedback-add-details = Ja ir vēlēšanās, var pievienot informāciju. Lūgums ne personīgu informāciju.
+aiwindow-feedback-submit = Iesniegt
+aiwindow-feedback-cancel = Atcelt
+aiwindow-feedback-reason-doesnt-address-my-request = Neatbild uz manu pieprasījumu
+aiwindow-starter-scroll-start =
+    .aria-label = Ritināt atpakaļ
+    .tooltiptext = Ritināt atpakaļ
+aiwindow-starter-scroll-end =
+    .aria-label = Ritināt uz priekšu
+    .tooltiptext = Ritināt uz priekšu
+aiwindow-starter-dismiss =
+    .aria-label = Noraidīt { $text }
+    .title = Noraidīt { $text }

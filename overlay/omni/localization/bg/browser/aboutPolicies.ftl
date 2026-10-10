@@ -1,0 +1,17 @@
+about-policies-title = Ведомствени ограничения
+aboutpolicies-page-heading =
+    .heading = Относно политиките
+active-policies-tab = Наложени
+errors-tab = Грешки
+documentation-tab = Документация
+active-policies-tab-title =
+    .title = Наложени
+errors-tab-title =
+    .title = Грешки
+documentation-tab-title =
+    .title = Документация
+no-specified-policies-message = Услугата за ведомствени политики е включена, но няма зададени политики.
+inactive-message = Услугата за ведомствени политики е изключена.
+policy-name = Ограничение
+policy-value = Стойност
+policy-errors = Грешки във файла с политиките

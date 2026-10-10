@@ -1,0 +1,9 @@
+clear-data-for-site-title = Wšě daty za tute websydło zhašeć?
+clear-data-for-site-list = To wšě daty za { $site } zhaša, mjez nimi:
+clear-data-for-site-browsing-history = Přehladowanska a sćehnjenska historija
+clear-data-for-site-cookies = Placki a sydłowe daty, kotrež móža was wot sydła wotzjewić
+clear-data-for-site-cache = Pufrowane dataje a strony
+cclear-data-for-site-permissions = Prawa a nastajenja
+clear-data-for-site-exceptions = Zapołožki a składowane hesła so njezhašeja
+clear-data-for-site-dialog-accept-button = Daty zhašeć
+clear-data-for-site-dialog-cancel-button = Přetorhnyć

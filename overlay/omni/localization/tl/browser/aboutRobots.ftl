@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Mabuhay!
+error-short-desc-text = Kami ay dumating sa ngalan ng kapayapaan at pakikisama!
+error-long-desc1 = Ang mga robot ay hindi maaaring manakit ng isang tao o, sa pamamagitan ng hindi pagkilos, mapayagang mapalapit ang isang tao sa kapahamakan.
+error-long-desc2 = Ang mga robot ay nakakita na ng mga bagay na hindi ninyo paniniwalaan.
+error-long-desc3 = Ang mga masayahing robot ay gawa sa plastic, pero hindi sila plastic!
+error-long-desc4 = Ang mga robot ay may makintab na katawan na hindi dapat kinakagat.
+error-trailer-desc-text = At mayroon silang binabalak.
+error-try-again = Subukan Uli
+    .label2 = Pakiusap, huwag mo nang pipindutin uli ang button na ito.

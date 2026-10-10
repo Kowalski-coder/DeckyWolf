@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Coc ki Ngeye
+colors-text =
+    .label = Coc
+    .accesskey = C
+colors-text-background =
+    .label = Ngeye
+    .accesskey = N
+colors-links-header = Rangi me kakube
+colors-links-unvisited =
+    .label = Kakube mape kilimo
+    .accesskey = K
+colors-links-visited =
+    .label = Kakube ma kilimo
+    .accesskey = a

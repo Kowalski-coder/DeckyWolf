@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Nadawkowej rědce rejtarik pśidaś
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Rejtarik z nadawkoweje rědki wótwónoźeś
+taskbar-tab-urlbar-button-show = Akciju boka webnałoženja pokazaś
+taskbar-tab-urlbar-button-hide = Akciju boka webnałoženja schowaś
+taskbar-tab-shortcut-description = Webnałoženje { $name }
+taskbar-tab-shortcut-folder = Webnałoženja { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Rejtarik nimy cyniś
+taskbar-tab-audio-unmute =
+    .tooltiptext = Rejtarik głosny cyniś
+taskbar-tab-title-default = { $name } w { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) w { -brand-full-name }
+taskbar-tab-title-profile = { $name } w { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) w { $profile } – { -brand-full-name }

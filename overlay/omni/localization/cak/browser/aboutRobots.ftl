@@ -1,0 +1,10 @@
+page-title = ¡Ütz ipetik, winaqi'!
+error-title-text = ¡Matyox xixuqa winaqi'!
+error-short-desc-text = ¡Yojoqäj iwik'in rik'in uxlanib'äl k'u'x chuqa' rik'in ütz na'oj!
+error-long-desc1 = Ri ch'ich' taq ala's mani nikitzelaj jun winäq, ruma man nisamäj ta, tiya' kan chi ruyonil xtrizelaj qa ri'.
+error-long-desc2 = Ri ch'ich' taq ala's kitz'eton jalajöj taq wachinäq, ri majub'ey xtikinimaj ri winaqi'.
+error-long-desc3 = Ri ch'ich' taq ala's e t'im taq awachibil, achoq kikin tik'asäs yatetz'an kik'in.
+error-long-desc4 = Ri ch'ich' taq ala's k'o ki nich'ich'an ch'ich kachäq, ri man ütz ta ninaq.
+error-trailer-desc-text = Chuqa' k'o kinuk'samaj.
+error-try-again = Titojtob'ëx chik
+    .label2 = Man tapïtz' chik jub'ey pa ruwi' re pitz'b'äl re'.

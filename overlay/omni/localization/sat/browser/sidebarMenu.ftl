@@ -1,0 +1,10 @@
+sidebar-menu-bookmarks =
+    .label = ᱵᱩᱠᱢᱟᱨᱠ ᱠᱚ
+sidebar-menu-history =
+    .label = ᱱᱟᱜᱟᱢ
+sidebar-menu-synced-tabs =
+    .label = ᱛᱷᱟᱨ ᱦᱚᱪᱚ ᱴᱮᱵᱽ
+sidebar-menu-close =
+    .label = ᱫᱷᱟᱨᱮᱵᱟᱨ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+sidebar-close-button =
+    .tooltiptext = ᱫᱷᱟᱨᱮᱵᱟᱨ ᱵᱚᱸᱫᱚᱭ ᱢᱮ

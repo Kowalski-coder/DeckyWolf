@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Bogmærker
+sidebar-menu-bookmarks-2 = Bogmærker
+sidebar-menu-history =
+    .label = Historik
+sidebar-menu-synced-tabs =
+    .label = Synkroniserede faneblade
+sidebar-menu-close =
+    .label = Luk sidepanel
+sidebar-close-button =
+    .tooltiptext = Luk sidepanel

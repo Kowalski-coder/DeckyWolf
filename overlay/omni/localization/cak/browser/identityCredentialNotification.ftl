@@ -1,0 +1,12 @@
+identity-credential-header-accounts = Tatikirisaj rik'in { $provider }
+identity-credential-urlbar-anchor =
+    .tooltiptext = Tijaq rutikirib'al pas
+identity-credential-cancel-button =
+    .label = Tiq'at
+    .accesskey = q
+identity-credential-accept-button =
+    .label = Titikïr chik el
+    .accesskey = t
+identity-credential-sign-in-button =
+    .label = Titikirisäx molojri'ïl
+    .accesskey = t

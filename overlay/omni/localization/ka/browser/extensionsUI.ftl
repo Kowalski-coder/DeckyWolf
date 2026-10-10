@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } გთავაზობთ თქვენი { $currentEngine } საძიებო სისტემის ჩანაცვლებას { $newEngine }-ით. თანახმა ხართ?
+webext-default-search-yes =
+    .label = დიახ
+    .accesskey = დ
+webext-default-search-no =
+    .label = არა
+    .accesskey = ა
+addon-post-install-message = { $addonName } დამატებულია.
+webext-quarantine-confirmation-title = გაეშვას { $addonName } შეზღუდულ საიტებზე?
+webext-quarantine-confirmation-line-1 = თქვენი მონაცემების დასაცავად ეს გაფართოება არ გაეშვება ამ საიტზე.
+webext-quarantine-confirmation-line-2 = დართეთ ნება გაფართოებას, თუ სანდოდ მიგაჩნიათ მის მიერ თქვენი მონაცემების წაკითხვისა და შეცვლის შესაძლებლობა საიტებზე, რომელთაც ზღუდავს { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = ნებართვა
+    .accesskey = ნ
+webext-quarantine-confirmation-deny =
+    .label = აკრძალვა
+    .accesskey = ა

@@ -1,0 +1,9 @@
+clear-data-for-site-title = Stizzar tut las datas per questa website?
+clear-data-for-site-list = Quai vegn a stizzar tut las datas per { $site }, inclusivamain:
+clear-data-for-site-browsing-history = La cronologia da navigaziun e da telechargiadas
+clear-data-for-site-cookies = Cookies e datas da website (quai pudess ta deconnectar da la website)
+clear-data-for-site-cache = Datotecas e paginas en il cache
+cclear-data-for-site-permissions = Permissiuns e preferenzas
+clear-data-for-site-exceptions = Segnapaginas e pleds-clav memorisads na vegnan betg stizzads
+clear-data-for-site-dialog-accept-button = Stizzar las datas
+clear-data-for-site-dialog-cancel-button = Interrumper

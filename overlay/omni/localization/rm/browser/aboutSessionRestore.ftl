@@ -1,0 +1,26 @@
+restore-page-tab-title = Restaurar la sesida
+restore-page-error-title = Perstgisa. I dat difficultads cun restaurar tias paginas.
+restore-page-problem-desc = I dat difficultads cun restaurar tia ultima sesida da navigar. Tscherna «Restaurar la sesida» per empruvar danovamain.
+restore-page-try-this = Na funcziunescha la restauraziun anc adina betg? Mintgatant fa in tab problems. Controllescha ils ultims tabs, allontanescha il crutsch dals tabs che ti na dovras betg pli ed emprova lura anc ina giada da restaurar.
+restore-page-hide-tabs = Zuppentar ils tabs precedents
+restore-page-show-tabs = Mussar ils tabs precedents
+restore-page-window-label = Fanestra { $windowNumber }
+restore-page-restore-header =
+    .label = Restaurar
+restore-page-list-header =
+    .label = Fanestras e tabs
+restore-page-try-again-button =
+    .label = Restaurar la sesida
+    .accesskey = R
+restore-page-close-button =
+    .label = Cumenzar ina nova sesida
+    .accesskey = n
+welcome-back-tab-title = Success!
+welcome-back-page-title = Success!
+welcome-back-page-info = { -brand-short-name } è pront.
+welcome-back-restore-button =
+    .label = Dai!
+    .accesskey = D
+welcome-back-restore-all-label = Restaurar tut las fanestras & tut ils tabs
+welcome-back-restore-some-label = Mo restaurar ina part
+welcome-back-page-info-link = Tes supplements e tias configuraziuns èn vegnidas allontanadas ed ils parameters dal navigatur èn vegnids redefinids cun las valurs da standard. Sche quai n'ha betg schlià tes problem, <a data-l10n-name="link-more">pos ti leger qua tge che ti pos anc far.</a>

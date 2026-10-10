@@ -1,0 +1,14 @@
+default-bookmarks-title = Xatchoʻplar
+default-bookmarks-heading = Xatchoʻplar
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Yordam olish
+default-bookmarks-firefox-customize = Firefoxni moslash
+default-bookmarks-firefox-community = Hissa qoʻshish
+default-bookmarks-firefox-about = Biz haqimizda
+default-bookmarks-nightly-heading = Firefox Nightly manbalari
+default-bookmarks-nightly-blog = Firefox Nightly blogi
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Mozilla dasturchilar tarmogʻi
+default-bookmarks-nightly-tester-tools = Nightly sinov vositalari
+default-bookmarks-crashes = Barcha nosozliklar
+default-bookmarks-planet = Mozilla sayyorasi

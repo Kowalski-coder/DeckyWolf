@@ -1,0 +1,17 @@
+webext-default-search-description = Razširitev { $addonName } želi zamenjati vaš privzeti iskalnik { $currentEngine } s { $newEngine }. Se strinjate?
+webext-default-search-yes =
+    .label = Da
+    .accesskey = D
+webext-default-search-no =
+    .label = Ne
+    .accesskey = N
+addon-post-install-message = Razširitev { $addonName } je bila dodana.
+webext-quarantine-confirmation-title = Dovolite delovanje razširitve { $addonName } na omejenih spletnih mestih?
+webext-quarantine-confirmation-line-1 = Zaradi zaščite vaših podatkov ta razširitev na tem spletnem mestu ni dovoljena.
+webext-quarantine-confirmation-line-2 = Če ji zaupate, ji lahko daste dovoljenje za branje in spreminjanje podatkov na spletnih mestih, kjer to omejuje { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Dovoli
+    .accesskey = D
+webext-quarantine-confirmation-deny =
+    .label = Ne dovoli
+    .accesskey = N

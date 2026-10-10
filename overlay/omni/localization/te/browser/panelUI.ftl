@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Overflow మెనూ నుంచి పిన్‌ తీయండి
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = పనిముట్ల పట్టీకి చేర్చు
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Overflow మెనూకు జోడించు
+    .accesskey = M
+panic-button-thankyou-msg1 = మీ ఇటీవలి చరిత్ర తుడిచివేయబడింది.
+panic-button-thankyou-msg2 = సురక్షిత విహారణ!
+panic-button-thankyou-button =
+    .label = కృతజ్ఞతలు!

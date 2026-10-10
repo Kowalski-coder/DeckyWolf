@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Ljepblêd oan taakbalke tafoegje
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Ljepblêd fan taakbalke fuortsmite
+taskbar-tab-urlbar-button-show = Sideaksje fan webapp toane
+taskbar-tab-urlbar-button-hide = Sideaksje fan webapp ferstopje
+taskbar-tab-shortcut-description = { $name }-webapp
+taskbar-tab-shortcut-folder = { -brand-short-name }-webapps
+taskbar-tab-audio-mute =
+    .tooltiptext = Ljepblêd dempe
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ljepblêd dempe opheffe
+taskbar-tab-title-default = { $name } yn { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) yn { -brand-full-name }
+taskbar-tab-title-profile = { $name } yn { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) yn { $profile } – { -brand-full-name }

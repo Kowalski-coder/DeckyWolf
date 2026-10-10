@@ -1,0 +1,43 @@
+privatebrowsingpage-open-private-window-label = Άνοιγμα ιδιωτικού παραθύρου
+    .accesskey = ι
+about-private-browsing-search-placeholder = Αναζήτηση στο διαδίκτυο
+about-private-browsing-search-btn =
+    .title = Αναζήτηση στο διαδίκτυο
+about-private-browsing-handoff =
+    .title = Αναζήτηση με { $engine } ή εισαγωγή διεύθυνσης
+about-private-browsing-handoff-no-engine =
+    .title = Αναζήτηση ή εισαγωγή διεύθυνσης
+about-private-browsing-handoff-text = Αναζήτηση με { $engine } ή εισαγωγή διεύθυνσης
+about-private-browsing-handoff-text-no-engine = Αναζήτηση ή εισαγωγή διεύθυνσης
+about-private-browsing-not-private = Αυτήν τη στιγμή, δεν βρίσκεστε σε ιδιωτικό παράθυρο.
+about-private-browsing-hide-activity = Αποκρύψτε τη δραστηριότητα και την τοποθεσία σας, όπου κι αν περιηγείστε
+about-private-browsing-get-privacy = Προστασία απορρήτου σε κάθε επίσκεψή σας
+about-private-browsing-hide-activity-1 = Αποκρύψτε τη δραστηριότητα και την τοποθεσία σας με το { -mozilla-vpn-brand-name }. Με ένα κλικ έχετε ασφαλή σύνδεση, ακόμα και σε δημόσιο Wi-Fi.
+about-private-browsing-prominent-cta = Προστατέψτε το απόρρητό σας με το { -mozilla-vpn-brand-name }
+about-private-browsing-search-banner-title = Το { $engineName } είναι η προεπιλεγμένη μηχανή αναζήτησης για ιδιωτικά παράθυρα
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] Για να επιλέξετε διαφορετική μηχανή αναζήτησης, μεταβείτε στις <a data-l10n-name="link-options">Επιλογές</a>
+       *[other] Για να επιλέξετε διαφορετική μηχανή αναζήτησης, μεταβείτε στις <a data-l10n-name="link-options">Προτιμήσεις</a>
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = Κλείσιμο
+about-private-browsing-promo-close-button =
+    .title = Κλείσιμο
+about-private-browsing-pin-promo-header = Ελευθερία ιδιωτικής περιήγησης με ένα κλικ
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+        [macos] Διατήρηση στο Dock
+       *[other] Καρφίτσωμα στη γραμμή εργασιών
+    }
+about-private-browsing-pin-promo-title = Χωρίς αποθήκευση cookie ή ιστορικού, απευθείας από την επιφάνεια εργασίας σας. Περιηγηθείτε σαν να μην σας παρακολουθεί κανείς.
+about-private-browsing-relay-promo-header = Αποφύγετε τα ανεπιθύμητα μηνύματα με τις μάσκες email
+about-private-browsing-relay-promo-title = Αποκρύψτε την πραγματική σας διεύθυνση με μια μάσκα email κατά την εγγραφή σε ιστοτόπους, τις αγορές ή την κοινοποίησή της στο διαδίκτυο.
+about-private-browsing-relay-promo-link-text = Δοκιμή μασκών email
+about-private-browsing-felt-privacy-v1-info-header = Περιηγηθείτε χωρίς να αφήνετε ίχνη σε αυτήν τη συσκευή
+about-private-browsing-felt-privacy-v1-info-body = Το { -brand-short-name } διαγράφει τα cookie, το ιστορικό και τα δεδομένα ιστοτόπων σας όταν κλείνετε όλα τα ιδιωτικά σας παράθυρα.
+about-private-browsing-felt-privacy-v1-info-link = Ποιος ενδέχεται να μπορεί να δει τη δραστηριότητά μου;
+about-private-browsing-nova-info-header = Η δραστηριότητά σας δεν θα αποθηκευτεί
+about-private-browsing-nova-info-subheader2 = Θα διαγραφεί κάθε αναζήτηση και σύνδεση όταν κλείσετε όλα τα ιδιωτικά παράθυρα. Τα ενσωματωμένα μέτρα προστασίας του { -brand-short-name }, όπως ο αποκλεισμός ιχνηλατών, είναι ενεργοποιημένα και εδώ.
+about-private-browsing-nova-info-body = Κλείνοντας όλα τα ιδιωτικά παράθυρά σας, διαγράφονται τα cookie, το ιστορικό και τα δεδομένα ιστοτόπων σας.
+about-private-browsing-nova-info-link = Ποιος μπορεί ακόμα να δει τη δραστηριότητά μου;

@@ -1,0 +1,238 @@
+graph-week-summary =
+    { $count ->
+        [one] { -brand-short-name } je v zadnjem tednu zavrnil { $count } sledilca
+        [two] { -brand-short-name } je v zadnjem tednu zavrnil { $count } sledilca
+        [few] { -brand-short-name } je v zadnjem tednu zavrnil { $count } sledilce
+       *[other] { -brand-short-name } je v zadnjem tednu zavrnil { $count } sledilcev
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] <b>{ $count }</b> sledilec zavrnjen od { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+        [two] <b>{ $count }</b> sledilca zavrnjena od { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+        [few] <b>{ $count }</b> sledilci zavrnjeni od { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+       *[other] <b>{ $count }</b> sledilcev zavrnjenih od { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+    }
+graph-private-window = { -brand-short-name } še naprej zavrača sledilce v zasebnih oknih, vendar ne vodi seznama zavrnjenih vsebin.
+graph-week-summary-private-window = Sledilci, ki jih je { -brand-short-name } zavrnil v tem tednu
+protection-report-webpage-title = Nadzorna plošča zaščit
+protection-report-page-content-title = Nadzorna plošča zaščit
+protection-report-page-summary = { -brand-short-name } lahko med brskanjem neopazno ščiti vašo zasebnost. To je prilagojen povzetek zaščit, vključno z orodji za nadzor nad vašo spletno varnostjo.
+protection-report-page-summary-default = { -brand-short-name } med brskanjem neopazno ščiti vašo zasebnost. To je prilagojen povzetek zaščit, vključno z orodji za nadzor nad vašo spletno varnostjo.
+protection-report-settings-link = Upravljaj nastavitve zasebnosti in varnosti
+etp-card-title-always = Izboljšana zaščita pred sledenjem: vedno vključena
+etp-card-title-custom-not-blocking = Izboljšana zaščita pred sledenjem: izključena
+etp-card-content-description = { -brand-short-name } samodejno prepreči, da bi vas podjetja na skrivaj spremljala po spletu.
+protection-report-etp-card-content-custom-not-blocking = Vse zaščite so trenutno izklopljene. V nastavitvah { -brand-short-name(sklon: "rodilnik") } izberite, katere sledilce želite zavračati.
+protection-report-manage-protections = Upravljanje nastavitev
+graph-today = Danes
+graph-legend-description = Graf vključuje skupno število posameznih vrst sledilcev, ki so bili zavrnjeni v tem tednu.
+social-tab-title = Sledilci družbenih omrežij
+social-tab-contant = Družbena omrežja postavljajo sledilce na druga spletna mesta, da bi spremljali, kaj počnete, vidite in gledate na spletu. To družbenim medijem omogoča, da o vas izvedo več kot le tisto, kar delite na svojih družbenih profilih. <a data-l10n-name="learn-more-link">Več o tem</a>
+cookie-tab-title = Piškotki za sledenje med spletnimi mesti
+cookie-tab-content = Ti piškotki vas spremljajo od enega spletnega mesta do drugega in zbirajo podatke o tem, kaj počnete na spletu. Namestijo jih tretje strani, kot so oglaševalci in analitična podjetja. Zavračanje piškotkov za sledenje med spletnimi mesti zmanjša pogostost oglasov, ki vam sledijo. <a data-l10n-name="learn-more-link">Več o tem</a>
+tracker-tab-title = Sledilna vsebina
+tracker-tab-description = Spletne strani lahko naložijo zunanje oglase, videoposnetke in drugo vsebino s kodo za sledenje. Zavračanje sledilne vsebine lahko pospeši nalaganje spletnih strani, vendar nekateri gumbi in obrazci morda ne bodo delovali. <a data-l10n-name="learn-more-link">Več o tem</a>
+fingerprinter-tab-title = Sledilci prstnih odtisov
+fingerprinter-tab-content = Sledilci prstnih odtisov zbirajo nastavitve vašega brskalnika in računalnika, da si ustvarijo vaš profil. S pomočjo digitalnega prstnega odtisa vam lahko sledijo na različnih spletnih straneh. <a data-l10n-name="learn-more-link">Več o tem</a>
+cryptominer-tab-title = Kriptorudarji
+cryptominer-tab-content = Kriptorudarji izrabljajo zmogljivost vašega računalnika za rudarjenje digitalnega denarja. Rudarski skripti vam praznijo baterijo, upočasnjujejo računalnik in zasolijo račun za elektriko. <a data-l10n-name="learn-more-link">Več o tem</a>
+protections-close-button2 =
+    .aria-label = Zapri
+    .title = Zapri
+mobile-app-title = Zavrnite sledilce oglasov na več napravah
+mobile-app-card-content = Uporabljajte mobilni brskalnik z vgrajeno zaščito pred sledilci oglasov.
+mobile-app-links = Brskalnik { -brand-product-name } za <a data-l10n-name="android-mobile-inline-link">Android</a> in <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+lockwise-title = Nikoli več ne pozabite gesla
+passwords-title-logged-in = Upravljaj gesla
+passwords-header-content = { -brand-product-name } varno hrani vaša gesla v brskalniku.
+lockwise-header-content-logged-in = Varno hranite in sinhronizirajte svoja gesla na vseh napravah.
+protection-report-passwords-save-passwords-button = Shrani gesla
+    .title = Shrani gesla
+protection-report-passwords-manage-passwords-button = Upravljanje gesel
+    .title = Upravljanje gesel
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [one] 1 geslo je morda bilo izpostavljeno v kraji podatkov.
+        [two] { $count } gesli sta morda bili izpostavljeni v kraji podatkov.
+        [few] { $count } gesla so morda bila izpostavljena v kraji podatkov.
+       *[other] { $count } gesel je morda bilo izpostavljenih v kraji podatkov.
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] { $count } geslo varno shranjeno.
+        [two] { $count } gesli varno shranjeni.
+        [few] { $count } gesla varno shranjena.
+       *[other] { $count } gesel varno shranjenih.
+    }
+lockwise-how-it-works-link = Kako deluje
+monitor-title = Bodite obveščeni o krajah podatkov
+monitor-link = Kako deluje
+monitor-header-content-no-account = Preverite s { -monitor-brand-name }jem, ali ste bili vpleteni v znano krajo podatkov, ter prejemajte opozorila o novih krajah.
+monitor-header-content-signed-in = { -monitor-brand-name } vas opozori, če se vaši podatki pojavijo v znani kraji podatkov.
+monitor-sign-up-link = Prijavite se na opozorila o krajah
+    .title = Prijavite se na opozorila o krajah v { -monitor-brand-name }ju
+auto-scan = Samodejno preverjeno danes
+monitor-emails-tooltip =
+    .title = Oglejte si nadzorovane e-poštne naslove v { -monitor-brand-short-name }ju
+monitor-breaches-tooltip =
+    .title = Oglejte si znane kraje podatkov v { -monitor-brand-short-name }ju
+monitor-passwords-tooltip =
+    .title = Oglejte si izpostavljena gesla v { -monitor-brand-short-name }ju
+info-monitored-emails =
+    { $count ->
+        [one] nadzorovan e-poštni naslov
+        [two] nadzorovana e-poštna naslova
+        [few] nadzorovani e-poštni naslovi
+       *[other] nadzorovanih e-poštnih naslovov
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] znana kraja podatkov je izpostavila vaše podatke
+        [two] znani kraji podatkov sta izpostavili vaše podatke
+        [few] znane kraje podatkov so izpostavile vaše podatke
+       *[other] znanih kraj podatkov je izpostavilo vaše podatke
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] znana kraja je bila označena kot razrešena
+        [two] znani kraji sta bili označena kot razrešeni
+        [few] znane kraje so bile označene kot razrešene
+       *[other] znanih kraj je bilo označenih kot razrešenih
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] geslo je bilo izpostavljeno v vseh krajah
+        [two] gesli sta bili izpostavljeni v vseh krajah
+        [few] gesla so bila izpostavljena v vseh krajah
+       *[other] gesel je bilo izpostavljenih v vseh krajah
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] geslo je bilo izpostavljeno v nerazrešenih krajah
+        [two] gesli sta bili izpostavljeni v nerazrešenih krajah
+        [few] gesla so bila izpostavljena v nerazrešenih krajah
+       *[other] gesel je bilo izpostavljenih v nerazrešenih krajah
+    }
+monitor-no-breaches-title = Dobre novice!
+monitor-no-breaches-description = Niste bili udeleženi v znanih krajah. Če se to spremeni, vas bomo obvestili.
+monitor-view-report-link = Prikaži poročilo
+    .title = Razrešite kraje v { -monitor-brand-short-name }ju
+monitor-breaches-unresolved-title = Razrešite svoje kraje
+monitor-breaches-unresolved-description = Po pregledu podrobnosti o kraji podatkov in izvedbi ukrepov za zaščito vaših podatkov, lahko kraje podatkov označite kot razrešene.
+monitor-manage-breaches-link = Upravljajte kraje
+    .title = Upravljajte kraje v { -monitor-brand-short-name }ju
+monitor-breaches-resolved-title = Super! Razrešili ste vse znane kraje.
+monitor-breaches-resolved-description = Če se bo vaš e-poštni naslov pojavil v novih krajah, vas bomo obvestili.
+monitor-partial-breaches-title =
+    { $numBreaches ->
+        [one] { $numBreachesResolved } od { $numBreaches } kraj podatkov je bila označena kot razrešena
+        [two] { $numBreachesResolved } od { $numBreaches } kraj podatkov sta bili označeni kot razrešeni
+        [few] { $numBreachesResolved } od { $numBreaches } kraj podatkov so bile označene kot razrešene
+       *[other] { $numBreachesResolved } od { $numBreaches } kraj podatkov je bilo označenih kot razrešenih
+    }
+monitor-partial-breaches-percentage = { $percentageResolved }% dokončano
+monitor-partial-breaches-motivation-title-start = Odličen začetek!
+monitor-partial-breaches-motivation-title-middle = Nadaljujte!
+monitor-partial-breaches-motivation-title-end = Skoraj ste končali! Nadaljujte.
+monitor-partial-breaches-motivation-description = Razrešite ostale kraje v { -monitor-brand-short-name }ju.
+monitor-resolve-breaches-link = Razreši kraje
+    .title = Razrešite kraje v { -monitor-brand-short-name }ju
+bar-tooltip-social =
+    .title = Sledilci družbenih omrežij
+    .aria-label =
+        { $count ->
+            [one] { $count } sledilec družbenih omrežij ({ $percentage } %)
+            [two] { $count } sledilca družbenih omrežij ({ $percentage } %)
+            [few] { $count } sledilci družbenih omrežij ({ $percentage } %)
+           *[other] { $count } sledilcev družbenih omrežij ({ $percentage } %)
+        }
+bar-tooltip-cookie =
+    .title = Piškotki za sledenje med spletnimi mesti
+    .aria-label =
+        { $count ->
+            [one] { $count } piškotek za sledenje med spletnimi mesti ({ $percentage } %)
+            [two] { $count } piškotka za sledenje med spletnimi mesti ({ $percentage } %)
+            [few] { $count } piškotki za sledenje med spletnimi mesti ({ $percentage } %)
+           *[other] { $count } piškotkov za sledenje med spletnimi mesti ({ $percentage } %)
+        }
+bar-tooltip-tracker =
+    .title = Sledilna vsebina
+    .aria-label =
+        { $count ->
+            [one] { $count } sledilna vsebina ({ $percentage } %)
+            [two] { $count } sledilni vsebini ({ $percentage } %)
+            [few] { $count } sledilne vsebine ({ $percentage } %)
+           *[other] { $count } sledilnih vsebin ({ $percentage } %)
+        }
+bar-tooltip-fingerprinter =
+    .title = Sledilci prstnih odtisov
+    .aria-label =
+        { $count ->
+            [one] { $count } sledilec prstnih odtisov ({ $percentage } %)
+            [two] { $count } sledilca prstnih odtisov ({ $percentage } %)
+            [few] { $count } sledilci prstnih odtisov ({ $percentage } %)
+           *[other] { $count } sledilcev prstnih odtisov ({ $percentage } %)
+        }
+bar-tooltip-cryptominer =
+    .title = Kriptorudarji
+    .aria-label =
+        { $count ->
+            [one] { $count } kriptorudar ({ $percentage } %)
+            [two] { $count } kriptorudarja ({ $percentage } %)
+            [few] { $count } kriptorudarji ({ $percentage } %)
+           *[other] { $count } kriptorudarjev ({ $percentage } %)
+        }
+privacy-metrics-title = Zaščite zasebnosti
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } blokiran ta teden
+        [two] { $count } blokirana ta teden
+        [few] { $count } blokirani ta teden
+       *[other] { $count } blokiranih ta teden
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } sledilec
+        [two] { $count } sledilca
+        [few] { $count } sledilci
+       *[other] { $count } sledilcev
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } sledilec prstnih odtisov
+        [two] { $count } sledilca prstnih odtisov
+        [few] { $count } sledilci prstnih odtisov
+       *[other] { $count } sledilcev prstnih odtisov
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } sledilni piškotek
+        [two] { $count } sledilna piškotka
+        [few] { $count } sledilni piškotki
+       *[other] { $count } sledilnih piškotov
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } sledilec družbenega omrežja
+        [two] { $count } sledilca družbenih omrežij
+        [few] { $count } sledilci družbenih omrežij
+       *[other] { $count } sledilcev družbenih omrežij
+    }
+privacy-metrics-empty = Ta teden ni bil blokiran noben sledilec. { -brand-short-name } vas med brskanjem ščiti pred naslednjimi grožnjami.
+privacy-metrics-loading = Nalaganje statistike zaščite …
+privacy-metrics-error = Statistike zaščite ni mogoče naložiti.
+privacy-metrics-private-window = { -brand-short-name } še naprej blokira sledilce v zasebnih oknih, vendar ne beleži statistike blokiranih vsebin.
+protections-vpn-title = Razširite zaščito zasebnosti tudi izven brskalnika
+protections-vpn-header-content = Zaščitite celotno napravo z { -mozilla-vpn-brand-name }. Z enim dotikom šifrirate ves promet in skrijete svojo lokacijo.
+protections-get-vpn-link = Prenesi { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN: Naročeni
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [one] Z uporabo { -mozilla-vpn-brand-name } je ves vaš promet šifriran in vaša lokacija skrita — na do { $count } napravi. Izkoristite svojo naročnino v celoti — dodajte jo prek <a data-l10n-name="playstore-link">Google Play Store</a> ali <a data-l10n-name="appstore-link">Apple App Store</a>.
+        [two] Z uporabo { -mozilla-vpn-brand-name } je ves vaš promet šifriran in vaša lokacija skrita — na do { $count } napravah. Izkoristite svojo naročnino v celoti — dodajte jo prek <a data-l10n-name="playstore-link">Google Play Store</a> ali <a data-l10n-name="appstore-link">Apple App Store</a>.
+        [few] Z uporabo { -mozilla-vpn-brand-name } je ves vaš promet šifriran in vaša lokacija skrita — na do { $count } napravah. Izkoristite svojo naročnino v celoti — dodajte jo prek <a data-l10n-name="playstore-link">Google Play Store</a> ali <a data-l10n-name="appstore-link">Apple App Store</a>.
+       *[other] Z uporabo { -mozilla-vpn-brand-name } je ves vaš promet šifriran in vaša lokacija skrita — na do { $count } napravah. Izkoristite svojo naročnino v celoti — dodajte jo prek <a data-l10n-name="playstore-link">Google Play Store</a> ali <a data-l10n-name="appstore-link">Apple App Store</a>.
+    }
+protections-vpn-banner-header = Zaščita, ki presega zgolj brskalnik
+protections-vpn-banner-content = Preizkusite { -mozilla-vpn-brand-name } brez tveganja in odkrijte, zakaj TechRadar pravi: »Njegova hitrost, enostavna uporaba in nizka mesečna cena so vredni vaše pozornosti.«
+protections-vpn-banner-link = Prenesi { -mozilla-vpn-brand-name }

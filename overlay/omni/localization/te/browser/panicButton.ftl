@@ -1,0 +1,15 @@
+panic-button-open-new-window = కొత్త ఖాళీ విండోను తెరువు
+panic-button-undo-warning = ఈ చర్యను రద్దు చేయడం సాధ్యం కాదు.
+panic-button-forget-button =
+    .label = మర్చిపో!
+panic-main-timeframe-desc = గతాన్ని మరిచిపో:
+panic-button-5min =
+    .label = ఐదు నిమిషాలు
+panic-button-2hr =
+    .label = రెండు గంటలు
+panic-button-day =
+    .label = 24 గంటలు
+panic-button-action-desc = కొనసాగితే జరిగేవి:
+panic-button-delete-cookies = ఇటీవలి <strong>కుకీలు</strong> తొలగించు
+panic-button-delete-history = ఇటీవలి <strong>చరిత్ర</strong>ను తొలగించు
+panic-button-delete-tabs-and-windows = అన్ని <strong>ట్యాబులనూ</strong> <strong>విండోలనూ</strong> మూసివేయి

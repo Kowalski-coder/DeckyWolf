@@ -1,0 +1,17 @@
+crashed-subframe-message = <strong>Aḥric seg usebter-a yerreẓ.</strong> I wakken ad iẓer { -brand-product-name } ɣef wugur-a, ad t-iṣeggem s zzerb, ttxil-k·m azen aneqqis.
+crashed-subframe-title =
+    .title = Aḥric seg usebter-a yerreẓ. I wakken ad iẓer { -brand-product-name } ɣef wugur-a, ad t-iṣeggem s zzerb, ttxil-k·m azen aneqqis.
+crashed-subframe-learnmore-link =
+    .value = Issin ugar
+crashed-subframe-submit =
+    .label = Azen aneqqis
+    .accesskey = A
+pending-crash-reports-view-all =
+    .label = Sken
+pending-crash-reports-send =
+    .label = Azen
+pending-crash-reports-always-send =
+    .label = Azen yal tikelt
+requested-crash-reports-dont-show-again =
+    .label = Ur d-skan ara tikkelt niḍen
+    .accesskey = U

@@ -1,0 +1,13 @@
+grid-row-column-positions = Wiersz { $row }, kolumna { $column }
+gridtype-container = Kontener Grid
+gridtype-item = Element Grid
+gridtype-dual = Kontener/element Grid
+flextype-container = Kontener Flex
+flextype-item = Element Flex
+flextype-dual = Kontener/element Flex
+remote-node-picker-notice = Włączono selektor węzłów narzędzi dla programistów. { $action }
+remote-node-picker-notice-action-desktop = Kliknij element, aby wybrać go w inspektorze
+remote-node-picker-notice-action-touch = Stuknij element, aby wybrać go w inspektorze
+remote-node-picker-notice-hide-button = Ukryj
+simple-highlighters-message = Kiedy włączona jest opcja preferowania zmniejszonego ruchu, w panelu ustawień można włączyć prostsze wyróżnianie, aby uniknąć migających kolorów.
+simple-highlighters-settings-button = Otwórz ustawienia

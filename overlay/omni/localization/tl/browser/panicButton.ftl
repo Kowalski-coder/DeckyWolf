@@ -1,0 +1,15 @@
+panic-button-open-new-window = Magbukas ng bagong malinis na Window
+panic-button-undo-warning = Ang aksyon na ito ay hindi na mababawi.
+panic-button-forget-button =
+    .label = Kalimutan!
+panic-main-timeframe-desc = Kalimutan ang huling:
+panic-button-5min =
+    .label = Limang minuto
+panic-button-2hr =
+    .label = Dalawang oras
+panic-button-day =
+    .label = 24 oras
+panic-button-action-desc = Kapag nagpatuloy:
+panic-button-delete-cookies = Burahin ang mga Nakaraang <strong>Cookie</strong>
+panic-button-delete-history = Burahin ang Nakaraang <strong>Kasaysayan</strong>
+panic-button-delete-tabs-and-windows = Isara lahat ng <strong>Mga Tab</strong> at <strong>Mga Window</strong>

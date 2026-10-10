@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = War ki ii Jami ayera ma okane
+    .accesskey = W
+customize-menu-add-to-toolbar =
+    .label = Med bot gintic
+    .accesskey = M
+customize-menu-add-to-overflowmenu =
+    .label = Medi i Jami ayera ma okane
+    .accesskey = M
+panic-button-thankyou-msg1 = Gin mukato cokcok mamegi kijwayo woko.
+panic-button-thankyou-msg2 = Yeny ma ber!
+panic-button-thankyou-button =
+    .label = Pwoc!

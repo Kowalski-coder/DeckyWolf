@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ต้องการเปลี่ยนเครื่องมือค้นหาเริ่มต้นของคุณจาก { $currentEngine } เป็น { $newEngine } ตกลงหรือไม่?
+webext-default-search-yes =
+    .label = ใช่
+    .accesskey = ช
+webext-default-search-no =
+    .label = ไม่
+    .accesskey = ม
+addon-post-install-message = เพิ่ม { $addonName } แล้ว
+webext-quarantine-confirmation-title = เรียกใช้ { $addonName } บนไซต์ที่ถูกจำกัดหรือไม่?
+webext-quarantine-confirmation-line-1 = เพื่อปกป้องข้อมูลของคุณ ส่วนขยายนี้จึงไม่ได้รับอนุญาตบนไซต์นี้
+webext-quarantine-confirmation-line-2 = อนุญาตให้ใช้ส่วนขยายนี้ถ้าคุณไว้วางใจให้อ่านและเปลี่ยนแปลงข้อมูลของคุณบนไซต์ที่ถูกจำกัดโดย { -vendor-short-name }
+webext-quarantine-confirmation-allow =
+    .label = อนุญาต
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = ไม่อนุญาต
+    .accesskey = D

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ҷудо кардан аз менюи васеъшуда
+    .accesskey = Ҷ
+customize-menu-add-to-toolbar =
+    .label = Илова кардан ба навори абзорҳо
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Илова кардан ба менюи васеъшуда
+    .accesskey = И
+panic-button-thankyou-msg1 = Таърихи охирини шумо тоза карда шуд.
+panic-button-thankyou-msg2 = Тамошобинии бехатар!
+panic-button-thankyou-button =
+    .label = Ташаккур!

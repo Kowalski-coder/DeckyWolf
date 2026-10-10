@@ -1,0 +1,264 @@
+cfr-doorhanger-extension-heading = Jepysokue jeroviaháva
+cfr-doorhanger-feature-heading = Tembiapoite ñe’ẽporãpyre
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Mba’ére ahechahína kóva
+cfr-doorhanger-extension-cancel-button = Ko’ág̃a nahániri
+    .accesskey = N
+cfr-doorhanger-extension-ok-button = Embojuaju ko’ág̃a
+    .accesskey = A
+cfr-doorhanger-extension-manage-settings-button = Eñangareko je’eporã ñemboheko rehe
+    .accesskey = M
+cfr-doorhanger-extension-never-show-recommendation = Ani ehechauka ko je’eporã
+    .accesskey = S
+cfr-doorhanger-extension-learn-more-link = Kuaave
+cfr-doorhanger-extension-author = Hese { $name }
+cfr-doorhanger-extension-notification = Je’ete
+cfr-doorhanger-extension-notification2 = Je’eporã
+    .a11y-announcement = Jepysokue je’eporã eipurukuaáva
+    .tooltiptext = Jepysokue je’eporã
+cfr-doorhanger-feature-notification = Je’eporã
+    .a11y-announcement = Peteĩchagua je’eporã eipurukuaáva
+    .tooltiptext = Peteĩchagua je’eporã
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } mbyja
+           *[other] { $total } mbyjakuéra
+        }
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } poruhára
+       *[other] { $total } poruhára
+    }
+cfr-doorhanger-bookmark-fxa-header = Embojuehe nde rechaukaha eimeha guive.
+cfr-doorhanger-bookmark-fxa-body-2 = ¡Mba’eguasu jejuhu! Ko’ág̃a aníke epyta techaukaha’ỹre ne pumbyry popeguápe. Eñepyrũ mba’ete ndive.
+cfr-doorhanger-bookmark-fxa-link-text = Embojuehehína techaukaha...
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Emboty votõ
+    .title = Emboty
+fxa-adoption-addresses-backup-title = Ñañongatu jo’a ko’ã kundaharape ñongatupyre
+fxa-adoption-addresses-backup-subtitle = Emo’ã umi kundaharape ñongatupyre embojuehévo umi mba’e’oka ipapapýva ndive.
+fxa-adoption-credit-cards-backup-title = Ñañongatu jo’a jehepyme’ẽrã rehegua
+fxa-adoption-credit-cards-backup-subtitle = Emo’ã nde jehepyme’ẽrã rape embojuehévo ne mba’e’okakuérape ipapapýva reheve.
+fxa-adoption-bookmarks-treatment-backup-title = Ñañongatu jey techaukaha rekorosãrã
+fxa-adoption-bookmarks-treatment-backup-subtitle = Emo’ã nde rechaukaha mbojuehepyre ne mba’e’okápe eiporúvo mbopapapy.
+fxa-adoption-primary-button-label = Eñemboheraguapy
+cfr-badge-reader-label-newfeature = Peteĩchagua pyahu:
+cfr-whatsnew-button =
+    .label = Oĩpa mba’e pyahu
+    .tooltiptext = Oĩpa mba’e pyahu
+cfr-whatsnew-release-notes-link-text = Emoñe’ẽ jehaipy rehegua
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+       *[other] { -brand-short-name } jokopyre <b>{ $blockedCount }</b> tapykuehoha { DATETIME($date, month: "long", year: "numeric") } guive!
+    }
+cfr-doorhanger-milestone-ok-button = Hechapa
+    .accesskey = H
+cfr-doorhanger-milestone-close-button = Mboty
+    .accesskey = C
+cfr-doorhanger-doh-body = Ne ñemigua tuichamba’e. { -brand-short-name } ombohape tekorosãme umi ne mba’ejerure DNS ikatu vove peteĩ mba’eporu oñembyatýva nemo’ã hag̃ua eikundaha aja.
+cfr-doorhanger-doh-header = Jehekapy DNS hekorosã ha ipapapýva
+cfr-doorhanger-doh-primary-button-2 = Moneĩ
+    .accesskey = O
+cfr-doorhanger-doh-secondary-button = Pe’a
+    .accesskey = D
+cfr-doorhanger-video-support-body = Ikatu ko’ã ta’ãngamýi ko tendagua ndojehechaporãi { -brand-short-name } ag̃aguápe. Embojokupyty hag̃ua ta’ãngamýi, embohekopyahu { -brand-short-name } ko’ág̃a.
+cfr-doorhanger-video-support-header = Embohekopyahu { -brand-short-name } ehecha hag̃ua ta’ãngamýi
+cfr-doorhanger-video-support-primary-button = Embohekopyahu ko’ág̃a
+    .accesskey = U
+spotlight-public-wifi-vpn-header = Eiporúvaicha peteĩ Wi-Fi opavaveguáva
+spotlight-public-wifi-vpn-body = Eñomi hag̃ua ne rendaite ha kundahára rembiapo, eiporukuaa red privada virtual. Ñepytyvõta eñemo’ã hag̃ua eikundahávo tenda opavave oiporukuaáva ikatúva pepoatãguejyha ha taperyva’uha.
+spotlight-public-wifi-vpn-primary-button = Eiko tekoñemíme { -mozilla-vpn-brand-name } ndive
+    .accesskey = S
+spotlight-public-wifi-vpn-link = Ani ko’ág̃a
+    .accesskey = N
+spotlight-better-internet-header = Ñanduti iporãváva oñepyrũ nendive
+spotlight-better-internet-body = Eiporúvo { -brand-short-name }, emoneĩ peteĩ ñanduti ijuruja ha hepy’ỹva iporãvéva opavave g̃uarã.
+spotlight-peace-mind-header = Ore romo’ãta
+spotlight-peace-mind-body = Jasy og̃uahẽvo, { -brand-short-name } ojoko hetave 3.000 tapykuehoha peteĩteĩ poruhárape. Avave, ha ãva kuápe oĩ omyangekóiva nde rekoñemi ha’éva tapykuehoha, ndoikeva’erãi nde ha nanduti pa’ũme.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Ereko yrembe’ýpe
+       *[other] Ñe’ẽkañy tembiaporã rendápe
+    }
+spotlight-pin-secondary-button = Ani ko’ág̃a
+mr2022-background-update-toast-title = { -brand-short-name } pyahu. Hekoñemive. Ojehapykueho’ive. Jejokua’ỹre.
+mr2022-background-update-toast-text = Eiporu { -brand-short-name } ipyahuve, hekopyahúva romo’ãva tapykuehoha rovake imbaretevéva ag̃aite peve.
+mr2022-background-update-toast-primary-button-label = Embojuruja { -brand-shorter-name } ko’ág̃a
+mr2022-background-update-toast-secondary-button-label = Chemomandu’a ag̃ave
+july-jam-headline = Roguereko ñemo’ãpe
+july-jam-body = Peteĩteĩva jasýpe, { -brand-short-name } ojoko hetave 3,000 tapykuehoha poruháragui, ome’ẽva jeike pya’e ha tekorosã Ñandutípe.
+july-jam-set-default-primary = Embojuruja juajuha { -brand-short-name } ndive
+fox-doodle-pin-headline = Eg̃uahẽporãjey
+fox-doodle-pin-body = Peteĩ ñemomandu’a ikatuha eguereko ne kundahára ijeheguíva namombyryiete ndehegui.
+fox-doodle-pin-primary = Embojuruja juajuha { -brand-short-name } ndive
+fox-doodle-pin-secondary = Ani ko’ág̃a
+set-default-pdf-handler-headline = <strong>Umi PDFs ijurujáma { -brand-short-name }.</strong> Embosako’i ha emboheraguapy myanyhẽha kundaharapevoi. Emoambue hag̃ua, eheka “PDF” ñemoĩporãha.
+set-default-pdf-handler-primary = Aikũmby
+annotations-default-pdf-handler-headline = ¡Emoĩ kyta líñope térã oimeraẽ hendápe!
+annotations-default-pdf-handler-body = Emoha’ãnga, ehai térã ehupi ne reraguapy, upéi emoĩ eipotahápe. Eñongatu umi nde reraguapy ehayhuvéva ambue jeyrã.
+annotations-make-default-pdf-handler-title = ¿Ejapo { -brand-short-name }-gui nde PDF mbosako’iha ypygua
+annotations-make-default-pdf-handler-subtitle = Eikekuaáta ore rembiporukuérape embojuruja vove peteĩ PDF.
+annotations-make-default-pdf-primary-cta-label = Eipuru ijypykuévaramo
+annotations-make-default-pdf-next-label = Tenondegua
+fxa-sync-cfr-header = ¿Eikesépa mba’e’oka pyahúpe?
+fxa-sync-cfr-body = Ehecha umi ipyahuvéva techaukaha, ñe’ẽñemi ha tendayke toĩ embojurujávo kundahára pyahu { -brand-product-name }.
+fxa-sync-cfr-primary = Kuaave
+    .accesskey = L
+fxa-sync-cfr-secondary = Chemomandu’a ag̃ave
+    .accesskey = R
+device-migration-fxa-spotlight-heavy-user-header = Eñongatu ne mba’ekuaarã tekorosãverã
+device-migration-fxa-spotlight-heavy-user-body = Ehecha ne marandu emomba’evéva, ha’éva techaukaha ha ñe’ẽñemi, tahekopyahu ha tahekorosã opaite mba’e’okápe.
+device-migration-fxa-spotlight-heavy-user-primary-button = Eñepyrũ
+device-migration-fxa-spotlight-older-device-header = { -brand-product-name } rekoguapy
+device-migration-fxa-spotlight-older-device-body = Peteĩ mba’ete oreko marandu emomba’éva tekopyahu ha tekorosãme oimeraẽva mba’e’oka eikehápe.
+device-migration-fxa-spotlight-older-device-primary-button = Emoheñói mba’ete
+device-migration-fxa-spotlight-getting-new-device-header-2 = ¿Eikesépa mba’e’oka pyahúpe?
+device-migration-fxa-spotlight-getting-new-device-body-2 = Ejapo koichaite eguerekokuaa hag̃ua techaukaha, tembiasakue ha ñe’ẽñemi eiporu ñepyrũ vove mba’e’oka pyahu.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Mba’éichapa añongatúta che mba’ekuaarã
+device-migration-fxa-spotlight-sync-header = Eikundaha eheja’ỹre mba’eve
+device-migration-fxa-spotlight-sync-body = Embojuehe opaite marandu ipapapýva, ha’ekuaáva techaukaha ha ñe’ẽñemi. Erekokuaapaite tendakuéra eiporuhápe { -brand-product-name }.
+device-migration-fxa-spotlight-sync-primary-button = Eñepyrũ
+pdf-default-notification-message = <strong>¿Ejapo { -brand-short-name } PDF moñe’ẽha ypygua</strong> Eiporu { -brand-short-name } emoñe’ẽ hag̃ua ha embosako’i PDF marandurenda ñongatupyre ne mohendahápe.
+pdf-default-notification-set-default-button =
+    .label = Eiporu ijypykuévaramo
+pdf-default-notification-decline-button =
+    .label = Ani ko’ág̃a
+launch-on-login-autostart-infobar-keep-button = Ehapykueho
+    .accesskey = K
+launch-on-login-autostart-infobar-turn-off-button = Eipe’aite
+    .accesskey = T
+tail-fox-spotlight-title = Eguereko mombyrymi umi tapykuehoha
+tail-fox-spotlight-subtitle = Emboyke umi marandu tapykuehoha ha eike ñanduti hekorosã ha ipya’evévape.
+tail-fox-spotlight-primary-button = Embojuruja juajuha { -brand-short-name } ndive
+tail-fox-spotlight-secondary-button = Ani ko’ág̃a
+welcome-back-spotlight-title = Ehayhu jey tekoñemi juajupyre
+welcome-back-spotlight-subtitle = Ejujey kundahára iporãvéva oykekóva peteĩ tendaguasu viru’ỹgua. Rojapo mba’e romo’ãve hag̃ua ne mba’ekuaarã mamo reikohápe.
+welcome-back-embedded-import-title = Egueru ne mba’ekuaarã ha { -brand-short-name } tovy’a hogapeguáicha.
+root-certificate-succession-infobar-january-message = <strong>Apopyre itujavéva { -brand-short-name } rehegua iñapañuaikuaa 14 jasyteĩ ary 2025 guive.</strong>
+root-certificate-succession-infobar-march-message = <strong>Embohekopyahu eiporu hag̃ua { -brand-short-name } ohasa rire 14 jasyapy 2025.</strong>
+root-certificate-succession-infobar-link = ¿Mba’ére ambohekopyahuva’erã?
+root-certificate-succession-infobar-primary-button =
+    .label = Embohekopyahu ko’ág̃a
+    .accesskey = U
+root-certificate-succession-infobar-secondary-button =
+    .label = Upéi
+    .accesskey = L
+root-certificate-windows-background-notification-title = Noĩri gueteri { -brand-short-name } ñembohekopyahu
+root-certificate-windows-background-notification-subtitle = Kundahára vore ndoikoporãmo’ãi ag̃aite noñembohekopyahúirõ. Ko’ág̃a iporã eguereko rome’ẽva ñemo’ã ha tembiapoite ipyahuvéva.
+root-certificate-windows-background-notification-learn-more-button = Eikuaave
+root-certificate-windows-background-notification-update-button = Embohekopyahu { -brand-short-name }
+fxa-menu-message-close-button =
+    .aria-label = Mboty
+    .title = Mboty
+fxa-menu-message-sign-up-button = Eñemboheraguapy
+fxa-menu-message-sign-in-button = Eñemboheraguapy
+fxa-menu-message-sync-button = Embojuehe ñepyrũ
+fxa-menu-message-sync-devices-primary-text = Embojuehe opavave mba’e’oka
+fxa-menu-message-sync-devices-secondary-text = Eñemomarandu pya’e — ikatúva techaukaha ha ñe’ẽñemi — tenda eiporuhápe { -brand-short-name }.
+fxa-menu-message-sync-devices-secondary-text2 = Eraha nde rechaukaha, ñe’ẽñemi, tembiasakue ha hetave opaite hendápe eñepyrũ haguépe tembiapo { -brand-short-name }-pe.
+fxa-menu-message-sync-devices-collapsed-text = Embojuehe opavave mba’e’oka
+fxa-menu-message-backup-data-primary-text = Eykeko kundahára mba’ekuaarã
+fxa-menu-message-backup-data-secondary-text = Ñemo’ã ijeheguíva techaukaha, ñe’ẽñemi ha ambue marandu opaite ne mba’e’okápe.
+fxa-menu-message-backup-data-collapsed-text = Eykeko kundahára mba’ekuaarã
+fxa-menu-message-backup-sync-primary-text = Ereko mba’ekuaarã tekorosã ha ñembojuehépe
+fxa-menu-message-backup-sync-secondary-text = Sync oñongatu heta mba’ekuaarã eikekuaa jey hag̃ua oimeha guive eiporukuaahápe { -brand-short-name }.
+fxa-menu-message-backup-sync-collapsed-text = Embojuehe ha eykeko mba’ekuaarã
+fxa-menu-message-mobile-primary-text = Emondo tendayke ne pumbyrýpe
+fxa-menu-message-mobile-secondary-text = Eku’e jey ehejahaguetégui embojuehévo umi tendayke peteĩ pumbyry ndive.
+fxa-menu-message-mobile-collapsed-text = Embojuehe pumbyry ndive
+multi-cta-fox-doodle-title = Eg̃uahẽporãjeýna
+multi-cta-fox-doodle-set-default-checkbox = Ejapo { -brand-short-name }-gui ne kundahára ypyguáva
+multi-cta-fox-doodle-pin-startmenu-checkbox = Emboja { -brand-short-name } poravoha Ñepyrũháre
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] Emboja { -brand-short-name } tembiaporã rendáre
+       *[other] Embjuaju { -brand-short-name } tembiaporã rendáre
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Eñepyrũ eikundaha
+multi-cta-fox-doodle-main-browser-primary-button-label = Ajapo { -brand-short-name }-gui che kundahára aiporuvéva
+multi-cta-fox-doodle-quick-reminder-subtitle = Peteĩ ñemomandu’a ikatuha ereko ne kundahára, oma’ẽva tekoñemi, erohoryvéva namombyryiete ndehegui.
+multi-cta-fox-doodle-privacy-focused-subtitle =
+    { PLATFORM() ->
+        [macos] Ereko ne kundahára erohoryvéva ema’ẽvo tekoñemíre nde ykére oĩva. Emboheko { -brand-short-name } kundahára ypyguárõ embojuruja hag̃ua juajuha ha emboja ne rembiapo rupáre ha Ñepyrũha poravorãre.
+       *[other] Ereko ne kundahára erohoryvéva ema’ẽvo tekoñemíre nde ykére oĩva. Emboheko { -brand-short-name } kundahára ypyguárõ embojuruja hag̃ua juajuha ha emboja ne rembiapo rupáre ha Ñepyrũha poravorãre.
+    }
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = Ereko ne kundahára erohoryvéva ema’ẽvo tekoñemíre nde ykére. Emboheko { -brand-short-name } kundahára ypyguárõ embojuruja hag̃ua juajuha ha emboja ne rembiapo rupáre ha Ñepyrũha poravorãre.
+windows-10-eos-sync-spotlight-title = ¿Embohekopyahu Windows 10 pya’e?
+windows-10-eos-sync-spotlight-subtitle = Eñongatu jey ne ñe’ẽñemi ha techaukaha ikatu hag̃uáicha ehasa oimeraẽva mba’e’okápe.
+windows-10-eos-sync-spotlight-primary-label = Eñongatuve tekorosãrã ne { -brand-short-name } rehegua
+windows-10-eos-sync-toast-title = ¿Embohekopyahu Windows 11-pe? Ani ehundi techaukaha térã ñe’ẽñemi.
+windows-10-eos-sync-toast-subtitle = Eñongatu jey ne mba’ekuaarã { -brand-short-name } oiko porã hag̃ua, ko mohendaha térã oútavape.
+windows-10-eos-sync-toast-primary-label = Emoñepyrũ
+windows-10-eos-sync-toast-secondary-label = Chemomandu’a ag̃ave
+windows-10-eos-challenger-callout-title = { -brand-product-name } nahenyhẽi ipyahúpe ambue kundaháraicha. Upéva pe amombe’uséva.
+windows-10-eos-challenger-sync-callout-subtitle = Eñongatu jeývo tekorosãrã { -brand-product-name } rechaukaha ha ñe’ẽñemi, ndahasýi egueraha hag̃ua ne kundahára ambue mba’e’okápe.
+windows-10-eos-challenger-pin-callout-subtitle = Embojuaju { -brand-shorter-name } tembiaporã rupáre ikatu hag̃ua kundahára eiporavóva oĩ eikotevẽ jave.
+windows-10-eos-challenger-sync-primary-button = Ñongatu jo’a { -brand-shorter-name }
+windows-10-eos-challenger-pin-primary-button = Papyñemi { -brand-shorter-name }
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } ojoko apopyrã criptomoneda rehegua, ava ñandutieta jehapykueho ha poruhára jeikuaa.
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = Umi tapykuehoha ndohechakuaái imba’e’oka avei osegívo ñandutípe, ore noromoneĩri chupekuéra.
+windows-10-eos-sync-callout-privacy-screen-2-title = Emo’ã ñe’ẽñemi ha techaukaha eiporu hag̃ua ambue mba’e’okápe.
+windows-10-eos-sync-callout-privacy-screen-2-subtitle = Eñongatu jeývo tekorosãrã { -brand-shorter-name } ndahasýi eraha hag̃ua ne mba’ekuaarã ha ñemigua ñemboheko nendive.
+windows-10-eos-sync-callout-privacy-info-button = Ehecha pe jejokopyre
+windows-10-eos-callout-addons-title = Eiporu moĩmbaha: hekopyahúva, iporã añetéva
+windows-10-eos-callout-addons-subtitle = Ko’ã jepysokue ojeporavókuri nepytyvõ hag̃ua nde rapykuere rechauka, ñemo’ã ha vyrorei’ỹre.
+windows-10-eos-callout-addons-primary-button = Ehecha ore poravopyre
+windows-10-eos-sync-callout-addons-title = Ani okañy ne moĩmbahaha embohekopyahúvo Windows 10 guive.
+windows-10-eos-sync-callout-addons-subtitle = Embojuehe ne moĩmbaha { -brand-product-name } rehegua toĩ eiporu hag̃ua, emoambuérõ jepe ne mba’e’oka.
+windows-10-eos-sync-callout-next-button = Upeigua
+windows-10-eos-sync-callout-get-started-button = Eñepyrũ
+windows-10-eos-feature-toast-title = ¡Tendaykeita ñembo’y ha tendayke aty oĩma ápe!
+windows-10-eos-feature-toast-subtitle = Ojejerure rupi, { -brand-product-name } ombosako’i tembiapoite ipyahúva ikundahára oiko porãve hag̃ua tenondeve.
+windows-10-eos-feature-toast-whats-new-button = Ehecha mba’epyahu
+windows-10-eos-feature-toast-dismiss-button = Mboyke
+windows-10-eos-global-infobar-title = <strong>Microsoft ndoipytyvõvéima Windows 10.</strong> Eñongatu ne marandu embosako’i hag̃ua { -brand-product-name } Windows 11-pe g̃uarã.
+windows-10-eos-global-infobar-primary-button = Emyandy ñongatu jey
+    .accesskey = T
+windows-10-eos-global-infobar-learn-more-link = Eikuaave
+    .accessKey = L
+etp-strict-exceptions-infobar-message = <strong>Ñemo’ã jehapykueho rovake ikatu hína ombyai ñanduti rogue.</strong> Emyatyrõ apañuái ejorávo umi mba’eporurã ikatukuaáva oguereko tapykuehoha.
+etp-strict-exceptions-infobar-learn-more = Eikuaave
+etp-strict-exceptions-infobar-button = Emboheko ñemyatyrõ
+    .accesskey = A
+etp-strict-exceptions-infobar-not-now = Ani ko’ág̃a
+    .accesskey = N
+set-default-menu-message-simple-layout-title = { -brand-short-name } ndaha’éi kundahára ypykuéva
+set-default-menu-message-simple-layout-title-variant = { -brand-short-name } ha’e ne kundahára eiporuvéva
+set-default-menu-message-row-layout-title = Ejapo { -brand-short-name }-gui kundahára eiporuvéva
+set-default-menu-message-row-layout-title-variant = Ejapo { -brand-short-name }-gui ne kundaha ypyguávarõ
+set-default-menu-message-row-layout-subtitle = Erekosépa ipya’e, hekorosã ha hekoñemíva eikundaha vove.
+set-default-menu-message-row-layout-subtitle-variant =
+    { PLATFORM() ->
+        [macos] Ereko { -brand-short-name } ag̃ui ndehegui — ejapo chugui kundahára ijypyguáva ha emoĩ ne rembiapo rendápe.
+       *[other] Ereko { -brand-short-name } ag̃ui ndehegui — ejapo chugui kundahára ijypyguáva ha emoĩ ne rembiapo rendápe.
+    }
+set-default-menu-message-split-layout-title =
+    { PLATFORM() ->
+        [macos] Erekomeme { -brand-short-name } nde ykére
+       *[other] Embojuruja juajuha { -brand-short-name } ndive
+    }
+set-default-menu-message-primary-button = Eiporu ijypykuévarõ
+set-default-menu-message-primary-button-variant = Ereko kundahára eiporuvévarõ
+set-default-menu-message-primary-button-short-variant = Ejapo { -brand-short-name }-gui ypyguárõ
+relay-50-masks-announcement-title = 50 ñanduti veve rovamo’ãha, reiete
+relay-50-masks-announcement-subtitle = Ko’ágã oĩma 50 tovamo’ãha rei (yma 5). Eiporu peteĩteĩva mba’ete embohekoñemi hag̃ua ne ñanduti veve.
+relay-50-masks-announcement-primary-button = Eike { -relay-brand-name }-pe
+    .accesskey = G
+relay-50-masks-announcement-secondary-button = Emboyke
+    .accesskey = D
+nova-early-access-share-feedback-link = Emoherakuã ne remiandu
+    .accesskey = S
+nova-early-access-infobar-primary-button = Aikũmby
+    .accesskey = G
+launch-options-spotlight-title-launch-on-login = ¿Embojuruja { -brand-short-name } eike vovénte Windows-pe?
+launch-options-spotlight-title-session-restore = ¿Embojurujajey eikehague emoñepyrũjeývo { -brand-short-name }?
+launch-options-spotlight-checkbox-launch-on-login = Embojuruja { -brand-short-name } eñepyrũvo
+launch-options-spotlight-checkbox-pin-to-taskbar = Emboja tembiaporã rupáre
+launch-options-spotlight-checkbox-restore-current = Embojurujajey ovetã ha tendaykeita ag̃agua
+launch-options-spotlight-checkbox-restore-previous = Embojurujajey ovetã ha tendayke mboyvegua
+launch-options-spotlight-primary-button-close = Eñongatu ha emboty { -brand-short-name }
+launch-options-spotlight-primary-button-launch = Eñongatu ha eku’ejey
+lapsed-user-toast-title = { -brand-product-name } ndeykeko gueteri
+lapsed-user-toast-whats-new-button = Oĩpa ipyahuvéva
+lapsed-user-toast-dismiss-button = Emboyke

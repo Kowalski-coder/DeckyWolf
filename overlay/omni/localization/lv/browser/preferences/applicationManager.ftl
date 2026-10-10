@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Programmatūras iestatījumi
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Noņemt
+    .accesskey = N
+app-manager-handle-protocol = Lai apstrādātu { $type } saites, var izmantot šādas programmas:
+app-manager-handle-file = Lai apstrādātu { $type } saturs, var izmantot šādas programmas:
+app-manager-web-app-info = Tīmekļa programma atrodas:
+app-manager-local-app-info = Šī programma ir atrodama:

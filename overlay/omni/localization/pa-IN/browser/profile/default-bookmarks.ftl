@@ -1,0 +1,14 @@
+default-bookmarks-title = ਬੁੱਕਮਾਰਕ
+default-bookmarks-heading = ਬੁੱਕਮਾਰਕ
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = ਮਦਦ ਲਵੋ
+default-bookmarks-firefox-customize = Firefox ਪਸੰਦੀਦਾ ਬਣਾਓ
+default-bookmarks-firefox-community = ਸਾਥ ਦਿਓ
+default-bookmarks-firefox-about = ਸਾਡੇ ਬਾਰੇ
+default-bookmarks-nightly-heading = Firefox Nightly ਸਰੋਤ
+default-bookmarks-nightly-blog = Firefox Nightly ਬਲੌਗ
+default-bookmarks-bugzilla = Mozilla ਬੱਗ ਟਰੈਕਰ
+default-bookmarks-mdn = Mozilla ਡਿਵੈਲਪਰ ਨੈੱਟਵਰਕ
+default-bookmarks-nightly-tester-tools = ਨਾਈਟਲੀ ਟੈਸਟਰ ਟੂਲ
+default-bookmarks-crashes = ਤੁਹਾਡੇ ਸਾਰੇ ਕਰੈਸ਼
+default-bookmarks-planet = Planet Mozilla

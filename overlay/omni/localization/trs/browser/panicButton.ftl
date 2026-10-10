@@ -1,0 +1,15 @@
+panic-button-open-new-window = Na'nïn' ventana nakàa
+panic-button-undo-warning = Si ga'ue dure' sa 'ngà gahuin na.
+panic-button-forget-button =
+    .label = ¡Gini'ñu!
+panic-main-timeframe-desc = Gini'ñu':
+panic-button-5min =
+    .label = U'ūn' minutu
+panic-button-2hr =
+    .label = Huij hora
+panic-button-day =
+    .label = 24 horâ
+panic-button-action-desc = 'Ngà gayi'i':
+panic-button-delete-cookies = Dure' nej <strong>Kookies</strong>
+panic-button-delete-history = Dure' <strong>riña gaché nu'</strong>
+panic-button-delete-tabs-and-windows = Narrun' daran' <strong>rakïj ñanj</strong> nī <strong>ventana</strong>

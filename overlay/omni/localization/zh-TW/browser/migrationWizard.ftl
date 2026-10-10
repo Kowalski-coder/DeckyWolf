@@ -1,0 +1,135 @@
+migration-wizard-selection-header = 匯入瀏覽器資料
+migration-wizard-selection-list = 請選擇您要匯入的資料。
+migration-wizard-selection-option-without-profile = { $sourceBrowser }
+migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
+migration-wizard-migrator-display-name-brave = Brave
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chrome-beta = Chrome Beta
+migration-wizard-migrator-display-name-chrome-dev = Chrome Dev
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = 360 安全瀏覽器
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
+migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge 傳統版
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = CSV 檔案中的密碼
+migration-wizard-migrator-display-name-file-bookmarks = HTML 檔案裡的書籤
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
+migration-wizard-migrator-display-name-opera = Opera
+migration-wizard-migrator-display-name-opera-gx = Opera GX
+migration-wizard-migrator-display-name-safari = Safari
+migration-wizard-migrator-display-name-vivaldi = Vivaldi
+migration-source-name-ie = Internet Explorer
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = Google Chrome
+migration-imported-safari-reading-list = 閱讀列表（來自 Safari）
+migration-imported-edge-reading-list = 閱讀清單（來自 Edge）
+migration-no-permissions-message = { -brand-short-name } 沒有權限存取此裝置上其他瀏覽器的設定檔。
+migration-no-permissions-instructions = 若要持續匯入其他瀏覽器中的資料，請授權 { -brand-short-name } 存取該瀏覽器的設定檔資料夾。
+migration-no-permissions-instructions-step1 = 選擇「繼續」
+migration-no-permissions-instructions-step2 = 在檔案瀏覽器中瀏覽到 <code>{ $permissionsPath }</code>，然後點擊「選擇」
+migration-all-available-data-label = 匯入所有可用資料
+migration-no-selected-data-label = 未選擇要匯入的資料
+migration-selected-data-label = 匯入選擇的資料
+migration-select-all-option-label = 全選
+migration-bookmarks-option-label = 書籤
+migration-favorites-option-label = 我的最愛
+migration-passwords-option-label = 已儲存的密碼
+migration-history-option-label = 瀏覽紀錄
+migration-extensions-option-label = 擴充套件
+migration-form-autofill-option-label = 表單自動填寫資料
+migration-payment-methods-option-label = 付款方式
+migration-cookies-option-label = Cookie
+migration-session-option-label = 視窗與分頁
+migration-otherdata-option-label = 其他資料
+migration-passwords-from-file-progress-header = 匯入密碼檔
+migration-passwords-from-file-success-header = 已成功匯入密碼
+migration-passwords-from-file = 正在檢查檔案中的密碼
+migration-passwords-new = 新密碼
+migration-passwords-updated = 已有的密碼
+migration-passwords-from-file-no-valid-data = 此密碼檔不含任何有效密碼資料，請選擇其他檔案。
+migration-passwords-from-file-picker-title = 匯入密碼檔
+migration-passwords-from-file-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV 文件
+       *[other] CSV 檔案
+    }
+migration-passwords-from-file-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV 文件
+       *[other] TSV 檔案
+    }
+migration-wizard-progress-success-new-passwords = 已新增 { $newEntries } 筆
+migration-wizard-progress-success-updated-passwords = 已更新 { $updatedEntries } 筆
+migration-bookmarks-from-file-picker-title = 匯入書籤檔案
+migration-bookmarks-from-file-progress-header = 匯入書籤
+migration-bookmarks-from-file = 書籤
+migration-bookmarks-from-file-success-header = 已成功匯入書籤
+migration-bookmarks-from-file-no-valid-data = 此書籤檔不含任何書籤資料，請選擇其他檔案。
+migration-bookmarks-from-file-html-filter-title =
+    { PLATFORM() ->
+        [macos] HTML 文件
+       *[other] HTML 檔案
+    }
+migration-bookmarks-from-file-json-filter-title = JSON 檔案
+migration-wizard-progress-success-new-bookmarks = { $newEntries } 筆書籤
+migration-import-button-label = 匯入
+migration-choose-to-import-from-file-button-label = 從檔案匯入
+migration-import-from-file-button-label = 選擇檔案
+migration-cancel-button-label = 取消
+migration-done-button-label = 完成
+migration-continue-button-label = 繼續
+migration-wizard-import-browser-no-browsers = { -brand-short-name } 找不到任何包含書籤、瀏覽紀錄或密碼的程式。
+migration-wizard-import-browser-no-resources = 發生錯誤。{ -brand-short-name } 無法從該瀏覽器設定檔找到任何可匯入的資料。
+migration-list-bookmark-label = 書籤
+migration-list-favorites-label = 我的最愛
+migration-list-password-label = 密碼
+migration-list-history-label = 瀏覽紀錄
+migration-list-extensions-label = 擴充套件
+migration-list-autofill-label = 自動填寫資料
+migration-list-payment-methods-label = 付款方式
+migration-wizard-progress-header = 正在匯入資料
+migration-wizard-progress-done-header = 已成功匯入資料
+migration-wizard-progress-done-with-warnings-header = 資料匯入完成
+migration-wizard-progress-icon-in-progress =
+    .aria-label = 匯入中…
+migration-wizard-progress-icon-completed =
+    .aria-label = 已完成
+migration-safari-password-import-header = 從 Safari 匯入密碼
+migration-safari-password-import-post-sequoia-step1 = 開啟您 Mac 上的<a data-l10n-name="macos-passwords-app">「密碼」應用程式</a>
+migration-safari-password-import-post-sequoia-step2 = 從畫面頂端的選單列選擇「檔案」>「將所有密碼輸出到檔案…」
+migration-safari-password-import-post-sequoia-step3 = 儲存檔案
+migration-safari-password-import-post-sequoia-step4 = 選擇您儲存的檔案
+migration-safari-password-import-steps-header = 若要匯入 Safari 密碼:
+migration-safari-password-import-step1 = 在 Safari 點擊「Safari」選單，然後點擊「偏好設定 > 密碼」
+migration-safari-password-import-step2 = 選擇 <img data-l10n-name="safari-icon-3dots"/> 按鈕，然後選擇「匯出所有密碼」
+migration-safari-password-import-step3 = 儲存密碼檔案
+migration-safari-password-import-step4 = 使用下方的「選擇檔案」選擇您儲存的密碼檔案
+migration-chrome-windows-password-import-header = 如何從 Chrome 匯入密碼
+migration-chrome-windows-password-import-steps-header = 在 Chrome：
+migration-chrome-windows-password-import-step1 = 開啟主選單 <img data-l10n-name="chrome-icon-3dots"/> 然後前往「密碼和自動填入 > Google 密碼管理工具」。
+migration-chrome-windows-password-import-step2 = 點擊選單中的「設定」。
+migration-chrome-windows-password-import-step3 = 選擇「下載檔案」然後儲存到您的裝置上。
+migration-chrome-windows-password-import-step4 = 回到此處，然後點擊「選擇檔案」，選擇剛剛儲存的檔案即可匯入。
+migration-manual-password-import-skip-button = 略過
+migration-manual-password-import-cancel-button = 取消
+migration-manual-password-import-select-button = 選擇檔案
+migration-wizard-progress-success-bookmarks = { $quantity } 筆書籤
+migration-wizard-progress-success-favorites = { $quantity } 筆最愛
+migration-wizard-progress-success-extensions = { $quantity } 套擴充套件
+migration-wizard-progress-partial-success-extensions = 共 { $quantity } 套擴充套件，僅找到 { $matched } 套
+migration-wizard-progress-extensions-support-link = 了解 { -brand-product-name } 如何比對擴充套件
+migration-wizard-progress-no-matched-extensions = 沒有符合的擴充套件資訊
+migration-wizard-progress-extensions-addons-link = { -brand-short-name } 的瀏覽器擴充套件
+migration-wizard-progress-success-passwords = { $quantity } 筆密碼
+migration-wizard-progress-success-history =
+    { $maxAgeInDays ->
+        [one] 昨天以來
+       *[other] 過去 { $maxAgeInDays } 天以來的資料
+    }
+migration-wizard-progress-success-formdata = 表單填寫紀錄
+migration-wizard-progress-success-payment-methods = { $quantity } 筆付款方式
+migration-wizard-safari-permissions-sub-header = 若要匯入 Safari 書籤與上網紀錄:
+migration-wizard-safari-instructions-continue = 選擇「繼續」
+migration-wizard-safari-instructions-folder = 從清單中選擇 Safari 資料夾，然後選擇「開啟」

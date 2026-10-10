@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = ਟੈਬ ਨੂੰ ਟਾਸਕ-ਪੱਟੀ ਵਿੱਚ ਜੋੜੋ
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = ਟੈਬ ਨੂੰ ਟੂਲਬਾਰ 'ਚੋਂ ਹਟਾਓ
+taskbar-tab-urlbar-button-show = ਵੈੱਬ ਐਪ ਸਫ਼ਾ ਕਾਰਵਾਈ ਨੂੰ ਵੇਖਾਓ
+taskbar-tab-urlbar-button-hide = ਵੈੱਬ ਐਪ ਸਫ਼ਾ ਕਾਰਵਾਈ ਨੂੰ ਓਹਲੇ ਕਰੋ
+taskbar-tab-shortcut-description = { $name } ਵੈੱਬ ਐਪ
+taskbar-tab-shortcut-folder = { -brand-short-name } ਵੈੱਬ ਐਪਾਂ
+taskbar-tab-audio-mute =
+    .tooltiptext = ਟੈਬ ਨੂੰ ਮੌਨ ਕਰੋ
+taskbar-tab-audio-unmute =
+    .tooltiptext = ਟੈਬ ਨੂੰ ਅਣ-ਮੌਨ ਕਰੋ
+taskbar-tab-title-default = { -brand-full-name } ਵਿੱਚ { $name }
+taskbar-tab-title-container = { -brand-full-name } ਵਿੱਚ { $name } ({ $container })
+taskbar-tab-title-profile = { $profile } ਵਿੱਚ { $name } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $profile } ਵਿੱਚ { $name } ({ $container }) — { -brand-full-name }

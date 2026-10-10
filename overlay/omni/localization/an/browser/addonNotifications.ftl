@@ -1,0 +1,56 @@
+xpinstall-prompt = { -brand-short-name } ha privau que iste puesto web le demande d'instalar bell software en o suyo ordinador.
+xpinstall-prompt-header = Permitir que { $host } instale un complemento?
+xpinstall-prompt-message = Yes mirando d'instalar un complemento dende { $host }. Compreba que i confías antes de continar.
+xpinstall-prompt-header-unknown = Permitir que un puesto desconoixiu instale un complemento?
+xpinstall-prompt-message-unknown = Yes mirando d'instalar un complemento dende un puesto desconoixiu. Asegura-te de que confías en este puesto antes de continar.
+xpinstall-prompt-dont-allow =
+    .label = No permitir-lo
+    .accesskey = N
+xpinstall-prompt-never-allow =
+    .label = No permitir-lo nunca
+    .accesskey = N
+xpinstall-prompt-install =
+    .label = Seguir con a instalación
+    .accesskey = S
+xpinstall-disabled = A instalación de software ye actualment desactivada. Prete Activar y torne-lo a prebar.
+xpinstall-disabled-button =
+    .label = Activar
+    .accesskey = H
+addon-install-full-screen-blocked = La instalación de complementos no ye permitida mientres u antes de dentrar en o modo de pantalla completa.
+webext-perms-sideload-menu-item = { $addonName } s'ha anyadiu a { -brand-short-name }
+webext-perms-update-menu-item = { $addonName } requiere nuevos permisos
+addon-removal-button = Eliminar
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [one] Se ye baixando y verificando o complemento…
+       *[other] Se son baixando y verificando { $addonCount } complementos…
+    }
+addon-download-verifying = Se ye verificando
+addon-install-cancel-button =
+    .label = Cancelar
+    .accesskey = C
+addon-install-accept-button =
+    .label = Anyader
+    .accesskey = A
+addon-confirm-install-message =
+    { $addonCount ->
+        [one] Iste puesto quiere instalar un complemento en o { -brand-short-name }:
+       *[other] Iste puesto quiere instalar { $addonCount } complementos en o { -brand-short-name }:
+    }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] Pare cuenta: Iste puesto quiere instalar un complemento no verificau en { -brand-short-name }. Siga baixo o suyo propio risgo.
+       *[other] Pare cuenta: Iste puesto quiere instalar { $addonCount } complementos no verificaus en { -brand-short-name }. Siga baixo o suyo propio risgo.
+    }
+addon-confirm-install-some-unsigned-message = Pare cuenta: Iste puesto quiere instalar { $addonCount } complementos en { -brand-short-name }, d'os quals beluns son no verificaus. Siga baixo o suyo propio risgo.
+addon-install-error-network-failure = No s'ha puesto descargar o complemento por una error con a connexión.
+addon-install-error-incorrect-hash = No s'ha puesto instalar iste complemento porque no concuerda con a complemento que asperaba { -brand-short-name }.
+addon-install-error-corrupt-file = No s'ha puesto instalar o complemento descargau dende iste puesto porque pareixe que ye corrompiu.
+addon-install-error-file-access = No s'ha puesto instalar { $addonName } porque { -brand-short-name } no podeba modificar o fichero preciso.
+addon-install-error-not-signed = O { -brand-short-name } ha privau que iste puesto instalase un complemento no verificau.
+addon-local-install-error-network-failure = No s'ha puesto instalar iste complemento por un error en o sistema de fichers.
+addon-local-install-error-incorrect-hash = No s'ha puesto instalar iste complemento porque no concuerda con a complemento que asperaba o { -brand-short-name }.
+addon-local-install-error-corrupt-file = No s'ha puesto instalar iste complemento porque pareixe que ye corrompiu.
+addon-local-install-error-file-access = No s'ha puesto instalar { $addonName } porque { -brand-short-name } no podeba modificar o fichero preciso.
+addon-local-install-error-not-signed = No s'ha puesto instalar iste complemento porque no s'ha verificau.
+addon-install-error-incompatible = No s'ha puesto instalar { $addonName } porque no ye compatible con { -brand-short-name } { $appVersion }.

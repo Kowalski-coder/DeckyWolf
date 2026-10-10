@@ -1,0 +1,9 @@
+identity-credential-cancel-button =
+    .label = Anulla
+    .accesskey = n
+identity-credential-accept-button =
+    .label = Vanni avanti
+    .accesskey = V
+identity-credential-sign-in-button =
+    .label = Intra
+    .accesskey = I

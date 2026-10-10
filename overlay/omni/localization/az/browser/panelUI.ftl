@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Daşma Menyusundan çıxart
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Alət Sətrinə Əlavə et
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Daşma Menyusuna əlavə et
+    .accesskey = M
+panic-button-thankyou-msg1 = Son tarixçəniz təmizləndi.
+panic-button-thankyou-msg2 = Təhlükəsiz səyahət!
+panic-button-thankyou-button =
+    .label = Təşəkkürlər!

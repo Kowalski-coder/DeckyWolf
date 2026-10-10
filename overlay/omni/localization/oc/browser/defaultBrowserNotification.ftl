@@ -1,0 +1,16 @@
+default-browser-notification-message = <strong>Definir { -brand-short-name } coma vòstre navegador per defaut ?</strong> Ajatz una navegacion rapida, segura e privada ont qu’utilizetz lo web.
+default-browser-notification-button =
+    .label = Definir per defaut
+    .accesskey = D
+default-browser-prompt-title-pin = Definir { -brand-short-name } coma navegador principal ?
+default-browser-prompt-message-pin = Gardatz { -brand-short-name } a man — definissètz-lo coma navegador per defaut e penjatz-lo a la barra de prètzfaches.
+default-browser-prompt-message-pin-mac = Gardatz { -brand-short-name } a man — definissètz-lo coma navegador per defaut e gardatz-lo a vòstre Dock.
+default-browser-prompt-button-primary-set = Definir coma navegador principal
+default-browser-prompt-title-alt = Definir { -brand-short-name } coma navegador per defaut ?
+default-browser-prompt-message-alt = Velocitat, seguretat e confidencialitat cada còp que navegatz.
+default-browser-prompt-button-primary-alt = Definir coma navegador per defaut
+default-browser-prompt-checkbox-not-again-label = Mostrar pas mai aqueste messatge
+default-browser-prompt-button-secondary = Pas ara
+default-browser-guidance-notification-title = Definir { -brand-short-name } coma navegador per defaut
+default-browser-guidance-notification-info-page = Afichar
+default-browser-guidance-notification-dismiss = Acabat

@@ -1,0 +1,13 @@
+options-select-dev-tools-theme-label = Теми
+options-context-inspector = Инспектор
+options-show-user-agent-styles-label = Прикажи стилови на прелистувачот
+options-default-color-unit-label = Основна единица за боја
+options-default-color-unit-authored = Како што е напишана
+options-default-color-unit-hex = Хексадецимален
+options-default-color-unit-hsl = HSL(A)
+options-default-color-unit-rgb = RGB(A)
+options-default-color-unit-name = Имиња на бои
+options-screenshot-audio-tooltip =
+    .title = Емитува звук на бленда кога се фаќаат слики од екран
+options-context-advanced-settings = Напредни поставки
+options-tool-not-supported-marker = { $toolLabel } *

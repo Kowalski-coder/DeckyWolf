@@ -1,0 +1,137 @@
+appmenuitem-banner-update-downloading =
+    .label = Baxando l'anovamientu de { -brand-shorter-name }
+appmenuitem-banner-update-available =
+    .label = Hai un anovamientu — baxar agora
+appmenuitem-banner-update-manual =
+    .label = Hai un anovamientu — baxar agora
+appmenuitem-banner-update-unsupported =
+    .label = Nun ye posible anovar — el sistema nun ye compatible
+appmenuitem-banner-update-restart =
+    .label = Hai un anovamientu — reaniciar agora
+appmenuitem-new-tab =
+    .label = Llingüeta nueva
+appmenuitem-new-window =
+    .label = Ventana nueva
+appmenuitem-new-private-window =
+    .label = Ventana privada nueva
+appmenuitem-history =
+    .label = Historial
+appmenuitem-downloads =
+    .label = Descargues
+appmenuitem-passwords =
+    .label = Contraseñes
+appmenuitem-print =
+    .label = Imprentar…
+appmenuitem-find-in-page =
+    .label = Atopar na páxina…
+appmenuitem-zoom =
+    .value = Zoom
+appmenuitem-more-tools =
+    .label = Más ferramientes
+appmenuitem-exit2 =
+    .label =
+        { PLATFORM() ->
+            [linux] Colar
+           *[other] Colar
+        }
+appmenu-menu-button-closed2 =
+    .label = { -brand-short-name }
+    .tooltiptext = Abrir el menú de l'aplicación
+appmenu-menu-button-opened2 =
+    .label = { -brand-short-name }
+    .tooltiptext = Zarrar el menú de l'aplicación
+appmenuitem-settings =
+    .label = Axustes
+appmenuitem-zoom-enlarge =
+    .label = Averar
+appmenuitem-zoom-reduce =
+    .label = Alloñar
+appmenuitem-fullscreen =
+    .label = Pantalla completa
+appmenu-remote-tabs-notabs = Nun hai llingüetes abiertes
+appmenu-remote-tabs-opensettings =
+    .label = Axustes
+appmenu-remote-tabs-noclients = ¿Quies ver equí les llingüetes d'otros preseos de to?
+appmenu-remote-tabs-connectdevice =
+    .label = Conectar otru preséu
+appmenu-remote-tabs-welcome = Ve una llista de les llingüetes d'otros preseos de to.
+appmenuitem-fxa-toolbar-sync-now2 = Sincronizar agora
+appmenuitem-fxa-sign-in = Aniciar sesión en { -brand-product-name }
+appmenuitem-fxa-manage-account = Xestionar la cuenta
+appmenu-fxa-last-sync = Sincronizóse per última vegada { $time }
+    .label = Sincronizóse per última vegada { $time }
+appmenu-fxa-sync-and-save-data2 = Sincroniza y guarda datos
+appmenu-fxa-signed-in-label = Aniciar sesión
+appmenu-fxa-setup-sync =
+    .label = Activar la sincronización…
+appmenuitem-save-page =
+    .label = Guardar la páxina como…
+profiler-popup-button-idle =
+    .label = Analizador del rindimientu
+    .tooltiptext = Rexistra un perfil de rindimientu
+profiler-popup-header-text = { -profiler-brand-name }
+profiler-popup-reveal-description-button =
+    .aria-label = Desvelar más información
+profiler-popup-description-title =
+    .value = Rexistra, analiza y comparti
+profiler-popup-description = Collabora na igua de problemes de rindimientu espublizando perfiles pa compartilos col to equipu.
+profiler-popup-learn-more-button =
+    .label = Lleer más
+profiler-popup-settings =
+    .value = Axustes
+profiler-popup-edit-settings-button =
+    .label = Editar los axustes…
+profiler-popup-recording-screen = Rexistrando…
+profiler-popup-start-recording-button =
+    .label = Aniciar un rexistru
+profiler-popup-discard-button =
+    .label = Escartar
+profiler-popup-capture-button =
+    .label = Capturar
+profiler-popup-start-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧1
+       *[other] Ctrl+Mayús+1
+    }
+profiler-popup-capture-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧2
+       *[other] Ctrl+Mayús+2
+    }
+appmenu-manage-history =
+    .label = Xestionar l'historial
+appmenu-restore-session =
+    .label = Restaurar la sesión anterior
+appmenu-clear-history =
+    .label = Llimpiar l'historial recién…
+appmenu-recent-history-subheader = Historial recién
+appmenu-recently-closed-tabs =
+    .label = Llingüetes zarraes apocayá
+appmenu-recently-closed-windows =
+    .label = Ventanes zarraes apocayá
+appmenu-about =
+    .label = Tocante a { -brand-shorter-name }
+    .accesskey = T
+appmenu-get-help =
+    .label = Consiguir ayuda
+    .accesskey = a
+appmenu-help-more-troubleshooting-info =
+    .label = Más información pa iguar problemes
+    .accesskey = a
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Mou d'iguar problemes…
+    .accesskey = M
+appmenu-help-exit-troubleshoot-mode =
+    .label = Desactivar el mou d'iguar problemes
+    .accesskey = m
+appmenu-help-report-deceptive-site =
+    .label = Informar de que'l sitiu ye engañosu…
+    .accesskey = e
+appmenu-help-not-deceptive =
+    .label = Esti sitiu nun ye engañosu…
+    .accesskey = e
+appmenu-customizetoolbar =
+    .label = Personalizar la barra de ferramientes…
+appmenu-developer-tools-subheader = Ferramientes del restolador
+appmenu-developer-tools-extensions =
+    .label = Estensiones pa desendolcadores

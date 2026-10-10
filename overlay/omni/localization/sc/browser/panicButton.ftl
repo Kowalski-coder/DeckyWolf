@@ -1,0 +1,15 @@
+panic-button-open-new-window = Aberi una ventana bòida noa
+panic-button-undo-warning = Custa atzione no dda podes annullare.
+panic-button-forget-button =
+    .label = Iscaressi·ti!
+panic-main-timeframe-desc = Iscaressi·ti de:
+panic-button-5min =
+    .label = 5 minutos
+panic-button-2hr =
+    .label = 2 oras
+panic-button-day =
+    .label = 24 oras
+panic-button-action-desc = Chi sighes, as a:
+panic-button-delete-cookies = Eliminare is <strong>testimòngios</strong> reghentes
+panic-button-delete-history = Cantzella sa <strong>cronologia</strong> reghente
+panic-button-delete-tabs-and-windows = Serra totu is <strong>ischedas</strong> e <strong>ventanas</strong>

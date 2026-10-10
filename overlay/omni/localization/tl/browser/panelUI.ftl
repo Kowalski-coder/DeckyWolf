@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = I-unpin mula sa Overflow Menu
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Ilagay sa Toolbar
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = I-dagdag sa Overflow Menu
+    .accesskey = M
+panic-button-thankyou-msg1 = Ang mga nakaraan mong kasaysayan ay sadyang natanggal na.
+panic-button-thankyou-msg2 = Ligtas na pag-browse!
+panic-button-thankyou-button =
+    .label = Salamat!

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Բացել նոր մաքուր Պատուհան
+panic-button-undo-warning = Այս գործողությունը չի կարող ետարկվել:
+panic-button-forget-button =
+    .label = Մոռանալ:
+panic-main-timeframe-desc = Մոռանալ վերջին՝
+panic-button-5min =
+    .label = Հինգ րոպե
+panic-button-2hr =
+    .label = Երկու ժամ
+panic-button-day =
+    .label = 24 ժամ
+panic-button-action-desc = Շարունակելիս՝
+panic-button-delete-cookies = Ջնջել վերջին <strong>թխուկները</strong>
+panic-button-delete-history = Ջնջել վերջին <strong>Պատմությունը</strong>
+panic-button-delete-tabs-and-windows = Փակել բոլոր <strong>Ներդիրները</strong> և<strong>Պատուհանները</strong>

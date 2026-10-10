@@ -1,0 +1,9 @@
+translations-panel-disable-translations =
+    .label = Wergerê bi tevahî neçalak bike
+translations-manage-enable =
+    .label = Wergerê tevahiya rûpelê çalak bike
+translations-manage-autopopup =
+    .label = Daxwaza wergerandina rûpelên ku bi zimanê sazkirî yê gerokê tine ne
+main-context-menu-translate-page =
+    .label = Rûpelê wergerîne…
+    .accesskey = T

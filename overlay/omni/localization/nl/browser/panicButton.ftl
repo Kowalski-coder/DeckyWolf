@@ -1,0 +1,15 @@
+panic-button-open-new-window = Een nieuw leeg venster openen
+panic-button-undo-warning = Deze actie kan niet ongedaan worden gemaakt.
+panic-button-forget-button =
+    .label = Vergeten!
+panic-main-timeframe-desc = Vergeten:
+panic-button-5min =
+    .label = Laatste vijf minuten
+panic-button-2hr =
+    .label = Laatste twee uur
+panic-button-day =
+    .label = Laatste 24 uur
+panic-button-action-desc = Doorgaan zal:
+panic-button-delete-cookies = Recente <strong>cookies</strong> wissen
+panic-button-delete-history = Recente <strong>geschiedenis</strong> wissen
+panic-button-delete-tabs-and-windows = Alle <strong>tabbladen</strong> en <strong>vensters</strong> sluiten

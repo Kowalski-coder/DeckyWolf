@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Dartinaama dow heɓɓitannde buggitorde
+whypaused-breakpoint = Dartinaama e toɓɓere dartorde
+whypaused-exception = Dartinaama e paltoor
+whypaused-resume-limit = Dartiima saanga nde yahata
+whypaused-pause-on-dom-events = Dartiima e keɗotooɗo kewu
+whypaused-breakpoint-condition-thrown = Juumre e toɓɓere dartorde sarɗiire
+whypaused-promise-rejection = Dartiima e diiwgol aadi
+whypaused-assert = Dartiima e konngol
+whypaused-debug-command = Dartiima e golle momtaaɗe ella
+whypaused-other = Buggitorde dartiima

@@ -1,0 +1,108 @@
+tab-context-new-tab-open =
+    .label = Iccer Amaynut ɣer yeffus
+    .accesskey = m
+tab-context-new-tab-open-vertical =
+    .label = Iccer amaynut addaw
+    .accesskey = m
+tab-context-new-group =
+    .label = Agraw amaynut
+    .accesskey = A
+reload-tab =
+    .label = Smiren iccer
+    .accesskey = M
+select-all-tabs =
+    .label = Fren akk accaren
+    .accesskey = M
+tab-context-play-tab =
+    .label = Iccer n wurar
+    .accesskey = I
+tab-context-play-tabs =
+    .label = Iccaren n wurar
+    .accesskey = y
+duplicate-tab =
+    .label = Sleg iccer
+    .accesskey = N
+duplicate-tabs =
+    .label = Sleg iccaren
+    .accesskey = S
+close-tabs-to-the-start =
+    .label = Mdel accaren n uzelmaḍ
+    .accesskey = d
+close-tabs-to-the-start-vertical =
+    .label = Mdel iccaren n daw-a
+    .accesskey = l
+close-tabs-to-the-end =
+    .label = Mdel accaren n uyeffus
+    .accesskey = M
+close-tabs-to-the-end-vertical =
+    .label = Mdel iccaren n daw-a
+    .accesskey = i
+close-other-tabs =
+    .label = Mdel accaren-nniḍen
+    .accesskey = M
+reload-tabs =
+    .label = Smiren iccaren
+    .accesskey = S
+pin-tab =
+    .label = Rzi iccer-a
+    .accesskey = Q
+unpin-tab =
+    .label = Serreḥ i yiccer-a
+    .accesskey = S
+pin-selected-tabs =
+    .label = Siggez icarren
+    .accesskey = g
+unpin-selected-tabs =
+    .label = Serreḥ i yiccaren
+    .accesskey = r
+bookmark-selected-tabs =
+    .label = Creḍ akk accaren…
+    .accesskey = k
+tab-context-bookmark-tab =
+    .label = Iccer n tecraḍ n yisebtar…
+    .accesskey = I
+tab-context-open-in-new-container-tab =
+    .label = Ldi deg yiccer n umagbar amaynut
+    .accesskey = i
+move-to-start =
+    .label = Senkez akken ad tebḍuḍ
+    .accesskey = B
+move-to-end =
+    .label = Senkez akken ad tfakeḍ
+    .accesskey = F
+move-to-new-window =
+    .label = Senkez ɣer usfaylu amaynut
+    .accesskey = m
+tab-context-close-multiple-tabs =
+    .label = Mdel aṭas n waccaren
+    .accesskey = M
+tab-context-close-duplicate-tabs =
+    .label = Mdel accaren i d-yettεawden
+    .accesskey = e
+tab-context-share-url =
+    .label = Bḍu
+    .accesskey = B
+tab-context-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] Ales tawaledyawt n yiccer imedlen
+            [one] Ales tawaledyawt n yiccer imedlen
+           *[other] Ales tawaledyawt n waccaren imedlen
+        }
+    .accesskey = a
+tab-context-close-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] Mdel iccer
+            [one] Mdel icarren { $tabCount }
+           *[other] M
+        }
+    .accesskey = M
+tab-context-move-tabs =
+    .label =
+        { $tabCount ->
+            [1] Senkez iccer
+            [one] Senkez iccer
+           *[other] Senkez iccaren
+        }
+    .accesskey = S

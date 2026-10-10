@@ -1,0 +1,12 @@
+default-browser-notification-message = <strong> Dunû' { -brand-short-name } gahuin ma sa garasun' guendâ gache nu yitin' </strong> da' gi'hiaj sun hio ma, gahuin ma sa yintinj guendô'.
+default-browser-notification-button =
+    .label = Sa garasun yitin'
+    .accesskey = S
+default-browser-prompt-title-pin = Gahuin { -brand-short-name } ma sa garasun yitin'
+default-browser-prompt-message-pin = Gachrun { -brand-short-name } ni—nagi'hiát ma gînunj riña dukuán runùun.
+default-browser-prompt-message-pin-mac = Gachrun { -brand-short-name } ni—nagi'hiát ma gînunj riña dukuán Dock.
+default-browser-prompt-title-alt = Nagio'hiô { -brand-short-name } sa yitinj i.
+default-browser-prompt-message-alt = Nagi'hiaj hio doj man da' gache nunt.
+default-browser-prompt-button-primary-alt = Dūnâj gāhuin man riña sa nānà'uì' yītïnjt
+default-browser-prompt-checkbox-not-again-label = Nagi'hiaj hio doj man da' gache nunt.
+default-browser-prompt-button-secondary = Sī ga'hue akuan' nïn

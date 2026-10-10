@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Ansuf yis-wen ay imdanen!
+error-short-desc-text = Nusa-d ɣur-wen s talwit d sser!
+error-long-desc1 = Aṛubut ur izmir ad iqreḥ amdan, neɣ ad iɛemmed ad ittwaqreḥ umdan.
+error-long-desc2 = Iṛubuten walan tiɣawsiwin ur tezmirem ad tamnem kenwi s yimdanen.
+error-long-desc3 = Iṛubuten d imdukkal-nwen n plastik ukud ara tenecṛaḥem.
+error-long-desc4 = Iṛubuten sɛan ismar n wuzzal ittebruruqen ur issefk ad ttwakercen.
+error-trailer-desc-text = Sɛan daɣen aɣawas.
+error-try-again = Ɛreḍ i tikkelt-nniḍen
+    .label2 = Ttxil-k, ur ttsiti ara tikelt-nniḍen ɣef tqeffalt-a.

@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Открыть { -brand-short-name } в безопасном режиме?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Открыть
+refresh-profile =
+    .label = Очистить { -brand-short-name }
+troubleshoot-mode-description = Используйте этот специальный режим { -brand-short-name } для диагностики проблем. Ваши расширения и настройки будут временно отключены.
+skip-troubleshoot-refresh-profile = Вы также можете пропустить попытку решения проблемы и вместо этого очистить { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } при запуске неожиданно закрылся. Это могло быть вызвано дополнениями или другими проблемами. Вы можете попытаться решить проблему, устранив её причину в Безопасном Режиме.

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ønskjer å endre standard søkjemotor frå { $currentEngine } til { $newEngine }. Er det OK?
+webext-default-search-yes =
+    .label = Ja
+    .accesskey = J
+webext-default-search-no =
+    .label = Nei
+    .accesskey = N
+addon-post-install-message = { $addonName } vart lagt til.
+webext-quarantine-confirmation-title = Køyre { $addonName } på avgrensa nettstadar?
+webext-quarantine-confirmation-line-1 = For å beskytte dataa dine er denne utvidinga ikkje tillaten på denne nettstaden.
+webext-quarantine-confirmation-line-2 = Tillat denne utvidinga, dersom du stolar på henne, å lese og endre dine data på nettstadar avgrensa av { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Tillat
+    .accesskey = T
+webext-quarantine-confirmation-deny =
+    .label = Ikkje tillat
+    .accesskey = I

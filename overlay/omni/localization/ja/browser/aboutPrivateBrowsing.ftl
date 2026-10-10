@@ -1,0 +1,43 @@
+privatebrowsingpage-open-private-window-label = プライベートウィンドウを開く
+    .accesskey = P
+about-private-browsing-search-placeholder = ウェブ検索
+about-private-browsing-search-btn =
+    .title = ウェブ検索
+about-private-browsing-handoff =
+    .title = { $engine } で検索、または URL を入力します
+about-private-browsing-handoff-no-engine =
+    .title = 検索語句、または URL を入力します
+about-private-browsing-handoff-text = { $engine } で検索、または URL を入力します
+about-private-browsing-handoff-text-no-engine = 検索語句、または URL を入力します
+about-private-browsing-not-private = これはプライベートウィンドウではありません。
+about-private-browsing-hide-activity = あなたの行動と位置情報のすべてを秘匿します
+about-private-browsing-get-privacy = どこでもプライバシーを確保
+about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } であなたの行動と位置情報を秘匿できます。公共 Wi-Fi でもクリックひとつで安全な接続を確保できます。
+about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライバシーを確保
+about-private-browsing-search-banner-title = { $engineName } はプライベートウィンドウでの既定の検索エンジンです
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">オプション</a>を開いてください。
+       *[other] 別の検索エンジンを選択するには、<a data-l10n-name="link-options">設定</a>を開いてください。
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = 閉じる
+about-private-browsing-promo-close-button =
+    .title = 閉じる
+about-private-browsing-pin-promo-header = クリック一つで自由にプライベートブラウジング
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+        [macos] Dock に追加
+       *[other] タスクバーにピン留め
+    }
+about-private-browsing-pin-promo-title = Cookie や履歴を保存せず、デスクトップからすぐ使えます。誰からも監視されずブラウジングできます。
+about-private-browsing-relay-promo-header = メールマスクで受信トレイへのスパムを防ぎます
+about-private-browsing-relay-promo-title = ログインやお買い物、オンライン共有時に使用する実際のメールアドレスをメールマスクで隠します。
+about-private-browsing-relay-promo-link-text = メールマスクを試す
+about-private-browsing-felt-privacy-v1-info-header = この端末を追跡させません
+about-private-browsing-felt-privacy-v1-info-body = すべてのプライベートウィンドウを閉じると、{ -brand-short-name } により Cookie、履歴、サイトデータが削除されます。
+about-private-browsing-felt-privacy-v1-info-link = 私の行動を知ることができるのは誰？
+about-private-browsing-nova-info-header = あなたの行動は記録されません
+about-private-browsing-nova-info-subheader2 = すべてのプライベートウィンドウを閉じると、検索履歴とログイン状態がリセットされます。トラッカーのブロックなど { -brand-short-name } に組み込まれた防護機能はここでも有効です。
+about-private-browsing-nova-info-body = すべてのプライベートウィンドウを閉じると、Cookie、履歴、サイトデータが削除されます。
+about-private-browsing-nova-info-link = それでも私の行動を知ることができるのは誰？

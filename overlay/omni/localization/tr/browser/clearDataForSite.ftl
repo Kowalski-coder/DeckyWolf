@@ -1,0 +1,9 @@
+clear-data-for-site-title = Bu web sitesinin tüm verileri temizlensin mi?
+clear-data-for-site-list = Bu işlem, aşağıdakiler de dahil olmak üzere { $site } sitesine ait tüm verileri temizler:
+clear-data-for-site-browsing-history = Gezinti ve indirme geçmişi
+clear-data-for-site-cookies = Çerezler ve site verileri (Oturumlarınızın kapanmasına neden olabilir)
+clear-data-for-site-cache = Önbelleğe alınmış dosyalar ve sayfalar
+cclear-data-for-site-permissions = İzinler ve tercihler
+clear-data-for-site-exceptions = Yer imleri ve kayıtlı parolalar silinmeyecektir
+clear-data-for-site-dialog-accept-button = Verileri temizle
+clear-data-for-site-dialog-cancel-button = Vazgeç

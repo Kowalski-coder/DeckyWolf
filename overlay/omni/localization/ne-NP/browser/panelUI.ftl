@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ओभरफ्लो मेनुबाट अनपिन गर्नुहोस्
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = टुलबारमा थप्नुहोस्
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = ओभरफ्लो मेनुमा थप्नुहोस्
+    .accesskey = M
+panic-button-thankyou-msg1 = तपाईँको हालको इतिहास खाली भयो।
+panic-button-thankyou-msg2 = सुरक्षित ब्राउजिङ्ग!
+panic-button-thankyou-button =
+    .label = धन्यवाद!

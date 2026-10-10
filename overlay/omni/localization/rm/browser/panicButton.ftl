@@ -1,0 +1,15 @@
+panic-button-open-new-window = ina nova fanestra vida averta
+panic-button-undo-warning = Questa acziun na po betg vegnir revocada.
+panic-button-forget-button =
+    .label = Emblidar!
+panic-main-timeframe-desc = Emblidar las ultimas:
+panic-button-5min =
+    .label = Tschintg minutas
+panic-button-2hr =
+    .label = Duas uras
+panic-button-day =
+    .label = 24 uras
+panic-button-action-desc = Sche ti cuntinueschas, vegnan:
+panic-button-delete-cookies = ils ultims <strong>cookies</strong> stizzads
+panic-button-delete-history = la <strong>cronologia</strong> stizzada
+panic-button-delete-tabs-and-windows = tut ils <strong>tabs</strong> e tut las <strong>fanestras</strong> serradas

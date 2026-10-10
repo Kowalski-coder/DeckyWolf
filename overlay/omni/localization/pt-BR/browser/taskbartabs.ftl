@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Adicionar aba à barra de tarefas
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Remover aba da barra de tarefas
+taskbar-tab-urlbar-button-show = Mostrar ação da página de aplicativo web
+taskbar-tab-urlbar-button-hide = Ocultar ação da página de aplicativo web
+taskbar-tab-shortcut-description = Aplicativo web { $name }
+taskbar-tab-shortcut-folder = Aplicativos web do { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Silenciar aba
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ativar som da aba
+taskbar-tab-title-default = { $name } no { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) no { -brand-full-name }
+taskbar-tab-title-profile = { $name } em { $profile } - { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) em { $profile } — { -brand-full-name }

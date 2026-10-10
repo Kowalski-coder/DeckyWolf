@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Адмацаваць з меню перапаўнення
+    .accesskey = А
+customize-menu-add-to-toolbar =
+    .label = Дадаць на паліцу прылад
+    .accesskey = Д
+customize-menu-add-to-overflowmenu =
+    .label = Дадаць у меню перапаўнення
+    .accesskey = Д
+panic-button-thankyou-msg1 = Ваша нядаўняя гісторыя ачышчана.
+panic-button-thankyou-msg2 = Бяспечнае агляданне!
+panic-button-thankyou-button =
+    .label = Дзякуй!

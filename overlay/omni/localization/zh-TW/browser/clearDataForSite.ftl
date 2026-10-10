@@ -1,0 +1,9 @@
+clear-data-for-site-title = 要清除此網站的所有資料嗎？
+clear-data-for-site-list = 將清除 { $site } 的所有資料，包含：
+clear-data-for-site-browsing-history = 瀏覽與下載紀錄
+clear-data-for-site-cookies = Cookie 與網站資料，可能會將您從網站登出
+clear-data-for-site-cache = 快取的檔案與頁面
+cclear-data-for-site-permissions = 權限與偏好設定
+clear-data-for-site-exceptions = 不會清除書籤與網站密碼
+clear-data-for-site-dialog-accept-button = 清除資料
+clear-data-for-site-dialog-cancel-button = 取消

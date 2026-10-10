@@ -1,0 +1,17 @@
+about-policies-title = Polìticas aziendales
+aboutpolicies-page-heading =
+    .heading = Informatziones de is polìticas
+active-policies-tab = Ativas
+errors-tab = Faddinas
+documentation-tab = Documentatzione
+active-policies-tab-title =
+    .title = Ativas
+errors-tab-title =
+    .title = Faddinas
+documentation-tab-title =
+    .title = Documentatzione
+no-specified-policies-message = Su servìtziu de polìticas aziendales est ativu ma non nche sunt polìticas abilitadas.
+inactive-message = Su servìtziu de polìticas aziendales no est ativu.
+policy-name = Nòmine de sa polìtica
+policy-value = Valore de sa polìtica
+policy-errors = Faddinas de sa polìtica

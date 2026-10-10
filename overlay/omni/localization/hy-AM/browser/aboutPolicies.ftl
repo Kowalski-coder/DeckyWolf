@@ -1,0 +1,17 @@
+about-policies-title = Ձեռնարկությունների քաղաքականություն
+aboutpolicies-page-heading =
+    .heading = Քաղաքականությունների մասին
+active-policies-tab = Ակտիվ
+errors-tab = Սխալներ
+documentation-tab = Փաստաթղթեր
+active-policies-tab-title =
+    .title = Ակտիվ
+errors-tab-title =
+    .title = Սխալներ
+documentation-tab-title =
+    .title = Փաստաթղթեր
+no-specified-policies-message = Ձեռնարկությունների քաղաքականության ծառայությունը ակտիվ է, սակայն ակտիվ քաղաքականություն չկա:
+inactive-message = Ձեռնարկությունների քաղաքականության ծառայությունը չի գործում:
+policy-name = Քաղաքականության անվանումը
+policy-value = Քաղաքականության արժեք
+policy-errors = Քաղաքական սխալներ

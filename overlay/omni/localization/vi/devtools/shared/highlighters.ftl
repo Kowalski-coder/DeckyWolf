@@ -1,0 +1,13 @@
+grid-row-column-positions = Hàng { $row } / Cột { $column }
+gridtype-container = Ngăn chứa lưới
+gridtype-item = Mục lưới
+gridtype-dual = Ngăn chứa/mục lưới
+flextype-container = Ngăn chứa Flex
+flextype-item = Mục Flex
+flextype-dual = Ngăn chứa/mục Flex
+remote-node-picker-notice = Đã bật trình chọn Node của DevTools. { $action }
+remote-node-picker-notice-action-desktop = Nhấp vào một phần tử để chọn nó trong Trình kiểm tra
+remote-node-picker-notice-action-touch = Nhấn vào một phần tử để chọn nó trong Trình kiểm tra
+remote-node-picker-notice-hide-button = Ẩn
+simple-highlighters-message = Khi prefers-reduced-motion được bật, công cụ tô sáng đơn giản hơn có thể được bật trong bảng cài đặt, để tránh màu sắc nhấp nháy.
+simple-highlighters-settings-button = Mở cài đặt

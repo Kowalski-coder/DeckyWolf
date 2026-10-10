@@ -1,0 +1,10 @@
+accessibility-text-label-header = ਲਿਖਤ ਦੇ ਲੇਬਲ ਅਤੇ ਨਾਂ
+accessibility-keyboard-header = ਕੀਬੋਰਡ
+accessibility-progress-initializing = ਸ਼ੁਰੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ…
+    .aria-valuetext = ਸ਼ੁਰੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ…
+accessibility-warning =
+    .alt = ਚੇਤਾਵਨੀ
+accessibility-fail =
+    .alt = ਗਲਤੀ
+accessibility-best-practices =
+    .alt = ਵਧੀਆ ਪ੍ਰੈਕਟਿਸਾਂ

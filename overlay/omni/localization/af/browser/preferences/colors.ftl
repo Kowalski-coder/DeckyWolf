@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Teks en agtergrond
+colors-text =
+    .label = Teks
+    .accesskey = T
+colors-text-background =
+    .label = Agtergrond
+    .accesskey = A
+colors-links-header = Skakelkleure
+colors-links-unvisited =
+    .label = Onbesoekte Skakels:
+    .accesskey = O
+colors-links-visited =
+    .label = Besoekte skakels
+    .accesskey = B

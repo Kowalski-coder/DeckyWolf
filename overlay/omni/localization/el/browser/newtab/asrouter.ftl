@@ -1,0 +1,272 @@
+cfr-doorhanger-extension-heading = Προτεινόμενη επέκταση
+cfr-doorhanger-feature-heading = Προτεινόμενη λειτουργία
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Γιατί το βλέπω αυτό
+cfr-doorhanger-extension-cancel-button = Όχι τώρα
+    .accesskey = χ
+cfr-doorhanger-extension-ok-button = Προσθήκη τώρα
+    .accesskey = σ
+cfr-doorhanger-extension-manage-settings-button = Διαχείριση ρυθμίσεων προτάσεων
+    .accesskey = Δ
+cfr-doorhanger-extension-never-show-recommendation = Να μην εμφανίζεται αυτή η πρόταση
+    .accesskey = Ν
+cfr-doorhanger-extension-learn-more-link = Μάθετε περισσότερα
+cfr-doorhanger-extension-author = από { $name }
+cfr-doorhanger-extension-notification = Πρόταση
+cfr-doorhanger-extension-notification2 = Πρόταση
+    .a11y-announcement = Διαθέσιμη πρόταση επέκτασης
+    .tooltiptext = Πρόταση επέκτασης
+cfr-doorhanger-feature-notification = Πρόταση
+    .a11y-announcement = Διαθέσιμη πρόταση λειτουργίας
+    .tooltiptext = Πρόταση λειτουργίας
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } αστέρι
+           *[other] { $total } αστέρια
+        }
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } χρήστης
+       *[other] { $total } χρήστες
+    }
+cfr-doorhanger-bookmark-fxa-header = Συγχρονίστε παντού τους σελιδοδείκτες σας.
+cfr-doorhanger-bookmark-fxa-body-2 = Εξαιρετική ανακάλυψη! Μην ξεχάσετε να αποθηκεύσετε αυτόν τον σελιδοδείκτη στις κινητές συσκευές σας. Ξεκινήστε με έναν λογαριασμό.
+cfr-doorhanger-bookmark-fxa-link-text = Συγχρονισμός σελιδοδεικτών τώρα…
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Κουμπί κλεισίματος
+    .title = Κλείσιμο
+fxa-adoption-addresses-backup-title = Ας δημιουργήσουμε αντίγραφα ασφαλείας των αποθηκευμένων διευθύνσεών σας
+fxa-adoption-addresses-backup-subtitle = Προστατέψτε τις αποθηκευμένες διευθύνσεις σας συγχρονίζοντάς τες με κρυπτογράφηση στις συσκευές σας.
+fxa-adoption-credit-cards-backup-title = Ας δημιουργήσουμε αντίγραφα ασφαλείας των μεθόδων πληρωμής σας
+fxa-adoption-credit-cards-backup-subtitle = Προστατέψτε τις μεθόδους πληρωμής σας συγχρονίζοντάς τες με κρυπτογράφηση στις συσκευές σας.
+fxa-adoption-bookmarks-treatment-backup-title = Ας δημιουργήσουμε αντίγραφα ασφαλείας των σελιδοδεικτών σας
+fxa-adoption-bookmarks-treatment-backup-subtitle = Προστατέψτε τους σελιδοδείκτες σας συγχρονίζοντάς τους με κρυπτογράφηση στις συσκευές σας.
+fxa-adoption-primary-button-label = Εγγραφή
+cfr-badge-reader-label-newfeature = Νέο χαρακτηριστικό:
+cfr-whatsnew-button =
+    .label = Τι νέο υπάρχει
+    .tooltiptext = Τι νέο υπάρχει
+cfr-whatsnew-release-notes-link-text = Διαβάστε τις σημειώσεις έκδοσης
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+       *[other] Το { -brand-short-name } απέκλεισε πάνω από <b>{ $blockedCount }</b> ιχνηλάτες από τις { DATETIME($date, month: "long", year: "numeric") }!
+    }
+cfr-doorhanger-milestone-ok-button = Προβολή όλων
+    .accesskey = Π
+cfr-doorhanger-milestone-close-button = Κλείσιμο
+    .accesskey = Κ
+cfr-doorhanger-doh-body = Το απόρρητό σας έχει σημασία. Το { -brand-short-name } δρομολογεί πλέον με ασφάλεια τα αιτήματα DNS σας, όποτε είναι δυνατόν, σε μια συνεργαζόμενη υπηρεσία για να σας προστατεύσει κατά την περιήγησή σας.
+cfr-doorhanger-doh-header = Πιο ασφαλείς, κρυπτογραφημένες αναζητήσεις DNS
+cfr-doorhanger-doh-primary-button-2 = Εντάξει
+    .accesskey = Ε
+cfr-doorhanger-doh-secondary-button = Απενεργοποίηση
+    .accesskey = Α
+cfr-doorhanger-video-support-body = Τα βίντεο αυτού του ιστοτόπου ενδέχεται να μην αναπαράγονται σωστά σε αυτήν την έκδοση του { -brand-short-name }. Για πλήρη υποστήριξη βίντεο, ενημερώστε το { -brand-short-name } τώρα.
+cfr-doorhanger-video-support-header = Ενημερώστε το { -brand-short-name } για αναπαραγωγή του βίντεο
+cfr-doorhanger-video-support-primary-button = Ενημέρωση τώρα
+    .accesskey = Ε
+spotlight-public-wifi-vpn-header = Φαίνεται ότι χρησιμοποιείτε δημόσιο Wi-Fi
+spotlight-public-wifi-vpn-body = Για να αποκρύψετε την τοποθεσία και τη διαδικτυακή σας δραστηριότητα, δοκιμάστε ένα VPN. Θα σας προστατεύει κατά την περιήγηση από δημόσια μέρη, όπως αεροδρόμια και καφετέριες.
+spotlight-public-wifi-vpn-primary-button = Προστατέψτε το απόρρητό σας με το { -mozilla-vpn-brand-name }
+    .accesskey = Π
+spotlight-public-wifi-vpn-link = Όχι τώρα
+    .accesskey = Ό
+spotlight-better-internet-header = Ένα καλύτερο διαδίκτυο ξεκινά από εσάς
+spotlight-better-internet-body = Όταν χρησιμοποιείτε το { -brand-short-name }, υποστηρίζετε ένα ανοικτό και προσβάσιμο διαδίκτυο που είναι καλύτερο για όλους.
+spotlight-peace-mind-header = Πάντα στο πλευρό σας
+spotlight-peace-mind-body = Κάθε μήνα, το { -brand-short-name } αποκλείει κατά μέσο όρο πάνω από 3.000 ιχνηλάτες ανά χρήστη. Επειδή τίποτα, ειδικά πολέμιοι του απορρήτου όπως οι ιχνηλάτες, δεν θα έπρεπε να στέκεται ανάμεσα σε εσάς και στο καλό διαδίκτυο.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Διατήρηση στο Dock
+       *[other] Καρφίτσωμα στη γραμμή εργασιών
+    }
+spotlight-pin-secondary-button = Όχι τώρα
+mr2022-background-update-toast-title = Νέο { -brand-short-name }. Πιο ιδιωτικό. Λιγότεροι ιχνηλάτες. Χωρίς συμβιβασμούς.
+mr2022-background-update-toast-text = Δοκιμάστε το νεότερο { -brand-short-name } τώρα, αναβαθμισμένο με την ισχυρότερη προστασία κατά της καταγραφής μέχρι σήμερα.
+mr2022-background-update-toast-primary-button-label = Άνοιγμα του { -brand-shorter-name }
+mr2022-background-update-toast-secondary-button-label = Υπενθύμιση αργότερα
+july-jam-headline = Πάντα στο πλευρό σας
+july-jam-body = Κάθε μήνα, το { -brand-short-name } αποκλείει κατά μέσο όρο 3.000+ ιχνηλάτες ανά χρήστη, παρέχοντάς σας ασφαλή και γρήγορη πρόσβαση στο διαδίκτυο.
+july-jam-set-default-primary = Άνοιγμα συνδέσμων με το { -brand-short-name }
+fox-doodle-pin-headline = Καλώς ορίσατε και πάλι
+fox-doodle-pin-body = Ακολουθεί μια γρήγορη υπενθύμιση ότι μπορείτε να έχετε το αγαπημένο σας, ανεξάρτητο πρόγραμμα περιήγησης μόνο ένα κλικ μακριά.
+fox-doodle-pin-primary = Άνοιγμα συνδέσμων με το { -brand-short-name }
+fox-doodle-pin-secondary = Όχι τώρα
+set-default-pdf-handler-headline = <strong>Τα PDF σας ανοίγουν πλέον στο { -brand-short-name }.</strong> Επεξεργαστείτε ή υπογράψτε φόρμες απευθείας από το πρόγραμμα περιήγησής σας. Για αλλαγή, αναζητήστε «PDF» στις ρυθμίσεις.
+set-default-pdf-handler-primary = Το κατάλαβα
+annotations-default-pdf-handler-headline = Προσθέστε την υπογραφή σας οπουδήποτε!
+annotations-default-pdf-handler-body = Σχεδιάστε, πληκτρολογήστε ή μεταφορτώστε την υπογραφή σας και έπειτα, τοποθετήστε την ακριβώς εκεί που θέλετε. Αποθηκεύστε τις προτιμώμενες υπογραφές σας για την επόμενη φορά.
+annotations-make-default-pdf-handler-title = Ορισμός του { -brand-short-name } ως προεπιλεγμένου εργαλείου επεξεργασίας PDF;
+annotations-make-default-pdf-handler-subtitle = Θα έχετε πρόσβαση στα εργαλεία μας κάθε φορά που ανοίγετε ένα PDF.
+annotations-make-default-pdf-primary-cta-label = Ορισμός ως προεπιλογή
+annotations-make-default-pdf-next-label = Επόμενο
+fxa-sync-cfr-header = Νέα συσκευή στο μέλλον;
+fxa-sync-cfr-body = Βεβαιωθείτε ότι οι πιο πρόσφατοι σελιδοδείκτες, οι κωδικοί πρόσβασης και οι καρτέλες σας έρχονται μαζί σας κάθε φορά που ανοίγετε ένα νέο πρόγραμμα περιήγησης { -brand-product-name }.
+fxa-sync-cfr-primary = Μάθετε περισσότερα
+    .accesskey = Μ
+fxa-sync-cfr-secondary = Υπενθύμιση αργότερα
+    .accesskey = Υ
+device-migration-fxa-spotlight-heavy-user-header = Μην ξεχάσετε να δημιουργήσετε αντίγραφα ασφαλείας των δεδομένων σας
+device-migration-fxa-spotlight-heavy-user-body = Βεβαιωθείτε ότι οι σημαντικές πληροφορίες, όπως σελιδοδείκτες και κωδικοί πρόσβασης, παραμένουν ενημερωμένες και ασφαλείς σε όλες τις συσκευές σας.
+device-migration-fxa-spotlight-heavy-user-primary-button = Έναρξη
+device-migration-fxa-spotlight-older-device-header = Ηρεμία και ασφάλεια, από το { -brand-product-name }
+device-migration-fxa-spotlight-older-device-body = Ένας λογαριασμός διατηρεί ενημερωμένες και ασφαλείς τις σημαντικές πληροφορίες σας σε όποια συσκευή κάνετε σύνδεση.
+device-migration-fxa-spotlight-older-device-primary-button = Δημιουργία λογαριασμού
+device-migration-fxa-spotlight-getting-new-device-header-2 = Νέα συσκευή στο μέλλον;
+device-migration-fxa-spotlight-getting-new-device-body-2 = Ακολουθήστε μερικά απλά βήματα για να έχετε μαζί σας τους σελιδοδείκτες, το ιστορικό και τους κωδικούς πρόσβασής σας όταν ξεκινάτε σε μια νέα συσκευή.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Δημιουργία αντιγράφων ασφαλείας δεδομένων
+device-migration-fxa-spotlight-sync-header = Περιηγηθείτε χωρίς να χάσετε λεπτό
+device-migration-fxa-spotlight-sync-body = Συγχρονίστε όλα τα σημαντικά δεδομένα σας με κρυπτογράφηση, όπως σελιδοδείκτες και κωδικούς πρόσβασης. Μπορείτε να φέρετε τα πάντα σε όποια συσκευή χρησιμοποιείτε το { -brand-product-name }.
+device-migration-fxa-spotlight-sync-primary-button = Ξεκινήστε
+pdf-default-notification-message = <strong>Να οριστεί το { -brand-short-name } ως η προεπιλεγμένη εφαρμογή προβολής PDF;</strong> Χρησιμοποιήστε το { -brand-short-name } για την ανάγνωση και την επεξεργασία των PDF που αποθηκεύετε στον υπολογιστή σας.
+pdf-default-notification-set-default-button =
+    .label = Ορισμός ως προεπιλογή
+pdf-default-notification-decline-button =
+    .label = Όχι τώρα
+launch-on-login-autostart-infobar-message = Το { -brand-short-name } ανοίγει πλέον κατά τη σύνδεσή σας στα Windows. Μπορείτε πάντα να αλλάξετε αυτήν τη συμπεριφορά αργότερα στις ρυθμίσεις.
+launch-on-login-autostart-infobar-keep-button = Να παραμείνει ενεργή
+    .accesskey = μ
+launch-on-login-autostart-infobar-turn-off-button = Απενεργοποίηση
+    .accesskey = Α
+tail-fox-spotlight-title = Κρατήστε μακριά τους ενοχλητικούς ιχνηλάτες
+tail-fox-spotlight-subtitle = Πείτε αντίο στους ενοχλητικούς ιχνηλάτες διαφημίσεων και απολαύστε μια πιο ασφαλή και γρήγορη εμπειρία στο διαδίκτυο.
+tail-fox-spotlight-primary-button = Άνοιγμα συνδέσμων με το { -brand-short-name }
+tail-fox-spotlight-secondary-button = Όχι τώρα
+welcome-back-spotlight-title = Επιστρέψτε στο ενσωματωμένο απόρρητο
+welcome-back-spotlight-subtitle = Καλώς ορίσατε και πάλι στο μόνο μεγάλο πρόγραμμα περιήγησης που υποστηρίζεται από έναν μη κερδοσκοπικό οργανισμό. Λαμβάνουμε επιπλέον μέτρα για την προστασία των δεδομένων σας, όπου κι αν περιηγείστε.
+welcome-back-embedded-import-title = Εισαγάγετε τα δεδομένα σας και νιώστε σαν στο σπίτι σας στο { -brand-short-name }
+root-certificate-succession-infobar-january-message = <strong>Οι παλαιότερες εκδόσεις του { -brand-short-name } ίσως αρχίσουν να έχουν προβλήματα στις 14 Ιανουαρίου 2025.</strong>
+root-certificate-succession-infobar-march-message = <strong>Κάντε ενημέρωση για να συνεχίσετε τη χρήση του { -brand-short-name } μετά τις 14 Μαρτίου 2025.</strong>
+root-certificate-succession-infobar-link = Γιατί πρέπει να κάνω ενημέρωση;
+root-certificate-succession-infobar-primary-button =
+    .label = Ενημέρωση τώρα
+    .accesskey = Ε
+root-certificate-succession-infobar-secondary-button =
+    .label = Αργότερα
+    .accesskey = Α
+root-certificate-windows-background-notification-title = Χάσατε μια σημαντική ενημέρωση του { -brand-short-name }
+root-certificate-windows-background-notification-subtitle = Ορισμένα τμήματα του προγράμματος περιήγησης θα σταματήσουν να λειτουργούν σύντομα αν δεν κάνετε ενημέρωση. Τώρα είναι η κατάλληλη στιγμή να λάβετε τις πιο πρόσφατες λύσεις προστασίας και λειτουργίες μας.
+root-certificate-windows-background-notification-learn-more-button = Μάθετε περισσότερα
+root-certificate-windows-background-notification-update-button = Ενημέρωση του { -brand-short-name }
+fxa-menu-message-close-button =
+    .aria-label = Κλείσιμο
+    .title = Κλείσιμο
+fxa-menu-message-sign-up-button = Εγγραφή
+fxa-menu-message-sign-in-button = Σύνδεση
+fxa-menu-message-sync-button = Έναρξη συγχρονισμού
+fxa-menu-message-sync-devices-primary-text = Συγχρονισμός με όλες τις συσκευές σας
+fxa-menu-message-sync-devices-secondary-text = Λάβετε άμεσα τα δεδομένα σας, όπως σελιδοδείκτες και κωδικούς πρόσβασης, σε οποιαδήποτε συσκευή με το { -brand-short-name }.
+fxa-menu-message-sync-devices-secondary-text2 = Λάβετε άμεσα τους σελιδοδείκτες, τους κωδικούς πρόσβασης και πολλά άλλα, σε όποια συσκευή έχετε συνδεθεί στο { -brand-short-name }.
+fxa-menu-message-sync-devices-collapsed-text = Συγχρονισμός με όλες τις συσκευές σας
+fxa-menu-message-backup-data-primary-text = Αντίγραφα δεδομένων του προγράμματος περιήγησής σας
+fxa-menu-message-backup-data-secondary-text = Προστατέψτε αυτόματα τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα σε όλες τις συσκευές σας.
+fxa-menu-message-backup-data-collapsed-text = Αντίγραφα δεδομένων προγράμματος περιήγησης
+fxa-menu-message-backup-sync-primary-text = Προστασία και συγχρονισμός δεδομένων
+fxa-menu-message-backup-sync-secondary-text = Το Sync δημιουργεί αντίγραφα ασφαλείας των περισσότερων δεδομένων σας, ώστε να έχετε πρόσβαση σε αυτά από οποιαδήποτε συσκευή με το { -brand-short-name }.
+fxa-menu-message-backup-sync-collapsed-text = Συγχρονισμός και αντίγραφα δεδομένων
+fxa-menu-message-mobile-primary-text = Αποστολή καρτελών στο τηλέφωνό σας
+fxa-menu-message-mobile-secondary-text = Συνεχίστε από εκεί που σταματήσατε όταν συγχρονίζετε τις καρτέλες σας με μια κινητή συσκευή.
+fxa-menu-message-mobile-collapsed-text = Συγχρονισμός με το τηλέφωνό σας
+multi-cta-fox-doodle-title = Καλώς ορίσατε και πάλι
+multi-cta-fox-doodle-set-default-checkbox = Ορισμός του { -brand-short-name } ως προεπιλογή
+multi-cta-fox-doodle-pin-startmenu-checkbox = Καρφίτσωμα του { -brand-short-name } στο μενού έναρξης
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] Διατήρηση του { -brand-short-name } στο Dock
+       *[other] Καρφίτσωμα του { -brand-short-name } στη γραμμή εργασιών
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Έναρξη περιήγησης
+multi-cta-fox-doodle-main-browser-primary-button-label = Ορισμός του { -brand-short-name } ως προεπιλογής
+multi-cta-fox-doodle-quick-reminder-subtitle = Ακολουθεί μια γρήγορη υπενθύμιση ότι μπορείτε να έχετε το αγαπημένο σας πρόγραμμα περιήγησης που έχει ως επίκεντρο το απόρρητό σας, μόνο ένα κλικ μακριά.
+multi-cta-fox-doodle-privacy-focused-subtitle =
+    { PLATFORM() ->
+        [macos] Κρατήστε σε απόσταση ενός κλικ το αγαπημένο σας πρόγραμμα περιήγησης, που δίνει έμφαση στο απόρρητο. Ορίστε το { -brand-short-name } ως προεπιλογή για το άνοιγμα συνδέσμων και τοποθετήστε το στο Dock σας.
+       *[other] Κρατήστε σε απόσταση ενός κλικ το αγαπημένο σας πρόγραμμα περιήγησης, που δίνει έμφαση στο απόρρητο. Ορίστε το { -brand-short-name } ως προεπιλογή για το άνοιγμα συνδέσμων και καρφιτσώστε το στη γραμμή εργασιών σας.
+    }
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = Κρατήστε σε απόσταση ενός κλικ το αγαπημένο σας πρόγραμμα περιήγησης, που δίνει έμφαση στο απόρρητο. Ορίστε το { -brand-short-name } ως προεπιλογή για το άνοιγμα συνδέσμων και καρφιτσώστε το στη γραμμή εργασιών και το μενού «Έναρξη» σας.
+windows-10-eos-sync-spotlight-title = Σκοπεύετε να κάνετε σύντομα αναβάθμιση από τα Windows 10;
+windows-10-eos-sync-spotlight-subtitle = Δημιουργήστε αντίγραφα ασφαλείας των κωδικών πρόσβασης και των σελιδοδεικτών σας, ώστε να κάνετε τη μετάβαση σε οποιαδήποτε συσκευή.
+windows-10-eos-sync-spotlight-primary-label = Δημιουργήστε αντίγραφο ασφαλείας για το { -brand-short-name } σας
+windows-10-eos-sync-toast-title = Κάνετε αναβάθμιση στα Windows 11; Μην χάσετε σελιδοδείκτες και κωδικούς πρόσβασης.
+windows-10-eos-sync-toast-subtitle = Δημιουργήστε αντίγραφα ασφαλείας των δεδομένων σας, ώστε το { -brand-short-name } να είναι έτοιμο ανά πάσα στιγμή, σε αυτόν ή στον νέο υπολογιστή σας.
+windows-10-eos-sync-toast-primary-label = Έναρξη
+windows-10-eos-sync-toast-secondary-label = Υπενθύμιση αργότερα
+windows-10-eos-challenger-callout-title = Το { -brand-product-name } δεν είναι προφορτωμένο όπως τα άλλα μεγάλα προγράμματα περιήγησης. Αυτή είναι η ουσία.
+windows-10-eos-challenger-sync-callout-subtitle = Όταν δημιουργείτε αντίγραφα ασφαλείας των σελιδοδεικτών και των κωδικών πρόσβασης του { -brand-product-name }, είναι πιο εύκολο να μεταφέρετε το πρόγραμμα περιήγησης που επιλέξατε σε άλλη συσκευή σας.
+windows-10-eos-challenger-pin-callout-subtitle = Καρφιτσώστε το { -brand-shorter-name } στη γραμμή εργασιών σας, ώστε το πρόγραμμα περιήγησης που επιλέξατε να είναι πάντα διαθέσιμο όταν το χρειάζεστε.
+windows-10-eos-challenger-sync-primary-button = Αντίγραφο ασφαλείας { -brand-shorter-name }
+windows-10-eos-challenger-pin-primary-button = Καρφίτσωμα του { -brand-shorter-name }
+windows-10-eos-sync-callout-privacy-screen-1-title = Το { -brand-product-name } αποκλείει cryptominer, ιχνηλάτες μέσων κοινωνικής δικτύωσης και fingerprinter.
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = Οι ιχνηλάτες δεν μπορούν να αναγνωρίσουν τη συσκευή σας ή να σας ακολουθήσουν στο διαδίκτυο, επειδή δεν τους επιτρέπεται.
+windows-10-eos-sync-callout-privacy-screen-2-title = Προστατέψτε τους κωδικούς πρόσβασης και τους σελιδοδείκτες σας για την επόμενη συσκευή σας.
+windows-10-eos-sync-callout-privacy-screen-2-subtitle = Με τη δημιουργία αντιγράφων ασφαλείας του { -brand-shorter-name }, μπορείτε να έχετε μαζί σας εύκολα τις ρυθμίσεις δεδομένων και απορρήτου.
+windows-10-eos-sync-callout-privacy-info-button = Δείτε τι αποκλείεται
+windows-10-eos-callout-addons-title = Δοκιμάστε πρόσθετα: απλές αναβαθμίσεις, μεγάλες επιπτώσεις
+windows-10-eos-callout-addons-subtitle = Αυτές οι επεκτάσεις επιλέχθηκαν για να παραμείνετε παραγωγικοί, προστατευμένοι και χωρίς περισπασμούς.
+windows-10-eos-callout-addons-primary-button = Δείτε τις επιλογές μας
+windows-10-eos-sync-callout-addons-title = Μην χάσετε τα πρόσθετα σας όταν κάνετε αναβάθμιση από τα Windows 10.
+windows-10-eos-sync-callout-addons-subtitle = Κάντε συγχρονισμό τώρα για να είναι πάντα διαθέσιμα τα πρόσθετα του { -brand-product-name } σας, ακόμα και μετά από αλλαγή συσκευής.
+windows-10-eos-sync-callout-next-button = Επόμενο
+windows-10-eos-sync-callout-get-started-button = Έναρξη
+windows-10-eos-feature-toast-title = Οι κάθετες καρτέλες και οι ομάδες καρτελών είναι εδώ!
+windows-10-eos-feature-toast-subtitle = Μετά από λαϊκή απαίτηση, το { -brand-product-name } έφερε νέες λειτουργίες για πιο απλοποιημένη και παραγωγική περιήγηση.
+windows-10-eos-feature-toast-whats-new-button = Δείτε τι νέο υπάρχει
+windows-10-eos-feature-toast-dismiss-button = Απόρριψη
+windows-10-eos-global-infobar-title = <strong>Η Microsoft δεν υποστηρίζει πλέον τα Windows 10.</strong> Δημιουργήστε ένα αντίγραφο ασφαλείας των δεδομένων σας για να ετοιμάσετε το { -brand-product-name } για τα Windows 11.
+windows-10-eos-global-infobar-primary-button = Ενεργοποίηση αντιγράφου ασφαλείας
+    .accesskey = τ
+windows-10-eos-global-infobar-learn-more-link = Μάθετε περισσότερα
+    .accessKey = Μ
+etp-strict-exceptions-infobar-message = <strong>Η αυστηρή προστασία από καταγραφή μπορεί να προκαλέσει δυσλειτουργίες στους ιστοτόπους.</strong> Διορθώστε κοινά ζητήματα άροντας τον αποκλεισμό των βασικών στοιχείων που ενδέχεται να περιέχουν ιχνηλάτες.
+etp-strict-exceptions-infobar-learn-more = Μάθετε περισσότερα
+etp-strict-exceptions-infobar-button = Εφαρμογή διορθώσεων
+    .accesskey = Ε
+etp-strict-exceptions-infobar-not-now = Όχι τώρα
+    .accesskey = χ
+set-default-menu-message-simple-layout-title = Το { -brand-short-name } δεν είναι το προεπιλεγμένο πρόγραμμα περιήγησής σας
+set-default-menu-message-simple-layout-title-variant = Το { -brand-short-name } δεν είναι το κύριο πρόγραμμα περιήγησής σας
+set-default-menu-message-row-layout-title = Ορισμός του { -brand-short-name } ως κύριου προγράμματος περιήγησης
+set-default-menu-message-row-layout-title-variant = Ορισμός του { -brand-short-name } ως προεπιλεγμένου προγράμματος περιήγησης
+set-default-menu-message-row-layout-subtitle = Ταχύτητα, ασφάλεια και ιδιωτικότητα σε κάθε περιήγησή σας.
+set-default-menu-message-row-layout-subtitle-variant =
+    { PLATFORM() ->
+        [macos] Αποκτήστε άμεση πρόσβαση στο { -brand-short-name } — ορίστε το ως προεπιλογή και κρατήστε το στο Dock σας.
+       *[other] Αποκτήστε άμεση πρόσβαση στο { -brand-short-name } — ορίστε το ως προεπιλογή και κρατήστε το στη γραμμή εργασιών σας.
+    }
+set-default-menu-message-split-layout-title =
+    { PLATFORM() ->
+        [macos] Κρατήστε το { -brand-short-name } κοντά σας
+       *[other] Άνοιγμα όλων των συνδέσμων με το { -brand-short-name }
+    }
+set-default-menu-message-split-layout-subtitle =
+    { PLATFORM() ->
+        [macos] Ορίστε το ως προεπιλογή και διατηρήστε το στο Dock σας.
+       *[other] Απολαύστε ταχύτερη περιήγηση και αυτόματη προστασία απορρήτου.
+    }
+set-default-menu-message-primary-button = Ορισμός ως προεπιλογή
+set-default-menu-message-primary-button-variant = Ορισμός ως κύριο πρόγραμμα περιήγησης
+set-default-menu-message-primary-button-short-variant = Ορισμός του { -brand-short-name } ως προεπιλογής
+relay-50-masks-announcement-title = 50 δωρεάν μάσκες email
+relay-50-masks-announcement-subtitle = Έχετε πλέον 50 δωρεάν μάσκες (αντί για 5). Χρησιμοποιήστε μία για κάθε λογαριασμό, ώστε να διατηρείτε το πραγματικό σας email απόρρητο.
+relay-50-masks-announcement-primary-button = Μετάβαση στο { -relay-brand-name }
+    .accesskey = Μ
+relay-50-masks-announcement-secondary-button = Απόρριψη
+    .accesskey = ψ
+nova-early-access-infobar-title = <strong>Το { -brand-product-name } αποκτά νέα εμφάνιση.</strong> Κάνετε προεπισκόπηση μιας πρώιμης, μη τελειοποιημένης έκδοσης πριν από την κυκλοφορία της αργότερα μέσα στο έτος.
+nova-early-access-share-feedback-link = Αποστολή σχολίων
+    .accesskey = σ
+nova-early-access-infobar-primary-button = Το κατάλαβα
+    .accesskey = κ
+launch-options-spotlight-title-launch-on-login = Εκκίνηση του { -brand-short-name } κάθε φορά που συνδέεστε στα Windows;
+launch-options-spotlight-title-session-restore = Επαναφορά της συνεδρίας σας κατά την επανεκκίνηση του { -brand-short-name };
+launch-options-spotlight-checkbox-launch-on-login = Άνοιγμα του { -brand-short-name } κατά την εκκίνηση
+launch-options-spotlight-checkbox-pin-to-taskbar = Καρφίτσωμα στη γραμμή εργασιών σας
+launch-options-spotlight-checkbox-restore-current = Επαναφορά τρεχόντων παραθύρων και καρτελών
+launch-options-spotlight-checkbox-restore-previous = Επαναφορά προηγούμενων παραθύρων και καρτελών
+launch-options-spotlight-primary-button-close = Αποθήκευση και κλείσιμο του { -brand-short-name }
+launch-options-spotlight-primary-button-launch = Αποθήκευση και συνέχεια
+lapsed-user-toast-title = Το { -brand-product-name } είναι ακόμα στο πλευρό σας
+lapsed-user-toast-subtitle = Δείτε νέους τρόπους περιήγησης με περισσότερες επιλογές, απόρρητο και έλεγχο.
+lapsed-user-toast-whats-new-button = Δείτε τι νέο υπάρχει
+lapsed-user-toast-dismiss-button = Απόρριψη

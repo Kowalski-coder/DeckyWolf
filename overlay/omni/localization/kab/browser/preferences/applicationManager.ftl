@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Aglam leqqayen n usnas
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Kkes
+    .accesskey = K
+app-manager-handle-protocol = Isnasen-a zemren ad ttusqedcen deg Iseɣwan { $type }.
+app-manager-handle-file = Isnasen-a zemren ad ttusqedcen deg Agbur { $type }.
+app-manager-web-app-info = Asnas-a web yezdeɣ deg:
+app-manager-local-app-info = Asnas-a atan deg:

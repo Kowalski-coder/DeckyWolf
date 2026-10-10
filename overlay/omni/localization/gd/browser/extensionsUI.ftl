@@ -1,0 +1,17 @@
+webext-default-search-description = Bu toigh le { $addonName } { $newEngine } a chur an àite an einnsein-luirg bhunaitich agad, { $currentEngine }. A bheil sin ceart gu leòr?
+webext-default-search-yes =
+    .label = Tha
+    .accesskey = Y
+webext-default-search-no =
+    .label = Chan eil
+    .accesskey = N
+addon-post-install-message = Chaidh { $addonName } a chur ris.
+webext-quarantine-confirmation-title = A bheil thu airson { $addonName } a ruith air làraichean cuingichte?
+webext-quarantine-confirmation-line-1 = Chan eil cead ruith aig an leudachan seo air an làrach seo gus an dàta agad a dhìon.
+webext-quarantine-confirmation-line-2 = Ma tha earbsa agad san leudachan seo, thoir cead dha an dàta agad a leughadh is atharrachadh air làraichean a chuingich { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Ceadaich
+    .accesskey = C
+webext-quarantine-confirmation-deny =
+    .label = Na ceadaich
+    .accesskey = N

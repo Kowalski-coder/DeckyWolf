@@ -1,0 +1,17 @@
+about-policies-title = Reglur fyrirtækis
+aboutpolicies-page-heading =
+    .heading = Um stefnur okkar
+active-policies-tab = Virkar
+errors-tab = Villur
+documentation-tab = Hjálparskjöl
+active-policies-tab-title =
+    .title = Virkar
+errors-tab-title =
+    .title = Villur
+documentation-tab-title =
+    .title = Hjálparskjöl
+no-specified-policies-message = Enterprise Policy þjónustan er virk, en engar reglur hafa verið virkjaðar.
+inactive-message = Enterprise Policy þjónustan er óvirkjuð.
+policy-name = Nafn á reglu
+policy-value = Gildi reglu
+policy-errors = Villur við stefnu

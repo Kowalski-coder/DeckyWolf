@@ -1,0 +1,14 @@
+default-bookmarks-title = Обележивачи
+default-bookmarks-heading = Обележивачи
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Потражите помоћ
+default-bookmarks-firefox-customize = Прилагодите Firefox
+default-bookmarks-firefox-community = Прикључите се
+default-bookmarks-firefox-about = О нама
+default-bookmarks-nightly-heading = Firefox Nightly ресурси
+default-bookmarks-nightly-blog = Firefox Nightly блог
+default-bookmarks-bugzilla = Mozilla праћење грешака
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly алати за тестирање
+default-bookmarks-crashes = Сва рушења
+default-bookmarks-planet = Planet Mozilla

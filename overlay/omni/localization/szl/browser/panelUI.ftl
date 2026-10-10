@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ôdepnij ôd rozszyrzanego myni
+    .accesskey = o
+customize-menu-add-to-toolbar =
+    .label = Przidej do poska z noczyniami
+    .accesskey = P
+customize-menu-add-to-overflowmenu =
+    .label = Przidej do rozszyrzanego myni
+    .accesskey = M
+panic-button-thankyou-msg1 = Twoja historyjo je wypucowano.
+panic-button-thankyou-msg2 = Bezpiecznego przeglōndanio!
+panic-button-thankyou-button =
+    .label = Dziynkujymy!

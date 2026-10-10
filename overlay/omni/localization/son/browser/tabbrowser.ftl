@@ -1,0 +1,15 @@
+tabbrowser-empty-tab-title = Kanji taaga
+tabbrowser-menuitem-close-tab =
+    .label = Kanjoo daabu
+tabbrowser-menuitem-close =
+    .label = Daabu
+tabbrowser-confirm-close-tabs-button = Kanjey daabu
+tabbrowser-customizemode-tab-title = { -brand-short-name } hanse war boŋ se
+tabbrowser-context-mute-tab =
+    .label = Kanji jinde wii
+    .accesskey = j
+tabbrowser-context-unmute-tab =
+    .label = Kanji jinde feeri
+    .accesskey = i
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = Kanji { $tabCount } kul maaɲey dam

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Manylion y rhaglen
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Tynnu
+    .accesskey = T
+app-manager-handle-protocol = Mae modd defnyddio'r rhaglenni canlynol i drin { $type } dolen.
+app-manager-handle-file = Mae modd defnyddio'r rhaglenni canlynol i drin Cynnwys { $type }.
+app-manager-web-app-info = Mae'r rhaglen gwe yma wedi ei weini yn:
+app-manager-local-app-info = Mae'r rhaglen wedi ei lleoli yn:

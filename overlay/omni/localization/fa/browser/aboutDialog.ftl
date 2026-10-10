@@ -1,0 +1,56 @@
+aboutDialog-title =
+    .title = دربارهٔ { -brand-full-name }
+releaseNotes-link = امکانات جدید
+update-checkForUpdatesButton =
+    .label = بررسی برای به‌روز رسانی‌ها
+    .accesskey = ب
+update-updateButton =
+    .label = برای به‌روز رسانی { -brand-shorter-name }، دوباره اجرایش کنید
+    .accesskey = ج
+update-checkingForUpdates = بررسی برای به‌روز رسانی‌ها…
+settings-update-checking-for-updates =
+    .label = بررسی برای به‌روز رسانی‌ها…
+settings-update-downloading-2 =
+    .label = بار گرفتن به‌روز رسانی — { $transfer }
+aboutdialog-update-downloading = بار گرفتن به‌روز رسانی — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = اعمال کردن به‌‌روز رسانی…
+settings-update-applying =
+    .label = اعمال کردن به‌‌روز رسانی…
+update-failed = به‌روزرسانی شکست خورد. <label data-l10n-name="failed-link">جدیدترین نگارش را بارگیری کنید</label>
+update-failed-main = به‌روزرسانی شکست خورد. <a data-l10n-name="failed-link-main">جدیدترین نگارش را بارگیری کنید</a>
+update-policy-disabled = به‌روزرسانی‌ها توسط سازمان شما غیرفعال شده است
+settings-update-policy-disabled =
+    .label = به‌روزرسانی‌ها توسط سازمان شما غیرفعال شده است
+update-noUpdatesFound = { -brand-short-name } به‌روز است
+settings-update-no-updates-found =
+    .label = { -brand-short-name } به‌روز است
+aboutdialog-update-checking-failed = بررسی برای به‌روزرسانی‌ها شکست خورد.
+settings-update-checking-failed =
+    .label = بررسی برای به‌روزرسانی‌ها شکست خورد.
+update-otherInstanceHandlingUpdates = { -brand-short-name } دارد از نمونهٔ دیگری به‌روز می‌شود
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } دارد از نمونهٔ دیگری به‌روز می‌شود
+aboutdialog-update-manual-with-link = به‌روز رسانی‌ها در <label data-l10n-name="manual-link">{ $displayUrl }</label> موجودند
+settings-update-manual-with-link = به‌روز رسانی‌ها در <a data-l10n-name="manual-link">{ $displayUrl }</a> موجودند
+update-unsupported = روی این سامانه نمی‌توانید بیش از این به‌روز کنید. <label data-l10n-name="unsupported-link">بیشتر بدانید</label>
+settings-update-unsupported = روی این سامانه نمی‌توانید بیش از این به‌روز کنید. <a data-l10n-name="unsupported-link">بیشتر بدانید</a>
+update-restarting = اجرا کردن دوباره…
+settings-update-restarting =
+    .label = اجرا کردن دوباره…
+update-internal-error2 = به خاطر خطایی درونی، بررسی برای به‌روز رسانی‌ها انجام نشد. به‌روز رسانی‌ها در <label data-l10n-name="manual-link">{ $displayUrl }</label> موجودند
+settings-update-internal-error = به خاطر خطایی درونی، بررسی برای به‌روز رسانی‌ها انجام نشد. به‌روز رسانی‌ها در <a data-l10n-name="manual-link">{ $displayUrl }</a> موجودند
+aboutdialog-channel-description = در حال حاضر در کانل بروزرسانی <label data-l10n-name="current-channel">{ $channel }</label> هستید.
+warningDesc-version = { -brand-short-name } آزمایشی است و ممکن است ناپایدار باشد.
+aboutdialog-help-user = راهنمای { -brand-product-name }
+aboutdialog-submit-feedback = ثبت بازخورد
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> یک <label data-l10n-name="community-exp-creditsLink">اجتماع جهانی</label> است که برای وب باز، عمومی و قابل دسترس برای همه کار می‌کند.
+community-2 = { -brand-short-name } به دست <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> طراحی شده که <label data-l10n-name="community-creditsLink">احتماعی جهانی</label> از افرادیست که برای وب باز، عمومی و قابل‌ دسترس برای همه کار می‌کنند.
+helpus = می خواهید کمک کنید؟ <label data-l10n-name="helpus-donateLink">کمک نقدی</label> یا <label data-l10n-name="helpus-getInvolvedLink">مشارکتتان را آغاز کنید!</label>
+helpus-referrals2 = مایلید کمک کنید؟ <label data-l10n-name="helpus-donateLink">کمک مالی کنید</label>، <label data-l10n-name="helpus-shareFirefoxLink">{ -brand-product-name } را به اشتراک بگذارید</label>، یا <label data-l10n-name="helpus-getInvolvedLink">همراه ما شوید!</label>
+bottomLinks-license = اطّلاعات پروانه
+bottom-links-terms = شرایط استفاده
+bottom-links-privacy = اعلامیهٔ حریم خصوصی
+aboutDialog-version = { $version } ({ $bits } بیتی)
+aboutDialog-version-nightly = { $version } ‫({ $isodate }) ({ $bits } بیتی)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })

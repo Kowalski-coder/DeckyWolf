@@ -1,0 +1,182 @@
+tab-context-new-tab-open =
+    .label = ਨਵੀਂ ਟੈਬ ਸੱਜੇ ਪਾਸੇ
+    .accesskey = w
+tab-context-new-tab-open-vertical =
+    .label = ਨਵੀਂ ਟੈਬ ਹੇਠਾਂ
+    .accesskey = w
+tab-context-new-group =
+    .label = ਨਵਾਂ ਗਰੁੱਪ
+    .accesskey = G
+reload-tab =
+    .label = ਟੈਬ ਨੂੰ ਮੁੜ-ਲੋਡ ਕਰੋ
+    .accesskey = R
+reload-tab2 =
+    .label = ਮੁੜ-ਲੋਡ ਕਰੋ
+    .accesskey = R
+select-all-tabs =
+    .label = ਸਾਰੀਆਂ ਟੈਬਾਂ ਚੁਣੋ
+    .accesskey = S
+tab-context-play-tab =
+    .label = ਟੈਬ ਚਲਾਓ
+    .accesskey = l
+tab-context-play-tabs =
+    .label = ਟੈਬਾਂ ਚਲਾਓ
+    .accesskey = y
+duplicate-tab =
+    .label = ਡੁਪਲੀਕੇਟ ਟੈਬ
+    .accesskey = D
+duplicate-tab2 =
+    .label = ਡੁਪਲੀਕੇਟ
+    .accesskey = D
+duplicate-tabs =
+    .label = ਡੁਪਲੀਕੇਟ ਟੈਬਾਂ
+    .accesskey = D
+duplicate-tabs2 =
+    .label = ਡੁਪਲੀਕੇਟ
+    .accesskey = D
+close-tabs-to-the-start =
+    .label = ਖੱਬੇ ਪਾਸੇ ਵਾਲੀਆਂ ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+    .accesskey = I
+close-tabs-to-the-start-vertical =
+    .label = ਉੱਪਰਲੀਆਂ ਟੈਬਾਂ ਬੰਦ ਕਰੋ
+    .accesskey = I
+close-tabs-to-the-end =
+    .label = ਸੱਜੇ ਪਾਸੇ ਵਾਲੀਆਂ ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+    .accesskey = i
+close-tabs-to-the-end-vertical =
+    .label = ਹੇਠਲੀਆਂ ਟੈਬਾਂ ਬੰਦ ਕਰੋ
+    .accesskey = i
+close-other-tabs =
+    .label = ਹੋਰ ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+    .accesskey = o
+tab-context-unload-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] ਟੈਬ ਨੂੰ ਅਣ-ਲੋਡ ਕਰੋ
+           *[other] Unload { $tabCount } Tabs
+        }
+    .accesskey = Unload { $tabCount } Tabs
+tab-context-unload-tabs =
+    .label = ਅਣ-ਲੋਡ ਕਰੋ
+    .accesskey = U
+reload-tabs =
+    .label = ਟੈਬਾਂ ਮੁੜ-ਲੋਡ ਕਰੋ
+    .accesskey = R
+pin-tab =
+    .label = ਟੈਬ ਨੂੰ ਟੰਗੋ
+    .accesskey = P
+tab-context-pin-tab2 =
+    .label = ਟੰਗੋ
+    .accesskey = P
+unpin-tab =
+    .label = ਟੈਬ ਨੂੰ ਲਾਹੋ
+    .accesskey = p
+tab-context-unpin-tab2 =
+    .label = ਲਾਹੋ
+    .accesskey = p
+pin-selected-tabs =
+    .label = ਟੈਬਾਂ ਨੂੰ ਟੰਗੋ
+    .accesskey = P
+unpin-selected-tabs =
+    .label = ਟੈਬਾਂ ਨੂੰ ਲਾਹੋ
+    .accesskey = p
+bookmark-selected-tabs =
+    .label = …ਟੈਬਾਂ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ
+    .accesskey = B
+tab-context-bookmark-tab =
+    .label = …ਟੈਬ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ
+    .accesskey = B
+tab-context-bookmark-tab2 =
+    .label = ਬੁੱਕਮਾਰਕ
+    .accesskey = B
+tab-context-open-in-new-container-tab =
+    .label = ਨਵੇਂ ਕਨਟੇਨਰ ਵਿੱਚ ਖੋਲ੍ਹੋ
+    .accesskey = e
+tab-context-open-in-new-container-tab2 =
+    .label = ਨਵੇਂ ਕਨਟੇਨਰ ਵਿੱਚ ਖੋਲ੍ਹੋ
+    .accesskey = e
+move-to-start =
+    .label = ਸ਼ੁਰੂ 'ਤੇ ਭੇਜੋ
+    .accesskey = S
+move-to-end =
+    .label = ਅੰਤ 'ਤੇ ਭੇਜੋ
+    .accesskey = E
+move-to-new-window =
+    .label = ਨਵੀਂ ਵਿੰਡੋ 'ਚ ਭੇਜੋ
+    .accesskey = W
+move-to-new-profile =
+    .label = { $profileName } ਵਿੱਚ ਭੇਜੋ
+tab-context-close-multiple-tabs =
+    .label = ਕਈ ਟੈਬਾਂ ਬੰਦ ਕਰੋ
+    .accesskey = M
+tab-context-close-multiple-tabs2 =
+    .label = ਕਈਆਂ ਨੂੰ ਬੰਦ ਕਰੋ
+    .accesskey = M
+tab-context-close-duplicate-tabs =
+    .label = ਡੁਪਲੀਕੇਟ ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+    .accesskey = u
+tab-context-close-duplicate-tabs2 =
+    .label = ਇਸ ਟੈਬ ਦੀਆਂ ਡੁਪਲੀਕੇਟ ਟੈਬਾਂ ਨੂੰ ਕਰੋ
+    .accesskey = x
+tab-context-share-url =
+    .label = ਸਾਂਝਾ ਕਰੋ
+    .accesskey = h
+tab-context-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] ਬੰਦ ਕੀਤੀ ਟੈਬ ਮੁੜ-ਖੋਲ੍ਹੋ
+           *[other] ਬੰਦ ਕੀਤੀਆਂ ਟੈਬਾਂ ਮੁੜ-ਖੋਲ੍ਹੋ
+        }
+    .accesskey = o
+tab-context-close-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] ਟੈਬ ਬੰਦ ਕਰੋ
+           *[other] { $tabCount } ਟੈਬਾਂ ਬੰਦ ਕਰੋ
+        }
+    .accesskey = C
+tab-context-close-n-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] ਬੰਦ ਕਰੋ
+           *[other] { $tabCount } ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+        }
+    .accesskey = C
+tab-context-move-tabs =
+    .label =
+        { $tabCount ->
+            [1] ਟੈਬ ਭੇਜੋ
+            [one] ਟੈਬ ਭੇਜੋ
+           *[other] ਟੈਬਾਂ ਭੇਜੋ
+        }
+    .accesskey = v
+tab-context-move-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] ਟੈਬ ਨੂੰ ਇੱਥੇ ਭੇਜੋ
+           *[other] { $tabCount } ਟੈਬਾਂ ਨੂੰ ਇੱਥੇ ਭੇਜੋ
+        }
+    .accesskey = v
+tab-context-move-split-view =
+    .label = ਵੰਡੀ ਹੋਈ ਝਲਕ ਵਿੱਚ ਭੇਜੋ
+    .accesskey = v
+tab-context-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] ਡਿਵਾਈਸ ਉੱਤੇ ਭੇਜੋ
+           *[other] Send { $tabCount } Tabs to Device
+        }
+    .accesskey = { $tabCount } ਟੈਬਾਂ ਨੂੰ ਡਿਵਾਈਸ ਉੱਤੇ ਭੇਜੋ
+tab-context-send-to-device2 =
+    .label = ਆਪਣੇ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਭੇਜੋ
+    .accesskey = n
+tab-context-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] ਮੋਬਾਈਲ ਉੱਤੇ ਭੇਜੋ
+           *[other] { $tabCount } ਟੈਬਾਂ ਨੂੰ ਮੋਬਾਈਲ ਉੱਤੇ ਭੇਜੋ
+        }
+    .accesskey = n
+tab-context-share-selected-tabs =
+    .label = ਸਾਂਝਾ ਕਰਨਯੋਗ ਲਿੰਕ ਬਣਾਓ
+    .accesskey = a

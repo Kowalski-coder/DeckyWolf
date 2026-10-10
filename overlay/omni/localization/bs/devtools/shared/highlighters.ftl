@@ -1,0 +1,13 @@
+grid-row-column-positions = Red { $row } / Kolona { $column }
+gridtype-container = Mrežni kontejner
+gridtype-item = Stavka mreže
+gridtype-dual = Kontejner/stavka mreže
+flextype-container = Flex kontejner
+flextype-item = Flex element
+flextype-dual = Flex kontejner/element
+remote-node-picker-notice = Omogućen je odabir čvorova u DevTools-u. { $action }
+remote-node-picker-notice-action-desktop = Kliknite na element da biste ga odabrali u Inspektoru
+remote-node-picker-notice-action-touch = Dodirnite element da biste ga odabrali u Inspektoru
+remote-node-picker-notice-hide-button = Sakrij
+simple-highlighters-message = Kada je omogućena opcija prefers-reduced-motion, u panelu postavki može se omogućiti jednostavniji marker kako bi se izbjeglo treptanje boja.
+simple-highlighters-settings-button = Otvori postavke

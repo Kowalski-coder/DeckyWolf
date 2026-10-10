@@ -1,0 +1,15 @@
+panic-button-open-new-window = Open 'n nuwe skoon venster
+panic-button-undo-warning = Hierdie aksie kan nie ontdoen word nie.
+panic-button-forget-button =
+    .label = Vergeet!
+panic-main-timeframe-desc = Vergeet die afgelope:
+panic-button-5min =
+    .label = vyf minute
+panic-button-2hr =
+    .label = twee ure
+panic-button-day =
+    .label = 24 uur
+panic-button-action-desc = Deur voort te gaan sal:
+panic-button-delete-cookies = onlangse <strong>koekies</strong> uitgevee word
+panic-button-delete-history = onlangse <strong>geskiedenis</strong> uitgevee word
+panic-button-delete-tabs-and-windows = alle <strong>oortjies</strong> en <strong>vensters</strong> gesluit word

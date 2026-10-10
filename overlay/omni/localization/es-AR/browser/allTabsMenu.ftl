@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Buscar en todas las pestañas
+all-tabs-menu-new-user-context =
+    .label = Nueva pestaña contenedora
+all-tabs-menu-hidden-tabs =
+    .label = Pestañas ocultas
+all-tabs-menu-close-duplicate-tabs =
+    .label = Cerrar pestañas duplicadas
+all-tabs-menu-view-all-tabs =
+    .label = Ver todas las pestañas
+all-tabs-menu-recent-tab-groups-header = Grupos de pestañas recientes
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostrar todos
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de pestañas
+all-tabs-menu-current-window-header = Ventana actual

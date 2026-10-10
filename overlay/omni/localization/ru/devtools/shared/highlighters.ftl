@@ -1,0 +1,13 @@
+grid-row-column-positions = Строка { $row } / Столбец { $column }
+gridtype-container = Сеточный контейнер
+gridtype-item = Сеточный элемент
+gridtype-dual = Сеточный контейнер/элемент
+flextype-container = Flex-контейнер
+flextype-item = Flex-элемент
+flextype-dual = Flex-контейнер/элемент
+remote-node-picker-notice = Средство выбора узлов DevTools включено. { $action }
+remote-node-picker-notice-action-desktop = Щёлкните по элементу, чтобы выбрать его в Инспекторе
+remote-node-picker-notice-action-touch = Нажмите на элемент, чтобы выбрать его в Инспекторе
+remote-node-picker-notice-hide-button = Скрыть
+simple-highlighters-message = Когда включено prefers-reduced-motion, на панели настроек можно включить более простой маркер, чтобы избежать мерцания цветов.
+simple-highlighters-settings-button = Открыть настройки

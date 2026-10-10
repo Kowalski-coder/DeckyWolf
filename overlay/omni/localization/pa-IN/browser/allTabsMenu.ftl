@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = ਸਭ ਟੈਬਾਂ ਵਿੱਚ ਖੋਜੋ
+all-tabs-menu-new-user-context =
+    .label = ਨਵੀਂ ਕਨਟੇਨਰ ਟੈਬ
+all-tabs-menu-hidden-tabs =
+    .label = ਲੁਕਵੀਆਂ ਟੈਬਾਂ
+all-tabs-menu-close-duplicate-tabs =
+    .label = ਡੁਪਲੀਕੇਟ ਟੈਬਾਂ ਨੂੰ ਬੰਦ ਕਰੋ
+all-tabs-menu-view-all-tabs =
+    .label = ਸਭ ਟੈਬ ਨੂੰ ਵੇਖੋ
+all-tabs-menu-recent-tab-groups-header = ਸੱਜੇ ਟੈਬ ਗਰੁੱਪ
+all-tabs-menu-tab-groups-show-all =
+    .label = ਸਭ ਨੂੰ ਵੇਖਾਓ
+all-tabs-menu-tab-groups-sub-view =
+    .title = ਟੈਗ ਗਰੁੱਪ
+all-tabs-menu-current-window-header = ਮੌਜੂਦਾ ਵਿੰਡੋ

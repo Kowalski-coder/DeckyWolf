@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (nincs cím)
+places-load-js-data-url-error = Biztonsági okokból a „javascript:” vagy „data:” webcímek nem tölthetők be az előzmények ablakból, illetve az oldalsávból.
+places-bookmarks-backup-title = Könyvjelzők biztonsági mentése
+places-bookmarks-restore-alert-title = Könyvjelzők visszaállítása
+places-bookmarks-restore-alert = Ez a művelet az aktuális könyvjelzőket lecseréli a mentésben levőkre. Biztos benne?
+places-bookmarks-restore-title = Könyvjelzőmentés kiválasztása
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Nem támogatott fájltípus.
+places-bookmarks-restore-parse-error = Nem sikerült feldolgozni a mentésfájlt
+places-bookmarks-import = Könyvjelzőfájl importálása
+places-bookmarks-export = Könyvjelzőfájl exportálása
+places-bookmarks-paste-error-title = Érvénytelen webcímek találhatók
+places-bookmarks-paste-error-message-header = A következő webcímek nem adhatók hozzá a könyvjelzőihez. Próbálja meg ellenőrizni a formázást, és adja hozzá őket újra.

@@ -1,0 +1,132 @@
+appmenuitem-banner-update-available =
+    .label = अपडेट उपलब्ध है — अभी डाउनलोड करें
+appmenuitem-banner-update-manual =
+    .label = अपडेट उपलब्ध है — अभी डाउनलोड करें
+appmenuitem-banner-update-restart =
+    .label = अपडेट उपलब्ध है — अभी फिर से चालु करें
+appmenuitem-new-tab =
+    .label = नया टैब
+appmenuitem-new-window =
+    .label = नया विंडो
+appmenuitem-new-private-window =
+    .label = नयी निजी विंडो
+appmenuitem-history =
+    .label = इतिहास
+appmenuitem-downloads =
+    .label = डाउनलोड
+appmenuitem-passwords =
+    .label = पासवर्ड
+appmenuitem-print =
+    .label = छापें...
+appmenuitem-find-in-page =
+    .label = पृष्ठ में ढूँढें…
+appmenuitem-zoom =
+    .value = बड़ा-छोटा करें
+appmenuitem-more-tools =
+    .label = अधिक उपकरण
+appmenuitem-exit2 =
+    .label =
+        { PLATFORM() ->
+            [linux] छोड़ें
+           *[other] बाहर निकलें
+        }
+appmenu-menu-button-closed2 =
+    .label = { -brand-short-name }
+    .tooltiptext = एप्लिकेशन मेन्यू खोलें
+appmenu-menu-button-opened2 =
+    .label = { -brand-short-name }
+    .tooltiptext = एप्लिकेशन मेन्यू बंद करें
+appmenuitem-settings =
+    .label = सेटिंग
+appmenuitem-zoom-enlarge =
+    .label = बड़ा करें
+appmenuitem-zoom-reduce =
+    .label = छोटा करें
+appmenuitem-fullscreen =
+    .label = पूर्ण स्क्रीन
+appmenu-remote-tabs-sign-into-sync =
+    .label = सिंक करने के लिए साइन इन करें...
+appmenu-remote-tabs-turn-on-sync =
+    .label = सिंक चालू करें…
+appmenu-remote-tabs-notabs = कोई टैब खुला नहीं
+appmenu-remote-tabs-tabsnotsyncing = टैब्स की सूची देखने के लिए अपने दुसरे उपकरणों से टैब संकलन खोले.
+appmenu-remote-tabs-opensettings =
+    .label = सेटिंग
+appmenu-remote-tabs-noclients = यहाँ अन्य डिवाइस से अपना टैब देखना चाहते हैं?
+appmenu-remote-tabs-connectdevice =
+    .label = अन्य उपकरण जोड़ें
+appmenu-remote-tabs-welcome = अपने अन्य उपकरणों से टैब की एक सूची दिखाएं।
+appmenu-remote-tabs-unverified = आपके खाते की पृष्टि करने की आवश्यकता है.
+appmenuitem-fxa-toolbar-sync-now2 = अभी सिंक करें
+appmenuitem-fxa-sign-in = { -brand-product-name } में साइन इन करें
+appmenuitem-fxa-manage-account = खाता प्रबंधित करें
+appmenu-fxa-sync-and-save-data2 = सिंक करें और डेटा सहेजें
+appmenu-fxa-signed-in-label = साइन इन
+appmenu-fxa-setup-sync =
+    .label = सिंक चालू करें…
+appmenuitem-save-page =
+    .label = पृष्ठ ऐसे सहेजें…
+profiler-popup-button-idle =
+    .label = प्रोफाइलर
+    .tooltiptext = एक प्रदर्शन प्रोफ़ाइल रिकॉर्ड करें
+profiler-popup-header-text = { -profiler-brand-name }
+profiler-popup-learn-more-button =
+    .label = अधिक जानें
+profiler-popup-settings =
+    .value = सेटिंग
+profiler-popup-edit-settings-button =
+    .label = सेटिंग संपादित करें…
+profiler-popup-recording-screen = रिकॉर्डिंग…
+profiler-popup-start-recording-button =
+    .label = रिकॉर्डिंग शुरू करें
+profiler-popup-discard-button =
+    .label = छोड़ें
+profiler-popup-capture-button =
+    .label = कैप्चर
+profiler-popup-start-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧1
+       *[other] Ctrl+Shift+1
+    }
+profiler-popup-capture-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧2
+       *[other] Ctrl+Shift+2
+    }
+profiler-popup-presets-web-developer-label =
+    .label = वेब डेवलेपर
+profiler-popup-presets-firefox-label =
+    .label = { -brand-shorter-name }
+profiler-popup-presets-graphics-label =
+    .label = ग्राफिक्स
+profiler-popup-presets-media-label =
+    .label = मीडिया
+profiler-popup-presets-networking-label =
+    .label = नेटवर्किंग
+profiler-popup-presets-custom-label =
+    .label = मनपसंद
+appmenu-manage-history =
+    .label = इतिहास प्रबंधित करें
+appmenu-restore-session =
+    .label = पिछला सत्र पुनर्बहाल करें
+appmenu-clear-history =
+    .label = हालिया इतिहास साफ करें...
+appmenu-recent-history-subheader = ताजा इतिहास
+appmenu-recently-closed-tabs =
+    .label = हाल में बंद टैब
+appmenu-recently-closed-windows =
+    .label = हाल में बंद विंडो
+appmenu-search-history =
+    .label = खोज इतिहास
+appmenu-about =
+    .label = { -brand-shorter-name } का परिचय
+    .accesskey = A
+appmenu-get-help =
+    .label = मदद लें
+    .accesskey = h
+appmenu-help-report-deceptive-site =
+    .label = भ्रमकारी भुजाल प्रतिवेदन…
+    .accesskey = d
+appmenu-help-not-deceptive =
+    .label = यह एक भ्रमकारी भुजाल नहीं है…
+    .accesskey = d

@@ -1,0 +1,27 @@
+default-browser-notification-message = <strong>Шумо мехоҳед, ки «{ -brand-short-name }»-ро ҳамчун браузери асосӣ танзим намоед?</strong> Фаъолияти худро дар Интернет тезтар ва бехатар кунед ва маълумоти шахсиро дар веб ҳифз намоед.
+default-browser-notification-button =
+    .label = Ҳамчун пешфарз танзим кардан
+    .accesskey = Ҳ
+default-browser-prompt-title-pin = Браузери «{ -brand-short-name }»-ро ҳамчун браузери асосӣ таъин мекунед?
+default-browser-prompt-message-pin = «{ -brand-short-name }»-ро дар дасти худ нигоҳ доред — онро ҳамчун браузери пешфарз истифода баред ва ба навори вазифаи худ васл кунед.
+default-browser-prompt-message-pin-msix = «{ -brand-short-name }»-ро дар дасти худ нигоҳ доред — онро ҳамчун браузери пешфарз истифода баред ва ба навори вазифаи худ ва менюи «Оғоз» васл кунед.
+default-browser-prompt-message-pin-mac = «{ -brand-short-name }»-ро дар дасти худ нигоҳ доред — онро ҳамчун браузери пешфарз истифода баред ва ба мустақари худ ҷойгир кунед.
+default-browser-prompt-button-primary-set = Гузоштан ҳамчун браузери асосӣ
+default-browser-prompt-title-alt = Браузери «{ -brand-short-name }»-ро ҳамчун браузери пешфарз таъин мекунед?
+default-browser-prompt-message-alt = Ҳар вақте ки шумо бо Интернет кор мекунед, суръат, амният ва махфиятро ба даст оред.
+default-browser-prompt-button-primary-alt = Гузоштан ҳамчун браузери пешфарз
+default-browser-prompt-checkbox-not-again-label = Ин паём дигар нишон дода нашавад
+default-browser-prompt-button-secondary = Ҳоло не
+default-browser-guidance-notification-title = Танзими «{ -brand-short-name }»-ро барои таъини он ҳамчун браузери пешфарз ба анҷом расонед
+default-browser-guidance-notification-body-instruction-win10 =
+    Қадами 1: Ба Танзимот > Барномаҳои пешфарз гузаред
+    Қадами 2: Ба поён то «Браузери веб» ҳаракат кунед
+    Қадами 3: Барномаи «{ -brand-short-name }»-ро интихоб карда, танзим кунед
+default-browser-guidance-notification-body-instruction-win11 =
+    Қадами 1: Ба Танзимот > Барномаҳои пешфарз гузаред
+    Қадами 2: Барои барномаи «{ -brand-short-name }» имкони «Ҳамчун пешфарз танзим кардан»-ро интихоб намоед
+default-browser-guidance-notification-info-page = Ба ман нишон диҳед
+default-browser-guidance-notification-dismiss = Тайёр
+default-browser-guidance-notification-v2-title = Танзими «{ -brand-short-name }»-ро барои таъини он ҳамчун браузери пешфарз ба анҷом расонед
+default-browser-guidance-notification-v2-body = Дар танзимоти браузер имкони «Ҳамчун пешфарз танзим кардан»-ро барои «{ -brand-short-name }» интихоб намоед.
+default-browser-guidance-notification-v2-title-only = Танзими «{ -brand-short-name }»-ро барои таъини он ҳамчун браузери пешфарз дар «Танзимот» ба анҷом расонед

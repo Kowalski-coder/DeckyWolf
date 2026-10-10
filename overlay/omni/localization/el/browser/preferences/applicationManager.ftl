@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Λεπτομέρειες εφαρμογής
+    .style = min-width: 33em; min-height: 20em;
+app-manager-remove =
+    .label = Αφαίρεση
+    .accesskey = ρ
+app-manager-handle-protocol = Οι εξής εφαρμογές μπορούν να χρησιμοποιηθούν για τον χειρισμό συνδέσμων { $type }.
+app-manager-handle-file = Οι εξής εφαρμογές μπορούν να χρησιμοποιηθούν για τον χειρισμό περιεχομένου { $type }.
+app-manager-web-app-info = Αυτή η διαδικτυακή εφαρμογή φιλοξενείται στο:
+app-manager-local-app-info = Αυτή η εφαρμογή βρίσκεται στο:

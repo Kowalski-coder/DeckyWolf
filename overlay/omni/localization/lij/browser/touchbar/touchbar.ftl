@@ -1,0 +1,12 @@
+back = Inderê
+forward = Avanti
+reload = Recarega
+home = Pagina prinçipâ
+fullscreen = A tutto schermo
+find = Treuva
+new-tab = Neuvo feuggio
+add-bookmark = Azonzi segnalibbro
+reader-view = Mòddo letua
+open-location = Çerca ò scrivi indirisso
+share = Condividdi
+close-window = Særa barcon

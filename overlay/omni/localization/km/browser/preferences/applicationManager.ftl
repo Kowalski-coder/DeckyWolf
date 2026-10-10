@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = សេចក្ដី​លម្អិត​កម្មវិធី
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = យកចេញ
+    .accesskey = ក
+app-manager-handle-protocol = កម្មវិធី​ដូច​ខាងក្រោម​អាច​ត្រូវ​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង តំណ { $type } ។
+app-manager-handle-file = កម្មវិធី​ដូច​ខាងក្រោម​អាច​ត្រូវ​បាន​ប្រើ​ដើម្បី​គ្រប់គ្រង មាតិកា { $type } ។
+app-manager-web-app-info = បណ្ដាញ​នេះ​ត្រូវបាន​បង្ហោះ​នៅ ៖
+app-manager-local-app-info = កម្មវិធី​នេះ​មាន​ទីតាំង​នៅ ៖

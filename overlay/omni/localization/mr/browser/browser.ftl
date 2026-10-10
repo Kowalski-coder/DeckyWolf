@@ -1,0 +1,266 @@
+urlbar-services-notification-anchor =
+    .tooltiptext = प्रतिष्ठापन संदेश फलक उघडा
+urlbar-web-notification-anchor =
+    .tooltiptext = साईटने आपल्याला सूचना दर्शवाव्या किंवा कसे यासाठी योग्य बदल करा
+urlbar-midi-notification-anchor =
+    .tooltiptext = MIDI पटल उघडा
+urlbar-eme-notification-anchor =
+    .tooltiptext = DRM सॉफ्टवेअर वापराचे व्यवस्थापन करा
+urlbar-web-authn-anchor =
+    .tooltiptext = वेब अनुज्ञापन फलक उघडा
+urlbar-canvas-notification-anchor =
+    .tooltiptext = कॅनव्हस एक्सट्रॅकशन च्या परवानग्या व्यवस्थापित करा
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = साइटवर आपला मायक्रोफोन शेअर करण्याचे व्यवस्थापन करा
+urlbar-default-notification-anchor =
+    .tooltiptext = संदेश फलक उघडा
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = स्थळ विनंती फलक उघडा
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = साइटवर आपली विंडो किंवा स्क्रीन शेअर करण्याचे व्यवस्थापन करा
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = ऑफलाईन साठ्याचा संदेश फलक उघडा
+urlbar-password-notification-anchor =
+    .tooltiptext = साठवलेल्या पासवर्डसचा संदेश फलक उघडा
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = साइटवर आपला कॅमेरा आणि /किंवा मायक्रोफोन शेअर करण्याचे व्यवस्थापन करा
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = स्वयंप्ले पॅनल उघडा
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = पर्सिस्टन्ट स्टोरेजमध्ये माहिती साठवा
+urlbar-addons-notification-anchor =
+    .tooltiptext = अॅड-ऑन प्रतिष्ठापन संदेश फलक उघडा
+urlbar-search-tips-onboard = टाईप कमी करा आणि जास्त शोधा: थेट आपल्या पत्ता पट्टी वरून { $engineName } शोधा.
+urlbar-geolocation-blocked =
+    .tooltiptext = आपण ह्या वेबसाईटसाठी स्थळाची माहिती अवरोधित केली आहे.
+urlbar-web-notifications-blocked =
+    .tooltiptext = आपण ह्या वेबसाइटसाठी सूचना अवरोधित केल्या आहे.
+urlbar-camera-blocked =
+    .tooltiptext = आपण ह्या वेबसाईटसाठी आपला कॅमेरा अवरोधित केला आहे.
+urlbar-microphone-blocked =
+    .tooltiptext = आपण ह्या वेबसाईटसाठी आपला मायक्रोफोन अवरोधित केला आहे.
+urlbar-screen-blocked =
+    .tooltiptext = ह्या वेबसाईटला आपण आपली स्क्रीन शेअर करण्यापासून अवरोधित केले आहे.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = आपण दीर्घस्थायी स्टोरेज ह्या वेबसाईटसाठी अवरोधित केला आहे.
+urlbar-canvas-blocked =
+    .tooltiptext = आपण ह्या वेबसाइटसाठी कॅनव्हास डेटा उतारा अवरोधित केला आहे.
+urlbar-midi-blocked =
+    .tooltiptext = या संकेतस्थळासाठी MIDI वापर अवरोधित केला आहे.
+urlbar-star-edit-bookmark =
+    .tooltiptext = ही वाचनखूण ({ $shortcut }) संपादीत करा
+urlbar-star-add-bookmark =
+    .tooltiptext = या पृष्ठाला वाचनखूण लावा ({ $shortcut })
+clear-search-history =
+    .label = शोध इतिहास पुसून टाका
+    .accesskey = H
+full-screen-autohide =
+    .label = साधनपट्टी लपवा
+    .accesskey = H
+full-screen-exit =
+    .label = पडदाभर मोडपासून बाहेर पडा
+    .accesskey = F
+search-one-offs-with-title = यावेळी, यासह शोधा:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = शोध सेटिंगस बदला
+search-one-offs-context-open-new-tab =
+    .label = नवीन टॅबमध्ये शोधा
+    .accesskey = T
+search-one-offs-context-set-as-default =
+    .label = पूर्वनिर्धारित शोध इंजिन म्हणून ठरवा
+    .accesskey = D
+search-one-offs-add-engine-menu =
+    .label = शोध इंजीन जोडा
+bookmark-panel-cancel =
+    .label = रद्द करा
+    .accesskey = C
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [one] वाचनखूण नष्ट करा
+           *[other] { $count } वाचनखूणा नष्ट करा
+        }
+    .accesskey = R
+bookmark-panel-show-editor-checkbox =
+    .label = जतन करतांना संपादक दर्शवा
+    .accesskey = S
+bookmark-panel =
+    .style = min-width: 23em
+identity-site-information = { $host } साठी साइट माहिती
+identity-header-security-with-host =
+    .title = { $host } साठी जोडणी सुरक्षा
+identity-connection-not-secure = असुरक्षित जोडणी
+identity-connection-secure = जोडणी सुरक्षित
+identity-connection-internal = हे सुरक्षित { -brand-short-name } पृष्ठ आहे.
+identity-connection-file = हे पृष्ठ आपल्या संगणकावर संचयीत केले गेले आहे.
+identity-extension-page = हे पृष्ठ एका विस्तारापासून लोड केलेले आहे.
+identity-active-blocked = { -brand-short-name } ने ह्या पृष्ठावरील काही असुरक्षित भाग अडवले आहेत.
+identity-passive-loaded = या पृष्ठावरील काही भाग (उदा. प्रतिमा) सुरक्षित नाहीत.
+identity-active-loaded = आपण ह्या पृष्ठावरील सुरक्षा बंद केली आहे.
+identity-weak-encryption = हे पृष्ठ कमकुवत एनक्रिप्शन वापरते.
+identity-permissions-reload-hint = आपल्याला बदल लागू करण्यासाठी पृष्ठ पुन्हा लोड करावे लागू शकते.
+identity-clear-site-data =
+    .label = कुकीज आणि साईट माहिती पुसा…
+identity-connection-not-secure-security-view = आपण या साइटशी सुरक्षितपणे कनेक्ट केलेले नाही.
+identity-connection-verified = आपण या साइटशी सुरक्षितपणे कनेक्ट केले आहे.
+identity-remove-cert-exception =
+    .label = अपवाद काढा
+    .accesskey = R
+identity-description-insecure = ह्या साईटवरची आपली जोडणी खाजगी नाही. आपण जी माहिती जमा करता आहात (जसे कि पासवर्ड, संदेश, क्रेडीट कार्ड इत्यादी) ते इतर लोक पाहू शकतात.
+identity-description-weak-cipher-intro = ह्या वेबसाइट बरोबरची आपली जोडणी कमकुवत एनक्रिप्शन वापरत असून ती खाजगी नाही.
+identity-description-weak-cipher-risk = इतर लोक आपली माहिती पाहू शकतात किंवा वेबसाईटचे वर्तन बदलू शकतात.
+identity-description-active-blocked2 = { -brand-short-name } ने ह्या पृष्ठावरील काही असुरक्षित भाग अडवले आहेत.
+identity-description-passive-loaded = ह्या साईटवरची आपली जोडणी खाजगी नाही. आपण जी माहिती जमा करता आहात ते इतर लोक पाहू शकतात.
+identity-description-passive-loaded-insecure2 = या वेबसाईटवरील काही भाग (उदा. प्रतिमा) सुरक्षित नाही.
+identity-description-passive-loaded-mixed2 = { -brand-short-name }ने काही भाग अडवले असले, तरी ह्या पृष्ठावर काही असुरक्षित आशय आहेत (उदा. प्रतिमा).
+identity-description-active-loaded = या वेबसाईटवरील काही भाग (उदा. स्क्रिप्ट्स) सुरक्षित नाही आणि आपली जोडणी खाजगी नाही आहे.
+identity-description-active-loaded-insecure = आपण जी माहिती जमा करता आहात (जसे कि पासवर्ड, संदेश, क्रेडीट कार्ड माहिती, इत्यादी) ते इतर लोक पाहू शकतात.
+identity-more-info-link-text =
+    .label = अधिक माहिती
+browser-window-minimize-button =
+    .tooltiptext = छोटे करा
+browser-window-close-button =
+    .tooltiptext = बंद करा
+popup-all-windows-shared = पडद्यावरील सर्व दृष्यास्पद पटलांना शेअर केले जाईल.
+urlbar-search-mode-indicator-close =
+    .aria-label = बंद करा
+urlbar-placeholder =
+    .placeholder = शोधा किंवा पत्ता द्या
+urlbar-placeholder-with-name =
+    .placeholder = { $name } सोबत शोधा किंवा पत्ता प्रविष्ट करा
+urlbar-switch-to-tab =
+    .value = टॅबचा वापर करा:
+urlbar-extension =
+    .value = एक्सटेंशन:
+urlbar-go-button2 =
+    .title = स्थान पट्टीतील पत्त्यावर जा
+urlbar-page-action-button =
+    .tooltiptext = पृष्ठाच्या कृती
+urlbar-result-action-search-w-engine = { $engine } सह शोधा
+urlbar-result-action-switch-tab = टॅबवर जा
+urlbar-result-action-visit = भेट द्या
+reader-view-enter-button =
+    .aria-label = वाचक मोडमध्ये जा
+reader-view-close-button =
+    .aria-label = वाचक मोड बंद करा
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> आता पूर्ण स्क्रीन आहे
+fullscreen-warning-no-domain = हे दस्तऐवज आता पूर्ण स्क्रीन झाले आहे
+fullscreen-exit-button = पूर्ण स्क्रीनमधून बाहेर पडा (Esc)
+fullscreen-exit-mac-button = पूर्ण स्क्रीनमधून बाहेर पडा (esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> कडे आपल्या पॉईंटरचे नियंत्रण आहे. नियंत्रण परत घेण्यासाठी Esc दाबा.
+pointerlock-warning-no-domain = ह्या दस्तऐवजाकडे आपल्या पॉईंटरचे नियंत्रण आहे. नियंत्रण परत घेण्यासाठी Esc दाबा.
+bookmarks-toolbar-chevron =
+    .tooltiptext = आणखी वाचनखूणा दर्शवा
+bookmarks-sidebar-content =
+    .aria-label = वाचनखूणा
+bookmarks-menu-button =
+    .label = वाचनखूणा यादी
+bookmarks-other-bookmarks-menu =
+    .label = इतर वाचनखूणा
+bookmarks-mobile-bookmarks-menu =
+    .label = मोबाईल वाचनखूणा
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] वाचनखूणांची बाजूपट्टी दृष्टीआड ठेवा
+           *[other] वाचनखूणा साधनपट्टी दृष्य
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] वाचनखूणांची साधनपट्टी दृष्टीआड ठेवा
+           *[other] वाचनखूणा साधनपट्टी दृष्य
+        }
+bookmarks-search =
+    .label = वाचनखुणा शोधा
+bookmarks-tools =
+    .label = वाचनखुणा साधने
+bookmarks-toolbar =
+    .aria-label = वाचनखूणा
+    .toolbarname = वाचनखूणा साधनपट्टी
+    .accesskey = B
+bookmarks-toolbar-menu =
+    .label = वाचनखूणा साधनपट्टी
+bookmarks-toolbar-placeholder =
+    .title = साधनपट्टीतील घटकांना वाचनखूण लावा
+bookmarks-toolbar-placeholder-button =
+    .label = साधनपट्टीतील घटकांना वाचनखूण लावा
+library-bookmarks-menu =
+    .label = वाचनखूणा
+toolbar-overflow-customize-button =
+    .label = साधनपट्टी बदला...
+    .accesskey = C
+toolbar-button-email-link =
+    .label = ईमेल दुवा
+    .tooltiptext = ह्या पृष्ठासाठीचा दुवा ईमेल करा
+toolbar-button-save-page =
+    .label = पृष्ठ संकलित करा
+    .tooltiptext = हे पृष्ठ संकलित करा ({ $shortcut })
+toolbar-button-open-file =
+    .label = फाइल उघडा
+    .tooltiptext = फाइल उघडा ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = ताळमेळीत टॅब्स
+    .tooltiptext = आपल्या इतर उपकरणांवरील टॅब्स येथे दाखवा
+toolbar-button-new-private-window =
+    .label = नवीन खाजगी पटल
+    .tooltiptext = नवीन खाजगी ब्राउजिंग पटल उघडा ({ $shortcut })
+eme-notifications-drm-content-playing = या साईट वरील काही ऑडियो आणि व्हिडीओ DRM सॉफ्टवेअर वापरतात, ज्यामुळे { -brand-short-name } आपणास जे करू देऊ शकते त्यावर मर्यादा येतील
+ui-tour-info-panel-close =
+    .tooltiptext = बंद करा
+picture-in-picture-hide-toggle =
+    .label = पिक्चर-इन-पिक्चर टॉगल लपवा
+    .accesskey = H
+navbar-accessible =
+    .aria-label = संचारन
+navbar-downloads =
+    .label = डाउनलोड्स
+navbar-print =
+    .label = छापा
+    .tooltiptext = ह्या पृष्ठाची छपाई करा… ({ $shortcut })
+navbar-home =
+    .label = घर, आरंभस्थळ
+    .tooltiptext = { -brand-short-name } मुख्यपृष्ठ
+navbar-library =
+    .label = लायब्ररी
+    .tooltiptext = इतिहास दाखवा, जतन केलेल्या वाचनखुणा, आणि अधिक
+navbar-search =
+    .title = शोधा
+tabs-toolbar =
+    .aria-label = ब्राउझर टॅब्स्
+tabs-toolbar-new-tab =
+    .label = नवीन टॅब
+tabs-toolbar-list-all-tabs =
+    .label = सर्व टॅब्स्ची सूची
+    .tooltiptext = सर्व टॅब्स्ची सूची
+data-reporting-notification-message = { -brand-short-name } आपोआप काही डाटा { -vendor-short-name } करिता पाठवतो ज्यामुळे आपला अनुभव सुधारित होतो.
+data-reporting-notification-button =
+    .label = मी काय शेअर करतो ते पसंत करा
+    .accesskey = C
+refresh-blocked-refresh-label = { -brand-short-name } ने या पृष्ठास स्वयंरीत्या उघडण्यापासून रोखले.
+refresh-blocked-redirect-label = { -brand-short-name } ने या पृष्ठास अन्य पृष्ठास जाण्यापासून रोखले.
+refresh-blocked-allow =
+    .label = सहमती द्या
+    .accesskey = A
+popup-notification-addon-install-unsigned =
+    .value = (न तपासलेले)
+popup-notification-xpinstall-prompt-learn-more = अ‍ॅड-ऑन सुरक्षितपणे स्थापित करण्याबद्दल अधिक जाणून घ्या
+popup-warning-message =
+    { $popupCount ->
+        [one] { -brand-short-name }ने ह्या स्थळाला पॉपअप पटल उघडण्यापासून प्रतिबंध केले आहे.
+       *[other] { -brand-short-name }ने ह्या स्थळाला { $popupCount } पॉपअप पटलांना उघडण्यापासून प्रतिबंध केले आहे.
+    }
+popup-warning-exceeded-message = { -brand-short-name } ने या साइटला { $popupCount } पेक्षा जास्त पॉप-अप विंडो उघडण्यापासून प्रतिबंधित केले.
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] पर्याय
+           *[other] प्राधान्यक्रम
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] P
+        }
+popup-show-popup-menuitem =
+    .label = '{ $popupURI }' दाखवा

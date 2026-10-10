@@ -1,0 +1,14 @@
+default-bookmarks-title = Záložky
+default-bookmarks-heading = Záložky
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Získať pomoc
+default-bookmarks-firefox-customize = Prispôsobenie Firefoxu
+default-bookmarks-firefox-community = Zapojte sa
+default-bookmarks-firefox-about = O nás
+default-bookmarks-nightly-heading = Odkazy pre Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Nahlásenie chýb Mozille
+default-bookmarks-mdn = Stránky Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Zoznam zlyhaní aplikácie
+default-bookmarks-planet = Planet Mozilla

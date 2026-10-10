@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = ძიება ყველა ჩანართში
+all-tabs-menu-new-user-context =
+    .label = ახალი სათავსი ჩანართი
+all-tabs-menu-hidden-tabs =
+    .label = დამალული ჩანართები
+all-tabs-menu-close-duplicate-tabs =
+    .label = გამეორებული ჩანართების დახურვა
+all-tabs-menu-view-all-tabs =
+    .label = ყველა ჩანართის ნახვა
+all-tabs-menu-recent-tab-groups-header = ბოლო ჩანართების ჯგუფები
+all-tabs-menu-tab-groups-show-all =
+    .label = ყველას ჩვენება
+all-tabs-menu-tab-groups-sub-view =
+    .title = ჩანართის ჯგუფები
+all-tabs-menu-current-window-header = მიმდინარე ფანჯარა

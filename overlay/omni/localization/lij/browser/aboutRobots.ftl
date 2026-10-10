@@ -1,0 +1,10 @@
+page-title = Belin!
+error-title-text = Benvegnuo belinon!
+error-short-desc-text = Son Nando robot zeneize!
+error-long-desc1 = Tanto pe comensâ no me vegnî chi a ronpime o belin che son derê a caregâ e baterie!
+error-long-desc2 = Pöi ti gh'æ miga quarche palanca da dame?
+error-long-desc3 = Coscì vaddo zu a-o bar a pigiame 'n gianco.
+error-long-desc4 = Ninte? T'ê pròpio 'n pigogiozo!
+error-trailer-desc-text = Òua vaddo zu e se no me dan o gianco i scistemo mi co-o lazer!
+error-try-again = Preuva Torna
+    .label2 = Goai a ti se ti sciacchi ancon sto pomello!!!

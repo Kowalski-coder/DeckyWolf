@@ -1,0 +1,171 @@
+smartwindow-messages-document-title = { -smart-window-brand-name } поруке ћаскања
+smart-window-context-chips-tag-count =
+    { $tags ->
+        [one] { $tags } ознака
+        [few] { $tags } ознаке
+       *[other] { $tags } ознака
+    }
+smartwindow-assistant-error-generic-header = Нешто је пошло наопако. Покушајте поново.
+smartwindow-assistant-error-budget-header = Достигли сте данашње ограничење ћаскања.
+smartwindow-assistant-error-account-header = Да бисте користили { -smart-window-brand-name }, мораћете да се пријавите.
+smartwindow-assistant-error-capacity-header = { -smart-window-brand-name } је тренутно преоптерећен. Покушајте поново касније.
+smartwindow-assistant-error-budget-body = И даље можете да прегледате садржај у овом прозору. Ћаскање ће поново бити доступно када се ваше дневно ограничење поврати.
+smartwindow-assistant-error-many-requests-header = Сачекајте тренутак и покушајте поново. Послато је превише порука у кратком временском периоду.
+smartwindow-assistant-error-max-length-header = Време је да започнете ново ћаскање. Ово је достигло ограничење дужине.
+smartwindow-assistant-error-request-blocked-header = { -smart-window-brand-name } није успео да се повеже са сервером. Покушајте са другом мрежом или онемогућите ваш ВПН.
+smartwindow-assistant-error-http-header = Грешка сервера (HTTP { $status }). Покушајте поново.
+smartwindow-retry-btn = Покушајте поново
+smartwindow-clear-btn = Ново ћаскање
+smartwindow-signin-btn = Пријавите се
+aiwindow-memories-used = Коришћена сећања
+aiwindow-memories-callout-description = Сећања су помогла да се овај одговор персонализује.
+aiwindow-memories-learn-more = Сазнајте више
+aiwindow-manage-memories =
+    .label = Подешавања сећања
+aiwindow-retry-without-memories =
+    .label = Покушајте поново без сећања
+aiwindow-retry =
+    .aria-label = Покушај поново
+    .tooltiptext = Покушајте поново
+aiwindow-copy-message =
+    .aria-label = Копирај поруку
+    .tooltiptext = Копирај
+aiwindow-copy-table =
+    .aria-label = Копирај табелу
+    .tooltiptext = Копирај табелу
+aiwindow-table-scroll-indicator = Помакните да бисте видели више
+aiwindow-thumbs-up =
+    .aria-label = Подели позитивне примедбе
+    .tooltiptext = Подели позитивне примедбе
+aiwindow-thumbs-down =
+    .aria-label = Подели негативне примедбе
+    .tooltiptext = Подели негативне примедбе
+aiwindow-applied-memories-popover =
+    .aria-label = Површ са сећањима
+aiwindow-applied-memories-list =
+    .aria-label = Сећања
+aiwindow-delete-memory-button =
+    .aria-label = Обриши { $summary }
+aiwindow-jump-to-bottom =
+    .aria-label = Скочи на дно ћаскања
+    .tooltiptext = Скочи на дно
+smartwindow-nl-retry-tool-button =
+    .label = Покушај поново
+smartwindow-nl-retry-message = Ако и даље желите да затворите језичке, изаберите <strong>Покушај поново</strong> и направите избор у картици која се отвори.
+smartwindow-nl-retry-group-tabs-message = Ако и даље желите да групишете језичке, изаберите <strong>Покушај поново</strong> и изаберите које од њих у картици која се отвори.
+smartwindow-nl-thinking = Тражим подударне језичке…
+smartwindow-loading-assistant-response =
+    .aria-label = Учитавам одговор помоћника
+smartwindow-nl-undo-button =
+    .label = Поништи
+smart-window-closed-tabs-label =
+    { $count ->
+        [one] Затворен { $count } језичак
+        [few] Затворена { $count } језичка
+       *[other] Затворено { $count } језичака
+    }
+smart-window-closed-tabs-summary =
+    { $count ->
+        [one] Готово! Језичак је затворен.
+        [few] Готово! Језичци су затворени.
+       *[other] Готово! Језичци су затворени.
+    }
+smart-window-closed-tabs-row-label = Затворени језичци
+smart-window-closed-and-restored-label = Затворени и враћени језичци
+smart-window-restored-row-label =
+    { $count ->
+        [one] Враћен { $count } језичак
+        [few] Враћена { $count } језичка
+       *[other] Враћено { $count } језичака
+    }
+smart-window-restore-success-summary =
+    { $count ->
+        [one] Језичак је затворен, а затим враћен.
+        [few] Језичци су затворени, а затим враћени.
+       *[other] Језичци су затворени, а затим враћени.
+    }
+smart-window-cancelled-label = Захтев је отказан.
+smart-window-confirm-group-tab = Групишите
+smart-window-confirm-group-tabs =
+    { $count ->
+        [one] Групишите { $count } језичак
+        [few] Групишите { $count } језичка
+       *[other] Групишите { $count } језичака
+    }
+smart-window-confirm-open-tab = Отвори
+smart-window-confirm-open-tabs =
+    { $count ->
+        [one] Отвори { $count } језичак
+        [few] Отвори { $count } језичка
+       *[other] Отвори { $count } језичака
+    }
+smart-window-grouped-tabs-label =
+    { $count ->
+        [one] Груписан { $count } језичак
+        [few] Груписана { $count } језичка
+       *[other] Груписано { $count } језичака
+    }
+smart-window-default-tab-group-label = Група језичака
+smart-window-grouped-tabs-summary =
+    { $count ->
+        [one] Направљена је група „{ $label }” и додат је { $count } језичак.
+        [few] Направљена је група „{ $label }” и додата су { $count } језичка.
+       *[other] Направљена је група „{ $label }” и додато је { $count } језичака.
+    }
+smart-window-grouped-tabs-row-label = Груписани језичци
+smart-window-opened-tabs-label =
+    { $count ->
+        [one] Отворен је { $count } језичак
+        [few] Отворена су { $count } језичка
+       *[other] Отворено је { $count } језичака
+    }
+smart-window-opened-tabs-summary-single =
+    { $count ->
+        [one] Отворен је { $count } језичак.
+        [few] Отворена су { $count } језичка.
+       *[other] Отворено је { $count } језичака.
+    }
+smart-window-opened-tabs-summary-group =
+    { $count ->
+        [one] Направљена је група „{ $label }” и отворен је { $count } језичак.
+        [few] Направљена је група „{ $label }” и отворена су { $count } језичка.
+       *[other] Направљена је група „{ $label }” и отворено је { $count } језичака.
+    }
+smart-window-opened-tabs-row-label = Отворени језичци
+smart-window-switched-tab-label = Пребачени језичци
+smart-window-switched-tab-summary = Пребачено у „{ $title }”.
+smart-window-grouped-and-ungrouped-label = Разгруписани језичци
+smart-window-ungroup-success-summary =
+    { $count ->
+        [one] { $count } језичак је груписан, а затим разгруписан.
+        [few] { $count } језичка су груписана, а затим разгруписана.
+       *[other] { $count } језичака су груписана, а затим разгруписана.
+    }
+smart-window-ungrouped-row-label =
+    { $count ->
+        [one] Разгруписан { $count } језичак
+        [few] Разгруписана { $count } језичка
+       *[other] Разгруписано { $count } језичака
+    }
+action-log-searching-tabs = Претражујем језичке
+action-log-searched-open-tabs = Претражени отворени језичци
+action-log-searching-history = Претражујем историју
+action-log-searched-history = Претражена историја
+action-log-reading-page = Читам страницу
+action-log-read-page = Прочитан садржај странице
+action-log-searching-web = Претражујем веб
+action-log-searched-web = Претражен веб
+action-log-searching-web-with-exa = Претражујем веб помоћу <a data-l10n-name="exa-link">Exa</a>-е
+action-log-searched-web-with-exa = Претражен је веб помоћу <a data-l10n-name="exa-link">Exa</a>-е
+action-log-checking-memories = Проверавам сећања
+action-log-checked-memories = Проверена сећања
+action-log-searching-settings = Претражујем подешавања
+action-log-searched-settings = Претражена подешавања
+action-log-completed-steps =
+    { $count ->
+        [one] Завршен један корак
+        [few] Завршена { $count } корака
+       *[other] Завршено { $count } корака
+    }
+smartwindow-search-loader-text = Учитани су резултати претраге у овом језичку. Проучавам…
+smartwindow-assistant-citations-more-label = +{ $count } више

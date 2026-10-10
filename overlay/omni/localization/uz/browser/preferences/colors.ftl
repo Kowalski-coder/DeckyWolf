@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Matn va orqa fon
+colors-text =
+    .label = Matn
+    .accesskey = t
+colors-text-background =
+    .label = Orqa fon
+    .accesskey = f
+colors-links-header = Link ranglari
+colors-links-unvisited =
+    .label = Kirilmagan havolalar
+    .accesskey = K
+colors-links-visited =
+    .label = Kirilgan havolalar
+    .accesskey = h

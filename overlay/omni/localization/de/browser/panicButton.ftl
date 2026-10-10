@@ -1,0 +1,15 @@
+panic-button-open-new-window = Ein leeres Fenster öffnen
+panic-button-undo-warning = Diese Aktionen können nicht rückgängig gemacht werden.
+panic-button-forget-button =
+    .label = Löschen
+panic-main-timeframe-desc = Zu löschender Zeitraum:
+panic-button-5min =
+    .label = Fünf Minuten
+panic-button-2hr =
+    .label = Zwei Stunden
+panic-button-day =
+    .label = 24 Stunden
+panic-button-action-desc = Es werden folgende Aktionen ausgeführt:
+panic-button-delete-cookies = Kürzlich angelegte oder geänderte <strong>Cookies</strong> löschen
+panic-button-delete-history = Die kürzlich angelegte <strong>Chronik</strong> löschen
+panic-button-delete-tabs-and-windows = Alle <strong>Tabs</strong> und <strong>Fenster</strong> schließen

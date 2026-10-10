@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Desainguratu gainezkatzearen menutik
+    .accesskey = D
+customize-menu-add-to-toolbar =
+    .label = Gehitu tresna-barran
+    .accesskey = G
+customize-menu-add-to-overflowmenu =
+    .label = Gehitu gainezkatzearen menuan
+    .accesskey = m
+panic-button-thankyou-msg1 = Azken historia garbitu egin da.
+panic-button-thankyou-msg2 = Nabigatu seguru!
+panic-button-thankyou-button =
+    .label = Eskerrik asko!

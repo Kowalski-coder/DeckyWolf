@@ -1,0 +1,189 @@
+--- /tmp/orig_browser_omni/chrome/browser/skin/classic/browser/browser.css	2026-10-10 17:20:00.000000000 +0300
++++ /tmp/browser_work/chrome/browser/skin/classic/browser/browser.css	2026-10-10 20:27:57.757202072 +0300
+@@ -398,3 +398,186 @@
+ #menu_openHelp {
+   display: none !important;
+ }
++
++/* DeckyWolf: Control Mode Button */
++#deckywolf-control-mode-button {
++  list-style-image: url("chrome://browser/skin/deckywolf-keyboard.svg") !important;
++}
++
++#deckywolf-control-mode-button[data-deckywolf-mode="controller"] {
++  list-style-image: url("chrome://browser/skin/deckywolf-controller.svg") !important;
++}
++
++/* DeckyWolf: Gamepad Button Badges in Controller Mode */
++:root[deckywolf-controller-active] #back-button,
++:root[deckywolf-controller-active] #forward-button,
++:root[deckywolf-controller-active] #reload-button {
++  position: relative;
++}
++
++:root[deckywolf-controller-active] #back-button::after,
++:root[deckywolf-controller-active] #forward-button::after,
++:root[deckywolf-controller-active] #reload-button::after {
++  position: absolute;
++  bottom: 2px;
++  right: 2px;
++  width: 14px;
++  height: 14px;
++  border-radius: 50%;
++  color: #ffffff;
++  font-size: 9px;
++  font-weight: 800;
++  display: flex;
++  align-items: center;
++  justify-content: center;
++  line-height: 14px;
++  text-align: center;
++  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
++  pointer-events: none;
++}
++
++/* Default / Xbox / Steam Deck style (B, X, Y) */
++:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #back-button::after {
++  content: "B";
++  background: #ef4444; /* Red B */
++}
++:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #forward-button::after {
++  content: "X";
++  background: #1098fe; /* Blue X */
++}
++:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #reload-button::after {
++  content: "Y";
++  background: #eab308; /* Yellow Y */
++}
++
++/* PlayStation style (Circle, Square, Triangle) */
++:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #back-button::after {
++  content: "○";
++  background: #ef4444; /* Red Circle */
++  font-size: 11px;
++}
++:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #forward-button::after {
++  content: "□";
++  background: #ec4899; /* Pink Square */
++  font-size: 11px;
++}
++:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #reload-button::after {
++  content: "△";
++  background: #10b981; /* Green Triangle */
++  font-size: 11px;
++}
++
++/* Nintendo style (A, Y, X) */
++:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #back-button::after {
++  content: "A";
++  background: #ef4444; /* Red A */
++}
++:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #forward-button::after {
++  content: "Y";
++  background: #1098fe; /* Blue Y */
++}
++:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #reload-button::after {
++  content: "X";
++  background: #eab308; /* Yellow X */
++}
++
++/* DeckyWolf: Tab Bar Hints when modifier (L5/etc.) is held */
++:root[deckywolf-controller-active][deckywolf-modifier-active] .tabbrowser-tab:is([selected], [visuallyselected]) {
++  overflow: visible !important;
++}
++
++/* Make sure active tab close button is always visible when modifier is held */
++:root[deckywolf-controller-active][deckywolf-modifier-active] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
++  display: flex !important;
++  visibility: visible !important;
++  opacity: 1 !important;
++  width: 16px !important;
++  height: 16px !important;
++  min-width: 16px !important;
++  min-height: 16px !important;
++  padding: 0 !important;
++  margin-inline-end: 2px !important;
++  background-size: contain !important;
++  background-repeat: no-repeat !important;
++  background-position: center !important;
++  border-radius: 50% !important;
++  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
++}
++
++/* Xbox / Steam Deck style close button: Red B */
++:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
++  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ctext%20x%3D%228%22%20y%3D%2211.5%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EB%3C/text%3E%3C/svg%3E') !important;
++}
++
++/* PlayStation style close button: Red Circle */
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
++  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222%22/%3E%3C/svg%3E') !important;
++}
++
++/* Nintendo style close button: Red A */
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
++  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ctext%20x%3D%228%22%20y%3D%2211.5%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EA%3C/text%3E%3C/svg%3E') !important;
++}
++
++/* New tab button hints */
++:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button,
++:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button,
++:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button {
++  position: relative !important;
++  list-style-image: none !important;
++}
++
++:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button > *,
++:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button > *,
++:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button > * {
++  opacity: 0 !important;
++}
++
++:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button::after {
++  position: absolute !important;
++  top: 50% !important;
++  left: 50% !important;
++  transform: translate(-50%, -50%) !important;
++  width: 14px !important;
++  height: 14px !important;
++  border-radius: 50% !important;
++  color: #ffffff !important;
++  font-size: 9px !important;
++  font-weight: 800 !important;
++  display: flex !important;
++  align-items: center !important;
++  justify-content: center !important;
++  line-height: 14px !important;
++  text-align: center !important;
++  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
++  pointer-events: none !important;
++  z-index: 100 !important;
++}
++
++/* Xbox: Yellow Y */
++:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #tabs-newtab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #new-tab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) .tabs-newtab-button::after {
++  content: "Y" !important;
++  background: #eab308 !important;
++}
++
++/* PlayStation: Green Triangle */
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] #tabs-newtab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] #new-tab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] .tabs-newtab-button::after {
++  content: "△" !important;
++  background: #10b981 !important;
++  font-size: 11px !important;
++}
++
++/* Nintendo: Yellow X */
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] #tabs-newtab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] #new-tab-button::after,
++:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] .tabs-newtab-button::after {
++  content: "X" !important;
++  background: #eab308 !important;
++}
++

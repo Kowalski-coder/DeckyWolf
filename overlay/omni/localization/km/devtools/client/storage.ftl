@@ -1,0 +1,30 @@
+storage-filter-key = CmdOrCtrl+F
+storage-table-type-indexeddb-hint = មើល និងលុបធាតុ IndexedDB ដោយជ្រើសរើសមូលដ្ឋានទិន្នន័យ។ <a data-l10n-name="learn-more-link">ស្វែងយល់បន្ថែម</a>
+storage-table-type-cache-hint = មើល និងលុបធាតុផ្ទុកទិន្នន័យឃ្លាំងសម្ងាត់ដោយជ្រើសរើសកន្លែងផ្ទុក។ <a data-l10n-name="learn-more-link">ស្វែងយល់បន្ថែម</a>
+storage-search-box =
+    .placeholder = ត្រង់​ធាតុ
+storage-variable-view-search-box =
+    .placeholder = ច្រោះ​ការ​ហៅ
+storage-add-button =
+    .title = បញ្ចូល​ធាតុ
+storage-context-menu-delete-all =
+    .label = លុប​ចោល​ទាំងអស់
+storage-context-menu-delete-all-session-cookies =
+    .label = លុបឃូគីសម័យទាំងអស់
+storage-context-menu-delete =
+    .label = លុប “{ $itemName }”
+storage-context-menu-add-item =
+    .label = បញ្ចូល​ធាតុ
+storage-context-menu-delete-all-from =
+    .label = លុបទាំងអស់ពី “{ $host }”
+storage-table-headers-cookies-name = ឈ្មោះ
+storage-table-headers-cookies-value = តម្លៃ
+storage-table-headers-cache-status = ស្ថានភាព
+storage-tree-labels-cookies = ​ខូគី
+storage-tree-labels-local-storage = ការ​ផ្ទុក​មូលដ្ឋាន
+storage-tree-labels-session-storage = ការ​ផ្ទុក​សម័យ
+storage-tree-labels-indexed-db = Indexed DB
+storage-tree-labels-cache = ទំហំផ្ទុក​ឃ្លាំងសម្ងាត់
+storage-expires-session = សម័យ
+storage-data = ទិន្នន័យ
+storage-parsed-value = តម្លៃ​ដែល​បាន​ញែក

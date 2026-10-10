@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Caută în toate filele
+all-tabs-menu-new-user-context =
+    .label = Filă container nouă
+all-tabs-menu-hidden-tabs =
+    .label = File ascunse
+all-tabs-menu-close-duplicate-tabs =
+    .label = Închide filele duplicate
+all-tabs-menu-view-all-tabs =
+    .label = Afișează toate filele
+all-tabs-menu-recent-tab-groups-header = Grupuri de file recente
+all-tabs-menu-tab-groups-show-all =
+    .label = Afișează toate
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupuri de file
+all-tabs-menu-current-window-header = Fereastră curentă

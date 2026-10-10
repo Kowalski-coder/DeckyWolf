@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Selamat Datang!
+error-short-desc-text = Kami datang melawat anda secara aman dan suasana muhibbah!
+error-long-desc1 = Robot tidak boleh membahayakan manusia, tetapi sebaliknya manusia yang memudaratkan manusia lain.
+error-long-desc2 = Robot telah menyaksikan perlbagai perkara yang anda sendiri tidak akan percaya.
+error-long-desc3 = Robot adalah Rakan Sepermainan Anda Yang Mesra.
+error-long-desc4 = Robot diselaputi besi berkilau yang tidak sepatutnya anda gigit.
+error-trailer-desc-text = Dan robot ada perancangannya sendiri.
+error-try-again = Cuba Lagi
+    .label2 = Jangan tekan butang ini lagi.

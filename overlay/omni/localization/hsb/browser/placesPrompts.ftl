@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (žadyn titul)
+places-load-js-data-url-error = Z přičinow wěstoty njedadźa so URL „javascript:“ abo „data:“ z wokna historije abo bóčnicy čitać.
+places-bookmarks-backup-title = Datajowe mjeno za zawěsćenje zapołožkow
+places-bookmarks-restore-alert-title = Zapołožki wobnowić
+places-bookmarks-restore-alert = To naruna wšě z wašich zapołožkow přez zawěsćene. Chceće to woprawdźe činić?
+places-bookmarks-restore-title = Zawěsćenje zapołožkow wubrać
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Njepodpěrowany datajowy typ.
+places-bookmarks-restore-parse-error = Njeje móžno, zawěsćensku dataju předźěłać.
+places-bookmarks-import = Dataju zapołožkow importować
+places-bookmarks-export = Dataju zapołožkow eksportować
+places-bookmarks-paste-error-title = Njepłaćiwy URL namakany
+places-bookmarks-paste-error-message-header = Slědowace URL njedadźa so wašim zapołožkam přidać. Přepruwujće formatěrowanje a přidajće je znowa.

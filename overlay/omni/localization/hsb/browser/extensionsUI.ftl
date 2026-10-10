@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } chce wašu standardnu pytawu wot { $currentEngine } do { $newEngine } změnić. Je to w porjadku?
+webext-default-search-yes =
+    .label = Haj
+    .accesskey = H
+webext-default-search-no =
+    .label = Ně
+    .accesskey = N
+addon-post-install-message = { $addonName } je so přidał.
+webext-quarantine-confirmation-title = { $addonName } na wobmjezowanych sydłach wuwjesć?
+webext-quarantine-confirmation-line-1 = Zo bychu so waše daty škitali, tute rozšěrjenje na tutym sydle dowolene njeje.
+webext-quarantine-confirmation-line-2 = Dowolće tute rozšěrjenje, jeli jemu dowěrjeće, waše daty na sydłach čitać a změnić, kotrež su wot { -vendor-short-name } wobmjezowane.
+webext-quarantine-confirmation-allow =
+    .label = Dowolić
+    .accesskey = D
+webext-quarantine-confirmation-deny =
+    .label = Njedowolić
+    .accesskey = N

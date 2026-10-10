@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } želi promijeniti vaš glavni pretraživač iz { $currentEngine } u { $newEngine }. Da li je to OK?
+webext-default-search-yes =
+    .label = Da
+    .accesskey = D
+webext-default-search-no =
+    .label = Ne
+    .accesskey = N
+addon-post-install-message = { $addonName } je dodan.
+webext-quarantine-confirmation-title = Pokrenuti { $addonName } na ograničenim web stranicama?
+webext-quarantine-confirmation-line-1 = Radi zaštite vaših podataka, ova ekstenzija nije dozvoljena na ovoj stranici.
+webext-quarantine-confirmation-line-2 = Dozvolite ovoj ekstenziji ako vjerujete da čita i mijenja vaše podatke na web stranicama ograničenim { -vendor-short-name }om.
+webext-quarantine-confirmation-allow =
+    .label = Dozvoli
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Nemoj dozvoliti
+    .accesskey = D

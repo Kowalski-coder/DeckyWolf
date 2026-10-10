@@ -1,0 +1,17 @@
+callout-primary-advance-button-label = Ne' ñaan
+callout-primary-complete-button-label = Ngà nikà man
+callout-firefox-view-tab-pickup-title = Naduna nī ganikajt man
+callout-firefox-view-tab-pickup-subtitle = Ganikaj sa nù riña si telefonot nī na'nint hiujnan.
+callout-firefox-view-recently-closed-title = Na'nin nej ñanj ganarán ma'an.
+callout-firefox-view-recently-closed-subtitle = Nej ñanj narán ma'an nī nayi'nin ñunj. Sī giriñun ruhuât ni ganarán ma'an ma.
+continuous-onboarding-firefox-view-tab-pickup-title = Nagi'hiaj si navegadort.
+continuous-onboarding-firefox-view-tab-pickup-subtitle = Garasun nej dán dene' huaj ma'ant.
+continuous-onboarding-firefox-view-tab-pickup-primary-button-label = Gāyi'ì
+callout-pdfjs-edit-title = Nāgi'hiaj nej ñanj PDF 'ngà rasuun na.
+callout-pdfjs-edit-body-a = Gachrun sa anin ruhuât riña { -brand-short-name }
+callout-pdfjs-edit-body-b = Si gaché nun ta'ut, ga'hu gachrunt hiujna sa anin rihuât { -brand-short-name }.
+callout-pdfjs-edit-button = Ne' ñaan
+callout-pdfjs-draw-title = Gachrun si da'ngà' ngà aga' na.
+callout-pdfjs-draw-body-a = Gachrun sa garan' ruhuât riña PDF nī na'ninj sat.
+callout-pdfjs-draw-body-b = Si giri' ñan du'hua man. Narán riña PDF nī na'nïj sa'.
+callout-pdfjs-draw-button = Ngà nikà man

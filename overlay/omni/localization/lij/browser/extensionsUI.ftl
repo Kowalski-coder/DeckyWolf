@@ -1,0 +1,14 @@
+webext-default-search-description = { $addonName } o veu cangiâ o teu motô de riçerca da { $currentEngine } a { $newEngine }. Te va ben?
+webext-default-search-yes =
+    .label = Sci
+    .accesskey = S
+webext-default-search-no =
+    .label = No
+    .accesskey = N
+addon-post-install-message = { $addonName } o l'é stæto azonto.
+webext-quarantine-confirmation-allow =
+    .label = Permetti
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = No Permette
+    .accesskey = N

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Añadir pestaña a la barra de tareas
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Remover pestaña de la barra de tareas
+taskbar-tab-urlbar-button-show = Mostrar acción de página de Web App
+taskbar-tab-urlbar-button-hide = Ocultar acción de página de Web App
+taskbar-tab-shortcut-description = { $name } Web App
+taskbar-tab-shortcut-folder = { -brand-short-name } Web Apps
+taskbar-tab-audio-mute =
+    .tooltiptext = Silenciar pestaña
+taskbar-tab-audio-unmute =
+    .tooltiptext = Desilenciar pestaña
+taskbar-tab-title-default = { $name } en { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) en { -brand-full-name }
+taskbar-tab-title-profile = { $name } en { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) en { $profile } — { -brand-full-name }

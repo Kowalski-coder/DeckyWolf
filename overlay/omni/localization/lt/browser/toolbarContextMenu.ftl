@@ -1,0 +1,69 @@
+toolbar-context-menu-new-tab =
+    .label = Nauja kortelė
+    .accesskey = j
+toolbar-context-menu-reload-selected-tab =
+    .label = Įkelti pasirinktą kortelę iš naujo
+    .accesskey = e
+toolbar-context-menu-reload-selected-tabs =
+    .label = Įkelti pasirinktas korteles iš naujo
+    .accesskey = e
+toolbar-context-menu-bookmark-selected-tab =
+    .label = Įtraukti pasirinktą kortelę į adresyną…
+    .accesskey = t
+toolbar-context-menu-bookmark-selected-tabs =
+    .label = Įrašyti pasirinktas korteles į adresyną…
+    .accesskey = i
+toolbar-context-menu-select-all-tabs =
+    .label = Pasirinkti visas korteles
+    .accesskey = P
+toolbar-context-menu-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] Atkurti užvertą kortelę
+            [one] Atkurti užvertą kortelę
+            [few] Atkurti užvertas korteles
+           *[other] Atkurti užvertas korteles
+        }
+    .accesskey = r
+toolbar-context-menu-manage-extension =
+    .label = Tvarkyti priedą
+    .accesskey = p
+toolbar-context-menu-remove-extension =
+    .label = Pašalinti priedą
+    .accesskey = l
+toolbar-context-menu-report-extension =
+    .label = Pranešti apie priedą
+    .accesskey = n
+toolbar-context-menu-pin-to-overflow-menu =
+    .label = Įsegti į perpildymo meniu
+    .accesskey = s
+toolbar-context-menu-auto-hide-downloads-button-2 =
+    .label = Slėpti mygtuką, kai tuščia
+    .accesskey = S
+toolbar-context-menu-always-open-downloads-panel =
+    .label = Rodyti skydelį, kai prasideda atsiuntimas
+    .accesskey = R
+toolbar-context-menu-remove-from-toolbar =
+    .label = Pašalinti iš priemonių juostos
+    .accesskey = š
+toolbar-context-menu-view-customize-toolbar =
+    .label = Tvarkyti…
+    .accesskey = T
+toolbar-context-menu-view-customize-toolbar-2 =
+    .label = Tvarkyti priemonių juostą…
+    .accesskey = T
+toolbar-context-menu-bookmarks-toolbar-always-show-2 =
+    .label = Visada rodyti
+    .accesskey = V
+toolbar-context-menu-bookmarks-toolbar-never-show-2 =
+    .label = Niekada nerodyti
+    .accesskey = N
+toolbar-context-menu-bookmarks-toolbar-on-new-tab-2 =
+    .label = Rodyti tik naujoje kortelėje
+    .accesskey = R
+toolbar-context-menu-bookmarks-show-other-bookmarks =
+    .label = Rodyti kitus adresyno įrašus
+    .accesskey = d
+toolbar-context-menu-menu-bar-cmd =
+    .toolbarname = Meniu juosta
+    .accesskey = M

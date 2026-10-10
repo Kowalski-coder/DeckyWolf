@@ -1,0 +1,231 @@
+places-open =
+    .label = Jeike
+    .accesskey = J
+places-open-in-tab =
+    .label = Eike tendayke pyahúpe
+    .accesskey = W
+places-open-in-container-tab =
+    .label = Embojuruja mbyatyha rendayke pyahúpe
+    .accesskey = i
+places-open-all-bookmarks =
+    .label = Embojurujapaite techaukaha
+    .accesskey = O
+places-open-all-in-tabs =
+    .label = Tendayképe jeikepa
+    .accesskey = O
+places-open-in-window =
+    .label = Eike Ovetã Pyahúpe
+    .accesskey = N
+places-open-in-private-window =
+    .label = Eike Ovetã Ñemigua Pyahúpe
+    .accesskey = P
+places-empty-bookmarks-folder =
+    .label = (Nandi)
+places-add-bookmark =
+    .label = Embojuaju techaukaha…
+    .accesskey = B
+places-add-folder-contextmenu =
+    .label = Embojuaju ñongatuha…
+    .accesskey = F
+places-add-folder =
+    .label = Embojuaju ñongatuha…
+    .accesskey = o
+places-add-separator =
+    .label = Embojuaju mopa’ũha
+    .accesskey = S
+places-view =
+    .label = Hecha
+    .accesskey = w
+places-by-date =
+    .label = Arange rupi
+    .accesskey = D
+places-by-site =
+    .label = Tenda rupi
+    .accesskey = S
+places-by-most-visited =
+    .label = Jeike papapy hetave rupi
+    .accesskey = V
+places-by-last-visited =
+    .label = Jeike pahaite rupi
+    .accesskey = L
+places-by-day-and-site =
+    .label = Arange ha tenda rupi
+    .accesskey = t
+places-history-search =
+    .placeholder = Tembiasakuépe jeheka
+places-history =
+    .aria-label = Tembiasakue
+places-bookmarks-search =
+    .placeholder = Techaukahápe jeheka
+places-forget-domain-data =
+    .label = Ehejarei ko Tenda…
+    .accesskey = F
+places-sortby-name =
+    .label = Teraite rupi Ñemohenda
+    .accesskey = r
+places-edit-bookmark =
+    .label = Embosako’i techaukaha…
+    .accesskey = i
+places-edit-generic =
+    .label = Mbosako’i…
+    .accesskey = i
+places-edit-folder2 =
+    .label = Embosako’i ñongatuha…
+    .accesskey = i
+places-delete-folder =
+    .label =
+        { $count ->
+            [1] Emboguete ñongatuha
+            [one] Emboguete ñongatuhakuéra
+           *[other] Emboguete ñongatuhakuéra
+        }
+    .accesskey = D
+places-delete-page =
+    .label =
+        { $count ->
+            [1] Emboguete kuatiarogue
+           *[other] Emboguete kuatiarogue
+        }
+    .accesskey = D
+managed-bookmarks =
+    .label = Techaukaha ñangarekopyre
+managed-bookmarks-subfolder =
+    .label = Marandurenda’i
+other-bookmarks-folder =
+    .label = Ambuekuéra Techaukaha
+places-show-in-folder =
+    .label = Ehechauka marandurendápe
+    .accesskey = F
+places-delete-bookmark =
+    .label =
+        { $count ->
+            [1] Emboguete techaukaha
+            [one] Emboguete techaukahakuéra
+           *[other] Emboguete techaukahakuéra
+        }
+    .accesskey = D
+places-create-bookmark =
+    .label =
+        { $count ->
+            [1] Embojuaju kuatiarogue techaukaháre…
+           *[other] Embojuaju kuatiarogue techaukaháre…
+        }
+    .accesskey = B
+places-untag-bookmark =
+    .label = Emboguete teramoĩ
+    .accesskey = R
+places-manage-bookmarks =
+    .label = Eñangareko Techaukaháre
+    .accesskey = M
+places-library3 =
+    .title = Mba’erysýi
+places-organize-button =
+    .label = Mohenda
+    .tooltiptext = Emohenda nde rechaukahakuéra
+    .accesskey = M
+places-file-close =
+    .label = Mboty
+    .accesskey = C
+places-cmd-close =
+    .key = w
+places-view-button =
+    .label = Hechaha
+    .tooltiptext = Hechaha moambue
+    .accesskey = V
+places-view-menu-columns =
+    .label = Yta rechaukaha
+    .accesskey = C
+places-view-menu-sort =
+    .label = Mohenda
+    .accesskey = M
+places-view-sort-unsorted =
+    .label = Mohenda’ỹva
+    .accesskey = M
+places-view-sort-ascending =
+    .label = A > Z ñemohenda
+    .accesskey = A
+places-view-sort-descending =
+    .label = A > Z ñemohenda
+    .accesskey = A
+places-maintenance-button =
+    .label = Mba’ereru ha Ñongatuguy
+    .tooltiptext = Nde rechahaukakuéra mba’ereru ha mba’ereraha
+    .accesskey = I
+places-cmd-backup =
+    .label = Mbokuatia...
+    .accesskey = M
+places-cmd-restore =
+    .label = Mbojevy
+    .accesskey = R
+places-cmd-restore-from-file =
+    .label = Marandurenda Poravo…
+    .accesskey = P
+places-import-bookmarks-from-html =
+    .label = Techaukaha jereru peteĩ HTML-gui
+    .accesskey = I
+places-export-bookmarks-to-html =
+    .label = Techaukaha jereraha HTML-ramo
+    .accesskey = E
+places-import-other-browser =
+    .label = Mba’ekuaarã jereru…
+    .accesskey = A
+places-view-sort-col-name =
+    .label = Téra
+places-view-sort-col-tags =
+    .label = Teramoĩ
+places-view-sort-col-url =
+    .label = Tendaréra
+places-view-sort-col-most-recent-visit =
+    .label = Jeike ramo pyahuvéva
+places-view-sort-col-visit-count =
+    .label = Jeikehague jepapa
+places-view-sort-col-date-added =
+    .label = Mbojoapypyre
+places-view-sort-col-last-modified =
+    .label = Ñemoambue ramove
+places-view-sortby-name =
+    .label = Teraite rupi ñemohenda
+    .accesskey = N
+places-view-sortby-url =
+    .label = Tendaite rupi ñemohenda
+    .accesskey = L
+places-view-sortby-date =
+    .label = Jeike ramovéva rupi ñemohenda
+    .accesskey = V
+places-view-sortby-visit-count =
+    .label = Jeikehague jepapa rupi
+    .accesskey = C
+places-view-sortby-date-added =
+    .label = Ñembojoapy ramove rupi
+    .accesskey = e
+places-view-sortby-last-modified =
+    .label = Emohenda ñemoambueramovéva rupi
+    .accesskey = M
+places-view-sortby-tags =
+    .label = Teramoĩ rupi ñemohenda
+    .accesskey = T
+places-cmd-find-key =
+    .key = f
+places-back-button =
+    .tooltiptext = Tapykuévo jeho
+places-forward-button =
+    .tooltiptext = Tenonde jeho
+places-details-pane-select-an-item-description = Eiporavo peteĩ mba’eporu ehecha ha embosako’i hag̃ua imba’etee
+places-details-pane-no-items =
+    .value = Mba’eporurã’ỹ
+places-details-pane-items-count =
+    .value =
+        { $count ->
+            [one] Peteĩ mba’eporu
+           *[other] { $count } mba’eporukuéra
+        }
+places-search-bookmarks =
+    .placeholder = Techaukaha jeheka
+places-search-history =
+    .placeholder = Heka
+places-search-downloads =
+    .placeholder = Ñemboguejy jeheka
+places-locked-prompt = Apopyvusu techaukaha ha tembiasakue rehegua ndoikomo’ãi oĩre peteĩva { -brand-short-name }’s marandurenda ojeporúva ambue tembiporu’ípe. Oĩ tembiaporape hekorosãva ikatúva omoapanuãi.
+places-share-folder2 =
+    .badge = Pyahu
+    .label = Emoherakuã marandurenda

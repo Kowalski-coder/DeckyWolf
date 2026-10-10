@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = ᱱᱟᱶᱟ ᱠᱚᱱᱴᱮᱱᱚᱨ ᱴᱮᱵᱽ
+all-tabs-menu-hidden-tabs =
+    .label = ᱩᱠᱩ ᱴᱮᱵᱽ ᱠᱚ
+all-tabs-menu-recent-tab-groups-header = ᱱᱮᱛᱟᱨ ᱴᱮᱵᱽ ᱜᱟᱫᱮᱞ ᱠᱚ
+all-tabs-menu-tab-groups-show-all =
+    .label = ᱡᱷᱚᱛᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ
+all-tabs-menu-tab-groups-sub-view =
+    .title = ᱴᱮᱵᱽ ᱫᱚᱞ ᱠᱚ
+all-tabs-menu-current-window-header = ᱱᱤᱛᱚᱜᱟᱜ ᱡᱷᱚᱨᱠᱟ

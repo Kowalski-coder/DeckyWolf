@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Pesquisar em Todos os Separadores
+all-tabs-menu-new-user-context =
+    .label = Novo separador contentor
+all-tabs-menu-hidden-tabs =
+    .label = Separadores ocultados
+all-tabs-menu-close-duplicate-tabs =
+    .label = Fechar Separadores Duplicados
+all-tabs-menu-view-all-tabs =
+    .label = Ver Todos os Separadores
+all-tabs-menu-recent-tab-groups-header = Grupos de separadores recentes
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostrar tudo
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de separadores
+all-tabs-menu-current-window-header = Janela atual

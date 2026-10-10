@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Hľadať vo všetkých kartách
+all-tabs-menu-new-user-context =
+    .label = Nová kontajnerová karta
+all-tabs-menu-hidden-tabs =
+    .label = Skryté karty
+all-tabs-menu-close-duplicate-tabs =
+    .label = Zavrieť duplicitné karty
+all-tabs-menu-view-all-tabs =
+    .label = Zobraziť všetky karty
+all-tabs-menu-recent-tab-groups-header = Nedávne skupiny kariet
+all-tabs-menu-tab-groups-show-all =
+    .label = Zobraziť všetky
+all-tabs-menu-tab-groups-sub-view =
+    .title = Skupiny kariet
+all-tabs-menu-current-window-header = Aktuálne okno

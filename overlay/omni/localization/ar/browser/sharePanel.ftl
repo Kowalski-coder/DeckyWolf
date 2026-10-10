@@ -1,0 +1,17 @@
+urlbar-share-button =
+    .aria-label = شارك هذه الصفحة
+    .tooltiptext = شارك هذه الصفحة
+share-panel-heading = شارك الصفحة
+share-panel-copy-link =
+    .label = انسخ الرابط
+confirmation-hint-link-copied = نُسخ الرابط
+share-panel-mail =
+    .label = أرسل بريدًا إلكترونيًا
+share-panel-screenshot =
+    .label = خذ لقطة شاشة
+share-panel-send-to-device =
+    .label = أرسل إلى جهاز
+share-panel-send-to-mobile =
+    .label = أرسل إلى الهاتف
+share-panel-device-subview =
+    .title = كل الأجهزة

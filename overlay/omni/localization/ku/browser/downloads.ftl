@@ -1,0 +1,39 @@
+downloads-window =
+    .title = Yên hatine daxistin
+downloads-panel =
+    .aria-label = Yên hatine daxistin
+downloads-cmd-pause =
+    .label = Rawestîne
+    .accesskey = R
+downloads-cmd-resume =
+    .label = Dubare bike
+    .accesskey = D
+downloads-cmd-retry =
+    .tooltiptext = Dîsa biceribîne
+downloads-cmd-retry-panel =
+    .aria-label = Dîsa biceribîne
+downloads-cmd-go-to-download-page =
+    .label = Here rûpela jêbarkirinê
+    .accesskey = H
+downloads-cmd-copy-download-link =
+    .label = Girêdana Daxistinê Ji Ber Bigire
+    .accesskey = G
+downloads-cmd-remove-from-history =
+    .label = Ji Raboriyê rake
+    .accesskey = r
+downloads-cmd-clear-downloads =
+    .label = Jêbarkiriyan paqij bike
+    .accesskey = J
+downloads-history =
+    .label = Hemû jêbarkiriyan nîşan bide
+    .accesskey = n
+downloads-clear-downloads-button =
+    .label = Jêbarkiriyan paqij bike
+    .tooltiptext = Jêbarkirinên qediyayî, betalkirî û neserkeftî paqij dike
+downloads-list-empty =
+    .value = Jêbarkirin tune ye.
+downloads-error-alert-title = Di Daxistinê de Çewtî
+downloads-error-generic =
+    Ji ber çewtiyeke nenas pela daxistî nayê tomarkirin.
+    
+    Ji kerema xwe re careke din biceribîne.

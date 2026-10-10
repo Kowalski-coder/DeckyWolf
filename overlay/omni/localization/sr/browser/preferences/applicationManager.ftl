@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Детаљи о апликацији
+    .style = min-width: 40em; min-height: 20em;
+app-manager-remove =
+    .label = Уклони
+    .accesskey = У
+app-manager-handle-protocol = За обраду { $type } веза могу се користити следеће апликације:
+app-manager-handle-file = За обраду { $type } садржаја могу се користити следеће апликације:
+app-manager-web-app-info = Ова веб-апликација се налази на:
+app-manager-local-app-info = Ова апликација се налази на:

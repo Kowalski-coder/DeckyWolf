@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Przeszukaj wszystkie karty
+all-tabs-menu-new-user-context =
+    .label = Nowa karta w kontenerze
+all-tabs-menu-hidden-tabs =
+    .label = Ukryte karty
+all-tabs-menu-close-duplicate-tabs =
+    .label = Zamknij podwójne karty
+all-tabs-menu-view-all-tabs =
+    .label = Pokaż wszystkie karty
+all-tabs-menu-recent-tab-groups-header = Ostatnie grupy kart
+all-tabs-menu-tab-groups-show-all =
+    .label = Pokaż wszystkie
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupy kart
+all-tabs-menu-current-window-header = Bieżące okno

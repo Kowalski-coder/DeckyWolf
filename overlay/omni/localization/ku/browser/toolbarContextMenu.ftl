@@ -1,0 +1,9 @@
+toolbar-context-menu-remove-from-toolbar =
+    .label = Ji darikê amûran rake
+    .accesskey = r
+toolbar-context-menu-view-customize-toolbar =
+    .label = Taybet Bike
+    .accesskey = T
+toolbar-context-menu-menu-bar-cmd =
+    .toolbarname = Darikê Pêşekê
+    .accesskey = D

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Ҷустуҷӯ дар ҳамаи варақаҳо
+all-tabs-menu-new-user-context =
+    .label = Варақаи нави дарбаргиранда
+all-tabs-menu-hidden-tabs =
+    .label = Варақаҳои пинҳоншуда
+all-tabs-menu-close-duplicate-tabs =
+    .label = Пӯшидани варақаҳои такрорӣ
+all-tabs-menu-view-all-tabs =
+    .label = Дидани ҳамаи варақаҳо
+all-tabs-menu-recent-tab-groups-header = Гурӯҳҳои варақаҳои охирин
+all-tabs-menu-tab-groups-show-all =
+    .label = Ҳамаро намоиш додан
+all-tabs-menu-tab-groups-sub-view =
+    .title = Гурӯҳҳои варақаҳо
+all-tabs-menu-current-window-header = Равзанаи ҷорӣ

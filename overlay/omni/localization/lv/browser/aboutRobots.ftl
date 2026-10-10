@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Esiet sveicināti, cilvēki!
+error-short-desc-text = Mēs nākam apciemot jūs ar mieru un labiem nodomiem prātā!
+error-long-desc1 = Roboti nevar kaitēt cilvēkiem vai ar savu bezdarbību pieļaut, ka cilvēkam tiek kaitēts.
+error-long-desc2 = Roboti ir redzējuši lietas, kam jūs, cilvēki, neticētu.
+error-long-desc3 = Roboti ir jūsu mehāniskie draugi, ar kuriem ir tik jauki :)
+error-long-desc4 = Robotiem ir spīdīgas metāla pēcpuses, kurās nav ieteicams kost.
+error-trailer-desc-text = Un viņiem ir plāns...
+error-try-again = Mēģināt vēlreiz
+    .label2 = Lūgums nespiest šo pogu vēlreiz.

@@ -1,0 +1,31 @@
+aboutDialog-title =
+    .title = Derbarê { -brand-full-name }'ê de
+update-checkForUpdatesButton =
+    .label = Li nûkirinan bigere
+    .accesskey = L
+update-checkingForUpdates = Nûkirinan tên kontrolkirin…
+settings-update-checking-for-updates =
+    .label = Nûkirinan tên kontrolkirin…
+settings-update-downloading-2 =
+    .label = Nûkirin tê daxistin — { $transfer }
+update-applying = Nûkirin tê sepandin…
+settings-update-applying =
+    .label = Nûkirin tê sepandin…
+update-failed = Nûkirin têk çû. <label data-l10n-name="failed-link">Versiyona dawiyê jêbar bike</label>
+update-failed-main = Nûkirin têk çû. <a data-l10n-name="failed-link-main">Versiyona dawiyê jêbar bike</a>
+update-noUpdatesFound = { -brand-short-name } ya nû ye
+settings-update-no-updates-found =
+    .label = { -brand-short-name } ya nû ye
+update-otherInstanceHandlingUpdates = { -brand-short-name } ji hêla kopiyeke xwe ve tê nûkirin
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } ji hêla kopiyeke xwe ve tê nûkirin
+aboutdialog-update-manual-with-link = Nûkirin li virê ne: <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Nûkirin li virê ne: <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Tu nikarî li ser vê pergalê nûkirinan bi kar bînî. <label data-l10n-name="unsupported-link">Zêdetir bizane</label>
+settings-update-unsupported = Tu nikarî li ser vê pergalê nûkirinan bi kar bînî. <a data-l10n-name="unsupported-link">Zêdetir bizane</a>
+aboutdialog-channel-description = Tu niha di kanala <label data-l10n-name="current-channel">{ $channel }</label> nûkirinê de yî.
+warningDesc-version = { -brand-short-name } ji bo ceribandinê ye û dibe ku ne hevgirtî be.
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label>, <label data-l10n-name="community-exp-creditsLink">komeke gerdûyî ye ku</label> ji bo Web vekirî, bo raya giştî û berdest be bi hev re dixebite.
+community-2 = { -brand-short-name } ji hêla <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }ê ve hatiye dîzaynkirin </label>ku ew <label data-l10n-name="community-creditsLink">komeke gerdûnî</label> ji bo Web vekirî, bo raya giştî û berdest be bi hev re dixebite.
+bottomLinks-license = Agahiyên Lîsansê
+about-librewolf = DeckyWolf guhertoyeke taybet a Firefox e ku armancên wê yên sereke taybetî, ewlehî û azadiya bikarhêneran e.

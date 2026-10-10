@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = மேலோட்ட பட்டியலிருந்து இருந்து நீக்கவும்
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = கருவிப்பட்டியில் சேர்க்க
+    .accesskey = க
+customize-menu-add-to-overflowmenu =
+    .label = மேலோடு பட்டிக்குச் சேர்
+    .accesskey = M
+panic-button-thankyou-msg1 = உங்கள் சமீபத்திய வரலாறு துடைக்கப்பட்டது.
+panic-button-thankyou-msg2 = பாதுகாப்பான உலவல்!
+panic-button-thankyou-button =
+    .label = நன்றி!

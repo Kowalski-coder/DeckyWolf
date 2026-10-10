@@ -1,0 +1,14 @@
+default-bookmarks-title = Comharran-lìn
+default-bookmarks-heading = Comharran-lìn
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Faigh cobhair
+default-bookmarks-firefox-customize = Gnàthaich Firefox
+default-bookmarks-firefox-community = Gabh pàirt ann
+default-bookmarks-firefox-about = Mu ar dèidhinn
+default-bookmarks-nightly-heading = Goireasan Firefox Nightly
+default-bookmarks-nightly-blog = Bloga Firefox Nightly
+default-bookmarks-bugzilla = Tracaiche bugaichean Mozilla
+default-bookmarks-mdn = Lìonra luchd-leasachaidh Mozilla
+default-bookmarks-nightly-tester-tools = Innealan luchd-deuchainn Nightly
+default-bookmarks-crashes = Gach tuisleadh a bha agad
+default-bookmarks-planet = Planaid Mozilla

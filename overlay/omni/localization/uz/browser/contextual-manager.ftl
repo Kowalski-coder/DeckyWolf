@@ -1,0 +1,16 @@
+contextual-manager-passwords-command-import-from-browser = Boshqa brauzerdan import qilish
+contextual-manager-passwords-command-import = Fayldan import qilish
+contextual-manager-passwords-command-help = Yordam
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = saqlangan parolni koʻrsatish
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = saqlangan paroldan nusxa olish
+contextual-manager-passwords-remove-login-card-remove-button = Olib tashlash
+contextual-manager-passwords-remove-login-card-cancel-button = Bekor qilish
+contextual-manager-passwords-origin-field =
+    .label = Sayt manzili
+    .placeholder = https://www.example.com
+contextual-manager-passwords-username-field =
+    .label = Foydalanuvchi
+contextual-manager-passwords-password-field =
+    .label = Parol
+contextual-manager-copy-icon =
+    .alt = Nusxa olish

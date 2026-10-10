@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (ingen tittel)
+places-load-js-data-url-error = Av sikkerhetsårsaker kan ikke «javascript:»- eller «data:»-URL-er lastes fra historikkvinduet eller sidestolpen.
+places-bookmarks-backup-title = Filnavn for sikkerhetskopi av bokmerker
+places-bookmarks-restore-alert-title = Tilbakestill bokmerker
+places-bookmarks-restore-alert = Dette vil erstatte alle bokmerker du har nå med sikkerhetskopien. Er du sikker på at du vil gjøre dette?
+places-bookmarks-restore-title = Velg en sikkerhetskopi
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Ustøttet filtype.
+places-bookmarks-restore-parse-error = Klarte ikke behandle sikkerhetskopien.
+places-bookmarks-import = Importer bokmerkefil
+places-bookmarks-export = Eksporter bokmerkefil
+places-bookmarks-paste-error-title = Ugyldig(e) nettadresse(r) funnet
+places-bookmarks-paste-error-message-header = Følgende nettadresse(r) kunne ikke legges til i bokmerkene dine. Prøv å sjekke formateringen og legge dem til på nytt.

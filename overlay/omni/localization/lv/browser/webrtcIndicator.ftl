@@ -1,0 +1,151 @@
+webrtc-indicator-title = { -brand-short-name } — Kopīgošanas rādītājs
+webrtc-item-camera = kamera
+webrtc-item-microphone = mikrofons
+webrtc-item-audio-capture = cilnes audio
+webrtc-item-application = lietotne
+webrtc-item-screen = ekrāns
+webrtc-item-window = logs
+webrtc-item-browser = cilne
+webrtc-sharing-menuitem-unknown-host = Nezināma lapa
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-sharing-menu =
+    .label = Cilnes dažādās ierīcēs
+    .accesskey = d
+webrtc-sharing-window = Jūs kopīgojat citu lietotnes logu.
+webrtc-sharing-browser-window = Jūs kopīgojat { -brand-short-name }.
+webrtc-sharing-screen = Jūs kopīgojat visu savu ekrānu.
+webrtc-stop-sharing-button = Pārtraukt kopīgošanu
+webrtc-microphone-unmuted =
+    .title = Izslēgt mikrofonu
+webrtc-microphone-muted =
+    .title = Ieslēgt mikrofonu
+webrtc-camera-unmuted =
+    .title = Izslēgt kameru
+webrtc-camera-muted =
+    .title = Ieslēgt kameru
+webrtc-minimize =
+    .title = Samazināt rādītāju
+webrtc-camera-system-menu =
+    .label = Jūs kopīgojat savu kameru. Noklikšķiniet, lai kontrolētu kopīgošanu.
+webrtc-microphone-system-menu =
+    .label = Jūs kopīgojat savu mikrofonu. Noklikšķiniet, lai kontrolētu kopīgošanu.
+webrtc-screen-system-menu =
+    .label = Jūs kopīgojat logu vai ekrānu. Noklikšķiniet, lai kontrolētu kopīgošanu.
+webrtc-indicator-menuitem-control-sharing =
+    .label = Kontrolēt koplietošanu
+webrtc-indicator-menuitem-control-sharing-on =
+    .label = Kontrolēt koplietošanu ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-camera-with =
+    .label = Koplieto kameru ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto kameru ar { $tabCount } cilnēm
+            [one] Koplieto kameru ar { $tabCount } cilni
+           *[other] Koplieto kameru ar { $tabCount } cilnēm
+        }
+webrtc-indicator-menuitem-sharing-microphone-with =
+    .label = Koplieto mikrofonu ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto mikrofonu ar { $tabCount } cilnēm
+            [one] Koplieto mikrofonu ar { $tabCount } cilni
+           *[other] Koplieto mikrofonu ar { $tabCount } cilnēm
+        }
+webrtc-indicator-menuitem-sharing-application-with =
+    .label = Koplieto lietotni ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-application-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto lietotni ar { $tabCount } cilnēm
+            [one] Koplieto lietotni ar { $tabCount } cilni
+           *[other] Koplieto lietotni ar { $tabCount } cilnēm
+        }
+webrtc-indicator-menuitem-sharing-screen-with =
+    .label = Koplieto ekrānu ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto ekrānu ar { $tabCount } cilnēm
+            [one] Koplieto ekrānu ar { $tabCount } cilni
+           *[other] Koplieto ekrānu ar { $tabCount } cilnēm
+        }
+webrtc-indicator-menuitem-sharing-window-with =
+    .label = Koplieto logu ar "{ $streamTitle }"
+webrtc-indicator-menuitem-sharing-window-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto logu ar { $tabCount } cilnēm
+            [one] Koplieto logu ar { $tabCount } cilni
+           *[other] Koplieto logu ar { $tabCount } cilnēm
+        }
+webrtc-indicator-menuitem-sharing-browser-with =
+    .label = Koplieto cilni ar “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [zero] Koplieto cilni ar { $tabCount } cilnēm
+            [one] Koplieto cilni ar { $tabCount } cilni
+           *[other] Koplieto cilni ar { $tabCount } cilnēm
+        }
+webrtc-allow-share-audio-capture = Vai atļaut { $origin } klausīties šīs cilnes audio?
+webrtc-allow-share-camera = Vai atļaut { $origin } izmantot jūsu kameru?
+webrtc-allow-share-microphone = Vai atļaut { $origin } izmantot jūsu mikrofonu?
+webrtc-allow-share-screen = Vai atļaut { $origin } redzēt jūsu ekrānu?
+webrtc-allow-share-speaker = Vai atļaut { $origin } izmantot citus skaļruņus?
+webrtc-allow-share-camera-and-microphone = Vai atļaut { $origin } izmantot jūsu kameru un mikrofonu?
+webrtc-allow-share-camera-and-audio-capture = Vai atļaut { $origin } izmantot jūsu kameru un klausīties šīs cilnes audio?
+webrtc-allow-share-screen-and-microphone = Vai atļaut { $origin } izmantot jūsu mikrofonu un redzēt jūsu ekrānu?
+webrtc-allow-share-screen-and-audio-capture = Vai atļaut { $origin } klausīties šīs cilnes audio un redzēt jūsu ekrānu?
+webrtc-allow-share-audio-capture-with-file = Vai atļaut šai lokālajai datnei klausīties šīs cilnes audio?
+webrtc-allow-share-camera-with-file = Vai atļaut šai lokālajai datnei izmantot jūsu kameru?
+webrtc-allow-share-microphone-with-file = Vai atļaut šai lokālajai datnei izmantot jūsu mikrofonu?
+webrtc-allow-share-screen-with-file = Vai atļaut šai lokālajai datnei redzēt jūsu ekrānu?
+webrtc-allow-share-speaker-with-file = Vai atļaut šai lokālajai datnei izmantot citus skaļruņus?
+webrtc-allow-share-camera-and-microphone-with-file = Vai atļaut šai lokālajai datnei izmantot jūsu kameru un mikrofonu?
+webrtc-allow-share-camera-and-audio-capture-with-file = Vai atļaut šai lokālajai datnei izmantot jūsu kameru un klausīties šīs cilnes audio?
+webrtc-allow-share-screen-and-microphone-with-file = Vai atļaut šai lokālajai datnei izmantot jūsu mikrofonu un redzēt jūsu ekrānu?
+webrtc-allow-share-screen-and-audio-capture-with-file = Vai atļaut šai lokālajai datnei klausīties šīs cilnes audio un redzēt jūsu ekrānu?
+webrtc-allow-share-audio-capture-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } atļauju klausīties šīs cilnes audio?
+webrtc-allow-share-camera-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi jūsu kamerai?
+webrtc-allow-share-microphone-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi jūsu mikrofonam?
+webrtc-allow-share-screen-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } atļauju skatīt jūsu ekrānu?
+webrtc-allow-share-speaker-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi citiem runātājiem?
+webrtc-allow-share-camera-and-microphone-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi jūsu kamerai un mikrofonam?
+webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi jūsu kamerai un klausīties šīs cilnes audio?
+webrtc-allow-share-screen-and-microphone-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } piekļuvi jūsu mikrofonam un redzēt jūsu ekrānu?
+webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = Vai atļaut { $origin } piešķirt { $thirdParty } atļauju klausīties šīs cilnes audio un redzēt jūsu ekrānu?
+webrtc-share-screen-warning = Kopīgojiet ekrānu tikai ar lapām, kam uzticaties. Koplietošana var atļaut negodīgām lapām lietot internetu jūsu vārdā un nozagt jūsu privātos datus.
+webrtc-share-browser-warning = Kopīgojiet { -brand-short-name } tikai ar lapām, kam uzticaties. Koplietošana var atļaut negodīgām lapām lietot internetu jūsu vārdā un nozagt jūsu privātos datus.
+webrtc-pick-window-or-screen = Izvēlieties logu vai ekrānu
+webrtc-share-entire-screen = Visu ekrānu
+webrtc-share-pipe-wire-portal = Izmantot operētājsistēmas iestatījumus
+webrtc-share-monitor = Ekrāns { $monitorIndex }
+webrtc-share-application =
+    { $windowCount ->
+        [zero] { $appName } ({ $windowCount } logu)
+        [one] { $appName } ({ $windowCount } logs)
+       *[other] { $appName } ({ $windowCount } logi)
+    }
+webrtc-action-allow =
+    .label = Atļaut
+    .accesskey = A
+webrtc-action-block =
+    .label = Liegt
+    .accesskey = L
+webrtc-action-always-block =
+    .label = Vienmēr liegt
+    .accesskey = V
+webrtc-action-not-now =
+    .label = Ne tagad
+    .accesskey = N
+webrtc-remember-allow-checkbox = Atcerēties šo izvēli
+webrtc-remember-allow-checkbox-camera = Atcerēties visām kamerām
+webrtc-remember-allow-checkbox-microphone = Atcerēties visiem mikrofoniem
+webrtc-remember-allow-checkbox-camera-and-microphone = Atcerēties visām kamerām un mikrofoniem
+webrtc-mute-notifications-checkbox = Kopīgošanas laikā izslēgt vietņu paziņojumus
+webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } nevar atļaut pastāvīgu piekļuvi jūsu ekrānam.
+webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } nevar atļaut pastāvīgu piekļuvi jūsu cilnes audio nejautājot kuru tieši cilni koplietot.
+webrtc-reason-for-no-permanent-allow-insecure = Savienojums ar šo vietni nav drošs. Lai aizsargātu Tevi, { -brand-short-name } atļaus piekļuvi tikai šai sesijai.

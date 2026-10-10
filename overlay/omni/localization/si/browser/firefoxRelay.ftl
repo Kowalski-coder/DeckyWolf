@@ -1,0 +1,16 @@
+firefox-relay-must-login-to-account = ඔබගේ { -relay-brand-name } වි-තැපැල් වැස්ම භාවිතයට ඔබගේ ගිණුමට පිවිසෙන්න.
+firefox-relay-get-unlimited-masks =
+    .label = වැසුම් කළමනාකරණය
+    .accesskey = M
+firefox-relay-opt-in-title-1 = ඔබගේ වි-තැපෑල රැකගන්න:
+firefox-relay-opt-in-subtitle-1 = { -relay-brand-name } වි-තැපැල් වැස්ම යොදාගන්න
+firefox-relay-use-mask-title = { -relay-brand-name } වි-තැපැල් වැස්ම යොදාගන්න
+firefox-relay-opt-in-confirmation-enable-button =
+    .label = වි-තැපැල් වැස්ම යොදාගන්න
+    .accesskey = U
+firefox-relay-opt-in-confirmation-disable =
+    .label = මෙය නැවත නොපෙන්වන්න
+    .accesskey = D
+firefox-relay-opt-in-confirmation-postpone =
+    .label = දැන් නොවේ
+    .accesskey = N

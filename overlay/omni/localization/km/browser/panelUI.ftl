@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = ដោះ​ខ្ទាស់​ចេញពី​ម៉ឺនុយ Overflow
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = បន្ថែម​ទៅ​របារ​ឧបករណ៍
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = បន្ថែម​ទៅ​ម៉ឺនុយ Overflow
+    .accesskey = M
+panic-button-thankyou-msg1 = ប្រវត្តិ​ថ្មីៗ​របស់​អ្នក​ត្រូវ​បាន​សម្អាត។
+panic-button-thankyou-msg2 = ការ​រុករក​សុវត្ថិភាព!
+panic-button-thankyou-button =
+    .label = អរគុណ!

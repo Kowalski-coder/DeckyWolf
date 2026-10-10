@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bine v-am găsit, pământenilor!
+error-short-desc-text = Am venit cu gânduri pașnice și bunăvoință!
+error-long-desc1 = Roboții nu au voie să pricinuiască vreun rău unei ființe umane, sau, prin neintervenție, să permită ca unei ființe omenești să i se facă un rău.
+error-long-desc2 = Roboții au văzut lucruri pe care voi, oamenii, nu le-ați putea crede.
+error-long-desc3 = Roboții sunt prietenii tăi de plastic cu care te distrezi.
+error-long-desc4 = Roboții au posteriorul din metal lucios care nu ar trebui mușcat.
+error-trailer-desc-text = Și au un plan.
+error-try-again = Încearcă din nou
+    .label2 = Te rugăm să nu mai apeși acest buton.

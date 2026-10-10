@@ -1,0 +1,15 @@
+toolbox-meatball-menu-dock-bottom-label = ارصفها بالأسفل
+toolbox-meatball-menu-dock-left-label = ارصفها إلى اليسار
+toolbox-meatball-menu-dock-right-label = ارصفها إلى اليمين
+toolbox-meatball-menu-dock-separate-window-label = نافذة منفصلة
+toolbox-meatball-menu-splitconsole-label = اعرض المِعراض مقسومًا
+toolbox-meatball-menu-hideconsole-label = أخفِ المِعراض مقسومًا
+toolbox-meatball-menu-settings-label = الإعدادات
+toolbox-meatball-menu-documentation-label = التوثيق…
+toolbox-meatball-menu-community-label = المجتمع…
+toolbox-meatball-menu-noautohide-label = عطّل الإخفاء الآلي للمنبثقات
+toolbox-local-mode-notice = يمكن أيضًا تحميل هذا المستند من "{ $url }" باستخدام "الوضع المحلي" في أدوات المطوِّرين، والذي يمكن تفعيله في لوحة الإعدادات.
+toolbox-local-mode-notice-add-to-settings-button = أضف إلى الإعدادات
+toolbox-local-mode-notice-try-it-button = جرّبه
+toolbox-local-mode-notice-navigate-to-existing-mapping = انتقل إلى الخريطة الحالية
+toolbox-local-mode-notice-always-hide = لا تعرض لي هذا ثانيةً

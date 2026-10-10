@@ -1,0 +1,13 @@
+grid-row-column-positions = Fila { $row } / Columna { $column }
+gridtype-container = Contedor da grade
+gridtype-item = Elemento da grade
+gridtype-dual = Contedor/elemento da grade
+flextype-container = Contedor flex
+flextype-item = Elemento flex
+flextype-dual = Contedor/elemento flex
+remote-node-picker-notice = Selector de nodos DevTools activado. { $action }
+remote-node-picker-notice-action-desktop = Prema nun elemento para seleccionalo no Inspector
+remote-node-picker-notice-action-touch = Toque un elemento para seleccionalo no Inspector
+remote-node-picker-notice-hide-button = Agochar
+simple-highlighters-message = Cando se activa prefers-reduced-motion, pódese activar un resaltador máis sinxelo no panel de configuración para evitar que as cores pestanexen.
+simple-highlighters-settings-button = Abrir configuración

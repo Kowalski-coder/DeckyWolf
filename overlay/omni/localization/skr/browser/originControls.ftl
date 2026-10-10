@@ -1,0 +1,33 @@
+origin-controls-no-access =
+    .label = ایکسٹینشن ڈیٹا کوں پڑھ تے تبدیل نئیں کر سڳدی
+origin-controls-quarantined-status =
+    .label = محدود سائٹاں اُتے ایکسٹنشن دی اجازت کائے نِھیں
+origin-controls-quarantined-allow =
+    .label = محدود سائٹاں اُتّے اجازت ݙیؤ
+origin-controls-options =
+    .label = ایکسٹینشن ڈیٹا کوں پڑھ تے تبدیل کر سڳدی ہے:
+origin-controls-option-all-domains =
+    .label = تمام سائٹس تے
+origin-controls-option-when-clicked =
+    .label = صرف کلک کرݨ تے
+origin-controls-option-always-on =
+    .label = ہمیشاں { $domain } تے اجازت ݙیو
+origin-controls-state-no-access = ایں سائٹ تے ڈیٹا کوں پڑھ تے تبدیل نوہے کر سڳدے
+origin-controls-state-quarantined = ایں سائٹ تے { -vendor-short-name } ولوں اجازت کائنی
+origin-controls-state-always-on = ایں سائٹ تے ڈیٹا کوں ہمیشاں پڑھ تے تبدیل کر سڳدے او۔
+origin-controls-state-when-clicked = ڈیٹا کوں پڑھݨ تے تبدیل کرݨ کیتے اجازت درکار ہے۔
+origin-controls-state-hover-run-visit-only = صرف ایں دورے کیتے بھڄو
+origin-controls-state-runnable-hover-open = ایکسٹینشن کھولو
+origin-controls-state-runnable-hover-run = ایکسٹینشن چلاؤ
+origin-controls-state-temporary-access = ایں دورے کیتے ڈیٹا پڑھ تے تبدیل کر سڳدے او۔
+origin-controls-toolbar-button =
+    .label = { $extensionTitle }
+    .tooltiptext = { $extensionTitle }
+origin-controls-toolbar-button-permission-needed =
+    .label = { $extensionTitle }
+    .tooltiptext = { $extensionTitle } اجازت درکار ہے
+origin-controls-toolbar-button-quarantined =
+    .label = { $extensionTitle }
+    .tooltiptext =
+        { $extensionTitle }
+        ایں سائٹ تے { -vendor-short-name } ولوں اجازت کائنی

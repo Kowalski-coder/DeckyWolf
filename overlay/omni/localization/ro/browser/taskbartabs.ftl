@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Adaugă fila în bara de activități
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Elimină fila din bara de activități
+taskbar-tab-urlbar-button-show = Afișează acțiunea paginii aplicației web
+taskbar-tab-urlbar-button-hide = Ascunde acțiunea paginii aplicației web
+taskbar-tab-shortcut-description = Aplicație web { $name }
+taskbar-tab-shortcut-folder = Aplicații web { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Dezactivează sunetul filei
+taskbar-tab-audio-unmute =
+    .tooltiptext = Activează sunetul filei
+taskbar-tab-title-default = { $name } în { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) în { -brand-full-name }
+taskbar-tab-title-profile = { $name } în { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) în { $profile } — { -brand-full-name }

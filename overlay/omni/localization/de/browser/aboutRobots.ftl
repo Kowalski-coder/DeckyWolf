@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Willkommen, menschliche Wesen!
+error-short-desc-text = Wir kommen in Frieden und mit den besten Absichten zu Ihnen!
+error-long-desc1 = Roboter dürfen kein menschliches Wesen verletzen oder durch Untätigkeit zulassen, dass einem menschlichen Wesen Schaden zugefügt wird.
+error-long-desc2 = Roboter haben Dinge gesehen, die ihr Menschen niemals glauben würdet.
+error-long-desc3 = Roboter sind dein Kunststoff-Freund für die schönen Stunden des Lebens.
+error-long-desc4 = Roboter haben blanke Metall…hinterteile, die nicht geleckt werden sollten.
+error-trailer-desc-text = Und sie haben einen Plan.
+error-try-again = Erneut versuchen
+    .label2 = Drücken Sie bitte nicht noch einmal auf diesen Knopf.

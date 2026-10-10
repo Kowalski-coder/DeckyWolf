@@ -1,0 +1,17 @@
+about-policies-title = Polisi Syarikat
+aboutpolicies-page-heading =
+    .heading = Perihal Dasar
+active-policies-tab = Aktif
+errors-tab = Ralat
+documentation-tab = Dokumentasi
+active-policies-tab-title =
+    .title = Aktif
+errors-tab-title =
+    .title = Ralat
+documentation-tab-title =
+    .title = Dokumentasi
+no-specified-policies-message = Perkhidmatan Dasar Enterprise aktif tetapi tiada dasar yang didayakan.
+inactive-message = Perkhidmatan Dasar Enterprise tidak aktif.
+policy-name = Nama Polisi
+policy-value = Nilai Polisi
+policy-errors = Ralat Polisi

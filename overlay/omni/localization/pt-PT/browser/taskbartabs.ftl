@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Adicionar separador à barra de tarefas
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Remover separador da barra de tarefas
+taskbar-tab-urlbar-button-show = Mostrar ação da página da aplicação web
+taskbar-tab-urlbar-button-hide = Ocultar ação da página de aplicação web
+taskbar-tab-shortcut-description = Aplicação web { $name }
+taskbar-tab-shortcut-folder = Aplicações web do { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Silenciar separador
+taskbar-tab-audio-unmute =
+    .tooltiptext = Repor som do separador
+taskbar-tab-title-default = { $name } no { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) no { -brand-full-name }
+taskbar-tab-title-profile = { $name } no { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) no { $profile } — { -brand-full-name }

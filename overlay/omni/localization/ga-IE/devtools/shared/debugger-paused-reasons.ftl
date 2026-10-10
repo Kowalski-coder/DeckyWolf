@@ -1,0 +1,12 @@
+whypaused-debugger-statement = Curtha ar sos ag ráiteas dífhabhtaithe
+whypaused-breakpoint = Curtha ar sos ag brisphointe
+whypaused-exception = Curtha ar sos ag eisceacht
+whypaused-mutation-breakpoint-added = Curtha leis:
+whypaused-mutation-breakpoint-removed = Bainte:
+whypaused-resume-limit = Curtha ar sos le linn céimnithe
+whypaused-pause-on-dom-events = Curtha ar sos ag éisteoir teagmhais
+whypaused-breakpoint-condition-thrown = Earráid le brisphointe coinníollach
+whypaused-promise-rejection = Curtha ar sos mar gheall ar ghealltanas diúltaithe
+whypaused-assert = Curtha ar sos ag dearbhú
+whypaused-debug-command = Curtha ar sos ag feidhm dhífhabhtaithe
+whypaused-other = Cuireadh an dífhabhtóir ar sos

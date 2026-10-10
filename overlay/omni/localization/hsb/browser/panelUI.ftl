@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Z přeběžkoweho menija wotpjeć
+    .accesskey = t
+customize-menu-add-to-toolbar =
+    .label = Symbolowej lajsće přidać
+    .accesskey = S
+customize-menu-add-to-overflowmenu =
+    .label = Přeběžkowemu menijej přidać
+    .accesskey = m
+panic-button-thankyou-msg1 = Waša najnowša historija je zhašana.
+panic-button-thankyou-msg2 = Wěste přehladowanje!
+panic-button-thankyou-button =
+    .label = Wulki dźak!

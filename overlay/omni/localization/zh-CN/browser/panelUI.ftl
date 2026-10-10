@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = 移出折叠菜单
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = 添加到工具栏
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = 添加到折叠菜单
+    .accesskey = M
+panic-button-thankyou-msg1 = 您近期的历史记录已清除。
+panic-button-thankyou-msg2 = 享受安全的浏览体验吧！
+panic-button-thankyou-button =
+    .label = 谢谢！

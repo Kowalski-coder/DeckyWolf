@@ -1,0 +1,459 @@
+cfr-doorhanger-extension-heading = Doporučené rozšíření
+cfr-doorhanger-feature-heading = Doporučená funkce
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Co to je
+cfr-doorhanger-extension-cancel-button = Teď ne
+    .accesskey = n
+cfr-doorhanger-extension-ok-button = Přidat
+    .accesskey = a
+cfr-doorhanger-extension-manage-settings-button = Nastavení doporučování
+    .accesskey = d
+cfr-doorhanger-extension-never-show-recommendation = Toto doporučení už nezobrazovat
+    .accesskey = N
+cfr-doorhanger-extension-learn-more-link = Zjistit více
+cfr-doorhanger-extension-author = autor: { $name }
+cfr-doorhanger-extension-notification = Doporučení
+cfr-doorhanger-extension-notification2 = Doporučení
+    .a11y-announcement = Je dostupné doporučené rozšíření
+    .tooltiptext = Doporučené rozšíření
+cfr-doorhanger-feature-notification = Doporučení
+    .a11y-announcement = Je dostupné doporučení funkce
+    .tooltiptext = Doporučená funkce
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } hvězdička
+            [few] { $total } hvězdičky
+           *[other] { $total } hvězdiček
+        }
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } uživatel
+        [few] { $total } uživatelé
+       *[other] { $total } uživatelů
+    }
+cfr-doorhanger-bookmark-fxa-header = Mějte své záložky všude s sebou.
+cfr-doorhanger-bookmark-fxa-body-2 = Skvělý nález! Chcete mít tuto záložku i ve svém mobilním zařízení? Začněte s účtem.
+cfr-doorhanger-bookmark-fxa-link-text = Synchronizujte své záložky…
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Zavírací tlačítko
+    .title = Zavřít
+fxa-adoption-addresses-backup-title = Zazálohujte si uložené adresy
+fxa-adoption-addresses-backup-subtitle = Chraňte svá hesla synchronizací se zařízeními pomocí šifrování.
+fxa-adoption-credit-cards-backup-title = Pojďme si zazálohovat vaše platební metody
+fxa-adoption-credit-cards-backup-subtitle = Chraňte své platební metody tím, že je synchronizujete se svými zařízeními pomocí šifrování.
+fxa-adoption-bookmarks-treatment-backup-title = Pojďme zazálohovat vaše záložky
+fxa-adoption-bookmarks-treatment-backup-subtitle = Chraňte své záložky tím, že je synchronizujete se svými zařízeními pomocí šifrování.
+fxa-adoption-primary-button-label = Zaregistrovat se
+cfr-badge-reader-label-newfeature = Nové funkce
+cfr-whatsnew-button =
+    .label = Co je nového
+    .tooltiptext = Co je nového
+cfr-whatsnew-release-notes-link-text = Přečtěte si poznámky k vydání
+cfr-doorhanger-milestone-heading2 =
+    { -brand-short-name.gender ->
+        [masculine]
+            { $blockedCount ->
+                [one] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokoval více než jeden sledovací prvek.
+                [few] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokoval více než <b>{ $blockedCount }</b> sledovací prvky.
+               *[other] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokoval více než <b>{ $blockedCount }</b> sledovacích prvků.
+            }
+        [feminine]
+            { $blockedCount ->
+                [one] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než jeden sledovací prvek.
+                [few] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než <b>{ $blockedCount }</b> sledovací prvky.
+               *[other] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než <b>{ $blockedCount }</b> sledovacích prvků.
+            }
+        [neuter]
+            { $blockedCount ->
+                [one] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovalo více než jeden sledovací prvek.
+                [few] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovalo více než <b>{ $blockedCount }</b> sledovací prvky.
+               *[other] { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovalo více než <b>{ $blockedCount }</b> sledovacích prvků.
+            }
+       *[other]
+            { $blockedCount ->
+                [one] Aplikace { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než jeden sledovací prvek.
+                [few] Aplikace { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než <b>{ $blockedCount }</b> sledovací prvky.
+               *[other] Aplikace { -brand-short-name } od { DATETIME($date, month: "long", year: "numeric") } zablokovala více než <b>{ $blockedCount }</b> sledovacích prvků.
+            }
+    }
+cfr-doorhanger-milestone-ok-button = Zobrazit vše
+    .accesskey = v
+cfr-doorhanger-milestone-close-button = Zavřít
+    .accesskey = Z
+cfr-doorhanger-doh-body = Na vašem soukromí záleží. V zájmu vaší ochrany nyní { -brand-short-name }, kdykoliv je to možné, bezpečně směruje vaše DNS požadavky na partnerskou službu.
+cfr-doorhanger-doh-header = Bezpečnější, šifrované vyhledávání v DNS
+cfr-doorhanger-doh-primary-button-2 = OK
+    .accesskey = O
+cfr-doorhanger-doh-secondary-button = Zakázat
+    .accesskey = Z
+cfr-doorhanger-video-support-body =
+    { -brand-short-name.case-status ->
+        [with-cases] V této verzi { -brand-short-name(case: "gen") } se videa na tomto serveru nemusí přehrávat správně. Pro plnou podporu videí svůj { -brand-short-name(case: "acc") } aktualizujte.
+       *[no-cases] V této verzi aplikace { -brand-short-name } se videa na tomto serveru nemusí přehrávat správně. Pro plnou podporu videí aplikaci { -brand-short-name } aktualizujte.
+    }
+cfr-doorhanger-video-support-header =
+    { -brand-short-name.gender ->
+        [masculine] Pro přehrání videa aktualizujte svůj { -brand-short-name(case: "acc") }.
+        [feminine] Pro přehrání videa aktualizujte svou { -brand-short-name(case: "acc") }.
+        [neuter] Pro přehrání videa aktualizujte své { -brand-short-name(case: "acc") }.
+       *[other] Pro přehrání videa aktualizujte svou aplikaci { -brand-short-name }.
+    }
+cfr-doorhanger-video-support-primary-button = Aktualizovat
+    .accesskey = A
+spotlight-public-wifi-vpn-header = Zdá se, že používáte veřejnou Wi-Fi síť
+spotlight-public-wifi-vpn-body = Pokud chcete skrýt svou polohu a aktivity během prohlížení internetu, zvažte využití služby virtuální privátní sítě. Poskytne vám ochranu během prohlížení internetu na veřejných místech, v kavárně nebo na letišti.
+spotlight-public-wifi-vpn-primary-button = Ochraňte své soukromí s { -mozilla-vpn-brand-name(case: "ins") }
+    .accesskey = s
+spotlight-public-wifi-vpn-link = Teď ne
+    .accesskey = n
+spotlight-better-internet-header = Lepší internet začíná u vás
+spotlight-better-internet-body =
+    { -brand-short-name.case-status ->
+        [with-cases] Používáním { -brand-short-name(case: "gen") } vyjadřujete svou podporu otevřenému webu, který je přístupný a lepší pro všechny.
+       *[no-cases] Používáním aplikace { -brand-short-name } vyjadřujete svou podporu otevřenému webu, který je přístupný a lepší pro všechny.
+    }
+spotlight-peace-mind-header = Všechno, co potřebujete
+spotlight-peace-mind-body = Každý měsíc zablokuje { -brand-short-name } pro každého uživatele v průměru přes 3000 sledovacích prvků. A to proto, aby vám nic nesnižovalo kvalitu internetu, tím méně sledovací prvky porušující vaše soukromí.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Připnout do docku
+       *[other] Připnout na systémový hlavní panel
+    }
+spotlight-pin-secondary-button = Teď ne
+mr2022-background-update-toast-title =
+    { -brand-short-name.gender ->
+        [masculine] Nový { -brand-short-name }. Více soukromí, méně sledovacích prvků. Bez kompromisů.
+        [feminine] Nová { -brand-short-name }. Více soukromí, méně sledovacích prvků. Bez kompromisů.
+        [neuter] Nové { -brand-short-name }. Více soukromí, méně sledovacích prvků. Bez kompromisů.
+       *[other] Nová aplikace { -brand-short-name }. Více soukromí, méně sledovacích prvků. Bez kompromisů.
+    }
+mr2022-background-update-toast-text =
+    { -brand-short-name.gender ->
+        [masculine] Vyzkoušejte nyní nejnovější { -brand-short-name(case: "acc") }, který byl vylepšen o naši dosud nejsilnější ochranu proti sledování.
+        [feminine] Vyzkoušejte nyní nejnovější { -brand-short-name(case: "acc") }, která byla vylepšena o naši dosud nejsilnější ochranu proti sledování.
+        [neuter] Vyzkoušejte nyní nejnovější { -brand-short-name(case: "acc") }, které bylo vylepšeno o naši dosud nejsilnější ochranu proti sledování.
+       *[other] Vyzkoušejte nyní nejnovější aplikaci { -brand-short-name }, která byla vylepšena o naši dosud nejsilnější ochranu proti sledování.
+    }
+mr2022-background-update-toast-primary-button-label =
+    { -brand-shorter-name.case-status ->
+        [with-cases] Spustit { -brand-shorter-name(case: "acc") }
+       *[no-cases] Spustit aplikaci { -brand-shorter-name }
+    }
+mr2022-background-update-toast-secondary-button-label = Upozornit mě později
+july-jam-headline = Všechno, co potřebujete
+july-jam-body = Každý měsíc { -brand-short-name } zablokuje v průměru více než 3 000 sledovacích prvků na uživatele, takže máte bezpečný a rychlý přístup ke kvalitnímu internetu.
+july-jam-set-default-primary =
+    { -brand-short-name.case-status ->
+        [with-cases] Otevírat mé odkazy pomocí { -brand-short-name(case: "gen") }
+       *[no-cases] Otevírat mé odkazy pomocí aplikace { -brand-short-name }
+    }
+fox-doodle-pin-headline = Vítejte zpět
+fox-doodle-pin-body = Zde je rychlé připomenutí, že si svůj oblíbený nezávislý prohlížeč můžete jediným klepnutím ponechat.
+fox-doodle-pin-primary =
+    { -brand-short-name.case-status ->
+        [with-cases] Otevírat mé odkazy pomocí { -brand-short-name(case: "gen") }
+       *[no-cases] Otevírat mé odkazy pomocí aplikace { -brand-short-name }
+    }
+fox-doodle-pin-secondary = Teď ne
+set-default-pdf-handler-headline =
+    { -brand-short-name.case-status ->
+        [with-cases] <strong>Vaše PDF dokumenty se nyní otevírají ve { -brand-short-name(case: "loc") }.</strong> Upravujte nebo podepisujte formuláře přímo v prohlížeči. Pro změnu vyhledejte v nastavení položku „PDF“.
+       *[no-cases] <strong>Vaše PDF dokumenty se nyní otevírají v aplikaci { -brand-short-name }.</strong> Upravujte nebo podepisujte formuláře přímo v prohlížeči. Pro změnu vyhledejte v nastavení položku „PDF“.
+    }
+set-default-pdf-handler-primary = Rozumím
+annotations-default-pdf-handler-headline = Podepište se na tečkovanou čáru — nebo kdekoli jinde!
+annotations-default-pdf-handler-body = Nakreslete, napište nebo nahrajte svůj podpis a umístěte ho přesně tam, kam chcete. Uložte si své podpisy pro příště.
+annotations-make-default-pdf-handler-title =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako výchozí editor PDF?
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako výchozí editor PDF?
+    }
+annotations-make-default-pdf-handler-subtitle = Při každém otevření souboru PDF budete mít přístup k našim nástrojům.
+annotations-make-default-pdf-primary-cta-label = Nastavit jako výchozí
+annotations-make-default-pdf-next-label = Další
+fxa-sync-cfr-header = Plánujete v blízké budoucnosti nové zařízení?
+fxa-sync-cfr-body =
+    { -brand-product-name.case-status ->
+        [with-cases] Ujistěte se, že máte své záložky, hesla a panely vždy při sobě, když otevřete novou instalaci { -brand-product-name(case: "gen") }.
+       *[no-cases] Ujistěte se, že máte své záložky, hesla a panely vždy při sobě, když otevřete novou instalaci prohlížeče { -brand-product-name }.
+    }
+fxa-sync-cfr-primary = Zjistit více
+    .accesskey = Z
+fxa-sync-cfr-secondary = Upozornit mě později
+    .accesskey = U
+device-migration-fxa-spotlight-heavy-user-header = Nezapomeňte si zálohovat svá data
+device-migration-fxa-spotlight-heavy-user-body = Zajistěte, aby byly důležité informace – jako záložky a hesla – aktuální a chráněné na všech vašich zařízeních.
+device-migration-fxa-spotlight-heavy-user-primary-button = Začít
+device-migration-fxa-spotlight-older-device-header = { -brand-product-name } vám poskytne klid na duši
+device-migration-fxa-spotlight-older-device-body = Účet udržuje vaše důležité informace aktuální a chráněné na jakémkoli zařízení, které připojíte.
+device-migration-fxa-spotlight-older-device-primary-button = Vytvořit účet
+device-migration-fxa-spotlight-getting-new-device-header-2 = Plánujete v blízké budoucnosti nové zařízení?
+device-migration-fxa-spotlight-getting-new-device-body-2 = Když začínáte používat nové zařízení, přeneste si s sebou své záložky, historii a hesla pomocí několika jednoduchých kroků.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Jak zálohovat moje data
+device-migration-fxa-spotlight-sync-header = Prohlížejte bez ztráty kytičky
+device-migration-fxa-spotlight-sync-body =
+    { -brand-product-name.case-status ->
+        [with-cases] Synchronizujte všechny důležité informace se šifrováním - například záložky a hesla. Vše můžete vytáhnout odkudkoli, kde použijete { -brand-product-name(case: "acc") }.
+       *[no-cases] Synchronizujte všechny důležité informace se šifrováním - například záložky a hesla. Vše můžete vytáhnout odkudkoli, kde použijete aplikaci { -brand-product-name }.
+    }
+device-migration-fxa-spotlight-sync-primary-button = Začít
+pdf-default-notification-message =
+    { -brand-short-name.case-status ->
+        [with-cases] <strong>Nastavit { -brand-short-name(case: "acc") } jako výchozí čtečku souborů PDF?</strong> Pomocí { -brand-short-name(case: "gen") } můžete číst a upravovat soubory PDF uložené v počítači.
+       *[no-cases] <strong>Nastavit aplikaci { -brand-short-name } jako výchozí čtečku souborů PDF?</strong> Pomocí aplikace { -brand-short-name } můžete číst a upravovat soubory PDF uložené v počítači.
+    }
+pdf-default-notification-set-default-button =
+    .label = Nastavit jako výchozí
+pdf-default-notification-decline-button =
+    .label = Nyní ne
+launch-on-login-autostart-infobar-message = { -brand-short-name } se nyní spustí při přihlášení do systému Windows. Toto můžete kdykoli změnit v nastavení.
+launch-on-login-autostart-infobar-keep-button = Ponechat zapnuté
+    .accesskey = z
+launch-on-login-autostart-infobar-turn-off-button = Vypnout
+    .accesskey = V
+tail-fox-spotlight-title = Zbavte se dotěrných sledovacích prvků
+tail-fox-spotlight-subtitle = Rozlučte se s otravnými reklamními sledovacími prvky a zažijte bezpečnější a rychlejší internet.
+tail-fox-spotlight-primary-button =
+    { -brand-short-name.case-status ->
+        [with-cases] Otevírat mé odkazy pomocí { -brand-short-name(case: "gen") }
+       *[no-cases] Otevírat mé odkazy pomocí aplikace { -brand-short-name }
+    }
+tail-fox-spotlight-secondary-button = Teď ne
+welcome-back-spotlight-title = Vraťte se k vestavěné ochraně soukromí
+welcome-back-spotlight-subtitle = Vítejte zpět v jediném hlavním prohlížeči, který je spravován neziskovou organizací. Podnikáme dodatečné kroky k ochraně vašich dat, kdekoli se vyskytujete.
+welcome-back-embedded-import-title = Importujte svá data a přizpůsobte { -brand-short-name } svým potřebám
+root-certificate-succession-infobar-january-message =
+    { -brand-short-name.case-status ->
+        [with-cases] <strong>Starší verze { -brand-short-name(case: "gen") } mohou začít mít 14. ledna 2025 problémy.</strong>
+       *[no-cases] <strong>Starší verze aplikace { -brand-short-name } mohou začít mít 14. ledna 2025 problémy.</strong>
+    }
+root-certificate-succession-infobar-march-message =
+    { -brand-short-name.case-status ->
+        [with-cases] <strong>Proveďte aktualizaci, abyste mohli { -brand-short-name(case: "acc") } nadále používat i po 14. březnu 2025.</strong>
+       *[no-cases] <strong>Proveďte aktualizaci, abyste mohli aplikaci { -brand-short-name } nadále používat i po 14. březnu 2025.</strong>
+    }
+root-certificate-succession-infobar-link = Proč potřebuji aktualizaci?
+root-certificate-succession-infobar-primary-button =
+    .label = Aktualizovat
+    .accesskey = A
+root-certificate-succession-infobar-secondary-button =
+    .label = Později
+    .accesskey = P
+root-certificate-windows-background-notification-title =
+    { -brand-full-name.case-status ->
+        [with-cases] Zmeškali jste důležitou aktualizaci { -brand-short-name(case: "gen") }
+       *[no-cases] Zmeškali jste důležitou aktualizaci aplikace { -brand-short-name }
+    }
+root-certificate-windows-background-notification-subtitle = Pokud prohlížeč neaktualizujete, přestanou jeho části brzy fungovat. Nyní je vhodná doba pro získání našich nejnovějších ochran a funkcí.
+root-certificate-windows-background-notification-learn-more-button = Zjistit více
+root-certificate-windows-background-notification-update-button =
+    { -brand-full-name.case-status ->
+        [with-cases] Aktualizovat { -brand-short-name(case: "acc") }
+       *[no-cases] Aktualizovat aplikaci { -brand-short-name }
+    }
+fxa-menu-message-close-button =
+    .aria-label = Zavřít
+    .title = Zavřít
+fxa-menu-message-sign-up-button = Přihlásit se
+fxa-menu-message-sign-in-button = Přihlásit se
+fxa-menu-message-sync-button = Spustit synchronizaci
+fxa-menu-message-sync-devices-primary-text = Synchronizace všech zařízení
+fxa-menu-message-sync-devices-secondary-text =
+    { -brand-short-name.case-status ->
+        [with-cases] Okamžitě získáte své informace — například záložky a hesla — všude tam, kde použijete { -brand-short-name(case: "acc") }.
+       *[no-cases] Okamžitě získáte své informace — například záložky a hesla — všude tam, kde použijete aplikaci { -brand-short-name }.
+    }
+fxa-menu-message-sync-devices-secondary-text2 =
+    { -brand-short-name.case-status ->
+        [with-cases] Okamžitě získáte své záložky, hesla a další informace všude, kde jste přihlášeni do { -brand-short-name(case: "gen") }.
+       *[no-cases] Okamžitě získáte své záložky, hesla a další informace všude, kde jste přihlášeni do aplikace { -brand-short-name }.
+    }
+fxa-menu-message-sync-devices-collapsed-text = Synchronizace všech zařízení
+fxa-menu-message-backup-data-primary-text = Zálohujte si údaje prohlížeče
+fxa-menu-message-backup-data-secondary-text = Automaticky chraňte záložky, hesla a další informace na všech svých zařízeních.
+fxa-menu-message-backup-data-collapsed-text = Zálohujte údaje prohlížeče
+fxa-menu-message-backup-sync-primary-text = Udržujte své údaje v bezpečí a synchronizované
+fxa-menu-message-backup-sync-secondary-text =
+    { -brand-short-name.case-status ->
+        [with-cases] Synchronizace zálohuje většinu vašich dat, takže k nim máte přístup všude, kde používáte { -brand-short-name(case: "acc") }.
+       *[no-cases] Synchronizace zálohuje většinu vašich dat, takže k nim máte přístup všude, kde používáte aplikaci { -brand-short-name }.
+    }
+fxa-menu-message-backup-sync-collapsed-text = Synchronizujte a zálohujte data
+fxa-menu-message-mobile-primary-text = Odešlete panely do telefonu
+fxa-menu-message-mobile-secondary-text = Po synchronizaci panelů s mobilním zařízením můžete okamžitě pokračovat tam, kde jste skončili.
+fxa-menu-message-mobile-collapsed-text = Synchronizujte s telefonem
+multi-cta-fox-doodle-title = Vítejte zpět
+multi-cta-fox-doodle-set-default-checkbox =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako výchozí
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako výchozí
+    }
+multi-cta-fox-doodle-pin-startmenu-checkbox =
+    { -brand-short-name.case-status ->
+        [with-cases] Připnout { -brand-short-name(case: "acc") } do nabídky Start
+       *[no-cases] Připnout aplikaci { -brand-short-name } do nabídky Start
+    }
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] Ponechat { -brand-short-name } v Docku
+       *[other] Připnout { -brand-short-name } na systémový hlavní panel
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Začít prohlížet
+multi-cta-fox-doodle-main-browser-primary-button-label =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako můj hlavní prohlížeč
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako můj hlavní prohlížeč
+    }
+multi-cta-fox-doodle-quick-reminder-subtitle = Připomínáme vám, že svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít jen na jedno klepnutí.
+multi-cta-fox-doodle-privacy-focused-subtitle =
+    { PLATFORM() ->
+        [macos]
+            { -brand-short-name.case-status ->
+                [with-cases] Svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít na dosah jediného klepnutí. Nastavte { -brand-short-name(case: "acc") } jako výchozí prohlížeč pro otevírání odkazů a mějte ho v Docku.
+               *[no-cases] Svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít na dosah jediného klepnutí. Nastavte aplikaci { -brand-short-name } jako výchozí prohlížeč pro otevírání odkazů a mějte ho v Docku.
+            }
+       *[other]
+            { -brand-short-name.case-status ->
+                [with-cases] Svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít na dosah jediného klepnutí. Nastavte { -brand-short-name(case: "acc") } jako výchozí prohlížeč pro otevírání odkazů a připněte jej na systémový hlavní panel.
+               *[no-cases] Svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít na dosah jediného klepnutí. Nastavte aplikaci { -brand-short-name } jako výchozí prohlížeč pro otevírání odkazů a připněte jej na systémový hlavní panel.
+            }
+    }
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = Svůj oblíbený prohlížeč zaměřený na ochranu soukromí můžete mít na dosah jediného klepnutí. Nastavte { -brand-short-name } jako výchozí prohlížeč pro otevírání odkazů a připněte jej na systémový hlavní panel a do nabídky Start.
+windows-10-eos-sync-spotlight-title = Budete brzy aktualizovat z Windows 10?
+windows-10-eos-sync-spotlight-subtitle = Zálohujte si svá hesla a záložky, abyste je mohli začít používat kdekoliv na svém zařízení.
+windows-10-eos-sync-spotlight-primary-label =
+    { -brand-short-name.case-status ->
+        [with-cases] Zálohujte si svůj { -brand-short-name(case: "acc") }
+       *[no-cases] Zálohujte si svou aplikaci { -brand-short-name }
+    }
+windows-10-eos-sync-toast-title = Chcete aktualizovat na Windows 11? Neztraťte své záložky a hesla.
+windows-10-eos-sync-toast-subtitle =
+    { -brand-short-name.case-status ->
+        [with-cases] Zálohujte svá data, aby byl { -brand-short-name } kdykoliv připraven k použití na tomto nebo tom příštím počítači.
+       *[no-cases] Zálohujte svá data, aby byla aplikace { -brand-short-name } kdykoliv připravena k použití na tomto nebo tom příštím počítači.
+    }
+windows-10-eos-sync-toast-primary-label = Začít
+windows-10-eos-sync-toast-secondary-label = Upozornit mě později
+windows-10-eos-challenger-callout-title = Jde o to, že { -brand-product-name } není předinstalován jako jiné prohlížeče od velkých technologických společností.
+windows-10-eos-challenger-sync-callout-subtitle =
+    { -brand-product-name.case-status ->
+        [with-cases] Když si zálohujete záložky a hesla ve { -brand-product-name(case: "loc") }, můžete vybraný prohlížeč snáze přenést do dalšího zařízení.
+       *[no-cases] Když si zálohujete záložky a hesla v aplikaci { -brand-product-name }, můžete vybraný prohlížeč snáze přenést do dalšího zařízení.
+    }
+windows-10-eos-challenger-pin-callout-subtitle = Připněte si { -brand-shorter-name } na systémový hlavní panel, abyste svůj vybraný prohlížeč měli po ruce vždy, když ho potřebujete.
+windows-10-eos-challenger-sync-primary-button = Zálohovat { -brand-shorter-name }
+windows-10-eos-challenger-pin-primary-button = Připnout { -brand-shorter-name }
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } blokuje těžbu kryptoměn, sledovací prvky sociálních sítí a vytváření otisku prohlížeče.
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = Sledovací prvky nemohou identifikovat vaše zařízení ani vás sledovat na webu — protože jim to neumožňujeme.
+windows-10-eos-sync-callout-privacy-screen-2-title = Zabezpečte svá hesla a záložky pro další zařízení.
+windows-10-eos-sync-callout-privacy-screen-2-subtitle =
+    { -brand-shorter-name.case-status ->
+        [with-cases] Zálohování { -brand-shorter-name(case: "gen") } usnadňuje přenášení dat a nastavení soukromí s sebou.
+       *[no-cases] Zálohování { -brand-shorter-name } usnadňuje přenášení dat a nastavení soukromí s sebou.
+    }
+windows-10-eos-sync-callout-privacy-info-button = Podívejte se, co je blokováno
+windows-10-eos-callout-addons-title = Vyzkoušejte doplňky: jednoduché aktualizace, velké dopady
+windows-10-eos-callout-addons-subtitle = Tato rozšíření byla vybrána, aby vám pomohla zůstat produktivní, chránění a bez rozptylování.
+windows-10-eos-callout-addons-primary-button = Podívejte se na náš výběr
+windows-10-eos-sync-callout-addons-title = Při aktualizaci z Windows 10 nepřijdete o své doplňky.
+windows-10-eos-sync-callout-addons-subtitle =
+    { -brand-product-name.case-status ->
+        [with-cases] Synchronizujte nyní, aby vaše doplňky { -brand-product-name(case: "gen") } byly vždy k dispozici, a to i po změně zařízení.
+       *[no-cases] Synchronizujte nyní, aby vaše doplňky aplikace { -brand-product-name } byly vždy k dispozici, a to i po změně zařízení.
+    }
+windows-10-eos-sync-callout-next-button = Další
+windows-10-eos-sync-callout-get-started-button = Začít
+windows-10-eos-feature-toast-title = Svislé panely a skupiny panelů jsou tady!
+windows-10-eos-feature-toast-subtitle =
+    { -brand-product-name.case-status ->
+        [with-cases] Na základě mnohých požadavků prohlížeč { -brand-product-name } právě přidal nové funkce, aby bylo prohlížení efektivnější a cílené.
+       *[no-cases] Na základě mnohých požadavků prohlížeč { -brand-product-name } právě přidal nové funkce, aby bylo prohlížení efektivnější a cílené.
+    }
+windows-10-eos-feature-toast-whats-new-button = Co je nového
+windows-10-eos-feature-toast-dismiss-button = Zavřít
+windows-10-eos-global-infobar-title = <strong>Společnost Microsoft již neposkytuje podporu pro systém Windows 10.</strong>Zálohujte si svá data a připravte si { -brand-product-name } na přechod na Windows 11.
+windows-10-eos-global-infobar-primary-button = Zapnout zálohování
+    .accesskey = Z
+windows-10-eos-global-infobar-learn-more-link = Zjistit více
+    .accessKey = Z
+etp-strict-exceptions-infobar-message = <strong>Přísná ochrana proti sledování může způsobit chyby stránek.</strong> Běžné problémy odstraníte odblokováním základních prvků, které by mohly obsahovat sledovací prvky.
+etp-strict-exceptions-infobar-learn-more = Zjistit více
+etp-strict-exceptions-infobar-button = Použít opravy
+    .accesskey = P
+etp-strict-exceptions-infobar-not-now = Nyní ne
+    .accesskey = N
+set-default-menu-message-simple-layout-title = { -brand-short-name } není váš výchozí prohlížeč
+set-default-menu-message-simple-layout-title-variant = { -brand-short-name } není váš hlavní prohlížeč
+set-default-menu-message-row-layout-title =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako hlavní prohlížeč
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako hlavní prohlížeč
+    }
+set-default-menu-message-row-layout-title-variant =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako výchozí prohlížeč
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako výchozí prohlížeč
+    }
+set-default-menu-message-row-layout-subtitle = Získejte rychlost, bezpečnost a soukromí pro své prohlížení.
+set-default-menu-message-row-layout-subtitle-variant =
+    { PLATFORM() ->
+        [macos] Mějte { -brand-short-name } vždy po ruce — nastavte si jej jako výchozí a mějte jej v panelu úloh.
+       *[other] Mějte { -brand-short-name } vždy po ruce — nastavte si jej jako výchozí a mějte jej na hlavním panelu.
+    }
+set-default-menu-message-split-layout-title =
+    { PLATFORM() ->
+        [macos] Mějte { -brand-short-name } vždy po ruce
+       *[other] Otevírejte všechny odkazy aplikací { -brand-short-name }
+    }
+set-default-menu-message-split-layout-subtitle =
+    { PLATFORM() ->
+        [macos] Nastavte si ho jako výchozí a uložte si ho do Docku.
+       *[other] Užijte si rychlejší prohlížení stránek a automatickou ochranu soukromí.
+    }
+set-default-menu-message-primary-button = Nastavit jako výchozí
+set-default-menu-message-primary-button-variant = Nastavit jako hlavní prohlížeč
+set-default-menu-message-primary-button-short-variant =
+    { -brand-short-name.case-status ->
+        [with-cases] Nastavit { -brand-short-name(case: "acc") } jako výchozí
+       *[no-cases] Nastavit aplikaci { -brand-short-name } jako výchozí
+    }
+relay-50-masks-announcement-title = 50 e-mailových masek, od nás
+relay-50-masks-announcement-subtitle = Nyní získáte 50 masek zdarma (namísto původních 5). Použijte jednu pro každý účet, abyste uchovali svou skutečnou e-mailovou adresu v tajnosti.
+relay-50-masks-announcement-primary-button = Přejít na { -relay-brand-name }
+    .accesskey = P
+relay-50-masks-announcement-secondary-button = Zavřít
+    .accesskey = Z
+nova-early-access-infobar-title = <strong>{ -brand-product-name } dostává nový vzhled.</strong> Prohlížíte si předběžnou, ještě nedokončenou verzi před oficiálním spuštěním, které se uskuteční později v tomto roce.
+nova-early-access-share-feedback-link = Sdílet zpětnou vazbu
+    .accesskey = S
+nova-early-access-infobar-primary-button = Rozumím
+    .accesskey = R
+launch-options-spotlight-title-launch-on-login =
+    { -brand-short-name.case-status ->
+        [with-cases] Spustit { -brand-short-name(case: "acc") } při každém přihlášení do systému Windows?
+       *[no-cases] Spustit { -brand-short-name } při každém přihlášení do systému Windows?
+    }
+launch-options-spotlight-title-session-restore =
+    { -brand-short-name.case-status ->
+        [with-cases] Chcete znovu otevřít relaci po restartu { -brand-short-name(case: "acc") }?
+       *[no-cases] Chcete znovu otevřít relaci po restartu aplikace { -brand-short-name }?
+    }
+launch-options-spotlight-checkbox-launch-on-login =
+    { -brand-short-name.case-status ->
+        [with-cases] Otevírat { -brand-short-name } při spuštění
+       *[no-cases] Otevírat aplikaci { -brand-short-name } při spuštění
+    }
+launch-options-spotlight-checkbox-pin-to-taskbar = Připnout na panel úloh
+launch-options-spotlight-checkbox-restore-current = Znovu otevřít aktuální okna a panely
+launch-options-spotlight-checkbox-restore-previous = Znovu otevřít předcházející okna a panely
+launch-options-spotlight-primary-button-close =
+    { -brand-short-name.case-status ->
+        [with-cases] Uložit a zavřít { -brand-short-name(case: "acc") }
+       *[no-cases] Uložit a zavřít aplikaci { -brand-short-name }
+    }
+launch-options-spotlight-primary-button-launch = Uložit a pokračovat
+lapsed-user-toast-title = { -brand-product-name } vám stále kryje záda
+lapsed-user-toast-subtitle = Objevte nové možnosti prohlížení s větším výběrem, soukromím a kontrolou.
+lapsed-user-toast-whats-new-button = Co je nového
+lapsed-user-toast-dismiss-button = Zavřít

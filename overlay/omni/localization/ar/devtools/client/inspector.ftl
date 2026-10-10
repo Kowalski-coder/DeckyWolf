@@ -1,0 +1,11 @@
+colorpicker-tooltip-spectrum-dragger-title = طيف
+colorpicker-tooltip-eyedropper-title = انتقِ لونًا من الصفحة
+colorpicker-tooltip-color-name-title = الأقرب إلى: { $colorName }
+colorpicker-tooltip-hue-slider-title = اللون
+colorpicker-tooltip-alpha-slider-title = العتامة
+inspector-emulation-panel-reduced-motion-reduce = قلّل
+    .aria-label = فعِّل محاكاة الحركة المحدودة
+inspector-emulation-panel-reduced-motion-no-preference = لا تفضيل
+    .aria-label = فعِّل خيار «لا تفضيل» لمحاكاة الحركة المحدودة
+inspector-emulation-panel-reduced-motion-none = لا محاكاة
+    .aria-label = عطّل محاكاة الحركة المحدودة

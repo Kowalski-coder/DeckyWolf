@@ -1,0 +1,13 @@
+grid-row-column-positions = قطار{ $row } / کالم { $column }
+gridtype-container = گرڈ کنٹینر
+gridtype-item = گرڈ آئٹم
+gridtype-dual = گرڈ کنٹینر/ آئٹم
+flextype-container = فلیکس کنٹینر
+flextype-item = فلیکس آئٹم
+flextype-dual = فلیکس کنٹینر / آئٹم
+remote-node-picker-notice = DevTools نوڈ پکر فعال بݨ ڳئے۔ { $action }
+remote-node-picker-notice-action-desktop = معائنہ کار وِچ کہیں عنصر کوں منتخب کرݨ کیتے ایندے اوتے کلک کرو۔
+remote-node-picker-notice-action-touch = معائنہ کار وِچ کہیں عنصر کوں منتخب کرݨ کیتے اینکوں ٹیپ کرو۔
+remote-node-picker-notice-hide-button = لُکاؤ
+simple-highlighters-message = جہڑے ویلے prefers-reduced-motion فعال تھئی ہووے، چمکدے رنگاں کنوں بچݨ کیتے ترتیباں پینل وچ ہک سادہ ہائی لائٹر کوں فعال کیتا ون٘ڄ سڳدے۔
+simple-highlighters-settings-button = سیٹنگز کھولو

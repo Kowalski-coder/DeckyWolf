@@ -1,0 +1,22 @@
+confirmation-hint-password-removed = Ger-tremen dilamet!
+confirmation-hint-page-bookmarked = Enrollañ er sinedoù
+confirmation-hint-password-created = Ger-tremen enrollet
+confirmation-hint-password-updated = Ger-tremen hizivaet
+confirmation-hint-address-created = Chomlec'h enrollet
+confirmation-hint-address-updated = Chomlec'h hizivaet
+confirmation-hint-credit-card-created = Kartenn enrollet
+confirmation-hint-credit-card-updated = Kartenn hizivaet
+confirmation-hint-pin-tab = Spilhennet!
+confirmation-hint-pin-tab-description = Klikit dehou war an ivinell evit e zispilhennañ.
+confirmation-hint-send-to-device = Kaset!
+confirmation-hint-firefox-relay-mask-created = Alias nevez krouet!
+confirmation-hint-firefox-relay-mask-reused = Alias adimplijet!
+confirmation-hint-screenshot-copied = Tapadenn skramm eilet!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] { $tabCount } ivinell serret
+        [two] { $tabCount } ivinell serret
+        [few] { $tabCount } ivinell serret
+        [many] { $tabCount } ivinell serret
+       *[other] { $tabCount } ivinell serret
+    }

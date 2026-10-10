@@ -1,0 +1,171 @@
+--- "/home/viktor/Проекты/Librewolf for deck/librewolf-unpacked/squashfs-root/usr/bin/distribution/policies.json"	2026-09-06 15:08:48.308801477 +0300
++++ "/home/viktor/Проекты/Librewolf for deck/DeckyWolf/overlay/usr/bin/distribution/policies.json"	2026-10-10 21:26:51.529108013 +0300
+@@ -19,6 +19,9 @@
+             },
+             "SmartWindow": {
+                 "Value": "blocked"
++            },
++            "SpeechRecognition": {
++                "Value": "blocked"
+             }
+         },
+         "AppUpdateURL": "https://localhost",
+@@ -45,7 +48,11 @@
+             "*": {
+                 "blocked_install_message": "LibreWolf does not allow installing Language Packs.",
+                 "installation_mode": "allowed",
+-                "allowed_types": ["dictionary", "extension", "sitepermission", "theme"]
++                "allowed_types": [
++                    "dictionary",
++                    "extension",
++                    "sitepermission"
++                ]
+             },
+             "uBlock0@raymondhill.net": {
+                 "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uBlock0@raymondhill.net/latest.xpi",
+@@ -61,20 +68,6 @@
+             "Stories": false,
+             "SponsoredStories": false
+         },
+-        "Preferences": {
+-         "privacy.spoof_english": {
+-        "Value": 2,
+-        "Status": "locked"
+-    },
+-    "librewolf.language_notification": {
+-        "Value": false,
+-        "Status": "locked"
+-            },
+-            "browser.newtabpage.pinned": {
+-                "Value": "[{\"url\":\"https://деки.рф/\",\"title\":\"деки.рф\"},{\"url\":\"https://deckyloader.ru/\",\"title\":\"Decky Loader\"},{\"url\":\"https://store.steampowered.com/\",\"title\":\"Steam\"},{\"url\":\"https://vk.ru/valvesteamdeck\",\"title\":\"Steam Deck Россия\"}]",
+-                "Status": "locked"
+-            }
+-        },
+         "FirefoxSuggest": {
+             "WebSuggestions": false,
+             "SponsoredSuggestions": false,
+@@ -90,7 +83,7 @@
+         "OverridePostUpdatePage": "",
+         "SkipTermsOfUse": true,
+         "SupportMenu": {
+-            "Title": "DeckyWolf Support",
++            "Title": "Открыть чат ВКонтакте",
+             "URL": "https://vk.me/join/rw2nYVr_hsTcVmSEcuQYzetq75HYXgbvLFA="
+         },
+         "UserMessaging": {
+@@ -98,6 +91,113 @@
+             "SkipOnboarding": true,
+             "MoreFromMozilla": false,
+             "FirefoxLabs": false
++        },
++        "Preferences": {
++            "privacy.spoof_english": {
++                "Value": 2,
++                "Status": "locked"
++            },
++            "librewolf.language_notification": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.pinned": {
++                "Value": "[{\"url\": \"https://deckyloader.ru/\", \"title\": \"Decky Loader\"}, {\"url\": \"https://store.steampowered.com/\", \"title\": \"Steam\"}, {\"url\": \"https://vk.ru/valvesteamdeck\", \"title\": \"Steam Deck Россия\"}]",
++                "Status": "locked"
++            },
++            "extensions.activeThemeID": {
++                "Value": "firefox-compact-dark@mozilla.org",
++                "Status": "locked"
++            },
++            "layout.css.prefers-color-scheme.content-override": {
++                "Value": 2,
++                "Status": "locked"
++            },
++            "browser.nova.enabled": {
++                "Value": true,
++                "Status": "locked"
++            },
++            "toolkit.legacyUserProfileCustomizations.stylesheets": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.newtabWallpapers.enabled": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.newtabWallpapers.user.enabled": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.enabled": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.startup.homepage": {
++                "Value": "about:home",
++                "Status": "locked"
++            },
++            "browser.newtabpage.enabled": {
++                "Value": true,
++                "Status": "locked"
++            },
++            "librewolf.externalWallpapers.enabled": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.showSponsoredCheckboxes": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.showSponsoredTopSites": {
++                "Value": false,
++                "Status": "locked"
++            },
++            "browser.newtabpage.activity-stream.showSponsored": {
++                "Value": false,
++                "Status": "locked"
++            }
++        },
++        "SearchEngines": {
++            "Add": [
++                {
++                    "Name": "Яндекс",
++                    "URLTemplate": "https://yandex.ru/search/?text={searchTerms}",
++                    "Method": "GET",
++                    "IconURL": "https://yandex.ru/favicon.ico",
++                    "Alias": "ya",
++                    "Description": "Яндекс",
++                    "SuggestURLTemplate": "https://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}"
++                },
++                {
++                    "Name": "Google",
++                    "URLTemplate": "https://www.google.com/search?q={searchTerms}",
++                    "Method": "GET",
++                    "IconURL": "https://www.google.com/favicon.ico",
++                    "Alias": "g",
++                    "Description": "Google",
++                    "SuggestURLTemplate": "https://www.google.com/complete/search?client=firefox&q={searchTerms}"
++                },
++                {
++                    "Name": "Perplexity",
++                    "URLTemplate": "https://www.perplexity.ai/search?q={searchTerms}",
++                    "Method": "GET",
++                    "IconURL": "https://www.perplexity.ai/favicon.ico",
++                    "Alias": "ppx",
++                    "Description": "Perplexity"
++                }
++            ],
++            "Remove": [
++                "Startpage",
++                "Mojeek",
++                "Википедия",
++                "Википедия (ru)",
++                "Wikipedia",
++                "Wikipedia (en)"
++            ],
++            "Default": "Яндекс",
++            "DefaultPrivate": "Яндекс",
++            "PreventInstalls": false
+         }
+     }
+-}
++}
+\ В конце файла нет новой строки

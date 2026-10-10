@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Gỡ khỏi menu gợi ý trên thanh địa chỉ
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Thêm vào thanh công cụ
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Thêm vào menu gợi ý trên thanh địa chỉ
+    .accesskey = M
+panic-button-thankyou-msg1 = Lịch sử gần đây đã bị xóa.
+panic-button-thankyou-msg2 = Duyệt web an toàn!
+panic-button-thankyou-button =
+    .label = Cảm ơn!

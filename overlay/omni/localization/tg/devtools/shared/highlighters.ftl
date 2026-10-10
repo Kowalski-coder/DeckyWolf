@@ -1,0 +1,13 @@
+grid-row-column-positions = Сатри { $row } / Сутуни { $column }
+gridtype-container = Дарбаргирандаи турин
+gridtype-item = Ҷузъи турин
+gridtype-dual = Дарбаргиранда/ҷузъи турин
+flextype-container = Дарбаргирандаи чандир
+flextype-item = Ҷузъи чандир
+flextype-dual = Дарбаргиранда/ҷузъи чандир
+remote-node-picker-notice = Ҷамъкунандаи гиреҳҳои Абзорҳои барномарезӣ (DevTools) фаъол аст. { $action }
+remote-node-picker-notice-action-desktop = Унсуреро зер кунед, то ки онро дар Тафтишкунанда интихоб намоед
+remote-node-picker-notice-action-touch = Унсуреро зарба занед, то ки онро дар Тафтишкунанда интихоб намоед
+remote-node-picker-notice-hide-button = Пинҳон кардан
+simple-highlighters-message = Барои истисно кардани рангҳои дурахшон, вақте ки «prefers-reduced-motion» фаъол аст, ҷудокунандаи содатар метавонад дар лавҳаи танзимот фаъол карда шавад.
+simple-highlighters-settings-button = Кушодани танзимот

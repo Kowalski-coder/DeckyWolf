@@ -1,0 +1,358 @@
+onboarding-welcome-header = { -brand-short-name } 사용을 환영합니다
+onboarding-start-browsing-button-label = 탐색 시작
+onboarding-not-now-button-label = 나중에
+mr1-onboarding-get-started-primary-button-label = 시작하기
+return-to-amo-subtitle = 좋습니다. { -brand-short-name }를 설치했네요.
+return-to-amo-addon-title = 이제 <img data-l10n-name="icon"/> <b>{ $addon-name }</b> 부가 기능을 설치하겠습니다.
+return-to-amo-add-extension-label = 확장 기능 추가
+return-to-amo-add-theme-label = 테마 추가
+return-to-amo-theme-install-complete-label = 테마 설치됨
+return-to-amo-extension-install-complete-label = 확장 기능 설치됨
+mr1-return-to-amo-subtitle = { -brand-short-name }를 만나보세요
+mr1-return-to-amo-addon-title = 빠르고 사생활을 보호하는 브라우저를 손쉽게 사용할 수 있습니다. 이제 <b>{ $addon-name }</b> 부가 기능을 추가하고 { -brand-short-name }로 더 많은 작업을 수행할 수 있습니다.
+mr1-return-to-amo-add-extension-label = { $addon-name } 추가
+onboarding-welcome-steps-indicator-label =
+    .aria-label = 진행률: { $current } / { $total } 단계
+mr1-onboarding-reduce-motion-button-label = 애니메이션 끄기
+mr1-onboarding-sign-in-button-label = 로그인
+mr1-onboarding-import-primary-button-label-attribution = { $previous }에서 가져오기
+mr1-onboarding-theme-header = 나만의 것으로 만드세요
+mr1-onboarding-theme-subtitle = 테마로 { -brand-short-name }를 개인화하세요.
+mr1-onboarding-theme-secondary-button-label = 나중에
+mr1-onboarding-theme-label-system = 시스템 테마
+mr1-onboarding-theme-label-light = 밝게
+mr1-onboarding-theme-label-dark = 어둡게
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = 완료
+onboarding-animation-pause-button =
+    .aria-label = 애니메이션 일시 중지
+onboarding-animation-play-button =
+    .aria-label = 애니메이션 재생
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        버튼, 메뉴 및 창에 
+        운영 체제의 테마를 따릅니다.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        버튼, 메뉴 및 창에 
+        운영 체제의 테마를 따릅니다.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        버튼, 메뉴 및 창에 
+        밝은 테마를 사용합니다.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        버튼, 메뉴 및 창에 
+        밝은 테마를 사용합니다.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        버튼, 메뉴 및 창에 
+        어두운 테마를 사용합니다.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        버튼, 메뉴 및 창에 
+        어두운 테마를 사용합니다.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        버튼, 메뉴 및 창에 
+        역동적이고 다양한 색상의 테마를 사용합니다.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        버튼, 메뉴 및 창에 
+        역동적이고 다양한 색상의 테마를 사용합니다.
+mr2-onboarding-default-theme-label = 기본 테마를 탐색합니다.
+mr2-onboarding-thank-you-header = 저희를 선택해 주셔서 감사합니다.
+mr2-onboarding-thank-you-text = { -brand-short-name }는 비영리 단체가 지원하는 독립 브라우저입니다. 우리는 함께 웹을 안전하고, 건강하고, 더 사생활 보호를 하도록 만들고 있습니다.
+mr2-onboarding-start-browsing-button-label = 탐색 시작
+onboarding-live-language-header = 언어를 선택하세요
+mr2022-onboarding-live-language-text = { -brand-short-name }는 사용자의 언어로 표시합니다
+mr2022-language-mismatch-subtitle = 커뮤니티 덕분에 { -brand-short-name }는 90개 이상의 언어로 번역되었습니다. 사용자의 시스템은 { $systemLanguage } 언어를 사용 중이고 { -brand-short-name }는 { $appLanguage } 언어를 사용하고 있는 것 같습니다.
+onboarding-live-language-button-label-downloading = { $negotiatedLanguage }용 언어 팩 다운로드 중…
+onboarding-live-language-waiting-button = 사용 가능한 언어를 가져오는 중…
+onboarding-live-language-installing = { $negotiatedLanguage }용 언어 팩 설치 중…
+mr2022-onboarding-live-language-switch-to = { $negotiatedLanguage } 언어로 전환
+mr2022-onboarding-live-language-continue-in = { $appLanguage } 언어로 계속 사용
+onboarding-live-language-secondary-cancel-download = 취소
+onboarding-live-language-skip-button-label = 건너뛰기
+fx100-thank-you-hero-text =
+    100
+    <span data-l10n-name="zap">감사합니다</span>
+fx100-thank-you-subtitle = 100번째 출시입니다! 더 나은 건강한 인터넷을 구축할 수 있도록 도와주셔서 감사합니다.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name }를 독에 넣기
+       *[other] { -brand-short-name }를 작업 표시줄에 고정
+    }
+fx100-upgrade-thanks-header = 100 감사합니다
+fx100-upgrade-thank-you-body = 100번째 { -brand-short-name } 출시입니다. 더 나은 건강한 인터넷을 구축할 수 있도록 도와주셔서 <em>감사합니다</em>.
+fx100-upgrade-thanks-keep-body = 100번째 출시입니다! 커뮤니티의 일원이 되어주셔서 감사합니다. 다음 100번을 위해 클릭 한 번으로 { -brand-short-name }를 유지하세요.
+mr2022-onboarding-secondary-skip-button-label = 이 단계 건너뛰기
+mr2022-onboarding-easy-setup-primary-button-label = 저장하고 계속
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name }를 기본 브라우저로 설정
+mr2022-onboarding-easy-setup-import-checkbox-label = 이전 브라우저에서 가져오기
+mr2022-onboarding-welcome-pin-header = 놀라운 인터넷을 여세요
+mr2022-onboarding-welcome-pin-subtitle = 어디서나 클릭 한 번으로 { -brand-short-name }를 실행하세요. 그럴 때마다 더 개방적이고 독립적인 웹을 선택하게 됩니다.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name }를 독에 넣기
+       *[other] { -brand-short-name }를 작업 표시줄에 고정
+    }
+mr2022-onboarding-pin-primary-button-label-msix = 작업 표시줄 및 시작 메뉴에 { -brand-short-name } 고정
+mr2022-onboarding-existing-pin-header = { -brand-product-name }를 사랑해 주셔서 감사합니다.
+mr2022-onboarding-existing-pin-subtitle = 어디서나 클릭 한 번으로 더 건강한 인터넷을 시작하세요. 최신 업데이트에는 여러분이 좋아할 만한 새로운 것들이 가득합니다.
+mr2022-onboarding-existing-set-default-only-subtitle = 웹을 탐색하는 동안 개인 정보를 보호하는 브라우저를 사용하세요. 최신 업데이트는 당신이 좋아하는 것들로 가득 차 있습니다.
+mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } 사생활 보호 모드도 추가
+mr2022-onboarding-set-default-title = { -brand-short-name }를 기본 브라우저로 만드세요
+mr2022-onboarding-set-default-primary-button-label = { -brand-short-name }를 기본 브라우저로 설정
+mr2022-onboarding-set-default-subtitle = 비영리 단체가 지원하는 브라우저를 사용하세요. 웹을 탐색하시는 동안 저희는 개인 정보를 보호합니다.
+mr2022-onboarding-get-started-primary-subtitle = 최신 버전이 사용자 중심으로 구축되어, 그 어느 때보다 쉽게 웹을 둘러볼 수 있습니다. 여러분이 좋아할 만한 기능으로 가득 차 있습니다.
+mr2022-onboarding-get-started-primary-button-label = 빠른 설정
+mr2022-onboarding-import-primary-button-label-no-attribution = 이전 브라우저에서 가져오기
+mr2022-onboarding-mobile-download-cta-text = QR 코드를 스캔하여 모바일용 { -brand-product-name }를 받거나 <a data-l10n-name="download-label">다운로드 링크를 보내세요.</a>
+mr2022-onboarding-no-mobile-download-cta-text = 모바일용 { -brand-product-name }를 받으려면 QR 코드를 스캔하세요.
+mr2022-upgrade-onboarding-pin-private-window-header = 한 번의 클릭으로 사생활 보호 모드의 자유를 얻으세요
+mr2022-upgrade-onboarding-pin-private-window-subtitle = 바탕화면에서 바로 시작할 수 있고, 쿠키나 기록이 저장되지 않습니다. 흔적을 남기지 않고 탐색하세요.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } 사생활 보호 모드를 독에 넣기
+       *[other] { -brand-short-name } 사생활 보호 모드를 작업 표시줄에 고정
+    }
+mr2022-onboarding-privacy-segmentation-title = 항상 개인 정보를 존중합니다
+mr2022-onboarding-privacy-segmentation-subtitle = 지능적인 제안에서 더 똑똑한 검색에 이르기까지 저희는 더 좋고 더 개인화된 { -brand-product-name }를 만들기 위해 끊임없이 노력하고 있습니다.
+mr2022-onboarding-privacy-segmentation-text-cta = 사용자의 탐색을 향상시키기 위해 사용자의 데이터를 사용하는 새로운 기능을 제공할 때 무엇을 보고 싶습니까?
+mr2022-onboarding-privacy-segmentation-button-primary-label = { -brand-product-name } 추천 사용
+mr2022-onboarding-privacy-segmentation-button-secondary-label = 자세한 정보 표시
+mr2022-onboarding-gratitude-title = 저희가 더 나은 웹을 만드는 것을 돕고 계십니다
+mr2022-onboarding-gratitude-subtitle = Mozilla 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 보다 개방적이고 접근 가능하며 모두에게 더 좋게 만들기 위해 노력하고 있습니다.
+mr2022-onboarding-gratitude-primary-button-label = 새 기능 보기
+mr2022-onboarding-gratitude-secondary-button-label = 탐색 시작
+onboarding-infrequent-import-title = 편하게 생각하세요
+onboarding-infrequent-import-subtitle = 늘 사용하든 가끔씩 사용하든, 북마크, 비밀번호 등을 가져올 수 있다는 점을 기억하세요.
+onboarding-infrequent-import-primary-button = { -brand-short-name }로 가져오기
+mr2022-onboarding-pin-image-alt =
+    .aria-label = 별과 꽃으로 둘러싸인 노트북에서 작업하는 사람
+mr2022-onboarding-default-image-alt =
+    .aria-label = { -brand-product-name } 로고를 껴안고 있는 사람
+mr2022-onboarding-import-image-alt =
+    .aria-label = 소프트웨어 아이콘 상자가 있는 스케이트보드를 타는 사람
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = 중앙에서 모바일용 { -brand-product-name }를 다운로드하기 위해 QR 코드가 있는 백합 패드를 뛰어다니는 개구리
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = 마술 지팡이로 모자에서 { -brand-product-name } 사생활 보호 모드 로고가 나타남
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = 밝은 피부와 어두운 피부의 손 하이파이브
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = 창턱에 여우와 화초가 있는 창문을 통해 일몰의 전망
+onboarding-device-migration-image-alt =
+    .aria-label = 노트북 컴퓨터 화면에서 여우가 손을 흔드는 모습. 노트북에는 마우스가 연결되어 있습니다.
+onboarding-device-migration-title = 환영합니다
+onboarding-device-migration-subtitle2 = 새 기기에서 북마크, 비밀번호, 기록을 가져오려면 계정에 로그인하세요.
+onboarding-device-migration-primary-button-label = 로그인
+amo-picker-title = { -brand-short-name } 사용자 지정
+amo-picker-subtitle = 확장 기능은 브라우저용 앱과 같은 것으로, 이를 통해 비밀번호 보호, 동영상 다운로드, 거래 찾기, 성가신 광고 차단, 브라우저 모양 변경 등을 할 수 있습니다.
+amo-picker-install-button-label = { -brand-short-name }에 추가
+amo-picker-install-complete-label = 설치됨
+amo-picker-collection-link = 더 많은 부가 기능 살펴보기
+onboarding-easy-setup-security-and-privacy-title = 사용자의 안전을 지키기 위해 최선을 다합니다.
+onboarding-easy-setup-security-and-privacy-subtitle = 이 비영리 지원 브라우저는 기업이 웹에서 사용자를 몰래 추적하는 것을 차단하는 데 도움이 됩니다.
+onboarding-mobile-download-security-and-privacy-title = 기기 간 이동 시 암호화 상태를 유지하세요
+onboarding-mobile-download-security-and-privacy-subtitle = 동기화되면 { -brand-short-name }가 비밀번호, 북마크 등을 암호화합니다.  다른 기기에서 탭을 가져올 수도 있습니다.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name }가 여러분을 도와드립니다.
+onboarding-gratitude-security-and-privacy-subtitle = Mozilla 재단이 지원하는 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 우리는 인터넷을 더 안전하고 더 쉽게 이용할 수 있도록 노력하고 있습니다.
+onboarding-sign-up-title = 기기 간에 데이터 동기화
+onboarding-sign-up-description = 계정에 가입하면 비밀번호, 북마크 등 모든 중요한 정보가 안전하게 저장되며 모든 기기에서 로그인 할 때 사용할 수 있습니다.
+onboarding-sign-up-button = 가입 또는 로그인
+onboarding-sign-up-secondary-button = 탐색 시작
+onboarding-new-user-time-based-survey-title = { -brand-short-name }를 얼마나 오랫동안 사용하셨습니까?
+onboarding-new-user-familiarity-based-survey-title = { -brand-short-name }에 대해 얼마나 잘 알고 계십니까?
+onboarding-new-user-survey-subtitle = 사용자의 의견은 { -brand-short-name }를 더욱 개선하는 데 도움이 됩니다.
+onboarding-new-user-survey-next-button-label = 다음
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }”을 선택하면, { -brand-product-name }의 <a data-l10n-name="privacy_notice">개인정보처리방침</a>에 동의하게 됩니다.
+onboarding-new-user-survey-time-based-option-1 = 완전 새내기
+onboarding-new-user-survey-time-based-option-2 = 1개월 미만
+onboarding-new-user-survey-time-based-option-3 = 1개월 이상 정기적으로
+onboarding-new-user-survey-time-based-option-4 = 1개월 이상 가끔
+onboarding-new-user-survey-familiarity-based-option-1 = 완전 새내기
+onboarding-new-user-survey-familiarity-based-option-2 = 사용해 본 적이 있음
+onboarding-new-user-survey-familiarity-based-option-3 = 매우 익숙함
+onboarding-new-user-survey-familiarity-based-option-4 = 예전에 사용했지만 시간이 좀 지남
+onboarding-new-tabs-title = 탭의 위치를 알려주세요
+onboarding-new-tabs-subtitle = 사이드바 설정에서 원할 때마다 기능을 전환할 수 있습니다.
+onboarding-many-tabs-title = 탭을 내 방식대로
+onboarding-many-tabs-subtitle = 탭을 많이 열어 놓으시겠습니까? 더 간소화된 보기를 위해 탭을 세로로 사용해 보세요. 또는 클래식하게 상단의 탭을 유지하세요. 언제든지 전환할 수 있습니다.
+onboarding-focused-tabs-title = 탭 레이아웃 선택
+onboarding-focused-tabs-subtitle = 집중에 도움이 되는 간소화된 보기를 위해 탭을 세로로 사용해 보세요. 또는 클래식하게 상단의 탭을 유지하세요. 언제든지 전환할 수 있습니다.
+onboarding-new-vertical-tabs-label = 측면에 있는 탭
+onboarding-new-horizontal-tabs-label = 상단에 있는 탭
+onboarding-existing-tabs-title = 세로 탭
+onboarding-existing-tabs-title2 = 세로 탭 소개
+onboarding-existing-tabs-subtitle = 측면에서 탭을 사용해보세요. 사이드바 설정에서 원할 때마다 기능을 전환할 수 있습니다.
+onboarding-existing-vertical-tabs-label = 세로 탭 사용해보기
+onboarding-flair-text = 새 기능!
+onboarding-existing-horizontal-tabs-label = 가로 탭 유지
+onboarding-vertical-tabs-tooltip =
+    .title = { -brand-shorter-name } 사이드바의 일부로 화면 측면에 탭을 표시하는 브라우저 창입니다.
+onboarding-vertical-tabs-description =
+    .aria-description = { -brand-shorter-name } 사이드바의 일부로 화면 측면에 탭을 표시하는 브라우저 창입니다.
+onboarding-horizontal-tabs-tooltip =
+    .title = 탭을 상단에 표시하는 브라우저 창입니다.
+onboarding-horizontal-tabs-description =
+    .aria-description = 탭을 상단에 표시하는 브라우저 창입니다.
+onboarding-genai-sidebar-title = 사이드바에서 AI 챗봇을 사용해 보세요
+onboarding-genai-sidebar-subtitle = 탐색하는 동안 웹 콘텐츠를 요약하고, 아이디어를 브레인스토밍하고, 메시지 초안을 작성하세요. 여러 공급자 중에서 선택하세요. 언제든지 전환할 수 있습니다. <a data-l10n-name="learn-more">더 알아보기</a>
+onboarding-genai-sidebar-primary-button = 챗봇 선택
+onboarding-genai-sidebar-secondary-button = 탐색 시작
+onboarding-checklist-title = { -brand-short-name } 설정을 마치시겠습니까?
+onboarding-checklist-subtitle = 최고의 탐색 경험을 위해 다음 단계를 완료하세요.
+onboarding-checklist-set-default = { -brand-short-name }를 기본 브라우저로 설정
+onboarding-checklist-pin = { -brand-short-name }를 작업 표시줄에 고정
+onboarding-checklist-import = 이전 브라우저에서 가져오기
+onboarding-checklist-extension = 확장 기능 추가
+onboarding-checklist-sign-up = 계정 가입 또는 로그인
+onboarding-checklist-minimize =
+    .label = 최소화
+onboarding-checklist-remove =
+    .label = 체크리스트 제거
+onboarding-checklist-remove-2 = 체크리스트 제거
+tab-groups-onboarding-feature-callout-title = 덜 복잡하고 더 집중할 수 있도록 탭 그룹을 사용해 보세요
+tab-groups-onboarding-feature-callout-subtitle = 하나의 탭을 다른 탭 위에 드래그하여 첫 번째 그룹을 만들어 정리하세요.
+tab-groups-onboarding-create-group-title-3 = 탭 전체 목록 메뉴에서 탭 그룹을 찾을 수 있습니다.
+tab-groups-onboarding-create-group-no-alltabs-button-title = 주소 표시줄에서 그룹을 검색하여 찾으세요.
+tab-groups-onboarding-saved-groups-title-3 = 탭 그룹을 닫으면 언제든지 탭 전체 목록 메뉴에서 다시 열 수 있습니다.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = 주소 표시줄에서 검색하여 닫힌 그룹을 찾으세요.
+tab-groups-onboarding-session-restore-title-2 = 탭 전체 목록 메뉴에서 언제든지 탭 그룹을 다시열 수 있습니다.
+tab-groups-onboarding-dismiss = 확인
+multi-profile-spotlight-title = { -brand-product-name } 프로필 소개
+multi-profile-spotlight-body = 업무용과 여가용 탐색을 간편하게 전환하세요. 프로필은 검색 기록과 비밀번호를 포함한 탐색 정보를 완전히 분리하여 별도로 관리할 수 있도록 해줍니다.
+multi-profile-spotlight-cta = 프로필 만들기
+multi-profile-callout-title = 업무와 여가를 위한 다양한 프로필 만들기
+multi-profile-callout-subtitle = 프로필을 사용하면 검색 기록이나 비밀번호와 같은 탐색 정보를 완전히 분리할 수 있습니다.
+multi-profile-callout-cta = 프로필 만들기
+desktop-to-mobile-headline = 모바일용 Firefox와 탐색을 동기화하세요.
+desktop-to-mobile-subtitle = QR 코드를 스캔하여 모바일용 { -brand-product-name }를 다운로드하세요. 설치가 완료되면, "모바일에 동기화"를 선택해서 이동 중에도 비밀번호, 북마크 등에 접근할 수 있습니다.
+dismiss-button-label = 닫기
+sync-to-mobile-button-label = 모바일에 동기화
+desktop-to-mobile-qr-code-alt =
+    .aria-label = 모바일용 { -brand-product-name } 다운로드를 위한 QR 코드
+create-backup-screen-1-title =
+    Windows 11로 업그레이드하십니까?
+    { -brand-product-name } 데이터를 백업하세요.
+create-backup-screen-1-subtitle = 비밀번호, 북마크 등을 1~2분 안에 자동으로 보호합니다.
+create-backup-screen-1-flair = 권장
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">더 알아보기</a>
+create-backup-screen-1-sync-label = { -brand-product-name } 동기화
+create-backup-screen-1-sync-body = 로그인한 모든 기기 백업
+create-backup-screen-1-backup-label = PC에 백업
+create-backup-screen-1-backup-body = 기기 또는 OneDrive에 저장
+create-backup-select-tile-button-label = 선택
+create-backup-back-button-label = 뒤로
+create-backup-show-fewer =
+    .label = 이처럼 간단히 보기
+create-backup-screen-2-title = 백업할 { -brand-product-name } 데이터 선택
+create-backup-screen-2-subtitle = 1분밖에 걸리지 않습니다. 사용자의 데이터는 하루에 한번 백업됩니다.
+create-backup-screen-2-easy-label = 쉬운 설정
+create-backup-screen-2-easy-list-1 = 북마크, 기록, 설정 등
+create-backup-screen-2-easy-list-2 = 비밀번호 및 결제는 포함하지 않음
+create-backup-screen-2-easy-list-3 = 암호화되지 않음
+create-backup-screen-2-all-label = 모든 데이터
+create-backup-screen-2-all-list-2 = 비밀번호 및 결제 포함
+create-backup-screen-2-all-list-3 = 비밀번호로 암호화됨
+create-backup-screen-3-location = 어디에 백업을 저장하시겠습니까?
+create-backup-screen-3-title = 백업 파일 비밀번호 생성
+create-backup-screen-3-subtitle = 데이터를 암호화하는 데 필요합니다. 기억할 수 있는 장소에 보관하세요.
+fx-backup-opt-in-header = 파일 위치 선택
+fx-backup-opt-in-filepath-label = OneDrive와 같은 새 기기로 전송하고자 하는 곳을 선택하세요.
+fx-backup-opt-in-create-password-label = 비밀번호 입력
+fx-backup-opt-in-confirm-btn-label = 계속
+fx-backup-opt-in-cancel-btn-label = 뒤로
+fx-backup-confirmation-screen-title = 백업이 예약됨
+fx-backup-confirmation-screen-close-button = 닫기
+fx-backup-confirmation-screen-all-data-item-text-1 = 모든 탐색 데이터 포함됨
+fx-backup-confirmation-screen-all-data-item-text-2 = 기기에 저장됨
+fx-backup-confirmation-screen-all-data-item-text-3 = 암호화 및 비밀번호로 보호됨
+fx-backup-confirmation-screen-easy-setup-item-text-1 = 북마크, 기록, 설정 및 기타 데이터가 포함됨
+fx-backup-confirmation-screen-easy-setup-item-text-2 = 기기에 저장됨
+fx-backup-confirmation-screen-easy-setup-item-text-3 = 비밀번호와 결제는 포함되지 않음
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 민감한 데이터를 포함하려면 <a data-l10n-name="settings">설정</a>으로 이동하세요.
+fx-backup-confirmation-screen-item-subtext-1 = 몇 분 후에 백업이 시작되며, 하루에 한번씩 실행됩니다. <a data-l10n-name="settings">설정</a>에서 진행 상황을 확인할 수 있습니다.
+fx-backup-confirmation-screen-item-subtext-2 = 다시 설치해야 하는 경우 { -brand-short-name }가 백업을 찾습니다.
+restore-from-backup-secondary-top-button = 백업에서 복원
+restore-from-backup-title = { -brand-short-name }를 원하는 대로 되돌려 드립니다
+restore-from-backup-subtitle = 탐색을 재개하기 위해 모든 북마크, 방문 기록 및 기타 데이터를 복구하세요.
+restore-from-backup-secondary-button = 복원하지 않음
+multiple-backups-info-tile = <strong>여러 개의 백업 파일이 발견되었습니다.</strong> 가장 최근의 파일이 선택됩니다. 다른 프로필은 <a data-l10n-name="settings-label">설정</a>에서 복원하세요.
+restored-from-backup-success-title = 돌아왔습니다! { -brand-short-name } 데이터가 복원되었습니다.
+restored-from-backup-success-with-checklist-subtitle = 가장 좋아하는 개인 정보 보호에 중점을 둔 브라우저를 한 번의 클릭으로 바로 사용할 수 있게 하고 싶으신가요?
+restored-from-backup-success-no-checklist-subtitle = <a data-l10n-name="settings">설정</a>에서 기기의 백업을 켤 수 있습니다.
+restored-from-backup-success-with-checklist-primary-button = 저장하고 계속
+restored-from-backup-success-with-checklist-secondary-button = 이 단계 건너뛰기
+restored-from-backup-success-no-checklist-primary-button = 계속
+restored-from-backup-error-title = 백업 파일에 문제가 있습니다.
+restored-from-backup-error-subtitle = 다른 { -brand-short-name } 백업 파일이 있는 경우, 그 파일로 복원을 시도하세요. <a data-l10n-name="restore-problems">여전히 문제가 있나요?</a>
+restored-from-backup-error-primary-button = 닫기
+onboarding-personalization-title = { -brand-short-name } 경험 사용자 지정
+onboarding-personalization-subtitle = 몇 가지 질문에 답변하시면 { -brand-short-name } 사용을 향상시킬 수 있는 기능 및 확장 기능을 추천해 드립니다.
+onboarding-personalization-use-case-title = 무엇에 { -brand-short-name }를 사용하시겠습니까?
+onboarding-personalization-use-case-personal-option = 개인
+onboarding-personalization-use-case-school-option = 학교
+onboarding-personalization-use-case-work-option = 직장
+onboarding-personalization-motivation-title = 가장 중요하게 생각하는 { -brand-short-name }의 기능은 무엇입니까?
+onboarding-personalization-motivation-privacy-option = 개인 정보 및 보안
+onboarding-personalization-motivation-productivity-option = 생산성
+onboarding-personalization-motivation-other-option = 기타
+onboarding-refresh-pin-set-default-subtitle = 자동으로 사용자의 데이터를 보호하고 기업이 사용자의 클릭을 감시하지 못하도록 차단합니다.
+onboarding-refresh-pin-set-default-title = 여러분은 안전합니다
+onboarding-refresh-import-subtitle = 비밀번호, 북마크, 기록 등을 가져오세요.
+onboarding-refresh-import-title = { -brand-short-name }를 좀 더 나만의 것으로 만드세요.
+onboarding-refresh-onboarding-addons-subtitle = 확장 기능은 { -brand-short-name }를 사용자 정의할 수 있는 작은 앱입니다. 이들은 개인 정보 보호를 강화하고, 생산성을 향상시키며, { -brand-short-name }의 모양 등을 바꿀 수 있습니다.
+onboarding-refresh-onboarding-addons-title = 탐색을 향상시키세요
+onboarding-refresh-sync-subtitle = { -brand-short-name }에 로그인한 모든 곳에서 북마크, 비밀번호 등을 사용하세요. 또한, 데이터는 암호화되어 오직 자신만 볼 수 있습니다.
+onboarding-refresh-sync-title = 어디든 가세요. 모든 것을 동기화하세요.
+onboarding-refresh-gratitude-subtitle = 비영리 단체가 지원하는 유일한 주요 브라우저인 { -brand-short-name }를 사용해 주셔서 감사합니다. 여러분의 지원으로 모든 사람이 더 안전하고 접근 가능한 인터넷을 만들 수 있습니다.
+onboarding-refresh-gratitude-title = { -brand-short-name }가 사용자를 지켜드립니다
+onboarding-refresh-splash-screen-title = { -brand-product-name }는 언제나 여러분과 함께합니다, 지금 시작하세요
+onboarding-refresh-hero-text = 추적이 아닌 사용자를 보호하기 위해 제작되었습니다.
+onboarding-refresh-tou-default = { -brand-short-name }로 모든 링크 열기
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] Dock에 { -brand-short-name } 보관
+       *[other] 작업 표시줄에 { -brand-short-name } 추가
+    }
+onboarding-refresh-tou-default-unchecked = 탐색할 때마다 내장된 보호 기능으로 안전하게
+onboarding-refresh-tou-pin-unchecked = 클릭 한 번으로 유일한 주요 독립 브라우저를 만나보세요
+onboarding-refresh-terms-of-use-with-links = 계속하시면 <a data-l10n-name="terms_of_use">{ -brand-product-name } 이용 약관</a>과 <a data-l10n-name="privacy_notice">개인정보처리방침</a>에 동의하게 됩니다. 브라우저 개선을 위해 { -brand-product-name }는 진단 및 상호 작용 데이터를 { -vendor-short-name }에 보냅니다.
+onboarding-refresh-data-collection-link = 데이터 수집 설정 관리
+onboarding-refresh-primary-button = 계속
+onboarding-refresh-fro-import-header = 데이터 가져오기
+onboarding-refresh-fro-import-body = 개인 정보는 철저히 보호됩니다. { -brand-product-name }는 이를 판매하지 않습니다.
+onboarding-refresh-fro-skip-button = 건너뛰기
+onboarding-refresh-fro-theme-header = 나만의 스타일로 꾸며 보세요
+onboarding-refresh-tab-layout-header = 다른 탭 레이아웃 사용해보기
+onboarding-refresh-tab-layout-top = 위에
+onboarding-refresh-tab-layout-side = 옆에
+onboarding-refresh-tab-layout-minimal = 미니멀
+onboarding-minimal-tabs-tooltip =
+    .title = 화면 가장자리를 따라 탭이 미니멀 사이드바 안에 작은 아이콘으로 표시된 브라우저 창
+onboarding-minimal-tabs-description =
+    .aria-description = 화면 가장자리를 따라 탭이 미니멀 사이드바 안에 작은 아이콘으로 표시된 브라우저 창
+smartwindow-switcher-callout = 언제든지 스마트 창과 일반 창 간에 전환할 수 있습니다.
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 이용 약관
+smartwindow-existing-user-fx-tou-body = { -smart-window-brand-name }를 사용하려면 <a data-l10n-name="terms_of_use">이용 약관</a>과 업데이트 된 <a data-l10n-name="privacy_notice">개인정보 보호정책</a>에 동의해 주세요.
+smartwindow-existing-user-fx-tou-accept = 동의
+smartwindow-existing-user-fx-tou-go-back = 뒤로 가기
+smartwindow-onboarding-title = { -smart-window-brand-name }을 기본 AI로 지정해 보세요
+smartwindow-onboarding-subtitle = 끊김 없이 신속하게 요약하고, 비교하고, 질문해 보세요.
+smartwindow-onboarding-primary-button = 계속
+smartwindow-onboarding-image-alt =
+    .aria-label = 별 소품을 든 { -brand-product-name } 마스코트 (Kit)
+smartwindow-sidebar-auto-open-callout-title = 어시스턴트 창을 닫아두고 싶으신가요?
+smartwindow-sidebar-auto-open-callout-body = 필요하면 언제든지 다시 열 수 있습니다.
+smartwindow-sidebar-auto-open-callout-accept = 예, 계속 닫아두겠습니다
+smartwindow-sidebar-auto-open-callout-dismiss = 아니요
+smartwindow-sidebar-auto-open-callout-accepted-title = 어시스턴트가 닫힌 상태로 유지됨
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = 어느 페이지에서나 물어보기를 통해 열 수 있습니다. <a data-l10n-name="settings">설정</a>에서 언제든지 변경할 수 있습니다.
+smartwindow-sidebar-auto-open-callout-rejected-title = 확인
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 생각이 바뀌시면 언제든지 <a data-l10n-name="settings">설정</a>에서 기본값을 변경하실 수 있습니다.
+onboarding-theme-picker-title = 테마 선택
+onboarding-theme-picker-subtitle = { -brand-short-name }에 더 많은 색상을 가져오세요.
+onboarding-theme-picker-button-label = 저장하고 계속

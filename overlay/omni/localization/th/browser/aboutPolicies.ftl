@@ -1,0 +1,17 @@
+about-policies-title = นโยบายองค์กร
+aboutpolicies-page-heading =
+    .heading = เกี่ยวกับนโยบาย
+active-policies-tab = ใช้งานอยู่
+errors-tab = ข้อผิดพลาด
+documentation-tab = เอกสารประกอบ
+active-policies-tab-title =
+    .title = ใช้งานอยู่
+errors-tab-title =
+    .title = ข้อผิดพลาด
+documentation-tab-title =
+    .title = เอกสารประกอบ
+no-specified-policies-message = บริการนโยบายองค์กรทำงานอยู่ แต่ไม่มีนโยบายใดที่เปิดใช้งาน
+inactive-message = บริการนโยบายองค์กรไม่ได้ใช้งานอยู่
+policy-name = ชื่อนโยบาย
+policy-value = ค่านโยบาย
+policy-errors = ข้อผิดพลาดนโยบาย

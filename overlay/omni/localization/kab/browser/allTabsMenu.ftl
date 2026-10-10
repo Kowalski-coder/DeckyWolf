@@ -1,0 +1,14 @@
+all-tabs-menu-search-all-tabs =
+    .label = Nadi deg waccaren akk
+all-tabs-menu-new-user-context =
+    .label = Iccer amagbar amaynut
+all-tabs-menu-hidden-tabs =
+    .label = Iccaren ifren
+all-tabs-menu-view-all-tabs =
+    .label = Sken-d akk accaren
+all-tabs-menu-recent-tab-groups-header = Ales alday n ugraw n waccaren
+all-tabs-menu-tab-groups-show-all =
+    .label = Sken akk
+all-tabs-menu-tab-groups-sub-view =
+    .title = Igrawen n waccaren
+all-tabs-menu-current-window-header = Asfaylu amiran

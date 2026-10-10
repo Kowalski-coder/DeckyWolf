@@ -1,0 +1,14 @@
+default-bookmarks-title = العلامات
+default-bookmarks-heading = العلامات
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = احصل على مُساعدة
+default-bookmarks-firefox-customize = خصّص Firefox
+default-bookmarks-firefox-community = كيفية المساهمة
+default-bookmarks-firefox-about = معلومات عنا
+default-bookmarks-nightly-heading = موارد Firefox الليلي
+default-bookmarks-nightly-blog = مدونة Firefox الليلي
+default-bookmarks-bugzilla = متتبع عِلَل Mozilla
+default-bookmarks-mdn = شبكة مطوري موزيلا
+default-bookmarks-nightly-tester-tools = أدوات المختبِر الليلي
+default-bookmarks-crashes = كل انهياراتك
+default-bookmarks-planet = كوكب Mozilla

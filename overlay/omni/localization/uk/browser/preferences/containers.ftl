@@ -1,0 +1,15 @@
+containers-window-new3 =
+    .style = min-width: 32em
+    .title = Додати новий контейнер
+containers-window-update-settings3 =
+    .style = min-width: 32em
+    .title = Налаштування контейнера { $name }
+containers-window-close =
+    .key = w
+containers-name-label2 =
+    .label = Назва
+    .placeholder = Додати назву
+containers-icon-label2 =
+    .label = Піктограма
+containers-color-label2 =
+    .label = Колір

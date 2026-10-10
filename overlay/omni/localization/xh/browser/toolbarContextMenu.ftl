@@ -1,0 +1,12 @@
+toolbar-context-menu-pin-to-overflow-menu =
+    .label = Qhoboshela kwiMenyu yokuPhuphuma
+    .accesskey = Q
+toolbar-context-menu-remove-from-toolbar =
+    .label = Yishenxise kwiThulbha
+    .accesskey = Y
+toolbar-context-menu-view-customize-toolbar =
+    .label = Lungiselela…
+    .accesskey = L
+toolbar-context-menu-menu-bar-cmd =
+    .toolbarname = Ibha yemenyu
+    .accesskey = I

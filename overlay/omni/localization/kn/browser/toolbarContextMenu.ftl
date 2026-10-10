@@ -1,0 +1,15 @@
+toolbar-context-menu-reload-selected-tabs =
+    .label = ಆಯ್ದ ಟ್ಯಾಬ್‍ಗಳನ್ನು ರೀಲೋಡ್ ಮಾಡು
+    .accesskey = R
+toolbar-context-menu-pin-to-overflow-menu =
+    .label = ಒವರ್‌ಫ್ಲೋ ಮೆನುವಿಗೆ ಪಿನ್ ಮಾಡಿ
+    .accesskey = P
+toolbar-context-menu-remove-from-toolbar =
+    .label = Remove ಉಪಕರಣ ಪಟ್ಟಿಯಿಂದ
+    .accesskey = R
+toolbar-context-menu-view-customize-toolbar =
+    .label = ನನ್ನಿಚ್ಛೆಗೆ ತಕ್ಕಂತೆ ಹೊಂದಿಸು...
+    .accesskey = C
+toolbar-context-menu-menu-bar-cmd =
+    .toolbarname = ಮೆನು ಪಟ್ಟಿಕೆ
+    .accesskey = M

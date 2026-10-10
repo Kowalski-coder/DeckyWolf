@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Walcome Humans!
+error-short-desc-text = We hae cam tae veesit ye in peace and wi guidwill!
+error-long-desc1 = Robots maunna skaith a human bein or, through no takkin action, alloo a human bein tae come tae hairm.
+error-long-desc2 = Robots hae seen things you fowk wadnae believe.
+error-long-desc3 = Robots are Yer Plastic Pal Whae’s Fun Tae Be Wi.
+error-long-desc4 = Robots hae skyrie metal posteriors which shouldnae be bitten.
+error-trailer-desc-text = And they hae a plan.
+error-try-again = Try Aince Mair
+    .label2 = Please dinnae press this button again.

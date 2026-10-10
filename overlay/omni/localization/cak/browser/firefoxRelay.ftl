@@ -1,0 +1,17 @@
+firefox-relay-mask-generation-failed = { -relay-brand-name } man xtikïr ta xutz'ük jun k'ak'a' k'oj. HTTP rusachoj b'itz: { $status }.
+firefox-relay-get-reusable-masks-failed = { -relay-brand-name } man xtikïr ta xerïl okisaxel taq k'oj. HTTP rusachoj b'itz: { $status }.
+firefox-relay-get-unlimited-masks =
+    .label = Kenuk'samajïx taq k'oj
+    .accesskey = n
+firefox-relay-opt-in-title-1 = Tachajij ri rochochib'al taqoya'l:
+firefox-relay-opt-in-subtitle-1 = Tokisäx ruk'oj rutaqoya'l { -relay-brand-name }
+firefox-relay-use-mask-title = Tokisäx ruk'oj rutaqoya'l { -relay-brand-name }
+firefox-relay-opt-in-confirmation-enable-button =
+    .label = Tokisäx ruk'oj rutaqoya'l
+    .accesskey = o
+firefox-relay-opt-in-confirmation-disable =
+    .label = Man tik'ut chik pe chwe
+    .accesskey = M
+firefox-relay-opt-in-confirmation-postpone =
+    .label = Wakami mani
+    .accesskey = n

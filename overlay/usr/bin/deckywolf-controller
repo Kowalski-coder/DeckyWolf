@@ -1,0 +1,537 @@
+#!/usr/bin/env python3
+"""
+DeckyWolf Controller Daemon
+Handles gamepad navigation, mouse cursor emulation, scrolling, and WebSocket communication with DeckyWolf browser.
+"""
+
+import os
+import sys
+import time
+import math
+import glob
+import struct
+import select
+import asyncio
+import hashlib
+import base64
+import json
+import fcntl
+
+try:
+    import evdev
+    from evdev import UInput, ecodes as e
+    HAS_EVDEV = True
+except ImportError:
+    HAS_EVDEV = False
+
+def HIDIOCSFEATURE(length):
+    return (3 << 30) | (length << 16) | (ord('H') << 8) | 0x06
+
+WS_GUID = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11"
+PORT = 28282
+
+class ControllerDaemon:
+    def __init__(self):
+        self.mode = "controller"  # "keyboard" or "controller"
+        self.cursor_sens = 50.0  # 10 to 200
+        self.scroll_sens = 50.0  # 10 to 200
+        self.invert_scroll = True  # Invert left trackpad scroll direction
+        self.modifier_button = "L5" # "L5", "L4", "R5", "R4", "VIEW"
+        self.modifier_held = False
+
+        # Trigger states
+        self.l2_down = False
+        self.r2_down = False
+
+        # Stick press states for L3+R3 combo
+        self.l3_down = False
+        self.r3_down = False
+        self.fullscreen_triggered = False
+
+        # D-pad hat states
+        self.dpad_x = 0
+        self.dpad_y = 0
+
+        # Left trackpad states
+        self.lpad_prev_touch = False
+        self.lpad_prev_angle = None
+        self.lpad_scroll_accum = 0.0
+        self.lpad_click_down = False
+
+        # Stick states (-32768 to 32767)
+        self.rx = 0
+        self.ry = 0
+        self.ly = 0
+
+        self.scroll_accum = 0.0
+        self.clients = set()
+        self.ui = None
+        self.js_fd = -1
+        self.hid_fd = -1
+
+        self.init_uinput()
+        self.open_devices()
+
+    def init_uinput(self):
+        if not HAS_EVDEV:
+            print("[DeckyWolf] evdev module not found, uinput disabled")
+            return
+        try:
+            cap = {
+                e.EV_REL: [e.REL_X, e.REL_Y, e.REL_WHEEL],
+                e.EV_KEY: [
+                    e.BTN_LEFT, e.BTN_RIGHT, e.BTN_MIDDLE,
+                    e.KEY_UP, e.KEY_DOWN, e.KEY_LEFT, e.KEY_RIGHT
+                ]
+            }
+            self.ui = UInput(cap, name="DeckyWolf Virtual Gamepad Pointer")
+            print("[DeckyWolf] Virtual mouse & keyboard initialized via UInput")
+        except Exception as ex:
+            print(f"[DeckyWolf] Failed to initialize UInput: {ex}")
+            self.ui = None
+
+    def trigger_haptic(self, side=1, duration=4000, gain=2):
+        # side: 1 = left pad, 0 = right pad
+        if self.hid_fd != -1:
+            try:
+                # Steam Deck Feature Report 0x8F (ID_TRIGGER_HAPTIC_PULSE)
+                buf = bytearray(64)
+                buf[0] = 0x8F
+                buf[1] = 0x07  # report payload length
+                buf[2] = side  # 1: left, 0: right
+                struct.pack_into("<HHH", buf, 3, duration, 1000, 1)  # duration_us, interval_us, count
+                buf[9] = gain  # gain (0-2)
+                fcntl.ioctl(self.hid_fd, HIDIOCSFEATURE(64), buf)
+            except Exception:
+                pass
+
+    def open_devices(self):
+        # Open /dev/input/js0 or any joystick
+        js_devs = sorted(glob.glob("/dev/input/js*"))
+        if js_devs and self.js_fd == -1:
+            try:
+                self.js_fd = os.open(js_devs[0], os.O_RDONLY | os.O_NONBLOCK)
+                print(f"[DeckyWolf] Opened joystick device: {js_devs[0]}")
+            except Exception as ex:
+                print(f"[DeckyWolf] Could not open joystick device {js_devs[0]}: {ex}")
+                self.js_fd = -1
+
+        # Find Steam Deck controller hidraw (specifically the input2 / vendor raw interface)
+        if self.hid_fd == -1:
+            found_hid = None
+            for h in sorted(glob.glob("/dev/hidraw*")):
+                try:
+                    h_num = os.path.basename(h)
+                    uevent_path = f"/sys/class/hidraw/{h_num}/device/uevent"
+                    if os.path.exists(uevent_path):
+                        with open(uevent_path, "r") as uf:
+                            content = uf.read()
+                            if ("28DE:1205" in content or "Steam" in content) and "input2" in content:
+                                found_hid = h
+                                break
+                            elif ("28DE:1205" in content or "Steam" in content) and found_hid is None:
+                                found_hid = h
+                except Exception:
+                    continue
+
+            if found_hid:
+                try:
+                    self.hid_fd = os.open(found_hid, os.O_RDWR | os.O_NONBLOCK)
+                    print(f"[DeckyWolf] Opened Steam Deck HID device: {found_hid}")
+                except Exception as ex:
+                    print(f"[DeckyWolf] Failed to open HID device {found_hid}: {ex}")
+                    self.hid_fd = -1
+
+    async def broadcast(self, data):
+        if not self.clients:
+            return
+        msg = json.dumps(data)
+        payload = msg.encode("utf-8")
+        length = len(payload)
+        if length <= 125:
+            header = bytes([0x81, length])
+        elif length <= 65535:
+            header = bytes([0x81, 126]) + struct.pack(">H", length)
+        else:
+            header = bytes([0x81, 127]) + struct.pack(">Q", length)
+        frame = header + payload
+
+        to_remove = set()
+        for w in self.clients:
+            try:
+                w.write(frame)
+                await w.drain()
+            except Exception:
+                to_remove.add(w)
+        self.clients -= to_remove
+
+    def set_mode(self, new_mode):
+        if self.mode != new_mode:
+            self.mode = new_mode
+            if new_mode != "controller" and self.ui:
+                self.set_modifier(False)
+                if self.l2_down:
+                    self.l2_down = False
+                    self.ui.write(e.EV_KEY, e.BTN_RIGHT, 0)
+                if self.r2_down:
+                    self.r2_down = False
+                    self.ui.write(e.EV_KEY, e.BTN_LEFT, 0)
+                if self.lpad_click_down:
+                    self.lpad_click_down = False
+                    self.ui.write(e.EV_KEY, e.BTN_MIDDLE, 0)
+                self.ui.syn()
+
+    def set_modifier(self, is_held):
+        if self.modifier_held != is_held:
+            self.modifier_held = is_held
+            action = "modifier_down" if is_held else "modifier_up"
+            asyncio.create_task(self.broadcast({"action": action}))
+
+    def check_stick_combo(self):
+        if self.l3_down and self.r3_down:
+            if not self.fullscreen_triggered:
+                self.fullscreen_triggered = True
+                asyncio.create_task(self.broadcast({"action": "toggle_fullscreen"}))
+        else:
+            self.fullscreen_triggered = False
+
+    def process_js_event(self, t, value, type_, number):
+        # type: 1 = button, 2 = axis
+        if type_ & 0x80:
+            return # initial config event
+
+        if type_ == 2:  # Axis
+            if number == 3:  # Right stick X
+                self.rx = value
+            elif number == 4:  # Right stick Y
+                self.ry = value
+            elif number == 1:  # Left stick Y
+                self.ly = value
+            elif number == 2:  # Left Trigger (L2) -> Right Mouse Click
+                if self.mode == "controller" and self.ui:
+                    is_pressed = (value > 10000)
+                    if is_pressed != self.l2_down:
+                        self.l2_down = is_pressed
+                        self.ui.write(e.EV_KEY, e.BTN_RIGHT, 1 if is_pressed else 0)
+                        self.ui.syn()
+            elif number == 5:  # Right Trigger (R2) -> Left Mouse Click
+                if self.mode == "controller" and self.ui:
+                    is_pressed = (value > 10000)
+                    if is_pressed != self.r2_down:
+                        self.r2_down = is_pressed
+                        self.ui.write(e.EV_KEY, e.BTN_LEFT, 1 if is_pressed else 0)
+                        self.ui.syn()
+            elif number == 6:  # D-pad Hat0X (Left/Right)
+                if self.mode == "controller" and self.ui:
+                    new_val = -1 if value < -16000 else (1 if value > 16000 else 0)
+                    if new_val != self.dpad_x:
+                        if self.dpad_x == -1:
+                            self.ui.write(e.EV_KEY, e.KEY_LEFT, 0)
+                        elif self.dpad_x == 1:
+                            self.ui.write(e.EV_KEY, e.KEY_RIGHT, 0)
+                        if new_val == -1:
+                            self.ui.write(e.EV_KEY, e.KEY_LEFT, 1)
+                        elif new_val == 1:
+                            self.ui.write(e.EV_KEY, e.KEY_RIGHT, 1)
+                        self.ui.syn()
+                        self.dpad_x = new_val
+            elif number == 7:  # D-pad Hat0Y (Up/Down)
+                if self.mode == "controller" and self.ui:
+                    new_val = -1 if value < -16000 else (1 if value > 16000 else 0)
+                    if new_val != self.dpad_y:
+                        if self.dpad_y == -1:
+                            self.ui.write(e.EV_KEY, e.KEY_UP, 0)
+                        elif self.dpad_y == 1:
+                            self.ui.write(e.EV_KEY, e.KEY_DOWN, 0)
+                        if new_val == -1:
+                            self.ui.write(e.EV_KEY, e.KEY_UP, 1)
+                        elif new_val == 1:
+                            self.ui.write(e.EV_KEY, e.KEY_DOWN, 1)
+                        self.ui.syn()
+                        self.dpad_y = new_val
+        elif type_ == 1:  # Button
+            is_down = (value == 1)
+            # Only process actions in controller mode
+            if self.mode != "controller":
+                return
+
+            # Check if this button is the configured modifier (Select/View button is number 6)
+            if self.modifier_button in ("VIEW", "SELECT") and number == 6:
+                self.set_modifier(is_down)
+                return
+
+            if number == 10:  # R3 (Right stick press)
+                self.r3_down = is_down
+                self.check_stick_combo()
+                if self.ui and not (self.l3_down and self.r3_down):
+                    self.ui.write(e.EV_KEY, e.BTN_LEFT, 1 if is_down else 0)
+                    self.ui.syn()
+            elif number == 9:  # L3 (Left stick press)
+                self.l3_down = is_down
+                self.check_stick_combo()
+                if self.ui and not (self.l3_down and self.r3_down):
+                    self.ui.write(e.EV_KEY, e.BTN_MIDDLE, 1 if is_down else 0)
+                    self.ui.syn()
+            elif is_down:
+                if number == 1:  # B button
+                    if self.modifier_held:
+                        asyncio.create_task(self.broadcast({"action": "close_tab"}))
+                    else:
+                        asyncio.create_task(self.broadcast({"action": "back"}))
+                elif number == 2:  # X button
+                    asyncio.create_task(self.broadcast({"action": "forward"}))
+                elif number == 3:  # Y button
+                    if self.modifier_held:
+                        asyncio.create_task(self.broadcast({"action": "new_tab"}))
+                    else:
+                        asyncio.create_task(self.broadcast({"action": "reload"}))
+                elif number == 4:  # L1 (LB) -> Prev Tab
+                    asyncio.create_task(self.broadcast({"action": "prev_tab"}))
+                elif number == 5:  # R1 (RB) -> Next Tab
+                    asyncio.create_task(self.broadcast({"action": "next_tab"}))
+
+    def process_hid_report(self, data):
+        if len(data) < 20:
+            return
+
+        # Bit masks from Linux kernel hid-steam.c:
+        # data[9] bit 7 (0x80) -> BTN_GRIPL2 (Left bottom grip = L5)
+        # data[10] bit 0 (0x01) -> BTN_GRIPR2 (Right bottom grip = R5)
+        # data[13] bit 1 (0x02) -> BTN_GRIPL (Left top grip = L4)
+        # data[13] bit 2 (0x04) -> BTN_GRIPR (Right top grip = R4)
+        # data[9] bit 4 (0x10) -> BTN_SELECT (View button / Select)
+        mod_active = False
+        if self.modifier_button == "L5":
+            mod_active = bool(data[9] & 0x80)
+        elif self.modifier_button == "R5":
+            mod_active = bool(data[10] & 0x01)
+        elif self.modifier_button == "L4":
+            if len(data) >= 14:
+                mod_active = bool(data[13] & 0x02)
+        elif self.modifier_button == "R4":
+            if len(data) >= 14:
+                mod_active = bool(data[13] & 0x04)
+        elif self.modifier_button in ("VIEW", "SELECT"):
+            mod_active = bool(data[9] & 0x10)
+
+        if self.mode == "controller":
+            self.set_modifier(mod_active)
+
+            # Left trackpad click -> Middle Mouse Click (BTN_MIDDLE)
+            # data[10] bit 1 (0x02) -> BTN_THUMB (Left pad pressed)
+            lpad_click = bool(data[10] & 0x02)
+            if lpad_click != self.lpad_click_down and self.ui:
+                self.lpad_click_down = lpad_click
+                self.ui.write(e.EV_KEY, e.BTN_MIDDLE, 1 if lpad_click else 0)
+                self.ui.syn()
+                if lpad_click:
+                    self.trigger_haptic(1, 6000)
+
+            # Left trackpad touch rotational scroll wheel (like Steam Desktop Mode)
+            # data[10] bit 3 (0x08) -> Left pad touched
+            lpad_touched = bool(data[10] & 0x08)
+            if lpad_touched and len(data) >= 20:
+                lpx, lpy = struct.unpack_from("<hh", data, 16)
+                radius = math.hypot(lpx, lpy)
+                # Ignore touch deadzone right in the center to prevent erratic flips
+                if radius >= 2500:
+                    angle = math.atan2(lpy, lpx)
+                    if self.lpad_prev_angle is not None:
+                        delta = angle - self.lpad_prev_angle
+                        # Normalize angular difference into (-pi, pi]
+                        if delta > math.pi:
+                            delta -= 2.0 * math.pi
+                        elif delta < -math.pi:
+                            delta += 2.0 * math.pi
+
+                        # Ticks per revolution
+                        ticks_per_rev = 14.0 * (self.scroll_sens / 50.0)
+                        # Inverted or standard direction:
+                        dir_mult = 1.0 if self.invert_scroll else -1.0
+                        self.lpad_scroll_accum += (delta / (2.0 * math.pi)) * ticks_per_rev * dir_mult
+                        if abs(self.lpad_scroll_accum) >= 1.0:
+                            steps = int(self.lpad_scroll_accum)
+                            if self.ui:
+                                self.ui.write(e.EV_REL, e.REL_WHEEL, steps)
+                                self.ui.syn()
+                                # Trigger tactile haptic click on each scroll step!
+                                self.trigger_haptic(1, 3500)
+                            self.lpad_scroll_accum -= steps
+                    self.lpad_prev_angle = angle
+                else:
+                    self.lpad_prev_angle = None
+                self.lpad_prev_touch = True
+            else:
+                self.lpad_prev_touch = False
+                self.lpad_prev_angle = None
+                self.lpad_scroll_accum = 0.0
+
+    async def io_loop(self):
+        while True:
+            # Check devices if not opened
+            if self.js_fd == -1 or self.hid_fd == -1:
+                self.open_devices()
+
+            fds = [fd for fd in [self.js_fd, self.hid_fd] if fd != -1]
+            if not fds:
+                await asyncio.sleep(0.5)
+                continue
+
+            r, _, _ = select.select(fds, [], [], 0.016)
+            for fd in r:
+                if fd == self.js_fd:
+                    try:
+                        while True:
+                            ev_data = os.read(self.js_fd, 8)
+                            if not ev_data or len(ev_data) < 8:
+                                break
+                            t, value, type_, number = struct.unpack("IhBB", ev_data)
+                            self.process_js_event(t, value, type_, number)
+                    except BlockingIOError:
+                        pass
+                    except Exception:
+                        os.close(self.js_fd)
+                        self.js_fd = -1
+                elif fd == self.hid_fd:
+                    try:
+                        while True:
+                            data = os.read(self.hid_fd, 64)
+                            if not data:
+                                break
+                            self.process_hid_report(data)
+                    except BlockingIOError:
+                        pass
+                    except Exception:
+                        os.close(self.hid_fd)
+                        self.hid_fd = -1
+
+            # Update stick cursor movement & scroll at 60 FPS
+            if self.mode == "controller" and self.ui:
+                # Right stick for cursor
+                deadzone = 4000
+                mag = math.hypot(self.rx, self.ry)
+                if mag > deadzone:
+                    norm = min(1.0, (mag - deadzone) / (32767.0 - deadzone))
+                    speed = (norm ** 1.6) * 22.0 * (self.cursor_sens / 50.0)
+                    dx = int(round((self.rx / mag) * speed))
+                    dy = int(round((self.ry / mag) * speed))
+                    if dx != 0 or dy != 0:
+                        self.ui.write(e.EV_REL, e.REL_X, dx)
+                        self.ui.write(e.EV_REL, e.REL_Y, dy)
+                        self.ui.syn()
+
+                # Left stick for scroll
+                scroll_deadzone = 5000
+                if abs(self.ly) > scroll_deadzone:
+                    s_norm = min(1.0, (abs(self.ly) - scroll_deadzone) / (32767.0 - scroll_deadzone))
+                    # Inverted: positive ly (down) scrolls down (negative REL_WHEEL)
+                    s_speed = (s_norm ** 1.4) * (self.scroll_sens / 50.0) * 0.4
+                    self.scroll_accum += -math.copysign(s_speed, self.ly)
+                    if abs(self.scroll_accum) >= 1.0:
+                        steps = int(self.scroll_accum)
+                        self.ui.write(e.EV_REL, e.REL_WHEEL, steps)
+                        self.ui.syn()
+                        self.scroll_accum -= steps
+                else:
+                    self.scroll_accum = 0.0
+
+            await asyncio.sleep(0.016)
+
+    async def handle_client(self, reader, writer):
+        headers = b""
+        while b"\r\n\r\n" not in headers:
+            data = await reader.read(1024)
+            if not data:
+                return
+            headers += data
+
+        key = None
+        for line in headers.decode("utf-8", "ignore").split("\r\n"):
+            if line.lower().startswith("sec-websocket-key:"):
+                key = line.split(":", 1)[1].strip()
+                break
+
+        if not key:
+            writer.close()
+            return
+
+        accept = base64.b64encode(hashlib.sha1((key + WS_GUID).encode()).digest()).decode()
+        resp = (
+            "HTTP/1.1 101 Switching Protocols\r\n"
+            "Upgrade: websocket\r\n"
+            "Connection: Upgrade\r\n"
+            f"Sec-WebSocket-Accept: {accept}\r\n\r\n"
+        )
+        writer.write(resp.encode())
+        await writer.drain()
+
+        self.clients.add(writer)
+        # Send current state
+        init_state = {
+            "type": "state",
+            "mode": self.mode,
+            "cursor_sens": self.cursor_sens,
+            "scroll_sens": self.scroll_sens,
+            "invert_scroll": self.invert_scroll,
+            "modifier": self.modifier_button,
+        }
+        await self.broadcast(init_state)
+
+        try:
+            while True:
+                header = await reader.readexactly(2)
+                opcode = header[0] & 0x0F
+                if opcode == 0x8:  # Close
+                    break
+                masked = bool(header[1] & 0x80)
+                length = header[1] & 0x7F
+                if length == 126:
+                    length = struct.unpack(">H", await reader.readexactly(2))[0]
+                elif length == 127:
+                    length = struct.unpack(">Q", await reader.readexactly(8))[0]
+                mask = await reader.readexactly(4) if masked else b""
+                payload = await reader.readexactly(length)
+                if masked:
+                    payload = bytes([b ^ mask[i % 4] for i, b in enumerate(payload)])
+                msg = payload.decode("utf-8")
+                data = json.loads(msg)
+
+                cmd = data.get("command")
+                if cmd == "set_mode":
+                    new_mode = data.get("mode", "keyboard")
+                    self.set_mode(new_mode)
+                    await self.broadcast({"type": "state", "mode": self.mode})
+                elif cmd == "set_config":
+                    if "cursor_sens" in data:
+                        self.cursor_sens = float(data["cursor_sens"])
+                    if "scroll_sens" in data:
+                        self.scroll_sens = float(data["scroll_sens"])
+                    if "invert_scroll" in data:
+                        self.invert_scroll = bool(data["invert_scroll"])
+                    if "modifier" in data:
+                        self.modifier_button = str(data["modifier"])
+                    await self.broadcast({
+                        "type": "state",
+                        "mode": self.mode,
+                        "cursor_sens": self.cursor_sens,
+                        "scroll_sens": self.scroll_sens,
+                        "invert_scroll": self.invert_scroll,
+                        "modifier": self.modifier_button,
+                    })
+        except Exception:
+            pass
+        finally:
+            self.clients.discard(writer)
+            writer.close()
+
+    async def run(self):
+        server = await asyncio.start_server(self.handle_client, "127.0.0.1", PORT)
+        print(f"[DeckyWolf] Controller daemon WebSocket server running on 127.0.0.1:{PORT}")
+        await asyncio.gather(server.serve_forever(), self.io_loop())
+
+if __name__ == "__main__":
+    daemon = ControllerDaemon()
+    try:
+        asyncio.run(daemon.run())
+    except KeyboardInterrupt:
+        pass

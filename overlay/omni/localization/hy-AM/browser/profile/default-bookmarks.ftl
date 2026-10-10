@@ -1,0 +1,14 @@
+default-bookmarks-title = Էջանիշեր
+default-bookmarks-heading = Էջանիշեր
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Ստանալ օգնություն
+default-bookmarks-firefox-customize = Անհատականացնել Firefox-ը
+default-bookmarks-firefox-community = Ներգրավվել
+default-bookmarks-firefox-about = Մեր մասին
+default-bookmarks-nightly-heading = Firefox Nightly ռեսուրսներ
+default-bookmarks-nightly-blog = Firefox Nightly բլոգ
+default-bookmarks-bugzilla = Mozilla սխալի հետևող
+default-bookmarks-mdn = Mozilla մշակողների ցանց
+default-bookmarks-nightly-tester-tools = Nightly փորձարկող գործիքներ
+default-bookmarks-crashes = Ձեր բոլոր վթարները
+default-bookmarks-planet = Mozilla մոլորակ

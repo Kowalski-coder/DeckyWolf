@@ -1,0 +1,42 @@
+accessibility-text-label-header = Textové popisky a názvy
+accessibility-keyboard-header = Klávesnice
+accessibility-progress-initializing = Inicializace…
+    .aria-valuetext = Inicializace…
+accessibility-progress-progressbar =
+    { $nodeCount ->
+        [one] Kontrola { $nodeCount } uzlu
+        [few] Kontrola { $nodeCount } uzlů
+       *[other] Kontrola { $nodeCount } uzlů
+    }
+accessibility-progress-finishing = Dokončování…
+    .aria-valuetext = Dokončování…
+accessibility-warning =
+    .alt = Varování
+accessibility-fail =
+    .alt = Chyba
+accessibility-best-practices =
+    .alt = Osvědčené postupy
+accessibility-text-label-issue-area = K označení prvků <div>oblasti</div>, které mají atribut <span>href</span>, použijte atribut <code>alt</code>. <a>Zjistit více</a>
+accessibility-text-label-issue-dialog = Dialogy by měly být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-document-title = Dokumenty musí mít <code>title</code>. <a>Zjistit více</a>
+accessibility-text-label-issue-embed = Vložený obsah musí být označen. <a>Zjistit více</a>
+accessibility-text-label-issue-figure = Obrázky s volitelnými titulky by měly být označeny štítkem. <a>Zjistit více</a>
+accessibility-text-label-issue-fieldset = Prvky <code>fieldset</code> musí být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-fieldset-legend2 = Prvek <span>fieldset</span> označte pomocí <code>legend</code>. <a>Zjistit více</a>
+accessibility-text-label-issue-form = Prvky formuláře musí být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-form-visible = Prvky formuláře by měly mít viditelný textový popisek. <a>Zjistit více</a>
+accessibility-text-label-issue-frame = Prvky <code>frame</code> musí být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-glyph = Použijte atribut <code>alt</code> k označení prvků <span>mglyph</span>. <a>Zjistit více</a>
+accessibility-text-label-issue-heading = Nadpisy musí být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-heading-content = Nadpisy by měly mít viditelný textový obsah. <a>Zjistit více</a>
+accessibility-text-label-issue-iframe = Použijte atribut <code>title</code> k popisu obsahu <span>iframe</span>. <a>Zjistit více</a>
+accessibility-text-label-issue-image = Obsah s obrázky musí být označen. <a>Zjistit více</a>
+accessibility-text-label-issue-interactive = Interaktivní prvky musí být označeny. <a>Zjistit více</a>
+accessibility-text-label-issue-optgroup-label2 = Prvek <span>optgroup</span> označte atributem <code>label</code>. <a>Zjistit více</a>
+accessibility-text-label-issue-toolbar = Nástrojové lišty musí být označeny, jestliže existuje více než jedna nástrojová lišta. <a>Zjistit více</a>
+accessibility-keyboard-issue-semantics = Prvky dosažitelné pomocí klávesnice by měly mít interaktivní sémantiku. <a>Zjistit více</a>
+accessibility-keyboard-issue-tabindex = Vyhněte se používaní atributu <code>tabindex</code> s hodnotou větší než nula. <a>Zjistit více</a>
+accessibility-keyboard-issue-action = Interaktivní prvky musí být možno aktivovat klávesnicí. <a>Zjistit více</a>
+accessibility-keyboard-issue-focusable = Interaktivní prvky musí být přístupné klávesnicí. <a>Zjistit více</a>
+accessibility-keyboard-issue-focus-visible = Pro prvek dosažitelný klávesnicí není pravděpodobně nastaven styl pro případ jeho aktivace. <a>Zjistit více</a>
+accessibility-keyboard-issue-mouse-only = Prvky, na které lze klepnout, musí být dosažitelné pomocí klávesnice, a měly by mít interaktivní sémantiku. <a>Zjistit více</a>

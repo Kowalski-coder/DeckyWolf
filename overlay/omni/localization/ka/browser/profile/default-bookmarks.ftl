@@ -1,0 +1,14 @@
+default-bookmarks-title = სანიშნები
+default-bookmarks-heading = სანიშნები
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = მხარდაჭერა
+default-bookmarks-firefox-customize = მოირგეთ Firefox
+default-bookmarks-firefox-community = შემოგვიერთდით
+default-bookmarks-firefox-about = ჩვენ შესახებ
+default-bookmarks-nightly-heading = Firefox Nightly მასალები
+default-bookmarks-nightly-blog = Firefox Nightly სვეტი
+default-bookmarks-bugzilla = Mozilla ხარვეზების აღმრიცხავი
+default-bookmarks-mdn = Mozilla-ს შემმუშავებლების ერთობა
+default-bookmarks-nightly-tester-tools = Nightly-ის კვლევის ხელსაწყოები
+default-bookmarks-crashes = უეცარი გათიშვები
+default-bookmarks-planet = პლანეტა Mozilla

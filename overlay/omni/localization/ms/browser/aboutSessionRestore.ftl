@@ -1,0 +1,26 @@
+restore-page-tab-title = Pulih Sesi
+restore-page-error-title = Maaf. Kami menghadapi masalah untuk mendapatkan semula halaman anda.
+restore-page-problem-desc = Kami menghadapi masalah memulihkan sesi pelayaran anda sebelum ini. Pilih Pulih Sesi dan cuba lagi.
+restore-page-try-this = Masih tidak boleh memulihkan sesi anda? Kadang-kadang, tab yang menjadi punca masalah ini. Lihat tab sebelum ini, buangkan tanda pada tab yang anda tidak mahu pulihkan, dan kemudian pulih semula yang lain.
+restore-page-hide-tabs = Sorok Tab Dahulu
+restore-page-show-tabs = Papar Tab Dahulu
+restore-page-window-label = Tetingkap { $windowNumber }
+restore-page-restore-header =
+    .label = Pulih
+restore-page-list-header =
+    .label = Tetingkap dan Tab
+restore-page-try-again-button =
+    .label = Pulih Sesi
+    .accesskey = P
+restore-page-close-button =
+    .label = Mulakan Sesi Baru
+    .accesskey = B
+welcome-back-tab-title = Berjaya!
+welcome-back-page-title = Berjaya!
+welcome-back-page-info = { -brand-short-name } sedia untuk dimulakan.
+welcome-back-restore-button =
+    .label = Mari mulakan!
+    .accesskey = M
+welcome-back-restore-all-label = Pulih semua tetingkap & tab
+welcome-back-restore-some-label = Pulih hanya yang anda mahu
+welcome-back-page-info-link = Add-ons dan penyesuaian anda telah dialih keluar dan tetapan pelayar anda telah dipulihkan kepada piawai. Jika tindakan ini tidak menyelesaikan masalah anda, <a data-l10n-name="link-more">ketahui selanjutnya apa yang anda boleh lakukan.</a>

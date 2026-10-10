@@ -1,0 +1,13 @@
+accessibility-text-label-header = Textamerki og nöfn
+accessibility-keyboard-header = Lyklaborð
+accessibility-progress-initializing = Frumstillir…
+    .aria-valuetext = Frumstillir…
+accessibility-progress-finishing = Er að klára...
+    .aria-valuetext = Er að klára...
+accessibility-warning =
+    .alt = Aðvörun
+accessibility-fail =
+    .alt = Villa
+accessibility-best-practices =
+    .alt = Góðar venjur
+accessibility-text-label-issue-toolbar = Verkfærastikur verða að vera merktar þegar fleiri en ein verkfærastika er í notkun. <a>Frekari upplýsingar</a>

@@ -1,0 +1,11 @@
+clear-site-data-window2 =
+    .title = ದತ್ತಾಂಶ ಬರಿದುಮಾಡು
+    .style = min-width: 35em
+clear-site-data-close-key =
+    .key = w
+clear-site-data-cookies-empty =
+    .label = ಕುಕ್ಕಿಗಳು ಮತ್ತು ತಾಣ ದತ್ತಾಂಶ
+    .accesskey = S
+clear-site-data-cache-empty =
+    .label = ಕ್ಯಾಶ್ ಮಾಡಲಾದ ಜಾಲದ ವಿಷಯಗಳು
+    .accesskey = W

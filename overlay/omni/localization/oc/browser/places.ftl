@@ -1,0 +1,228 @@
+places-open =
+    .label = Dobrir
+    .accesskey = D
+places-open-in-tab =
+    .label = Dobrir dins un onglet novèl
+    .accesskey = D
+places-open-in-container-tab =
+    .label = Dobrir dins un onglet isolat
+    .accesskey = D
+places-open-all-bookmarks =
+    .label = Dobrir totes los marcapaginas
+    .accesskey = D
+places-open-all-in-tabs =
+    .label = Tot dobrir dins d'onglets
+    .accesskey = o
+places-open-in-window =
+    .label = Dobrir dins una fenèstra novèla
+    .accesskey = f
+places-open-in-private-window =
+    .label = Dobrir dins una fenèstra privada
+    .accesskey = p
+places-empty-bookmarks-folder =
+    .label = (Void)
+places-add-bookmark =
+    .label = Apondre un marcapagina…
+    .accesskey = A
+places-add-folder-contextmenu =
+    .label = Apondre un dossièr…
+    .accesskey = d
+places-add-folder =
+    .label = Apondre un dossièr…
+    .accesskey = d
+places-add-separator =
+    .label = Apondre un separador
+    .accesskey = s
+places-view =
+    .label = Visualizar
+    .accesskey = z
+places-by-date =
+    .label = Per data
+    .accesskey = d
+places-by-site =
+    .label = Per site
+    .accesskey = s
+places-by-most-visited =
+    .label = Per nombre de visitas
+    .accesskey = v
+places-by-last-visited =
+    .label = Per data de darrièra visita
+    .accesskey = d
+places-by-day-and-site =
+    .label = Per data e site
+    .accesskey = t
+places-history-search =
+    .placeholder = Cercar dins l’istoric
+places-history =
+    .aria-label = Istoric
+places-bookmarks-search =
+    .placeholder = Cercar dins los marcapaginas
+places-forget-domain-data =
+    .label = Oblidar aqueste site…
+    .accesskey = O
+places-sortby-name =
+    .label = Triar per nom
+    .accesskey = r
+places-edit-bookmark =
+    .label = Modificar lo marcapagina…
+    .accesskey = M
+places-edit-generic =
+    .label = Modificar…
+    .accesskey = M
+places-edit-folder2 =
+    .label = Modificar lo dossièr…
+    .accesskey = i
+places-delete-folder =
+    .label =
+        { $count ->
+            [1] Suprimir los dossièrs
+            [one] Suprimir lo dossièr
+           *[other] Suprimir los dossièrs
+        }
+    .accesskey = S
+places-delete-page =
+    .label =
+        { $count ->
+            [1] Suprimir la pagina
+           *[other] Suprimir la pagina
+        }
+    .accesskey = u
+managed-bookmarks =
+    .label = Marcapaginas constrenches
+managed-bookmarks-subfolder =
+    .label = Sosdossièr
+other-bookmarks-folder =
+    .label = Autres marcapaginas
+places-show-in-folder =
+    .label = Mostrar dins Finder
+    .accesskey = M
+places-delete-bookmark =
+    .label =
+        { $count ->
+            [1] Suprimir lo marcapagina
+            [one] Suprimir lo marcapagina
+           *[other] Suprimir los marcapaginas
+        }
+    .accesskey = S
+places-create-bookmark =
+    .label =
+        { $count ->
+            [1] Apondre la pagina als marcapaginas…
+           *[other] Apondre las paginas als marcapaginas…
+        }
+    .accesskey = A
+places-untag-bookmark =
+    .label = Tirar l’etiqueta
+    .accesskey = T
+places-manage-bookmarks =
+    .label = Gerir los marcapaginas
+    .accesskey = G
+places-library3 =
+    .title = Bibliotèca
+places-organize-button =
+    .label = Organizar
+    .tooltiptext = Organizar los marcapaginas
+    .accesskey = O
+places-file-close =
+    .label = Tampar
+    .accesskey = T
+places-cmd-close =
+    .key = w
+places-view-button =
+    .label = Visualizacions
+    .tooltiptext = Modificar l'afichatge
+    .accesskey = V
+places-view-menu-columns =
+    .label = Visualizar las colomnas
+    .accesskey = c
+places-view-menu-sort =
+    .label = Triar
+    .accesskey = T
+places-view-sort-unsorted =
+    .label = Pas triat
+    .accesskey = P
+places-view-sort-ascending =
+    .label = Òrdre de classificacion A > Z
+    .accesskey = A
+places-view-sort-descending =
+    .label = Òrdre de classificacion Z > A
+    .accesskey = Z
+places-maintenance-button =
+    .label = Importacion e salvament
+    .tooltiptext = Importar e salvar los marcapaginas
+    .accesskey = I
+places-cmd-backup =
+    .label = Salvar…
+    .accesskey = S
+places-cmd-restore =
+    .label = Restablir
+    .accesskey = R
+places-cmd-restore-from-file =
+    .label = Causir un fichièr…
+    .accesskey = C
+places-import-bookmarks-from-html =
+    .label = Importar de marcapaginas al format HTML…
+    .accesskey = I
+places-export-bookmarks-to-html =
+    .label = Exportar de marcapaginas al format HTML…
+    .accesskey = E
+places-import-other-browser =
+    .label = Importar de donadas d'un autre navegador…
+    .accesskey = m
+places-view-sort-col-name =
+    .label = Nom
+places-view-sort-col-tags =
+    .label = Etiquetas
+places-view-sort-col-url =
+    .label = Adreça
+places-view-sort-col-most-recent-visit =
+    .label = Darrièra visita
+places-view-sort-col-visit-count =
+    .label = Nombre de visitas
+places-view-sort-col-date-added =
+    .label = Data d'apondon
+places-view-sort-col-last-modified =
+    .label = Darrièra modificacion
+places-view-sortby-name =
+    .label = Triar per nom
+    .accesskey = n
+places-view-sortby-url =
+    .label = Triar per emplaçament
+    .accesskey = e
+places-view-sortby-date =
+    .label = Triat de la darrièra visita
+    .accesskey = v
+places-view-sortby-visit-count =
+    .label = Triar per nombre de visitas
+    .accesskey = n
+places-view-sortby-date-added =
+    .label = Triada per data d'apondon
+    .accesskey = a
+places-view-sortby-last-modified =
+    .label = Triar per data de darrièra modificacion
+    .accesskey = m
+places-view-sortby-tags =
+    .label = Triar per balisas
+    .accesskey = b
+places-cmd-find-key =
+    .key = F
+places-back-button =
+    .tooltiptext = Recular d’una pagina
+places-forward-button =
+    .tooltiptext = Avançar d'una pagina
+places-details-pane-select-an-item-description = Seleccionatz un element per visualizar e modificar sas proprietats
+places-details-pane-no-items =
+    .value = Pas cap d'element
+places-details-pane-items-count =
+    .value =
+        { $count ->
+            [one] Un element
+           *[other] { $count } elements
+        }
+places-search-bookmarks =
+    .placeholder = Recercar dins los marcapaginas
+places-search-history =
+    .placeholder = Recercar dins l'istoric
+places-search-downloads =
+    .placeholder = Recercar dins los telecargaments
+places-locked-prompt = Los marcapaginas e l'istoric del sistèma foncionaràn pas per çò que un dels fichièrs de { -brand-short-name } es utilizat per un autre programa. Lo problèma pòt venir d'un logicial de seguretat.

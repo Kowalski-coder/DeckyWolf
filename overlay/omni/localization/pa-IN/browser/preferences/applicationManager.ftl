@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = ਐਪਲੀਕੇਸ਼ਨ ਵੇਰਵੇ
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ਹਟਾਓ
+    .accesskey = R
+app-manager-handle-protocol = ਅੱਗੇ ਦਿੱਤੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ { $type } ਲਿੰਕ ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+app-manager-handle-file = ਅੱਗੇ ਦਿੱਤੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ { $type } ਸਮੱਗਰੀ ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+app-manager-web-app-info = ਇਹ ਵੈੱਬ ਐਪਲੀਕੇਸ਼ਨ ਹੋਸਟ ਹੈ:
+app-manager-local-app-info = ਇਹ ਐਪਲੀਕੇਸ਼ਨ ਸਥਿਤ ਹੈ:

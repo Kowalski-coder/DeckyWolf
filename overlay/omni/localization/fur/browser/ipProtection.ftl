@@ -1,0 +1,177 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = Impie VPN
+    .tooltiptext = Impie VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = Vierç la pagjine di assistence pe VPN
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Scuvierç la VPN, cumò dret sul tô navigadôr
+ipprotection-feature-introduction-title-1 = Prove la VPN integrade di { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = Dopre la nestre gnove <a data-l10n-name="learn-more-vpn">VPN integrade</a> par platâ la tô posizion e protezi i tiei dâts.
+ipprotection-feature-introduction-title-privacy = Zonte un altri nivel di riservatece
+ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">La VPN integrade di { -brand-product-name }</a> e jude a protezi la tô navigazion. Sielç tra varis lûcs par rindi plui riservade la tô ativitât in rêt.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">La VPN integrade di { -brand-product-name }</a> e jude a protezi la tô navigazion. Sielç tra diviersis posizions par rindi plui privade la tô ativitât in rêt.
+ipprotection-feature-introduction-link-text-privacy-3 = Oten <a data-l10n-name="learn-more-vpn">plui riservatece</a> sielzint tra diviersis posizions cussì di platâ di dulà che tu ti conetis.
+ipprotection-feature-introduction-text-summer-promo-1 = Ativile, par mantignî ancjemò plui privade la tô navigazion in rêt. <a data-l10n-name="summer-promo-link">Aprofite de largjece di bande ilimitade</a> e de pussibilitât di sielzi tra diviersis posizions di dulà navigâ. La ufierte e je valide fin ai 31 di Avost.
+ipprotection-feature-introduction-title-summer-promo = Âstu tal cjâf di fâ un viaç? Puartiti daûr la tô riservatece.
+ipprotection-feature-introduction-description-summer-promo = Supere i confins cu la VPN integrade di { -brand-product-name }: plui posizions, bande ilimitade. Nome fin ai 31 di Avost.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = Vierç VPN
+ipprotection-summer-promo-offramp-get-subscription-button = Oten { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Ignore
+ipprotection-feature-introduction-link-text-private-browsing-2 = Dopre la nestre gnove <a data-l10n-name="learn-more-vpn">VPN integrade</a> par platâ la tô posizion e protezi i tiei dâts, ancje cuant tu sês intun barcon privât .
+ipprotection-feature-introduction-description-private-browsing = Navighe cuntune protezion in plui platant la tô posizion, ancje cuant tu sês intun barcon privât.
+ipprotection-feature-introduction-title-captive-portal = Sêstu suntune rêt Wi-Fi publiche? Prove la VPN integrade di { -brand-product-name }.
+ipprotection-feature-introduction-description-captive-portal = Navighe cuntune protezion in plui platant la tô posizion, ancje cun rêts Wi-Fi publichis.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Oten <a data-l10n-name="learn-more-vpn">plui riservatece</a> sielzint tra diviers lûcs par platâ di dulà che tu ti conetis.
+ipprotection-feature-introduction-button-primary = Sucessîf
+ipprotection-feature-introduction-button-secondary-not-now = No cumò
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = No cumò
+ipprotection-feature-introduction-button-secondary-no-thanks = No graciis
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = No graciis
+ipprotection-feature-introduction-button-secondary-remove = Gjave VPN de sbare dai struments
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = Gjave VPN de sbare dai struments
+ipprotection-feature-introduction-button-open-vpn = Vierç VPN
+ipprotection-feature-introduction-button-get-started = Scomence
+ipprotection-site-settings-callout-title = Sielç dulà doprâ la VPN
+ipprotection-site-settings-callout-subtitle = Disative la VPN par un specific sît e nô si visarìn la prossime volte che tu lu visitis.
+ipprotection-site-settings-callout-button = Capît
+ipprotection-location-selection-callout-title = Novitât: cambie la tô posizion
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">La VPN integrade in { -brand-product-name }</a> ti permet di sielzi tra diviersis posizions di navigazion, se no lasse che o sedin nô a sielzi chê plui svelte.
+ipprotection-location-selection-callout-primary-button = Provile
+ipprotection-location-selection-callout-secondary-button = Ignore
+ipprotection-android-promo-callout-primary-button = Capît
+unauthenticated-vpn-title = Prove la VPN integrade di { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Plate la tô posizion</a> intant che tu navighis in { -brand-product-name }.
+unauthenticated-private-location-message = Jude a <a data-l10n-name="learn-more-vpn">tignî riservade la tô posizion</a> in { -brand-product-name }.
+unauthenticated-choose-location-message-1 = Sielç tra diviersis posizions o lasse che { -brand-product-name } al sielzi chê plui svelte.
+unauthenticated-get-started = Scomence
+unauthenticated-terms-of-service-privacy-notice = Continuant, tu acetis lis <a data-l10n-name="vpn-terms-of-service">cundizions di utilizazion dal servizi</a> e la <a data-l10n-name="vpn-privacy-notice">informative su la riservatece</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = La VPN e je ative par chest sît
+    .label = Dopre la VPN cun chest sît
+site-exclusion-toggle-disabled-1 =
+    .aria-label = La VPN e je disativade par chest sît
+    .label = Dopre la VPN cun chest sît
+site-exclusion-toggle-description = Il sît nol funzione? Prove a disativâ la VPN.
+ipprotection-settings-link =
+    .label = Impostazions
+ipprotection-connection-status-connected-1 = La VPN e je ative
+    .aria-label = La VPN e je ative
+ipprotection-connection-status-disconnected-1 = La VPN e je disativade
+    .aria-label = La VPN e je disativade
+ipprotection-connection-status-excluded-1 = La VPN e je disativade par chest sît
+    .aria-label = La VPN e je disativade par chest sît
+ipprotection-connection-status-connecting-1 = La VPN e je daûr a conetisi…
+    .aria-label = La VPN e je daûr a conetisi…
+ipprotection-button-turn-vpn-off = Disative VPN
+ipprotection-button-turn-vpn-off-excluded-site = Disative VPN dapardut
+ipprotection-button-turn-vpn-on = Ative VPN
+ipprotection-button-connecting = Daûr a impiâ…
+ipprotection-recommended-location-button = Posizion: conseade
+ipprotection-recommended-location-description = { -brand-product-name } cjate il lûc plui svelt
+ipprotection-recommended-location-badge = GNOVIS
+ipprotection-location-country-button = Posizion: { $country }
+ipprotection-locations-subview =
+    .title = Sielç posizion
+ipprotection-locations-subview-description = Sielç une altre posizion di dulà navigâ.
+ipprotecion-locations-subview-recommended-label = Conseade
+ipprotection-locations-subview-recommended-description = Cjate la posizion plui svelte
+ipprotection-locations-subview-promo =
+    .heading = Aumente la tô protezion cun { -mozilla-vpn-brand-name }
+    .message = Sielç tra plui di 300 posizions e protêç dutis lis tôs aplicazions suntun massim di 5 dispositîfs.
+ipprotection-locations-subview-promo-button = Oten { -mozilla-vpn-brand-name }
+ipprotection-connection-status-paused-title-2 = La VPN e je in pause
+    .aria-label = La VPN e je in pause
+ipprotection-connection-status-paused-description-1 = Tu âs doprât ducj i { $maxUsage } GB di dâts disponibii pe VPN. L’acès al vignarà ripristinât e il cont dai dâts azerât cul prossim mês.
+upgrade-vpn-title = Oten ancjemò plui protezion, ancje fûr dal navigadôr.
+upgrade-vpn-description = Sielç la posizion de VPN, dopre la VPN su dutis lis tôs aplicazions e fin a 5 dispositîfs, e navighe in sigurece su dutis lis rêts — a cjase o su lis rêts Wi-Fi publichis.
+upgrade-vpn-button = Prove { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Impussibil conetisi ae VPN
+    .aria-label = Impussibil conetisi ae VPN
+ipprotection-connection-status-generic-error-description = Torne prove ca di pôcs minûts.
+ipprotection-connection-status-generic-error-try-again = Torne prove plui tart.
+ipprotection-connection-status-network-error-title-1 = Controle la tô conession a internet
+    .aria-label = Controle la tô conession a internet
+ipprotection-connection-status-network-error-description = Conetiti a Internet e prove a ativâ la VPN.
+ipprotection-connection-status-blocked-error-title-1 = La VPN no je disponibile
+    .aria-label = La VPN no je disponibile
+ipprotection-message-bandwidth-warning =
+    .heading = Tu stâs par rivâ al limit di utilizazion de VPN
+    .message = Chest mês ti restin { $usageLeft } GB di { $maxUsage } GB
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Tu stâs par rivâ al limit di utilizazion de VPN
+    .message = Chest mês ti restin { $usageLeft } MB di { $maxUsage } GB.
+ipprotection-message-continuous-onboarding-intro = Ative la VPN par platâ la tô posizion e zontâ un altri nivel criptografic ae tô navigazion.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Configure la VPN in mût che si ativi</a> ogni volte che tu vierzis { -brand-short-name }, cussì di zontâ un nivel in plui di protezion.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } si visarà i sîts dulà che tu âs decidût di doprâ la VPN. Tu puedis inzornâju in ogni moment tes <a data-l10n-name="setting-link">impostazions</a>.
+confirmation-hint-ipprotection-navigated-to-excluded-site = La VPN e je disative par chest sît
+ipprotection-open-button = Vierç { -brand-product-name }
+ipprotection-come-back-title = Torne e prove la VPN integrade
+ipprotection-message-body-hide-location = Plate la tô posizion intant che tu navighis in { -brand-product-name } par vê plui riservatece e tignî in man la situazion.
+ipprotection-bandwidth-upgrade-title = Ti plasie la VPN integrade? Cun { -mozilla-vpn-brand-name } tu puedis vê une protezion in plui, ancje fûr di { -brand-product-name }
+ipprotection-bandwidth-upgrade-text = Sielç une localitât pe VPN e zonte la protezion pes tôs aplicazions fin a 5 dispositîfs, nol impuarte se tu sês a cjase o suntune rêt Wi-Fi publiche.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Tu stâs par rivâ al limit di utilizazion de VPN.</strong> Ti restin ancjemò { $usageLeft } GB. Il cont dai dâts al vignarà ristabilît e al tornarà a scomençâ al inizi dal prossim mês.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Tu stâs par finî i dâts de VPN.</strong> Tu âs ancjemò { $usageLeft } GB. Cuant che tu finissis il trafic a tô disposizion, la VPN a ven suspindude fin al prin dal prossim mês.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Tu stâs par finî i dâts de VPN.</strong> Tu âs ancjemò { $usageLeft } MB. Une volte finît il trafic a tô disposizion, la VPN a ven suspindude fin al prin dal prossim mês.
+ip-protection-description =
+    .description = VPN integrade par miorâ la tô riservatece intant che tu navighis su { -brand-short-name }
+    .label = VPN
+ip-protection-description-1 =
+    .description = Oten plui riservatece, platant la tô posizion intant che tu navighis.
+    .label = VPN integrade
+ip-protection-learn-more = Plui informazions
+ip-protection-not-opted-in-4 =
+    .heading = Prove la VPN integrade di { -brand-short-name }
+    .message = Navighe cuntune protezion in plui, platant la tô posizion.
+ip-protection-not-opted-in-button = Scomence
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } sît web
+           *[other] { $count } sîts web
+        }
+    .label = Gjestìs lis impostazions dai sîts web
+ip-protection-autostart =
+    .label = Ative la VPN in automatic
+ip-protection-autostart-checkbox =
+    .label = Cuant che o vierç { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = In barcons privâts
+ip-protection-vpn-upgrade-link =
+    .description = Sielç posizions personalizadis pe VPN e zonte la protezion pes tôs aplicazions suntun massim di 5 dispositîfs, nol impuarte se tu sês a cjase o suntune rêt Wi-Fi publiche.
+    .label = Oten ancjemò plui protezion fûr di { -brand-short-name } cun { -mozilla-vpn-brand-name }
+ip-protection-vpn-upgrade-link-1 =
+    .description = Sielç tra plui di 300 lûcs e protêç dutis lis tôs aplicazions suntun massim di 5 dispositîfs.
+    .label = Aumente la tô protezion cun { -mozilla-vpn-brand-name }
+ip-protection-exceptions-dialog-window =
+    .title = Gjestìs lis impostazions dai sîts web
+ip-protection-exclusions-desc = Dopre la VPN par ducj i sîts, gjavâts chei che a son in cheste liste. Zonte un sît web achì o vierzint la VPN.
+ip-protection-bandwidth-header-1 = Limit mensîl di dâts
+ip-protection-bandwidth-left-this-month-gb = Ti restin ancjemò { $usageLeft } GB di { $maxUsage } GB chest mês.
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">{ $usageLeft } GB</span> di { $maxUsage } GB ancjemò disponibii
+ip-protection-bandwidth-left-this-month-mb = Ti restin ancjemò { $usageLeft } MB di { $maxUsage } GB chest mês.
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">{ $usageLeft } MB</span> di { $maxUsage } GB ancjemò disponibii
+ip-protection-bandwidth-hit-for-the-month = Tu âs doprât ducj i { $maxUsage } GB dai tiei dâts VPN. Cul prossim mês l'acès al vignarà ristabilît e il cont dai dâts al vignarà azerât.
+ip-protection-bandwidth-help-text = Al prin di ogni mês al ven ristabilît a { $maxUsage } GB.
+ipprotection-bandwidth-reset-title = { $maxUsage } GB di VPN, inzornâts e pronts di doprâ.
+ipprotection-bandwidth-reset-text = Ative la VPN par vê une sigurece in plui, gratis ogni mês.
+ipprotection-bandwidth-reset-button = Capît
+ipp-activator-breakage-sign-in-warning = <strong>Al è pussibil che chest sît nol funzioni cu la VPN.</strong> Prove a jentrâ cu lis credenziâls o a disativâ la VPN intant che tu dopris chest sît web.
+ipp-activator-breakage-turn-off-warning = <strong>Al è pussibil che chest sît nol funzioni cu la VPN.</strong> Prove a disativâ  la VPN intant che tu dopris chest sît web.
+vpn-paused-alert-title = VPN sospindude
+vpn-paused-alert-body = Tu âs doprât ducj i { $maxUsage } GB de tô VPN. L'acès ae VPN al torne cul prossim mês.
+vpn-error-page-paused-description = Tu âs doprât ducj i { $maxUsage } GB di dâts disponibii pe VPN. L’acès al vignarà ripristinât e il cont dai dâts azerât cul prossim mês.
+vpn-error-page-continue-description = Sielç cemût continuâ cence VPN
+vpn-error-page-keep-browsing = Continue a navigâ in cheste session
+vpn-error-page-new-session = Invie une gnove session
+vpn-paused-alert-close-tabs-button = Siere dutis lis schedis
+vpn-paused-alert-continue-wo-vpn-button = Continue cence VPN
+vpn-error-alert-title = In chest moment la VPN no sta lavorant.
+vpn-error-alert-body = Prove plui tart.

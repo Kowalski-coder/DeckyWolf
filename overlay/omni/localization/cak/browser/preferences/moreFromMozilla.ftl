@@ -1,0 +1,12 @@
+more-from-moz-title2 = Ch'aqa' chik chi rij { -vendor-short-name }
+    .title = Ch'aqa' chik chi rij { -vendor-short-name }
+more-from-moz-category =
+    .tooltiptext = Ch'aqa' chik chi rij { -vendor-short-name }
+more-from-moz-firefox-mobile-title = { -brand-product-name } Oyonib'äl
+more-from-moz-firefox-mobile-description = Ri oyonib'äl okik'amaya'l, ri nuya' ri awichinanem pa nab'ey k'ojlib'äl.
+more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
+more-from-moz-qr-code-box-firefox-mobile-button = Tataqa' jun ruximonel qasanïk pan awoyonib'al
+more-from-moz-button-mozilla-vpn-2 = Tik'ul VPN
+more-from-moz-learn-more-link = Tetamäx ch'aqa' chik
+more-from-moz-firefox-relay-title = { -relay-brand-name }
+more-from-moz-firefox-relay-button = Tik'ul { -relay-brand-short-name }

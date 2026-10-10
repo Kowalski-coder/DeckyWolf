@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cercar in tote le schedas
+all-tabs-menu-new-user-context =
+    .label = Nove scheda contentor
+all-tabs-menu-hidden-tabs =
+    .label = Schedas celate
+all-tabs-menu-close-duplicate-tabs =
+    .label = Clauder schedas duplicate
+all-tabs-menu-view-all-tabs =
+    .label = Vider tote le schedas
+all-tabs-menu-recent-tab-groups-header = Gruppos de schedas recente
+all-tabs-menu-tab-groups-show-all =
+    .label = Monstrar toto
+all-tabs-menu-tab-groups-sub-view =
+    .title = Gruppos de schedas
+all-tabs-menu-current-window-header = Fenestra actual

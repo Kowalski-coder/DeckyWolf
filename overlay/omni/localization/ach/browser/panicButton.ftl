@@ -1,0 +1,15 @@
+panic-button-open-new-window = Yabo dirica manyen maleng
+panic-button-undo-warning = Tic man pe kitwero gonyo ne.
+panic-button-forget-button =
+    .label = Wek wi wil
+panic-main-timeframe-desc = Wek wi wil ikom agiki me:
+panic-button-5min =
+    .label = Dakika abic
+panic-button-2hr =
+    .label = Cawa aryo
+panic-button-day =
+    .label = cawa 24
+panic-button-action-desc = Mede bi:
+panic-button-delete-cookies = Jwayo <strong>Angija</strong> cokcoki
+panic-button-delete-history = Jwayo <strong>Gin mukato</strong> cokcoki
+panic-button-delete-tabs-and-windows = Loro <strong>Dirica matino</strong> ki <strong>Dirica</strong> weng

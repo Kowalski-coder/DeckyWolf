@@ -1,0 +1,15 @@
+unified-extensions-manage-extensions =
+    .label = Uzantıları idarə et
+unified-extensions-empty-reason-zero-extensions-onboarding2 = Bir neçə əlavə çox böyük fərq yaradır
+unified-extensions-empty-content-explain-extensions-onboarding2 = Fikrinizi cəmləşdirməyə, məxfiliyinizi qorumağa və daha çox şeyə kömək edəcək tövsiyələrimiz var.
+unified-extensions-item-message-manage = Uzantını idarə et
+unified-extensions-context-menu-pin-to-toolbar =
+    .label = Alət sətrinə bərkit
+unified-extensions-context-menu-manage-extension =
+    .label = Uzantını idarə et
+unified-extensions-context-menu-remove-extension =
+    .label = Uzantını sil
+unified-extensions-context-menu-move-widget-up =
+    .label = Yuxarı daşı
+unified-extensions-context-menu-move-widget-down =
+    .label = Aşağı daşı

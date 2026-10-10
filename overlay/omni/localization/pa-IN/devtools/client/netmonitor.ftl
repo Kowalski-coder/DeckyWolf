@@ -1,0 +1,14 @@
+network-menu-summary-tooltip-perf =
+    .title = ਕਾਰਗੁਜ਼ਾਰੀ ਪੜਤਾਲ ਸ਼ੁਰੂ ਕਰੋ
+network-menu-summary-tooltip-domcontentloaded =
+    .title = ਜਦੋਂ “DOMContentLoaded” ਘਟਨਾ ਵਾਪਰਨ ਵੇਲੇ
+network-menu-summary-tooltip-load =
+    .title = ਜਦੋਂ “ਲੋਡ” ਘਟਨਾ ਵਾਪਰਨ ਵੇਲੇ
+network-menu-summary-tooltip-requests-count =
+    .title = ਬੇਨਤੀਆਂ ਦੀ ਗਿਣਤੀ
+network-menu-summary-transferred = { $formattedContentSize } / { $formattedTransferredSize } ਟਰਾਂਸਫਰ ਕੀਤੇ
+network-menu-summary-tooltip-transferred =
+    .title = ਸਾਰੀਆਂ ਬੇਨਤੀਆਂ ਦੀਆਂ ਆਕਾਰ/transferred ਆਕਾਰ
+network-menu-summary-finish = ਮੁਕੰਮਲ: { $formattedTime }
+network-menu-summary-tooltip-finish =
+    .title = ਸਾਰੀਆਂ ਬੇਨਤੀਆਂ ਲੋਡ ਕਰਨ ਲਈ ਚਾਹੀਦਾ ਕੁੱਲ ਸਮਾਂ

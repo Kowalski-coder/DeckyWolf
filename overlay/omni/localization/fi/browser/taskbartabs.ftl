@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Lisää välilehti tehtäväpalkkiin
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Poista välilehti tehtäväpalkista
+taskbar-tab-urlbar-button-show = Näytä verkkosovelluksen sivutoiminto
+taskbar-tab-urlbar-button-hide = Piilota verkkosovelluksen sivutoiminto
+taskbar-tab-shortcut-description = { $name }-verkkosovellus
+taskbar-tab-shortcut-folder = { -brand-short-name }-verkkosovellukset
+taskbar-tab-audio-mute =
+    .tooltiptext = Vaimenna välilehti
+taskbar-tab-audio-unmute =
+    .tooltiptext = Palauta ääni
+taskbar-tab-title-default = { $name } { -brand-full-name }issa
+taskbar-tab-title-container = { $name } (eristystila { $container }) { -brand-full-name }issa
+taskbar-tab-title-profile = { $name } profiilissa { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) profiilissa { $profile } — { -brand-full-name }

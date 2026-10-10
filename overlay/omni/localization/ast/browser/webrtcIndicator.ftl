@@ -1,0 +1,53 @@
+webrtc-indicator-title = { -brand-short-name } — Indicador de compartición
+webrtc-item-camera = cámara
+webrtc-item-microphone = micrófonu
+webrtc-item-application = aplicación
+webrtc-item-screen = pantalla
+webrtc-item-window = ventana
+webrtc-item-browser = llingüeta
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-sharing-window = Tas compartiendo la ventana d'otra aplicación.
+webrtc-sharing-browser-window = Tas compartiendo { -brand-short-name }.
+webrtc-sharing-screen = Tas compartiendo tola pantalla.
+webrtc-stop-sharing-button = Dexar de compartir
+webrtc-microphone-unmuted =
+    .title = Habilitar el micrófonu
+webrtc-microphone-muted =
+    .title = Inhabilitar el micrófonu
+webrtc-camera-unmuted =
+    .title = Apagar la cámara
+webrtc-camera-muted =
+    .title = Prender la cámara
+webrtc-minimize =
+    .title = Indicador de minimizar
+webrtc-camera-system-menu =
+    .label = Tas compartiendo la cámara. Calca pa controlar qué compartir.
+webrtc-microphone-system-menu =
+    .label = Tas compartiendo'l micrófonu. Calca pa controlar qué compartir.
+webrtc-screen-system-menu =
+    .label = Tas compartiendo una ventana o pantalla. Calca pa controlar qué compartir.
+webrtc-allow-share-audio-capture = ¿Permitir a { $origin } que sienta l'audiu d'esta llingüeta?
+webrtc-allow-share-camera = ¿Permitir a { $origin } qu'use la cámara?
+webrtc-allow-share-microphone = ¿Permitir a { $origin } qu'use'l micrófonu?
+webrtc-allow-share-screen = ¿Permitir a { $origin } que vea la pantalla?
+webrtc-allow-share-camera-and-microphone = ¿Permitir a { $origin } qu'use la cámara y el micrófonu?
+webrtc-allow-share-camera-and-audio-capture = ¿Permitir a { $origin } qu'use la cámara y sienta l'audiu d'esta llingüeta?
+webrtc-allow-share-screen-and-microphone = ¿Permitir a { $origin } qu'use'l micrófonu y vea la pantalla?
+webrtc-allow-share-screen-and-audio-capture = ¿Permitir a { $origin } que sienta l'audiu d'esta llingüeta y vea la pantalla?
+webrtc-pick-window-or-screen = Esbilla una ventana o pantalla
+webrtc-share-entire-screen = Tola pantalla
+webrtc-share-pipe-wire-portal = Usar los axustes del sistema operativu
+webrtc-share-application =
+    { $windowCount ->
+        [one] { $appName } ({ $windowCount } ventana)
+       *[other] { $appName } ({ $windowCount } ventanes)
+    }
+webrtc-action-block =
+    .label = Bloquiar
+    .accesskey = B
+webrtc-action-always-block =
+    .label = Bloquiar siempres
+    .accesskey = s
+webrtc-remember-allow-checkbox = Acordase d'esta decisión
+webrtc-mute-notifications-checkbox = Desactivar los avisos de los sitios web mentanto se comparte

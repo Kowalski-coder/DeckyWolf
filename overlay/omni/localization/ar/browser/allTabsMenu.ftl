@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = ابحث في كل الألسنة
+all-tabs-menu-new-user-context =
+    .label = لسان حاوٍ جديد
+all-tabs-menu-hidden-tabs =
+    .label = الألسنة المخفية
+all-tabs-menu-close-duplicate-tabs =
+    .label = أغلِق الألسنة المتكرّرة
+all-tabs-menu-view-all-tabs =
+    .label = اعرض كل الألسنة
+all-tabs-menu-recent-tab-groups-header = مجموعات الألسنة الأخيرة
+all-tabs-menu-tab-groups-show-all =
+    .label = أظهر الكل
+all-tabs-menu-tab-groups-sub-view =
+    .title = مجموعات الألسنة
+all-tabs-menu-current-window-header = النافذة الحالية

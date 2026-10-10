@@ -1,0 +1,26 @@
+restore-page-tab-title = Restarigi seancon
+restore-page-error-title = Bedaŭrinde ni renkontis problemon dum la reakiro de viaj paĝoj.
+restore-page-problem-desc = Ni rekontis problemon dum la restarigo de via lasta retuma seanco. Elektu «Restarigi seancon» por klopodi denove.
+restore-page-try-this = Ĉu vi ankoraŭ ne sukcesas restarigi vian seancon? Kelkfoje langeto estas la problemo. Vidu antaŭajn langetojn, forigu la markon de la langetoj, kiujn vi ne bezonas restarigi, kaj klopodu denove.
+restore-page-hide-tabs = Kaŝi antaŭajn langetojn
+restore-page-show-tabs = Vidi antaŭajn langetojn
+restore-page-window-label = Fenestro { $windowNumber }
+restore-page-restore-header =
+    .label = Restarigi
+restore-page-list-header =
+    .label = Fenestrojn kaj langetojn
+restore-page-try-again-button =
+    .label = Restarigi seancon
+    .accesskey = R
+restore-page-close-button =
+    .label = Komenci novan seancon
+    .accesskey = N
+welcome-back-tab-title = Sukceso!
+welcome-back-page-title = Sukceso!
+welcome-back-page-info = { -brand-short-name } pretas.
+welcome-back-restore-button =
+    .label = Ek antaŭen!
+    .accesskey = E
+welcome-back-restore-all-label = Restarigi ĉiujn fenestrojn kaj langetojn
+welcome-back-restore-some-label = Restarigi nur tiujn, kiujn vi volas
+welcome-back-page-info-link = Viaj aldonaĵoj estis forigitaj kaj la normaj agordoj por via retumilo restarigitaj. Se tio ne solvas vian problemon, <a data-l10n-name="link-more">tie ĉi estas pli da informo pri tio, kion vi povas fari.</a>

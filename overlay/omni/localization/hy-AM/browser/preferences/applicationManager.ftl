@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Մանրամասն տեղեկություն
+    .style = min-width: 35em; min-height: 25em;
+app-manager-remove =
+    .label = Հեռացնել
+    .accesskey = Հ
+app-manager-handle-protocol = { $type } հղումներ-ի հետ աշխատելու համար կարող են օգտագործվել հատևյալ ծրագրերը:
+app-manager-handle-file = { $type }-ի բովանդակությունը-ի հետ աշխատելու համար կարող են օգտագործվել հատևյալ ծրագրերը:
+app-manager-web-app-info = Այս վեբ ծրագիրը տեղակայված է`
+app-manager-local-app-info = Այս ծրագիրը տեղակայված է`

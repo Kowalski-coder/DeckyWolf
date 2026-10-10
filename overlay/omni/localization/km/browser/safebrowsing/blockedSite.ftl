@@ -1,0 +1,9 @@
+safeb-blocked-phishing-page-title = គេហទំព័រ​បញ្ឆោតខាងមុខ
+safeb-blocked-malware-page-title = ការទស្សនាវិបសាយនេះ​​អាច​អាម​ឃាត់​កុំព្យូទ័រ​របស់​អ្នក
+safeb-blocked-unwanted-page-title = វិបសាយ​ខាង​មុខ​អាច​មានកម្មវិធីបង្កគ្រោះថ្នាក់
+safeb-blocked-harmful-page-title = វិបសាយ​​ខាង​មុខ​អាច​មាន​ផ្ទុក​មេរោគ
+safeb-blocked-malware-page-short-desc = { -brand-short-name } បានរារាំងទំព័រនេះ ពីព្រោះវាអាចនឹងព្យាយាមដំឡើងកម្មវិធីមេរោគ ដែលអាចលួច ឬលុបព័ត៌មានផ្ទាល់ខ្លួននៅលើកុំព្យូទ័ររបស់អ្នក។
+safeb-blocked-harmful-page-short-desc = { -brand-short-name } បានរារាំងទំព័រនេះ ពីព្រោះវាអាចព្យាយាមដំឡើងកម្មវិធីគ្រោះថ្នាក់ដែលលួច ឬលុបព័ត៌មានរបស់អ្នក (ឧទាហរណ៍ រូបថត ពាក្យសម្ងាត់ សារ និងកាតឥណទាន)។
+safeb-palm-advisory-desc = សេចក្ដីណែនាំដោយ <a data-l10n-name='advisory_provider'>{ $advisoryname }</a>។
+safeb-palm-accept-label = ថយ​ក្រោយ
+safeb-palm-see-details-label = មើលព័ត៌មានលម្អិត

@@ -1,0 +1,15 @@
+panic-button-open-new-window = wócynijo se nowe cyste wokno
+panic-button-undo-warning = Toś ta akcija njedajo se anulěrowaś.
+panic-button-forget-button =
+    .label = Zabydni!
+panic-main-timeframe-desc = Zabydni:
+panic-button-5min =
+    .label = zachadnych pěś minutow
+panic-button-2hr =
+    .label = zachadnej dwě góźinje
+panic-button-day =
+    .label = zachadnych 24 góźinow
+panic-button-action-desc = Gaž pókšacujośo:
+panic-button-delete-cookies = wulašuju se nejnowše <strong>cookieje</strong>
+panic-button-delete-history = wulašujo se nejnowša <strong>historija</strong>
+panic-button-delete-tabs-and-windows = zacynïju se <strong>rejtariki</strong> a <strong>wokna</strong>

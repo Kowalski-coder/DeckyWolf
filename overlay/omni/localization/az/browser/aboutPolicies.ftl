@@ -1,0 +1,17 @@
+about-policies-title = Sahibkarlıq Siyasəti
+aboutpolicies-page-heading =
+    .heading = Siyasətlər Haqqında
+active-policies-tab = Aktiv
+errors-tab = Xətalar
+documentation-tab = Sənədlər
+active-policies-tab-title =
+    .title = Aktiv
+errors-tab-title =
+    .title = Xətalar
+documentation-tab-title =
+    .title = Sənədlər
+no-specified-policies-message = Sahibkarlıq Siyasəti xidməti aktivdir amma aktiv siyasət yoxdur.
+inactive-message = Sahibkarlıq Siyasəti xidməti aktiv deyil.
+policy-name = Siyasət Adı
+policy-value = Siyasət Dəyəri
+policy-errors = Siyasət Xətaları

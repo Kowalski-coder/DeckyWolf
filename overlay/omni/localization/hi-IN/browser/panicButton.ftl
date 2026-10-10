@@ -1,0 +1,15 @@
+panic-button-open-new-window = नया साफ़ विंडो खोलें
+panic-button-undo-warning = इस क्रिया को पहले जैसा नहीं किया जा सकता है.
+panic-button-forget-button =
+    .label = भूलें!
+panic-main-timeframe-desc = अंतिम भूल गया:
+panic-button-5min =
+    .label = पांच मिनट
+panic-button-2hr =
+    .label = दो घंटे
+panic-button-day =
+    .label = 24 घंटे
+panic-button-action-desc = इससे बढ़ेगा:
+panic-button-delete-cookies = हालिया <strong>कुकीज़</strong> मिटाएँ
+panic-button-delete-history = हालिया <strong>इतिहास</strong> मिटाएँ
+panic-button-delete-tabs-and-windows = सभी <strong>टैब</strong> और <strong>विंडोज़</strong> बंद करें

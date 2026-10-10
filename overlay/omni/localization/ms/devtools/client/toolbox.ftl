@@ -1,0 +1,10 @@
+toolbox-meatball-menu-dock-bottom-label = Dok ke bawah
+toolbox-meatball-menu-dock-left-label = Dok ke kiri
+toolbox-meatball-menu-dock-right-label = Dok ke kanan
+toolbox-meatball-menu-dock-separate-window-label = Tetingkap berasingan
+toolbox-meatball-menu-splitconsole-label = Papar konsol terpisah
+toolbox-meatball-menu-hideconsole-label = Sorok konsol terpisah
+toolbox-meatball-menu-settings-label = Tetapan
+toolbox-meatball-menu-documentation-label = Dokumentasi…
+toolbox-meatball-menu-community-label = Komuniti…
+toolbox-meatball-menu-noautohide-label = Nyahdayakan autosorok popup

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Aus Überhangmenü entfernen
+    .accesskey = e
+customize-menu-add-to-toolbar =
+    .label = Zu Symbolleiste hinzufügen
+    .accesskey = S
+customize-menu-add-to-overflowmenu =
+    .label = Zu Überhangmenü hinzufügen
+    .accesskey = b
+panic-button-thankyou-msg1 = Die kürzlich angelegte Browser-Chronik wurde gelöscht.
+panic-button-thankyou-msg2 = Sicheres Surfen!
+panic-button-thankyou-button =
+    .label = Danke

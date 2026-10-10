@@ -1,0 +1,231 @@
+places-open =
+    .label = Aç
+    .accesskey = A
+places-open-in-tab =
+    .label = Yeni sekmede aç
+    .accesskey = Y
+places-open-in-container-tab =
+    .label = Yeni kapsayıcı sekmede aç
+    .accesskey = i
+places-open-all-bookmarks =
+    .label = Tüm yer imlerini aç
+    .accesskey = T
+places-open-all-in-tabs =
+    .label = Tümünü sekmelerde aç
+    .accesskey = m
+places-open-in-window =
+    .label = Yeni pencerede aç
+    .accesskey = i
+places-open-in-private-window =
+    .label = Yeni gizli pencerede aç
+    .accesskey = z
+places-empty-bookmarks-folder =
+    .label = (Boş)
+places-add-bookmark =
+    .label = Yer imi ekle…
+    .accesskey = m
+places-add-folder-contextmenu =
+    .label = Klasör ekle…
+    .accesskey = ö
+places-add-folder =
+    .label = Klasör ekle…
+    .accesskey = ö
+places-add-separator =
+    .label = Ayraç ekle
+    .accesskey = A
+places-view =
+    .label = Görünüm
+    .accesskey = G
+places-by-date =
+    .label = Tarih
+    .accesskey = T
+places-by-site =
+    .label = Site
+    .accesskey = S
+places-by-most-visited =
+    .label = En çok ziyaret edilenler
+    .accesskey = E
+places-by-last-visited =
+    .label = Son ziyaret edilenler
+    .accesskey = S
+places-by-day-and-site =
+    .label = Tarih ve site
+    .accesskey = T
+places-history-search =
+    .placeholder = Geçmişte ara
+places-history =
+    .aria-label = Geçmiş
+places-bookmarks-search =
+    .placeholder = Yer imlerinde ara
+places-forget-domain-data =
+    .label = Bu siteyi unut…
+    .accesskey = u
+places-sortby-name =
+    .label = Ada göre sırala
+    .accesskey = R
+places-edit-bookmark =
+    .label = Yer imini düzenle…
+    .accesskey = d
+places-edit-generic =
+    .label = Düzenle…
+    .accesskey = D
+places-edit-folder2 =
+    .label = Klasörü düzenle…
+    .accesskey = d
+places-delete-folder =
+    .label =
+        { $count ->
+            [1] Klasörü sil
+            [one] Klasörü sil
+           *[other] Klasörleri sil
+        }
+    .accesskey = s
+places-delete-page =
+    .label =
+        { $count ->
+            [1] Sayfayı sil
+           *[other] Sayfaları sil
+        }
+    .accesskey = S
+managed-bookmarks =
+    .label = Yönetilen yer imleri
+managed-bookmarks-subfolder =
+    .label = Alt klasör
+other-bookmarks-folder =
+    .label = Diğer yer imleri
+places-show-in-folder =
+    .label = Klasörde göster
+    .accesskey = K
+places-delete-bookmark =
+    .label =
+        { $count ->
+            [1] Yer imini sil
+            [one] Yer imini sil
+           *[other] Yer imlerini sil
+        }
+    .accesskey = s
+places-create-bookmark =
+    .label =
+        { $count ->
+            [1] Yer imlerine ekle…
+           *[other] Yer imlerine ekle…
+        }
+    .accesskey = m
+places-untag-bookmark =
+    .label = Etiketi kaldır
+    .accesskey = K
+places-manage-bookmarks =
+    .label = Yer imlerini yönet
+    .accesskey = n
+places-library3 =
+    .title = Arşiv
+places-organize-button =
+    .label = Düzenle
+    .tooltiptext = Yer imlerinizi düzenleyin
+    .accesskey = D
+places-file-close =
+    .label = Kapat
+    .accesskey = K
+places-cmd-close =
+    .key = w
+places-view-button =
+    .label = Görünümler
+    .tooltiptext = Görünümünüzü değiştirin
+    .accesskey = G
+places-view-menu-columns =
+    .label = Sütunları göster
+    .accesskey = ü
+places-view-menu-sort =
+    .label = Sırala
+    .accesskey = S
+places-view-sort-unsorted =
+    .label = Sıralanmamış
+    .accesskey = r
+places-view-sort-ascending =
+    .label = A’dan Z’ye sırala
+    .accesskey = A
+places-view-sort-descending =
+    .label = Z’den A’ya sırala
+    .accesskey = Z
+places-maintenance-button =
+    .label = İçe aktarma ve yedekleme
+    .tooltiptext = Yer imlerinizi içe aktarın ve yedekleyin
+    .accesskey = m
+places-cmd-backup =
+    .label = Yedekle…
+    .accesskey = Y
+places-cmd-restore =
+    .label = Geri yükle
+    .accesskey = G
+places-cmd-restore-from-file =
+    .label = Dosya seç…
+    .accesskey = D
+places-import-bookmarks-from-html =
+    .label = Yer imlerini HTML’den içe aktar…
+    .accesskey = H
+places-export-bookmarks-to-html =
+    .label = Yer imlerini HTML olarak dışa aktar…
+    .accesskey = M
+places-import-other-browser =
+    .label = Başka bir tarayıcıdaki verileri içe aktar…
+    .accesskey = B
+places-view-sort-col-name =
+    .label = Adı
+places-view-sort-col-tags =
+    .label = Etiketler
+places-view-sort-col-url =
+    .label = Konum
+places-view-sort-col-most-recent-visit =
+    .label = Son ziyaret
+places-view-sort-col-visit-count =
+    .label = Ziyaret sayısı
+places-view-sort-col-date-added =
+    .label = Ekleme tarihi
+places-view-sort-col-last-modified =
+    .label = Son değişiklik
+places-view-sortby-name =
+    .label = Ada göre sırala
+    .accesskey = A
+places-view-sortby-url =
+    .label = Konuma göre sırala
+    .accesskey = K
+places-view-sortby-date =
+    .label = Son ziyarete göre sırala
+    .accesskey = z
+places-view-sortby-visit-count =
+    .label = Ziyaret sayısına göre sırala
+    .accesskey = a
+places-view-sortby-date-added =
+    .label = Ekleme tarihine göre sırala
+    .accesskey = E
+places-view-sortby-last-modified =
+    .label = Son değişiklik tarihine göre sırala
+    .accesskey = d
+places-view-sortby-tags =
+    .label = Etiketlere göre sırala
+    .accesskey = t
+places-cmd-find-key =
+    .key = f
+places-back-button =
+    .tooltiptext = Geri dön
+places-forward-button =
+    .tooltiptext = İleri git
+places-details-pane-select-an-item-description = Özelliklerini görmek ve değiştirmek için bir öğe seçin
+places-details-pane-no-items =
+    .value = Öğe yok
+places-details-pane-items-count =
+    .value =
+        { $count ->
+            [one] { $count } öğe
+           *[other] { $count } öğe
+        }
+places-search-bookmarks =
+    .placeholder = Yer imlerinde ara
+places-search-history =
+    .placeholder = Geçmişte ara
+places-search-downloads =
+    .placeholder = İndirilenlerde ara
+places-locked-prompt = { -brand-short-name } uygulamasına ait dosyalardan biri başka bir uygulama tarafından kullanılmakta olduğundan, yer imi ve geçmiş sistemi çalışmayacak. Bazı güvenlik yazılımları bu soruna sebep olabilir.
+places-share-folder2 =
+    .badge = Yeni
+    .label = Klasörü paylaş

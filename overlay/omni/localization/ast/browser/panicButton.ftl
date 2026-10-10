@@ -1,0 +1,15 @@
+panic-button-open-new-window = Va abrise una ventana nueva ensin nada
+panic-button-undo-warning = Esta aición nun pue desfacese.
+panic-button-forget-button =
+    .label = ¡Escaecer!
+panic-main-timeframe-desc = Escaecer:
+panic-button-5min =
+    .label = Los últimos cinco minutos
+panic-button-2hr =
+    .label = Les últimes dos hores
+panic-button-day =
+    .label = Les últimes venticuatro hores
+panic-button-action-desc = Al siguir:
+panic-button-delete-cookies = Van desaniciase les <strong>cookies</strong> de recién
+panic-button-delete-history = Va desaniciase <strong>l'historial</strong> recién
+panic-button-delete-tabs-and-windows = Van zarrase toles <strong>llingüetes</strong> y <strong>ventanes</strong>

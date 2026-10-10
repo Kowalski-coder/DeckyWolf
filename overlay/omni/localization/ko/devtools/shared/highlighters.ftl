@@ -1,0 +1,13 @@
+grid-row-column-positions = 행 { $row } / 열 { $column }
+gridtype-container = 그리드 컨테이너
+gridtype-item = 그리드 항목
+gridtype-dual = 그리드 컨테이너/항목
+flextype-container = 플렉스 컨테이너
+flextype-item = 플렉스 항목
+flextype-dual = 플렉스 컨테이너/항목
+remote-node-picker-notice = 개발자 도구 노드 선택기가 활성화되었습니다. { $action }
+remote-node-picker-notice-action-desktop = 검사기에서 요소를 선택하려면 클릭하세요
+remote-node-picker-notice-action-touch = 검사기에서 요소를 선택하려면 탭하세요
+remote-node-picker-notice-hide-button = 숨기기
+simple-highlighters-message = prefers-reduced-motion이 활성화되면 깜박임을 피하기 위해 설정 패널에서 단순한 하이라이터를 활성화할 수 있습니다.
+simple-highlighters-settings-button = 설정 열기

@@ -1,0 +1,26 @@
+restore-page-tab-title = Pulihkan Sesi
+restore-page-error-title = Maaf. Kami kesulitan mendapatkan kembali laman Anda.
+restore-page-problem-desc = Kami kesulitan memulihkan sesi penjelajahan terakhir Anda. Pilih Pulihkan Sesi untuk mencoba lagi.
+restore-page-try-this = Masih tidak bisa memulihkan sesi Anda? Kadang tab adalah penyebabnya. Lihat tab sebelumnya, hapus centang dari tab yang tidak Anda perlukan, dan kemudian pulihkan.
+restore-page-hide-tabs = Sembunyikan Tab Sebelumnya
+restore-page-show-tabs = Lihat Tab Sebelumnya
+restore-page-window-label = Jendela { $windowNumber }
+restore-page-restore-header =
+    .label = Pulihkan
+restore-page-list-header =
+    .label = Jendela dan Tab
+restore-page-try-again-button =
+    .label = Pulihkan Sesi
+    .accesskey = P
+restore-page-close-button =
+    .label = Mulai Sesi Baru
+    .accesskey = B
+welcome-back-tab-title = Sukses!
+welcome-back-page-title = Sukses!
+welcome-back-page-info = { -brand-short-name } siap bertugas.
+welcome-back-restore-button =
+    .label = Ayo!
+    .accesskey = A
+welcome-back-restore-all-label = Pulihkan semua jendela & tab
+welcome-back-restore-some-label = Pulihkan hanya yang Anda inginkan
+welcome-back-page-info-link = Pengaya dan pengubahsuaian Anda telah dibuang dan setelan peramban Anda telah dipulihkan ke setelan bawaan. Jika masalahnya masih belum teratasi, <a data-l10n-name="link-more">pelajari lebih lanjut apa yang dapat Anda lakukan berikutnya.</a>

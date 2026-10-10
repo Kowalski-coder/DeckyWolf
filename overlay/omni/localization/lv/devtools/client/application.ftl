@@ -1,0 +1,12 @@
+serviceworker-list-header = Pakalpojumu strādņi
+serviceworker-list-aboutdebugging = Atveriet <a>about:debugging</a>, lai aplūkotu pakalpojumu strādņus no citiem domēniem
+serviceworker-worker-unregister = Atreģistrēt
+serviceworker-worker-updated = Atjaunināts <time>{ DATETIME($date, day: "numeric", hour: "numeric", minute: "numeric", month: "long", second: "numeric", year: "numeric") }</time>
+serviceworker-worker-status-running = Darbojas
+serviceworker-worker-status-stopped = Apturēts
+serviceworker-empty-intro-link = Uzzināt vairāk
+manifest-item-warnings = Kļūdas un brīdinājumi
+manifest-loaded-devtools-error = Firefox DevTools kļūda
+icon-error =
+    .alt = Kļūdas ikona
+    .title = Kļūda

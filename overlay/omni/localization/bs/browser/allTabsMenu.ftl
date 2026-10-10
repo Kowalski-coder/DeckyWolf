@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Novi Container tab
+all-tabs-menu-hidden-tabs =
+    .label = Skriveni tabovi
+all-tabs-menu-recent-tab-groups-header = Nedavne grupe tabova
+all-tabs-menu-tab-groups-show-all =
+    .label = Prikaži sve
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupe tabova
+all-tabs-menu-current-window-header = Trenutni prozor

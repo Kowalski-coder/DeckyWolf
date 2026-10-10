@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bem-vindos, humanos!
+error-short-desc-text = Viemos visitá-los em paz e com boas intenções!
+error-long-desc1 = Robôs não podem ferir um ser humano ou, por inação, permitir que um ser humano sofra algum mal.
+error-long-desc2 = Robôs já viram coisas que vocês humanos não acreditariam.
+error-long-desc3 = Robôs são os seus amigos de plástico com quem pode se divertir.
+error-long-desc4 = Robôs possuem traseiros de metal brilhantes que não devem ser mordidos.
+error-trailer-desc-text = E eles têm um plano.
+error-try-again = Tentar novamente
+    .label2 = Não pressione este botão novamente.

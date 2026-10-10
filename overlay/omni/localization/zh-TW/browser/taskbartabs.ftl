@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = 將分頁新增到工具列
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = 從側邊欄移除分頁
+taskbar-tab-urlbar-button-show = 顯示「網頁應用程式」頁面操作
+taskbar-tab-urlbar-button-hide = 隱藏「網頁應用程式」頁面操作
+taskbar-tab-shortcut-description = { $name } 網頁應用程式
+taskbar-tab-shortcut-folder = { -brand-short-name } 網頁應用程式
+taskbar-tab-audio-mute =
+    .tooltiptext = 分頁靜音
+taskbar-tab-audio-unmute =
+    .tooltiptext = 取消分頁靜音
+taskbar-tab-title-default = 用 { -brand-full-name } 開啟 { $name }
+taskbar-tab-title-container = 用 { -brand-full-name } 開啟 { $name }（{ $container }）
+taskbar-tab-title-profile = { $profile } 的 { $name } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $profile } 的 { $name }（{ $container }）— { -brand-full-name }

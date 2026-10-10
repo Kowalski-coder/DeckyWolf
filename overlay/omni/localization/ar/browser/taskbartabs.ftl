@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = أضِف اللسان إلى شريط المهام
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = أزِل اللسان من شريط المهام
+taskbar-tab-urlbar-button-show = أظهر إجراء صفحة تطبيق الوِب
+taskbar-tab-urlbar-button-hide = أخفِ إجراء صفحة تطبيق الوِب
+taskbar-tab-shortcut-description = تطبيق الوِب { $name }
+taskbar-tab-shortcut-folder = تطبيقات وِب { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = اكتم اللسان
+taskbar-tab-audio-unmute =
+    .tooltiptext = أطلِق صوت اللسان
+taskbar-tab-title-default = { $name } في { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) في { -brand-full-name }
+taskbar-tab-title-profile = { $name } في { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) في { $profile } — { -brand-full-name }

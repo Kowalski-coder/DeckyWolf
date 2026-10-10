@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Zrušiť pripnutie v rozširujúcej ponuke
+    .accesskey = u
+customize-menu-add-to-toolbar =
+    .label = Pridať na panel nástrojov
+    .accesskey = s
+customize-menu-add-to-overflowmenu =
+    .label = Pridať do rozširujúcej ponuky
+    .accesskey = k
+panic-button-thankyou-msg1 = Vaša nedávna história je teraz vymazaná.
+panic-button-thankyou-msg2 = Prajeme bezpečné prehliadanie!
+panic-button-thankyou-button =
+    .label = Ďakujeme!

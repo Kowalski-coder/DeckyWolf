@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Ilova dastur manbalari
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Oʻchirish
+    .accesskey = O
+app-manager-handle-protocol = { $type } linklarga bogʻlash uchun quyidagi ilova dasturlardan foydalanish mumkin.
+app-manager-handle-file = { $type } kontentga bogʻlash uchun quyidagi ilova dasturlardan foydalanish mumkin.
+app-manager-web-app-info = Bu veb ilova dastur bu yerda joylashgan:
+app-manager-local-app-info = Bu ilova dastur bu yerda joylashgan:

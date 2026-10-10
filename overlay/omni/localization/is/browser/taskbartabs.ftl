@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Bæta flipa á verkefnastiku
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Fjarlægja flipa af verkefnastiku
+taskbar-tab-urlbar-button-show = Sýna aðgerð á síðu vefforrits
+taskbar-tab-urlbar-button-hide = Fela aðgerð á síðu vefforrits
+taskbar-tab-shortcut-description = { $name } vefforritið
+taskbar-tab-shortcut-folder = { -brand-short-name } vefforrit
+taskbar-tab-audio-mute =
+    .tooltiptext = Slökkva á hljóði flipa
+taskbar-tab-audio-unmute =
+    .tooltiptext = Kveikja á hljóði í flipa
+taskbar-tab-title-default = { $name } í { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) í { -brand-full-name }
+taskbar-tab-title-profile = { $name } í { $profile } - { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) í { $profile } - { -brand-full-name }

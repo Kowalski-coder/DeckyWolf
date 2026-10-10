@@ -1,0 +1,47 @@
+firefox-relay-mask-generation-failed = { -relay-brand-name } نتوانست پوشانه جدیدی ایجاد کند. کد خطای HTTP: { $status }.
+firefox-relay-get-reusable-masks-failed = { -relay-brand-name } نتوانست ماسک‌های قابل استفاده مجدد را پیدا کند. کد خطای HTTP: { $status }.
+firefox-relay-must-login-to-account = برای استفاده از پوشانهٔ رایانامهٔ { -relay-brand-name } به حساب کاربری خود وارد شوید.
+firefox-relay-get-unlimited-masks =
+    .label = مدیریت ماسک‌ها
+    .accesskey = م
+firefox-relay-reuse-masks-header =
+    { $count ->
+        [one] شما از تمام { $count } ماسک ایمیل رایگان استفاده کرده‌اید
+       *[other] شما از تمام { $count } ماسک ایمیل رایگان استفاده کرده‌اید
+    }
+firefox-relay-reuse-masks-description-v2 = می‌توانید یکی را دوباره استفاده کنید یا برای انتخاب ماسکی متفاوت، همه ماسک‌ها را ببینید.
+firefox-relay-reuse-masks-select-label = یک پوشش اخیر را انتخاب کنید
+firefox-relay-see-all-masks =
+    .label = دیدن همهٔ پوشش‌ها
+    .accesskey = د
+firefox-relay-dismiss =
+    .label = رد کردن
+    .accesskey = ر
+firefox-relay-opt-in-title-1 = محافظت از نشانی رایانامه شما:
+firefox-relay-opt-in-subtitle-1 = استفاده از { -relay-brand-name } برای پوشانهٔ رایانامه
+firefox-relay-use-mask-title-1 = استفاده از پوشش رایانامه
+firefox-relay-use-mask-title = استفاده از { -relay-brand-name } برای پوشانهٔ رایانامه
+firefox-relay-opt-in-title-b = یک پوشانهٔ رایانامهٔ رایگان دریافت کنید
+firefox-relay-opt-in-subtitle-b = از صندوق ورودی خود در برابر هرزنامه محافظت کنید
+firefox-relay-opt-in-confirmation-enable-button =
+    .label = استفاده پنهان‌کننده رایانامه
+    .accesskey = ا
+firefox-relay-opt-in-confirmation-disable =
+    .label = دیگر نمایش داده نشود
+    .accesskey = ن
+firefox-relay-opt-in-confirmation-postpone =
+    .label = اکنون نه
+    .accesskey = ا
+firefox-relay-and-fxa-opt-in-confirmation-disable =
+    .label = دیگر نمایش داده نشود
+    .accesskey = ن
+firefox-relay-and-fxa-opt-in-confirmation-postpone =
+    .label = اکنون نه
+    .accesskey = ا
+firefox-relay-and-fxa-popup-notification-header-with-domain = یک پوشانهٔ رایانامهٔ رایگان دریافت کنید
+firefox-relay-and-fxa-popup-notification-first-sentence = با استفاده از یک <label data-l10n-name="firefox-relay-learn-more-url">پوشش رایانامهٔ رایگان { -relay-brand-name }</label> نشانی واقعی‌تان را پنهان کنید و صندوق ورودی‌تان را از هرزنامه‌ها محافظت کنید. رایانامه‌های <label data-l10n-name="firefox-fxa-and-relay-offer-domain">این سایت</label> همچنان به صندوق ورودی‌تان می‌رسند، اما رایانامهٔ شما پنهان می‌ماند.
+firefox-relay-offer-why-to-use-relay-1 = با استفاده از یک <label data-l10n-name="firefox-relay-learn-more-url">پوشش رایانامهٔ رایگان { -relay-brand-name }</label> نشانی واقعی‌تان را پنهان کنید و صندوق ورودی‌تان را از هرزنامه‌ها محافظت کنید. رایانامه‌های <label data-l10n-name="firefox-fxa-and-relay-offer-domain">این سایت</label> همچنان به صندوق ورودی‌تان می‌رسند، اما رایانامهٔ شما پنهان می‌ماند.
+firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = ‍‍برای استفاده از پوشانهٔ رایانامه، ابتدا ثبت نام کرده و یا وارد حساب کاربری‌تان شوید
+firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
+    .label = بعدی‌
+    .accesskey = ب

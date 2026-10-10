@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalls de l'aplicació
+    .style = min-width: 35em; min-height: 20em;
+app-manager-remove =
+    .label = Elimina
+    .accesskey = E
+app-manager-handle-protocol = Les aplicacions següents poden utilitzar-se per gestionar enllaços { $type }.
+app-manager-handle-file = Les aplicacions següents poden utilitzar-se per gestionar contingut { $type }.
+app-manager-web-app-info = Aquesta aplicació web s'hostatja a:
+app-manager-local-app-info = L'aplicació es troba a:

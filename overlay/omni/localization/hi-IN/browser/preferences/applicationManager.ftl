@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = अनुप्रयोग विवरण
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = हटाएँ
+    .accesskey = R
+app-manager-handle-protocol = निम्नलिखित अनुप्रयोग { $type } कड़ी को नियंत्रित करने के लिए प्रयोग किया जा सकता है.
+app-manager-handle-file = निम्नलिखित अनुप्रयोग { $type } सामग्री को नियंत्रित करने के लिए प्रयोग किया जा सकता है.
+app-manager-web-app-info = यह वेब अनुप्रयोग यहाँ होस्ट किया है:
+app-manager-local-app-info = यह अनुप्रयोग यहाँ अवस्थित है:

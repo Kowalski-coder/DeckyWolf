@@ -1,0 +1,46 @@
+firefox-relay-mask-generation-failed = { -relay-brand-name } no at pòdidu generare un’alias nou. Faddina de su còdighe HTTP: { $status }.
+firefox-relay-get-reusable-masks-failed = { -relay-brand-name } no at agatadu nissunu alias de torrare a impreare. Còdighe de sa faddina HTTP: { $status }.
+firefox-relay-must-login-to-account = Intra in su contu tuo pro impreare is alias tuos de posta eletrònica de { -relay-brand-name }.
+firefox-relay-get-unlimited-masks =
+    .label = Gesti is alias
+    .accesskey = G
+firefox-relay-reuse-masks-header =
+    { $count ->
+        [one] As impreadu s’alias gratùitu de posta eletrònica
+       *[other] As impreadu totu is { $count } alias gratùitos de posta eletrònica
+    }
+firefox-relay-reuse-masks-select-label = Seletziona un’alias reghente
+firefox-relay-see-all-masks =
+    .label = Ammustra totu is alias
+    .accesskey = A
+firefox-relay-dismiss =
+    .label = Iscarta
+    .accesskey = i
+firefox-relay-opt-in-title-1 = Ampara s’indiritzu tuo de posta eletrònica:
+firefox-relay-opt-in-subtitle-1 = Imprea un’alias de posta eletrònica de { -relay-brand-name }
+firefox-relay-use-mask-title-1 = Imprea un’alias de posta
+firefox-relay-use-mask-title = Imprea un’alias de posta eletrònica de { -relay-brand-name }
+firefox-relay-opt-in-title-b = Lea un’alias de posta eletrònica a in donu
+firefox-relay-opt-in-subtitle-b = Ampara sa casella de posta dae s’àliga
+firefox-relay-opt-in-confirmation-enable-button =
+    .label = Imprea alias de posta
+    .accesskey = I
+firefox-relay-opt-in-confirmation-disable =
+    .label = No mi ddu torres a ammustrare
+    .accesskey = N
+firefox-relay-opt-in-confirmation-postpone =
+    .label = Immoe nono
+    .accesskey = I
+firefox-relay-and-fxa-opt-in-confirmation-disable =
+    .label = Non mi ddu torres a ammustrare
+    .accesskey = N
+firefox-relay-and-fxa-opt-in-confirmation-postpone =
+    .label = Immoe nono
+    .accesskey = n
+firefox-relay-and-fxa-popup-notification-header-with-domain = Lea un’alias de posta eletrònica a in donu
+firefox-relay-and-fxa-popup-notification-first-sentence = Ampara sa cartella de intrada tua de s’àliga impreende un’ <label data-l10n-name="firefox-relay-learn-more-url">alias de posta eletrònica</label> de { -relay-brand-name } de badas pro cuare s’indiritzu reale tuo. Is messàgios de <label data-l10n-name="firefox-fxa-and-relay-offer-domain">custu situ</label> ant a lòmpere a sa cartella de intrada tua, però cun s’indiritzu reale cuadu.
+firefox-relay-offer-why-to-use-relay-1 = Ampara sa cartella de intrada tua dae s’àliga impreende un’<label data-l10n-name="firefox-relay-learn-more-url">alias de posta eletrònica</label> de { -relay-brand-name } de badas pro cuare s’indiritzu reale tuo. Is messàgios de <label data-l10n-name="firefox-fxa-and-relay-offer-domain">custu situ</label> ant a lòmpere a sa cartella de intrada tua, però cun s’indiritzu reale cuadu.
+firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = A primu, registra·ti o identìfica·ti cun su profilu tuo pro impreare un’alias de posta eletrònica
+firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
+    .label = Imbeniente
+    .accesskey = I

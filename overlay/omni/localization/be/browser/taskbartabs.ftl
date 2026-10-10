@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Дадаць картку на панэль задач
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Выдаліць картку з панэлі задач
+taskbar-tab-urlbar-button-show = Паказаць дзеянне старонкі вэб-праграмы
+taskbar-tab-urlbar-button-hide = Схаваць дзеянне старонкі вэб-праграмы
+taskbar-tab-shortcut-description = Вэб-праграма { $name }
+taskbar-tab-shortcut-folder = Вэб-праграмы { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Сцішыць картку
+taskbar-tab-audio-unmute =
+    .tooltiptext = Разцішыць картку
+taskbar-tab-title-default = { $name } у { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) у { -brand-full-name }
+taskbar-tab-title-profile = { $name } у { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) у { $profile } — { -brand-full-name }

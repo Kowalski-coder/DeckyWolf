@@ -1,0 +1,14 @@
+appearance-browser-icon-basic-group =
+    .label = Istandard
+appearance-browser-icon-default =
+    .label = Predefinidu
+appearance-browser-icon-retro2004 =
+    .label = Retro 2004
+appearance-browser-icon-retro2017 =
+    .label = Retro 2017
+appearance-browser-icon-pride =
+    .label = Orgòlliu
+appearance-browser-icon-minimal =
+    .label = Minimalista
+appearance-browser-icon-pixelated =
+    .label = Isgranadu

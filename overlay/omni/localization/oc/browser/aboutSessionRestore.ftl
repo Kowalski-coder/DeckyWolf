@@ -1,0 +1,26 @@
+restore-page-tab-title = Restabliment de session
+restore-page-error-title = O planhèm, capitam pas de recuperar vòstras paginas.
+restore-page-problem-desc = Patissèm a restablir vòstra darrièra session de navegacion. Seleccionatz «Restablir la session» per tornar ensajar.
+restore-page-try-this = Podètz pas encara restablir vòstra session ? De còps un onglet es lo problèma. Vejatz los onglets anteriors, deseleccionatz los que vos fa pas besonh, e tornatz ensajar.
+restore-page-hide-tabs = Amagar los onglets precedents
+restore-page-show-tabs = Afichar los onglets precedents
+restore-page-window-label = Fenèstra { $windowNumber }
+restore-page-restore-header =
+    .label = Restablir
+restore-page-list-header =
+    .label = Fenèstras e onglets
+restore-page-try-again-button =
+    .label = Restablir la session
+    .accesskey = R
+restore-page-close-button =
+    .label = Aviar una novèla session
+    .accesskey = A
+welcome-back-tab-title = Succès !
+welcome-back-page-title = Succès !
+welcome-back-page-info = { -brand-short-name } es prèst.
+welcome-back-restore-button =
+    .label = Ane !
+    .accesskey = A
+welcome-back-restore-all-label = Restablir totas las fenèstras e totes los onglets
+welcome-back-restore-some-label = Causir çò que vòli restablir
+welcome-back-page-info-link = Vòstres moduls complementaris e personalizacions son estats suprimits e los paramètres de navegacion son estats restaurats als per defaut. S'aquò a pas resolgut vòstre problèma, <a data-l10n-name="link-more">obtenètz mai d'informacion sus las autras possibilitats.</a>

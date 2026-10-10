@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Yer imleri
+sidebar-menu-bookmarks-2 = Yer imleri
+sidebar-menu-history =
+    .label = Geçmiş
+sidebar-menu-synced-tabs =
+    .label = Eşitlenmiş sekmeler
+sidebar-menu-close =
+    .label = Kenar çubuğunu kapat
+sidebar-close-button =
+    .tooltiptext = Kenar çubuğunu kapat

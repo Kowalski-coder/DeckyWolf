@@ -1,0 +1,13 @@
+grid-row-column-positions = Fila { $row } / Columna { $column }
+gridtype-container = Contenedor de cuadrícula
+gridtype-item = Elemento de cuadrícula
+gridtype-dual = Contenedor/elemento de cuadrícula
+flextype-container = Contenedor Flex
+flextype-item = Elemento Flex
+flextype-dual = Contenedor/elemento Flex
+remote-node-picker-notice = Selector de nodos de DevTools habilitado. { $action }
+remote-node-picker-notice-action-desktop = Haz clic en un elemento para seleccionarlo en el inspector
+remote-node-picker-notice-action-touch = Toca un elemento para seleccionarlo en el inspector
+remote-node-picker-notice-hide-button = Ocultar
+simple-highlighters-message = Cuando se habilita prefers-reduced-motion, se puede habilitar un resaltador más simple en el panel de configuración, para evitar los colores parpadeantes.
+simple-highlighters-settings-button = Abrir Ajustes

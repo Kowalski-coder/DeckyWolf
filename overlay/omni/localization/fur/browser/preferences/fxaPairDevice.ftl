@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 37em;
+fxa-qrcode-pair-title = Sincronize { -brand-product-name } sul to telefon o taulete
+fxa-qrcode-pair-step1 = 1. Vierç { -brand-product-name } sul to dispositîf mobil.
+fxa-qrcode-pair-step2-device-steps = 2. Vierç il menù e tocje <strong>Jentre</strong>
+fxa-qrcode-pair-step3 = 3. Tocje <strong>Pront pe scansion</strong> e incuadre chest codiç cul to dispositîf
+fxa-qrcode-error-title = Associazion lade strucje.
+fxa-qrcode-error-body = Torne prove.

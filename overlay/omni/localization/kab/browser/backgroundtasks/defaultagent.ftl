@@ -1,0 +1,3 @@
+default-browser-agent-task-description = Tawuri n yimeggi n yiminig amezwer isuter isenqaden yessefqad mi ara uɣalen yisnifal s wudem amezwer seg { -brand-short-name } ɣer yiminig-nniḍen. Ma yella snifel iḍerru-d deg tegnatin yesɛan ccekk, ad d-yenced iseqdacen ad d-uɣalen ɣer { -brand-short-name }, snat tikkal kan. Tawuri-a ad tettusebded s wudem awurman sɣur { -brand-short-name }, ad d-yili wallus n usebded-ines mi ara yettuleqqem { -brand-short-name }. I usensi n twuri, leqqem asmenyif “default-browser-agent.enabled” ɣef usebter  about:config neɣ snifel tasertit n tkebbanit  { -brand-short-name } “DisableDefaultBrowserAgent”.
+default-browser-notification-yes-button-text = Ih
+default-browser-notification-privacy-no-button-text = Uhu, tanemmirt

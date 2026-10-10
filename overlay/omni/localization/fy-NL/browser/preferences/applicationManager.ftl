@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Applikaasjedetails
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Fuortsmite
+    .accesskey = F
+app-manager-handle-protocol = De folgjende applikaasjes kinne brûkt wurde foar it ferwurkjen fan { $type }-keppelingen.
+app-manager-handle-file = De folgjende applikaasjes kinne brûkt wurde foar it ferwurkjen fan { $type }-ynhâld.
+app-manager-web-app-info = Dizze webapplikaasje wurdt host troch:
+app-manager-local-app-info = Dizze applikaasje stiet op dizze lokaasje:

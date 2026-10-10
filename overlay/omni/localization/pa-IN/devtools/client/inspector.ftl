@@ -1,0 +1,10 @@
+colorpicker-tooltip-spectrum-dragger-title = ਸਪੈਕਟਰਮ
+colorpicker-tooltip-eyedropper-title = ਸਫ਼਼ੇ ਤੋਂ ਰੰਗ ਚੁਣੋ
+colorpicker-tooltip-color-name-title = ਇਸ ਦੇ ਸਭ ਤੋਂ ਨੇੜੇ: { $colorName }
+colorpicker-tooltip-alpha-slider-title = ਪਾਰਦਰਸ਼ਤਾ
+inspector-emulation-panel-reduced-motion-reduce = ਘਟਾਓ
+    .aria-label = ਘੱਟ ਕੀਤੀ ਹਿਲਜੁਲ ਇਮੁਲੇਸ਼ਨ ਨੂੰ ਸਮਰੱਥ ਕਰੋ
+inspector-emulation-panel-reduced-motion-no-preference = ਕੋਈ ਪਸੰਦ ਨਹੀਂ
+    .aria-label = ਘੱਟ ਕੀਤੀ ਹੋਈ ਹਿਲਜੁਲ ਇਮੁਲੇਸ਼ਨ ਲਈ ਕੋਈ ਪਸੰਦ ਸਮਰੱਥ ਨਹੀਂ ਕੀਤੀ ਹੈ
+inspector-emulation-panel-reduced-motion-none = ਕੋਈ ਇਮੁਲੇਸ਼ਨ ਨਹੀਂ
+    .aria-label = ਘੱਟ ਕੀਤੀ ਹਿਲਜੁਲ ਇਮੁਲੇਸ਼ਨ ਅਸਮਰੱਥ ਹੈ

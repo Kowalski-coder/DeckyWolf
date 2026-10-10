@@ -1,0 +1,9 @@
+clear-data-for-site-title = تمام داده‌های این وبگاه پاک شود؟
+clear-data-for-site-list = این اقدام، تمام داده‌های مربوط به { $site } را پاک می‌کند، شامل:
+clear-data-for-site-browsing-history = تاریخچه مرور و بارگیری
+clear-data-for-site-cookies = کوکی‌ها و داده‌های سایت‌ها، که ممکن است شما را از سایت‌ها خارج کنند
+clear-data-for-site-cache = پرونده‌ها و صفحه‌های ذخیره‌شده در حافظه پنهان
+cclear-data-for-site-permissions = اجازه‌ها و ترجیحات
+clear-data-for-site-exceptions = نشانک‌ها و گذرواژه‌های ذخیره‌شده حذف نخواهند شد
+clear-data-for-site-dialog-accept-button = پاک‌کردن داده‌ها
+clear-data-for-site-dialog-cancel-button = لغو

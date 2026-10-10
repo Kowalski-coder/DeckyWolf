@@ -1,0 +1,56 @@
+aboutDialog-title =
+    .title = { -brand-full-name } ᱵᱟᱵᱚᱛ ᱛᱮ
+releaseNotes-link = ᱪᱮᱫ ᱱᱟᱶᱟ ᱢᱮᱱᱟᱜ-ᱟ
+update-checkForUpdatesButton =
+    .label = ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱛᱮᱸᱝᱜᱷᱟᱱ
+    .accesskey = ᱠ
+update-updateButton =
+    .label = ᱟᱹᱯᱰᱮᱴ ᱞᱟᱹᱜᱤᱫ ᱫᱩᱦᱲᱟᱹ ᱮᱦᱚᱵᱽ ᱢᱮ { -brand-shorter-name }
+    .accesskey = ᱟ
+update-checkingForUpdates = ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱧᱮᱞᱮᱫ ᱟ …
+settings-update-checking-for-updates =
+    .label = ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱧᱮᱞᱮᱫ ᱟ …
+settings-update-downloading-2 =
+    .label = ᱦᱟᱹᱞᱤᱭᱟᱜ ᱰᱟᱣᱱᱞᱚᱰᱜᱭᱮᱫᱼᱟ — { $transfer }
+aboutdialog-update-downloading = ᱟᱹᱯᱰᱥᱮᱴ ᱰᱟᱣᱱᱞᱚᱰᱚᱜ ᱠᱟᱱᱟ — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = ᱦᱟᱹᱞᱤ ᱵᱚᱦᱟᱞᱮᱫ ᱟ …
+settings-update-applying =
+    .label = ᱦᱟᱹᱞᱤ ᱵᱚᱦᱟᱞᱮᱫ ᱟ  …
+update-failed = ᱦᱟᱹᱞᱤ ᱰᱤᱜᱟᱹᱣᱮᱱᱟ ᱾ <label data-l10n-name="failed-link">ᱱᱟᱶᱟᱱᱟᱜ ᱵᱷᱟᱹᱨᱥᱚᱱ ᱰᱟᱣᱱᱞᱚᱰᱭ ᱢᱮ</label>
+update-failed-main = ᱦᱟᱹᱞᱤ ᱰᱤᱜᱟᱹᱣᱮᱱᱟ <a data-l10n-name="failed-link-main">ᱱᱟᱶᱟᱱᱟᱜ ᱵᱷᱟᱹᱨᱥᱚᱱ ᱰᱟᱣᱱᱞᱚᱰᱭ ᱢᱮ</a>
+update-policy-disabled = ᱟᱢᱟᱜ ᱜᱟᱶᱛᱟ ᱦᱚᱛᱮᱛᱮ ᱚᱯᱰᱮᱴ ᱠᱚ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ
+settings-update-policy-disabled =
+    .label = ᱟᱢᱟᱜ ᱜᱟᱶᱛᱟ ᱦᱚᱛᱮᱛᱮ ᱚᱯᱰᱮᱴ ᱠᱚ ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱᱟ
+update-noUpdatesFound = { -brand-short-name } ᱫᱚ ᱟᱹᱯ ᱴᱩ ᱰᱮᱴ ᱟᱠᱟᱱᱟ
+settings-update-no-updates-found =
+    .label = { -brand-short-name } ᱫᱚ ᱟᱹᱯ ᱴᱩ ᱰᱮᱴ ᱟᱠᱟᱱᱟ
+aboutdialog-update-checking-failed = ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱧᱮᱞ ᱨᱮ ᱦᱩᱰᱟᱹᱜ ᱾
+settings-update-checking-failed =
+    .label = ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱧᱮᱞ ᱨᱮ ᱦᱩᱰᱟᱹᱜ ᱾
+update-otherInstanceHandlingUpdates = { -brand-short-name } ᱮᱴᱟᱜᱤᱡ ᱡᱮᱞᱠᱟ ᱫᱟᱨᱟᱭ ᱛᱮ ᱦᱟᱹᱞᱤ ᱟᱠᱟᱱᱟ
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } ᱮᱴᱟᱜᱤᱡ ᱡᱮᱞᱠᱟ ᱫᱟᱨᱟᱭ ᱛᱮ ᱦᱟᱹᱞᱤ ᱟᱠᱟᱱᱟ
+aboutdialog-update-manual-with-link = ᱨᱮ ᱦᱟᱹᱞᱤ ᱠᱚ ᱧᱟᱢᱚᱜᱼᱟ <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = ᱨᱮ ᱦᱟᱹᱞᱤ ᱠᱚ ᱧᱟᱢᱚᱜᱼᱟ <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = ᱟᱢ ᱱᱚᱶᱟ ᱥᱭᱥᱴᱮᱢ ᱨᱮ ᱢᱟᱲᱟᱝ ᱥᱮᱫ ᱦᱟᱹᱞᱤ ᱵᱟᱢ ᱦᱩᱭ ᱦᱚᱪᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾<label data-l10n-name="unsupported-link">ᱵᱟᱹᱲᱛᱤ ᱪᱚᱫ ᱢᱮ</label>
+settings-update-unsupported = ᱟᱢ ᱱᱚᱶᱟ ᱥᱭᱥᱴᱮᱢ ᱨᱮ ᱢᱟᱲᱟᱝ ᱥᱮᱫ ᱦᱟᱹᱞᱤ ᱵᱟᱢ ᱦᱩᱭ ᱦᱚᱪᱚ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾<a data-l10n-name="unsupported-link">ᱵᱟᱹᱲᱛᱤ ᱪᱚᱫ ᱢᱮ</a>
+update-restarting = ᱫᱩᱦᱲᱟᱹ ᱮᱦᱚᱵᱚᱜᱼᱟ…
+settings-update-restarting =
+    .label = ᱫᱩᱦᱲᱟᱹ ᱮᱦᱚᱵᱚᱜᱼᱟ…
+update-internal-error2 = ᱵᱷᱤᱛᱤᱨ ᱵᱷᱩᱞ ᱞᱟᱹᱜᱤᱫ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱧᱮᱱ ᱵᱟᱭ ᱜᱟᱱ ᱞᱮᱱᱟ ᱾ <label data-l10n-name="manual-link">{ $displayUrl }</label> ᱨᱮ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱢᱮᱱᱟᱜᱼᱟ
+settings-update-internal-error = ᱵᱷᱤᱛᱤᱨ ᱵᱷᱩᱞ ᱞᱟᱹᱜᱤᱫ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱧᱮᱱ ᱵᱟᱭ ᱜᱟᱱ ᱞᱮᱱᱟ ᱾ <a data-l10n-name="manual-link">{ $displayUrl }</a> ᱨᱮ ᱦᱟᱹᱞᱤᱭᱟᱹᱠ ᱢᱮᱱᱟᱜᱼᱟ
+aboutdialog-channel-description = ᱨᱮ ᱟᱢ ᱱᱤᱛᱚᱜ ᱢᱮᱱᱟᱢᱟ <label data-l10n-name="current-channel">{ $channel }</label> ᱦᱟᱹᱞᱤ ᱪᱮᱱᱟᱞ ᱾
+warningDesc-version = { -brand-short-name } ᱫᱚ ᱠᱟᱹᱢᱤ ᱠᱟᱛᱮ ᱧᱮᱞᱟᱜ ᱠᱟᱱᱟ ᱟᱨ ᱵᱟᱝ ᱛᱷᱤᱨᱟᱜ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾
+aboutdialog-help-user = { -brand-product-name } ᱜᱚᱲᱚ
+aboutdialog-submit-feedback = ᱯᱷᱤᱰᱵᱮᱠ ᱡᱚᱢᱟᱭ ᱢᱮ
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> ᱫᱚ ᱢᱤᱫ <label data-l10n-name="community-exp-creditsLink"> ᱫᱷᱟᱹᱨᱛᱤ ᱨᱤᱱ ᱦᱚᱲ ᱠᱚᱣᱟᱜ </label> ᱢᱤᱫ ᱫᱷᱟᱣ ᱛᱮ ᱠᱟᱹᱢᱤ ᱞᱟᱹᱜᱤᱫ ᱣᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱦᱚᱲ ᱠᱚ ᱟᱨ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱟᱛᱩᱨ ᱫᱟᱲᱮ ᱦᱚᱪᱚ ᱾
+community-2 = { -brand-short-name } ᱫᱚ ᱥᱟᱡᱟᱣᱠᱟᱱᱟ ᱫᱟᱨᱟᱭᱛᱮ <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, ᱢᱤᱫ <label data-l10n-name="community-creditsLink"> ᱢᱤᱫ ᱫᱷᱟᱹᱨᱛᱤ ᱨᱤᱱ ᱦᱚᱲ ᱠᱚᱣᱟᱜ </label>ᱢᱤᱫ ᱫᱷᱟᱣ ᱛᱮ ᱠᱟᱹᱢᱤ ᱞᱟᱹᱜᱤᱫ ᱣᱮᱵᱽ ᱡᱷᱤᱡᱽ ᱦᱚᱲ ᱠᱚ ᱟᱨ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱛᱩᱨ ᱫᱟᱲᱮ ᱦᱚᱪᱚ ᱾
+helpus = ᱜᱚᱲᱚ ᱮᱢ ᱥᱟᱱᱟᱢ ᱠᱟᱱᱟ? <label data-l10n-name="helpus-donateLink">ᱫᱟᱱ ᱢᱮ</label> ᱟᱨ ᱵᱟᱝ <label data-l10n-name="helpus-getInvolvedLink">ᱪᱷᱩᱴᱟᱣᱜ ᱢᱮ!</label>
+helpus-referrals2 = ᱜᱚᱲᱚ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ? <label data-l10n-name="helpus-donateLink">ᱫᱟᱱ ᱢᱮ</label>, <label data-l10n-name="helpus-shareFirefoxLink">ᱦᱟᱴᱤᱧ ᱢᱮ { -brand-product-name }</label>, ᱥᱮ <label data-l10n-name="helpus-getInvolvedLink">ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ!</label>
+bottomLinks-license = ᱞᱟᱭᱥᱮᱱᱥ ᱮᱢ ᱞᱟᱹᱭ ᱥᱚᱫᱚᱨ
+bottom-links-terms = ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱚᱨᱛᱚ
+bottom-links-privacy = ᱫᱟᱱᱟᱝ ᱠᱷᱚᱵᱚᱨ
+aboutDialog-version = { $version } ({ $bits }-bit)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })

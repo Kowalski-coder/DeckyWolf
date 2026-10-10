@@ -1,0 +1,26 @@
+restore-page-tab-title = Munkamenet helyreállítása
+restore-page-error-title = Sajnáljuk, nem tudjuk visszaállítani a lapjait.
+restore-page-problem-desc = Nem tudjuk helyreállítani az előző böngészési munkamenetét. Válassza a Munkamenet helyreállítását az újrapróbálkozáshoz.
+restore-page-try-this = Még mindig nem tudja helyreállítani a munkamenetét? Néha egy lap okozza a problémát. Nézze meg az előző lapokat, vegye ki a pipát azoknál a lapoknál, amelyekre nincs szüksége, és aztán állítsa helyre.
+restore-page-hide-tabs = Előző lapok elrejtése
+restore-page-show-tabs = Előző lapok megtekintése
+restore-page-window-label = { $windowNumber }. ablak
+restore-page-restore-header =
+    .label = Visszaállítás
+restore-page-list-header =
+    .label = Ablakok és lapok
+restore-page-try-again-button =
+    .label = Munkamenet helyreállítása
+    .accesskey = h
+restore-page-close-button =
+    .label = Új munkamenet indítása
+    .accesskey = j
+welcome-back-tab-title = Sikerült!
+welcome-back-page-title = Sikerült!
+welcome-back-page-info = A { -brand-short-name } készen áll.
+welcome-back-restore-button =
+    .label = Gyerünk!
+    .accesskey = G
+welcome-back-restore-all-label = Összes ablak és lap visszaállítása
+welcome-back-restore-some-label = Csak a kiválasztottak visszaállítása
+welcome-back-page-info-link = Kiegészítői és a testreszabások eltávolításra kerültek, és a böngésző beállításai vissza lettek állítva az alapbeállításokra. Ha ez nem oldotta meg a problémát, akkor <a data-l10n-name="link-more">tudjon meg többet a további lehetőségekről.</a>

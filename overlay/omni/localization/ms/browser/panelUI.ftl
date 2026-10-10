@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Buang pin daripada Menu Overflow
+    .accesskey = M
+customize-menu-add-to-toolbar =
+    .label = Tambah ke Bar Alatan
+    .accesskey = T
+customize-menu-add-to-overflowmenu =
+    .label = Tambah ke Menu Overflow
+    .accesskey = M
+panic-button-thankyou-msg1 = Sejarah terbaru anda telah dibersihkan.
+panic-button-thankyou-msg2 = Pelayaran selamat!
+panic-button-thankyou-button =
+    .label = Terima kasih!

@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Tekst ja taust
+colors-text =
+    .label = Tekst
+    .accesskey = T
+colors-text-background =
+    .label = Taust
+    .accesskey = a
+colors-links-header = Lingi värvid
+colors-links-unvisited =
+    .label = Külastamata lingid
+    .accesskey = l
+colors-links-visited =
+    .label = Külastatud lingid
+    .accesskey = n

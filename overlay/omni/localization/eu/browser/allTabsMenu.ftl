@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Bilatu fitxa guztietan
+all-tabs-menu-new-user-context =
+    .label = Edukiontzi-fitxa berria
+all-tabs-menu-hidden-tabs =
+    .label = Ezkutatutako fitxak
+all-tabs-menu-close-duplicate-tabs =
+    .label = Itxi bikoiztutako fitxak
+all-tabs-menu-view-all-tabs =
+    .label = Ikusi fitxa guztiak
+all-tabs-menu-recent-tab-groups-header = Azken fitxa-taldeak
+all-tabs-menu-tab-groups-show-all =
+    .label = Erakutsi denak
+all-tabs-menu-tab-groups-sub-view =
+    .title = Fitxa-taldeak
+all-tabs-menu-current-window-header = Uneko leihoa

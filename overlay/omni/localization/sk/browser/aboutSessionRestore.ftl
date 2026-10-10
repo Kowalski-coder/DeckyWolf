@@ -1,0 +1,26 @@
+restore-page-tab-title = Obnovenie relácie
+restore-page-error-title = Je nám to ľúto, no nedarí sa nám obnoviť vaše stránky.
+restore-page-problem-desc = Máme nejaké problémy s obnovením vašej predchádzajúcej relácie. Vyberte možnosť Obnoviť reláciu a skúste to znova.
+restore-page-try-this = Stále sa nedarí reláciu obnoviť? Niekedy za to môže niektorá z kariet. Pozrite sa na predchádzajúce karty, zrušte označenie tých, ktoré nepotrebujete obnoviť a potom pokračujte v obnove.
+restore-page-hide-tabs = Skryť predchádzajúce karty
+restore-page-show-tabs = Zobraziť predchádzajúce karty
+restore-page-window-label = Okno č. { $windowNumber }
+restore-page-restore-header =
+    .label = Obnoviť
+restore-page-list-header =
+    .label = Okná a karty
+restore-page-try-again-button =
+    .label = Obnoviť reláciu
+    .accesskey = O
+restore-page-close-button =
+    .label = Spustiť novú reláciu
+    .accesskey = S
+welcome-back-tab-title = Úspech!
+welcome-back-page-title = Úspech!
+welcome-back-page-info = { -brand-short-name } je pripravený.
+welcome-back-restore-button =
+    .label = Poďme na to!
+    .accesskey = P
+welcome-back-restore-all-label = Obnoviť všetky okná a karty
+welcome-back-restore-some-label = Obnoviť len zvolené karty
+welcome-back-page-info-link = Vaše doplnky a prispôsobenia boli odstránené a nastavenia prehliadača boli obnovené na ich predvolené hodnoty. Ak sa týmto váš problém nevyrieši, <a data-l10n-name="link-more">pozrite si ďalšie možné postupy riešenia</a>.

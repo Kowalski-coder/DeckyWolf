@@ -1,0 +1,31 @@
+about-unloads-page-title = Quản lý giải phóng thẻ
+about-unloads-intro =
+    { -brand-short-name } có tính năng tự động giải phóng thẻ
+    để ngăn ứng dụng bị treo do không đủ bộ nhớ khi bộ nhớ
+    khả dụng của hệ thống sắp hết. Thẻ tiếp theo sẽ giải phóng
+    được chọn dựa trên nhiều thuộc tính. Trang này hiển thị cách
+    { -brand-short-name } đặt ưu tiên các thẻ và thẻ nào sẽ bị giải phóng
+    khi lệnh giải phóng thẻ được kích hoạt. Bạn có thể kích hoạt giải phóng thẻ
+    theo cách thủ công bằng cách nhấp vào nút <em>Giải phóng</em>.
+about-unloads-learn-more =
+    Xem <a data-l10n-name="doc-link">Quản lý giải phóng thẻ</a> để tìm hiểu thêm
+    về tính năng và trang này.
+about-unloads-last-updated = Cập nhật gần đây nhất: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric", hour12: "false") }
+about-unloads-button-unload = Giải phóng
+    .title = Giải phóng thẻ có mức độ ưu tiên cao nhất
+about-unloads-no-unloadable-tab = Không có thẻ nào có thể giải phóng.
+about-unloads-column-priority = Ưu tiên
+about-unloads-column-host = Máy chủ
+about-unloads-column-last-accessed = Lần truy cập cuối
+about-unloads-column-weight = Base Weight
+    .title = Các thẻ đầu tiên được sắp xếp theo giá trị này, bắt nguồn từ một số thuộc tính đặc biệt như phát âm thanh, WebRTC, v.v...
+about-unloads-column-sortweight = Secondary Weight
+    .title = Nếu có, các thẻ được sắp xếp theo giá trị này sau khi được sắp xếp theo base weight. Giá trị bắt nguồn từ việc sử dụng bộ nhớ của thẻ và số lượng các quá trình.
+about-unloads-column-memory = Bộ nhớ
+    .title = Mức sử dụng bộ nhớ ước tính của thẻ
+about-unloads-column-processes = ID tiến trình
+    .title = ID của các tiến trình lưu trữ nội dung của thẻ
+about-unloads-last-accessed = { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric", hour12: "false") }
+about-unloads-memory-in-mb = { NUMBER($mem, maxFractionalUnits: 2) } MB
+about-unloads-memory-in-mb-tooltip =
+    .title = { NUMBER($mem, maxFractionalUnits: 2) } MB

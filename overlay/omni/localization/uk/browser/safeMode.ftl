@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Відкрити { -brand-short-name } у режимі усунення проблем?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Відкрити
+refresh-profile =
+    .label = Відновити { -brand-short-name }
+troubleshoot-mode-description = Використовуйте цей спеціальний режим { -brand-short-name } для діагностування проблем. Ваші розширення та налаштування будуть тимчасово вимкнені.
+skip-troubleshoot-refresh-profile = Ви також можете пропустити усунення проблем та натомість відновити { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } неочікувано закрився під час запуску. Причиною цього могли бути додатки чи інші проблеми. Ви можете спробувати усунути проблему, виявивши її причину в безпечному режимі.

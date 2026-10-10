@@ -1,0 +1,15 @@
+panic-button-open-new-window = Tijaq jun k'ak'a' tzuwäch
+panic-button-undo-warning = Man tikirel ta nitzolïx re b'anïk.
+panic-button-forget-button =
+    .label = ¡Tamestaj!
+panic-main-timeframe-desc = Kemestäx ri taq e ruk'isib'äl:
+panic-button-5min =
+    .label = Wo'o' ch'utaq ramaj
+panic-button-2hr =
+    .label = Ka'i' ramaj
+panic-button-day =
+    .label = 24 ramaj
+panic-button-action-desc = Toq nib'an:
+panic-button-delete-cookies = Xeyuj el ri k'ak'a' taq <strong>Kokis</strong>
+panic-button-delete-history = Yeyuj el ri k'ak'a' <strong>natab'äl</strong>
+panic-button-delete-tabs-and-windows = Yetz'apïx ri taq <strong>Taq ruwi'</strong> chuqa' <strong>Taq tzuwäch</strong>

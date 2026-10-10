@@ -1,0 +1,9 @@
+default-browser-notification-message = <strong> { -brand-short-name } کو اپنے طے شدہ براؤزر کے طور پر سیٹ کریں؟</strong> جب بھی آپ ویب استمال کریں تو تیز، محفوظ، اور نجی براؤزنگ کا حاصل کریں.
+default-browser-notification-button =
+    .label = بطور طے شدہ سیٹ کریں
+    .accesskey = S
+default-browser-prompt-title-pin = { -brand-short-name } کو اپنا بنیادی برائوزر بنائیں
+default-browser-prompt-title-alt = { -brand-short-name } کو اپنا طے شدہ برائوزر بنائیں
+default-browser-prompt-button-primary-alt = پہلے سے طے شدہ براؤزر کے طور پر سیٹ کریں
+default-browser-prompt-checkbox-not-again-label = یہ پیغام کو دوبارہ مت دکھائیں
+default-browser-prompt-button-secondary = ابھی نہیں

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Digeriñ ur prenestr nevez
+panic-button-undo-warning = Ne c'haller ket dizober ar gwezh-mañ..
+panic-button-forget-button =
+    .label = Ankouaat!
+panic-main-timeframe-desc = Ankouaat an hini diwezhañ:
+panic-button-5min =
+    .label = Pemp munutenn
+panic-button-2hr =
+    .label = Div eurvezh
+panic-button-day =
+    .label = 24 eurvezh
+panic-button-action-desc = Mar kendalc'hit e vo:
+panic-button-delete-cookies = Dilamet an <strong>toupinoù</strong> nevesañ
+panic-button-delete-history = Dilamet ar <strong>roll istor</strong> nevesañ
+panic-button-delete-tabs-and-windows = Serret an holl <strong>ivinelloù</strong> hag an holl <strong>brenestroù</strong>

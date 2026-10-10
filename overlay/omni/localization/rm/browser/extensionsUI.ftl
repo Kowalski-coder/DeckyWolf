@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } vul midar tia maschina da tschertgar da standard da { $currentEngine } en { $newEngine }. Es ti d'accord?
+webext-default-search-yes =
+    .label = Gea
+    .accesskey = G
+webext-default-search-no =
+    .label = Na
+    .accesskey = N
+addon-post-install-message = { $addonName } è vegnì agiuntà.
+webext-quarantine-confirmation-title = Exequir { $addonName } sin websites cun restricziuns?
+webext-quarantine-confirmation-line-1 = Per proteger tias datas, n'è questa extensiun betg permessa sin questa website.
+webext-quarantine-confirmation-line-2 = Permetta questa extensiun sche ti ta fidas da la consentir il dretg da leger e midar tias datas sin websites cun restricziuns da { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permetter
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = Betg permetter
+    .accesskey = B

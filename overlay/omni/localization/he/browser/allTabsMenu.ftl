@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = חיפוש בכל הלשוניות
+all-tabs-menu-new-user-context =
+    .label = מגירת לשוניות חדשה
+all-tabs-menu-hidden-tabs =
+    .label = לשוניות מוסתרות
+all-tabs-menu-close-duplicate-tabs =
+    .label = סגירת לשוניות כפולות
+all-tabs-menu-view-all-tabs =
+    .label = הצגת כל הלשוניות
+all-tabs-menu-recent-tab-groups-header = קבוצות לשוניות אחרונות
+all-tabs-menu-tab-groups-show-all =
+    .label = הצגת הכול
+all-tabs-menu-tab-groups-sub-view =
+    .title = קבוצות לשוניות
+all-tabs-menu-current-window-header = החלון הנוכחי

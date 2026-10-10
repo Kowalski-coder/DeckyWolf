@@ -1,0 +1,34 @@
+tabbrowser-empty-tab-title = नवीन टॅब
+tabbrowser-menuitem-close-tab =
+    .label = टॅब बंद करा
+tabbrowser-menuitem-close =
+    .label = बंद करा
+tabbrowser-close-tabs-button =
+    .tooltiptext =
+        { $tabCount ->
+            [one] टॅब बंद करा
+           *[other] { $tabCount }टॅब बंद करा
+        }
+tabbrowser-confirm-close-tabs-button = एकापेक्षा जास्त टॅब बंद करा
+tabbrowser-confirm-open-multiple-tabs-title = उघडणे निश्चित करा
+tabbrowser-confirm-open-multiple-tabs-message =
+    { $tabCount ->
+       *[other] आपण { $tabCount } टॅब उघडण्याचा प्रयत्न करीत आहात.  पृष्ठा दाखल होतेवेळी त्यामुळे { -brand-short-name } हळु होऊ शकते. आपणास नक्की पुढे जायचे?
+    }
+tabbrowser-confirm-open-multiple-tabs-button = टॅब्स उघडा
+tabbrowser-confirm-open-multiple-tabs-checkbox = एकापेक्षा जास्त टॅब उघडल्यास { -brand-short-name } हळु होईल त्याकरीता सावध करा
+tabbrowser-customizemode-tab-title = { -brand-short-name } स्वपसंती करा
+tabbrowser-context-mute-tab =
+    .label = टॅब मूका करा
+    .accesskey = M
+tabbrowser-context-unmute-tab =
+    .label = टॅब सशब्द करा
+    .accesskey = m
+tabbrowser-context-mute-selected-tabs =
+    .label = टॅब मूक करा
+    .accesskey = M
+tabbrowser-context-unmute-selected-tabs =
+    .label = टॅब सशब्द करा
+    .accesskey = m
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = सर्व { $tabCount } टॅब्स्ची सूची

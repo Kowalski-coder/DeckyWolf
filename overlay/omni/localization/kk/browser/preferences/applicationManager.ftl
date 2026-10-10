@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Қолданба туралы ақпарат
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Өшіру
+    .accesskey = ш
+app-manager-handle-protocol = { $type } сілтемелері-пен жұмыс істеу үшін келесі бағдарламалар қолданылуы мүмкін.
+app-manager-handle-file = { $type } құрамасы-пен жұмыс істеу үшін келесі бағдарламалар қолданылуы мүмкін.
+app-manager-web-app-info = Бұл веб-қосымшасы келесі жерде орналасқан:
+app-manager-local-app-info = Бұл бағдарлама келесі жерде орналасқан:

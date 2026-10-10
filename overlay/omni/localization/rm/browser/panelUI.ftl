@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Betg pli fixar en il menu extra
+    .accesskey = t
+customize-menu-add-to-toolbar =
+    .label = Agiuntar a la trav d'utensils
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Agiuntar al menu extra
+    .accesskey = x
+panic-button-thankyou-msg1 = La cronologia la pli nova è vegnida stizzada.
+panic-button-thankyou-msg2 = Navigar segir!
+panic-button-thankyou-button =
+    .label = Grazia!

@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Bi xêr hatî Pisman!
+error-short-desc-text = Em bi hestên aştiyane û xweş hatin serdana te!
+error-long-desc1 = Robot zirarê nadin mirovan û dilê wan nahêlin.
+error-long-desc2 = Robotan tiştên ku hûn mirov jê bawer nakin dîtine.
+error-long-desc3 = Robot Hevalên te yên Plastîk in û ji bo Kêfxweşiyê li Cem Te ne
+error-long-desc4 = Qûna robotan ji metaleke birqok e lewre nayê gezkirin.
+error-trailer-desc-text = Û planeke wan heye.
+error-try-again = Dîsa Biceribîne
+    .label2 = Ji kerema xwe re careke din vê butonê netikîne.

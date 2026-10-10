@@ -1,0 +1,15 @@
+panic-button-open-new-window = 新しいウィンドウを開きます
+panic-button-undo-warning = この操作は取り消すことができません。
+panic-button-forget-button =
+    .label = 忘れる
+panic-main-timeframe-desc = 忘れる履歴の期間:
+panic-button-5min =
+    .label = 5 分以内
+panic-button-2hr =
+    .label = 2 時間以内
+panic-button-day =
+    .label = 24 時間以内
+panic-button-action-desc = この操作は:
+panic-button-delete-cookies = 最近の <strong>Cookie</strong> を削除します
+panic-button-delete-history = 最近の <strong>履歴</strong> を削除します
+panic-button-delete-tabs-and-windows = すべての <strong>タブ</strong> と <strong>ウィンドウ</strong> を閉じます

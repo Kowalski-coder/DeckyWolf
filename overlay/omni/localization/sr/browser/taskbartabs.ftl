@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Додај језичак на траку задатака
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Уклони језичак са траке задатака
+taskbar-tab-urlbar-button-show = Прикажи радњу веб апликације на страници
+taskbar-tab-urlbar-button-hide = Сакриј радњу веб апликације на страници
+taskbar-tab-shortcut-description = { $name } веб апликација
+taskbar-tab-shortcut-folder = { -brand-short-name } веб апликације
+taskbar-tab-audio-mute =
+    .tooltiptext = Утишај језичак
+taskbar-tab-audio-unmute =
+    .tooltiptext = Пусти звук језичка
+taskbar-tab-title-default = { $name } у { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) у { -brand-full-name }
+taskbar-tab-title-profile = { $name } у { $profile } - { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) у { $profile } - { -brand-full-name }

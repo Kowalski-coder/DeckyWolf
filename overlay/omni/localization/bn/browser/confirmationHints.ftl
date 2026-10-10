@@ -1,0 +1,19 @@
+confirmation-hint-password-removed = পাসওয়ার্ড মুছে ফেলা হয়েছে!
+confirmation-hint-page-bookmarked = বুকমার্কে সংরক্ষিত
+confirmation-hint-password-created = পাসওয়ার্ড সংরক্ষিত
+confirmation-hint-password-updated = পাসওয়ার্ড আপডেট করা হয়েছে
+confirmation-hint-address-created = ঠিকানা সংরক্ষিত
+confirmation-hint-address-updated = ঠিকানা আপডেট করা হয়েছে
+confirmation-hint-credit-card-created = কার্ড সংরক্ষিত
+confirmation-hint-credit-card-updated = কার্ড আপডেট করা হয়েছে
+confirmation-hint-pin-tab = পিন করা আছে!
+confirmation-hint-pin-tab-description = ট্যাবটি আনপিন করতে ডানে-ক্লিক করুন।
+confirmation-hint-send-to-device = পাঠানো হয়েছে!
+confirmation-hint-firefox-relay-mask-created = নতুন মুখোশ তৈরি!
+confirmation-hint-firefox-relay-mask-reused = বিদ্যমান মাস্ক পুনঃব্যবহার!
+confirmation-hint-screenshot-copied = স্ক্রিনশট কপি করা হয়েছে!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] বন্ধ { $tabCount } ট্যাব
+       *[other] বন্ধ { $tabCount } ট্যাব
+    }

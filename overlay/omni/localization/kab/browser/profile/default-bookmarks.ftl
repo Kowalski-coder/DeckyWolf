@@ -1,0 +1,14 @@
+default-bookmarks-title = Ticraḍ n isebtar
+default-bookmarks-heading = Ticraḍ n isebtar
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Awi tallelt
+default-bookmarks-firefox-customize = Sagen Firefox
+default-bookmarks-firefox-community = Ttekki
+default-bookmarks-firefox-about = Fell-aɣ
+default-bookmarks-nightly-heading = Tiɣbula n Firefox Nightly
+default-bookmarks-nightly-blog = Ablug n Firefox Nightly
+default-bookmarks-bugzilla = Aneḍfaṛ n ibugen n Mozilla
+default-bookmarks-mdn = Aẓeṭṭa n ineflayen n Mozilla
+default-bookmarks-nightly-tester-tools = Ifecka Nightly Tester
+default-bookmarks-crashes = Akk iɣelluyen inek
+default-bookmarks-planet = Amtiweg Mozilla

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detàllios de s'aplicatzione
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Boga
+    .accesskey = B
+app-manager-handle-protocol = Is aplicatziones imbenientes si podent impreare pro gestire ligòngios { $type }.
+app-manager-handle-file = Is aplicatziones imbenientes si podent impreare pro gestire cuntenutu { $type }.
+app-manager-web-app-info = Custa aplicatzione web est allogiada in:
+app-manager-local-app-info = Custa aplicatzione s'agatat in:

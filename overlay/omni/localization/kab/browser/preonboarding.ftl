@@ -1,0 +1,15 @@
+preonboarding-title = Ansuf ɣer { -brand-product-name }
+preonboarding-primary-cta = Sentem syen kemmel
+preonboarding-primary-cta-v2 = Kemmel
+preonboarding-manage-and-read-header-v2 = Ɣeṛ tiwtilin n useqdec akked tsertit tabaḍnit. Sefrek iɣewwaren niḍen.
+preonboarding-terms-of-use-header-button-title = Ɣeṛ tiwtilin-nneɣ n useqdec
+preonboarding-privacy-notice-header-button-title = Ɣeṛ tasertit-nneɣ n tbaḍnit
+preonboarding-terms-of-use-header-button-title-b = Tiwtilin n useqdec { -brand-product-name }
+preonboarding-terms-of-use-header-button-title-b-v2 = Tiwtilin n useqdec
+preonboarding-privacy-notice-header-button-title-b = Tasertit n tbaḍnit { -brand-product-name }
+preonboarding-privacy-notice-header-button-title-b-v2 = Tasertit n tbaḍnit
+preonboarding-header-button-description = Ɣeṛ ugar
+preonboarding-checklist-interaction-data-label = Azen isefka itiknikanen d yimyigawen ɣer { -vendor-short-name }
+preonboarding-checklist-interaction-data-description = Isefka yerzan ibenk-ik, tawila n warrum akked wamek i tesseqdaceḍ { -brand-product-name } yettal-aneɣ ad nesnerni timahilin, tamlellit akked urkad n yiseqdacen anda ma llan.
+preonboarding-checklist-crash-reports-label = Azen s wudem awurman ineqqisen n truẓi
+preonboarding-checklist-crash-reports-description = Ineqqisen n uɣelluy ttaǧǧan-aɣ ad nesnined syen ad nṣeggem uguren akked yiminig. Ineqqisen zemren ad d-skecmen isefka udmawanen neɣ imḥulfa.

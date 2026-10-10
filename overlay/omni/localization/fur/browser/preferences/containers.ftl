@@ -1,0 +1,15 @@
+containers-window-new3 =
+    .style = min-width: 32em
+    .title = Zonte un gnûf contignidôr
+containers-window-update-settings3 =
+    .style = min-width: 32em
+    .title = Impostazions contignidôr { $name }
+containers-window-close =
+    .key = w
+containers-name-label2 =
+    .label = Non
+    .placeholder = Zonte un non
+containers-icon-label2 =
+    .label = Icone
+containers-color-label2 =
+    .label = Colôr

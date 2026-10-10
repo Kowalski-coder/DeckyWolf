@@ -1,0 +1,358 @@
+onboarding-welcome-header = Dobrodošli v { -brand-short-name(sklon: "mestnik") }
+onboarding-start-browsing-button-label = Začnite z brskanjem
+onboarding-not-now-button-label = Ne zdaj
+mr1-onboarding-get-started-primary-button-label = Začni
+return-to-amo-subtitle = Odlično, imate { -brand-short-name }
+return-to-amo-addon-title = Zdaj pa dodajte <img data-l10n-name="icon"/> <b>{ $addon-name }</b>.
+return-to-amo-add-extension-label = Dodaj razširitev
+return-to-amo-add-theme-label = Dodaj temo
+return-to-amo-theme-install-complete-label = Tema nameščena
+return-to-amo-extension-install-complete-label = Razširitev nameščena
+mr1-return-to-amo-subtitle = Spoznajte { -brand-short-name }
+mr1-return-to-amo-addon-title = Imate hiter in zaseben brskalnik na dosegu roke. Zdaj lahko dodate <b>{ $addon-name }</b> in s { -brand-short-name(sklon: "orodnik") } naredite še več.
+mr1-return-to-amo-add-extension-label = Dodaj { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = Napredek: korak { $current } od { $total }
+mr1-onboarding-reduce-motion-button-label = Izklopi animacije
+mr1-onboarding-sign-in-button-label = Prijava
+mr1-onboarding-import-primary-button-label-attribution = Uvozi iz brskalnika { $previous }
+mr1-onboarding-theme-header = Uredite ga po svoje
+mr1-onboarding-theme-subtitle = Prilagodite svoj { -brand-short-name } s temo.
+mr1-onboarding-theme-secondary-button-label = Ne zdaj
+mr1-onboarding-theme-label-system = Sistemska tema
+mr1-onboarding-theme-label-light = Svetla
+mr1-onboarding-theme-label-dark = Temna
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = Končano
+onboarding-animation-pause-button =
+    .aria-label = Ustavi animacijo
+onboarding-animation-play-button =
+    .aria-label = Predvajaj animacijo
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        Sledi temi operacijskega sistema
+        za gumbe, menije in okna.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        Sledi temi operacijskega sistema
+        za gumbe, menije in okna.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        Uporabi svetlo temo za gumbe,
+        menije in okna.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        Uporabi svetlo temo za gumbe,
+        menije in okna.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        Uporabi temno temo za gumbe,
+        menije in okna.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        Uporabi temno temo za gumbe,
+        menije in okna.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        Uporabi energično, barvito temo za
+        gumbe, menije in okna.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        Uporabi energično, barvito temo za
+        gumbe, menije in okna.
+mr2-onboarding-default-theme-label = Raziščite privzete teme.
+mr2-onboarding-thank-you-header = Hvala, ker ste nas izbrali
+mr2-onboarding-thank-you-text = { -brand-short-name } je neodvisen brskalnik, za katerim stoji neprofitna organizacija. Skupaj ustvarjamo splet varnejši, zasebnejši in bolj zdrav.
+mr2-onboarding-start-browsing-button-label = Začnite z brskanjem
+onboarding-live-language-header = Izberite svoj jezik
+mr2022-onboarding-live-language-text = { -brand-short-name } govori vaš jezik
+mr2022-language-mismatch-subtitle = Zahvaljujoč naši skupnosti je { -brand-short-name } preveden v več kot 90 jezikov. Videti je, da vaš sistem uporablja jezik { $systemLanguage }, { -brand-short-name } pa jezik { $appLanguage }.
+onboarding-live-language-button-label-downloading = Prenašanje jezikovnega paketa za jezik { $negotiatedLanguage } …
+onboarding-live-language-waiting-button = Pridobivanje razpoložljivih jezikov …
+onboarding-live-language-installing = Nameščanje jezikovnega paketa za jezik { $negotiatedLanguage } …
+mr2022-onboarding-live-language-switch-to = Preklopi na jezik { $negotiatedLanguage }
+mr2022-onboarding-live-language-continue-in = Nadaljuj v jeziku { $appLanguage }
+onboarding-live-language-secondary-cancel-download = Prekliči
+onboarding-live-language-skip-button-label = Preskoči
+fx100-thank-you-hero-text =
+    100-krat
+    <span data-l10n-name="zap">hvala</span>
+fx100-thank-you-subtitle = To je naša 100. izdaja! Hvala, ker z nami ustvarjate boljši in bolj zdrav internet.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Obdrži { -brand-short-name } v Docku
+       *[other] Pripni { -brand-short-name } v opravilno vrstico
+    }
+fx100-upgrade-thanks-header = 100-krat hvala
+fx100-upgrade-thank-you-body = To je 100. izdaja { -brand-short-name(sklon: "rodilnik") }. <em>Hvala</em>, ker z nami ustvarjate boljši in bolj zdrav internet.
+fx100-upgrade-thanks-keep-body = To je naša 100. izdaja! Hvala, ker ste del naše skupnosti. Pripnite si { -brand-short-name } na doseg roke za naslednjih 100.
+mr2022-onboarding-secondary-skip-button-label = Preskoči ta korak
+mr2022-onboarding-easy-setup-primary-button-label = Shrani in nadaljuj
+mr2022-onboarding-easy-setup-set-default-checkbox-label = Nastavi { -brand-short-name(sklon: "tozilnik") } kot privzeti brskalnik
+mr2022-onboarding-easy-setup-import-checkbox-label = Uvozi podatke iz prejšnjega brskalnika
+mr2022-onboarding-welcome-pin-header = Vstopite v neverjeten internet
+mr2022-onboarding-welcome-pin-subtitle = Zaženite { -brand-short-name } od koder koli z enim klikom. Vsakič, ko to storite, izberete bolj odprt in neodvisen splet.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Obdrži { -brand-short-name } v Docku
+       *[other] Pripni { -brand-short-name } v opravilno vrstico
+    }
+mr2022-onboarding-pin-primary-button-label-msix = Pripni { -brand-short-name } v opravilno vrstico in v začetni meni
+mr2022-onboarding-existing-pin-header = Hvala, ker imate radi { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = Zaženite bolj zdrav internet od koder koli z enim klikom. Naša zadnja posodobitev je polna novosti, ki jih boste oboževali.
+mr2022-onboarding-existing-set-default-only-subtitle = Uporabite brskalnik, ki ščiti vašo zasebnost, medtem ko brskate po spletu. Naša zadnja posodobitev je polna novosti, ki jih obožujete.
+mr2022-onboarding-existing-pin-checkbox-label = Dodaj tudi zasebno brskanje { -brand-short-name }
+mr2022-onboarding-set-default-title = Nastavite { -brand-short-name } za svoj priljubljeni brskalnik
+mr2022-onboarding-set-default-primary-button-label = Nastavi { -brand-short-name(sklon: "tozilnik") } kot privzeti brskalnik
+mr2022-onboarding-set-default-subtitle = Uporabite brskalnik, ki ga podpira neprofitna organizacija. Varujemo vašo zasebnost, medtem ko brskate po spletu.
+mr2022-onboarding-get-started-primary-subtitle = Naša najnovejša različica je zgrajena okoli vas, kar naredi brskanje po spletu lažje kot kdaj koli prej. Polna je novosti, ki jih boste oboževali.
+mr2022-onboarding-get-started-primary-button-label = Nastavite v nekaj sekundah
+mr2022-onboarding-import-primary-button-label-no-attribution = Uvozi iz prejšnjega brskalnika
+mr2022-onboarding-mobile-download-cta-text = Skenirajte kodo QR za prenos { -brand-product-name(sklon: "rodilnik") } za mobilne naprave ali <a data-l10n-name="download-label">si pošljite povezavo za prenos.</a>
+mr2022-onboarding-no-mobile-download-cta-text = Skenirajte kodo QR za prenos { -brand-product-name(sklon: "rodilnik") } za mobilne naprave.
+mr2022-upgrade-onboarding-pin-private-window-header = Do svobode zasebnega brskanja z enim klikom
+mr2022-upgrade-onboarding-pin-private-window-subtitle = Brez shranjenih piškotkov ali zgodovine, neposredno z namizja. Brskajte, kot da nihče ne gleda.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] Obdrži zasebno brskanje { -brand-short-name } v Docku
+       *[other] Pripni zasebno brskanje { -brand-short-name } v opravilno vrstico
+    }
+mr2022-onboarding-privacy-segmentation-title = Vedno spoštujemo vašo zasebnost
+mr2022-onboarding-privacy-segmentation-subtitle = Od pametnih predlogov do pametnejšega iskanja, nenehno se trudimo ustvariti boljši in bolj oseben { -brand-product-name }.
+mr2022-onboarding-privacy-segmentation-text-cta = Kaj naj storimo, ko ponudimo nove zmogljivosti, ki uporabljajo vaše podatke za izboljšanje vašega brskanja?
+mr2022-onboarding-privacy-segmentation-button-primary-label = Uporabi priporočila { -brand-product-name(sklon: "rodilnik") }
+mr2022-onboarding-privacy-segmentation-button-secondary-label = Prikaži podrobne informacije
+mr2022-onboarding-gratitude-title = Pomagate nam graditi boljši splet
+mr2022-onboarding-gratitude-subtitle = Hvala, ker uporabljate { -brand-short-name }, ki ga podpira Mozilla Foundation. Z vašo podporo si prizadevamo narediti internet bolj odprt, dostopen in boljši za vse.
+mr2022-onboarding-gratitude-primary-button-label = Oglejte si, kaj je novega
+mr2022-onboarding-gratitude-secondary-button-label = Začnite z brskanjem
+onboarding-infrequent-import-title = Počutite se kot doma
+onboarding-infrequent-import-subtitle = Ne glede na to, ali se nameščate ali zgolj opazujete, ne pozabite, da lahko uvozite svoje zaznamke, gesla in drugo.
+onboarding-infrequent-import-primary-button = Uvozi v { -brand-short-name(sklon: "tozilnik") }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = Oseba s prenosnim računalnikom, ki jo obdajajo zvezde in cvetje
+mr2022-onboarding-default-image-alt =
+    .aria-label = Oseba, ki objema logotip { -brand-product-name(sklon: "rodilnik") }
+mr2022-onboarding-import-image-alt =
+    .aria-label = Oseba, ki se vozi na rolki s polno škatlo programskih ikon
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = Žabe, ki skačejo z lokvanja na lokvanj, s kodo QR za prenos mobilnega { -brand-product-name(sklon: "rodilnik") } v sredini
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = Čarobna paličica pričara logotip { -brand-product-name }ovega zasebnega brskanja iz klobuka
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = Svetlopolta in temnopolta roka si čestitata
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = Pogled na sončni zahod skozi okno, na katerem počivata lisica in lončnica
+onboarding-device-migration-image-alt =
+    .aria-label = Lisica, ki maha z zaslona prenosnega računalnika. Prenosnik ima priključeno miško.
+onboarding-device-migration-title = Dobrodošli nazaj!
+onboarding-device-migration-subtitle2 = Prijavite se v svoj račun in si prenesite zaznamke, gesla in zgodovino na novi računalnik.
+onboarding-device-migration-primary-button-label = Prijava
+amo-picker-title = Prilagodi svoj { -brand-short-name }
+amo-picker-subtitle = Razširitve so kot aplikacije za vaš brskalnik, ki vam omogočajo zaščito gesel, prenos videoposnetkov, iskanje ponudb, zavračanje nadležnih oglasov, spreminjanje videza brskalnika in še veliko več.
+amo-picker-install-button-label = Dodaj v { -brand-short-name }
+amo-picker-install-complete-label = Nameščen
+amo-picker-collection-link = Raziščite več dodatkov
+onboarding-easy-setup-security-and-privacy-title = Z veseljem skrbimo za vašo varnost
+onboarding-easy-setup-security-and-privacy-subtitle = Naš neprofitni brskalnik preprečuje podjetjem, da bi vas skrivaj spremljala po spletu.
+onboarding-mobile-download-security-and-privacy-title = Ostanite šifrirani pri skakanju z naprave na napravo
+onboarding-mobile-download-security-and-privacy-subtitle = Pri sinhronizaciji { -brand-short-name } ohranja vaša gesla, zaznamke in druge podatke varne s šifriranjem. Poleg tega vam omogoča priklicati zavihke, ki jih imate odprte na drugih napravah.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } vam krije hrbet
+onboarding-gratitude-security-and-privacy-subtitle = Hvala, ker uporabljate { -brand-short-name }, ki ga podpira Mozilla Foundation. Z vašo podporo si prizadevamo narediti internet varnejši in dostopnejši za vse.
+onboarding-sign-up-title = Sinhronizirajte svoje podatke med napravami
+onboarding-sign-up-description = Ustvarite si račun in vsi vaši pomembni podatki – gesla, zaznamki in drugi – bodo varno shranjeni in vam na voljo, ko se prijavite v katerokoli napravo.
+onboarding-sign-up-button = Registracija ali prijava
+onboarding-sign-up-secondary-button = Začnite z brskanjem
+onboarding-new-user-time-based-survey-title = Kako dolgo že uporabljate { -brand-short-name(sklon: "tozilnik") }?
+onboarding-new-user-familiarity-based-survey-title = Kako dobro se znajdete v { -brand-short-name(sklon: "mestnik") }?
+onboarding-new-user-survey-subtitle = Z vašimi povratnimi informacijami bomo naredili { -brand-short-name(sklon: "tozilnik") } še boljši.
+onboarding-new-user-survey-next-button-label = Naprej
+onboarding-new-user-survey-legal-link-label = Z izbiro “{ onboarding-new-user-survey-next-button-label }” soglašate z <a data-l10n-name="privacy_notice">obvestilom o zasebnosti</a> { -brand-product-name(sklon: "rodilnik") }
+onboarding-new-user-survey-time-based-option-1 = sem popoln novinec
+onboarding-new-user-survey-time-based-option-2 = manj kot en mesec
+onboarding-new-user-survey-time-based-option-3 = več kot 1 mesec, redno
+onboarding-new-user-survey-time-based-option-4 = več kot 1 mesec, občasno
+onboarding-new-user-survey-familiarity-based-option-1 = sem popoln začetnik
+onboarding-new-user-survey-familiarity-based-option-2 = imam nekaj izkušenj
+onboarding-new-user-survey-familiarity-based-option-3 = zelo mi je domač
+onboarding-new-user-survey-familiarity-based-option-4 = uporabljal/a sem ga v preteklosti, a je minilo že nekaj časa
+onboarding-new-tabs-title = Kje želite imeti zavihke?
+onboarding-new-tabs-subtitle = V nastavitvah stranske vrstice lahko to spremenite, kadarkoli želite.
+onboarding-many-tabs-title = Vaši zavihki, po vaše
+onboarding-many-tabs-subtitle = Imate odprtih veliko zavihkov? Preizkusite preglednejši seznam zavihkov ob strani. Ali pa obdržite klasiko z zavihki na vrhu. Kadarkoli si lahko premislite.
+onboarding-focused-tabs-title = Izberite postavitev zavihkov
+onboarding-focused-tabs-subtitle = Za poenostavljen pogled, ki vam pomaga ostati osredotočen, preskusite zavihke ob strani. Ali pa naj bo klasika z zavihki na vrhu. Preklopite lahko kadarkoli.
+onboarding-new-vertical-tabs-label = Ob strani
+onboarding-new-horizontal-tabs-label = Na vrhu
+onboarding-existing-tabs-title = Navpični zavihki so tu
+onboarding-existing-tabs-title2 = Predstavljamo navpične zavihke
+onboarding-existing-tabs-subtitle = Preizkusite zavihke ob strani. Njihov položaj lahko spremenite, kadarkoli želite, v nastavitvah stranske vrstice.
+onboarding-existing-vertical-tabs-label = Preizkusite navpične zavihke
+onboarding-flair-text = Novo!
+onboarding-existing-horizontal-tabs-label = Obdrži vodoravne zavihke
+onboarding-vertical-tabs-tooltip =
+    .title = Okno brskalnika, v katerem so zavihki prikazani vzdolž roba zaslona v { -brand-shorter-name }ovi stranski vrstici.
+onboarding-vertical-tabs-description =
+    .aria-description = Okno brskalnika, v katerem so zavihki prikazani vzdolž roba zaslona v { -brand-shorter-name }ovi stranski vrstici.
+onboarding-horizontal-tabs-tooltip =
+    .title = Okno brskalnika, v katerem so zavihki prikazani vzdolž zgornjega roba.
+onboarding-horizontal-tabs-description =
+    .aria-description = Okno brskalnika, v katerem so zavihki prikazani vzdolž zgornjega roba.
+onboarding-genai-sidebar-title = Preskusite UI-klepetalnik v stranski vrstici
+onboarding-genai-sidebar-subtitle = Povzemite spletne vsebine, razmislite o idejah in napišite osnutke sporočil kar med brskanjem. Izbirajte med več ponudniki. Preklopite kadarkoli. <a data-l10n-name="learn-more">Več o tem</a>
+onboarding-genai-sidebar-primary-button = Izberite klepetalnik
+onboarding-genai-sidebar-secondary-button = Začni z brskanjem
+onboarding-checklist-title = Dokončaj nastavitev { -brand-short-name(sklon: "rodilnik") }
+onboarding-checklist-subtitle = Izvedite naslednje korake in kar najbolje izkoristite brskalnik.
+onboarding-checklist-set-default = Nastavi { -brand-short-name(sklon: "tozilnik") } kot privzeti brskalnik
+onboarding-checklist-pin = Pripni { -brand-short-name } v opravilno vrstico
+onboarding-checklist-import = Uvozi iz prejšnjega brskalnika
+onboarding-checklist-extension = Dodaj razširitev
+onboarding-checklist-sign-up = Registrirajte se ali se prijavite v svoj račun
+onboarding-checklist-minimize =
+    .label = Pomanjšaj
+onboarding-checklist-remove =
+    .label = Odstrani kontrolni seznam
+onboarding-checklist-remove-2 = Odstrani kontrolni seznam
+tab-groups-onboarding-feature-callout-title = Preizkusite skupine zavihkov za manj nereda in več osredotočenosti
+tab-groups-onboarding-feature-callout-subtitle = Organizirajte se: povlecite en zavihek na drugega in ustvarite svojo prvo skupino.
+tab-groups-onboarding-create-group-title-3 = Svoje skupine zavihkov lahko kadarkoli najdete v meniju Seznam vseh zavihkov.
+tab-groups-onboarding-create-group-no-alltabs-button-title = Svoje skupine zavihkov lahko najdete z iskanjem v naslovni vrstici.
+tab-groups-onboarding-saved-groups-title-3 = Skupine zavihkov, ki ste jih zaprli, lahko kadarkoli znova odprete iz menija Seznam vseh zavihkov.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = Zaprte skupine lahko najdete z iskanjem v naslovni vrstici.
+tab-groups-onboarding-session-restore-title-2 = Skupine zavihkov lahko kadarkoli znova odprete iz menija Seznam vseh zavihkov.
+tab-groups-onboarding-dismiss = V redu
+multi-profile-spotlight-title = Spoznajte { -brand-product-name }ove profile
+multi-profile-spotlight-body = Preklapljajte med brskanjem za delo in zabavo. Profili ohranjajo vaše podatke o brskanju, vključno z zgodovino iskanja in gesli, popolnoma ločene, tako da lahko ostanete organizirani.
+multi-profile-spotlight-cta = Ustvari profil
+multi-profile-callout-title = Ustvarite ločena profila za delo in zabavo
+multi-profile-callout-subtitle = Profili vam omogočajo, da ločite podatke o brskanju, kot so zgodovina iskanja in gesla.
+multi-profile-callout-cta = Ustvari profil
+desktop-to-mobile-headline = Prenesi, sinhroniziraj in gremo!
+desktop-to-mobile-subtitle = Skenirajte kodo QR za prenos { -brand-product-name(sklon: "rodilnik") } za mobilne naprave. Ko je nameščen, izberite “Sinhronizacija z mobilno napravo” za dostop do gesel, zaznamkov in drugih podatkov na poti.
+dismiss-button-label = Skrij
+sync-to-mobile-button-label = Sinhronizacija z mobilno napravo
+desktop-to-mobile-qr-code-alt =
+    .aria-label = Koda QR za prenos { -brand-product-name(sklon: "rodilnik") } za mobilne naprave
+create-backup-screen-1-title =
+    Nadgrajujete na Windows 11?
+    Varnostno kopirajmo vaše podatke { -brand-product-name(sklon: "rodilnik") }.
+create-backup-screen-1-subtitle = Brez truda zavarujte svoja gesla, zaznamke in druge podatke v 1–2 minutah.
+create-backup-screen-1-flair = Priporočeno
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">Več o tem</a>
+create-backup-screen-1-sync-label = Sinhronizacija s { -brand-product-name(sklon: "orodnik") }
+create-backup-screen-1-sync-body = Varnostno kopira vse naprave, na katerih ste prijavljeni
+create-backup-screen-1-backup-label = Varnostno kopiranje na računalnik
+create-backup-screen-1-backup-body = Shrani na napravo ali v OneDrive
+create-backup-select-tile-button-label = Izberi
+create-backup-back-button-label = Nazaj
+create-backup-show-fewer =
+    .label = Prikazuj manj takšnih sporočil
+create-backup-screen-2-title = Izberite podatke { -brand-product-name(sklon: "rodilnik") }, ki naj se varnostno kopirajo
+create-backup-screen-2-subtitle = Traja le minuto. Podatki se varnostno kopirajo enkrat dnevno.
+create-backup-screen-2-easy-label = Preprosta nastavitev
+create-backup-screen-2-easy-list-1 = Zaznamki, zgodovina, nastavitve in drugi podatki
+create-backup-screen-2-easy-list-2 = Ne vključuje gesel in plačilnih sredstev
+create-backup-screen-2-easy-list-3 = Ni šifrirano
+create-backup-screen-2-all-label = Vsi podatki
+create-backup-screen-2-all-list-2 = Vključuje gesla in plačilna sredstva
+create-backup-screen-2-all-list-3 = Šifrirano z geslom
+create-backup-screen-3-location = Kam naj se varnostna kopija shrani?
+create-backup-screen-3-title = Nastavi geslo za datoteko z varnostno kopijo
+create-backup-screen-3-subtitle = Zahtevano za šifriranje podatkov. Shranite ga na mesto, ki si ga boste zapomnili.
+fx-backup-opt-in-header = Izberi mesto datoteke
+fx-backup-opt-in-filepath-label = Izberite mesto, ki ga nameravate prenesti na novo napravo, na primer OneDrive.
+fx-backup-opt-in-create-password-label = Vnesite geslo
+fx-backup-opt-in-confirm-btn-label = Nadaljuj
+fx-backup-opt-in-cancel-btn-label = Nazaj
+fx-backup-confirmation-screen-title = Varnostno kopiranje je načrtovano
+fx-backup-confirmation-screen-close-button = Zapri
+fx-backup-confirmation-screen-all-data-item-text-1 = Vključeni so vsi podatki brskanja
+fx-backup-confirmation-screen-all-data-item-text-2 = Shranjeno na vašo napravo
+fx-backup-confirmation-screen-all-data-item-text-3 = Šifrirano in zaščiteno z geslom
+fx-backup-confirmation-screen-easy-setup-item-text-1 = Vključeni so zaznamki, zgodovina, nastavitve in drugi podatki
+fx-backup-confirmation-screen-easy-setup-item-text-2 = Shranjeno na napravo
+fx-backup-confirmation-screen-easy-setup-item-text-3 = Gesla in plačilna sredstva niso vključena
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = Za vključitev občutljivih podatkov obiščite <a data-l10n-name="settings">nastavitve</a>.
+fx-backup-confirmation-screen-item-subtext-1 = Varnostno kopiranje se bo začelo čez nekaj minut in se bo zagnalo enkrat na dan. Napredek lahko preverite v <a data-l10n-name="settings">nastavitvah</a>.
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } bo poiskal varnostno kopijo, če bo potrebna ponovna namestitev.
+restore-from-backup-secondary-top-button = Obnovitev iz varnostne kopije
+restore-from-backup-title = Povrnite si { -brand-short-name(sklon: "tozilnik") }, kakršen vam je všeč
+restore-from-backup-subtitle = Obnovite zaznamke, zgodovino in druge podatke ter nadaljujte z brskanjem.
+restore-from-backup-secondary-button = Ne obnovi
+multiple-backups-info-tile = <strong>Najdenih je bilo več datotek z varnostnimi kopijami.</strong> Izbrana je najnovejša med njimi. Druge profile lahko obnovite v <a data-l10n-name="settings-label">nastavitvah</a>.
+restored-from-backup-success-title = Spet smo nazaj! Vaši podatki { -brand-short-name(sklon: "rodilnik") } so bili obnovljeni.
+restored-from-backup-success-with-checklist-subtitle = Želite imeti svoj najljubši zaseben brskalnik le klik stran?
+restored-from-backup-success-no-checklist-subtitle = Varnostno kopiranje za to napravo lahko vključite v <a data-l10n-name="settings">nastavitvah</a>.
+restored-from-backup-success-with-checklist-primary-button = Shrani in nadaljuj
+restored-from-backup-success-with-checklist-secondary-button = Preskoči ta korak
+restored-from-backup-success-no-checklist-primary-button = Nadaljuj
+restored-from-backup-error-title = Hmm, prišlo je do težave z datoteko z varnostno kopijo.
+restored-from-backup-error-subtitle = Če imate drugo datoteko z varnostno kopijo { -brand-short-name(sklon: "rodilnik") }, poskusite podatke obnoviti iz nje. <a data-l10n-name="restore-problems">Imate še vedno težave?</a>
+restored-from-backup-error-primary-button = Zapri
+onboarding-personalization-title = Doživite { -brand-short-name(sklon: "tozilnik") } po svoje
+onboarding-personalization-subtitle = Če odgovorite na nekaj vprašanj, vam lahko priporočimo nekaj funkcij in razširitev, ki vam bodo pomagale še bolje izkoristiti { -brand-short-name(sklon: "tozilnik") }.
+onboarding-personalization-use-case-title = Za kaj boste uporabljali { -brand-short-name(sklon: "tozilnik") }?
+onboarding-personalization-use-case-personal-option = Osebno
+onboarding-personalization-use-case-school-option = Šolsko
+onboarding-personalization-use-case-work-option = Službeno
+onboarding-personalization-motivation-title = Katere lastnosti { -brand-short-name(sklon: "rodilnik") } so vam najbolj pomembne?
+onboarding-personalization-motivation-privacy-option = Zasebnost in varnost
+onboarding-personalization-motivation-productivity-option = Produktivnost
+onboarding-personalization-motivation-other-option = Drugo
+onboarding-refresh-pin-set-default-subtitle = Ščitimo vaše podatke in – samodejno! – preprečujemo podjetjem, da bi vohunila za vašimi kliki.
+onboarding-refresh-pin-set-default-title = Ste v varnih šapah
+onboarding-refresh-import-subtitle = Prinesite si s seboj gesla, zaznamke, zgodovino in druge podatke.
+onboarding-refresh-import-title = Dajte { -brand-short-name(sklon: "dajalnik") } svoj pečat
+onboarding-refresh-onboarding-addons-subtitle = Razširitve so drobne aplikacije, s katerimi si lahko prilagodite { -brand-short-name(sklon: "tozilnik") }. Z njimi lahko povečate zasebnost, izboljšate svojo produktivnost, spremenite videz { -brand-short-name(sklon: "rodilnik") } in še veliko več.
+onboarding-refresh-onboarding-addons-title = Povzdignite svoje brskanje na novo raven
+onboarding-refresh-sync-subtitle = Priskrbite si zaznamke, gesla in druge podatke povsod, kjer ste prijavljeni v { -brand-short-name(sklon: "tozilnik") }. Vaši podatki so šifrirani, tako da jih lahko vidite samo vi.
+onboarding-refresh-sync-title = Pojdite kamorkoli. Sinhronizirajte vse.
+onboarding-refresh-gratitude-subtitle = Hvala, ker uporabljate { -brand-short-name(sklon: "tozilnik") }, edini večji brskalnik, za katerim stoji neprofitna organizacija. Z vašo podporo si prizadevamo narediti internet varnejši in dostopnejši za vse.
+onboarding-refresh-gratitude-title = { -brand-short-name } vam krije hrbet
+onboarding-refresh-splash-screen-title = { -brand-product-name } vam krije hrbet – zdaj in vedno
+onboarding-refresh-hero-text = Ustvarjen, da vas ščiti, ne da vam sledi.
+onboarding-refresh-tou-default = Odpiraj vse povezave v { -brand-short-name(sklon: "mestnik") }
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] Ohrani { -brand-short-name(sklon: "tozilnik") } v vrstici Dock
+       *[other] Pripni { -brand-short-name(sklon: "tozilnik") } v opravilno vrstico
+    }
+onboarding-refresh-tou-default-unchecked = Ohranite vgrajeno zaščito ob vsakem brskanju
+onboarding-refresh-tou-pin-unchecked = Imejte edini veliki neodvisen brskalnik le klik stran
+onboarding-refresh-terms-of-use-with-links = Z nadaljevanjem se strinjate s <a data-l10n-name="terms_of_use">pogoji uporabe { -brand-product-name(sklon: "rodilnik") }</a> in z našim <a data-l10n-name="privacy_notice">obvestilom o zasebnosti</a>. Za izboljšanje brskalnika { -brand-product-name } { -vendor-short-name(sklon: "dajalnik") } pošilja diagnostične podatke in podatke o uporabi.
+onboarding-refresh-data-collection-link = Nastavitve zbiranja podatkov
+onboarding-refresh-primary-button = Nadaljuj
+onboarding-refresh-fro-import-header = Preselite svoje podatke
+onboarding-refresh-fro-import-body = Vaši osebni podatki ostanejo zasebni. { -brand-product-name } jih ne bo nikoli prodajal.
+onboarding-refresh-fro-skip-button = Preskoči
+onboarding-refresh-fro-theme-header = Poigrajte se s svojim videzom
+onboarding-refresh-tab-layout-header = Preizkusite drugačno postavitev zavihkov
+onboarding-refresh-tab-layout-top = Na vrhu
+onboarding-refresh-tab-layout-side = Ob strani
+onboarding-refresh-tab-layout-minimal = Minimalistično
+onboarding-minimal-tabs-tooltip =
+    .title = Okno brskalnika, v katerem so zavihki prikazani kot majhne ikone vzdolž roba zaslona v minimizirani stranski vrstici.
+onboarding-minimal-tabs-description =
+    .aria-description = Okno brskalnika, v katerem so zavihki prikazani kot majhne ikone vzdolž roba zaslona v minimizirani stranski vrstici.
+smartwindow-switcher-callout = Kadarkoli lahko preklapljate med pametnimi in običajnimi okni.
+smartwindow-existing-user-fx-tou-title = Pogoji uporabe { -brand-product-name(sklon: "rodilnik") }
+smartwindow-existing-user-fx-tou-body = Če želite uporabljati { -smart-window-brand-name }, sprejmite <a data-l10n-name="terms_of_use">pogoje uporabe</a> in posodobljeno <a data-l10n-name="privacy_notice">obvestilo o zasebnosti</a>.
+smartwindow-existing-user-fx-tou-accept = Sprejmi
+smartwindow-existing-user-fx-tou-go-back = Nazaj
+smartwindow-onboarding-title = Naj bo { -smart-window-brand-name } vaša prva izbira
+smartwindow-onboarding-subtitle = Povzemajte, primerjajte in sprašujte, ne da bi kaj zamudili.
+smartwindow-onboarding-primary-button = Nadaljuj
+smartwindow-onboarding-image-alt =
+    .aria-label = Maskota { -brand-product-name(sklon: "rodilnik") } (Kit) z rekviziti v obliki zvezdice
+smartwindow-sidebar-auto-open-callout-title = Želite, da pomočnik ostane zaprt?
+smartwindow-sidebar-auto-open-callout-body = Še vedno ga boste lahko odprli, če ga boste potrebovali.
+smartwindow-sidebar-auto-open-callout-accept = Da, pusti zaprto
+smartwindow-sidebar-auto-open-callout-dismiss = Ne, hvala
+smartwindow-sidebar-auto-open-callout-accepted-title = Pomočnik bo ostal zaprt
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = Za odpiranje na kateri koli strani uporabite zmogljivost Vprašaj. To lahko kadarkoli spremenite v <a data-l10n-name="settings">Nastavitvah</a>.
+smartwindow-sidebar-auto-open-callout-rejected-title = Razumem
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = Če si premislite, lahko kadarkoli spremenite privzete <a data-l10n-name="settings">nastavitve</a>.
+onboarding-theme-picker-title = Izberite temo
+onboarding-theme-picker-subtitle = Dodajte { -brand-short-name(sklon: "dajalnik") } malo barve.
+onboarding-theme-picker-button-label = Shrani in nadaljuj

@@ -1,0 +1,3 @@
+sync-disconnect-dialog-button = Исклучи се
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = Уредите се синхронизираат…

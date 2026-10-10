@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = افزودن زبانه به نوار وظیفه
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = حذف زبانه از نوار وظیفه
+taskbar-tab-urlbar-button-show = نمایش دکمهٔ برنامه تحت وب در نوار نشانی
+taskbar-tab-urlbar-button-hide = پنهان کردن دکمهٔ برنامه تحت وب در نوار نشانی
+taskbar-tab-shortcut-description = برنامهٔ تحت وب { $name }
+taskbar-tab-shortcut-folder = برنامه‌های تحت وب { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = بی‌صدا کردن زبانه
+taskbar-tab-audio-unmute =
+    .tooltiptext = باصدا کردن زبانه
+taskbar-tab-title-default = { $name } در { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) در { -brand-full-name }
+taskbar-tab-title-profile = { $name } در { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) در { $profile } — { -brand-full-name }

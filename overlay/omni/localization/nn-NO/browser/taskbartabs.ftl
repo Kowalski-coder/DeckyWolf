@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Legg til fane på oppgåvelinja
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Fjern fane frå oppgavelinja
+taskbar-tab-urlbar-button-show = Vis nettapp-sidehandling
+taskbar-tab-urlbar-button-hide = Skjul nettapp-sidehandling
+taskbar-tab-shortcut-description = Nettapp for { $name }
+taskbar-tab-shortcut-folder = { -brand-short-name } Nettappar
+taskbar-tab-audio-mute =
+    .tooltiptext = Lyd av i fane
+taskbar-tab-audio-unmute =
+    .tooltiptext = Lyd på i fane
+taskbar-tab-title-default = { $name } i { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) i { -brand-full-name }
+taskbar-tab-title-profile = { $name } i { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) i { $profile } — { -brand-full-name }

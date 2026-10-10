@@ -1,0 +1,22 @@
+confirmation-hint-extensions-button-hidden = Movita al menuo
+confirmation-hint-password-removed = Pasvorto forigita!
+confirmation-hint-page-bookmarked = Konservita en la legosignoj
+confirmation-hint-password-created = Pasvorto konservita
+confirmation-hint-password-updated = Pasvorto ĝisdatigita
+confirmation-hint-address-created = Adreso konservita
+confirmation-hint-address-updated = Adreso ĝisdatigita
+confirmation-hint-credit-card-created = Karto konservita
+confirmation-hint-credit-card-updated = Karto ĝisdatigita
+confirmation-hint-passport-created = Pasporto konservita
+confirmation-hint-passport-updated = Pasporto ĝisdatigita
+confirmation-hint-pin-tab = Alpinglita!
+confirmation-hint-pin-tab-description = Alklaku la langeton per la dekstra butono por depingli ĝin.
+confirmation-hint-send-to-device = Sendita!
+confirmation-hint-firefox-relay-mask-created = Nova masko kreita!
+confirmation-hint-firefox-relay-mask-reused = Jama masko reuzita!
+confirmation-hint-screenshot-copied = Ekrankopio kopiita!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] { $tabCount } langeto fermita
+       *[other] { $tabCount } langetoj fermitaj
+    }

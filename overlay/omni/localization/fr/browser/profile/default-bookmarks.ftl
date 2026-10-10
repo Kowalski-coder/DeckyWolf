@@ -1,0 +1,14 @@
+default-bookmarks-title = Marque-pages
+default-bookmarks-heading = Marque-pages
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Obtenir de l’aide
+default-bookmarks-firefox-customize = Personnaliser Firefox
+default-bookmarks-firefox-community = Participer
+default-bookmarks-firefox-about = À propos de Mozilla
+default-bookmarks-nightly-heading = Ressources Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Système de suivi de bugs de Mozilla
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Tous vos plantages
+default-bookmarks-planet = Planète Mozilla

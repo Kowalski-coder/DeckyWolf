@@ -1,0 +1,270 @@
+about-logins-page-title-name = Lozinke
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Traži lozinke
+create-login-button =
+    .title = Dodaj lozinku
+fxaccounts-sign-in-text = Pristupite lozinkama na drugim uređajima
+fxaccounts-sign-in-sync-button = Prijavite se za sinhronizaciju
+fxaccounts-avatar-button =
+    .title = Upravljanje računom
+menu =
+    .title = Otvori meni
+about-logins-menu-menuitem-import-from-another-browser = Uvoz iz drugog browsera…
+about-logins-menu-menuitem-import-from-a-file = Uvezi iz fajla…
+about-logins-menu-menuitem-export-logins2 = Izvezi lozinke…
+about-logins-menu-menuitem-remove-all-logins2 = Ukloni sve lozinke…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opcije
+       *[other] Postavke
+    }
+about-logins-menu-menuitem-help = Pomoć
+login-list =
+    .aria-label = Prijave koje odgovaraju pretrazi
+login-list-count2 =
+    { $count ->
+        [one] { $count } lozinka
+        [few] { $count } lozinke
+       *[other] { $count } lozinki
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } od { $total } lozinka
+        [few] { $count } od { $total } lozinke
+       *[other] { $count } od { $total } lozinki
+    }
+login-list-sort-label-text = Sortiraj po:
+login-list-name-option = Nazivu (A-Z)
+login-list-name-reverse-option = Naziv (A-Z)
+login-list-username-option = Korisničko ime (A-Z)
+login-list-username-reverse-option = Korisničko ime (Z-A)
+about-logins-login-list-alerts-option = Upozorenja
+login-list-last-changed-option = Zadnja promjena
+login-list-last-used-option = Zadnja upotreba
+login-list-intro-title2 = Nema sačuvanih lozinki
+login-list-intro-description = Kada spasite lozinku u { -brand-product-name }, ona će biti prikazana ovdje.
+about-logins-login-list-empty-search-title2 = Nije pronađena nijedna lozinka
+about-logins-login-list-empty-search-description = Nema odgovarajućih rezultata za vašu pretragu.
+login-list-item-title-new-login2 = Dodaj lozinku
+login-list-item-subtitle-missing-username = (nema korisničkog imena)
+about-logins-list-item-breach-icon =
+    .title = Hakirana web stranica
+about-logins-list-item-vulnerable-password-icon =
+    .title = Ranjiva lozinka
+about-logins-list-section-breach = Hakirane web stranice
+about-logins-list-section-vulnerable = Ranjive lozinke
+about-logins-list-section-nothing = Nema upozorenja
+about-logins-list-section-today = Danas
+about-logins-list-section-yesterday = Jučer
+about-logins-list-section-week = Zadnjih 7 dana
+about-logins-login-intro-heading-message = Sačuvajte svoje lozinke na sigurnom mjestu
+login-intro-description2 = Sve lozinke koje sačuvate na { -brand-product-name }u su šifrovane. Osim toga, pazimo na kršenja i upozoravamo vas ako ste pogođeni. <a data-l10n-name="breach-alert-link">Saznajte više</a>
+login-intro-instructions-fxa2 = Kreirajte ili se prijavite na vaš račun na uređaju na kojem su sačuvane vaše prijave.
+login-intro-instructions-fxa-settings = Idite na Postavke > Sinhronizacija > Uključi sinhronizaciju… Označite polje za potvrdu Prijava i lozinke.
+login-intro-instructions-fxa-passwords-help = Posjetite <a data-l10n-name="passwords-help-link">podršku za lozinke</a> za dodatnu pomoć.
+about-logins-intro-import3 = Odaberite dugme sa znakom plus iznad da biste odmah dodali lozinku. Također možete <a data-l10n-name="import-browser-link">uvesti lozinke iz drugog pretraživača</a> ili <a data-l10n-name="import-file-link">iz fajla</a> a>.
+about-logins-login-item-new-login-title = Dodaj lozinku
+login-item-edit-button = Uredi
+about-logins-login-item-remove-button = Ukloni
+login-item-origin-label = Adresa web stranice
+about-logins-origin-tooltip2 = Unesite punu adresu i provjerite da li se tačno podudara s onom na koju se prijavljujete.
+about-logins-edit-password-tooltip = Provjerite jeste li sačuvali svoju trenutnu lozinku za ovu stranicu. Promjena lozinke ovdje ne mijenja je sa { $webTitle }.
+about-logins-add-password-tooltip = Provjerite jeste li sačuvali svoju trenutnu lozinku za ovu stranicu.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Korisničko ime
+about-logins-login-item-username =
+    .placeholder = (nema korisničkog imena)
+login-item-copy-username-button-text = Kopiraj
+login-item-copied-username-button-text = Kopirano!
+login-item-password-label = Lozinka
+login-item-password-reveal-checkbox =
+    .aria-label = Prikaži lozinku
+login-item-password-conceal-checkbox =
+    .aria-label = Sakrij lozinku
+login-item-copy-password-button-text = Kopiraj
+login-item-copied-password-button-text = Kopirano!
+about-logins-login-item-save-changes-button = Sačuvaj
+login-item-save-new-button = Spasi
+login-item-cancel-button = Otkaži
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Kreirano
+login-item-timeline-action-updated = Ažurirano
+login-item-timeline-action-used = Korišteno
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] promijenite postavke za lozinke
+       *[other] { -brand-short-name } pokušava promijeniti postavke za lozinke. Upotrijebite prijavu na svom uređaju da to dozvolite.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Da biste uredili lozinku, unesite svoje podatke za prijavu na Windows. Ovo pomaže u zaštiti sigurnosti vaših računa.
+about-logins-edit-login-os-auth-dialog-message2-macosx = uredite sačuvanu lozinku
+about-logins-reveal-password-os-auth-dialog-message-win = Za prikaz vaše lozinke, unesite svoje podatke za prijavu na Windows. To pomaže zaštiti sigurnost vaših računa.
+about-logins-reveal-password-os-auth-dialog-message-macosx = prikaži spašenu lozinku
+about-logins-copy-password-os-auth-dialog-message-win = Za kopiranje vaše lozinke, unesite svoje podatke za prijavu na Windows. To pomaže zaštiti sigurnost vaših računa.
+about-logins-copy-password-os-auth-dialog-message-macosx = kopiraj spašenu lozinku
+about-logins-export-password-os-auth-dialog-message2-win = Da biste izvezli svoje lozinke, unesite svoje Windows akreditive za prijavu. Ovo pomaže u zaštiti sigurnosti vaših računa.
+about-logins-export-password-os-auth-dialog-message2-macosx = izvoz sačuvanih lozinki
+about-logins-primary-password-notification-message = Molimo unesite svoju primarnu lozinku da vidite sačuvane prijave i lozinke
+master-password-reload-button =
+    .label = Prijavi
+    .accesskey = P
+confirmation-dialog-cancel-button = Otkaži
+confirmation-dialog-dismiss-button =
+    .title = Otkaži
+about-logins-confirm-delete-dialog-title = Ukloniti lozinku?
+about-logins-confirm-delete-dialog-message = Ne možete poništiti ovu radnju.
+about-logins-confirm-remove-dialog-confirm-button = Ukloni
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Ukloni
+        [one] Ukloni
+        [few] Ukloni sve
+       *[other] Ukloni sve
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Da, ukloni lozinku
+        [one] Da, ukloni lozinku
+        [few] Da, ukloni lozinke
+       *[other] Da, ukloni lozinke
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Ukloniti { $count } lozinku?
+        [few] Ukloniti sve { $count } lozinke?
+       *[other] Ukloniti svih { $count } lozinki?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Ovo će ukloniti lozinku sačuvanu u { -brand-short-name } i sva sigurnosna upozorenja. Ova radnja se ne može poništiti.
+        [one] Ovo će ukloniti lozinku sačuvanu u { -brand-short-name } i sva sigurnosna upozorenja. Ova radnja se ne može poništiti.
+        [few] Ovo će ukloniti lozinke sačuvane u { -brand-short-name } i sva sigurnosna upozorenja. Ova radnja se ne može poništiti.
+       *[other] Ovo će ukloniti lozinke sačuvane u { -brand-short-name } i sva sigurnosna upozorenja. Ova radnja se ne može poništiti.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Ukloniti { $count } lozinku sa svih uređaja?
+        [few] Ukloniti sve { $count } lozinke sa svih uređaja?
+       *[other] Ukloniti svih { $count } lozinki sa svih uređaja?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Ovo će ukloniti lozinku sačuvanu u { -brand-short-name } na svim vašim sinhronizovanim uređajima. Takođe će biti uklonjena sva sigurnosna upozorenja prikazana ovdje. Ova radnja se ne može poništiti.
+        [one] Ovo će ukloniti lozinku sačuvanu u { -brand-short-name } na svim vašim sinhronizovanim uređajima. Takođe će biti uklonjena sva sigurnosna upozorenja prikazana ovdje. Ova radnja se ne može poništiti.
+        [few] Ovo će ukloniti lozinke sačuvane u { -brand-short-name } na svim vašim sinhronizovanim uređajima. Takođe će biti uklonjena sva sigurnosna upozorenja prikazana ovdje. Ova radnja se ne može poništiti.
+       *[other] Ovo će ukloniti sve lozinke sačuvane u { -brand-short-name } na svim vašim sinhronizovanim uređajima. Takođe će biti uklonjena sva sigurnosna upozorenja prikazana ovdje. Ova radnja se ne može poništiti.
+    }
+about-logins-confirm-export-dialog-title2 = Napomena o izvozu lozinki
+about-logins-confirm-export-dialog-message2 =
+    Kada izvezete, vaše lozinke se spremaju u datoteku s čitljivim tekstom.
+    Kada završite s korištenjem datoteke, preporučujemo da je izbrišete kako drugi koji koriste ovaj uređaj ne bi mogli vidjeti vaše lozinke.
+about-logins-confirm-export-dialog-confirm-button2 = Nastavite sa izvozom
+about-logins-alert-import-message = Pogledajte detaljan sažetak uvoza
+confirm-discard-changes-dialog-title = Odbaci nespašene promjene?
+confirm-discard-changes-dialog-message = Sve nespašene promjene će biti izgubljene.
+confirm-discard-changes-dialog-confirm-button = Odbaci
+about-logins-breach-alert-title = Povreda podataka web stranice
+breach-alert-text = Lozinke su procurile ili ukradene sa ove web stranice otkako ste zadnji put ažurirali svoje podatke za prijavu. Promijenite lozinku da zaštitite svoj račun.
+about-logins-breach-alert-date = Ovo curenje podataka se dogodilo { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Posjeti { $hostname }
+about-logins-vulnerable-alert-title = Ranjiva lozinka
+about-logins-vulnerable-alert-text2 = Ova lozinka je korištena na drugom računu za koji je vjerovatno došlo do povrede podataka. Ponovno korištenje podataka za prijavu dovodi sve vaše račune u opasnost. Promijenite ovu lozinku.
+about-logins-vulnerable-alert-link = Posjeti { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Saznajte više
+about-logins-error-message-duplicate-login-with-link = Unos za { $loginTitle } sa tim korisničkim imenom već postoji. <a data-l10n-name="duplicate-link">Ići na postojeći unos?</a>
+about-logins-error-message-default = Desila se greška prilikom spašavanja ove lozinke.
+about-logins-export-file-picker-title2 = Izvezite lozinke iz { -brand-short-name }a
+about-logins-export-file-picker-default-filename2 = passwords.csv
+about-logins-export-file-picker-export-button = Izvezi
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV dokument
+       *[other] CSV fajl
+    }
+about-logins-import-file-picker-title2 = Uvezite lozinke u { -brand-short-name }
+about-logins-import-file-picker-import-button = Uvezi
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV dokument
+       *[other] CSV fajl
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV dokument
+       *[other] TSV datoteka
+    }
+about-logins-import-dialog-title = Uvoz završen
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Broj novo dodanih lozinki:</span> <span data-l10n-name="count">{ $count }</span>
+        [few] <span>Broj novo dodanih lozinki:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Broj novo dodanih lozinki:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Ažurirani postojeći unosi:</span> <span data-l10n-name="count">{ $count }</span>
+        [few] <span>Ažurirani postojeći unosi:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Ažurirani postojeći unosi:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Pronađeni dupli unosi:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nisu uvezeni)</span >
+        [few] <span>Pronađeni dupli unosi:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nisu uvezeni)</span >
+       *[other] <span>Pronađeni dupli unosi:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nisu uvezeni)</span >
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Greške:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nije uvezeno)</span>
+        [few] <span>Greške:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nije uvezeno)</span>
+       *[other] <span>Greške:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(nije uvezeno)</span>
+    }
+about-logins-import-dialog-done = Gotovo
+about-logins-import-dialog-error-title = Greška pri uvozu
+about-logins-import-dialog-error-conflicting-values-title = Više suprotstavljenih vrijednosti za jednu prijavu
+about-logins-import-dialog-error-conflicting-values-description = Na primjer: više korisničkih imena, lozinki, URL-ova, itd. za jednu prijavu.
+about-logins-import-dialog-error-file-format-title = Problem formata datoteke
+about-logins-import-dialog-error-file-format-description = Zaglavlja kolona su netačna ili nedostaju. Pobrinite se da datoteka sadrži kolone za korisničko ime, lozinku i URL.
+about-logins-import-dialog-error-file-permission-title = Nije moguće pročitati datoteku
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } nema dozvolu za čitanje datoteke. Pokušajte promijeniti dozvole za datoteku.
+about-logins-import-dialog-error-unable-to-read-title = Nije moguće obraditi datoteku
+about-logins-import-dialog-error-unable-to-read-description = Provjerite jeste li odabrali CSV ili TSV datoteku.
+about-logins-import-dialog-error-no-logins-imported = Nisu uvezene prijave
+about-logins-import-dialog-error-learn-more = Saznajte više
+about-logins-import-dialog-error-try-import-again = Pokušaj ponovo uvesti…
+about-logins-import-dialog-error-cancel = Otkaži
+about-logins-import-report-title = Sažetak uvoza
+about-logins-import-report-description2 = Lozinke uvezene u { -brand-short-name }.
+about-logins-import-report-row-index = Red { $number }
+about-logins-import-report-row-description-no-change2 = Duplikat: Tačno podudaranje postojećeg unosa
+about-logins-import-report-row-description-modified2 = Postojeći unos je ažuriran
+about-logins-import-report-row-description-added2 = Nova lozinka dodana
+about-logins-import-report-row-description-error = Greška: nedostaje polje
+about-logins-import-report-row-description-error-multiple-values = Greška: Više vrijednosti za { $field }
+about-logins-import-report-row-description-error-missing-field = Greška: nedostaje { $field }
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nova lozinka je dodana</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">nove lozinke su dodane</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">novih lozinki je dodano</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">postojeća stavka je ažurirana</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">postojeće stavke su ažurirane</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">postojećih stavki je ažurirano</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">duplikat stavke</div> <div data-l10n-name="not-imported">(nije uvezena)</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">duplikata stavki</div> <div data-l10n-name="not-imported">(nisu uvezene)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">duplikata stavki</div> <div data-l10n-name="not-imported">(nije uvezeno)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">greška</div> <div data-l10n-name="not-imported">(nije uvezena)</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">greške</div> <div data-l10n-name="not-imported">(nisu uvezene)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">grešaka</div> <div data-l10n-name="not-imported">(nije uvezeno)</div>
+    }
+about-logins-import-report-page-title = Izvještaj o sažetku uvoza

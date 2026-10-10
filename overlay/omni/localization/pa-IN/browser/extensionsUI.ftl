@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ਤੁਹਾਡੇ ਡਿਫਾਲਟ ਖੋਜ ਇੰਜਣ ਨੂੰ { $currentEngine } ਤੋਂ { $newEngine } ਲਈ ਬਦਲਣਾ ਚਾਹੁੰਦਾ ਹੈ। ਕੀ ਇਹ ਠੀਕ ਹੈ?
+webext-default-search-yes =
+    .label = ਹਾਂ
+    .accesskey = Y
+webext-default-search-no =
+    .label = ਨਹੀਂ
+    .accesskey = N
+addon-post-install-message = { $addonName } ਨੂੰ ਜੋੜਿਆ ਗਿਆ ਸੀ।
+webext-quarantine-confirmation-title = ਪਾਬੰਦੀਸ਼ੁਦਾ ਸਾਈਟਾਂ ਉੱਤੇ { $addonName } ਚਲਾਉਣੀ ਹੈ?
+webext-quarantine-confirmation-line-1 = ਤੁਹਾਡੇ ਡਾਟੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਇਸ ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ ਇਸ ਵੈੱਬਸਾਈਟ ਉੱਤੇ ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੱਤੀ ਹੈ।
+webext-quarantine-confirmation-line-2 = ਜੇ ਤੁਸੀਂ { -vendor-short-name } ਵਲੋਂ ਪਾਬੰਦੀ ਲਾਈਆਂ ਸਾਈਟਾਂ ਉੱਤੇ ਇਸ ਇਕਸਟੈਨਸ਼ਨ ਨੂੰ ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਪੜ੍ਹਨ ਅਤੇ ਬਦਲਣ ਲਈ ਭਰੋਸਾ ਕਰਦੇ ਹੋ ਤੁਸੀਂ ਇਸ ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ।
+webext-quarantine-confirmation-allow =
+    .label = ਮਨਜ਼ੂਰ
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = ਨਾ-ਮਨਜ਼ੂਰ ਕਰੋ
+    .accesskey = D

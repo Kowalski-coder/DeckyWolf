@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Nueva pestaña contenedora
+all-tabs-menu-hidden-tabs =
+    .label = Pestañas ocultas
+all-tabs-menu-recent-tab-groups-header = Grupos de pestañas recientes
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostrar todo
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de pestañas
+all-tabs-menu-current-window-header = Ventana actual

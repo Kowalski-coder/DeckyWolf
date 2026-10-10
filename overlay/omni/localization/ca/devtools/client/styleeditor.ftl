@@ -1,0 +1,34 @@
+styleeditor-new-button =
+    .tooltiptext = Crea i afegeix un full d'estil nou al document
+    .accesskey = N
+styleeditor-import-button =
+    .tooltiptext = Importa i afegeix un full d'estil existent al document
+    .accesskey = I
+styleeditor-visibility-toggle =
+    .tooltiptext = Commuta la visibilitat del full d'estil
+    .accesskey = D
+styleeditor-save-button = Desa
+    .tooltiptext = Desa aquest full d'estil en un fitxer
+    .accesskey = D
+styleeditor-options-button =
+    .tooltiptext = Opcions de l'editor d'estils
+styleeditor-no-stylesheet = Aquesta pàgina no té cap full d'estil.
+styleeditor-no-stylesheet-tip = Potser voleu <a data-l10n-name="append-new-stylesheet">afegir un full d'estil nou</a>?
+styleeditor-open-link-new-tab =
+    .label = Obre l'enllaç en una pestanya nova
+styleeditor-copy-url =
+    .label = Copia l'URL
+styleeditor-find =
+    .label = Cerca
+    .accesskey = r
+styleeditor-find-again =
+    .label = Torna a cercar
+    .accesskey = o
+styleeditor-go-to-line =
+    .label = Salta a la línia…
+    .accesskey = S
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } regla.
+       *[other] { $ruleCount } regles.
+    }

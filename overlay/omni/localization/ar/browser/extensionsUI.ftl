@@ -1,0 +1,17 @@
+webext-default-search-description = يريد { $addonName } تغيير محرك البحث المبدئي من { $currentEngine } إلى { $newEngine }. أأنت موافق؟
+webext-default-search-yes =
+    .label = نعم
+    .accesskey = ع
+webext-default-search-no =
+    .label = لا
+    .accesskey = ل
+addon-post-install-message = أُضيف { $addonName }.
+webext-quarantine-confirmation-title = تشغيل { $addonName } في المواقع المقيّدة؟
+webext-quarantine-confirmation-line-1 = لحماية بياناتك، هذا الامتداد غير مسموح به على هذا الموقع.
+webext-quarantine-confirmation-line-2 = اسمح لهذا الامتداد إذا كنت تثق به لقراءة بياناتك وتغييرها على المواقع المقيّدة بواسطة { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = اسمح
+    .accesskey = س
+webext-quarantine-confirmation-deny =
+    .label = لا تسمح
+    .accesskey = ت

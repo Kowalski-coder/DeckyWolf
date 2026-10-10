@@ -1,0 +1,15 @@
+panic-button-open-new-window = ಒಂದು ಹೊಸ ಸ್ವಚ್ಚವಾದ ಕಿಟಕಿಯನ್ನು ತೆರೆಯಿರಿ
+panic-button-undo-warning = ಈ ಕಾರ್ಯವನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ.
+panic-button-forget-button =
+    .label = ಮರೆತುಬಿಡು!
+panic-main-timeframe-desc = ಹಿಂದಿನದನ್ನು ಮರೆತುಬಿಡು:
+panic-button-5min =
+    .label = ಐದು ನಿಮಿಷಗಳು
+panic-button-2hr =
+    .label = ಎರಡು ತಾಸುಗಳು
+panic-button-day =
+    .label = 24 ತಾಸುಗಳು
+panic-button-action-desc = ಇಲ್ಲಿಂದ ಮುಂದುವರೆದರೆ:
+panic-button-delete-cookies = ಇತ್ತೀಚಿನ <strong>ಕುಕಿಗಳನ್ನು </strong> ಅಳಿಸು
+panic-button-delete-history = ಇತ್ತೀಚಿನ <strong> ಇತಿಹಾಸವನ್ನು</strong> ಅಳಿಸು
+panic-button-delete-tabs-and-windows = ಎಲ್ಲಾ <strong>ಹಾಳೆಗಳನ್ನು </strong> ಹಾಗೂ <strong>ಕಿಟಕಿಗಳನ್ನು </strong> ಮುಚ್ಚು

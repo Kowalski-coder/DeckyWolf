@@ -1,0 +1,11 @@
+grid-row-column-positions = Eilutė Nr. { $row } / stulpelis Nr. { $column }
+gridtype-container = „Grid“ konteineris
+gridtype-item = „Grid“ elementas
+gridtype-dual = „Grid“ konteineris / elementas
+flextype-container = „Flex“ konteineris
+flextype-item = „Flex“ elementas
+flextype-dual = „Flex“ konteineris / elementas
+remote-node-picker-notice = Programuotojo priemonių elementų parinkiklis įjungtas. { $action }
+remote-node-picker-notice-action-desktop = Spustelėkite elementą, norėdami jį parinkti tyriklyje
+remote-node-picker-notice-action-touch = Bakstelėkite elementą, norėdami jį parinkti tyriklyje
+remote-node-picker-notice-hide-button = Nerodyti

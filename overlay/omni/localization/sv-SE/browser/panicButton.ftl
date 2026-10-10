@@ -1,0 +1,15 @@
+panic-button-open-new-window = Öppna ett nytt rent fönster
+panic-button-undo-warning = Den här åtgärden kan inte ångras.
+panic-button-forget-button =
+    .label = Glöm!
+panic-main-timeframe-desc = Glöm senaste:
+panic-button-5min =
+    .label = fem minuterna
+panic-button-2hr =
+    .label = två timmarna
+panic-button-day =
+    .label = 24 timmarna
+panic-button-action-desc = Nästa steg kommer:
+panic-button-delete-cookies = Ta bort senaste <strong>kakorna</strong>
+panic-button-delete-history = Ta bort senaste <strong>historiken</strong>
+panic-button-delete-tabs-and-windows = Stänga alla <strong>flikar</strong> och <strong>fönster</strong>

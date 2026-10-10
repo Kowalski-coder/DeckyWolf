@@ -1,0 +1,45 @@
+aboutDialog-title =
+    .title = Ô programie { -brand-full-name }
+releaseNotes-link = Co nowego
+update-checkForUpdatesButton =
+    .label = Poszukej aktualizacyji
+    .accesskey = P
+update-updateButton =
+    .label = Zresztartuj, żeby zaktualizować program { -brand-shorter-name }
+    .accesskey = Z
+update-checkingForUpdates = Szukanie aktualizacyji…
+settings-update-checking-for-updates =
+    .label = Szukanie aktualizacyji…
+settings-update-downloading-2 =
+    .label = Pobiyranie aktualizacyje — { $transfer }
+aboutdialog-update-downloading = Aktualizacyjo je pobiyrano — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Przidowanie aktualizacyje…
+settings-update-applying =
+    .label = Przidowanie aktualizacyje…
+update-failed = Niy szło zaktualizować. <label data-l10n-name="failed-link">Pobier nojnowszo wersyjo</label>
+update-failed-main = Niy szło zaktualizować. <a data-l10n-name="failed-link-main">Pobier nojnowszo wersyjo</a>
+update-noUpdatesFound = { -brand-short-name } je aktualny
+settings-update-no-updates-found =
+    .label = { -brand-short-name } je aktualny
+update-otherInstanceHandlingUpdates = { -brand-short-name } je aktualizowany ôd inszyj instancyje
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } je aktualizowany ôd inszyj instancyje
+aboutdialog-update-manual-with-link = Aktualizacyje dostympne na <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Aktualizacyje dostympne na <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Niy idzie robić dalszych aktualizacyji na tym systymie. <label data-l10n-name="unsupported-link">Wiyncyj</label>
+settings-update-unsupported = Niy idzie robić dalszych aktualizacyji na tym systymie. <a data-l10n-name="unsupported-link">Wiyncyj</a>
+update-restarting = Resztartowanie…
+settings-update-restarting =
+    .label = Resztartowanie…
+aboutdialog-channel-description = Używosz teroz kanału aktualizacyji <label data-l10n-name="current-channel">{ $channel }</label>.
+warningDesc-version = { -brand-short-name } to wersyjo eksperymyntalno i może niy być stabilno.
+aboutdialog-help-user = Pōmoc aplikacyje { -brand-product-name }
+aboutdialog-submit-feedback = Poślij ôpinijo
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> to <label data-l10n-name="community-exp-creditsLink">globalno społeczność</label>, co spōłpracuje, żeby nec bōł durch ôtwarty, publiczny i dostympny do wszyjskich.
+community-2 = Program { -brand-short-name } bōł stworzōny ôd <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, <label data-l10n-name="community-creditsLink">globalno społeczność</label>, co spōłpracuje, żeby nec bōł durch ôtwarty, publiczny i dostympny do wszyjskich.
+helpus = Chcesz pōmōc? <label data-l10n-name="helpus-donateLink">Podaruj dowka</label> abo <label data-l10n-name="helpus-getInvolvedLink">przistōmp dō nos!</label>
+bottomLinks-license = Informacyjo ô licyncyji
+bottom-links-terms = Warōnki używanio
+bottom-links-privacy = Ô prywatności
+aboutDialog-version = { $version } ({ $bits } bity)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } bity)

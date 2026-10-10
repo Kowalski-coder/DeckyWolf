@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Quitar do menú adicional (»)
+    .accesskey = u
+customize-menu-add-to-toolbar =
+    .label = Engadir á barra de ferramentas
+    .accesskey = a
+customize-menu-add-to-overflowmenu =
+    .label = Engadir ao menú adicional (»)
+    .accesskey = m
+panic-button-thankyou-msg1 = Eliminouse o seu historial recente.
+panic-button-thankyou-msg2 = Navegación segura!
+panic-button-thankyou-button =
+    .label = Grazas!

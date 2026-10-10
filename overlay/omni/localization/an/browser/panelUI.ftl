@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Sacar d'o menú de sobreiximiento
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Adhibir en a barra de ferramientas
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Anyader ta lo menú de sobreiximiento
+    .accesskey = M
+panic-button-thankyou-msg1 = O tuyo historial recient ye vuedau.
+panic-button-thankyou-msg2 = Navega seguro!
+panic-button-thankyou-button =
+    .label = Gracias!

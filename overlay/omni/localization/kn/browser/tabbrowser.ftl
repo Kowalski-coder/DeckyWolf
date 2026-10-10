@@ -1,0 +1,17 @@
+tabbrowser-empty-tab-title = ಹೊಸ ಹಾಳೆ
+tabbrowser-menuitem-close-tab =
+    .label = ಹಾಳೆಯನ್ನು ಮುಚ್ಚು
+tabbrowser-menuitem-close =
+    .label = ಮುಚ್ಚು
+tabbrowser-confirm-close-tabs-button = ಹಾಳೆಗಳನ್ನು ಮುಚ್ಚು
+tabbrowser-confirm-open-multiple-tabs-title = ತೆರೆಯಲ್ಪಟ್ಟಿದ್ದನ್ನು ಖಚಿತಪಡಿಸು
+tabbrowser-confirm-open-multiple-tabs-button = ತೆರೆದ ಹಾಳೆಗಳು
+tabbrowser-customizemode-tab-title = { -brand-short-name } ಅನ್ನು ಅಗತ್ಯಾನುಗುಣಗೊಳಿಸು
+tabbrowser-context-mute-tab =
+    .label = ಮ್ಯೂಟ್ ಟ್ಯಾಬ್
+    .accesskey = M
+tabbrowser-context-unmute-tab =
+    .label = Unmute ಹಾಳೆ
+    .accesskey = m
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = ಎಲ್ಲಾ ಪಟ್ಟಿ ಮಾಡು { $tabCount } ಹಾಳೆಗಳು

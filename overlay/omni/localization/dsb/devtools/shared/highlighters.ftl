@@ -1,0 +1,13 @@
+grid-row-column-positions = Smužka { $row } / Słup { $column }
+gridtype-container = Kśidnowy kontejner
+gridtype-item = Kśidnowy zapisk
+gridtype-dual = Kśidnowy kontejner/zapisk
+flextype-container = Kontejner flex
+flextype-item = Zapisk flex
+flextype-dual = Kontejner flex/zapisk
+remote-node-picker-notice = Sukowy wuběrak DevTools jo zmóžnjony. { $action }
+remote-node-picker-notice-action-desktop = Klikniśo na element, aby jen w inspektorje wubrał
+remote-node-picker-notice-action-touch = Pótusniśo element, aby jen w inspektorje wubrał
+remote-node-picker-notice-hide-button = Schowaś
+simple-highlighters-message = Gaž prefers-reduced-motion jo zmóžnjony, jadnorjejšy wuzwigowak dajo se w nastajenjach zmóžniś, aby se blinkajucych barwow wobinuli.
+simple-highlighters-settings-button = Nastajenja wócyniś

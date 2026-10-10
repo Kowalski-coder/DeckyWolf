@@ -1,0 +1,270 @@
+about-logins-page-title-name = Пароли
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Поиск паролей
+create-login-button =
+    .title = Добавить пароль
+fxaccounts-sign-in-text = Получайте доступ к своим паролям на других устройствах
+fxaccounts-sign-in-sync-button = Войдите в синхронизацию
+fxaccounts-avatar-button =
+    .title = Управление аккаунтом
+menu =
+    .title = Открыть меню
+about-logins-menu-menuitem-import-from-another-browser = Импорт из другого браузера…
+about-logins-menu-menuitem-import-from-a-file = Импорт из файла…
+about-logins-menu-menuitem-export-logins2 = Экспорт паролей…
+about-logins-menu-menuitem-remove-all-logins2 = Удалить все пароли…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Настройки
+       *[other] Настройки
+    }
+about-logins-menu-menuitem-help = Помощь
+login-list =
+    .aria-label = Логины, соответствующие поисковому запросу
+login-list-count2 =
+    { $count ->
+        [one] { $count } пароль
+        [few] { $count } пароля
+       *[many] { $count } паролей
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } из { $total } пароля
+        [few] { $count } из { $total } паролей
+       *[many] { $count } из { $total } паролей
+    }
+login-list-sort-label-text = Упорядочивать:
+login-list-name-option = По имени (А-Я)
+login-list-name-reverse-option = По имени (Я-А)
+login-list-username-option = По имени пользователя (А-Я)
+login-list-username-reverse-option = По имени пользователя (Я-А)
+about-logins-login-list-alerts-option = Уведомления
+login-list-last-changed-option = По последнему изменению
+login-list-last-used-option = По последнему использованию
+login-list-intro-title2 = Пароли не сохранены
+login-list-intro-description = Когда вы сохраните пароль в { -brand-product-name }, он появится здесь.
+about-logins-login-list-empty-search-title2 = Пароли не найдены
+about-logins-login-list-empty-search-description = Результатов, подходящих под ваш запрос, не найдено.
+login-list-item-title-new-login2 = Добавить пароль
+login-list-item-subtitle-missing-username = (нет имени пользователя)
+about-logins-list-item-breach-icon =
+    .title = Взломанный сайт
+about-logins-list-item-vulnerable-password-icon =
+    .title = Уязвимый пароль
+about-logins-list-section-breach = Взломанные веб-сайты
+about-logins-list-section-vulnerable = Уязвимые пароли
+about-logins-list-section-nothing = Нет предупреждения
+about-logins-list-section-today = Сегодня
+about-logins-list-section-yesterday = Вчера
+about-logins-list-section-week = За последние 7 дней
+about-logins-login-intro-heading-message = Сохраняйте свои пароли в безопасном месте
+login-intro-description2 = Все пароли, которые вы сохраняете в { -brand-product-name }, зашифрованы. Кроме того, мы следим за утечками и сообщаем вам, если они вас касаются. <a data-l10n-name="breach-alert-link">Подробнее</a>
+login-intro-instructions-fxa2 = Создайте или войдите в ваш аккаунт на устройстве, где сохранены ваши логины.
+login-intro-instructions-fxa-settings = Выберите «Настройки» > «Синхронизация» > «Включить синхронизацию…». Установите флажок «Логины и пароли».
+login-intro-instructions-fxa-passwords-help = Посетите <a data-l10n-name="passwords-help-link">раздел поддержки по паролям</a>, чтобы узнать больше.
+about-logins-intro-import3 = Нажмите кнопку со значком плюса выше, чтобы добавить пароль сейчас. Вы также можете <a data-l10n-name="import-browser-link">импортировать пароли из другого браузера</a> или <a data-l10n-name="import-file-link">из файла</a>.
+about-logins-login-item-new-login-title = Добавить пароль
+login-item-edit-button = Изменить
+about-logins-login-item-remove-button = Удалить
+login-item-origin-label = Адрес веб-сайта
+about-logins-origin-tooltip2 = Введите полный адрес и убедитесь, что он точно соответствует тому, где вы входите в систему.
+about-logins-edit-password-tooltip = Убедитесь, что вы сохранили свой текущий пароль для этого сайта. Изменение пароля здесь не приводит к его изменению на { $webTitle }.
+about-logins-add-password-tooltip = Убедитесь, что вы сохранили свой текущий пароль для этого сайта.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Имя пользователя
+about-logins-login-item-username =
+    .placeholder = (нет имени пользователя)
+login-item-copy-username-button-text = Копировать
+login-item-copied-username-button-text = Скопировано!
+login-item-password-label = Пароль
+login-item-password-reveal-checkbox =
+    .aria-label = Показать пароль
+login-item-password-conceal-checkbox =
+    .aria-label = Скрыть пароль
+login-item-copy-password-button-text = Копировать
+login-item-copied-password-button-text = Скопировано!
+about-logins-login-item-save-changes-button = Сохранить
+login-item-save-new-button = Сохранить
+login-item-cancel-button = Отмена
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Создан
+login-item-timeline-action-updated = Обновлён
+login-item-timeline-action-used = Использован
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] изменить настройки для паролей
+       *[other] { -brand-short-name } пытается изменить настройки паролей. Используйте вход на устройстве, чтобы разрешить это.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Чтобы изменить свой пароль, введите свои учётные данные для входа в Windows. Это помогает защитить безопасность ваших аккаунтов.
+about-logins-edit-login-os-auth-dialog-message2-macosx = изменить сохранённый пароль
+about-logins-reveal-password-os-auth-dialog-message-win = Чтобы просмотреть свой пароль, введите ваши учётные данные для входа в Windows. Это поможет защитить безопасность ваших аккаунтов.
+about-logins-reveal-password-os-auth-dialog-message-macosx = показать сохранённый пароль
+about-logins-copy-password-os-auth-dialog-message-win = Чтобы скопировать свой пароль введите ваши учётные данные для входа в Windows. Это поможет защитить безопасность ваших аккаунтов.
+about-logins-copy-password-os-auth-dialog-message-macosx = копировать сохранённый пароль
+about-logins-export-password-os-auth-dialog-message2-win = Чтобы экспортировать пароли, введите свои учётные данные для входа в Windows. Это помогает защитить безопасность ваших аккаунтов.
+about-logins-export-password-os-auth-dialog-message2-macosx = экспорт сохранённых паролей
+about-logins-primary-password-notification-message = Введите свой основной пароль, чтобы просмотреть сохранённые логины и пароли
+master-password-reload-button =
+    .label = Войти
+    .accesskey = В
+confirmation-dialog-cancel-button = Отмена
+confirmation-dialog-dismiss-button =
+    .title = Отмена
+about-logins-confirm-delete-dialog-title = Удалить пароль?
+about-logins-confirm-delete-dialog-message = Вы не можете отменить это действие.
+about-logins-confirm-remove-dialog-confirm-button = Удалить
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Удалить
+        [one] Удалить все
+        [few] Удалить все
+       *[many] Удалить все
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Да, удалить пароль
+        [one] Да, удалить пароль
+        [few] Да, удалить пароли
+       *[many] Да, удалить пароли
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Удалить { $count } пароль?
+        [few] Удалить { $count } пароля?
+       *[many] Удалить все { $count } паролей?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] При этом будет удалён пароль, сохранённый в { -brand-short-name }, и все предупреждения о взломе. Вы не можете отменить это действие.
+        [one] При этом будет удалён пароль, сохранённый в { -brand-short-name }, и все предупреждения о взломе. Вы не можете отменить это действие.
+        [few] При этом будут удалены пароли, сохранённые в { -brand-short-name }, и все предупреждения о взломе. Вы не можете отменить это действие.
+       *[many] При этом будут удалены пароли, сохранённые в { -brand-short-name }, и все предупреждения о взломе. Вы не можете отменить это действие.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Удалить { $count } пароль со всех устройств?
+        [few] Удалить { $count } пароля со всех устройств?
+       *[many] Удалить все { $count } паролей со всех устройств?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Это приведёт к удалению пароля, сохранённого в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
+        [one] Это приведёт к удалению пароля, сохранённого в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
+        [few] Это приведёт к удалению паролей, сохранённых в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
+       *[many] Это приведёт к удалению паролей, сохранённых в { -brand-short-name } на всех ваших синхронизированных устройствах. Это также приведёт к удалению всех отображаемых здесь предупреждениях о взломе. Вы не можете отменить это действие.
+    }
+about-logins-confirm-export-dialog-title2 = Примечание об экспорте паролей
+about-logins-confirm-export-dialog-message2 =
+    При экспорте ваши пароли сохраняются в файл с удобочитаемым текстом.
+    Когда вы закончите использование файла, мы рекомендуем удалить его, чтобы другие пользователи этого устройства не смогли увидеть ваши пароли.
+about-logins-confirm-export-dialog-confirm-button2 = Продолжить экспорт
+about-logins-alert-import-message = Посмотреть подробную сводку импорта
+confirm-discard-changes-dialog-title = Отказаться от несохранённых изменений?
+confirm-discard-changes-dialog-message = Все несохранённые изменения будут потеряны.
+confirm-discard-changes-dialog-confirm-button = Отказаться
+about-logins-breach-alert-title = Утечка на сайте
+breach-alert-text = С момента последнего обновления данных для входа, с этого сайта произошла утечка или кража паролей. Измените ваш пароль, чтобы защитить свой аккаунт.
+about-logins-breach-alert-date = Эта утечка случилась { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Перейти на { $hostname }
+about-logins-vulnerable-alert-title = Уязвимый пароль
+about-logins-vulnerable-alert-text2 = Этот пароль был использован в другом аккаунте, который, вероятно, подвергся утечке данных. Дальнейшее использование этих учётных данных ставит все ваши аккаунты под угрозу. Смените этот пароль.
+about-logins-vulnerable-alert-link = Перейти на { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Подробнее
+about-logins-error-message-duplicate-login-with-link = Запись для { $loginTitle } с таким именем пользователя уже существует. <a data-l10n-name="duplicate-link">Перейти к существующей записи?</a>
+about-logins-error-message-default = При попытке сохранить этот пароль произошла ошибка.
+about-logins-export-file-picker-title2 = Экспорт паролей из { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = пароли.csv
+about-logins-export-file-picker-export-button = Экспортировать
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Документ CSV
+       *[other] CSV-файл
+    }
+about-logins-import-file-picker-title2 = Импорт паролей в { -brand-short-name }
+about-logins-import-file-picker-import-button = Импортировать
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Документ CSV
+       *[other] CSV-файл
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Документ TSV
+       *[other] TSV-файл
+    }
+about-logins-import-dialog-title = Импорт завершён
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Добавлен новый пароль:</span> <span data-l10n-name="count">{ $count }</span>
+        [few] <span>Добавлены новые пароли:</span> <span data-l10n-name="count">{ $count }</span>
+       *[many] <span>Добавлены новые пароли:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Обновлена существующая запись:</span> <span data-l10n-name="count">{ $count }</span>
+        [few] <span>Обновлены существующие записи:</span> <span data-l10n-name="count">{ $count }</span>
+       *[many] <span>Обновлены существующие записи:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Обнаружена повторяющаяся запись:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортирована)</span>
+        [few] <span>Обнаружены повторяющиеся записи:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортированы)</span>
+       *[many] <span>Обнаружены повторяющиеся записи:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортированы)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Ошибки:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортирован)</span>
+        [few] <span>Ошибки:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортированы)</span>
+       *[many] <span>Ошибки:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(не импортированы)</span>
+    }
+about-logins-import-dialog-done = Готово
+about-logins-import-dialog-error-title = Ошибка импорта
+about-logins-import-dialog-error-conflicting-values-title = Несколько конфликтующих учётных данных для одного логина
+about-logins-import-dialog-error-conflicting-values-description = Например: несколько имён пользователей, паролей, сетевых адресов для одного логина.
+about-logins-import-dialog-error-file-format-title = Неверный формат файла
+about-logins-import-dialog-error-file-format-description = Неверные или отсутствующие заголовки столбцов. Проверьте, что в файле действительно содержатся колонки для имени пользователя, пароля и URL.
+about-logins-import-dialog-error-file-permission-title = Не удалось прочитать файл
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } не имеет прав на чтение файла. Попробуйте сменить разрешения для файла.
+about-logins-import-dialog-error-unable-to-read-title = Не удалось обработать файл
+about-logins-import-dialog-error-unable-to-read-description = Проверьте, что вы действительно выбрали CSV или TSV-файл.
+about-logins-import-dialog-error-no-logins-imported = Ни один логин не импортирован
+about-logins-import-dialog-error-learn-more = Подробнее
+about-logins-import-dialog-error-try-import-again = Повторить попытку импорта…
+about-logins-import-dialog-error-cancel = Отмена
+about-logins-import-report-title = Сводка импорта
+about-logins-import-report-description2 = Пароли импортированы в { -brand-short-name }.
+about-logins-import-report-row-index = Строка { $number }
+about-logins-import-report-row-description-no-change2 = Дубликат: точное совпадение с существующей записью
+about-logins-import-report-row-description-modified2 = Существующая запись обновлена
+about-logins-import-report-row-description-added2 = Добавлен новый пароль
+about-logins-import-report-row-description-error = Ошибка: отсутствует поле
+about-logins-import-report-row-description-error-multiple-values = Ошибка: несколько значений для { $field }
+about-logins-import-report-row-description-error-missing-field = Ошибка: Отсутствует { $field }
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">новый пароль добавлен</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">новых пароля добавлено</div>
+       *[many] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">новых паролей добавлено</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">существующая запись обновлена</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">существующие записи обновлены</div>
+       *[many] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">существующих записей обновлены</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">повторяющаяся запись</div> <div data-l10n-name="not-imported">(не импортирована)</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">повторяющиеся записи</div> <div data-l10n-name="not-imported">(не импортированы)</div>
+       *[many] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">повторяющиеся записи</div> <div data-l10n-name="not-imported">(не импортированы)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ошибка</div> <div data-l10n-name="not-imported">(не импортировано)</div>
+        [few] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ошибки</div> <div data-l10n-name="not-imported">(не импортировано)</div>
+       *[many] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ошибок</div> <div data-l10n-name="not-imported">(не импортировано)</div>
+    }
+about-logins-import-report-page-title = Сводный отчёт об импорте

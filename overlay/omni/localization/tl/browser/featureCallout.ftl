@@ -1,0 +1,9 @@
+callout-primary-advance-button-label = Susunod
+callout-primary-complete-button-label = Nakuha ko!
+callout-firefox-view-tab-pickup-title = Lumipat sa mga ibang device gamit ang tab pickup
+callout-firefox-view-tab-pickup-subtitle = Mabilis mong kunin ang mga nakabukas na tab galing sa iyong telepono at buksan mo ito dito para mahusay ang iyong trabaho.
+callout-firefox-view-recently-closed-title = Madali kang bumalik sa iyong mga nakasaradong tab
+callout-firefox-view-recently-closed-subtitle = Lahat ng iyong saradong tab ay mahiwagang lalabas dito. Huwag mag-alala na ma-aksidenteng masasara muli ang isang site.
+continuous-onboarding-firefox-view-tab-pickup-title = Palakasin ang iyong pagba-browse gamit ang tab pickup
+continuous-onboarding-firefox-view-tab-pickup-subtitle = i-Access ang iyong nakabukas na mga tab mula sa anumang device. At pwede mo pang i-sync ang iyong bookmarks, passwords, at iba pa.
+continuous-onboarding-firefox-view-tab-pickup-primary-button-label = Magsimula

@@ -1,0 +1,14 @@
+default-bookmarks-title = ที่คั่นหน้า
+default-bookmarks-heading = ที่คั่นหน้า
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = รับความช่วยเหลือ
+default-bookmarks-firefox-customize = ปรับแต่ง Firefox
+default-bookmarks-firefox-community = มีส่วนร่วม
+default-bookmarks-firefox-about = เกี่ยวกับเรา
+default-bookmarks-nightly-heading = ทรัพยากร Firefox Nightly
+default-bookmarks-nightly-blog = บล็อก Firefox Nightly
+default-bookmarks-bugzilla = ตัวติดตามข้อบกพร่อง Mozilla
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = เครื่องมือทดสอบ Nightly
+default-bookmarks-crashes = ข้อขัดข้องของคุณทั้งหมด
+default-bookmarks-planet = Planet Mozilla

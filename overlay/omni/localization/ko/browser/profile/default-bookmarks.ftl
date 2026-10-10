@@ -1,0 +1,14 @@
+default-bookmarks-title = 북마크
+default-bookmarks-heading = 북마크
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = 도움 받기
+default-bookmarks-firefox-customize = Firefox 사용자 지정
+default-bookmarks-firefox-community = 참여하기
+default-bookmarks-firefox-about = 회사 소개
+default-bookmarks-nightly-heading = Firefox Nightly 리소스
+default-bookmarks-nightly-blog = Firefox Nightly 블로그
+default-bookmarks-bugzilla = Mozilla 버그 트래커
+default-bookmarks-mdn = Mozilla 개발자 네트워크
+default-bookmarks-nightly-tester-tools = Nightly 테스터 도구
+default-bookmarks-crashes = 모든 충돌 정보
+default-bookmarks-planet = Planet Mozilla

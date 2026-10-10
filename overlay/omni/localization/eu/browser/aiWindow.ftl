@@ -1,0 +1,9 @@
+aiwindow-starter-scroll-start =
+    .aria-label = Korritu atzera
+    .tooltiptext = Korritu atzera
+aiwindow-starter-scroll-end =
+    .aria-label = Korritu aurrera
+    .tooltiptext = Korritu aurrera
+aiwindow-starter-dismiss =
+    .aria-label = Baztertu { $text }
+    .title = Baztertu { $text }

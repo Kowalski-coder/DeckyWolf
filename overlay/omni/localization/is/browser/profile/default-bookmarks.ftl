@@ -1,0 +1,14 @@
+default-bookmarks-title = Bókamerki
+default-bookmarks-heading = Bókamerki
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Fá aðstoð
+default-bookmarks-firefox-customize = Sérsníða Firefox
+default-bookmarks-firefox-community = Taktu þátt
+default-bookmarks-firefox-about = Um okkur
+default-bookmarks-nightly-heading = Firefox Nightly tilföng
+default-bookmarks-nightly-blog = Firefox Nightly blogg
+default-bookmarks-bugzilla = Mozilla villuskráning
+default-bookmarks-mdn = Netumhverfi Mozilla þróunaraðila
+default-bookmarks-nightly-tester-tools = Prófunartól fyrir Nightly
+default-bookmarks-crashes = Allar hrunskýrslurnar þínar
+default-bookmarks-planet = Planet Mozilla

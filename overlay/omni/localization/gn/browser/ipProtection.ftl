@@ -1,0 +1,194 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = Emyandy VPN
+    .tooltiptext = Emyandy VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = Embojuruja VPN kuatiarogue ptyvõha
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Rohechauka VPN, ko’ág̃a ne kundahára ryepýpe
+ipprotection-feature-introduction-title-1 = Eiporu VPN jehe’apyre { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = Eiporu ore <a data-l10n-name="learn-more-vpn">VPN juajupyre</a> pyahu eñomi hag̃ua ne rendaite ha emo’ã ne mba’ekuaarã.
+ipprotection-feature-introduction-title-privacy = Embojuaju ambue tekoñemiverã
+ipprotection-feature-introduction-link-text-privacy-1 = VPN oñemohendapyréva <a data-l10n-name="learn-more-vpn">{ -brand-product-name }</a> rehegua oipytyvõ omo’ã hag̃ua ne ñeikundaha. Eiporavo heta hendágui eikundaha ñemi hag̃ua.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn"> VPN ojuajupyréva { -brand-product-name }</a> rehegua oipytyvõ omo’ãkuaa hag̃ua ne ñeikundaha. Eiporavo heta hendágui eikundaha ñemi hag̃ua.
+ipprotection-feature-introduction-link-text-privacy-3 = Ehupyty <a data-l10n-name="learn-more-vpn">tekoñemive</a> eiporavóvo heta tendaite apytégui eñomi hag̃ua eikundahaha.
+ipprotection-feature-introduction-title-summer-promo = ¿Eviajasépa? Egueraha nendive nde rekoñemi.
+ipprotection-feature-introduction-description-summer-promo = Eg̃uahẽ mombyryve VPN juajupyre { -brand-product-name } ndive: tendaiteve, banda ancha opa’ỹva. Kóva 31 japorundy peve.
+ipprotection-summer-promo-offramp-generic-title = Pe VPN juejupyre ru’ã oiko jeýta 1 jasyporundýpe
+ipprotection-summer-promo-offramp-generic-description = Eiporu { $maxUsage } GB ha 6 tendaite ñemigua rekorosãverã ha ne ñeikundaha hasyve hag̃uáicha ijehapykueho.
+ipprotection-summer-promo-offramp-subscriber-title = VPN juajupyre ko’ag̃agua iporãve
+ipprotection-summer-promo-offramp-default-browser-incentive-title = Ereko nde VPN rendaite ojuajupyrévarõ
+ipprotection-summer-promo-offramp-subscription-upsell-title = Ejupive { -mozilla-vpn-brand-name } ndive
+ipprotection-summer-promo-offramp-open-vpn-primary-button = Embojuruja VPN
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Eiporu ypykuévarõ
+ipprotection-summer-promo-offramp-get-subscription-button = Ereko { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Emboyke
+ipprotection-feature-introduction-link-text-private-browsing-2 = Eiporu ore <a data-l10n-name="learn-more-vpn">VPN juajupyre</a> pyahu eñomi hag̃ua ne rendaite ha emo’ã ne mba’ekuaarã, oĩramo jepe ovetã ñemíme.
+ipprotection-feature-introduction-description-private-browsing = Ñeikundaha ñemo’ãve ndive oñomívo péicha pe hendaite, taha’e jepe ovetã ñemíme.
+ipprotection-feature-introduction-title-captive-portal = ¿Eike Wi-Fi rupive? Eiporu VPN jehe’apyre { -brand-product-name }
+ipprotection-feature-introduction-description-captive-portal = Ñeikundaha ñemo’ãve ndive oñomívo hendaite, taha’e Wi-Fi ojeporukuaávape.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Ehupyty <a data-l10n-name="learn-more-vpn">tekoñemive</a> eiporavóvo heta tendaite apytégui eñomi hag̃ua eikundahaha.
+ipprotection-feature-introduction-button-primary = Tenondegua
+ipprotection-feature-introduction-button-secondary-not-now = Ani ko’ág̃a
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Ani ko’ág̃a
+ipprotection-feature-introduction-button-secondary-no-thanks = Nahániri, aguyje
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Nahániri, aguyje
+ipprotection-feature-introduction-button-secondary-remove = Embogue VPN tembiporu rupágui
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = Embogue VPN tembiporu rupágui
+ipprotection-feature-introduction-button-open-vpn = Embojuruja VPN
+ipprotection-feature-introduction-button-get-started = Eñepyrũ
+ipprotection-site-settings-callout-title = Eiporavo moõpa eiporúta VPN
+ipprotection-site-settings-callout-subtitle = Embogue pe VPN peteĩ tendaitepegua ha romomandu’áta katuete eike jey vove.
+ipprotection-site-settings-callout-button = Aikũmby
+ipprotection-location-selection-callout-title = Ipyahu: Emoambue ne rendaite
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } VPN joajupyre</a> oheja eiporavóvo heta kundahára rendaite pa’ũme térã ikatu jaiporavo ijehegui ipya’evéva ndéve g̃uarã.
+ipprotection-location-selection-callout-primary-button = Eha’ã jey
+ipprotection-location-selection-callout-secondary-button = Emboyke
+ipprotection-android-promo-callout-title = Egueraha VPN juajupyre Android-pe
+ipprotection-android-promo-callout-primary-button = Aikũmby
+unauthenticated-vpn-title = Eiporu VPN jehe’apyre { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Eñomi tendaite</a> oñeikundaha aja { -brand-product-name } ndive.
+unauthenticated-private-location-message = Eipytyvõ <a data-l10n-name="learn-more-vpn">ereko ne rendaite ñemíme</a> { -brand-product-name } ndive.
+unauthenticated-choose-location-message-1 = Eiporavo 5 tendaite apytépe térã eheja { -brand-product-name } toiporavo pya’eve.
+unauthenticated-site-rules-message = Ehecha mávapa oiporu VPN ha umi oiporu’ỹva.
+unauthenticated-get-started = Eñepyrũ
+unauthenticated-terms-of-service-privacy-notice = Eku’e jeývo, emoneĩ ko’ã <a data-l10n-name="vpn-terms-of-service">ñepytyvõrã mboguata</a> ha pe <a data-l10n-name="vpn-privacy-notice">ñemigua marandu’i</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = VPN hendy ko tendápe g̃uarã
+    .label = Eiporu VPN ko tendápe g̃uarã
+site-exclusion-toggle-disabled-1 =
+    .aria-label = VPN ogue ko tendápe g̃uarã
+    .label = Eiporu VPN ko tendápe g̃uarã
+site-exclusion-toggle-description = ¿Ñanduti rogue ndoikói? Eñeha’ã embogue VPN.
+site-rules-manage-rules-link-text = Eñangareko VPN mbojojaháre
+site-rules-status-heading = Mbojojaha mboavapyre
+site-rules-description-exclusion = VPN ogue ko tendápe g̃uarã
+site-rules-description-inclusion = VPN hendy ko tendápe g̃uarã
+ipprotection-settings-link =
+    .label = Ñemboheko
+ipprotection-connection-status-connected-1 = VPN hendy
+    .aria-label = VPN hendy
+ipprotection-connection-status-disconnected-1 = VPN ogue
+    .aria-label = VPN ogue
+ipprotection-connection-status-excluded-1 = VPN ogue ko tendápe g̃uarã
+    .aria-label = VPN ogue ko tendápe g̃uarã
+ipprotection-connection-status-connecting-1 = Pe VPN oikehína…
+    .aria-label = Pe VPN oikehína…
+ipprotection-button-turn-vpn-off = Embogue VPN
+ipprotection-button-turn-vpn-off-excluded-site = Embogue VPN opa hendápe
+ipprotection-button-turn-vpn-on = Emyandy VPN
+ipprotection-button-connecting = Emyandyhína…
+ipprotection-recommended-location-button = Tendaite: Ñe’ẽporãpyre
+ipprotection-recommended-location-description = { -brand-product-name } ojuhu ne rendaite pya’eve
+ipprotection-recommended-location-badge = PYAHU
+ipprotection-location-country-button = Tendaite: { $country }
+ipprotection-locations-subview =
+    .title = Eiporavo tendaite
+ipprotection-locations-subview-description = Eiporavo ambue tendaite eikundaha hag̃ua.
+ipprotecion-locations-subview-recommended-label = Jeroviaha
+ipprotection-locations-subview-recommended-description = Ejuhúta tendaite pya’eve
+ipprotection-locations-unavailable-label-1 = Ndojeporukuaáiva
+    .aria-label = Ndojeporukuaáiva, ojepe’áma
+ipprotection-locations-subview-promo =
+    .heading = Eraha ne ñemo’ã yvateve { -mozilla-vpn-brand-name } ndive.
+    .message = Eiporavo 300 tendaite pa’ũgui ha emo’ã opaite ne rembiporu’i 5 mba’e’oka peve.
+ipprotection-locations-subview-promo-button = Ereko { -mozilla-vpn-brand-name }
+ipprotection-connection-status-paused-title-2 = VPN opytáva
+    .aria-label = VPN opytáva
+ipprotection-connection-status-paused-description-1 = Ojeporupa { $maxUsage } GB mba’ekuaarã nde VPN-gua. Jeike oikojeýta ambue jasýpe.
+upgrade-vpn-title = Erekóta ñemo’ãve kundahára riregua
+upgrade-vpn-description = Eiporavo VPN rendaite, eiporu VPN opaite tembiporu’ípe ha 5 mba’e’oka peve, ha eime tekorosãme oimeraẽva ñandutípe — nde rógape térã Wi-Fi-pe.
+upgrade-vpn-button = Eiporu { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Ndaikatúi eike VPN-pe
+    .aria-label = Ndaikatúi eike VPN-pe
+ipprotection-connection-status-generic-error-description = Eha’ã jey ndahetái aravo’i rire.
+ipprotection-connection-status-generic-error-try-again = Eha’ã jey ag̃amieve.
+ipprotection-connection-status-network-error-title-1 = Ehecha oiko porãpa ne ñanduti
+    .aria-label = Ehecha oiko porãpa ne ñanduti
+ipprotection-connection-status-network-error-description = Eike ñandutípe, upéi ikatukuaáma emyady upe VPN.
+ipprotection-connection-status-blocked-error-title-1 = VPN ndojeporukuaái
+    .aria-label = VPN ndojeporukuaái
+ipprotection-message-bandwidth-warning =
+    .heading = Og̃uahẽma VPN hu’ãme
+    .message = Ereko { $usageLeft } GB { $maxUsage } GB hembýva ko jasýpe.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Og̃uahẽma ko VPN hu’ãme
+    .message = Ereko { $usageLeft } MB { $maxUsage } rehegua GB hembýva ko jasýpe.
+ipprotection-message-continuous-onboarding-intro = Embojuruja pe VPN eñomi hag̃ua tendaite ha embojuaju kundahára mbopapapyve.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Emboheko VPN ikatu hag̃uáicha hendy</a> oñembojuruja nove { -brand-short-name } peteĩ ñemo’ãverã.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } imandu’áta mba’e ñanduti roguépa oñemboheko oiporu hag̃ua VPN. Embohekopyahu <a data-l10n-name="setting-link">ñemboheko</a> ejapose vove.
+confirmation-hint-ipprotection-navigated-to-excluded-site = VPN ogue ko tendápe g̃uarã
+ipprotection-open-button = Embojuruja { -brand-product-name }
+ipprotection-come-back-title = Ejevy eiporu hag̃ua VPN jehe’apype
+ipprotection-bandwidth-upgrade-title = ¿Ehayhúpa VPN jehe’apyre? Ereko ñemo’ãve okápe { -brand-product-name }-gui { -mozilla-vpn-brand-name } ndive.
+ipprotection-bandwidth-upgrade-text = Eiporavo peteĩ VPN rendaite ha emo’ã opaite tembiporu’i 5 mba’e’oka peve, taha’e ógape térã Wi-Fi ojeporukuaávape.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Og̃uahẽmahína ne VPN hu’ãme.</strong> Reguereko { $usageLeft } GB hembýva. Mba’ekuaarãita oĩporãjeýta jasy pyahu og̃uahẽtavape.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Haimetéma opa pe VPN mba’ekuaarã.</strong>Opyta { $usageLeft } GB. Ojeiporupa vove, pe VPN opytáta umi mba’ekuaarã hekopyta peve og̃uahẽvo peteĩha ára jasy oútavape.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Haimetéma opa pe VPN mba’ekuaarã.</strong>Opyta { $usageLeft } GB. Ojeiporupa vove, pe VPN opytáta umi mba’ekuaarã hekopyta peve og̃uahẽvo peteĩha ára jasy oútavape.
+ip-protection-description =
+    .description = VPN jehe’apyre oiko porãve hag̃ua nde rekoñemi eikundaha aja { -brand-short-name } ndive.
+    .label = VPN
+ip-protection-description-1 =
+    .description = Ehupyty tekoñemive emokañývo ne rendaite eikundaha aja.
+    .label = VPN juajupyre
+ip-protection-learn-more = Eikuaave
+ip-protection-not-opted-in-4 =
+    .heading = Eiporu VPN jehe’apyre { -brand-short-name }
+    .message = Eikundaha ñemo’ãve reheve emokañývo ne rendaite.
+ip-protection-not-opted-in-button = Eñepyrũ
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } ñanduti rogue
+           *[other] { $count } ñanduti rogueita
+        }
+    .label = Eñangareko ñanduti rogue ñembohekóre
+ip-protection-site-rules-header =
+    .heading = Eñangareko ñanduti rogue mbojojaháre
+ip-protection-site-rules-button =
+    .description = Emoĩ mbojojaha tenda oikotevéva tekoñemive térã VPN ñembogue.
+    .label = Eñangareko ñanduti rogue mbojojaháre
+ip-protection-autostart =
+    .label = Emyandy VPN ijeheguietéva
+ip-protection-autostart-checkbox =
+    .label = Embojuruja vove { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = Ovetã ñemiguávape
+ip-protection-vpn-upgrade-link =
+    .description = Eiporavo VPN rendaite mboavapyre ha embojuaju ñemo’ãve tembiporu’ieta po mba’e’oka peve, eimérõ nde rógape térã Wi-Fi ojeporukuaávape.
+    .label = Eguerekovéta ñemo’ã okápee { -brand-short-name }-gui { -mozilla-vpn-brand-name } ndive.
+ip-protection-vpn-upgrade-link-1 =
+    .description = Eiporavo 300 tendaite apytégui ha emo’ã opaite ne rembiporu’i 5 mba’e’oka peve.
+    .label = Eraha ñemo’ã yvateve { -mozilla-vpn-brand-name } ndive
+ip-protection-exceptions-dialog-window =
+    .title = Eñangareko ñanduti rogue ñembohekóre
+ip-protection-exclusions-desc = Eiporu VPN opaite ñanduti rogue ha’eỹva ko tysyipegua. Embojuaju ñanduti rogue ápe térã embojuruja VPN.
+ip-protection-bandwidth-header-1 = Jasy pukukue mba’ekuaarã
+ip-protection-bandwidth-left-this-month-gb = Oĩntema { $usageLeft } GB { $maxUsage } GB ko jasýpe
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">{ $usageLeft } GB</span> { $maxUsage } rehegua GB hembýva
+ip-protection-bandwidth-left-this-month-mb = Oĩntema { $usageLeft } MB { $maxUsage } GB ko jasýpe
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">{ $usageLeft } MB</span> { $maxUsage } rehegua GB hembýva
+ip-protection-bandwidth-hit-for-the-month = Ojeporupaite { $maxUsage } GB mba’ekuaarã nde VPN-pegua. Jeike oikojeýta ambue jasýpe.
+ip-protection-bandwidth-help-text = Oiko jey { $maxUsage }-pe GB oñepyrũvo ára jasygua.
+ipprotection-bandwidth-reset-title = { $maxUsage } GB VPN rehegua, hekopyahu ha eiporukuaáma
+ipprotection-bandwidth-reset-text = Emyandy VPN imbareteve hag̃ua nde rekoñemi, rei opaite jasýpe.
+ipprotection-bandwidth-reset-button = Aikũmby
+ipp-activator-breakage-sign-in-warning = <strong>Ikatuhína ko ñanduti rogue ndoikói VPN ndive.</strong> Eike térã embogue VPN eiporu aja ko ñanduti rogue.
+ipp-activator-breakage-turn-off-warning = <strong>Ikatu ko ñanduti rogue ndoikói VPN ndive.</strong> Eikutu VPN ñembogue eiporu aja ko ñanduti rogue.
+vpn-paused-alert-title = VPN opytáva
+vpn-paused-alert-body = Eiporupaite { $maxUsage } GB mba’ekuaarã nde VPN-pegua. Jeike oikojeýta ambue jasýpe.
+vpn-error-page-paused-description = Ojeporupaite { $maxUsage } GB mba’ekuaarã nde VPN-pegua. Jeike oikojeýta ambue jasýpe.
+vpn-error-page-continue-description = Eiporavo mba’éicha eĩkuaa VPN-ỹre
+vpn-error-page-keep-browsing = Eikundaha meme ko tendápe
+vpn-error-page-new-session = Eñepyrũ jeike pyahu
+vpn-paused-alert-close-tabs-button = Embotypaite tendayke
+vpn-paused-alert-continue-wo-vpn-button = Eku’ejey VPN-ỹ rehe
+vpn-error-alert-title = VPN ndoikoporãi ko’ag̃aite.
+vpn-error-alert-body = Eha’ã jey ag̃ave.

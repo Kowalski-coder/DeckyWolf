@@ -1,0 +1,15 @@
+tabbrowser-empty-tab-title = Ithebhu entsha
+tabbrowser-menuitem-close-tab =
+    .label = Vala Ithebhu
+tabbrowser-menuitem-close =
+    .label = Vala
+tabbrowser-confirm-close-tabs-button = Vala iithebhu
+tabbrowser-customizemode-tab-title = Khastomayiza { -brand-short-name }
+tabbrowser-context-mute-tab =
+    .label = Thulisa Ithebhu
+    .accesskey = T
+tabbrowser-context-unmute-tab =
+    .label = Buyisela Isandi Kwithebhu
+    .accesskey = y
+tabbrowser-ctrl-tab-list-all-tabs =
+    .label = Uludwe lonke{ $tabCount } Iithabhu

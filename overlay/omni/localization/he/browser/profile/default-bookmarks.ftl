@@ -1,0 +1,14 @@
+default-bookmarks-title = סימניות
+default-bookmarks-heading = סימניות
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = קבלת עזרה
+default-bookmarks-firefox-customize = התאמה אישית של Firefox
+default-bookmarks-firefox-community = השתתפות
+default-bookmarks-firefox-about = על אודותינו
+default-bookmarks-nightly-heading = משאבים עבור Firefox Nightly
+default-bookmarks-nightly-blog = הבלוג של Firefox Nightly
+default-bookmarks-bugzilla = כלי המעקב אחר באגים של Mozilla
+default-bookmarks-mdn = רשת המפתחים של Mozilla
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = כל דיווחי הקריסה שלך
+default-bookmarks-planet = Planet Mozilla

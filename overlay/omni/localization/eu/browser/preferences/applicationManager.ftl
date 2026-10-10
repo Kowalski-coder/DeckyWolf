@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Aplikazioaren xehetasunak
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Kendu
+    .accesskey = K
+app-manager-handle-protocol = Hurrengo aplikazioak erabil daitezke { $type } loturak kudeatzeko
+app-manager-handle-file = Hurrengo aplikazioak erabil daitezke { $type } edukia kudeatzeko
+app-manager-web-app-info = Web aplikazio hau hemen dago ostatua:
+app-manager-local-app-info = Aplikazio hau hemen dago kokatua:

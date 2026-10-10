@@ -1,0 +1,9 @@
+colorpicker-tooltip-spectrum-dragger-title = Spektrs
+colorpicker-tooltip-eyedropper-title = Izvēlieties krāsu uz lapas
+colorpicker-tooltip-color-name-title = Vistuvāk: { $colorName }
+colorpicker-tooltip-hue-slider-title = Nokrāsa
+colorpicker-tooltip-alpha-slider-title = Necaurspīdība
+inspector-split-orientation-button-title = Paneļa izkārtojums
+inspector-split-orientation-auto = Automātisks
+inspector-split-orientation-side-by-side = Blakus
+inspector-split-orientation-stacked = Cits virs cita

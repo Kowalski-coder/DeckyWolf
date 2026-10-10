@@ -1,0 +1,17 @@
+about-policies-title = Politichis di imprese
+aboutpolicies-page-heading =
+    .heading = Informazions su lis politichis
+active-policies-tab = Ativis
+errors-tab = Erôrs
+documentation-tab = Documentazion
+active-policies-tab-title =
+    .title = Ativis
+errors-tab-title =
+    .title = Erôrs
+documentation-tab-title =
+    .title = Documentazion
+no-specified-policies-message = Il servizi des politichis di imprese al è atîf ma no si à politichis abilitadis.
+inactive-message = Il servizi des politichis di imprese nol è atîf.
+policy-name = Non de politiche
+policy-value = Valôr de politiche
+policy-errors = Erôrs de politiche

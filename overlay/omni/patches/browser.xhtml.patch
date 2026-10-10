@@ -1,0 +1,17 @@
+--- /tmp/orig_browser_omni/chrome/browser/content/browser/browser.xhtml	2026-10-10 17:20:11.000000000 +0300
++++ /tmp/browser_work/chrome/browser/content/browser/browser.xhtml	2026-10-10 18:49:37.038831985 +0300
+@@ -6789,6 +6789,14 @@
+       </box>
+     </toolbarbutton>
+ 
++    <toolbarbutton id="deckywolf-control-mode-button"
++                   class="toolbarbutton-1 chromeclass-toolbar-additional"
++                   removable="false"
++                   badged="true"
++                   label="Режим управления"
++                   tooltiptext="Режим управления: Клавиатура+мышь"
++                   data-deckywolf-mode="keyboard"/>
++
+     <toolbaritem id="PanelUI-button"
+                  removable="false">
+       <toolbarbutton id="PanelUI-menu-button"

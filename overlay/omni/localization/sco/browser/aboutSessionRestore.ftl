@@ -1,0 +1,26 @@
+restore-page-tab-title = Restore Session
+restore-page-error-title = Sorry. We're haein a sair fecht gettin yer pages back.
+restore-page-problem-desc = We're haein a strauchle restorin yer last stravaigin session. Select Restore Session tae try again.
+restore-page-try-this = Still no able tae restore yer session? Whiles a tab is causin the problem. View previous tabs, remuive the checkmerk fae the tabs ye dinnae need tae recover, and then restore.
+restore-page-hide-tabs = Hide Previous Tabs
+restore-page-show-tabs = View Previous Tabs
+restore-page-window-label = Windae { $windowNumber }
+restore-page-restore-header =
+    .label = Restore
+restore-page-list-header =
+    .label = Windaes and Tabs
+restore-page-try-again-button =
+    .label = Restore Session
+    .accesskey = R
+restore-page-close-button =
+    .label = Stert New Session
+    .accesskey = N
+welcome-back-tab-title = Yaldy!
+welcome-back-page-title = Yaldy!
+welcome-back-page-info = { -brand-short-name } is redd tae gang.
+welcome-back-restore-button =
+    .label = Fire in!
+    .accesskey = F
+welcome-back-restore-all-label = Restore aw windaes & tabs
+welcome-back-restore-some-label = Restore jist the anes ye want
+welcome-back-page-info-link = Yer eik-ons and customisations hae been remuived and yer wab-stravaiger setting hae been restored tae their defaults. Gin this didnae sort yer problem, <a data-l10n-name="link-more">lairn mair aboot whit ye can dae.</a>

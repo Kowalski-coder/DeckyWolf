@@ -1,0 +1,17 @@
+about-policies-title = Rregulla Në Nivel Ndërmarrjeje
+aboutpolicies-page-heading =
+    .heading = Rreth Rregullave
+active-policies-tab = Aktive
+errors-tab = Gabime
+documentation-tab = Dokumentim
+active-policies-tab-title =
+    .title = Aktive
+errors-tab-title =
+    .title = Gabime
+documentation-tab-title =
+    .title = Dokumentim
+no-specified-policies-message = Shërbimi për Rregulla Në Nivel Ndërmarrjeje është aktiv por nuk ka rregulla të aktivizuara.
+inactive-message = Shërbimi për Rregulla Në Nivel Ndërmarrjeje është joaktiv.
+policy-name = Emër Rregulli
+policy-value = Vlerë Rregulli
+policy-errors = Gabime Rregullash

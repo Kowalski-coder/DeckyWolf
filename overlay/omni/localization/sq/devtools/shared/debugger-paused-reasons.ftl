@@ -1,0 +1,11 @@
+whypaused-debugger-statement = Ndalur në deklaratë diagnostikuesi
+whypaused-breakpoint = I ndalur pse hasi pikëndërprerje
+whypaused-exception = I ndalur pse hasi përjashtim
+whypaused-mutation-breakpoint = Ndalur në mutacion DOM
+whypaused-mutation-breakpoint-added = Shtuar:
+whypaused-mutation-breakpoint-removed = Hequr:
+whypaused-interrupted = E ndalur gjatë Ekzekutimi
+whypaused-resume-limit = I ndalur pse hyri ose doli nga funksioni
+whypaused-breakpoint-condition-thrown = Gabim me pikëndërprerje kushtore
+whypaused-xhr = I ndalur pse hasi XMLHttpRequest
+whypaused-other = Diagnostikuesi u ndal

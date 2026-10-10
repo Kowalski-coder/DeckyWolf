@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Benvignude int!
+error-short-desc-text = O sin vignûts a cjatâus in pâs e cun buine volontât!
+error-long-desc1 = I robots no àn di fâ mâl ae int  o, no fasint nuie, permeti che i  umans si fasedin mâl di bessôi.
+error-long-desc2 = I robots a àn viodût robis che voaltris no rivaressis a crodi.
+error-long-desc3 = I robots a son i tiei amîs di plastiche - ce biel stâ cun lôr!
+error-long-desc4 = I robots a àn il dâur di metal lustri che no si varès di muardi.
+error-trailer-desc-text = E a àn un plan.
+error-try-again = Torne a provâ
+    .label2 = Par plasê no stâ fracâ plui chest boton.

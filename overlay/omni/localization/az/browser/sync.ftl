@@ -1,0 +1,10 @@
+fxa-toolbar-sync-syncing2 = Sinxronlaşır…
+sync-disconnect-dialog-button = Əlaqəni kəs
+fxa-signout-dialog-title2 = Hesabınızdan çıxırsınız?
+fxa-signout-dialog2-button = Hesabdan çıx
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = Cihazlar Sinxronlaşdırılır…
+fxa-menu-sign-out =
+    .label = Hesabdan çıx…
+fxa-menu-sign-in-promo-message = Məlumatlarınız hər yerdə sizinlə olsun
+fxa-menu-signed-out-message-login-failed = Hesabdan çıxdınız

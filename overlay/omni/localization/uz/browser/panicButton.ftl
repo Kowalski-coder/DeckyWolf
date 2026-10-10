@@ -1,0 +1,15 @@
+panic-button-open-new-window = Yangi toza oynani ochish
+panic-button-undo-warning = Ushbu amalni orqaga qaytarib boʻlmaydi.
+panic-button-forget-button =
+    .label = Unutish!
+panic-main-timeframe-desc = So‘nggisini unutish:
+panic-button-5min =
+    .label = Besh daqiqa
+panic-button-2hr =
+    .label = Ikki soat
+panic-button-day =
+    .label = 24 soat
+panic-button-action-desc = Yaxshi amalga oshdi:
+panic-button-delete-cookies = So‘nggi <strong>Kukilar</strong>ni o‘chirish
+panic-button-delete-history = So‘nggi <strong>Tarix</strong>ni o‘chirish
+panic-button-delete-tabs-and-windows = Barcha <strong>Ichki oynalar</strong> va <strong>Oynalar</strong>ni yopish

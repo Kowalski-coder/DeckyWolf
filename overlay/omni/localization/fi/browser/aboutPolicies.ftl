@@ -1,0 +1,17 @@
+about-policies-title = Yrityskäytännöt
+aboutpolicies-page-heading =
+    .heading = Tietoja käytännöistä
+active-policies-tab = Aktiiviset
+errors-tab = Virheet
+documentation-tab = Dokumentaatio
+active-policies-tab-title =
+    .title = Aktiiviset
+errors-tab-title =
+    .title = Virheet
+documentation-tab-title =
+    .title = Dokumentaatio
+no-specified-policies-message = Yrityskäytäntöpalvelu on aktiivinen, mutta käytäntöjä ei ole käytössä.
+inactive-message = Yrityskäytäntöpalvelu ei ole aktiivinen.
+policy-name = Käytännön nimi
+policy-value = Käytännön arvo
+policy-errors = Käytäntövirheet

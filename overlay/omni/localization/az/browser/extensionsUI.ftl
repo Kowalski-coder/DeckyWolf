@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } əsas axtarış mühərriyinizi { $currentEngine } yerinə { $newEngine } etmək istəyir. İcazə verirsiz?
+webext-default-search-yes =
+    .label = Bəli
+    .accesskey = Y
+webext-default-search-no =
+    .label = Xeyr
+    .accesskey = N
+addon-post-install-message = { $addonName } əlavə edildi.
+webext-quarantine-confirmation-title = { $addonName } məhdudlaşdırılmış saytlarda çalışdırılsın?
+webext-quarantine-confirmation-line-1 = Məlumatlarınızı qorumaq üçün bu saytda bu uzantıya icazə verilməyəcək.
+webext-quarantine-confirmation-line-2 = Bu uzantıya etibar edirsinizsə, { -vendor-short-name } tərəfindən məhdudlaşdırılmış saytlarda məlumatlarınızı oxumasına və dəyişdirməsinə icazə verin.
+webext-quarantine-confirmation-allow =
+    .label = İcazə ver
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = İcazə vermə
+    .accesskey = D

@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Eltávolítás a túlcsorduló menüből
+    .accesskey = E
+customize-menu-add-to-toolbar =
+    .label = Hozzáadás az eszköztárhoz
+    .accesskey = H
+customize-menu-add-to-overflowmenu =
+    .label = Hozzáadás a túlcsorduló menühöz
+    .accesskey = M
+panic-button-thankyou-msg1 = Legutóbbi előzményei törölve.
+panic-button-thankyou-msg2 = Biztonságos böngészést!
+panic-button-thankyou-button =
+    .label = Köszönjük!

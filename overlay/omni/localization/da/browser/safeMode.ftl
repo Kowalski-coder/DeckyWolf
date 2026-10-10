@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Start { -brand-short-name } i Fejlsøgnings-tilstand?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Start
+refresh-profile =
+    .label = Nulstil { -brand-short-name }
+troubleshoot-mode-description = Brug denne specielle tilstand i { -brand-short-name } til at fejlsøge. Dine udvidelser og tilpassede indstillinger bliver deaktiveret midlertidig.
+skip-troubleshoot-refresh-profile = Du kan også springe fejlfinding over og nulstille { -brand-short-name } i stedet for.
+auto-safe-mode-description = { -brand-short-name } lukkede uventet under opstart. Dette kan skyldes en udvidelse eller andre problemer. Du kan prøve at finde årsagen til problemet ved hjælp af fejlsikret tilstand.

@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalles de l'aplicación
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Eliminar
+    .accesskey = l
+app-manager-handle-protocol = Ye posible fer servir as aplicacions siguients ta chestionar vinclos { $type }.
+app-manager-handle-file = Ye posible fer servir as aplicacions siguients ta chestionar conteniu { $type }.
+app-manager-web-app-info = Ista aplicación web s'alocha en:
+app-manager-local-app-info = Ista aplicación se troba en:

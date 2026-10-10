@@ -1,0 +1,11 @@
+smart-window-select-label =
+    .label = { -smart-window-brand-name }
+ai-window-activate-link =
+    .label = شروع کرو
+ai-window-personalize-button =
+    .label = { -smart-window-brand-name } ترتیباں
+ai-window-personalize-header =
+    .heading = { -smart-window-brand-name }
+ai-window-delete-all-memories-button =
+    .label = تمام مٹاؤ
+ai-window-delete-all-memories-confirm = مٹاؤ

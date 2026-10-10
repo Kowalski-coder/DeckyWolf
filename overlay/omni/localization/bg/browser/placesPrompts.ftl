@@ -1,0 +1,12 @@
+places-error-title = { -brand-short-name }
+places-no-title = (без заглавие)
+places-load-js-data-url-error = От съображения за сигурност javascript или адреси не могат да бъдат зареждани от историята или от страничната лента.
+places-bookmarks-backup-title = Име на резервното копие
+places-bookmarks-restore-alert-title = Възстановяване на отметки
+places-bookmarks-restore-alert = Това ще замени текущите отметки с тези от резервния файл. Сигурни ли сте?
+places-bookmarks-restore-title = Избиране на резервен файл с отметки
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Неподдържан вид на файл.
+places-bookmarks-restore-parse-error = Резервният файл не може да бъде обработен.
+places-bookmarks-import = Внасяне на файл с отметки
+places-bookmarks-export = Изнасяне на файл с отметки

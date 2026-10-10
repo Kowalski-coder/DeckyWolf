@@ -1,0 +1,17 @@
+devtools-tooltip-learn-more = Àteras informatziones
+inactive-css-not-grid-item = <strong>{ $property }</strong> non tenet nissunu efetu in custu elementu dae chi no est un'elementu de grìllia.
+inactive-css-not-grid-container = <strong>{ $property }</strong> non tenet nissunu efetu in custu elementu dae chi no est unu cuntenidore de grìllia.
+inactive-css-not-flex-item = <strong>{ $property }</strong> non tenet nissunu efetu in custu elementu dae chi no est un'elementu flex.
+inactive-css-not-flex-container = <strong>{ $property }</strong> non tenet nissunu efetu in custu elementu dae chi no est unu cuntenidore flex.
+inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> non tenet nissunu efetu in is elementos internos de una tabella.
+inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> non tenet nissunu efetu in is elementos internos de una tabella francu in is tzellas.
+inactive-css-not-table = <strong>{ $property }</strong> non tenet nissunu efetu in custu elementu dae chi no est una tabella.
+inactive-css-not-grid-or-flex-container-fix-1 = Proa a agiùnghere <strong>display:grid</strong> o <strong>display:flex</strong>.
+inactive-css-not-grid-or-flex-container-or-multicol-container-fix-1 = Proa a agiùnghere <strong>display:grid</strong>, <strong>display:flex</strong>, o <strong>columns:2</strong>.
+inactive-css-not-grid-or-flex-item-fix-4 = Proa a agiùnghere <strong>display:grid</strong>, <strong>display:flex</strong>, <strong>display:inline-grid</strong>, o <strong>display:inline-flex</strong> a s'elementu "parent".
+inactive-css-not-grid-container-fix-1 = Proa a agiùnghere <strong>display:grid</strong> o <strong>display:inline-grid</strong>.
+inactive-css-text-wrap-balance-lines-exceeded-fix-1 = Proa a redùere su nùmeru de lìnias.
+css-compatibility-default-message = <strong>{ $property }</strong> no est cumpatìbile cun is navigadores imbenientes:
+css-compatibility-deprecated-supported-message = <strong>{ $property }</strong> est abbandonada dae is standard W3C.
+css-compatibility-experimental-message = <strong>{ $property }</strong> est una propiedade isperimentale. No est cumpatìbile cun is navigadores chi sighint:
+css-compatibility-experimental-supported-message = <strong>{ $property }</strong> est una propiedade isperimentale.

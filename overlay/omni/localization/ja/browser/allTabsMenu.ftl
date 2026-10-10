@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = すべてのタブから検索
+all-tabs-menu-new-user-context =
+    .label = 新しいコンテナータブ
+all-tabs-menu-hidden-tabs =
+    .label = 隠しタブ
+all-tabs-menu-close-duplicate-tabs =
+    .label = 重複タブを閉じる
+all-tabs-menu-view-all-tabs =
+    .label = すべてのタブを表示
+all-tabs-menu-recent-tab-groups-header = 最近のタブグループ
+all-tabs-menu-tab-groups-show-all =
+    .label = すべて表示
+all-tabs-menu-tab-groups-sub-view =
+    .title = タブグループ
+all-tabs-menu-current-window-header = 現在のウィンドウ

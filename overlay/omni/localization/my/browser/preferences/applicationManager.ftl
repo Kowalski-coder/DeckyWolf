@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = လုပ်ငန်းသုံးပရိုဂရမ်အသေးစိတ်များ
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = ဖယ်ရှားပါ
+    .accesskey = R
+app-manager-handle-protocol = ယခု { $type } လင့်ခ်များ ကို ကိုင်တွယ်ရန် အောက်ပါ အက်ပလီကေးရှင်းများကို အသုံးပြုနိုင်သည်။
+app-manager-handle-file = ယခု { $type } အကြောင်းအရာ ကို ကိုင်တွယ်ရန် အောက်ပါ အက်ပလီကေးရှင်းများကို အသုံးပြုနိုင်သည်။
+app-manager-web-app-info = ယခုဝဘ်အက်ပလီကေးရှင်း တည်ရှိရာနေရာ
+app-manager-local-app-info = ယခုအက်ပလီကေးရှင်းသည် ၎င်းတွင် တည်ရှိသည်

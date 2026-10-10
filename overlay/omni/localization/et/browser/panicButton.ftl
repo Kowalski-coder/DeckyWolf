@@ -1,0 +1,15 @@
+panic-button-open-new-window = avatakse uus tühi aken
+panic-button-undo-warning = Seda tegevust ei saa tagasi võtta.
+panic-button-forget-button =
+    .label = Unusta!
+panic-main-timeframe-desc = Unustatakse viimased:
+panic-button-5min =
+    .label = viis minutit
+panic-button-2hr =
+    .label = kaks tundi
+panic-button-day =
+    .label = 24 tundi
+panic-button-action-desc = Jätkamisel:
+panic-button-delete-cookies = kustutatakse hiljutised <strong>küpsised</strong>
+panic-button-delete-history = kustutatakse hiljutine <strong>ajalugu</strong>
+panic-button-delete-tabs-and-windows = suletakse kõik <strong>kaardid</strong> ja <strong>aknad</strong>

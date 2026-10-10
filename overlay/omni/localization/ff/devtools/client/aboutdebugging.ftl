@@ -1,0 +1,11 @@
+about-debugging-page-title-setup-page = Buggitaade - Teeltagol
+about-debugging-page-title-runtime-page = Buggitaade - Kurmitagol / { $selectedRuntimeId }
+about-debugging-this-firefox-runtime-name = Oo { -brand-shorter-name }
+about-debugging-sidebar-this-firefox2 = Oo { -brand-shorter-name }
+about-debugging-sidebar-this-firefox-title =
+    .title = Oo { -brand-shorter-name }
+about-debugging-sidebar-setup2 = Teeltagol
+about-debugging-sidebar-setup-title =
+    .title = Teeltagol
+about-debugging-sidebar-usb-enabled = USB hurminaama
+about-debugging-sidebar-usb-disabled = USB daaƴaama

@@ -1,0 +1,40 @@
+privatebrowsingpage-open-private-window-label = Abrir una ventana privada
+    .accesskey = P
+about-private-browsing-search-placeholder = Buscar en la web
+about-private-browsing-search-btn =
+    .title = Buscar en la web
+about-private-browsing-handoff =
+    .title = Buscar con { $engine } o introducir una dirección
+about-private-browsing-handoff-no-engine =
+    .title = Buscar o escribir dirección
+about-private-browsing-handoff-text = Buscar con { $engine } o introducir una dirección
+about-private-browsing-handoff-text-no-engine = Buscar o escribir dirección
+about-private-browsing-not-private = En este momento no estás en una ventana privada.
+about-private-browsing-hide-activity = Oculta tu actividad y ubicación, donde sea que estés navegando
+about-private-browsing-get-privacy = Obtén protecciones de privacidad dondequiera que navegues
+about-private-browsing-hide-activity-1 = Oculta la actividad de navegación y la ubicación con { -mozilla-vpn-brand-name }. Un clic crea una conexión segura, incluso en Wi-Fi público.
+about-private-browsing-prominent-cta = Mantente privado con { -mozilla-vpn-brand-name }
+about-private-browsing-search-banner-title = { $engineName } es tu motor de búsqueda predeterminado en ventanas privadas
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] Para seleccionar un buscador diferente, dirígete a <a data-l10n-name="link-options">Opciones</a>
+       *[other] Para seleccionar un buscador diferente, dirígete a <a data-l10n-name="link-options">Preferencias</a>
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = Cerrar
+about-private-browsing-promo-close-button =
+    .title = Cerrar
+about-private-browsing-pin-promo-header = Libertad de navegación privada en un clic
+about-private-browsing-pin-promo-link-text =
+    { PLATFORM() ->
+        [macos] Fijar en el Dock
+       *[other] Fijar en la barra de tareas
+    }
+about-private-browsing-pin-promo-title = Sin cookies guardadas ni historial, directamente desde tu escritorio. Navega como si nadie te estuviera mirando.
+about-private-browsing-felt-privacy-v1-info-header = No dejes rastros en este dispositivo
+about-private-browsing-felt-privacy-v1-info-body = { -brand-short-name } elimina tus cookies, historial y datos del sitio cuando cierras todas tus ventanas privadas.
+about-private-browsing-felt-privacy-v1-info-link = ¿Quién podría ver mi actividad?
+about-private-browsing-nova-info-header = Estás navegando de forma privada
+about-private-browsing-nova-info-subheader2 = Borraremos todas tus búsquedas e inicios de sesión cuando cierres todas las ventanas privadas. Las protecciones integradas de { -brand-short-name } están activadas por defecto, incluyendo el bloqueo de rastreadores.
+about-private-browsing-nova-info-body = Al cerrar todas tus ventanas privadas se eliminarán tus cookies, historial y datos de sitios.
+about-private-browsing-nova-info-link = ¿Quién podría seguir viendo mi actividad?

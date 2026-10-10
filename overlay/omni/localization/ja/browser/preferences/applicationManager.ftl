@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = プログラムの管理
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = 削除
+    .accesskey = R
+app-manager-handle-protocol = { $type } リンクを取り扱うプログラムには次のものが登録されています。
+app-manager-handle-file = { $type } ファイルを取り扱うプログラムには次のものが登録されています。
+app-manager-web-app-info = このウェブアプリケーションの URL:
+app-manager-local-app-info = このプログラムの場所:

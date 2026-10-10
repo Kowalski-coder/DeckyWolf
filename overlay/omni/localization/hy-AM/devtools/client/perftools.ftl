@@ -1,0 +1,16 @@
+perftools-heading-settings = Ամբողջական կարգավորումներ
+perftools-heading-features = Հատկություններ
+perftools-heading-features-disabled = Անջատված հատկություններ
+perftools-heading-local-build = Տեղական հավաքում
+perftools-devtools-threads-label = Հոսքեր՝
+perftools-devtools-settings-label = Կարգավորումներ
+perftools-button-cancel-recording = Չեղարկել ձայնագրությունը
+perftools-button-restart = Վերամեկնարկել
+perftools-button-add-directory = Ավելացնել գրացուցակ
+perftools-button-remove-directory = Հեռացնել ընտրվածը
+perftools-button-edit-settings = Խմբագրել կարգավորումները…
+pref-thread-stream-trans =
+    .title = Ցանցային հոսքի փոխադրիչ
+perftools-presets-web-developer-label = Վեբ մշակող
+perftools-presets-media-label = Մեդիա
+perftools-presets-custom-label = Հարմարեցված

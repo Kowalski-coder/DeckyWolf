@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = آدم‌ها خوش آمدید!
+error-short-desc-text = We have come to visit you in peace and with goodwill!
+error-long-desc1 = Robots may not injure a human being or, through inaction, allow a human being to come to harm.
+error-long-desc2 = ربات‌ها چیزهایی دیده‌اند که شما انسان‌ها باورشان نمی‌کنید.
+error-long-desc3 = ربات‌ها دوستان پلاستیکی شما هستند که با آنها خوش می‌گذرد.
+error-long-desc4 = Robots have shiny metal posteriors which should not be bitten.
+error-trailer-desc-text = And they have a plan.
+error-try-again = تلاش دوباره
+    .label2 = Please do not press this button again.

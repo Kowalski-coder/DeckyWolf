@@ -1,0 +1,15 @@
+panic-button-open-new-window = Oscail fuinneog ghlan nua
+panic-button-undo-warning = Ní féidir an gníomh seo a chur ar ceal.
+panic-button-forget-button =
+    .label = Déan Dearmad!
+panic-main-timeframe-desc = Déan dearmad ar an tréimhse is déanaí:
+panic-button-5min =
+    .label = Cúig nóiméad
+panic-button-2hr =
+    .label = Dhá uair an chloig
+panic-button-day =
+    .label = 24 uair an chloig
+panic-button-action-desc = Má théann tú ar aghaidh:
+panic-button-delete-cookies = Scriosfar na <strong>Fianáin</strong> is déanaí
+panic-button-delete-history = Scriosfar an <strong>Stair</strong> is déanaí
+panic-button-delete-tabs-and-windows = Dúnfar gach <strong>Cluaisín</strong> agus <strong>Fuinneog</strong>

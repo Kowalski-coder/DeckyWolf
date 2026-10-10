@@ -1,0 +1,13 @@
+grid-row-column-positions = Радок { $row } / Слупок { $column }
+gridtype-container = Grid-кантэйнер
+gridtype-item = Grid-элемент
+gridtype-dual = Grid-кантэйнер/элемент
+flextype-container = Flex-кантэйнер
+flextype-item = Flex-элемент
+flextype-dual = Flex-кантэйнер/элемент
+remote-node-picker-notice = Сродак выбару вузлоў DevTools уключаны. { $action }
+remote-node-picker-notice-action-desktop = Націсніце элемент, каб выбраць яго ў даследчыку
+remote-node-picker-notice-action-touch = Націсніце на элемент, каб выбраць яго ў даследчыку
+remote-node-picker-notice-hide-button = Схаваць
+simple-highlighters-message = Калі ўключана prefers-reduced-motion, на панэлі налад можна ўключыць прасцейшае падсвятленне, каб пазбегнуць мігцення колераў.
+simple-highlighters-settings-button = Адкрыць налады

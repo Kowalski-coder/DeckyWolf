@@ -1,0 +1,57 @@
+unified-extensions-header-title = Extensiones
+unified-extensions-manage-extensions =
+    .label = Gestionar extensiones
+unified-extensions-discover-extensions =
+    .label = Descubrir extensiones
+unified-extensions-empty-reason-private-browsing-not-allowed = Hay extensiones instaladas, pero no activadas en ventanas privadas
+unified-extensions-empty-reason-extension-not-enabled = Tiene extensiones instaladas, pero no activadas
+unified-extensions-empty-content-explain-enable2 = Seleccione “{ unified-extensions-manage-extensions.label }” para activarlas en la configuración.
+unified-extensions-empty-content-explain-manage2 = Seleccione “{ unified-extensions-manage-extensions.label }” para administrarlas en la configuración.
+unified-extensions-item-open-menu =
+    .aria-label = Abrir menú para { $extensionName }
+unified-extensions-item-message-manage = Gestionar extensión
+unified-extensions-item-messagebar-softblocked2 = { $extensionName } está restringida. Usarla puede ser arriesgado.
+unified-extensions-context-menu-pin-to-toolbar =
+    .label = Fijar a la barra de herramientas
+unified-extensions-context-menu-manage-extension =
+    .label = Gestionar extensión
+unified-extensions-context-menu-remove-extension =
+    .label = Eliminar extensión
+unified-extensions-context-menu-report-extension =
+    .label = Informar sobre la extensión
+unified-extensions-context-menu-move-widget-up =
+    .label = Subir
+unified-extensions-context-menu-move-widget-down =
+    .label = Bajar
+unified-extensions-notice-safe-mode =
+    .message = Todas las extensiones fueron desactivadas por el modo de resolución de problemas.
+unified-extensions-mb-quarantined-domain-message-3 =
+    .heading = Algunas extensiones no están permitidas
+    .message = Para proteger sus datos, algunas extensiones no pueden leer ni cambiar datos en este sitio. Use la configuración de la extensión para permitir en sitios restringidos por { -vendor-short-name }.
+unified-extensions-mb-quarantined-domain-learn-more = Saber más
+    .aria-label = Saber más: algunas extensiones no están permitidas
+unified-extensions-mb-about-addons-link = Ir a los ajustes de extensiones
+unified-extensions-mb-blocklist-warning-single2 =
+    .heading = { $extensionName } desactivada
+    .message =
+        Esta extensión está restringida y ha sido desactivada.
+        Puede activarla en los ajustes, pero puede ser arriesgado.
+unified-extensions-mb-blocklist-error-single =
+    .heading = { $extensionName } desactivada
+    .message = Esta extensión viola las políticas de Mozilla y ha sido desactivada.
+unified-extensions-mb-blocklist-warning-multiple2 =
+    .heading =
+        { $extensionsCount ->
+            [one] { $extensionsCount } extensión desactivada
+           *[other] { $extensionsCount } extensiones desactivadas
+        }
+    .message =
+        Algunas de sus extensiones están restringidas y han sido desactivadas.
+        Puede activarlas en los ajustes, pero puede ser arriesgado.
+unified-extensions-mb-blocklist-error-multiple =
+    .heading =
+        { $extensionsCount ->
+            [one] { $extensionsCount } extensión desactivada
+           *[other] { $extensionsCount } extensiones desactivadas
+        }
+    .message = Algunas de sus extensiones han sido desactivadas por violar las políticas de Mozilla.

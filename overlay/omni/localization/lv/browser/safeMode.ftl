@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Vai atvērt { -brand-short-name } problēmu novēršanas režīmā?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Atvērt
+refresh-profile =
+    .label = Atjaunot { -brand-short-name }
+troubleshoot-mode-description = Izmantojiet šo īpašo { -brand-short-name } režīmu, lai diagnosticētu problēmas. Jūsu paplašinājumi un pielāgojumi tiks īslaicīgi izslēgti.
+skip-troubleshoot-refresh-profile = Varat arī izlaist problēmu novēršanu un tā vietā atsvaidzināt { -brand-short-name }.
+auto-safe-mode-description = { -brand-short-name } negaidīti aizvērās palaišanas laikā. To var izraisīt papildinājumi vai citas nebūšanas. To var mēģināt risināt ar nepilnību novēršanu drošajā režīmā.

@@ -1,0 +1,26 @@
+restore-page-tab-title = Аднаўленне сеанса
+restore-page-error-title = Выбачайце. Ніяк не выходзіць вярнуць вашы старонкі.
+restore-page-problem-desc = Не ўдаецца аднавіць ваш апошні сеанс аглядання. Выберыце Аднавіць сеанс і паспрабуйце ізноў.
+restore-page-try-this = Не ўдаецца ўзнавіць ваш сеанс? Часам пэўная картка можа быць праблемай. Гляньце папярэднія карткі, прыміце пазнакі з тых з іх, якія не трэба вяртаць, і ўзнаўляйце.
+restore-page-hide-tabs = Схаваць папярэднія карткі
+restore-page-show-tabs = Паказаць папярэднія карткі
+restore-page-window-label = Акно { $windowNumber }
+restore-page-restore-header =
+    .label = Аднавіць
+restore-page-list-header =
+    .label = Вокны і карткі
+restore-page-try-again-button =
+    .label = Аднавіць сеанс
+    .accesskey = А
+restore-page-close-button =
+    .label = Пачаць новы сеанс
+    .accesskey = П
+welcome-back-tab-title = Поспех!
+welcome-back-page-title = Поспех!
+welcome-back-page-info = { -brand-short-name } гатовы.
+welcome-back-restore-button =
+    .label = Пачнём!
+    .accesskey = П
+welcome-back-restore-all-label = Аднавіць усе вокны і карткі
+welcome-back-restore-some-label = Аднавіць толькі асобныя
+welcome-back-page-info-link = Вашы дадаткі і настаўленні былі выдалены, і налады вашага браўзера былі адноўлены. Калі гэта не дапамагло выправіць праблему, <a data-l10n-name="link-more">даведацца больш аб тым, што вы можаце зрабіць.</a>

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Ubrir una finestra nueva escoscada
+panic-button-undo-warning = Ista acción no se puet desfer.
+panic-button-forget-button =
+    .label = Xublidar!
+panic-main-timeframe-desc = Xublidar os zaguers:
+panic-button-5min =
+    .label = Cinco minutos
+panic-button-2hr =
+    .label = Dos horas
+panic-button-day =
+    .label = 24 horas
+panic-button-action-desc = Continando ferá:
+panic-button-delete-cookies = Borrar as <strong>Cookies</strong> recientz
+panic-button-delete-history = Borrar <strong>l'historial</strong> recient
+panic-button-delete-tabs-and-windows = Trancar todas as <strong>Pestanyas</strong> y <strong>finestras</strong>

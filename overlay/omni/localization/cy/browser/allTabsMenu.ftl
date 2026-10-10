@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Chwilio'r Tabiau i Gyd
+all-tabs-menu-new-user-context =
+    .label = Tab Cynhwysydd Newydd
+all-tabs-menu-hidden-tabs =
+    .label = Tabiau Cudd
+all-tabs-menu-close-duplicate-tabs =
+    .label = Cau Tabiau Dyblyg
+all-tabs-menu-view-all-tabs =
+    .label = Gweld Pob Tab
+all-tabs-menu-recent-tab-groups-header = Grwpiau tabiau diweddar
+all-tabs-menu-tab-groups-show-all =
+    .label = Dangos y cyfan
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grwpiau tabiau
+all-tabs-menu-current-window-header = Y ffenestr gyfredol

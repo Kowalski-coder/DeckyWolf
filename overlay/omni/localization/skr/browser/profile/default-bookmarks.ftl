@@ -1,0 +1,14 @@
+default-bookmarks-title = نشانیاں
+default-bookmarks-heading = نشانیاں
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = مدد حاصل کرو
+default-bookmarks-firefox-customize = Firefox دی تخصیص کرو
+default-bookmarks-firefox-community = نال رلت کرو
+default-bookmarks-firefox-about = اساݙے بارے
+default-bookmarks-nightly-heading = فائر فاکس نائٹلی وسائل
+default-bookmarks-nightly-blog = فائر فاکس نائٹلی بلاگ
+default-bookmarks-bugzilla = موزیلا بگ ٹریکر
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = تہاݙے تمام کریش
+default-bookmarks-planet = سیارہ موزیلا

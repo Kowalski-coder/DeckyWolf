@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Benvenite, humanos!
+error-short-desc-text = Nos ha venite pro visitar te in pace e con bon voluntate!
+error-long-desc1 = Un robot non debe nocer a un esser human ni, per inaction, permitter que un esser human suffre damnos.
+error-long-desc2 = Le robots ha vidite cosas que vos humanos non poterea creder.
+error-long-desc3 = Le robot es tu agradabile companion de plastico.
+error-long-desc4 = Le robots ha culos metallic brillante que non debe esser mordite.
+error-trailer-desc-text = E illes ha un plano.
+error-try-again = Retentar
+    .label2 = Per favor non pulsar iste button novemente.

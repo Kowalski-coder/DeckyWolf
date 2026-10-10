@@ -1,0 +1,248 @@
+about-logins-page-title-name = Fjalëkalime
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Kërko te Fjalëkalimet
+create-login-button =
+    .title = Shtoni fjalëkalim
+fxaccounts-sign-in-text = Merrini fjalëkalimet tuaj në pajisjet tuaja të tjera
+fxaccounts-sign-in-sync-button = Për njëkohësime, bëni hyrjen
+fxaccounts-avatar-button =
+    .title = Administroni llogari
+menu =
+    .title = Hape menunë
+about-logins-menu-menuitem-import-from-another-browser = Importoni nga Tjetër Shfletues…
+about-logins-menu-menuitem-import-from-a-file = Importoni prej një Kartele…
+about-logins-menu-menuitem-export-logins2 = Eksportoni Fjalëkalime…
+about-logins-menu-menuitem-remove-all-logins2 = Hiqini Tërë Fjalëkalimet…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Mundësi
+       *[other] Parapëlqime
+    }
+about-logins-menu-menuitem-help = Ndihmë
+login-list =
+    .aria-label = Kredenciale hyrjesh që kanë përputhje me vargun e kërkimit
+login-list-count2 =
+    { $count ->
+        [one] { $count } fjalëkalim
+       *[other] { $count } fjalëkalime
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } nga { $total } fjalëkalim
+       *[other] { $count } nga { $total } fjalëkalime
+    }
+login-list-sort-label-text = Renditi sipas:
+login-list-name-option = Emrash (A-Z)
+login-list-name-reverse-option = Emrash (Z-A)
+login-list-username-option = Emrash përdoruesi (A-Z)
+login-list-username-reverse-option = Emrash përdoruesi (Z-A)
+about-logins-login-list-alerts-option = Sinjalizime
+login-list-last-changed-option = Ndryshuar Së Fundi Më
+login-list-last-used-option = Përdorur Së Fundi Më
+login-list-intro-title2 = S’janë ruajtur fjalëkalime
+login-list-intro-description = Kur ruani një fjalëkalim në { -brand-product-name }, do të shfaqet këtu.
+about-logins-login-list-empty-search-title2 = S’u gjetën fjalëkalime
+about-logins-login-list-empty-search-description = S’ka përfundime me përputhje me kërkimin tuaj.
+login-list-item-title-new-login2 = Shtoni fjalëkalim
+login-list-item-subtitle-missing-username = (pa emër përdoruesi)
+about-logins-list-item-breach-icon =
+    .title = Sajt i cenuar
+about-logins-list-item-vulnerable-password-icon =
+    .title = Fjalëkalim i cenueshëm
+about-logins-list-section-breach = Sajte të cenuar
+about-logins-list-section-vulnerable = Fjalëkalime të cenueshëm
+about-logins-list-section-nothing = S’ka sinjalizim
+about-logins-list-section-today = Sot
+about-logins-list-section-yesterday = Dje
+about-logins-list-section-week = 7 ditët e fundit
+about-logins-login-intro-heading-message = Ruajini fjalëkalimet tuaja në një vend të siguruar
+login-intro-description2 = Krejt fjalëkalimet që ruani te { -brand-product-name } janë të fshehtëzuar. Plus, vëzhgojmë për cenime dhe ju njoftojmë, nëse jeni prekur. <a data-l10n-name="breach-alert-link">Mësoni më tepër</a>
+login-intro-instructions-fxa2 = Krijoni ose hyni te  llogaria juaj te pajisja ku janë ruajtur kredencialet tuaja të hyrjeve
+login-intro-instructions-fxa-settings = Kaloni te Rregullime > Njëkohësim > Aktivizoni njëkohësim… Përzgjidhni kutizën Kredenciale Hyrjesh dhe fjalëkalime.
+login-intro-instructions-fxa-passwords-help = Për më tepër ndihmë, vizitoni <a data-l10n-name="passwords-help-link">asistencë për fjalëkalime</a>.
+about-logins-intro-import3 = Që të shtoni një fjalëkalim tani, përzgjidhni butonin me shenjën plus. Mundeni edhe <a data-l10n-name="import-browser-link">të importoni fjalëkalime që nga shfletues të tjerë</a> or <a data-l10n-name="import-file-link">përmes një kartele</a>.
+about-logins-login-item-new-login-title = Shtoni fjalëkalim
+login-item-edit-button = Përpunojeni
+about-logins-login-item-remove-button = Hiqi
+login-item-origin-label = Adresë sajti
+about-logins-origin-tooltip2 = Jepni adresën e plotë dhe sigurohuni se përputhet plotësisht, kur bëni hyrjen.
+about-logins-edit-password-tooltip = Sigurohuni se po e ruani fjalëkalimin tuaj të tanishëm për këtë sajt. Ndryshimi i fjalëkalimit këtu nuk e ndryshon atë me { $webTitle }.
+about-logins-add-password-tooltip = Sigurohuni se po e ruiani fjalëkalimin tuaj të tanishëm për këtë sajt.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Emër përdoruesi
+about-logins-login-item-username =
+    .placeholder = (pa emër përdoruesi)
+login-item-copy-username-button-text = Kopjoje
+login-item-copied-username-button-text = U kopjua!
+login-item-password-label = Fjalëkalim
+login-item-password-reveal-checkbox =
+    .aria-label = Shfaqe fjalëkalimin
+login-item-password-conceal-checkbox =
+    .aria-label = Fshihe fjalëkalimin
+login-item-copy-password-button-text = Kopjoje
+login-item-copied-password-button-text = U kopjua!
+about-logins-login-item-save-changes-button = Ruaje
+login-item-save-new-button = Ruaje
+login-item-cancel-button = Anuloje
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Krijuar më
+login-item-timeline-action-updated = Përditësuar më
+login-item-timeline-action-used = Përdorur më
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] ndrysho rregullimet për fjalëkalime
+       *[other] { -brand-short-name }-i po provon të ndryshojë rregullimet për fjalëkalime. Për ta lejuar këtë, përdorni hyrjen në pajisjen tuaj.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Që të përpunoni fjalëkalimin tuaj, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+about-logins-edit-login-os-auth-dialog-message2-macosx = që të përpunohet fjalëkalimi i ruajtur
+about-logins-reveal-password-os-auth-dialog-message-win = Që të shihni fjalëkalimin tuaj, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+about-logins-reveal-password-os-auth-dialog-message-macosx = që të shfaqet fjalëkalimi i ruajtur
+about-logins-copy-password-os-auth-dialog-message-win = Që të kopjoni kredencialet tuaja të hyrjes, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+about-logins-copy-password-os-auth-dialog-message-macosx = që të kopjohet fjalëkalimi i ruajtur
+about-logins-export-password-os-auth-dialog-message2-win = Që të eksportoni fjalëkalimet tuaja, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+about-logins-export-password-os-auth-dialog-message2-macosx = që të eksportohen fjalëkalimet e ruajtura
+about-logins-primary-password-notification-message = Që të shihni kredenciale hyrjesh të ruajtura & fjalëkalime, ju lutemi, jepni Fjalëkalimin tuaj Parësor
+master-password-reload-button =
+    .label = Hyni
+    .accesskey = H
+confirmation-dialog-cancel-button = Anuloje
+confirmation-dialog-dismiss-button =
+    .title = Anulim
+about-logins-confirm-delete-dialog-title = Të hiqet fjalëkalimi?
+about-logins-confirm-delete-dialog-message = S’mund ta zhbëni këtë veprim.
+about-logins-confirm-remove-dialog-confirm-button = Hiqi
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Hiqe
+       *[other] Hiqi Krejt
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Po, hiqe fjalëkalimin
+       *[other] Po, hiqi fjalëkalimet
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Të hiqet { $count } fjalëkalim?
+       *[other] Të hiqen { $count } fjalëkalime?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Kjo do të heqë fjalëkalimin e ruajtur në { -brand-short-name } dhe çfarëdo sinjalizimesh për shkelje. Këtë veprim s’mund ta zhbëni.
+       *[other] This will remove the passwords saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Të hiqet { $count } fjalëkalim nga krejt pajisjet?
+       *[other] Të hiqen { $count } fjalëkalime nga krejt pajisjet?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Kjo do të heqë fjalëkalimet e ruajtur te { -brand-short-name } në krejt pajisjet tuaja të njëkohësuara. Kjo do të heqë gjithashtu sinjalizime cenimesh që shfaqen këtu. Këtë veprim s’mund ta zhbëni.
+        [one] Kjo do të heqë fjalëkalimin e ruajtur te { -brand-short-name } në krejt pajisjet tuaja të njëkohësuara. Kjo do të heqë gjithashtu sinjalizime cenimesh që shfaqen këtu. Këtë veprim s’mund ta zhbëni.
+       *[other] Kjo do të heqë fjalëkalimet e ruajtur te { -brand-short-name } në krejt pajisjet tuaja të njëkohësuara. Kjo do të heqë gjithashtu sinjalizime cenimesh që shfaqen këtu. Këtë veprim s’mund ta zhbëni.
+    }
+about-logins-confirm-export-dialog-title2 = Diçka rreth eksportimit të fjalëkalimeve
+about-logins-confirm-export-dialog-message2 =
+    Kur eksportoni, fjalëkalimet ruhen në një kartelë si tekst i lexueshëm.
+    Kur të keni përfunduar përdorimin e kësaj kartele, rekomandojmë fshirjen e saj, që kështu të tjerët që përdorin këtë pajisje të mos shohin fjalëkalimet tuaja.
+about-logins-confirm-export-dialog-confirm-button2 = Vazhdo me eksportimin
+about-logins-alert-import-message = Shihni Përmbledhje të hollësishme të Importimit
+confirm-discard-changes-dialog-title = Të hidhen tej këto ndryshime?
+confirm-discard-changes-dialog-message = Do të humbin krejt ndryshimet e paruajtura.
+confirm-discard-changes-dialog-confirm-button = Hidhe tej
+about-logins-breach-alert-title = Cenim Sajti
+breach-alert-text = Që nga hera e fundit që përditësuat hollësi të kredencialeve tuaja të hyrjeve, te ky sajt ka patur rrjedhje ose vjedhje fjalëkalimesh. Që të mbroni llogarinë tuaj, ndryshoni fjalëkalimin tuaj për të.
+about-logins-breach-alert-date = Ky cenim ndodhi më { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Kalo te { $hostname }
+about-logins-vulnerable-alert-title = Fjalëkalim i Cenueshëm
+about-logins-vulnerable-alert-text2 = Ky fjalëkalim është përdorur në një tjetër llogari, që ka gjasa të jetë përfshirë në një cenim të dhënash. Ripërdorimi i kredencialeve i vë në rrezik krejt llogaritë tuaja. Ndryshojeni këtë fjalëkalim.
+about-logins-vulnerable-alert-link = Kalo te { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Mësoni më tepër
+about-logins-error-message-duplicate-login-with-link = Ka tashmë një zë për { $loginTitle } me atë emër përdoruesi. <a data-l10n-name="duplicate-link">Të shkohet te zëri ekzistues?</a>
+about-logins-error-message-default = Ndodhi një gabim teksa provohej të ruhej ky fjalëkalim.
+about-logins-export-file-picker-title2 = Eksportoni Fjalëkalime nga { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = passwords.csv
+about-logins-export-file-picker-export-button = Eksporto
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument CSV
+       *[other] Kartelë CVS
+    }
+about-logins-import-file-picker-title2 = Importoni Fjalëkalime te { -brand-short-name }
+about-logins-import-file-picker-import-button = Importo
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument CVS
+       *[other] Kartelë CVS
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument TSV
+       *[other] Kartelë TSV
+    }
+about-logins-import-dialog-title = Importim i Plotësuar
+about-logins-import-dialog-items-added2 =
+    { $count ->
+       *[other] <span>U shtuan fjalëkalime të rinj:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>U përditësua zë ekzistues:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>U përditësuan zëra ekzistues:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>U gjet zë i përsëdytur:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(i paimportuar)</span>
+       *[other] <span>U gjetën zëra të përsëdytur:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(të paimportuar)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>Gabime:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(jo të importuara)</span>
+    }
+about-logins-import-dialog-done = U bë
+about-logins-import-dialog-error-title = Gabim Importimi
+about-logins-import-dialog-error-conflicting-values-title = Vlera të Shumëfishta Që Përplase për Një Kredencial
+about-logins-import-dialog-error-conflicting-values-description = Për shembull: disa emra përdoruesish, fjalëkalimesh, URL, etj. për një kredencial.
+about-logins-import-dialog-error-file-format-title = Problem Formati Kartelash
+about-logins-import-dialog-error-file-format-description = Krye shtyllash të pasaktë ose që mungojnë. Sigurohuni se kartela përfshin shtylla për emër përdoruesi, fjalëkalim dhe URL.
+about-logins-import-dialog-error-file-permission-title = S’arrihet të Lexohet Kartelë
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name }-i s’ka leje për leximin e kartelës. Provoni të ndryshoni lejet e kartelës.
+about-logins-import-dialog-error-unable-to-read-title = S’arrihet të Përtypet Kartela
+about-logins-import-dialog-error-unable-to-read-description = Sigurohuni se përzgjodhët një kartelë CSV ose TSV.
+about-logins-import-dialog-error-no-logins-imported = S’janë importuar kredenciale
+about-logins-import-dialog-error-learn-more = Mësoni më tepër
+about-logins-import-dialog-error-try-import-again = Riprovoni Importim…
+about-logins-import-dialog-error-cancel = Anuloje
+about-logins-import-report-title = Përmbledhje Importimi
+about-logins-import-report-description2 = Fjalëkalimet u importuan te { -brand-short-name }.
+about-logins-import-report-row-index = Rreshti { $number }
+about-logins-import-report-row-description-no-change2 = Përsëdytje: Përputhje ekzakte e një zëri ekzistues
+about-logins-import-report-row-description-modified2 = U përditësua zë ekzistues
+about-logins-import-report-row-description-added2 = U shtua fjalëkalim i ri
+about-logins-import-report-row-description-error = Gabim: Fushë që mungon
+about-logins-import-report-row-description-error-multiple-values = Gabim: Vlera të shumta për { $field }
+about-logins-import-report-row-description-error-missing-field = Gabim: Mungon { $field }
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">U shtua fjalëkalim i ri</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">U shtuan fjalëkalime të rinj</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">U përditësua zë ekzistues</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">U përditësuan zëra ekzistues</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Zë i përsëdytur</div> <div data-l10n-name="not-imported">(i paimportuar)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Zëra të përsëdytur</div> <div data-l10n-name="not-imported">(të paimportuar)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Gabime</div> <div data-l10n-name="not-imported">(të paimportuar)</div>
+    }
+about-logins-import-report-page-title = Raport Përmbledhës i Importimeve

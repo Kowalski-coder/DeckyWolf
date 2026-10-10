@@ -1,0 +1,13 @@
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = I-360 ibhrawuza ekhuselekileyo
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
+migration-wizard-migrator-display-name-safari = Safari
+migration-source-name-ie = I-Internet Explorer
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = I-Google Chrome
+migration-imported-safari-reading-list = Uludwe lokufunda (ukusuka kwiSafari)
+migration-imported-edge-reading-list = Uludwe Lokufunda (ukusuka Ekupheleni)

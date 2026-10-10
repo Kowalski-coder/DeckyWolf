@@ -1,0 +1,15 @@
+panic-button-open-new-window = नवीन पटल उघडा
+panic-button-undo-warning = ही कृती रद्द करणे अशक्य.
+panic-button-forget-button =
+    .label = विसरा!
+panic-main-timeframe-desc = शेवटचे विसरा:
+panic-button-5min =
+    .label = पाच मिनिटे
+panic-button-2hr =
+    .label = दोन तास
+panic-button-day =
+    .label = 24 तास
+panic-button-action-desc = कार्यवाही होईल:
+panic-button-delete-cookies = अलीकडील <strong>कुकीज</strong> काढा
+panic-button-delete-history = अलिकडील <strong>इतिहास</strong>नष्ट करा
+panic-button-delete-tabs-and-windows = सगळे <strong>टॅब</strong> आणि <strong>पटल</strong> बंद करा

@@ -1,0 +1,202 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = Ativar VPN
+    .tooltiptext = Ativar VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = Abrir página de suporte da VPN
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Descubra a VPN, agora integrada diretamente no seu navegador
+ipprotection-feature-introduction-title-1 = Experimente a VPN integrada no { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = Use nossa nova <a data-l10n-name="learn-more-vpn">VPN integrada</a> para ocultar sua localização e proteger seus dados.
+ipprotection-feature-introduction-title-privacy = Adicione outra camada de privacidade
+ipprotection-feature-introduction-link-text-privacy-1 = A <a data-l10n-name="learn-more-vpn">VPN integrada no { -brand-product-name }</a> ajuda a proteger sua navegação. Escolha entre vários locais para manter de onde você navega mais privativo.
+ipprotection-feature-introduction-link-text-privacy-2 = A <a data-l10n-name="learn-more-vpn">VPN integrada no { -brand-product-name }</a> ajuda a proteger sua navegação. Escolha entre vários locais para ter mais privacidade sobre onde você está ao navegar.
+ipprotection-feature-introduction-link-text-privacy-3 = Tenha <a data-l10n-name="learn-more-vpn">privacidade extra</a> ao escolher entre vários locais para ocultar onde você está ao navegar.
+ipprotection-feature-introduction-text-summer-promo-1 = Ative para manter sua navegação mais privativa. <a data-l10n-name="summer-promo-link">Tenha largura de banda ilimitada</a> e mais locais de onde navegar. Oferta válida até 31 de agosto.
+ipprotection-feature-introduction-title-summer-promo = Planeja viajar? Leve a privacidade com você.
+ipprotection-feature-introduction-description-summer-promo = Vá mais longe com a VPN integrada no { -brand-product-name }: mais locais, largura de banda ilimitada. Agora até 31 de agosto.
+ipprotection-summer-promo-offramp-generic-title = Seus limites da VPN integrada serão redefinidos em 1º de setembro
+ipprotection-summer-promo-offramp-generic-description = Use seus { $maxUsage } GB e 6 locais para aumentar a privacidade e tornar sua navegação mais difícil de rastrear.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = Use seus { $maxUsage } GB e mais de 20 locais para aumentar a privacidade e tornar sua navegação mais difícil de rastrear.
+ipprotection-summer-promo-offramp-subscriber-title = Sua VPN integrada ficou ainda melhor
+ipprotection-summer-promo-offramp-subscriber-description = Agora, como assinante do { -mozilla-vpn-brand-name }, você tem dados ilimitados e acesso a mais locais.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = Mantenha seus locais extras de VPN integrada
+ipprotection-summer-promo-offramp-default-browser-incentive-description = Torne o { -brand-product-name } seu navegador padrão e tenha mais de 20 locais extras de onde navegar após 31 de agosto.
+ipprotection-summer-promo-offramp-subscription-upsell-title = Aumente sua proteção com o { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-subscription-upsell-description = Mantenha dados ilimitados após 31 de agosto, com mais de 300 locais em 5 dispositivos para tornar sua navegação mais difícil de rastrear.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = Abrir VPN
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Definir como padrão
+ipprotection-summer-promo-offramp-get-subscription-button = Obtenha o { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Descartar
+ipprotection-feature-introduction-link-text-private-browsing-2 = Use nossa nova <a data-l10n-name="learn-more-vpn">VPN integrada</a> para ocultar sua localização e proteger seus dados, mesmo quando estiver em uma janela privativa.
+ipprotection-feature-introduction-description-private-browsing = Navegue com proteção extra, ocultando sua localização, mesmo quando estiver em uma janela privativa.
+ipprotection-feature-introduction-title-captive-portal = Está em uma rede pública de WiFi? Experimente a VPN integrada no { -brand-product-name }.
+ipprotection-feature-introduction-description-captive-portal = Navegue com proteção extra, ocultando sua localização, mesmo em redes públicas de WiFi.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Tenha <a data-l10n-name="learn-more-vpn">privacidade extra</a> ao escolher entre vários locais, para ocultar onde você está ao navegar
+ipprotection-feature-introduction-button-primary = Avançar
+ipprotection-feature-introduction-button-secondary-not-now = Agora não
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Agora não
+ipprotection-feature-introduction-button-secondary-no-thanks = Não, obrigado
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Não, obrigado
+ipprotection-feature-introduction-button-secondary-remove = Remover VPN da barra de ferramentas
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = Remover VPN da barra de ferramentas
+ipprotection-feature-introduction-button-open-vpn = Abrir VPN
+ipprotection-feature-introduction-button-get-started = Introdução
+ipprotection-site-settings-callout-title = Escolha onde usar VPN
+ipprotection-site-settings-callout-subtitle = Desative a VPN em um site específico, isso será lembrado na próxima vez que você visitar.
+ipprotection-site-settings-callout-button = Entendi
+ipprotection-location-selection-callout-title = Novidade: Mude o local
+ipprotection-location-selection-callout-description-1 = A <a data-l10n-name="learn-more-vpn">VPN integrada no { -brand-product-name }</a> permite você escolher entre vários locais de navegação, ou deixar ser escolhido o mais rápido para você.
+ipprotection-location-selection-callout-primary-button = Experimentar
+ipprotection-location-selection-callout-secondary-button = Descartar
+ipprotection-android-promo-callout-title = Leve a VPN integrada com você no Android
+ipprotection-android-promo-callout-description = Capture o código QR para instalar o { -brand-product-name } para Android e ative a VPN integrada para ter mais privacidade em qualquer lugar. Em breve para iOS.
+ipprotection-android-promo-callout-primary-button = Entendi
+unauthenticated-vpn-title = Experimente a VPN integrada no { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Oculte sua localização</a> ao navegar no { -brand-product-name }.
+unauthenticated-private-location-message = Ajuda a <a data-l10n-name="learn-more-vpn">manter sua localização privativa</a> no { -brand-product-name }.
+unauthenticated-choose-location-message-1 = Escolha entre vários locais ou deixe o { -brand-product-name } escolher o mais rápido.
+unauthenticated-site-rules-message = Escolha quais sites devem usar VPN e quais não devem.
+unauthenticated-get-started = Introdução
+unauthenticated-terms-of-service-privacy-notice = Ao continuar, você declara que concorda com os <a data-l10n-name="vpn-terms-of-service">Termos do serviço</a> e com o <a data-l10n-name="vpn-privacy-notice">Aviso de privacidade</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = A VPN está ativada neste site
+    .label = Usar VPN neste site
+site-exclusion-toggle-disabled-1 =
+    .aria-label = A VPN está desativada neste site
+    .label = Usar VPN neste site
+site-exclusion-toggle-description = O site não está funcionando? Experimente desativar a VPN.
+site-rules-manage-rules-link-text = Gerenciar regras de VPN
+site-rules-status-heading = Regra personalizada
+site-rules-description-exclusion = A VPN está desativada neste site
+site-rules-description-inclusion = A VPN está ativada neste site
+ipprotection-settings-link =
+    .label = Configurações
+ipprotection-connection-status-connected-1 = VPN está ativada
+    .aria-label = VPN está ativada
+ipprotection-connection-status-disconnected-1 = VPN está desativada
+    .aria-label = VPN está desativada
+ipprotection-connection-status-excluded-1 = A VPN está desativada neste site
+    .aria-label = A VPN está desativada neste site
+ipprotection-connection-status-connecting-1 = A VPN está conectando…
+    .aria-label = A VPN está conectando…
+ipprotection-button-turn-vpn-off = Desativar VPN
+ipprotection-button-turn-vpn-off-excluded-site = Desativar VPN em todo lugar
+ipprotection-button-turn-vpn-on = Ativar VPN
+ipprotection-button-connecting = Ativando…
+ipprotection-recommended-location-button = Local: Recomendado
+ipprotection-recommended-location-description = O { -brand-product-name } encontra o local mais rápido
+ipprotection-recommended-location-badge = NOVIDADE
+ipprotection-location-country-button = Local: { $country }
+ipprotection-locations-subview =
+    .title = Escolher local
+ipprotection-locations-subview-description = Escolha outro local de onde navegar.
+ipprotecion-locations-subview-recommended-label = Recomendado
+ipprotection-locations-subview-recommended-description = Encontra o local mais rápido
+ipprotection-locations-unavailable-label-1 = Não disponível
+    .aria-label = Não disponível, desativado
+ipprotection-locations-subview-promo =
+    .heading = Reforce a proteção com o { -mozilla-vpn-brand-name }
+    .message = Escolha dentre mais de 300 locais e proteja todos os seus aplicativos em até 5 dispositivos.
+ipprotection-locations-subview-promo-button = Obtenha o { -mozilla-vpn-brand-name }
+ipprotection-connection-status-paused-title-2 = A VPN está em pausa
+    .aria-label = A VPN está em pausa
+ipprotection-connection-status-paused-description-1 = Você usou todos os seus { $maxUsage } GB de dados na VPN. O acesso é renovado no próximo mês.
+upgrade-vpn-title = Tenha proteção extra, além da no navegador
+upgrade-vpn-description = Escolha uma localização de VPN, proteja todos os seus aplicativos em até 5 dispositivos e fique seguro em qualquer rede, em casa ou em redes públicas de WiFi.
+upgrade-vpn-button = Experimente o { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Não foi possível conectar com a VPN
+    .aria-label = Não foi possível conectar com a VPN
+ipprotection-connection-status-generic-error-description = Tente novamente em alguns minutos.
+ipprotection-connection-status-generic-error-try-again = Tente novamente mais tarde.
+ipprotection-connection-status-network-error-title-1 = Verifique sua conexão com a internet
+    .aria-label = Verifique sua conexão com a internet
+ipprotection-connection-status-network-error-description = Conecte-se à internet, depois tente ativar a VPN.
+ipprotection-connection-status-blocked-error-title-1 = A VPN não está disponível.
+    .aria-label = A VPN não está disponível.
+ipprotection-connection-status-blocked-error-description-1 = Leis e restrições locais limitam onde você pode usar VPN. <a data-l10n-name="learn-more-link">Saiba mais</a>
+ipprotection-message-bandwidth-warning =
+    .heading = Chegando perto do seu limite de VPN
+    .message = Você tem { $usageLeft } GB de { $maxUsage } GB restante este mês.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Chegando perto do seu limite de VPN
+    .message = Você tem { $usageLeft } MB de { $maxUsage } GB restante este mês.
+ipprotection-message-continuous-onboarding-intro = Ative a VPN para ocultar sua localização e adicionar criptografia extra à sua navegação.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Configure a VPN para ativar</a> toda vez que você abrir o { -brand-short-name }, para ter uma camada extra de proteção.
+ipprotection-message-continuous-onboarding-site-settings = O { -brand-short-name } memoriza quais sites você configura para usar VPN. Você pode modificar quando quiser nas <a data-l10n-name="setting-link">configurações</a>.
+confirmation-hint-ipprotection-navigated-to-excluded-site = A VPN está desativada neste site
+ipprotection-open-button = Abrir o { -brand-product-name }
+ipprotection-come-back-title = Volte para experimentar a VPN integrada
+ipprotection-message-body-hide-location = Oculte sua localização ao navegar no { -brand-product-name } para ter mais privacidade e controle.
+ipprotection-bandwidth-upgrade-title = Gosta de VPN integrada? Tenha ainda mais proteção fora do { -brand-product-name } com o { -mozilla-vpn-brand-name }.
+ipprotection-bandwidth-upgrade-text = Escolha uma localização de VPN e adicione proteção a todos os seus aplicativos em até 5 dispositivos, esteja você em casa ou em uma rede pública de WiFi.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Chegando perto do seu limite de VPN.</strong> Você tem { $usageLeft } GB restantes. Sua cota de dados será renovada no início do próximo mês.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Você está quase sem dados de VPN.</strong> Tem { $usageLeft } GB restante. Após usar tudo, a VPN fica em pausa até que os dados sejam renovados no primeiro dia do próximo mês.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Você está quase sem dados de VPN.</strong> Tem { $usageLeft } MB restante. Após usar tudo, a VPN fica em pausa até que os dados sejam renovados no primeiro dia do próximo mês.
+ip-protection-description =
+    .description = VPN integrada para aumentar sua privacidade ao navegar no { -brand-short-name }.
+    .label = VPN
+ip-protection-description-1 =
+    .description = Tenha privacidade extra ao ocultar sua localização enquanto navega.
+    .label = VPN integrada
+ip-protection-learn-more = Saiba mais
+ip-protection-not-opted-in-4 =
+    .heading = Experimente a VPN integrada no { -brand-short-name }
+    .message = Navegue com proteção extra ao ocultar sua localização.
+ip-protection-not-opted-in-button = Introdução
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } site
+           *[other] { $count } sites
+        }
+    .label = Gerenciar configurações de sites
+ip-protection-site-rules-header =
+    .heading = Gerenciar regras de sites
+ip-protection-site-rules-button =
+    .description = Definir regras para sites que precisam de privacidade extra, ou da VPN desativada.
+    .label = Gerenciar regras de sites
+ip-protection-autostart =
+    .label = Ativar VPN automaticamente
+ip-protection-autostart-checkbox =
+    .label = Ao abrir o { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = Em janelas privativas
+ip-protection-vpn-upgrade-link =
+    .description = Escolha locais personalizados de VPN e adicione proteção a todos os seus aplicativos em até cinco dispositivos, esteja em casa ou em uma rede pública de WiFi.
+    .label = Tenha ainda mais proteção fora do { -brand-short-name } com o { -mozilla-vpn-brand-name }
+ip-protection-vpn-upgrade-link-1 =
+    .description = Escolha dentre mais de 300 locais e proteja todos os seus aplicativos em até 5 dispositivos.
+    .label = Reforce a proteção com o { -mozilla-vpn-brand-name }
+ip-protection-exceptions-dialog-window =
+    .title = Gerenciar configurações de sites
+ip-protection-exclusions-desc = Use VPN em todos os sites, exceto os desta lista. Adicione um site aqui ou abrindo a VPN.
+ip-protection-bandwidth-header-1 = Limite mensal de dados
+ip-protection-bandwidth-left-this-month-gb = Resta { $usageLeft } GB de { $maxUsage } GB este mês
+ip-protection-bandwidth-left-gb-1 = Resta <span data-l10n-name="usage">{ $usageLeft } GB</span> de { $maxUsage } GB
+ip-protection-bandwidth-left-this-month-mb = Resta { $usageLeft } MB de { $maxUsage } GB este mês
+ip-protection-bandwidth-left-mb-1 = Resta <span data-l10n-name="usage">{ $usageLeft } MB</span> de { $maxUsage } GB
+ip-protection-bandwidth-hit-for-the-month = Você usou todos os seus { $maxUsage } GB de dados na VPN. O acesso será renovado no próximo mês.
+ip-protection-bandwidth-help-text = É renovado para { $maxUsage } GB no início de cada mês.
+ipprotection-bandwidth-reset-title = { $maxUsage } GB de VPN, renovado e pronto para usar
+ipprotection-bandwidth-reset-text = Ative a VPN para reforçar sua privacidade, gratuitamente todo mês.
+ipprotection-bandwidth-reset-button = Entendi
+ipp-activator-breakage-sign-in-warning = <strong>Este site pode não funcionar com uma VPN.</strong> Experimente entrar na sua conta ou desativar a VPN ao usar este site.
+ipp-activator-breakage-turn-off-warning = <strong>Este site pode não funcionar com uma VPN.</strong> Experimente desativar a VPN ao usar este site.
+vpn-paused-alert-title = VPN pausada
+vpn-paused-alert-body = Você usou todos os seus { $maxUsage } GB de dados na VPN. O acesso à VPN será renovado no próximo mês.
+vpn-error-page-paused-description = Você usou todos os seus { $maxUsage } GB de dados na VPN. O acesso é renovado no próximo mês.
+vpn-error-page-continue-description = Escolha como continuar sem VPN
+vpn-error-page-keep-browsing = Continuar navegando nesta sessão
+vpn-error-page-new-session = Iniciar uma nova sessão
+vpn-paused-alert-close-tabs-button = Fechar todas as abas
+vpn-paused-alert-continue-wo-vpn-button = Continuar sem VPN
+vpn-error-alert-title = A VPN não está funcionando no momento.
+vpn-error-alert-body = Tente novamente mais tarde.

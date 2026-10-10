@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Jumpa Lagi Manusia!
+error-short-desc-text = Kami telah berkunjung untuk Anda dalam damai untuk bersilaturahmi!
+error-long-desc1 = Robot tidak boleh menyakiti manusia atau secara tak langsung mencelakakannya.
+error-long-desc2 = Robot telah melihat banyak hal yang tidak akan Anda percayai.
+error-long-desc3 = Robot adalah Sahabat Metal Teman Anda Bergembira-ria.
+error-long-desc4 = Robot mempunyai kulit metal berkilau yang bukan untuk dirusak.
+error-trailer-desc-text = Dan mereka punya rencana.
+error-try-again = Coba Lagi
+    .label2 = Mohon tidak mengeklik tombol ini lagi.

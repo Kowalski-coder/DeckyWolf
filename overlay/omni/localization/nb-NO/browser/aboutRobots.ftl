@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Velkommen, mennesker!
+error-short-desc-text = Vi har kommet for å besøke dere i fred og med gode hensikter!
+error-long-desc1 = Roboter kan ikke skade et menneske, eller gjennom uvirksomhet, tillate at et menneske blir skadd.
+error-long-desc2 = Roboter har sett ting som dere mennesker ikke vil tro.
+error-long-desc3 = Roboter er din plastvenn som det er gøy å være sammen med.
+error-long-desc4 = Roboter har skinnende bakdeler som helst ikke skal bites.
+error-trailer-desc-text = Og de har en plan.
+error-try-again = Prøv igjen
+    .label2 = Ikke trykk på denne knappen igjen.

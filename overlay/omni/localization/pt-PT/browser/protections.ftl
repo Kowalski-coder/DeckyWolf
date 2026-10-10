@@ -1,0 +1,201 @@
+graph-week-summary =
+    { $count ->
+        [one] { -brand-short-name } bloqueou { $count } rastreador ao longo da semana passada
+       *[other] { -brand-short-name } bloqueou { $count } rastreadores ao longo da semana passada
+    }
+graph-total-tracker-summary =
+    { $count ->
+        [one] <b>{ $count }</b> rastreador bloqueado desde { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+       *[other] <b>{ $count }</b> rastreadores bloqueados desde { DATETIME($earliestDate, day: "numeric", month: "long", year: "numeric") }
+    }
+graph-private-window = O { -brand-short-name } continua a bloquear os rastreadores em janelas privadas, mas não mantém um registo do que foi bloqueado.
+graph-week-summary-private-window = Rastreadores que o { -brand-short-name } bloqueou esta semana
+protection-report-webpage-title = Painel das proteções
+protection-report-page-content-title = Painel das proteções
+protection-report-page-summary = O { -brand-short-name } pode proteger a sua privacidade nos bastidores, enquanto navega. Este é um resumo personalizado destas proteções, incluindo ferramentas para assumir o controle da sua segurança na Internet.
+protection-report-page-summary-default = O { -brand-short-name } protege a sua privacidade, nos bastidores, enquanto navega. Este é um resumo personalizado destas proteções, incluindo ferramentas para assumir a gestão da sua segurança na Internet.
+protection-report-settings-link = Gerir as suas definições de privacidade e segurança
+etp-card-title-always = Proteção melhorada contra a monitorização: Sempre ligada
+etp-card-title-custom-not-blocking = Proteção melhorada contra a monitorização: DESLIGADA
+etp-card-content-description = O { -brand-short-name } impede automaticamente que as empresas o sigam secretamente pela Internet.
+protection-report-etp-card-content-custom-not-blocking = Atualmente, todas as proteções estão desativadas. Escolha que rastreadores devem ser bloqueados gerindo as definições de proteção do { -brand-short-name }.
+protection-report-manage-protections = Gerir definições
+graph-today = Hoje
+graph-legend-description = Um gráfico contendo o número total de cada tipo de rastreador bloqueado esta semana.
+social-tab-title = Rastreadores de redes sociais
+social-tab-contant = As redes sociais colocam rastreadores em outros sites para monitorizar o que faz, vê e assiste na Internet. Isto permite que estas empresas de redes sociais saibam mais sobre si, para além do que partilha no seu perfil nas redes sociais. <a data-l10n-name="learn-more-link">Saber mais</a>
+cookie-tab-title = Cookies de monitorização entre sites
+cookie-tab-content = Estes cookies seguem-no de site em site para recolher dados sobre o que faz na Internet. São definidos por terceiros, como anunciantes ou empresas de análise. O bloqueio de cookies cruzados de rastreamento reduz o número de anúncios que o seguem. <a data-l10n-name="learn-more-link">Saber mais</a>
+tracker-tab-title = Monitorização de conteúdo
+tracker-tab-description = Os sites podem carregar anúncios, vídeos e outros conteúdos externos com códigos de rastreamento. O bloqueio de conteúdos de rastreamento pode ajudar os sites a carregar mais rapidamente, mas alguns botões, formulários e campos de autenticação podem não funcionar. <a data-l10n-name="learn-more-link">Saber mais</a>
+fingerprinter-tab-title = Identificadores
+fingerprinter-tab-content = Os identificadores recolhem definições do seu navegador e computador para criar um perfil sobre si. Ao utilizar este identificador digital, estes podem monitorizá-lo em vários sites diferentes. <a data-l10n-name="learn-more-link">Saber mais</a>
+cryptominer-tab-title = Cripto-mineradores
+cryptominer-tab-content = Os criptomineradores utilizam o poder de computação do seu sistema para minerar dinheiro digital. Os scripts de criptomineração podem descarregar a sua bateria, tornar o seu computador mais lento e aumentar os custos com a sua fatura elétrica. <a data-l10n-name="learn-more-link">Saber mais</a>
+protections-close-button2 =
+    .aria-label = Fechar
+    .title = Fechar
+mobile-app-title = Bloquear anúncios de monitorização em mais dispositivos
+mobile-app-card-content = Utilize o navegador móvel com proteção integrada contra anúncios de monitorização.
+mobile-app-links = O navegador { -brand-product-name } para <a data-l10n-name="android-mobile-inline-link">Android</a> e <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+lockwise-title = Nunca mais esqueça uma palavra-passe
+passwords-title-logged-in = Gerir as suas palavras-passe
+passwords-header-content = O { -brand-product-name } guarda as suas palavras-passe em segurança no seu navegador.
+lockwise-header-content-logged-in = Guarde e sincronize em segurança as suas palavras-passe em todos os seus dispositivos.
+protection-report-passwords-save-passwords-button = Guardar palavras-passe
+    .title = Guardar palavras-passe
+protection-report-passwords-manage-passwords-button = Gerir palavras-passe
+    .title = Gerir palavras-passe
+lockwise-scanned-text-breached-logins =
+    { $count ->
+        [one] 1 palavra-passe poderá ter sido exposta numa violação de dados.
+       *[other] { $count } palavras-passe poderão ter sido expostas numa violação de dados
+    }
+lockwise-scanned-text-no-breached-logins =
+    { $count ->
+        [one] 1 palavra-passe guardada em segurança.
+       *[other] As suas palavras-passe estão a ser guardadas em segurança.
+    }
+lockwise-how-it-works-link = Como é que funciona
+monitor-title = Procurar por violações de dados
+monitor-link = Como funciona
+monitor-header-content-no-account = Aceda ao { -monitor-brand-name } para confirmar se fez parte de uma violação de dados conhecida e para obter alertas sobre novas violações de dados.
+monitor-header-content-signed-in = O { -monitor-brand-name } avisa-o se a sua informação apareceu numa violação de dados conhecida.
+monitor-sign-up-link = Registar para alertas de violações de dados
+    .title = Registar no { -monitor-brand-name } para alertas de violações de dados
+auto-scan = Analisado hoje, de forma automática
+monitor-emails-tooltip =
+    .title = Ver os endereços de e-mail monitorados no { -monitor-brand-short-name }
+monitor-breaches-tooltip =
+    .title = Ver no { -monitor-brand-short-name } as violações de dados conhecidas
+monitor-passwords-tooltip =
+    .title = Ver no { -monitor-brand-short-name } as palavras-passe expostas.
+info-monitored-emails =
+    { $count ->
+        [one] endereço de e-mail em monitorização
+       *[other] endereços de e-mail em monitorização
+    }
+info-known-breaches-found =
+    { $count ->
+        [one] Violação de dados conhecida que expôs a sua informação
+       *[other] Violações de dados conhecidas que expuseram a sua informação
+    }
+info-known-breaches-resolved =
+    { $count ->
+        [one] Violação de dados conhecida marcada como resolvida
+       *[other] Violações de dados conhecidas marcadas como resolvidas
+    }
+info-exposed-passwords-found =
+    { $count ->
+        [one] palavra-passe exposta em todas as violações de dados
+       *[other] palavras-passe expostas em todas as violações de dados
+    }
+info-exposed-passwords-resolved =
+    { $count ->
+        [one] Palavra-passe exposta em violações de dados não resolvidas
+       *[other] Palavras-passe expostas em violações de dados não resolvidas
+    }
+monitor-no-breaches-title = Boas notícias!
+monitor-no-breaches-description = Você não tem violações de dados conhecidas. Se isto se alterar, nós iremos avisá-lo.
+monitor-view-report-link = Ver relatório
+    .title = Resolver violações de dados no { -monitor-brand-short-name }
+monitor-breaches-unresolved-title = Resolver as suas violações de dados
+monitor-breaches-unresolved-description =
+    Depois de analisar os detalhes sobre a violação de dados e tomar medidas para proteger
+    as suas informações, pode marcar as violações de dados como resolvidas.
+monitor-manage-breaches-link = Gerir violações de dados
+    .title = Gerir violações de dados no { -monitor-brand-short-name }
+monitor-breaches-resolved-title = Muito bem! Resolveu todas as violações de dados conhecidas.
+monitor-breaches-resolved-description = Iremos informá-lo se o seu e-mail aparecer em novas violações de dados.
+monitor-partial-breaches-title =
+    { $numBreaches ->
+        [one] { $numBreachesResolved } de { $numBreaches } violação de dados marcada como resolvida
+       *[other] { $numBreachesResolved } de { $numBreaches } violações de dados marcadas como resolvidas
+    }
+monitor-partial-breaches-percentage = { $percentageResolved } concluído
+monitor-partial-breaches-motivation-title-start = Ótimo começo!
+monitor-partial-breaches-motivation-title-middle = Continue assim!
+monitor-partial-breaches-motivation-title-end = Está quase! Continue assim.
+monitor-partial-breaches-motivation-description = Resolver as violações de dados remanescentes no { -monitor-brand-short-name }.
+monitor-resolve-breaches-link = Resolver violações de dados
+    .title = Resolver violações de dados no { -monitor-brand-short-name }
+bar-tooltip-social =
+    .aria-label =
+        { $count ->
+            [one] { $count } rastreador da rede social ({ $percentage }%)
+           *[other] { $count } rastreadores das redes sociais ({ $percentage }%)
+        }
+    .title = Rastreadores das redes sociais
+bar-tooltip-cookie =
+    .aria-label =
+        { $count ->
+            [one]
+                { $count } cookie de monitorização entre sites ({ $percentage }%)
+                { $count } cross-site tracking cookie ({ $percentage }%)
+                { $count } cookie de monitorização ente sites ({ $percentage }%)
+           *[other] { $count } cookies de monitorização entre sites ({ $percentage }%)
+        }
+    .title = Cookies de monitorização entre sites
+bar-tooltip-tracker =
+    .aria-label =
+        { $count ->
+            [one] { $count } conteúdo de monitorização ({ $percentage }%)
+           *[other] { $count } conteúdos de monitorização ({ $percentage }%)
+        }
+    .title = Conteúdo de monitorização
+bar-tooltip-fingerprinter =
+    .aria-label =
+        { $count ->
+            [one] { $count } identificador ({ $percentage }%)
+           *[other] { $count } identificadores ({ $percentage }%)
+        }
+    .title = Identificadores
+bar-tooltip-cryptominer =
+    .aria-label =
+        { $count ->
+            [one] { $count } cripto-minerador ({ $percentage }%)
+           *[other] { $count } cripto-mineradores ({ $percentage }%)
+        }
+    .title = Cripto-mineradores
+privacy-metrics-title = Proteções de privacidade
+privacy-metrics-blocked-this-week =
+    { $count ->
+        [one] { $count } bloqueado esta semana
+       *[other] { $count } bloqueados esta semana
+    }
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } rastreador
+       *[other] { $count } rastreadores
+    }
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } identificador digital
+       *[other] { $count } identificadores digitais
+    }
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } cookie de monitorização
+       *[other] { $count } cookies de monitorização
+    }
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } rastreador social
+       *[other] { $count } rastreadores sociais
+    }
+privacy-metrics-empty = Nenhum rastreador foi bloqueado esta semana. O { -brand-short-name } protege-o das seguintes ameaças enquanto navega.
+privacy-metrics-loading = A carregar as estatísticas de proteção…
+privacy-metrics-error = Não foi possível carregar as estatísticas de proteção.
+privacy-metrics-private-window = O { -brand-short-name } continua a bloquear os rastreadores em janelas privadas, mas não mantém um registo do que foi bloqueado.
+protections-vpn-title = Leve as proteções de privacidade para além do navegador
+protections-vpn-header-content = Proteja todo o seu dispositivo com a { -mozilla-vpn-brand-name }. Um toque encripta todo o tráfego e oculta a sua localização.
+protections-get-vpn-link = Obter a { -mozilla-vpn-brand-name }
+protections-vpn-title-subscribed = VPN: Subscrita
+protections-vpn-header-content-subscribed =
+    { $count ->
+        [one] O uso da { -mozilla-vpn-brand-name } encripta todo o seu tráfego e oculta a sua localização — em até { $count } dispositivo. Obtenha o máximo da sua subscrição — adicione-a da <a data-l10n-name="playstore-link">Google Play Store</a> ou da <a data-l10n-name="appstore-link">Apple App Store </a>.
+       *[other] O uso da { -mozilla-vpn-brand-name } encripta todo o seu tráfego e oculta a sua localização — em até { $count } dispositivos. Obtenha o máximo da sua subscrição — adicione-a da <a data-l10n-name="playstore-link">google Play Store</a> ou da <a data-l10n-name="appstore-link">Apple App Store </a>.
+    }
+protections-vpn-banner-header = Proteção que se estende para além do navegador
+protections-vpn-banner-content = Experimente a { -mozilla-vpn-brand-name } sem riscos e veja porque é que o TechRadar diz que “a sua velocidade, facilidade e baixo preço mensal fazem com que valha a pena dar uma vista de olhos.”
+protections-vpn-banner-link = Obter a { -mozilla-vpn-brand-name }

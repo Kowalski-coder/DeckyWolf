@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Chi tiết ứng dụng
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Gỡ bỏ
+    .accesskey = G
+app-manager-handle-protocol = Các ứng dụng sau có thể được dùng để xử lí các liên kết { $type }.
+app-manager-handle-file = Các ứng dụng sau có thể được dùng để xử lí nội dung { $type }.
+app-manager-web-app-info = Ứng dụng web này được đặt tại:
+app-manager-local-app-info = Ứng dụng này nằm tại:

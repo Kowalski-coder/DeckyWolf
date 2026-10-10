@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Pozdravljeni človeki! Sem pripravljeno k vas.
+error-short-desc-text = K vam prihajamo v miru in z dobro voljo!
+error-long-desc1 = Roboti ne smejo škoditi človeku ali iz malomarnosti dovoliti, da bi se poškodoval.
+error-long-desc2 = Roboti smo videli stvari, o katerih nam ljudje ne bi verjeli.
+error-long-desc3 = Roboti so vaši plastični prijatelji, s katerimi je lepo.
+error-long-desc4 = Piši se mi v mojo svetlečo kovinsko rit.
+error-trailer-desc-text = In imajo načrt.
+error-try-again = Poskusi znova
+    .label2 = Prosim, ne pritiskajte tega gumba.

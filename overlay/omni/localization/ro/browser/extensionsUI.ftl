@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } dorește să îți schimbe motorul de căutare implicit de pe { $currentEngine } pe { $newEngine }. Este în regulă?
+webext-default-search-yes =
+    .label = Da
+    .accesskey = Y
+webext-default-search-no =
+    .label = Nu
+    .accesskey = N
+addon-post-install-message = { $addonName } a fost adăugat.
+webext-quarantine-confirmation-title = Rulezi { $addonName } pe site-uri restricționate?
+webext-quarantine-confirmation-line-1 = Pentru protecția datelor tale, extensia nu este permisă pe acest site.
+webext-quarantine-confirmation-line-2 = Permite această extensie dacă ai încredere să citească și să îți schimbe datele pe site-uri restricționate de { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permite
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Nu permite
+    .accesskey = D

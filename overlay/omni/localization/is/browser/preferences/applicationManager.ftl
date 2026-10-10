@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Upplýsingar um forrit
+    .style = min-width: 32em; min-height: 20em;
+app-manager-remove =
+    .label = Fjarlægja
+    .accesskey = r
+app-manager-handle-protocol = Eftirfarandi forrit geta meðhöndlað { $type } tengla.
+app-manager-handle-file = Eftirfarandi forrit geta meðhöndlað { $type } efni.
+app-manager-web-app-info = Þetta vefforrit er hýst á:
+app-manager-local-app-info = Þetta forrit er staðsett á:

@@ -1,0 +1,13 @@
+grid-row-column-positions = Satır { $row } / Sütun { $column }
+gridtype-container = Grid kapsayıcısı
+gridtype-item = Grid öğesi
+gridtype-dual = Grid kapsayıcısı/öğesi
+flextype-container = Flex kapsayıcı
+flextype-item = Flex öğesi
+flextype-dual = Flex kapsayıcısı/öğesi
+remote-node-picker-notice = DevTools düğüm seçici etkinleştirildi. { $action }
+remote-node-picker-notice-action-desktop = Denetçide seçmek istediğiniz elemana tıklayın
+remote-node-picker-notice-action-touch = Denetçide seçmek istediğiniz elemana dokunun
+remote-node-picker-notice-hide-button = Gizle
+simple-highlighters-message = prefers-reduced-motion etkinleştirildiğinde renklerin yanıp sönmesini önlemek için ayarlar bölmesinden basitleştirilmiş bir vurgulayıcıyı etkinleştirebilirsiniz.
+simple-highlighters-settings-button = Ayarları aç

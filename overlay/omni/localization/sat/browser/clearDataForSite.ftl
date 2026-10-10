@@ -1,0 +1,9 @@
+clear-data-for-site-title = ᱱᱚᱣᱟ ᱣᱮᱵᱽᱥᱟᱭᱤᱴ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱱᱟᱢ ᱰᱟᱴᱟ ᱥᱟᱯᱷᱟ ᱢᱮ?
+clear-data-for-site-list = ᱱᱚᱣᱟ ᱫᱚ { $site } ᱞᱟᱹᱜᱤᱫ ᱡᱷᱚᱛᱚ ᱰᱟᱴᱟ ᱯᱷᱟᱨᱪᱟᱭᱟ ᱡᱟᱦᱟᱸ ᱨᱮ ᱺ
+clear-data-for-site-browsing-history = ᱵᱽᱨᱟᱣᱡᱤᱝ ᱟᱨ ᱰᱟᱣᱱᱞᱚᱰ ᱦᱤᱛᱟᱹᱞ
+clear-data-for-site-cookies = ᱠᱩᱠᱤᱡᱽ ᱟᱨ ᱥᱟᱭᱤᱴ ᱰᱟᱴᱟ, ᱡᱟᱦᱟᱸ ᱫᱚ ᱟᱢ ᱥᱟᱭᱤᱴ ᱠᱷᱚᱱ ᱥᱟᱭᱤᱱ ᱟᱣᱩᱴ ᱫᱟᱲᱮᱭᱟᱢᱟᱭ
+clear-data-for-site-cache = ᱠᱮᱪ ᱠᱟᱱ ᱨᱮᱫ ᱠᱚ ᱟᱨ ᱥᱟᱦᱴᱟ ᱠᱚ
+cclear-data-for-site-permissions = ᱟᱹᱭᱫᱟᱹᱨ ᱟᱨ ᱠᱩᱥᱤᱠᱚ
+clear-data-for-site-exceptions = ᱵᱩᱠᱢᱟᱨᱠ ᱟᱨ ᱥᱟᱧᱪᱟᱣ ᱟᱠᱟᱱ ᱯᱟᱥᱣᱟᱨᱰ ᱵᱟᱝ ᱢᱮᱴᱟᱣᱚᱜᱼᱟ
+clear-data-for-site-dialog-accept-button = ᱰᱟᱴᱟ ᱢᱮᱴᱟᱣ ᱢᱮ
+clear-data-for-site-dialog-cancel-button = ᱵᱟᱹᱰᱨᱟᱹ

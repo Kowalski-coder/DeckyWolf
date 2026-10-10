@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Tabblad aan taakbalk toevoegen
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Tabblad van taakbalk verwijderen
+taskbar-tab-urlbar-button-show = Webapp-pagina-actie tonen
+taskbar-tab-urlbar-button-hide = Webapp-pagina-actie verbergen
+taskbar-tab-shortcut-description = { $name }-webapp
+taskbar-tab-shortcut-folder = { -brand-short-name }-webapps
+taskbar-tab-audio-mute =
+    .tooltiptext = Tabblad dempen
+taskbar-tab-audio-unmute =
+    .tooltiptext = Tabblad dempen opheffen
+taskbar-tab-title-default = { $name } in { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) in { -brand-full-name }
+taskbar-tab-title-profile = { $name } in { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) in { $profile } – { -brand-full-name }

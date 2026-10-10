@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = اورفلوں مینو سے ان پن کرے
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = ٹولبار میں ڈالیں
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = اورفلوں مینو مے شامل کرے
+    .accesskey = M
+panic-button-thankyou-msg1 = آپ کے حالیہ سابقات صاف کر دیے گئے ہیں۔
+panic-button-thankyou-msg2 = محفوظ براؤزنگ
+panic-button-thankyou-button =
+    .label = شکریہ

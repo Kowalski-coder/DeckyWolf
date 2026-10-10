@@ -1,0 +1,44 @@
+xpinstall-prompt = { -brand-short-name } na nungoo woo ganji a ma hãa ka goyjinaa sinji war ordinateroo ra.
+xpinstall-prompt-dont-allow =
+    .label = Ma ši yadda
+    .accesskey = D
+xpinstall-disabled = Goyjinay sinjiyanoo kayandi sohõ. Tunandi naagu ka ceeci koyne.
+xpinstall-disabled-button =
+    .label = Tunandi
+    .accesskey = n
+webext-perms-sideload-menu-item = { $addonName } tontonandi { -brand-short-name } ga
+webext-perms-update-menu-item = { $addonName } ka duɲeyan taagayaŋ waažibandi
+addon-downloading-and-verifying =
+    { $addonCount ->
+        [one] Goo ma tontonoo zumandi k'a koroši…
+       *[other] Goo ma tontoni { $addonCount } zumandi k'i koroši…
+    }
+addon-download-verifying = Goo ma koroši
+addon-install-cancel-button =
+    .label = Naŋ
+    .accesskey = N
+addon-install-accept-button =
+    .label = Tonton
+    .accesskey = T
+addon-confirm-install-message =
+    { $addonCount ->
+        [one] Nungoo woo ga boona ka tontoni foo sinji { -brand-short-name } ga:
+       *[other] Nungoo woo ga boona ka tontoni { $addonCount } sinji { -brand-short-name } ga:
+    }
+addon-confirm-install-unsigned-message =
+    { $addonCount ->
+        [one] Hawgay ya, nungoo ga boona ka tontoni foo kaŋ mana korosandi sinji { -brand-short-name } ga. Koyjineyan ti war boŋ allamaanaa.
+       *[other] Hawgay ya, nungoo woo ka boona ka tontoni { $addonCount } sinjin { -brand-short-name } ga. Koyjineyan ti war boŋ allamaanaa.
+    }
+addon-confirm-install-some-unsigned-message = Hawgay ya, nungoo woo ga boona ka tontoni { $addonCount } sinji { -brand-short-name } ga, kaŋyaŋ jerey mana korosandi. Koyjineyan ti war boŋ allamaanaa.
+addon-install-error-network-failure = Tontonoo mana hin ka zumandi zama ciyaroo foo n' ka dunbu.
+addon-install-error-incorrect-hash = Tontonoo woo mana hin ka sinjandi zama a ši tenji nda { -brand-short-name } tontoni naatantaa.
+addon-install-error-corrupt-file = Tontonoo kaŋ zunbu ka hun nungoo woo ga mana hin ka sinja zam'a ga hima sand'a laybu.
+addon-install-error-file-access = { $addonName } mana hin ka sinjandi zama { -brand-short-name } ši hin ka tuku himantaa barmay.
+addon-install-error-not-signed = { -brand-short-name } na nungoo woo ganji a ma tontoni foo kaŋ mana korosandi sinji.
+addon-local-install-error-network-failure = Tontonoo woo mana hin ka sinja tuku dabariɲaaa laybu foo se.
+addon-local-install-error-incorrect-hash = Tontonoo woo mana hin ka sinjandi zama a ši tenji nda { -brand-short-name } tontoni naatantaa.
+addon-local-install-error-corrupt-file = Tontonoo woo mana hin ka sinjandi zama a ga hima kaŋ a ga laybu.
+addon-local-install-error-file-access = { $addonName } mana hin ka sinjandi zama { -brand-short-name } ši hin ka tuku himantaa barmay.
+addon-local-install-error-not-signed = Tontonoo woo mana hin ka sinjandi zam'a mana korosandi.
+addon-install-error-incompatible = { $addonName } mana hin ka sinja zama nga nda { -brand-short-name } { $appVersion } ši cere kanbe.

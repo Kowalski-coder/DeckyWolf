@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Application parteeculars
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Remuive
+    .accesskey = R
+app-manager-handle-protocol = The follaein applications can be yaised fur tae haunle { $type } links.
+app-manager-handle-file = The follaein applications can be yaised fur tae haunle { $type } content.
+app-manager-web-app-info = This wab application is hostit at:
+app-manager-local-app-info = This application is airtit at:

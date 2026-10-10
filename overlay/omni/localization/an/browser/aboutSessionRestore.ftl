@@ -1,0 +1,26 @@
+restore-page-tab-title = Restaurar la sesión
+restore-page-error-title = Lo sentimos. Somos tenendo bell problema pa restaurar la tuya sesión.
+restore-page-problem-desc = Somos tenendo bell problema pa restaurar la suya zaguera sesión de navegación. Marque "Restaurar Sesión" pa intentar-lo de nuevas.
+restore-page-try-this = Encara no s'ha restaurau la tuya sesión? A veces una pestanya ye la causa d'o problema. Amuestra las pestanyas anteriors, borra la marca d'as pestanyas que no te faga falta recuperar, y restaura alavez.
+restore-page-hide-tabs = Amagar las pestanyas anteriors
+restore-page-show-tabs = Amostrar la pestanyas anteriors
+restore-page-window-label = Finestra { $windowNumber }
+restore-page-restore-header =
+    .label = Restaurar
+restore-page-list-header =
+    .label = Finestras y pestanyas
+restore-page-try-again-button =
+    .label = Restaurar la sesión
+    .accesskey = R
+restore-page-close-button =
+    .label = Empecipiar una nueva sesión
+    .accesskey = N
+welcome-back-tab-title = Exito!
+welcome-back-page-title = Feito!
+welcome-back-page-info = O { -brand-short-name } ye presto.
+welcome-back-restore-button =
+    .label = Imo-nos-ne!
+    .accesskey = L
+welcome-back-restore-all-label = Restaurar totas las finestras y pestanyas
+welcome-back-restore-some-label = Restaurar solo que as que quieras
+welcome-back-page-info-link = S'han eliminau los suyos complementos y personalizacions y los achustes d'o navegador s'han restaurau a las suyas valuras por defecto. Si isto no ha apanyau o problema, <a data-l10n-name="link-more">aquí puede trobar mas información sobre qué puede fer.</a>

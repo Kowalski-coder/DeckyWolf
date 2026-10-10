@@ -1,0 +1,13 @@
+grid-row-column-positions = ᱨᱚ { $row } / ᱠᱚᱞᱚᱢ { $column }
+gridtype-container = ᱜᱽᱨᱤᱰ ᱠᱚᱱᱴᱮᱱᱚᱨ
+gridtype-item = ᱜᱽᱨᱤᱰ ᱡᱤᱱᱤᱥ
+gridtype-dual = ᱜᱽᱨᱤᱰ ᱠᱚᱱᱴᱮᱱᱚᱨ / ᱡᱤᱱᱤᱥ
+flextype-container = ᱯᱷᱞᱮᱠᱥ ᱠᱚᱱᱴᱮᱱᱚᱨ
+flextype-item = ᱯᱷᱞᱮᱠᱥ ᱡᱤᱱᱤᱥ
+flextype-dual = ᱯᱷᱞᱮᱠᱥ ᱠᱚᱱᱴᱮᱱᱚᱨ / ᱡᱤᱱᱤᱥ
+remote-node-picker-notice = DevTools Node ᱵᱟᱪᱷᱟᱣ ᱮᱢ ᱪᱷᱚ ᱠᱟᱱᱟ ᱾ { $action }
+remote-node-picker-notice-action-desktop = ᱤᱱᱥᱯᱮᱠᱴᱚᱨ ᱨᱮ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱝ ᱱᱚᱢᱩᱱᱟ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ
+remote-node-picker-notice-action-touch = ᱤᱱᱥᱯᱮᱠᱴᱚᱨ ᱨᱮ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱝ ᱱᱚᱢᱩᱱᱟ ᱨᱮ ᱴᱤᱯᱟᱹᱣ ᱢᱮ
+remote-node-picker-notice-hide-button = ᱩᱠᱩ
+simple-highlighters-message = prefers-reduced-motion ᱮᱢ ᱛᱟᱦᱮᱸᱱ ᱠᱷᱟᱱ, ᱢᱤᱫᱴᱟᱝ ᱥᱟᱫᱟ ᱦᱟᱭᱞᱟᱭᱴᱚᱨ ᱫᱚ ᱥᱟᱡᱟᱣ ᱯᱮᱱᱟᱞ ᱨᱮ ᱮᱢ ᱜᱟᱱᱚᱜᱼᱟ, ᱨᱚᱝ ᱡᱷᱟᱞᱠᱟᱣ ᱟᱞᱚ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱜᱤᱫ ᱛᱮ  ᱾
+simple-highlighters-settings-button = ᱥᱟᱡᱟᱣ ᱠᱚ ᱡᱷᱤᱜ ᱢᱮ

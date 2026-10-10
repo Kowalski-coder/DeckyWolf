@@ -1,0 +1,9 @@
+appearance-browser-icon-entry-group =
+    .description = Tapşırıq paneli, iş masası və başlat menyusu üçün özəl nişan seçin.
+    .label = Səyyah simgəsi
+appearance-browser-icon-button =
+    .label = Səyyah simgəsini dəyiş
+appearance-browser-icon-subpage-title =
+    .heading = Daha çox simgə
+appearance-browser-icon-pin-button =
+    .label = Tapşırıq panelinə bərkit

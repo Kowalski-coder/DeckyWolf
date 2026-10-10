@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Ukloni iz dodatnog izbornika
+    .accesskey = I
+customize-menu-add-to-toolbar =
+    .label = Dodaj na alatnu traku
+    .accesskey = a
+customize-menu-add-to-overflowmenu =
+    .label = Dodaj u dodatni izbornik
+    .accesskey = i
+panic-button-thankyou-msg1 = Tvoja nedavna povijest je izbrisana.
+panic-button-thankyou-msg2 = Sigurno pregledavanje!
+panic-button-thankyou-button =
+    .label = Hvala!

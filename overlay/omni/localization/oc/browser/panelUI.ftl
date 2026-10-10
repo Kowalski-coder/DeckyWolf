@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Levar del menú de desbordament
+    .accesskey = L
+customize-menu-add-to-toolbar =
+    .label = Apondre a la barra d'aisinas
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Apondre al menú desbordament
+    .accesskey = M
+panic-button-thankyou-msg1 = Vòstre istoric recent es estat escafat corrèctament.
+panic-button-thankyou-msg2 = Bona navegacion !
+panic-button-thankyou-button =
+    .label = Mercé !

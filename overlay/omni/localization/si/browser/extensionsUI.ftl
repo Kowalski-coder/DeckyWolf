@@ -1,0 +1,14 @@
+webext-default-search-description = { $addonName } ඔබගේ { $currentEngine } පෙරනිමි සෙවුම් යන්ත්‍රය { $newEngine } වෙත වෙනස් කිරීමට කැමතිය. එය උචිත ද?
+webext-default-search-yes =
+    .label = ඔව්
+    .accesskey = Y
+webext-default-search-no =
+    .label = නැහැ
+    .accesskey = N
+addon-post-install-message = { $addonName } එක් කෙරිණි.
+webext-quarantine-confirmation-allow =
+    .label = ඉඩ දෙන්න
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = ඉඩ නොදෙන්න
+    .accesskey = D

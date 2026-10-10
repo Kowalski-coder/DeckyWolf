@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Leva da-o menû de straripo
+    .accesskey = L
+customize-menu-add-to-toolbar =
+    .label = Azonzi a-a bara di atressi
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Azonzi a-o menû de straripo
+    .accesskey = m
+panic-button-thankyou-msg1 = A stöia reçente a l'é stæta scancelâ.
+panic-button-thankyou-msg2 = Bonn-a navegaçion.
+panic-button-thankyou-button =
+    .label = Graçie

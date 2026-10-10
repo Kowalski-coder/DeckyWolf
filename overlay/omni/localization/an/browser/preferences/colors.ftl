@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Texto y fundo
+colors-text =
+    .label = Texto
+    .accesskey = T
+colors-text-background =
+    .label = Fundo
+    .accesskey = B
+colors-links-header = Color d'os vinclos
+colors-links-unvisited =
+    .label = Vinclos no vesitaus
+    .accesskey = L
+colors-links-visited =
+    .label = Vinclos vesitaus
+    .accesskey = V

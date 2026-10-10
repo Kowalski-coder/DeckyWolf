@@ -1,0 +1,80 @@
+webrtc-item-camera = ক্যামেরা
+webrtc-item-microphone = মাইক্রোফোন
+webrtc-item-audio-capture = ট্যাব অডিও
+webrtc-item-application = অ্যাপ্লিকেশন
+webrtc-item-screen = স্ক্রিন
+webrtc-item-window = উইন্ডো
+webrtc-item-browser = ট্যাব
+webrtc-sharing-menuitem-unknown-host = অজানা মূল
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-sharing-menu =
+    .label = ট্যাব শেয়ারিং dডিভাইসগুলি
+    .accesskey = d
+webrtc-indicator-menuitem-control-sharing =
+    .label = শেয়ারিং নিয়ন্ত্রণ করুন
+webrtc-indicator-menuitem-control-sharing-on =
+    .label = "{ $streamTitle }" এ শেয়ারিং নিয়ন্ত্রণ করুন
+webrtc-indicator-menuitem-sharing-camera-with =
+    .label = "{ $streamTitle }" এর সঙ্গে ক্যামেরা শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে ক্যামেরা শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে ক্যামেরা শেয়ার করা হচ্ছে
+        }
+webrtc-indicator-menuitem-sharing-microphone-with =
+    .label = "{ $streamTitle }" এর সঙ্গে মাইক্রোফোন শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে মাইক্রোফোন শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে মাইক্রোফোন শেয়ার করা হচ্ছে
+        }
+webrtc-indicator-menuitem-sharing-application-with =
+    .label = "{ $streamTitle }" এর সাথে অ্যাপ্লিকেশন শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-application-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে একটি অ্যাপ্লিকেশন শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে অ্যাপ্লিকেশনসমূহ শেয়ার করা হচ্ছে
+        }
+webrtc-indicator-menuitem-sharing-screen-with =
+    .label = "{ $streamTitle }" এর সঙ্গে স্ক্রীন শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে স্ক্রীন শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে স্ক্রীন শেয়ার করা হচ্ছে
+        }
+webrtc-indicator-menuitem-sharing-window-with =
+    .label = "{ $streamTitle }" এর সঙ্গে উইন্ডো শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-window-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে উইন্ডো শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে উইন্ডো শেয়ার করা হচ্ছে
+        }
+webrtc-indicator-menuitem-sharing-browser-with =
+    .label = "{ $streamTitle }" এর সঙ্গে ট্যাব শেয়ার করা হচ্ছে
+webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] { $tabCount } ট্যাবের সাথে একটি ট্যাব শেয়ার করা হচ্ছে
+           *[other] { $tabCount } ট্যাবের সাথে ট্যাবসমূহ শেয়ার করা হচ্ছে
+        }
+webrtc-pick-window-or-screen = উইন্ডো বা স্ক্রিন নির্বাচন করুন
+webrtc-share-entire-screen = সম্পূর্ণ স্ক্রিন
+webrtc-share-monitor = পর্দা { $monitorIndex }
+webrtc-share-application =
+    { $windowCount ->
+        [one] { $appName } ({ $windowCount } উইন্ডো)
+       *[other] { $appName } ({ $windowCount } উইন্ডোজ)
+    }
+webrtc-action-allow =
+    .label = অনুমোদন
+    .accesskey = A
+webrtc-remember-allow-checkbox = এই সিদ্ধান্ত মনে রাখা হবে
+webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } আপনার পর্দা ব্যবহারের স্থায়ী অনুমতি দেয় না।
+webrtc-reason-for-no-permanent-allow-audio = কোন ট্যাব শেয়ার করা হবে সেটা না জেনে { -brand-short-name } আপনার ট্যাবের অডিও অ্যাক্সেস অনুমতি দিতে পারে না।
+webrtc-reason-for-no-permanent-allow-insecure = এই সাইটে আপনার সংযোগটি নিরাপদ নয়। আপনার সুরক্ষার জন্য, { -brand-short-name } শুধুমাত্র এই সেশনের জন্য প্রবেশাধিকার অনুমোদন করবে।

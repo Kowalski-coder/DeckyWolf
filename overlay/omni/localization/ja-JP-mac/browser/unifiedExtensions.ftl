@@ -1,0 +1,57 @@
+unified-extensions-header-title = 拡張機能
+unified-extensions-manage-extensions =
+    .label = 拡張機能を管理
+unified-extensions-discover-extensions =
+    .label = 拡張機能を探す
+unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能はインストールされていますが、プライベートウインドウでは無効になっています
+unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、無効になっています
+unified-extensions-empty-reason-zero-extensions-onboarding2 = いくつかの拡張機能で大きな変化
+unified-extensions-empty-content-explain-enable2 = “{ unified-extensions-manage-extensions.label }” を選択し、設定で拡張機能を有効にしてください。
+unified-extensions-empty-content-explain-manage2 = “{ unified-extensions-manage-extensions.label }” を選択し、設定で拡張機能を管理してください。
+unified-extensions-empty-content-explain-extensions-onboarding2 = 作業への集中やプライバシー向上に役立つおすすめの拡張機能をご用意しています。
+unified-extensions-item-open-menu =
+    .aria-label = { $extensionName } のメニューを開く
+unified-extensions-item-message-manage = 拡張機能を管理
+unified-extensions-item-messagebar-softblocked2 = { $extensionName } は制限されています。使用すると危険を伴う可能性があります。
+unified-extensions-context-menu-pin-to-toolbar =
+    .label = ツールバーにピン留め
+unified-extensions-context-menu-manage-extension =
+    .label = 拡張機能を管理
+unified-extensions-context-menu-remove-extension =
+    .label = 拡張機能を削除
+unified-extensions-context-menu-report-extension =
+    .label = 拡張機能を報告
+unified-extensions-context-menu-move-widget-up =
+    .label = 上へ移動
+unified-extensions-context-menu-move-widget-down =
+    .label = 下へ移動
+unified-extensions-notice-safe-mode =
+    .message = トラブルシューティングモードによりすべての拡張機能が無効になっています。
+unified-extensions-mb-quarantined-domain-message-3 =
+    .heading = 一部の拡張機能は許可されていません
+    .message = ユーザーのデータを保護するため、一部の拡張機能はこのサイトのデータの読み取りと変更ができません。{ -vendor-short-name } により制限されたサイトを許可するには、その拡張機能の設定から変更してください。
+unified-extensions-mb-quarantined-domain-learn-more = 詳細情報
+    .aria-label = 詳細情報: 一部の拡張機能は許可されていません
+unified-extensions-mb-about-addons-link = 拡張機能の設定を開く
+unified-extensions-mb-blocklist-warning-single2 =
+    .heading = { $extensionName } は無効です
+    .message =
+        この拡張機能は制限されているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
+unified-extensions-mb-blocklist-error-single =
+    .heading = { $extensionName } は無効です
+    .message = この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+unified-extensions-mb-blocklist-warning-multiple2 =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } 個の拡張機能が無効です
+        }
+    .message =
+        複数の拡張機能が制限されているため無効になっています。
+        設定で有効にできますが、危険を伴う可能性があります。
+unified-extensions-mb-blocklist-error-multiple =
+    .heading =
+        { $extensionsCount ->
+           *[other] { $extensionsCount } 個の拡張機能が無効です
+        }
+    .message = 複数の拡張機能が Mozilla のポリシーに違反しているため無効になっています。

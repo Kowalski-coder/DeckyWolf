@@ -1,0 +1,17 @@
+appmenuitem-new-window =
+    .label = Pencereya Nû
+appmenuitem-new-private-window =
+    .label = Pencereyeke Nepen ya nû
+appmenuitem-history =
+    .label = Raborî
+appmenuitem-print =
+    .label = Çapkirin…
+appmenuitem-zoom =
+    .value = Nêzîk Bike
+appmenuitem-fullscreen =
+    .label = Dîmenter Tijî
+appmenuitem-save-page =
+    .label = Cuda Tomar Bike...
+appmenu-about =
+    .label = Derbarê &brandShortName;ê de
+    .accesskey = D

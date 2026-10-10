@@ -1,0 +1,17 @@
+callout-primary-advance-button-label = পরবর্তী
+callout-primary-complete-button-label = পেয়েছি!
+callout-firefox-view-tab-pickup-title = ট্যাব পিকআপ সহ ডিভাইসগুলির মধ্যে হপ করুন৷
+callout-firefox-view-tab-pickup-subtitle = দ্রুত আপনার ফোন থেকে খোলা ট্যাবগুলি ধরুন এবং সর্বাধিক প্রবাহের জন্য সেগুলি এখানে খুলুন৷
+callout-firefox-view-recently-closed-title = এক ঝটকায় আপনার বন্ধ ট্যাব ফিরে পান
+callout-firefox-view-recently-closed-subtitle = আপনার সমস্ত বন্ধ ট্যাব জাদুকরীভাবে এখানে প্রদর্শিত হবে৷ ভুলবশত আবার একটি সাইট বন্ধ করার বিষয়ে চিন্তা করবেন না।
+continuous-onboarding-firefox-view-tab-pickup-title = ট্যাব পিক আপ দিয়ে আপনার ব্রাউজিং বুস্ট করুন
+continuous-onboarding-firefox-view-tab-pickup-subtitle = যেকোনো ডিভাইস থেকে আপনার খোলা ট্যাব অ্যাক্সেস করুন। এছাড়াও আপনার বুকমার্ক, পাসওয়ার্ড এবং আরও অনেক কিছু সিঙ্ক করুন৷
+continuous-onboarding-firefox-view-tab-pickup-primary-button-label = শুরু করুন
+callout-pdfjs-edit-title = আমাদের নতুন টেক্সট টুল দিয়ে PDF এডিট করুন
+callout-pdfjs-edit-body-a = ফর্ম পূরণ করুন, মন্তব্য যোগ করুন, অথবা সরাসরি { -brand-short-name }-এ নোট নিন।
+callout-pdfjs-edit-body-b = বিনামূল্যে অনলাইন সম্পাদকদের জন্য অনুসন্ধান এড়িয়ে যান. ফর্ম পূরণ করুন, মন্তব্য যোগ করুন, অথবা সরাসরি { -brand-short-name }-এ নোট নিন।
+callout-pdfjs-edit-button = পরবর্তী
+callout-pdfjs-draw-title = আমাদের নতুন ড্র টুল দিয়ে নথিতে স্বাক্ষর করুন
+callout-pdfjs-draw-body-a = PDFs চিহ্নিত করুন, তারপরে আপনার পরিবর্তনগুলি সংরক্ষণ করুন৷
+callout-pdfjs-draw-body-b = আর মুদ্রণ এবং স্ক্যানিং নেই। PDFs চিহ্নিত করুন, তারপরে আপনার পরিবর্তনগুলি সংরক্ষণ করুন৷
+callout-pdfjs-draw-button = পেয়েছি!

@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = લખાણ અને પાશ્વ ભાગ
+colors-text =
+    .label = લખાણ
+    .accesskey = T
+colors-text-background =
+    .label = પૃષ્ઠભૂમિ
+    .accesskey = B
+colors-links-header = કડી રંગો
+colors-links-unvisited =
+    .label = નહિં મુલાકાત લીધેલ કડીઓ
+    .accesskey = L
+colors-links-visited =
+    .label = મુલાકાત લીધેલ કડીઓ
+    .accesskey = V

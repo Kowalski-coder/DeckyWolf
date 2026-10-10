@@ -1,0 +1,14 @@
+default-bookmarks-title = Nodau Tudalen
+default-bookmarks-heading = Nodau Tudalen
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Derbyn Cymorth
+default-bookmarks-firefox-customize = Cyfaddasu Firefox
+default-bookmarks-firefox-community = Cyfranogi
+default-bookmarks-firefox-about = Amdanom Ni
+default-bookmarks-nightly-heading = Adnoddau Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Traciwr Gwallau Mozilla
+default-bookmarks-mdn = Rhwydwaith Datblygwyr Mozilla
+default-bookmarks-nightly-tester-tools = Offer Profi Nightly
+default-bookmarks-crashes = Eich holl chwalfeydd
+default-bookmarks-planet = Planet Mozilla

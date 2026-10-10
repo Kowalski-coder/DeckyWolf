@@ -1,0 +1,57 @@
+aboutDialog-title =
+    .title = Про { -brand-full-name }
+releaseNotes-link = Що нового
+update-checkForUpdatesButton =
+    .label = Перевірити оновлення
+    .accesskey = П
+update-updateButton =
+    .label = Перезапустити для оновлення { -brand-shorter-name }
+    .accesskey = о
+update-checkingForUpdates = Перевірка оновлень…
+settings-update-checking-for-updates =
+    .label = Перевірка оновлень…
+settings-update-downloading-2 =
+    .label = Оновлення завантажується – { $transfer }
+aboutdialog-update-downloading = Оновлення завантажується – <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Оновлення застосовується…
+settings-update-applying =
+    .label = Оновлення застосовується…
+update-failed = Не вдалося оновити. <label data-l10n-name="failed-link">Завантажити останню версію</label>
+update-failed-main = Не вдалося оновити. <a data-l10n-name="failed-link-main">Завантажити останню версію</a>
+update-policy-disabled = Оновлення вимкнено вашою організацією
+settings-update-policy-disabled =
+    .label = Оновлення вимкнено вашою організацією
+update-noUpdatesFound = { -brand-short-name } не потребує оновлення
+settings-update-no-updates-found =
+    .label = { -brand-short-name } не потребує оновлення
+aboutdialog-update-checking-failed = Не вдалося перевірити наявність оновлень.
+settings-update-checking-failed =
+    .label = Не вдалося перевірити наявність оновлень.
+update-otherInstanceHandlingUpdates = Оновлення { -brand-short-name } проводиться іншим процесом
+settings-update-other-instance-handling-updates =
+    .label = Оновлення { -brand-short-name } проводиться іншим процесом
+aboutdialog-update-manual-with-link = Оновлення доступне на <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Оновлення доступне на <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Ви не можете виконувати подальші оновлення на цій системі. <label data-l10n-name="unsupported-link">Докладніше</label>
+settings-update-unsupported = Ви не можете виконувати подальші оновлення на цій системі. <a data-l10n-name="unsupported-link">Докладніше</a>
+update-restarting = Перезапуск…
+settings-update-restarting =
+    .label = Перезапуск…
+update-internal-error2 = Не вдалося перевірити наявність оновлень через внутрішню помилку. Оновлення доступні за посиланням <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-internal-error = Не вдалося перевірити наявність оновлень через внутрішню помилку. Оновлення доступні за посиланням <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-channel-description = Ви зараз на каналі оновлень <label data-l10n-name="current-channel">{ $channel }</label>.
+warningDesc-version = { -brand-short-name } експериментальний і може бути нестабільним.
+aboutdialog-help-user = Довідка { -brand-product-name }
+aboutdialog-submit-feedback = Надіслати відгук
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> є <label data-l10n-name="community-exp-creditsLink">глобальною спільнотою</label>, яка працює над тим, щоб інтернет залишався відкритим, громадським та доступним для всіх.
+community-2 = { -brand-short-name } був розроблений в <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> - <label data-l10n-name="community-creditsLink">глобальній спільноті</label>, яка працює над тим, щоб зберегти Інтернет відкритим, громадським та доступним для всіх.
+helpus = Хочете допомогти? <label data-l10n-name="helpus-donateLink">Зробіть внесок</label> або <label data-l10n-name="helpus-getInvolvedLink">долучайтесь!</label>
+helpus-referrals2 = Хочете допомогти? <label data-l10n-name="helpus-donateLink">Зробіть благодійний внесок</label>, <label data-l10n-name="helpus-shareFirefoxLink">поділіться { -brand-product-name }</label> або <label data-l10n-name="helpus-getInvolvedLink">долучіться!</label>
+bottomLinks-license = Ліцензійна інформація
+bottom-links-terms = Умови користування
+bottom-links-privacy = Положення про приватність
+aboutDialog-version = { $version } ({ $bits }-біт)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-біт)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
+about-librewolf = DeckyWolf - це модифікована версія Firefox, основними цілями якої є конфіденційність, безпека та свобода користувачів.

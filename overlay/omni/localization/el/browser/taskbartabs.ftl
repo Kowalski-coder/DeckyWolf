@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Προσθήκη καρτέλας στη γραμμή εργασιών
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Αφαίρεση καρτέλας από τη γραμμή εργασιών
+taskbar-tab-urlbar-button-show = Εμφάνιση ενέργειας σελίδας εφαρμογής ιστού
+taskbar-tab-urlbar-button-hide = Απόκρυψη ενέργειας σελίδας εφαρμογής ιστού
+taskbar-tab-shortcut-description = Διαδικτυακή εφαρμογή «{ $name }»
+taskbar-tab-shortcut-folder = Διαδικτυακές εφαρμογές { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Σίγαση καρτέλας
+taskbar-tab-audio-unmute =
+    .tooltiptext = Άρση σίγασης καρτέλας
+taskbar-tab-title-default = { $name } στο { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) στο { -brand-full-name }
+taskbar-tab-title-profile = { $name } στο { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) στο { $profile } — { -brand-full-name }

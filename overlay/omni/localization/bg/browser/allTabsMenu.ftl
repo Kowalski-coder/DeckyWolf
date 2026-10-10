@@ -1,0 +1,12 @@
+all-tabs-menu-search-all-tabs =
+    .label = Търсене във всички раздели
+all-tabs-menu-new-user-context =
+    .label = Нов изолиран раздел
+all-tabs-menu-hidden-tabs =
+    .label = Скрити раздели
+all-tabs-menu-recent-tab-groups-header = Скорошни групи раздели
+all-tabs-menu-tab-groups-show-all =
+    .label = Показване на всички
+all-tabs-menu-tab-groups-sub-view =
+    .title = Групи раздели
+all-tabs-menu-current-window-header = Текущ прозорец

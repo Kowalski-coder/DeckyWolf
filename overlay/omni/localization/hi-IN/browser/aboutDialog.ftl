@@ -1,0 +1,41 @@
+aboutDialog-title =
+    .title = { -brand-full-name } परिचय
+releaseNotes-link = क्या नया है?
+update-checkForUpdatesButton =
+    .label = अपडेट के लिए जांच करें
+    .accesskey = C
+update-updateButton =
+    .label = { -brand-shorter-name } अपडेट करने के लिए पुन: चालू करें
+    .accesskey = R
+update-checkingForUpdates = अपडेट के लिए जाँचा जा रहा है…
+settings-update-checking-for-updates =
+    .label = अपडेट के लिए जाँचा जा रहा है…
+settings-update-downloading-2 =
+    .label = अपडेट डाउनलोड हो रहा है — { $transfer }
+aboutdialog-update-downloading = अपडेट डाउनलोड हो रहा है — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = अपडेट लागू हो रहा है…
+settings-update-applying =
+    .label = अपडेट लागू हो रहा है…
+update-failed = अपडेट विफल. <label data-l10n-name="failed-link">नवीनतम संस्करण डाउनलोड करें</label>
+update-failed-main = अपडेट विफल. <a data-l10n-name="failed-link-main">नवीनतम संस्करण डाउनलोड करें</a>
+update-noUpdatesFound = { -brand-short-name } अद्यतन है
+settings-update-no-updates-found =
+    .label = { -brand-short-name } अद्यतन है
+update-otherInstanceHandlingUpdates = { -brand-short-name } को दूसरे उदाहरण के द्वारा अद्यतन किया जा रहा है
+settings-update-other-instance-handling-updates =
+    .label = { -brand-short-name } को दूसरे उदाहरण के द्वारा अद्यतन किया जा रहा है
+aboutdialog-update-manual-with-link = उपलब्ध अद्यतन <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = उपलब्ध अद्यतन <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = आप इस तंत्र पर आगे अद्यतन नहीं कर सकते हैं. <label data-l10n-name="unsupported-link">अधिक जानें</label>
+settings-update-unsupported = आप इस तंत्र पर आगे अद्यतन नहीं कर सकते हैं. <a data-l10n-name="unsupported-link">अधिक जानें</a>
+update-restarting = पुन: प्रारंभ...
+settings-update-restarting =
+    .label = पुन: प्रारंभ...
+aboutdialog-channel-description = आप अभी यहाँ हैं <label data-l10n-name="current-channel">{ $channel }</label> चैनल अद्यतन करें.
+warningDesc-version = { -brand-short-name } प्रायोगिक स्तर पर है और अस्थिर हो सकता है.
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> एक है <label data-l10n-name="community-exp-creditsLink">वैश्विक समुदाय</label> जो वेब को खुला, सार्वजनिक और सभी की पहुँच के लिए बने रहने देने के लिए काम करते हैं.
+community-2 = { -brand-short-name } बनाया गया है <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, एक <label data-l10n-name="community-creditsLink">वैश्विक समुदाय</label> जो वेब को खुला, सार्वजनिक और सभी की पहुँच के लिए बने रहने देने के लिए काम करते हैं.
+helpus = मदद करना चाहते हैं? <label data-l10n-name="helpus-donateLink">दान करें</label> या <label data-l10n-name="helpus-getInvolvedLink">शामिल हों!</label>
+bottomLinks-license = लाइसेंसिंग सूचना
+aboutDialog-version = { $version } ({ $bits }-bit)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)

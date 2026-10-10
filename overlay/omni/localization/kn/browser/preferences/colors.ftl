@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = ಪಠ್ಯ ಹಾಗು ಹಿನ್ನಲೆ
+colors-text =
+    .label = ಪಠ್ಯ
+    .accesskey = T
+colors-text-background =
+    .label = ಹಿನ್ನಲೆ
+    .accesskey = B
+colors-links-header = ಕೊಂಡಿ ಬಣ್ಣ
+colors-links-unvisited =
+    .label = ಭೇಟಿ ನೀಡಿದ ಕೊಂಡಿಗಳು
+    .accesskey = L
+colors-links-visited =
+    .label = ಭೇಟಿ ನೀಡಿದ ಕೊಂಡಿಗಳು
+    .accesskey = V

@@ -1,0 +1,32 @@
+styleeditor-new-button =
+    .tooltiptext = ஆவணத்திற்கு புதிய ஸ்டைல் ஷீட்டை உருவாக்கி இணைக்கவும்
+    .accesskey = ப
+styleeditor-import-button =
+    .tooltiptext = முன்பே உள்ள ஸ்டைல் ஷீட்டை ஆவணத்திற்கு இறக்குமதி செய்து இணைக்கவும்
+    .accesskey = இ
+styleeditor-visibility-toggle =
+    .tooltiptext = ஸ்டைல் ஷீட்டின் புலப்படும் தன்மையை நிலைமாற்று
+    .accesskey = S
+styleeditor-save-button = சேமி
+    .tooltiptext = இந்த ஸ்டைல் ஷீட்டை ஒரு கோப்பில் சேமி
+    .accesskey = S
+styleeditor-options-button =
+    .tooltiptext = பாணி தொகு தேர்வுகள்
+styleeditor-no-stylesheet = பக்கத்தில் ஸ்டைல் ஷீட் இல்லை.
+styleeditor-no-stylesheet-tip = நீங்கள் இதை விரும்புகிறீர்களா <a data-l10n-name="append-new-stylesheet">புதிய ஸ்டைல் ஷீட்டை இணைத்தல்</a>?
+styleeditor-open-link-new-tab =
+    .label = இணைப்பைப் புதிய கீற்றில் திற
+styleeditor-find =
+    .label = கண்டுபிடி
+    .accesskey = F
+styleeditor-find-again =
+    .label = மீண்டும் கண்டுபிடி
+    .accesskey = g
+styleeditor-go-to-line =
+    .label = வரிக்குத் செல்…
+    .accesskey = வ
+styleeditor-stylesheet-rule-count =
+    { $ruleCount ->
+        [one] { $ruleCount } விதி.
+       *[other] { $ruleCount } விதிகள்.
+    }

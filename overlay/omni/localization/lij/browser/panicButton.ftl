@@ -1,0 +1,15 @@
+panic-button-open-new-window = Avertua de 'n neuvo barcon “netezou”
+panic-button-undo-warning = Sta operaçion a no se peu anulâ.
+panic-button-forget-button =
+    .label = Ascòrda
+panic-main-timeframe-desc = Ascòrda:
+panic-button-5min =
+    .label = i urtimi 5 menuti
+panic-button-2hr =
+    .label = e urtime 2 oe
+panic-button-day =
+    .label = e urtime 24 oe
+panic-button-action-desc = E consegoense en:
+panic-button-delete-cookies = Scancelaçion di <strong>cookie</strong> reçenti
+panic-button-delete-history = Scancelaçion da <strong>stöia</strong> reçente
+panic-button-delete-tabs-and-windows = Særamento de tutti i <strong>feuggi</strong> e <strong>barcoin</strong> averti

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Alle tabbladen doorzoeken
+all-tabs-menu-new-user-context =
+    .label = Nieuw containertabblad
+all-tabs-menu-hidden-tabs =
+    .label = Verborgen tabbladen
+all-tabs-menu-close-duplicate-tabs =
+    .label = Dubbele tabbladen sluiten
+all-tabs-menu-view-all-tabs =
+    .label = Alle tabbladen bekijken
+all-tabs-menu-recent-tab-groups-header = Recente tabbladgroepen
+all-tabs-menu-tab-groups-show-all =
+    .label = Alles tonen
+all-tabs-menu-tab-groups-sub-view =
+    .title = Tabbladgroepen
+all-tabs-menu-current-window-header = Huidige venster

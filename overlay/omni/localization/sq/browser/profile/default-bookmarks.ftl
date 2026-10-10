@@ -1,0 +1,14 @@
+default-bookmarks-title = Faqerojtës
+default-bookmarks-heading = Faqerojtës
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Merrni Ndihmë
+default-bookmarks-firefox-customize = Përshtateni Firefox-in
+default-bookmarks-firefox-community = Përfshihuni
+default-bookmarks-firefox-about = Rreth Nesh
+default-bookmarks-nightly-heading = Burime për Firefox Nightly
+default-bookmarks-nightly-blog = Blog për Firefox Nightly
+default-bookmarks-bugzilla = Ndjekësi i të Metave Mozilla
+default-bookmarks-mdn = Rrjeti i Zhvilluesve Mozilla
+default-bookmarks-nightly-tester-tools = Mjete Testuesi Montimesh Nightly
+default-bookmarks-crashes = Krejt vithisjet tuaja
+default-bookmarks-planet = Planeti Mozilla

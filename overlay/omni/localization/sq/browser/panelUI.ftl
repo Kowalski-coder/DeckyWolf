@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Shfiksoje nga Menuja Më Tepër Mjete
+    .accesskey = S
+customize-menu-add-to-toolbar =
+    .label = Shtoje te Paneli
+    .accesskey = P
+customize-menu-add-to-overflowmenu =
+    .label = Shtoje te Menuja Më Tepër Mjete
+    .accesskey = M
+panic-button-thankyou-msg1 = Historiku juaj së fundi u spastrua.
+panic-button-thankyou-msg2 = Shfletim i parrezik!
+panic-button-thankyou-button =
+    .label = Faleminderit!

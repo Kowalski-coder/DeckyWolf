@@ -1,0 +1,13 @@
+back = ថយក្រោយ
+forward = បញ្ជូន​បន្ត
+reload = ផ្ទុក​ឡើងវិញ
+home = ដើម
+fullscreen = អេក្រង់ពេញ
+find = រក
+new-tab = ផ្ទាំង​ថ្មី
+add-bookmark = បញ្ចូល​ចំណាំ​
+reader-view = ទិដ្ឋភាពអ្នកអាន
+open-location = ស្វែងរក ឬ​បញ្ចូល​អាសយដ្ឋាន
+share = ចែករំលែក
+close-window = បិទបង្អួច
+search-history = ប្រវត្តិ

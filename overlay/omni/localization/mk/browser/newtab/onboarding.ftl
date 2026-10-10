@@ -1,0 +1,16 @@
+onboarding-welcome-header = Добредојдовте на { -brand-short-name }
+onboarding-start-browsing-button-label = Започнете со прелистување
+onboarding-not-now-button-label = Не сега
+mr1-onboarding-get-started-primary-button-label = Вовед
+return-to-amo-add-extension-label = Додадете ја наставката
+mr1-onboarding-sign-in-button-label = Најавете се
+mr1-onboarding-theme-secondary-button-label = Не сега
+mr1-onboarding-theme-label-system = Системска тема
+mr1-onboarding-theme-label-light = Светла
+mr1-onboarding-theme-label-dark = Темна
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = Готово
+mr2-onboarding-thank-you-header = Ви благодариме што не избравте
+mr2-onboarding-start-browsing-button-label = Започнете со прелистување
+onboarding-live-language-secondary-cancel-download = Откажи
+onboarding-live-language-skip-button-label = Прескокни

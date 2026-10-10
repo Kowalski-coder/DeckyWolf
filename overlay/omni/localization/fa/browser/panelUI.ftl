@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = حذف از منو شناور
+    .accesskey = ح
+customize-menu-add-to-toolbar =
+    .label = افزودن به نوار ابزار
+    .accesskey = ا
+customize-menu-add-to-overflowmenu =
+    .label = اضافه کردن به منو شناور
+    .accesskey = م
+panic-button-thankyou-msg1 = تاریخچه‌ی اخیر شما پاک شد.
+panic-button-thankyou-msg2 = مرور امن!
+panic-button-thankyou-button =
+    .label = متشکریم!

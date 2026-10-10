@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Ychwanegu tab at y bar tasgau
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Tynnu tab o'r bar ochr
+taskbar-tab-urlbar-button-show = Dangos gweithred tudalen Apiau Gwe
+taskbar-tab-urlbar-button-hide = Cuddio gweithred tudalen Apiau Gwe
+taskbar-tab-shortcut-description = Ap Gwe { $name }
+taskbar-tab-shortcut-folder = Apiau Gwe { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Tab Tewi
+taskbar-tab-audio-unmute =
+    .tooltiptext = Dad-dewi Tab
+taskbar-tab-title-default = { $name } yn { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) yn { -brand-full-name }
+taskbar-tab-title-profile = { $name } yn { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) yn { $profile } — { -brand-full-name }

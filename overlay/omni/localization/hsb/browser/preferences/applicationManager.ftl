@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Podrobnosće nałoženja
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Wotstronić
+    .accesskey = W
+app-manager-handle-protocol = Slědowace nałoženja hodźa so wužiwać, zo bychu z { $type } wotkazy wobchadźeli.
+app-manager-handle-file = Slědowace nałoženja hodźa so wužiwać, zo bychu z { $type } wobsah wobchadźeli.
+app-manager-web-app-info = Tute webnałoženje je zaměsćena na:
+app-manager-local-app-info = Tute webnałoženje je na:

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Добавить вкладку на панель задач
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Удалить вкладку с панели задач
+taskbar-tab-urlbar-button-show = Показывать действия на странице веб-приложения
+taskbar-tab-urlbar-button-hide = Скрыть действия на странице веб-приложения
+taskbar-tab-shortcut-description = Веб-приложение { $name }
+taskbar-tab-shortcut-folder = Веб-приложения { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Убрать звук во вкладке
+taskbar-tab-audio-unmute =
+    .tooltiptext = Восстановить звук во вкладке
+taskbar-tab-title-default = { $name } в { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) в { -brand-full-name }
+taskbar-tab-title-profile = { $name } в «{ $profile }» — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) в «{ $profile }» — { -brand-full-name }

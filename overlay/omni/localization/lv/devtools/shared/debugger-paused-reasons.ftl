@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Apturēts pie atkļūdotāja izteiksmes
+whypaused-breakpoint = Apturēts pie apturēšanas punkta
+whypaused-exception = Apturēts pie izņēmuma
+whypaused-resume-limit = Apturēts ejot pa soļiem
+whypaused-pause-on-dom-events = Apturēts pie notikumu klausītāja
+whypaused-breakpoint-condition-thrown = Kļūda pārtraukuma punktā ar nosacījumu
+whypaused-promise-rejection = Apturēs pie solījuma noraidījuma
+whypaused-assert = Apturēts pie pieņēmuma
+whypaused-debug-command = Apturēts pie atkļūdojamās funkcijas
+whypaused-other = Atkļūdotājs ir apturēts

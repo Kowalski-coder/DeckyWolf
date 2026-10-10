@@ -1,0 +1,10 @@
+storage-context-menu-copy =
+    .label = Копирај
+storage-table-headers-cookies-name = Име
+storage-table-headers-cookies-value = Вредност
+storage-table-headers-cookies-size = Големина
+storage-table-headers-cookies-creation-time = Создадено
+storage-table-headers-cache-status = Статус
+storage-tree-labels-cookies = Колачиња
+storage-expires-session = Сесија
+storage-data = Податоци

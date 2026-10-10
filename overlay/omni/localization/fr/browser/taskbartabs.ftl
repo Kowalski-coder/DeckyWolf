@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Ajouter l’onglet à la barre des tâches
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Retirer l’onglet de la barre des tâches
+taskbar-tab-urlbar-button-show = Afficher les actions de la page de l’application web
+taskbar-tab-urlbar-button-hide = Masquer les actions de la page de l’application web
+taskbar-tab-shortcut-description = Application web { $name }
+taskbar-tab-shortcut-folder = Applications web de { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Couper le son de l’onglet
+taskbar-tab-audio-unmute =
+    .tooltiptext = Réactiver le son de l’onglet
+taskbar-tab-title-default = { $name } dans { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) dans { -brand-full-name }
+taskbar-tab-title-profile = { $name } dans { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) dans { $profile } — { -brand-full-name }

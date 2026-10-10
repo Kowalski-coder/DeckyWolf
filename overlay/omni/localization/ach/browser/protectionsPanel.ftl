@@ -1,0 +1,10 @@
+protections-panel-not-blocking-why-label = Pi ngo?
+protections-panel-not-blocking-why-etp-off-tooltip-label =
+    .label = Kicano lulub kor weng ma i kakube man pien kijuko gwokke woko.
+protections-panel-no-trackers-found = Pe tye lulub kor mo ma ngene bot { -brand-short-name } ma ononge i potbuk man.
+protections-panel-blocking-label = Kigengo
+protections-panel-not-blocking-label = Ki yee
+protections-panel-not-found-label = Pe ki Nongo mo
+cfr-protections-panel-header = Yeny ma nongo pe kilubo kor in
+cfr-protections-panel-body = Gwok data mamegi boti keni. { -brand-short-name } gwoki ki ikom lulub kor mapol ata ma pol kare lubo kor ngo ma itimo iwiyamo.
+cfr-protections-panel-link-text = Nong ngec mapol

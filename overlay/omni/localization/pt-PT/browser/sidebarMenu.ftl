@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Marcadores
+sidebar-menu-bookmarks-2 = Marcadores
+sidebar-menu-history =
+    .label = Histórico
+sidebar-menu-synced-tabs =
+    .label = Separadores sincronizados
+sidebar-menu-close =
+    .label = Fechar barra lateral
+sidebar-close-button =
+    .tooltiptext = Fechar barra lateral

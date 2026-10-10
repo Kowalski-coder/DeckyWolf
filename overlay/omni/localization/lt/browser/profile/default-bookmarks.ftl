@@ -1,0 +1,14 @@
+default-bookmarks-title = Adresynas
+default-bookmarks-heading = Adresynas
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Žinynas ir pagalba
+default-bookmarks-firefox-customize = „Firefox“ individualizavimas
+default-bookmarks-firefox-community = Įsitraukite
+default-bookmarks-firefox-about = Apie mus
+default-bookmarks-nightly-heading = „Firefox Nightly“ ištekliai
+default-bookmarks-nightly-blog = „Firefox Nightly“ tinklaraštis
+default-bookmarks-bugzilla = „Mozilla“ klaidų seklys
+default-bookmarks-mdn = „Mozilla“ programuotojų tinklas
+default-bookmarks-nightly-tester-tools = „Nightly“ testuotojų įrankiai
+default-bookmarks-crashes = Visos jūsų strigtys
+default-bookmarks-planet = „Mozilla“ planeta

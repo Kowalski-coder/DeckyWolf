@@ -1,0 +1,42 @@
+storage-filter-key = CmdOrCtrl+F
+storage-table-empty-text = තේරූ සත්කාරකය සඳහා දත්ත නැත
+storage-table-type-localstorage-hint = සත්කාරකයක් තේරීමෙන් ස්ථානීය ආචයනය බලන්න සහ සංස්කරණය කරන්න. <a data-l10n-name="learn-more-link">තව දැනගන්න</a>
+storage-table-type-sessionstorage-hint = සත්කාරකයක් තේරීමෙන් වාර ආචයනය බලන්න සහ සංස්කරණය කරන්න. <a data-l10n-name="learn-more-link">තව දැනගන්න</a>
+storage-table-type-extensionstorage-hint = සත්කාරකයක් තේරීමෙන් දිගු ආචයනය බලන්න හා සංස්කරණය කරන්න. <a data-l10n-name="learn-more-link">තව දැනගන්න</a>
+storage-search-box =
+    .placeholder = අංග පෙරන්න
+storage-variable-view-search-box =
+    .placeholder = අගයන් පෙරන්න
+storage-add-button =
+    .title = අංගයක් යොදන්න
+storage-refresh-button =
+    .title = අංග නැවුම් කරන්න
+storage-context-menu-delete-all =
+    .label = සියල්ල මකන්න
+storage-context-menu-delete-all-session-cookies =
+    .label = සියළු වාර දත්තකඩ මකන්න
+storage-context-menu-copy =
+    .label = පිටපතක්
+storage-context-menu-delete =
+    .label = "{ $itemName }" මකන්න
+storage-context-menu-add-item =
+    .label = අංගයක් එක් කරන්න
+storage-context-menu-delete-all-from =
+    .label = "{ $host }" වෙතින් සියල්ල මකන්න
+storage-table-headers-cookies-name = නම
+storage-table-headers-cookies-value = අගය
+storage-table-headers-cookies-expires = ඉකුත් වීම / උපරිම කාලය
+storage-table-headers-cookies-size = ප්‍රමාණය
+storage-table-headers-cookies-last-accessed = අවසාන ප්‍රවේශය
+storage-table-headers-cookies-creation-time = සෑදිණි
+storage-table-headers-cache-status = තත්‍වය
+storage-table-headers-extension-storage-area = ආචයන පෙදෙස
+storage-tree-labels-cookies = දත්තකඩ
+storage-tree-labels-local-storage = ස්ථානීය ආචයනය
+storage-tree-labels-session-storage = වාරය ආචයනය
+storage-tree-labels-indexed-db = සූචිගත DB
+storage-tree-labels-cache = නිහිතය ආචයනය
+storage-tree-labels-extension-storage = දිගු ආචයනය
+storage-expires-session = වාරය
+storage-data = දත්ත
+storage-idb-delete-blocked = සියළුම සම්බන්ධතා වසා දැමූ පසු “{ $dbName }” දත්ත සමුදාය මකා දැමෙනු ඇත.

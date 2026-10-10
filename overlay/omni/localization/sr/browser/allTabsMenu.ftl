@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Претражи све језичке
+all-tabs-menu-new-user-context =
+    .label = Нови језичак у контејнеру
+all-tabs-menu-hidden-tabs =
+    .label = Скривени језичци
+all-tabs-menu-close-duplicate-tabs =
+    .label = Затвори дупликате језичака
+all-tabs-menu-view-all-tabs =
+    .label = Погледај све језичке
+all-tabs-menu-recent-tab-groups-header = Недавне групе језичака
+all-tabs-menu-tab-groups-show-all =
+    .label = Прикажи све
+all-tabs-menu-tab-groups-sub-view =
+    .title = Групе језичака
+all-tabs-menu-current-window-header = Тренутни прозор

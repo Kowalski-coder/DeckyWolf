@@ -1,0 +1,12 @@
+back = နောက်သို့
+forward = ရှေ့သို့
+reload = ပြန်ဖွင့်ပါ
+home = အဖွင့်စာမျက်နှာ
+fullscreen = အပြည့်ကြည့်ရန်
+find = ရှာဖွေပါ
+new-tab = တပ်ဗ် အသစ်
+add-bookmark = စာမှတ် ထည့်ရန်
+reader-view = စာဖတ်ပုံစံ
+open-location = လိပ်စာကို ရှာဖွေ သို့မဟုတ် ဝင်ပါ။
+share = မျှဝေ
+close-window = ဝင်းဒိုးကိုပိတ်ရန်

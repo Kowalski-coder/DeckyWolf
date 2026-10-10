@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = 모든 탭 검색
+all-tabs-menu-new-user-context =
+    .label = 새 컨테이너 탭
+all-tabs-menu-hidden-tabs =
+    .label = 숨겨진 탭
+all-tabs-menu-close-duplicate-tabs =
+    .label = 중복 탭 닫기
+all-tabs-menu-view-all-tabs =
+    .label = 모든 탭 보기
+all-tabs-menu-recent-tab-groups-header = 최근 탭 그룹
+all-tabs-menu-tab-groups-show-all =
+    .label = 모두 보기
+all-tabs-menu-tab-groups-sub-view =
+    .title = 탭 그룹
+all-tabs-menu-current-window-header = 현재 창

@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (brak tytułu)
+places-load-js-data-url-error = Ze względów bezpieczeństwa adresy URL typu „data:” i „javascript:” nie mogą zostać otwarte z okna historii lub z panelu bocznego.
+places-bookmarks-backup-title = Nazwa pliku kopii zapasowej zakładek
+places-bookmarks-restore-alert-title = Przywróć zakładki
+places-bookmarks-restore-alert = Wszystkie bieżące zakładki zostaną zastąpione przez te z kopii zapasowej. Czy kontynuować?
+places-bookmarks-restore-title = Wybierz kopię zapasową zakładek
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Nieobsługiwany typ pliku.
+places-bookmarks-restore-parse-error = Nie udało się przetworzyć pliku kopii zapasowej.
+places-bookmarks-import = Importuj plik zakładek
+places-bookmarks-export = Eksportuj plik zakładek
+places-bookmarks-paste-error-title = Odnaleziono nieprawidłowe adresy
+places-bookmarks-paste-error-message-header = Poniższych adresów nie można dodać do zakładek. Spróbuj sprawdzić poprawność formatowania i dodać je ponownie.

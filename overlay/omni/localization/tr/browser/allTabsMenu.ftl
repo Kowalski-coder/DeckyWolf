@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Tüm sekmelerde ara
+all-tabs-menu-new-user-context =
+    .label = Yeni kapsayıcı sekme
+all-tabs-menu-hidden-tabs =
+    .label = Gizli sekmeler
+all-tabs-menu-close-duplicate-tabs =
+    .label = Yinelenen sekmeleri kapat
+all-tabs-menu-view-all-tabs =
+    .label = Tüm sekmeleri göster
+all-tabs-menu-recent-tab-groups-header = Son sekme grupları
+all-tabs-menu-tab-groups-show-all =
+    .label = Tümünü göster
+all-tabs-menu-tab-groups-sub-view =
+    .title = Sekme grupları
+all-tabs-menu-current-window-header = Geçerli pencere

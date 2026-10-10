@@ -1,0 +1,13 @@
+storage-search-box =
+    .placeholder = Elementlarni qidirish
+storage-variable-view-search-box =
+    .placeholder = Qiymatlarni filterlash
+storage-table-headers-cookies-name = Nom
+storage-table-headers-cookies-value = Qiymat
+storage-tree-labels-cookies = Kukilar
+storage-tree-labels-local-storage = Mahalliy ombor
+storage-tree-labels-session-storage = Seans ombori
+storage-tree-labels-indexed-db = Indexed DB
+storage-expires-session = Seans
+storage-data = Ma’lumot
+storage-parsed-value = Ajratilgan qiymat

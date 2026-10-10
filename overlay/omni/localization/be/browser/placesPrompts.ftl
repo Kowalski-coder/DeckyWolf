@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (няма загалоўка)
+places-load-js-data-url-error = Дзеля бяспекі, “javascript:” або “data:” URLs не могуць загружацца з акна гісторыі ці бакавой панэлі.
+places-bookmarks-backup-title = Назва адноўнага файла закладак
+places-bookmarks-restore-alert-title = Вярнуць закладкі
+places-bookmarks-restore-alert = Усе вашы існыя закладкі будуць заменены закладкамі з адноўкі. Вы ўпэўнены?
+places-bookmarks-restore-title = Выберыце адноўку закладак
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Тып файлаў не падтрымліваецца.
+places-bookmarks-restore-parse-error = Немагчыма апрацаваць адноўны файл.
+places-bookmarks-import = Імпарт файла закладак
+places-bookmarks-export = Экспарт файла закладак
+places-bookmarks-paste-error-title = Знойдзены нядзейсны(я) URL-адрас(ы)
+places-bookmarks-paste-error-message-header = Наступныя URL-адрасы не могуць быць дададзены ў вашыя закладкі. Паспрабуйце праверыць фарматаванне і дадаць іх яшчэ раз.

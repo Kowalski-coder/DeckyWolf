@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Thêm thẻ vào thanh tác vụ
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Xoá thẻ khỏi thanh tác vụ
+taskbar-tab-urlbar-button-show = Hiển thị hành động trang của ứng dụng web
+taskbar-tab-urlbar-button-hide = Ẩn hành động trang của ứng dụng web
+taskbar-tab-shortcut-description = Ứng dụng Web { $name }
+taskbar-tab-shortcut-folder = Ứng dụng Web của { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Tắt tiếng thẻ
+taskbar-tab-audio-unmute =
+    .tooltiptext = Bỏ tắt tiếng thẻ
+taskbar-tab-title-default = { $name } trong { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) trong { -brand-full-name }
+taskbar-tab-title-profile = { $name } trong { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) trong { $profile } — { -brand-full-name }

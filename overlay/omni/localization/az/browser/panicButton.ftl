@@ -1,0 +1,15 @@
+panic-button-open-new-window = Yeni təmiz Pəncərə aç
+panic-button-undo-warning = Bu əməliyyat geri qaytrıla bilməz.
+panic-button-forget-button =
+    .label = Unut!
+panic-main-timeframe-desc = Sonuncunu unut:
+panic-button-5min =
+    .label = Beş dəqiqə
+panic-button-2hr =
+    .label = İki saat
+panic-button-day =
+    .label = 24 saat
+panic-button-action-desc = Əməliyyatın edəcəyi:
+panic-button-delete-cookies = Son <strong>Çərəzləri</strong> Silmə
+panic-button-delete-history = Son <strong>Tarixçəni</strong> Silmə
+panic-button-delete-tabs-and-windows = Bütün <strong>Səhifə</strong> və <strong>Pəncərələri</strong> Qapat

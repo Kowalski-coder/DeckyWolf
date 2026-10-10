@@ -1,0 +1,15 @@
+panic-button-open-new-window = Open a new clean Windae
+panic-button-undo-warning = This action cannae be unduin.
+panic-button-forget-button =
+    .label = Forget!
+panic-main-timeframe-desc = Forget the past:
+panic-button-5min =
+    .label = Five meenits
+panic-button-2hr =
+    .label = Twa oors
+panic-button-day =
+    .label = 24 oors
+panic-button-action-desc = Haudin forrit will:
+panic-button-delete-cookies = Dicht Recent <strong>Cookies</strong>
+panic-button-delete-history = Dicht Recent <strong>Historie</strong>
+panic-button-delete-tabs-and-windows = Sneck aw <strong>Tabs</strong> and <strong>Windaes</strong>

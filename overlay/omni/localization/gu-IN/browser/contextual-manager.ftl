@@ -1,0 +1,14 @@
+contextual-manager-passwords-command-help = મદદ કરો
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = સાચવેલા પાસવર્ડને જાહેર કરો
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = સાચવેલા પાસવર્ડની નકલ કરો
+contextual-manager-passwords-remove-login-card-remove-button = દૂર કરો
+contextual-manager-passwords-remove-login-card-cancel-button = રદ કરો
+contextual-manager-passwords-origin-field =
+    .label = વેબસાઇટનું સરનામું
+    .placeholder = https://www.example.com
+contextual-manager-passwords-username-field =
+    .label = વપરાશકર્તા નામ
+contextual-manager-passwords-password-field =
+    .label = પાસવર્ડ
+contextual-manager-copy-icon =
+    .alt = નકલ

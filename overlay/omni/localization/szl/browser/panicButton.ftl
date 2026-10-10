@@ -1,0 +1,15 @@
+panic-button-open-new-window = Ôdewrzij nowe prōzne ôkno
+panic-button-undo-warning = Tyj akcyje niy idzie wrōcić.
+panic-button-forget-button =
+    .label = Zapōmnij!
+panic-main-timeframe-desc = Zapōmnij ôstatnie:
+panic-button-5min =
+    .label = Piyńć minut
+panic-button-2hr =
+    .label = Dwie godziny
+panic-button-day =
+    .label = 24 godziny
+panic-button-action-desc = Jak pudziesz dalij, to:
+panic-button-delete-cookies = Skasujōm sie niydowne <strong>cookies</strong>
+panic-button-delete-history = Skasuje sie niydowno <strong>historyjo</strong>
+panic-button-delete-tabs-and-windows = Pozawiyrajōm sie wszyskie <strong>karty</strong> i <strong>ôkna</strong>

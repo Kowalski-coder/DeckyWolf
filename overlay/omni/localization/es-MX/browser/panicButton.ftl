@@ -1,0 +1,15 @@
+panic-button-open-new-window = Abrir una ventana nueva y sin rastros
+panic-button-undo-warning = Esta acción no podrá deshacerse.
+panic-button-forget-button =
+    .label = ¡Olvidar!
+panic-main-timeframe-desc = Olvidar los últimos:
+panic-button-5min =
+    .label = Cinco minutos
+panic-button-2hr =
+    .label = Dos horas
+panic-button-day =
+    .label = 24 horas
+panic-button-action-desc = Al continuar:
+panic-button-delete-cookies = Eliminaremos las <strong>Cookies</strong> recientes
+panic-button-delete-history = Borraremos el <strong>Historial</strong> reciente
+panic-button-delete-tabs-and-windows = Cerraremos todas las <strong>Pestañas</strong> y <strong>Ventanas</strong>

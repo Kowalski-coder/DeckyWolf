@@ -1,0 +1,307 @@
+onboarding-welcome-header = Bienvenido a { -brand-short-name }
+onboarding-start-browsing-button-label = Empezar a navegar
+onboarding-not-now-button-label = Ahora no
+mr1-onboarding-get-started-primary-button-label = Comenzar
+return-to-amo-subtitle = Genial, ha instalado { -brand-short-name }
+return-to-amo-addon-title = Ahora obtenga <img data-l10n-name="icon"/> <b>{ $addon-name }</b>.
+return-to-amo-add-extension-label = Añadir la extensión
+return-to-amo-add-theme-label = Añadir el tema
+return-to-amo-theme-install-complete-label = Tema instalado
+return-to-amo-extension-install-complete-label = Extensión instalada
+mr1-return-to-amo-subtitle = Salude a { -brand-short-name }
+mr1-return-to-amo-addon-title = Tiene un navegador rápido y privado al alcance de su mano. Ahora puede añadir <b>{ $addon-name }</b> y hacer aún más con { -brand-short-name }.
+mr1-return-to-amo-add-extension-label = Añadir { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = Progreso: paso { $current } de { $total }
+mr1-onboarding-reduce-motion-button-label = Desactivar animaciones
+mr1-onboarding-sign-in-button-label = Iniciar sesión
+mr1-onboarding-import-primary-button-label-attribution = Importar desde { $previous }
+mr1-onboarding-theme-header = Hágalo suyo
+mr1-onboarding-theme-subtitle = Personalizar { -brand-short-name } con un tema
+mr1-onboarding-theme-secondary-button-label = Ahora no
+mr1-onboarding-theme-label-system = Tema del sistema
+mr1-onboarding-theme-label-light = Claro
+mr1-onboarding-theme-label-dark = Oscuro
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = Hecho
+onboarding-animation-pause-button =
+    .aria-label = Pausar la animación
+onboarding-animation-play-button =
+    .aria-label = Reproducir la animación
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        Seguir el tema del sistema operativo
+        para botones, menús y ventanas.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        Seguir el tema del sistema operativo
+        para botones, menús y ventanas.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        Usar un tema claro para botones,
+        menús y ventanas.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        Usar un tema claro para botones,
+        menús y ventanas.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        Usar un tema oscuro para botones,
+        menús y ventanas.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        Usar un tema oscuro para botones,
+        menús y ventanas.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        Usar un tema dinámico y colorido para botones,
+        menús y ventanas.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        Usar un tema dinámico y colorido para botones,
+        menús y ventanas.
+mr2-onboarding-default-theme-label = Explorar los temas predeterminados.
+mr2-onboarding-thank-you-header = Gracias por elegirnos
+mr2-onboarding-thank-you-text = { -brand-short-name } es un navegador independiente respaldado por una organización sin ánimo de lucro. Juntos, estamos haciendo que la web sea más segura, saludable y privada.
+mr2-onboarding-start-browsing-button-label = Empezar a navegar
+onboarding-live-language-header = Elija su idioma
+mr2022-onboarding-live-language-text = { -brand-short-name } habla su idioma
+mr2022-language-mismatch-subtitle = Gracias a nuestra comunidad, { -brand-short-name } está traducido a más de 90 idiomas. Parece que su sistema está usando { $systemLanguage } y { -brand-short-name } está usando { $appLanguage }.
+onboarding-live-language-button-label-downloading = Descargando el paquete de idioma para { $negotiatedLanguage }…
+onboarding-live-language-waiting-button = Obteniendo idiomas disponibles…
+onboarding-live-language-installing = Instalando el pack de idioma para { $negotiatedLanguage }…
+mr2022-onboarding-live-language-switch-to = Cambiar a { $negotiatedLanguage }
+mr2022-onboarding-live-language-continue-in = Continuar en { $appLanguage }
+onboarding-live-language-secondary-cancel-download = Cancelar
+onboarding-live-language-skip-button-label = Omitir
+fx100-thank-you-hero-text =
+    100
+    <span data-l10n-name="zap">Gracias</span>
+fx100-thank-you-subtitle = ¡Es nuestro lanzamiento número 100! Gracias por ayudarnos a construir un Internet mejor y más saludable.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Mantener { -brand-short-name } en el Dock
+       *[other] Fijar { -brand-short-name } a la barra de tareas
+    }
+fx100-upgrade-thanks-header = 100 gracias
+fx100-upgrade-thank-you-body = Es nuestro lanzamiento número 100 de { -brand-short-name }. Gracias <em>a usted</em> por ayudarnos a construir un Internet mejor y más saludable.
+fx100-upgrade-thanks-keep-body = ¡Es nuestro lanzamiento número 100! Gracias por ser parte de nuestra comunidad. Mantenga { -brand-short-name } a un clic de distancia para los próximos 100.
+mr2022-onboarding-secondary-skip-button-label = Saltar este paso
+mr2022-onboarding-easy-setup-primary-button-label = Guardar y continuar
+mr2022-onboarding-easy-setup-set-default-checkbox-label = Establecer { -brand-short-name } como navegador predeterminado
+mr2022-onboarding-easy-setup-import-checkbox-label = Importar desde el navegador anterior
+mr2022-onboarding-welcome-pin-header = Abra una Internet increíble
+mr2022-onboarding-welcome-pin-subtitle = Inicie { -brand-short-name } desde cualquier lugar con un solo clic. Cada vez que lo haga, estará eligiendo una web más abierta e independiente.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Mantener { -brand-short-name } en el Dock
+       *[other] Fijar { -brand-short-name } en la barra de tareas
+    }
+mr2022-onboarding-pin-primary-button-label-msix = Fijar { -brand-short-name } a la barra de tareas y al menú Inicio
+mr2022-onboarding-existing-pin-header = Gracias por amar { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = Inicie una Internet más saludable desde cualquier lugar con un solo clic. Nuestra última actualización está repleta de cosas nuevas que creemos que le encantarán.
+mr2022-onboarding-existing-set-default-only-subtitle = Use un navegador que defiende su privacidad mientras navega por la web. Nuestra última actualización está repleta de cosas que le encantarán.
+mr2022-onboarding-existing-pin-checkbox-label = Añada también la navegación privada de { -brand-short-name }
+mr2022-onboarding-set-default-title = Haga de { -brand-short-name } su navegador favorito
+mr2022-onboarding-set-default-primary-button-label = Establezca { -brand-short-name } como su navegador predeterminado
+mr2022-onboarding-set-default-subtitle = Use un navegador respaldado por una organización sin ánimo de lucro. Defendemos su privacidad mientras navega por la web.
+mr2022-onboarding-get-started-primary-subtitle = Nuestra última versión está diseñada pensando en usted, haciendo que navegar por la web sea más fácil que nunca. Está repleto de funciones que creemos que le encantarán.
+mr2022-onboarding-get-started-primary-button-label = Configurar en segundos
+mr2022-onboarding-import-primary-button-label-no-attribution = Importar desde el navegador anterior
+mr2022-onboarding-mobile-download-cta-text = Escanee el código QR para obtener { -brand-product-name } para dispositivos móviles o <a data-l10n-name="download-label">envíese un enlace de descarga.</a>
+mr2022-onboarding-no-mobile-download-cta-text = Escanee el código QR para obtener { -brand-product-name } en su móvil.
+mr2022-upgrade-onboarding-pin-private-window-header = Obtenga la libertad de la navegación privada en un clic
+mr2022-upgrade-onboarding-pin-private-window-subtitle = Sin cookies guardadas ni historial, directamente desde su escritorio. Navegue como si nadie le estuviera mirando.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] Mantener la navegación privada de { -brand-short-name } en el Dock
+       *[other] Fijar la navegación privada de { -brand-short-name } a la barra de tareas
+    }
+mr2022-onboarding-privacy-segmentation-title = Siempre respetamos su privacidad
+mr2022-onboarding-privacy-segmentation-subtitle = Desde sugerencias inteligentes hasta búsquedas más eficientes, trabajamos constantemente para crear un { -brand-product-name } mejor y más personal.
+mr2022-onboarding-privacy-segmentation-text-cta = ¿Qué quiere ver cuando ofrezcamos nuevas funciones que usen sus datos para mejorar la navegación?
+mr2022-onboarding-privacy-segmentation-button-primary-label = Use las recomendaciones de { -brand-product-name }
+mr2022-onboarding-privacy-segmentation-button-secondary-label = Mostrar información detallada
+mr2022-onboarding-gratitude-title = Nos está ayudando a construir una web mejor
+mr2022-onboarding-gratitude-subtitle = Gracias por usar { -brand-short-name }, respaldado por la Fundación Mozilla. Con su apoyo, estamos trabajando para que Internet sea más abierta, accesible y mejor para todos.
+mr2022-onboarding-gratitude-primary-button-label = Novedades
+mr2022-onboarding-gratitude-secondary-button-label = Empezar a navegar
+onboarding-infrequent-import-title = Siéntase como en casa
+onboarding-infrequent-import-subtitle = No importa si está de paso o si va a quedarse por aquí, recuerde que puede importar sus marcadores, contraseñas y demás.
+onboarding-infrequent-import-primary-button = Importar a { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = Persona que trabaja en un portátil rodeada de estrellas y flores.
+mr2022-onboarding-default-image-alt =
+    .aria-label = Persona abrazando el logo de { -brand-product-name }
+mr2022-onboarding-import-image-alt =
+    .aria-label = Persona montando en skate con una caja de iconos de software
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = Ranas saltando sobre nenúfares con un código QR para descargar { -brand-product-name } para dispositivos móviles en el centro
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = Una varita mágica hace que el logo de navegación privada de { -brand-product-name } aparezca de un sombrero
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = Manos de piel clara y de piel oscura chocan los cinco
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = Vista de una puesta de sol a través de una ventana con un zorro y una planta de casa en un alféizar
+onboarding-device-migration-image-alt =
+    .aria-label = Un zorro en la pantalla de un portátil, saludando. El portátil tiene un ratón conectado.
+onboarding-device-migration-title = Le damos de nuevo la bienvenida
+onboarding-device-migration-subtitle2 = Inicie sesión en su cuenta para llevar sus marcadores, contraseñas e historial a su nuevo dispositivo.
+onboarding-device-migration-primary-button-label = Iniciar sesión
+amo-picker-title = Personalice su { -brand-short-name }
+amo-picker-subtitle = Las extensiones son como aplicaciones para el navegador y permiten proteger contraseñas, descargar vídeos, encontrar ofertas, bloquear publicidades molestas, cambiar la apariencia del navegador y mucho más.
+amo-picker-install-button-label = Añadir a { -brand-short-name }
+amo-picker-install-complete-label = Instalado
+amo-picker-collection-link = Explorar más complementos
+onboarding-easy-setup-security-and-privacy-title = Nos encanta mantenerlo a salvo
+onboarding-easy-setup-security-and-privacy-subtitle = Nuestro navegador respaldado por una organización sin ánimo de lucro ayuda a evitar que las empresas le sigan en secreto por la web.
+onboarding-mobile-download-security-and-privacy-title = Mantenga todo cifrado cuando pase de un dispositivo a otro
+onboarding-mobile-download-security-and-privacy-subtitle = Cuando tenga todo sincronizado, { -brand-short-name } cifra las contraseñas, marcadores y más. Además, puede traer pestañas desde otros dispositivos.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } siempre vela por usted
+onboarding-gratitude-security-and-privacy-subtitle = Gracias por usar { -brand-short-name }, respaldado por la Fundación Mozilla. Con su apoyo, estamos trabajando para que Internet sea más seguro y accesible para todos.
+onboarding-sign-up-title = Sincronice sus datos entre dispositivos
+onboarding-sign-up-description = Regístrese para tener una cuenta y toda su información importante — contraseñas, marcadores y más — se guardarán de forma segura y estarán disponibles al iniciar sesión en cualquier dispositivo.
+onboarding-sign-up-button = Regístrese o inicie sesión
+onboarding-sign-up-secondary-button = Empezar a navegar
+onboarding-new-user-time-based-survey-title = ¿Cuánto tiempo ha estado usando { -brand-short-name }?
+onboarding-new-user-familiarity-based-survey-title = ¿Cómo está de familiarizado con { -brand-short-name }?
+onboarding-new-user-survey-subtitle = Su opinión nos ayuda a hacer { -brand-short-name } aún mejor.
+onboarding-new-user-survey-next-button-label = Siguiente
+onboarding-new-user-survey-legal-link-label = Al seleccionar “{ onboarding-new-user-survey-next-button-label },” acepta el <a data-l10n-name="privacy_notice">aviso de privacidad</a> de { -brand-product-name }
+onboarding-new-user-survey-time-based-option-1 = Soy nuevo
+onboarding-new-user-survey-time-based-option-2 = Menos de 1 mes
+onboarding-new-user-survey-time-based-option-3 = Más de 1 mes, regularmente
+onboarding-new-user-survey-time-based-option-4 = Más de 1 mes, ocasionalmente
+onboarding-new-user-survey-familiarity-based-option-1 = Soy nuevo
+onboarding-new-user-survey-familiarity-based-option-2 = Lo he usado algo
+onboarding-new-user-survey-familiarity-based-option-3 = Estoy muy familiarizado
+onboarding-new-user-survey-familiarity-based-option-4 = Lo he usado en el pasado, pero ya hace un tiempo
+onboarding-new-tabs-title = Díganos dónde quiere las pestañas
+onboarding-new-tabs-subtitle = Cámbielo cuando quiera en los ajustes de barra lateral.
+onboarding-many-tabs-title = Sus pestañas, a su manera
+onboarding-many-tabs-subtitle = ¿Mantiene muchas pestañas abiertas? Pruebe a colocarlas en el lateral para obtener una vista más simplificada. O mantenga el estilo clásico con las pestañas en la parte superior. Cambie cuando lo desee.
+onboarding-focused-tabs-title = Elija el diseño de sus pestañas.
+onboarding-focused-tabs-subtitle = Para una vista optimizada que le ayude a mantenerse concentrado, pruebe las pestañas en el lateral. O bien, opte por el estilo clásico con pestañas en la parte superior. Cambie cuando lo desee.
+onboarding-new-vertical-tabs-label = Pestañas en la parte lateral
+onboarding-new-horizontal-tabs-label = Pestañas en la parte superior
+onboarding-existing-tabs-title = Las pestañas verticales están aquí
+onboarding-existing-tabs-title2 = Presentamos las pestañas verticales
+onboarding-existing-tabs-subtitle = Pruebe a situar las pestañas a un lado. Cambie cuando quiera en los ajustes de la barra lateral.
+onboarding-existing-vertical-tabs-label = Pruebe las pestañas verticales
+onboarding-flair-text = ¡Nuevo!
+onboarding-existing-horizontal-tabs-label = Mantener las pestañas horizontales
+onboarding-vertical-tabs-tooltip =
+    .title = Una ventana del navegador que muestra pestañas a lo largo del costado de la pantalla como parte de la barra lateral de { -brand-shorter-name }.
+onboarding-vertical-tabs-description =
+    .aria-description = Una ventana del navegador que muestra pestañas a lo largo del costado de la pantalla como parte de la barra lateral de { -brand-shorter-name }.
+onboarding-horizontal-tabs-tooltip =
+    .title = Una ventana del navegador que muestra pestañas en la parte superior.
+onboarding-horizontal-tabs-description =
+    .aria-description = Una ventana del navegador que muestra pestañas en la parte superior.
+onboarding-genai-sidebar-title = Pruebe un chatbot de IA en la barra lateral
+onboarding-genai-sidebar-subtitle = Resuma contenido web, genere ideas, redacte mensajes… todo mientras navega. Elija entre varios proveedores. Cambie de proveedor cuando quiera. <a data-l10n-name="learn-more">Saber más</a>
+onboarding-genai-sidebar-primary-button = Seleccione un chatbot
+onboarding-genai-sidebar-secondary-button = Empezar a navegar
+onboarding-checklist-title = Terminar de configurar { -brand-short-name }
+onboarding-checklist-subtitle = Complete estos pasos para aprovechar al máximo la experiencia de navegación.
+onboarding-checklist-set-default = Establecer { -brand-short-name } como su navegador predeterminado
+onboarding-checklist-pin = Fijar { -brand-short-name } a la barra de tareas
+onboarding-checklist-import = Importar desde el navegador anterior
+onboarding-checklist-extension = Añadir una extensión
+onboarding-checklist-sign-up = Registrarse o iniciar sesión en su cuenta
+tab-groups-onboarding-feature-callout-title = Pruebe los grupos de pestañas para tener menos desorden y mayor concentración
+tab-groups-onboarding-feature-callout-subtitle = Organícese arrastrando una pestaña encima de otra para crear su primer grupo.
+tab-groups-onboarding-create-group-title-3 = Encuentre sus grupos de pestañas en el menú Listar todas las pestañas, en cualquier momento.
+tab-groups-onboarding-create-group-no-alltabs-button-title = Encuentre sus grupos buscándolos en la barra de direcciones.
+tab-groups-onboarding-saved-groups-title-3 = Cuando cierre un grupo de pestañas, vuelva a abrirlo desde el menú Listar todas las pestañas, en cualquier momento.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = Encuentre sus grupos cerrados buscándolos en la barra de direcciones.
+tab-groups-onboarding-session-restore-title-2 = Vuelva a abrir sus grupos de pestañas desde el menú Listar todas las pestañas, en cualquier momento.
+tab-groups-onboarding-dismiss = Aceptar
+multi-profile-spotlight-title = Dígale hola a los perfiles de { -brand-product-name }
+multi-profile-spotlight-body = Cambie fácilmente entre navegación por trabajo y diversión. Los perfiles mantienen la información de navegación, incluido el historial de búsqueda y las contraseñas, totalmente separada para que pueda mantenerse organizado.
+multi-profile-spotlight-cta = Crear un perfil
+multi-profile-callout-title = Crear diferentes perfiles para trabajo y diversión
+multi-profile-callout-subtitle = Los perfiles permiten mantener la información de navegación, como el historial de búsqueda y las contraseñas, totalmente separadas.
+multi-profile-callout-cta = Crear un perfil
+desktop-to-mobile-headline = ¡Descargar, sincronizar y listo!
+desktop-to-mobile-subtitle = Escanee el código QR para descargar { -brand-product-name } para dispositivos móviles. Una vez instalado, seleccione “Sincronizar con móvil” para acceder a las contraseñas, marcadores y más sobre la marcha.
+dismiss-button-label = Descartar
+sync-to-mobile-button-label = Sincronización con el móvil
+desktop-to-mobile-qr-code-alt =
+    .aria-label = Código QR para descargar { -brand-product-name } para móviles
+create-backup-screen-1-title =
+    ¿Actualizando a Windows 11?
+    Hagamos una copia de seguridad de los datos de { -brand-product-name }.
+create-backup-screen-1-subtitle = Proteja automáticamente sus contraseñas, marcadores y más en 1 o 2 minutos.
+create-backup-screen-1-flair = Recomendado
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">Saber más</a>
+create-backup-screen-1-sync-label = Sincronizar con { -brand-product-name }
+create-backup-screen-1-sync-body = Hace una copia de seguridad de todos los dispositivos en los que se inició sesión
+create-backup-screen-1-backup-label = Hacer copia de seguridad en el PC
+create-backup-screen-1-backup-body = Guarda en el dispositivo o OneDrive
+create-backup-select-tile-button-label = Seleccionar
+create-backup-back-button-label = Atrás
+create-backup-show-fewer =
+    .label = Mostrar menos como éste
+create-backup-screen-2-title = Seleccionar los datos de { -brand-product-name } para hacer una copia de seguridad
+create-backup-screen-2-subtitle = Solo le llevará un minuto. Sus datos se respaldan una vez al día.
+create-backup-screen-2-easy-label = Configuración fácil
+create-backup-screen-2-easy-list-1 = Marcadores, historial, ajustes y más
+create-backup-screen-2-easy-list-2 = No incluye contraseñas ni métodos de pago
+create-backup-screen-2-easy-list-3 = No cifrado
+create-backup-screen-2-all-label = Todos los datos
+create-backup-screen-2-all-list-2 = Incluye contraseñas y métodos de pago
+create-backup-screen-2-all-list-3 = Cifrado con contraseña
+create-backup-screen-3-location = ¿Dónde quiere guardar la copia de seguridad?
+create-backup-screen-3-title = Crear una contraseña para el archivo de respaldo
+create-backup-screen-3-subtitle = Necesaria para cifrar los datos. Guárdela en un lugar que pueda recordar.
+fx-backup-opt-in-header = Elegir ubicación del archivo
+fx-backup-opt-in-filepath-label = Escoja un lugar que planee transferir a un nuevo dispositivo, como OneDrive.
+fx-backup-opt-in-create-password-label = Introducir contraseña
+fx-backup-opt-in-confirm-btn-label = Continuar
+fx-backup-opt-in-cancel-btn-label = Atrás
+fx-backup-confirmation-screen-title = La copia de seguridad está programada
+fx-backup-confirmation-screen-close-button = Cerrar
+fx-backup-confirmation-screen-all-data-item-text-1 = Todos los datos de navegación incluidos
+fx-backup-confirmation-screen-all-data-item-text-2 = Guardado en su dispositivo
+fx-backup-confirmation-screen-all-data-item-text-3 = Cifrado y protegido con contraseña
+fx-backup-confirmation-screen-easy-setup-item-text-1 = Marcadores, historial, ajustes y otros datos incluidos
+fx-backup-confirmation-screen-easy-setup-item-text-2 = Guardado en su dispositivo
+fx-backup-confirmation-screen-easy-setup-item-text-3 = Contraseñas y métodos de pago no incluidos
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = Ir a <a data-l10n-name="settings">Configuración</a> para incluir datos confidenciales.
+fx-backup-confirmation-screen-item-subtext-1 = La copia de seguridad comenzará en unos minutos y se ejecutará una vez al día. Puede verificar el progreso en <a data-l10n-name="settings">Ajustes</a>.
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } buscará la copia de seguridad si necesita reinstalar.
+restore-from-backup-secondary-top-button = Restaurar desde una copia de seguridad
+restore-from-backup-title = Recuperemos { -brand-short-name } tal y como le gusta
+restore-from-backup-subtitle = Recupere todos los marcadores, historial y otros datos para volver a navegar.
+restore-from-backup-secondary-button = No restaurar
+multiple-backups-info-tile = <strong>Se encontraron múltiples archivos de respaldo.</strong> Se ha seleccionado el archivo más reciente. Puede restaurar otros perfiles en <a data-l10n-name="settings-label">Ajustes.</a>
+restored-from-backup-success-title = ¡Estamos de vuelta! Los datos de { -brand-short-name } han sido restaurados.
+restored-from-backup-success-with-checklist-subtitle = ¿Quiere mantener su navegador favorito centrado en la privacidad a un solo clic de distancia?
+restored-from-backup-success-no-checklist-subtitle = Puede activar la copia de seguridad para este dispositivo en <a data-l10n-name="settings">Ajustes</a>.
+restored-from-backup-success-with-checklist-primary-button = Guardar y continuar
+restored-from-backup-success-with-checklist-secondary-button = Saltar este paso
+restored-from-backup-success-no-checklist-primary-button = Continuar
+restored-from-backup-error-title = Hmm, hubo un problema con su archivo de respaldo.
+restored-from-backup-error-subtitle = Si tiene otro archivo de respaldo de { -brand-short-name }, intente restaurar desde ése. <a data-l10n-name="restore-problems">¿Sigue teniendo problemas?</a>
+restored-from-backup-error-primary-button = Cerrar
+onboarding-personalization-title = Personalice su experiencia de { -brand-short-name }
+onboarding-personalization-subtitle = Responda algunas preguntas y le recomendaremos funciones y extensiones para mejorar su experiencia con { -brand-short-name }.
+onboarding-personalization-use-case-title = ¿Para qué usará { -brand-short-name }?
+onboarding-personalization-use-case-personal-option = Personal
+onboarding-personalization-use-case-school-option = Escuela
+onboarding-personalization-use-case-work-option = Trabajo
+onboarding-personalization-motivation-title = ¿Qué características de { -brand-short-name } son las más importantes para usted?
+onboarding-personalization-motivation-privacy-option = Privacidad y seguridad
+onboarding-personalization-motivation-productivity-option = Productividad
+onboarding-personalization-motivation-other-option = Otras
+onboarding-refresh-pin-set-default-subtitle = Protegemos sus datos y bloqueamos a las empresas que espían sus clics — automáticamente.
+onboarding-refresh-pin-set-default-title = Está en buenas manos
+onboarding-refresh-import-subtitle = Traiga sus contraseñas, marcadores, historial y más.
+onboarding-refresh-import-title = Siéntase en casa con { -brand-short-name }
+onboarding-refresh-onboarding-addons-subtitle = Las extensiones son pequeñas aplicaciones que permiten personalizar { -brand-short-name }. Pueden mejorar la privacidad, aumentar la productividad, cambiar el aspecto de { -brand-short-name } y mucho más.
+onboarding-refresh-onboarding-addons-title = Dele un impulso a su navegación
+onboarding-refresh-sync-subtitle = Acceda a sus marcadores, contraseñas y más en cualquier lugar donde haya iniciado sesión en { -brand-short-name }. Además, los datos están cifrados para que solo usted pueda verlos.
+onboarding-refresh-sync-title = En cualquier parte. Todo sincronizado.
+onboarding-refresh-gratitude-subtitle = Gracias por usar { -brand-short-name }, el único navegador importante respaldado por una asociación sin ánimo de lucro. Con su apoyo, estamos trabajando para que Internet sea más segura y accesible para todos.
+onboarding-refresh-gratitude-title = { -brand-short-name } siempre está de su parte

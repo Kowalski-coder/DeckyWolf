@@ -1,0 +1,160 @@
+migration-wizard-selection-header = Ներմուծել դիտարկիչի տվյալները
+migration-wizard-selection-list = Ընտրեք այն տվյալները, որոնք ցանկանում եք ներմուծել:
+migration-wizard-selection-option-without-profile = { $sourceBrowser }
+migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
+migration-wizard-migrator-display-name-brave = Brave
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chrome-beta = Chrome Beta
+migration-wizard-migrator-display-name-chrome-dev = Chrome Dev
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = 360 Secure Browser
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
+migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge Legacy
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = Գաղտնաբառերը CSV ֆայլից
+migration-wizard-migrator-display-name-file-bookmarks = Էջանիշեր HTML ֆայլից
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
+migration-wizard-migrator-display-name-opera = Opera
+migration-wizard-migrator-display-name-opera-gx = Opera GX
+migration-wizard-migrator-display-name-safari = Safari­
+migration-wizard-migrator-display-name-vivaldi = Vivaldi
+migration-source-name-ie = Internet Explorer
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = Google Chrome
+migration-imported-safari-reading-list = Ընթերցացուցակ (Safari-ից)
+migration-imported-edge-reading-list = Ընթերցացուցակ (Edge-ից)
+migration-no-permissions-message = { -brand-short-name }-ը հասանելություն չունի այս սարքում տեղադրված այլ դիտարկիչների պրոֆիլներին:
+migration-no-permissions-instructions = Տվյալների ներմուծումը շարունակելու համար՝ տվեք { -brand-short-name }-ին իր պրոֆիլի թղթապանակի հասանելիություն:
+migration-no-permissions-instructions-step1 = Ընտրեք «Շարունակել»
+migration-all-available-data-label = Ներմուծել բոլոր հասանելի տվյալները
+migration-no-selected-data-label = Ներմուծման համար տվյալներ չկան
+migration-selected-data-label = Ներմուծել ընտրված տվյալները
+migration-select-all-option-label = Ընտրել բոլորը
+migration-bookmarks-option-label = Էջանիշեր
+migration-favorites-option-label = Ընտրյալներ
+migration-passwords-option-label = Պահված գաղտնաբառեր
+migration-history-option-label = Դիտարկման պատմություն
+migration-extensions-option-label = Ընդլայնումներ
+migration-form-autofill-option-label = Ձևաթղթի ինքնալրացման տվյալները
+migration-payment-methods-option-label = Վճարամիջոցներ
+migration-cookies-option-label = Թխուկներ
+migration-session-option-label = Պատուհաններ և Ներդիրներ
+migration-otherdata-option-label = Այլ տվյալներ
+migration-passwords-from-file-progress-header = Ներմուծել գաղտնաբառերի ֆայլը
+migration-passwords-from-file-success-header = Գաղտնաբառերը հաջողությամբ ներմուծվեցին
+migration-passwords-from-file = Ֆայլի գաղտնաբառերի ստուգում
+migration-passwords-new = Նոր գաղտնաբառ
+migration-passwords-updated = Առկա գաղտնաբառեր
+migration-passwords-from-file-picker-title = Ներմուծել գաղտնաբառերի ֆայլը
+migration-passwords-from-file-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV փաստաթուղթ
+       *[other] CSV ֆայլ
+    }
+migration-passwords-from-file-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV փաստաթուղթ
+       *[other] TSV ֆայլ
+    }
+migration-wizard-progress-success-new-passwords =
+    { $newEntries ->
+        [one] { $newEntries }-ը հավելվել է
+       *[other] { $newEntries }-ը հավելվել է
+    }
+migration-wizard-progress-success-updated-passwords =
+    { $updatedEntries ->
+        [one] { $updatedEntries }-ը թարմացվել է
+       *[other] { $updatedEntries }-ը թարմացվել է
+    }
+migration-bookmarks-from-file-picker-title = Ներմուծել էջանիշերի ֆայլը
+migration-bookmarks-from-file-progress-header = Էջանիշների ներմուծում
+migration-bookmarks-from-file = Էջանիշեր
+migration-bookmarks-from-file-success-header = Էջանիշները հաջողությամբ ներմուծվեցին
+migration-bookmarks-from-file-html-filter-title =
+    { PLATFORM() ->
+        [macos] HTML փաստաթուղթ
+       *[other] HTML ֆայլ
+    }
+migration-bookmarks-from-file-json-filter-title = JSON ֆայլ
+migration-wizard-progress-success-new-bookmarks =
+    { $newEntries ->
+        [one] { $newEntries } էջանիշ
+       *[other] { $newEntries } էջանիշեր
+    }
+migration-import-button-label = Ներմուծել
+migration-choose-to-import-from-file-button-label = Ներմուծում ֆայլից
+migration-import-from-file-button-label = Ընտրեք Ֆայլ
+migration-cancel-button-label = Չեղարկել
+migration-done-button-label = Պատրաստ է
+migration-continue-button-label = Շարունակել
+migration-list-bookmark-label = էջանիշեր
+migration-list-favorites-label = ընտրյալներ
+migration-list-password-label = գաղտնաբառեր
+migration-list-history-label = պատմություն
+migration-list-extensions-label = ընդլայնումներ
+migration-list-autofill-label = ինքնալցնել տվյալները
+migration-list-payment-methods-label = վճարամիջոցներ
+migration-wizard-progress-header = Տվյալների ներմուծում
+migration-wizard-progress-done-header = Տվյալները հաջողությամբ ներմուծվեցին
+migration-wizard-progress-done-with-warnings-header = Տվյալների ներմուծումն ավարտված է
+migration-wizard-progress-icon-in-progress =
+    .aria-label = Ներմուծվում է…
+migration-wizard-progress-icon-completed =
+    .aria-label = Ավարտված է
+migration-safari-password-import-header = Ներմուծեք գաղտնաբառեր Safari-ից
+migration-safari-password-import-post-sequoia-step3 = Պահպանել ֆայլը
+migration-safari-password-import-post-sequoia-step4 = Ընտրեք պահպանված ֆայլը
+migration-safari-password-import-steps-header = Safari-ի գաղտնաբառերը ներմուծելու համար՝
+migration-safari-password-import-step1 = Safari-ում՝ բացեք «Safari» ցանկը և գնացեք դեպի «Նախապատվություններ» > «Գաղտնաբառեր»
+migration-safari-password-import-step2 = Ընտրեք <img data-l10n-name="safari-icon-3dots"/> կոճակը և ընտրեք «Արտահանել բոլոր գաղտնաբառերը»
+migration-safari-password-import-step3 = Պահեք գաղտնաբառերի ֆայլը
+migration-safari-password-import-step4 = Օգտագործեք «Ընտրեք ֆայլը» ստորև՝ ձեր պահած գաղտնաբառերի ֆայլը ընտրելու համար
+migration-chrome-windows-password-import-header = Ինչպես ներմուծել գաղտնաբառեր Chrome-ից
+migration-chrome-windows-password-import-steps-header = Chrome-ում.
+migration-chrome-windows-password-import-step1 = Բացեք գլխավոր ցանկը <img data-l10n-name="chrome-icon-3dots"/> և անցեք «Գաղտնաբառեր և ավտոմատ լրացում» > Google գաղտնաբառերի կառավարիչ։
+migration-chrome-windows-password-import-step2 = Ընտրեք «Կարգավորումներ» ցանկից։
+migration-chrome-windows-password-import-step3 = Ընտրեք «Ներբեռնել ֆայլը» և պահպանեք այն ձեր սարքում։
+migration-chrome-windows-password-import-step4 = Վերադարձեք այստեղ և սեղմեք «Ընտրեք ֆայլը»՝ ներմուծումն ավարտելու համար։
+migration-manual-password-import-skip-button = Բաց թողնել
+migration-manual-password-import-cancel-button = Չեղարկել
+migration-manual-password-import-select-button = Ընտրեք Ֆայլ
+migration-wizard-progress-success-bookmarks =
+    { $quantity ->
+        [one] { $quantity } էջանիշ
+       *[other] { $quantity } էջանիշեր
+    }
+migration-wizard-progress-success-favorites =
+    { $quantity ->
+        [one] { $quantity } ընտրյալ
+       *[other] { $quantity } ընտրյալներ
+    }
+migration-wizard-progress-success-extensions =
+    { $quantity ->
+        [one] { $quantity } ընդլայնում
+       *[other] { $quantity } ընդլայնումներ
+    }
+migration-wizard-progress-partial-success-extensions = { $matched }-ը { $quantity } ընդլայնումներից
+migration-wizard-progress-extensions-support-link = Իմացեք, թե ինչպես է { -brand-product-name }-ը համապատասխանում ընդլայնումներին
+migration-wizard-progress-no-matched-extensions = Համընկնող ընդլայնումներ չկան
+migration-wizard-progress-extensions-addons-link = Ընտրեք ընդլայնումներ { -brand-short-name }-ի համար
+migration-wizard-progress-success-passwords =
+    { $quantity ->
+        [one] { $quantity } գաղտնաբառ
+       *[other] { $quantity } գաղտնաբառ
+    }
+migration-wizard-progress-success-history =
+    { $maxAgeInDays ->
+        [one] Վերջին օրից
+       *[other] Վերջին { $maxAgeInDays } օրից
+    }
+migration-wizard-progress-success-formdata = Ձևերի պատմություն
+migration-wizard-progress-success-payment-methods =
+    { $quantity ->
+        [one] { $quantity } վճարման եղանակ
+       *[other] { $quantity } վճարման եղանակներ
+    }
+migration-wizard-safari-permissions-sub-header = Safari-ի էջանիշներն ու զննարկման պատմությունը ներմուծելու համար՝
+migration-wizard-safari-instructions-continue = Ընտրեք «Շարունակել»
+migration-wizard-safari-instructions-folder = Ընտրեք Safari թղթապանակը ցանկից և ընտրեք «Բացել»

@@ -1,0 +1,253 @@
+about-logins-page-title-name = Passwords
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Cîr tes passwords
+create-login-button =
+    .title = Zonte password
+fxaccounts-sign-in-text = Torne a cjatâ lis tôs passwords sui tiei altris dispositîfs
+fxaccounts-sign-in-sync-button = Jentre par sincronizâ
+fxaccounts-avatar-button =
+    .title = Gjestìs account
+menu =
+    .title = Vierç menù
+about-logins-menu-menuitem-import-from-another-browser = Impuarte di un altri navigadôr…
+about-logins-menu-menuitem-import-from-a-file = Impuarte di un file…
+about-logins-menu-menuitem-export-logins2 = Espuarte passwords…
+about-logins-menu-menuitem-remove-all-logins2 = Gjave dutis lis passwords…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opzions
+       *[other] Preferencis
+    }
+about-logins-menu-menuitem-help = Jutori
+login-list =
+    .aria-label = Credenziâls corispondentis ae ricercje
+login-list-count2 =
+    { $count ->
+        [one] { $count } password
+       *[other] { $count } passwords
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } di { $total } password
+       *[other] { $count } di { $total } passwords
+    }
+login-list-sort-label-text = Ordene par:
+login-list-name-option = Non (A-Z)
+login-list-name-reverse-option = Non (Z-A)
+login-list-username-option = Non utent (A-Z)
+login-list-username-reverse-option = Non utent (Z-A)
+about-logins-login-list-alerts-option = Alertis
+login-list-last-changed-option = Ultime modificade
+login-list-last-used-option = Ultime doprade
+login-list-intro-title2 = Nissune password salvade
+login-list-intro-description = Cuant che tu salvis une password in { -brand-product-name }, ti vignarà fûr achì.
+about-logins-login-list-empty-search-title2 = Nissune password cjatade
+about-logins-login-list-empty-search-description = No si à nissun risultât corispondent ai criteris de tô ricercje.
+login-list-item-title-new-login2 = Zonte password
+login-list-item-subtitle-missing-username = (nissun non utent)
+about-logins-list-item-breach-icon =
+    .title = Sît web comprometût
+about-logins-list-item-vulnerable-password-icon =
+    .title = Password debile
+about-logins-list-section-breach = Sîts web comprometûts
+about-logins-list-section-vulnerable = Passwords vulnerabilis
+about-logins-list-section-nothing = Nissune alerte
+about-logins-list-section-today = Vuê
+about-logins-list-section-yesterday = Îr
+about-logins-list-section-week = Ultins 7 dîs
+about-logins-login-intro-heading-message = Salve lis tôs passwords intun puest sigûr
+login-intro-description2 = Dutis lis passwords che tu salvis in { -brand-product-name } a vegnin cifradis. Sore, o tignìn di voli lis violazions di dâts e ti visìn se tu sês stât cjapât dentri. <a data-l10n-name="breach-alert-link">Scuvierç di plui</a>
+login-intro-instructions-fxa2 = Cree o jentre tal to account sul dispositîf dulà che tu âs salvât lis tôs credenziâls.
+login-intro-instructions-fxa-settings = Va su Impostazions > Sincronizazion > Ative la sincronizazion… e selezione la casele Credenziâls e passwords.
+login-intro-instructions-fxa-passwords-help = Visite il <a data-l10n-name="passwords-help-link">supuart pes password</a> par vê plui jutori.
+about-logins-intro-import3 = Selezione il boton cul simbul “+” par zontâ une password. Tu puedis ancje <a data-l10n-name="import-browser-link">impuartâ lis passwords di un altri navigadôr</a> o <a data-l10n-name="import-file-link">di un file</a>.
+about-logins-login-item-new-login-title = Zonte password
+login-item-edit-button = Modifiche
+about-logins-login-item-remove-button = Gjave
+login-item-origin-label = Direzion sît web
+about-logins-origin-tooltip2 = Inserìs la direzion complete e controle che e corispuindi in mût esat cun chê doprade pal acès.
+about-logins-edit-password-tooltip = Siguriti di salvâ la password atuâl par chest sît. La modifiche de password achì no cambiarà chê in { $webTitle }.
+about-logins-add-password-tooltip = Siguriti di salvâ la password atuâl par chest sît.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Non utent
+about-logins-login-item-username =
+    .placeholder = (nissun non utent)
+login-item-copy-username-button-text = Copie
+login-item-copied-username-button-text = Copiât!
+login-item-password-label = Password
+login-item-password-reveal-checkbox =
+    .aria-label = Mostre password
+login-item-password-conceal-checkbox =
+    .aria-label = Plate password
+login-item-copy-password-button-text = Copie
+login-item-copied-password-button-text = Copiât!
+about-logins-login-item-save-changes-button = Salve
+login-item-save-new-button = Salve
+login-item-cancel-button = Anule
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Creade
+login-item-timeline-action-updated = Inzornade
+login-item-timeline-action-used = Doprade
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] cambiâ lis impostazions pes passwords
+       *[other] { -brand-short-name } al sta cirint di modificâ lis impostazions pes passwords. Par permeti cheste operazion, conferme l’acès al dispositîf.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Par modificâ la password, inserìs lis credenziâls di acès a Windows. Chest al jude a garantî la sigurece dai tiei accounts.
+about-logins-edit-login-os-auth-dialog-message2-macosx = modificâ la password salvade
+about-logins-reveal-password-os-auth-dialog-message-win = Par visualizâ la tô password, inserìs lis tôs credenziâls di acès di Windows. Chest al jude a protezi la sigurece dai tiei accounts.
+about-logins-reveal-password-os-auth-dialog-message-macosx = palesâ la password salvade
+about-logins-copy-password-os-auth-dialog-message-win = Par copiâ la tô password, inserìs lis tôs credenziâls di acès di Windows. Chest al jude a protezi la sigurece dai tiei accounts.
+about-logins-copy-password-os-auth-dialog-message-macosx = copiâ la password salvade
+about-logins-export-password-os-auth-dialog-message2-win = Par espuartâ lis passwords, inserìs lis tôs credenziâls di acès a Windows. Chest al jude a garantî la sigurece dai tiei accounts.
+about-logins-export-password-os-auth-dialog-message2-macosx = espuartâ lis passwords salvadis
+about-logins-primary-password-notification-message = Par plasê inserìs la tô password principâl par visualizâ lis passwords e lis credenziâls salvadis
+master-password-reload-button =
+    .label = Jentre
+    .accesskey = J
+confirmation-dialog-cancel-button = Anule
+confirmation-dialog-dismiss-button =
+    .title = Anule
+about-logins-confirm-delete-dialog-title = Gjavâ la password?
+about-logins-confirm-delete-dialog-message = Nol sarà pussibil tornâ indaûr di cheste azion.
+about-logins-confirm-remove-dialog-confirm-button = Gjave
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Gjave
+        [one] Gjave
+       *[other] Gjave dutis
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Sì, gjave la password
+        [one] Sì, gjave la password
+       *[other] Sì, gjave lis passwords
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Gjavâ { $count } password?
+       *[other] Gjavâ dutis e { $count } lis passwords?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Cheste operazion e gjavarà la password salvade su { -brand-short-name } e ducj i avîs di violazions. Nol sarà pussibil tornâ indaûr di cheste azion.
+        [one] Cheste operazion e gjavarà la password salvade su { -brand-short-name } e ducj i avîs di violazions. Nol sarà pussibil tornâ indaûr di cheste azion.
+       *[other] Cheste operazion e gjavarà lis passwords salvadis su { -brand-short-name } e ducj i avîs di violazions. Nol sarà pussibil tornâ indaûr di cheste azion.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Gjavâ { $count } password su ducj i dispositîfs?
+       *[other] Gjavâ dutis e { $count } lis passwords su ducj i dispositîfs?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Cheste operazion e gjavarà la password salvade in { -brand-short-name } su ducj i dispositîfs sincronizâts. A vignaran gjavâts ancje ducj i avîs di violazions che a vegnin fûr achì. Nol sarà pussibil tornâ indaûr di cheste azion.
+        [one] Cheste operazion e gjavarà la password salvade in { -brand-short-name } su ducj i dispositîfs sincronizâts. A vignaran gjavâts ancje ducj i avîs di violazions che a vegnin fûr achì. Nol sarà pussibil tornâ indaûr di cheste azion.
+       *[other] Cheste operazion e gjavarà dutis lis passwords salvadis in { -brand-short-name } su ducj i dispositîfs sincronizâts. A vignaran gjavâts ancje ducj i avîs di violazions che a vegnin fûr achì. Nol sarà pussibil tornâ indaûr di cheste azion.
+    }
+about-logins-confirm-export-dialog-title2 = Une note relative ae esportazion di passwords
+about-logins-confirm-export-dialog-message2 =
+    Il procès di esportazion al salve lis passwords suntun file cun test che si rive a lei.
+    Ti conseìn di eliminâ il file dopo che tu lu âs doprât, in mût di impedî a altris personis, che a doprin chest dispositîf, di viodi lis tôs passwords.
+about-logins-confirm-export-dialog-confirm-button2 = Continue cu la esportazion
+about-logins-alert-import-message = Viôt la sintesi detaiade de importazion
+confirm-discard-changes-dialog-title = Scartâ lis modifichis no salvadis?
+confirm-discard-changes-dialog-message = Dutis lis modifichis che no son stadis salvadis a laran pierdudis.
+confirm-discard-changes-dialog-confirm-button = Scarte
+about-logins-breach-alert-title = Violazion dal sît web
+breach-alert-text = Dal ultin inzornament dai tiei detais di acès, lis passwords di chest sît web a son stadis pandudis o freadis. Cambie la tô password par protezi il to account.
+about-logins-breach-alert-date = Cheste violazion e je capitade ai { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Va su { $hostname }
+about-logins-vulnerable-alert-title = Password vulnerabile
+about-logins-vulnerable-alert-text2 = Cheste password e je stade doprade suntun altri account che cun probabilitât al è stât cjapât dentri intune violazion di dâts. Tornâ a doprâ lis credenziâls al met a risi ducj i tiei accounts. Cambie cheste password.
+about-logins-vulnerable-alert-link = Va su { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Plui informazions
+about-logins-error-message-duplicate-login-with-link = E esist za une vôs par { $loginTitle } cun chel non utent. <a data-l10n-name="duplicate-link">Lâ ae vôs esistente?</a>
+about-logins-error-message-default = Al è capitât un erôr intant che si cirive di salvâ cheste password.
+about-logins-export-file-picker-title2 = Espuarte passwords di { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = passwords.csv
+about-logins-export-file-picker-export-button = Espuarte
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV
+       *[other] File CSV
+    }
+about-logins-import-file-picker-title2 = Impuarte passwords su { -brand-short-name }
+about-logins-import-file-picker-import-button = Impuarte
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV
+       *[other] File CSV
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Document TSV
+       *[other] File TSV
+    }
+about-logins-import-dialog-title = Importazion completade
+about-logins-import-dialog-items-added2 =
+    { $count ->
+        [one] <span>Gnovis passwords zontadis:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Gnovis passwords zontadis:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+        [one] <span>Elements inzornâts:</span> <span data-l10n-name="count">{ $count }</span>
+       *[other] <span>Elements inzornâts:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+        [one] <span>Elements doplis:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(no impuartât)</span>
+       *[other] <span>Elements doplis:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(no impuartâts)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>Erôrs:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(no impuartadis)</span>
+    }
+about-logins-import-dialog-done = Fat
+about-logins-import-dialog-error-title = Erôr di importazion
+about-logins-import-dialog-error-conflicting-values-title = Plui valôrs in conflit par une credenziâl
+about-logins-import-dialog-error-conflicting-values-description = Par esempli: multiplis nons utents, passwords, URLs e v. i. par une sole credenziâl.
+about-logins-import-dialog-error-file-format-title = Probleme di formât file
+about-logins-import-dialog-error-file-format-description = A mancjin, o no son justis, lis Intestazions di colone. Siguriti che il file al includi lis colonis pal non utent, pe password e pal URL.
+about-logins-import-dialog-error-file-permission-title = Impussibil lei il file
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } nol à il permès par lei il file. Prove a cambiâ i permès dal file.
+about-logins-import-dialog-error-unable-to-read-title = Impussibil analizâ il file
+about-logins-import-dialog-error-unable-to-read-description = Siguriti di selezionâ un file CSV o TSV.
+about-logins-import-dialog-error-no-logins-imported = No je stade impuartade nissune credenziâl
+about-logins-import-dialog-error-learn-more = Plui informazions
+about-logins-import-dialog-error-try-import-again = Prove torne a impuartâ…
+about-logins-import-dialog-error-cancel = Anule
+about-logins-import-report-title = Sintesi di importazion
+about-logins-import-report-description2 = Passwords impuartadis su { -brand-short-name }.
+about-logins-import-report-row-index = Rie { $number }
+about-logins-import-report-row-description-no-change2 = Doplis: corispondence esate di un element esistent
+about-logins-import-report-row-description-modified2 = Element esistent inzornât
+about-logins-import-report-row-description-added2 = Gnove password zontade
+about-logins-import-report-row-description-error = Erôr: al mancje un cjamp
+about-logins-import-report-row-description-error-multiple-values = Erôr: plui valôrs par { $field }
+about-logins-import-report-row-description-error-missing-field = Erôr: al mancje { $field }
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">gnove password zontade</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">gnovis passwords zontadis</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">element esistent inzornât</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elements esistents inzornats</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">element dopli</div> <div data-l10n-name="not-imported">(no impuartât)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">elements doplis</div> <div data-l10n-name="not-imported">(no impuartâts)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">erôr</div> <div data-l10n-name="not-imported">(no impuartât)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">erôrs</div> <div data-l10n-name="not-imported">(no impuartâts)</div>
+    }
+about-logins-import-report-page-title = Impuarte rapuart di sintesi

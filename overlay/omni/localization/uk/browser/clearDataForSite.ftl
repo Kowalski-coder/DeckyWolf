@@ -1,0 +1,9 @@
+clear-data-for-site-title = Стерти всі дані для цього вебсайту?
+clear-data-for-site-list = Ця дія зітре всі дані для { $site }, зокрема:
+clear-data-for-site-browsing-history = Історію переглядів та завантажень
+clear-data-for-site-cookies = Файли cookie та дані сайту, що може призвести до виходу з облікового запису
+clear-data-for-site-cache = Кешовані файли та сторінки
+cclear-data-for-site-permissions = Дозволи й налаштування
+clear-data-for-site-exceptions = Закладки та збережені паролі не будуть видалені
+clear-data-for-site-dialog-accept-button = Стерти дані
+clear-data-for-site-dialog-cancel-button = Скасувати

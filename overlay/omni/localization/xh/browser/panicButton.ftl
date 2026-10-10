@@ -1,0 +1,15 @@
+panic-button-open-new-window = Vula iFestile ecocekileyo entsha
+panic-button-undo-warning = Eli nyathelo alinakujikwa.
+panic-button-forget-button =
+    .label = Libala!
+panic-main-timeframe-desc = Libala okokugqibela:
+panic-button-5min =
+    .label = Imizuzu emihlanu
+panic-button-2hr =
+    .label = Iiyure ezimbini
+panic-button-day =
+    .label = Iiyure ezi-24
+panic-button-action-desc = Ukuqhubeleka kuya:
+panic-button-delete-cookies = Cima okutsha nje <strong>Amaqebengwana</strong>
+panic-button-delete-history = Cima okutsha nje <strong>Imbali</strong>
+panic-button-delete-tabs-and-windows = Vala konke <strong>Iithebhu</strong> kunye <strong>I-Windows</strong>

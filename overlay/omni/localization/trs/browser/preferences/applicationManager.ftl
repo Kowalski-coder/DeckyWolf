@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = daj hua aplikasiôn
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Guxūn
+    .accesskey = R
+app-manager-handle-protocol = Nej aplikasion 'na na nī ga'ue garasunt 'ngà { $type }.
+app-manager-handle-file = Nej aplikasion 'na na nī ga'ue garasunt da' gi'iaj sunt 'ngà { $type }.
+app-manager-web-app-info = Aplikasion web na nī riña na nu ma:
+app-manager-local-app-info = Aplikasion na nu ñuna:

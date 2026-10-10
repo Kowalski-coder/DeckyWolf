@@ -1,0 +1,26 @@
+restore-page-tab-title = Відновити сеанс
+restore-page-error-title = Вибачте. Нам не вдається відновити ваші сторінки.
+restore-page-problem-desc = Нам не вдається відновити ваш останній сеанс перегляду. Оберіть "Відновити сеанс", щоб спробувати знову.
+restore-page-try-this = Досі не вдається відновити сеанс? Інколи причиною є одна вкладка. Перегляньте попередні вкладки, приберіть позначки з тих, що вам не потрібні, і спробуйте відновити ще раз.
+restore-page-hide-tabs = Сховати попередні вкладки
+restore-page-show-tabs = Показати попередні вкладки
+restore-page-window-label = Вікно { $windowNumber }
+restore-page-restore-header =
+    .label = Відновити
+restore-page-list-header =
+    .label = Вікна та вкладки
+restore-page-try-again-button =
+    .label = Відновити сеанс
+    .accesskey = В
+restore-page-close-button =
+    .label = Почати новий сеанс
+    .accesskey = н
+welcome-back-tab-title = Готово!
+welcome-back-page-title = Готово!
+welcome-back-page-info = { -brand-short-name } готовий до роботи.
+welcome-back-restore-button =
+    .label = Вперед!
+    .accesskey = В
+welcome-back-restore-all-label = Відновити всі вікна і вкладки
+welcome-back-restore-some-label = Відновити лише деякі
+welcome-back-page-info-link = Ваші додатки було вилучено, а налаштування браузера відновлено до типових значень. Якщо це не розв'язало вашу проблему, <a data-l10n-name="link-more">дізнайтесь більше, що можна зробити.</a>

@@ -1,0 +1,14 @@
+default-bookmarks-title = Zapołožki
+default-bookmarks-heading = Zapołožki
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Pomoc wobstarać
+default-bookmarks-firefox-customize = Firefox přiměrić
+default-bookmarks-firefox-community = Čińće sobu
+default-bookmarks-firefox-about = Wo nas
+default-bookmarks-nightly-heading = Resursy Firefox Nightly
+default-bookmarks-nightly-blog = Blog Firefox Nightly
+default-bookmarks-bugzilla = Slědowanje zmylkow Mozilla
+default-bookmarks-mdn = Syć wuwiwarjow Mozilla
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = Wšě waše spady
+default-bookmarks-planet = Planet Mozilla

@@ -1,0 +1,14 @@
+default-bookmarks-title = Järjehoidjad
+default-bookmarks-heading = Järjehoidjad
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Hangi abi
+default-bookmarks-firefox-customize = Firefoxi kohandamine
+default-bookmarks-firefox-community = Aita kaasa
+default-bookmarks-firefox-about = Meist
+default-bookmarks-nightly-heading = Firefox Nightly ressursid
+default-bookmarks-nightly-blog = Firefox Nightly blogi
+default-bookmarks-bugzilla = Mozilla veahalduskeskkond
+default-bookmarks-mdn = Mozilla arendajate võrgustik
+default-bookmarks-nightly-tester-tools = Nightly testija tööriistad
+default-bookmarks-crashes = Sinu vearaportid
+default-bookmarks-planet = Planet Mozilla

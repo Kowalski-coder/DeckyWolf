@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = פרטי יישום
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = הסרה
+    .accesskey = ה
+app-manager-handle-protocol = היישומים הבאים יכולים לטפל בקישורי { $type }.
+app-manager-handle-file = היישומים הבאים יכולים לטפל בתוכן { $type }.
+app-manager-web-app-info = שרת מארח של יישום רשת זה:
+app-manager-local-app-info = מיקום יישום זה:

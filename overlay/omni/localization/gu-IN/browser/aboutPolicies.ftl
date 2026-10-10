@@ -1,0 +1,15 @@
+about-policies-title = સંગઠન નીતિ
+active-policies-tab = સક્રિય
+errors-tab = ભૂલો
+documentation-tab = દસ્તાવેજીકરણ
+active-policies-tab-title =
+    .title = સક્રિય
+errors-tab-title =
+    .title = ભૂલો
+documentation-tab-title =
+    .title = દસ્તાવેજીકરણ
+no-specified-policies-message = એન્ટરપ્રાઇઝ નીતિઓની સેવા સક્રિય છે પરંતુ કોઈ નીતિઓ સક્ષમ નથી.
+inactive-message = એન્ટરપ્રાઇઝ નીતિઓ સેવા નિષ્ક્રિય છે.
+policy-name = નીતિનું નામ
+policy-value = નીતિ મૂલ્ય
+policy-errors = નીતિ ભૂલો

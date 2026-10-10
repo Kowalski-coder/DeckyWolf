@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Teksto at Background
+colors-text =
+    .label = Teksto
+    .accesskey = T
+colors-text-background =
+    .label = Background
+    .accesskey = B
+colors-links-header = Kulay ng Mga Link
+colors-links-unvisited =
+    .label = Hindi Nabisitang mga Link
+    .accesskey = L
+colors-links-visited =
+    .label = Nabisitang mga Link
+    .accesskey = V

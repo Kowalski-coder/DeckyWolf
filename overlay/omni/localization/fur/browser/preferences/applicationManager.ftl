@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detais de aplicazion
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Gjave
+    .accesskey = G
+app-manager-handle-protocol = Si pues doprâ chestis aplicazions par gjestî i colegaments { $type }.
+app-manager-handle-file = Si pues doprâ chestis aplicazions par gjestî il contignût { $type }.
+app-manager-web-app-info = Cheste aplicazion web e je ospitade su:
+app-manager-local-app-info = Cheste aplicazion si cjate in:

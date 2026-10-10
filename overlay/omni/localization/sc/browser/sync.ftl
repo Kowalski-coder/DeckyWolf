@@ -1,0 +1,50 @@
+fxa-toolbar-sync-syncing2 = Sincronizende…
+sync-disconnect-dialog-title2 = Ti boles disconnètere?
+sync-disconnect-dialog-body = { -brand-product-name } at a firmare sa sincronizatzione de su contu tuo ma non s'ant a cantzellare is datos de navigatzione de custu dispositivu.
+sync-disconnect-dialog-button = Disconnete
+fxa-signout-dialog-title2 = Boles serrare sa sessione?
+fxa-signout-dialog-body = Is datos sincronizados ant a abarrare in su contu tuo.
+fxa-signout-dialog2-button = Serra sa sessione
+fxa-signout-dialog2-checkbox = Cantzella is datos de custu dispositivu (craes, cronologia, sinnalibros, etc.)
+fxa-menu-sync-settings =
+    .label = Cunfiguratzione de sincronizatzione
+fxa-menu-turn-on-sync =
+    .value = Ativa sa sincronizatzione
+fxa-menu-turn-on-sync-default = Ativa sa sincronizatzione
+fxa-menu-connect-another-device =
+    .label = Connete un'àteru dispositivu…
+fxa-menu-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] Imbia a unu dispositivu
+            [one] Imbia s’ischeda a unu dispositivu
+           *[other] Imbia { $tabCount } ischedas a unu dispositivu
+        }
+fxviewtabrow-send-to-mobile-not-verified = Contu non verificadu
+fxviewtabrow-send-to-mobile-verify-account = Verìfica su contu tuo
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = Sincronizende dispositivos…
+fxa-menu-send-tab-to-device-description = Imbia deretu un'ischeda a cale si siat dispositivu connètidu a su contu tuo.
+fxa-menu-sign-out =
+    .label = Serra sa sessione…
+fxa-menu-sync-description = Atzede a su web dae ònnia logu
+fxa-menu-manage-account-subtitle = Gesti su contu
+fxa-avatar-sign-in = Identìfica·ti
+fxa-avatar-sign-up = Registra·ti
+fxa-avatar-tooltip =
+    .tooltiptext = Intra in su contu tuo
+sync-setup-verify-continue = Sighi
+sync-setup-verify-title = Avisu de unione
+sync-setup-verify-heading = Boles sighire cun s’atzessu pro sa sincronizatzione?
+sync-setup-verify-description = Un'àteru utente s’est giai identificadu in custu elaboradore pro fàghere sa sincronizatzione. Si t’identìficas, is sinnalibros, is craes e is àteras cunfiguratziones de custu navigadore s'ant a unire cun cussas de { $email }
+sync-profile-different-account-title = Màssimu de contos barigadu pro custu profilu
+sync-profile-different-account-header = Custu profilu est istadu sincronizadu in passadu cun un’àteru contu
+sync-profile-different-account-title-merge = Profilu sincronizadu cun un’àteru contu
+sync-account-in-use-header = Contu giai impreadu
+sync-account-in-use-header-merge = S’indiritzu { $acctEmail } est giai identificadu a su profilu “{ $otherProfile }”
+sync-account-in-use-description = Non podes assotziare custu contu a prus de unu profilu de custu elaboradore.
+sync-account-already-signed-in-header = Custu contu est giai identificadu in un’àteru profilu. Boles sincronizare ambos profilos?
+sync-button-switch-profile = Passa a “{ $profileName }”
+sync-button-create-profile = Crea unu profilu nou
+sync-button-sync-and-merge = Sincroniza e uni is datos
+sync-button-sync-profile = Sincroniza “{ $profileName }”

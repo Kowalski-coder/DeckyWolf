@@ -1,0 +1,30 @@
+about-unloads-page-title = ჩანართის განტვირთვა
+about-unloads-intro =
+    { -brand-short-name } ამ ახალი შესაძლებლობით თავადვე განტვირთავს ჩანართებს
+    პროგრამის უეცარი გათიშვის ასარიდებლად, როცა არასაკმარისი მეხსიერების
+    გამო ოპერატიული მეტად დაიტვირთება. განსატვირთი ჩანართი შეირჩევა
+    სხვადასხვა მახასიათებლით. ამ გვერდზე ნაჩვენებია, რა უპირატესობით
+    ალაგებს { -brand-short-name } ჩანართებს და რომელი მათგანი განიტვირთება
+    საჭიროების დადგომისას. ხელითაც შეგიძლიათ დააჭიროთ <em>განტვირთვის</em> ღილაკს.
+about-unloads-learn-more =
+    იხილეთ <a data-l10n-name="doc-link">ჩანართის განტვირთვის</a> შესახებ, რომ
+    ვრცლად გაეცნოთ ამ შესაძლებლობას.
+about-unloads-last-updated = ბოლოს განახლებული: { DATETIME($date, day: "numeric", hour: "numeric", hour12: "false", minute: "numeric", month: "numeric", second: "numeric", year: "numeric") }
+about-unloads-button-unload = განტვირთვა
+    .title = განსატვირთი ჩანართი, მაღალი უპირატესობით
+about-unloads-no-unloadable-tab = განსატვირთი ჩანართები არაა.
+about-unloads-column-priority = უპირატესობა
+about-unloads-column-host = მისამართი
+about-unloads-column-last-accessed = ბოლო წვდომა
+about-unloads-column-weight = ძირეული წონა
+    .title = თავიდან, ჩანართები ლაგდება ამ მნიშვნელობით, რომელსაც განსაზღვრავს გაშვებული ხმოვანი ფაილი, WebRTC და სხვ.
+about-unloads-column-sortweight = მეორეული წონა
+    .title = როცა შესაძლებელია, ჩანართები ლაგდება ამ მნიშვნელობით ძირეული წონით დალაგების შემდგომ. გამოითვლება გამოყენებული მეხსიერებისა და პროცესების მიხედვით.
+about-unloads-column-memory = მეხსიერება
+    .title = გამოყენებული მეხსიერება მიახლოებით
+about-unloads-column-processes = პროცესის ID
+    .title = საცნობი იმ პროცესისა, რომლითაც მუშავდება შიგთავსი
+about-unloads-last-accessed = { DATETIME($date, day: "numeric", hour: "numeric", hour12: "false", minute: "numeric", month: "numeric", second: "numeric", year: "numeric") }
+about-unloads-memory-in-mb = { NUMBER($mem, maxFractionalUnits: 2) } ᲛᲑ
+about-unloads-memory-in-mb-tooltip =
+    .title = { NUMBER($mem, maxFractionalUnits: 2) } ᲛᲑ

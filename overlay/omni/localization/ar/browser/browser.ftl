@@ -1,0 +1,906 @@
+browser-main-window-default-title = { -brand-full-name }
+browser-main-private-window-title =
+    { PLATFORM() ->
+        [macos] { -brand-full-name } — التصفح الخاص
+       *[other] { -brand-full-name } التصفح الخاص
+    }
+browser-main-private-suffix-for-content = التصفح الخاص
+private-browsing-shortcut-text-2 = { -brand-shortcut-name } التصفح الخفي
+browser-shortcut-description = تصفح الوِب بسرعة وخصوصية
+urlbar-services-notification-anchor =
+    .tooltiptext = افتح لوحة رسائل التثبيت
+urlbar-web-notification-anchor =
+    .tooltiptext = غيّر ما إذا ما كنت تسمح باستلام إشعارات من الموقع
+urlbar-midi-notification-anchor =
+    .tooltiptext = افتح لوحة MIDI
+urlbar-serial-notification-anchor =
+    .tooltiptext = افتح لوحة التسلسل
+urlbar-eme-notification-anchor =
+    .tooltiptext = أدِر استخدام برمجيات إدارة الحقوق الرقمية
+urlbar-web-authn-anchor =
+    .tooltiptext = افتح لوحة استيثاق الوِب
+urlbar-canvas-notification-anchor =
+    .tooltiptext = أدِر تصاريح استخراج ألواح الرسم
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = أدر مشاركة ميكروفونك مع هذا الموقع
+urlbar-default-notification-anchor =
+    .tooltiptext = افتح لوحة الرسائل
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = افتح لوحة طلب المكان
+urlbar-localhost-notification-anchor =
+    .tooltiptext = أدر وصول الجهاز المحلي لهذا الموقع
+urlbar-local-network-notification-anchor =
+    .tooltiptext = أدر مشاركة الوصول إلى الشبكة المحلية مع هذا الموقع
+urlbar-xr-notification-anchor =
+    .tooltiptext = افتح لوحة تصاريح الواقع الافتراضي
+urlbar-storage-access-anchor =
+    .tooltiptext = افتح لوحة تصاريح نشاط التصفّح
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = أدر مشاركة نوافذك أو شاشتك مع هذا الموقع
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = افتح لوحة رسائل مساحة التخزين دون اتصال
+urlbar-password-notification-anchor =
+    .tooltiptext = افتح لوحة رسائل حفظ كلمة السر
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = أدر مشاركة كمرتك و ميكروفونك مع هذا الموقع
+urlbar-web-rtc-share-speaker-notification-anchor =
+    .tooltiptext = أدِر مشاركة السماعات الأخرى مع هذا الموقع
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = افتح لوحة التشغيل التلقائي
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = حفظ البيانات في مساحة تخزين دائمة
+urlbar-addons-notification-anchor =
+    .tooltiptext = افتح لوحة رسائل تثبيت الإضافات
+urlbar-search-tips-confirm = حسنًا، فهمت
+urlbar-search-tips-confirm-short = فهمت
+urlbar-result-menu-button =
+    .title = افتح القائمة
+urlbar-result-menu-button-feedback = الانطباع
+    .title = افتح القائمة
+urlbar-result-menu-learn-more2 = اطّلع على المزيد
+    .accesskey = ط
+urlbar-result-menu-remove-from-history2 = احذف من التأريخ
+    .accesskey = خ
+urlbar-result-menu-tip-get-help2 = احصل على مساعدة
+    .accesskey = ص
+urlbar-result-menu-dismiss-suggestion2 = أهمل هذا الاقتراح
+    .accesskey = م
+urlbar-result-menu-manage-firefox-suggest2 = أدر { -firefox-suggest-brand-name }
+    .accesskey = د
+urlbar-result-menu-report-inaccurate-location2 = بلّغ عن موقع غير دقيق
+urlbar-result-menu-show-less-frequently2 = اعرض أقل تواترا
+urlbar-result-menu-dont-show-weather-suggestions2 = لا تعرض اقتراحات الطقس
+urlbar-splitbutton-dropmarker =
+    .title = افتح القائمة
+urlbar-feedback-acknowledgment = شكرًا على تعليقك
+urlbar-dismissal-acknowledgment-weather = شكرًا على تعليقك. لن ترى اقتراحات الطقس بعد الآن.
+urlbar-search-tips-onboard = اكتب بحروف أقل، و جِد نتائج أكثر: ابحث مستخدمًا { $engineName } مباشرة من شريط العنوان.
+urlbar-search-tips-redirect-2 = ابدأ البحث من شريط العنوان لترى الاقتراحات من { $engineName } و من تأريخ التصفح.
+urlbar-tabtosearch-onboard = اختر هذا الاختصار لتجد ما تريد بسرعة أكبر.
+urlbar-search-mode-bookmarks = العلامات
+urlbar-search-mode-tabs = الألسنة
+urlbar-search-mode-history = التأريخ
+urlbar-search-mode-actions = الإجراءات
+urlbar-geolocation-blocked =
+    .tooltiptext = لقد حجبت معلومات مكانك عن هذا الموقع.
+urlbar-localhost-blocked =
+    .tooltiptext = لقد حجبت اتصالات الجهاز المحلي لهذا الموقع.
+urlbar-local-network-blocked =
+    .tooltiptext = لقد حجبت اتصالات الشبكة المحلية لهذا الموقع.
+urlbar-xr-blocked =
+    .tooltiptext = لقد حجبت الوصول إلى جهاز الواقع الافتراضي عن هذا الموقع.
+urlbar-web-notifications-blocked =
+    .tooltiptext = لقد حجبت الإشعارات عن هذا الموقع.
+urlbar-camera-blocked =
+    .tooltiptext = لقد حجبت كمرتك عن هذا الموقع.
+urlbar-microphone-blocked =
+    .tooltiptext = لقد حجبت ميكروفونك عن هذا الموقع.
+urlbar-screen-blocked =
+    .tooltiptext = لقد حجبت هذا الموقع من مشاركة شاشتك.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = لقد حجبت الحفظ الدائم للبيانات عن هذا الموقع.
+urlbar-popup-blocked2 =
+    .tooltiptext = لقد حظرت النوافذ المنبثقة وعمليات إعادة التوجيه من جهات خارجية لهذا الموقع الإلكتروني.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = لقد حجبت تشغيل الوسائط التي تحتوي صوتا تلقائيا في هذا الموقع.
+urlbar-canvas-blocked =
+    .tooltiptext = لقد منعت استخراج بيانات رقعة الرسم في هذا الموقع.
+urlbar-midi-blocked =
+    .tooltiptext = لقد حجبنا عن هذا الموقع الوصول إلى MIDI.
+urlbar-serial-blocked =
+    .tooltiptext = لقد حجبت الوصول إلى منفذ التسلسل لهذا الموقع.
+urlbar-install-blocked =
+    .tooltiptext = حجبت تثبيت الإضافات في هذا الموقع.
+urlbar-star-edit-bookmark =
+    .tooltiptext = حرّر هذه العلامة ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = علّم هذه الصفحة ({ $shortcut })
+urlbar-split-view-button =
+    .aria-label = عرض منقسم
+    .tooltiptext = عرض منقسم
+clear-search-history =
+    .label = امسح تأريخ البحث
+    .accesskey = م
+page-action-manage-extension2 =
+    .label = أدِر الامتدادات…
+    .accesskey = د
+page-action-remove-extension2 =
+    .label = أزِل الامتداد
+    .accesskey = ز
+full-screen-autohide =
+    .label = أخفِ شريط الأدوات
+    .accesskey = خ
+full-screen-exit =
+    .label = اخرج من وضع ملء الشاشة
+    .accesskey = و
+search-one-offs-with-title = ابحث هذه المرة بـ:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = غيّر إعدادات البحث
+search-one-offs-context-open-new-tab =
+    .label = ابحث في لسان جديد
+    .accesskey = س
+search-one-offs-context-set-as-default =
+    .label = اجعله محرك البحث الافتراضي
+    .accesskey = ف
+search-one-offs-context-set-as-default-private =
+    .label = اضبطه ليكون محرّك البحث المبدئي في النوافذ الخاصة
+    .accesskey = ن
+search-one-offs-engine-with-alias =
+    .tooltiptext = ‏{ $engineName } ‏({ $alias })
+search-one-offs-add-engine =
+    .aria-label = أضِف محرك البحث ”{ $engineName }“
+    .label = أضِف ”{ $engineName }“
+    .tooltiptext = أضِف محرك البحث ”{ $engineName }“
+search-one-offs-add-engine-menu =
+    .label = أضف محرك بحث
+search-one-offs-bookmarks =
+    .tooltiptext = العلامات ({ $restrict })
+search-one-offs-tabs =
+    .tooltiptext = الألسنة ({ $restrict })
+search-one-offs-history =
+    .tooltiptext = التأريخ ({ $restrict })
+search-one-offs-actions =
+    .tooltiptext = الإجراءات ({ $restrict })
+quickactions-addons = اعرض الإضافات
+quickactions-cmd-addons3 = الإضافات, اﻹمتدادات, إمتداد, extensions, themes, addons, add-ons
+quickactions-manageai = أدِر عناصر التحكم في الذكاء الاصطناعي
+quickactions-cmd-manageai = عطّل الذكاء الاصطناعي أو أوقِف تشغيل الذكاء الاصطناعي أو أدِر الذكاء الاصطناعي
+quickactions-bookmarks2 = أدِر العلامات
+quickactions-cmd-bookmarks = العلامات
+quickactions-clearrecenthistory = امسح التأريخ الحالي
+quickactions-cmd-clearrecenthistory2 = ملفات تعريف الارتباط، مسح ملفات تعريف الارتباط، ذاكرة التخزين المؤقت، مسح ذاكرة التخزين المؤقت، بيانات التصفح، مسح بيانات التصفح، تأريخ التصفح، مسح سجل التصفح الأخير
+quickactions-downloads2 = اعرض التنزيلات
+quickactions-cmd-downloads = التنزيلات
+quickactions-extensions = أدِر الامتدادات
+quickactions-cmd-extensions2 = امتدادات, ملحقات, إضافات
+quickactions-firefoxview = افتح { -firefoxview-brand-name }
+quickactions-cmd-firefoxview = افتح { -firefoxview-brand-name }، { -firefoxview-brand-name }، افتح العرض، عرض
+quickactions-help = مساعدة { -brand-product-name }
+quickactions-cmd-help = المساعدة والدعم
+quickactions-inspector2 = افتح أدوات المطورين
+quickactions-cmd-inspector2 = المفتش, أدوات التطوير, أدوات التطوير, inspector, devtools, dev tools
+quickactions-colorpicker = اختر لونًا
+quickactions-cmd-colorpicker = منتقي الألوان، قطارة الألوان، اختر لونًا
+quickactions-cmd-library = المكتبة
+quickactions-library = افتح المكتبة
+quickactions-logins2 = أدِر كلمات السر
+quickactions-cmd-logins = جلسات الولوج، كلمات السر
+quickactions-mute = اكتم صوت الألسنة التي تشغل الصوت
+quickactions-cmd-mute = اكتم, كتم الصوت, ششش, سكوت
+quickactions-print2 = اطبع الصفحة
+quickactions-cmd-print = اطبع
+quickactions-savepdf = احفظ الصفحة بصيغة PDF
+quickactions-cmd-savepdf2 = pdf, احفظ الصفحة, save page
+quickactions-editpdf = افتح محرِّر PDF
+quickactions-cmd-editpdf = pdf
+quickactions-private2 = افتح نافذة خاصة
+quickactions-cmd-private = التصفّح الخاص
+quickactions-refresh = أعد تحميل { -brand-short-name }
+quickactions-cmd-refresh = حدّث
+quickactions-restart = أعِد تشغيل { -brand-short-name }
+quickactions-cmd-restart = أعِد التشغيل
+quickactions-screenshot3 = خذ لقطة شاشة
+quickactions-cmd-screenshot2 = لقطة الشاشة, خذ لقطة شاشة, screenshot, take a screenshot
+quickactions-translate = ترجم
+quickactions-cmd-translate = ترجم
+quickactions-settings2 = أدِر الإعدادات
+quickactions-cmd-settings2 = الإعدادات, التفضيلات, الخيارات, الإدارة, settings, preferences, options, manage
+quickactions-themes = أدِر السمات
+quickactions-cmd-themes2 = سمات, ملحقات, إضافات
+quickactions-update = حدِّث { -brand-short-name }
+quickactions-cmd-update = حدّث
+quickactions-viewsource2 = اعرض مصدر هذه الصفحة
+quickactions-cmd-viewsource2 = عرض المصدر, المصدر, مصدر الصفحة, view source, source, page source
+quickactions-labs = افتح { -firefoxlabs-brand-name }
+quickactions-cmd-labs = المختبرات، التجارب
+quickactions-learn-more =
+    .title = تعرف على المزيد حول الإجراءات السريعة
+press-tab-label = اضغط على tab لتحديد:
+bookmarks-add-bookmark = أضِف علامة
+bookmarks-edit-bookmark = حرّر العلامة
+bookmark-panel-cancel =
+    .label = ألغِ
+    .accesskey = ل
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [zero] لا تزل أي علامات
+            [one] أزِل العلامة
+            [two] أزِل العلامتان
+            [few] أزِل { $count } علامات
+            [many] أزِل { $count } علامة
+           *[other] أزل { $count } علامة
+        }
+    .accesskey = ع
+bookmark-panel-show-editor-checkbox =
+    .label = اعرض المحرر عند الحفظ
+    .accesskey = ظ
+bookmark-panel-save-button =
+    .label = احفظ
+bookmark-panel =
+    .style = min-width: 23em
+identity-site-information = معلومات الموقع { $host }
+identity-header-security-with-host =
+    .title = أمن اتصال { $host }
+identity-connection-not-secure = الاتصال غير آمن
+identity-connection-secure = الاتصال آمن
+identity-connection-failure = فشل الاتصال
+identity-connection-internal = هذه صفحة { -brand-short-name } آمنة.
+identity-connection-file = هذه الصفحة مخزنة على حاسوبك.
+identity-connection-associated = حمِّلت هذه الصفحة من صفحة أخرى.
+identity-extension-page = حمِّلت هذه الصفحة من امتداد.
+identity-active-blocked = حجب { -brand-short-name } الأجزاء غير الآمنة في هذه الصفحة.
+identity-custom-root = تحققَ من هذا الاتصال مُصْدِر شهادات لا تعرفه Mozilla.
+identity-passive-loaded = بعض أجزاء هذه الصفحة غير آمنة (مثل الصور).
+identity-active-loaded = لقد أوقفت الحماية على هذه الصفحة.
+identity-weak-encryption = تستخدم هذه الصفحة تعمية ضعيفة.
+identity-https-only-connection-upgraded = (ترقّى إلى HTTPS)
+identity-https-only-label2 = ترقية هذا الموقع تلقائيًا إلى اتصال آمن
+identity-https-only-dropdown-on =
+    .label = مفعّل
+identity-https-only-dropdown-off =
+    .label = معطّل
+identity-https-only-dropdown-off-temporarily =
+    .label = معطّل مؤقتًا
+identity-https-only-info-turn-on3 = فعل ترقية HTTPS لهذا الموقع إذا كنت تريد { -brand-short-name } ترقية الاتصال إن أمكن.
+identity-https-only-info-turn-off3 = إن شككت أن الصفحة مُعطلة، فقد تحتاج إلى إيقاف تشغيل ترقيات HTTPS لهذا الموقع لإعادة التحميل باستخدام HTTP الغير آمن.
+identity-https-only-info-no-upgrade = تعذرت ترقية الاتصال من HTTP.
+identity-permissions-storage-access-header = الكعكات بين المواقع
+identity-permissions-storage-access-hint = يمكن لهذه الأطراف استعمال الكعكات وبيانات المواقع المشتركة أثناء وجودك في هذا الموقع.
+identity-permissions-storage-access-learn-more = اطّلع على المزيد
+identity-permissions-reload-hint = قد تحتاج إعادة تحميل الصفحة لتطبيق التغييرات.
+identity-clear-site-data =
+    .label = امسح الكعكات و بيانات المواقع…
+identity-connection-not-secure-security-view = لست متصلاً مع هذا الموقع بأمان.
+identity-connection-verified = أنت متصل مع هذا الموقع بأمان.
+identity-ev-owner-label2 = أُصدرت الشّهادة إلى
+identity-verifier-label2 = تحققَ منها
+identity-etsi = مؤهل وفقًا لما هو محدد في اللائحة (الاتحاد الأوروبي) 2024/1183.
+identity-description-custom-root2 = لم تتعرّف Mozilla على مُصْدِر الشهادات هذا. لربّما أضافه نظام التشغيل أو أحد المدراء.
+identity-cert-exception-overridden = لقد أضفت استثناء آمن لهذا الموقع.
+identity-remove-cert-exception =
+    .label = أزِل الاستثناء
+    .accesskey = س
+identity-description-insecure = اتصالك بهذا الموقع ليس خاصًّا. يمكن للآخرين مطالعة المعلومات التي ترسلها (مثل كلمات السر، و الرسائل، و بطاقات الائتمان و غيرها).
+identity-description-weak-cipher-intro = اتصالك بهذا الموقع يستخدم تعمية ضعيفة وليس خاصًّا أيضًا.
+identity-description-weak-cipher-risk = يمكن للآخرين الاطلاع على معلوماتك أو تغيير سلوك الموقع.
+identity-description-active-blocked2 = حجب { -brand-short-name } الأجزاء غير الآمنة في هذه الصفحة.
+identity-description-passive-loaded = اتصالك ليس خاصًا و يمكن للآخرين مطالعة المعلومات التي تشاركها مع الموقع.
+identity-description-passive-loaded-insecure2 = يحوي هذا الموقع محتوى غير آمن (مثل الصور).
+identity-description-passive-loaded-mixed2 = مع أنّ { -brand-short-name } حجب بعض المحتويات، إلا أن هناك أخرى غير آمنة ما زالت في الصفحة (مثل الصور).
+identity-description-active-loaded = يحوي هذا الموقع محتوى غير آمن (مثل السكربتات) و اتصالك به ليس خاصا.
+identity-description-active-loaded-insecure = يمكن للآخرين مطالعة المعلومات التي تشاركها مع الموقع (مثل كلمات السر، و الرسائل، و بطاقات الائتمان و غيرها).
+identity-more-info-link-text =
+    .label = المزيد من المعلومات
+browser-window-minimize-button =
+    .tooltiptext = صغّر
+browser-window-maximize-button =
+    .tooltiptext = كبِّر
+browser-window-restore-down-button =
+    .tooltiptext = أنزِله
+browser-window-close-button =
+    .tooltiptext = أغلِق
+browser-window-return-to-opener =
+    .tooltiptext = ارجع
+browser-import-button2 =
+    .label = استورِد العلامات…
+    .tooltiptext = استورِد العلامات من متصفّح آخر إلى { -brand-short-name }.
+bookmarks-toolbar-empty-message = ضَع علاماتك هنا في شريط العلامات لتصل إليها بسرعة. <a data-l10n-name="manage-bookmarks">أدِر العلامات…</a>
+popup-select-camera-device =
+    .value = الكمرة:
+    .accesskey = ك
+popup-select-camera-icon =
+    .tooltiptext = الكمرة
+popup-select-microphone-device =
+    .value = الميكروفون
+    .accesskey = م
+popup-select-microphone-icon =
+    .tooltiptext = الميكروفون
+popup-select-speaker-icon =
+    .tooltiptext = السماعات
+popup-select-window-or-screen =
+    .label = النافذة أو الشاشة:
+    .accesskey = ن
+popup-all-windows-shared = ستُشارك كل النوافذ الظاهرة على شاشتك.
+sharing-warning-window = أنت تُشارك { -brand-short-name }. يقدر الآخرين على رؤيتك حين تنتقل إلى لسان جديد.
+sharing-warning-screen = أنت تُشارك شاشتك كلها. يقدر الآخرين على رؤيتك حين تنتقل إلى لسان جديد.
+sharing-warning-proceed-to-tab =
+    .label = واصِل إلى اللسان
+sharing-warning-disable-for-session =
+    .label = أوقِف حماية المشاركة لهذه الجلسة
+webserial-select-port-label = حدّد منفذًا تسلسليًا:
+webserial-no-ports-available = لا توجد منافذ تسلسلية متاحة
+urlbar-search-mode-indicator-close =
+    .aria-label = أغلق
+urlbar-placeholder =
+    .placeholder = ابحث أو أدخل عنوانا
+urlbar-placeholder-keyword-disabled =
+    .placeholder = أدخل العنوان
+urlbar-placeholder-search-mode-web-2 =
+    .aria-label = ابحث مستعملًا { $name }
+    .placeholder = ابحث في الوِب
+urlbar-placeholder-search-mode-other-engine =
+    .aria-label = ابحث عن { $name }
+    .placeholder = أدخِل نص البحث
+urlbar-placeholder-search-mode-other-bookmarks =
+    .aria-label = ابحث في العلامات
+    .placeholder = أدخِل نص البحث
+urlbar-placeholder-search-mode-other-history =
+    .aria-label = ابحث في التأريخ
+    .placeholder = أدخِل نص البحث
+urlbar-placeholder-search-mode-other-tabs =
+    .aria-label = ابحث في الألسنة
+    .placeholder = أدخِل نص البحث
+urlbar-placeholder-search-mode-other-actions =
+    .aria-label = إجراءات البحث
+    .placeholder = أدخِل نص البحث
+urlbar-placeholder-with-name =
+    .placeholder = ‫ابحث بـ { $name } أو أدخِل عنوانا
+urlbar-remote-control-notification-anchor2 =
+    .tooltiptext = المتصفح في وضع التحكم عن بعد (السبب: { $component })
+urlbar-permissions-granted =
+    .tooltiptext = منحت هذا الموقع صلاحيات أخرى.
+urlbar-switch-to-tab =
+    .value = انتقل إلى اللسان:
+urlbar-extension =
+    .value = الامتداد:
+urlbar-go-button2 =
+    .title = انتقل للعنوان في شريط الموقع
+urlbar-page-action-button =
+    .tooltiptext = إجراءات الصفحة
+urlbar-revert-button =
+    .tooltiptext = أظهِر العنوان في شريط الموقع
+urlbar-result-action-ai-chat = اسأل
+urlbar-result-action-search-in-private-w-engine = ابحث بـ { $engine } في نافذة خاصة
+urlbar-result-action-search-in-private = ابحث في نافذةٍ خاصة
+urlbar-result-action-search-w-engine = ابحث بـ { $engine }
+urlbar-result-action-sponsored = نتيجة مموّلة
+urlbar-result-action-switch-tab = انتقل إلى اللسان
+urlbar-result-action-move-tab-to-split-view = انقل اللسان إلى عرض منقسم
+urlbar-result-action-visit = زُر
+urlbar-result-action-switch-tab-with-container = انتقل للسان · <span>{ $container }</span>
+urlbar-result-action-tab-group-unnamed = مجموعة غير مسمّاة
+urlbar-result-action-visit-from-clipboard = زر من الحافظة
+urlbar-result-action-before-tabtosearch-web = اضغط Tab للبحث بـ { $engine }
+urlbar-result-action-before-tabtosearch-other = اضغط Tab للبحث عبر { $engine }
+urlbar-result-action-tabtosearch-web = ابحث بـ { $engine } مباشرة من شريط العنوان
+urlbar-result-action-tabtosearch-other-engine = ابحث مستعملًا { $engine } مباشرة من شريط العنوان
+urlbar-result-action-copy-to-clipboard = انسخ
+urlbar-result-action-undefined-calculator-result = غير محدد
+urlbar-result-explanation-last-visited-relative-2 = آخر زيارة { $date }
+urlbar-result-explanation-bookmarked = مُعلّمة { $date }
+urlbar-result-addons-subtitle = امتداد { -brand-product-name }
+urlbar-result-mdn-subtitle = { -mdn-brand-name }
+urlbar-result-yelp-subtitle = { -yelp-brand-name }
+urlbar-result-suggestion-recommended = يُنصح به
+urlbar-result-weather-title = <strong>{ $temperature }°{ $unit }</strong> في { $city }, { $region }
+urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> في { $city }, { $region }, { $country }
+urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</strong> في { $city }
+urlbar-result-weather-provider-sponsored = { $provider } · مموّل
+urlbar-result-market-opt-in-title = احصل على بيانات سوق الأسهم مباشرة في شريط البحث
+urlbar-result-market-opt-in-description = اعرض آخر مستجدات السوق والمزيد من شركائنا عند مشاركة بيانات استعلام البحث مع { -vendor-short-name }. <a data-l10n-name="learn-more-link">اطّلع على المزيد</a>
+urlbar-result-realtime-opt-in-allow = اعرض الاقتراحات
+urlbar-result-realtime-opt-in-not-now = ليس الآن
+urlbar-result-realtime-opt-in-dismiss = أهمِل
+urlbar-result-realtime-opt-in-dismiss-all2 = لا تعرض هذه الاقتراحات
+urlbar-result-menu-dont-show-market2 = لا تعرض اقتراحات السوق
+urlbar-result-dismissal-acknowledgment-market = شكرًا لملاحظاتك. لن ترى اقتراحات السوق بعد الآن.
+urlbar-result-aria-group-market =
+    .aria-label = اقتراحات حول سوق الأسهم
+urlbar-result-dismissal-acknowledgment-all = شكرًا لملاحظاتك. لن ترى هذه الاقتراحات بعد الآن.
+urlbar-result-dates-countdown =
+    { $daysUntilStart ->
+        [zero] { $name } · خلال { $daysUntilStart } يوم
+        [one] { $name } · خلال يوم
+        [two] { $name } · خلال يومين
+        [few] { $name } · خلال { $daysUntilStart } أيام
+        [many] { $name } · خلال { $daysUntilStart } يومًا
+       *[other] { $name } · خلال { $daysUntilStart } يوم
+    }
+urlbar-result-dates-countdown-range =
+    { $daysUntilStart ->
+        [zero] { $name } · يبدأ خلال { $daysUntilStart } يوم
+        [one] { $name } · يبدأ خلال يوم
+        [two] { $name } · يبدأ خلال يومين
+        [few] { $name } · يبدأ خلال { $daysUntilStart } أيام
+        [many] { $name } · يبدأ خلال { $daysUntilStart } يومًا
+       *[other] { $name } · يبدأ خلال { $daysUntilStart } يوم
+    }
+urlbar-result-dates-ongoing =
+    { $daysUntilEnd ->
+        [zero] { $name } · ينتهي خلال { $daysUntilEnd } يوم
+        [one] { $name } · ينتهي خلال يوم
+        [two] { $name } · ينتهي خلال يومين
+        [few] { $name } · ينتهي خلال { $daysUntilEnd } أيام
+        [many] { $name } · ينتهي خلال { $daysUntilEnd } يومًا
+       *[other] { $name } · ينتهي خلال { $daysUntilEnd } يوم
+    }
+urlbar-result-dates-today = { $name } · اليوم
+urlbar-result-dates-ends-today = { $name } · ينتهي اليوم
+urlbar-searchmode-button3 =
+    .title = { $engine }، اختر محرك بحث
+urlbar-searchmode-button-no-engine2 =
+    .title = لم تحدد اختصار، اختر اختصارًا
+urlbar-searchmode-no-keyword2 =
+    .title = عُطّل البحث بالكلمات المفتاحية
+urlbar-searchmode-dropmarker2 =
+    .title = اختر محرك بحث
+urlbar-searchmode-exit-button2 =
+    .title = أغلق
+urlbar-searchmode-default2 =
+    .title = محرّك البحث المبدئي
+urlbar-searchmode-popup-add-engine = أضِف ”{ $engineName }“
+    .title = أضِف محرك البحث ”{ $engineName }“
+urlbar-searchmode-popup-one-off-header = ابحث هذه المرة بـ:
+urlbar-searchmode-popup-header = ابحث بـ:
+urlbar-result-search-with = ابحث بـ { $engine }
+urlbar-result-search-with-local-search-mode = { $keywords } - بحث { $localSearchMode }
+urlbar-result-search-with-engine-keywords = { $keywords } - ابحث بـ { $engine }
+urlbar-result-action-search-bookmarks = ابحث في العلامات
+urlbar-result-action-search-history = ابحث في التأريخ
+urlbar-result-action-search-tabs = ابحث في الألسنة
+urlbar-result-action-search-actions = إجراءات البحث
+urlbar-result-action-switch-to-tabgroup = تبديل إلى { $group }
+urlbar-result-action-open-saved-tabgroup = افتح { $group }
+urlbar-view-context-menu-open-in-tab2 = افتح في لسان جديد
+    .accesskey = ف
+urlbar-view-context-menu-open-in-container-tab2 = افتح في لسانٍ حاوٍ جديد
+    .accesskey = ف
+urlbar-view-context-menu-open-in-window2 = افتح في نافذة جديدة
+    .accesskey = ف
+urlbar-view-context-menu-open-in-private-window2 = افتح في نافذة خاصة جديدة
+    .accesskey = ف
+urlbar-group-firefox-suggest =
+    .label = { -firefox-suggest-brand-name }
+urlbar-group-search-suggestions =
+    .label = اقتراحات { $engine }
+urlbar-group-quickactions =
+    .label = إجراءات سريعة
+urlbar-group-recent-searches =
+    .label = عمليات البحث الأخيرة
+urlbar-group-trending =
+    .label = مُتداول في { $engine }
+urlbar-result-menu-trending-dont-show2 = لا تعرض عمليات البحث المُتداولة
+    .accesskey = م
+urlbar-trending-dismissal-acknowledgment = شكرًا على تعليقك. لن ترى عمليات البحث المُتداولة بعد الآن.
+reader-view-enter-button =
+    .aria-label = ادخل منظور القارئ
+reader-view-close-button =
+    .aria-label = أغلق منظور القارئ
+picture-in-picture-urlbar-button-open =
+    .tooltiptext = فتح فديو معترِض ({ $shortcut })
+picture-in-picture-urlbar-button-close =
+    .tooltiptext = أغلِق فديو معترِض ({ $shortcut })
+picture-in-picture-panel-header = فديو معترِض
+picture-in-picture-panel-headline = لا يوصي موقع الويب هذا باستخدام ميزة "فديو معترِض".
+picture-in-picture-panel-body = قد لا يُعرض مقاطع الفيديو بالشكل الذي أراده المطور أثناء تمكين ميزة الفديو المعترِض.
+picture-in-picture-enable-toggle =
+    .label = فعّل على أية حال
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> يملأ الشاشة الآن
+fullscreen-warning-no-domain = يملأ هذا المستند الشاشة الآن
+fullscreen-exit-button = غادر ملء الشاشة (Esc)
+fullscreen-exit-mac-button = غادر ملء الشاشة (esc)
+fullscreen-keyboardlock-exit-button = اخرِج من وضع ملء الشاشة (اضغط مع الاستمرار على زر Esc)
+fullscreen-keyboardlock-exit-mac-button = اخرِج من وضع ملء الشاشة (اضغط مع الاستمرار على زر esc)
+pointerlock-warning-domain = يتحكم <span data-l10n-name="domain">{ $domain }</span> في مؤشرك. اضغط Esc لتستعيد التحكم.
+pointerlock-warning-no-domain = يتحكم هذا المستند في مؤشرك. اضغط Esc لتستعيد التحكم.
+bookmarks-manage-bookmarks =
+    .label = أدِر العلامات
+bookmarks-recent-bookmarks-panel-subheader = أحدث العلامات
+bookmarks-toolbar-chevron =
+    .tooltiptext = أظهِر المزيد من العلامات
+bookmarks-sidebar-content =
+    .aria-label = العلامات
+bookmarks-menu-button =
+    .label = قائمة العلامات
+bookmarks-other-bookmarks-menu =
+    .label = العلامات الأخرى
+bookmarks-mobile-bookmarks-menu =
+    .label = علامات المحمول
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] أخفِ شريط العلامات الجانبي
+           *[other] أظهِر شريط العلامات الجانبي
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] أخفِ شريط أدوات العلامات
+           *[other] أظهِر شريط أدوات العلامات
+        }
+bookmarks-tools-toolbar-visibility-panel =
+    .label =
+        { $isVisible ->
+            [true] أخفِ شريط أدوات العلامات
+           *[other] أظهِر شريط أدوات العلامات
+        }
+bookmarks-search =
+    .label = ابحث في العلامات
+bookmarks-tools =
+    .label = أدوات العلامات
+bookmarks-subview-edit-bookmark =
+    .label = حرّر هذه العلامة…
+bookmarks-toolbar =
+    .aria-label = العلامات
+    .toolbarname = شريط العلامات
+    .accesskey = ش
+bookmarks-toolbar-menu =
+    .label = شريط العلامات
+bookmarks-toolbar-placeholder =
+    .title = عناصر شريط العلامات
+bookmarks-toolbar-placeholder-button =
+    .label = عناصر شريط العلامات
+bookmarks-subview-bookmark-tab =
+    .label = علّم اللسان الحالي…
+library-bookmarks-menu =
+    .label = العلامات
+repair-text-encoding-button =
+    .label = أصلِح ترميز النص
+    .tooltiptext = خمّن ترميز النص الصحيح من محتوى الصفحة
+toolbar-settings-button =
+    .label = الإعدادات
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] افتح الإعدادات ({ $shortcut })
+           *[other] الإعدادات
+        }
+toolbar-overflow-customize-button =
+    .label = خصّص شريط الأدوات…
+    .accesskey = ش
+toolbar-button-email-link =
+    .label = أرسل الرابط بالبريد
+    .tooltiptext = أرسل رابط لهذه الصفحة بالبريد
+toolbar-button-logins =
+    .label = كلمات السر
+    .tooltiptext = اعرض و أدِر كلماتي السرية المحفوظة
+qrcode-panel-error =
+    .message = فشل توليد رمز QR. يُرجى المحاولة مجددًا.
+qrcode-copy-button =
+    .label = انسخ
+qrcode-copy-success =
+    .message = نُسخ رمز QR إلى الحافظة.
+qrcode-copy-error =
+    .message = فشل نسخ رمز QR.
+qrcode-save-button =
+    .label = احفظ
+qrcode-save-filename-base = qrcode
+qrcode-save-filename-with-domain-base = qrcode-{ $domain }
+qrcode-window-title = رمز QR
+qrcode-dialog-title = رمز QR
+qrcode-image =
+    .aria-label = رمز QR
+qrcode-close-button =
+    .aria-label = أغلق
+toolbar-button-save-page =
+    .label = احفظ الصفحة
+    .tooltiptext = احفظ هذه الصفحة ({ $shortcut })
+toolbar-button-open-file =
+    .label = افتح ملفًا
+    .tooltiptext = افتح ملفًا ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = الألسنة المُزامنة
+    .tooltiptext = اعرض الألسنة من الأجهزة الأخرى
+toolbar-button-send-tab =
+    .label = أرسل لسان
+    .tooltiptext = أرسل اللسان الحالي إلى جهاز أخر
+toolbar-button-new-private-window =
+    .label = نافذة خاصة جديدة
+    .tooltiptext = افتح نافذة تصفح خاصة جديدة ({ $shortcut })
+toolbar-button-share-tab =
+    .label = شارِك
+    .tooltiptext = شارك هذه الصفحة
+toolbar-button-tab-groups =
+    .label = مجموعات الألسنة
+    .tooltiptext = أظهر مجموعات ألسنتك
+eme-notifications-drm-content-playing = تستخدم بعض الملفات الصوتية أو الفيديو على هذا الموقع برمجيات لإدارة الحقوق الرقمية، والتي قد تحد ما يستطيع { -brand-short-name } أن يسمح لك بفعله مع هذه الملفات.
+eme-notifications-drm-content-playing-manage = أدِر الإعدادات
+eme-notifications-drm-content-playing-manage-accesskey = د
+eme-notifications-drm-content-playing-dismiss = أهمِل
+eme-notifications-drm-content-playing-dismiss-accesskey = ه
+panel-save-update-username-2 =
+    .label = اسم المستخدم
+panel-save-update-password-2 =
+    .label = كلمة السر
+menu-share-more =
+    .label = أكثر…
+menu-share-windows =
+    .label = المزيد من الخيارات
+menu-share-copy-links =
+    .label =
+        { $count ->
+            [zero] لا رابط للنسخ
+            [one] انسخ رابط
+            [two] انسخ رابطين
+            [few] انسخ { $count } روابط
+            [many] انسخ { $count } رابطًا
+           *[other] انسخ { $count } رابط
+        }
+    .accesskey = ن
+ui-tour-info-panel-close =
+    .tooltiptext = أغلق
+popups-infobar-allow2 =
+    .label = اسمح بالنوافذ المنبثقة وإعادة التوجيه إلى جهات خارجية لـ { $uriHost }
+    .accesskey = م
+popups-infobar-dont-show-message2 =
+    .label = لا تعرض هذه الرسالة عند حظر النوافذ المنبثقة أو عمليات إعادة التوجيه من جهات خارجية
+    .accesskey = ر
+edit-popup-settings2 =
+    .label = أدر إعدادات إعادة التوجيه المنبثقة والجهات الخارجية…
+    .accesskey = د
+picture-in-picture-hide-toggle =
+    .label = أخفِ زر تفعيل/تعطيل الفديوهات المعترِضة
+    .accesskey = خ
+picture-in-picture-move-toggle-right =
+    .label = انقل زر تبديل وضع ”الفديوهات المعترِضة“ إلى اليمين
+    .accesskey = ن
+picture-in-picture-move-toggle-left =
+    .label = انقل زر تبديل وضع ”الفديوهات المعترِضة“ إلى اليسار
+    .accesskey = س
+navbar-accessible =
+    .aria-label = التنقل
+navbar-downloads =
+    .label = التنزيلات
+navbar-overflow-2 =
+    .tooltiptext = المزيد من الأدوات
+navbar-print =
+    .label = اطبع
+    .tooltiptext = اطبع هذه الصّفحة… ({ $shortcut })
+navbar-home =
+    .label = البداية
+    .tooltiptext = صفحة بداية { -brand-short-name }
+navbar-library =
+    .label = المكتبة
+    .tooltiptext = اعرض التأريخ، والعلامات المحفوظة وغيرها
+navbar-search =
+    .title = ابحث
+tabs-toolbar =
+    .aria-label = ألسنة المتصفح
+tabs-toolbar-new-tab =
+    .label = لسان جديد
+tabs-toolbar-list-all-tabs =
+    .label = اسرد كل الألسنة
+    .tooltiptext = اسرد كل الألسنة
+pinned-tabs-drop-indicator = أسقِط اللسان هنا لتثبيته
+restore-session-startup-suggestion-message = <strong>أتريد فتح الألسنة الأخيرة؟</strong> يمكنك استعادة الجلسة السابقة من قائمة تطبيق { -brand-short-name } <img data-l10n-name="icon"/>، ضمن قائمة التأريخ.
+restore-session-startup-suggestion-button = ما الطريقة؟
+filepicker-blocked-infobar = حجبت منظّمتك الوصول إلى الملفات المحلية الموجودة على هذا الحاسوب
+data-reporting-notification-message = يُرسل { -brand-short-name } بعض البيانات تلقائيا إلى { -vendor-short-name } لمساعدتنا في تحسين متصفّحك.
+data-reporting-notification-button =
+    .label = اختر ما الذي أشاركه
+    .accesskey = خ
+private-browsing-indicator-label = التصفح الخاص
+private-browsing-indicator-tooltip =
+    .tooltiptext = التصفح الخاص
+content-analysis-indicator-tooltip =
+    .tooltiptext = منع فقدان البيانات (DLP) بواسطة { $agentName }. انقر للحصول على مزيد من المعلومات.
+content-analysis-panel-title = حماية البيانات
+content-analysis-panel-text-styled = تستخدم منظّمتك <b>{ $agentName }</b> لحماية من فقدان البيانات. <a data-l10n-name="info"> اطّلع على المزيد</a>
+unified-extensions-button =
+    .label = الامتدادات
+    .tooltiptext = الامتدادات
+unified-extensions-button-permissions-needed =
+    .label = الامتدادات
+    .tooltiptext =
+        الامتدادات
+        الأذونات لازمة
+unified-extensions-button-quarantined =
+    .label = الامتدادات
+    .tooltiptext =
+        الامتدادات
+        بعض الامتدادات غير مسموح بها
+unified-extensions-button-blocklisted =
+    .label = الامتدادات
+    .tooltiptext =
+        الامتدادات
+        بعض الامتدادات مُعطَّلة
+reset-pbm-toolbar-button2 =
+    .label = امحُ الجلسة الخاصة
+    .tooltiptext = امحُ الجلسة الخاصة
+reset-pbm-panel-heading2 = امحُ البيانات وبدء جلسة خاصة جديدة؟
+reset-pbm-panel-description2 = يؤدي هذا إلى حذف التأريخ وملفات تعريف الارتباط وجميع بيانات الموقع الأخرى دون إغلاق نافذتك الخاصة.
+reset-pbm-panel-always-ask-checkbox =
+    .label = اسألني دائمًا
+    .accesskey = م
+reset-pbm-panel-cancel-button =
+    .label = ألغِ
+    .accesskey = غ
+reset-pbm-panel-confirm-button2 =
+    .label = امحُ الجلسة الخاصة
+    .accesskey = م
+reset-pbm-panel-complete = حُذفت بيانات الجلسة الخاصة
+refresh-blocked-refresh-label = منع { -brand-short-name } هذه الصفحة من إعادة التحميل تلقائيًا.
+refresh-blocked-redirect-label = منع { -brand-short-name } هذه الصفحة من إعادة التوجيه تلقائيًا إلى صفحة أخرى.
+refresh-blocked-allow =
+    .label = اسمح
+    .accesskey = س
+firefox-relay-offer-why-to-use-relay = تحمي أقنعتنا الآمنة وسهلة الاستخدام هويتك وتمنع السبام عن طريق إخفاء عنوان بريدك الإلكتروني.
+firefox-relay-offer-what-relay-provides = ستمرر كل رسائل البريد الإلكتروني المرسلة إلى أقنعة بريدك إلى <strong>{ $useremail }</strong> (ما لم تقرر حجبها).
+firefox-relay-offer-legal-notice = بالنقر على"أستخدم قناع البريد"، أنت توافق على شروط <label data-l10n-name="tos-url"> للخدمة </label> و <label data-l10n-name="privacy-url">تنويه الخصوصية </label>.
+firefox-relay-offer-legal-notice-1 = من خلال التسجيل وإنشاء قناع بريد إلكتروني، فإنك توافق على <label data-l10n-name="tos-url">شروط الخدمة</label> و <label data-l10n-name="privacy-url">تنويه الخصوصية</label>.
+popup-notification-addon-install-unsigned =
+    .value = (لم يُتحقق منها)
+popup-notification-xpinstall-prompt-learn-more = اطّلع على المزيد حول طريقة تثبيت الإضافات بأمان تام
+popup-notification-xpinstall-prompt-block-url = اعرض التفاصيل
+popup-notification-addon-privatebrowsing-checkbox2 =
+    .label = اسمح لامتداد بأن يعمل في النوافذ الخاصة
+    .accesskey = م
+popup-notification-addon-technical-and-interaction-checkbox =
+    .label = شارك البيانات التقنية والتفاعلية مع مطوِّر الامتدادة
+    .accesskey = ر
+popup-warning-message =
+    { $popupCount ->
+        [one] منع { -brand-short-name } هذا الموقع من فتح نافذة منبثقة.
+        [two] منع { -brand-short-name } هذا الموقع من فتح نافذتين منبثقتين.
+        [few] منع { -brand-short-name } هذا الموقع من فتح { $popupCount } نوافذ منبثقة.
+        [many] منع { -brand-short-name } هذا الموقع من فتح { $popupCount } نافذة منبثقة.
+       *[other] منع { -brand-short-name } هذا الموقع من فتح { $popupCount } نافذة منبثقة.
+    }
+popup-warning-exceeded-message =
+    { $popupCount ->
+        [two] منع { -brand-short-name } هذا الموقع من فتح ما يزيد عن نافذتين منبثقتين.
+        [few] منع { -brand-short-name } هذا الموقع من فتح ما يزيد عن { $popupCount } نوافذ منبثقة.
+        [many] منع { -brand-short-name } هذا الموقع من فتح ما يزيد عن { $popupCount } نافذة منبثقة.
+       *[other] منع { -brand-short-name } هذا الموقع من فتح ما يزيد عن { $popupCount } نافذة منبثقة.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] الخيارات
+           *[other] التفضيلات
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] خ
+           *[other] ت
+        }
+popup-show-popup-menuitem =
+    .label = أظهر ”{ $popupURI }“
+popup-trigger-redirect-menuitem =
+    .label = أظهر "{ $redirectURI }"
+file-picker-failed-open = لم يتمكن من فتح مربع حوار الملفات في ويندوز. لم يتمكن من تحديد أي ملف أو مجلد.
+file-picker-failed-save-somewhere = لم يتمكن من فتح مربع حوار ملف ويندوز. سيتم حفظ الملف في { $path }.
+file-picker-failed-save-nowhere = لم يتمكن من فتح مربع حوار ملف ويندوز. لم يُعثر على المجلد المبدئي؛ ولن يُحفظ الملف.
+file-picker-crashed-open = انهار مربع حوار ملف ويندوز. لم يتم تحديد أي ملف أو مجلد.
+file-picker-crashed-save-somewhere = انهار مربع حوار ملف ويندوز. سيتم حفظ الملف في { $path }.
+file-picker-crashed-save-nowhere = انهار مربع حوار ملف ويندوز. لم يتم العثور على المجلد المبدئي؛ ولن يُحفظ الملف.
+file-picker-crashed-show-in-folder =
+    .label = اعرض في المجلد
+    .accessKey = م
+onboarding-aw-finish-setup-button =
+    .label = أنهِ الإعداد
+    .tooltiptext = أنهِ إعداد { -brand-short-name }
+onboarding-checklist-button-label = أنهِ الإعداد
+urlbar-trust-icon-notsecure-label = غير آمن
+trustpanel-etp-label-enabled = الحماية الموسّعة من التعقب مفعّلة
+trustpanel-etp-label-disabled = الحماية الموسّعة من التعقب معطّلة
+trustpanel-etp-toggle-on =
+    .aria-label = الحماية الموسّعة من التعقب مفعّلة ل { $host }
+trustpanel-etp-toggle-off =
+    .aria-label = الحماية الموسّعة من التعقب معطّلة ل { $host }
+trustpanel-etp-description-enabled = إذا كان هناك شيء يبدو معطوبًا في هذا الموقع، فحاول إيقاف تشغيل الحماية.
+trustpanel-etp-description-disabled = ترى { -brand-product-name } أن على الشركات تقليل تتبعها لك. نقوم بحظر أكبر عدد ممكن من المتعقّبات عند تفعيلك لخيارات الحماية.
+trustpanel-connection-label-secure = الاتصال آمن
+trustpanel-connection-label-insecure = الاتصال غير آمن
+trustpanel-header-enabled = { -brand-product-name } على الحراسة
+trustpanel-description-enabled2 = أنت محمي. إذا لاحظنا أي شيء، سنُعلمك.
+trustpanel-header-enabled-insecure = كن حذرًا على هذا الموقع
+trustpanel-description-enabled-insecure = { -brand-product-name } لاحظ شيئًا مريبًا.
+trustpanel-header-disabled = لقد أوقفت الحماية
+trustpanel-description-disabled = { -brand-product-name } خارج الخدمة. نقترح إعادة تفعيل الحماية.
+trustpanel-clear-cookies-button = امسح الكعكات و بيانات المواقع
+trustpanel-privacy-link = إعدادات الخصوصية
+trustpanel-clear-cookies-header =
+    .title = امحُ ملفات تعريف الارتباط وبيانات الموقع لـ { $host }
+trustpanel-clear-cookies-description = قد يؤدي إزالة ملفات تعريف الارتباط وبيانات المواقع إلى تسجيل خروجك من مواقع الوِب ومحُ عربات التسوق.
+trustpanel-clear-cookies-subview-button-clear = امسح
+trustpanel-clear-cookies-subview-button-cancel = ألغِ
+trustpanel-site-information-header =
+    .title = حماية الاتصال لـ { $host }
+trustpanel-siteinformation-morelink = مزيد من المعلومات حول الموقع
+trustpanel-blocker-see-all = اعرض الكل
+trustpanel-blocker-header =
+    .title = حماية التتبع لـ { $host }
+trustpanel-blocker-section-header2 =
+    { $count ->
+        [zero] حُظر <span data-l10n-name="count">{ $count }</span> متعقِّبات على هذا الموقع
+        [one] حُظر <span data-l10n-name="count">{ $count }</span> متعقِّب على هذا الموقع
+        [two] حُظر <span data-l10n-name="count">{ $count }</span> متعقّبان على هذا الموقع
+        [few] حُظر <span data-l10n-name="count">{ $count }</span> متعقِّبات على هذا الموقع
+        [many] حُظر <span data-l10n-name="count">{ $count }</span> متعقِّبات على هذا الموقع
+       *[other] حُظر <span data-l10n-name="count">{ $count }</span> متعقِّبات على هذا الموقع
+    }
+trustpanel-blocker-description = { -brand-product-name } يرى أن على الشركات تقليل متابعتك. لذلك نحظر أكبر عدد ممكن منها.
+trustpanel-blocked-header = قام { -brand-product-name } بحظر هذه الأشياء من أجلك:
+trustpanel-tracking-header = سمح { -brand-product-name } بهذه الأشياء حتى لا تتعطل المواقع:
+trustpanel-tracking-description = دون المتعقّبات، قد لا تعمل بعض الأزرار والنماذج وحقول الولوج.
+trustpanel-insecure-section-header = اتّصالك غير آمن
+trustpanel-insecure-description = البيانات التي ترسلها إلى هذا الموقع غير مُعمّاة، مما قد يعرضها للعرض أو السرقة أو التعديل.
+trustpanel-list-label-tracking-content = المحتوى الذي يتعقّبك
+trustpanel-list-label-social-tracking =
+    { $count ->
+        [zero] { $count } متعقّب وسائل التواصل الاجتماعي
+        [one] { $count } متعقّب وسائل التواصل الاجتماعي
+        [two] { $count } متعقّبي وسائل التواصل الاجتماعي
+        [few] { $count } متعقبات وسائل التواصل الاجتماعي
+        [many] { $count } متعقبًا وسائل التواصل الاجتماعي
+       *[other] { $count } متتبع وسائل التواصل الاجتماعي
+    }
+trustpanel-social-tracking-blocking-tab-header =
+    { $count ->
+        [zero] { -brand-product-name } حظر { $count } متعقِّب وسائط
+        [one] { -brand-product-name } حظر { $count } متعقِّب وسائط
+        [two] { -brand-product-name } حظر { $count } متعقِّب وسائط
+        [few] { -brand-product-name } حظر { $count } متعقِّب وسائط
+        [many] { -brand-product-name } حظر { $count } متعقِّب وسائط
+       *[other] { -brand-product-name } حظر { $count } متعقِّب وسائط
+    }
+trustpanel-social-tracking-not-blocking-tab-header =
+    { $count ->
+        [zero] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+        [one] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+        [two] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+        [few] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+        [many] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+       *[other] { -brand-product-name } سمح ب{ $count } متعقِّب وسائط
+    }
+trustpanel-tracking-content-not-blocking-tab-header =
+    { $count ->
+        [zero] { -brand-product-name } سمح { $count } متعقِّب
+        [one] { -brand-product-name } سمح { $count } متعقِّب
+        [two] { -brand-product-name } سمح { $count } متعقِّب
+        [few] { -brand-product-name } سمح { $count } متعقِّب
+        [many] { -brand-product-name } سمح { $count } متعقِّب
+       *[other] { -brand-product-name } سمح { $count } متعقِّب
+    }
+trustpanel-tracking-content-tab-list-header = تحاول هذه المواقع تتبعك:
+trustpanel-fingerprinter-list-header = تحاول هذه المواقع تبصيمك:
+trustpanel-cryptominer-blocking-tab-header =
+    { $count ->
+        [zero] { -brand-product-name } حظر { $count } مُعدِّن عملة رقمية
+        [one] { -brand-product-name } حظر { $count } مُعدِّن عملة رقمية
+        [two] { -brand-product-name } حظر { $count } مُعدِّن عملة رقمية
+        [few] { -brand-product-name } حظر { $count } مُعدِّن عملة رقمية
+        [many] { -brand-product-name } منع { $count } مُعدِّن عملة رقمية
+       *[other] { -brand-product-name } حظر { $count } مُعدِّن عملة رقمية
+    }
+trustpanel-cryptominer-not-blocking-tab-header =
+    { $count ->
+        [zero] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+        [one] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+        [two] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+        [few] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+        [many] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+       *[other] { -brand-product-name } سمح ب{ $count } مُعدِّن عملة رقمية
+    }
+trustpanel-cryptominer-tab-list-header = تحاول هذه المواقع تعدين العُملات الرقمية:
+trustpanel-breachalerts-anonymous-breached-header = ألديك حساب على هذا الموقع؟
+trustpanel-breachalerts-anonymous-breached-description = لقد وجد { -brand-product-name } أن هذا الموقع تعرض لاختراق بيانات خلال الـ 12 شهرًا الماضية. اكتشف ما إذا كنت قد تأثرت بذلك.
+trustpanel-breachalerts-anonymous-breached-button-dismiss = أهمِل
+trustpanel-breachalerts-anonymous-breached-button-check-monitor = ابدأ الفحص المجاني
+reduced-protection-infobar-message = <strong>يبدو الموقع معطوبًا؟</strong> أعِد تحميل الصفحة لتقليل مستوى حماية التتبع مؤقتًا.
+reduced-protection-infobar-reload-button = أعد التحميل
+    .accesskey = ع
+reduced-protection-infobar-never-show-button = لا تُظهر مجددًا
+    .accesskey = ظ
+identity-allow-site-data = DeckyWolf: قم دائمًا بحفظ ملفات تعريف الارتباط/البيانات لهذا الموقع

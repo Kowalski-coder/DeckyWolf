@@ -1,0 +1,13 @@
+back = Cen
+forward = Anyim
+reload = Nwo cano
+home = Acakki
+find = Nong
+new-tab = Dirica matidi manyen
+add-bookmark = Med alamabuk
+open-location = Yeny onyo ket kanonge
+share = Nywaki
+close-window = Lor Dirica
+search-search-in = Yeny ii:
+search-bookmarks = Alamabuk
+search-history = Gin mukato

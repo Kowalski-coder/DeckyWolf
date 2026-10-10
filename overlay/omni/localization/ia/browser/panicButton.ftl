@@ -1,0 +1,15 @@
+panic-button-open-new-window = Un nove fenestra vacue essera aperite
+panic-button-undo-warning = Iste action es irreversibile.
+panic-button-forget-button =
+    .label = Oblidar!
+panic-main-timeframe-desc = Oblidar le ultime:
+panic-button-5min =
+    .label = Cinque minutas
+panic-button-2hr =
+    .label = Duo horas
+panic-button-day =
+    .label = 24 horas
+panic-button-action-desc = Si tu continua:
+panic-button-delete-cookies = Le <strong>cookies</strong> recente essera delite
+panic-button-delete-history = Le <strong>chronologia</strong> recente essera delite
+panic-button-delete-tabs-and-windows = Tote le <strong>schedas</strong> e <strong>fenestras</strong> essera claudite

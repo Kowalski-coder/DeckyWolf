@@ -1,0 +1,22 @@
+confirmation-hint-extensions-button-hidden = הועבר לתפריט
+confirmation-hint-password-removed = הססמה הוסרה!
+confirmation-hint-page-bookmarked = נשמר לסימניות
+confirmation-hint-password-created = הססמה נשמרה
+confirmation-hint-password-updated = הססמה עודכנה
+confirmation-hint-address-created = הכתובת נשמרה
+confirmation-hint-address-updated = הכתובת עודכנה
+confirmation-hint-credit-card-created = הכרטיס נשמר
+confirmation-hint-credit-card-updated = הכרטיס עודכן
+confirmation-hint-passport-created = הדרכון נשמר
+confirmation-hint-passport-updated = הדרכון עודכן
+confirmation-hint-pin-tab = נעוץ!
+confirmation-hint-pin-tab-description = יש ללחוץ על הלשונית עם הכפתור הימני כדי לשחרר את הנעיצה.
+confirmation-hint-send-to-device = נשלח!
+confirmation-hint-firefox-relay-mask-created = נוצרה מסכה חדשה!
+confirmation-hint-firefox-relay-mask-reused = נעשה שימוש חוזר במסכה קיימת!
+confirmation-hint-screenshot-copied = צילום המסך הועתק!
+confirmation-hint-duplicate-tabs-closed =
+    { $tabCount ->
+        [one] נסגרה לשונית אחת
+       *[other] נסגרו { $tabCount } לשוניות
+    }

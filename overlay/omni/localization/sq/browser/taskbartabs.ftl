@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Shtoje skedën te shtyllë punësh
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Hiqe skedën nga shtylla e punëve
+taskbar-tab-urlbar-button-show = Shfaq veprim faqeje Aplikacioni Web
+taskbar-tab-urlbar-button-hide = Fshihe veprimin e faqes Aplikacioni Web
+taskbar-tab-shortcut-description = Aplikacion Web { $name }
+taskbar-tab-shortcut-folder = Aplikacione Web { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Mbylljani zërin Skedës
+taskbar-tab-audio-unmute =
+    .tooltiptext = Rikthejani zërin Skedës
+taskbar-tab-title-default = { $name } në { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) në { -brand-full-name }
+taskbar-tab-title-profile = { $name } në { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) në { $profile } — { -brand-full-name }

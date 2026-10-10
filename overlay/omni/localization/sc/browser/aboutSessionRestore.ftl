@@ -1,0 +1,26 @@
+restore-page-tab-title = Recùpera sa sessione
+restore-page-error-title = Tenimus problemas pro recuperare is pàginas tuas.
+restore-page-problem-desc = Tenimus problemas pro recuperare sa sessione de navigatzione ùrtima. Sèbera «Recùpera sa sessione» pro nche torrare a proare.
+restore-page-try-this = Ancora no as recuperadu sa sessione? A bortas est pro curpa de un'ischeda. Càstia is ischedas anteriores, boga s'ispunta dae is ischedas chi non depas recuperare e poi proa a torrare a ddas recuperare.
+restore-page-hide-tabs = Cua is ischedas anteriores
+restore-page-show-tabs = Ammustra is ischedas anteriores
+restore-page-window-label = Ventana { $windowNumber }
+restore-page-restore-header =
+    .label = Recùpera
+restore-page-list-header =
+    .label = Ventanas e ischedas
+restore-page-try-again-button =
+    .label = Recùpera sa sessione
+    .accesskey = R
+restore-page-close-button =
+    .label = Cumintza una sessione noa
+    .accesskey = N
+welcome-back-tab-title = Fatu.
+welcome-back-page-title = Revèntida!
+welcome-back-page-info = { -brand-short-name } est prontu.
+welcome-back-restore-button =
+    .label = Bae!
+    .accesskey = B
+welcome-back-restore-all-label = Recùpera totu is ventanas e ischedas
+welcome-back-restore-some-label = Recùpera isceti cussas chi boles
+welcome-back-page-info-link = Is cumplementos e is personalizatziones sunt istadas bogadas e is cunfiguratziones predefinidas de su navigadore sunt istadas recuperadas. Si custu no acontzat su problema, <a data-l10n-name="link-more">leghe ite àteru podes fàghere.</a>

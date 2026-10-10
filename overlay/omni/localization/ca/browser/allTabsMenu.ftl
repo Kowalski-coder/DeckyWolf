@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Cerca a totes les pestanyes
+all-tabs-menu-new-user-context =
+    .label = Pestanya de contenidor nova
+all-tabs-menu-hidden-tabs =
+    .label = Pestanyes ocultes
+all-tabs-menu-close-duplicate-tabs =
+    .label = Tanca les pestanyes duplicades
+all-tabs-menu-view-all-tabs =
+    .label = Mostra totes les pestanyes
+all-tabs-menu-recent-tab-groups-header = Grups de pestanyes recents
+all-tabs-menu-tab-groups-show-all =
+    .label = Mostra-ho tot
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grups de pestanyes
+all-tabs-menu-current-window-header = Finestra actual

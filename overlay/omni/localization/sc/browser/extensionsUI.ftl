@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } bolet modificare su motore de chirca predefinidu dae { $currentEngine } in { $newEngine }. Andat bene?
+webext-default-search-yes =
+    .label = Eja
+    .accesskey = E
+webext-default-search-no =
+    .label = Nono
+    .accesskey = N
+addon-post-install-message = { $addonName } agiuntu.
+webext-quarantine-confirmation-title = Boles ativare { $addonName } in is sitos cun restritziones?
+webext-quarantine-confirmation-line-1 = Pro amparare is datos tuos, non si podet ativare custa estensione in custu situ.
+webext-quarantine-confirmation-line-2 = Si dda fidas, permite a custa estensione de lèghere e cambiare datos in sitos cun restritziones identificadas dae { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permite
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = Non permitas
+    .accesskey = N

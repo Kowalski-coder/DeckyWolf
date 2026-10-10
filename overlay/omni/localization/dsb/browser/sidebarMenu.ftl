@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Cytańske znamjenja
+sidebar-menu-bookmarks-2 = Cytańske znamjenja
+sidebar-menu-history =
+    .label = Historija
+sidebar-menu-synced-tabs =
+    .label = Synchronizěrowane rejtariki
+sidebar-menu-close =
+    .label = Bocnicu zacyniś
+sidebar-close-button =
+    .tooltiptext = Bocnicu zacyniś

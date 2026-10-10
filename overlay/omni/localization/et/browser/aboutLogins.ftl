@@ -1,0 +1,251 @@
+about-logins-page-title-name = Paroolid
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Otsi paroole
+create-login-button =
+    .title = Lisa parool
+fxaccounts-sign-in-text = Tee paroolid kättesaadavaks ka oma teistes seadmetes
+fxaccounts-sign-in-sync-button = Sünkroniseerimiseks logi sisse
+fxaccounts-avatar-button =
+    .title = Halda kontot
+menu =
+    .title = Ava menüü
+about-logins-menu-menuitem-import-from-another-browser = Impordi teisest brauserist…
+about-logins-menu-menuitem-import-from-a-file = Impordi failist…
+about-logins-menu-menuitem-export-logins2 = Ekspordi paroolid…
+about-logins-menu-menuitem-remove-all-logins2 = Eemalda kõik paroolid…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Sätted
+       *[other] Eelistused
+    }
+about-logins-menu-menuitem-help = Abi
+login-list =
+    .aria-label = Otsingule vastavad kasutajakontod
+login-list-count2 =
+    { $count ->
+        [one] { $count } parool
+       *[other] { $count } parooli
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } parool, kokku { $total }
+       *[other] { $count } parooli, kokku { $total }
+    }
+login-list-sort-label-text = Sortimine:
+login-list-name-option = nimi  (A-Y)
+login-list-name-reverse-option = nimi (Y-A)
+login-list-username-option = kasutajanimi (A-Y)
+login-list-username-reverse-option = kasutajanimi (Y-A)
+about-logins-login-list-alerts-option = Hoiatused
+login-list-last-changed-option = viimati muudetud
+login-list-last-used-option = viimati kasutatud
+login-list-intro-title2 = Paroole pole salvestatud
+login-list-intro-description = { -brand-product-name }is parooli salvestamisel ilmub see siin nähtavale.
+about-logins-login-list-empty-search-title2 = Paroole ei leitud
+about-logins-login-list-empty-search-description = Otsingule ei leitud vasteid.
+login-list-item-title-new-login2 = Parooli lisamine
+login-list-item-subtitle-missing-username = (kasutajanime pole)
+about-logins-list-item-breach-icon =
+    .title = Kasutajatunnused lekitanud sait
+about-logins-list-item-vulnerable-password-icon =
+    .title = Nõrk parool
+about-logins-list-section-breach = Kasutajatunnused lekitanud saidid
+about-logins-list-section-vulnerable = Nõrgad paroolid
+about-logins-list-section-nothing = Hoiatus puudub
+about-logins-list-section-today = Täna
+about-logins-list-section-yesterday = Eile
+about-logins-list-section-week = Viimased 7 päeva
+about-logins-login-intro-heading-message = Salvesta oma paroolid kindlasse kohta
+login-intro-description2 = Kõik { -brand-product-name }i salvestatud paroolid on krüpteeritud. Lisaks jälgime lekkeid ja hoiatame sind, kui oled mõjutatud. <a data-l10n-name="breach-alert-link">Lisateave</a>
+login-intro-instructions-fxa2 = Loo konto või logi sisse seadmes, kus salvestatud kasutajakontod on.
+login-intro-instructions-fxa-settings = Ava Sätted > Sync > Lülita sünkroniseerimine sisse… Märgi linnukesega Kasutajatunnused ja paroolid.
+login-intro-instructions-fxa-passwords-help = Rohkema teabe saamiseks külasta <a data-l10n-name="passwords-help-link">paroolide tugiteenust</a>.
+about-logins-intro-import3 = Parooli koheseks lisamiseks vajuta ülalolevale plussmärgi nupule. Paroole saad ka importida <a data-l10n-name="import-browser-link">teisest brauserist</a> või <a data-l10n-name="import-file-link">failist</a>.
+about-logins-login-item-new-login-title = Parooli lisamine
+login-item-edit-button = Muuda
+about-logins-login-item-remove-button = Eemalda
+login-item-origin-label = Saidi aadress
+about-logins-origin-tooltip2 = Sisesta täielik aadress ja veendu, et see vastaks täpselt sisselogimiskohale.
+about-logins-edit-password-tooltip = Veendu, et salvestad selle saidi praeguse parooli. Siin parooli muutmine ei muuda seda saidil { $webTitle }.
+about-logins-add-password-tooltip = Veendu, et salvestad selle saidi praeguse parooli.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Kasutajanimi
+about-logins-login-item-username =
+    .placeholder = (kasutajanime pole)
+login-item-copy-username-button-text = Kopeeri
+login-item-copied-username-button-text = Kopeeritud!
+login-item-password-label = Parool
+login-item-password-reveal-checkbox =
+    .aria-label = Kuva parooli
+login-item-password-conceal-checkbox =
+    .aria-label = Parool peidetakse
+login-item-copy-password-button-text = Kopeeri
+login-item-copied-password-button-text = Kopeeritud!
+about-logins-login-item-save-changes-button = Salvesta
+login-item-save-new-button = Salvesta
+login-item-cancel-button = Loobu
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = Loodud
+login-item-timeline-action-updated = Uuendatud
+login-item-timeline-action-used = Kasutatud
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] change the settings for passwords
+       *[other] { -brand-short-name } üritab paroolide sätteid muuta. Selle võimaldamiseks kasuta oma seadme sisselogimisandmeid.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Parooli muutmiseks sisesta Windowsi sisselogimisandmed. See aitab kaitsta sinu kontode turvalisust.
+about-logins-edit-login-os-auth-dialog-message2-macosx = edit the saved password
+about-logins-reveal-password-os-auth-dialog-message-win = Parooli vaatamiseks sisesta Windowsi sisselogimisandmed. See aitab kaitsta sinu kontode turvalisust.
+about-logins-reveal-password-os-auth-dialog-message-macosx = kuva salvestatud parooli
+about-logins-copy-password-os-auth-dialog-message-win = Parooli kopeerimiseks sisesta Windowsi sisselogimisandmed. See aitab kaitsta sinu kontode turvalisust.
+about-logins-copy-password-os-auth-dialog-message-macosx = copy the saved password
+about-logins-export-password-os-auth-dialog-message2-win = Parooli eksportimiseks sisesta Windowsi sisselogimisandmed. See aitab kaitsta sinu kontode turvalisust.
+about-logins-export-password-os-auth-dialog-message2-macosx = export saved passwords
+about-logins-primary-password-notification-message = Salvestatud kasutajatunnuste ja paroolide nägemiseks sisesta ülemparool
+master-password-reload-button =
+    .label = Logi sisse
+    .accesskey = L
+confirmation-dialog-cancel-button = Loobu
+confirmation-dialog-dismiss-button =
+    .title = Loobu
+about-logins-confirm-delete-dialog-title = Kas parool eemaldada?
+about-logins-confirm-delete-dialog-message = Seda toimingut pole võimalik tagasi võtta.
+about-logins-confirm-remove-dialog-confirm-button = Eemalda
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Eemalda
+        [one] Eemalda
+       *[other] Eemalda kõik
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Jah, eemalda parool
+        [one] Jah, eemalda parool
+       *[other] Jah, eemalda paroolid
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Kas eemaldada parool?
+       *[other] Kas eemaldada { $count } parooli?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] See tegevus eemaldab { -brand-short-name }i salvestatud parooli ja lekkimise teavitused. Seda pole võimalik tagasi võtta.
+        [one] See tegevus eemaldab { -brand-short-name }i salvestatud parooli ja lekkimise teavitused. Seda pole võimalik tagasi võtta.
+       *[other] See tegevus eemaldab { -brand-short-name }i salvestatud paroolid ja lekkimise teavitused. Seda pole võimalik tagasi võtta.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Kas soovid eemaldada ühe parooli kõigist seadmetest?
+       *[other] Kas soovid eemaldada { $count } parooli kõigist seadmetest?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] See tegevus eemaldab { -brand-short-name }i salvestatud parooli kõigist sünkroniseeritud seadmetest. Lisaks eemaldatakse kõik siia kuvatavad lekkimise teavitused. Seda toimingut pole võimalik tagasi võtta.
+        [one] See tegevus eemaldab { -brand-short-name }i salvestatud parooli kõigist sünkroniseeritud seadmetest. Lisaks eemaldatakse kõik siia kuvatavad lekkimise teavitused. Seda toimingut pole võimalik tagasi võtta.
+       *[other] See tegevus eemaldab kõik { -brand-short-name }i salvestatud paroolid kõigist sünkroniseeritud seadmetest. Lisaks eemaldatakse kõik siia kuvatavad lekkimise teavitused. Seda toimingut pole võimalik tagasi võtta.
+    }
+about-logins-confirm-export-dialog-title2 = Märkus paroolide eksportimise kohta
+about-logins-confirm-export-dialog-message2 =
+    Eksportimisel salvestatakse sinu paroolid loetava tekstina faili.
+    Faili kasutamise lõpetamisel soovitame selle kustutada, et teised selle seadme kasutajad ei näeks sinu paroole.
+about-logins-confirm-export-dialog-confirm-button2 = Jätka eksportimisega
+about-logins-alert-import-message = Vaata impordiaruande üksikasju
+confirm-discard-changes-dialog-title = Kas soovid loobuda salvestamata muudatustest?
+confirm-discard-changes-dialog-message = Kõik salvestamata muudatused lähevad kaduma.
+confirm-discard-changes-dialog-confirm-button = Unusta
+about-logins-breach-alert-title = Veebisaidi rünne
+breach-alert-text = Sellelt saidilt lekitati või varastati kasutajatunnused pärast seda, kui sa viimati enda omi uuendasid. Oma konto kaitsmiseks muuda selle parool.
+about-logins-breach-alert-date = See rünne toimus { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Mine saidile { $hostname }
+about-logins-vulnerable-alert-title = Nõrk parool
+about-logins-vulnerable-alert-text2 = Seda parooli on kasutatud mõnel teisel kontol, mille andmed tõenäoliselt lekkisid. Parooli uuesti kasutamine seab kõik sinu kontod ohtu. Muuda see parool.
+about-logins-vulnerable-alert-link = Ava { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Rohkem teavet
+about-logins-error-message-duplicate-login-with-link = Selle kasutajanimega kanne { $loginTitle } on juba olemas. <a data-l10n-name="duplicate-link">Kas soovid minna olemasoleva kande juurde?</a>
+about-logins-error-message-default = Parooli salvestamisel esines viga.
+about-logins-export-file-picker-title2 = Paroolide eksportimine { -brand-short-name }ist
+about-logins-export-file-picker-default-filename2 = paroolid.csv
+about-logins-export-file-picker-export-button = Ekspordi
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-fail
+       *[other] CSV-fail
+    }
+about-logins-import-file-picker-title2 = Paroolide importimine { -brand-short-name }i
+about-logins-import-file-picker-import-button = Impordi
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV-fail
+       *[other] CSV-fail
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV-dokument
+       *[other] TSV-fail
+    }
+about-logins-import-dialog-title = Importimine on lõpetatud
+about-logins-import-dialog-items-added2 =
+    { $count ->
+       *[other] <span>Uusi lisatud paroole:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+       *[other] <span>Olemasolevaid uuendatud kasutajatunnuseid:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+       *[other] <span>Korduvaid kasutajatunnuseid leitud:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ei imporditud)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Üks viga</span> <span data-l10n-name="meta">(ei imporditud)</span>
+       *[other] <span>Vigu:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(ei imporditud)</span>
+    }
+about-logins-import-dialog-done = Valmis
+about-logins-import-dialog-error-title = Viga importimisel
+about-logins-import-dialog-error-conflicting-values-title = Kasutajatunnusel leiti mitu vastuolus väärtust
+about-logins-import-dialog-error-conflicting-values-description = Näiteks: mitu kasutajanime, parooli, aadressi jne. ühe kasutajatunnuse kohta
+about-logins-import-dialog-error-file-format-title = Probleem failivorminguga
+about-logins-import-dialog-error-file-format-description = Valed või puuduvad veerupäised. Veendu, et failis oleksid veerud kasutajanimede, paroolide ja veebiaadressidega.
+about-logins-import-dialog-error-file-permission-title = Viga faili lugemisel
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name }il pole luba faili lugemiseks. Proovi muuta faili ligipääsuõigusi.
+about-logins-import-dialog-error-unable-to-read-title = Faili töötlemine ebaõnnestus
+about-logins-import-dialog-error-unable-to-read-description = Veendu, et valisid CSV- või TSV-faili.
+about-logins-import-dialog-error-no-logins-imported = Ühtegi kasutajatunnust ei imporditud
+about-logins-import-dialog-error-learn-more = Rohkem teavet
+about-logins-import-dialog-error-try-import-again = Proovi uuesti importida…
+about-logins-import-dialog-error-cancel = Loobu
+about-logins-import-report-title = Importimise kokkuvõte
+about-logins-import-report-description2 = Paroolid imporditi { -brand-short-name }i.
+about-logins-import-report-row-index = Rida { $number }
+about-logins-import-report-row-description-no-change2 = Duplikaat: olemasoleva kasutajakonto täpne koopia
+about-logins-import-report-row-description-modified2 = Olemasolev kasutajatunnus uuendati
+about-logins-import-report-row-description-added2 = Lisati uus parool
+about-logins-import-report-row-description-error = Viga: väli puudub
+about-logins-import-report-row-description-error-multiple-values = Viga: mitu väärtust väljale { $field }
+about-logins-import-report-row-description-error-missing-field = Viga: väli { $field } puudub
+about-logins-import-report-added2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">uus parool lisatud</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">uut parooli lisatud</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">olemasolev kasutajatunnus uuendatud</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">olemasolevat kasutajatunnust uuendatud</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">duplikaat</div> <div data-l10n-name="not-imported">(ei imporditud)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">duplikaati</div> <div data-l10n-name="not-imported">(ei imporditud)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+        [one] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">viga</div> <div data-l10n-name="not-imported">(ei imporditud)</div>
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">viga</div> <div data-l10n-name="not-imported">(ei imporditud)</div>
+    }
+about-logins-import-report-page-title = Importimise kokkuvõtte aruanne

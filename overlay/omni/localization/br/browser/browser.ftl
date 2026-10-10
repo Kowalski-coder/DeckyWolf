@@ -1,0 +1,591 @@
+browser-main-window-default-title = { -brand-full-name }
+browser-main-private-window-title =
+    { PLATFORM() ->
+        [macos] { -brand-full-name } — Merdeiñ prevez
+       *[other] { -brand-full-name } Merdeiñ prevez
+    }
+private-browsing-shortcut-text-2 = { -brand-shortcut-name } Merdeiñ prevez
+urlbar-services-notification-anchor =
+    .tooltiptext = Digeriñ penel ar gemennadenn staliadur
+urlbar-web-notification-anchor =
+    .tooltiptext = Ardeiñ penaos e c'hallit degemer rebuzadurioù digant al lec'hienn
+urlbar-midi-notification-anchor =
+    .tooltiptext = Digeriñ ar penel MIDI
+urlbar-eme-notification-anchor =
+    .tooltiptext = Ardeiñ an arver meziantoù DRM
+urlbar-web-authn-anchor =
+    .tooltiptext = Digeriñ ar banell dilesa web
+urlbar-canvas-notification-anchor =
+    .tooltiptext = Merañ aotreoù eztennañ ar steuñv
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = Ardeiñ rannadur ho klevell gant al lec'hienn
+urlbar-default-notification-anchor =
+    .tooltiptext = Digeriñ penel ar c'hemennadennoù
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = Digeriñ penel ar goulenn lec'hiadur
+urlbar-xr-notification-anchor =
+    .tooltiptext = Digeriñ penel aotreoù ar gwirvoud galloudel
+urlbar-storage-access-anchor =
+    .tooltiptext = Digeriñ penel aotreoù an oberiantiz merdeiñ
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = Ardeiñ rannadur ho prenestr pe ho skramm gant al lec'hienn
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = Digeriñ penel kemennadenn ar c'hadaviñ ezlinenn
+urlbar-password-notification-anchor =
+    .tooltiptext = Digeriñ penel kemennadenn enrollañ ar ger-tremen
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = Ardeiñ rannadur ho kamera ha/pe ho klevell gant al lec'hienn
+urlbar-web-rtc-share-speaker-notification-anchor =
+    .tooltiptext = Merañ rannadur ar selaouelloù all gant al lec'hienn
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = Digeriñ panell al lenn emgefreek
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = Kadavin roadennoù er c'hadaviñ diastal
+urlbar-addons-notification-anchor =
+    .tooltiptext = Digeriñ penel kemennadenn staliadur an askouezh
+urlbar-search-tips-confirm = Mat eo, komprenet am eus
+urlbar-search-tips-confirm-short = Komprenet em eus!
+urlbar-result-menu-button =
+    .title = Digeriñ al lañser
+urlbar-result-menu-button-feedback = Evezhiadennoù
+    .title = Digeriñ al lañser
+urlbar-result-menu-learn-more2 = Gouzout hiroc’h
+    .accesskey = G
+urlbar-result-menu-remove-from-history2 = Dilemel eus ar roll-istor
+    .accesskey = i
+urlbar-result-menu-tip-get-help2 = Skoazell
+    .accesskey = S
+urlbar-result-menu-manage-firefox-suggest2 = Merañ { -firefox-suggest-brand-name }
+    .accesskey = M
+urlbar-feedback-acknowledgment = Trugarez da vezañ roet hoc’h ali!
+urlbar-search-tips-onboard = Skrivit nebeutoc'h, kavit muioc'h: Klaskit war { $engineName } adalek ho parrenn chomlec'h.
+urlbar-search-tips-redirect-2 = Krogit ho klask er varrenn-chomlec'h evit gwelout alioù klask { $engineName } hag ho roll istor merdeiñ.
+urlbar-tabtosearch-onboard = Dibabit ar verradenn-mañ evit kavout ar pezh a fell deoc'h buanoc’h.
+urlbar-search-mode-bookmarks = Sinedoù
+urlbar-search-mode-tabs = Ivinelloù
+urlbar-search-mode-history = Roll istor
+urlbar-search-mode-actions = Oberoù
+urlbar-geolocation-blocked =
+    .tooltiptext = Stanket ho peus an titouroù lec'hiadur evit al lec'hienn-mañ.
+urlbar-xr-blocked =
+    .tooltiptext = Stanket ho peus an haeziñ gwirvoud galloudel evit al lec'hienn-mañ.
+urlbar-web-notifications-blocked =
+    .tooltiptext = Stanket ho peus ar rebuzadurioù evit al lec'hienn-mañ.
+urlbar-camera-blocked =
+    .tooltiptext = Stanket ho peus ho kamera evit al lec'hienn-mañ.
+urlbar-microphone-blocked =
+    .tooltiptext = Stanket ho peus ho klevell evit al lec'hienn-mañ.
+urlbar-screen-blocked =
+    .tooltiptext = Difennet ho peus al lec'hienn-mañ da rannañ ho skramm.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = Stanket ho peus ar c'hadaviñ diastal evit al lec'hienn-mañ.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = Stanket ho peus al lenn emgefreek media gant ar son evit al lec'hienn-mañ.
+urlbar-canvas-blocked =
+    .tooltiptext = Stanket ho peus eztennadur ar roadennoù ar steuenn.
+urlbar-midi-blocked =
+    .tooltiptext = Stanket ho peus an haeziñ MIDI evit al lec'hienn-mañ.
+urlbar-install-blocked =
+    .tooltiptext = Stanket ho peus ar staliadurioù askouezhioù war al lec'hienn-mañ.
+urlbar-star-edit-bookmark =
+    .tooltiptext = Embann ar sined-mañ ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = Lakaat ur sined war ar bajenn-mañ ({ $shortcut })
+clear-search-history =
+    .label = Skarzhañ ar roll istor
+    .accesskey = k
+page-action-manage-extension2 =
+    .label = Merañ an askouezh…
+    .accesskey = M
+page-action-remove-extension2 =
+    .label = Dilemel an askouezh
+    .accesskey = a
+full-screen-autohide =
+    .label = Kuzhat ar varrenn ostilhoù
+    .accesskey = h
+full-screen-exit =
+    .label = Kuitaat ar mod skramm a-bezh
+    .accesskey = K
+search-one-offs-with-title = Ar wech-mañ, klask gant:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = Kemmañ an arventennoù klask
+search-one-offs-context-open-new-tab =
+    .label = Klask en ivinell nevez
+    .accesskey = n
+search-one-offs-context-set-as-default =
+    .label = Lakaat evel keflusker enklask dre ziouer
+    .accesskey = k
+search-one-offs-context-set-as-default-private =
+    .label = Lakaat da lusker enklask dre ziouer evit ar prenestroù prevez
+    .accesskey = P
+search-one-offs-engine-with-alias =
+    .tooltiptext = { $engineName } ({ $alias })
+search-one-offs-add-engine =
+    .aria-label = Ouzhpennañ al lusker enklask “{ $engineName }”
+    .label = Ouzhpennañ “{ $engineName }”
+    .tooltiptext = Ouzhpennañ al lusker enklask { $engineName }”
+search-one-offs-add-engine-menu =
+    .label = Ouzhpennañ ul lusker enklask
+search-one-offs-bookmarks =
+    .tooltiptext = Sinedoù ({ $restrict })
+search-one-offs-tabs =
+    .tooltiptext = Ivinelloù ({ $restrict })
+search-one-offs-history =
+    .tooltiptext = Roll istor ({ $restrict })
+search-one-offs-actions =
+    .tooltiptext = Oberoù ({ $restrict })
+quickactions-addons = Gwelout an askouezhioù
+quickactions-bookmarks2 = Merañ ar sinedoù
+quickactions-cmd-bookmarks = sinedoù
+quickactions-clearrecenthistory = Skarzhañ ar roll istor nevesañ
+quickactions-downloads2 = Gwelout ar pellgargadurioù
+quickactions-cmd-downloads = pellgargadurioù
+quickactions-extensions = Merañ an askouezhioù
+quickactions-firefoxview = Digeriñ { -firefoxview-brand-name }
+quickactions-help = Skoazell { -brand-product-name }
+quickactions-cmd-help = skoazell, sikour, skor
+quickactions-inspector2 = Digeriñ Developer Tools
+quickactions-logins2 = Merañ ar gerioù-tremen
+quickactions-cmd-logins = titouroù kennaskañ, gerioù-tremen
+quickactions-print2 = Moullañ ar bajenn
+quickactions-cmd-print = moullañ
+quickactions-savepdf = Enrollañ ar bajenn evel PDF
+quickactions-cmd-savepdf2 = pdf, enrollañ ar bajenn
+quickactions-private2 = Digeriñ ur prenestr prevez
+quickactions-cmd-private = Merdeiñ prevez
+quickactions-refresh = Freskaat { -brand-short-name }
+quickactions-cmd-refresh = freskaat
+quickactions-restart = Adloc'hañ { -brand-short-name }
+quickactions-cmd-restart = adloc'hañ
+quickactions-screenshot3 = Kemer un dapadenn-skramm
+quickactions-settings2 = Merañ an arventennoù
+quickactions-themes = Merañ an neuzioù
+quickactions-update = Hizivaat { -brand-short-name }
+quickactions-cmd-update = hizivaat
+quickactions-viewsource2 = Gwelout tarzh ar bajennad
+quickactions-learn-more =
+    .title = Gouzout hiroc’h diwar-benn an Oberoù prim
+bookmarks-add-bookmark = Ouzhpennañ ur sined
+bookmarks-edit-bookmark = Kemmañ ar sined
+bookmark-panel-cancel =
+    .label = Nullañ
+    .accesskey = N
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [one] Dilemel ar sined
+            [two] Dilemel { $count } sined
+            [few] Dilemel { $count } sined
+            [many] Dilemel { $count } a sinedoù
+           *[other] Dilemel { $count } sined
+        }
+    .accesskey = R
+bookmark-panel-show-editor-checkbox =
+    .label = Diskouez an embanner pa enroll
+    .accesskey = S
+bookmark-panel-save-button =
+    .label = Enrollañ
+bookmark-panel =
+    .style = min-width: 30em
+identity-site-information = Titouroù al lec'hienn evit { $host }
+identity-header-security-with-host =
+    .title = Diogelroez ar c'hennask evit { $host }
+identity-connection-not-secure = N'eo ket diarvar ar c'hennask
+identity-connection-secure = Kennask suraet
+identity-connection-failure = Fazi kennaskañ
+identity-connection-internal = Ur bajenn { -brand-short-name } diarvar eo.
+identity-connection-file = War hoc'h urzhiataer eo kadavet ar bajenn-mañ.
+identity-connection-associated = Diwar ur bajenn all eo karget ar bajenn-mañ.
+identity-extension-page = Diwar un askouezh eo karget ar bajenn-mañ.
+identity-active-blocked = Stanket eo bet gant { -brand-short-name } lodennoù arvarus er bajennad.
+identity-custom-root = Gwiriet eo bet ar c'hennask hag ur pourchaser testenioù n'eo ket adanavezet gant Mozilla.
+identity-passive-loaded = Arvarus eo lodennoù eus ar bajennad (skeudennoù, da skouer).
+identity-active-loaded = Diweredekaet ho peus ar gwarez war ar bajenn-mañ.
+identity-weak-encryption = Enrinegañ gwan a vez arveret gant ar bajenn-mañ.
+identity-https-only-connection-upgraded = (hizivaet da HTTPS)
+identity-https-only-label2 = Diogelaat ar c’hennask d’al lec’hienn ent emgefreek
+identity-https-only-dropdown-on =
+    .label = Enaouet
+identity-https-only-dropdown-off =
+    .label = Lazhet
+identity-https-only-dropdown-off-temporarily =
+    .label = Lazhet e-pad nebeud amzer
+identity-https-only-info-turn-on3 = Gweredekait an HTTPS evit al lec’hienn-mañ ma fell deoc’h vefe hizivaet ar c‘hennask gant { -brand-short-name } p’eo posupl.
+identity-https-only-info-turn-off3 = Ma seblant bezañ torret ar bajenn e c’hallit diweredekaat an HTTPS evit al lec’hienn-mañ hag adkargañ gant HTTP.
+identity-https-only-info-no-upgrade = N'haller ket gwellaat ar c'hennask HTTP.
+identity-permissions-storage-access-header = Toupinoù etrelec'hienn
+identity-permissions-storage-access-hint = An aozadurioù-mañ a c'hall implijout toupinoù etre al lec’hiennoù hag ar roadennoù lec’hienn p’emaoc’h war al lec’hienn-mañ.
+identity-permissions-storage-access-learn-more = Gouzout hiroc’h
+identity-permissions-reload-hint = Ret eo deoc'h adkargañ ar bajenn evit arloañ ar c'hemmoù.
+identity-clear-site-data =
+    .label = Skarzhañ an toupinoù ha roadennoù lec'hienn…
+identity-connection-not-secure-security-view = N'oc'h ket kennasket d'al lec'hienn-mañ en un doare sur.
+identity-connection-verified = Kennasket oc'h d'al lec'hienn-mañ en un doare sur.
+identity-description-custom-root2 = Ne adanavez ket Mozilla pourchaser an testeni-mañ. Marteze eo bet ouzhpennet gant ho reizhiad korvoiñ pe gant un ardoer.
+identity-remove-cert-exception =
+    .label = Lemel an nemedenn kuit
+    .accesskey = L
+identity-description-insecure = N'eo ket prevez ho kennask war al lec'hienn-mañ. Gallout a ra an titouroù kinniget ganeoc'h bezañ gwelet gant tud all (gerioù-tremen, kemennadennoù, kartennoù gred en o zouez).
+identity-description-weak-cipher-intro = Enrinegañ gwan a vez arveret gant ho kennask d'al lec'hienn-mañ ha n'eo ket prevez.
+identity-description-weak-cipher-risk = Gallout a ra tud all sellet ouzh ho titouroù pe kemmañ emzalc'h al lec'hienn.
+identity-description-active-blocked2 = Stanket eo bet gant { -brand-short-name } lodennoù arvarus er bajennad.
+identity-description-passive-loaded = N'eo ket prevez ho kennask ha galloud a ra an titouroù rannet gant al lec'hienn bezañ gwelet gant tud all.
+identity-description-passive-loaded-insecure2 = Endalc'hadoù el lec'hienn-mañ a zo arvarus (skeudennoù, da skouer).
+identity-description-passive-loaded-mixed2 = Daoust m’eo bet stanked endalc’hadoù gant { -brand-short-name } e chom endalc’hadoù arvarus er bajennad (skeudennoù, da skouer).
+identity-description-active-loaded = Endalc'hadoù arvarus a zo el lec'hienn (skriptoù, da skouer) ha n'eo ket prevez ho kennask.
+identity-description-active-loaded-insecure = Gallout a ra an titouroù rannet gant al lec'hienn bezañ gwelet gant tud all (evel gerioù-tremen, kemennadennoù, kartennoù gred, hag all.).
+identity-more-info-link-text =
+    .label = Muioc'h a stlennoù
+browser-window-minimize-button =
+    .tooltiptext = Bihanaat
+browser-window-maximize-button =
+    .tooltiptext = Brasaat
+browser-window-restore-down-button =
+    .tooltiptext = Assav
+browser-window-close-button =
+    .tooltiptext = Serriñ
+browser-import-button2 =
+    .label = Enporzhiañ ar sinedoù…
+    .tooltiptext = Enporzhiañ ar sinedoù adalek ur merdeer all betek { -brand-short-name }.
+bookmarks-toolbar-empty-message = Evit kaout anezho buan e c’hallit lakaat ho sinedoù amañ e barrenn-ostilhoù ar sinedoù. <a data-l10n-name="manage-bookmarks">Merañ ar sinedoù…</a>
+popup-select-camera-device =
+    .value = Kamera:
+    .accesskey = K
+popup-select-camera-icon =
+    .tooltiptext = Kamera
+popup-select-microphone-device =
+    .value = Klevell:
+    .accesskey = K
+popup-select-microphone-icon =
+    .tooltiptext = Mikro
+popup-select-speaker-icon =
+    .tooltiptext = Selaouelloù
+popup-select-window-or-screen =
+    .label = Prenestr pe skramm:
+    .accesskey = P
+popup-all-windows-shared = Rannet e vo an holl brenestroù gwelus war ho skramm.
+sharing-warning-window = Emaoc'h o rannañ { -brand-short-name }. Gallout a ra tud all gwelet pa 'z it war un ivinell nevez.
+sharing-warning-screen = Emaoc'h o rannañ ho skramm a-bezh. Gallout a ra tud all gwelet pa 'z it war un ivinell nevez.
+sharing-warning-proceed-to-tab =
+    .label = Kenderc'hel betek an ivinell
+sharing-warning-disable-for-session =
+    .label = Diweredekaat ar gwarez rannañ evit an estez-mañ
+urlbar-search-mode-indicator-close =
+    .aria-label = Serriñ
+urlbar-placeholder =
+    .placeholder = Bizskrivit un termen da glask pe ur chomlec'h
+urlbar-placeholder-keyword-disabled =
+    .placeholder = Skrivañ ar chomlec’h
+urlbar-placeholder-search-mode-web-2 =
+    .aria-label = Klask gant { $name }
+    .placeholder = Klask er web
+urlbar-placeholder-search-mode-other-engine =
+    .aria-label = Klask { $name }
+    .placeholder = Enankit gerioù da glask
+urlbar-placeholder-search-mode-other-bookmarks =
+    .aria-label = Klask er sinedoù
+    .placeholder = Enankit gerioù da glask
+urlbar-placeholder-search-mode-other-history =
+    .aria-label = Klask er roll istor
+    .placeholder = Enankit gerioù da glask
+urlbar-placeholder-search-mode-other-tabs =
+    .aria-label = Klask en ivinelloù
+    .placeholder = Enankit gerioù da glask
+urlbar-placeholder-search-mode-other-actions =
+    .aria-label = Klask
+    .placeholder = Skrivañ ar gerioù da glask
+urlbar-placeholder-with-name =
+    .placeholder = Klask gant { $name } pe enankañ ur chomlecʼh
+urlbar-remote-control-notification-anchor2 =
+    .tooltiptext = Reoliet a-bell eo ar merdeer (abeg: { $component })
+urlbar-permissions-granted =
+    .tooltiptext = Roet ho peus aotreoù ouzhpenn d'al lec'hienn-mañ.
+urlbar-switch-to-tab =
+    .value = Mont d'an ivinell:
+urlbar-extension =
+    .value = Askouezh:
+urlbar-go-button2 =
+    .title = Mont d'ar chomlec'h er varrenn lec'hiañ
+urlbar-page-action-button =
+    .tooltiptext = Gweredoù ar bajenn
+urlbar-revert-button =
+    .tooltiptext = Diskouez ar chomlec’h er varrenn chomlec’h
+urlbar-result-action-search-in-private-w-engine = Klask gant { $engine } en ur prenestr prevez
+urlbar-result-action-search-in-private = Klask en ur prenestr prevez
+urlbar-result-action-search-w-engine = Klask gant { $engine }
+urlbar-result-action-sponsored = Paeroniet
+urlbar-result-action-switch-tab = Mont d'an ivinell
+urlbar-result-action-visit = Gweladenniñ
+urlbar-result-action-switch-tab-with-container = Mont d’an ivinell · <span>{ $container }</span>
+urlbar-result-action-tab-group-unnamed = Strollad dizanv
+urlbar-result-action-visit-from-clipboard = Gweladenniñ adalek ho kolver
+urlbar-result-action-before-tabtosearch-web = Pouezañ Tab evit klask gant { $engine }
+urlbar-result-action-before-tabtosearch-other = Pouezañ Tab evit klask war { $engine }
+urlbar-result-action-tabtosearch-web = Klask gant { $engine } war-eeun eus ar varrenn chomlecʼh
+urlbar-result-action-tabtosearch-other-engine = Klask gant { $engine } war-eeun eus ar varrenn chomlec’h
+urlbar-result-action-copy-to-clipboard = Eilañ
+urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> e { $city }, { $region }, { $country }
+urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</strong> e { $city }
+urlbar-result-weather-provider-sponsored = { $provider } · Paeroniet
+urlbar-searchmode-button3 =
+    .title = { $engine }, dibab ul lusker enklask
+urlbar-searchmode-button-no-engine2 =
+    .title = Berradenn ebet diuzet, dibabit ur varradenn
+urlbar-searchmode-dropmarker2 =
+    .title = Dibab ul lusker enklask
+urlbar-searchmode-exit-button2 =
+    .title = Serriñ
+urlbar-searchmode-default2 =
+    .title = Lusker enklask dre ziouer
+urlbar-searchmode-popup-add-engine = Ouzhpennañ “{ $engineName }”
+    .title = Ouzhpennañ al lusker enklask { $engineName }”
+urlbar-searchmode-popup-one-off-header = Ar wech-mañ, klask gant:
+urlbar-searchmode-popup-header = Klask gant:
+urlbar-searchmode-popup-search-settings = Arventennoù enklask
+    .accesskey = A
+urlbar-result-search-with = Klask gant { $engine }
+urlbar-result-search-with-local-search-mode = { $keywords } - Klask e-barzh { $localSearchMode }
+urlbar-result-search-with-engine-keywords = { $keywords } - Klask gant { $engine }
+urlbar-result-action-search-bookmarks = Klask er sinedoù
+urlbar-result-action-search-history = Klask er roll istor
+urlbar-result-action-search-tabs = Klask ivinelloù
+urlbar-result-action-search-actions = Klask
+urlbar-result-action-open-saved-tabgroup = Digeriñ { $group }
+urlbar-group-firefox-suggest =
+    .label = { -firefox-suggest-brand-name }
+urlbar-group-search-suggestions =
+    .label = Kinnigoù { $engine }
+urlbar-group-quickactions =
+    .label = Oberoù prim
+urlbar-group-recent-searches =
+    .label = Klaskoù nevesañ
+urlbar-group-trending =
+    .label = Diouzh ar c’hiz war { $engine }
+reader-view-enter-button =
+    .aria-label = Mont er mod lenn
+reader-view-close-button =
+    .aria-label = Serriñ ar mod lenn
+picture-in-picture-urlbar-button-open =
+    .tooltiptext = Digeriñ Skeudenn-ouzh-skeudenn ({ $shortcut })
+picture-in-picture-urlbar-button-close =
+    .tooltiptext = Serriñ Skeudenn-ouzh-skeudenn ({ $shortcut })
+picture-in-picture-panel-header = Skeudenn-ouzh-skeudenn
+picture-in-picture-panel-headline = N’eo ket erbedet ar mod Skeudenn-ouzh-skeudenn gant al lec’hienn-mañ.
+picture-in-picture-panel-body = Gallout a ra ar videoioù chom hep bezañ skrammet evel ma fell d’an diorroer⋅ez ma vez lakaet ar mod Skeudenn-ouzh-Skeudenn.
+picture-in-picture-enable-toggle =
+    .label = Gweredekaat memestra
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> a zo e skramm a-bezh
+fullscreen-warning-no-domain = War ar skramm a-bezh emañ an teul-mañ bremañ
+fullscreen-exit-button = Kuitaat ar mod skramm a-bezh (Esc)
+fullscreen-exit-mac-button = Kuitaat ar mod skramm a-bezh (Esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> a c'hall reoliñ ho logodenn. Pouezit war Achap evit bezañ mestr outi en-dro.
+pointerlock-warning-no-domain = Meret eo ho logodenn gant an teul-mañ. Pouezit war Achap evit bezañ mestr outi en-dro.
+bookmarks-manage-bookmarks =
+    .label = Merañ ar sinedoù
+bookmarks-recent-bookmarks-panel-subheader = Sinedoù nevez
+bookmarks-toolbar-chevron =
+    .tooltiptext = Diskouez meur a sined
+bookmarks-sidebar-content =
+    .aria-label = Sinedoù
+bookmarks-menu-button =
+    .label = Lañser ar sinedoù
+bookmarks-other-bookmarks-menu =
+    .label = Sinedoù all
+bookmarks-mobile-bookmarks-menu =
+    .label = Sinedoù hezoug
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] Kuzhat barrenn gostez ar sinedoù
+           *[other] Gwelout barrenn gostez ar sinedoù
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] Kuzhat barrenn ostilhoù ar sinedoù
+           *[other] Gwelout barrenn ostilhoù ar sinedoù
+        }
+bookmarks-tools-toolbar-visibility-panel =
+    .label =
+        { $isVisible ->
+            [true] Kuzhat barrenn ar sinedoù
+           *[other] Diskouez barrenn ar sinedoù
+        }
+bookmarks-search =
+    .label = Klask er sinedoù
+bookmarks-tools =
+    .label = Ostilhoù ar sinedoù
+bookmarks-subview-edit-bookmark =
+    .label = Embann ar sined…
+bookmarks-toolbar =
+    .aria-label = Sinedoù
+    .toolbarname = Barrenn ostilhoù ar sinedoù
+    .accesskey = s
+bookmarks-toolbar-menu =
+    .label = Barrenn ostilhoù ar sinedoù
+bookmarks-toolbar-placeholder =
+    .title = Ergorennoù barrenn ostilhoù ar sinedoù
+bookmarks-toolbar-placeholder-button =
+    .label = Ergorennoù barrenn ostilhoù ar sinedoù
+bookmarks-subview-bookmark-tab =
+    .label = Lakaat an ivinell a-vremañ er sinedoù…
+library-bookmarks-menu =
+    .label = Sinedoù
+repair-text-encoding-button =
+    .label = Ratreañ bonegañ an destenn
+    .tooltiptext = Divinout bonegañ an destenn reizh eus ar bajennad
+toolbar-settings-button =
+    .label = Arventennoù
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] Digeriñ an arventennoù ({ $shortcut })
+           *[other] Digeriñ an arventennoù
+        }
+toolbar-overflow-customize-button =
+    .label = Personelaat ar varrenn ostilhoù…
+    .accesskey = P
+toolbar-button-email-link =
+    .label = Kas an ere dre bostel
+    .tooltiptext = Kas ere ar bajenn-mañ dre bostel
+toolbar-button-logins =
+    .label = Gerioù-tremen
+    .tooltiptext = Gwelout ha merañ ar gerioù-tremen enrollet
+toolbar-button-save-page =
+    .label = Enrollañ ar bajenn
+    .tooltiptext = Enrollañ ar bajenn-mañ ({ $shortcut })
+toolbar-button-open-file =
+    .label = Digeriñ ur restr
+    .tooltiptext = Digeriñ ur restr ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = Ivinelloù goubredet
+    .tooltiptext = Diskouez ivinelloù an trevnadoù all
+toolbar-button-new-private-window =
+    .label = Prenestr merdeiñ prevez nevez
+    .tooltiptext = Digeriñ ur prenestr merdeiñ prevez nevez ({ $shortcut })
+eme-notifications-drm-content-playing = Bez ez eus aodio ha video war ar bajenn-mañ a arver meziantoù DRM, ar pezh a c'hell bevenniñ ar pezh a vezoc'h laosket gant { -brand-short-name } d'ober ganto.
+eme-notifications-drm-content-playing-manage = Merañ an arventennoù
+eme-notifications-drm-content-playing-manage-accesskey = M
+eme-notifications-drm-content-playing-dismiss = Argas
+eme-notifications-drm-content-playing-dismiss-accesskey = A
+panel-save-update-username-2 =
+    .label = Anv implijer
+panel-save-update-password-2 =
+    .label = Ger-tremen
+menu-share-more =
+    .label = Muioc'h…
+ui-tour-info-panel-close =
+    .tooltiptext = Serriñ
+picture-in-picture-hide-toggle =
+    .label = Kuzhat an afell skeudenn-ouzh-skeudenn
+    .accesskey = K
+picture-in-picture-move-toggle-right =
+    .label = Dilec'hiañ ar mod Skeudenn-ouzh-skeudenn war an tu dehou
+    .accesskey = D
+picture-in-picture-move-toggle-left =
+    .label = Dilec'hiañ ar mod Skeudenn-ouzh-skeudenn war an tu kleiz
+    .accesskey = D
+navbar-accessible =
+    .aria-label = Merdeiñ
+navbar-downloads =
+    .label = Pellgargadurioù
+navbar-overflow-2 =
+    .tooltiptext = Muioc'h a ostilhoù
+navbar-print =
+    .label = Moullañ
+    .tooltiptext = Moullañ ar bajenn-mañ… ({ $shortcut })
+navbar-home =
+    .label = D'ar gêr
+    .tooltiptext = Pennbajenn { -brand-short-name }
+navbar-library =
+    .label = Levraoueg
+    .tooltiptext = Gwelout ar roll istor, ar sinedoù enrollet ha muioc'h c'hoazh
+navbar-search =
+    .title = Klask
+tabs-toolbar =
+    .aria-label = Ivinelloù merdeer
+tabs-toolbar-new-tab =
+    .label = Ivinell nevez
+tabs-toolbar-list-all-tabs =
+    .label = Roll an holl ivinelloù
+    .tooltiptext = Roll an holl ivinelloù
+restore-session-startup-suggestion-message = <strong>Digeriñ an ivinelloù kent?</strong> Gallout a rit assav hoc'h estez kent adalek al lañser arload { -brand-short-name } <img data-l10n-name="icon"/>, dindan Roll istor
+restore-session-startup-suggestion-button = Diskouez din penaos ober
+data-reporting-notification-message = { -brand-short-name } a dreuzkas roadennoù ent emgefreek da { -vendor-short-name } evit gwellaat ho skiant-prenet.
+data-reporting-notification-button =
+    .label = Dibab ar pezh a zo rannet ganin
+    .accesskey = D
+private-browsing-indicator-label = Merdeiñ prevez
+private-browsing-indicator-tooltip =
+    .tooltiptext = Merdeiñ prevez
+content-analysis-panel-title = Gwarez ar roadennoù
+unified-extensions-button =
+    .label = Askouezhioù
+    .tooltiptext = Askouezhioù
+unified-extensions-button-permissions-needed =
+    .label = Askouezhioù
+    .tooltiptext =
+        Askouezhioù
+        Aotreoù ret
+unified-extensions-button-quarantined =
+    .label = Askouezhioù
+    .tooltiptext =
+        Askouezhioù
+        Ul lodenn eus an askouezhioù n'int ket aotreet
+reset-pbm-panel-always-ask-checkbox =
+    .label = Goulenn bewech
+    .accesskey = G
+reset-pbm-panel-cancel-button =
+    .label = Nullañ
+    .accesskey = N
+reset-pbm-panel-complete = Roadennoù an estez prevez dilamet
+refresh-blocked-refresh-label = Harzet eo bet gant { -brand-short-name } adkargadur emgefreek ar bajennad-mañ.
+refresh-blocked-redirect-label = { -brand-short-name } en deus miret ouzh ar bajenn-mañ adheñchañ ent emgefreek etrezek ur bajenn all.
+refresh-blocked-allow =
+    .label = Aotren
+    .accesskey = A
+firefox-relay-offer-why-to-use-relay = Hon aliazoù diogel hag aes da implij a warez hoc’h identelezh hag a stank ar posteloù lastez en ur guzhat ho chomlec’h postel.
+firefox-relay-offer-what-relay-provides = An holl bosteloù kaset d’hoc’h aliazoù postel a vo treuzkaset betek <strong> { $useremail }</strong> (estreget ma fell deoc’h o stankañ).
+firefox-relay-offer-legal-notice = En ur glikañ war “Implij an aliaz postel” e asantit d’an <label data-l10n-name="tos-url">divizoù arver</label>hag ar <label data-l10n-name="privacy-url">reolenn a-fed buhez prevez</label>.
+popup-notification-addon-install-unsigned =
+    .value = (Nann-gwiriet)
+popup-notification-xpinstall-prompt-learn-more = Gouzout hiroc’h a-zivout staliañ askouezhioù en un doare diogel
+popup-notification-xpinstall-prompt-block-url = Gwelet ar munudoù
+popup-notification-addon-privatebrowsing-checkbox2 =
+    .label = Aotren an askouezhioù da vezañ lañset er prenestroù merdeiñ prevez
+    .accesskey = p
+popup-warning-message =
+    { $popupCount ->
+        [one] Harzet eo bet gant { -brand-short-name } da zigeriñ un diflugell o tont eus al lec'hienn-mañ.
+        [two] Harzet eo bet gant { -brand-short-name } da zigeriñ { $popupCount } ziflugell o tont eus al lec'hienn-mañ.
+        [few] Harzet eo bet gant { -brand-short-name } da zigeriñ { $popupCount } diflugell o tont eus al lec'hienn-mañ.
+        [many] Harzet eo bet gant { -brand-short-name } da zigeriñ { $popupCount } a ziflugelloù o tont eus al lec'hienn-mañ.
+       *[other] Harzet eo bet gant { -brand-short-name } da zigeriñ { $popupCount } diflugell o tont eus al lec'hienn-mañ.
+    }
+popup-warning-exceeded-message =
+    { $popupCount ->
+        [one] { -brand-short-name } en deus miret al lec’hienn-mañ da zigeriñ muioc’h eget { $popupCount } prenestr diflugell.
+        [two] { -brand-short-name } en deus miret al lec’hienn-mañ da zigeriñ muioc’h eget { $popupCount } brenestr diflugell.
+        [few] { -brand-short-name } en deus miret al lec’hienn-mañ da zigeriñ muioc’h eget { $popupCount } frenestr diflugell.
+        [many] { -brand-short-name } en deus miret al lec’hienn-mañ da zigeriñ muioc’h eget { $popupCount } a brenestroù diflugell.
+       *[other] { -brand-short-name } en deus miret al lec’hienn-mañ da zigeriñ muioc’h eget { $popupCount } prenestr diflugell.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] Dibarzhioù
+           *[other] Gwellvezioù
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] D
+           *[other] G
+        }
+popup-show-popup-menuitem =
+    .label = Diskouez '{ $popupURI }'
+file-picker-crashed-show-in-folder =
+    .label = Diskouez en teuliad
+    .accessKey = t
+trustpanel-clear-cookies-subview-button-clear = Skarzhañ
+trustpanel-clear-cookies-subview-button-cancel = Nullañ
+trustpanel-siteinformation-morelink = Muioc’h a ditouroù diwar-benn al lec’hienn
+trustpanel-blocker-see-all = Gwelet pep tra

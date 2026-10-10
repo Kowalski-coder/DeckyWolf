@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Xin chào loài người!
+error-short-desc-text = Chúng tôi đến thăm các bạn với thiện chí hòa bình!
+error-long-desc1 = Người máy không được làm tổn hại con người hoặc bỏ mặc khi họ gặp nguy hiểm.
+error-long-desc2 = Loài người sẽ không tin những gì người máy đã thấy.
+error-long-desc3 = Người máy là những người bạn vui vẻ bằng nhựa.
+error-long-desc4 = Người máy có phần hậu bằng kim loại bóng loáng mà bạn không nên cắn.
+error-trailer-desc-text = Và chúng có một kế hoạch.
+error-try-again = Thử lại
+    .label2 = Vui lòng đừng nhấn cái nút này nữa.

@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Pretraži sve kartice
+all-tabs-menu-new-user-context =
+    .label = Nova kontejnerska kartica
+all-tabs-menu-hidden-tabs =
+    .label = Skrivene kartice
+all-tabs-menu-close-duplicate-tabs =
+    .label = Zatvori duple kartice
+all-tabs-menu-view-all-tabs =
+    .label = Prikaži sve kartice
+all-tabs-menu-recent-tab-groups-header = Nedavne grupe kartica
+all-tabs-menu-tab-groups-show-all =
+    .label = Prikaži sve
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupe kartica
+all-tabs-menu-current-window-header = Trenutačni prozor

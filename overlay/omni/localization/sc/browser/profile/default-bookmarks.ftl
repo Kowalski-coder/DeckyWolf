@@ -1,0 +1,14 @@
+default-bookmarks-title = Sinnalibros
+default-bookmarks-heading = Sinnalibros
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Otene agiudu
+default-bookmarks-firefox-customize = Personaliza Firefox
+default-bookmarks-firefox-community = Ìmplica·ti
+default-bookmarks-firefox-about = Subra de nos
+default-bookmarks-nightly-heading = Resursas de Firefox Nightly
+default-bookmarks-nightly-blog = Blog de Firefox Nightly
+default-bookmarks-bugzilla = Sinnalatzione de faddinas de Mozilla
+default-bookmarks-mdn = Rete de programmatzione de Mozilla
+default-bookmarks-nightly-tester-tools = Ainas de collàudu de Nightly
+default-bookmarks-crashes = Totu is faddinas tuas
+default-bookmarks-planet = Praneta Mozilla

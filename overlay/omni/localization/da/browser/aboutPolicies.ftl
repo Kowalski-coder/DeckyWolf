@@ -1,0 +1,17 @@
+about-policies-title = Virksomhedspolitikker
+aboutpolicies-page-heading =
+    .heading = Om politikker
+active-policies-tab = Aktive
+errors-tab = Fejl
+documentation-tab = Dokumentation
+active-policies-tab-title =
+    .title = Aktive
+errors-tab-title =
+    .title = Fejl
+documentation-tab-title =
+    .title = Dokumentation
+no-specified-policies-message = Tjenesten virksomhedspolitikker er aktiv, men ingen politikker er aktiveret.
+inactive-message = Tjenesten virksomhedspolitikker er inaktiv.
+policy-name = Navn på politik
+policy-value = Værdi for politik
+policy-errors = Fejl med politik

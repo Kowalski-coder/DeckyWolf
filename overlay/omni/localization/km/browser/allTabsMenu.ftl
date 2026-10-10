@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = ផ្ទាំង​ឧបករណ៍​ផ្ទុក​ថ្មី
+all-tabs-menu-hidden-tabs =
+    .label = ផ្ទាំងដែលលាក់
+all-tabs-menu-recent-tab-groups-header = ក្រុមផ្ទាំងថ្មីៗ
+all-tabs-menu-tab-groups-show-all =
+    .label = បង្ហាញ​ទាំងអស់
+all-tabs-menu-tab-groups-sub-view =
+    .title = ក្រុមផ្ទាំង
+all-tabs-menu-current-window-header = បង្អួចបច្ចុប្បន្ន

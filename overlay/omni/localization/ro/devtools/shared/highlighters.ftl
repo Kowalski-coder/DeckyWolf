@@ -1,0 +1,13 @@
+grid-row-column-positions = Rând { $row } / Coloană { $column }
+gridtype-container = Container de grilă
+gridtype-item = Element de grilă
+gridtype-dual = Container/Element de grilă
+flextype-container = Container flex
+flextype-item = Element flex
+flextype-dual = Container/Element flex
+remote-node-picker-notice = Selector de noduri DevTools activat. { $action }
+remote-node-picker-notice-action-desktop = Dă clic pe un element pentru a-l selecta în Inspector
+remote-node-picker-notice-action-touch = Atinge un element pentru a-l selecta în Inspector
+remote-node-picker-notice-hide-button = Ascunde
+simple-highlighters-message = Când este activată opțiunea „prefers-reduced-motion”, în panoul de setări poate fi activat un evidențiator mai simplu, pentru a evita culorile intermitente.
+simple-highlighters-settings-button = Deschide setările

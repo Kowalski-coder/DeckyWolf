@@ -1,0 +1,15 @@
+panic-button-open-new-window = Malfermi novan malplenan fenestron
+panic-button-undo-warning = Tiu ĉi ago ne povas esti malfarita.
+panic-button-forget-button =
+    .label = Forgesi!
+panic-main-timeframe-desc = Forgesi la lastajn:
+panic-button-5min =
+    .label = 5 minutojn
+panic-button-2hr =
+    .label = 2 horojn
+panic-button-day =
+    .label = 24 horojn
+panic-button-action-desc = Je daŭrigo:
+panic-button-delete-cookies = Viŝi ĵusajn <strong>kuketojn</strong>
+panic-button-delete-history = Viŝi ĵusajn <strong>historion</strong>
+panic-button-delete-tabs-and-windows = Fermi ĉiujn <strong>langetojn</strong> kaj <strong>fenestrojn</strong>

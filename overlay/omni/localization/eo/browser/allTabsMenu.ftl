@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Serĉi en ĉiuj langetoj
+all-tabs-menu-new-user-context =
+    .label = Nova inga langeto
+all-tabs-menu-hidden-tabs =
+    .label = Kaŝitaj langetoj
+all-tabs-menu-close-duplicate-tabs =
+    .label = Fermi duobligitajn langetojn
+all-tabs-menu-view-all-tabs =
+    .label = Montri ĉiujn langetojn
+all-tabs-menu-recent-tab-groups-header = Ĵusaj grupoj de langetoj
+all-tabs-menu-tab-groups-show-all =
+    .label = Montri ĉiujn
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupoj de langetoj
+all-tabs-menu-current-window-header = Nuna fenestro

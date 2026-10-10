@@ -1,0 +1,53 @@
+aboutDialog-title =
+    .title = Arredol de { -brand-full-name }
+releaseNotes-link = Novedaz
+update-checkForUpdatesButton =
+    .label = Mirar actualizacions
+    .accesskey = M
+update-updateButton =
+    .label = Reiniciar pa esviellar { -brand-shorter-name }
+    .accesskey = R
+update-checkingForUpdates = Comprebando as actualizacions…
+settings-update-checking-for-updates =
+    .label = Comprebando as actualizacions…
+settings-update-downloading-2 =
+    .label = Descargando actualización — { $transfer }
+aboutdialog-update-downloading = Se ye baixando l'actualización — <label data-l10n-name="download-status">{ $transfer }</label>
+update-applying = Se ye esviellando…
+settings-update-applying =
+    .label = Se ye esviellando…
+update-failed = L'actualización ha fallau. <label data-l10n-name="failed-link">Descargar a zaguera versión</label>
+update-failed-main = L'actualización ha fallau. <a data-l10n-name="failed-link-main">Descargar a zaguera versión</a>
+update-policy-disabled = La tuya organización ha desactivau las actualizacions
+settings-update-policy-disabled =
+    .label = La tuya organización ha desactivau las actualizacions
+update-noUpdatesFound = { -brand-short-name } ye esviellau
+settings-update-no-updates-found =
+    .label = { -brand-short-name } ye esviellau
+aboutdialog-update-checking-failed = No s'ha puesto comprebar si i hai actualizacions.
+settings-update-checking-failed =
+    .label = No s'ha puesto comprebar si i hai actualizacions.
+update-otherInstanceHandlingUpdates = Unatra instancia ye esviellando { -brand-short-name }
+settings-update-other-instance-handling-updates =
+    .label = Unatra instancia ye esviellando { -brand-short-name }
+aboutdialog-update-manual-with-link = Actualización disponible en <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Actualización disponible en <a data-l10n-name="manual-link">{ $displayUrl }</a>
+update-unsupported = Iste sistema ya no se puede esviellar mas. <label data-l10n-name="unsupported-link">Saber-ne mas</label>
+settings-update-unsupported = Iste sistema ya no se puede esviellar mas. <a data-l10n-name="unsupported-link">Saber-ne mas</a>
+update-restarting = Se ye reiniciando…
+settings-update-restarting =
+    .label = Se ye reiniciando…
+update-internal-error2 = No s'han puesto buscar actualizacions per una error intera. Las actualizacions disponibles son en <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-internal-error = No s'han puesto buscar actualizacions per una error intera. Las actualizacions disponibles son en <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-channel-description = Ye fendo servir a canal <label data-l10n-name="current-channel">{ $channel }</label> d'actualizacions.
+warningDesc-version = { -brand-short-name } ye experimental y puede estar inestable.
+aboutdialog-help-user = Aduya de { -brand-product-name }
+aboutdialog-submit-feedback = Ninviar comentarios
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> ye una <label data-l10n-name="community-exp-creditsLink">comunidat global</label> que treballa a ixena ta preservar o ret ubierto, publico y accesible ta toz.
+community-2 = { -brand-short-name } ye disenyau por <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, una <label data-l10n-name="community-creditsLink">comunidat global</label> que treballa a zofra ta preservar o ret ubierto, publico y accesible ta totz.
+helpus = Quiere aduyar? <label data-l10n-name="helpus-donateLink">Faiga una donación</label> u <label data-l10n-name="helpus-getInvolvedLink">embreque-se-ie!</label>
+bottomLinks-license = Información d'a licencia
+aboutDialog-version = { $version } ({ $bits }-bits)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bits)
+aboutdialog-version-arch = { $version } ({ $arch })
+aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })

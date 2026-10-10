@@ -1,0 +1,206 @@
+ipprotection-button =
+    .label = VPN
+    .tooltiptext = VPN
+ipprotection-button-error =
+    .label = Ŝalti VPN
+    .tooltiptext = Ŝalti VPN
+ipprotection-experiment-badge =
+    .label = BETA
+ipprotection-help-button =
+    .tooltiptext = Malfermi la helpan paĝon pri VPN
+ipprotection-title = VPN
+ipprotection-feature-introduction-title = Ni prezentas VPN, nun integrita en via retumilo.
+ipprotection-feature-introduction-title-1 = Provu la integritan VPN de { -brand-product-name }
+ipprotection-feature-introduction-link-text-2 = Uzu nian novan <a data-l10n-name="learn-more-vpn">integritan VPN</a> por kaŝi vian pozicion kaj protekti viajn datumojn.
+ipprotection-feature-introduction-title-privacy = Aldoni alian privatecan tavolon
+ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">La integrita VPN en { -brand-product-name }</a> helpas vin protekti vian retumon. Elektu inter pluraj lokoj por teni vian retumon pli privata.
+ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">La integrita VPN en { -brand-product-name }</a> helpas vin protekti vian retumon. Elektu inter pluraj lokoj por teni vian retumon pli privata.
+ipprotection-feature-introduction-link-text-privacy-3 = Ricevu <a data-l10n-name="learn-more-vpn">ekstran privatecon</a> per elekto inter pluraj lokoj, por kaŝi la lokon el kie vi retumas.
+ipprotection-feature-introduction-text-summer-promo-1 = Ŝaltu por teni vian retumon pli privata. <a data-l10n-name="summer-promo-link">Havu senliman trafikon</a> kaj pli da lokoj, el kie retumi. Propono valida ĝis la 31 de aŭgusto.
+ipprotection-feature-introduction-title-summer-promo = Ĉu vi pretas vojaĝi? Portu privatecon kun vi.
+ipprotection-feature-introduction-description-summer-promo = Iru eĉ pli for per la integrita VPN de { -brand-product-name }: pli da lokoj, senlima trafiko. Propono valida ĝis la 31 de aŭgusto.
+ipprotection-summer-promo-offramp-generic-title = La limoj de via integrita VPN disponeblos je la 1-a de septembro
+ipprotection-summer-promo-offramp-generic-description = Uzu viajn { $maxUsage } GB kaj 6 lokojn por aldona privateco, kiu malhelpas rilatigon inter via retumo kaj vi.
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = Uzu viajn { $maxUsage } GB kaj 20 lokojn por aldona privateco, kiu malhelpas rilatigon inter via retumo kaj vi.
+ipprotection-summer-promo-offramp-subscriber-title = Via integrita VPN ĵus pliboniĝis
+ipprotection-summer-promo-offramp-subscriber-description = Kiel abonanto de { -mozilla-vpn-brand-name } vi nun ricevas senliman datumtrafikon kaj pli da lokoj.
+ipprotection-summer-promo-offramp-default-browser-incentive-title = Gardu viajn aldonajn lokojn por integrita VPN
+ipprotection-summer-promo-offramp-default-browser-incentive-description = Igu { -brand-product-name } via norma retumilo, kaj ricevu pli ol 20 aldonaj lokoj, el kiuj vi povos retumi ekde la 31an de aŭgusto.
+ipprotection-summer-promo-offramp-subscription-upsell-title = Atingu novan nivelon per { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-subscription-upsell-description = Gardu senliman datumtrafikon post la 31an de aŭgusto, kun pli ol 300 lokoj sur 5 aparatoj, por malhelpi rilatigon de via retumo kaj vi.
+ipprotection-summer-promo-offramp-open-vpn-primary-button = Malfermi VPN
+ipprotection-summer-promo-offramp-set-to-default-primary-button = Agordi kiel norma
+ipprotection-summer-promo-offramp-get-subscription-button = Elŝuti { -mozilla-vpn-brand-name }
+ipprotection-summer-promo-offramp-dismiss-secondary-button = Ignori
+ipprotection-feature-introduction-link-text-private-browsing-2 = Uzu nian novan <a data-l10n-name="learn-more-vpn">integritan VPN</a> por kaŝi vian pozicion kaj protekti viajn datumojn, eĉ en privataj fenestroj.
+ipprotection-feature-introduction-description-private-browsing = Retumu kun aldonaj protektoj per kaŝo de via pozicio, eĉ dum vi estas en privata fenestro.
+ipprotection-feature-introduction-title-captive-portal = Ĉu vi uzas publikan Wi-Fi? Provu la integritan VPN de { -brand-product-name }.
+ipprotection-feature-introduction-description-captive-portal = Retumu kun aldonaj protektoj per kaŝo de via pozicio, eĉ dum vi estas en publika Wi-Fi.
+ipprotection-feature-introduction-link-text-captive-portal-1 = Ricevu <a data-l10n-name="learn-more-vpn">ekstran privatecon</a> per elekto inter pluraj lokoj, por kaŝi la lokon el kie vi retumas.
+ipprotection-feature-introduction-button-primary = Antaŭen
+ipprotection-feature-introduction-button-secondary-not-now = Ne nun
+ipprotection-feature-introduction-button-secondary-not-now-menuitem =
+    .label = Ne nun
+ipprotection-feature-introduction-button-secondary-no-thanks = Ne, dankon
+ipprotection-feature-introduction-button-secondary-no-thanks-menuitem =
+    .label = Ne, dankon
+ipprotection-feature-introduction-button-secondary-remove = Forigi VPN el la ilaro
+ipprotection-feature-introduction-button-secondary-remove-1 =
+    .label = Forigi VPN el la ilaro
+ipprotection-feature-introduction-button-open-vpn = Malfermi VPN
+ipprotection-feature-introduction-button-get-started = Unuaj paŝoj
+ipprotection-site-settings-callout-title = Elektu, por kiuj retejoj uzi VPN
+ipprotection-site-settings-callout-subtitle = Malŝaltu VPN por specifa retejo kaj ni memoros tion por la venonta vizito.
+ipprotection-site-settings-callout-button = Mi komprenis
+ipprotection-location-selection-callout-title = Nova: ŝanĝu vian pozicion
+ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn-more-vpn">La integrita VPN de { -brand-product-name }</a> permesas al vi elekti inter pluraj lokoj, aŭ lasi nin elekti la plej rapidan por vi.
+ipprotection-location-selection-callout-primary-button = Provi
+ipprotection-location-selection-callout-secondary-button = Ignori
+ipprotection-android-promo-callout-title = Portu la integritan VPN kun vi en Android
+ipprotection-android-promo-callout-description = Skanu la kodon QR por elŝuti { -brand-product-name } por Android kaj ŝalti la integritan VPN por havi pli da privateco kie ajn vi estas. Baldaŭ disponebla en iOS.
+ipprotection-android-promo-callout-primary-button = Mi komprenis
+unauthenticated-vpn-title = Provu la integritan VPN de { -brand-product-name }
+unauthenticated-hide-location-message-3 = <a data-l10n-name="learn-more-vpn">Kaŝu vian pozicion</a> dum retumo per { -brand-product-name }.
+unauthenticated-private-location-message = Tio ĉi helpas vin <a data-l10n-name="learn-more-vpn">teni vian pozicion privata</a> en { -brand-product-name }.
+unauthenticated-choose-location-message-1 = Elektu inter pluraj lokoj aŭ permesu al { -brand-product-name } elekti la plej rapidan.
+unauthenticated-site-rules-message = Difinu, kiuj retejoj uzos VPN kaj kiuj ne.
+unauthenticated-get-started = Unuaj paŝoj
+unauthenticated-terms-of-service-privacy-notice = Se vi daŭrigas, vi akceptas la <a data-l10n-name="vpn-terms-of-service">kondiĉojn de uzo</a> kaj <a data-l10n-name="vpn-privacy-notice">rimarkon pri privateco</a>.
+site-exclusion-toggle-enabled-1 =
+    .aria-label = VPN ŝaltita por tiu ĉi retejo
+    .label = Ŝalti VPN por tiu ĉi retejo
+site-exclusion-toggle-disabled-1 =
+    .aria-label = VPN malŝaltita por tiu ĉi retejo
+    .label = Ŝalti VPN por tiu ĉi retejo
+site-exclusion-toggle-description = Ĉu la retejo ne funckias? Provu malŝalti la VPN.
+site-rules-manage-rules-link-text = Administri regulojn de VPN
+site-rules-status-heading = Via regulo
+site-rules-description-exclusion = VPN malŝaltita por tiu ĉi retejo
+site-rules-description-inclusion = VPN ŝaltita por tiu ĉi retejo
+ipprotection-settings-link =
+    .label = Agordoj
+ipprotection-connection-status-connected-1 = VPN ŝaltita
+    .aria-label = VPN ŝaltita
+ipprotection-connection-status-disconnected-1 = VPN malŝaltita
+    .aria-label = VPN malŝaltita
+ipprotection-connection-status-excluded-1 = VPN malŝaltita por tiu ĉi retejo
+    .aria-label = VPN malŝaltita por tiu ĉi retejo
+ipprotection-connection-status-connecting-1 = Konektiĝo al VPN…
+    .aria-label = Konektiĝo al VPN…
+ipprotection-button-turn-vpn-off = Malŝalti VPN
+ipprotection-button-turn-vpn-off-excluded-site = Malŝalti VPN ĉie
+ipprotection-button-turn-vpn-on = Ŝalti VPN
+ipprotection-button-connecting = Ŝalto…
+ipprotection-recommended-location-button = Loko: Rekomendita
+ipprotection-recommended-location-description = { -brand-product-name } trovas la plej rapidan lokon
+ipprotection-recommended-location-badge = NOVA
+ipprotection-location-country-button = Loko: { $country }
+ipprotection-locations-subview =
+    .title = Elekti lokon
+ipprotection-locations-subview-description = Elektu alian lokon, el kie retumi.
+ipprotecion-locations-subview-recommended-label = Rekomendita
+ipprotection-locations-subview-recommended-description = Tio ĉi trovas la plej rapidan lokon
+ipprotection-locations-unavailable-label-1 = Nedisponebla
+    .aria-label = Nedisponebla, malaktivigita
+ipprotection-locations-subview-promo =
+    .heading = Protektu vin iom pli per { -mozilla-vpn-brand-name }
+    .message = Elektu inter 300+ lokoj kaj protektu ĉiujn viajn apojn en maksimume 5 aparatoj.
+ipprotection-locations-subview-promo-button = Elŝuti { -mozilla-vpn-brand-name }
+ipprotection-connection-status-paused-title-2 = VPN paŭzigita
+    .aria-label = VPN paŭzigita
+ipprotection-connection-status-paused-description-1 = Vi elĉerpis la { $maxUsage } GB de via datumoj en VPN. Venontmonate ili disponeblos denove.
+upgrade-vpn-title = Ricevu aldonan protekton, krom tiun de la retumilo.
+upgrade-vpn-description = Elektu la lokon de via VPN, uzu VPN por ĉiuj viaj apoj en maksimume 5 aparatoj kaj restu sekura en iu ajn reto, ĉu hejme ĉu en publika Wi-Fi.
+upgrade-vpn-button = Provu { -mozilla-vpn-brand-name }
+ipprotection-connection-status-generic-error-title-1 = Ne eblis konektiĝi al la VPN
+    .aria-label = Ne eblis konektiĝi al la VPN
+ipprotection-connection-status-generic-error-description = Provu denove post kelkaj minutoj.
+ipprotection-connection-status-generic-error-try-again = Bonvolu klopodi denove poste.
+ipprotection-connection-status-network-error-title-1 = Kontrolu vian retaliron
+    .aria-label = Kontrolu vian retaliron
+ipprotection-connection-status-network-error-description = Konektiĝu al la reto kaj poste provu ŝalti la VPN.
+ipprotection-connection-status-blocked-error-title-1 = La VPN ne disponeblas
+    .aria-label = La VPN ne disponeblas
+ipprotection-connection-status-blocked-error-description-1 = Lokaj leĝoj kaj restriktoj limigas la lokojn kie vi povas uzi VPN. <a data-l10n-name="learn-more-link">Pli da informo</a>
+ipprotection-message-bandwidth-warning =
+    .heading = Vi alproksimiĝas al via limo en VPN
+    .message = Restas al vi { $usageLeft } GB el { $maxUsage } GB por la cetero de la monato.
+ipprotection-message-bandwidth-warning-mb =
+    .heading = Vi alproksimiĝas al via limo en VPN
+    .message = Restas al vi { $usageLeft } MB el { $maxUsage } GB por tiu ĉi monato.
+ipprotection-message-continuous-onboarding-intro = Ŝaltu VPN por kaŝi vian pozicion kaj aldoni kroman tavolon de ĉifrado al via retumo.
+ipprotection-message-continuous-onboarding-autostart = <a data-l10n-name="setting-link">Aŭtomate ŝaltu VPN</a> ĉiufoje kiam vi malfermas { -brand-short-name } por havi aldonan tavolon de protekto.
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } memoros la retejojn kiujn vi agordis por viziti pere de VPN. Vi povas modifi ilin iam ajn en <a data-l10n-name="setting-link">agordoj</a>.
+confirmation-hint-ipprotection-navigated-to-excluded-site = VPN malŝaltita por tiu ĉi retejo
+ipprotection-open-button = Malfermi { -brand-product-name }
+ipprotection-come-back-title = Revenu provi la integritan VPN
+ipprotection-message-body-hide-location = Kaŝu vian pozicion kiam dum vi retumas per { -brand-product-name } por havi pli da privateco kaj rego.
+ipprotection-bandwidth-upgrade-title = Ĉu vi ŝatas la integritan VPN? Ricevu eĉ pli da protekto krom tiu de { -brand-product-name } per { -mozilla-vpn-brand-name }.
+ipprotection-bandwidth-upgrade-text = Elektu lokon por VPN kaj aldonu protekton al ĉiuj viaj apoj en maksimume 5 aparatoj, ĉu vi estas hejme ĉu en publika Wi-Fi.
+ip-protection-bandwidth-warning-infobar-message-75 = <strong>Vi alproksimiĝas al via datuma limo de VPN.</strong> Restas al vi { $usageLeft } GB. Viaj datumoj estos replenigitaj je la komenco de la venonta monato.
+ip-protection-bandwidth-warning-infobar-message-90 = <strong>Vi preskaŭ elĉerpas viajn datumojn en VPN.</strong> Restas al vi { $usageLeft } GB. Elĉerpinte ilin via VPN paŭzos ĝis la unuan tagon de la venonta monato, kiam la datumoj estos replenigitaj.
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>Vi preskaŭ elĉerpas viajn datumojn en VPN.</strong> Restas al vi { $usageLeft } MB. Elĉerpinte ilin via VPN paŭzos ĝis la unua tago de la venonta monato, kiam la datumoj estos replenigitaj.
+ip-protection-description =
+    .description = Integrita VPN por plibonigi vian privatecon dum vi retumas per { -brand-short-name }.
+    .label = VPN
+ip-protection-description-1 =
+    .description = Ricevu ekstran privatecon per kaŝo de via pozicio dum vi retumas.
+    .label = Integrita VPN
+ip-protection-learn-more = Pli da informo
+ip-protection-not-opted-in-4 =
+    .heading = Provu la integritan VPN de { -brand-short-name }
+    .message = Retumu ekstre protektita per kaŝo de via pozicio.
+ip-protection-not-opted-in-button = Unuaj paŝoj
+ip-protection-site-exceptions-all-sites-button =
+    .description =
+        { $count ->
+            [one] { $count } retejo
+           *[other] { $count } retejoj
+        }
+    .label = Administri agordojn de retejoj
+ip-protection-site-rules-header =
+    .heading = Administri regulojn por retejoj
+ip-protection-site-rules-button =
+    .description = Difini regulojn por retejoj, kiuj bezonas kroman privatecon aŭ kiuj bezonas malŝaltitan VPN.
+    .label = Administri regulojn por retejoj
+ip-protection-autostart =
+    .label = Aŭtomate ŝalti VPN
+ip-protection-autostart-checkbox =
+    .label = Kiam mi malfermas { -brand-short-name }
+ip-protection-autostart-private-checkbox =
+    .label = En privataj fenestroj
+ip-protection-vpn-upgrade-link =
+    .description = Elektu personecitigajn lokojn por VPN kaj aldonu protekton al ĉiuj viaj apoj en maksimume kvin aparatoj, ĉu hejme ĉu en publika Wi-Fi.
+    .label = Ricevu eĉ pli da protekto krom tiu de { -brand-short-name } per { -mozilla-vpn-brand-name }.
+ip-protection-vpn-upgrade-link-1 =
+    .description = Elektu inter 300+ lokoj kaj protektu ĉiujn viajn apojn en maksimume 5 aparatoj.
+    .label = Protektu vin iom pli per { -mozilla-vpn-brand-name }
+ip-protection-exceptions-dialog-window =
+    .title = Administri agordojn de retejoj
+ip-protection-exclusions-desc = Uzi VPN por ĉiuj retejoj, krom por tiuj en tiu ĉi listo. Aldonu retejon rekte ĉi tie aŭ per malfermo de la VPN.
+ip-protection-bandwidth-header-1 = Monata datuma limo
+ip-protection-bandwidth-left-this-month-gb = Ĉi monate restas { $usageLeft } GB el { $maxUsage } GB
+ip-protection-bandwidth-left-gb-1 = <span data-l10n-name="usage">restas { $usageLeft } GB</span> el { $maxUsage } GB
+ip-protection-bandwidth-left-this-month-mb = Ĉi monate restas { $usageLeft } MB el { $maxUsage } GB
+ip-protection-bandwidth-left-mb-1 = <span data-l10n-name="usage">restas { $usageLeft } MB</span> el { $maxUsage } GB
+ip-protection-bandwidth-hit-for-the-month = Vi elĉerpis la { $maxUsage } GB de via datumoj en VPN. Venontmonate ili disponeblos denove.
+ip-protection-bandwidth-help-text = La unuan tagon de ĉiu monato { $maxUsage } GB estos disponigitaj.
+ipprotection-bandwidth-reset-title =
+    { $maxUsage ->
+        [one] { $maxUsage } GB de VPN, replenigita kaj preta por uzo
+       *[other] { $maxUsage } GB de VPN, replenigitaj kaj pretaj por uzo
+    }
+ipprotection-bandwidth-reset-text = Ŝaltu vian VPN por aldona privateca plibonigo, senpage ĉiumonate.
+ipprotection-bandwidth-reset-button = Mi komprenis
+ipp-activator-breakage-sign-in-warning = <strong>Tiu ĉi retejo povus ne funkcii per VPN.</strong> Provu komenci seancon aŭ malŝalti la VPN dum vi uzas tiun ĉi retejon.
+ipp-activator-breakage-turn-off-warning = <strong>Tiu ĉi retejo povus ne funkcii per VPN.</strong> Provu malŝalti la VPN dum vi uzas tiun ĉi retejon.
+vpn-paused-alert-title = VPN paŭzigita
+vpn-paused-alert-body = Vi elĉerpis la { $maxUsage } GB de via datumoj en VPN. Venontmonate ili disponeblos denove.
+vpn-error-page-paused-description = Vi elĉerpis la { $maxUsage } GB de via datumoj en VPN. Venontmonate ili disponeblos denove.
+vpn-error-page-continue-description = Elektu kiel daŭrigi sen VPN
+vpn-error-page-keep-browsing = Plu retumi en tiu ĉi seanco
+vpn-error-page-new-session = Komenci novan seancon
+vpn-paused-alert-close-tabs-button = Fermi ĉiujn langetojn
+vpn-paused-alert-continue-wo-vpn-button = Daŭrigi sen VPN
+vpn-error-alert-title = La VPN ne funkcias nun.
+vpn-error-alert-body = Provu denove poste.

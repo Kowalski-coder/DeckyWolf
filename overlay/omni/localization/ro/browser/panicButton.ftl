@@ -1,0 +1,15 @@
+panic-button-open-new-window = Se deschide o nouă fereastră goală
+panic-button-undo-warning = Acțiunea este ireversibilă.
+panic-button-forget-button =
+    .label = Uită!
+panic-main-timeframe-desc = Uită ultimele:
+panic-button-5min =
+    .label = Cinci minute
+panic-button-2hr =
+    .label = Două ore
+panic-button-day =
+    .label = 24 de ore
+panic-button-action-desc = Dacă vei continua:
+panic-button-delete-cookies = Se șterg <strong>cookie-urile</strong> recente
+panic-button-delete-history = Se șterge <strong>istoricul</strong> recent
+panic-button-delete-tabs-and-windows = Se închid toate <strong>filele</strong> și <strong>ferestrele</strong>

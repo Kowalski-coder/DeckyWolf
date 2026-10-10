@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Xush kelibsiz, insonlar!
+error-short-desc-text = Biz sizga tinchlik istab keldik!
+error-long-desc1 = Robotlar insonlarga zarar yetkazmasligi kerak yoki inson o‘zi zararlanganda azob bermasligi kerak.
+error-long-desc2 = Insonlar hech qachon ishonmaydigan narsani robotlar koʻrishgan.
+error-long-desc3 = Robotlar  — sizning plastik do‘stlaringiz, ular bilan hech qachon zerikmaysiz.
+error-long-desc4 = Robotlarning yaltiroq metall bilan qoplangan orqa tarafini tishlab ko‘rmang.
+error-trailer-desc-text = Va ularda reja bor.
+error-try-again = Yana urinib ko‘rish
+    .label2 = Iltimos, bu tugmani boshqa bosmang.

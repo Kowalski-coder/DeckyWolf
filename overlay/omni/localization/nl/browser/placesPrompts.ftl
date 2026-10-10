@@ -1,0 +1,14 @@
+places-error-title = { -brand-short-name }
+places-no-title = (geen titel)
+places-load-js-data-url-error = Om veiligheidsredenen kunnen ‘javascript:’- of ‘data:’-URL’s niet vanuit de geschiedenis of zijbalk worden geladen.
+places-bookmarks-backup-title = Bestandsnaam voor bladwijzerreservekopie
+places-bookmarks-restore-alert-title = Bladwijzers terugzetten
+places-bookmarks-restore-alert = Al uw huidige bladwijzers zullen worden vervangen door de reservekopie. Weet u het zeker?
+places-bookmarks-restore-title = Selecteer een bladwijzerreservekopie
+places-bookmarks-restore-filter-name = JSON
+places-bookmarks-restore-format-error = Niet-ondersteund bestandstype.
+places-bookmarks-restore-parse-error = Verwerken van reservekopiebestand is niet mogelijk.
+places-bookmarks-import = Bladwijzerbestand importeren
+places-bookmarks-export = Bladwijzerbestand exporteren
+places-bookmarks-paste-error-title = Ongeldige URL(’s) gevonden
+places-bookmarks-paste-error-message-header = De volgende URL(’s) kunnen niet aan uw bladwijzers worden toegevoegd. Probeer de opmaak te controleren en opnieuw toe te voegen.

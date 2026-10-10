@@ -1,0 +1,13 @@
+grid-row-column-positions = Riga { $row } - Colonna { $column }
+gridtype-container = Contenitore griglia
+gridtype-item = Elemento griglia
+gridtype-dual = Contenitore/elemento griglia
+flextype-container = Contenitore flex
+flextype-item = Elemento flex
+flextype-dual = Contenitore/elemento flex
+remote-node-picker-notice = Selettore nodi attivo. { $action }
+remote-node-picker-notice-action-desktop = Fare clic su un elemento per selezionarlo in Analisi pagina
+remote-node-picker-notice-action-touch = Toccare un elemento per selezionarlo in Analisi pagina
+remote-node-picker-notice-hide-button = Nascondi
+simple-highlighters-message = Quando prefers-reduced-motion è attivo, è possibile selezionare evidenziatori semplificati nel pannello impostazioni per evitare il lampeggiamento di colori.
+simple-highlighters-settings-button = Apri impostazioni

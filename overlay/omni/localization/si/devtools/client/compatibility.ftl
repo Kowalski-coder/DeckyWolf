@@ -1,0 +1,9 @@
+compatibility-selected-element-header = තේරූ අංගය
+compatibility-issue-experimental = (පරීක්‍ෂාත්මක)
+compatibility-settings-button-label = සැකසුම්
+compatibility-settings-button-title =
+    .title = සැකසුම්
+compatibility-settings-header = සැකසුම්
+compatibility-target-browsers-header = ඉලක්කගත අතිරික්සුව
+compatibility-close-settings-button =
+    .title = සැකසුම් වසන්න

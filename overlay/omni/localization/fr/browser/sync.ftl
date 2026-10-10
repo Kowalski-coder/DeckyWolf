@@ -1,0 +1,72 @@
+fxa-toolbar-sync-syncing2 = Synchronisation…
+sync-disconnect-dialog-title2 = Se déconnecter ?
+sync-disconnect-dialog-body = { -brand-product-name } ne se synchronisera plus avec votre compte, mais ne supprimera aucune donnée de navigation sur cet appareil.
+sync-disconnect-dialog-button = Se déconnecter
+fxa-signout-dialog-title2 = Se déconnecter de votre compte ?
+fxa-signout-dialog-body = Les données synchronisées resteront dans votre compte.
+fxa-signout-dialog2-button = Déconnexion
+fxa-signout-dialog2-checkbox = Supprimer les données de cet appareil (mots de passe, historique, marque-pages, etc.)
+fxa-menu-sync-settings =
+    .label = Paramètres de synchronisation
+fxa-menu-turn-on-sync =
+    .value = Activer la synchronisation
+fxa-menu-turn-on-sync-default = Activer la synchronisation
+fxa-menu-connect-another-device =
+    .label = Connecter un autre appareil…
+fxa-menu-send-to-device =
+    .label =
+        { $tabCount ->
+            [1] Envoyer à un appareil
+           *[other] Envoyer { $tabCount } onglets à un appareil
+        }
+fxa-menu-send-to-mobile =
+    .label =
+        { $tabCount ->
+            [1] Envoyer à un mobile
+           *[other] Envoyer { $tabCount } onglets à un mobile
+        }
+fxa-menu-send-to-mobile-sign-in = Connectez-vous pour envoyer des onglets
+fxa-menu-send-to-mobile-turn-on-sync = Activez la synchronisation pour envoyer des onglets
+fxa-menu-send-to-mobile-connect-device = Connectez un appareil pour envoyer des onglets
+fxa-menu-send-to-mobile-device-missing2 = Vous ne voyez pas votre appareil ?
+fxviewtabrow-send-to-mobile-not-verified = Compte non confirmé
+fxviewtabrow-send-to-mobile-verify-account = Confirmer votre compte
+fxa-menu-send-tab-to-device-syncnotready =
+    .label = Synchronisation des appareils…
+fxa-menu-send-tab-to-device-description = Envoyez instantanément un onglet sur n’importe quel appareil où vous êtes connecté·e.
+fxa-menu-sign-out =
+    .label = Se déconnecter…
+fxa-menu-sync-description = Accédez à votre Web où que vous soyez
+fxa-menu-manage-account-subtitle = Gérer le compte
+fxa-menu-sign-in-promo-heading = Se connecter pour synchroniser
+fxa-menu-sign-in-promo-message = Accédez à vos données partout
+fxa-menu-sign-in-promo-button =
+    .label = Connexion
+fxa-menu-signed-out-sign-in-button =
+    .label = Connexion
+fxa-menu-signed-out-message-login-failed = Déconnexion réussie
+fxa-menu-signed-out-message-unverified = Terminer la configuration
+fxa-menu-signed-out-title = Se connecter pour synchroniser
+fxa-menu-signed-out-description = Déconnexion réussie
+fxa-avatar-sign-in = Connexion
+fxa-avatar-sign-up = Créer un compte
+fxa-avatar-tooltip =
+    .tooltiptext = Vous connecter à votre compte
+sync-setup-verify-continue = Continuer
+sync-setup-verify-title = Avertissement de fusion
+sync-setup-verify-heading = Voulez-vous vraiment vous connecter pour synchroniser ?
+sync-setup-verify-description = Un autre utilisateur s’est déjà connecté à la synchronisation sur cet ordinateur. Vous connecter fusionnera les marque-pages, mots de passe et autres paramètres de ce navigateur avec { $email }
+sync-profile-different-account-title = Nombre maximum de comptes atteint pour ce profil
+sync-profile-different-account-header = Ce profil a été précédemment synchronisé avec un compte différent
+sync-profile-different-account-description = Pour que vos données restent organisées et en sécurité, chaque profil { -brand-product-name } ne peut être synchronisé qu’avec un seul compte. Pour vous connecter via { $acctEmail }, veuillez créer un nouveau profil.
+sync-profile-different-account-title-merge = Profil synchronisé avec un autre compte
+sync-profile-different-account-description-merge = Pour conserver vos données organisées et en sécurité, nous vous recommandons de créer un nouveau profil pour vous connecter en utilisant l’adresse { $acctEmail }. Si vous choisissez de continuer la synchronisation avec ce profil, les données des deux comptes seront définitivement fusionnées dans « { $profileName } ».
+sync-account-in-use-header = Ce compte est déjà utilisé
+sync-account-in-use-header-merge = L’adresse { $acctEmail } est déjà connectée au profil « { $otherProfile } »
+sync-account-in-use-description = Vous ne pouvez associer ce compte qu’à un seul profil sur cet ordinateur.
+sync-account-already-signed-in-header = Ce compte est connecté à un autre profil. Synchroniser les deux profils ?
+sync-account-in-use-description-merge = L’adresse { $acctEmail } est connectée au profil « { $otherProfile } » sur cet ordinateur. La synchronisation du profil « { $currentProfile } » combinera de façon permanente les données des deux profils, telles que les mots de passe et les marque-pages.
+sync-button-switch-profile = Passer à « { $profileName } »
+sync-button-create-profile = Créer un nouveau profil
+sync-button-sync-and-merge = Synchroniser et fusionner les données
+sync-button-sync-profile = Synchroniser « { $profileName } »

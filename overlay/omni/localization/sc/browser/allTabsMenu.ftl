@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Chirca in totu is ischedas
+all-tabs-menu-new-user-context =
+    .label = Ischeda cuntenidora noa
+all-tabs-menu-hidden-tabs =
+    .label = Ischedas cuadas
+all-tabs-menu-close-duplicate-tabs =
+    .label = Serra is ischedas duplicadas
+all-tabs-menu-view-all-tabs =
+    .label = Ammustra totu is ischedas
+all-tabs-menu-recent-tab-groups-header = Grupos de ischedas reghentes
+all-tabs-menu-tab-groups-show-all =
+    .label = Ammustra totu
+all-tabs-menu-tab-groups-sub-view =
+    .title = Grupos de ischedas
+all-tabs-menu-current-window-header = Ventana atuale

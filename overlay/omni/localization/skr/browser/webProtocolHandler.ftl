@@ -1,0 +1,4 @@
+protocolhandler-mailto-os-handler-yes-button = بطور طے شدہ سیٹ کرو
+protocolhandler-mailto-os-handler-no-button = ہݨ کائناں
+protocolhandler-mailto-handler-set = ہر واری جہڑیلے تُساں کئیں ایہو جیہیں لنک اُتے دباؤ جہڑا تُہاݙا ای میل کُھلین٘دا ہِے تاں { $url }</strong> کوں کھولݨ کِیتے { -brand-short-name }<strong> دا استعمال کروں؟
+protocolhandler-mailto-handler-confirm = <strong>{ -brand-short-name }ہر واری جہڑیلے تُساں ای میل گَھلَّݨ آلے لنک اُتے دبیسو تاں { $url }</strong> کُھل ویسی۔

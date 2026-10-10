@@ -1,0 +1,9 @@
+firefox-relay-opt-in-confirmation-disable =
+    .label = Ná taispeáin é seo arís
+    .accesskey = N
+firefox-relay-opt-in-confirmation-postpone =
+    .label = Ní anois
+    .accesskey = N
+firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
+    .label = Ar Aghaidh
+    .accesskey = A

@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Paused on debugger statement
+whypaused-breakpoint = Paused on breakpoint
+whypaused-exception = Paused on exception
+whypaused-resume-limit = Paused while stepping
+whypaused-pause-on-dom-events = Paused on event listener
+whypaused-breakpoint-condition-thrown = Error with conditional breakpoint
+whypaused-promise-rejection = Paused on promise rejection
+whypaused-assert = Paused on assertion
+whypaused-debug-command = Paused on debugged function
+whypaused-other = Debugger paused

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Жаңа бос терезені ашу
+panic-button-undo-warning = Бұл әрекетті болдырмау мүмкін емес болады.
+panic-button-forget-button =
+    .label = Ұмыту!
+panic-main-timeframe-desc = Соңғы уақытты ұмыту:
+panic-button-5min =
+    .label = Бес минут
+panic-button-2hr =
+    .label = Екі сағат
+panic-button-day =
+    .label = 24 сағат
+panic-button-action-desc = Жалғастыру нәтижесінде:
+panic-button-delete-cookies = Соңғы <strong>Cookies файлдарын</strong> өшіру
+panic-button-delete-history = Соңғы <strong>тарихты</strong> өшіру
+panic-button-delete-tabs-and-windows = Барлық <strong>беттер</strong> және <strong>терезелерді</strong> жабу

@@ -1,0 +1,5 @@
+default-browser-agent-task-description = Standard nettleseragentoppgave sjekker når standard nettleser endres fra { -brand-short-name } til en annen nettleser. Hvis endringen skjer under mistenkelige omstendigheter, vil den be brukerne om å bytte tilbake til { -brand-short-name } ikke mer enn to ganger. Denne oppgaven blir installert automatisk av { -brand-short-name }, og blir installert på nytt når { -brand-short-name } oppdateres. For å deaktivere denne oppgaven, oppdaterer du innstillingen «standard-browser-agent.enabled» på about:config-siden eller { -brand-short-name } virksomhets-policy-innstillingen «DisableDefaultBrowserAgent».
+default-browser-notification-privacy-header-text = Vil du fortsette med { -brand-short-name }?
+default-browser-notification-privacy-body-text = Standardvalget ditt er endret. Kom tilbake til { -brand-short-name } for innebygd personvern og beskyttelse.
+default-browser-notification-yes-button-text = Ja
+default-browser-notification-privacy-no-button-text = Nei takk

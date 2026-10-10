@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Zakładki
+sidebar-menu-bookmarks-2 = Zakładki
+sidebar-menu-history =
+    .label = Historia
+sidebar-menu-synced-tabs =
+    .label = Karty z innych urządzeń
+sidebar-menu-close =
+    .label = Zamknij panel boczny
+sidebar-close-button =
+    .tooltiptext = Zamknij panel boczny

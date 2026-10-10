@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Programų savybės
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Pašalinti
+    .accesskey = š
+app-manager-handle-protocol = Su { $type } tipo saitais geba dirbti šios programos
+app-manager-handle-file = Su { $type } tipo failais geba dirbti šios programos
+app-manager-web-app-info = Ši saityno programa yra pasiekiama adresu:
+app-manager-local-app-info = Šios programos vieta kompiuteryje:

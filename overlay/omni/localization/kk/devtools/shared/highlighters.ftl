@@ -1,0 +1,13 @@
+grid-row-column-positions = Жол { $row } / Баған { $column }
+gridtype-container = Тор контейнері
+gridtype-item = Тор элементі
+gridtype-dual = Тор контейнері/элементі
+flextype-container = Flex контейнері
+flextype-item = Flex элементі
+flextype-dual = Flex контейнері/элементі
+remote-node-picker-notice = DevTools тораптарды таңдау құралы іске қосылған. { $action }
+remote-node-picker-notice-action-desktop = Элементті Бақылаушыда таңдау үшін оған шертіңіз
+remote-node-picker-notice-action-touch = Элементті Бақылаушыда таңдау үшін оны басыңыз
+remote-node-picker-notice-hide-button = Жасыру
+simple-highlighters-message = prefers-reduced-motion опциясы іске қосулы кезінде, түстердің жыпылықтауын болдырмау үшін құралдар панелінде қарапайымдау маркерлерін іске қосуға болады.
+simple-highlighters-settings-button = Баптаулары ашу

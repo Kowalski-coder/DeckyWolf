@@ -1,0 +1,15 @@
+panic-button-open-new-window = Hapni një Dritare të re të pastër
+panic-button-undo-warning = Ky veprim s’mund të zhbëhet.
+panic-button-forget-button =
+    .label = Lëre fare!
+panic-main-timeframe-desc = Harro:
+panic-button-5min =
+    .label = Pesë minutat e fundit
+panic-button-2hr =
+    .label = Dy orët e fundit
+panic-button-day =
+    .label = 24 orët e fundit
+panic-button-action-desc = Vazhdimi:
+panic-button-delete-cookies = Do të fshijë <strong>Cookies</strong> Së Fundi
+panic-button-delete-history = Do të fshijë <strong>Historikun</strong> Së Fundi
+panic-button-delete-tabs-and-windows = Do të mbyllë krejt <strong>Skedat</strong> dhe <strong>Dritaret</strong>

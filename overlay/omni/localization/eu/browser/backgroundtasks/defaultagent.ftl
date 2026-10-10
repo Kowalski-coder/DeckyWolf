@@ -1,0 +1,5 @@
+default-browser-agent-task-description = Nabigatzaile lehenetsiaren agentearen atazak egiaztatzen du noiz aldatzen den nabigatzaile lehenetsia { -brand-short-name }-etik beste batera. Aldaketa baldintza susmagarrien pean gertatuko balitz, erabiltzaileei { -brand-short-name }-era bueltatzeko eskatuko zaie, ez birritan baino gehiagotan. Ataza hau automatikoki instalatzen du { -brand-short-name }-ek eta berriro instalatzen da { -brand-short-name } eguneratzean. Ataza hau desgaitzeko, eguneratu "default-browser-agent.enabled" hobespena about:config orrian edo { -brand-short-name } enpresa-politikaren "DisableDefaultBrowserAgent" ezarpena.
+default-browser-notification-privacy-header-text = Mantendu { -brand-short-name }(r)ekin?
+default-browser-notification-privacy-body-text = Zure lehenespena aldatu egin da. Itzuli { -brand-short-name }(e)ra integratutako pribatutasun eta babeserako.
+default-browser-notification-yes-button-text = Bai
+default-browser-notification-privacy-no-button-text = Ez, eskerrik asko

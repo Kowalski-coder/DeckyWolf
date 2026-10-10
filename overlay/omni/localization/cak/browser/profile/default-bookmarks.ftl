@@ -1,0 +1,14 @@
+default-bookmarks-title = Taq yaketal
+default-bookmarks-heading = Taq yaketal
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Tk'ul To'ïk
+default-bookmarks-firefox-customize = Tawichinaj Firefox
+default-bookmarks-firefox-community = Kato'on
+default-bookmarks-firefox-about = Chi qij röj
+default-bookmarks-nightly-heading = Firefox Nightly taq tob'äl
+default-bookmarks-nightly-blog = Firefox Nightly ichinya'l
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Kik'amab'ey rub'anonela' Mozilla
+default-bookmarks-nightly-tester-tools = Nightly Tester taq Samajib'äl
+default-bookmarks-crashes = Ronojel ri taq ruk'ayewal
+default-bookmarks-planet = Ruwach'ulew Mozilla

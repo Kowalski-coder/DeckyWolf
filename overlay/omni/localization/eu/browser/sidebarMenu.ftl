@@ -1,0 +1,11 @@
+sidebar-menu-bookmarks =
+    .label = Laster-markak
+sidebar-menu-bookmarks-2 = Laster-markak
+sidebar-menu-history =
+    .label = Historia
+sidebar-menu-synced-tabs =
+    .label = Sinkronizatutako fitxak
+sidebar-menu-close =
+    .label = Itxi alboko barra
+sidebar-close-button =
+    .tooltiptext = Itxi alboko barra

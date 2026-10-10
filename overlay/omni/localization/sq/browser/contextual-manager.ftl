@@ -1,0 +1,229 @@
+contextual-manager-filter-input =
+    .aria-label = Kërko te Fjalëkalimet
+    .key = F
+    .placeholder = Kërko te Fjalëkalimet
+contextual-manager-menu-more-options-button =
+    .title = Më tepër mundësi
+contextual-manager-more-options-popup =
+    .aria-label = Më tepër Mundësi
+contextual-manager-passwords-title = Fjalëkalime
+contextual-manager-passwords-command-create = Shtoni fjalëkalim
+contextual-manager-passwords-command-import-from-browser = Importoni nga Tjetër Shfletues…
+contextual-manager-passwords-command-import = Importoni prej një Kartele…
+contextual-manager-passwords-command-export = Eksporto fjalëkalime
+contextual-manager-passwords-command-remove-all = Hiqini tërë fjalëkalimet
+contextual-manager-passwords-command-options = Mundësi
+contextual-manager-passwords-command-help = Ndihmë
+contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
+contextual-manager-passwords-export-os-auth-dialog-message-win = Që të eksportoni fjalëkalimet tuaja, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+contextual-manager-passwords-export-os-auth-dialog-message-macosx = që të eksportohen fjalëkalimet e ruajtura
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = Që të shihni fjalëkalimin tuaj, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = që të shfaqet fjalëkalimi i ruajtur
+contextual-manager-passwords-edit-password-os-auth-dialog-message-win = Që të përpunoni fjalëkalimin tuaj, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+contextual-manager-passwords-edit-password-os-auth-dialog-message-macosx = që të përpunohet fjalëkalimi i ruajtur
+contextual-manager-passwords-copy-password-os-auth-dialog-message-win = Që të kopjoni kredencialet tuaja të hyrjes, jepni kredencialet tuaj për hyrje në Windows. Kjo ndihmon të mbrohet siguria e llogarive tuaja.
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = që të kopjohet fjalëkalimi i ruajtur
+contextual-manager-passwords-import-file-picker-title = Importo Fjalëkalime
+contextual-manager-passwords-import-file-picker-import-button = Importo
+contextual-manager-passwords-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument CVS
+       *[other] Kartelë CVS
+    }
+contextual-manager-passwords-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument TSV
+       *[other] Kartelë TSV
+    }
+contextual-manager-passwords-import-success-heading =
+    .heading = Fjalëkalimet u importuan
+contextual-manager-passwords-import-success-message-2 = Të rinj: { $added }, Të përditësuar: { $modified }, Përsëdytje: { $no_change }, Gabime: { $error }
+contextual-manager-passwords-import-detailed-report = Shihni raport të hollësishëm
+contextual-manager-passwords-import-success-button = U bë
+contextual-manager-passwords-import-error-heading-and-message =
+    .heading = S’u importuan fjalëkalime
+    .message = Sigurohuni se kartela juaj përfshin një shtyllë për sajte, emra përdoruesish dhe fjalëkalime.
+contextual-manager-passwords-import-error-button-try-again = Riprovoni
+contextual-manager-passwords-import-error-button-cancel = Anuloje
+contextual-manager-passwords-import-learn-more = Mësoni rreth importimit të fjalëkalimeve
+contextual-manager-passwords-export-success-heading =
+    .heading = Fjalëkalimet u eksportuan
+contextual-manager-passwords-export-success-button = U bë
+contextual-manager-export-passwords-dialog-title = Të eksportohen fjalëkalime te kartelë?
+contextual-manager-export-passwords-dialog-message = Pasi ta eksportoni, rekomandojmë fshirjen e saj, që të të tjerë që mund të përdorin këtë pajisje të mos mund të shohin fjalëkalimet tuaj.
+contextual-manager-export-passwords-dialog-confirm-button = Vazhdo me eksportimin
+contextual-manager-passwords-export-file-picker-title = Eksportoni Fjalëkalime nga { -brand-short-name }
+contextual-manager-passwords-export-file-picker-default-filename = fjalëkalime
+contextual-manager-passwords-export-file-picker-export-button = Eksporto
+contextual-manager-passwords-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Dokument CVS
+       *[other] Kartelë CVS
+    }
+contextual-manager-passwords-remove-all-title =
+    { $total ->
+        [1] Të hiqet fjalëkalimi?
+        [one] Të hiqen krejt { $total } fjalëkalim?
+       *[other] Të hiqen krejt { $total } fjalëkalimet?
+    }
+contextual-manager-passwords-remove-all-confirm =
+    { $total ->
+        [1] Po, hiqe fjalëkalimin
+       *[other] Po, hiqi fjalëkalimet
+    }
+contextual-manager-passwords-remove-all-confirm-button =
+    { $total ->
+        [1] Hiqe
+       *[other] Hiqi Krejt
+    }
+contextual-manager-passwords-remove-all-message =
+    { $total ->
+        [1] Kjo do të heqë fjalëkalimin tuaj të ruajtur në { -brand-short-name } dhe çfarëdo sinjalizimesh cenimi. S’mund të zhbëni këtë veprim.
+       *[other] This will remove the passwords saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
+    }
+contextual-manager-passwords-remove-all-message-sync =
+    { $total ->
+        [1] Kjo do të heqë fjalëkalimin e ruajtur te { -brand-short-name } në krejt pajisjet tuaja të njëkohësuara dhe do të heqë çfarëdo sinjalizimesh për cenime. Këtë veprim s’mund të zhbëni.
+       *[other] This will remove all passwords saved to { -brand-short-name } on all your synced devices and remove any breach alerts. You cannot undo this action.
+    }
+contextual-manager-passwords-origin-label = Sajt
+contextual-manager-passwords-username-label = Emër përdoruesi
+    .data-after = Kopjuar
+contextual-manager-passwords-password-label = Fjalëkalim
+    .data-after = Kopjuar
+contextual-manager-passwords-radiogroup-label =
+    .aria-label = Filtro fjalëkalimet
+contextual-manager-passwords-add-password-success-heading =
+    .heading = U shtua fjalëkalim për { $url }
+contextual-manager-passwords-add-password-success-button = Shiheni
+contextual-manager-passwords-password-already-exists-error-heading =
+    .heading = Ka tashmë një fjalëkalim dhe emër përdoruesi për { $url }
+contextual-manager-passwords-password-already-exists-error-button = Kalo te fjalëkalimi
+contextual-manager-passwords-update-password-success-heading =
+    .heading = Fjalëkalimi u ruajt
+contextual-manager-passwords-update-password-success-button = U bë
+contextual-manager-passwords-update-username-success-heading-3 =
+    .heading = Emri i përdoruesit u ruajt
+contextual-manager-passwords-delete-password-success-heading =
+    .heading =
+        { $total ->
+            [1] Fjalëkalimi u hoq
+            [one] Fjalëkalimi u hoq
+           *[other] Fjalëkalimet u hoqën
+        }
+contextual-manager-passwords-delete-password-success-button = U bë
+contextual-manager-passwords-radiobutton-all = Krejt ({ $total })
+contextual-manager-passwords-radiobutton-alerts = Sinjalizime ({ $total })
+contextual-manager-passwords-remove-login-card-title = Të hiqet fjalëkalimi?
+contextual-manager-passwords-remove-login-card-message = S’mund ta zhbëni këtë.
+contextual-manager-passwords-remove-login-card-back-message = Mbrapsht
+contextual-manager-passwords-remove-login-card-remove-button = Hiqi
+contextual-manager-passwords-remove-login-card-cancel-button = Anuloje
+contextual-manager-passwords-alert-card =
+    .aria-label = Sinjalizime fjalëkalimesh
+contextual-manager-passwords-alert-back-button =
+    .label = Mbrapsht
+contextual-manager-passwords-alert-list =
+    .aria-label = Listë sinjalizimesh
+contextual-manager-passwords-breached-origin-heading-and-message =
+    .heading = Rekomandohet ndryshim fjalëkalimi
+    .message = Fjalëkalimet prej këtij sajti janë raportuar si të vjedhur, ose se kanë rrjedhur. Që të mbroni llogarinë tuaj, ndryshoni fjalëkalimin tuaj.
+contextual-manager-passwords-breached-origin-link-message = Nga e di { -brand-product-name }-i rreth cenimeve?
+contextual-manager-passwords-change-password-button = Ndryshoni fjalëkalimin
+contextual-manager-passwords-vulnerable-password-heading-and-message =
+    .heading = Rekomandohet ndryshim fjalëkalimi
+    .message = Ky fjalëkalim është lehtësisht i hamendësueshëm. Që të mbroni llogarinë tuaj, ndryshoni fjalëkalimin tuaj.
+contextual-manager-passwords-vulnerable-password-link-message = Nga e di { -brand-product-name }-i rreth fjalëkalimeve të dobët?
+contextual-manager-passwords-no-username-heading-and-message =
+    .heading = Shtoni emër përdoruesi
+    .message = Shtoni një, që të hyni më shpejt.
+contextual-manager-passwords-add-username-button = Shtoni emër përdoruesi
+contextual-manager-passwords-create-label =
+    .label = Shtoni fjalëkalim
+contextual-manager-passwords-update-label =
+    .label = Përditësoni fjalëkalimin
+contextual-manager-passwords-remove-label =
+    .title = Hiqe fjalëkalimin
+contextual-manager-passwords-origin-field =
+    .label = Adresë sajti
+    .placeholder = https://www.example.com
+contextual-manager-passwords-origin-field-description = Jepni adresën e saktë ku do të bëni hyrjen në këtë sajt.
+contextual-manager-passwords-username-field =
+    .label = Emër përdoruesi
+contextual-manager-passwords-username-field-description = Jepni emrin e përdoruesit, adresën email, ose numrin e llogarisë që përdorni për të bërë hyrjen.
+contextual-manager-passwords-password-field =
+    .label = Fjalëkalim
+contextual-manager-passwords-password-field-description = Që të bëni hyrjen në këtë llogari, jepni fjalëkalimin.
+contextual-manager-passwords-list-label =
+    .aria-label = Fjalëkalime
+contextual-manager-website-icon =
+    .alt = Ikonë Sajti
+contextual-manager-copy-icon =
+    .alt = Kopjoje
+contextual-manager-check-icon-username =
+    .alt = U kopjua
+contextual-manager-check-icon-password =
+    .alt = U kopjua
+contextual-manager-alert-icon =
+    .alt = Kujdes
+contextual-manager-origin-login-line =
+    .aria-label = Vizitoni { $url }
+    .title = Vizitoni { $url }
+contextual-manager-origin-login-line-with-alert =
+    .aria-label = Vizitoni { $url } (Kujdes)
+    .title = Vizitoni { $url } (Kujdes)
+contextual-manager-username-login-line =
+    .aria-label = Kopjo Emër Përdoruesi { $username }
+    .title = Kopjo Emër Përdoruesi { $username }
+contextual-manager-username-login-line-with-alert =
+    .aria-label = Kopjo Emër Përdoruesi { $username } (Kujdes)
+    .title = Kopjo Emër Përdoruesi { $username } (Kujdes)
+contextual-manager-password-login-line =
+    .aria-label = Kopjo Fjalëkalimin
+    .title = Kopjo Fjalëkalimin
+contextual-manager-password-login-line-with-alert =
+    .aria-label = Kopjo Fjalëkalimin (Kujdes)
+    .title = Kopjo Fjalëkalimin (Kujdes)
+contextual-manager-edit-login-button = Përpunojeni
+    .tooltiptext = Përpunoni Fjalëkalimin
+contextual-manager-view-alert-heading-2 =
+    .heading =
+        { $count ->
+            [1] Shihni sinjalizim
+            [one] Shihni sinjalizim
+           *[other] Shihni sinjalizime
+        }
+contextual-manager-view-alert-button-2 =
+    .tooltiptext =
+        { $count ->
+            [1] Shqyrtoni sinjalizimin
+            [one] Shqyrtoni sinjalizimin
+           *[other] Shqyrtoni sinjalizimet
+        }
+contextual-manager-show-password-button =
+    .aria-label = Shfaq Fjalëkalimin
+    .title = Shfaq Fjalëkalimin
+contextual-manager-hide-password-button =
+    .aria-label = Fshihe Fjalëkalimin
+    .title = Fshihe Fjalëkalimin
+contextual-manager-passwords-no-passwords-found-header =
+    .heading = S’u gjetën fjalëkalime
+contextual-manager-passwords-no-passwords-found-message-2 = Provoni një tjetër term dhe kërkoni sërish.
+contextual-manager-passwords-no-passwords-header-2 = Ruajini fjalëkalimet tuaja në një vend të parrezik
+contextual-manager-passwords-no-passwords-message = Krejt fjalëkalimet fshehtëzohen dhe do të hapim sytë për cenime dhe sinjalizime që lidhen me ju.
+contextual-manager-passwords-no-passwords-get-started-message = Për t’ia filluar, shtojini këtu.
+contextual-manager-passwords-add-manually = Shtojini dorazi
+contextual-manager-passwords-discard-changes-heading-and-message =
+    .heading = Të mbyllet pa ruajtur?
+    .message = Ndryshimet tuaja s’do të ruhen.
+contextual-manager-passwords-discard-changes-close-button = Mbylle
+contextual-manager-passwords-discard-changes-go-back-button = Kthehu mbrapsht
+contextual-manager-passwords-remove-all-passwords-checkbox =
+    { $total ->
+        [1] Po, hiqe fjalëkalimin
+        [one] Po, hiqe fjalëkalimin
+       *[other] Po, hiqi fjalëkalimet
+    }
+contextual-manager-primary-password-reauth-header = Që të shihni fjalëkalimet tuaj të ruajtur, jepni fjalëkalimin tuaj parësor.
+contextual-manager-primary-password-reauth-button = Jepni fjalëkalimin parësor
+contextual-manager-primary-password-learn-more-link = Mësoni më tepër

@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Wamkelekile Humans!
+error-short-desc-text = Sizokutyelela ngoxolo nangenzondelelo!
+error-long-desc1 = Iirobhothi azinako ukonzakalisa umntu okanye, ngokungasebenzi, zivumele ukuba umntu enzakale.
+error-long-desc2 = Iirobhothi zibone izinto nina bantu eningenako ukuzikholelwa.
+error-long-desc3 = Iirobhothi ngabahlobo bakho beplastiki ekumnandi ukuba nabo.
+error-long-desc4 = Iirhobhothi zinentsimbi ezimenyezelayo ezinomva ekungafanelanga zityumze.
+error-trailer-desc-text = Kwaye zinecebo.
+error-try-again = Zama Kwakhona
+    .label2 = Nceda musa ulikucofa eli qhosha kwakhona.

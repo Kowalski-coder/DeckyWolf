@@ -1,0 +1,10 @@
+toolbox-meatball-menu-dock-bottom-label = नीचे की ओर संक्षिप्त करें
+toolbox-meatball-menu-dock-left-label = बाँयी ओर संक्षिप्त करें
+toolbox-meatball-menu-dock-right-label = दाहिनी तरफ संक्षिप्त करें
+toolbox-meatball-menu-dock-separate-window-label = अलग विन्डो
+toolbox-meatball-menu-splitconsole-label = विभाजित कंसोल दिखाएं
+toolbox-meatball-menu-hideconsole-label = विभाजित कंसोल छिपाएं
+toolbox-meatball-menu-settings-label = सेटिंग्स
+toolbox-meatball-menu-documentation-label = दस्तावेज़…
+toolbox-meatball-menu-community-label = समुदाय…
+toolbox-meatball-menu-noautohide-label = पॉपअप का स्वत: छुपना अक्षम करें

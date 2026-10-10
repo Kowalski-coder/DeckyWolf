@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Wšě rajtarki přepytać
+all-tabs-menu-new-user-context =
+    .label = Nowy kontejnerowy rajtark
+all-tabs-menu-hidden-tabs =
+    .label = Schowane rajtarki
+all-tabs-menu-close-duplicate-tabs =
+    .label = Dwójne rajtarki začinić
+all-tabs-menu-view-all-tabs =
+    .label = Wšě rajtarki pokazać
+all-tabs-menu-recent-tab-groups-header = Skupiny najnowšich rajtarkow
+all-tabs-menu-tab-groups-show-all =
+    .label = Wšě pokazać
+all-tabs-menu-tab-groups-sub-view =
+    .title = Skupiny rajtarkow
+all-tabs-menu-current-window-header = Aktualne wokno

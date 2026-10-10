@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = { -brand-product-name } ਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਜਾਂ ਟੇਬਲੇਟ ਨਾਲ ਸਿੰਕ ਕਰੋ
+fxa-qrcode-pair-step1 = 1. ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-product-name } ਖੋਲ੍ਹੋ।
+fxa-qrcode-pair-step2-device-steps = 2. ਮੇਨੂ ਉੱਤੇ ਜਾਓ ਅਤੇ <strong>ਸਾਈਨ ਇਨ</strong> ਨੂੰ ਛੂਹੋ
+fxa-qrcode-pair-step3 = 3. <strong>ਸਕੈਨ ਲਈ ਤਿਆਰ</strong> ਨੂੰ ਛੂਹੋ ਅਤੇ ਤੁਹਾਡੇ ਫ਼ੋਨ ਨੂੰ ਇਸ ਕੋਡ ਉੱਤੇ ਰੱਖੋ
+fxa-qrcode-error-title = ਜੋੜਾ ਬਣਾਉਣ ਲਈ ਨਾ-ਕਮਾਯਾਬ।
+fxa-qrcode-error-body = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ᱫᱚ ᱟᱢᱟᱜ ᱢᱩᱞ ᱥᱚᱨᱪ ᱤᱧᱡᱤᱱ { $currentEngine } ᱠᱷᱚᱱ { $newEngine } ᱨᱮ ᱵᱚᱫᱚᱞᱟᱭ ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱴᱷᱤᱠ ᱠᱟᱱᱟ ᱥᱮ?
+webext-default-search-yes =
+    .label = ᱦᱚᱭ
+    .accesskey = Y
+webext-default-search-no =
+    .label = ᱵᱟᱝ
+    .accesskey = N
+addon-post-install-message = { $addonName } ᱫᱚ ᱥᱮᱞᱮᱫ ᱮᱱᱟ ᱾
+webext-quarantine-confirmation-title = ᱵᱟᱹᱰ ᱠᱟᱱ ᱥᱟᱭᱤᱴᱠᱚ { $addonName } ᱫᱟᱹᱲᱪᱷᱚᱭ ᱢᱮ ?
+webext-quarantine-confirmation-line-1 = ᱟᱢᱟᱜ ᱰᱟᱴᱟ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱞᱟᱹᱜᱤᱫ, ᱱᱚᱶᱟ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱫᱚ ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ ᱨᱮ ᱵᱮᱵᱷᱟᱨ ᱵᱟᱭ ᱜᱟᱱᱚᱜᱼᱟ ᱾
+webext-quarantine-confirmation-line-2 = { -vendor-short-name } ᱛᱮ ᱟᱠᱚᱴ ᱠᱚᱱ ᱥᱟᱭᱤᱴ ᱨᱮ ᱟᱢᱟᱜ ᱰᱟᱴᱟ ᱯᱟᱲᱦᱟᱣ ᱟᱨ ᱵᱚᱫᱚᱞ ᱞᱟᱹᱜᱤᱫ ᱛᱮ ᱱᱚᱶᱟ ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱦᱮᱸᱥᱮᱨᱤᱭᱟᱹ ᱪᱷᱚᱭ ᱢᱮ ᱾
+webext-quarantine-confirmation-allow =
+    .label = ᱦᱮᱥᱟᱨᱤᱭᱟᱹ
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = ᱟᱞᱚ ᱢᱟᱹᱧᱡᱩᱨᱮᱭᱟᱢ
+    .accesskey = D

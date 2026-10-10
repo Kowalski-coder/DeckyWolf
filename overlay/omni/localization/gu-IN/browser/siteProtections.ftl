@@ -1,0 +1,15 @@
+content-blocking-trackers-view-empty = આ સાઇટ પર કોઈએ શોધી કાઢ્યું નથી
+content-blocking-cookies-view-first-party-label = આ સાઇટ પરથી
+content-blocking-cookies-view-third-party-label = તૃતીય પક્ષ કૂકીઝ
+content-blocking-cookies-view-allowed-label =
+    .value = મંજૂર
+content-blocking-cookies-view-blocked-label =
+    .value = અવરોધિત
+content-blocking-cookies-view-remove-button =
+    .tooltiptext = { $domain } માટે કૂકી અપવાદ સાફ કરો
+tracking-protection-icon-active-container =
+    .aria-label = { tracking-protection-icon-active }
+tracking-protection-icon-disabled-container =
+    .aria-label = { tracking-protection-icon-disabled }
+tracking-protection-icon-no-trackers-detected-container =
+    .aria-label = { tracking-protection-icon-no-trackers-detected }

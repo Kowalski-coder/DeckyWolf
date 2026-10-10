@@ -1,0 +1,278 @@
+cfr-doorhanger-extension-heading = Polecane rozszerzenie
+cfr-doorhanger-feature-heading = Polecana funkcja
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Dlaczego jest to wyświetlane?
+cfr-doorhanger-extension-cancel-button = Nie teraz
+    .accesskey = N
+cfr-doorhanger-extension-ok-button = Dodaj
+    .accesskey = D
+cfr-doorhanger-extension-manage-settings-button = Ustawienia polecania
+    .accesskey = U
+cfr-doorhanger-extension-never-show-recommendation = Nie pokazuj więcej polecenia tego rozszerzenia
+    .accesskey = e
+cfr-doorhanger-extension-learn-more-link = Więcej informacji
+cfr-doorhanger-extension-author = Autorzy: { $name }
+cfr-doorhanger-extension-notification = Polecenie
+cfr-doorhanger-extension-notification2 = Polecenie
+    .a11y-announcement = Dostępne polecenie rozszerzenia
+    .tooltiptext = Polecenie rozszerzenia
+cfr-doorhanger-feature-notification = Polecenie
+    .a11y-announcement = Dostępne polecenie funkcji
+    .tooltiptext = Polecenie funkcji
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } gwiazdka
+            [few] { $total } gwiazdki
+            [many] { $total } gwiazdek
+           *[other] { $total } gwiazdki
+        }
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } użytkownik
+        [few] { $total } użytkowników
+        [many] { $total } użytkowników
+       *[other] { $total } użytkowników
+    }
+cfr-doorhanger-bookmark-fxa-header = Synchronizuj zakładki na każdym urządzeniu.
+cfr-doorhanger-bookmark-fxa-body-2 = Wspaniałe odkrycie! Fajnie byłoby mieć tę zakładkę także na telefonie, prawda? Zacznij korzystać z konta.
+cfr-doorhanger-bookmark-fxa-link-text = Synchronizuj zakładki…
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Przycisk zamknięcia
+    .title = Zamknij
+fxa-adoption-addresses-backup-title = Utwórz kopię zapasową zachowanych adresów
+fxa-adoption-addresses-backup-subtitle = Chroń swoje zachowane adresy, synchronizując je ze swoimi urządzeniami za pomocą szyfrowania.
+fxa-adoption-credit-cards-backup-title = Utwórz kopię zapasową metod płatności
+fxa-adoption-credit-cards-backup-subtitle = Chroń swoje metody płatności, synchronizując je ze swoimi urządzeniami za pomocą szyfrowania.
+fxa-adoption-bookmarks-treatment-backup-title = Utwórz kopię zapasową zakładek
+fxa-adoption-bookmarks-treatment-backup-subtitle = Chroń swoje zakładki, synchronizując je ze swoimi urządzeniami za pomocą szyfrowania.
+fxa-adoption-primary-button-label = Utwórz konto
+cfr-badge-reader-label-newfeature = Nowa funkcja:
+cfr-whatsnew-button =
+    .label = Co nowego
+    .tooltiptext = Co nowego
+cfr-whatsnew-release-notes-link-text = Przeczytaj informacje o wydaniu
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+        [one] { -brand-short-name } od { DATETIME($date, month: "short", year: "numeric") } zablokował <b>{ $blockedCount }</b> element śledzący!
+        [few] { -brand-short-name } od { DATETIME($date, month: "short", year: "numeric") } zablokował ponad <b>{ $blockedCount }</b> elementy śledzące!
+       *[many] { -brand-short-name } od { DATETIME($date, month: "short", year: "numeric") } zablokował ponad <b>{ $blockedCount }</b> elementów śledzących!
+    }
+cfr-doorhanger-milestone-ok-button = Wyświetl wszystkie
+    .accesskey = W
+cfr-doorhanger-milestone-close-button = Zamknij
+    .accesskey = Z
+cfr-doorhanger-doh-body = Twoja prywatność jest ważna. { -brand-short-name } teraz bezpiecznie przekierowuje Twoje żądania DNS do usługi partnerskiej, aby chronić Cię w czasie przeglądania Internetu.
+cfr-doorhanger-doh-header = Bezpieczniejsze, zaszyfrowane wyszukiwania DNS
+cfr-doorhanger-doh-primary-button-2 = OK
+    .accesskey = O
+cfr-doorhanger-doh-secondary-button = Wyłącz
+    .accesskey = W
+cfr-doorhanger-video-support-body = Filmy na tej witrynie mogą nie być poprawnie odtwarzane w tej wersji { -brand-short-name(case: "gen") }. Zaktualizuj go, aby móc oglądać filmy.
+cfr-doorhanger-video-support-header = Zaktualizuj { -brand-short-name(case: "acc") }, aby odtwarzać filmy
+cfr-doorhanger-video-support-primary-button = Aktualizuj teraz
+    .accesskey = k
+spotlight-public-wifi-vpn-header = Wygląda na to, że korzystasz z publicznej sieci Wi-Fi
+spotlight-public-wifi-vpn-body = Aby ukryć swoje położenie i działania w Internecie, pomyśl o wirtualnej sieci prywatnej (VPN). Pomoże Ci zapewnić ochronę podczas przeglądania w miejscach publicznych, takich jak lotniska czy kawiarnie.
+spotlight-public-wifi-vpn-primary-button = Zachowaj prywatność dzięki { -mozilla-vpn-brand-name }
+    .accesskey = V
+spotlight-public-wifi-vpn-link = Nie teraz
+    .accesskey = N
+spotlight-better-internet-header = Lepszy Internet zaczyna się od Ciebie
+spotlight-better-internet-body = Kiedy używasz { -brand-short-name(case: "gen") }, głosujesz na otwarty i dostępny Internet, który jest lepszy dla wszystkich.
+spotlight-peace-mind-header = Możesz na nas liczyć
+spotlight-peace-mind-body = Każdego miesiąca { -brand-short-name } blokuje średnio ponad 3000 elementów śledzących na użytkownika. Ponieważ nic, zwłaszcza psujące prywatność elementy śledzące, nie powinno stać między Tobą a dobrym Internetem.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Zatrzymaj w Docku
+       *[other] Przypnij do paska zadań
+    }
+spotlight-pin-secondary-button = Nie teraz
+mr2022-background-update-toast-title = Nowy { -brand-short-name }. Bardziej prywatny. Mniej śledzenia. Bez wyjątków.
+mr2022-background-update-toast-text = Już teraz wypróbuj najnowszego { -brand-short-name(case: "acc") }, zaktualizowanego o naszą najsilniejszą ochronę przed śledzeniem w historii.
+mr2022-background-update-toast-primary-button-label = Uruchom { -brand-shorter-name(case: "acc") }
+mr2022-background-update-toast-secondary-button-label = Przypomnij później
+july-jam-headline = Możesz na nas liczyć
+july-jam-body = Każdego miesiąca { -brand-short-name } blokuje średnio ponad 3000 elementów śledzących na użytkownika, zapewniając bezpieczny i szybki dostęp do dobrego Internetu.
+july-jam-set-default-primary = Otwieraj odnośniki w { -brand-short-name(case: "loc") }
+fox-doodle-pin-headline = Witamy z powrotem
+fox-doodle-pin-body = To tylko krótkie przypomnienie, że możesz mieć swoją ulubioną niezależną przeglądarkę pod jednym kliknięciem.
+fox-doodle-pin-primary = Otwieraj odnośniki w { -brand-short-name(case: "loc") }
+fox-doodle-pin-secondary = Nie teraz
+set-default-pdf-handler-headline = <strong>Dokumenty PDF są teraz otwierane w { -brand-short-name(case: "loc") }.</strong> Edytuj i podpisuj formularze bez wychodzenia z przeglądarki. Aby to zmienić, wyszukaj „PDF” w ustawieniach.
+set-default-pdf-handler-primary = OK
+annotations-default-pdf-handler-headline = Złóż podpis w odpowiednim polu — lub gdzie chcesz!
+annotations-default-pdf-handler-body = Narysuj, napisz lub prześlij swój podpis, a następnie umieść go dokładnie tam, gdzie potrzebujesz. Zachowaj swoje podpisy na różne okazje.
+annotations-make-default-pdf-handler-title = Czy ustawić { -brand-short-name(case: "acc") } jako domyślny edytor plików PDF?
+annotations-make-default-pdf-handler-subtitle = Korzystaj z naszych narzędzi za każdym razem, gdy otwierasz plik PDF.
+annotations-make-default-pdf-primary-cta-label = Ustaw jako domyślny
+annotations-make-default-pdf-next-label = Dalej
+fxa-sync-cfr-header = Będziesz mieć nowe urządzenie?
+fxa-sync-cfr-body = Upewnij się, że wszystkie zakładki, hasła i karty są zawsze przy Tobie, kiedy otwierasz nową przeglądarkę { -brand-product-name }.
+fxa-sync-cfr-primary = Więcej informacji
+    .accesskey = W
+fxa-sync-cfr-secondary = Przypomnij później
+    .accesskey = P
+device-migration-fxa-spotlight-heavy-user-header = Nie zapomnij zrobić kopii zapasowej swoich danych
+device-migration-fxa-spotlight-heavy-user-body = Upewnij się, że ważne informacje — takie jak zakładki i hasła — są aktualne i chronione na wszystkich Twoich urządzeniach.
+device-migration-fxa-spotlight-heavy-user-primary-button = Zacznij teraz
+device-migration-fxa-spotlight-older-device-header = Zero obaw dzięki { -brand-product-name(case: "dat") }
+device-migration-fxa-spotlight-older-device-body = Konto zapewnia, że Twoje ważne informacje są aktualne i chronione na każdym połączonym urządzeniu.
+device-migration-fxa-spotlight-older-device-primary-button = Utwórz konto
+device-migration-fxa-spotlight-getting-new-device-header-2 = Będziesz mieć nowe urządzenie?
+device-migration-fxa-spotlight-getting-new-device-body-2 = Wykonaj kilka prostych kroków, aby mieć przy sobie zakładki, historię i hasła, gdy zaczniesz korzystać z nowego urządzenia.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Jak utworzyć kopię zapasową
+device-migration-fxa-spotlight-sync-header = Przeglądaj bez żadnych przerw
+device-migration-fxa-spotlight-sync-body = Synchronizuj wszystkie ważne dane za pomocą szyfrowania — takie jak zakładki i hasła. Możesz je mieć wszędzie tam, gdzie używasz { -brand-product-name(case: "acc") }.
+device-migration-fxa-spotlight-sync-primary-button = Zacznij teraz
+pdf-default-notification-message = <strong>Czy ustawić { -brand-short-name(case: "acc") } jako domyślny czytnik plików PDF?</strong> Korzystaj z { -brand-short-name(case: "gen") } do czytania i edytowania dokumentów PDF zapisanych na komputerze.
+pdf-default-notification-set-default-button =
+    .label = Ustaw jako domyślny
+pdf-default-notification-decline-button =
+    .label = Nie teraz
+launch-on-login-autostart-infobar-message = { -brand-short-name } uruchamia się teraz po zalogowaniu do systemu Windows. Zawsze można to zmienić w ustawieniach.
+launch-on-login-autostart-infobar-keep-button = Uruchamiaj po zalogowaniu
+    .accesskey = U
+launch-on-login-autostart-infobar-turn-off-button = Wyłącz uruchamianie
+    .accesskey = W
+tail-fox-spotlight-title = Niech nie siedzą Ci na ogonie
+tail-fox-spotlight-subtitle = Pożegnaj irytujące reklamy z elementami śledzącymi i ciesz się bezpieczniejszym, szybszym Internetem.
+tail-fox-spotlight-primary-button = Otwieraj odnośniki w { -brand-short-name(case: "loc") }
+tail-fox-spotlight-secondary-button = Nie teraz
+welcome-back-spotlight-title = Wróć do wbudowanej prywatności
+welcome-back-spotlight-subtitle = Witamy z powrotem w jedynej dużej przeglądarce wspieranej przez organizację non-profit. Podejmujemy dodatkowe kroki, aby chronić Twoje dane, gdziekolwiek się znajdujesz.
+welcome-back-embedded-import-title = Zaimportuj swoje dane i poczuj się w { -brand-short-name(case: "loc") } jak w domu
+root-certificate-succession-infobar-january-message = <strong>Starsze wersje { -brand-short-name(case: "gen") } mogą zacząć mieć problemy po 14 stycznia 2025 r.</strong>
+root-certificate-succession-infobar-march-message = <strong>Zaktualizuj, aby móc nadal korzystać z { -brand-short-name(case: "gen") } po 14 marca 2025 r.</strong>
+root-certificate-succession-infobar-link = Dlaczego muszę zaktualizować?
+root-certificate-succession-infobar-primary-button =
+    .label = Zaktualizuj teraz
+    .accesskey = a
+root-certificate-succession-infobar-secondary-button =
+    .label = Później
+    .accesskey = P
+root-certificate-windows-background-notification-title = Przegapiono ważną aktualizację { -brand-short-name(case: "gen") }
+root-certificate-windows-background-notification-subtitle = Części przeglądarki wkrótce przestaną działać, jeśli jej nie zaktualizujesz. To świetny moment, aby uzyskać nasze najnowsze zabezpieczenia i funkcje.
+root-certificate-windows-background-notification-learn-more-button = Więcej informacji
+root-certificate-windows-background-notification-update-button = Zaktualizuj { -brand-short-name(case: "acc") }
+fxa-menu-message-close-button =
+    .aria-label = Zamknij
+    .title = Zamknij
+fxa-menu-message-sign-up-button = Utwórz konto
+fxa-menu-message-sign-in-button = Zaloguj się
+fxa-menu-message-sync-button = Zacznij synchronizować
+fxa-menu-message-sync-devices-primary-text = Synchronizuj wszystkie swoje urządzenia
+fxa-menu-message-sync-devices-secondary-text = Miej błyskawiczny dostęp do swoich informacji — takich jak zakładki i hasła — wszędzie tam, gdzie używasz { -brand-short-name(case: "gen") }.
+fxa-menu-message-sync-devices-secondary-text2 = Miej błyskawiczny dostęp do swoich zakładek, haseł i nie tylko wszędzie tam, gdzie zalogujesz się do { -brand-short-name(case: "gen") }.
+fxa-menu-message-sync-devices-collapsed-text = Synchronizuj wszystkie swoje urządzenia
+fxa-menu-message-backup-data-primary-text = Utwórz kopię zapasową danych przeglądarki
+fxa-menu-message-backup-data-secondary-text = Automatycznie chroń zakładki, hasła i inne informacje na wszystkich urządzeniach.
+fxa-menu-message-backup-data-collapsed-text = Utwórz kopię zapasową danych przeglądarki
+fxa-menu-message-backup-sync-primary-text = Twoje dane będą bezpieczne i zsynchronizowane
+fxa-menu-message-backup-sync-secondary-text = Synchronizacja tworzy kopię zapasową większości Twoich danych, dzięki czemu możesz mieć do nich dostęp wszędzie tam, gdzie używasz { -brand-short-name(case: "gen") }.
+fxa-menu-message-backup-sync-collapsed-text = Synchronizuj i utwórz kopię zapasową danych
+fxa-menu-message-mobile-primary-text = Wysyłaj karty na swój telefon
+fxa-menu-message-mobile-secondary-text = Szybko kontynuuj od tego samego miejsca po synchronizacji kart z telefonem.
+fxa-menu-message-mobile-collapsed-text = Synchronizuj z telefonem
+multi-cta-fox-doodle-title = Witamy z powrotem
+multi-cta-fox-doodle-set-default-checkbox = Ustaw przeglądarkę { -brand-short-name } jako domyślną
+multi-cta-fox-doodle-pin-startmenu-checkbox = Przypnij { -brand-short-name(case: "acc") } do menu Start
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] Zatrzymaj { -brand-short-name(case: "acc") } w Docku
+       *[other] Przypnij { -brand-short-name(case: "acc") } do paska zadań
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Zacznij przeglądać Internet
+multi-cta-fox-doodle-main-browser-primary-button-label = Ustaw przeglądarkę { -brand-short-name } jako główną
+multi-cta-fox-doodle-quick-reminder-subtitle = To tylko krótkie przypomnienie, że możesz mieć swoją ulubioną przeglądarkę dbającą o prywatność pod jednym kliknięciem.
+multi-cta-fox-doodle-privacy-focused-subtitle =
+    { PLATFORM() ->
+        [macos] Miej swoją ulubioną przeglądarkę dbającą o prywatność pod jednym kliknięciem. Ustaw { -brand-short-name(case: "acc") } jako domyślną przeglądarkę do otwierania odnośników i zatrzymaj go w Docku.
+       *[other] Miej swoją ulubioną przeglądarkę dbającą o prywatność pod jednym kliknięciem. Ustaw { -brand-short-name(case: "acc") } jako domyślną przeglądarkę do otwierania odnośników i przypnij go do paska zadań.
+    }
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = Miej swoją ulubioną przeglądarkę dbającą o prywatność pod jednym kliknięciem. Ustaw { -brand-short-name(case: "acc") } jako domyślną przeglądarkę do otwierania odnośników oraz przypnij go do paska zadań i menu Start.
+windows-10-eos-sync-spotlight-title = Planujesz wkrótce zaktualizować system Windows 10?
+windows-10-eos-sync-spotlight-subtitle = Zrób kopię zapasową swoich haseł i zakładek, aby móc przejść na dowolne urządzenie.
+windows-10-eos-sync-spotlight-primary-label = Utwórz kopię zapasową { -brand-short-name(case: "gen") }
+windows-10-eos-sync-toast-title = Aktualizujesz system do Windows 11? Nie trać zakładek i haseł.
+windows-10-eos-sync-toast-subtitle = Zrób kopię zapasową swoich danych, aby { -brand-short-name } był zawsze gotowy do użycia, na tym komputerze lub nowym.
+windows-10-eos-sync-toast-primary-label = Zacznij teraz
+windows-10-eos-sync-toast-secondary-label = Przypomnij później
+windows-10-eos-challenger-callout-title = { -brand-product-name } nie jest preinstalowany jak inne przeglądarki wielkich korporacji. O to właśnie chodzi.
+windows-10-eos-challenger-sync-callout-subtitle = Jeśli zrobisz kopię zapasową swoich zakładek i haseł { -brand-product-name(case: "gen") }, łatwiej Ci będzie zabrać wybraną przez Ciebie przeglądarkę ze sobą na nowe urządzenie.
+windows-10-eos-challenger-pin-callout-subtitle = Przypnij { -brand-shorter-name(case: "acc") } do paska zadań, aby wybrana przez Ciebie przeglądarka była zawsze dostępna, kiedy jej potrzebujesz.
+windows-10-eos-challenger-sync-primary-button = Utwórz kopię zapasową { -brand-shorter-name(case: "gen") }
+windows-10-eos-challenger-pin-primary-button = Przypnij { -brand-shorter-name(case: "acc") }
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } blokuje generatory kryptowalut, elementy śledzące serwisów społecznościowych i elementy zbierające informacje o konfiguracji.
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = Elementy śledzące nie mogą zidentyfikować Twojego urządzenia ani śledzić Cię w sieci — ponieważ im na to nie pozwalamy.
+windows-10-eos-sync-callout-privacy-screen-2-title = Zabezpiecz swoje hasła i zakładki, zanim przejdziesz na nowe urządzenie.
+windows-10-eos-sync-callout-privacy-screen-2-subtitle = Utworzenie kopii zapasowej { -brand-shorter-name(case: "gen") } ułatwia zabranie ze sobą swoich danych i ustawień prywatności.
+windows-10-eos-sync-callout-privacy-info-button = Zobacz, co jest blokowane
+windows-10-eos-callout-addons-title = Wypróbuj dodatki: proste ulepszenia, duże efekty
+windows-10-eos-callout-addons-subtitle = Wybraliśmy te rozszerzenia, aby pomóc Ci zachować produktywność, bezpieczeństwo i koncentrację.
+windows-10-eos-callout-addons-primary-button = Zobacz, co wybraliśmy
+windows-10-eos-sync-callout-addons-title = Nie strać dodatków podczas aktualizacji systemu Windows 10.
+windows-10-eos-sync-callout-addons-subtitle = Synchronizuj teraz, aby dodatki { -brand-product-name(case: "gen") } były zawsze dostępne, nawet po zmianie urządzenia.
+windows-10-eos-sync-callout-next-button = Dalej
+windows-10-eos-sync-callout-get-started-button = Zacznij teraz
+windows-10-eos-feature-toast-title = Pionowe karty i grupy kart już są dostępne!
+windows-10-eos-feature-toast-subtitle = W odpowiedzi na liczne prośby { -brand-product-name } właśnie wypuścił nowe funkcje, dzięki którym przeglądanie Internetu jest prostsze i bez rozproszeń.
+windows-10-eos-feature-toast-whats-new-button = Zobacz, co nowego
+windows-10-eos-feature-toast-dismiss-button = Zamknij
+windows-10-eos-global-infobar-title = <strong>Microsoft nie wspiera już systemu Windows 10.</strong> Utwórz kopię zapasową swoich danych, aby przygotować { -brand-product-name(case: "acc") } na system Windows 11.
+windows-10-eos-global-infobar-primary-button = Włącz kopię zapasową
+    .accesskey = k
+windows-10-eos-global-infobar-learn-more-link = Więcej informacji
+    .accessKey = W
+etp-strict-exceptions-infobar-message = <strong>Ścisła ochrona przed śledzeniem może powodować niepoprawne działanie stron.</strong> Napraw najczęstsze problemy przez odblokowanie niezbędnych rzeczy, które mogą zawierać elementy śledzące.
+etp-strict-exceptions-infobar-learn-more = Więcej informacji
+etp-strict-exceptions-infobar-button = Napraw stronę
+    .accesskey = w
+etp-strict-exceptions-infobar-not-now = Nie teraz
+    .accesskey = N
+set-default-menu-message-simple-layout-title = { -brand-short-name } nie jest obecnie domyślną przeglądarką
+set-default-menu-message-simple-layout-title-variant = { -brand-short-name } nie jest obecnie główną przeglądarką
+set-default-menu-message-row-layout-title = Ustaw { -brand-short-name(case: "acc") } jako główną przeglądarkę
+set-default-menu-message-row-layout-title-variant = Ustaw { -brand-short-name(case: "acc") } jako domyślną przeglądarkę
+set-default-menu-message-row-layout-subtitle = Zawsze szybko, bezpiecznie i prywatnie przeglądaj Internet.
+set-default-menu-message-row-layout-subtitle-variant =
+    { PLATFORM() ->
+        [macos] Miej { -brand-short-name(case: "acc") } zawsze pod ręką — ustaw go jako domyślną przeglądarkę i zatrzymaj go w Docku.
+       *[other] Miej { -brand-short-name(case: "acc") } zawsze pod ręką — ustaw go jako domyślną przeglądarkę i zatrzymaj go na pasku zadań.
+    }
+set-default-menu-message-split-layout-title =
+    { PLATFORM() ->
+        [macos] Miej { -brand-short-name(case: "acc") } zawsze pod ręką
+       *[other] Otwieraj wszystkie odnośniki w { -brand-short-name(case: "loc") }
+    }
+set-default-menu-message-split-layout-subtitle =
+    { PLATFORM() ->
+        [macos] Ustaw jako domyślną przeglądarkę i zatrzymaj w Docku.
+       *[other] Szybsze przeglądanie Internetu i automatyczna ochrona prywatności.
+    }
+set-default-menu-message-primary-button = Ustaw jako domyślną
+set-default-menu-message-primary-button-variant = Ustaw jako główną przeglądarkę
+set-default-menu-message-primary-button-short-variant = Ustaw { -brand-short-name(case: "acc") } jako domyślną przeglądarkę
+relay-50-masks-announcement-title = 50 masek dla adresu e-mail, na nasz koszt
+relay-50-masks-announcement-subtitle = Teraz otrzymasz 50 bezpłatnych masek (wcześniej 5). Użyj jednej na każde konto, aby zachować prywatność swojego prawdziwego adresu e-mail.
+relay-50-masks-announcement-primary-button = Otwórz { -relay-brand-name }
+    .accesskey = O
+relay-50-masks-announcement-secondary-button = Zamknij
+    .accesskey = Z
+nova-early-access-infobar-title = <strong>{ -brand-product-name } będzie miał nowy wygląd.</strong> Oto wczesna, nieoszlifowana wersja, którą można wypróbować przed premierą zaplanowaną na drugą połowę tego roku.
+nova-early-access-share-feedback-link = Podziel się opinią
+    .accesskey = P
+nova-early-access-infobar-primary-button = OK
+    .accesskey = O
+launch-options-spotlight-title-launch-on-login = Czy uruchamiać { -brand-short-name(case: "acc") } po zalogowaniu do systemu Windows?
+launch-options-spotlight-title-session-restore = Czy przywracać sesję po ponownym uruchomieniu { -brand-short-name(case: "gen") }?
+launch-options-spotlight-checkbox-launch-on-login = Otwieraj { -brand-short-name(case: "acc") } po włączeniu urządzenia
+launch-options-spotlight-checkbox-pin-to-taskbar = Przypnij do paska zadań
+launch-options-spotlight-checkbox-restore-current = Przywracaj obecne okna i karty
+launch-options-spotlight-checkbox-restore-previous = Przywracaj poprzednie okna i karty
+launch-options-spotlight-primary-button-close = Zachowaj i zamknij { -brand-short-name(case: "acc") }
+launch-options-spotlight-primary-button-launch = Zachowaj i kontynuuj
+lapsed-user-toast-title = { -brand-product-name } nadal jest po Twojej stronie
+lapsed-user-toast-subtitle = Wypróbuj nowe możliwości przeglądania, zapewniające większy wybór, prywatność i kontrolę.
+lapsed-user-toast-whats-new-button = Zobacz, co nowego
+lapsed-user-toast-dismiss-button = Zamknij

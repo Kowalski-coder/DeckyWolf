@@ -1,0 +1,28 @@
+content-sharing-modal-more-tabs =
+    { $count ->
+        [one] +{ $count } ավելին
+       *[other] +{ $count } ավելին
+    }
+content-sharing-tabs-title =
+    { $count ->
+        [one] { $count } ներդիր
+       *[other] { $count } ներդիրներ
+    }
+content-sharing-modal-view-page-2 =
+    .label = Նախադիտման էջ
+content-sharing-modal-copy-link =
+    .label = Պատճենել հղումը
+content-sharing-modal-generating-page =
+    .label = Էջի ստեղծում…
+content-sharing-modal-link-copied =
+    .label = Հղումը պատճենվեց
+content-sharing-modal-sign-in-2 =
+    .label = Մուտք գործեք՝ համօգտագործելու համար
+content-sharing-modal-title-2 = Կիսվեք այս էջերով ցանկացած մեկի հետ
+content-sharing-modal-title-signed-in = Ձեր հղումները պատրաստ են կիսվելու համար
+content-sharing-modal-no-shareable-links =
+    .heading = Կիսվող հղումներ չկան
+    .message = Միայն վեբ բովանդակության հղումները կարող են համօգտագործվել։
+content-sharing-modal-generic-error-2 =
+    .heading = Ինչ-որ բան այն չէ
+    .message = Այս անգամ չկարողացանք ստեղծել ձեր համատեղ էջը։ Փորձեք կրկին ավելի ուշ։

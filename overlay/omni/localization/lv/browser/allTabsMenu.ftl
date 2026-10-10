@@ -1,0 +1,12 @@
+all-tabs-menu-search-all-tabs =
+    .label = Meklēt visās cilnēs
+all-tabs-menu-new-user-context =
+    .label = Jauna konteinera cilne
+all-tabs-menu-hidden-tabs =
+    .label = Slēptās cilnes
+all-tabs-menu-recent-tab-groups-header = Nesenas ciļņu kopas
+all-tabs-menu-tab-groups-show-all =
+    .label = Rādīt visu
+all-tabs-menu-tab-groups-sub-view =
+    .title = Ciļņu kopas
+all-tabs-menu-current-window-header = Pašreizējais logs

@@ -1,0 +1,13 @@
+grid-row-column-positions = Rij { $row } / Kolom { $column }
+gridtype-container = Grid-container
+gridtype-item = Grid-item
+gridtype-dual = Grid-container/Item
+flextype-container = Flex-container
+flextype-item = Flex-item
+flextype-dual = Flex-container/-item
+remote-node-picker-notice = DevTools Node Picker ingeschakeld. { $action }
+remote-node-picker-notice-action-desktop = Klik op een element om het te selecteren in de Inspector
+remote-node-picker-notice-action-touch = Tik op een element om het te selecteren in de Inspector
+remote-node-picker-notice-hide-button = Verbergen
+simple-highlighters-message = Als prefers-reduced-motion is ingeschakeld, kan een eenvoudigere accentuering worden ingeschakeld in het instellingenpaneel, om knipperende kleuren te voorkomen.
+simple-highlighters-settings-button = Instellingen openen

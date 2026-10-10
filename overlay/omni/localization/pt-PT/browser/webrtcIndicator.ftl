@@ -1,0 +1,144 @@
+webrtc-indicator-title = { -brand-short-name } - Indicador de partilha
+webrtc-item-camera = câmara
+webrtc-item-microphone = microfone
+webrtc-item-audio-capture = áudio
+webrtc-item-application = aplicação
+webrtc-item-screen = ecrã
+webrtc-item-window = janela
+webrtc-item-browser = separador
+webrtc-sharing-menuitem-unknown-host = Origem desconhecida
+webrtc-sharing-menuitem =
+    .label = { $origin } ({ $itemList })
+webrtc-sharing-menu =
+    .label = Separadores de partilha de dispositivos
+    .accesskey = d
+webrtc-sharing-window = Está a partilhar uma janela de outra aplicação
+webrtc-sharing-browser-window = Está a partilhar o { -brand-short-name }.
+webrtc-sharing-screen = Está a partilhar a totalidade do seu ecrã.
+webrtc-stop-sharing-button = Parar de partilhar
+webrtc-microphone-unmuted =
+    .title = Desligar o microfone
+webrtc-microphone-muted =
+    .title = Ligar o microfone
+webrtc-camera-unmuted =
+    .title = Desligar a câmara
+webrtc-camera-muted =
+    .title = Ligar a câmara
+webrtc-minimize =
+    .title = Minimizar indicador
+webrtc-camera-system-menu =
+    .label = Está a partilhar a sua câmara. Clique para controlar a partilha.
+webrtc-microphone-system-menu =
+    .label = Está a partilhar o seu microfone. Clique para controlar a partilha.
+webrtc-screen-system-menu =
+    .label = Está a partilhar uma janela ou ecrã. Clique para controlar a partilha.
+webrtc-indicator-menuitem-control-sharing =
+    .label = Controlar partilha
+webrtc-indicator-menuitem-control-sharing-on =
+    .label = Controlar partilha em “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-camera-with =
+    .label = Partilhar câmara com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar câmara com { $tabCount } separador
+           *[other] A partilhar câmara com { $tabCount } separadores
+        }
+webrtc-indicator-menuitem-sharing-microphone-with =
+    .label = A partilhar microfone com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar microfone com { $tabCount } separador
+           *[other] A partilhar microfone com { $tabCount }separadores
+        }
+webrtc-indicator-menuitem-sharing-application-with =
+    .label = A partilhar uma aplicação com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-application-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar uma aplicação com { $tabCount } separador
+           *[other] A partilhar uma aplicação com { $tabCount } separadores
+        }
+webrtc-indicator-menuitem-sharing-screen-with =
+    .label = A partilhar ecrã com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar ecrã com { $tabCount } separador
+           *[other] A partilhar ecrã com { $tabCount } separadores
+        }
+webrtc-indicator-menuitem-sharing-window-with =
+    .label = A partilhar uma janela com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-window-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar uma janela com { $tabCount } separador
+           *[other] A partilhar janelas com { $tabCount } separadores
+        }
+webrtc-indicator-menuitem-sharing-browser-with =
+    .label = A partilhar um separador com “{ $streamTitle }”
+webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
+    .label =
+        { $tabCount ->
+            [one] A partilhar um separador com { $tabCount } separador
+           *[other] A partilhar separadores com { $tabCount } separadores
+        }
+webrtc-allow-share-audio-capture = Permitir que { $origin } ouça o áudio deste separador?
+webrtc-allow-share-camera = Permitir que { $origin } utilize a sua câmara?
+webrtc-allow-share-microphone = Permitir que { $origin } utilize o seu microfone?
+webrtc-allow-share-screen = Permitir que { $origin } veja o seu ecrã?
+webrtc-allow-share-speaker = Permitir que { $origin } utilize outros altifalantes?
+webrtc-allow-share-camera-and-microphone = Permitir que { $origin } utilize a sua câmara e microfone?
+webrtc-allow-share-camera-and-audio-capture = Permitir que { $origin } utilize a sua câmara e ouça o áudio deste separador?
+webrtc-allow-share-screen-and-microphone = Permitir que { $origin } utilize o seu microfone e veja o seu ecrã?
+webrtc-allow-share-screen-and-audio-capture = Permitir que { $origin } ouça o áudio deste separador e veja o seu ecrã?
+webrtc-allow-share-audio-capture-with-file = Permitir que este ficheiro local ouça o áudio deste separador?
+webrtc-allow-share-camera-with-file = Permitir que este ficheiro local utilize a sua câmara?
+webrtc-allow-share-microphone-with-file = Permitir que este ficheiro local utilize o seu microfone?
+webrtc-allow-share-screen-with-file = Permitir que este ficheiro local veja o seu ecrã?
+webrtc-allow-share-speaker-with-file = Permitir que este ficheiro local utilize outros altifalantes?
+webrtc-allow-share-camera-and-microphone-with-file = Permitir que este ficheiro local utilize a sua câmara e o microfone?
+webrtc-allow-share-camera-and-audio-capture-with-file = Permitir que este ficheiro local utilize a sua câmara e ouça o áudio deste separador?
+webrtc-allow-share-screen-and-microphone-with-file = Permitir que este ficheiro local utilize o seu microfone e veja o seu ecrã?
+webrtc-allow-share-screen-and-audio-capture-with-file = Permitir que este ficheiro local ouça o áudio deste separador e veja o seu ecrã?
+webrtc-allow-share-audio-capture-unsafe-delegation = Permitir que { $origin } dê à { $thirdParty } permissões para ouvir o áudio deste separador?
+webrtc-allow-share-camera-unsafe-delegation = Permitir que { $origin } forneça acesso à sua câmara a { $thirdParty }?
+webrtc-allow-share-microphone-unsafe-delegation = Permitir que { $origin } forneça acesso ao seu microfone a { $thirdParty }?
+webrtc-allow-share-screen-unsafe-delegation = Permitir que { $origin } forneça acesso para ver o seu ecrã a { $thirdParty }?
+webrtc-allow-share-speaker-unsafe-delegation = Permitir que { $origin } dê a { $thirdParty } acesso a outros altifalantes?
+webrtc-allow-share-camera-and-microphone-unsafe-delegation = Permitir que { $origin } forneça acesso à sua câmara e ao seu microfone a { $thirdParty }?
+webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = Permitir que { $origin } forneça acesso à sua câmara e ouvir o áudio deste separador a { $thirdParty }?
+webrtc-allow-share-screen-and-microphone-unsafe-delegation = Permite que { $origin } forneça acesso ao seu microfone e a visualizar o seu ecrã a { $thirdParty }?
+webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = Permitir que { $origin } forneça acesso para ouvir o áudio deste separador e a visualizar o seu ecrã a { $thirdParty }?
+webrtc-share-screen-warning = Apenas partilhe ecrãs com sites em que confia. Partilhar pode permitir que sites enganadores naveguem por si e que roubem os seus dados privados.
+webrtc-share-browser-warning = Apenas partilhe o { -brand-short-name } com sites em que confia. Partilhar pode permitir que sites enganadores naveguem por si e que roubem os seus dados privados.
+webrtc-pick-window-or-screen = Selecionar janela ou ecrã
+webrtc-share-entire-screen = Ecrã completo
+webrtc-share-pipe-wire-portal = Utilizar definições do sistema operativo
+webrtc-share-monitor = Ecrã { $monitorIndex }
+webrtc-share-application =
+    { $windowCount ->
+        [one] { $appName } ({ $windowCount } janela)
+       *[other] { $appName } ({ $windowCount } janelas)
+    }
+webrtc-action-allow =
+    .label = Permitir
+    .accesskey = P
+webrtc-action-block =
+    .label = Bloquear
+    .accesskey = B
+webrtc-action-always-block =
+    .label = Bloquear sempre
+    .accesskey = m
+webrtc-action-not-now =
+    .label = Agora não
+    .accesskey = N
+webrtc-remember-allow-checkbox = Memorizar esta decisão
+webrtc-remember-allow-checkbox-camera = Memorizar para todas as câmaras
+webrtc-remember-allow-checkbox-microphone = Memorizar para todos os microfones
+webrtc-remember-allow-checkbox-camera-and-microphone = Memorizar para todas as câmaras e microfones
+webrtc-mute-notifications-checkbox = Silenciar notificações de sites durante a partilha
+webrtc-reason-for-no-permanent-allow-screen = O { -brand-short-name } não pode permitir acesso permanente ao seu ecrã.
+webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } não pode permitir acesso permanente ao áudio do separador sem lhe perguntar qual separador partilhar.
+webrtc-reason-for-no-permanent-allow-insecure = A sua ligação a este site não é segura. Para lhe proteger, o { -brand-short-name } irá apenas permitir acesso para esta sessão.

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Zanfun henanante taaga feeri
+panic-button-undo-warning = Teeraa woo ši hin ka taafeeri.
+panic-button-forget-button =
+    .label = Dirŋa!
+panic-main-timeframe-desc = Dirŋa ikoraa:
+panic-button-5min =
+    .label = Miniti guu
+panic-button-2hr =
+    .label = Guuru hinka
+panic-button-day =
+    .label = Guuru 24
+panic-button-action-desc = Koyjineyan ga:
+panic-button-delete-cookies = <strong>Aleewa</strong> korawey tuusu
+panic-button-delete-history = <strong>Taariki</strong> koraa tuusu
+panic-button-delete-tabs-and-windows = <strong>Kanjey</strong> nda <strong>Zanfuney</strong> kul tuusu

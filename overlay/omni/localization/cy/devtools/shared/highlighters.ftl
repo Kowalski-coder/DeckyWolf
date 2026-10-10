@@ -1,0 +1,13 @@
+grid-row-column-positions = Rhes { $row } / Colofn { $column }
+gridtype-container = Cynhwysydd Grid
+gridtype-item = Eitem Grid
+gridtype-dual = Cynhwysydd Grid/Item
+flextype-container = Cynhwysydd Flex
+flextype-item = Eitem Flex
+flextype-dual = Cynhwysydd Flex/Item
+remote-node-picker-notice = Dewisydd Node DevTools wedi'i alluogi. { $action }
+remote-node-picker-notice-action-desktop = Cliciwch elfen i'w ddewis yn yr Arolygydd
+remote-node-picker-notice-action-touch = Tapiwch elfen i'w ddewis yn yr Arolygydd
+remote-node-picker-notice-hide-button = Cuddio
+simple-highlighters-message = Pan fydd prefers-reduced-motion wedi'i alluogi, mae modd galluogi amlygwyr symlach yn y panel gosodiadau, er mwyn osgoi fflachio lliwiau.
+simple-highlighters-settings-button = Agor y Gosodiadau

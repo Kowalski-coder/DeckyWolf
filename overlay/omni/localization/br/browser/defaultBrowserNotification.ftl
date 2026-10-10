@@ -1,0 +1,15 @@
+default-browser-notification-message = <strong>Lakaat { -brand-short-name } da verdeer dre ziouer?</strong> Ur merdeiñ herrek, diogel ha prevez pa implij ar web.
+default-browser-notification-button =
+    .label = Lakaat dre ziouer
+    .accesskey = L
+default-browser-prompt-title-pin = Dibab { -brand-short-name } evel merdeer pennañ?
+default-browser-prompt-message-pin = Dalc’hit { -brand-short-name } tost ouzhoc’h — lakait anezhañ da verdeer dre ziouer ha spilhennit anezhañ en ho parrenn drevelloù.
+default-browser-prompt-message-pin-mac = Mirit { -brand-short-name } war beg ho pizied — lakait anezhañ da vezañ ho merdeer dre ziouer ha mirit anezhañ en ho Dock.
+default-browser-prompt-button-primary-set = Lakaat da verdeer pennañ
+default-browser-prompt-title-alt = Lakaat { -brand-short-name } da verdeer dre ziouer?
+default-browser-prompt-message-alt = Ho pezet tizhder, surentez ha dangelez bewech ma verdeit.
+default-browser-prompt-button-primary-alt = Lakaat da verdeer dre ziouer
+default-browser-prompt-checkbox-not-again-label = Arabat diskouez ar gemennadenn-mañ adarre
+default-browser-prompt-button-secondary = Diwezhatoc'h
+default-browser-guidance-notification-info-page = Diskouez din
+default-browser-guidance-notification-dismiss = Graet

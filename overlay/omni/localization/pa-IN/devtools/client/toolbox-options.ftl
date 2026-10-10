@@ -1,0 +1,15 @@
+options-select-dev-tools-theme-label = ਥੀਮ
+options-context-inspector = ਨਿਰੀਖਕ
+options-show-user-agent-styles-label = ਬਰਾਊਜ਼ਰ ਅੰਦਾਜ ਵਿਖਾਓ
+options-default-color-unit-hsl = HSL(A)
+options-default-color-unit-rgb = RGB(A)
+options-default-color-unit-name = ਰੰਗਾਂ ਦੇ ਨਾਂ
+options-experimental-label = ਤਜਰਬੇ ਅਧੀਨ ਫੀਚਰ
+options-styleeditor-label = ਅੰਦਾਜ ਸੰਪਾਦਕ
+options-screenshot-label = ਸਕਰੀਨਸ਼ਾਟ ਰਵੱਈਆ
+options-screenshot-audio-label = ਕੈਮਰਾ ਸ਼ਟਰ ਆਵਾਜ਼ ਚਲਾਓ
+options-screenshot-audio-tooltip =
+    .title = ਜਦੋਂ ਸਕਰੀਨਸ਼ਾਟ ਲੈਣਾ ਹੋਵੇ ਤਾਂ ਕੈਮਰਾ ਆਡੀਓ ਆਵਾਜ਼ ਸਮਰੱਥ ਕਰਦਾ ਹੈ
+options-sourceeditor-tabsize-label = ਟੈਬ ਦਾ ਅਕਾਰ
+options-sourceeditor-keybinding-default-label = ਮੂਲ
+options-tool-not-supported-marker = { $toolLabel } *

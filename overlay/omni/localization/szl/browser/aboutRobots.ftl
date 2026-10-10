@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Witejcie, ludzie!
+error-short-desc-text = Przibylimy do wos w pokoju i z dobrōm wolōm.
+error-long-desc1 = Robot niy śmiy skrziwdzić człowieka, ani dopuścić do jego krziwdy skuli braku działanio.
+error-long-desc2 = Roboty widziały rzeczy, w kere wy, ludzie, byście ani niy uwierzili.
+error-long-desc3 = Roboty to twoje plastikowe kamraty, z kerymi szpas je być.
+error-long-desc4 = Roboty majōm wyglancowane, metalowe zadki, kerych niy zdo sie gryzać.
+error-trailer-desc-text = I majōm plan.
+error-try-again = Sprōbuj jeszcze roz
+    .label2 = Niy prziciskej zaś tego knefla.

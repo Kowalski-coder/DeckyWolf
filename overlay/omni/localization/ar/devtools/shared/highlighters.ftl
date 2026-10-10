@@ -1,0 +1,10 @@
+grid-row-column-positions = صف { $row } / عمود { $column }
+gridtype-container = حاوٍ شبكي
+gridtype-item = عنصر شبكي
+gridtype-dual = حاوٍ/عنصر شبكي
+flextype-container = حاوٍ مرن
+flextype-item = عنصر مرن
+flextype-dual = حاوٍ/عنصر مرن
+remote-node-picker-notice-action-desktop = انقر فوق عنصر لتحديده في الفاحص
+remote-node-picker-notice-hide-button = أخفِ
+simple-highlighters-settings-button = افتح الإعدادات

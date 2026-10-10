@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = أزل التثبيت من قائمة الزيادة
+    .accesskey = ت
+customize-menu-add-to-toolbar =
+    .label = أضف إلى شريط الأدوات
+    .accesskey = ض
+customize-menu-add-to-overflowmenu =
+    .label = أضف لقائمة الزيادة
+    .accesskey = ض
+panic-button-thankyou-msg1 = مُسح تأريخك الحديث.
+panic-button-thankyou-msg2 = التصفح الآمن!
+panic-button-thankyou-button =
+    .label = شكرًا!

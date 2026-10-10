@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Butiran aplikasi
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Buang
+    .accesskey = B
+app-manager-handle-protocol = Aplikasi berikut boleh digunakan untuk mengendalikan Pautan { $type }.
+app-manager-handle-file = Aplikasi berikut boleh digunakan untuk mengendalikan Kandungan { $type }.
+app-manager-web-app-info = Aplikasi web ini dihoskan di:
+app-manager-local-app-info = Aplikasi ini berada di:

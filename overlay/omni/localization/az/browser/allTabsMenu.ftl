@@ -1,0 +1,10 @@
+all-tabs-menu-new-user-context =
+    .label = Yeni Konteyner Vərəqi
+all-tabs-menu-hidden-tabs =
+    .label = Gizli Vərəqlər
+all-tabs-menu-recent-tab-groups-header = Son vərəqə qrupları
+all-tabs-menu-tab-groups-show-all =
+    .label = Hamısını göstər
+all-tabs-menu-tab-groups-sub-view =
+    .title = Vərəqə qrupları
+all-tabs-menu-current-window-header = Cari pəncərə

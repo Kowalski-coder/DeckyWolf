@@ -1,0 +1,15 @@
+panic-button-open-new-window = Θα ανοίξει ένα νέο παράθυρο
+panic-button-undo-warning = Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας.
+panic-button-forget-button =
+    .label = Διαγραφή!
+panic-main-timeframe-desc = Διαγραφή των τελευταίων:
+panic-button-5min =
+    .label = Πέντε λεπτών
+panic-button-2hr =
+    .label = Δύο ωρών
+panic-button-day =
+    .label = 24 ωρών
+panic-button-action-desc = Αν συνεχίσετε:
+panic-button-delete-cookies = Θα διαγραφούν τα πρόσφατα <strong>cookie</strong>
+panic-button-delete-history = Θα διαγραφεί το πρόσφατο <strong>ιστορικό</strong>
+panic-button-delete-tabs-and-windows = Θα κλείσουν όλες οι <strong>καρτέλες</strong> και τα <strong>παράθυρα</strong>

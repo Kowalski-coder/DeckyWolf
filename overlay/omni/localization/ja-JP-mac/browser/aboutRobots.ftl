@@ -1,0 +1,10 @@
+page-title = まるちぷるたいたんぱー！
+error-title-text = ニンゲンノミナサン、ヨウコソ！
+error-short-desc-text = ロボットは人間の友達です！
+error-long-desc1 = ロボットは良心回路を持っているので、人間に危害を与えません。
+error-long-desc2 = ロボットは航空力学を無視して空を飛べます。
+error-long-desc3 = ロボットは持ち主の脳波レベルを測定できます。
+error-long-desc4 = ロボットとアンドロイドは違う、と主張しているロボットもいます。
+error-trailer-desc-text = ロボットがやらねば誰がやる！
+error-try-again = 再試行
+    .label2 = バーイチャ!

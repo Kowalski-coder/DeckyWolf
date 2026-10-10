@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Dodaj kartę do paska zadań
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Usuń kartę z paska zadań
+taskbar-tab-urlbar-button-show = Wyświetl interakcje strony aplikacji internetowej
+taskbar-tab-urlbar-button-hide = Ukryj interakcje strony aplikacji internetowej
+taskbar-tab-shortcut-description = Aplikacja internetowa { $name }
+taskbar-tab-shortcut-folder = Aplikacje internetowe { -brand-short-name(case: "gen") }
+taskbar-tab-audio-mute =
+    .tooltiptext = Wycisz kartę
+taskbar-tab-audio-unmute =
+    .tooltiptext = Włącz dźwięk
+taskbar-tab-title-default = { $name } w { -brand-full-name(case: "loc") }
+taskbar-tab-title-container = { $name } ({ $container }) w { -brand-full-name(case: "loc") }
+taskbar-tab-title-profile = { $name } w profilu { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) w profilu { $profile } — { -brand-full-name }

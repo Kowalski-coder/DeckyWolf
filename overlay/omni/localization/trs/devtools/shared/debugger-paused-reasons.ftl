@@ -1,0 +1,12 @@
+whypaused-debugger-statement = Ganikïn' akuanj 'iaj si nuguàn' depuradô
+whypaused-breakpoint = Ganikïn' akuanj riña sa a'ne'e
+whypaused-event-breakpoint = Ganikïn' akuanj riña ebentô a'ne'e
+whypaused-exception = Ganikïn' akuanj riña esepsiûn
+whypaused-mutation-breakpoint = Ganikïn' akuanj riña DOM nadunâ sa huaj
+whypaused-resume-limit = Ganikïn' akuanj 'iaj si huā sa rañu'ūnj
+whypaused-pause-on-dom-events = Ganikïn' akuanj riña sa unïn ebênto
+whypaused-breakpoint-condition-thrown = Gire'ej ngà puntû yi'ne' niñāa
+whypaused-promise-rejection = Ganikïn' akuanj riña nu dugahuin sa huāa
+whypaused-assert = Ganikïn' akuanj riña nuguan' yangà'a
+whypaused-debug-command = Ganikïn' akuanj riña nagi'iaj hìo si si sunj
+whypaused-other = Sa nagi'iaj hìo ganikïn' akuan'

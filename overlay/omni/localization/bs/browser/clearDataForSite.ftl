@@ -1,0 +1,9 @@
+clear-data-for-site-title = Obrisati sve podatke za ovu web stranicu?
+clear-data-for-site-list = Ovo će obrisati sve podatke za { $site }, uključujući:
+clear-data-for-site-browsing-history = Historija pregledavanja i preuzimanja
+clear-data-for-site-cookies = Kolačići i podaci web stranice, koji vas mogu odjaviti sa web stranice
+clear-data-for-site-cache = Keširane datoteke i stranice
+cclear-data-for-site-permissions = Dozvole i postavke
+clear-data-for-site-exceptions = Oznake i sačuvane lozinke neće biti izbrisane
+clear-data-for-site-dialog-accept-button = Očisti podatke
+clear-data-for-site-dialog-cancel-button = Otkaži

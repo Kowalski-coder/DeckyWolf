@@ -1,0 +1,10 @@
+sidebar-menu-bookmarks =
+    .label = Adreces d'interés
+sidebar-menu-history =
+    .label = Historial
+sidebar-menu-synced-tabs =
+    .label = Pestanyes sincronitzades
+sidebar-menu-close =
+    .label = Tanca la barra lateral
+sidebar-close-button =
+    .tooltiptext = Tanca la barra lateral

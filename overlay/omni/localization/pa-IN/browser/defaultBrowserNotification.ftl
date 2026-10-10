@@ -1,0 +1,27 @@
+default-browser-notification-message = <strong>{ -brand-short-name } ਨੂੰ ਆਪਣਾ ਡਿਫਾਲਟ ਬਰਾਊਜ਼ਰ ਬਣਾਉਣਾ ਹੈ?</strong> ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਵੈਬ ਨੂੰ ਵਰਤੋਂ ਤਾਂ ਤੇਜ਼, ਸੁਰੱਖਿਅਤ ਅਤੇ ਪ੍ਰਾਈਵੇਟ ਢੰਗ ਨਾਲ ਬਰਾਊਜ਼ ਕਰੋ।
+default-browser-notification-button =
+    .label = ਡਿਫਾਲਟ ਵਜੋਂ ਸੈੱਟ ਕਰੋ
+    .accesskey = S
+default-browser-prompt-title-pin = { -brand-short-name } ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਉਣਾ ਹੈ?
+default-browser-prompt-message-pin = { -brand-short-name } ਨੂੰ ਆਪਣੇ ਨੇੜੇ ਰੱਖੋ — ਇਸ ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਓ ਅਤੇ ਆਪਣੀ ਟਾਸਕ-ਬਾਰ ਵਿੱਚ ਟੰਗੋ।
+default-browser-prompt-message-pin-msix = { -brand-short-name } ਨੂੰ ਆਪਣੇ ਨੇੜੇ ਰੱਖੋ — ਇਸ ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਓ ਅਤੇ ਆਪਣੀ ਟਾਸਕ-ਬਾਰ ਤੇ ਸਟਾਰਟ ਮੇਨੂ ਵਿੱਚ ਟੰਗੋ।
+default-browser-prompt-message-pin-mac = { -brand-short-name } ਨੂੰ ਆਪਣੇ ਕੋਲ ਰੱਖੋ — ਇਸ ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਓ ਤੇ ਆਪਣੇ ਡੌਕ ਵਿੱਚ ਰੱਖੋ।
+default-browser-prompt-button-primary-set = ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਓ
+default-browser-prompt-title-alt = { -brand-short-name } ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਉਣਾ ਹੈ?
+default-browser-prompt-message-alt = ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਬਰਾਊਜ਼ ਕਰੋ ਤਾਂ ਸਪੀਡ, ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਨਾਲ ਲੈੱਸ ਰਹੋ।
+default-browser-prompt-button-primary-alt = ਮੂਲ ਬਰਾਊਜ਼ਰ ਬਣਾਓ
+default-browser-prompt-checkbox-not-again-label = ਇਹ ਸੁਨੇਹਾ ਮੁੜ ਨਾ ਦਿਖਾਓ
+default-browser-prompt-button-secondary = ਹੁਣੇ ਨਹੀਂ
+default-browser-guidance-notification-title = { -brand-short-name } ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਣਾਉਣਾ ਪੂਰਾ ਕਰੋ
+default-browser-guidance-notification-body-instruction-win10 =
+    ਪੜਾਅ 1: Settings (ਸੈਟਿੰਗਾਂ) > Default apps (ਮੂਲ ਐਪਾਂ) ਉੱਤੇ ਜਾਓ
+    ਪੜਾਅ 2: “Web Browser (ਵੈੱਬ ਬਰਾਊਜ਼ਰ” ਉੱਤੇ ਹੇਠਾਂ ਵੱਲ ਸਕਰਾਓ
+    ਪੜਾਅ 3: ਚੋਣ ਕਰੋ ਅਤੇ { -brand-short-name } ਨੂੰ ਚੁਣੋ
+default-browser-guidance-notification-body-instruction-win11 =
+    ਪੜਾਅ 1: Settings (ਸੈਟਿੰਗਾਂ) > Default apps (ਮੂਲ ਐਪਾਂ) ਉੱਤੇ ਜਾਓ
+    ਪੜਾਅ 2: { -brand-short-name } ਨੂੰ “Set default (ਮੂਲ ਸੈੱਟ ਕਰੋ)“ ਚੁਣੋ
+default-browser-guidance-notification-info-page = ਮੈਨੂੰ ਵੇਖਾਓ
+default-browser-guidance-notification-dismiss = ਮੁਕੰਮਲ
+default-browser-guidance-notification-v2-title = { -brand-short-name } ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਣਾਉਣ ਨੂੰ ਪੂਰਾ ਕਰੋ
+default-browser-guidance-notification-v2-body = ਸੈਟਿੰਗਾਂ ਵਿੱਚ { -brand-short-name } ਲਈ “ਮੂਲ ਸੈੱਟ ਕਰੋ” ਨੂੰ ਚੁਣੋ।
+default-browser-guidance-notification-v2-title-only = ਸੈਟਿੰਗਾਂ ਵਿੱਚ { -brand-short-name } ਨੂੰ ਆਪਣਾ ਮੂਲ ਬਣਾਉਣ ਨੂੰ ਪੂਰਾ ਕਰੋ

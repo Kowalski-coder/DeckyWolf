@@ -1,0 +1,10 @@
+toolbox-meatball-menu-dock-bottom-label = Ikabit sa Ilalim
+toolbox-meatball-menu-dock-left-label = Ikabit sa Kaliwa
+toolbox-meatball-menu-dock-right-label = Ikabit sa Kanan
+toolbox-meatball-menu-dock-separate-window-label = Hiwalay na Window
+toolbox-meatball-menu-splitconsole-label = Ipakita ang Split Console
+toolbox-meatball-menu-hideconsole-label = Itago ang Split Console
+toolbox-meatball-menu-settings-label = Mga setting
+toolbox-meatball-menu-documentation-label = Documentation…
+toolbox-meatball-menu-community-label = Komunidad...
+toolbox-meatball-menu-noautohide-label = I-disable ang Popup Auto-Hide

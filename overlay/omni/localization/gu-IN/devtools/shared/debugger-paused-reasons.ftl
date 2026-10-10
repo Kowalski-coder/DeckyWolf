@@ -1,0 +1,10 @@
+whypaused-debugger-statement = ડિબગર નિવેદન પર થોભ્યા
+whypaused-breakpoint = બ્રેકપોઇન્ટ પર થોભાવ્યું
+whypaused-exception = અપવાદ પર થોભ્યો
+whypaused-resume-limit = પગલામાં થોભ્યા
+whypaused-pause-on-dom-events = ઘટના સાંભળનાર પર થોભાવ્યું
+whypaused-breakpoint-condition-thrown = શરતી બ્રેકપોઇન્ટ સાથે ભૂલ
+whypaused-promise-rejection = વચન નિષેધ પર થોભ્યું
+whypaused-assert = દાવા પર થોભાવ્યું
+whypaused-debug-command = ડીબગ કરેલા કાર્ય પર થોભ્યું
+whypaused-other = ડિબગર થોભાવાયું

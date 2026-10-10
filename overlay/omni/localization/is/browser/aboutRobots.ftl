@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Verið velkomið gott fólk!
+error-short-desc-text = Við erum hér til að heimsækja ykkur með friði og góðum tilgangi!
+error-long-desc1 = Vélmenni mega ekki meiða mann eða með aðgerðaleysi leyfa að maður verði meiddur.
+error-long-desc2 = Vélmenni hafa séð hluti sem þú myndir ekki trúa.
+error-long-desc3 = Vélmenni eru plastvinir þínir sem er gaman að vera með.
+error-long-desc4 = Vélmenni eru með glansandi rass sem ekki ætti að bíta í.
+error-trailer-desc-text = Og þau eru með plan.
+error-try-again = Reyna aftur
+    .label2 = Ekki ýta aftur á þennan hnapp.

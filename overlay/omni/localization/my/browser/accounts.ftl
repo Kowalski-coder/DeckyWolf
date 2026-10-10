@@ -1,0 +1,12 @@
+account-send-to-all-devices = ကိရိယာများအားလုံးသို့ ပို့ပါ
+account-reconnect = { $email } ကို ပြန်ချိတ်ဆက်ပါ
+account-verify = { $email } ကို အတည်ပြုရန်
+account-send-to-all-devices-titlecase = ကိရိယာများအားလုံးသို့ ပို့ပါ
+account-send-tab-to-device-verify-status = အတည်မပြုရသေးသော အကောင့်
+account-single-tab-arriving-title = ရရှိထားသော တပ်ဗ်
+account-single-tab-arriving-from-device-title = { $deviceName } ထံမှ တပ်ဗ်
+account-single-tab-arriving-truncated-url = { $url }…
+account-multiple-tabs-arriving-title = တပ်ဗ်များကို လက်ခံရရှိသည်
+account-multiple-tabs-arriving-from-single-device = တပ်ဗ် { $tabCount } ခုကို { $deviceName } ထံမှ ရရှိသည်
+account-multiple-tabs-arriving-from-multiple-devices = ချိတ်ထားသော ကိရိယာများထံမှ တပ်ဗ် { $tabCount } ခုကို  ရရှိသည်
+account-multiple-tabs-arriving-from-unknown-device = တပ်ဗ် { $tabCount } ခုကို ရရှိသည်

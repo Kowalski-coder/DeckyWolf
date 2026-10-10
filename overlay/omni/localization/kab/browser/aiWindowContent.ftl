@@ -1,0 +1,12 @@
+aiwindow-memories-learn-more = Issin ugar
+aiwindow-manage-memories =
+    .label = Iɣewwaren n tkatut
+aiwindow-copy-message =
+    .aria-label = Nɣel izen
+    .tooltiptext = Nɣel
+aiwindow-copy-table =
+    .aria-label = Nɣel tafelwit
+    .tooltiptext = Nɣel tafelwit
+aiwindow-table-scroll-indicator = Drurem ad twaliḍ ugar
+aiwindow-delete-memory-button =
+    .aria-label = Kkes { $summary }

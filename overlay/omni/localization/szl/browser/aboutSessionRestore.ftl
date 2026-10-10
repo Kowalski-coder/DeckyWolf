@@ -1,0 +1,26 @@
+restore-page-tab-title = Prziwrōć sesyjo
+restore-page-error-title = Pokozoł sie problym z wrōcyniym twojich strōn.
+restore-page-problem-desc = Pokozoł sie problym z prziwrōcyniym twojij ôstatnij sesyje. Ôbier "Prziwrōć sesyjo", coby sprōbować jeszcze roz.
+restore-page-try-this = Durch niy idzie prziwrōcić sesyje? Niykedy tak je skuli karty. Wejzdrzij na ôstatnie karty, ôdznacz te, kerych niy trza prziwrocać a potym prziwrōć sesyjo.
+restore-page-hide-tabs = Skryj piyrwyjsze karty
+restore-page-show-tabs = Ôbocz piyrwyjsze karty
+restore-page-window-label = Ôkno { $windowNumber }
+restore-page-restore-header =
+    .label = Prziwrōć
+restore-page-list-header =
+    .label = Ôkna i karty
+restore-page-try-again-button =
+    .label = Prziwrōć sesyjo
+    .accesskey = R
+restore-page-close-button =
+    .label = Zacznij nowo sesyjo
+    .accesskey = N
+welcome-back-tab-title = Sukces!
+welcome-back-page-title = Sukces!
+welcome-back-page-info = Aplikacyjo { -brand-short-name } je gotowo do używanio.
+welcome-back-restore-button =
+    .label = Lecymy!
+    .accesskey = L
+welcome-back-restore-all-label = Prziwrōć wszyske ôkna i karty
+welcome-back-restore-some-label = Prziwrōć ino te, co chcesz
+welcome-back-page-info-link = Twoje przidowki i włosne sztalōnki sōm skasowane, a przeglōndarka je wrōcono do bazowych sztalōnkōw. Jak durch mosz problym, <a data-l10n-name="link-more">dowiydz sie, co jeszcze idzie zrobić.</a>

@@ -1,0 +1,212 @@
+about-logins-page-title-name = 비밀번호
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = 비밀번호 검색
+create-login-button =
+    .title = 비밀번호 추가
+fxaccounts-sign-in-text = 다른 기기에서 비밀번호 받기
+fxaccounts-sign-in-sync-button = Sync에 로그인
+fxaccounts-avatar-button =
+    .title = 계정 관리
+menu =
+    .title = 메뉴 열기
+about-logins-menu-menuitem-import-from-another-browser = 다른 브라우저에서 가져오기…
+about-logins-menu-menuitem-import-from-a-file = 파일에서 가져오기…
+about-logins-menu-menuitem-export-logins2 = 비밀번호 내보내기…
+about-logins-menu-menuitem-remove-all-logins2 = 모든 비밀번호 제거…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] 설정
+       *[other] 설정
+    }
+about-logins-menu-menuitem-help = 도움말
+login-list =
+    .aria-label = 검색어와 일치하는 로그인
+login-list-count2 = 비밀번호 { $count }개
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } / { $total } 비밀번호
+       *[other] { $count } / { $total } 비밀번호
+    }
+login-list-sort-label-text = 정렬 기준:
+login-list-name-option = 이름 (A-Z)
+login-list-name-reverse-option = 이름 (Z-A)
+login-list-username-option = 사용자 이름 (A-Z)
+login-list-username-reverse-option = 사용자 이름 (Z-A)
+about-logins-login-list-alerts-option = 알림
+login-list-last-changed-option = 최근 수정
+login-list-last-used-option = 최근 사용
+login-list-intro-title2 = 저장된 비밀번호 없음
+login-list-intro-description = { -brand-product-name }에 비밀번호를 저장하면, 여기에 표시됩니다.
+about-logins-login-list-empty-search-title2 = 비밀번호를 찾을 수 없음
+about-logins-login-list-empty-search-description = 검색어와 일치하는 결과가 없습니다.
+login-list-item-title-new-login2 = 비밀번호 추가
+login-list-item-subtitle-missing-username = (사용자 이름 없음)
+about-logins-list-item-breach-icon =
+    .title = 유출된 웹 사이트
+about-logins-list-item-vulnerable-password-icon =
+    .title = 취약한 비밀번호
+about-logins-list-section-breach = 유출된 웹 사이트
+about-logins-list-section-vulnerable = 취약한 비밀번호
+about-logins-list-section-nothing = 알림 없음
+about-logins-list-section-today = 오늘
+about-logins-list-section-yesterday = 어제
+about-logins-list-section-week = 최근 7일
+about-logins-login-intro-heading-message = 비밀번호를 안전한 장소에 저장하세요
+login-intro-description2 = { -brand-product-name }에 저장한 모든 비밀번호는 암호화됩니다. 또한 유출을 감시하고 영향을 받으면 알려드립니다. <a data-l10n-name="breach-alert-link">더 알아보기</a>
+login-intro-instructions-fxa2 = 로그인이 저장된 기기에서 계정을 만들거나 로그인하세요.
+login-intro-instructions-fxa-settings = 설정> Sync > 동기화 켜기…로 이동해서, 로그인 및 비밀번호 확인란을 선택하세요.
+login-intro-instructions-fxa-passwords-help = 더 많은 도움이 필요하면 <a data-l10n-name="passwords-help-link">비밀번호 지원</a>을 방문하세요.
+about-logins-intro-import3 = 지금 비밀번호를 추가하려면 위의 더하기 기호 버튼을 선택하세요. <a data-l10n-name="import-browser-link">다른 브라우저</a> 또는 <a data-l10n-name="import-file-link">파일</a>에서 비밀번호를 가져올 수 있음
+about-logins-login-item-new-login-title = 비밀번호 추가
+login-item-edit-button = 편집
+about-logins-login-item-remove-button = 삭제
+login-item-origin-label = 웹 사이트 주소
+about-logins-origin-tooltip2 = 전체 주소를 입력하고 로그인한 주소와 정확히 일치하는지 확인하세요.
+about-logins-edit-password-tooltip = 이 사이트의 현재 비밀번호를 저장하고 있는지 확인하세요. 여기에서 비밀번호를 변경해도 { $webTitle }의 비밀번호는 변경되지 않습니다.
+about-logins-add-password-tooltip = 이 사이트의 현재 비밀번호를 저장하고 있는지 확인하세요.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = 사용자 이름
+about-logins-login-item-username =
+    .placeholder = (사용자 이름 없음)
+login-item-copy-username-button-text = 복사
+login-item-copied-username-button-text = 복사됨!
+login-item-password-label = 비밀번호
+login-item-password-reveal-checkbox =
+    .aria-label = 비밀번호 표시
+login-item-password-conceal-checkbox =
+    .aria-label = 비밀번호 숨기기
+login-item-copy-password-button-text = 복사
+login-item-copied-password-button-text = 복사됨!
+about-logins-login-item-save-changes-button = 저장
+login-item-save-new-button = 저장
+login-item-cancel-button = 취소
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = 생성
+login-item-timeline-action-updated = 업데이트됨
+login-item-timeline-action-used = 사용
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] 비밀번호 설정 변경
+       *[other] { -brand-short-name }가 비밀번호 설정을 변경하려고 합니다. 이를 허용하려면 기기 로그인을 사용하세요.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = 비밀번호를 편집하려면, Windows 로그인 자격 증명을 입력하세요. 이는 계정의 보안을 보호하는 데 도움이 됩니다.
+about-logins-edit-login-os-auth-dialog-message2-macosx = 저장된 비밀번호 편집
+about-logins-reveal-password-os-auth-dialog-message-win = 비밀번호를 보려면, Windows 로그인 자격 증명을 입력하세요. 이는 계정의 보안을 보호하는 데 도움이 됩니다.
+about-logins-reveal-password-os-auth-dialog-message-macosx = 저장된 비밀번호 표시
+about-logins-copy-password-os-auth-dialog-message-win = 비밀번호를 복사하려면, Windows 로그인 자격 증명을 입력하세요. 이는 계정의 보안을 보호하는 데 도움이 됩니다.
+about-logins-copy-password-os-auth-dialog-message-macosx = 저장된 비밀번호 복사
+about-logins-export-password-os-auth-dialog-message2-win = 비밀번호를 내보내려면, Windows 로그인 자격 증명을 입력하세요. 이는 계정의 보안을 보호하는 데 도움이 됩니다.
+about-logins-export-password-os-auth-dialog-message2-macosx = 저장된 비밀번호 내보내기
+about-logins-primary-password-notification-message = 저장된 로그인과 비밀번호를 보려면 기본 비밀번호를 입력하세요
+master-password-reload-button =
+    .label = 로그인
+    .accesskey = L
+confirmation-dialog-cancel-button = 취소
+confirmation-dialog-dismiss-button =
+    .title = 취소
+about-logins-confirm-delete-dialog-title = 비밀번호를 제거하시겠습니까?
+about-logins-confirm-delete-dialog-message = 이 작업은 취소할 수 없습니다.
+about-logins-confirm-remove-dialog-confirm-button = 삭제
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] 삭제
+       *[other] 모두 삭제
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] 예, 비밀번호 제거
+       *[other] 예, 비밀번호 제거
+    }
+about-logins-confirm-remove-all-dialog-title2 = 비밀번호 { $count }개를 제거하시겠습니까?
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] { -brand-short-name }에 저장한 비밀번호와 모든 유출 알림이 제거됩니다. 이 작업은 취소할 수 없습니다.
+       *[other] { -brand-short-name }에 저장한 비밀번호와 모든 유출 알림이 제거됩니다. 이 작업은 취소할 수 없습니다.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 = 모든 기기에서 비밀번호 { $count }개를 제거하시겠습니까?
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] 동기화된 모든 기기에서 { -brand-short-name }에 저장한 비밀번호가 제거됩니다. 여기에 표시되는 유출 알림도 제거됩니다. 이 작업은 취소할 수 없습니다.
+       *[other] 동기화된 모든 기기에서 { -brand-short-name }에 저장한 모든 비밀번호가 제거됩니다. 여기에 표시되는 유출 알림도 제거됩니다. 이 작업은 취소할 수 없습니다.
+    }
+about-logins-confirm-export-dialog-title2 = 비밀번호 내보내기에 대한 참고사항
+about-logins-confirm-export-dialog-message2 =
+    내보낼 때 비밀번호는 읽을 수 있는 텍스트 파일로 저장됩니다.
+    파일 사용이 끝나면 이 기기를 사용하는 다른 사람이 사용자의 비밀번호를 볼 수 없도록 파일을 삭제하는 것이 좋습니다.
+about-logins-confirm-export-dialog-confirm-button2 = 내보내기 계속
+about-logins-alert-import-message = 자세한 가져오기 요약 보기
+confirm-discard-changes-dialog-title = 저장되지 않은 변경 내용을 버리시겠습니까?
+confirm-discard-changes-dialog-message = 저장되지 않은 모든 변경 내용을 잃게 됩니다.
+confirm-discard-changes-dialog-confirm-button = 버리기
+about-logins-breach-alert-title = 웹 사이트 유출
+breach-alert-text = 마지막 로그인 정보를 업데이트 한 후 이 웹 사이트에서 비밀번호가 유출되거나 도난당했습니다. 계정을 보호하기 위해 비밀번호를 변경하세요.
+about-logins-breach-alert-date = 이 유출은 { DATETIME($date, day: "numeric", month: "long", year: "numeric") }에 발생함
+about-logins-breach-alert-link = { $hostname }(으)로 이동
+about-logins-vulnerable-alert-title = 취약한 비밀번호
+about-logins-vulnerable-alert-text2 = 이 비밀번호는 데이터 유출 가능성이 있는 다른 계정에서 사용되었습니다. 자격 증명을 재사용하면 모든 계정이 위험에 노출됩니다. 이 비밀번호를 변경하세요.
+about-logins-vulnerable-alert-link = { $hostname }(으)로 이동
+about-logins-vulnerable-alert-learn-more-link = 더 알아보기
+about-logins-error-message-duplicate-login-with-link = 해당 사용자 이름으로 { $loginTitle }에 대한 항목이 이미 있습니다. <a data-l10n-name="duplicate-link">기존 항목으로 이동하시겠습니까?</a>
+about-logins-error-message-default = 이 비밀번호를 저장하는 중 오류가 발생했습니다.
+about-logins-export-file-picker-title2 = { -brand-short-name }에서 비밀번호 내보내기
+about-logins-export-file-picker-default-filename2 = 비밀번호.csv
+about-logins-export-file-picker-export-button = 내보내기
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV 문서
+       *[other] CSV 파일
+    }
+about-logins-import-file-picker-title2 = { -brand-short-name }로 비밀번호 가져오기
+about-logins-import-file-picker-import-button = 가져오기
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] CSV 문서
+       *[other] CSV 파일
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] TSV 문서
+       *[other] TSV 파일
+    }
+about-logins-import-dialog-title = 가져오기 완료
+about-logins-import-dialog-items-added2 = <span>추가된 새 비밀번호:</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-modified2 = <span>업데이트된 기존 항목:</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-no-change2 = <span>찾은 중복 항목:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(가져오지 않음)</span>
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>오류:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(가져오지 않음)</span>
+    }
+about-logins-import-dialog-done = 완료
+about-logins-import-dialog-error-title = 가져오기 오류
+about-logins-import-dialog-error-conflicting-values-title = 하나의 로그인에 대해 여러 충돌 값
+about-logins-import-dialog-error-conflicting-values-description = 예: 하나의 로그인에 대해 여러 사용자 이름, 비밀번호, URL 등.
+about-logins-import-dialog-error-file-format-title = 파일 형식 문제
+about-logins-import-dialog-error-file-format-description = 열 헤더가 잘못되었거나 누락되었습니다. 파일에 사용자 이름, 비밀번호 및 URL 열이 포함되어 있는지 확인하세요.
+about-logins-import-dialog-error-file-permission-title = 파일을 읽을 수 없음
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name }에 파일을 읽을 수 있는 권한이 없습니다. 파일 권한을 변경해보세요.
+about-logins-import-dialog-error-unable-to-read-title = 파일을 구문 분석 할 수 없음
+about-logins-import-dialog-error-unable-to-read-description = CSV 또는 TSV 파일을 선택했는지 확인하세요.
+about-logins-import-dialog-error-no-logins-imported = 가져온 로그인이 없음
+about-logins-import-dialog-error-learn-more = 더 알아보기
+about-logins-import-dialog-error-try-import-again = 가져오기 다시 시도…
+about-logins-import-dialog-error-cancel = 취소
+about-logins-import-report-title = 가져오기 요약
+about-logins-import-report-description2 = { -brand-short-name }로 비밀번호를 가져옴
+about-logins-import-report-row-index = { $number } 행
+about-logins-import-report-row-description-no-change2 = 중복: 기존 항목과 정확히 일치
+about-logins-import-report-row-description-modified2 = 기존 항목 업데이트됨
+about-logins-import-report-row-description-added2 = 새 비밀번호 추가됨
+about-logins-import-report-row-description-error = 오류: 누락된 필드
+about-logins-import-report-row-description-error-multiple-values = 오류: { $field }에 대한 여러 값
+about-logins-import-report-row-description-error-missing-field = 오류: 누락된 { $field } 필드
+about-logins-import-report-added2 = <div data-l10n-name="count">{ $count }개</div> <div data-l10n-name="details"> 새 비밀번호 추가됨</div>
+about-logins-import-report-modified2 = <div data-l10n-name="count">{ $count }개</div> <div data-l10n-name="details">기존 항목 업데이트됨</div>
+about-logins-import-report-no-change2 = <div data-l10n-name="count">{ $count }개</div> <div data-l10n-name="details">중복 항목</div> <div data-l10n-name="not-imported">(가져오지 않음)</div>
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }개</div> <div data-l10n-name="details">오류</div> <div data-l10n-name="not-imported">(가져오지 않음)</div>
+    }
+about-logins-import-report-page-title = 가져오기 요약 보고서

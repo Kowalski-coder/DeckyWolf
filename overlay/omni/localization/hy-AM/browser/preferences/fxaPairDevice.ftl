@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = Համաժամացրեք { -brand-product-name }-ը Ձեր հեռախոսում կամ պլանշետում
+fxa-qrcode-pair-step1 = 1. Բացեք { -brand-product-name }-ը Ձեր բջջային սարքում:
+fxa-qrcode-pair-step2-device-steps = 2․ Գնացեք դեպի ցանկ և սեղմեք <strong>Մուտք գործել</strong>
+fxa-qrcode-pair-step3 = 3․ Սեղմեք <strong>Պատրաստել սկանավորման</strong> և պահեք Ձեր հեռախոսը կոդի վրա
+fxa-qrcode-error-title = Զույգումը չհաջողվեց:
+fxa-qrcode-error-body = Կրկին փորձել

@@ -1,0 +1,15 @@
+panic-button-open-new-window = Otworzenie nowego okna
+panic-button-undo-warning = Tej czynności nie można cofnąć.
+panic-button-forget-button =
+    .label = Wyczyść!
+panic-main-timeframe-desc = Wyczyść historię przeglądania ostatnich:
+panic-button-5min =
+    .label = Pięciu minut
+panic-button-2hr =
+    .label = Dwóch godzin
+panic-button-day =
+    .label = 24 godzin
+panic-button-action-desc = Czyszczenie spowoduje:
+panic-button-delete-cookies = Usunięcie ostatnich <strong>ciasteczek</strong>
+panic-button-delete-history = Usunięcie ostatniej <strong>historii</strong>
+panic-button-delete-tabs-and-windows = Zamknięcie wszystkich <strong>kart</strong> i <strong>okien</strong>

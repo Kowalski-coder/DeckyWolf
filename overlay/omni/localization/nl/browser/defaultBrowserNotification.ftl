@@ -1,0 +1,27 @@
+default-browser-notification-message = <strong>{ -brand-short-name } instellen als uw standaardbrowser?</strong> Krijg snel, veilig en privé surfen wanneer u het internet gebruikt.
+default-browser-notification-button =
+    .label = Als standaard instellen
+    .accesskey = t
+default-browser-prompt-title-pin = { -brand-short-name } uw voorkeursbrowser maken?
+default-browser-prompt-message-pin = Houd { -brand-short-name } binnen handbereik – maak het uw standaardbrowser en zet het vast aan uw taakbalk.
+default-browser-prompt-message-pin-msix = Houd { -brand-short-name } binnen handbereik – maak het uw standaardbrowser en zet het vast aan uw taakbalk en startmenu.
+default-browser-prompt-message-pin-mac = Houd { -brand-short-name } binnen handbereik – maak het uw standaardbrowser en voeg het aan uw Dock toe.
+default-browser-prompt-button-primary-set = Instellen als voorkeursbrowser
+default-browser-prompt-title-alt = { -brand-short-name } uw standaardbrowser maken?
+default-browser-prompt-message-alt = Ontvang snelheid, veiligheid en privacy, telkens als u surft.
+default-browser-prompt-button-primary-alt = Als standaardbrowser instellen
+default-browser-prompt-checkbox-not-again-label = Dit bericht niet meer tonen
+default-browser-prompt-button-secondary = Niet nu
+default-browser-guidance-notification-title = Voltooi het instellen van { -brand-short-name } als uw standaardbrowser
+default-browser-guidance-notification-body-instruction-win10 =
+    Stap 1: ga naar Instellingen > Standaardapps
+    Stap 2: scrol omlaag naar ‘Webbrowser’
+    Stap 3: selecteer en kies { -brand-short-name }
+default-browser-guidance-notification-body-instruction-win11 =
+    Stap 1: ga naar Instellingen > Standaardapps
+    Stap 2: Selecteer ‘Als standaard instellen’ voor { -brand-short-name }
+default-browser-guidance-notification-info-page = Tonen
+default-browser-guidance-notification-dismiss = Gereed
+default-browser-guidance-notification-v2-title = Voltooi het instellen van { -brand-short-name } als uw standaardbrowser
+default-browser-guidance-notification-v2-body = Selecteer ‘Als standaard instellen’ voor { -brand-short-name } in Instellingen.
+default-browser-guidance-notification-v2-title-only = Voltooi het instellen van { -brand-short-name } als uw standaardbrowser in Instellingen

@@ -1,0 +1,1047 @@
+browser-main-window-default-title = { -brand-full-name }
+browser-main-private-window-title =
+    { PLATFORM() ->
+        [macos] { -brand-full-name } — Pori Preifat
+       *[other] Pori Preifat { -brand-full-name }
+    }
+browser-main-private-suffix-for-content = Pori Preifat
+private-browsing-shortcut-text-2 = Pori Preifat { -brand-shortcut-name }
+browser-shortcut-description = Pori gwe cyflym a phreifat
+urlbar-identity-button2 =
+    .aria-label =
+        { $count ->
+            [0] Gweld manylion gwefan ({ $count } tracwyr wedi'u rwystro)
+            [1] Gweld manylion gwefan ({ $count } traciwr wedi'i rwystro)
+            [zero] Gweld manylion gwefan ({ $count } tracwyr wedi'u rwystro)
+            [one] Gweld manylion gwefan ({ $count } traciwr wedi'i rwystro)
+            [two] Gweld manylion gwefan ({ $count } draciwr wedi'u rwystro)
+            [few] Gweld manylion gwefan ({ $count } thraciwr wedi'u rwystro)
+            [many] Gweld manylion gwefan ({ $count } thraciwr wedi'u rwystro)
+           *[other] Gweld manylion gwefan ({ $count } traciwr wedi'u rwystro)
+        }
+urlbar-services-notification-anchor =
+    .tooltiptext = Agor panel y neges gosod
+urlbar-web-notification-anchor =
+    .tooltiptext = Newid p'un ai rydych yn derbyn hysbysiadau o'r wefan
+urlbar-midi-notification-anchor =
+    .tooltiptext = Agor panel MIDI
+urlbar-serial-notification-anchor =
+    .tooltiptext = Agor y panel Cyfresol
+urlbar-eme-notification-anchor =
+    .tooltiptext = Rheoli'r defnydd o feddalwedd DRM
+urlbar-web-authn-anchor =
+    .tooltiptext = Agor panel Dilysu Gwe
+urlbar-canvas-notification-anchor =
+    .tooltiptext = Rheoli caniatâd tynnu canfas
+urlbar-web-rtc-share-microphone-notification-anchor =
+    .tooltiptext = Rheoli rhannu eich meicroffon gyda'r wefan
+urlbar-default-notification-anchor =
+    .tooltiptext = Agor y panel negesu
+urlbar-geolocation-notification-anchor =
+    .tooltiptext = Agor panel cais y lleoliad
+urlbar-localhost-notification-anchor =
+    .tooltiptext = Rheoli mynediad dyfais lleol ar gyfer y wefan hon
+urlbar-local-network-notification-anchor =
+    .tooltiptext = Rheoli rhannu eich mynediad rhwydwaith lleol gyda'r wefan hon
+urlbar-xr-notification-anchor =
+    .tooltiptext = Agor panel caniatâd rhithrealaeth
+urlbar-storage-access-anchor =
+    .tooltiptext = Agor panel caniatâd gweithgaredd pori
+urlbar-web-rtc-share-screen-notification-anchor =
+    .tooltiptext = Rheoli rhannu eich ffenestri neu sgrin gyda'r wefan
+urlbar-indexed-db-notification-anchor =
+    .tooltiptext = Agor y panel neges storio all-lein
+urlbar-password-notification-anchor =
+    .tooltiptext = Agor panel neges y cyfrinair cadw
+urlbar-web-rtc-share-devices-notification-anchor =
+    .tooltiptext = Rheoli rhannu eich camera a/neu feicroffon gyda'r wefan
+urlbar-web-rtc-share-speaker-notification-anchor =
+    .tooltiptext = Rheoli rhannu eich seinyddion gyda'r wefan
+urlbar-autoplay-notification-anchor =
+    .tooltiptext = Agor panel awtochwarae
+urlbar-persistent-storage-notification-anchor =
+    .tooltiptext = Cadw data mewn Storfa Barhaus
+urlbar-addons-notification-anchor =
+    .tooltiptext = Agor panel neges gosod yr ychwanegyn
+urlbar-search-tips-confirm = Iawn, rwy'n deall
+urlbar-search-tips-confirm-short = Iawn
+urlbar-result-menu-button =
+    .title = Agor dewislen
+urlbar-result-menu-button-feedback = Adborth
+    .title = Agor dewislen
+urlbar-result-menu-learn-more2 = Darllen rhagor
+    .accesskey = D
+urlbar-result-menu-remove-from-history2 = Tynnu o'r hanes
+    .accesskey = T
+urlbar-result-menu-tip-get-help2 = Derbyn cymorth
+    .accesskey = D
+urlbar-result-menu-dismiss-suggestion2 = Cau'r awgrym hwn
+    .accesskey = a
+urlbar-result-menu-manage-firefox-suggest2 = Rheoli { -firefox-suggest-brand-name }
+    .accesskey = R
+urlbar-result-menu-report-inaccurate-location2 = Rhoi gwybod am leoliad anghywir
+urlbar-result-menu-show-less-frequently2 = Dangos yn llai aml
+urlbar-result-menu-dont-show-weather-suggestions2 = Peidio â dangos awgrymiadau tywydd
+urlbar-input-dismiss-autofill =
+    .label = Cau'r awgrym hwn
+    .accesskey = C
+urlbar-input-remove-from-history =
+    .label = Tynnu o'r hanes
+    .accesskey = T
+urlbar-splitbutton-dropmarker =
+    .title = Agor dewislen
+urlbar-feedback-acknowledgment = Diolch am eich adborth!
+urlbar-dismissal-acknowledgment-weather = Diolch am eich adborth. Fyddwch chi ddim yn gweld awgrymiadau tywydd bellach.
+urlbar-search-tips-onboard = Teipio llai, canfod mwy: Chwiliwch gyda { $engineName } yn syth o'ch bar cyfeiriad.
+urlbar-search-tips-redirect-2 = Cychwynnwch eich chwilio yma i weld awgrymiadau gan { $engineName } a'ch hanes pori.
+urlbar-tabtosearch-onboard = Dewiswch y llwybr byr hwn i ddod o hyd i'r hyn sydd ei angen arnoch yn gynt.
+urlbar-search-mode-bookmarks = Nodau Tudalen
+urlbar-search-mode-tabs = Tabiau
+urlbar-search-mode-history = Hanes
+urlbar-search-mode-actions = Gweithredoedd
+urlbar-geolocation-blocked =
+    .tooltiptext = Rydych wedi rhwystro'r manylion lleoliad ar gyfer y wefan hon.
+urlbar-localhost-blocked =
+    .tooltiptext = Rydych wedi rhwystro cysylltiadau dyfais leol ar gyfer y wefan hon.
+urlbar-local-network-blocked =
+    .tooltiptext = Rydych wedi rhwystro cysylltiadau rhwydwaith lleol ar gyfer y wefan hon.
+urlbar-xr-blocked =
+    .tooltiptext = Rydych wedi rhwystro mynediad dyfais rhithrealaeth ar gyfer y wefan hon.
+urlbar-web-notifications-blocked =
+    .tooltiptext = Rydych wedi rhwystro hysbysiadau ar gyfer y wefan hon.
+urlbar-camera-blocked =
+    .tooltiptext = Rydych wedi diffodd eich camera ar gyfer y wefan hon.
+urlbar-microphone-blocked =
+    .tooltiptext = Rydych wedi diffodd eich meicroffon ar gyfer y wefan hon.
+urlbar-screen-blocked =
+    .tooltiptext = Rydych wedi rhwystro'r wefan rhag rhannu eich sgrin.
+urlbar-persistent-storage-blocked =
+    .tooltiptext = Rydych wedi rhwystro storio data parhaus ar gyfer y wefan hon.
+urlbar-popup-blocked2 =
+    .tooltiptext = Rydych wedi rhwystro llamlenni ac ailgyfeiriadau trydydd parti ar y wefan hon.
+urlbar-autoplay-media-blocked =
+    .tooltiptext = Rydych wedi rhwystro cyfrwng awtochwarae gyda seiniau ar gyfer y wefan hon.
+urlbar-canvas-blocked =
+    .tooltiptext = Rydych wedi rhwystro tynnu data canvas o'r wefan hon.
+urlbar-midi-blocked =
+    .tooltiptext = Rydych wedi rhwystro mynediad MIDI ar gyfer y wefan hon.
+urlbar-serial-blocked =
+    .tooltiptext = Rydych wedi rhwystro llamlenni ar y wefan hon.
+urlbar-install-blocked =
+    .tooltiptext = Rydych wedi rhwystro gosod ychwanegion ar gyfer y wefan hon.
+urlbar-star-edit-bookmark =
+    .tooltiptext = Golygu'r nod tudalen ({ $shortcut })
+urlbar-star-add-bookmark =
+    .tooltiptext = Gosod nod tudalen i'r dudalen ({ $shortcut })
+urlbar-split-view-button =
+    .aria-label = Golwg hollt
+    .tooltiptext = Golwg hollt
+clear-search-history =
+    .label = Clirio Hanes Chwilio
+    .accesskey = H
+page-action-manage-extension2 =
+    .label = Rheoli Estyniad…
+    .accesskey = E
+page-action-remove-extension2 =
+    .label = Tynnu Estyniad
+    .accesskey = T
+full-screen-autohide =
+    .label = Cuddio Barrau Offer
+    .accesskey = u
+full-screen-exit =
+    .label = Gadael y Modd Sgrin Lawn
+    .accesskey = L
+search-one-offs-with-title = Y tro hwn, chwilio gyda:
+search-one-offs-change-settings-compact-button =
+    .tooltiptext = Newid y gosodiadau chwilio
+search-one-offs-context-open-new-tab =
+    .label = Chwilio mewn Tab Newydd
+    .accesskey = T
+search-one-offs-context-set-as-default =
+    .label = Gosod fel y Peiriant Chwilio Rhagosodedig
+    .accesskey = R
+search-one-offs-context-set-as-default-private =
+    .label = Gosod fel y Peiriant Chwilio Rhagosodedig ar gyfer Windows Preifat
+    .accesskey = G
+search-one-offs-engine-with-alias =
+    .tooltiptext = { $engineName } ({ $alias })
+search-one-offs-add-engine =
+    .aria-label = Ychwanegwch beiriant chwilio “{ $engineName }”
+    .label = Ychwanegu “{ $engineName }”
+    .tooltiptext = Ychwanegwch beiriant chwilio “{ $engineName }”
+search-one-offs-add-engine-menu =
+    .label = Ychwanegu peiriant chwilio
+search-one-offs-bookmarks =
+    .tooltiptext = Nodau tudalen ({ $restrict })
+search-one-offs-tabs =
+    .tooltiptext = Tabiau ({ $restrict })
+search-one-offs-history =
+    .tooltiptext = Hanes ({ $restrict })
+search-one-offs-actions =
+    .tooltiptext = Gweithredoedd ( { $restrict } )
+quickactions-addons = Gweld Ychwanegion
+quickactions-cmd-addons3 = estyniadau, themâu, ategion, ychwanegion
+quickactions-manageai = Rheoli rheolyddion AI
+quickactions-cmd-manageai = analluogi ai, ai i ffwrdd, rheoli ai
+quickactions-bookmarks2 = Rheoli nodau tudalen
+quickactions-cmd-bookmarks = nodau tudalen
+quickactions-clearrecenthistory = Clirio hanes diweddar
+quickactions-cmd-clearrecenthistory2 = cwcis, clirio'r cwcis, storfa, clirio'r storfa, data pori, clirio'r data, hanes, clirio'r hanes diweddar
+quickactions-downloads2 = Gweld llwythi
+quickactions-cmd-downloads = llwythi i lawr
+quickactions-extensions = Rheoli estyniadau
+quickactions-cmd-extensions2 = estyniadau, ategion, ychwanegion
+quickactions-firefoxview = Agor { -firefoxview-brand-name }
+quickactions-cmd-firefoxview = agor { -firefoxview-brand-name }, { -firefoxview-brand-name }, agor golwg, gweld
+quickactions-help = Cymorth { -brand-product-name }
+quickactions-cmd-help = cymorth, cefnogaeth
+quickactions-inspector2 = Agor Offer Datblygwyr
+quickactions-cmd-inspector2 = arolygydd, devtools, offer datblygwr
+quickactions-colorpicker = Dewiswch liw
+quickactions-cmd-colorpicker = dewisydd lliw, dewisydd union liw, dewis lliw
+quickactions-cmd-library = llyfrgell
+quickactions-library = Agor y Llyfrgell
+quickactions-logins2 = Rheoli cyfrineiriau
+quickactions-cmd-logins = mewngofnodion, cyfrineiriau
+quickactions-mute = Tewi tabiau sy'n chwarae sain
+quickactions-cmd-mute = tewi, swsh, sssssh
+quickactions-print2 = Argraffu tudalen
+quickactions-cmd-print = argraffu
+quickactions-savepdf = Cadw tudalen fel PDF
+quickactions-cmd-savepdf2 = pdf, cadw tudalen
+quickactions-editpdf = Agor golygydd PDF
+quickactions-cmd-editpdf = pdf
+quickactions-private2 = Agor ffenestr breifat
+quickactions-cmd-private = pori preifat
+quickactions-refresh = Adnewyddu { -brand-short-name }
+quickactions-cmd-refresh = adnewyddu
+quickactions-restart = Ailgychwyn { -brand-short-name }
+quickactions-cmd-restart = ailgychwyn
+quickactions-screenshot3 = Cymryd llun sgrin
+quickactions-cmd-screenshot2 = llun sgrin, cymryd llun sgrin
+quickactions-translate = Cyfieithu
+quickactions-cmd-translate = cyfieithu
+quickactions-settings2 = Rheoli gosodiadau
+quickactions-cmd-settings2 = gosodiadau, dewisiadau, opsiynau, rheoli
+quickactions-themes = Rheoli themâu
+quickactions-cmd-themes2 = themâu, ychwanegion, ategion
+quickactions-update = Diweddaru { -brand-short-name }
+quickactions-cmd-update = diweddaru
+quickactions-viewsource2 = Darllen Cod Gwreiddiol y Dudalen
+quickactions-cmd-viewsource2 = gweld y ffynhonnell, ffynhonnell, ffynhonnell dudalen
+quickactions-labs = Agor { -firefoxlabs-brand-name }
+quickactions-cmd-labs = labs, arbrawf
+quickactions-learn-more =
+    .title = Darllen rhagor am weithredoedd Cyflym
+press-tab-label = Pwyswch y tab i ddewis:
+bookmarks-add-bookmark = Ychwanegu nod tudalen
+bookmarks-edit-bookmark = Golygu nod tudalen
+bookmark-panel-cancel =
+    .label = Diddymu
+    .accesskey = D
+bookmark-panel-remove =
+    .label =
+        { $count ->
+            [zero] Dileu dim Nodau Tudalen
+            [one] Dileu { $count } Nod Tudalen
+            [two] Dileu { $count } Nod Tudalen
+            [few] Dileu { $count } Nod Tudalen
+            [many] Dileu { $count } Nod Tudalen
+           *[other] Dileu { $count } Nod Tudalen
+        }
+    .accesskey = T
+bookmark-panel-show-editor-checkbox =
+    .label = Dangos y golygydd wrth gadw
+    .accesskey = D
+bookmark-panel-save-button =
+    .label = Cadw
+bookmark-panel =
+    .style = min-width: 23em
+identity-site-information = Manylion gwefan { $host }
+identity-header-security-with-host =
+    .title = Diogelwch Cysylltiad { $host }
+identity-connection-not-secure = Cysylltiad yn anniogel
+identity-connection-secure = Cysylltiad yn ddiogel
+identity-connection-failure = Methiant cysylltiad
+identity-connection-internal = Mae hon yn dudalen { -brand-short-name } diogel.
+identity-connection-file = Mae'r dudalen hon wedi ei chadw ar eich cyfrifiadur.
+identity-connection-associated = Mae'r dudalen hon wedi'i llwytho o dudalen arall.
+identity-extension-page = Mae'r dudalen wedi ei llwytho o estyniad.
+identity-active-blocked = Mae { -brand-short-name } wedi rhwystro rhannau o'r dudalen nad ydynt yn ddiogel.
+identity-custom-root = Dilyswyd y cysylltiad gan gyhoeddwr tystysgrif nad yw'n cael ei gydnabod gan Mozilla.
+identity-passive-loaded = Nid yw rhannau o'r dudalen hon yn ddiogel (megis delweddau).
+identity-active-loaded = Rydych wedi analluogi diogelwch ar y dudalen hon.
+identity-weak-encryption = Mae'r dudalen hon yn defnyddio amgryptiad gwan.
+identity-https-only-connection-upgraded = (wedi'i uwchraddio i HTTPS)
+identity-https-only-label2 = Uwchraddio'r wefan hon yn awtomatig i gysylltiad diogel
+identity-https-only-dropdown-on =
+    .label = Ymlaen
+identity-https-only-dropdown-off =
+    .label = Diffodd
+identity-https-only-dropdown-off-temporarily =
+    .label = Diffodd dros dro
+identity-https-only-info-turn-on3 = Trowch y Modd HTTPS-yn-Unig ymlaen os ydych chi am i { -brand-short-name } uwchraddio'r cysylltiad lle'n bosibl.
+identity-https-only-info-turn-off3 = Os yw'r wefan yn ymddangos wedi torri, efallai yr hoffech chi ddiffodd Modd HTTPS-yn-Unig i'w ail-lwytho gan ddefnyddio HTTP anniogel.
+identity-https-only-info-no-upgrade = Methu uwchraddio'r cysylltiad o HTTP.
+identity-permissions-storage-access-header = Cwcis traws-gwefan
+identity-permissions-storage-access-hint = Gall y partïon hyn ddefnyddio cwcis traws-gwefan a data gwefan tra'ch bod chi ar y wefan hon.
+identity-permissions-storage-access-learn-more = Darllen rhagor
+identity-permissions-reload-hint = Efallai y bydd angen ail lwytho'r dudalen i newidiadau ddod ar waith.
+identity-clear-site-data =
+    .label = Clirio Data Cwcis a Gwefan…
+identity-connection-not-secure-security-view = Nid ydych wedi'ch cysylltu'n ddiogel â'r wefan hon.
+identity-connection-verified = Rydych wedi eich cysylltu'n ddiogel â'r wefan hon.
+identity-ev-owner-label2 = Tystysgrif wedi'i ryddhau i
+identity-verifier-label2 = Gwiriwyd gan:
+identity-etsi = Yn gymwys fel sy'n cael ei nodi yn Rheoliad (UE) 2024/1183.
+identity-description-custom-root2 = Nid yw Mozilla yn cydnabod y cyhoeddwr tystysgrif hwn. Efallai ei fod wedi'i ychwanegu o'ch system weithredu neu gan weinyddwr.
+identity-cert-exception-overridden = Rydych wedi ychwanegu eithriad diogelwch ar gyfer y wefan hon.
+identity-remove-cert-exception =
+    .label = Tynnu Eithriad
+    .accesskey = E
+identity-description-insecure = Nid yw eich cysylltiad â'r dudalen hon yn breifat. Gall gwybodaeth fyddwch yn ei gyflwyno cael ei weld gan eraill (megis cyfrineiriau, negeseuon, cardiau credyd, ac ati.).
+identity-description-weak-cipher-intro = Mae eich cysylltiad i'r wefan hon yn defnyddio amgryptiad gwan ac nid yw'n breifat.
+identity-description-weak-cipher-risk = Gall bobl eraill weld eich manylion neu newid ymddygiad y wefan.
+identity-description-active-blocked2 = Mae { -brand-short-name } wedi rhwystro rhannau o'r dudalen nad ydynt yn ddiogel.
+identity-description-passive-loaded = Nid yw eich cysylltiad yn breifat ac mae'n bosib i wybodaeth rydych yn ei rannu gael ei weld gan eraill.
+identity-description-passive-loaded-insecure2 = Mae'r wefan yn cynnwys deunydd nad yw'n ddiogel (megis delweddau).
+identity-description-passive-loaded-mixed2 = Er bod { -brand-short-name } wedi rhwystro peth cynnwys, mae cynnwys dal ar y dudalen nad yw'n ddiogel (megis delweddau).
+identity-description-active-loaded = Mae'r wefan yn cynnwys yn deunydd nad yw'n ddiogel (megis sgriptiau) ac nid yw eich cysylltiad â nhw'n breifat.
+identity-description-active-loaded-insecure = Gall gwybodaeth fyddwch yn ei gyflwyno cael ei weld gan eraill (megis cyfrineiriau, negeseuon, cardiau credyd, ac ati.).
+identity-description-tls-key-logging-heading = Mae'n bosibl nad yw eich cysylltiad yn breifat
+identity-description-tls-key-logging-message = Mae'n bosibl y bydd ap neu wasanaeth yn gweld eich traffig wedi'i amgryptio o'r wefan hon.
+identity-more-info-link-text =
+    .label = Rhagor o wybodaeth
+browser-window-minimize-button =
+    .tooltiptext = Lleihau
+browser-window-maximize-button =
+    .tooltiptext = Ehangu
+browser-window-restore-down-button =
+    .tooltiptext = Adfer i Lawr
+browser-window-close-button =
+    .tooltiptext = Cau
+browser-window-return-to-opener =
+    .tooltiptext = Nôl
+browser-import-button2 =
+    .label = Mewnforio nodau tudalen…
+    .tooltiptext = Mewnforio nodau tudalen o borwr arall i { -brand-short-name }.
+bookmarks-toolbar-empty-message = I gael mynediad cyflym, rhowch eich nodau tudalen yma ar y bar offer nodau tudalen. <a data-l10n-name="manage-bookmarks"> Rheoli nodau tudalen…</a>
+popup-select-camera-device =
+    .value = Camera:
+    .accesskey = C
+popup-select-camera-icon =
+    .tooltiptext = Camera
+popup-select-microphone-device =
+    .value = Meicroffon:
+    .accesskey = M
+popup-select-microphone-icon =
+    .tooltiptext = Meicroffon
+popup-select-speaker-icon =
+    .tooltiptext = Seinyddion
+popup-select-window-or-screen =
+    .label = Ffenestr neu sgrin:
+    .accesskey = F
+popup-all-windows-shared = Bydd pob ffenestr gweladwy ar eich sgrin yn cael eu rhannu.
+sharing-warning-window = Rydych yn rhannu { -brand-short-name }. Gall pobl eraill weld pan fyddwch chi'n newid i dab newydd.
+sharing-warning-screen = Rydych chi'n rhannu'ch sgrin gyfan. Gall pobl eraill weld pan fyddwch chi'n newid i dab newydd.
+sharing-warning-proceed-to-tab =
+    .label = Ymlaen i Dab
+sharing-warning-disable-for-session =
+    .label = Analluogi diogelwch rhannu ar gyfer y sesiwn hon
+webserial-select-port-label = Dewiswch borth cyfresol:
+webserial-no-ports-available = Dim pyrth cyfresol ar gael
+urlbar-search-mode-indicator-close =
+    .aria-label = Cau
+urlbar-placeholder =
+    .placeholder = Chwilio neu gyfeiriad gwe
+urlbar-placeholder-keyword-disabled =
+    .placeholder = Rhowch gyfeiriad
+urlbar-placeholder-search-mode-web-2 =
+    .aria-label = Chwilio gyda { $name }
+    .placeholder = Chwilio'r We
+urlbar-placeholder-search-mode-other-engine =
+    .aria-label = Chwilio { $name }
+    .placeholder = Rhowch dermau chwilio
+urlbar-placeholder-search-mode-other-bookmarks =
+    .aria-label = Chwilio'r nodau tudalen
+    .placeholder = Rhowch dermau chwilio
+urlbar-placeholder-search-mode-other-history =
+    .aria-label = Chwilio'ch hanes
+    .placeholder = Rhowch dermau chwilio
+urlbar-placeholder-search-mode-other-tabs =
+    .aria-label = Chwilio'r tabiau
+    .placeholder = Rhowch dermau chwilio
+urlbar-placeholder-search-mode-other-actions =
+    .aria-label = Gweithredoedd chwilio
+    .placeholder = Rhowch dermau chwilio
+urlbar-placeholder-with-name =
+    .placeholder = Chwilio gyda { $name } neu rhoi'r cyfeiriad
+urlbar-remote-control-notification-anchor2 =
+    .tooltiptext = Mae'r porwr o dan reolaeth bell (rheswm: { $component })
+urlbar-permissions-granted =
+    .tooltiptext = Rydych wedi rhoi caniatâd ychwanegol i'r wefan hon.
+urlbar-switch-to-tab =
+    .value = Newid i dab:
+urlbar-extension =
+    .value = Estyniad:
+urlbar-go-button2 =
+    .title = Mynd i'r cyfeiriad yn y Bar Lleoliad
+urlbar-page-action-button =
+    .tooltiptext = Gweithredoedd tudalen
+urlbar-revert-button =
+    .tooltiptext = Dangos y cyfeiriad yn y Bar Lleoliad
+urlbar-result-action-ai-chat = Gofyn
+urlbar-result-action-search-in-private-w-engine = Chwilio gyda { $engine } mewn Ffenestr Breifat
+urlbar-result-action-search-in-private = Chwilio mewn Ffenestr Breifat
+urlbar-result-action-search-w-engine = Chwilio gyda { $engine }
+urlbar-result-action-sponsored = Noddwyd
+urlbar-result-action-switch-tab = Newid i'r Tab
+urlbar-result-action-move-tab-to-split-view = Symud Tab i'r Golwg Hollt
+urlbar-result-action-visit = Ymweld â
+urlbar-result-action-switch-tab-with-container = Newid i Tab · <span>{ $container }</span>
+urlbar-result-action-tab-group-unnamed = Grŵp heb ei enwi
+urlbar-result-action-visit-from-clipboard = Ymweld o'ch clipfwrdd
+urlbar-result-action-before-tabtosearch-web = Pwyswch Tab i chwilio gyda { $engine }
+urlbar-result-action-before-tabtosearch-other = Pwyswch Tab i chwilio { $engine }
+urlbar-result-action-tabtosearch-web = Chwilio gyda { $engine } yn syth o'r bar cyfeiriad
+urlbar-result-action-tabtosearch-other-engine = Chwilio gyda { $engine } yn syth o'r bar cyfeiriad
+urlbar-result-action-copy-to-clipboard = Copïo
+urlbar-result-action-undefined-calculator-result = heb ei ddiffinio
+urlbar-result-explanation-last-visited-relative-2 = Ymwelwyd ddiwethaf â { $date }
+urlbar-result-explanation-last-visited-days-weeks-months-ago = Ymwelwyd ddiwethaf â { $date }
+urlbar-result-explanation-last-visited-absolute-2 = Ymwelwyd diwethaf â { $date }
+urlbar-result-explanation-bookmarked = Gosodwyd nod tudalen { $date }
+urlbar-result-addons-subtitle = Estyniad { -brand-product-name }
+urlbar-result-mdn-subtitle = { -mdn-brand-name }
+urlbar-result-yelp-subtitle = { -yelp-brand-name }
+urlbar-result-suggestion-recommended = Cymeradwy
+urlbar-result-weather-title = <strong>{ $temperature }°{ $unit }</strong> yn { $city }, { $region }
+urlbar-result-weather-title-with-country = <strong>{ $temperature }°{ $unit }</strong> yn { $city }, { $region }, { $country }
+urlbar-result-weather-title-city-only = <strong>{ $temperature }°{ $unit }</strong> yn { $city }
+urlbar-result-weather-provider-sponsored = { $provider } · Wedi'i noddi
+urlbar-result-market-opt-in-title = Cael data'r farchnad stoc yn syth i'ch bar chwilio
+urlbar-result-market-opt-in-description = Dangos diweddariadau'r farchnad a mwy gan ein partneriaid pan fyddwch yn rhannu data ymholiad chwilio gyda { -vendor-short-name }. <a data-l10n-name="learn-more-link">Dysgu rhagor</a>
+urlbar-result-realtime-opt-in-allow = Dangos awgrymiadau
+urlbar-result-realtime-opt-in-not-now = Nid nawr
+urlbar-result-realtime-opt-in-dismiss = Cau
+urlbar-result-realtime-opt-in-dismiss-all2 = Peidio dangos yr awgrymiadau hyn
+urlbar-result-menu-dont-show-market2 = Peidio dangos awgrymiadau marchnad
+urlbar-result-dismissal-acknowledgment-market = Diolch am eich adborth. Fyddwch chi ddim yn gweld awgrymiadau'r farchnad bellach.
+urlbar-result-aria-group-market =
+    .aria-label = Awgrymiadau marchnad stoc
+urlbar-result-dismissal-acknowledgment-all = Diolch am eich adborth. Fyddwch chi ddim yn gweld yr awgrymiadau hyn bellach.
+urlbar-result-dates-countdown =
+    { $daysUntilStart ->
+        [zero] { $name } · Ymhen { $daysUntilStart } diwrnodau
+        [one] { $name } · Ymhen { $daysUntilStart } diwrnod
+        [two] { $name } · Ymhen { $daysUntilStart } ddiwrnod
+        [few] { $name } · Ymhen { $daysUntilStart } diwrnod
+        [many] { $name } · Ymhen { $daysUntilStart } niwrnod
+       *[other] { $name } · Ymhen { $daysUntilStart } diwrnod
+    }
+urlbar-result-dates-countdown-range =
+    { $daysUntilStart ->
+        [zero] { $name } · Yn dechrau ymhen { $daysUntilStart } diwrnodau
+        [one] { $name } · Yn dechrau ymhen { $daysUntilStart } diwrnod
+        [two] { $name } · Yn dechrau ymhen { $daysUntilStart } ddiwrnod
+        [few] { $name } · Yn dechrau ymhen { $daysUntilStart } diwrnod
+        [many] { $name } · Yn dechrau ymhen { $daysUntilStart } niwrnod
+       *[other] { $name } · Yn dechrau ymhen { $daysUntilStart } diwrnod
+    }
+urlbar-result-dates-ongoing =
+    { $daysUntilEnd ->
+        [zero] { $name } · Yn dod i ben ymhen { $daysUntilEnd } diwrnodau
+        [one] { $name } · Yn dod i ben ymhen { $daysUntilEnd } diwrnod
+        [two] { $name } · Yn dod i ben ymhen { $daysUntilEnd } ddiwrnod
+        [few] { $name } · Yn dod i ben ymhen { $daysUntilEnd } diwrnod
+        [many] { $name } · Yn dod i ben ymhen { $daysUntilEnd } niwrnod
+       *[other] { $name } · Yn dod i ben ymhen { $daysUntilEnd } diwrnod
+    }
+urlbar-result-dates-today = { $name } · Heddiw
+urlbar-result-dates-ends-today = { $name } · Yn gorffen heddiw
+urlbar-searchmode-button3 =
+    .title = { $engine } , dewiswch beiriant chwilio
+urlbar-searchmode-button-no-engine2 =
+    .title = Dim llwybr byr wedi'i ddewis, dewiswch lwybr byr
+urlbar-searchmode-no-keyword2 =
+    .title = Mae chwilio allweddair wedi'i analluogi
+urlbar-searchmode-dropmarker2 =
+    .title = Dewiswch Beiriant Chwilio
+urlbar-searchmode-bookmarks3 = Nodau Tudalen
+    .accesskey = N
+urlbar-searchmode-tabs3 = Tabiau
+    .accesskey = T
+urlbar-searchmode-history3 = Hanes
+    .accesskey = H
+urlbar-searchmode-actions3 = Gweithredoedd
+    .accesskey = G
+urlbar-searchmode-exit-button2 =
+    .title = Cau
+urlbar-searchmode-default2 =
+    .title = Peiriant chwilio rhagosodedig
+urlbar-searchmode-popup-add-engine = Ychwanegu “{ $engineName }”
+    .title = Ychwanegwch beiriant chwilio “{ $engineName }”
+urlbar-searchmode-popup-one-off-header = Y tro hwn, chwilio gyda:
+urlbar-searchmode-popup-header = Chwilio gyda:
+urlbar-searchmode-popup-search-settings = Gosodiadau Chwilio
+    .accesskey = G
+urlbar-searchmode-popup-settings = Gosodiadau
+    .accesskey = G
+urlbar-result-search-with = Chwilio gyda { $engine }
+urlbar-result-search-with-local-search-mode = { $keywords } - Chwilio { $localSearchMode }
+urlbar-result-search-with-engine-keywords = { $keywords } - Chwilio gyda { $engine }
+urlbar-result-action-search-bookmarks = Chwilio'r Nodau Tudalen
+urlbar-result-action-search-history = Chwilio'ch Hanes
+urlbar-result-action-search-tabs = Chwilio'r Tabiau
+urlbar-result-action-search-actions = Gweithredoedd Chwilio
+urlbar-result-action-switch-to-tabgroup = Newid i { $group }
+urlbar-result-action-open-saved-tabgroup = Agor { $group }
+urlbar-view-context-menu-open-in-tab2 = Agor mewn Tab Newydd
+    .accesskey = T
+urlbar-view-context-menu-open-in-container-tab2 = Agor mewn Tab Cynhwysydd Newydd
+    .accesskey = N
+urlbar-view-context-menu-open-in-window2 = Agor mewn Ffenestr Newydd
+    .accesskey = F
+urlbar-view-context-menu-open-in-private-window2 = Agor mewn Ffenestr Breifat Newydd
+    .accesskey = B
+urlbar-group-firefox-suggest =
+    .label = { -firefox-suggest-brand-name }
+urlbar-group-search-suggestions =
+    .label = Awgrymiadau { $engine }
+urlbar-group-quickactions =
+    .label = Gweithredoedd Cyflym
+urlbar-group-recent-searches =
+    .label = Chwilio Diweddar
+urlbar-group-trending =
+    .label = Yn tueddu ar { $engine }
+urlbar-result-menu-trending-dont-show2 = Peidio â dangos chwiliadau tuedd
+    .accesskey = P
+urlbar-trending-dismissal-acknowledgment = Diolch am eich adborth. Fyddwch chi ddim yn gweld chwiliadau tuedd bellach.
+reader-view-enter-button =
+    .aria-label = Mynd i'r Golwg Darllen
+reader-view-close-button =
+    .aria-label = Cau'r Golwg Darllen
+picture-in-picture-urlbar-button-open =
+    .tooltiptext = Agor Llun-mewn-Llun ( { $shortcut })
+picture-in-picture-urlbar-button-close =
+    .tooltiptext = Cau Llun-mewn-Llun ( { $shortcut })
+picture-in-picture-panel-header = Llun-mewn-Llun
+picture-in-picture-panel-headline = Nid yw'r wefan hon yn argymell Llun-mewn-Llun
+picture-in-picture-panel-body = Mae'n bosibl na fydd fideos yn ymddangos fel y bwriadwyd gan y datblygwr tra bod Llun-mewn-Llun wedi'i alluogi.
+picture-in-picture-enable-toggle =
+    .label = Galluogi beth bynnag
+fullscreen-warning-domain = <span data-l10n-name="domain">{ $domain }</span> nawr yn sgrin lawn
+fullscreen-warning-no-domain = Mae'r ddogfen nawr yn sgrin lawn
+fullscreen-exit-button = Gadael y Sgrin Lawn (Esc)
+fullscreen-exit-mac-button = Gadael y Sgrin Lawn (esc)
+fullscreen-keyboardlock-exit-button = Gadael Sgrin Lawn (Pwyso a dal Esc)
+fullscreen-keyboardlock-exit-mac-button = Gadael Sgrin Lawn (Pwyso a dal esc)
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> reolaeth o'ch pwyntydd. Pwyswch Esc i adennill rheolaeth.
+pointerlock-warning-no-domain = Mae gan y ddogfen hon reolaeth o'ch pwyntydd. Pwyswch Esc i adennill rheolaeth.
+bookmarks-manage-bookmarks =
+    .label = Rheoli nodau tudalen
+bookmarks-recent-bookmarks-panel-subheader = Nodau Tudalen Diweddar
+bookmarks-toolbar-chevron =
+    .tooltiptext = Dangos pob ffolder nod tudalen
+bookmarks-sidebar-content =
+    .aria-label = Nodau Tudalen
+bookmarks-menu-button =
+    .label = Dewislen Nodau Tudalen
+bookmarks-other-bookmarks-menu =
+    .label = Nodau Tudalen Eraill
+bookmarks-mobile-bookmarks-menu =
+    .label = Nodau Tudalen Symudol
+bookmarks-tools-sidebar-visibility =
+    .label =
+        { $isVisible ->
+            [true] Cuddio'r Bar Ochr Nodau Tudalen
+           *[other] Gweld Bar Offer Nodau Tudalen
+        }
+bookmarks-tools-toolbar-visibility-menuitem =
+    .label =
+        { $isVisible ->
+            [true] Cuddio'r Bar Offer Nodau Tudalen
+           *[other] Gweld Bar Offer Nodau Tudalen
+        }
+bookmarks-tools-toolbar-visibility-panel =
+    .label =
+        { $isVisible ->
+            [true] Cuddio'r Bar Offer Nodau Tudalen
+           *[other] Dangos y Bar Offer Nodau Tudalen
+        }
+bookmarks-search =
+    .label = Chwilio’r nodau tudalen
+bookmarks-tools =
+    .label = Offer Nodau Tudalen
+bookmarks-subview-edit-bookmark =
+    .label = Golygu'r nod tudalen…
+bookmarks-toolbar =
+    .aria-label = Nodau Tudalen
+    .toolbarname = Bar Offer Nodau Tudalen
+    .accesskey = N
+bookmarks-toolbar-menu =
+    .label = Bar Offer Nodau Tudalen
+bookmarks-toolbar-placeholder =
+    .title = Eitemau Bar Offer Nodau Tudalen
+bookmarks-toolbar-placeholder-button =
+    .label = Eitemau Bar Offer Nodau Tudalen
+bookmarks-subview-bookmark-tab =
+    .label = Gosod nod tudalen i'r tab cyfredol…
+library-bookmarks-menu =
+    .label = Nodau Tudalen
+repair-text-encoding-button =
+    .label = Trwsio amgodio testun
+    .tooltiptext = Dyfalu'r amgodio testun cywir o gynnwys y dudalen
+toolbar-settings-button =
+    .label = Gosodiadau
+    .tooltiptext =
+        { PLATFORM() ->
+            [macos] Agor y gosodiadau ({ $shortcut })
+           *[other] Agor y gosodiadau
+        }
+toolbar-overflow-customize-button =
+    .label = Cyfaddasu'r Bar Offer…
+    .accesskey = C
+toolbar-button-email-link =
+    .label = E-bostio'r Ddolen
+    .tooltiptext = E-bostio dolen i'r dudalen hon
+toolbar-button-logins =
+    .label = Cyfrineiriau
+    .tooltiptext = Gweld a rheoli eich cyfrineiriau ar gadw
+qrcode-panel-error =
+    .message = Wedi methu cynhyrchu'r cod QR. Ceisiwch eto.
+qrcode-copy-button =
+    .label = Copïo
+qrcode-copy-success =
+    .message = QR wedi ei gopïo i’r clipfwrdd
+qrcode-copy-error =
+    .message = Wedi methu â chopïo'r cod QR.
+qrcode-save-button =
+    .label = Cadw
+qrcode-save-filename-base = qrcode
+qrcode-save-filename-with-domain-base = qrcode-{ $domain }
+qrcode-window-title = Cod QR
+qrcode-dialog-title = Cod QR
+qrcode-image =
+    .aria-label = Cod QR
+qrcode-close-button =
+    .aria-label = Cau
+toolbar-button-save-page =
+    .label = Cadw Tudalen
+    .tooltiptext = Cadw'r dudalen hon ({ $shortcut })
+toolbar-button-open-file =
+    .label = Agor Ffeil
+    .tooltiptext = Agor ffeil ({ $shortcut })
+toolbar-button-synced-tabs =
+    .label = Tabiau wedi'u Cydweddu
+    .tooltiptext = Dangos tabiau o ddyfeisiau eraill
+toolbar-button-send-tab =
+    .label = Anfon tabiau
+    .tooltiptext = Anfon y tab cyfredol i ddyfais arall
+toolbar-button-new-private-window =
+    .label = Ffenestr breifat newydd
+    .tooltiptext = Agor ffenestr pori preifat newydd ({ $shortcut })
+toolbar-button-share-tab =
+    .label = Rhannu
+    .tooltiptext = Rhannu'r dudalen hon
+toolbar-button-tab-groups =
+    .label = Grwpiau tabiau
+    .tooltiptext = Dangos eich grwpiau tabiau
+eme-notifications-drm-content-playing = Mae peth sain a fideo ar y wefan yn defnyddio meddalwedd DRM, gall gyfyngu'r hyn y gall { -brand-short-name } ei wneud gydag ef.
+eme-notifications-drm-content-playing-manage = Rheoli gosodiadau
+eme-notifications-drm-content-playing-manage-accesskey = R
+eme-notifications-drm-content-playing-dismiss = Cau
+eme-notifications-drm-content-playing-dismiss-accesskey = C
+panel-save-update-username-2 =
+    .label = Enw Defnyddiwr
+panel-save-update-password-2 =
+    .label = Cyfrinair
+menu-share-more =
+    .label = Rhagor…
+menu-share-windows =
+    .label = Rhagor o Ddewisiadau
+menu-share-copy-links =
+    .label =
+        { $count ->
+            [zero] Copïo { $count } Dolenni
+            [one] Copïo Dolen
+            [two] Copïo { $count } Ddolen
+            [few] Copïo { $count } Dolen
+            [many] Copïo { $count } Dolen
+           *[other] Copïo { $count } Dolen
+        }
+    .accesskey = D
+ui-tour-info-panel-close =
+    .tooltiptext = Cau
+popups-infobar-allow2 =
+    .label = Caniatáu llamlenni ac ailgyfeirio trydydd parti ar { $uriHost }
+    .accesskey = C
+popups-infobar-dont-show-message2 =
+    .label = Peidiwch â dangos y neges hon pan fydd llamlenni neu ailgyfeiriadau trydydd parti yn cael eu rhwystro
+    .accesskey = P
+edit-popup-settings2 =
+    .label = Rheoli gosodiadau llamlenni ac ailgyfeirio trydydd parti…
+    .accesskey = R
+picture-in-picture-hide-toggle =
+    .label = Cuddio'r Togl Llun-mewn-Llun
+    .accesskey = L
+picture-in-picture-move-toggle-right =
+    .label = Symud Toglo Llun-mewn-Llun i'r Ochr Dde
+    .accesskey = D
+picture-in-picture-move-toggle-left =
+    .label = Symud Toglo Llun-mewn-Llun i'r Ochr Chwith
+    .accesskey = C
+navbar-accessible =
+    .aria-label = Llywio
+navbar-downloads =
+    .label = Llwythi i lawr
+navbar-overflow-2 =
+    .tooltiptext = Rhagor o offer
+navbar-print =
+    .label = Argraffu
+    .tooltiptext = Argraffu'r dudalen… ({ $shortcut })
+navbar-home =
+    .label = Cartref
+    .tooltiptext = Cartref { -brand-short-name }
+navbar-library =
+    .label = Llyfrgell
+    .tooltiptext = Gweld hanes, nodau tudalen wedi eu cadw, a rhagor
+navbar-search =
+    .title = Chwilio
+tabs-toolbar =
+    .aria-label = Tabiau porwyr
+tabs-toolbar-new-tab =
+    .label = Tab Newydd
+tabs-toolbar-list-all-tabs =
+    .label = Rhestru pob tab
+    .tooltiptext = Rhestru pob tab
+pinned-tabs-drop-indicator = Gollwng tab yma i binio
+restore-session-startup-suggestion-message = <strong>Eisiau agor tabiau blaenorol?</strong> Gallwch adfer eich sesiwn flaenorol o ddewislen ap { -brand-short-name } <img data-l10n-name = "icon" />, o dan Hanes.
+restore-session-startup-suggestion-button = Dangos sut mae gwneud
+filepicker-blocked-infobar = Mae eich sefydliad wedi rhwystro mynediad i ffeiliau lleol ar y cyfrifiadur hwn
+data-reporting-notification-message = Mae { -brand-short-name } yn anfon peth data yn awtomatig i { -vendor-short-name } fel bod modd i ni wella eich profiad.
+data-reporting-notification-button =
+    .label = Dewis Beth Rwy'n Rhannu
+    .accesskey = D
+private-browsing-indicator-label = Pori preifat
+private-browsing-indicator-tooltip =
+    .tooltiptext = Pori preifat
+private-browsing-indicator-button =
+    .tooltiptext = Manylion pori preifat
+private-browsing-info-panel-title = Rydych mewn Ffenestr Breifat
+private-browsing-info-panel-description = Mae hyn yn helpu i gadw'ch pori wedi'i guddio rhag pobl eraill ar y ddyfais hon, ond nid yw'n eich gwneud yn anweledig ar-lein. <a data-l10n-name="learn-more">Pwy efallai all weld fy ngweithgarwch?</a>
+content-analysis-indicator-tooltip =
+    .tooltiptext = Atal colli data (DLP) gan { $agentName }. Cliciwch am fwy o wybodaeth.
+content-analysis-panel-title = Diogelu data
+content-analysis-panel-text-styled = Mae eich sefydliad yn defnyddio <b>{ $agentName }</b> i ddiogelu rhag colli data. <a data-l10n-name="info">Rhagor</a>
+unified-extensions-button =
+    .label = Estyniadau
+    .tooltiptext = Estyniadau
+unified-extensions-button-permissions-needed =
+    .label = Estyniadau
+    .tooltiptext =
+        Estyniadau
+        Angen caniatâd
+unified-extensions-button-quarantined =
+    .label = Estyniadau
+    .tooltiptext =
+        Estyniadau
+        Nid oes caniatâd i rai estyniadau
+unified-extensions-button-blocklisted =
+    .label = Estyniadau
+    .tooltiptext =
+        Estyniadau
+        Mae rhai estyniadau wedi'u hanalluogi
+reset-pbm-toolbar-button2 =
+    .label = Clirio Sesiwn Preifat
+    .tooltiptext = Clirio Sesiwn Preifat
+reset-pbm-panel-heading2 = Clirio'r data a dechrau sesiwn breifat newydd?
+reset-pbm-panel-description2 = Mae hyn yn dileu hanes, cwcis, a holl ddata'r wefan ond heb gau eich Ffenest Breifat.
+reset-pbm-panel-always-ask-checkbox =
+    .label = Gofyn i mi bob tro
+    .accesskey = G
+reset-pbm-panel-cancel-button =
+    .label = Diddymu
+    .accesskey = D
+reset-pbm-panel-confirm-button2 =
+    .label = Clirio'r sesiwn breifat
+    .accesskey = s
+reset-pbm-panel-complete = Data sesiwn preifat wedi'i ddileu
+refresh-blocked-refresh-label = Rhwystrodd { -brand-short-name } y dudalen hon rhag ailagor yn awtomatig.
+refresh-blocked-redirect-label = Rhwystrodd { -brand-short-name } y dudalen hon rhag ailgyfeirio i dudalen arall.
+refresh-blocked-allow =
+    .label = Caniatáu
+    .accesskey = C
+firefox-relay-offer-why-to-use-relay = Mae ein arallenwau diogel, hawdd eu defnyddio yn diogelu eich hunaniaeth ac yn atal sbam trwy guddio'ch cyfeiriad e-bost.
+firefox-relay-offer-what-relay-provides = Bydd pob e-bost sy'n cael eu hanfon at eich arallenwau e-bost yn cael eu hanfon ymlaen at <strong>{ $useremail }</strong> (oni bai eich bod yn penderfynu eu rhwystro).
+firefox-relay-offer-legal-notice = Drwy glicio “Defnyddio arallenw e-bost”, rydych yn cytuno i'r <label data-l10n-name="tos-url">Amodau Gwasanaeth</label> a <label data-l10n-name="privacy-url">Hysbysiad Preifatrwydd </label>.
+firefox-relay-offer-legal-notice-1 = Drwy gofrestru a chreu e-bost enwarall, rydych yn cytuno i'r <label data-l10n-name="tos-url">Amodau Gwasanaeth</label> a'r <label data-l10n-name="privacy-url">Hysbysiad Preifatrwydd</label>.
+popup-notification-addon-install-unsigned =
+    .value = (Heb eu gwirio)
+popup-notification-xpinstall-prompt-learn-more = Rhagor am osod ategion yn ddiogel
+popup-notification-xpinstall-prompt-block-url = Gweld manylion
+popup-notification-addon-privatebrowsing-checkbox2 =
+    .label = Caniatáu i estyniad redeg mewn ffenestri preifat
+    .accesskey = e
+popup-notification-addon-technical-and-interaction-checkbox =
+    .label = Rhannwch ddata technegol a rhyngweithio â datblygwr yr estyniad
+    .accesskey = R
+popup-warning-message =
+    { $popupCount ->
+        [zero] Nid yw gwefan { -brand-short-name } wedi rhwystro rhag agor llamlenni.
+        [one] Rhwystrodd { -brand-short-name } y wefan rhag agor { $popupCount } llamlen.
+        [two] Rhwystrodd { -brand-short-name } y wefan rhag agor { $popupCount } llamlen.
+        [few] Rhwystrodd { -brand-short-name } y wefan rhag agor { $popupCount } llamlen.
+        [many] Rhwystrodd { -brand-short-name } y wefan rhag agor { $popupCount } llamlen.
+       *[other] Rhwystrodd { -brand-short-name } y wefan rhag agor { $popupCount } llamlen.
+    }
+redirect-warning-with-popup-message =
+    { $popupCount ->
+        [0] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlenni ac ailgyfeirio.
+        [1] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlen ac ailgyfeirio.
+        [zero] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlenni ac ailgyfeirio.
+        [one] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlen ac ailgyfeirio.
+        [two] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } lamlen ac ailgyfeirio.
+        [few] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlen ac ailgyfeirio.
+        [many] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlen ac ailgyfeirio.
+       *[other] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlen ac ailgyfeirio.
+    }
+popup-warning-exceeded-message =
+    { $popupCount ->
+        [zero] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+        [one] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+        [two] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+        [few] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+        [many] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+       *[other] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen.
+    }
+popup-warning-exceeded-with-redirect-message =
+    { $popupCount ->
+        [zero] Rhwystrodd { -brand-short-name } y wefan hon rhag agor { $popupCount } llamlenni ac ailgyfeirio.
+        [one] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen ac ailgyfeirio.
+        [two] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } lamlen ac ailgyfeirio.
+        [few] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen ac ailgyfeirio.
+        [many] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen ac ailgyfeirio.
+       *[other] Rhwystrodd { -brand-short-name } y wefan hon rhag agor mwy na { $popupCount } llamlen ac ailgyfeirio.
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] Opsiynau
+           *[other] Dewisiadau
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] D
+        }
+popup-show-popup-menuitem =
+    .label = Dangos '{ $popupURI }'
+popup-trigger-redirect-menuitem =
+    .label = Dangos “ { $redirectURI } ”
+file-picker-failed-open = Nid oedd modd agor deialog ffeil Windows. Nid oedd modd dewis ffeil neu ffolder.
+file-picker-failed-save-somewhere = Nid oedd modd agor deialog ffeil Windows. Bydd y ffeil yn cael ei chadw i { $path }.
+file-picker-failed-save-nowhere = Doedd dim modd agor deialog ffeil Windows. Doedd dim modd dod o hyd i ffolder rhagosodedig; fydd y ffeil ddim yn cael ei chadw.
+file-picker-crashed-open = Mae deialog ffeil Windows wedi chwalu. Nid oedd modd dewis ffeil neu ffolder.
+file-picker-crashed-save-somewhere = Mae deialog ffeil Windows wedi chwalu. Bydd y ffeil yn cael ei chadw i { $path }.
+file-picker-crashed-save-nowhere = Mae deialog ffeil Windows wedi chwalu. Doedd dim modd dod o hyd i ffolder rhagosodedig; fydd y ffeil ddim yn cael ei chadw.
+file-picker-crashed-show-in-folder =
+    .label = Dangos mewn Ffolder
+    .accessKey = F
+onboarding-aw-finish-setup-button =
+    .label = Gorffen gosod
+    .tooltiptext = Gorffen gosod { -brand-short-name }
+onboarding-checklist-button-label = Gorffen gosod
+urlbar-trust-icon-notsecure-label = Dim yn Ddiogel
+urlbar-trust-icon-trackers-blocked-longform-label =
+    { $count ->
+        [zero] { $count } tracwyr wedi'u rhwystro
+        [one] { $count } traciwr wedi'i rwystro
+        [two] { $count } draciwr wedi'u rhwystro
+        [few] { $count } thraciwr wedi'u rhwystro
+        [many] { $count } thraciwr wedi'u rhwystro
+       *[other] { $count } traciwr wedi'u rhwystro
+    }
+trustpanel-etp-label-enabled = Mae Diogelwch Uwch Rhag Tracio ymlaen
+trustpanel-etp-label-disabled = Mae Diogelwch Uwch Rhag Tracio i ffwrdd
+trustpanel-etp-toggle-on =
+    .aria-label = Mae Diogelwch Uwch Rhag Tracio: Ymlaen ar gyfer { $host }
+trustpanel-etp-toggle-off =
+    .aria-label = Mae Diogelwch Uwch Rhag Tracio: I ffwrdd ar gyfer { $host }
+trustpanel-etp-description-enabled = Os yw rhywbeth yn edrych fel ei fod wedi torri ar y wefan hon, ceisiwch ddiffodd yr amddiffyniadau.
+trustpanel-etp-description-disabled = Mae { -brand-product-name } yn meddwl y dylai cwmnïau eich dilyn llai. Rydyn ni'n rhwystro cymaint o dracwyr ag y gallwn pan fyddwch chi'n troi amddiffyniadau ymlaen.
+trustpanel-connection-label-secure = Cysylltiad yn ddiogel
+trustpanel-connection-label-insecure = Nid yw’r cysylltiad yn ddiogel
+trustpanel-header-enabled = Mae { -brand-product-name } yn diogelu
+trustpanel-description-enabled2 = Rydych chi wedi'ch diogelu. Os byddwn yn sylwi ar rywbeth, byddwn yn rhoi gwybod ichi.
+trustpanel-header-enabled-insecure = Byddwch yn ofalus ar y wefan hon
+trustpanel-description-enabled-insecure = Sylwodd { -brand-product-name } ar rywbeth amheus.
+trustpanel-header-disabled = Rydych wedi diffodd eich diogelu
+trustpanel-description-disabled = Nid yw { -brand-product-name } ar waith. Rydym yn awgrymu troi eich diogelwch yn ôl ymlaen.
+trustpanel-clear-cookies-button = Clirio cwcis a data gwefan
+trustpanel-privacy-link = Gosodiadau Preifatrwydd
+trustpanel-clear-cookies-header =
+    .title = Clirio cwcis a data gwefan ar gyfer { $host }
+trustpanel-clear-cookies-description = Gall dileu cwcis a data gwefan eich allgofnodi o wefannau a gwagio cartiau siopa.
+trustpanel-clear-cookies-subview-button-clear = Clirio
+trustpanel-clear-cookies-subview-button-cancel = Diddymu
+trustpanel-site-information-header =
+    .title = Diogelu cysylltiadau ar gyfer { $host }
+trustpanel-siteinformation-morelink = Rhagor o fanylion y wefan
+trustpanel-blocker-see-all = Gweld y Cyfan
+trustpanel-blocker-header =
+    .title = Diogelwch tracio ar gyfer  { $host }
+trustpanel-blocker-section-header2 =
+    { $count ->
+        [zero] <span data-l10n-name="count">{ $count }</span> Tracwyr wedi'u rhwystro ar y wefan hon
+        [one] <span data-l10n-name="count">{ $count }</span> Traciwr wedi'i rwystro ar y wefan hon
+        [two] <span data-l10n-name="count">{ $count }</span> Traciwr wedi'u rhwystro ar y wefan hon
+        [few] <span data-l10n-name="count">{ $count }</span> Traciwr wedi'u rhwystro ar y wefan hon
+        [many] <span data-l10n-name="count">{ $count }</span> Traciwr wedi'u rhwystro ar y wefan hon
+       *[other] <span data-l10n-name="count">{ $count }</span> Traciwr wedi'u rhwystro ar y wefan hon
+    }
+trustpanel-blocker-description = Mae { -brand-product-name } yn meddwl y dylai cwmnïau eich dilyn llai. Felly rydym yn rhwystro cymaint ag y gallwn.
+trustpanel-blocked-header = Mae { -brand-product-name } wedi rhwystro'r pethau hyn ar eich rhan:
+trustpanel-tracking-header = Mae { -brand-product-name } wedi caniatáu'r pethau hyn fel nad yw gwefannau'n torri:
+trustpanel-tracking-description = Heb dracwyr, efallai na fydd rhai botymau, ffurflenni a meysydd mewngofnodi yn gweithio.
+trustpanel-insecure-section-header = Nid yw eich cysylltiad yn ddiogel
+trustpanel-insecure-description = Nid yw'r data rydych yn ei anfon i'r wefan hon wedi'i amgryptio. Mae modd ei weld, ei ddwyn, neu ei newid.
+trustpanel-list-label-tracking-cookies =
+    { $count ->
+        [zero] { $count } Cwcis tracio traws-gwefan
+        [one] { $count } Cwci tracio traws-gwefan
+        [two] { $count } Gwci tracio traws-gwefan
+        [few] { $count } Cwci tracio traws-gwefan
+        [many] { $count } Cwci tracio traws-gwefan
+       *[other] { $count } Cwci tracio traws-gwefan
+    }
+trustpanel-list-label-tracking-content = Cynnwys tracio
+trustpanel-list-label-fingerprinter =
+    { $count ->
+        [zero] { $count } Bysbrintwyr
+        [one] { $count } Bysbrintiwr
+        [two] { $count } Bysbrintiwr
+        [few] { $count } Bysbrintiwr
+        [many] { $count } Bysbrintiwr
+       *[other] { $count } Bysbrintiwr
+    }
+trustpanel-list-label-social-tracking =
+    { $count ->
+        [zero] { $count } Tracwyr cyfryngau cymdeithasol
+        [one] { $count } Traciwr cyfryngau cymdeithasol
+        [two] { $count } Traciwr cyfryngau cymdeithasol
+        [few] { $count } Traciwr cyfryngau cymdeithasol
+        [many] { $count } Traciwr cyfryngau cymdeithasol
+       *[other] { $count } Traciwr cyfryngau cymdeithasol
+    }
+trustpanel-list-label-cryptominer =
+    { $count ->
+        [zero] { $count } Cryptogloddwyr
+        [one] { $count } Cryptogloddiwr
+        [two] { $count } Cryptogloddiwr
+        [few] { $count } Cryptogloddiwr
+        [many] { $count } Cryptogloddiwr
+       *[other] { $count } Cryptogloddiwr
+    }
+trustpanel-social-tracking-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi rhwystro { $count } tracwyr cyfryngau cymdeithasol
+        [one] Mae { -brand-product-name } wedi rhwystro { $count } traciwr cyfryngau cymdeithasol
+        [two] Mae { -brand-product-name } wedi rhwystro { $count } draciwr cyfryngau cymdeithasol
+        [few] Mae { -brand-product-name } wedi rhwystro { $count } traciwr cyfryngau cymdeithasol
+        [many] Mae { -brand-product-name } wedi rhwystro { $count } thraciwr cyfryngau cymdeithasol
+       *[other] Mae { -brand-product-name } wedi rhwystro { $count } traciwr cyfryngau cymdeithasol
+    }
+trustpanel-social-tracking-not-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi caniatáu { $count } traciwyr cyfryngau cymdeithasol
+        [one] Mae { -brand-product-name } wedi caniatáu { $count } traciwr cyfryngau cymdeithasol
+        [two] Mae { -brand-product-name } wedi caniatáu { $count } draciwr cyfryngau cymdeithasol
+        [few] Mae { -brand-product-name } wedi caniatáu { $count } traciwr cyfryngau cymdeithasol
+        [many] Mae { -brand-product-name } wedi caniatáu { $count } thraciwr cyfryngau cymdeithasol
+       *[other] Mae { -brand-product-name } wedi caniatáu { $count } traciwr cyfryngau cymdeithasol
+    }
+trustpanel-tracking-cookies-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi rhwystro { $count } cwcis tracio traws-gwefan
+        [one] Mae { -brand-product-name } wedi rhwystro { $count } cwci tracio traws-gwefan
+        [two] Mae { -brand-product-name } wedi rhwystro { $count } gwci tracio traws-gwefan
+        [few] Mae { -brand-product-name } wedi rhwystro { $count } chwci tracio traws-gwefan
+        [many] Mae { -brand-product-name } wedi rhwystro { $count } chwci tracio traws-gwefan
+       *[other] Mae { -brand-product-name } wedi rhwystro { $count } cwci tracio traws-gwefan
+    }
+trustpanel-tracking-cookies-not-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi caniatáu { $count } cwcis tracio traws-gwefan
+        [one] Mae { -brand-product-name } wedi caniatáu { $count } cwci tracio traws-gwefan
+        [two] Mae { -brand-product-name } wedi caniatáu { $count } gwci tracio traws-gwefan
+        [few] Mae { -brand-product-name } wedi caniatáu { $count } chwci tracio traws-gwefan
+        [many] Mae { -brand-product-name } wedi caniatáu { $count } chwci tracio traws-gwefan
+       *[other] Mae { -brand-product-name } wedi caniatáu { $count } cwci tracio traws-gwefan
+    }
+trustpanel-tracking-content-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi rhwystro { $count } tracwyr
+        [one] Mae { -brand-product-name } wedi rhwystro { $count } traciwr
+        [two] Mae { -brand-product-name } wedi rhwystro { $count } draciwr
+        [few] Mae { -brand-product-name } wedi rhwystro { $count } traciwr
+        [many] Mae { -brand-product-name } wedi rhwystro { $count } thraciwr
+       *[other] Mae { -brand-product-name } wedi rhwystro { $count } traciwr
+    }
+trustpanel-tracking-content-not-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi caniatáu { $count } tracwyr
+        [one] Mae { -brand-product-name } wedi caniatáu { $count } traciwr
+        [two] Mae { -brand-product-name } wedi caniatáu { $count } draciwr
+        [few] Mae { -brand-product-name } wedi caniatáu { $count } traciwr
+        [many] Mae { -brand-product-name } wedi caniatáu { $count } thraciwr
+       *[other] Mae { -brand-product-name } wedi caniatáu { $count } traciwr
+    }
+trustpanel-tracking-content-tab-list-header = Mae'r gwefannau hyn yn ceisio'ch tracio chi:
+trustpanel-fingerprinter-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintwyr
+        [one] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintiwr
+        [two] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintiwr
+        [few] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintiwr
+        [many] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintiwr
+       *[other] Mae { -brand-product-name } wedi rhwystro { $count } bysbrintiwr
+    }
+trustpanel-fingerprinter-not-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintwyr
+        [one] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintiwr
+        [two] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintiwr
+        [few] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintiwr
+        [many] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintiwr
+       *[other] Mae { -brand-product-name } wedi caniatáu { $count } bysbrintiwrMae { -brand-product-name } wedi caniatáu { $count } bysbrintiwr
+    }
+trustpanel-fingerprinter-list-header = Mae'r gwefannau hyn yn ceisio'ch bysbrintio chi:
+trustpanel-cryptominer-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi rhwystro { $count } cryptogloddwyr
+        [one] Mae { -brand-product-name } wedi rhwystro { $count } cryptogloddwr
+        [two] Mae { -brand-product-name } wedi rhwystro { $count } gryptogloddwr
+        [few] Mae { -brand-product-name } wedi rhwystro { $count } cryptogloddwr
+        [many] Mae { -brand-product-name } wedi rhwystro { $count } chryptogloddwr
+       *[other] Mae { -brand-product-name } wedi rhwystro { $count } cryptogloddwr
+    }
+trustpanel-cryptominer-not-blocking-tab-header =
+    { $count ->
+        [zero] Mae { -brand-product-name } wedi caniatáu { $count } cryptogloddwyr
+        [one] Mae { -brand-product-name } wedi caniatáu { $count } cryptogloddwr
+        [two] Mae { -brand-product-name } wedi caniatáu { $count } gryptogloddwr
+        [few] Mae { -brand-product-name } wedi caniatáu { $count } cryptogloddwr
+        [many] Mae { -brand-product-name } wedi caniatáu { $count } chryptogloddwr
+       *[other] Mae { -brand-product-name } wedi caniatáu { $count } cryptogloddwr
+    }
+trustpanel-cryptominer-tab-list-header = Mae'r gwefannau hyn yn ceisio cryptogloddio:
+trustpanel-breachalerts-anonymous-breached-header = Oes gennych chi gyfrif ar y wefan hon?
+trustpanel-breachalerts-anonymous-breached-description = Mae { -brand-product-name } wedi darganfod fod y wefan hon wedi profi tor-data yn ystod y 12 mis diwethaf. Ewch i weld os gawsoch eich effeithio.
+trustpanel-breachalerts-anonymous-breached-button-dismiss = Cau
+trustpanel-breachalerts-anonymous-breached-button-check-monitor = Dechrau sgan am ddim
+reduced-protection-infobar-message = <strong>Mae'r wefan yn edrych fel ei bod wedi torri?</strong> Ail-lwythwch y dudalen i leihau eich diogelwch tracio dros dro.
+reduced-protection-infobar-reload-button = Ail-lwytho
+    .accesskey = A
+reduced-protection-infobar-never-show-button = Peidio dangos eto
+    .accesskey = P

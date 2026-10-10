@@ -1,0 +1,12 @@
+autofill-manage-dialog =
+    .style = min-width: 560px
+autofill-manage-remove-button = நீக்கு
+autofill-manage-add-button = சேர்…
+autofill-manage-edit-button = திருத்து…
+autofill-edit-address-title = முகவரியைத் திருத்தவும்
+autofill-address-organization = நிறுவனம்
+autofill-address-city = நகரம்
+autofill-address-state = மாநிலம்
+autofill-address-country = நாடு அல்லது பிராந்தியம்
+autofill-card-billing-address-2 =
+    .label = விலைப்பட்டியல் முகவரி

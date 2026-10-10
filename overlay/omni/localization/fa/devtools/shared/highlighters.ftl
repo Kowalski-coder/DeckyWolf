@@ -1,0 +1,13 @@
+grid-row-column-positions = ردیف { $row } / ستون { $column }
+gridtype-container = نگه‌دارندهٔ Grid
+gridtype-item = مورد Grid
+gridtype-dual = نگه‌دارنده/مورد Grid
+flextype-container = نگه‌دارندهٔ فلکس
+flextype-item = مورد فلکس
+flextype-dual = نگه‌دارنده/مورد فلکس
+remote-node-picker-notice = انتخابگر گرهٔ ابزارهای توسعه فعال شد. { $action }
+remote-node-picker-notice-action-desktop = روی یک عنصر کلیک کنید تا در بازرس انتخاب شود
+remote-node-picker-notice-action-touch = روی یک عنصر بزنید تا در بازرس انتخاب شود
+remote-node-picker-notice-hide-button = پنهان کردن
+simple-highlighters-message = وقتی prefers-reduced-motion فعال است، می‌توانید در قاب تنظیمات یک برجسته‌ساز ساده‌تر فعال کنید تا رنگ‌های چشمک‌زن نمایش داده نشوند.
+simple-highlighters-settings-button = باز کردن تنظیمات

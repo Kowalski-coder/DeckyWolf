@@ -1,0 +1,10 @@
+whypaused-debugger-statement = Jeda pada penyataan penyahpepijat
+whypaused-breakpoint = Jeda pada titik putus
+whypaused-exception = Jeda pada pengecualian
+whypaused-resume-limit = Jeda semasa jenjang
+whypaused-pause-on-dom-events = Jeda pada pendengar acara
+whypaused-breakpoint-condition-thrown = Ralat dengan titik putus bersyarat
+whypaused-promise-rejection = Jeda pada janji penolakan
+whypaused-assert = Jeda pada penegasan
+whypaused-debug-command = Jeda pada fungsi nyahpepijat
+whypaused-other = Penyahpepijat jeda

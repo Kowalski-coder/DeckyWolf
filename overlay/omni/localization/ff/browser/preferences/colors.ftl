@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Binndol e Cakkital
+colors-text =
+    .label = Binndoi
+    .accesskey = B
+colors-text-background =
+    .label = Cakkital
+    .accesskey = C
+colors-links-header = Nooneeji Jokkol
+colors-links-unvisited =
+    .label = Jokke ɗe Njillaaka
+    .accesskey = N
+colors-links-visited =
+    .label = Jokke Jillaaɗe
+    .accesskey = J

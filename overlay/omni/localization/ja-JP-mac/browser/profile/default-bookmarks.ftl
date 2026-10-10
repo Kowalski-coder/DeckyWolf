@@ -1,0 +1,14 @@
+default-bookmarks-title = ブックマーク
+default-bookmarks-heading = ブックマーク
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Mozilla サポート
+default-bookmarks-firefox-customize = Firefox をカスタマイズ
+default-bookmarks-firefox-community = コミュニティに参加
+default-bookmarks-firefox-about = Mozilla について
+default-bookmarks-nightly-heading = Firefox Nightly Resources
+default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-crashes = クラッシュデータ
+default-bookmarks-planet = Planet Mozilla

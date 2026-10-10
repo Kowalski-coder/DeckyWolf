@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Wajoli Dano!
+error-short-desc-text = Wabino ka limi ki kuc doki ki cwiny maber!
+error-long-desc1 = Robot mogo pe wano dano onyo, ma peke katic, ye ni dano onong awano.
+error-long-desc2 = Robot oneno jami ma wun dano pe otwero ye.
+error-long-desc3 = Robot obedo laremi ma cwe ne ma Bedo Kwede mit.
+error-long-desc4 = Robot tye ki kit nyonyo ma ryeny ma pe myero ki ka.
+error-trailer-desc-text = Kadong gi tye ki lok apora.
+error-try-again = Tem Doki
+    .label2 = Tim ber pe idii jarara man doki.

@@ -1,0 +1,246 @@
+about-logins-page-title-name = Contrasenyes
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = Cerca contrasenyes
+create-login-button =
+    .title = Afegeix una contrasenya
+fxaccounts-sign-in-text = Accediu a les contrasenyes en tots els vostres dispositius
+fxaccounts-sign-in-sync-button = Inicia la sessió per sincronitzar
+fxaccounts-avatar-button =
+    .title = Gestiona el compte
+menu =
+    .title = Obre el menú
+about-logins-menu-menuitem-import-from-another-browser = Importa d’un altre navegador…
+about-logins-menu-menuitem-import-from-a-file = Importa d’un fitxer…
+about-logins-menu-menuitem-export-logins2 = Exporta les contrasenyes…
+about-logins-menu-menuitem-remove-all-logins2 = Elimina totes les contrasenyes…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] Opcions
+       *[other] Preferències
+    }
+about-logins-menu-menuitem-help = Ajuda
+login-list =
+    .aria-label = Inicis de sessió que coincideixen amb els criteris de cerca
+login-list-count2 =
+    { $count ->
+        [one] { $count } contrasenya
+       *[other] { $count } contrasenyes
+    }
+login-list-filtered-count2 =
+    { $total ->
+        [11] { $count } d’{ $total } contrasenyes
+        [one] { $count } d’{ $total } contrasenya
+       *[other] { $count } de { $total } contrasenyes
+    }
+login-list-sort-label-text = Ordena per:
+login-list-name-option = Nom (A-Z)
+login-list-name-reverse-option = Nom (Z-A)
+login-list-username-option = Nom d’usuari (A-Z)
+login-list-username-reverse-option = Nom d’usuari (Z-A)
+about-logins-login-list-alerts-option = Alertes
+login-list-last-changed-option = Darrera modificació
+login-list-last-used-option = Darrer ús
+login-list-intro-title2 = No s’ha desat cap contrasenya
+login-list-intro-description = Aquí es mostren les contrasenyes que deseu en el { -brand-product-name }.
+about-logins-login-list-empty-search-title2 = No s’ha trobat cap contrasenya
+about-logins-login-list-empty-search-description = No hi ha cap resultat que coincideixi amb la cerca.
+login-list-item-title-new-login2 = Afegeix una contrasenya
+login-list-item-subtitle-missing-username = (cap nom d’usuari)
+about-logins-list-item-breach-icon =
+    .title = Lloc web amb filtració de dades
+about-logins-list-item-vulnerable-password-icon =
+    .title = Contrasenya vulnerable
+about-logins-list-section-breach = Llocs web amb filtracions de dades
+about-logins-list-section-vulnerable = Contrasenyes vulnerables
+about-logins-list-section-nothing = Cap alerta
+about-logins-list-section-today = Avui
+about-logins-list-section-yesterday = Ahir
+about-logins-list-section-week = Darrers 7 dies
+about-logins-login-intro-heading-message = Deseu les contrasenyes en un lloc segur
+login-intro-description2 = Totes les contrasenyes que deseu en el { -brand-product-name } són xifrades. A més, estem pendents de les filtracions i us alertarem si esteu afectat. <a data-l10n-name="breach-alert-link">Més informació</a>
+login-intro-instructions-fxa2 = Creeu un compte o inicieu la sessió des del dispositiu on teniu desats els vostres inicis de sessió.
+login-intro-instructions-fxa-settings = Aneu a Paràmetres > Sync > Activa la sincronització… Marqueu la casella de selecció «Inicis de sessió i contrasenyes».
+login-intro-instructions-fxa-passwords-help = Visiteu l’<a data-l10n-name="passwords-help-link">assistència de contrasenyes</a> per a obtenir més ajuda.
+about-logins-intro-import3 = Feu clic al botó de signe més de dalt per afegir una contrasenya ara mateix. També podeu <a data-l10n-name="import-browser-link">importar les contrasenyes d’un altre navegador</a> o <a data-l10n-name="import-file-link">d’un fitxer</a>.
+about-logins-login-item-new-login-title = Afegeix una contrasenya
+login-item-edit-button = Edita
+about-logins-login-item-remove-button = Elimina
+login-item-origin-label = Adreça del lloc web
+about-logins-origin-tooltip2 = Introduïu l’adreça completa i assegureu-vos que coincideixi exactament amb la del lloc on inicieu la sessió.
+about-logins-edit-password-tooltip = Assegureu-vos que esteu desant la contrasenya actual per a aquest lloc. Canviar la contrasenya aquí no la canvia a { $webTitle }.
+about-logins-add-password-tooltip = Assegureu-vos que esteu desant la contrasenya actual per a aquest lloc.
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = Nom d’usuari
+about-logins-login-item-username =
+    .placeholder = (cap nom d’usuari)
+login-item-copy-username-button-text = Copia
+login-item-copied-username-button-text = S’ha copiat
+login-item-password-label = Contrasenya
+login-item-password-reveal-checkbox =
+    .aria-label = Mostra la contrasenya
+login-item-password-conceal-checkbox =
+    .aria-label = Amaga la contrasenya
+login-item-copy-password-button-text = Copia
+login-item-copied-password-button-text = S’ha copiat
+about-logins-login-item-save-changes-button = Desa
+login-item-save-new-button = Desa
+login-item-cancel-button = Cancel·la
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = S’ha creat
+login-item-timeline-action-updated = S’ha actualitzat
+login-item-timeline-action-used = S’ha usat
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] canviar els paràmetres de les contrasenyes
+       *[other] { -brand-short-name } està provant de canviar els paràmetres de les contrasenyes. Inicieu la sessió en el dispositiu per a permetre-ho.
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = Per editar la contrasenya, introduïu les vostres credencials d’inici de sessió al Windows. Això ajuda a protegir la seguretat dels vostres comptes.
+about-logins-edit-login-os-auth-dialog-message2-macosx = editar la contrasenya desada
+about-logins-reveal-password-os-auth-dialog-message-win = Per veure la contrasenya, introduïu les vostres credencials d’inici de sessió al Windows. Això ajuda a protegir la seguretat dels vostres comptes.
+about-logins-reveal-password-os-auth-dialog-message-macosx = mostrar la contrasenya desada
+about-logins-copy-password-os-auth-dialog-message-win = Per copiar la contrasenya, introduïu les vostres credencials d’inici de sessió al Windows. Això ajuda a protegir la seguretat dels vostres comptes.
+about-logins-copy-password-os-auth-dialog-message-macosx = copiar la contrasenya desada
+about-logins-export-password-os-auth-dialog-message2-win = Per exportar les contrasenyes, introduïu les vostres credencials d’inici de sessió al Windows. Això ajuda a protegir la seguretat dels vostres comptes.
+about-logins-export-password-os-auth-dialog-message2-macosx = exportar les contrasenyes desades
+about-logins-primary-password-notification-message = Introduïu la contrasenya principal per veure els inicis de sessió i les contrasenyes desats
+master-password-reload-button =
+    .label = Inicia la sessió
+    .accesskey = I
+confirmation-dialog-cancel-button = Cancel·la
+confirmation-dialog-dismiss-button =
+    .title = Cancel·la
+about-logins-confirm-delete-dialog-title = Voleu eliminar la contrasenya?
+about-logins-confirm-delete-dialog-message = Aquesta acció no es pot desfer.
+about-logins-confirm-remove-dialog-confirm-button = Elimina
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] Elimina
+        [one] Elimina
+       *[other] Elimina-ho tot
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] Sí, elimina la contrasenya
+        [one] Sí, elimina la contrasenya
+       *[other] Sí, elimina les contrasenyes
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] Voleu eliminar { $count } contrasenya?
+       *[other] Voleu eliminar totes les { $count } contrasenyes?
+    }
+about-logins-confirm-remove-all-dialog-message2 =
+    { $count ->
+        [1] Això eliminarà la contrasenya desada al { -brand-short-name } i les alertes de filtracions. Aquesta acció no es pot desfer.
+       *[other] Això eliminarà les contrasenyes desades al { -brand-short-name } i les alertes de filtracions. Aquesta acció no es pot desfer.
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 =
+    { $count ->
+        [one] Voleu eliminar { $count } contrasenya de tots els dispositius?
+       *[other] Voleu eliminar totes les { $count } contrasenyes de tots els dispositius?
+    }
+about-logins-confirm-remove-all-sync-dialog-message3 =
+    { $count ->
+        [1] Això eliminarà la contrasenya desada al { -brand-short-name } de tots els dispositius sincronitzats. També eliminarà les alertes de filtracions que apareixen aquí. Aquesta acció no es pot desfer.
+       *[other] Això eliminarà totes les contrasenyes desades al { -brand-short-name } de tots els dispositius sincronitzats. També eliminarà les alertes de filtracions que apareixen aquí. Aquesta acció no es pot desfer.
+    }
+about-logins-confirm-export-dialog-title2 = Nota sobre l’exportació de contrasenyes
+about-logins-confirm-export-dialog-message2 =
+    En exportar, les contrasenyes es desen en un fitxer de text llegible.
+    Quan hàgiu acabat d’utilitzar el fitxer, us recomanem que el suprimiu perquè les altres persones que utilitzin aquest dispositiu no puguin veure les vostres contrasenyes.
+about-logins-confirm-export-dialog-confirm-button2 = Continua l’exportació
+about-logins-alert-import-message = Mostra un resum detallat de la importació
+confirm-discard-changes-dialog-title = Voleu descartar els canvis no desats?
+confirm-discard-changes-dialog-message = Es perdran tots els canvis que no hàgiu desat.
+confirm-discard-changes-dialog-confirm-button = Descarta
+about-logins-breach-alert-title = Filtració de dades del lloc web
+breach-alert-text = S’han filtrat o robat contrasenyes d’aquest lloc web des de la darrera vegada que en vàreu actualitzar les vostres dades d’inici de sessió. Canvieu la contrasenya per protegir el vostre compte.
+about-logins-breach-alert-date = Data de la filtració: { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = Vés a { $hostname }
+about-logins-vulnerable-alert-title = Contrasenya vulnerable
+about-logins-vulnerable-alert-text2 = Aquesta contrasenya s’ha utilitzat en un altre compte que probablement ha estat compromès. Reutilitzar credencials posa tots els vostres comptes en perill. Canvieu aquesta contrasenya.
+about-logins-vulnerable-alert-link = Vés a { $hostname }
+about-logins-vulnerable-alert-learn-more-link = Més informació
+about-logins-error-message-duplicate-login-with-link = Ja existeix una entrada per a { $loginTitle } amb aquest nom d’usuari. <a data-l10n-name="duplicate-link">Voleu anar a l’entrada existent?</a>
+about-logins-error-message-default = S’ha produït un error en intentar desar aquesta contrasenya.
+about-logins-export-file-picker-title2 = Exporteu les contrasenyes del { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = contrasenyes.csv
+about-logins-export-file-picker-export-button = Exporta
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV
+       *[other] Fitxer CSV
+    }
+about-logins-import-file-picker-title2 = Importa les contrasenyes en el { -brand-short-name }
+about-logins-import-file-picker-import-button = Importa
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] Document CSV (valors separats per comes)
+       *[other] Fitxer CSV (valors separats per comes)
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] Document TSV (valors separats per tabuladors)
+       *[other] Fitxer TSV (valors separats per tabuladors)
+    }
+about-logins-import-dialog-title = Fi de la importació
+about-logins-import-dialog-items-added2 =
+    { $count ->
+       *[other] <span>Contrasenyes noves afegides:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-modified2 =
+    { $count ->
+       *[other] <span>Entrades existents actualitzades:</span> <span data-l10n-name="count">{ $count }</span>
+    }
+about-logins-import-dialog-items-no-change2 =
+    { $count ->
+       *[other] <span>Entrades duplicades:</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(no importades)</span>
+    }
+about-logins-import-dialog-items-error =
+    { $count ->
+        [one] <span>Errors:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(no s’ha importat)</span>
+       *[other] <span>Errors:</span> <span data-l10n-name="count">{ $count }</span><span data-l10n-name="meta">(no s’han importat)</span>
+    }
+about-logins-import-dialog-done = Fet
+about-logins-import-dialog-error-title = Error d’importació
+about-logins-import-dialog-error-conflicting-values-title = Un inici de sessió conté diversos valors conflictius
+about-logins-import-dialog-error-conflicting-values-description = Per exemple: diversos noms d’usuari, contrasenyes, URL, etc. per a un mateix inici de sessió.
+about-logins-import-dialog-error-file-format-title = Problema del format de fitxer
+about-logins-import-dialog-error-file-format-description = Falten les capçaleres de columna o són incorrectes. Assegureu-vos que el fitxer inclogui columnes per al nom d’usuari, la contrasenya i l’URL.
+about-logins-import-dialog-error-file-permission-title = No s’ha pogut llegir el fitxer
+about-logins-import-dialog-error-file-permission-description = El { -brand-short-name } no té permís per llegir el fitxer. Proveu de canviar els permisos del fitxer.
+about-logins-import-dialog-error-unable-to-read-title = No s’ha pogut analitzar el fitxer
+about-logins-import-dialog-error-unable-to-read-description = Assegureu-vos que heu triat un fitxer CSV (valors separats per comes) o TSV (valors separats per tabuladors).
+about-logins-import-dialog-error-no-logins-imported = No s’ha importat cap inici de sessió
+about-logins-import-dialog-error-learn-more = Més informació
+about-logins-import-dialog-error-try-import-again = Torna a provar d’importar…
+about-logins-import-dialog-error-cancel = Cancel·la
+about-logins-import-report-title = Resum de la importació
+about-logins-import-report-description2 = S’han importat les contrasenyes en el { -brand-short-name }.
+about-logins-import-report-row-index = Fila { $number }
+about-logins-import-report-row-description-no-change2 = Duplicat: Coincidència exacta amb una entrada existent
+about-logins-import-report-row-description-modified2 = Entrada existent actualitzada
+about-logins-import-report-row-description-added2 = Contrasenya nova afegida
+about-logins-import-report-row-description-error = Error: Falta un camp
+about-logins-import-report-row-description-error-multiple-values = Error: Hi ha diversos valors per a { $field }
+about-logins-import-report-row-description-error-missing-field = Error: Falta { $field }
+about-logins-import-report-added2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">contrasenyes noves afegides</div>
+    }
+about-logins-import-report-modified2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">entrades existents actualitzades</div>
+    }
+about-logins-import-report-no-change2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">entrades duplicades</div> <div data-l10n-name="not-imported">(no importades)</div>
+    }
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">errors</div> <div data-l10n-name="not-imported">(no importats)</div>
+    }
+about-logins-import-report-page-title = Informe de resum de la importació

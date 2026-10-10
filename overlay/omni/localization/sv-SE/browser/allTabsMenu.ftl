@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Sök i alla flikar
+all-tabs-menu-new-user-context =
+    .label = Ny innehållsflik
+all-tabs-menu-hidden-tabs =
+    .label = Dolda flikar
+all-tabs-menu-close-duplicate-tabs =
+    .label = Stäng dubbletter av flikar
+all-tabs-menu-view-all-tabs =
+    .label = Visa alla flikar
+all-tabs-menu-recent-tab-groups-header = Senaste flikgrupper
+all-tabs-menu-tab-groups-show-all =
+    .label = Visa alla
+all-tabs-menu-tab-groups-sub-view =
+    .title = Flikgrupper
+all-tabs-menu-current-window-header = Aktuellt fönster

@@ -1,0 +1,8 @@
+fxa-pair-device-dialog-sync2 =
+    .style = min-width: 32em;
+fxa-qrcode-pair-title = Ҳамоҳангсозии { -brand-product-name } дар телефон ва планшет
+fxa-qrcode-pair-step1 = 1. Браузери «{ -brand-product-name }»-ро дар дастгоҳи мобилии худ кушоед.
+fxa-qrcode-pair-step2-device-steps = 2. Ба меню гузаред ва ба тугмаи «<strong>Ворид шудан</strong>» зер кунед
+fxa-qrcode-pair-step3 = 3. Имкони <strong>Барои аксбардорӣ омода аст</strong>-ро зер кунед ва телефони худро болои ин рамз рост кунед.
+fxa-qrcode-error-title = Ҷуфтсозӣ иҷро нашуд.
+fxa-qrcode-error-body = Аз нав кӯшиш кунед.

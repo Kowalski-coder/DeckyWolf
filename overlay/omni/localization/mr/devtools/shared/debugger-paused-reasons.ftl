@@ -1,0 +1,10 @@
+whypaused-debugger-statement = डी-बगर स्टेटमेंटवर थांबविला आहे
+whypaused-breakpoint = ब्रेकपॉईंट वर थांबविला आहे
+whypaused-exception = अपवाद आढळल्याने थांबविला आहे
+whypaused-resume-limit = स्टेपींग करताना थांबविला आहे
+whypaused-pause-on-dom-events = event listener वर थांबविला आहे
+whypaused-breakpoint-condition-thrown = सशर्त ब्रेकपॉईंट सोबत त्रुटी
+whypaused-promise-rejection = वचन नाकारल्या मुळे थांबविला आहे
+whypaused-assert = assertion वर थांबविला आहे
+whypaused-debug-command = डी-बगर कार्यावर थांबविला आहे
+whypaused-other = डी-बगर थांबवीला आहे

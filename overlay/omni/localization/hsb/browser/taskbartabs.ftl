@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Nadawkowej lajsće rajtark přidać
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Rajtark z nadawkoweje lajsće wotstronić
+taskbar-tab-urlbar-button-show = Akciju strony webnałoženja pokazać
+taskbar-tab-urlbar-button-hide = Akciju strony webnałoženja schować
+taskbar-tab-shortcut-description = Webnałoženje { $name }
+taskbar-tab-shortcut-folder = Webnałoženja { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Rajtark zněmić
+taskbar-tab-audio-unmute =
+    .tooltiptext = Rajtark hižo njezněmić
+taskbar-tab-title-default = { $name } w { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) w { -brand-full-name }
+taskbar-tab-title-profile = { $name } w { $profile } – { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) w { $profile } – { -brand-full-name }

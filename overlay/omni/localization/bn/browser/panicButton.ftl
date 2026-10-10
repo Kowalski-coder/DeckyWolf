@@ -1,0 +1,15 @@
+panic-button-open-new-window = একটি নতুন পরিষ্কার উইন্ডো খুলুন
+panic-button-undo-warning = এই পরিবর্তনটি অপরিবর্তনীয়!
+panic-button-forget-button =
+    .label = ভুলে যাওয়া!
+panic-main-timeframe-desc = আগেরটি ভুলে যান:
+panic-button-5min =
+    .label = পাঁচ মিনিট
+panic-button-2hr =
+    .label = দুই ঘণ্টা
+panic-button-day =
+    .label = 24 ঘন্টা
+panic-button-action-desc = কার্যধারায় হবে:
+panic-button-delete-cookies = সাম্প্রতিক<strong>কুকিগুলি</strong> মুছে ফেলুন
+panic-button-delete-history = সাম্প্রতিক <strong> ইতিহাস </strong> মুছে ফেলুন
+panic-button-delete-tabs-and-windows = সব <strong>ট্যাবগুলি</strong> এবং <strong>উইন্ডো</strong> বন্ধ করুন

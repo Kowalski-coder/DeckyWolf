@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Vítejte, lidé!
+error-short-desc-text = Přišli jsme vás navštívit v míru a přátelství!
+error-long-desc1 = Robot nesmí ublížit člověku nebo svou nečinností dopustit, aby bylo člověku ublíženo.
+error-long-desc2 = Roboti viděli věci, kterým byste vy lidi nevěřili.
+error-long-desc3 = Roboti jsou vaši plastikoví kámoši, se kterými je radost pobývat.
+error-long-desc4 = Roboti mají lesklý kovový zadek, který se nesmí líbat.
+error-trailer-desc-text = A oni mají plán.
+error-try-again = Zkusit znovu
+    .label2 = Prosím, už ten knoflík víckrát nemačkejte.

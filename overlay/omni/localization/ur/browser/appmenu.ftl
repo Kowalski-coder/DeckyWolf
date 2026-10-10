@@ -1,0 +1,134 @@
+appmenuitem-new-tab =
+    .label = نیا ٹیب
+appmenuitem-new-window =
+    .label = نیا ونڈوں
+appmenuitem-new-private-window =
+    .label = نیا نجی ونڈوں
+appmenuitem-history =
+    .label = سابقات
+appmenuitem-downloads =
+    .label = ڈاؤن لوڈ
+appmenuitem-passwords =
+    .label = پاس ورڈ
+appmenuitem-print =
+    .label = چھاپیں…
+appmenuitem-find-in-page =
+    .label = صفحہ میں ڈھونڈیں…
+appmenuitem-zoom =
+    .value = زوم
+appmenuitem-more-tools =
+    .label = مزید ٹولز
+appmenuitem-exit2 =
+    .label =
+        { PLATFORM() ->
+            [linux] باہر نکلیں
+           *[other] خروج
+        }
+appmenu-menu-button-closed2 =
+    .label = { -brand-short-name }
+    .tooltiptext = ایپلیکیشن مینو کھولیں
+appmenu-menu-button-opened2 =
+    .label = { -brand-short-name }
+    .tooltiptext = ایپلیکیشن مینو بند کریں
+appmenuitem-settings =
+    .label = سیٹنگز
+appmenuitem-zoom-enlarge =
+    .label = اندر زوم کریں
+appmenuitem-zoom-reduce =
+    .label = باہر زوم کریں
+appmenuitem-fullscreen =
+    .label = پوری اسکرین
+appmenu-remote-tabs-sign-into-sync =
+    .label = سنک کرنے کے لئے سائن ان کریں…
+appmenu-remote-tabs-turn-on-sync =
+    .label = سینک چالو کریں…
+appmenu-remote-tabs-showmore =
+    .label = مزید ٹیبز دکھائیں
+    .tooltiptext = اس آلہ سے مزید َٹیبس دکھائیں
+appmenu-remote-tabs-notabs = کوئی کھولی ہوئی ٹیب نہیں
+appmenu-remote-tabs-tabsnotsyncing = اپنے دیگر آلات پر ٹیب کی فہرست دیکھنے کے لئے ٹیب ہم سازی آن کر دیں۔
+appmenu-remote-tabs-opensettings =
+    .label = ترتیبات
+appmenu-remote-tabs-noclients = اپنے ٹیب کو دوسرے آلات سے یہاں سے دیکھنا پسند کریں گے؟
+appmenu-remote-tabs-connectdevice =
+    .label = ایک اور آلہ جوڑیں
+appmenu-remote-tabs-welcome = دیگر آلات سے ٹیبیں کی فہرست دیکھنیں۔
+appmenu-remote-tabs-unverified = آپ کے اکائونٹ کو توژیکاری کی ظرورت ہے۔
+appmenuitem-fxa-toolbar-sync-now2 = ابھی سنک کریں
+appmenuitem-fxa-sign-in = { -brand-product-name } میں سائن ان کریں
+appmenuitem-fxa-manage-account = اکاؤنٹ منظم کریں
+appmenu-fxa-sync-and-save-data2 = سنک اور محفوظ کریں
+appmenu-fxa-signed-in-label = سائن ان کریں
+appmenu-fxa-setup-sync =
+    .label = سینک چالو کریں…
+appmenuitem-save-page =
+    .label = صفحہ محفوظ کریں بطور…
+profiler-popup-button-idle =
+    .label = پروفائل
+    .tooltiptext = کارکردگی کی پروفائل ریکارڈ کریں
+profiler-popup-header-text = { -profiler-brand-name }
+profiler-popup-reveal-description-button =
+    .aria-label = مزید معلومات ظاہر کریں
+profiler-popup-description-title =
+    .value = ریکارڈ کریں ، تجزیہ کریں ، شیر کریں
+profiler-popup-learn-more-button =
+    .label = مزیدجانیے
+profiler-popup-settings =
+    .value = سیٹنگز
+profiler-popup-edit-settings-button =
+    .label = سیٹنگز میں تدوین کریں…
+profiler-popup-recording-screen = ریکارڈنگ ہو رہا…
+profiler-popup-start-recording-button =
+    .label = ریکارڈنگ شروع کریں
+profiler-popup-discard-button =
+    .label = رد کريں
+profiler-popup-capture-button =
+    .label = ریکارڈ کریں
+profiler-popup-start-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧1
+       *[other] Ctrl+Shift+1
+    }
+profiler-popup-capture-shortcut =
+    { PLATFORM() ->
+        [macos] ⌃⇧2
+       *[other] Ctrl+Shift+2
+    }
+profiler-popup-presets-web-developer-label =
+    .label = ویب تکمیل کار
+profiler-popup-presets-firefox-label =
+    .label = { -brand-shorter-name }
+profiler-popup-presets-graphics-label =
+    .label = گرافکس
+profiler-popup-presets-media-label =
+    .label = میڈیا
+profiler-popup-presets-networking-label =
+    .label = نیٹ ورکنگ
+profiler-popup-presets-custom-label =
+    .label = مخصوص
+appmenu-manage-history =
+    .label = تاریخ کا نظم کریں
+appmenu-restore-session =
+    .label = پچھلا سیشن بحال کریں
+appmenu-clear-history =
+    .label = حالیہ سابقات خالی کریں…
+appmenu-recent-history-subheader = حالیہ سابقات
+appmenu-recently-closed-tabs =
+    .label = حالیہ بند کیے گئے ٹیب
+appmenu-recently-closed-windows =
+    .label = حالیہ بند کیے گئے دریچے
+appmenu-about =
+    .label = { -brand-shorter-name } کے بارے میں
+    .accesskey = A
+appmenu-get-help =
+    .label = مدد حاصل کریں
+    .accesskey = h
+appmenu-help-report-deceptive-site =
+    .label = پر فریب سایٹ کی رپورٹ کریں…
+    .accesskey = d
+appmenu-help-not-deceptive =
+    .label = یہ فریبی سائٹ نہیں ہے…
+    .accesskey = ف
+appmenu-customizetoolbar =
+    .label = ٹول بار کی تخصیص کریں…
+appmenu-developer-tools-subheader = براؤزر ٹولز

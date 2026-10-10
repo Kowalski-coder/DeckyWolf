@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Disclavar del menu disbordante
+    .accesskey = U
+customize-menu-add-to-toolbar =
+    .label = Adder al barra de instrumentos
+    .accesskey = A
+customize-menu-add-to-overflowmenu =
+    .label = Adder al menu disbordante
+    .accesskey = M
+panic-button-thankyou-msg1 = Tu chronologia recente es vacue.
+panic-button-thankyou-msg2 = Naviga cautemente!
+panic-button-thankyou-button =
+    .label = Gratias!

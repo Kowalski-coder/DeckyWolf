@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Adde scheda al barra del applicationes
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Remover scheda ab barra de instrumentos
+taskbar-tab-urlbar-button-show = Monstrar actiones de pagina del application web
+taskbar-tab-urlbar-button-hide = Celar actiones de pagina del application web
+taskbar-tab-shortcut-description = Application web { $name }
+taskbar-tab-shortcut-folder = Applicationes web { -brand-short-name }
+taskbar-tab-audio-mute =
+    .tooltiptext = Silentiar scheda
+taskbar-tab-audio-unmute =
+    .tooltiptext = Non plus silentiar le scheda
+taskbar-tab-title-default = { $name } in { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) in { -brand-full-name }
+taskbar-tab-title-profile = { $name } in { $profile } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) in { $profile } — { -brand-full-name }

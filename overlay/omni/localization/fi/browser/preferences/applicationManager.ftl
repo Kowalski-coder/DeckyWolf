@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Ohjelman tiedot
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Poista
+    .accesskey = P
+app-manager-handle-protocol = Seuraavilla sovelluksilla voi avata { $type }-linkkejä.
+app-manager-handle-file = Seuraavilla sovelluksilla voi avata { $type }-tiedostoja.
+app-manager-web-app-info = Tämän verkkosovelluksen osoite on:
+app-manager-local-app-info = Tämä ohjelma on kansiossa:

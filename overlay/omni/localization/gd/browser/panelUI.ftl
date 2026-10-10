@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Dì-phrìnich on chlàr-taice taosgaidh
+    .accesskey = D
+customize-menu-add-to-toolbar =
+    .label = Cuir ris a' bhàr-inneal
+    .accesskey = a
+customize-menu-add-to-overflowmenu =
+    .label = Cuir ris a’ chlàr-taice taosgaidh
+    .accesskey = u
+panic-button-thankyou-msg1 = Chaidh an eachdraidh ùr agad a sguabadh às.
+panic-button-thankyou-msg2 = Brabhsadh sàbhailte!
+panic-button-thankyou-button =
+    .label = Mòran taing!

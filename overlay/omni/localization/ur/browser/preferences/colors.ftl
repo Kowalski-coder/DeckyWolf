@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = متن و پس منظر
+colors-text =
+    .label = متن
+    .accesskey = T
+colors-text-background =
+    .label = پس منظر
+    .accesskey = B
+colors-links-header = ربط کے رنگ
+colors-links-unvisited =
+    .label = ملاحظہ نہ کیے گئے روابط
+    .accesskey = L
+colors-links-visited =
+    .label = ملاحظہ کیے گئے روابط
+    .accesskey = V

@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Embojuaju tendayke tembiaporã rupáre
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Eipe’a tendayke tembiaporã rupágui
+taskbar-tab-urlbar-button-show = Ehechauka kuatiarogue ñanduti rembiporu’i
+taskbar-tab-urlbar-button-hide = Eñomi kuatiarogue ñanduti rembiporu’i
+taskbar-tab-shortcut-description = { $name } ñanduti rogue
+taskbar-tab-shortcut-folder = { -brand-short-name } Ñandutirogue rembiporu’i
+taskbar-tab-audio-mute =
+    .tooltiptext = Emokirirĩ tendayke
+taskbar-tab-audio-unmute =
+    .tooltiptext = Emyandy tendayke kirirĩha
+taskbar-tab-title-default = { $name } { -brand-full-name }-pe
+taskbar-tab-title-container = { $name } ({ $container }) { -brand-full-name }-pe
+taskbar-tab-title-profile = { $name } { $profile } — { -brand-full-name }-pe
+taskbar-tab-title-container-profile = { $name } ({ $container }) { $profile } — { -brand-full-name }-pe

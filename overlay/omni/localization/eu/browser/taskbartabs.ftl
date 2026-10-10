@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Gehitu fitxa ataza-barran
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Kendu fitxa ataza-barratik
+taskbar-tab-urlbar-button-show = Erakutsi web aplikazioaren orri-ekintza
+taskbar-tab-urlbar-button-hide = Ezkutatu web aplikazioaren orri-ekintza
+taskbar-tab-shortcut-description = { $name } Web Aplikazioa
+taskbar-tab-shortcut-folder = { -brand-short-name } web aplikazioak
+taskbar-tab-audio-mute =
+    .tooltiptext = Mututu fitxa
+taskbar-tab-audio-unmute =
+    .tooltiptext = Ez mututu fitxa
+taskbar-tab-title-default = { $name } — { -brand-full-name }
+taskbar-tab-title-container = { $name } ({ $container }) — { -brand-full-name }
+taskbar-tab-title-profile = { $name } { $profile } profilarekin — { -brand-full-name }
+taskbar-tab-title-container-profile = { $name } ({ $container }) { $profile } profilarekin — { -brand-full-name }

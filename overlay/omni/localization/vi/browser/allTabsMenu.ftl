@@ -1,0 +1,16 @@
+all-tabs-menu-search-all-tabs =
+    .label = Tìm kiếm tất cả các thẻ
+all-tabs-menu-new-user-context =
+    .label = Ngăn chứa thẻ mới
+all-tabs-menu-hidden-tabs =
+    .label = Thẻ đã ẩn
+all-tabs-menu-close-duplicate-tabs =
+    .label = Đóng các thẻ trùng
+all-tabs-menu-view-all-tabs =
+    .label = Xem tất cả các thẻ
+all-tabs-menu-recent-tab-groups-header = Nhóm thẻ gần đây
+all-tabs-menu-tab-groups-show-all =
+    .label = Hiện tất cả
+all-tabs-menu-tab-groups-sub-view =
+    .title = Nhóm thẻ
+all-tabs-menu-current-window-header = Cửa sổ hiện tại

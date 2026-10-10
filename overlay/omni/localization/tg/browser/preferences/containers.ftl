@@ -1,0 +1,17 @@
+containers-window-new3 =
+    .style = min-width: 32em
+    .title = Илова кардани дарбаргирандаи нав
+containers-window-update-settings3 =
+    .style = min-width: 32em
+    .title = Танзимоти дарбаргирандаи { $name }
+containers-window-close =
+    .key = w
+containers-name-label2 =
+    .label = Ном
+    .placeholder = Номеро илова намоед
+containers-icon-label2 =
+    .label = Нишона
+containers-color-label2 =
+    .label = Ранг
+containers-panel-create-button =
+    .label = Тайёр

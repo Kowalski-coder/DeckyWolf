@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } ingin mengubah mesin pencari baku Anda dari { $currentEngine } ke { $newEngine }. Oke?
+webext-default-search-yes =
+    .label = Ya
+    .accesskey = Y
+webext-default-search-no =
+    .label = Tidak
+    .accesskey = T
+addon-post-install-message = { $addonName } telah ditambahkan
+webext-quarantine-confirmation-title = Jalankan { $addonName } di situs terbatas?
+webext-quarantine-confirmation-line-1 = Untuk melindungi data Anda, ekstensi ini tidak diizinkan pada situs ini.
+webext-quarantine-confirmation-line-2 = Izinkan ekstensi ini jika Anda memercayainya untuk membaca dan mengubah data pada situs yang dibatasi oleh { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Izinkan
+    .accesskey = I
+webext-quarantine-confirmation-deny =
+    .label = Jangan Izinkan
+    .accesskey = J

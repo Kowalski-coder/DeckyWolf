@@ -1,0 +1,155 @@
+smartwindow-messages-document-title = پیام‌های گفت‌وگوی { -smart-window-brand-name }
+smart-window-context-chips-tag-count =
+    { $tags ->
+        [one] { $tags } برچسب
+       *[other] { $tags } برچسب
+    }
+smartwindow-assistant-error-generic-header = مشکلی پیش آمد. لطفاً دوباره تلاش کنید.
+smartwindow-assistant-error-budget-header = به سقف مجاز گفت‌وگوی امروز رسیده‌اید.
+smartwindow-assistant-error-account-header = برای استفاده از { -smart-window-brand-name }، باید وارد حساب کاربری خود شوید.
+smartwindow-assistant-error-capacity-header = ظرفیت { -smart-window-brand-name } در حال حاضر تکمیل است. لطفاً بعداً تلاش کنید.
+smartwindow-assistant-error-budget-body = همچنان می‌توانید در این پنجره وب‌گردی کنید. پس از بازنشانی محدودیت روزانه، امکان گفت‌وگو دوباره فعال خواهد شد.
+smartwindow-assistant-error-many-requests-header = لطفاً کمی صبر کرده و دوباره تلاش کنید. پیام‌های زیادی در مدت‌زمان کوتاهی ارسال شده است.
+smartwindow-assistant-error-max-length-header = طول این گفت‌وگو به حداکثر مجاز رسیده است؛ لطفاً گفت‌وگوی جدیدی آغاز کنید.
+smartwindow-assistant-error-request-blocked-header = { -smart-window-brand-name } نتوانست به سرور متصل شود. شبکهٔ دیگری را امتحان کنید یا فیلترشکن (VPN) خود را خاموش نمایید.
+smartwindow-assistant-error-http-header = خطای سرور (HTTP { $status }). لطفاً دوباره تلاش کنید.
+smartwindow-retry-btn = تلاش دوباره
+smartwindow-clear-btn = گفت‌وگوی جدید
+smartwindow-signin-btn = ورود
+aiwindow-memories-used = حافظه‌های استفاده‌شده
+aiwindow-memories-callout-description = حافظه‌ها به شخصی‌سازی این پاسخ کمک کردند.
+aiwindow-memories-learn-more = بیشتر بدانید
+aiwindow-manage-memories =
+    .label = تنظیمات حافظه
+aiwindow-retry-without-memories =
+    .label = تلاش دوباره بدون حافظه‌ها
+aiwindow-retry =
+    .aria-label = تلاش دوباره
+    .tooltiptext = تلاش دوباره
+aiwindow-copy-message =
+    .aria-label = رونوشت پیام
+    .tooltiptext = رونوشت
+aiwindow-copy-table =
+    .aria-label = رونوشت جدول
+    .tooltiptext = رونوشت جدول
+aiwindow-table-scroll-indicator = برای مشاهدهٔ بیشتر پیمایش کنید
+aiwindow-thumbs-up =
+    .aria-label = ثبت بازخورد مثبت
+    .tooltiptext = ثبت بازخورد مثبت
+aiwindow-thumbs-down =
+    .aria-label = ثبت بازخورد منفی
+    .tooltiptext = ثبت بازخورد منفی
+aiwindow-applied-memories-popover =
+    .aria-label = پنل حافظه‌ها
+aiwindow-applied-memories-list =
+    .aria-label = حافظه‌ها
+aiwindow-delete-memory-button =
+    .aria-label = حذف { $summary }
+aiwindow-jump-to-bottom =
+    .aria-label = رفتن به انتهای گفت‌وگو
+    .tooltiptext = رفتن به پایین
+smartwindow-nl-retry-tool-button =
+    .label = تلاش دوباره
+smartwindow-nl-retry-message = اگر هنوز مایل به بستن زبانه‌ها هستید، <strong>تلاش دوباره</strong> را انتخاب کرده و در کادر بازشده موارد را برگزینید.
+smartwindow-nl-retry-group-tabs-message = اگر هنوز مایل به گروه‌بندی زبانه‌ها هستید، <strong>تلاش دوباره</strong> را انتخاب کرده و در کادر بازشده زبانه‌های مدنظر را انتخاب کنید.
+smartwindow-nl-thinking = در حال جست‌وجوی زبانه‌های مطابق…
+smartwindow-loading-assistant-response =
+    .aria-label = در حال بارگیری پاسخ دستیار
+smartwindow-nl-undo-button =
+    .label = واگرد
+smart-window-closed-tabs-label =
+    { $count ->
+        [one] { $count } زبانه بسته شد
+       *[other] { $count } زبانه بسته شد
+    }
+smart-window-closed-tabs-summary =
+    { $count ->
+        [one] انجام شد! زبانه بسته شد.
+       *[other] انجام شد! زبانه‌ها بسته شدند.
+    }
+smart-window-closed-tabs-row-label = زبانه‌های بسته‌شده
+smart-window-closed-and-restored-label = زبانه‌های بسته‌شده و بازیابی‌شده
+smart-window-restored-row-label =
+    { $count ->
+        [one] { $count } زبانه بازیابی شد
+       *[other] { $count } زبانه بازیابی شد
+    }
+smart-window-restore-success-summary =
+    { $count ->
+        [one] زبانه بسته و سپس بازیابی شد.
+       *[other] زبانه‌ها بسته و سپس بازیابی شدند.
+    }
+smart-window-cancelled-label = درخواست لغو شد.
+smart-window-confirm-group-tab = گروه‌بندی
+smart-window-confirm-group-tabs =
+    { $count ->
+        [one] گروه‌بندی { $count } زبانه
+       *[other] گروه‌بندی { $count } زبانه
+    }
+smart-window-confirm-open-tab = باز کردن
+smart-window-confirm-open-tabs =
+    { $count ->
+        [one] باز کردن { $count } زبانه
+       *[other] باز کردن { $count } زبانه
+    }
+smart-window-grouped-tabs-label =
+    { $count ->
+        [one] { $count } زبانه گروه‌بندی شد
+       *[other] { $count } زبانه گروه‌بندی شد
+    }
+smart-window-default-tab-group-label = گروه زبانه
+smart-window-grouped-tabs-summary =
+    { $count ->
+        [one] گروه «{ $label }» ایجاد و { $count } زبانه به آن اضافه شد.
+       *[other] گروه «{ $label }» ایجاد و { $count } زبانه به آن اضافه شد.
+    }
+smart-window-grouped-tabs-row-label = زبانه‌های گروه‌بندی‌شده
+smart-window-opened-tabs-label =
+    { $count ->
+        [one] { $count } زبانه باز شد
+       *[other] { $count } زبانه باز شد
+    }
+smart-window-opened-tabs-summary-single =
+    { $count ->
+        [one] { $count } زبانه باز شد.
+       *[other] { $count } زبانه باز شد.
+    }
+smart-window-opened-tabs-summary-group =
+    { $count ->
+       *[other] گروه «{ $label }» ایجاد و { $count } زبانه باز شد.
+    }
+smart-window-opened-tabs-row-label = زبانه‌های بازشده
+smart-window-switched-tab-label = تغییر زبانه
+smart-window-switched-tab-summary = جابه‌جایی به «{ $title }».
+smart-window-grouped-and-ungrouped-label = زبانه‌ها از گروه خارج شدند
+smart-window-ungroup-success-summary =
+    { $count ->
+        [one] { $count } زبانه گروه‌بندی و سپس از گروه خارج شد.
+       *[other] { $count } زبانه گروه‌بندی و سپس از گروه خارج شدند.
+    }
+smart-window-ungrouped-row-label =
+    { $count ->
+        [one] { $count } زبانه از گروه خارج شد
+       *[other] { $count } زبانه از گروه خارج شدند
+    }
+action-log-searching-tabs = در حال جست‌وجوی زبانه‌ها
+action-log-searched-open-tabs = زبانه‌های باز جست‌وجو شدند
+action-log-searching-history = در حال جست‌وجوی تاریخچه
+action-log-searched-history = تاریخچه جست‌وجو شد
+action-log-reading-page = در حال خواندن صفحه
+action-log-read-page = محتوای صفحه خوانده شد
+action-log-searching-web = در حال جست‌وجو در وب
+action-log-searched-web = در وب جست‌وجو شد
+action-log-searching-web-with-exa = در حال جست‌وجو در وب با <a data-l10n-name="exa-link">Exa</a>
+action-log-searched-web-with-exa = در وب با <a data-l10n-name="exa-link">Exa</a> جست‌وجو شد
+action-log-checking-memories = در حال بررسی حافظه‌ها
+action-log-checked-memories = حافظه‌ها بررسی شدند
+action-log-searching-settings = در حال جست‌وجو در تنظیمات
+action-log-searched-settings = تنظیمات جست‌وجو شد
+action-log-completed-steps =
+    { $count ->
+        [one] ۱ مرحله انجام شد
+       *[other] { $count } مرحله انجام شد
+    }
+smartwindow-search-loader-text = نتایج جست‌وجو در این زبانه بارگیری شد. در حال تحلیل نتایج…
+smartwindow-assistant-citations-more-label = { $count }+ مورد دیگر

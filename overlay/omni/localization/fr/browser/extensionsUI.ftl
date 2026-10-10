@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } souhaite remplacer votre moteur de recherche par défaut { $currentEngine } par { $newEngine }. Cela vous convient-il ?
+webext-default-search-yes =
+    .label = Oui
+    .accesskey = O
+webext-default-search-no =
+    .label = Non
+    .accesskey = N
+addon-post-install-message = { $addonName } a été ajouté.
+webext-quarantine-confirmation-title = Exécuter { $addonName } sur des sites restreints ?
+webext-quarantine-confirmation-line-1 = Afin de protéger vos données, cette extension n’est pas autorisée sur ce site.
+webext-quarantine-confirmation-line-2 = Autorisez cette extension si vous lui faites confiance pour lire et modifier vos données sur les sites restreints par { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Autoriser
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = Ne pas autoriser
+    .accesskey = N

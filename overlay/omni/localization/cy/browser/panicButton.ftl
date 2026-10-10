@@ -1,0 +1,15 @@
+panic-button-open-new-window = Agor Ffenestr glân newydd
+panic-button-undo-warning = Nid oes modd dadwneud y weithred hon.
+panic-button-forget-button =
+    .label = Anghofio!
+panic-main-timeframe-desc = Anghofio'r olaf:
+panic-button-5min =
+    .label = Pum munud
+panic-button-2hr =
+    .label = Dwy awr
+panic-button-day =
+    .label = 24 awr
+panic-button-action-desc = Bydd parhau yn:
+panic-button-delete-cookies = Dileu <strong>Cwcis</strong> Diweddar
+panic-button-delete-history = Dileu <strong>Hanes</strong> Diweddar
+panic-button-delete-tabs-and-windows = Cau pob <strong>Tab</strong> a <strong>Ffenestr</strong>

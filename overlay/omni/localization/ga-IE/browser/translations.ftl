@@ -1,0 +1,9 @@
+translations-panel-disable-translations =
+    .label = Díchumasaigh aistriúcháin go hiomlán
+translations-manage-enable =
+    .label = Cumasaigh aistriúcháin lánleathanach
+translations-manage-autopopup =
+    .label = Iarrtar ort leathanaigh nach bhfuil i dteanga chumraithe an bhrabhsálaí a aistriú
+main-context-menu-translate-page =
+    .label = Aistrigh Leathanach…
+    .accesskey = T

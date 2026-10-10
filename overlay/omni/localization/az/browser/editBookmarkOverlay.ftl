@@ -1,0 +1,15 @@
+bookmark-overlay-choose =
+    .label = Seçin…
+bookmark-overlay-folders-expander2 =
+    .tooltiptext = Bütün əlfəcin qovluqlarını göstər
+bookmark-overlay-folders-expander-hide =
+    .tooltiptext = Gizləyir
+bookmark-overlay-new-folder-button =
+    .label = Yeni qovluq
+    .accesskey = q
+bookmark-overlay-tags-empty-description =
+    .placeholder = Etiketləri vergüllə ayırın
+bookmark-overlay-tags-expander2 =
+    .tooltiptext = Bütün etikətləri göstərir
+bookmark-overlay-tags-expander-hide =
+    .tooltiptext = Gizləyir

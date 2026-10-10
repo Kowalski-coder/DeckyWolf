@@ -1,0 +1,14 @@
+preonboarding-title = Selamat datang di { -brand-product-name }
+preonboarding-subtitle = Dengan melanjutkan, Anda menyetujui Persyaratan Penggunaan { -brand-product-name } dan Pemberitahuan Privasi kami. Untuk membantu meningkatkan peramban, { -brand-product-name } mengirimkan data diagnostik dan interaksi ke { -vendor-short-name }.
+preonboarding-primary-cta = Konfirmasi dan lanjutkan
+preonboarding-manage-and-read-header = Kelola pengaturan pengumpulan data dan baca Ketentuan Penggunaan dan Pemberitahuan Privasi kami
+preonboarding-terms-of-use-header-button-title = Baca Ketentuan Penggunaan kami
+preonboarding-privacy-notice-header-button-title = Baca Pemberitahuan Privasi kami
+preonboarding-manage-data-header-button-title = Kelola data diagnostik dan interaksi
+preonboarding-terms-of-use-header-button-title-b = Syarat Penggunaan { -brand-product-name }
+preonboarding-privacy-notice-header-button-title-b = Pemberitahuan Privasi { -brand-product-name }
+preonboarding-header-button-description = Baca Selengkapnya
+preonboarding-checklist-interaction-data-label = Kirim data teknis dan interaksi ke { -vendor-short-name }
+preonboarding-checklist-interaction-data-description = Data tentang perangkat Anda, konfigurasi perangkat keras, dan bagaimana Anda menggunakan { -brand-product-name } membantu meningkatkan fitur, kinerja, dan stabilitas bagi pengguna di mana saja.
+preonboarding-checklist-crash-reports-label = Kirim laporan kerusakan secara otomatis
+preonboarding-checklist-crash-reports-description = Laporan kerusakan memungkinkan kami mendiagnosis dan memperbaiki masalah pada peramban. Laporan mungkin termasuk data pribadi atau sensitif.

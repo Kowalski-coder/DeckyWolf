@@ -1,0 +1,207 @@
+about-logins-page-title-name = ពាក្យ​សម្ងាត់
+about-logins-login-filter2 =
+    .key = F
+    .placeholder = ស្វែងរកពាក្យសម្ងាត់
+create-login-button =
+    .title = បន្ថែមពាក្យសម្ងាត់
+fxaccounts-sign-in-text = ទាញយក​ពាក្យ​សម្ងាត់​របស់​អ្នក​នៅ​លើ​ឧបករណ៍​ផ្សេងទៀត​របស់​អ្នក
+fxaccounts-sign-in-sync-button = សូមបញ្ជាប់ចូល ដើម្បីសមកាលកម្ម
+fxaccounts-avatar-button =
+    .title = គ្រប់គ្រង​គណនី
+menu =
+    .title = បើក​ម៉ឺនុយ
+about-logins-menu-menuitem-import-from-another-browser = នាំចូលពីកម្មវិធីច្បោលផ្សេងទៀត…
+about-logins-menu-menuitem-import-from-a-file = នាំចូល​ពី​ឯកសារ…
+about-logins-menu-menuitem-export-logins2 = នាំចេញពាក្យសម្ងាត់…
+about-logins-menu-menuitem-remove-all-logins2 = លុបពាក្យសម្ងាត់ទាំងអស់…
+menu-menuitem-preferences =
+    { PLATFORM() ->
+        [windows] ជម្រើស
+       *[other] ចំណូលចិត្ត
+    }
+about-logins-menu-menuitem-help = ជំនួយ
+login-list =
+    .aria-label = ការបញ្ជាប់ចូលកំពុងផ្គូផ្គងនឹងសំណួរស្វែងរក
+login-list-count2 = ពាក្យសម្ងាត់ { $count }
+login-list-filtered-count2 =
+    { $total ->
+        [one] { $count } នៃ { $total } ពាក្យសម្ងាត់
+       *[other] { $count } នៃ { $total } ពាក្យសម្ងាត់ច្រើន
+    }
+login-list-sort-label-text = តម្រៀបតាម៖
+login-list-name-option = ឈ្មោះ (A-Z)
+login-list-name-reverse-option = ឈ្មោះ (Z-A)
+login-list-username-option = អត្ថនាម (A-Z)
+login-list-username-reverse-option = អត្ថនាម (Z-A)
+about-logins-login-list-alerts-option = សញ្ញាដាស់តឿន
+login-list-last-changed-option = បាន​កែប្រែ​ចុងក្រោយ
+login-list-last-used-option = បាន​ប្រើចុងក្រោយ
+login-list-intro-title2 = គ្មានពាក្យសម្ងាត់ត្រូវបានរក្សាទុកទេ
+login-list-intro-description = នៅពេល​អ្នក​រក្សាទុក​ពាក្យ​សម្ងាត់​នៅ​ក្នុង { -brand-product-name } វា​នឹង​បង្ហាញ​នៅ​ត្រង់​នេះ។
+about-logins-login-list-empty-search-title2 = រកពាក្យសម្ងាត់មិនឃើញ
+about-logins-login-list-empty-search-description = មិនមានលទ្ធផលត្រូវនឹងការស្វែងរករបស់អ្នកទេ។
+login-list-item-title-new-login2 = បន្ថែមពាក្យសម្ងាត់
+login-list-item-subtitle-missing-username = (គ្មានអត្ថនាម)
+about-logins-list-item-breach-icon =
+    .title = គេហទំព័រ​ដែល​បាន​បំពាន
+about-logins-list-item-vulnerable-password-icon =
+    .title = ពាក្យសម្ងាត់ងាយរងគ្រោះ
+about-logins-list-section-breach = វេបសាយបានទន្លាយ
+about-logins-list-section-vulnerable = ពាក្យសម្ងាត់ងាយរងគ្រោះ
+about-logins-list-section-nothing = មិនមានការជូនដំណឹង
+about-logins-list-section-today = ថ្ងៃនេះ
+about-logins-list-section-yesterday = ម្សិលមិញ
+about-logins-list-section-week = 7 ថ្ងៃចុងក្រោយ
+about-logins-login-intro-heading-message = រក្សាទុកពាក្យសម្ងាត់របស់អ្នកទៅកាន់កន្លែងសុវត្ថិភាព
+login-intro-description2 = ពាក្យសម្ងាត់ទាំងអស់ដែលអ្នករក្សាទុកទៅក្នុង { -brand-product-name } ត្រូវបានអ៊ិនគ្រីប។ លើសពីនេះ យើងឃ្លាំមើលការបំពាន ហើយជូនដំណឹងដល់អ្នក ប្រសិនបើអ្នករងផលប៉ះពាល់។ <a data-l10n-name="breach-alert-link">ស្វែងយល់បន្ថែម</a>
+login-intro-instructions-fxa2 = បង្កើត ឬបញ្ជាប់ចូលគណនីរបស់អ្នកនៅលើឧបករណ៍ដែលការបញ្ជាប់ចូលគណនីរបស់អ្នកត្រូវបានរក្សាទុក។
+login-intro-instructions-fxa-settings = ចូលទៅ​កាន់ ការកំណត់ > ធ្វើសមកាលកម្ម > បើក​ការធ្វើសមកាលកម្ម... ជ្រើសរើស​ប្រអប់​ការចូល និង​ពាក្យសម្ងាត់។
+login-intro-instructions-fxa-passwords-help = ចូលមើល​<a data-l10n-name="passwords-help-link">ជំនួយ​ពាក្យសម្ងាត់</a>​សម្រាប់​ជំនួយ​បន្ថែម។
+about-logins-intro-import3 = សូមជ្រើសរើសប៊ូតុងសញ្ញាបូកខាងលើដើម្បីបន្ថែមពាក្យសម្ងាត់ឥឡូវនេះ។ អ្នកក៏អាច <a data-l10n-name="import-browser-link">វាយបញ្ចូល ពាក្យសម្ងាត់ពីកម្មវិធីរុករកផ្សេងទៀត</a> ឬ <a data-l10n-name="import-file-link">ពីឯកសារ</a> បានដែរ។
+about-logins-login-item-new-login-title = បន្ថែមពាក្យសម្ងាត់
+login-item-edit-button = កែសម្រួល
+about-logins-login-item-remove-button = លុប​ចេញ
+login-item-origin-label = អាសយដ្ឋាន​គេហទំព័រ
+about-logins-origin-tooltip2 = សូមបញ្ចូលអាសយដ្ឋានពេញ ហើយត្រូវប្រាកដថាវាដូចគ្នាបេះបិទទៅនឹងកន្លែងដែលអ្នកចូល។
+about-logins-add-password-tooltip = ត្រូវប្រាកដថាអ្នកបានរក្សាទុកពាក្យសម្ងាត់បច្ចុប្បន្នរបស់អ្នកសម្រាប់គេហទំព័រនេះ។
+login-item-origin =
+    .placeholder = https://www.example.com
+login-item-username-label = អត្ថនាម
+about-logins-login-item-username =
+    .placeholder = (គ្មានអត្ថនាម)
+login-item-copy-username-button-text = ចម្លង
+login-item-copied-username-button-text = បាន​ចម្លង!
+login-item-password-label = ពាក្យ​សម្ងាត់
+login-item-password-reveal-checkbox =
+    .aria-label = បង្ហាញ​ពាក្យសម្ងាត់
+login-item-password-conceal-checkbox =
+    .aria-label = លាក់​ពាក្យ​សម្ងាត់
+login-item-copy-password-button-text = ចម្លង
+login-item-copied-password-button-text = បាន​ចម្លង!
+about-logins-login-item-save-changes-button = រក្សា​ទុក
+login-item-save-new-button = រក្សាទុក
+login-item-cancel-button = បោះបង់
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = បាន​បង្កើត
+login-item-timeline-action-updated = បានធ្វើបច្ចុប្បន្នភាព
+login-item-timeline-action-used = ប្រើរួច
+about-logins-os-auth-dialog-caption = { -brand-full-name }
+about-logins-os-auth-dialog-message =
+    { PLATFORM() ->
+        [macos] ផ្លាស់ប្តូរការកំណត់សម្រាប់ពាក្យសម្ងាត់
+       *[other] { -brand-short-name } កំពុងព្យាយាមផ្លាស់ប្តូរការកំណត់សម្រាប់ពាក្យសម្ងាត់។ សូមប្រើការចូលគណនីនៅលើឧបករណ៍របស់លោកអ្នក ដើម្បីអនុញ្ញាតឱ្យធ្វើការនេះ។
+    }
+about-logins-edit-login-os-auth-dialog-message2-win = ដើម្បីកែសម្រួលពាក្យសម្ងាត់របស់អ្នក សូមបញ្ចូលអត្តសញ្ញាណបញ្ជាប់ចូលប្រព័ន្ធវីនដូរបស់អ្នក។ វាជួយការពារសុវត្ថិភាពគណនីរបស់អ្នក។
+about-logins-edit-login-os-auth-dialog-message2-macosx = កែសម្រួលពាក្យសម្ងាត់ដែលបានរក្សាទុក
+about-logins-reveal-password-os-auth-dialog-message-win = ដើម្បីមើល​ពាក្យសម្ងាត់​របស់អ្នក សូម​បញ្ចូល​ព័ត៌មាន​ផ្ទៀងផ្ទាត់​ការចូល​ Windows របស់​អ្នក។ វា​ជួយ​ការពារ​សុវត្ថិភាព​គណនី​របស់​អ្នក។
+about-logins-reveal-password-os-auth-dialog-message-macosx = បង្ហាញពាក្យសម្ងាត់ដែលបានរក្សាទុក
+about-logins-copy-password-os-auth-dialog-message-win = ដើម្បី​ចម្លង​ពាក្យ​សម្ងាត់​របស់អ្នក សូម​បញ្ចូល​ព័ត៌មាន​ផ្ទៀងផ្ទាត់​ការចូល Windows ​របស់អ្នក។ វា​ជួយ​ការពារ​សុវត្ថិភាព​គណនី​របស់​អ្នក។
+about-logins-copy-password-os-auth-dialog-message-macosx = ចម្លងពាក្យសម្ងាត់ដែលបានរក្សាទុក
+about-logins-export-password-os-auth-dialog-message2-macosx = នាំចេញពាក្យសម្ងាត់ដែលបានរក្សាទុក
+about-logins-primary-password-notification-message = សូមបញ្ចូលពាក្យសម្ងាត់ចម្បង​របស់អ្នក ដើម្បីមើលការបញ្ជាប់ចូល ព្រមទាំង​ពាក្យសម្ងាត់ដែលបានរក្សាទុក
+master-password-reload-button =
+    .label = បញ្ជាប់ចូល
+    .accesskey = L
+confirmation-dialog-cancel-button = បោះបង់
+confirmation-dialog-dismiss-button =
+    .title = បោះបង់
+about-logins-confirm-delete-dialog-title = លុបពាក្យសម្ងាត់ចេញ?
+about-logins-confirm-delete-dialog-message = អ្នកមិនអាចត្រឡប់សកម្មភាពនេះវិញបានទេ។
+about-logins-confirm-remove-dialog-confirm-button = លុប​ចេញ
+about-logins-confirm-remove-all-dialog-confirm-button-label =
+    { $count ->
+        [1] លុបចេញ
+       *[other] លុបចេញ​ទាំងអស់
+    }
+about-logins-confirm-remove-all-dialog-checkbox-label2 =
+    { $count ->
+        [1] បាទ/ចាស ដកពាក្យសម្ងាត់ចេញ
+       *[other] បាទ/ចាស ដកពាក្យសម្ងាត់ចេញ
+    }
+about-logins-confirm-remove-all-dialog-title2 =
+    { $count ->
+        [one] លុបពាក្យសម្ងាត់ { $count } ទាំងអស់ចេញ?
+       *[other] លុបពាក្យសម្ងាត់ទាំងអស់ { $count } ចេញ?
+    }
+about-logins-confirm-remove-all-sync-dialog-title2 = លុបពាក្យសម្ងាត់ { $count } ពីឧបករណ៍ទាំងអស់ដែរឬទេ?
+about-logins-confirm-export-dialog-title2 = កំណត់ចំណាំអំពីការនាំចេញពាក្យសម្ងាត់
+about-logins-confirm-export-dialog-message2 =
+    នៅពេលអ្នកនាំចេញ ពាក្យសម្ងាត់របស់អ្នកត្រូវបានរក្សាទុកទៅក្នុងឯកសារដែលមានអក្សរដែលអាចអានបាន។
+    នៅពេលដែលអ្នកបានប្រើប្រាស់ឯកសាររួចហើយ យើងសូមណែនាំឱ្យលុបវាចោល ដើម្បីកុំឱ្យអ្នកដទៃដែលប្រើប្រាស់ឧបករណ៍នេះអាចមើលឃើញពាក្យសម្ងាត់របស់អ្នក។
+about-logins-confirm-export-dialog-confirm-button2 = បន្តនាំចេញ
+about-logins-alert-import-message = មើល​សេចក្ដី​សង្ខេប​អំពី​ការនាំចូល​លម្អិត
+confirm-discard-changes-dialog-title = បោះបង់​ការផ្លាស់ប្ដូរ​ដែល​មិន​បាន​រក្សាទុក?
+confirm-discard-changes-dialog-message = ការផ្លាស់ប្ដូរ​ដែល​មិន​បាន​រក្សាទុក​ទាំងអស់​នឹង​បាត់។
+confirm-discard-changes-dialog-confirm-button = បោះបង់
+about-logins-breach-alert-title = ការបំពានគេហទំព័រ
+breach-alert-text = ពាក្យ​សម្ងាត់​ត្រូវបាន​បែកធ្លាយ ឬ​លួច​ពី​គេហទំព័រ​នេះ ចាប់តាំង​ពី​អ្នក​បាន​ធ្វើបច្ចុប្បន្នភាព​​ព័ត៌មាន​លម្អិត​ការចូល​របស់​អ្នក​ចុងក្រោយ។ សូម​ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក ដើម្បី​ការពារ​គណនី​របស់​អ្នក។
+about-logins-breach-alert-date = ការបំពាន​នេះ​បាន​កើតឡើង​នៅថ្ងៃ  { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+about-logins-breach-alert-link = ទៅកាន់ { $hostname }
+about-logins-vulnerable-alert-title = ពាក្យសម្ងាត់ងាយរងគ្រោះ
+about-logins-vulnerable-alert-text2 = ពាក្យ​សម្ងាត់​នេះ​ត្រូវបាន​ប្រើប្រាស់​នៅលើ​គណនី​ផ្សេង​ដែល​ទំនង​ជា​មាន​ការបែកធ្លាយ​ទិន្នន័យ។ ការប្រើប្រាស់​ព័ត៌មាន​ធាតុ​បញ្ចូល​ឡើងវិញ​​អាច​បណ្ដាល​ឱ្យ​គណនី​របស់​អ្នក​មាន​ហានិភ័យ។ ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​នេះ។
+about-logins-vulnerable-alert-link = ទៅកាន់ { $hostname }
+about-logins-vulnerable-alert-learn-more-link = ស្វែងយល់​បន្ថែម
+about-logins-error-message-duplicate-login-with-link = ធាតុ​បញ្ចូល​សម្រាប់ { $loginTitle } ដែល​មាន​ឈ្មោះ​អ្នកប្រើប្រាស់​នោះ​មាន​រួចហើយ។ <a data-l10n-name="duplicate-link">ចូលទៅ​កាន់​ធាតុ​បញ្ចូល​ដែល​មាន​ស្រាប់?</a>
+about-logins-error-message-default = បញ្ហា​មួយបានកើតឡើងខណៈពេលព្យាយាមរក្សាទុកពាក្យសម្ងាត់នេះ។
+about-logins-export-file-picker-title2 = នាំចេញពាក្យសម្ងាត់ពី { -brand-short-name }
+about-logins-export-file-picker-default-filename2 = ពាក្យសម្ងាត់.csv
+about-logins-export-file-picker-export-button = នាំចេញ
+about-logins-export-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] ឯកសារ CSV
+       *[other] ឯកសារ CSV
+    }
+about-logins-import-file-picker-title2 = នាំចូលពាក្យសម្ងាត់ទៅ { -brand-short-name }
+about-logins-import-file-picker-import-button = នាំចូល
+about-logins-import-file-picker-csv-filter-title =
+    { PLATFORM() ->
+        [macos] ឯកសារ CSV
+       *[other] ឯកសារ CSV
+    }
+about-logins-import-file-picker-tsv-filter-title =
+    { PLATFORM() ->
+        [macos] ឯកសារ TSV
+       *[other] ឯកសារ TSV
+    }
+about-logins-import-dialog-title = ការនាំចូល​បាន​បញ្ចប់
+about-logins-import-dialog-items-added2 = <span>ពាក្យសម្ងាត់ថ្មីត្រូវបានបន្ថែម៖</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-modified2 = <span>បច្ចុប្បន្នភាពទិន្នន័យដែលមានស្រាប់៖</span> <span data-l10n-name="count">{ $count }</span>
+about-logins-import-dialog-items-no-change2 = <span>រកឃើញទិន្នន័យស្ទួនគ្នា៖</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(មិនទាន់បាននាំចូល)</span>
+about-logins-import-dialog-items-error =
+    { $count ->
+       *[other] <span>បញ្ហា៖</span> <span data-l10n-name="count">{ $count }</span> <span data-l10n-name="meta">(not imported)</span>
+    }
+about-logins-import-dialog-done = រួចរាល់
+about-logins-import-dialog-error-title = ការនាំចូល​មាន​បញ្ហា
+about-logins-import-dialog-error-conflicting-values-title = តម្លៃស្ទួនច្រើនសម្រាប់បញ្ជាប់ចូលតែមួយ
+about-logins-import-dialog-error-conflicting-values-description = ឧទាហរណ៍៖ អត្ថនាម ពាក្យសម្ងាត់ URL ៘ជាច្រើន សម្រាប់ការបញ្ជាប់ចូលមួយ។
+about-logins-import-dialog-error-file-format-title = បញ្ហា​ទម្រង់​ឯកសារ
+about-logins-import-dialog-error-file-format-description = ក្បាលអត្ថបទ​ជួរឈរ​មិន​ត្រឹមត្រូវ ឬ​បាត់។ សូមប្រាកដ​ថា ឯកសារ​មាន​ជួរឈរ​សម្រាប់​ឈ្មោះ​អ្នក​ប្រើប្រាស់ ពាក្យសម្ងាត់ និង URL។
+about-logins-import-dialog-error-file-permission-title = មិន​អាច​អាន​ឯកសារ​បាន​ទេ
+about-logins-import-dialog-error-file-permission-description = { -brand-short-name } មិន​មាន​សិទ្ធិ​អនុញ្ញាត​ដើម្បី​អាន​ឯសារ​បាន​ទេ។ សាកល្បង​ផ្លាស់ប្ដូរ​សិទ្ធិ​អនុញ្ញាត​ឯកសារ។
+about-logins-import-dialog-error-unable-to-read-title = មិន​អាច​ញែក​ឯកសារ​បាន​ទេ
+about-logins-import-dialog-error-unable-to-read-description = ប្រាកដ​ថា អ្នក​បាន​ជ្រើសរើសឯកសារ CSV ឬ TSV។
+about-logins-import-dialog-error-no-logins-imported = មិន​មាន​ការចូល​ត្រូវបាន​នាំចូល​ទេ
+about-logins-import-dialog-error-learn-more = ស្វែងយល់​បន្ថែម
+about-logins-import-dialog-error-try-import-again = សាកល្បង​នាំចូល​ម្ដងទៀត...
+about-logins-import-dialog-error-cancel = បោះបង់
+about-logins-import-report-title = នាំចូល​សេចក្ដិ​សង្ខេប
+about-logins-import-report-description2 = ពាក្យសម្ងាត់ត្រូវបាននាំចូលទៅ { -brand-short-name }។
+about-logins-import-report-row-index = ជួរដេក { $number }
+about-logins-import-report-row-description-no-change2 = ស្ទួន៖ ដូចគ្នាទាំងស្រុងទៅនឹងទិន្នន័យដែល​មាន​
+about-logins-import-report-row-description-modified2 = ធាតុដែលមានស្រាប់ត្រូវបានធ្វើបច្ចុប្បន្នភាព
+about-logins-import-report-row-description-added2 = បានបន្ថែមពាក្យសម្ងាត់ថ្មី
+about-logins-import-report-row-description-error = បញ្ហា៖ មិន​បាន​បញ្ចូល​កន្លែង​ណាមួយ
+about-logins-import-report-row-description-error-multiple-values = បញ្ហា៖ តម្លៃ​ច្រើន​សម្រាប់ { $field }
+about-logins-import-report-row-description-error-missing-field = បញ្ហា៖ បាត់ { $field }
+about-logins-import-report-added2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ពាក្យសម្ងាត់ថ្មីត្រូវបានបន្ថែម</div>
+about-logins-import-report-modified2 =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ធាតុដែលមានស្រាប់បានអាប់ដេត</div>
+    }
+about-logins-import-report-no-change2 = <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">ទិន្នន័យស្ទួន</div> <div data-l10n-name="not-imported">(មិនបាននាំចូលទេ)</div>
+about-logins-import-report-error =
+    { $count ->
+       *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">បញ្ហា</div> <div data-l10n-name="not-imported">(not imported)</div>
+    }
+about-logins-import-report-page-title = នាំចូល​របាយការណ៍​សង្ខេប

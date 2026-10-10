@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Yikhulule kwiMenyu yokuPhuphuma
+    .accesskey = Y
+customize-menu-add-to-toolbar =
+    .label = Yongeza kwiThulbha
+    .accesskey = Y
+customize-menu-add-to-overflowmenu =
+    .label = Yongeza kwiMenyu yokuPhuphuma
+    .accesskey = k
+panic-button-thankyou-msg1 = IMbali yakho yakutsha nje isusiwe.
+panic-button-thankyou-msg2 = Ukubhrawuza okukhuselekileyo!
+panic-button-thankyou-button =
+    .label = Siyabulela!

@@ -1,0 +1,14 @@
+default-desktop-shortcut-name = { -brand-short-name }
+edit-profile-page-theme-header-2 =
+    .label = అలంకారం
+edit-profile-page-delete-button =
+    .label = తొలగించు
+avatar-selector-cancel-button =
+    .label = రద్దుచేయి
+avatar-selector-save-button =
+    .label = భద్రపరుచు
+delete-profile-bookmarks = ఇష్టాంశాలు
+delete-profile-cancel = రద్దుచేయి
+delete-profile-confirm = తొలగించు
+profiles-blue-theme = నీలం
+profiles-appmenu-callout-tour-primary-button = ఎలానో నాకు చూపించు

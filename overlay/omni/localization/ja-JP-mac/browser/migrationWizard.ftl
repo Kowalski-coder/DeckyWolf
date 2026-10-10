@@ -1,0 +1,131 @@
+migration-wizard-selection-header = ブラウザーデータの読み込み
+migration-wizard-selection-list = 読み込むデータを選択してください。
+migration-wizard-selection-option-without-profile = { $sourceBrowser }
+migration-wizard-selection-option-with-profile = { $sourceBrowser } — { $profileName }
+migration-wizard-migrator-display-name-brave = Brave
+migration-wizard-migrator-display-name-canary = Chrome Canary
+migration-wizard-migrator-display-name-chrome = Chrome
+migration-wizard-migrator-display-name-chrome-beta = Chrome Beta
+migration-wizard-migrator-display-name-chrome-dev = Chrome Dev
+migration-wizard-migrator-display-name-chromium = Chromium
+migration-wizard-migrator-display-name-chromium-360se = 360 Secure Browser
+migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
+migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
+migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge Legacy
+migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = パスワード (CSV ファイルから)
+migration-wizard-migrator-display-name-file-bookmarks = ブックマーク (HTML ファイルから)
+migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
+migration-wizard-migrator-display-name-opera = Opera
+migration-wizard-migrator-display-name-opera-gx = Opera GX
+migration-wizard-migrator-display-name-safari = Safari
+migration-wizard-migrator-display-name-vivaldi = Vivaldi
+migration-source-name-ie = Internet Explorer
+migration-source-name-edge = Microsoft Edge
+migration-source-name-chrome = Google Chrome
+migration-imported-safari-reading-list = リーディングリスト (Safari から)
+migration-imported-edge-reading-list = リーディングリスト (Edge から)
+migration-no-permissions-message = { -brand-short-name } には、この端末にインストールされた他のブラウザーのプロファイルへのアクセス権がありません。
+migration-no-permissions-instructions = 別のブラウザーからのデータの読み込みを続けるには、{ -brand-short-name } にそのブラウザーのプロファイルフォルダーへのアクセス権を与えてください。
+migration-no-permissions-instructions-step1 = “続行” を選択します
+migration-no-permissions-instructions-step2 = ファイル選択画面で <code>{ $permissionsPath }</code> を開き、“選択” ボタンを押します。
+migration-all-available-data-label = 利用可能なすべてのデータを読み込む
+migration-no-selected-data-label = 読み込むデータが選択されていません
+migration-selected-data-label = 選択したデータを読み込む
+migration-select-all-option-label = すべてを選択
+migration-bookmarks-option-label = ブックマーク
+migration-favorites-option-label = お気に入り
+migration-passwords-option-label = 保存されているパスワード
+migration-history-option-label = 閲覧履歴
+migration-extensions-option-label = 拡張機能
+migration-form-autofill-option-label = フォームの自動入力データ
+migration-payment-methods-option-label = 支払い方法
+migration-cookies-option-label = Cookie
+migration-session-option-label = ウインドウとタブ
+migration-otherdata-option-label = その他のデータ
+migration-passwords-from-file-progress-header = パスワードファイルの読み込み
+migration-passwords-from-file-success-header = パスワードの読み込みが完了しました
+migration-passwords-from-file = パスワードファイルを確認しています
+migration-passwords-new = 新規パスワード
+migration-passwords-updated = 既存のパスワード
+migration-passwords-from-file-no-valid-data = このファイルには正しいパスワードデータが含まれていません。別のファイルを選んでください。
+migration-passwords-from-file-picker-title = パスワードファイルの読み込み
+migration-passwords-from-file-csv-filter-title = CSV ファイル
+migration-passwords-from-file-tsv-filter-title = TSV ファイル
+migration-wizard-progress-success-new-passwords =
+    { $newEntries ->
+        [one] { $newEntries } 件追加しました
+       *[other] { $newEntries } 件追加しました
+    }
+migration-wizard-progress-success-updated-passwords =
+    { $updatedEntries ->
+        [one] { $updatedEntries } 件更新しました
+       *[other] { $updatedEntries } 件更新しました
+    }
+migration-bookmarks-from-file-picker-title = ブックマークファイルの読み込み
+migration-bookmarks-from-file-progress-header = ブックマークを読み込んでいます
+migration-bookmarks-from-file = ブックマーク
+migration-bookmarks-from-file-success-header = ブックマークの読み込みが完了しました
+migration-bookmarks-from-file-no-valid-data = このファイルにはブックマークデータが含まれていません。別のファイルを選んでください。
+migration-bookmarks-from-file-html-filter-title =
+    { PLATFORM() ->
+        [macos] HTML ドキュメント
+       *[other] HTML ファイル
+    }
+migration-bookmarks-from-file-json-filter-title = JSON ファイル
+migration-wizard-progress-success-new-bookmarks = ブックマーク { $newEntries } 件
+migration-import-button-label = 読み込む
+migration-choose-to-import-from-file-button-label = ファイルから読み込む
+migration-import-from-file-button-label = ファイルを選択
+migration-cancel-button-label = キャンセル
+migration-done-button-label = 完了
+migration-continue-button-label = 続行
+migration-wizard-import-browser-no-browsers = { -brand-short-name } はブックマークや履歴、パスワードデータを含むアプリケーションを見つけられませんでした。
+migration-wizard-import-browser-no-resources = エラーが発生しました。{ -brand-short-name } はブラウザープロファイルから読み込み可能なデータを見つけられませんでした。
+migration-list-bookmark-label = ブックマーク
+migration-list-favorites-label = お気に入り
+migration-list-password-label = パスワード
+migration-list-history-label = 履歴
+migration-list-extensions-label = 拡張機能
+migration-list-autofill-label = 自動入力データ
+migration-list-payment-methods-label = 支払い方法
+migration-wizard-progress-header = データの読み込み
+migration-wizard-progress-done-header = すべてのデータが読み込まれました
+migration-wizard-progress-done-with-warnings-header = 一部のデータが読み込まれました
+migration-wizard-progress-icon-in-progress =
+    .aria-label = 読み込み中...
+migration-wizard-progress-icon-completed =
+    .aria-label = 完了
+migration-safari-password-import-header = Safari からパスワードを読み込む
+migration-safari-password-import-post-sequoia-step1 = Mac で <a data-l10n-name="macos-passwords-app">パスワードアプリ</a> を開きます
+migration-safari-password-import-post-sequoia-step2 = 画面上部のメニューバーから “ファイル” > “すべてのパスワードをファイルに書き出す” を選択します
+migration-safari-password-import-post-sequoia-step3 = ファイルを保存します
+migration-safari-password-import-post-sequoia-step4 = 保存したファイルを選択してください
+migration-safari-password-import-steps-header = Safari からパスワードを読み込むには:
+migration-safari-password-import-step1 = Safari で “Safari” メニューを開いて環境設定を選択し、パスワードをクリックします
+migration-safari-password-import-step2 = <img data-l10n-name="safari-icon-3dots"/> ボタンを選択し、“パスワードを書き出す” を選択します
+migration-safari-password-import-step3 = パスワードファイルを保存します
+migration-safari-password-import-step4 = 下の “ファイルを選択” をクリックし、保存したパスワードファイルを選んでください。
+migration-chrome-windows-password-import-header = Chrome からパスワードを読み込むには
+migration-chrome-windows-password-import-steps-header = Chrome での操作:
+migration-chrome-windows-password-import-step1 = メインメニュー <img data-l10n-name="chrome-icon-3dots"/> を開き、“パスワードと自動入力” > “Google パスワード マネージャー” に移動してください。
+migration-chrome-windows-password-import-step2 = メニューから “設定” を選択してください。
+migration-chrome-windows-password-import-step3 = “ファイルをダウンロード” を選択して、端末に保存してください。
+migration-chrome-windows-password-import-step4 = この画面に戻り、“ファイルを選択” から読み込みを完了してください。
+migration-manual-password-import-skip-button = スキップ
+migration-manual-password-import-cancel-button = キャンセル
+migration-manual-password-import-select-button = ファイルを選択
+migration-wizard-progress-success-bookmarks = ブックマーク { $quantity } 件
+migration-wizard-progress-success-favorites = お気に入り { $quantity } 件
+migration-wizard-progress-success-extensions = 拡張機能 { $quantity } 個
+migration-wizard-progress-partial-success-extensions = 拡張機能 { $quantity } 個中 { $matched } 個
+migration-wizard-progress-extensions-support-link = { -brand-product-name } に適合する拡張機能についての詳細
+migration-wizard-progress-no-matched-extensions = 適合する拡張機能がありません
+migration-wizard-progress-extensions-addons-link = { -brand-short-name } 用の拡張機能を探す
+migration-wizard-progress-success-passwords = パスワード { $quantity } 件
+migration-wizard-progress-success-history = 最近 { $maxAgeInDays } 日分
+migration-wizard-progress-success-formdata = フォームの入力履歴
+migration-wizard-progress-success-payment-methods = 支払い方法 { $quantity } 件
+migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴を読み込むには:
+migration-wizard-safari-instructions-continue = “続ける” を選択します
+migration-wizard-safari-instructions-folder = リストから Safari フォルダーを選択し、“開く” をクリックします

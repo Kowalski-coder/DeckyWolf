@@ -1,0 +1,14 @@
+default-bookmarks-title = Бетбелгілер
+default-bookmarks-heading = Бетбелгілер
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Көмек алу
+default-bookmarks-firefox-customize = Firefox-ты баптау
+default-bookmarks-firefox-community = Үлес қосу
+default-bookmarks-firefox-about = Біз туралы
+default-bookmarks-nightly-heading = Firefox Nightly ресурстары
+default-bookmarks-nightly-blog = Firefox Nightly блогы
+default-bookmarks-bugzilla = Mozilla ақаулықтарды бақылау жүйесі
+default-bookmarks-mdn = Mozilla әзірлеушілер желісі
+default-bookmarks-nightly-tester-tools = Nightly сынаушы саймандары
+default-bookmarks-crashes = Браузеріңіздің барлық құлап түсулері
+default-bookmarks-planet = Planet Mozilla

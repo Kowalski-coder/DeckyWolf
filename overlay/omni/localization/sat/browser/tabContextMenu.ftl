@@ -1,0 +1,96 @@
+reload-tab =
+    .label = ᱴᱮᱵᱽ ᱞᱟᱫᱮ ᱫᱚᱦᱲᱟ
+    .accesskey = ᱫ
+select-all-tabs =
+    .label = ᱡᱷᱚᱛᱚ ᱴᱮᱵᱽ ᱠᱚ ᱵᱟᱪᱷᱟᱣ ᱢᱮ
+    .accesskey = ᱵ
+tab-context-play-tab =
+    .label = ᱴᱮᱵᱽ ᱮᱱᱮᱡ ᱪᱷᱚᱭ ᱢᱮ
+    .accesskey = ᱮ
+tab-context-play-tabs =
+    .label = ᱴᱮᱵᱽ ᱠᱚ ᱮᱱᱮᱡ ᱪᱷᱚᱭ ᱢᱮ
+    .accesskey = ᱠ
+duplicate-tab =
+    .label = ᱴᱮᱵᱽ ᱰᱩᱯᱞᱤᱠᱮᱴ ᱢᱮ
+    .accesskey = ᱰ
+duplicate-tabs =
+    .label = ᱴᱮᱵᱽ ᱠᱚ ᱰᱩᱯᱞᱤᱠᱮᱴ ᱢᱮ
+    .accesskey = ᱰ
+close-tabs-to-the-start =
+    .label = ᱞᱮᱝᱜᱟ ᱥᱮᱫ ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    .accesskey = ᱞ
+close-tabs-to-the-end =
+    .label = ᱡᱚᱡᱚᱢ ᱥᱮᱫ ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    .accesskey = ᱡ
+close-other-tabs =
+    .label = ᱵᱷᱮᱜᱟᱨ ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    .accesskey = ᱵ
+reload-tabs =
+    .label = ᱴᱮᱵᱽ ᱠᱚ ᱫᱚᱦᱲᱟ ᱞᱟᱫᱮ ᱢᱮ
+    .accesskey = ᱫ
+pin-tab =
+    .label = ᱴᱟᱵᱽ ᱞᱟᱴᱷᱟᱭ ᱢᱮ
+    .accesskey = ᱞ
+unpin-tab =
+    .label = ᱴᱮᱵᱽ ᱚᱪᱚᱜᱽ ᱢᱮ
+    .accesskey = ᱚ
+pin-selected-tabs =
+    .label = ᱴᱮᱵᱽᱠᱚ ᱞᱟᱴᱷᱟᱭ ᱢᱮ
+    .accesskey = ᱞ
+unpin-selected-tabs =
+    .label = ᱴᱮᱵᱽ ᱠᱚ ᱚᱪᱚᱜᱽ ᱦᱚᱪᱚᱭ ᱢᱮ
+    .accesskey = ᱪ
+bookmark-selected-tabs =
+    .label = ᱴᱮᱵᱽ ᱠᱚ ᱵᱩᱠᱢᱟᱨᱠ ᱢᱮ…
+    .accesskey = ᱵ
+tab-context-bookmark-tab =
+    .label = ᱴᱮᱵᱽ ᱵᱩᱠᱢᱟᱨᱠ ᱢᱮ…
+    .accesskey = ᱵ
+tab-context-open-in-new-container-tab =
+    .label = ᱱᱟᱶᱟ ᱠᱚᱱᱴᱮᱱᱚᱨ ᱴᱮᱵᱽ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ
+    .accesskey = ᱠ
+move-to-start =
+    .label = ᱮᱦᱚᱵ ᱥᱮᱫ ᱩᱪᱟᱹᱲᱚᱜ ᱢᱮ
+    .accesskey = ᱮ
+move-to-end =
+    .label = ᱢᱩᱪᱟᱹᱫ ᱥᱮᱫ ᱩᱪᱟᱹᱲᱚᱜ ᱢᱮ
+    .accesskey = ᱢ
+move-to-new-window =
+    .label = ᱱᱟᱶᱟ ᱡᱷᱚᱨᱠᱟ ᱨᱮ ᱩᱪᱟᱹᱲᱚᱜ ᱢᱮ
+    .accesskey = ᱩ
+tab-context-close-multiple-tabs =
+    .label = ᱟᱭᱢᱟ ᱴᱮᱵᱽᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    .accesskey = ᱟ
+tab-context-close-duplicate-tabs =
+    .label = ᱰᱩᱯᱞᱤᱠᱮᱴ ᱴᱮᱵᱽᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+    .accesskey = ᱰ
+tab-context-share-url =
+    .label = ᱦᱟᱹᱴᱤᱧ ᱢᱮ
+    .accesskey = ᱦ
+tab-context-reopen-closed-tabs =
+    .label =
+        { $tabCount ->
+            [1] ᱵᱚᱸᱫ ᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱫᱩᱦᱲᱟᱹ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ
+            [one] ᱵᱚᱸᱫ ᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱫᱩᱦᱲᱟᱹ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ
+            [two] ᱵᱚᱸᱫ ᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱤᱱ ᱫᱩᱦᱲᱟᱹ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ
+           *[other] ᱵᱚᱸᱫ ᱟᱠᱟᱱ ᱴᱮᱵᱽ ᱠᱚ ᱫᱩᱦᱲᱟᱹ ᱠᱷᱩᱞᱟᱹᱭ ᱢᱮ
+        }
+    .accesskey = ᱠ
+tab-context-close-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+            [one] ᱴᱮᱵᱽ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+            [two] ᱴᱮᱵᱽ ᱠᱤᱱ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+           *[other] { $tabCount } ᱴᱮᱵᱽ ᱠᱚ ᱵᱚᱸᱫᱚᱭ ᱢᱮ
+        }
+    .accesskey = ᱵ
+tab-context-move-tabs =
+    .label =
+        { $tabCount ->
+            [1] ᱴᱮᱵᱽ ᱩᱪᱟᱹᱲ ᱢᱮ
+            [one] ᱴᱮᱵᱽ ᱩᱪᱟᱹᱲ ᱢᱮ
+            [two] ᱴᱮᱵᱽ ᱠᱤᱱ ᱩᱪᱟᱹᱲ ᱢᱮ
+           *[other] ᱴᱮᱵᱽ ᱠᱚ ᱩᱪᱟᱹᱲ ᱢᱮ
+        }
+    .accesskey = ᱪ

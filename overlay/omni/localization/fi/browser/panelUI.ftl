@@ -1,0 +1,13 @@
+customize-menu-unpin-from-overflowmenu =
+    .label = Poista ylivuotovalikosta
+    .accesskey = o
+customize-menu-add-to-toolbar =
+    .label = Lisää työkalupalkkiin
+    .accesskey = L
+customize-menu-add-to-overflowmenu =
+    .label = Lisää ylivuotovalikkoon
+    .accesskey = v
+panic-button-thankyou-msg1 = Tapahtumahistoria on poistettu.
+panic-button-thankyou-msg2 = Turvallista selaamista!
+panic-button-thankyou-button =
+    .label = Kiitos!

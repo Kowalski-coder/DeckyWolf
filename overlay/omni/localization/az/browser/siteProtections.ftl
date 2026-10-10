@@ -1,0 +1,13 @@
+content-blocking-trackers-view-empty = Bu saytda heç biri tapılmadı
+content-blocking-cookies-view-first-party-label = Bu Saytdan
+content-blocking-cookies-view-third-party-label = Üçüncü Tərəf Çərəzlər
+content-blocking-cookies-view-allowed-label =
+    .value = İcazə verilib
+content-blocking-cookies-view-blocked-label =
+    .value = Əngəllənib
+tracking-protection-icon-active-container =
+    .aria-label = { tracking-protection-icon-active }
+tracking-protection-icon-disabled-container =
+    .aria-label = { tracking-protection-icon-disabled }
+tracking-protection-icon-no-trackers-detected-container =
+    .aria-label = { tracking-protection-icon-no-trackers-detected }

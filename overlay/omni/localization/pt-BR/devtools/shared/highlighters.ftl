@@ -1,0 +1,13 @@
+grid-row-column-positions = Linha { $row } / Coluna { $column }
+gridtype-container = Grid Container
+gridtype-item = Grid Item
+gridtype-dual = Grid Container/Item
+flextype-container = Flex Container
+flextype-item = Flex Item
+flextype-dual = Flex Container/Item
+remote-node-picker-notice = Seletor de nodes do DevTools ativado. { $action }
+remote-node-picker-notice-action-desktop = Clique em um elemento para selecionar no Inspetor
+remote-node-picker-notice-action-touch = Toque em um elemento para selecionar no Inspetor
+remote-node-picker-notice-hide-button = Ocultar
+simple-highlighters-message = Quando prefers-reduced-motion está ativado, um destaque mais simples pode ser ativado no painel de configurações, para evitar cores piscantes.
+simple-highlighters-settings-button = Abrir configurações

@@ -1,0 +1,14 @@
+default-bookmarks-title = Könyvjelzők
+default-bookmarks-heading = Könyvjelzők
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Segítség kérése
+default-bookmarks-firefox-customize = Firefox testreszabása
+default-bookmarks-firefox-community = Csatlakozzon
+default-bookmarks-firefox-about = Rólunk
+default-bookmarks-nightly-heading = Firefox Nightly erőforrások
+default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-bugzilla = Mozilla hibakövető
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly tesztelői eszközök
+default-bookmarks-crashes = Az összes hibajelentése
+default-bookmarks-planet = Planet Mozilla

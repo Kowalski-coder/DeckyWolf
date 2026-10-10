@@ -1,0 +1,15 @@
+panic-button-open-new-window = Ldi asfaylu ilem amaynut
+panic-button-undo-warning = Ulac tuɣalin ɣer deffir.
+panic-button-forget-button =
+    .label = Sfeḍ!
+panic-main-timeframe-desc = Sfeḍ:
+panic-button-5min =
+    .label = Semmus n tesdatin
+panic-button-2hr =
+    .label = Sin yisragen
+panic-button-day =
+    .label = 24 n yisragen
+panic-button-action-desc = Ma tkemmleḍ ad:
+panic-button-delete-cookies = Sfeḍ <strong>inagan n tuqqna</strong> n melmi kan
+panic-button-delete-history = Sfeḍ <strong> azray</strong> n melmi kan
+panic-button-delete-tabs-and-windows = Mdel akk<strong>iccaren</strong> d isfuyla<strong>imeṛṛa</strong>

@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = Hibaelhárítási módban indítja el a { -brand-short-name }ot?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Megnyitás
+refresh-profile =
+    .label = { -brand-short-name } felfrissítése
+troubleshoot-mode-description = A problémák diagnosztizálásához használja a { -brand-short-name } ezen speciális módját. Kiegészítői és testreszabásai ideiglenesen letiltásra kerülnek.
+skip-troubleshoot-refresh-profile = Ki is hagyhatja a hibaelhárítást, és fel is frissítheti a { -brand-short-name }ot.
+auto-safe-mode-description = A { -brand-short-name } váratlanul bezáródott indítás közben. Ezt kiegészítők vagy egyéb problémák okozhatják. Megpróbálhatja megoldani a problémát hibaelhárítást végezve csökkentett módban.

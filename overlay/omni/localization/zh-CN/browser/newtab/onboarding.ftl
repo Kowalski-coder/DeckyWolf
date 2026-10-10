@@ -1,0 +1,333 @@
+onboarding-welcome-header = 欢迎使用 { -brand-short-name }
+onboarding-start-browsing-button-label = 开始上网冲浪
+onboarding-not-now-button-label = 暂时不要
+mr1-onboarding-get-started-primary-button-label = 开始使用
+return-to-amo-subtitle = 恭喜，您已经安装好 { -brand-short-name }
+return-to-amo-addon-title = 现在来安装 <img data-l10n-name="icon"/><b>{ $addon-name }</b> 吧。
+return-to-amo-add-extension-label = 添加扩展
+return-to-amo-add-theme-label = 安装主题
+return-to-amo-theme-install-complete-label = 主题已安装
+return-to-amo-extension-install-complete-label = 扩展已安装
+mr1-return-to-amo-subtitle = 欢迎使用 { -brand-short-name }
+mr1-return-to-amo-addon-title = 这款快速又隐私的浏览器，已跃然于您的桌面。选择为 { -brand-short-name } 添加“<b>{ $addon-name }</b>”，解锁更多功能。
+mr1-return-to-amo-add-extension-label = 添加 { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = 进度：第 { $current } 步，共 { $total } 步
+mr1-onboarding-reduce-motion-button-label = 关闭动画
+mr1-onboarding-sign-in-button-label = 登录
+mr1-onboarding-import-primary-button-label-attribution = 从 { $previous } 导入
+mr1-onboarding-theme-header = 我有我的范儿
+mr1-onboarding-theme-subtitle = 换上主题，让 { -brand-short-name } 有您的个性。
+mr1-onboarding-theme-secondary-button-label = 暂时不要
+mr1-onboarding-theme-label-system = 系统主题
+mr1-onboarding-theme-label-light = 明亮
+mr1-onboarding-theme-label-dark = 深邃
+mr1-onboarding-theme-label-alpenglow = 染山霞
+onboarding-theme-primary-button-label = 完成
+onboarding-animation-pause-button =
+    .aria-label = 暂停动画
+onboarding-animation-play-button =
+    .aria-label = 播放动画
+mr1-onboarding-theme-tooltip-system =
+    .title = 跟随系统主题配色显示按钮、菜单和窗口
+mr1-onboarding-theme-description-system =
+    .aria-description = 跟随系统主题配色显示按钮、菜单和窗口
+mr1-onboarding-theme-tooltip-light =
+    .title = 为按钮、菜单和窗口使用明亮配色主题。
+mr1-onboarding-theme-description-light =
+    .aria-description = 为按钮、菜单和窗口使用明亮配色主题。
+mr1-onboarding-theme-tooltip-dark =
+    .title = 为按钮、菜单和窗口使用深邃配色主题。
+mr1-onboarding-theme-description-dark =
+    .aria-description = 为按钮、菜单和窗口使用深邃配色主题。
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title = 为按钮、菜单和窗口使用活力多彩配色主题。
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description = 为按钮、菜单和窗口使用活力多彩配色主题。
+mr2-onboarding-default-theme-label = 探索默认主题。
+mr2-onboarding-thank-you-header = 感谢您选用
+mr2-onboarding-thank-you-text = { -brand-short-name } 是一款由非营利组织支持的独立浏览器。我们共同努力，让网络环境更安全、更健康、也更有隐私。
+mr2-onboarding-start-browsing-button-label = 开始上网冲浪
+onboarding-live-language-header = 选择您的语言
+mr2022-onboarding-live-language-text = { -brand-short-name } 也懂您的语言
+mr2022-language-mismatch-subtitle = 幸得社区相助，{ -brand-short-name } 已被翻译成 90 余种语言。您的操作系统似乎正在使用“{ $systemLanguage }”，而 { -brand-short-name } 正在使用“{ $appLanguage }”。
+onboarding-live-language-button-label-downloading = 正在下载{ $negotiatedLanguage }语言包…
+onboarding-live-language-waiting-button = 正在获取可用语言…
+onboarding-live-language-installing = 正在安装{ $negotiatedLanguage }语言包…
+mr2022-onboarding-live-language-switch-to = 切换为“{ $negotiatedLanguage }”
+mr2022-onboarding-live-language-continue-in = 继续使用“{ $appLanguage }”
+onboarding-live-language-secondary-cancel-download = 取消
+onboarding-live-language-skip-button-label = 跳过
+fx100-thank-you-hero-text =
+    百版之约
+    万分<span data-l10n-name="zap">感谢</span>
+fx100-thank-you-subtitle = 第 100 个版本如约而至。感谢您支持我们建设更好、更健康的互联网。
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] 在程序坞中保留 { -brand-short-name }
+       *[other] 将 { -brand-short-name } 固定到任务栏
+    }
+fx100-upgrade-thanks-header = 百版之约，万分感谢
+fx100-upgrade-thank-you-body = { -brand-short-name } 的第 100 个版本如约而至。感谢<em>您</em> 支持我们建设更好、更健康的互联网。
+fx100-upgrade-thanks-keep-body = 这是我们的第 100 个版本！一路相伴，感谢有您。{ -brand-short-name } 诚挚邀您共赴下个百版之约。
+mr2022-onboarding-secondary-skip-button-label = 跳过此步
+mr2022-onboarding-easy-setup-primary-button-label = 保存并继续
+mr2022-onboarding-easy-setup-set-default-checkbox-label = 将 { -brand-short-name } 设为默认浏览器
+mr2022-onboarding-easy-setup-import-checkbox-label = 从先前所用浏览器导入
+mr2022-onboarding-welcome-pin-header = 探索精彩互联网
+mr2022-onboarding-welcome-pin-subtitle = 随时随地一键进入 { -brand-short-name }。您的每次点击都代表着选择更加开放且独立的互联网。
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] 在程序坞中保留 { -brand-short-name }
+       *[other] 将 { -brand-short-name } 固定到任务栏
+    }
+mr2022-onboarding-pin-primary-button-label-msix = 将 { -brand-short-name } 固定到任务栏和“开始”菜单
+mr2022-onboarding-existing-pin-header = 感谢您对 { -brand-product-name } 的青睐
+mr2022-onboarding-existing-pin-subtitle = 随时随地一键打开更健康的互联网。我们的更新满载新鲜内容，希望您会喜欢。
+mr2022-onboarding-existing-set-default-only-subtitle = 使用能在浏览网页时捍卫隐私的浏览器。我们的更新满载您喜欢的内容。
+mr2022-onboarding-existing-pin-checkbox-label = 同时固定 { -brand-short-name } 隐私浏览模式
+mr2022-onboarding-set-default-title = 要将 { -brand-short-name } 设为您的默认浏览器吗？
+mr2022-onboarding-set-default-primary-button-label = 将 { -brand-short-name } 设为默认浏览器
+mr2022-onboarding-set-default-subtitle = 选用由非营利组织支持的浏览器。遨游网络，有我们捍卫隐私。
+mr2022-onboarding-get-started-primary-subtitle = 我们的最新版本贴合您的需求，满载您喜欢的内容，让您轻松浏览互联网。
+mr2022-onboarding-get-started-primary-button-label = 几秒钟就能完成设置
+mr2022-onboarding-import-primary-button-label-no-attribution = 从先前所用浏览器导入
+mr2022-onboarding-mobile-download-cta-text = 扫码下载移动版 { -brand-product-name } 或<a data-l10n-name="download-label">向自己发送下载链接</a>。
+mr2022-onboarding-no-mobile-download-cta-text = 扫码下载移动版 { -brand-product-name }。
+mr2022-upgrade-onboarding-pin-private-window-header = 一键进入隐私浏览模式
+mr2022-upgrade-onboarding-pin-private-window-subtitle = 不保存任何 Cookie 和历史记录，隐私浏览不留痕迹。
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] 在程序坞中保留 { -brand-short-name } 隐私浏览窗口
+       *[other] 将 { -brand-short-name } 隐私浏览窗口固定到任务栏
+    }
+mr2022-onboarding-privacy-segmentation-title = 尊重您的隐私是我们不变的承诺
+mr2022-onboarding-privacy-segmentation-subtitle = 从搜索建议到更智能的搜索功能，我们一直致力于构建更好用、更个性化的 { -brand-product-name }。
+mr2022-onboarding-privacy-segmentation-text-cta = 当我们推出需使用您数据以提供增强浏览体验的新功能时，您希望其如何呈现？
+mr2022-onboarding-privacy-segmentation-button-primary-label = 使用 { -brand-product-name } 推荐
+mr2022-onboarding-privacy-segmentation-button-secondary-label = 显示详细信息
+mr2022-onboarding-gratitude-title = 您正在帮助我们建设更好的互联网
+mr2022-onboarding-gratitude-subtitle = 感谢使用由 Mozilla 基金会支持的 { -brand-short-name }。您的支持激励着我们为更开放、更美好且人人可用的互联网继续奋斗。
+mr2022-onboarding-gratitude-primary-button-label = 了解新版变化
+mr2022-onboarding-gratitude-secondary-button-label = 开始浏览
+onboarding-infrequent-import-title = 请随意 🍵
+onboarding-infrequent-import-subtitle = 无论您是临时还是要长期使用，都可以选择导入书签、密码等数据。
+onboarding-infrequent-import-primary-button = 导入 { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = 一个人在笔记本电脑上工作，周围有星星和鲜花围绕
+mr2022-onboarding-default-image-alt =
+    .aria-label = 一人拥抱着 { -brand-product-name } 徽标
+mr2022-onboarding-import-image-alt =
+    .aria-label = 一个人踏着滑板，手捧装满软件图标的纸箱
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = 青蛙在睡莲间跳来跳去，中间展示着一个下载移动版 { -brand-product-name } 的二维码
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = 魔杖让 { -brand-product-name } 隐私浏览标志从帽子里冒出来
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = 浅肤色和深肤色的两只手击掌
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = 透过窗户看日落，窗台上有一只狐狸和一株室内植物
+onboarding-device-migration-image-alt =
+    .aria-label = 一台连接着鼠标的笔记本电脑，屏幕上有一只狐狸正在挥手。
+onboarding-device-migration-title = 欢迎回来！
+onboarding-device-migration-subtitle2 = 登录账户即可将您的书签、密码、历史记录同步到新设备。
+onboarding-device-migration-primary-button-label = 登录
+amo-picker-title = 定制您的 { -brand-short-name }
+amo-picker-subtitle = 扩展就像浏览器中的”小程序“，可帮助您保管密码、下载视频、查找优惠信息、拦截恼人广告、改变浏览器外观等等。
+amo-picker-install-button-label = 添加到 { -brand-short-name }
+amo-picker-install-complete-label = 已安装
+amo-picker-collection-link = 探索更多附加组件
+onboarding-easy-setup-security-and-privacy-title = 我们乐于为您护航
+onboarding-easy-setup-security-and-privacy-subtitle = 这款由非营利组织支持的浏览器会自动阻止大公司在网上偷偷跟踪您。
+onboarding-mobile-download-security-and-privacy-title = 在设备间流转，数据照样密不透风
+onboarding-mobile-download-security-and-privacy-subtitle = { -brand-short-name } 可将密码、书签等数据加密同步，您还可在其他设备上接收标签页。
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } 为您护航
+onboarding-gratitude-security-and-privacy-subtitle = 感谢使用由 Mozilla 基金会支持的 { -brand-short-name }。您的支持激励着我们为更开放、更美好且人人可用的互联网继续奋斗。
+onboarding-sign-up-title = 跨设备同步数据
+onboarding-sign-up-description = 注册账户，将您的密码、书签等所有重要信息安全存储，并可在登录账户后的各设备上随手取用。
+onboarding-sign-up-button = 注册或登录
+onboarding-sign-up-secondary-button = 开始浏览
+onboarding-new-user-time-based-survey-title = 您使用 { -brand-short-name } 多长时间了？
+onboarding-new-user-familiarity-based-survey-title = 您在多大程度上熟悉 { -brand-short-name }？
+onboarding-new-user-survey-subtitle = 您的反馈有助于改善 { -brand-short-name }。
+onboarding-new-user-survey-next-button-label = 下一步
+onboarding-new-user-survey-legal-link-label = 选择“{ onboarding-new-user-survey-next-button-label }”即代表您同意 { -brand-product-name } 的<a data-l10n-name="privacy_notice">隐私声明</a>
+onboarding-new-user-survey-time-based-option-1 = 我是新用户
+onboarding-new-user-survey-time-based-option-2 = 不到一个月
+onboarding-new-user-survey-time-based-option-3 = 超过一个月，经常使用
+onboarding-new-user-survey-time-based-option-4 = 超过一个月，偶尔使用
+onboarding-new-user-survey-familiarity-based-option-1 = 我是新用户
+onboarding-new-user-survey-familiarity-based-option-2 = 我已有一些了解
+onboarding-new-user-survey-familiarity-based-option-3 = 我已非常熟悉
+onboarding-new-user-survey-familiarity-based-option-4 = 我已有一段时间没使用了
+onboarding-new-tabs-title = 您希望将标签页放在哪里
+onboarding-new-tabs-subtitle = 可随时在侧栏设置中切换。
+onboarding-many-tabs-title = 你的标签，由你而定
+onboarding-many-tabs-subtitle = 标签页开得多？试试置于侧边，更加明晰直观。也可保持置于顶部，之后随时可以切换。
+onboarding-focused-tabs-title = 选择标签页布局
+onboarding-focused-tabs-subtitle = 将标签页置于侧边，更加明晰直观，助您保持专注。也可保持置于顶部，之后随时可以切换。
+onboarding-new-vertical-tabs-label = 侧边
+onboarding-new-horizontal-tabs-label = 顶部
+onboarding-existing-tabs-title = 垂直标签页在这里
+onboarding-existing-tabs-title2 = 垂直标签页新亮相
+onboarding-existing-tabs-subtitle = 试试位于侧边的标签页。您可以随时在侧栏设置中切换位置。
+onboarding-existing-vertical-tabs-label = 试试垂直标签页
+onboarding-flair-text = 新功能！
+onboarding-existing-horizontal-tabs-label = 保留水平标签页
+onboarding-vertical-tabs-tooltip =
+    .title = 浏览器窗口的标签页放在 { -brand-shorter-name } 侧栏中，沿屏幕侧边排列。
+onboarding-vertical-tabs-description =
+    .aria-description = 一个浏览器窗口，标签页放在 { -brand-shorter-name } 侧栏中，沿屏幕侧边排列。
+onboarding-horizontal-tabs-tooltip =
+    .title = 浏览器窗口的标签页沿顶部排列。
+onboarding-horizontal-tabs-description =
+    .aria-description = 一个浏览器窗口，标签页沿其顶部排列。
+onboarding-genai-sidebar-title = 试试侧栏中的 AI 聊天机器人
+onboarding-genai-sidebar-subtitle = 摘要总结、集思广益、起草邮件，在浏览时顺手就能搞定。有多个提供方可供选择，以后也可随时切换。<a data-l10n-name="learn-more">详细了解</a>
+onboarding-genai-sidebar-primary-button = 选择聊天机器人
+onboarding-genai-sidebar-secondary-button = 开始上网冲浪
+onboarding-checklist-title = 完成 { -brand-short-name } 设置
+onboarding-checklist-subtitle = 完成以下步骤，解锁完整浏览体验。
+onboarding-checklist-set-default = 将 { -brand-short-name } 设为默认浏览器
+onboarding-checklist-pin = 将 { -brand-short-name } 固定到任务栏
+onboarding-checklist-import = 从先前所用浏览器导入
+onboarding-checklist-extension = 添加扩展
+onboarding-checklist-sign-up = 注册或登录账户
+onboarding-checklist-minimize =
+    .label = 最小化
+onboarding-checklist-remove =
+    .label = 移除核对清单
+onboarding-checklist-remove-2 = 移除核对清单
+tab-groups-onboarding-feature-callout-title = 用标签页群组摆脱繁乱，专注浏览
+tab-groups-onboarding-feature-callout-subtitle = 将标签页拖放到另一个标签页之上，即可创建首个群组，让标签页井井有条。
+tab-groups-onboarding-create-group-title-3 = 随时可在“列出所有标签页”菜单找到标签页群组。
+tab-groups-onboarding-create-group-no-alltabs-button-title = 在地址栏搜索即可找到您的群组。
+tab-groups-onboarding-saved-groups-title-3 = 关闭标签页群组后，可随时从“列出所有标签页”菜单重新打开。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = 在地址栏中搜索即可查找已关闭的群组。
+tab-groups-onboarding-session-restore-title-2 = 随时可从“列出所有标签页”菜单重新打开标签页群组。
+tab-groups-onboarding-dismiss = 确定
+multi-profile-spotlight-title = 欢迎使用 { -brand-product-name } 配置文件
+multi-profile-spotlight-body = 在工作和娱乐间切换自如。配置文件可全面分隔浏览信息（包括搜索记录和密码），让浏览体验井然有序。
+multi-profile-spotlight-cta = 创建配置文件
+multi-profile-callout-title = 为工作和娱乐各自创建配置文件
+multi-profile-callout-subtitle = 配置文件可全面分隔浏览信息，例如搜索记录和密码。
+multi-profile-callout-cta = 创建配置文件
+desktop-to-mobile-headline = 下载，同步——走起！
+desktop-to-mobile-subtitle = 扫码下载移动版 { -brand-product-name }。安装后选择“同步到移动设备”，即可将密码、书签等数据随身带着走。
+dismiss-button-label = 知道了
+sync-to-mobile-button-label = 同步到移动设备
+desktop-to-mobile-qr-code-alt =
+    .aria-label = 用于下载移动版 { -brand-product-name } 的二维码
+create-backup-screen-1-title =
+    准备升级到 Windows 11？
+    一起来备份 { -brand-product-name } 数据。
+create-backup-screen-1-subtitle = 只需 1–2 分钟，即可自动保护您的密码、书签等数据。
+create-backup-screen-1-flair = 推荐
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">详细了解</a>
+create-backup-screen-1-sync-label = 与 { -brand-product-name } 同步
+create-backup-screen-1-sync-body = 备份所有已登录设备
+create-backup-screen-1-backup-label = 备份到电脑
+create-backup-screen-1-backup-body = 保存到您的设备或 OneDrive
+create-backup-select-tile-button-label = 选择
+create-backup-back-button-label = 返回
+create-backup-show-fewer =
+    .label = 减少显示此类内容
+create-backup-screen-2-title = 选择要备份的 { -brand-product-name } 数据
+create-backup-screen-2-subtitle = 只需一分钟即可完成。您的数据每天都将备份一次。
+create-backup-screen-2-easy-label = 简易设置
+create-backup-screen-2-easy-list-1 = 书签、历史记录、设置等
+create-backup-screen-2-easy-list-2 = 不包含密码和付款信息
+create-backup-screen-2-easy-list-3 = 不受加密保护
+create-backup-screen-2-all-label = 所有数据
+create-backup-screen-2-all-list-2 = 包含密码和付款信息
+create-backup-screen-2-all-list-3 = 由密码加密保护
+create-backup-screen-3-location = 选择备份文件的保存位置
+create-backup-screen-3-title = 创建备份文件的密码
+create-backup-screen-3-subtitle = 加密数据所需。请将其保存在您不会遗忘的地方。
+fx-backup-opt-in-header = 选择文件位置
+fx-backup-opt-in-filepath-label = 选择一个位置（例如 OneDrive），数据将由该位置转移到新设备。
+fx-backup-opt-in-create-password-label = 请输入密码
+fx-backup-opt-in-confirm-btn-label = 继续
+fx-backup-opt-in-cancel-btn-label = 返回
+fx-backup-confirmation-screen-title = 已安排备份
+fx-backup-confirmation-screen-close-button = 关闭
+fx-backup-confirmation-screen-all-data-item-text-1 = 包含所有浏览数据
+fx-backup-confirmation-screen-all-data-item-text-2 = 保存到您的设备
+fx-backup-confirmation-screen-all-data-item-text-3 = 加密并受密码保护
+fx-backup-confirmation-screen-easy-setup-item-text-1 = 包含书签、历史记录、设置等数据
+fx-backup-confirmation-screen-easy-setup-item-text-2 = 保存到您的设备
+fx-backup-confirmation-screen-easy-setup-item-text-3 = 不包含密码和付款信息
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 可前往<a data-l10n-name="settings">设置</a>将敏感数据纳入备份。
+fx-backup-confirmation-screen-item-subtext-1 = 备份将在几分钟后开始，并将每天进行一次。您可以在<a data-l10n-name="settings">设置</a>中检查进度。
+fx-backup-confirmation-screen-item-subtext-2 = 需要重新安装时，{ -brand-short-name } 将查找您的备份。
+restore-from-backup-secondary-top-button = 从备份恢复
+restore-from-backup-title = 按您需要，取回熟悉的 { -brand-short-name } 体验
+restore-from-backup-subtitle = 恢复您的所有书签、历史记录和其他数据，立即接续浏览。
+restore-from-backup-secondary-button = 不恢复
+multiple-backups-info-tile = <strong>发现多个备份文件。</strong>已选中最近的文件，如需还原其他配置文件，请前往<a data-l10n-name="settings-label">设置</a>。
+restored-from-backup-success-title = 都回来了！您的 { -brand-short-name } 数据已恢复。
+restored-from-backup-success-with-checklist-subtitle = 想一键打开您最爱的隐私为先浏览器吗？
+restored-from-backup-success-no-checklist-subtitle = 您可以在<a data-l10n-name="settings">设置</a>中为此设备开启备份。
+restored-from-backup-success-with-checklist-primary-button = 保存并继续
+restored-from-backup-success-with-checklist-secondary-button = 跳过此步骤
+restored-from-backup-success-no-checklist-primary-button = 继续
+restored-from-backup-error-title = 嗯… 您的备份文件似乎存在问题。
+restored-from-backup-error-subtitle = 若您还有其他 { -brand-short-name } 备份文件，请尝试从那份文件恢复。<a data-l10n-name="restore-problems">仍有问题？</a>
+restored-from-backup-error-primary-button = 关闭
+onboarding-personalization-title = 定制您的 { -brand-short-name } 使用体验
+onboarding-personalization-subtitle = 回答几个问题，我们将为您推荐能优化 { -brand-short-name } 使用体验的功能和扩展。
+onboarding-personalization-use-case-title = 您会将 { -brand-short-name } 用于什么情景？
+onboarding-personalization-use-case-personal-option = 个人
+onboarding-personalization-use-case-school-option = 学习
+onboarding-personalization-use-case-work-option = 工作
+onboarding-personalization-motivation-title = 您最看重 { -brand-short-name } 的哪些特色？
+onboarding-personalization-motivation-privacy-option = 隐私和安全
+onboarding-personalization-motivation-productivity-option = 效率
+onboarding-personalization-motivation-other-option = 其他
+onboarding-refresh-pin-set-default-subtitle = 我们会保护您的数据，并自动阻止大公司窥探您的浏览活动。
+onboarding-refresh-pin-set-default-title = Firefox 护您周全
+onboarding-refresh-import-subtitle = 将密码、书签、历史记录等数据搬到这里。
+onboarding-refresh-import-title = 让 { -brand-short-name } 亲切如家
+onboarding-refresh-onboarding-addons-subtitle = 扩展就像“小程序”，可用于定制 { -brand-short-name }，帮助增强隐私保护、提高效率、更改 { -brand-short-name } 外观，还有更多妙用。
+onboarding-refresh-onboarding-addons-title = 提升浏览体验
+onboarding-refresh-sync-subtitle = 让书签、密码等数据在已登录 { -brand-short-name } 的各设备上触手可得。数据受加密保护，只有您自己能查看。
+onboarding-refresh-sync-title = 畅行千里，同步万物。
+onboarding-refresh-gratitude-subtitle = 感谢您使用 { -brand-short-name }，这是唯一由非营利组织支持的主流浏览器。您的支持激励着我们为更开放、更美好且人人可用的互联网继续奋斗。
+onboarding-refresh-gratitude-title = { -brand-short-name } 为您护航
+onboarding-refresh-splash-screen-title = 现在起，{ -brand-product-name } 为您护航
+onboarding-refresh-tou-default = 用 { -brand-short-name } 打开所有链接
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] 将 { -brand-short-name } 保留在程序坞
+       *[other] 将 { -brand-short-name } 添加到任务栏
+    }
+onboarding-refresh-data-collection-link = 管理数据收集设置
+onboarding-refresh-primary-button = 继续
+onboarding-refresh-fro-import-header = 导入您的数据
+onboarding-refresh-fro-import-body = 您的个人数据始终属于您。{ -brand-product-name } 绝不会将其出售。
+onboarding-refresh-fro-skip-button = 跳过
+onboarding-refresh-fro-theme-header = 打造个性外观
+onboarding-refresh-tab-layout-header = 试试不同的标签页布局
+onboarding-refresh-tab-layout-top = 顶部
+onboarding-refresh-tab-layout-side = 侧边
+smartwindow-switcher-callout = 随时在智能窗口与经典窗口间切换。
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 使用条款
+smartwindow-existing-user-fx-tou-body = 若要使用{ -smart-window-brand-name }，请接受<a data-l10n-name="terms_of_use">使用条款</a>和更新后的<a data-l10n-name="privacy_notice">隐私声明</a>。
+smartwindow-existing-user-fx-tou-accept = 接受
+smartwindow-existing-user-fx-tou-go-back = 返回
+smartwindow-onboarding-title = 将{ -smart-window-brand-name }设为默认窗口
+smartwindow-onboarding-subtitle = 摘要、比较、提问，顺手就办到。
+smartwindow-onboarding-primary-button = 继续
+smartwindow-onboarding-image-alt =
+    .aria-label = { -brand-product-name } 吉祥物（Kit）手持星星道具
+smartwindow-sidebar-auto-open-callout-title = 要默认关闭助理吗？
+smartwindow-sidebar-auto-open-callout-body = 您仍可在需要时打开。
+smartwindow-sidebar-auto-open-callout-accept = 是，默认关闭
+smartwindow-sidebar-auto-open-callout-dismiss = 不用了
+smartwindow-sidebar-auto-open-callout-accepted-title = 助理将默认关闭
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = 您可以在任意页面上使用“询问”来打开它。可随时在<a data-l10n-name="settings">设置</a>中更改此决定。
+smartwindow-sidebar-auto-open-callout-rejected-title = 知道了
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 如果您改变了主意，可随时在<a data-l10n-name="settings">设置</a>中更新默认设置。
+onboarding-theme-picker-title = 选取主题
+onboarding-theme-picker-subtitle = 为 { -brand-short-name } 添一抹色彩。
+onboarding-theme-picker-button-label = 保存并继续

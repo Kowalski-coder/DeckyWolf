@@ -1,0 +1,14 @@
+crashed-subframe-message = <strong> ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱜᱽ ᱫᱚ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾ </strong> { -brand-product-name } ᱵᱟᱲᱟᱭ ᱦᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱞᱚᱜᱚᱱ ᱴᱷᱤᱠ ᱫᱟᱲᱮ ᱞᱟᱹᱜᱤᱫ, ᱫᱟᱭᱟᱠᱟᱛᱮ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱭ ᱯᱮ ᱾
+crashed-subframe-title =
+    .title = ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱵᱷᱟᱜᱽ ᱫᱚ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾ { -brand-product-name } ᱵᱟᱲᱟᱭ ᱦᱚᱪᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱞᱚᱜᱚᱱ ᱴᱷᱤᱠ ᱫᱟᱲᱮ ᱞᱟᱹᱜᱤᱫ, ᱫᱟᱭᱟᱠᱟᱛᱮ ᱠᱷᱚᱵᱚᱨ ᱵᱷᱮᱡᱟᱭ ᱯᱮ ᱾
+crashed-subframe-learnmore-link =
+    .value = ᱰᱷᱮᱨ ᱥᱮᱬᱟᱭ ᱢᱮ
+crashed-subframe-submit =
+    .label = ᱨᱤᱯᱚᱴ ᱡᱚᱢᱟᱭ ᱢᱮ
+    .accesskey = S
+pending-crash-reports-view-all =
+    .label = ᱧᱮᱞ ᱢᱮ
+pending-crash-reports-send =
+    .label = ᱠᱩᱞ ᱢᱮ
+pending-crash-reports-always-send =
+    .label = ᱡᱟᱣᱜᱮ ᱵᱷᱮᱡᱟ

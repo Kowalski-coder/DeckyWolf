@@ -1,0 +1,14 @@
+default-bookmarks-title = Yer imleri
+default-bookmarks-heading = Yer imleri
+default-bookmarks-firefox-heading = Mozilla Firefox
+default-bookmarks-firefox-get-help = Yardım Alın
+default-bookmarks-firefox-customize = Firefox’u Özelleştirin
+default-bookmarks-firefox-community = Katkıda Bulunun
+default-bookmarks-firefox-about = Hakkımızda
+default-bookmarks-nightly-heading = Firefox Nightly Kaynakları
+default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-bugzilla = Mozilla Hata Takipçisi
+default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-nightly-tester-tools = Nightly Testçi Araçları
+default-bookmarks-crashes = Tüm çökmeleriniz
+default-bookmarks-planet = Planet Mozilla

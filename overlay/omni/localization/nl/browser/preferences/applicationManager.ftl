@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Toepassingsdetails
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Verwijderen
+    .accesskey = V
+app-manager-handle-protocol = De volgende toepassingen kunnen worden gebruikt voor het verwerken van { $type }-koppelingen.
+app-manager-handle-file = De volgende toepassingen kunnen worden gebruikt voor het verwerken van { $type }-inhoud.
+app-manager-web-app-info = Deze webtoepassing wordt gehost door:
+app-manager-local-app-info = Deze toepassing bevindt zich op:

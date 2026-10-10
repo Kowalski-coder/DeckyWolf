@@ -1,0 +1,358 @@
+onboarding-welcome-header = Velkomen til { -brand-short-name }
+onboarding-start-browsing-button-label = Start nettlesing
+onboarding-not-now-button-label = Ikkje no
+mr1-onboarding-get-started-primary-button-label = Kom i gang
+return-to-amo-subtitle = Bra, du har { -brand-short-name }
+return-to-amo-addon-title = Lat oss no hente <img data-l10n-name="icon"/> <b>{ $addon-name }</b>.
+return-to-amo-add-extension-label = Legg til utvidinga
+return-to-amo-add-theme-label = Legg til temaet
+return-to-amo-theme-install-complete-label = Tema installert
+return-to-amo-extension-install-complete-label = Utviding installert
+mr1-return-to-amo-subtitle = Velkomen til { -brand-short-name }
+mr1-return-to-amo-addon-title = Du har ein rask, privat nettlesar for handa. No kan du leggje til <b>{ $addon-name }</b> og gjere endå meir med { -brand-short-name }.
+mr1-return-to-amo-add-extension-label = Legg til { $addon-name }
+onboarding-welcome-steps-indicator-label =
+    .aria-label = Framdrift: steg { $current } av { $total }
+mr1-onboarding-reduce-motion-button-label = Slå av animasjonar
+mr1-onboarding-sign-in-button-label = Logg inn
+mr1-onboarding-import-primary-button-label-attribution = Importer frå { $previous }
+mr1-onboarding-theme-header = Gjer han til din eigen
+mr1-onboarding-theme-subtitle = Tilpass { -brand-short-name } med eit tema.
+mr1-onboarding-theme-secondary-button-label = Ikkje no
+mr1-onboarding-theme-label-system = Systemtema
+mr1-onboarding-theme-label-light = Lyst
+mr1-onboarding-theme-label-dark = Mørkt
+mr1-onboarding-theme-label-alpenglow = Alpenglow
+onboarding-theme-primary-button-label = Ferdig
+onboarding-animation-pause-button =
+    .aria-label = Set animasjonen på pause
+onboarding-animation-play-button =
+    .aria-label = Spel animasjonen
+mr1-onboarding-theme-tooltip-system =
+    .title =
+        Brukar same fargeskjema som operativsystemet
+        for knappar, menyar og vindauge.
+mr1-onboarding-theme-description-system =
+    .aria-description =
+        Brukar same fargetema som operativsystemet
+        for knappar, menyar og vindauge.
+mr1-onboarding-theme-tooltip-light =
+    .title =
+        Bruk eit lyst tema for knappar,
+        menyar og vindauge.
+mr1-onboarding-theme-description-light =
+    .aria-description =
+        Bruk eit lyst tema for knappar,
+        menyar og vindauge.
+mr1-onboarding-theme-tooltip-dark =
+    .title =
+        Bruk eit mørt tema for knappar,
+        menyar og vindauge.
+mr1-onboarding-theme-description-dark =
+    .aria-description =
+        Bruk eit mørt tema for knappar,
+        menyar og vindauge.
+mr1-onboarding-theme-tooltip-alpenglow =
+    .title =
+        Bruk eit dynamisk, fargerikt tema for knappar,
+        menyar og vindauge.
+mr1-onboarding-theme-description-alpenglow =
+    .aria-description =
+        Bruk eit dynamisk, fargerikt tema for knappar,
+        menyar og vindauge.
+mr2-onboarding-default-theme-label = Utforsk standardtema.
+mr2-onboarding-thank-you-header = Takk for at du valde oss
+mr2-onboarding-thank-you-text = { -brand-short-name } er ein uavhengig nettlesar som er støtta av ein ideell organisasjon. Saman gjer vi nettet tryggare, sunnare og meir privat.
+mr2-onboarding-start-browsing-button-label = Byrj surfinga
+onboarding-live-language-header = Vel ditt språk
+mr2022-onboarding-live-language-text = { -brand-short-name } snakkar ditt språk
+mr2022-language-mismatch-subtitle = Takka vere fellesskapet vårt er { -brand-short-name } omsett til over 90 språk. Det ser ut til at systemet ditt brukar { $systemLanguage }, og { -brand-short-name } brukar { $appLanguage }.
+onboarding-live-language-button-label-downloading = Lastar ned språkpakke for { $negotiatedLanguage }…
+onboarding-live-language-waiting-button = Hentar tilgjengelege språk…
+onboarding-live-language-installing = Installerer språkpakken for { $negotiatedLanguage }…
+mr2022-onboarding-live-language-switch-to = Byt til { $negotiatedLanguage }
+mr2022-onboarding-live-language-continue-in = Hald fram med { $appLanguage }
+onboarding-live-language-secondary-cancel-download = Avbryt
+onboarding-live-language-skip-button-label = Hopp over
+fx100-thank-you-hero-text =
+    100
+    <span data-l10n-name="zap">tusen takk</span>
+fx100-thank-you-subtitle = Dette er utgjeving nummer 100! Takk for at du hjelper oss med å byggje eit betre og sunnare internett.
+fx100-thank-you-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Behald { -brand-short-name } i Dock
+       *[other] Fest { -brand-short-name } til oppgåvelinja
+    }
+fx100-upgrade-thanks-header = 100 tusen takk
+fx100-upgrade-thank-you-body = Dette er utgjeving nummer 100 av { -brand-short-name }. Tusen takk for at <em>du</em> hjelper oss med å byggje eit betre og sunnare internett.
+fx100-upgrade-thanks-keep-body = Dette er utgjeving nummer 100! Takk for at du er ein del av samfunnet vårt. Ha { -brand-short-name } eitt klikk unna for dei neste 100.
+mr2022-onboarding-secondary-skip-button-label = Hopp over dette steget
+mr2022-onboarding-easy-setup-primary-button-label = Lagre og hald fram
+mr2022-onboarding-easy-setup-set-default-checkbox-label = Bruk { -brand-short-name } som standardnettlesar
+mr2022-onboarding-easy-setup-import-checkbox-label = Importer frå tidlegare nettlesar
+mr2022-onboarding-welcome-pin-header = Opne opp for eit fantastisk internett
+mr2022-onboarding-welcome-pin-subtitle = Start { -brand-short-name } kvar som helst med eitt enkelt klikk. Kvarr gong du gjer det, vel du eit meir ope og uavhengig internett.
+mr2022-onboarding-pin-primary-button-label =
+    { PLATFORM() ->
+        [macos] Behald { -brand-short-name } i Dock
+       *[other] Fest { -brand-short-name } til oppgåvelinja
+    }
+mr2022-onboarding-pin-primary-button-label-msix = Fest { -brand-short-name } til oppgåvelinja og startmenyen
+mr2022-onboarding-existing-pin-header = Takk for at du likar { -brand-product-name }
+mr2022-onboarding-existing-pin-subtitle = Start eit sunnare internett frå kvarr som helst med eit enkelt klikk. Den siste oppdateringa vår er fullpakka med nye ting vi trur du vil like.
+mr2022-onboarding-existing-set-default-only-subtitle = Bruk ein nettlesar som beskyttar personvernet ditt medandu bevegar deg rundt på nettet. Den siste oppdateringa vår er fullpakket med ting du likar.
+mr2022-onboarding-existing-pin-checkbox-label = Legg også til { -brand-short-name } privat nettlesing
+mr2022-onboarding-set-default-title = Gjere { -brand-short-name } til standardnettlesaren din?
+mr2022-onboarding-set-default-primary-button-label = Gjer { -brand-short-name } til standardnettlesar
+mr2022-onboarding-set-default-subtitle = Bruk ein nettlesar støtta av ein ideell organisasjon. Vi forsvarar personvernet ditt medan du surfar rundt på nettet.
+mr2022-onboarding-get-started-primary-subtitle = Den nyaste versjonen vår er laga for å møte dine behov og gjere det enklare å navigere på nettet. Han er fullpakka med funksjonar vi trur du kjem til like.
+mr2022-onboarding-get-started-primary-button-label = Snøgg konfigurering
+mr2022-onboarding-import-primary-button-label-no-attribution = Importer frå tidlegare nettlesar
+mr2022-onboarding-mobile-download-cta-text = Skann QR-koden for å få { -brand-product-name } for mobil eller <a data-l10n-name="download-label">send deg sjølv ei nedlastingslenke.</a>
+mr2022-onboarding-no-mobile-download-cta-text = Skann QR-koden for å få { -brand-product-name } for mobil
+mr2022-upgrade-onboarding-pin-private-window-header = Få privat nettlesingsfriheit med eitt klikk
+mr2022-upgrade-onboarding-pin-private-window-subtitle = Ingen lagra infokapslar eller historikk, rett frå skrivebordet. Surf som om ingen ser på.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label =
+    { PLATFORM() ->
+        [macos] Behald { -brand-short-name } privat nettlesing i Dock
+       *[other] Fest { -brand-short-name } privat nettlesing til oppgåvelinja
+    }
+mr2022-onboarding-privacy-segmentation-title = Vi respekterer alltid personvernet ditt
+mr2022-onboarding-privacy-segmentation-subtitle = Frå intelligente forslag til smartare søk. Vi jobbar alltid med å gjere { -brand-product-name } betre og meir personleg.
+mr2022-onboarding-privacy-segmentation-text-cta = Kva vil du sjå når vi lagar nye funksjonar som brukar dine data til å forbetre nettlesaropplevinga di?
+mr2022-onboarding-privacy-segmentation-button-primary-label = Bruk { -brand-product-name }-tilrådingar
+mr2022-onboarding-privacy-segmentation-button-secondary-label = Vis detaljert informasjon
+mr2022-onboarding-gratitude-title = Du hjelper oss med å byggje eit betre internett
+mr2022-onboarding-gratitude-subtitle = Takk for at du brukar { -brand-short-name }, støtta av Mozilla Foundation. Med di støtte jobbar vi for å gjere internett meir ope, tilgjengeleg og betre for alle.
+mr2022-onboarding-gratitude-primary-button-label = Sjå kva som er nytt
+mr2022-onboarding-gratitude-secondary-button-label = Byrje å surfe
+onboarding-infrequent-import-title = Føl deg heime
+onboarding-infrequent-import-subtitle = Anten du slår deg til rette eller berre er innom, hugs at du kan importere bokmerke, passord og meir.
+onboarding-infrequent-import-primary-button = Importer til { -brand-short-name }
+mr2022-onboarding-pin-image-alt =
+    .aria-label = Person som jobbar på ein berbar PC omgitt av stjerner og blomster
+mr2022-onboarding-default-image-alt =
+    .aria-label = Person som klemmer { -brand-product-name }-logoen
+mr2022-onboarding-import-image-alt =
+    .aria-label = Person som køyrer på eit skateboard med ein boks med programvareikon
+mr2022-onboarding-mobile-download-image-alt =
+    .aria-label = Froskar som hoppar over liljeblokker med ein QR-kode i midten for å laste ned { -brand-product-name } for mobil
+mr2022-onboarding-pin-private-image-alt =
+    .aria-label = Ein tryllestav får { -brand-product-name }-logotypen for privat surfning til å dukke opp av ein hatt
+mr2022-onboarding-privacy-segmentation-image-alt =
+    .aria-label = Lyshuda og mørkhuda hender gir kvarandre ein high five
+mr2022-onboarding-gratitude-image-alt =
+    .aria-label = Utsikt over ein solnedgang gjennom eit vindauge med ein rev og ei stueplante i ein vindaugskarm
+onboarding-device-migration-image-alt =
+    .aria-label = Ein rev, på skjermen til ei berbar datamaskin, vinkar. Den berbare datamaskina har ei mus kopla til.
+onboarding-device-migration-title = Velkomen tilbake!
+onboarding-device-migration-subtitle2 = Logg på kontoen din for å ta med deg bokmerka, passorda og historikken din på den nye eininga.
+onboarding-device-migration-primary-button-label = Logg inn
+amo-picker-title = Tilpass { -brand-short-name }
+amo-picker-subtitle = Utvidingar er som appar for nettlesaren din og dei lèt deg deg beskytte passord, laste ned videoar, finne tilbod, blokkere irriterande annonsar, endre korleis nettlesaren din ser ut, og mykje meir.
+amo-picker-install-button-label = Legg til i { -brand-short-name }
+amo-picker-install-complete-label = Installert
+amo-picker-collection-link = Utforsk fleire tillegg
+onboarding-easy-setup-security-and-privacy-title = Vi vernar deg gjerne
+onboarding-easy-setup-security-and-privacy-subtitle = Den ideelle nettlesaren vår hindrar selskap i å spore aktiviteten din i hemmelegheit på nettet.
+onboarding-mobile-download-security-and-privacy-title = Krypter dataa dine når du arbeider på tvers av einingar
+onboarding-mobile-download-security-and-privacy-subtitle = Når du er synkronisert, krypterer { -brand-short-name } passorda, bokmerka og meir. I tillegg kan du hente faner frå dei andre einingane dine.
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } passar på deg
+onboarding-gratitude-security-and-privacy-subtitle = Takk for at du brukar { -brand-short-name }, støtta av Mozilla Foundation. Med di støtte jobbar vi for å gjere internett tryggare og meir tilgjengelig for alle.
+onboarding-sign-up-title = Synkroniser data på tvers av einingar
+onboarding-sign-up-description = Registrer ein konto, så vert all den viktige informasjonen din — passord, bokmerke, og meir — trygt lagra og tilgjengeleg i alle einingar du loggar inn på.
+onboarding-sign-up-button = Registrer deg eller logg inn
+onboarding-sign-up-secondary-button = Begynn å surfe
+onboarding-new-user-time-based-survey-title = Kor lenge har du brukt { -brand-short-name }?
+onboarding-new-user-familiarity-based-survey-title = Kor godt kjend er du med { -brand-short-name }?
+onboarding-new-user-survey-subtitle = Tilbakemeldinga di bidreg til å gjere { -brand-short-name } endå betre.
+onboarding-new-user-survey-next-button-label = Neste
+onboarding-new-user-survey-legal-link-label = Ved å velje «{ onboarding-new-user-survey-next-button-label }» godtek du { -brand-product-name } si <a data-l10n-name="privacy_notice">personvernfråsegn</a >
+onboarding-new-user-survey-time-based-option-1 = Eg er heilt ny
+onboarding-new-user-survey-time-based-option-2 = Mindre enn 1 månad
+onboarding-new-user-survey-time-based-option-3 = Meir enn 1 månad, regelmessig
+onboarding-new-user-survey-time-based-option-4 = Meir enn 1 månad, nokre gongar
+onboarding-new-user-survey-familiarity-based-option-1 = Eg er heilt ny
+onboarding-new-user-survey-familiarity-based-option-2 = Eg har brukt det ein del
+onboarding-new-user-survey-familiarity-based-option-3 = Eg kjenner veldig godt til det
+onboarding-new-user-survey-familiarity-based-option-4 = Eg brukte den tidlegare, men det er en stund sidan
+onboarding-new-tabs-title = Fortel oss kvar du vil ha fanene dine
+onboarding-new-tabs-subtitle = Byt fram og tilbake når som helst i sidestolpeinnstillingane.
+onboarding-many-tabs-title = Dine faner, på din måte
+onboarding-many-tabs-subtitle = Har du mange faner opne? Prøv med fanene på sida for ei meir straumlinjeforma vising. Eller hald på det klassiske med faner på toppen. Byt når som helst.
+onboarding-focused-tabs-title = Vel faneoppsett
+onboarding-focused-tabs-subtitle = For ei straumlinjeforma vising som kan hjelpe deg med å halde fokus, prøv faner på sida. Eller behald det klassiske med faner på toppen. Byt når som helst.
+onboarding-new-vertical-tabs-label = Faner på sida
+onboarding-new-horizontal-tabs-label = Faner på toppen
+onboarding-existing-tabs-title = Vertikale faner er her
+onboarding-existing-tabs-title2 = Introduserer vertikale faner
+onboarding-existing-tabs-subtitle = Prøv med faner på sida. Byt når du vil i sidestolpeinnstillingane.
+onboarding-existing-vertical-tabs-label = Prøv vertikale faner
+onboarding-flair-text = Nytt!
+onboarding-existing-horizontal-tabs-label = Behald horisontale faner
+onboarding-vertical-tabs-tooltip =
+    .title = Eit nettlesarvindauge som viser faner langs sida av skjermen som del av { -brand-shorter-name }-sidestolpen.
+onboarding-vertical-tabs-description =
+    .aria-description = Eit nettlesarvindauge som viser faner langs sida av skjermen som del av { -brand-shorter-name }-sidestolpen.
+onboarding-horizontal-tabs-tooltip =
+    .title = Eit nettlesarvindauge som viser faner øvst oppe.
+onboarding-horizontal-tabs-description =
+    .aria-description = Eit nettlesarvindauge som viser faner øvst oppe.
+onboarding-genai-sidebar-title = Prøv ein KI-chatbot i sidestolpen
+onboarding-genai-sidebar-subtitle = Samanfatt, ha ein idédugnad, kladd meldingar — alt medan du surfar. Vel frå fleire leverandørar. Byt når som helst. <a data-l10n-name="learn-more">Les meir</a>
+onboarding-genai-sidebar-primary-button = Vel ein chatbot
+onboarding-genai-sidebar-secondary-button = Start nettlesinga
+onboarding-checklist-title = Fullfør konfigureringa av { -brand-short-name }
+onboarding-checklist-subtitle = Fullfør desse stega for å få mest mogleg ut av nettlesaropplevinga di.
+onboarding-checklist-set-default = Bruk { -brand-short-name } som standardnettlesar
+onboarding-checklist-pin = Fest { -brand-short-name } til oppgåvelinja
+onboarding-checklist-import = Importer frå tidlegare nettlesar
+onboarding-checklist-extension = Legg til ei utviding
+onboarding-checklist-sign-up = Registrer deg eller logg inn på kontoen din
+onboarding-checklist-minimize =
+    .label = Minimer
+onboarding-checklist-remove =
+    .label = Fjern sjekkliste
+onboarding-checklist-remove-2 = Fjern sjekkliste
+tab-groups-onboarding-feature-callout-title = Prøv fanegrupper for mindre rot, og meir fokus
+tab-groups-onboarding-feature-callout-subtitle = Bli organisert ved å dra ei fane oppå ei anna for å opprette den første gruppa di.
+tab-groups-onboarding-create-group-title-3 = Finn fanegruppene dine når som helst i List opp alle faner-menyen.
+tab-groups-onboarding-create-group-no-alltabs-button-title = Finn fanegruppene dine ved å søkje etter dei i adresselinja.
+tab-groups-onboarding-saved-groups-title-3 = Når du lèt att ei fanegruppe, kan du når som helst opne henne på nytt frå List opp alle faner-menyen.
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = Finn dei attlatne gruppene dine ved å søkje etter dei i adresselinja.
+tab-groups-onboarding-session-restore-title-2 = Opne fanegruppene dine på nytt frå List opp alle faner-menyen når som helst.
+tab-groups-onboarding-dismiss = OK
+multi-profile-spotlight-title = Sei hei til { -brand-product-name }-profilar
+multi-profile-spotlight-body = Byt enkelt mellom arbeid og moro når du surfar. Profilar held nettlesarinformasjonen din, medrekna søkehistorikk og passord, heilt kvar for seg slik at du kan halde orden.
+multi-profile-spotlight-cta = Opprett ein profil
+multi-profile-callout-title = Lag ulike profilar for arbeid og moro
+multi-profile-callout-subtitle = Profilar held nettlesarinformasjonen din, inkludert søkehistorikk og passord, heilt kvar for seg.
+multi-profile-callout-cta = Opprett ein profil
+desktop-to-mobile-headline = Last ned, synkroniser, og kom i gang!
+desktop-to-mobile-subtitle = Skann QR-koden for å laste ned { -brand-product-name } for mobil. Når installert, merk “Synkroniser til mobil” for å få tilgang til passord, bokmerk, og meir, når du er på farta.
+dismiss-button-label = Ignorer
+sync-to-mobile-button-label = Synkronisder til mobil
+desktop-to-mobile-qr-code-alt =
+    .aria-label = QR-kode for å laste ned { -brand-product-name } for mobil
+create-backup-screen-1-title =
+    Oppgraderer du til Windows 11?
+    La oss sikkerheitskopiere { -brand-product-name }-dataa dine.
+create-backup-screen-1-subtitle = Vern automatisk passord, bokmerke, og meir, på 1–2 minutt.
+create-backup-screen-1-flair = Tilrådd
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">Les meir</a>
+create-backup-screen-1-sync-label = Synkroniser med { -brand-product-name }
+create-backup-screen-1-sync-body = Sikkerheitskopierer alle pålogga einingar
+create-backup-screen-1-backup-label = Sikkerheitskopier til PC
+create-backup-screen-1-backup-body = Lagrar på eininga di eller OneDrive
+create-backup-select-tile-button-label = Vel
+create-backup-back-button-label = Tilbake
+create-backup-show-fewer =
+    .label = Vis færre slike
+create-backup-screen-2-title = Vel { -brand-product-name }-data som skal sikkerheitskopierast
+create-backup-screen-2-subtitle = Det tek berre eitt minutt. Dataa dine blir sikringskopierte éin gong per dag.
+create-backup-screen-2-easy-label = Enkelt oppsett
+create-backup-screen-2-easy-list-1 = Bokmerke, historikk, innstillingar, og meir
+create-backup-screen-2-easy-list-2 = Inkluderer ikkje passord og betalingar
+create-backup-screen-2-easy-list-3 = Ikkje kryptert
+create-backup-screen-2-all-label = Alle data
+create-backup-screen-2-all-list-2 = Inkluderer passord og betalingar
+create-backup-screen-2-all-list-3 = Kryptert med eit passord
+create-backup-screen-3-location = Kvar vil du lagre sikkerheitskopien din?
+create-backup-screen-3-title = Lag eit passord for sikkerheitskopifila
+create-backup-screen-3-subtitle = Påkravd for å kryptere dataa dine. Lagre dei på ein stad du hugsar.
+fx-backup-opt-in-header = Vel filplassering
+fx-backup-opt-in-filepath-label = Vel ein stad du planlegg å overføre til ei ny eining, til dømes OneDrive.
+fx-backup-opt-in-create-password-label = Skriv inn passord
+fx-backup-opt-in-confirm-btn-label = Hald fram
+fx-backup-opt-in-cancel-btn-label = Tilbake
+fx-backup-confirmation-screen-title = Sikkerheitskopien din er planlagt
+fx-backup-confirmation-screen-close-button = Lat att
+fx-backup-confirmation-screen-all-data-item-text-1 = Alle nettlesardata inkluderte
+fx-backup-confirmation-screen-all-data-item-text-2 = Lagra til eininga di
+fx-backup-confirmation-screen-all-data-item-text-3 = Kryptert og passordbeskytta
+fx-backup-confirmation-screen-easy-setup-item-text-1 = Bokmerker, historikk, innstillingar og andre data inkludert
+fx-backup-confirmation-screen-easy-setup-item-text-2 = Lagra til eininga di
+fx-backup-confirmation-screen-easy-setup-item-text-3 = Passord og betalingar er ikkje inkluderte
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = Gå til <a data-l10n-name="settings">innstillingar</a> for å inkludere sensitive data.
+fx-backup-confirmation-screen-item-subtext-1 = Sikkerheitskopieringa startar om nokre få minutt og køyrer éin gong om dagen. Du kan sjekke framdrifta i <a data-l10n-name="settings">innstillingar</a>.
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } vil sjå etter sikkerheitskopien din om du treng å installere på nytt.
+restore-from-backup-secondary-top-button = Gjenopprett frå sikkerheitskopi
+restore-from-backup-title = La oss få { -brand-short-name } tilbake slik du liker han
+restore-from-backup-subtitle = Gjenopprett alle bokmerka, historikken og andre data for å kome tilbake til nettlesing.
+restore-from-backup-secondary-button = Ikkje gjenopprett
+multiple-backups-info-tile = <strong>Fleire tryggingskopifiler funne.</strong> Den nyaste fila er vald. Gjenopprett andre profilar i <a data-l10n-name="settings-label">Innstillingar</a>.
+restored-from-backup-success-title = Vi er tilbake! { -brand-short-name }-dataa dine er gjenoppretta.
+restored-from-backup-success-with-checklist-subtitle = Vil du ha favoritt-nettlesaren din med fokus på personvern berre eitt klikk unna?
+restored-from-backup-success-no-checklist-subtitle = Du kan slå på sikkerheitskopiering for denne eininga i <a data-l10n-name="settings">innstillingar</a>.
+restored-from-backup-success-with-checklist-primary-button = Lagre og hald fram
+restored-from-backup-success-with-checklist-secondary-button = Hopp over dette steget
+restored-from-backup-success-no-checklist-primary-button = Hald fram
+restored-from-backup-error-title = Hmm, det oppstod eit problem med sikkerheitskopifila di.
+restored-from-backup-error-subtitle = Om du har ein anna sikkerheitskopifil for { -brand-short-name }, kan du prøve å gjenopprette frå den. <a data-l10n-name="restore-problems">Har du framleis problem?</a>
+restored-from-backup-error-primary-button = Lat att
+onboarding-personalization-title = Tilpass { -brand-short-name }-opplevinga di
+onboarding-personalization-subtitle = Svar på nokre få spørsmål, så tilrår vi funksjonar og utvidingar som kan forbetre bruken av { -brand-short-name }.
+onboarding-personalization-use-case-title = Kva skal du bruke { -brand-short-name } til?
+onboarding-personalization-use-case-personal-option = Personleg
+onboarding-personalization-use-case-school-option = Skule
+onboarding-personalization-use-case-work-option = Arbeid
+onboarding-personalization-motivation-title = Kva funksjonar i { -brand-short-name } er viktigast for deg?
+onboarding-personalization-motivation-privacy-option = Personvern og sikkerheit
+onboarding-personalization-motivation-productivity-option = Produktivitet
+onboarding-personalization-motivation-other-option = Anna
+onboarding-refresh-pin-set-default-subtitle = Vi vernar dataa dine og blokkerer selskap frå å spionere på klikka dine — automatisk.
+onboarding-refresh-pin-set-default-title = Du er trygg med Firefox
+onboarding-refresh-import-subtitle = Ta med deg passord, bokmerke, historikk, og meir.
+onboarding-refresh-import-title = Få { -brand-short-name } til å kjennast meir som heime
+onboarding-refresh-onboarding-addons-subtitle = Utvidingar er små appar som lèt deg tilpasse { -brand-short-name }. Dei kan styrkje personvernet ditt, auke produktiviteten, endre korleis { -brand-short-name } ser ut og, mykje meir.
+onboarding-refresh-onboarding-addons-title = Gi nettlesinga di eit løft
+onboarding-refresh-sync-subtitle = Få tilgang til bokmerke, passord og meir overalt der du er logga på { -brand-short-name }. I tillegg er dataa dine krypterte slik at berre du kan sjå dei.
+onboarding-refresh-sync-title = Drag kvar som helst. Synkroniser alt.
+onboarding-refresh-gratitude-subtitle = Takk for at du brukar { -brand-short-name }, den einaste store nettlesaren som blir støtta av ein ideell organisasjon. Med di støtte jobbar vi for å gjere internett tryggare og meir tilgjengeleg for alle.
+onboarding-refresh-gratitude-title = { -brand-short-name } passar på deg
+onboarding-refresh-splash-screen-title = { -brand-product-name } passar på deg frå første stund
+onboarding-refresh-hero-text = Bygd for å verne deg, ikkje spore deg.
+onboarding-refresh-tou-default = Opne alle lenker med { -brand-short-name }
+onboarding-refresh-tou-pin =
+    { PLATFORM() ->
+        [macos] Behald { -brand-short-name } i Dock
+       *[other] Legg til { -brand-short-name } i oppgåvelinja di
+    }
+onboarding-refresh-tou-default-unchecked = Behald innebygd vern kvar gong du surfar
+onboarding-refresh-tou-pin-unchecked = Ha den einaste store uavhengige nettlesaren berre eit klikk unna
+onboarding-refresh-terms-of-use-with-links = Ved å halde fram godtek du <a data-l10n-name="terms_of_use">bruksvilkåra for { -brand-product-name }</a> og <a data-l10n-name="privacy_notice">personvernfråsegna vår</a>. For å bidra til å forbetre nettlesaren sender { -brand-product-name } diagnostikk- og interaksjonsdata til { -vendor-short-name }.
+onboarding-refresh-data-collection-link = Handsam innstillingar for datainnsamling
+onboarding-refresh-primary-button = Hald fram
+onboarding-refresh-fro-import-header = Ta med deg dataa dine
+onboarding-refresh-fro-import-body = Personopplysningane dine held fram med å vere personlege. { -brand-product-name } vil aldri selje dei.
+onboarding-refresh-fro-skip-button = Hopp over
+onboarding-refresh-fro-theme-header = Leik med din stil
+onboarding-refresh-tab-layout-header = Prøv ei anna faneutforming
+onboarding-refresh-tab-layout-top = På toppen
+onboarding-refresh-tab-layout-side = På sida
+onboarding-refresh-tab-layout-minimal = Minimal
+onboarding-minimal-tabs-tooltip =
+    .title = Eit nettlesarvindauge som viser faner som små ikon langs sida av skjermen, i ein minimert sidestolpe.
+onboarding-minimal-tabs-description =
+    .aria-description = Eit nettlesarvindauge som viser faner som små ikon langs sida av skjermen, i ein minimert sidestolpe.
+smartwindow-switcher-callout = Byt mellom smarte og klassiske vindauge når som helst.
+smartwindow-existing-user-fx-tou-title = Brukarvilkår for { -brand-product-name }
+smartwindow-existing-user-fx-tou-body = For å bruke { -smart-window-brand-name }, må du godta <a data-l10n-name="terms_of_use">bruksvilkåra</a> og den oppdaterte <a data-l10n-name="privacy_notice">personvernfråsegna</a>.
+smartwindow-existing-user-fx-tou-accept = Godta
+smartwindow-existing-user-fx-tou-go-back = Gå tilbake
+smartwindow-onboarding-title = Gjer { -smart-window-brand-name } til ditt føretrekte val
+smartwindow-onboarding-subtitle = Oppsummer, samanlikn og still spørsmål utan å gå glipp av noko.
+smartwindow-onboarding-primary-button = Hald fram
+smartwindow-onboarding-image-alt =
+    .aria-label = Maskoten til { -brand-product-name } (Kit) med rekvisittar forma som stjerner
+smartwindow-sidebar-auto-open-callout-title = Vil du halde assistenten attlaten?
+smartwindow-sidebar-auto-open-callout-body = Du kan framleis opne han når du treng han.
+smartwindow-sidebar-auto-open-callout-accept = Ja, la han vere attlaten
+smartwindow-sidebar-auto-open-callout-dismiss = Nei takk
+smartwindow-sidebar-auto-open-callout-accepted-title = Assistenten vil halde fram med å vere attlaten
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = Bruk «Spør» for å opne han på kva side som helst. Du kan endre dette når som helst i <a data-l10n-name="settings">Innstillingar</a>.
+smartwindow-sidebar-auto-open-callout-rejected-title = Skjønar
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = Om du ombestemmer deg, kan du når som helst oppdatere standardinnstillinga i <a data-l10n-name="settings">Innstillingar</a>.
+onboarding-theme-picker-title = Vel eit tema
+onboarding-theme-picker-subtitle = Gje { -brand-short-name } litt meir farge.
+onboarding-theme-picker-button-label = Lagre og hald fram

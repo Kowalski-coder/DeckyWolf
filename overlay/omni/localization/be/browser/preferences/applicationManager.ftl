@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Падрабязнасці пра праграму
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Выдаліць
+    .accesskey = В
+app-manager-handle-protocol = Наступныя праграмы могуць ўжывацца, каб апрацоўваць Спасылкі { $type }.
+app-manager-handle-file = Наступныя праграмы могуць ўжывацца, каб апрацоўваць Змесціва { $type }.
+app-manager-web-app-info = Гэта праграма ўтрымліваецца тут:
+app-manager-local-app-info = Гэта праграма знаходзіцца тут:

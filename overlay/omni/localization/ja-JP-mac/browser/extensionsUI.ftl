@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } がデフォルト検索エンジンを { $currentEngine } から { $newEngine } へ変更しようとしています。よろしいですか？
+webext-default-search-yes =
+    .label = はい
+    .accesskey = Y
+webext-default-search-no =
+    .label = いいえ
+    .accesskey = N
+addon-post-install-message = { $addonName } が追加されました。
+webext-quarantine-confirmation-title = 制限されたサイトで { $addonName } を実行しますか？
+webext-quarantine-confirmation-line-1 = ユーザーデータを保護するため、このサイトではこの拡張機能の実行が許可されていません。
+webext-quarantine-confirmation-line-2 = { -vendor-short-name } によって制限されたサイトでのユーザーデータの取得と変更について、この拡張機能を信頼する場合のみ許可してください。
+webext-quarantine-confirmation-allow =
+    .label = 許可する
+    .accesskey = A
+webext-quarantine-confirmation-deny =
+    .label = 許可しない
+    .accesskey = D

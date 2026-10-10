@@ -1,0 +1,10 @@
+devtools-tooltip-learn-more = अधिक जानें
+inactive-css-not-grid-or-flex-container-fix-1 = <strong>display:grid</strong> या <strong>display:flex</strong> को जोड़ने की कोशिश करें।
+inactive-css-not-grid-or-flex-container-or-multicol-container-fix-1 = <strong>display:grid</strong>, <strong>display:flex</strong>, या <strong>columns:2</strong> जोड़ने की कोशिश करें।
+inactive-css-not-grid-container-fix-1 = <strong>display:grid</strong> या <strong>display:inline-grid</strong> जोड़ने की कोशिश करें।
+inactive-css-not-flex-container-fix-1 = <strong>display:flex</strong> या <strong>display:inline-flex</strong> जोड़ने की कोशिश करें।
+inactive-css-not-inline-or-tablecell-fix-1 = <strong>display:inline</strong> या <strong>display:table-cell</strong> जोड़ने की कोशिश करें।
+inactive-css-non-replaced-inline-or-table-row-or-row-group-fix-1 = <strong>display:inline-block</strong> या <strong>display:block</strong> जोड़ने की कोशिश करें।
+inactive-css-non-replaced-inline-or-table-column-or-column-group-fix-1 = <strong>display:inline-block</strong> जोड़ने की कोशिश करें।
+inactive-css-not-display-block-on-floated-fix-1 = <strong>float</strong> को हटाने या <strong>display:block</strong> को जोड़ने की कोशिश करें।
+inactive-text-overflow-when-no-overflow-fix-1 = <strong>overflow:hidden</strong> को जोड़ने की कोशिश करें।

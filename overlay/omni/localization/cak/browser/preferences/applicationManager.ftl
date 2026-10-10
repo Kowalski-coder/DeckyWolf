@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Taq kib'anikil chokoy
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Tiyuj
+    .accesskey = y
+app-manager-handle-protocol = Re taq chokoy re' ütz ye'okisäx richin nisamajïx { $type } taq ximonel.
+app-manager-handle-file = Re taq chokoy re' ütz ye'okisäx richin nisamajïx { $type } rupam etamab'äl.
+app-manager-web-app-info = Re ruchokoy ajk'amaya'l re' nilitäj pa:
+app-manager-local-app-info = Re chokoy re' k'o pa:

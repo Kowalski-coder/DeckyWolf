@@ -1,0 +1,16 @@
+taskbar-tab-urlbar-button-open =
+    .tooltiptext = Бетті тапсырмалар панеліне қосу
+taskbar-tab-urlbar-button-close =
+    .tooltiptext = Бетті тапсырмалар панелінен өшіру
+taskbar-tab-urlbar-button-show = Веб-қолданба бетінде әрекетті көрсету
+taskbar-tab-urlbar-button-hide = Веб-қолданба беті әрекетін жасыру
+taskbar-tab-shortcut-description = { $name } веб-қолданбасы
+taskbar-tab-shortcut-folder = { -brand-short-name } веб-қолданбалары
+taskbar-tab-audio-mute =
+    .tooltiptext = Бет дыбысын басу
+taskbar-tab-audio-unmute =
+    .tooltiptext = Бет дыбысын іске қосу
+taskbar-tab-title-default = { -brand-full-name } ішіндегі { $name }
+taskbar-tab-title-container = { -brand-full-name } ішіндегі { $name } ({ $container })
+taskbar-tab-title-profile = { $profile } ішіндегі { $name } — { -brand-full-name }
+taskbar-tab-title-container-profile = { $profile } ішіндегі { $name } ({ $container }) — { -brand-full-name }

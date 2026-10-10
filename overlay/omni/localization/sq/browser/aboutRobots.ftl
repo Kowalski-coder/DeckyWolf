@@ -1,0 +1,10 @@
+page-title = Gort! Klaatu barada nikto!
+error-title-text = Mirë se vini, Qenie Njerëzore!
+error-short-desc-text = Kemi ardhur t'u vizitojmë në paqe dhe me dëshirën e mirë!
+error-long-desc1 = Robotët nuk duhet t'i bëjnë dëm një qenieje njerëzore apo, nëpërmjet mosveprimit, të lejojnë që një qenie njerëzore t'i bëjë dëm vetes.
+error-long-desc2 = Robotët kanë parë gjëra që ju njerëz nuk do t'u zinit besë.
+error-long-desc3 = Roboti është Shoku Juaj Plastik Me të Cilin Ka Lezet të Rrish
+error-long-desc4 = Robotët i kanë prapanicat prej metali, ndaj nuk duhen kafshuar aty.
+error-trailer-desc-text = Dhe e kanë një plan.
+error-try-again = Riprovoni
+    .label2 = Ju lutemi, mos e shtypni prapë këtë buton.

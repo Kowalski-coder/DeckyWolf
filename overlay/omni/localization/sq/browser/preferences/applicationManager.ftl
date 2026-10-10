@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Hollësi aplikacioni
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Hiqe
+    .accesskey = H
+app-manager-handle-protocol = Për trajtimin e lidhjesh { $type } mund të përdoren aplikacionet vijuese.
+app-manager-handle-file = Për trajtimin e lënde { $type } mund të përdoren aplikacionet vijuese.
+app-manager-web-app-info = Ky aplikacion web strehohet në:
+app-manager-local-app-info = Ky aplikacion gjendet te:

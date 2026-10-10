@@ -1,0 +1,17 @@
+onboarding-welcome-header = { -brand-short-name } میں خوش آمدید
+onboarding-start-browsing-button-label = براؤزنگ شروع کریں
+onboarding-not-now-button-label = ابھی نہیں
+mr1-onboarding-get-started-primary-button-label = شروع کریں
+return-to-amo-subtitle = بہت اچھا ، آپ کو { -brand-short-name } مل گیا ہے
+return-to-amo-add-extension-label = ایکسٹینشن  شامل کریں
+mr1-onboarding-reduce-motion-button-label = متحرک تصاویر بند کردیں
+mr1-onboarding-sign-in-button-label = سائن ان کریں
+mr1-onboarding-import-primary-button-label-attribution = { $previous } سے درآمد کریں
+mr1-onboarding-theme-header = اسے اپنا بنائیں
+mr1-onboarding-theme-secondary-button-label = ابھی نہیں
+mr1-onboarding-theme-label-system = سسٹم تھیم
+mr1-onboarding-theme-label-light = ہلکا
+mr1-onboarding-theme-label-dark = گہرا
+mr1-onboarding-theme-label-alpenglow = ایلپینگلو
+mr2-onboarding-thank-you-header = ہمیں منتخب کرنے کے لیے آپ کا شکریہ
+mr2-onboarding-start-browsing-button-label = براؤزنگ شروع کریں

@@ -1,0 +1,17 @@
+webext-default-search-description = { $addonName } vol canviar el motor de cerca per defecte { $currentEngine } per { $newEngine }. Voleu continuar?
+webext-default-search-yes =
+    .label = Sí
+    .accesskey = S
+webext-default-search-no =
+    .label = No
+    .accesskey = N
+addon-post-install-message = S'ha afegit «{ $addonName }».
+webext-quarantine-confirmation-title = Voleu executar «{ $addonName }» en llocs restringits?
+webext-quarantine-confirmation-line-1 = Per protegir les vostres dades, no es permet aquesta extensió en aquest lloc.
+webext-quarantine-confirmation-line-2 = Permeteu que aquesta extensió s'executi si confieu en què llegeixi i canviï les vostres dades en els llocs restringits per { -vendor-short-name }.
+webext-quarantine-confirmation-allow =
+    .label = Permet
+    .accesskey = P
+webext-quarantine-confirmation-deny =
+    .label = No ho permetis
+    .accesskey = N

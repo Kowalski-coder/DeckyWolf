@@ -1,0 +1,17 @@
+about-policies-title = Tasertit n tkebbanit
+aboutpolicies-page-heading =
+    .heading = Ɣef tsertiyin
+active-policies-tab = Urmid
+errors-tab = Tuccḍiwin
+documentation-tab = Tasemlit
+active-policies-tab-title =
+    .title = Urmid
+errors-tab-title =
+    .title = Tuccḍiwin
+documentation-tab-title =
+    .title = Tasemlit
+no-specified-policies-message = Ameẓlu n tsertiyin n tkebbanit yermed maca ulac tisertiyin yettwarmden.
+inactive-message = Ameẓlu n tsertiyin n tkebbanit ur yermid ara.
+policy-name = Isem n tsertit
+policy-value = Azal n tsertit
+policy-errors = Tucciwin n tsertit

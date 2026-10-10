@@ -1,0 +1,39 @@
+genai-settings-chat-chatgpt-links = چیٹ جی پی ٹی چُݨݨ نال تساں اوپن اے آئی دیاں <a data-l10n-name="link1">ورتݨ شرطاں</a> تے <a data-l10n-name="link2">رازداری پالیسی</a> نال متفق ہوسو۔
+genai-settings-chat-copilot-links = کوپائلٹ چُݨݨ نال تساں <a data-l10n-name="link1">کوپائلٹ اے آئی تجربے دیاں شرطاں</a> تے <a data-l10n-name="link2">مائیکروسافٹ رازداری پالیسی</a> نال متفق ہوسو۔
+genai-settings-chat-huggingchat-links = ہگنگ چیٹ چُݨݨ نال تساں  <a data-l10n-name="link1">ہگنگ چیٹ رازداری نوٹس</a> تے <a data-l10n-name="link2">ہگنگ فیس رازداری پالیسی</a> نال متفق ہوسو۔
+genai-prompt-prefix-selection = میں “{ $selection }” چݨے ہوئے نال “{ $tabTitle }“ ورقے تے ہاں۔
+genai-prompts-simplify =
+    .label = زبان سادہ بݨاؤ
+    .value = سوہݨا، چݨے ہوئے کوں سادہ لفظ تے مختصر جملے ورت تے ولدا لکھو۔ مطلب تے حقائق  دی درستی برقرار رکھو۔
+genai-prompts-explain =
+    .label = ایندی وضاحت کرو۔
+    .value = سوہݨا، سادہ الفاظ ورت تے، ایں انتخاب وچ اہم تصورات دی وضاحت کرو۔ مثالاں وی ورتو۔
+genai-input-ask-generic =
+    .placeholder = اے آئی چیٹ بوٹ کنوں پچھو۔۔۔
+genai-input-ask-provider =
+    .placeholder = { $provider } کنوں پچھو ۔۔۔
+genai-shortcuts-hide =
+    .label = چیٹ بوٹ شارٹ کٹ لکاؤ
+genai-chatbot-title = اے آئی چیٹ بوٹ
+genai-header-provider-menu =
+    .title = چیٹ بوٹ چݨو
+genai-header-close-button =
+    .title = بند کرو
+genai-provider-view-details =
+    .label = چیٹ بوٹ تفصیلاں ݙیکھو
+genai-options-reload-generic =
+    .label = اے آئی چیٹ بوٹ ولدا لوڈ کرو
+genai-options-reload-provider =
+    .label = { $provider } ولدا لوڈ کرو
+genai-options-about-chatbot =
+    .label = { -brand-short-name } وچ اے آئی چیٹ بوٹاں بارے
+genai-onboarding-primary = جاری
+genai-onboarding-secondary = بند کرو
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat

@@ -1,0 +1,16 @@
+colors-close-key =
+    .key = w
+colors-text-and-background = Téacs agus Cúlra
+colors-text =
+    .label = Téacs
+    .accesskey = T
+colors-text-background =
+    .label = Cúlra
+    .accesskey = C
+colors-links-header = Dathanna Nasc
+colors-links-unvisited =
+    .label = Naisc gan Chuairt
+    .accesskey = g
+colors-links-visited =
+    .label = Naisc Fheicthe
+    .accesskey = F

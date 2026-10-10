@@ -1,0 +1,10 @@
+app-manager-window2 =
+    .title = Detalios del application
+    .style = min-width: 30em; min-height: 20em;
+app-manager-remove =
+    .label = Remover
+    .accesskey = R
+app-manager-handle-protocol = Le sequente applicationes pote esser usate pro ligamines “{ $type }”.
+app-manager-handle-file = Le sequente applicationes pote esser usate pro contento “{ $type }”.
+app-manager-web-app-info = Iste application web es albergate in le hoste:
+app-manager-local-app-info = Iste application es locate in:

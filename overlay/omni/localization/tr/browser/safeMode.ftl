@@ -1,0 +1,10 @@
+troubleshoot-mode-window =
+    .title = { -brand-short-name } sorun giderme modunda açılsın mı?
+    .style = max-width: 400px
+start-troubleshoot-mode =
+    .label = Aç
+refresh-profile =
+    .label = { -brand-short-name } tarayıcısını yenile
+troubleshoot-mode-description = Sorunları tanılamak için bu özel { -brand-short-name } modunu kullanabilirsiniz. Uzantılarınız ve özelleştirmeleriniz geçici olarak devre dışı bırakılacaktır.
+skip-troubleshoot-refresh-profile = Ayrıca sorun gidermeyi atlayıp { -brand-short-name } tarayıcısını yenilemeyi de deneyebilirsiniz.
+auto-safe-mode-description = { -brand-short-name } başlarken beklenmeyen bir şekilde kapandı. Bu, eklentilerden veya başka sorunlardan kaynaklanmış olabilir. Güvenli kipi başlatarak sorunu gidermeyi deneyebilirsiniz.
