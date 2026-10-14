@@ -8,13 +8,23 @@ export MOZ_APP_LAUNCHER="${APPIMAGE}" # Allows setting as default browser
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
     "${CURRENTDIR}/usr/bin/deckywolf-controller" &
     CONTROLLER_PID=$!
-    cleanup() {
-        if [ -n "${CONTROLLER_PID}" ]; then
-            kill "${CONTROLLER_PID}" 2>/dev/null
-        fi
-    }
-    trap cleanup EXIT INT TERM
 fi
+
+# Start background Projacktor Web UI server on port 8402
+if [ -d "${CURRENTDIR}/usr/share/deckywolf/projacktor" ]; then
+    python3 -m http.server 8402 --directory "${CURRENTDIR}/usr/share/deckywolf/projacktor" >/dev/null 2>&1 &
+    PROJACKTOR_PID=$!
+fi
+
+cleanup() {
+    if [ -n "${CONTROLLER_PID}" ]; then
+        kill "${CONTROLLER_PID}" 2>/dev/null
+    fi
+    if [ -n "${PROJACKTOR_PID}" ]; then
+        kill "${PROJACKTOR_PID}" 2>/dev/null
+    fi
+}
+trap cleanup EXIT INT TERM
 
 # Ensure LD_PRELOAD path has no spaces (AppImage path might contain spaces)
 if [ -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" ]; then

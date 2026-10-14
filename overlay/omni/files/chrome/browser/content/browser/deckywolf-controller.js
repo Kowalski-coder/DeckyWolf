@@ -35,6 +35,52 @@ var DeckyWolfController = {
     } catch (e) {
       console.error("[DeckyWolf] Failed to register pref observer:", e);
     }
+
+    // Handle Projacktor AppMenu button
+    window.addEventListener("command", (e) => {
+      let target = e.target;
+      if (target && (target.id === "appMenu-projacktor-button" || (target.closest && target.closest("#appMenu-projacktor-button")))) {
+        this.openProjacktor(e);
+      }
+    }, true);
+
+    window.addEventListener("click", (e) => {
+      let target = e.target;
+      if (e.button === 0 && target && (target.id === "appMenu-projacktor-button" || (target.closest && target.closest("#appMenu-projacktor-button")))) {
+        this.openProjacktor(e);
+      }
+    }, true);
+  },
+
+  openProjacktor(e) {
+    if (e) {
+      try { e.preventDefault(); } catch (_) {}
+      try { e.stopPropagation(); } catch (_) {}
+    }
+    try {
+      if (window.PanelUI) {
+        window.PanelUI.hide();
+      }
+    } catch (_) {}
+
+    const url = "http://127.0.0.1:8402/";
+    try {
+      if (typeof openTrustedLinkIn === "function") {
+        openTrustedLinkIn(url, "tab");
+        return;
+      }
+    } catch (_) {}
+
+    try {
+      if (window.gBrowser) {
+        window.gBrowser.selectedTab = window.gBrowser.addWebTab(url);
+        return;
+      }
+    } catch (_) {}
+
+    try {
+      window.open(url, "_blank");
+    } catch (_) {}
   },
 
   bindButton() {
@@ -49,6 +95,19 @@ var DeckyWolfController = {
         if (e.button === 0) {
           e.stopPropagation();
           this.toggleMode();
+        }
+      });
+    }
+
+    let pBtn = document.getElementById("appMenu-projacktor-button");
+    if (pBtn && !pBtn._deckywolfBound) {
+      pBtn._deckywolfBound = true;
+      pBtn.addEventListener("command", (e) => {
+        this.openProjacktor(e);
+      });
+      pBtn.addEventListener("click", (e) => {
+        if (e.button === 0) {
+          this.openProjacktor(e);
         }
       });
     }

@@ -11,7 +11,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
-OUT_APPIMAGE="$SCRIPT_DIR/deckywolf.AppImage"
+VERSION="157.0.1-1.projactor-edition-0.1"
+OUT_APPIMAGE="$SCRIPT_DIR/deckywolf-${VERSION}.AppImage"
 
 cleanup() {
     rm -rf "$BUILD_TMP"
@@ -136,6 +137,7 @@ echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"
 ARCH=x86_64 appimagetool "$SQUASHFS_TARGET" "$OUT_APPIMAGE" >/dev/null
 chmod +x "$OUT_APPIMAGE"
+ln -sf "$(basename "$OUT_APPIMAGE")" "$SCRIPT_DIR/deckywolf.AppImage"
 
 echo "==> Build successful! Result: $OUT_APPIMAGE"
-ls -lh "$OUT_APPIMAGE"
+ls -lh "$OUT_APPIMAGE" "$SCRIPT_DIR/deckywolf.AppImage"
