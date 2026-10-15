@@ -1,5 +1,6 @@
 *.AppImage
 *.squashfs
+*.zip
 Снимок экрана_*.png
 __pycache__/
 *.pyc

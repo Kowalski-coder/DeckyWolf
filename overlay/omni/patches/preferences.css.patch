@@ -1,5 +1,5 @@
---- /tmp/orig_browser_omni/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 17:18:23.000000000 +0300
-+++ /tmp/browser_work/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 20:28:08.037596697 +0300
+--- a/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 17:18:23.000000000 +0300
++++ b/chrome/browser/skin/classic/browser/preferences/preferences.css	2026-10-10 20:28:08.037596697 +0300
 @@ -1787,3 +1787,98 @@
  a:hover, .text-link:hover {
    color: #38bdf8 !important;

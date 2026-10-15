@@ -1,5 +1,5 @@
---- /tmp/orig_browser_omni/chrome/browser/content/browser/preferences/preferences.xhtml	2026-10-10 17:17:56.000000000 +0300
-+++ /tmp/browser_work/chrome/browser/content/browser/preferences/preferences.xhtml	2026-10-10 21:01:58.473999158 +0300
+--- a/chrome/browser/content/browser/preferences/preferences.xhtml	2026-10-10 17:17:56.000000000 +0300
++++ b/chrome/browser/content/browser/preferences/preferences.xhtml	2026-10-10 21:01:58.473999158 +0300
 @@ -128,6 +128,11 @@
          iconsrc="chrome://browser/skin/preferences/category-sync.svg"
          data-l10n-id="pane-sync-title3">

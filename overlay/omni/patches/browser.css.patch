@@ -1,9 +1,9 @@
 --- a/chrome/browser/skin/classic/browser/browser.css
 +++ b/chrome/browser/skin/classic/browser/browser.css
-@@ -581,3 +581,11 @@
-   background: #eab308 !important;
+@@ -305,3 +305,10 @@
+ .titlebar-return-to-opener {
+   --titlebar-button-position: env(-moz-gtk-csd-minimize-button-position);
  }
- 
 +
 +/* Projacktor menu item: pure text, no icon or empty indent */
 +#appMenu-projacktor-button > .toolbarbutton-icon {

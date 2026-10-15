@@ -161,15 +161,6 @@
         "SearchEngines": {
             "Add": [
                 {
-                    "Name": "Яндекс",
-                    "URLTemplate": "https://yandex.ru/search/?text={searchTerms}",
-                    "Method": "GET",
-                    "IconURL": "https://yandex.ru/favicon.ico",
-                    "Alias": "ya",
-                    "Description": "Яндекс",
-                    "SuggestURLTemplate": "https://suggest.yandex.ru/suggest-ff.cgi?part={searchTerms}"
-                },
-                {
                     "Name": "Google",
                     "URLTemplate": "https://www.google.com/search?q={searchTerms}",
                     "Method": "GET",

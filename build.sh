@@ -11,8 +11,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
-VERSION="157.0.1-1.projactor-edition-0.1"
-OUT_APPIMAGE="$SCRIPT_DIR/deckywolf-${VERSION}.AppImage"
+VERSION="157.0.1-1"
+OUT_APPIMAGE="$(dirname "$SCRIPT_DIR")/deckywolf.AppImage"
 
 cleanup() {
     rm -rf "$BUILD_TMP"
@@ -74,13 +74,15 @@ mkdir -p "$SQUASHFS_TARGET/usr/bin/distribution"
 cp -f "$OVERLAY_DIR/usr/bin/deckywolf-controller" "$SQUASHFS_TARGET/usr/bin/"
 chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf-controller"
 cp -f "$OVERLAY_DIR/usr/bin/librewolf.cfg" "$SQUASHFS_TARGET/usr/bin/"
-cp -f "$OVERLAY_DIR/usr/bin/distribution/policies.json" "$SQUASHFS_TARGET/usr/bin/distribution/"
+cp -a "$OVERLAY_DIR/usr/bin/distribution"/* "$SQUASHFS_TARGET/usr/bin/distribution/"
 if [ -f "$OVERLAY_DIR/usr/bin/application.ini" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/application.ini" "$SQUASHFS_TARGET/usr/bin/"
 fi
 if [ -f "$OVERLAY_DIR/usr/bin/deckywolf" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/deckywolf" "$SQUASHFS_TARGET/usr/bin/"
     chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf"
+elif [ -f "$SQUASHFS_TARGET/usr/bin/librewolf" ]; then
+    ln -sf librewolf "$SQUASHFS_TARGET/usr/bin/deckywolf"
 fi
 ln -sf deckywolf "$SQUASHFS_TARGET/usr/bin/deckywolf-bin" 2>/dev/null || true
 
@@ -137,7 +139,6 @@ echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"
 ARCH=x86_64 appimagetool "$SQUASHFS_TARGET" "$OUT_APPIMAGE" >/dev/null
 chmod +x "$OUT_APPIMAGE"
-ln -sf "$(basename "$OUT_APPIMAGE")" "$SCRIPT_DIR/deckywolf.AppImage"
-
 echo "==> Build successful! Result: $OUT_APPIMAGE"
-ls -lh "$OUT_APPIMAGE" "$SCRIPT_DIR/deckywolf.AppImage"
+ls -lh "$OUT_APPIMAGE"
+

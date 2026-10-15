@@ -1,6 +1,7 @@
 #!/bin/sh
 CURRENTDIR="$(dirname "$(readlink -f "$0")")"
 export PATH="${CURRENTDIR}/usr/bin:${PATH}"
+export LD_LIBRARY_PATH="${CURRENTDIR}/usr/bin:${CURRENTDIR}/usr/lib:${LD_LIBRARY_PATH}"
 export MOZ_LEGACY_PROFILES=1          # Prevent per installation profiles
 export MOZ_APP_LAUNCHER="${APPIMAGE}" # Allows setting as default browser
 
@@ -15,6 +16,7 @@ if [ -d "${CURRENTDIR}/usr/share/deckywolf/projacktor" ]; then
     python3 -m http.server 8402 --directory "${CURRENTDIR}/usr/share/deckywolf/projacktor" >/dev/null 2>&1 &
     PROJACKTOR_PID=$!
 fi
+
 
 cleanup() {
     if [ -n "${CONTROLLER_PID}" ]; then

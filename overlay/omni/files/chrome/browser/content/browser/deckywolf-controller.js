@@ -50,6 +50,32 @@ var DeckyWolfController = {
         this.openProjacktor(e);
       }
     }, true);
+
+    // Register DeckyLoader site integration actor
+    try {
+      ChromeUtils.registerWindowActor("DeckySiteIntegration", {
+        parent: {
+          esModuleURI: "resource:///actors/DeckySiteIntegrationParent.sys.mjs",
+        },
+        child: {
+          esModuleURI: "resource:///actors/DeckySiteIntegrationChild.sys.mjs",
+          events: {
+            DOMContentLoaded: {},
+            pageshow: {},
+          },
+        },
+        matches: [
+          "*://deckyloader.ru/*",
+          "*://www.deckyloader.ru/*",
+          "https://deckyloader.ru/*",
+          "https://www.deckyloader.ru/*",
+          "http://deckyloader.ru/*",
+          "http://www.deckyloader.ru/*"
+        ],
+        allFrames: false,
+        safeForUntrustedWebProcess: true,
+      });
+    } catch (_) {}
   },
 
   openProjacktor(e) {
