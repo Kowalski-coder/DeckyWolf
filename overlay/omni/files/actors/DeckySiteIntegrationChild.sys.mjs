@@ -612,6 +612,7 @@ function PAGE_SCRIPT() {
     if (Array.isArray(window.__INITIAL_PLUGINS__)) {
       remotePlugin = window.__INITIAL_PLUGINS__.find(p => norm(p.name) === norm(pluginName) || stripPrefix(norm(p.name)) === stripPrefix(norm(pluginName)));
     }
+    const effectiveName = (remotePlugin && remotePlugin.name) ? remotePlugin.name : pluginName;
 
     let siteVer = "";
     let artifactUrl = "";
@@ -651,61 +652,40 @@ function PAGE_SCRIPT() {
       thumbWrapper.appendChild(badge);
     }
 
+    // Permanently remove GitFlic tooltip from thumbWrapper and card so it never hovers over buttons
+    thumbWrapper.removeAttribute("title");
+    card.removeAttribute("title");
+    const parentA = card.closest("a");
+    if (parentA) parentA.removeAttribute("title");
+
     const overlay = document.createElement("div");
     overlay.className = "decky-action-overlay";
-    overlay.setAttribute("title", ""); // Blank title stops inheritance of parent card tooltip
+    overlay.removeAttribute("title");
 
-    // Prevent parent GitFlic / card tooltip when hovering overlay/buttons
     overlay.addEventListener("mouseenter", (e) => {
       e.stopPropagation();
-      const parentLink = card.closest("a") || card.querySelector("a") || card;
-      if (parentLink && parentLink.hasAttribute("title") && !parentLink.dataset.savedTitle) {
-        parentLink.dataset.savedTitle = parentLink.getAttribute("title");
-        parentLink.removeAttribute("title");
-      }
-      if (thumbWrapper.hasAttribute("title") && !thumbWrapper.dataset.savedTitle) {
-        thumbWrapper.dataset.savedTitle = thumbWrapper.getAttribute("title");
-        thumbWrapper.removeAttribute("title");
-      }
-      if (card.hasAttribute("title") && !card.dataset.savedTitle) {
-        card.dataset.savedTitle = card.getAttribute("title");
-        card.removeAttribute("title");
-      }
-      card.querySelectorAll("[title]").forEach(el => {
-        if (!el.closest(".decky-action-overlay") && !el.dataset.savedTitle) {
-          el.dataset.savedTitle = el.getAttribute("title");
-          el.removeAttribute("title");
-        }
-      });
+      thumbWrapper.removeAttribute("title");
+      card.removeAttribute("title");
+      if (parentA) parentA.removeAttribute("title");
     });
 
-    const restoreTitlesAndBlur = () => {
-      if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
-        document.activeElement.blur();
-      }
-      const parentLink = card.closest("a") || card.querySelector("a") || card;
-      if (parentLink && parentLink.dataset.savedTitle) {
-        parentLink.setAttribute("title", parentLink.dataset.savedTitle);
-        delete parentLink.dataset.savedTitle;
-      }
-      if (thumbWrapper.dataset.savedTitle) {
-        thumbWrapper.setAttribute("title", thumbWrapper.dataset.savedTitle);
-        delete thumbWrapper.dataset.savedTitle;
-      }
-      if (card.dataset.savedTitle) {
-        card.setAttribute("title", card.dataset.savedTitle);
-        delete card.dataset.savedTitle;
-      }
-      card.querySelectorAll("[data-saved-title]").forEach(el => {
-        el.setAttribute("title", el.dataset.savedTitle);
-        delete el.dataset.savedTitle;
-      });
-    };
-
-    overlay.addEventListener("mouseleave", restoreTitlesAndBlur);
     if (!card._deckyLeaveBound) {
       card._deckyLeaveBound = true;
-      card.addEventListener("mouseleave", restoreTitlesAndBlur);
+      card.addEventListener("mouseleave", () => {
+        if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
+      });
+      card.addEventListener("mouseenter", () => {
+        thumbWrapper.removeAttribute("title");
+        card.removeAttribute("title");
+        if (parentA) parentA.removeAttribute("title");
+        document.querySelectorAll(".plugin-card").forEach(other => {
+          if (other !== card && other.contains(document.activeElement)) {
+            document.activeElement.blur();
+          }
+        });
+      });
     }
 
     const progress = document.createElement("div");
@@ -759,7 +739,7 @@ function PAGE_SCRIPT() {
       `;
       btnInstall.addEventListener("click", (e) => {
         e.stopPropagation();
-        triggerAction(card, "install", pluginName, siteVer, artifactUrl, hash, btnInstall);
+        triggerAction(card, "install", effectiveName, siteVer, artifactUrl, hash, btnInstall);
       });
       buttonsRow.appendChild(btnInstall);
     } else {
@@ -801,7 +781,7 @@ function PAGE_SCRIPT() {
       }
       btnPrimary.addEventListener("click", (e) => {
         e.stopPropagation();
-        triggerAction(card, isSameVersion ? "reinstall" : (isNewer ? "update" : "install"), pluginName, siteVer, artifactUrl, hash, btnPrimary);
+        triggerAction(card, isSameVersion ? "reinstall" : (isNewer ? "update" : "install"), effectiveName, siteVer, artifactUrl, hash, btnPrimary);
       });
       buttonsRow.appendChild(btnPrimary);
 
@@ -817,7 +797,7 @@ function PAGE_SCRIPT() {
       `;
       btnDelete.addEventListener("click", (e) => {
         e.stopPropagation();
-        triggerAction(card, "delete", pluginName, siteVer, artifactUrl, hash, btnDelete);
+        triggerAction(card, "delete", effectiveName, siteVer, artifactUrl, hash, btnDelete);
       });
       buttonsRow.appendChild(btnDelete);
     }

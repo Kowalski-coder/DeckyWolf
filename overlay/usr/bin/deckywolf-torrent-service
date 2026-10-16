@@ -142,21 +142,32 @@ def decky_rpc_call(route, args=None, timeout=5):
     if not s:
         return {"ok": False, "error": "decky_not_running"}
     try:
+        _send_ws_frame(s, {"type": 4, "messages": []})
         req_id = int(time.time() * 1000) % 100000
         _send_ws_frame(s, {"type": 0, "route": route, "args": args or [], "id": req_id})
         start = time.time()
         while time.time() - start < timeout:
-            opcode, payload = _recv_ws_frame(s)
+            try:
+                opcode, payload = _recv_ws_frame(s)
+            except socket.timeout:
+                continue
+            if opcode == 0x08:  # close
+                break
             if opcode == 0x09:  # ping
                 _send_ws_frame(s, b"", opcode=0x0A)
                 continue
             if opcode == 0x01:
                 msg = json.loads(payload.decode('utf-8'))
-                if msg.get("id") == req_id:
+                m_type = msg.get("type")
+                m_id = msg.get("id")
+                if m_type in (1, -1, 2) and m_id is not None:
+                    _send_ws_frame(s, {"type": 3, "id": m_id})
+                if m_id == req_id:
                     s.close()
-                    if msg.get("type") == -1:
+                    if m_type == -1:
                         err = msg.get("error", {})
-                        return {"ok": False, "error": err.get("message", "rpc_failed")}
+                        err_text = err.get("error") or err.get("message", "rpc_failed")
+                        return {"ok": False, "error": err_text}
                     return {"ok": True, "result": msg.get("result")}
         s.close()
         return {"ok": False, "error": "timeout"}
@@ -165,12 +176,16 @@ def decky_rpc_call(route, args=None, timeout=5):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=50):
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=60):
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
     try:
-        req_id = 1
+        # Synchronize WS state with Decky Loader
+        _send_ws_frame(s, {"type": 4, "messages": []})
+
+        req_id = int(time.time() * 1000) % 100000
+        confirm_id = req_id + 1
         _send_ws_frame(s, {
             "type": 0,
             "route": "utilities/install_plugin",
@@ -191,46 +206,72 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=50):
                 continue
             if opcode == 0x01:
                 msg = json.loads(payload.decode('utf-8'))
-                ev = msg.get("event")
-                # Auto-confirm install prompt
-                if ev == "loader/add_plugin_install_prompt":
+                m_type = msg.get("type")
+                m_id = msg.get("id")
+
+                # Always acknowledge REPLY, ERROR, DISCARD to keep WSRouter in sync
+                if m_type in (1, -1, 2) and m_id is not None:
+                    _send_ws_frame(s, {"type": 3, "id": m_id})
+
+                # If initial call failed with error:
+                if m_id == req_id and m_type == -1:
+                    err = msg.get("error", {})
+                    try: s.close()
+                    except Exception: pass
+                    err_msg = err.get("error") or err.get("message") or "install_call_failed"
+                    return {"ok": False, "error": err_msg}
+
+                # Handle confirmation error
+                if m_id == confirm_id and m_type == -1:
+                    err = msg.get("error", {})
+                    try: s.close()
+                    except Exception: pass
+                    err_msg = err.get("error") or err.get("message") or "confirmation_failed"
+                    return {"ok": False, "error": err_msg}
+
+                # Handle events
+                if m_type == 5:
+                    ev = msg.get("event")
                     args = msg.get("args", [])
-                    if len(args) >= 3:
-                        prompt_id = args[2]
+                    if ev == "loader/add_plugin_install_prompt":
+                        prompt_id = args[2] if len(args) >= 3 else args[0]
                         _send_ws_frame(s, {
                             "type": 0,
                             "route": "utilities/confirm_plugin_install",
                             "args": [prompt_id],
-                            "id": 2
+                            "id": confirm_id
                         })
                         confirmed = True
-                elif ev in ("loader/plugin_download_finish", "loader/load_plugin", "loader/plugin_installed"):
-                    time.sleep(0.5)
-                    try: s.close()
-                    except Exception: pass
-                    decky_rpc_call("loader/reload_plugin", [name])
-                    return {"ok": True, "name": name}
-                elif msg.get("type") == -1 and msg.get("id") == 2:
-                    err = msg.get("error", {})
-                    try: s.close()
-                    except Exception: pass
-                    return {"ok": False, "error": err.get("message", "confirmation_failed")}
+                    elif ev == "loader/add_multiple_plugins_install_prompt":
+                        prompt_id = args[0] if len(args) >= 1 else ""
+                        _send_ws_frame(s, {
+                            "type": 0,
+                            "route": "utilities/confirm_plugin_install",
+                            "args": [prompt_id],
+                            "id": confirm_id
+                        })
+                        confirmed = True
+                    elif ev in ("loader/plugin_download_finish", "loader/import_plugin", "loader/load_plugin", "loader/plugin_installed"):
+                        time.sleep(0.5)
+                        try: s.close()
+                        except Exception: pass
+                        decky_rpc_call("loader/reload_plugin", [name])
+                        return {"ok": True, "name": name}
         try: s.close()
         except Exception: pass
 
         # Poll loader/get_plugins for up to 8 seconds in case event frame was missed
+        hb_dir = get_homebrew_dir()
         for _ in range(8):
             res = decky_rpc_call("loader/get_plugins", timeout=3)
             if res.get("ok"):
                 installed_names = [p.get("name") for p in res.get("result", [])]
                 if name in installed_names:
                     return {"ok": True, "name": name}
+            if os.path.isdir(os.path.join(hb_dir, "plugins", name)):
+                decky_rpc_call("loader/reload_plugin", [name])
+                return {"ok": True, "name": name}
             time.sleep(1)
-
-        # Check file system
-        hb_dir = get_homebrew_dir()
-        if os.path.isdir(os.path.join(hb_dir, "plugins", name)):
-            return {"ok": True, "name": name}
 
         return {"ok": False, "error": "install_timeout"}
     except Exception as e:
@@ -238,12 +279,13 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=50):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_uninstall_plugin(name, timeout=10):
+def decky_uninstall_plugin(name, timeout=15):
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
     try:
-        req_id = 9
+        _send_ws_frame(s, {"type": 4, "messages": []})
+        req_id = int(time.time() * 1000) % 100000
         _send_ws_frame(s, {
             "type": 0,
             "route": "utilities/uninstall_plugin",
@@ -256,10 +298,25 @@ def decky_uninstall_plugin(name, timeout=10):
                 opcode, payload = _recv_ws_frame(s)
             except socket.timeout:
                 continue
+            if opcode == 0x08:
+                break
+            if opcode == 0x09:
+                _send_ws_frame(s, b"", opcode=0x0A)
+                continue
             if opcode == 0x01:
                 msg = json.loads(payload.decode('utf-8'))
-                if msg.get("id") == req_id or msg.get("event") == "loader/unload_plugin":
-                    time.sleep(0.3)
+                m_type = msg.get("type")
+                m_id = msg.get("id")
+                if m_type in (1, -1, 2) and m_id is not None:
+                    _send_ws_frame(s, {"type": 3, "id": m_id})
+                if m_id == req_id:
+                    s.close()
+                    if m_type == -1:
+                        err = msg.get("error", {})
+                        err_msg = err.get("error") or err.get("message") or "uninstall_failed"
+                        return {"ok": False, "error": err_msg}
+                    return {"ok": True, "result": msg.get("result")}
+                if m_type == 5 and msg.get("event") in ("loader/unload_plugin", "loader/disable_plugin"):
                     s.close()
                     return {"ok": True, "name": name}
         s.close()
@@ -277,12 +334,12 @@ def ensure_torrentwolf_zip():
     base_share = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins")
     if not os.path.isdir(base_share):
         base_share = "/usr/share/deckywolf/plugins"
-    zip_path = os.path.join(base_share, "TorrentWolf.zip")
+    prebuilt_zip = os.path.join(base_share, "TorrentWolf.zip")
+    if os.path.isfile(prebuilt_zip):
+        return prebuilt_zip
+
+    zip_path = "/tmp/TorrentWolf.zip"
     src_dir = os.path.join(base_share, "TorrentWolf")
-
-    if not os.path.isdir(os.path.dirname(zip_path)) or not os.access(os.path.dirname(zip_path), os.W_OK):
-        zip_path = "/tmp/TorrentWolf.zip"
-
     if os.path.isdir(src_dir):
         try:
             with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
@@ -590,9 +647,9 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                     install_res = decky_install_plugin(
                         f"http://127.0.0.1:{PORT}/plugins/TorrentWolf.zip",
                         "TorrentWolf",
-                        "1.0.0",
+                        "2.1.0",
                         "",
-                        timeout=50
+                        timeout=60
                     )
                     if install_res.get("ok"):
                         self.send_json({"ok": True, "installed": True})
@@ -745,7 +802,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
             token = get_decky_token()
             if token:
-                res = decky_install_plugin(artifact_url, name, version, hash_val, timeout=45)
+                res = decky_install_plugin(artifact_url, name, version, hash_val, timeout=60)
                 if res.get("ok"):
                     self.send_json({"ok": True, "name": name})
                     return
