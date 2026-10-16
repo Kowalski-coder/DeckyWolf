@@ -1704,27 +1704,9 @@ setting-pane[onsearchpane] {
   --toggle-background-color-pressed-active: #0284c7 !important;
 }
 
-#categories moz-page-nav-button:hover,
-#categories moz-page-nav-button button:hover:not([selected]),
-moz-page-nav-button:hover,
-moz-page-nav-button button:hover:not([selected]) {
-  background-color: rgba(16, 152, 254, 0.22) !important;
-  color: #f8fafc !important;
-}
-
-#categories moz-page-nav-button:active,
-#categories moz-page-nav-button button:active,
-moz-page-nav-button:active,
-moz-page-nav-button button:active {
-  background-color: rgba(16, 152, 254, 0.38) !important;
-}
-
-#categories moz-page-nav-button[selected],
-#categories moz-page-nav-button button[selected],
-moz-page-nav-button[selected],
-moz-page-nav-button button[selected] {
-  background-color: #1098fe !important;
-  color: #ffffff !important;
+moz-page-nav-button {
+  background: transparent !important;
+  border-radius: var(--border-radius-circle, 9999px) !important;
 }
 
 ::selection {

@@ -235,7 +235,7 @@ function PAGE_SCRIPT() {
       flex-direction: column;
       align-items: stretch;
       gap: 6px;
-      background: linear-gradient(to top, rgba(6, 9, 15, 0.98) 0%, rgba(6, 9, 15, 0.94) 80%, rgba(6, 9, 15, 0.8) 100%);
+      background: transparent !important;
       transform: translateY(100%);
       opacity: 0;
       visibility: hidden;
@@ -246,7 +246,6 @@ function PAGE_SCRIPT() {
 
     .plugin-card:hover .decky-action-overlay,
     .plugin-thumb-wrapper:hover .decky-action-overlay,
-    .plugin-card:focus-within .decky-action-overlay,
     .plugin-card.decky-action-in-progress .decky-action-overlay {
       transform: translateY(0) !important;
       opacity: 1 !important;
@@ -258,10 +257,11 @@ function PAGE_SCRIPT() {
       display: flex;
       align-items: center;
       gap: 6px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 6px;
       padding: 3px 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     }
 
     .decky-version-label {
@@ -671,6 +671,20 @@ function PAGE_SCRIPT() {
     const overlay = document.createElement("div");
     overlay.className = "decky-action-overlay";
     overlay.removeAttribute("title");
+
+    if (!card._deckyLeaveBound) {
+      card._deckyLeaveBound = true;
+      card.addEventListener("mouseleave", () => {
+        if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
+      });
+      card.addEventListener("mouseenter", () => {
+        if (document.activeElement && !card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
+      });
+    }
 
     const progress = document.createElement("div");
     progress.className = "decky-progress-bar";

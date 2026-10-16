@@ -219,11 +219,39 @@ def find_plugin_on_disk(hb_dir, query_name):
             pass
     return None
 
+def get_exact_manifest_name(hb_dir, query_name):
+    if not hb_dir:
+        hb_dir = get_homebrew_dir()
+    pdir = os.path.join(hb_dir, "plugins")
+    if not os.path.isdir(pdir) or not query_name:
+        return query_name
+    target_norm = normalize_plugin_name(query_name)
+    for entry in os.listdir(pdir):
+        full = os.path.join(pdir, entry)
+        if not os.path.isdir(full):
+            continue
+        pjson = os.path.join(full, "plugin.json")
+        if not os.path.isfile(pjson):
+            continue
+        try:
+            with open(pjson, "r", encoding="utf-8") as f:
+                d = json.load(f)
+                mname = d.get("name", "")
+                if mname:
+                    if mname == query_name:
+                        return mname
+                    if mname.lower() == query_name.lower() or normalize_plugin_name(mname) == target_norm or normalize_plugin_name(entry) == target_norm:
+                        return mname
+        except Exception:
+            pass
+    return query_name
+
 def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=30):
     if name.startswith("http://") or name.startswith("https://"):
         url, name = name, url
     hb_dir = get_homebrew_dir()
     existing_folder = find_plugin_on_disk(hb_dir, name)
+    exact_name = get_exact_manifest_name(hb_dir, name) if existing_folder else name
     install_type = 4 if existing_folder else 0
 
     s = open_decky_ws(timeout=timeout)
@@ -238,7 +266,7 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=30):
         _send_ws_frame(s, {
             "type": 0,
             "route": "utilities/install_plugin",
-            "args": [url, name, version, hash_val, install_type],
+            "args": [url, exact_name, version, hash_val, install_type],
             "id": req_id
         })
         start = time.time()
@@ -342,6 +370,7 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=30):
 
 def decky_uninstall_plugin(name, timeout=10):
     hb_dir = get_homebrew_dir()
+    exact_name = get_exact_manifest_name(hb_dir, name)
     matched_folder = find_plugin_on_disk(hb_dir, name) or name
 
     s = open_decky_ws(timeout=timeout)
@@ -349,44 +378,47 @@ def decky_uninstall_plugin(name, timeout=10):
         try:
             _send_ws_frame(s, {"type": 4, "messages": []})
             req_id = int(time.time() * 1000) % 100000
-            # Send uninstall for matched folder
+            # Send uninstall for exact manifest name (Decky Loader expects plugin['name'])
             _send_ws_frame(s, {
                 "type": 0,
                 "route": "utilities/uninstall_plugin",
-                "args": [matched_folder],
+                "args": [exact_name],
                 "id": req_id
             })
-            if matched_folder != name:
+            if name != exact_name:
                 _send_ws_frame(s, {
                     "type": 0,
                     "route": "utilities/uninstall_plugin",
                     "args": [name],
                     "id": req_id + 1
                 })
-            # Give Decky Loader up to 1.5 seconds to acknowledge or unload
-            s.settimeout(1.5)
+            # Give Decky Loader up to 3 seconds to unload and acknowledge
+            s.settimeout(3.0)
             start = time.time()
-            while time.time() - start < 1.5:
+            while time.time() - start < 3.0:
                 try:
                     opcode, payload = _recv_ws_frame(s)
                 except Exception:
                     break
-                if opcode in (0x08, 0x01):
+                if opcode == 0x08:
                     break
+                if opcode == 0x01:
+                    msg = json.loads(payload.decode('utf-8'))
+                    m_id = msg.get("id")
+                    if m_id in (req_id, req_id + 1):
+                        break
             s.close()
         except Exception:
             try: s.close()
             except Exception: pass
 
-    # If folder still on disk and writable, remove it directly
+    # If folder still on disk and writable, clean up
     if matched_folder:
         folder_path = os.path.join(hb_dir, "plugins", matched_folder)
         if os.path.isdir(folder_path) and os.access(folder_path, os.W_OK):
             try: shutil.rmtree(folder_path)
             except Exception: pass
 
-    # Reload loader plugins
-    decky_rpc_call("loader/reload_plugins", [])
     return {"ok": True, "name": name}
 
 # ==============================================================================
