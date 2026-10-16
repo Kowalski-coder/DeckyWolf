@@ -1,5 +1,5 @@
---- /tmp/test_158/squashfs-root/usr/bin/librewolf.cfg	2026-10-13 23:06:52.000000000 +0300
-+++ overlay/usr/bin/librewolf.cfg	2026-10-16 20:11:20.726652106 +0300
+--- ../test/squashfs-root/usr/bin/librewolf.cfg	2026-10-13 23:06:52.000000000 +0300
++++ overlay/usr/bin/librewolf.cfg	2026-10-16 20:32:38.396760079 +0300
 @@ -72,7 +72,7 @@
   * they want to keep.
   */
@@ -246,7 +246,7 @@
 +lockPref("browser.newtabpage.activity-stream.newtabWallpapers.enabled", false);
 +lockPref("browser.newtabpage.activity-stream.newtabWallpapers.user.enabled", false);
 +lockPref("browser.newtabpage.activity-stream.newtabWallpapers.customWallpaper.enabled", false);
-+lockPref("browser.theme.toolbar-theme", 0);
++lockPref("browser.theme.toolbar-theme", 1);
 +lockPref("browser.startup.homepage", "about:home");
 +defaultPref("browser.startup.page", 1);
 +lockPref("browser.newtabpage.enabled", true);

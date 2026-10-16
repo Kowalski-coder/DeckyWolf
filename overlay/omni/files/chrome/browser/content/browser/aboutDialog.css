@@ -5,14 +5,8 @@
 #aboutDialog {
   background-color: #0b111c !important;
   color: #e2e8f0 !important;
-  border: 1px solid rgba(255, 255, 255, 0.14) !important;
   border-bottom: #1098fe 3px solid !important;
-  border-radius: 12px !important;
-  width: 540px !important;
-  max-width: 560px !important;
   min-width: 480px;
-  margin: 0 auto !important;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.75) !important;
 }
 
 #grid {
@@ -22,12 +16,11 @@
   padding: 24px 28px;
   min-height: 220px;
   background-color: #0b111c !important;
-  border-radius: 12px;
 }
 
 #left {
-  width: 110px;
-  height: 110px;
+  width: 120px;
+  height: 120px;
   flex-shrink: 0;
   margin-right: 24px;
   background-image: url("chrome://branding/content/about-logo.png");

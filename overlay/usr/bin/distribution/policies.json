@@ -110,6 +110,10 @@
                 "Value": "firefox-compact-dark@mozilla.org",
                 "Status": "locked"
             },
+            "browser.theme.toolbar-theme": {
+                "Value": 1,
+                "Status": "locked"
+            },
             "layout.css.prefers-color-scheme.content-override": {
                 "Value": 2,
                 "Status": "locked"

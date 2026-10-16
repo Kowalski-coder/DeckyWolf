@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "firefox-compact-dark@mozilla.org"
+    }
+  },
+  "name": "DeckyWolf Theme",
+  "description": "Тема оформления Decky Loader",
+  "author": "DeckyWolf",
+  "version": "2.0.0",
+  "icons": {
+    "32": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "frame": "#06090f",
+      "frame_inactive": "#06090f",
+      "tab_selected": "#0d1422",
+      "tab_background_text": "#94a3b8",
+      "tab_text": "#f8fafc",
+      "tab_line": "#1098fe",
+      "tab_loading": "#1098fe",
+      "tab_background_separator": "rgba(255, 255, 255, 0.09)",
+      "toolbar": "#0b111c",
+      "toolbar_text": "#f8fafc",
+      "toolbar_field": "#0d1422",
+      "toolbar_field_text": "#f8fafc",
+      "toolbar_field_border": "rgba(255, 255, 255, 0.12)",
+      "toolbar_field_focus": "#0d1422",
+      "toolbar_field_text_focus": "#ffffff",
+      "toolbar_field_border_focus": "#1098fe",
+      "toolbar_field_highlight": "#1098fe",
+      "toolbar_field_highlight_text": "#ffffff",
+      "toolbar_top_separator": "transparent",
+      "toolbar_bottom_separator": "rgba(255, 255, 255, 0.09)",
+      "toolbar_vertical_separator": "rgba(255, 255, 255, 0.09)",
+      "button_background_hover": "#121b2d",
+      "button_background_active": "rgba(16, 152, 254, 0.25)",
+      "popup": "#0b111c",
+      "popup_text": "#f8fafc",
+      "popup_border": "rgba(255, 255, 255, 0.16)",
+      "popup_highlight": "rgba(16, 152, 254, 0.25)",
+      "popup_highlight_text": "#93c5fd",
+      "sidebar": "#06090f",
+      "sidebar_text": "#f8fafc",
+      "sidebar_border": "rgba(255, 255, 255, 0.09)",
+      "sidebar_highlight": "#1098fe",
+      "sidebar_highlight_text": "#ffffff",
+      "ntp_background": "#06090f",
+      "ntp_text": "#f8fafc",
+      "icons": "#94a3b8",
+      "icons_attention": "#1098fe"
+    },
+    "properties": {
+      "color_scheme": "dark"
+    }
+  }
+}

@@ -84,6 +84,10 @@ if [ -f "$OVERLAY_DIR/usr/bin/deckywolf-torrent-service" ]; then
 fi
 cp -f "$OVERLAY_DIR/usr/bin/librewolf.cfg" "$SQUASHFS_TARGET/usr/bin/"
 cp -a "$OVERLAY_DIR/usr/bin/distribution"/* "$SQUASHFS_TARGET/usr/bin/distribution/"
+if [ -d "$OVERLAY_DIR/usr/bin/browser" ]; then
+    mkdir -p "$SQUASHFS_TARGET/usr/bin/browser"
+    cp -a "$OVERLAY_DIR/usr/bin/browser"/* "$SQUASHFS_TARGET/usr/bin/browser/"
+fi
 if [ -f "$OVERLAY_DIR/usr/bin/application.ini" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/application.ini" "$SQUASHFS_TARGET/usr/bin/"
 fi
