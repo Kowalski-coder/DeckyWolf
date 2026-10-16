@@ -501,14 +501,23 @@
 
   btnUninstallPlugin.addEventListener("click", async () => {
     if (!confirm("Вы действительно хотите удалить плагин TorrentWolf из Decky Loader?")) return;
+    btnUninstallPlugin.disabled = true;
+    const oldText = btnUninstallPlugin.textContent;
+    btnUninstallPlugin.textContent = "Удаление...";
     try {
       const res = await fetch("/api/uninstall-torrentwolf", { method: "POST" });
       const data = await res.json();
       if (data.ok) {
         location.reload();
+      } else {
+        alert("Ошибка удаления: " + (data.error || "неизвестно"));
+        btnUninstallPlugin.disabled = false;
+        btnUninstallPlugin.textContent = oldText;
       }
     } catch (e) {
       alert("Ошибка удаления: " + e);
+      btnUninstallPlugin.disabled = false;
+      btnUninstallPlugin.textContent = oldText;
     }
   });
 

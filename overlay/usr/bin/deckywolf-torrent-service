@@ -177,6 +177,8 @@ def decky_rpc_call(route, args=None, timeout=5):
         return {"ok": False, "error": str(e)}
 
 def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
+    if name.startswith("http://") or name.startswith("https://"):
+        url, name = name, url
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
@@ -198,7 +200,20 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
         })
         start = time.time()
         confirmed = False
+        last_disk_check = time.time()
         while time.time() - start < timeout:
+            # Check disk every 1s: if plugin.json appeared, Decky Loader finished extracting!
+            now = time.time()
+            if now - last_disk_check >= 1.0:
+                last_disk_check = now
+                p_dir = os.path.join(hb_dir, "plugins", name)
+                if os.path.isfile(os.path.join(p_dir, "plugin.json")):
+                    time.sleep(0.5)
+                    try: s.close()
+                    except Exception: pass
+                    decky_rpc_call("loader/reload_plugin", [name])
+                    return {"ok": True, "name": name}
+
             try:
                 opcode, payload = _recv_ws_frame(s)
             except socket.timeout:
@@ -264,17 +279,17 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
         try: s.close()
         except Exception: pass
 
-        # Poll loader/get_plugins for up to 15 seconds in case event frame was missed or after socket close
-        for _ in range(15):
-            res = decky_rpc_call("loader/get_plugins", timeout=3)
-            if res.get("ok"):
-                installed_names = [p.get("name") for p in res.get("result", [])]
-                if name in installed_names:
-                    return {"ok": True, "name": name}
-            if os.path.isdir(os.path.join(hb_dir, "plugins", name)):
-                decky_rpc_call("loader/reload_plugin", [name])
+        # Final check on disk or get_plugins
+        p_dir = os.path.join(hb_dir, "plugins", name)
+        if os.path.isfile(os.path.join(p_dir, "plugin.json")):
+            decky_rpc_call("loader/reload_plugin", [name])
+            return {"ok": True, "name": name}
+
+        res = decky_rpc_call("loader/get_plugins", timeout=3)
+        if res.get("ok"):
+            installed_names = [p.get("name") for p in res.get("result", [])]
+            if name in installed_names:
                 return {"ok": True, "name": name}
-            time.sleep(1)
 
         return {"ok": False, "error": "install_timeout"}
     except Exception as e:
@@ -692,8 +707,14 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 decky_uninstall_plugin("TorrentWolf")
                 decky_uninstall_plugin("DeckTorrent")
 
-                # Remove from filesystem if accessible
                 hb_dir = get_homebrew_dir()
+                # Wait up to 5 seconds for Decky Loader to remove the directory
+                for _ in range(10):
+                    if not os.path.isdir(os.path.join(hb_dir, "plugins", "TorrentWolf")) and not os.path.isdir(os.path.join(hb_dir, "plugins", "DeckTorrent")):
+                        break
+                    time.sleep(0.5)
+
+                # Remove from filesystem if accessible
                 for p_name in ["TorrentWolf", "DeckTorrent"]:
                     p_path = os.path.join(hb_dir, "plugins", p_name)
                     if os.path.isdir(p_path) and os.access(p_path, os.W_OK):

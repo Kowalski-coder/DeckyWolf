@@ -1647,6 +1647,13 @@ setting-pane[onsearchpane] {
 [data-srd-groupid="relatedSettings"],
 #relatedSettings,
 #related-settings-group,
+#category-appearance,
+moz-page-nav-button[id="category-appearance"],
+[data-category="paneAppearance"],
+#paneAppearance,
+#appearanceGroup,
+#appearanceCategory,
+[data-subcategory="appearance"],
 [data-setting="librewolfExternalWallpapers"],
 [data-setting="chooseWallpaper"],
 #chooseWallpaper,
@@ -1661,6 +1668,7 @@ setting-pane[onsearchpane] {
 #librewolfUserChrome {
   display: none !important;
 }
+
 
 /* DeckyWolf: Accent colors for Preferences & in-content pages */
 :root {

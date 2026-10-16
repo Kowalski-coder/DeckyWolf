@@ -2,15 +2,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+:root,
+window,
 #aboutDialog {
   background-color: #0b111c !important;
   color: #e2e8f0 !important;
   border-bottom: #1098fe 3px solid !important;
   width: 520px !important;
-  max-width: 540px !important;
+  max-width: 520px !important;
   min-width: 420px !important;
   height: 280px !important;
-  max-height: 320px !important;
+  max-height: 280px !important;
   margin: auto !important;
   overflow: hidden !important;
 }

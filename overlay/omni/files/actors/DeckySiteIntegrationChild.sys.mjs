@@ -82,6 +82,7 @@ function PAGE_SCRIPT() {
   let installedPlugins = {};
   let lastKnownInstalledHash = "";
   let currentActiveLang = "ru";
+  const recentlyModified = {};
 
   // Full translations for all 15 languages on deckyloader.ru + en
   const I18N = {
@@ -238,16 +239,26 @@ function PAGE_SCRIPT() {
       background: linear-gradient(to top, rgba(6, 9, 15, 0.98) 0%, rgba(6, 9, 15, 0.94) 80%, rgba(6, 9, 15, 0.8) 100%);
       transform: translateY(100%);
       opacity: 0;
-      transition: transform 0.22s ease, opacity 0.18s ease;
+      visibility: hidden;
+      transition: transform 0.18s ease, opacity 0.15s ease, visibility 0.18s;
       z-index: 20;
       pointer-events: none;
     }
 
-    .plugin-thumb-wrapper:hover .decky-action-overlay,
-    .plugin-card:hover .decky-action-overlay {
-      transform: translateY(0);
-      opacity: 1;
-      pointer-events: auto;
+    .plugin-card:hover .decky-action-overlay:not(.is-hidden),
+    .plugin-thumb-wrapper:hover .decky-action-overlay:not(.is-hidden),
+    .decky-action-overlay.is-active {
+      transform: translateY(0) !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: auto !important;
+    }
+
+    .decky-action-overlay.is-hidden {
+      transform: translateY(100%) !important;
+      opacity: 0 !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
     }
 
     .decky-version-select-row {
@@ -531,12 +542,23 @@ function PAGE_SCRIPT() {
     if (hash !== lastKnownInstalledHash || langChanged || !isBackgroundPoll) {
       lastKnownInstalledHash = hash;
       installedPlugins = {};
+      const now = Date.now();
       for (let p of list) {
         let raw = norm(p.name);
         let clean = stripPrefix(raw);
+        if (recentlyModified[raw]?.action === "delete" && now - recentlyModified[raw].time < 8000) {
+          continue;
+        }
         let info = { name: p.name, version: p.version || "1.0.0" };
         installedPlugins[raw] = info;
         installedPlugins[clean] = info;
+      }
+      for (const [k, mod] of Object.entries(recentlyModified)) {
+        if ((mod.action === "install" || mod.action === "reinstall" || mod.action === "update") && now - mod.time < 8000) {
+          if (!installedPlugins[k]) {
+            installedPlugins[k] = { name: mod.name || k, version: mod.version || "latest" };
+          }
+        }
       }
       injectInstalledCategoryTab();
       applyCardsIntegration(true);
@@ -672,6 +694,11 @@ function PAGE_SCRIPT() {
     if (!card._deckyLeaveBound) {
       card._deckyLeaveBound = true;
       card.addEventListener("mouseleave", () => {
+        const myOv = card.querySelector(".decky-action-overlay");
+        if (myOv) {
+          myOv.classList.remove("is-active");
+          myOv.classList.add("is-hidden");
+        }
         if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
           document.activeElement.blur();
         }
@@ -680,11 +707,20 @@ function PAGE_SCRIPT() {
         thumbWrapper.removeAttribute("title");
         card.removeAttribute("title");
         if (parentA) parentA.removeAttribute("title");
-        document.querySelectorAll(".plugin-card").forEach(other => {
-          if (other !== card && other.contains(document.activeElement)) {
-            document.activeElement.blur();
+        document.querySelectorAll(".decky-action-overlay").forEach(ov => {
+          if (!card.contains(ov)) {
+            ov.classList.remove("is-active");
+            ov.classList.add("is-hidden");
           }
         });
+        const myOv = card.querySelector(".decky-action-overlay");
+        if (myOv) {
+          myOv.classList.remove("is-hidden");
+          myOv.classList.add("is-active");
+        }
+        if (document.activeElement && !card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+        }
       });
     }
 
@@ -860,6 +896,10 @@ function PAGE_SCRIPT() {
 
         let raw = norm(pluginName);
         let clean = stripPrefix(raw);
+        const modInfo = { action, name: pluginName, version: version || "latest", time: Date.now() };
+        recentlyModified[raw] = modInfo;
+        recentlyModified[clean] = modInfo;
+
         if (action === "install" || action === "update" || action === "reinstall") {
           let info = { name: pluginName, version: version || "latest" };
           installedPlugins[raw] = info;
@@ -871,6 +911,7 @@ function PAGE_SCRIPT() {
 
         card._deckyActionInjected = null;
         applyOverlayToCard(card, true);
+        injectInstalledCategoryTab();
         fetchStatus(true);
       }, 300);
     } else {

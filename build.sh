@@ -53,13 +53,28 @@ cp -f "$OVERLAY_DIR/root/AppRun" "$SQUASHFS_TARGET/AppRun"
 chmod +x "$SQUASHFS_TARGET/AppRun"
 cp -f "$OVERLAY_DIR/root/deckywolf.png" "$SQUASHFS_TARGET/deckywolf.png"
 ln -sf deckywolf.png "$SQUASHFS_TARGET/.DirIcon"
+rm -f "$SQUASHFS_TARGET/librewolf.png"
+ln -sf deckywolf.png "$SQUASHFS_TARGET/librewolf.png"
 cp -f "$OVERLAY_DIR/root/net.deckywolf.DeckyWolf.desktop" "$SQUASHFS_TARGET/net.deckywolf.DeckyWolf.desktop"
+rm -f "$SQUASHFS_TARGET/net.librewolf.LibreWolf.desktop" "$SQUASHFS_TARGET/librewolf.desktop"
 ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/net.librewolf.LibreWolf.desktop"
+ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/librewolf.desktop"
 
 echo "==> Applying usr/share (icons and desktop files)..."
 mkdir -p "$SQUASHFS_TARGET/usr/share"
 rm -rf "$SQUASHFS_TARGET/usr/share/deckywolf/projacktor"
 cp -a "$OVERLAY_DIR/usr/share"/* "$SQUASHFS_TARGET/usr/share/"
+rm -f "$SQUASHFS_TARGET/usr/share/applications/net.librewolf.LibreWolf.desktop" "$SQUASHFS_TARGET/usr/share/applications/librewolf.desktop" "$SQUASHFS_TARGET/usr/share/applications"/io.gitlab.*
+ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/usr/share/applications/net.librewolf.LibreWolf.desktop"
+ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/usr/share/applications/librewolf.desktop"
+
+for icondir in "$SQUASHFS_TARGET"/usr/share/icons/hicolor/*/apps; do
+    if [ -f "$icondir/deckywolf.png" ]; then
+        rm -f "$icondir/librewolf.png"
+        ln -sf deckywolf.png "$icondir/librewolf.png"
+    fi
+done
+
 if [ -d "$OVERLAY_DIR/usr/share/deckywolf/plugins/TorrentWolf" ]; then
     echo "    Packaging TorrentWolf.zip..."
     (cd "$OVERLAY_DIR/usr/share/deckywolf/plugins" && zip -q -r "$SQUASHFS_TARGET/usr/share/deckywolf/plugins/TorrentWolf.zip" TorrentWolf)
