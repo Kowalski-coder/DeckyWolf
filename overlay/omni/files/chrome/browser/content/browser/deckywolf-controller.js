@@ -36,18 +36,18 @@ var DeckyWolfController = {
       console.error("[DeckyWolf] Failed to register pref observer:", e);
     }
 
-    // Handle Projacktor AppMenu button
+    // Handle Torrent AppMenu button
     window.addEventListener("command", (e) => {
       let target = e.target;
-      if (target && (target.id === "appMenu-projacktor-button" || (target.closest && target.closest("#appMenu-projacktor-button")))) {
-        this.openProjacktor(e);
+      if (target && (target.id === "appMenu-torrent-button" || (target.closest && target.closest("#appMenu-torrent-button")))) {
+        this.openTorrent(e);
       }
     }, true);
 
     window.addEventListener("click", (e) => {
       let target = e.target;
-      if (e.button === 0 && target && (target.id === "appMenu-projacktor-button" || (target.closest && target.closest("#appMenu-projacktor-button")))) {
-        this.openProjacktor(e);
+      if (e.button === 0 && target && (target.id === "appMenu-torrent-button" || (target.closest && target.closest("#appMenu-torrent-button")))) {
+        this.openTorrent(e);
       }
     }, true);
 
@@ -78,7 +78,7 @@ var DeckyWolfController = {
     } catch (_) {}
   },
 
-  openProjacktor(e) {
+  openTorrent(e) {
     if (e) {
       try { e.preventDefault(); } catch (_) {}
       try { e.stopPropagation(); } catch (_) {}
@@ -89,17 +89,25 @@ var DeckyWolfController = {
       }
     } catch (_) {}
 
-    const url = "http://127.0.0.1:8402/";
+    const url = "http://127.0.0.1:8404/";
     try {
-      if (typeof openTrustedLinkIn === "function") {
-        openTrustedLinkIn(url, "tab");
+      if (window.gBrowser) {
+        // If already open, switch to that tab
+        for (let tab of window.gBrowser.tabs) {
+          let browser = tab.linkedBrowser;
+          if (browser && browser.currentURI && browser.currentURI.spec && browser.currentURI.spec.startsWith("http://127.0.0.1:8404")) {
+            window.gBrowser.selectedTab = tab;
+            return;
+          }
+        }
+        window.gBrowser.selectedTab = window.gBrowser.addWebTab(url);
         return;
       }
     } catch (_) {}
 
     try {
-      if (window.gBrowser) {
-        window.gBrowser.selectedTab = window.gBrowser.addWebTab(url);
+      if (typeof openTrustedLinkIn === "function") {
+        openTrustedLinkIn(url, "tab");
         return;
       }
     } catch (_) {}
@@ -125,15 +133,15 @@ var DeckyWolfController = {
       });
     }
 
-    let pBtn = document.getElementById("appMenu-projacktor-button");
-    if (pBtn && !pBtn._deckywolfBound) {
-      pBtn._deckywolfBound = true;
-      pBtn.addEventListener("command", (e) => {
-        this.openProjacktor(e);
+    let tBtn = document.getElementById("appMenu-torrent-button");
+    if (tBtn && !tBtn._deckywolfBound) {
+      tBtn._deckywolfBound = true;
+      tBtn.addEventListener("command", (e) => {
+        this.openTorrent(e);
       });
-      pBtn.addEventListener("click", (e) => {
+      tBtn.addEventListener("click", (e) => {
         if (e.button === 0) {
-          this.openProjacktor(e);
+          this.openTorrent(e);
         }
       });
     }

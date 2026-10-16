@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TorrentWolf — Управление торрентами</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="brand">
+          <svg class="brand-icon" viewBox="0 0 128 128" width="28" height="28">
+            <rect width="128" height="128" rx="28" fill="#1b2432"/>
+            <path d="M64 24v46" stroke="#1098fe" stroke-width="12" stroke-linecap="round" fill="none"/>
+            <path d="M42 58l22 22 22-22" stroke="#1098fe" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <rect x="34" y="94" width="60" height="10" rx="5" fill="#00d26a"/>
+          </svg>
+          <div class="brand-text">
+            <span class="brand-name">TorrentWolf</span>
+            <span class="brand-sub">Decky Loader Edition</span>
+          </div>
+        </div>
+        <div id="decky-badge" class="decky-badge">Проверка окружения...</div>
+      </div>
+
+      <div class="topbar-right">
+        <div id="speed-indicator" class="speed-indicator" style="display: none;">
+          <div class="speed-item speed-down">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            <span id="global-down-speed">0 KB/s</span>
+          </div>
+          <div class="speed-item speed-up">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+            <span id="global-up-speed">0 KB/s</span>
+          </div>
+        </div>
+        <button id="btn-uninstall-plugin" class="btn btn-danger-outline" style="display: none;" title="Удалить плагин TorrentWolf из Decky Loader">
+          Удалить плагин
+        </button>
+      </div>
+    </header>
+
+    <!-- Content Area -->
+    <main class="content-container">
+      <!-- State 1: Decky Loader Missing -->
+      <section id="state-no-decky" class="status-card" style="display: none;">
+        <div class="card-icon error-icon">⚠️</div>
+        <h2>Загрузчик Decky Loader не найден</h2>
+        <p>Для работы плагина фоновой загрузки торрентов на Steam Deck необходим установленный Decky Loader.</p>
+        <div class="card-actions">
+          <a href="https://deckyloader.ru/" target="_blank" class="btn btn-primary">
+            Установить Decky Loader (deckyloader.ru)
+          </a>
+          <button id="btn-recheck-decky" class="btn btn-secondary">Повторить проверку</button>
+        </div>
+      </section>
+
+      <!-- State 2: Plugin Not Installed -->
+      <section id="state-no-plugin" class="status-card" style="display: none;">
+        <div class="card-icon info-icon">📥</div>
+        <h2>Плагин TorrentWolf не установлен</h2>
+        <p>Установите официальный плагин TorrentWolf для Decky Loader, чтобы скачивать торренты в фоновом режиме на Steam Deck.</p>
+        
+        <div class="feature-pills">
+          <div class="pill">⚡ Фоновая загрузка в игровом режиме</div>
+          <div class="pill">🔄 Сохранение закачек при смене режимов</div>
+          <div class="pill">🎮 Быстрый просмотр и управление через меню QAM</div>
+        </div>
+
+        <div class="card-actions">
+          <button id="btn-install-plugin" class="btn btn-success btn-lg">
+            Установить плагин TorrentWolf
+          </button>
+        </div>
+        <div id="install-progress" class="install-progress" style="display: none;">
+          <div class="spinner"></div>
+          <span>Установка плагина и настройка службы Transmission...</span>
+        </div>
+      </section>
+
+      <!-- State 3: Main Dashboard -->
+      <section id="state-dashboard" style="display: none;">
+        <!-- Control Toolbar -->
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <div class="magnet-input-group">
+              <input type="text" id="magnet-input" placeholder="Вставьте magnet-ссылку или hash..." />
+              <button id="btn-add-magnet" class="btn btn-primary">Добавить</button>
+            </div>
+            <button id="btn-pick-file" class="btn btn-secondary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="M9 15l3-3 3 3"/></svg>
+              .torrent файл
+            </button>
+            <input type="file" id="file-picker" accept=".torrent" style="display: none;" />
+          </div>
+
+          <div class="toolbar-right">
+            <button id="btn-pause-all" class="btn btn-secondary" title="Приостановить все">⏸ Пауза</button>
+            <button id="btn-start-all" class="btn btn-secondary" title="Возобновить все">▶ Старт</button>
+            <button id="btn-open-settings" class="btn btn-secondary" title="Настройки qBittorrent">⚙ Настройки</button>
+          </div>
+        </div>
+
+        <!-- Filter Tabs & Search -->
+        <div class="filter-bar">
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">Все <span id="cnt-all" class="count-badge">0</span></button>
+            <button class="filter-tab" data-filter="downloading">Загружаются <span id="cnt-down" class="count-badge">0</span></button>
+            <button class="filter-tab" data-filter="seeding">Раздаются <span id="cnt-seed" class="count-badge">0</span></button>
+            <button class="filter-tab" data-filter="completed">Завершены <span id="cnt-comp" class="count-badge">0</span></button>
+            <button class="filter-tab" data-filter="paused">Пауза <span id="cnt-pause" class="count-badge">0</span></button>
+          </div>
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Поиск по названию..." />
+          </div>
+        </div>
+
+        <!-- Torrent Items Grid / List -->
+        <div id="torrent-list" class="torrent-list">
+          <div class="empty-state">
+            <div class="empty-icon">📂</div>
+            <h3>Нет активных торрентов</h3>
+            <p>Добавьте magnet-ссылку или перетащите .torrent файл в это окно</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Settings Modal -->
+    <div id="modal-settings" class="modal-backdrop" style="display: none;">
+      <div class="modal-window">
+        <div class="modal-header">
+          <h3>Параметры TorrentWolf (Transmission / qBittorrent)</h3>
+          <button id="btn-close-settings" class="btn-close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="settings-group">
+            <label class="group-title">📁 Папки сохранения</label>
+            <div class="form-row">
+              <label for="setting-download-dir">Папка для загрузок:</label>
+              <input type="text" id="setting-download-dir" />
+            </div>
+            <div class="form-row">
+              <label for="setting-watch-dir">Папка автозагрузки .torrent файлов:</label>
+              <input type="text" id="setting-watch-dir" />
+            </div>
+          </div>
+
+          <div class="settings-group">
+            <label class="group-title">⚡ Ограничения скорости</label>
+            <div class="form-row">
+              <label for="setting-speed-down">Максимальная скорость загрузки (KB/s, 0 = без лимита):</label>
+              <input type="number" id="setting-speed-down" min="0" step="50" />
+            </div>
+            <div class="form-row">
+              <label for="setting-speed-up">Максимальная скорость отдачи (KB/s, 0 = без лимита):</label>
+              <input type="number" id="setting-speed-up" min="0" step="50" />
+            </div>
+          </div>
+
+          <div class="settings-group">
+            <label class="group-title">🌐 Сеть и Соединения</label>
+            <div class="form-row">
+              <label for="setting-peer-port">Порт входящих соединений:</label>
+              <input type="number" id="setting-peer-port" min="1024" max="65535" />
+            </div>
+            <div class="form-row">
+              <label for="setting-encryption">Шифрование протокола:</label>
+              <select id="setting-encryption">
+                <option value="tolerated">Разрешено (автоматически)</option>
+                <option value="preferred">Предпочитать</option>
+                <option value="required">Требовать</option>
+              </select>
+            </div>
+            <div class="form-checkboxes">
+              <label><input type="checkbox" id="setting-utp" /> Протокол µTP</label>
+              <label><input type="checkbox" id="setting-dht" /> DHT (распределенная сеть)</label>
+              <label><input type="checkbox" id="setting-pex" /> Peer Exchange (PEX)</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-save-settings" class="btn btn-primary">Сохранить настройки</button>
+          <button id="btn-cancel-settings" class="btn btn-secondary">Отмена</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confirm Delete Modal -->
+    <div id="modal-delete" class="modal-backdrop" style="display: none;">
+      <div class="modal-window modal-sm">
+        <div class="modal-header">
+          <h3>Удаление торрента</h3>
+          <button id="btn-close-delete" class="btn-close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p id="delete-torrent-title">Вы действительно хотите удалить этот торрент?</p>
+          <label class="checkbox-label">
+            <input type="checkbox" id="delete-with-data" /> Также удалить скачанные файлы с диска
+          </label>
+        </div>
+        <div class="modal-footer">
+          <button id="btn-confirm-delete" class="btn btn-danger">Удалить</button>
+          <button id="btn-cancel-delete" class="btn btn-secondary">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

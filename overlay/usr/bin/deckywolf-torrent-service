@@ -1,0 +1,477 @@
+#!/usr/bin/env python3
+"""
+DeckyWolf Torrent & Decky Loader Bridge Service
+Port: 8404
+Serves TorrentWolf Web Manager and handles backend operations for Decky Loader & Transmission.
+"""
+
+import os
+import sys
+import glob
+
+# Ensure stdlib paths for SteamOS 3.6+ / Python 3.13 compatibility
+def _ensure_stdlib_paths():
+    patterns = [
+        "/usr/lib/python3*/",
+        "/usr/lib64/python3*/",
+        "/usr/lib/python3*/*-packages/",
+    ]
+    for pattern in patterns:
+        for path in sorted(glob.glob(pattern), reverse=True):
+            if path not in sys.path:
+                sys.path.append(path)
+
+_ensure_stdlib_paths()
+
+import json
+import base64
+import socket
+import shutil
+import urllib.request
+import urllib.error
+import subprocess
+from http.server import HTTPServer, BaseHTTPRequestHandler
+
+PORT = 8404
+TRANSMISSION_RPC_URL = "http://127.0.0.1:9091/transmission/rpc"
+_tx_session_id = ""
+
+def get_homebrew_dir():
+    candidates = [
+        os.path.expanduser("~/homebrew"),
+        "/home/deck/homebrew",
+        "/home/viktor/homebrew",
+    ]
+    for c in candidates:
+        if os.path.isdir(c):
+            return c
+    return os.path.expanduser("~/homebrew")
+
+def get_decky_token():
+    try:
+        req = urllib.request.Request("http://127.0.0.1:1337/auth/token", headers={"User-Agent": "DeckyWolf"})
+        with urllib.request.urlopen(req, timeout=2) as resp:
+            return resp.read().decode().strip()
+    except Exception:
+        return None
+
+def decky_rpc(route, args=None):
+    token = get_decky_token()
+    if not token:
+        return {"ok": False, "error": "no_token"}
+    try:
+        s = socket.create_connection(("127.0.0.1", 1337), timeout=5)
+        key = base64.b64encode(os.urandom(16)).decode('ascii')
+        req = (f"GET /ws?auth={token} HTTP/1.1\r\n"
+               f"Host: 127.0.0.1:1337\r\n"
+               f"Upgrade: websocket\r\n"
+               f"Connection: Upgrade\r\n"
+               f"Sec-WebSocket-Key: {key}\r\n"
+               f"Sec-WebSocket-Version: 13\r\n\r\n")
+        s.sendall(req.encode('ascii'))
+        s.recv(4096)
+
+        msg = json.dumps({"type": 0, "route": route, "args": args or [], "id": 1}).encode('utf-8')
+        mask = os.urandom(4)
+        masked_data = bytes(b ^ mask[i % 4] for i, b in enumerate(msg))
+        header = bytearray([0x81])
+        if len(msg) < 126:
+            header.append(0x80 | len(msg))
+        else:
+            header.append(0x80 | 126)
+            header.extend(len(msg).to_bytes(2, 'big'))
+        header.extend(mask)
+        s.sendall(header + masked_data)
+
+        frame = s.recv(65536)
+        if len(frame) < 2:
+            s.close()
+            return {"ok": False, "error": "empty_frame"}
+        plen = frame[1] & 0x7F
+        idx = 2
+        if plen == 126:
+            plen = int.from_bytes(frame[2:4], 'big')
+            idx = 4
+        elif plen == 127:
+            plen = int.from_bytes(frame[2:10], 'big')
+            idx = 10
+        payload = frame[idx:idx+plen].decode('utf-8')
+        s.close()
+        res = json.loads(payload)
+        return {"ok": True, "result": res.get("result")}
+    except Exception as e:
+        return {"ok": False, "error": str(e)}
+
+def transmission_rpc_request(payload_bytes):
+    global _tx_session_id
+    req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, method="POST")
+    req.add_header("Content-Type", "application/json")
+    if _tx_session_id:
+        req.add_header("X-Transmission-Session-Id", _tx_session_id)
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            return {"ok": True, "data": json.loads(resp.read().decode())}
+    except urllib.error.HTTPError as e:
+        if e.code == 409:
+            _tx_session_id = e.headers.get("X-Transmission-Session-Id", "")
+            req2 = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, method="POST")
+            req2.add_header("Content-Type", "application/json")
+            req2.add_header("X-Transmission-Session-Id", _tx_session_id)
+            try:
+                with urllib.request.urlopen(req2, timeout=5) as resp2:
+                    return {"ok": True, "data": json.loads(resp2.read().decode())}
+            except Exception as e2:
+                return {"ok": False, "error": str(e2)}
+        return {"ok": False, "error": f"HTTP {e.code}"}
+    except Exception as ex:
+        return {"ok": False, "error": str(ex)}
+
+def get_installed_plugins_fs(hb_dir):
+    plugins = []
+    pdir = os.path.join(hb_dir, "plugins")
+    if os.path.isdir(pdir):
+        for entry in os.listdir(pdir):
+            full_path = os.path.join(pdir, entry)
+            if os.path.isdir(full_path):
+                name = entry
+                version = "1.0.0"
+                pjson = os.path.join(full_path, "plugin.json")
+                pkgjson = os.path.join(full_path, "package.json")
+                if os.path.isfile(pjson):
+                    try:
+                        with open(pjson, "r") as f:
+                            d = json.load(f)
+                            name = d.get("name", entry)
+                    except Exception:
+                        pass
+                if os.path.isfile(pkgjson):
+                    try:
+                        with open(pkgjson, "r") as f:
+                            d = json.load(f)
+                            version = d.get("version", "1.0.0")
+                    except Exception:
+                        pass
+                plugins.append({"name": name, "version": version, "disabled": False})
+    return plugins
+
+class TorrentServiceHandler(BaseHTTPRequestHandler):
+    def send_json(self, data, status=200):
+        body = json.dumps(data, ensure_ascii=False).encode('utf-8')
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.end_headers()
+
+    def do_GET(self):
+        url = self.path.split("?")[0]
+        if url == "/api/status":
+            hb_dir = get_homebrew_dir()
+            decky_installed = os.path.isdir(hb_dir)
+            decky_token = get_decky_token()
+            decky_running = decky_token is not None
+
+            plugin_installed = os.path.isdir(os.path.join(hb_dir, "plugins", "TorrentWolf")) or \
+                               os.path.isdir(os.path.join(hb_dir, "plugins", "DeckTorrent"))
+
+            # Check transmission
+            daemon_running = False
+            tx_res = transmission_rpc_request(b'{"method":"session-get"}')
+            if tx_res.get("ok"):
+                daemon_running = True
+
+            downloads_dir = os.path.expanduser("~/Downloads")
+            watch_dir = os.path.expanduser("~/Torrents")
+
+            self.send_json({
+                "ok": True,
+                "decky_installed": decky_installed,
+                "decky_running": decky_running,
+                "decky_path": hb_dir,
+                "plugin_installed": plugin_installed,
+                "daemon_running": daemon_running,
+                "downloads_dir": downloads_dir,
+                "watch_dir": watch_dir
+            })
+            return
+
+        # Serve static UI files
+        base_dir = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "torrent")
+        if not os.path.isdir(base_dir):
+            base_dir = "/usr/share/deckywolf/torrent"
+
+        filepath = os.path.join(base_dir, "index.html" if url in ["", "/"] else url.lstrip("/"))
+        if os.path.isfile(filepath):
+            content_type = "text/html; charset=utf-8"
+            if filepath.endswith(".css"):
+                content_type = "text/css; charset=utf-8"
+            elif filepath.endswith(".js"):
+                content_type = "application/javascript; charset=utf-8"
+            elif filepath.endswith(".svg"):
+                content_type = "image/svg+xml"
+            elif filepath.endswith(".png"):
+                content_type = "image/png"
+
+            with open(filepath, "rb") as f:
+                content = f.read()
+
+            self.send_response(200)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Content-Length", str(len(content)))
+            self.end_headers()
+            self.wfile.write(content)
+            return
+
+        self.send_response(404)
+        self.end_headers()
+
+    def do_POST(self):
+        url = self.path.split("?")[0]
+        content_len = int(self.headers.get("Content-Length", 0))
+        body = self.rfile.read(content_len) if content_len > 0 else b"{}"
+
+        try:
+            req_data = json.loads(body.decode('utf-8'))
+        except Exception:
+            req_data = {}
+
+        if url == "/api/transmission-rpc":
+            res = transmission_rpc_request(body)
+            self.send_json(res)
+            return
+
+        if url == "/api/install-torrentwolf":
+            try:
+                hb_dir = get_homebrew_dir()
+                os.makedirs(os.path.join(hb_dir, "plugins"), exist_ok=True)
+                dest_plugin = os.path.join(hb_dir, "plugins", "TorrentWolf")
+
+                # Source plugin
+                src_plugin = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins", "TorrentWolf")
+                if not os.path.isdir(src_plugin):
+                    src_plugin = "/usr/share/deckywolf/plugins/TorrentWolf"
+
+                if os.path.isdir(src_plugin):
+                    if os.path.isdir(dest_plugin):
+                        shutil.rmtree(dest_plugin)
+                    shutil.copytree(src_plugin, dest_plugin)
+
+                # Set up transmission daemon
+                home = os.path.expanduser("~")
+                pfx = os.path.join(home, ".local", "opt", "transmission")
+                cfgdir = os.path.join(home, ".config", "transmission-daemon")
+                unit_file = os.path.join(home, ".config", "systemd", "user", "transmission-daemon.service")
+                downloads = os.path.join(home, "Downloads")
+                watch = os.path.join(home, "Torrents")
+
+                os.makedirs(downloads, exist_ok=True)
+                os.makedirs(watch, exist_ok=True)
+                os.makedirs(cfgdir, exist_ok=True)
+                os.makedirs(os.path.dirname(unit_file), exist_ok=True)
+                os.makedirs(os.path.join(home, ".local", "bin"), exist_ok=True)
+
+                # Copy binaries if not already in pfx
+                src_tx = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "transmission")
+                if not os.path.isdir(src_tx):
+                    src_tx = "/usr/share/deckywolf/transmission"
+
+                if os.path.isdir(src_tx) and not os.path.isfile(os.path.join(pfx, "bin", "transmission-daemon")):
+                    os.makedirs(os.path.join(pfx, "bin"), exist_ok=True)
+                    os.makedirs(os.path.join(pfx, "lib"), exist_ok=True)
+                    if os.path.isdir(os.path.join(src_tx, "bin")):
+                        for f in os.listdir(os.path.join(src_tx, "bin")):
+                            shutil.copy2(os.path.join(src_tx, "bin", f), os.path.join(pfx, "bin", f))
+                    if os.path.isdir(os.path.join(src_tx, "lib")):
+                        for f in os.listdir(os.path.join(src_tx, "lib")):
+                            shutil.copy2(os.path.join(src_tx, "lib", f), os.path.join(pfx, "lib", f))
+
+                # Create transmission-remote wrapper
+                wrapper = os.path.join(home, ".local", "bin", "transmission-remote")
+                with open(wrapper, "w") as f:
+                    f.write('#!/bin/bash\nexport LD_LIBRARY_PATH="$HOME/.local/opt/transmission/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"\nexec "$HOME/.local/opt/transmission/bin/transmission-remote" "$@"\n')
+                os.chmod(wrapper, 0o755)
+
+                # Write settings.json
+                settings_path = os.path.join(cfgdir, "settings.json")
+                cfg = {}
+                if os.path.isfile(settings_path):
+                    try:
+                        with open(settings_path, "r") as f:
+                            cfg = json.load(f)
+                    except Exception:
+                        pass
+                cfg.update({
+                    "rpc-enabled": True,
+                    "rpc-port": 9091,
+                    "rpc-bind-address": "127.0.0.1",
+                    "rpc-whitelist": "127.0.0.1,::1",
+                    "rpc-whitelist-enabled": True,
+                    "rpc-authentication-required": False,
+                    "download-dir": downloads,
+                    "watch-dir": watch,
+                    "watch-dir-enabled": True,
+                    "start-added-torrents": True,
+                    "rename-partial-files": True,
+                    "ratio-limit": 0,
+                    "ratio-limit-enabled": True,
+                    "idle-seeding-limit": 5,
+                    "idle-seeding-limit-enabled": True,
+                    "peer-port-random-on-start": False,
+                    "port-forwarding-enabled": True,
+                    "utp-enabled": True,
+                })
+                cfg.setdefault("peer-port", 51413)
+                cfg.setdefault("cache-size-mb", 16)
+                cfg.setdefault("encryption", 1)
+
+                with open(settings_path, "w") as f:
+                    json.dump(cfg, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+                # Write systemd service unit
+                tx_bin = os.path.join(pfx, "bin", "transmission-daemon")
+                if not os.path.isfile(tx_bin):
+                    tx_bin = shutil.which("transmission-daemon") or tx_bin
+
+                unit_content = f"""[Unit]
+Description=Transmission BitTorrent Daemon (TorrentWolf)
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=3
+
+[Service]
+Type=simple
+Environment=LD_LIBRARY_PATH={pfx}/lib
+ExecStart={tx_bin} --foreground --config-dir {cfgdir}
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
+"""
+                with open(unit_file, "w") as f:
+                    f.write(unit_content)
+
+                subprocess.run(["systemctl", "--user", "daemon-reload"], capture_output=True)
+                subprocess.run(["systemctl", "--user", "enable", "--now", "transmission-daemon"], capture_output=True)
+
+                # Notify Decky
+                decky_rpc("loader/reload_plugin", ["TorrentWolf"])
+
+                self.send_json({"ok": True, "installed": True})
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        if url == "/api/uninstall-torrentwolf":
+            try:
+                hb_dir = get_homebrew_dir()
+                p1 = os.path.join(hb_dir, "plugins", "TorrentWolf")
+                p2 = os.path.join(hb_dir, "plugins", "DeckTorrent")
+                if os.path.isdir(p1):
+                    shutil.rmtree(p1)
+                if os.path.isdir(p2):
+                    shutil.rmtree(p2)
+
+                decky_rpc("utilities/uninstall_plugin", ["TorrentWolf"])
+                subprocess.run(["systemctl", "--user", "disable", "--now", "transmission-daemon"], capture_output=True)
+                self.send_json({"ok": True, "uninstalled": True})
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        # Decky Loader Bridge for deckyloader.ru
+        if url == "/api/decky/status":
+            hb_dir = get_homebrew_dir()
+            rpc_res = decky_rpc("loader/get_plugins", [])
+            plugins = []
+            running = False
+            if rpc_res.get("ok") and isinstance(rpc_res.get("result"), list):
+                plugins = rpc_res["result"]
+                running = True
+            else:
+                plugins = get_installed_plugins_fs(hb_dir)
+
+            self.send_json({"ok": True, "running": running, "plugins": plugins})
+            return
+
+        if url == "/api/decky/install":
+            name = req_data.get("name")
+            artifact_url = req_data.get("url")
+            version = req_data.get("version", "latest")
+            hash_val = req_data.get("hash", "")
+            if not name:
+                self.send_json({"ok": False, "error": "missing_name"}, 400)
+                return
+
+            token = get_decky_token()
+            if token:
+                res = decky_rpc("utilities/install_plugin", [artifact_url, name, version, hash_val, 0])
+                if res.get("ok"):
+                    self.send_json({"ok": True, "name": name})
+                    return
+
+            # Fallback: download and unzip directly to homebrew/plugins
+            try:
+                hb_dir = get_homebrew_dir()
+                dest_dir = os.path.join(hb_dir, "plugins", name)
+                os.makedirs(dest_dir, exist_ok=True)
+                tmp_zip = f"/tmp/{name}_{os.getpid()}.zip"
+                urllib.request.urlretrieve(artifact_url, tmp_zip)
+                subprocess.run(["unzip", "-o", "-q", tmp_zip, "-d", os.path.join(hb_dir, "plugins")], check=True)
+                if os.path.isfile(tmp_zip):
+                    os.remove(tmp_zip)
+                self.send_json({"ok": True, "name": name})
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        if url == "/api/decky/uninstall":
+            name = req_data.get("name")
+            if not name:
+                self.send_json({"ok": False, "error": "missing_name"}, 400)
+                return
+
+            token = get_decky_token()
+            if token:
+                res = decky_rpc("utilities/uninstall_plugin", [name])
+                if res.get("ok"):
+                    self.send_json({"ok": True, "name": name})
+                    return
+
+            # Fallback: remove folder
+            try:
+                hb_dir = get_homebrew_dir()
+                target = os.path.join(hb_dir, "plugins", name)
+                if os.path.isdir(target):
+                    shutil.rmtree(target)
+                self.send_json({"ok": True, "name": name})
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        self.send_response(404)
+        self.end_headers()
+
+def main():
+    server = HTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
+    print(f"[DeckyWolf] Torrent & Decky service listening on http://127.0.0.1:{PORT}")
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        server.server_close()
+
+if __name__ == "__main__":
+    main()

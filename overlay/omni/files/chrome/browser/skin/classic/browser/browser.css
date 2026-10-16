@@ -1,0 +1,583 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+@import url("chrome://browser/skin/browser-shared.css");
+@import url("chrome://browser/skin/contextmenu.css");
+
+/**
+ * We still want to do some of the tweaks that browser-colors does, like
+ * disabling the toolbar field border and backgrounds.
+ */
+@media not (prefers-contrast) {
+  :root:not([lwtheme]) {
+    @media (-moz-gtk-theme-family) {
+      --tabs-navbar-separator-style: none;
+      @media (prefers-color-scheme: light) {
+        --urlbar-box-background-color: #fafafa;
+      }
+    }
+  }
+}
+
+#menubar-items {
+  flex-direction: column; /* for flex hack */
+  justify-content: normal; /* align the menubar to the top also in customize mode */
+}
+
+/**
+ * Titlebar drawing. GTK windows have both a window radius (exposed via the
+ * `-moz-gtk-csd-titlebar-radius`) environment variable, and a window shadow
+ * (which we can't read back from GTK).
+ */
+@media (-moz-gtk-csd-transparency-available) {
+  :root[customtitlebar] {
+    background-color: transparent;
+
+    &[sizemode="normal"]:not([tiled]) {
+      /* Firefox draws its contents to a child window, while GTK takes care of
+       * drawing the toplevel (which in most cases is just the window
+       * decorations).
+       *
+       * Due to how X11 child windows work, pixels painted by a child window will
+       * never be drawn by its toplevel, even in compositing window managers.
+       * That means that we need to draw the part of the decorations that fall
+       * into our client area ourselves, which is what this does.
+       *
+       * Alternatives to this would be:
+       *  * Using the XComposite extension
+       *  * Drawing to the toplevel window buffer directly
+       *  * Approximating the corners with gdk_window_shape_combine_region
+       *
+       * None of them being particularly appealing.
+       *
+       * On Wayland we render to a subsurface which gets properly composited
+       * atop our toplevel, so there's no issue there (MozWindowDecorations
+       * does nothing).
+       */
+      -moz-default-appearance: -moz-window-decorations;
+      appearance: auto;
+
+      body,
+      dialog::backdrop {
+        border-top-left-radius: env(-moz-gtk-csd-titlebar-radius);
+        border-top-right-radius: env(-moz-gtk-csd-titlebar-radius);
+        @media -moz-pref("widget.gtk.rounded-bottom-corners.enabled") {
+          /* Use an uniform clip to allow WebRender to optimize it better */
+          border-radius: env(-moz-gtk-csd-titlebar-radius);
+        }
+      }
+    }
+  }
+}
+
+/* Bookmark menus */
+.bookmark-item {
+  &:is(menu, menuitem) {
+    min-width: 0;
+    max-width: 32em;
+  }
+
+  &:not(.subviewbutton) > .menu-icon {
+    margin-block: 0;
+  }
+
+  /* Bookmark drag and drop styles */
+  &[dragover-into="true"] {
+    background: SelectedItem !important;
+    color: SelectedItemText !important;
+  }
+}
+
+/* Address bar */
+.urlbar,
+#searchbar {
+  font-size: 1.05em;
+}
+
+/* AutoComplete */
+
+#PopupAutoComplete > richlistbox > richlistitem[originaltype~="datalist-first"] {
+  border-top: 1px solid ThreeDShadow;
+}
+
+/* Tabstrip */
+
+#tabbrowser-tabs {
+  /* override the native styling */
+  border-bottom: 0;
+}
+
+#TabsToolbar {
+  min-height: 0;
+}
+
+.browser-titlebar,
+#main-menubar {
+  appearance: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+/* All tabs menupopup */
+
+#UITourHighlight {
+  /* Below are some fixes for people without an X compositor on Linux.
+     This is why we can't have nice things: */
+  /* Animations don't repaint properly without an X compositor. */
+  animation-name: none !important;
+  /* Opacity rounds to 0 or 1 on Linux without an X compositor, making the
+     background color not visible. Anti-aliasing is not available either. Make a
+     thicker outline and cancel border-radius for that case. */
+  outline: 4px solid rgb(0, 200, 215);
+  border-radius: 0 !important;
+}
+
+#UITourTooltipDescription {
+  font-size: 1.05rem;
+}
+
+#UITourTooltipClose {
+  margin-inline-end: -4px;
+}
+
+/**
+ * Override the --panel-padding so the background extends
+ * to the sides and bottom of the panel.
+ */
+#UITourTooltipButtons {
+  margin-inline-start: -10px;
+  margin-bottom: -10px;
+}
+
+/* The button box must appear on top of the navigator-toolbox in order for
+ * click and hover mouse events to work properly for the button in the restored
+ * window state. Otherwise, elements in the navigator-toolbox, like the menubar,
+ * can swallow those events. */
+.titlebar-buttonbox {
+  z-index: 1;
+  align-items: stretch;
+  /* In libadwaita buttons are 24px big and spacing is
+   * 3px of gap + 5px * 2 of padding = 13px / 2, see:
+   * https://gitlab.gnome.org/GNOME/libadwaita/-/blob/fe21c3c823443a8f2333cf3cc09ba3d0fa753228/src/stylesheet/widgets/_header-bar.scss#L164
+   * We want a contiguous hit region so we use 6.5px of padding instead. */
+  --titlebar-button-size: 24px;
+  --titlebar-button-spacing: 6.5px;
+  --titlebar-button-end-spacing: 10px;
+  @media (-moz-gtk-theme-family: breeze) {
+    /* On breeze, titlebar button size and spacing depends on the font, see:
+     *  * https://invent.kde.org/plasma/kdecoration/-/blob/28898c2492708f6a1603458baa535a8504e8d638/src/decorationsettings.cpp#L18-33
+     *  * https://invent.kde.org/plasma/breeze/-/blob/156193c14942cbc836cf131e92e16fc3310513ed/kdecoration/breezedecoration.cpp#L734-750
+     *  * https://invent.kde.org/plasma/breeze/-/blob/156193c14942cbc836cf131e92e16fc3310513ed/kdecoration/breeze.h#L34
+     * Since we don't have the height of the "M" glyph, we approximate using
+     * ems snapped to device pixels for crisp rendering. */
+    /* The button size is also the grid unit */
+    --titlebar-button-size: round(1.3em, 2 * env(hairline));
+    /* The spacing is half the button size. Since we apply it to each side,
+     * it's that divided by 2 */
+    --titlebar-button-spacing: calc(var(--titlebar-button-size) / 4);
+    /* End spacing is 2 * smallSpacing, which is max(2px, clamp(grid-unit / 4)). */
+    --titlebar-button-end-spacing: calc(2 * max(2px, round(down, var(--titlebar-button-size) / 4, env(hairline))));
+  }
+  --max-titlebar-button-position: max(
+    env(-moz-gtk-csd-maximize-button-position),
+    env(-moz-gtk-csd-minimize-button-position),
+    env(-moz-gtk-csd-close-button-position)
+  );
+}
+
+@media (-moz-gtk-csd-reversed-placement) {
+  .titlebar-buttonbox-container {
+    order: -1;
+  }
+}
+
+.titlebar-button {
+  appearance: none;
+  color: inherit;
+  align-items: center;
+  padding: 0;
+  padding-inline: var(--titlebar-button-spacing);
+  padding-inline-end: max(
+    var(--titlebar-button-spacing),
+    var(--titlebar-button-end-spacing) * (var(--titlebar-button-position) - var(--max-titlebar-button-position) + 1)
+  );
+  order: var(--titlebar-button-position);
+  /* In GTK applications, you can drag the window by titlebar buttons */
+  -moz-window-dragging: drag;
+
+  > .toolbarbutton-icon {
+    border-radius: var(--border-radius-circle);
+    background-position: center center;
+    background-size: min(16px, var(--titlebar-button-size) - 2 * env(hairline));
+    background-repeat: no-repeat;
+    -moz-context-properties: stroke;
+    stroke: currentColor;
+    width: var(--titlebar-button-size);
+    height: var(--titlebar-button-size);
+
+    @media not (-moz-gtk-theme-family: breeze) {
+      /* Matches the libadwaita transition */
+      transition: background-color 0.2s ease;
+    }
+
+    @media (-moz-gtk-theme-family: adwaita) or (-moz-gtk-theme-family: yaru) {
+      /* On Adwaita / Yaru, the titlebar buttons have a background by default */
+      background-color: color-mix(in srgb, currentColor 10%, transparent);
+    }
+  }
+
+  &:hover > .toolbarbutton-icon {
+    background-color: color-mix(in srgb, currentColor 15%, transparent);
+  }
+
+  &:hover:active > .toolbarbutton-icon {
+    background-color: color-mix(in srgb, currentColor 30%, transparent);
+  }
+
+  &:focus-visible > .toolbarbutton-icon {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-inset);
+  }
+
+  @media (-moz-gtk-theme-family: breeze) {
+    &:hover > .toolbarbutton-icon {
+      color: var(--toolbox-background-color);
+      background-color: var(--toolbox-text-color);
+      &:-moz-window-inactive {
+        color: var(--toolbox-background-color-inactive);
+        background-color: var(--toolbox-text-color-inactive);
+      }
+    }
+    &:hover:active > .toolbarbutton-icon {
+      background-color: color-mix(in srgb, var(--toolbox-text-color) 50%, transparent);
+    }
+    &.titlebar-close:hover > .toolbarbutton-icon {
+      background-color: #ff98a2;
+    }
+    &.titlebar-close:hover:active > .toolbarbutton-icon {
+      background-color: #6d2229;
+    }
+  }
+}
+
+.titlebar-restore,
+.titlebar-max {
+  --titlebar-button-position: env(-moz-gtk-csd-maximize-button-position);
+
+  > .toolbarbutton-icon {
+    background-image: -moz-symbolic-icon(window-maximize-symbolic);
+  }
+
+  @media not (-moz-gtk-csd-maximize-button) {
+    display: none;
+  }
+}
+
+.titlebar-restore > .toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-restore-symbolic);
+}
+
+.titlebar-close {
+  --titlebar-button-position: env(-moz-gtk-csd-close-button-position);
+
+  > .toolbarbutton-icon {
+    background-image: -moz-symbolic-icon(window-close-symbolic);
+  }
+
+  @media not (-moz-gtk-csd-close-button) {
+    display: none;
+  }
+}
+
+.titlebar-min {
+  --titlebar-button-position: env(-moz-gtk-csd-minimize-button-position);
+
+  > .toolbarbutton-icon {
+    background-image: -moz-symbolic-icon(window-minimize-symbolic);
+  }
+
+  @media not (-moz-gtk-csd-minimize-button) {
+    display: none;
+  }
+}
+
+.titlebar-return-to-opener {
+  --titlebar-button-position: env(-moz-gtk-csd-minimize-button-position);
+}
+
+/* DeckyWolf Theme Palette (Decky Loader https://www.deckyloader.ru/) */
+:root {
+  --lwt-accent-color: #06090f !important;
+  --lwt-accent-color-inactive: #06090f !important;
+  --lwt-toolbar-field-background-color: #0d1422 !important;
+  --lwt-toolbar-field-color: #f8fafc !important;
+  --lwt-toolbar-field-border-color: rgba(255, 255, 255, 0.12) !important;
+  --lwt-toolbar-field-focus: #0d1422 !important;
+  --lwt-toolbar-field-border-focus: #1098fe !important;
+  --lwt-toolbar-field-highlight: #1098fe !important;
+  --lwt-toolbar-field-highlight-text: #ffffff !important;
+  --toolbar-bgcolor: #0b111c !important;
+  --toolbar-color: #f8fafc !important;
+  --toolbarbutton-hover-background: #121b2d !important;
+  --toolbarbutton-active-background: rgba(16, 152, 254, 0.25) !important;
+  --tab-selected-bgcolor: #0d1422 !important;
+  --tab-selected-textcolor: #f8fafc !important;
+  --tab-line-color: #1098fe !important;
+  --tab-loading-fill: #1098fe !important;
+  --focus-outline-color: #1098fe !important;
+  --color-accent-primary: #1098fe !important;
+  --color-accent-primary-hover: #0054d1 !important;
+  --color-accent-primary-active: #0045ad !important;
+  --panel-background: #0b111c !important;
+  --panel-color: #f8fafc !important;
+  --panel-border-color: rgba(255, 255, 255, 0.16) !important;
+  --arrowpanel-background: #0b111c !important;
+  --arrowpanel-color: #f8fafc !important;
+  --arrowpanel-border-color: rgba(255, 255, 255, 0.16) !important;
+  --autocomplete-popup-background: #0b111c !important;
+  --autocomplete-popup-color: #f8fafc !important;
+  --autocomplete-popup-highlight-background: rgba(16, 152, 254, 0.25) !important;
+  --autocomplete-popup-highlight-color: #93c5fd !important;
+}
+
+::selection {
+  background-color: rgba(16, 152, 254, 0.4) !important;
+  color: #ffffff !important;
+}
+
+/* Tabs toolbar background */
+#TabsToolbar {
+  background-color: #06090f !important;
+  color: #f8fafc !important;
+}
+
+/* Nav bar background */
+#nav-bar {
+  background-color: #0b111c !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.09) !important;
+}
+
+/* Urlbar */
+#urlbar-background {
+  background-color: #0d1422 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+  border-color: #1098fe !important;
+  outline: 2px solid rgba(16, 152, 254, 0.35) !important;
+}
+
+/* Active tab */
+.tabbrowser-tab[selected="true"] .tab-background {
+  background-color: #0d1422 !important;
+  border-top: 2px solid #1098fe !important;
+}
+
+/* Hovered tab */
+.tabbrowser-tab:hover:not([selected="true"]) .tab-background {
+  background-color: #121b2d !important;
+}
+
+/* Bookmarks toolbar */
+#PersonalToolbar {
+  background-color: #0b111c !important;
+  color: #94a3b8 !important;
+}
+
+/* Findbar */
+findbar {
+  background-color: #0b111c !important;
+  color: #f8fafc !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+/* DeckyWolf: Hide "Получить помощь" in Help menu and AppMenu */
+#appMenu_menu_openHelp,
+#menu_openHelp {
+  display: none !important;
+}
+
+/* DeckyWolf: Control Mode Button */
+#deckywolf-control-mode-button {
+  list-style-image: url("chrome://browser/skin/deckywolf-keyboard.svg") !important;
+}
+
+#deckywolf-control-mode-button[data-deckywolf-mode="controller"] {
+  list-style-image: url("chrome://browser/skin/deckywolf-controller.svg") !important;
+}
+
+/* DeckyWolf: Gamepad Button Badges in Controller Mode */
+:root[deckywolf-controller-active] #back-button,
+:root[deckywolf-controller-active] #forward-button,
+:root[deckywolf-controller-active] #reload-button {
+  position: relative;
+}
+
+:root[deckywolf-controller-active] #back-button::after,
+:root[deckywolf-controller-active] #forward-button::after,
+:root[deckywolf-controller-active] #reload-button::after {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 14px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+/* Default / Xbox / Steam Deck style (B, X, Y) */
+:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #back-button::after {
+  content: "B";
+  background: #ef4444; /* Red B */
+}
+:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #forward-button::after {
+  content: "X";
+  background: #1098fe; /* Blue X */
+}
+:root[deckywolf-controller-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #reload-button::after {
+  content: "Y";
+  background: #eab308; /* Yellow Y */
+}
+
+/* PlayStation style (Circle, Square, Triangle) */
+:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #back-button::after {
+  content: "○";
+  background: #ef4444; /* Red Circle */
+  font-size: 11px;
+}
+:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #forward-button::after {
+  content: "□";
+  background: #ec4899; /* Pink Square */
+  font-size: 11px;
+}
+:root[deckywolf-controller-active][deckywolf-hint-style="playstation"] #reload-button::after {
+  content: "△";
+  background: #10b981; /* Green Triangle */
+  font-size: 11px;
+}
+
+/* Nintendo style (A, Y, X) */
+:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #back-button::after {
+  content: "A";
+  background: #ef4444; /* Red A */
+}
+:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #forward-button::after {
+  content: "Y";
+  background: #1098fe; /* Blue Y */
+}
+:root[deckywolf-controller-active][deckywolf-hint-style="nintendo"] #reload-button::after {
+  content: "X";
+  background: #eab308; /* Yellow X */
+}
+
+/* DeckyWolf: Tab Bar Hints when modifier (L5/etc.) is held */
+:root[deckywolf-controller-active][deckywolf-modifier-active] .tabbrowser-tab:is([selected], [visuallyselected]) {
+  overflow: visible !important;
+}
+
+/* Make sure active tab close button is always visible when modifier is held */
+:root[deckywolf-controller-active][deckywolf-modifier-active] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  padding: 0 !important;
+  margin-inline-end: 2px !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  border-radius: 50% !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Xbox / Steam Deck style close button: Red B */
+:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
+  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ctext%20x%3D%228%22%20y%3D%2211.5%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EB%3C/text%3E%3C/svg%3E') !important;
+}
+
+/* PlayStation style close button: Red Circle */
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
+  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222%22/%3E%3C/svg%3E') !important;
+}
+
+/* Nintendo style close button: Red A */
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] .tabbrowser-tab:is([selected], [visuallyselected]) .tab-close-button {
+  list-style-image: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%227.5%22%20fill%3D%22%23ef4444%22/%3E%3Ctext%20x%3D%228%22%20y%3D%2211.5%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22900%22%20font-size%3D%2210%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%3EA%3C/text%3E%3C/svg%3E') !important;
+}
+
+/* New tab button hints */
+:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button,
+:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button,
+:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button {
+  position: relative !important;
+  list-style-image: none !important;
+}
+
+:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button > *,
+:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button > *,
+:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button > * {
+  opacity: 0 !important;
+}
+
+:root[deckywolf-controller-active][deckywolf-modifier-active] #tabs-newtab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active] #new-tab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active] .tabs-newtab-button::after {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 14px !important;
+  height: 14px !important;
+  border-radius: 50% !important;
+  color: #ffffff !important;
+  font-size: 9px !important;
+  font-weight: 800 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 14px !important;
+  text-align: center !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+  pointer-events: none !important;
+  z-index: 100 !important;
+}
+
+/* Xbox: Yellow Y */
+:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #tabs-newtab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) #new-tab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active]:not([deckywolf-hint-style="playstation"]):not([deckywolf-hint-style="nintendo"]) .tabs-newtab-button::after {
+  content: "Y" !important;
+  background: #eab308 !important;
+}
+
+/* PlayStation: Green Triangle */
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] #tabs-newtab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] #new-tab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="playstation"] .tabs-newtab-button::after {
+  content: "△" !important;
+  background: #10b981 !important;
+  font-size: 11px !important;
+}
+
+/* Nintendo: Yellow X */
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] #tabs-newtab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] #new-tab-button::after,
+:root[deckywolf-controller-active][deckywolf-modifier-active][deckywolf-hint-style="nintendo"] .tabs-newtab-button::after {
+  content: "X" !important;
+  background: #eab308 !important;
+}
+

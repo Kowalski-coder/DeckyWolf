@@ -1,0 +1,15 @@
+{
+  "name": "TorrentWolf",
+  "author": "DeckyWolf Team",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": [
+      "Utility",
+      "Downloads",
+      "Torrent"
+    ],
+    "description": "Фоновая загрузка торрентов на Steam Deck. Расширенное управление и настройки интегрированы в браузер DeckyWolf.",
+    "image": ""
+  }
+}

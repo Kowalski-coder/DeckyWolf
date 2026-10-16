@@ -12,7 +12,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
 VERSION="157.0.1-1"
-OUT_APPIMAGE="$(dirname "$SCRIPT_DIR")/deckywolf.AppImage"
+OUT_APPIMAGE="${OUT_APPIMAGE:-$(dirname "$SCRIPT_DIR")/deckywolf.AppImage}"
 
 cleanup() {
     rm -rf "$BUILD_TMP"
@@ -58,6 +58,7 @@ ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/net.librewolf.LibreWolf
 
 echo "==> Applying usr/share (icons and desktop files)..."
 mkdir -p "$SQUASHFS_TARGET/usr/share"
+rm -rf "$SQUASHFS_TARGET/usr/share/deckywolf/projacktor"
 cp -a "$OVERLAY_DIR/usr/share"/* "$SQUASHFS_TARGET/usr/share/"
 
 echo "==> Applying usr/lib (deckywolf-hook)..."
@@ -73,6 +74,10 @@ echo "==> Applying usr/bin (controller daemon, configs, launcher)..."
 mkdir -p "$SQUASHFS_TARGET/usr/bin/distribution"
 cp -f "$OVERLAY_DIR/usr/bin/deckywolf-controller" "$SQUASHFS_TARGET/usr/bin/"
 chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf-controller"
+if [ -f "$OVERLAY_DIR/usr/bin/deckywolf-torrent-service" ]; then
+    cp -f "$OVERLAY_DIR/usr/bin/deckywolf-torrent-service" "$SQUASHFS_TARGET/usr/bin/"
+    chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf-torrent-service"
+fi
 cp -f "$OVERLAY_DIR/usr/bin/librewolf.cfg" "$SQUASHFS_TARGET/usr/bin/"
 cp -a "$OVERLAY_DIR/usr/bin/distribution"/* "$SQUASHFS_TARGET/usr/bin/distribution/"
 if [ -f "$OVERLAY_DIR/usr/bin/application.ini" ]; then
@@ -91,6 +96,7 @@ OMNI_JA="$SQUASHFS_TARGET/usr/bin/browser/omni.ja"
 OMNI_TMP="$BUILD_TMP/omni_work"
 mkdir -p "$OMNI_TMP"
 unzip -q "$OMNI_JA" -d "$OMNI_TMP"
+rm -f "$OMNI_TMP/chrome/browser/skin/classic/browser/projacktor.svg"
 
 # Copy standalone omni files
 cp -a "$OVERLAY_DIR/omni/files"/* "$OMNI_TMP/"

@@ -102,7 +102,7 @@
                 "Status": "locked"
             },
             "browser.newtabpage.pinned": {
-                "Value": "[{\"url\": \"http://127.0.0.1:8402/\", \"title\": \"Projacktor\"}, {\"url\": \"https://deckyloader.ru/\", \"title\": \"Decky Loader\"}, {\"url\": \"https://store.steampowered.com/\", \"title\": \"Steam\"}, {\"url\": \"https://vk.ru/valvesteamdeck\", \"title\": \"Steam Deck Россия\"}]",
+                "Value": "[{\"url\": \"https://deckyloader.ru/\", \"title\": \"Decky Loader\"}, {\"url\": \"https://store.steampowered.com/\", \"title\": \"Steam\"}, {\"url\": \"https://vk.ru/valvesteamdeck\", \"title\": \"Steam Deck Россия\"}]",
                 "Status": "locked"
             },
             "extensions.activeThemeID": {

@@ -11,19 +11,18 @@ if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
     CONTROLLER_PID=$!
 fi
 
-# Start background Projacktor Web UI server on port 8402
-if [ -d "${CURRENTDIR}/usr/share/deckywolf/projacktor" ]; then
-    python3 -m http.server 8402 --directory "${CURRENTDIR}/usr/share/deckywolf/projacktor" >/dev/null 2>&1 &
-    PROJACKTOR_PID=$!
+# Start background TorrentWolf service on port 8404
+if [ -x "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" ]; then
+    "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" &
+    TORRENT_PID=$!
 fi
-
 
 cleanup() {
     if [ -n "${CONTROLLER_PID}" ]; then
         kill "${CONTROLLER_PID}" 2>/dev/null
     fi
-    if [ -n "${PROJACKTOR_PID}" ]; then
-        kill "${PROJACKTOR_PID}" 2>/dev/null
+    if [ -n "${TORRENT_PID}" ]; then
+        kill "${TORRENT_PID}" 2>/dev/null
     fi
 }
 trap cleanup EXIT INT TERM
