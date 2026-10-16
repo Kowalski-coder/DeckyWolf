@@ -17,7 +17,6 @@ export class DeckySiteIntegrationChild extends JSWindowActorChild {
     doc._deckySiteInjected = true;
 
     // Listen for messages from page via window.postMessage with JSON serialization
-    // This completely bypasses Gecko Xray wrappers and security boundaries
     win.addEventListener("message", async (event) => {
       if (!event.data || typeof event.data !== "string") return;
       let msg;
@@ -72,11 +71,134 @@ function PAGE_SCRIPT() {
   console.log("[DeckyWolf] DeckyLoader.ru live integration initialized.");
 
   let installedPlugins = {};
-  let deckyAvailable = false;
+  let lastKnownInstalledHash = "";
+  let currentActiveLang = "ru";
+
+  // Full translations for all 15 languages on deckyloader.ru + en
+  const I18N = {
+    cat_installed: {
+      ru: "Установленные", be: "Усталяваныя", kk: "Орнатылғандар", uk: "Встановлені",
+      az: "Quraşdırılmışlar", hy: "Տեղադրվածները", ky: "Орнотулгандар", tg: "Насбшудаҳо",
+      uz: "O'rnatilganlar", pl: "Zainstalowane", sr: "Инсталирано", fi: "Asennetut",
+      lt: "Įdiegti", et: "Paigaldatud", lv: "Instalētie", en: "Installed"
+    },
+    badge_installed: {
+      ru: "✓ Установлен", be: "✓ Усталяваны", kk: "✓ Орнатылған", uk: "✓ Встановлено",
+      az: "✓ Quraşdırılıb", hy: "✓ Տեղադրված է", ky: "✓ Орнотулган", tg: "✓ Насб шудааст",
+      uz: "✓ O'rnatilgan", pl: "✓ Zainstalowano", sr: "✓ Инсталирано", fi: "✓ Asennettu",
+      lt: "✓ Įdiegta", et: "✓ Paigaldatud", lv: "✓ Instalēts", en: "✓ Installed"
+    },
+    btn_install: {
+      ru: "Установить", be: "Усталяваць", kk: "Орнату", uk: "Встановити",
+      az: "Quraşdır", hy: "Տեղադրել", ky: "Орнотуу", tg: "Насб кардан",
+      uz: "O'rnatish", pl: "Zainstaluj", sr: "Инсталирај", fi: "Asenna",
+      lt: "Įdiegti", et: "Paigalda", lv: "Instalēt", en: "Install"
+    },
+    btn_reinstall: {
+      ru: "Переустановить", be: "Пераўсталяваць", kk: "Қайта орнату", uk: "Перевстановити",
+      az: "Yenidən quraşdır", hy: "Վերատեղադրել", ky: "Кайра орнотуу", tg: "Аз нав насб кардан",
+      uz: "Qayta o'rnatish", pl: "Przeinstaluj", sr: "Поново инсталирај", fi: "Asenna uudelleen",
+      lt: "Iš naujo įdiegti", et: "Paigalda uuesti", lv: "Pārinstalēt", en: "Reinstall"
+    },
+    btn_update: {
+      ru: "Обновить", be: "Абнавіць", kk: "Жаңарту", uk: "Оновити",
+      az: "Yenilə", hy: "Թարմացնել", ky: "Жаңыртуу", tg: "Навсозӣ",
+      uz: "Yangilash", pl: "Zaktualizuj", sr: "Ажурирај", fi: "Päivitä",
+      lt: "Atnaujinti", et: "Uuenda", lv: "Atjaunināt", en: "Update"
+    },
+    btn_delete: {
+      ru: "Удалить", be: "Выдаліць", kk: "Жою", uk: "Видалити",
+      az: "Sil", hy: "Հեռացնել", ky: "Өчүрүү", tg: "Нест кардан",
+      uz: "O'chirish", pl: "Usuń", sr: "Уклони", fi: "Poista",
+      lt: "Pašalinti", et: "Eemalda", lv: "Dzēst", en: "Delete"
+    },
+    action_installing: {
+      ru: "Установка...", be: "Усталёўка...", kk: "Орнатылуда...", uk: "Встановлення...",
+      az: "Quraşdırılır...", hy: "Տեղադրվում է...", ky: "Орнотулууда...", tg: "Насб шуда истодааст...",
+      uz: "O'rnatilmoqda...", pl: "Instalowanie...", sr: "Инсталирање...", fi: "Asennetaan...",
+      lt: "Diegiama...", et: "Paigaldamine...", lv: "Instalēšana...", en: "Installing..."
+    },
+    action_updating: {
+      ru: "Обновление...", be: "Абнаўленне...", kk: "Жаңартылуда...", uk: "Оновлення...",
+      az: "Yenilənir...", hy: "Թարմացվում է...", ky: "Жаңыртылууда...", tg: "Навсозӣ шуда истодааст...",
+      uz: "Yangilanmoqda...", pl: "Aktualizowanie...", sr: "Ажурирање...", fi: "Päivitetään...",
+      lt: "Atnaujinama...", et: "Uuendamine...", lv: "Atjaunināšana...", en: "Updating..."
+    },
+    action_deleting: {
+      ru: "Удаление...", be: "Выдаленне...", kk: "Жойылуда...", uk: "Видалення...",
+      az: "Silinir...", hy: "Հեռացվում է...", ky: "Өчүрүлүүдө...", tg: "Нест шуда истодааст...",
+      uz: "O'chirilmoqda...", pl: "Usuwanie...", sr: "Уклањање...", fi: "Poistetaan...",
+      lt: "Šalinama...", et: "Eemaldamine...", lv: "Dzēšana...", en: "Deleting..."
+    },
+    tip_install: {
+      ru: "Установить плагин в Decky Loader", be: "Усталяваць плагін у Decky Loader",
+      kk: "Плагинді Decky Loader-ге орнату", uk: "Встановити плагін у Decky Loader",
+      az: "Plaqini Decky Loader-ə quraşdır", hy: "Տեղադրել փլագինը Decky Loader-ում",
+      ky: "Плагинди Decky Loader-ге орнотуу", tg: "Насб кардани плагин дар Decky Loader",
+      uz: "Plaginni Decky Loader-ga o'rnatish", pl: "Zainstaluj wtyczkę w Decky Loader",
+      sr: "Инсталирај додатак у Decky Loader", fi: "Asenna lisäosa Decky Loaderiin",
+      lt: "Įdiegti papildinį į Decky Loader", et: "Paigalda pistikprogramm Decky Loaderisse",
+      lv: "Instalēt spraudni Decky Loader", en: "Install plugin in Decky Loader"
+    },
+    tip_reinstall: {
+      ru: "Переустановить плагин в Decky Loader", be: "Пераўсталяваць плагін у Decky Loader",
+      kk: "Плагинді Decky Loader-де қайта орнату", uk: "Перевстановити плагін у Decky Loader",
+      az: "Plaqini Decky Loader-də yenidən quraşdır", hy: "Վերատեղադրել փլագինը Decky Loader-ում",
+      ky: "Плагинди Decky Loader-де кайра орнотуу", tg: "Аз нав насб кардани плагин дар Decky Loader",
+      uz: "Plaginni Decky Loader-da qayta o'rnatish", pl: "Przeinstaluj wtyczkę w Decky Loader",
+      sr: "Поново инсталирај додатак у Decky Loader", fi: "Asenna lisäosa uudelleen Decky Loaderiin",
+      lt: "Iš naujo įdiegti papildinį į Decky Loader", et: "Paigalda pistikprogramm uuesti Decky Loaderisse",
+      lv: "Pārinstalēt spraudni Decky Loader", en: "Reinstall plugin in Decky Loader"
+    },
+    tip_update: {
+      ru: "Обновить плагин до версии v{v} в Decky Loader", be: "Абнавіць плагін да версіі v{v} у Decky Loader",
+      kk: "Плагинді Decky Loader-де v{v} нұсқасына жаңарту", uk: "Оновити плагін до версії v{v} у Decky Loader",
+      az: "Plaqini Decky Loader-də v{v} versiyasına yenilə", hy: "Թարմացնել փլագինը Decky Loader-ում v{v} տարբերակին",
+      ky: "Плагинди Decky Loader-де v{v} версиясына жаңыртуу", tg: "Плагинро ба версияи v{v} дар Decky Loader навсозӣ кунед",
+      uz: "Plaginni Decky Loader-da v{v} versiyasiga yangilang", pl: "Zaktualizuj wtyczkę do wersji v{v} w Decky Loader",
+      sr: "Ажурирај додатак на верзију v{v} у Decky Loader", fi: "Päivitä lisäosa versioon v{v} Decky Loaderissa",
+      lt: "Atnaujinti papildinį į versiją v{v} Decky Loader", et: "Uuenda pistikprogramm versioonile v{v} Decky Loaderis",
+      lv: "Atjaunināt spraudni uz versiju v{v} Decky Loader", en: "Update plugin to version v{v} in Decky Loader"
+    },
+    tip_delete: {
+      ru: "Удалить плагин из Decky Loader", be: "Выдаліць плагін з Decky Loader",
+      kk: "Плагинді Decky Loader-ден жою", uk: "Видалити плагін з Decky Loader",
+      az: "Plaqini Decky Loader-dən sil", hy: "Հեռացնել փլագինը Decky Loader-ից",
+      ky: "Плагинди Decky Loader-ден өчүрүү", tg: "Нест кардани плагин аз Decky Loader",
+      uz: "Plaginni Decky Loader-dan o'chirish", pl: "Usuń wtyczkę z Decky Loader",
+      sr: "Уклони додатак из Decky Loader", fi: "Poista lisäosa Decky Loaderista",
+      lt: "Pašalinti papildinį iš Decky Loader", et: "Eemalda pistikprogramm Decky Loaderist",
+      lv: "Dzēst spraudni no Decky Loader", en: "Delete plugin from Decky Loader"
+    }
+  };
+
+  function getLang() {
+    return window.currentLang || localStorage.getItem('decky_lang') || 'ru';
+  }
+
+  function t(key, params = {}) {
+    const lang = getLang();
+    const entry = I18N[key] || {};
+    let str = entry[lang] || entry['ru'] || entry['en'] || key;
+    for (const [k, v] of Object.entries(params)) {
+      str = str.replace(`{${k}}`, v);
+    }
+    return str;
+  }
 
   const style = document.createElement("style");
   style.id = "deckywolf-deckyloader-style";
   style.textContent = `
+    /* Wrap category filters onto multiple lines without clipping (Issue 2) */
+    .categories-bar {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      overflow-x: visible !important;
+      row-gap: 8px !important;
+      gap: 6px !important;
+      padding-bottom: 6px !important;
+    }
+
     /* DeckyWolf Action Slide-up Overlay */
     .decky-action-overlay {
       position: absolute;
@@ -301,7 +423,6 @@ function PAGE_SCRIPT() {
       };
       window.addEventListener("message", handler);
       window.postMessage(JSON.stringify({ type: type + "-request", reqId: curId, data }), "*");
-      // Timeout safety
       setTimeout(() => {
         window.removeEventListener("message", handler);
         resolve({ ok: false, error: "timeout" });
@@ -309,61 +430,75 @@ function PAGE_SCRIPT() {
     });
   }
 
-  async function fetchStatus() {
+  async function fetchStatus(isBackgroundPoll = false) {
     let data = await sendRpc("deckywolf-get-status");
-    console.log("[DeckyWolf] Status received:", data);
     if (data && data.ok) {
-      deckyAvailable = true;
       let list = data.plugins || [];
-      installedPlugins = {};
-      for (let p of list) {
-        let raw = norm(p.name);
-        let clean = stripPrefix(raw);
-        let info = { name: p.name, version: p.version || "1.0.0" };
-        installedPlugins[raw] = info;
-        installedPlugins[clean] = info;
+      let hash = list.map(p => `${p.name}:${p.version}`).sort().join("|");
+
+      // Check if language changed
+      let curLang = getLang();
+      let langChanged = curLang !== currentActiveLang;
+      if (langChanged) {
+        currentActiveLang = curLang;
       }
-      injectInstalledCategoryTab();
-      applyCardsIntegration();
+
+      if (hash !== lastKnownInstalledHash || langChanged || !isBackgroundPoll) {
+        lastKnownInstalledHash = hash;
+        installedPlugins = {};
+        for (let p of list) {
+          let raw = norm(p.name);
+          let clean = stripPrefix(raw);
+          let info = { name: p.name, version: p.version || "1.0.0" };
+          installedPlugins[raw] = info;
+          installedPlugins[clean] = info;
+        }
+        injectInstalledCategoryTab();
+        applyCardsIntegration(true);
+      }
     }
   }
 
   function injectInstalledCategoryTab() {
     const catBar = document.querySelector(".categories-bar");
-    if (!catBar || document.getElementById("cat-btn-installed")) return;
+    if (!catBar) return;
 
-    const allBtn = catBar.querySelector('.cat-btn[data-i18n="cat_all"]') || catBar.children[1];
+    let installedBtn = document.getElementById("cat-btn-installed");
+    if (!installedBtn) {
+      installedBtn = document.createElement("button");
+      installedBtn.id = "cat-btn-installed";
+      installedBtn.className = "cat-btn cat-btn-installed";
 
-    const installedBtn = document.createElement("button");
-    installedBtn.id = "cat-btn-installed";
-    installedBtn.className = "cat-btn cat-btn-installed";
+      const allBtn = catBar.querySelector('.cat-btn[data-i18n="cat_all"]') || catBar.children[1];
+      if (allBtn) {
+        catBar.insertBefore(installedBtn, allBtn);
+      } else {
+        catBar.appendChild(installedBtn);
+      }
+
+      installedBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+        installedBtn.classList.add("active");
+        filterInstalledOnly();
+      });
+
+      catBar.querySelectorAll(".cat-btn").forEach(btn => {
+        if (btn !== installedBtn) {
+          btn.addEventListener("click", () => {
+            installedBtn.classList.remove("active");
+          });
+        }
+      });
+    }
+
+    // Localize installed category button text
     installedBtn.innerHTML = `
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:-2px;margin-right:4px;">
         <path d="M20 6L9 17l-5-5"/>
       </svg>
-      <span>Установленные</span>
+      <span>${t("cat_installed")}</span>
     `;
-
-    installedBtn.addEventListener("click", function(e) {
-      e.preventDefault();
-      document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
-      installedBtn.classList.add("active");
-      filterInstalledOnly();
-    });
-
-    if (allBtn) {
-      catBar.insertBefore(installedBtn, allBtn);
-    } else {
-      catBar.appendChild(installedBtn);
-    }
-
-    catBar.querySelectorAll(".cat-btn").forEach(btn => {
-      if (btn !== installedBtn) {
-        btn.addEventListener("click", () => {
-          installedBtn.classList.remove("active");
-        });
-      }
-    });
   }
 
   function filterInstalledOnly() {
@@ -377,11 +512,11 @@ function PAGE_SCRIPT() {
 
     if (typeof window.renderPlugins === "function") {
       window.renderPlugins(installedList);
-      applyCardsIntegration();
+      applyCardsIntegration(true);
     }
   }
 
-  function applyOverlayToCard(card) {
+  function applyOverlayToCard(card, forceUpdate = false) {
     const pluginName = card.getAttribute("data-plugin-name") || 
                        (card.querySelector(".plugin-name") && card.querySelector(".plugin-name").textContent.trim());
     if (!pluginName) return;
@@ -389,7 +524,6 @@ function PAGE_SCRIPT() {
     const thumbWrapper = card.querySelector(".plugin-thumb-wrapper");
     if (!thumbWrapper) return;
 
-    // Find remote plugin metadata from window.__INITIAL_PLUGINS__
     let remotePlugin = null;
     if (Array.isArray(window.__INITIAL_PLUGINS__)) {
       remotePlugin = window.__INITIAL_PLUGINS__.find(p => norm(p.name) === norm(pluginName) || stripPrefix(norm(p.name)) === stripPrefix(norm(pluginName)));
@@ -410,21 +544,21 @@ function PAGE_SCRIPT() {
 
     const installed = getInstalledInfo(pluginName, artifactUrl);
 
-    // If already injected and state matches, skip re-injecting
-    const currentState = installed ? (installed.version || "installed") : "not_installed";
-    if (card._deckyActionInjected === currentState) return;
-    card._deckyActionInjected = currentState;
+    const lang = getLang();
+    const stateKey = (installed ? (installed.version || "installed") : "not_installed") + ":" + lang;
+    if (!forceUpdate && card._deckyActionInjected === stateKey) return;
+    card._deckyActionInjected = stateKey;
 
     thumbWrapper.style.position = "relative";
     thumbWrapper.style.overflow = "hidden";
 
-    // Clear any previous overlay elements
+    // Clear previous overlay elements
     thumbWrapper.querySelectorAll(".decky-action-overlay, .decky-installed-badge, .decky-progress-bar").forEach(el => el.remove());
 
     if (installed) {
       const badge = document.createElement("div");
       badge.className = "decky-installed-badge";
-      badge.innerHTML = "✓ Установлен";
+      badge.innerHTML = t("badge_installed");
       thumbWrapper.appendChild(badge);
     }
 
@@ -465,12 +599,12 @@ function PAGE_SCRIPT() {
       const btnInstall = document.createElement("button");
       btnInstall.type = "button";
       btnInstall.className = "decky-btn decky-btn-install";
-      btnInstall.setAttribute("title", "Установить плагин в Decky Loader");
+      btnInstall.setAttribute("title", t("tip_install"));
       btnInstall.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <path d="M12 5v14M5 12h14"/>
         </svg>
-        Установить
+        ${t("btn_install")}
       `;
       btnInstall.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -484,23 +618,23 @@ function PAGE_SCRIPT() {
       btnPrimary.type = "button";
       if (isUpdate) {
         btnPrimary.className = "decky-btn decky-btn-update";
-        btnPrimary.setAttribute("title", `Обновить плагин до версии v${siteVer} в Decky Loader`);
+        btnPrimary.setAttribute("title", t("tip_update", { v: siteVer }));
         btnPrimary.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
             <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
           </svg>
-          Обновить
+          ${t("btn_update")}
         `;
       } else {
         btnPrimary.className = "decky-btn decky-btn-reinstall";
-        btnPrimary.setAttribute("title", "Переустановить плагин в Decky Loader");
+        btnPrimary.setAttribute("title", t("tip_reinstall"));
         btnPrimary.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
             <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
           </svg>
-          Переустановить
+          ${t("btn_reinstall")}
         `;
       }
       btnPrimary.addEventListener("click", (e) => {
@@ -512,12 +646,12 @@ function PAGE_SCRIPT() {
       const btnDelete = document.createElement("button");
       btnDelete.type = "button";
       btnDelete.className = "decky-btn decky-btn-delete";
-      btnDelete.setAttribute("title", "Удалить плагин из Decky Loader");
+      btnDelete.setAttribute("title", t("tip_delete"));
       btnDelete.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <path d="M4 7h16M10 11v6M14 11v6M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12M9 7V4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"/>
         </svg>
-        Удалить
+        ${t("btn_delete")}
       `;
       btnDelete.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -533,11 +667,14 @@ function PAGE_SCRIPT() {
     const origHtml = btn.innerHTML;
     btn.disabled = true;
     btn.style.opacity = "0.85";
+    const actionLabel = action === "install" ? t("action_installing") :
+                        (action === "delete" ? t("action_deleting") : t("action_updating"));
+
     btn.innerHTML = `
       <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" style="animation: decky-spin 1s linear infinite;">
         <path d="M12 3a9 9 0 1 0 9 9"/>
       </svg>
-      ${action === "install" ? "Установка..." : (action === "delete" ? "Удаление..." : "Обновление...")}
+      ${actionLabel}
     `;
 
     const progressEl = card.querySelector(".decky-progress-bar");
@@ -548,7 +685,7 @@ function PAGE_SCRIPT() {
       fillEl.style.width = "0%";
       let p = 0;
       interval = setInterval(() => {
-        p += 6;
+        p += 5;
         if (p > 90) p = 92;
         fillEl.style.width = p + "%";
       }, 100);
@@ -590,7 +727,8 @@ function PAGE_SCRIPT() {
         }
 
         card._deckyActionInjected = null;
-        applyOverlayToCard(card);
+        applyOverlayToCard(card, true);
+        fetchStatus(true);
       }, 300);
     } else {
       if (progressEl) progressEl.style.display = "none";
@@ -602,8 +740,8 @@ function PAGE_SCRIPT() {
     }
   }
 
-  function applyCardsIntegration() {
-    document.querySelectorAll(".plugin-card").forEach(applyOverlayToCard);
+  function applyCardsIntegration(forceUpdate = false) {
+    document.querySelectorAll(".plugin-card").forEach(c => applyOverlayToCard(c, forceUpdate));
   }
 
   const observer = new MutationObserver(() => {
@@ -613,7 +751,14 @@ function PAGE_SCRIPT() {
 
   observer.observe(document.body, { childList: true, subtree: true });
 
-  // Initial fetch and retries if cards load asynchronously
+  // Bi-directional live sync: periodic polling every 2.5s
+  setInterval(() => fetchStatus(true), 2500);
+  window.addEventListener("focus", () => fetchStatus(true));
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") fetchStatus(true);
+  });
+
+  // Initial fetch and immediate retries
   fetchStatus();
   setTimeout(fetchStatus, 800);
   setTimeout(fetchStatus, 2000);

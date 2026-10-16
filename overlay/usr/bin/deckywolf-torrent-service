@@ -17,7 +17,8 @@ import urllib.request
 import urllib.error
 import subprocess
 import time
-from http.server import HTTPServer, BaseHTTPRequestHandler
+import threading
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 # Ensure stdlib paths for SteamOS 3.6+ / Python 3.13 compatibility
 def _ensure_stdlib_paths():
@@ -164,7 +165,7 @@ def decky_rpc_call(route, args=None, timeout=5):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=40):
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=45):
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
@@ -204,10 +205,14 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=40):
                         })
                         confirmed = True
                 elif ev == "loader/plugin_download_finish":
+                    time.sleep(0.3)
                     s.close()
+                    decky_rpc_call("loader/reload_plugin", [name])
                     return {"ok": True, "name": name}
                 elif ev == "loader/load_plugin" and confirmed:
+                    time.sleep(0.3)
                     s.close()
+                    decky_rpc_call("loader/reload_plugin", [name])
                     return {"ok": True, "name": name}
                 elif msg.get("type") == -1 and msg.get("id") == 2:
                     err = msg.get("error", {})
@@ -240,13 +245,8 @@ def decky_uninstall_plugin(name, timeout=10):
                 continue
             if opcode == 0x01:
                 msg = json.loads(payload.decode('utf-8'))
-                if msg.get("id") == req_id:
-                    s.close()
-                    if msg.get("type") == -1:
-                        err = msg.get("error", {})
-                        return {"ok": False, "error": err.get("message", "uninstall_failed")}
-                    return {"ok": True, "name": name}
-                if msg.get("event") == "loader/unload_plugin":
+                if msg.get("id") == req_id or msg.get("event") == "loader/unload_plugin":
+                    time.sleep(0.3)
                     s.close()
                     return {"ok": True, "name": name}
         s.close()
@@ -257,7 +257,7 @@ def decky_uninstall_plugin(name, timeout=10):
         return {"ok": False, "error": str(e)}
 
 # ==============================================================================
-# TorrentWolf Zip Packaging & Transmission RPC
+# Transmission Daemon Setup & RPC Proxy
 # ==============================================================================
 
 def ensure_torrentwolf_zip():
@@ -267,12 +267,10 @@ def ensure_torrentwolf_zip():
     zip_path = os.path.join(base_share, "TorrentWolf.zip")
     src_dir = os.path.join(base_share, "TorrentWolf")
 
-    # If writeable in share, put it there, otherwise /tmp
     if not os.path.isdir(os.path.dirname(zip_path)) or not os.access(os.path.dirname(zip_path), os.W_OK):
         zip_path = "/tmp/TorrentWolf.zip"
 
     if os.path.isdir(src_dir):
-        # Build zip with TorrentWolf/ as root
         try:
             with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
                 for root, dirs, files in os.walk(src_dir):
@@ -288,7 +286,104 @@ def ensure_torrentwolf_zip():
         return zip_path
     return None
 
-def transmission_rpc_request(payload_bytes):
+def _ensure_transmission_running():
+    try:
+        home = os.path.expanduser("~")
+        pfx = os.path.join(home, ".local", "opt", "transmission")
+        cfgdir = os.path.join(home, ".config", "transmission-daemon")
+        unit_file = os.path.join(home, ".config", "systemd", "user", "transmission-daemon.service")
+        downloads = os.path.join(home, "Downloads")
+        watch = os.path.join(home, "Torrents")
+
+        os.makedirs(downloads, exist_ok=True)
+        os.makedirs(watch, exist_ok=True)
+        os.makedirs(cfgdir, exist_ok=True)
+        os.makedirs(os.path.dirname(unit_file), exist_ok=True)
+        os.makedirs(os.path.join(home, ".local", "bin"), exist_ok=True)
+        os.makedirs(os.path.join(pfx, "bin"), exist_ok=True)
+        os.makedirs(os.path.join(pfx, "lib"), exist_ok=True)
+
+        src_tx = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "transmission")
+        if not os.path.isdir(src_tx):
+            src_tx = "/usr/share/deckywolf/transmission"
+
+        if os.path.isdir(src_tx):
+            if os.path.isdir(os.path.join(src_tx, "bin")):
+                subprocess.run(["cp", "-a", f"{src_tx}/bin/.", f"{pfx}/bin/"], capture_output=True)
+            if os.path.isdir(os.path.join(src_tx, "lib")):
+                subprocess.run(["cp", "-a", f"{src_tx}/lib/.", f"{pfx}/lib/"], capture_output=True)
+
+        wrapper = os.path.join(home, ".local", "bin", "transmission-remote")
+        with open(wrapper, "w") as f:
+            f.write('#!/bin/bash\nexport LD_LIBRARY_PATH="$HOME/.local/opt/transmission/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"\nexec "$HOME/.local/opt/transmission/bin/transmission-remote" "$@"\n')
+        os.chmod(wrapper, 0o755)
+
+        settings_path = os.path.join(cfgdir, "settings.json")
+        cfg = {}
+        if os.path.isfile(settings_path):
+            try:
+                with open(settings_path, "r") as f:
+                    cfg = json.load(f)
+            except Exception:
+                pass
+        cfg.update({
+            "rpc-enabled": True,
+            "rpc-port": 9091,
+            "rpc-bind-address": "127.0.0.1",
+            "rpc-whitelist": "127.0.0.1,::1",
+            "rpc-whitelist-enabled": True,
+            "rpc-authentication-required": False,
+            "download-dir": downloads,
+            "watch-dir": watch,
+            "watch-dir-enabled": True,
+            "start-added-torrents": True,
+            "rename-partial-files": True,
+            "ratio-limit": 0,
+            "ratio-limit-enabled": True,
+            "idle-seeding-limit": 5,
+            "idle-seeding-limit-enabled": True,
+            "peer-port-random-on-start": False,
+            "port-forwarding-enabled": True,
+            "utp-enabled": True,
+        })
+        cfg.setdefault("peer-port", 51413)
+        cfg.setdefault("cache-size-mb", 16)
+        cfg.setdefault("encryption", 1)
+
+        with open(settings_path, "w") as f:
+            json.dump(cfg, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+        tx_bin = os.path.join(pfx, "bin", "transmission-daemon")
+        if not os.path.isfile(tx_bin):
+            tx_bin = shutil.which("transmission-daemon") or tx_bin
+
+        unit_content = f"""[Unit]
+Description=Transmission BitTorrent Daemon (TorrentWolf)
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+Environment=LD_LIBRARY_PATH={pfx}/lib
+ExecStart={tx_bin} --foreground --config-dir {cfgdir}
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
+"""
+        with open(unit_file, "w") as f:
+            f.write(unit_content)
+
+        subprocess.run(["systemctl", "--user", "daemon-reload"], capture_output=True)
+        subprocess.run(["systemctl", "--user", "reset-failed", "transmission-daemon"], capture_output=True)
+        subprocess.run(["systemctl", "--user", "enable", "--now", "transmission-daemon"], capture_output=True)
+    except Exception as e:
+        print(f"[Transmission] Setup error: {e}", file=sys.stderr)
+
+def transmission_rpc_request(payload_bytes, retry_on_failure=True):
     global _tx_session_id
     req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, method="POST")
     req.add_header("Content-Type", "application/json")
@@ -309,6 +404,14 @@ def transmission_rpc_request(payload_bytes):
             except Exception as e2:
                 return {"ok": False, "error": str(e2)}
         return {"ok": False, "error": f"HTTP {e.code}"}
+    except urllib.error.URLError as ex:
+        # Connection refused: transmission daemon might be stopped
+        if retry_on_failure:
+            print("[Transmission] Connection refused, starting transmission-daemon...", file=sys.stderr)
+            _ensure_transmission_running()
+            time.sleep(0.6)
+            return transmission_rpc_request(payload_bytes, retry_on_failure=False)
+        return {"ok": False, "error": str(ex)}
     except Exception as ex:
         return {"ok": False, "error": str(ex)}
 
@@ -341,7 +444,7 @@ def get_installed_plugins_fs(hb_dir):
     return plugins
 
 # ==============================================================================
-# HTTP Request Handler
+# HTTP Request Handler (Multithreaded via ThreadingHTTPServer)
 # ==============================================================================
 
 class TorrentServiceHandler(BaseHTTPRequestHandler):
@@ -377,7 +480,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
             # Check transmission
             daemon_running = False
-            tx_res = transmission_rpc_request(b'{"method":"session-get"}')
+            tx_res = transmission_rpc_request(b'{"method":"session-get"}', retry_on_failure=False)
             if tx_res.get("ok"):
                 daemon_running = True
 
@@ -459,117 +562,20 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
         if url == "/api/install-torrentwolf":
             try:
-                # 1. Set up transmission daemon for the user
-                home = os.path.expanduser("~")
-                pfx = os.path.join(home, ".local", "opt", "transmission")
-                cfgdir = os.path.join(home, ".config", "transmission-daemon")
-                unit_file = os.path.join(home, ".config", "systemd", "user", "transmission-daemon.service")
-                downloads = os.path.join(home, "Downloads")
-                watch = os.path.join(home, "Torrents")
+                # 1. Start transmission daemon and configure paths/libs
+                _ensure_transmission_running()
 
-                os.makedirs(downloads, exist_ok=True)
-                os.makedirs(watch, exist_ok=True)
-                os.makedirs(cfgdir, exist_ok=True)
-                os.makedirs(os.path.dirname(unit_file), exist_ok=True)
-                os.makedirs(os.path.join(home, ".local", "bin"), exist_ok=True)
-
-                # Copy bundled transmission binaries to ~/.local/opt/transmission if needed
-                src_tx = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "transmission")
-                if not os.path.isdir(src_tx):
-                    src_tx = "/usr/share/deckywolf/transmission"
-
-                if os.path.isdir(src_tx) and not os.path.isfile(os.path.join(pfx, "bin", "transmission-daemon")):
-                    os.makedirs(os.path.join(pfx, "bin"), exist_ok=True)
-                    os.makedirs(os.path.join(pfx, "lib"), exist_ok=True)
-                    if os.path.isdir(os.path.join(src_tx, "bin")):
-                        for f in os.listdir(os.path.join(src_tx, "bin")):
-                            shutil.copy2(os.path.join(src_tx, "bin", f), os.path.join(pfx, "bin", f))
-                    if os.path.isdir(os.path.join(src_tx, "lib")):
-                        for f in os.listdir(os.path.join(src_tx, "lib")):
-                            shutil.copy2(os.path.join(src_tx, "lib", f), os.path.join(pfx, "lib", f))
-
-                # Create wrapper for transmission-remote
-                wrapper = os.path.join(home, ".local", "bin", "transmission-remote")
-                with open(wrapper, "w") as f:
-                    f.write('#!/bin/bash\nexport LD_LIBRARY_PATH="$HOME/.local/opt/transmission/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"\nexec "$HOME/.local/opt/transmission/bin/transmission-remote" "$@"\n')
-                os.chmod(wrapper, 0o755)
-
-                # Write transmission daemon settings
-                settings_path = os.path.join(cfgdir, "settings.json")
-                cfg = {}
-                if os.path.isfile(settings_path):
-                    try:
-                        with open(settings_path, "r") as f:
-                            cfg = json.load(f)
-                    except Exception:
-                        pass
-                cfg.update({
-                    "rpc-enabled": True,
-                    "rpc-port": 9091,
-                    "rpc-bind-address": "127.0.0.1",
-                    "rpc-whitelist": "127.0.0.1,::1",
-                    "rpc-whitelist-enabled": True,
-                    "rpc-authentication-required": False,
-                    "download-dir": downloads,
-                    "watch-dir": watch,
-                    "watch-dir-enabled": True,
-                    "start-added-torrents": True,
-                    "rename-partial-files": True,
-                    "ratio-limit": 0,
-                    "ratio-limit-enabled": True,
-                    "idle-seeding-limit": 5,
-                    "idle-seeding-limit-enabled": True,
-                    "peer-port-random-on-start": False,
-                    "port-forwarding-enabled": True,
-                    "utp-enabled": True,
-                })
-                cfg.setdefault("peer-port", 51413)
-                cfg.setdefault("cache-size-mb", 16)
-                cfg.setdefault("encryption", 1)
-
-                with open(settings_path, "w") as f:
-                    json.dump(cfg, f, indent=4, sort_keys=True, ensure_ascii=False)
-
-                # Write user systemd service unit
-                tx_bin = os.path.join(pfx, "bin", "transmission-daemon")
-                if not os.path.isfile(tx_bin):
-                    tx_bin = shutil.which("transmission-daemon") or tx_bin
-
-                unit_content = f"""[Unit]
-Description=Transmission BitTorrent Daemon (TorrentWolf)
-After=network-online.target
-Wants=network-online.target
-StartLimitIntervalSec=300
-StartLimitBurst=3
-
-[Service]
-Type=simple
-Environment=LD_LIBRARY_PATH={pfx}/lib
-ExecStart={tx_bin} --foreground --config-dir {cfgdir}
-Restart=on-failure
-RestartSec=10
-
-[Install]
-WantedBy=default.target
-"""
-                with open(unit_file, "w") as f:
-                    f.write(unit_content)
-
-                subprocess.run(["systemctl", "--user", "daemon-reload"], capture_output=True)
-                subprocess.run(["systemctl", "--user", "enable", "--now", "transmission-daemon"], capture_output=True)
-
-                # 2. Install TorrentWolf plugin into Decky Loader
+                # 2. Package and install TorrentWolf plugin via Decky Loader WebSocket
                 ensure_torrentwolf_zip()
 
                 decky_token = get_decky_token()
                 if decky_token:
-                    # Install via Decky Loader (root daemon) — avoids any Permission Denied!
                     install_res = decky_install_plugin(
                         f"http://127.0.0.1:{PORT}/plugins/TorrentWolf.zip",
                         "TorrentWolf",
                         "1.0.0",
                         "",
-                        timeout=30
+                        timeout=35
                     )
                     if install_res.get("ok"):
                         self.send_json({"ok": True, "installed": True})
@@ -578,7 +584,6 @@ WantedBy=default.target
                         print(f"[TorrentWolf] Decky install failed: {install_res}", file=sys.stderr)
 
                 # Fallback if Decky Loader daemon is not running:
-                # Direct filesystem copy if user has write access
                 hb_dir = get_homebrew_dir()
                 dest_plugin = os.path.join(hb_dir, "plugins", "TorrentWolf")
                 src_plugin = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins", "TorrentWolf")
@@ -589,7 +594,7 @@ WantedBy=default.target
                     if not os.access(os.path.join(hb_dir, "plugins"), os.W_OK) and not decky_token:
                         self.send_json({
                             "ok": False,
-                            "error": "Decky Loader не запущен. Пожалуйста, запустите службу Decky Loader для завершения установки."
+                            "error": "Служба Decky Loader не запущена. Пожалуйста, запустите Decky Loader для завершения установки."
                         }, 500)
                         return
                     if os.path.isdir(dest_plugin):
@@ -659,7 +664,6 @@ WantedBy=default.target
                     self.send_json({"ok": False, "error": res.get("error", "install_failed")}, 500)
                     return
 
-            # If Decky Loader is not running, we cannot write to root-owned plugins dir
             self.send_json({
                 "ok": False,
                 "error": "Decky Loader не запущен. Запустите Decky Loader для установки плагина."
@@ -682,7 +686,6 @@ WantedBy=default.target
                     self.send_json({"ok": False, "error": res.get("error", "uninstall_failed")}, 500)
                     return
 
-            # Direct fallback if writable
             try:
                 hb_dir = get_homebrew_dir()
                 target = os.path.join(hb_dir, "plugins", name)
@@ -698,8 +701,11 @@ WantedBy=default.target
 
 def main():
     ensure_torrentwolf_zip()
-    server = HTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
-    print(f"[DeckyWolf] Torrent & Decky service listening on http://127.0.0.1:{PORT}")
+    # Ensure transmission daemon is active
+    threading.Thread(target=_ensure_transmission_running, daemon=True).start()
+
+    server = ThreadingHTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
+    print(f"[DeckyWolf] Multithreaded Torrent & Decky service listening on http://127.0.0.1:{PORT}")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
