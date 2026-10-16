@@ -244,8 +244,7 @@ function PAGE_SCRIPT() {
     }
 
     .plugin-thumb-wrapper:hover .decky-action-overlay,
-    .plugin-card:hover .decky-action-overlay,
-    .decky-action-overlay:focus-within {
+    .plugin-card:hover .decky-action-overlay {
       transform: translateY(0);
       opacity: 1;
       pointer-events: auto;
@@ -656,7 +655,7 @@ function PAGE_SCRIPT() {
     overlay.className = "decky-action-overlay";
     overlay.setAttribute("title", ""); // Blank title stops inheritance of parent card tooltip
 
-    // Prevent parent GitFlic tooltip when hovering overlay/buttons
+    // Prevent parent GitFlic / card tooltip when hovering overlay/buttons
     overlay.addEventListener("mouseenter", (e) => {
       e.stopPropagation();
       const parentLink = card.closest("a") || card.querySelector("a") || card;
@@ -668,9 +667,22 @@ function PAGE_SCRIPT() {
         thumbWrapper.dataset.savedTitle = thumbWrapper.getAttribute("title");
         thumbWrapper.removeAttribute("title");
       }
+      if (card.hasAttribute("title") && !card.dataset.savedTitle) {
+        card.dataset.savedTitle = card.getAttribute("title");
+        card.removeAttribute("title");
+      }
+      card.querySelectorAll("[title]").forEach(el => {
+        if (!el.closest(".decky-action-overlay") && !el.dataset.savedTitle) {
+          el.dataset.savedTitle = el.getAttribute("title");
+          el.removeAttribute("title");
+        }
+      });
     });
 
-    overlay.addEventListener("mouseleave", () => {
+    const restoreTitlesAndBlur = () => {
+      if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+        document.activeElement.blur();
+      }
       const parentLink = card.closest("a") || card.querySelector("a") || card;
       if (parentLink && parentLink.dataset.savedTitle) {
         parentLink.setAttribute("title", parentLink.dataset.savedTitle);
@@ -680,7 +692,21 @@ function PAGE_SCRIPT() {
         thumbWrapper.setAttribute("title", thumbWrapper.dataset.savedTitle);
         delete thumbWrapper.dataset.savedTitle;
       }
-    });
+      if (card.dataset.savedTitle) {
+        card.setAttribute("title", card.dataset.savedTitle);
+        delete card.dataset.savedTitle;
+      }
+      card.querySelectorAll("[data-saved-title]").forEach(el => {
+        el.setAttribute("title", el.dataset.savedTitle);
+        delete el.dataset.savedTitle;
+      });
+    };
+
+    overlay.addEventListener("mouseleave", restoreTitlesAndBlur);
+    if (!card._deckyLeaveBound) {
+      card._deckyLeaveBound = true;
+      card.addEventListener("mouseleave", restoreTitlesAndBlur);
+    }
 
     const progress = document.createElement("div");
     progress.className = "decky-progress-bar";
