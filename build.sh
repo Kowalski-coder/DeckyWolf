@@ -60,6 +60,10 @@ echo "==> Applying usr/share (icons and desktop files)..."
 mkdir -p "$SQUASHFS_TARGET/usr/share"
 rm -rf "$SQUASHFS_TARGET/usr/share/deckywolf/projacktor"
 cp -a "$OVERLAY_DIR/usr/share"/* "$SQUASHFS_TARGET/usr/share/"
+if [ -d "$OVERLAY_DIR/usr/share/deckywolf/plugins/TorrentWolf" ]; then
+    echo "    Packaging TorrentWolf.zip..."
+    (cd "$OVERLAY_DIR/usr/share/deckywolf/plugins" && zip -q -r "$SQUASHFS_TARGET/usr/share/deckywolf/plugins/TorrentWolf.zip" TorrentWolf)
+fi
 
 echo "==> Applying usr/lib (deckywolf-hook)..."
 mkdir -p "$SQUASHFS_TARGET/usr/lib"

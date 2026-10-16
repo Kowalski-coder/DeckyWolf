@@ -8,6 +8,16 @@ Serves TorrentWolf Web Manager and handles backend operations for Decky Loader &
 import os
 import sys
 import glob
+import json
+import base64
+import socket
+import shutil
+import zipfile
+import urllib.request
+import urllib.error
+import subprocess
+import time
+from http.server import HTTPServer, BaseHTTPRequestHandler
 
 # Ensure stdlib paths for SteamOS 3.6+ / Python 3.13 compatibility
 def _ensure_stdlib_paths():
@@ -22,15 +32,6 @@ def _ensure_stdlib_paths():
                 sys.path.append(path)
 
 _ensure_stdlib_paths()
-
-import json
-import base64
-import socket
-import shutil
-import urllib.request
-import urllib.error
-import subprocess
-from http.server import HTTPServer, BaseHTTPRequestHandler
 
 PORT = 8404
 TRANSMISSION_RPC_URL = "http://127.0.0.1:9091/transmission/rpc"
@@ -55,12 +56,67 @@ def get_decky_token():
     except Exception:
         return None
 
-def decky_rpc(route, args=None):
+# ==============================================================================
+# Low-level WebSocket Client for Decky Loader RPC
+# ==============================================================================
+
+def _recv_exact(s, n):
+    buf = bytearray()
+    while len(buf) < n:
+        chunk = s.recv(n - len(buf))
+        if not chunk:
+            raise EOFError("Socket closed")
+        buf.extend(chunk)
+    return bytes(buf)
+
+def _recv_ws_frame(s):
+    hdr = _recv_exact(s, 2)
+    fin_opcode = hdr[0]
+    opcode = fin_opcode & 0x0F
+    mask_len = hdr[1]
+    plen = mask_len & 0x7F
+    if plen == 126:
+        plen = int.from_bytes(_recv_exact(s, 2), 'big')
+    elif plen == 127:
+        plen = int.from_bytes(_recv_exact(s, 8), 'big')
+
+    masked = bool(mask_len & 0x80)
+    mask = _recv_exact(s, 4) if masked else None
+    payload = _recv_exact(s, plen)
+    if masked:
+        payload = bytes(b ^ mask[i % 4] for i, b in enumerate(payload))
+    return opcode, payload
+
+def _send_ws_frame(s, data, opcode=0x01):
+    if isinstance(data, (dict, list)):
+        payload = json.dumps(data).encode('utf-8')
+    elif isinstance(data, str):
+        payload = data.encode('utf-8')
+    else:
+        payload = data
+
+    mask = os.urandom(4)
+    masked = bytes(b ^ mask[i % 4] for i, b in enumerate(payload))
+    hdr = bytearray([0x80 | (opcode & 0x0F)])
+    plen = len(payload)
+    if plen < 126:
+        hdr.append(0x80 | plen)
+    elif plen <= 0xFFFF:
+        hdr.append(0x80 | 126)
+        hdr.extend(plen.to_bytes(2, 'big'))
+    else:
+        hdr.append(0x80 | 127)
+        hdr.extend(plen.to_bytes(8, 'big'))
+    hdr.extend(mask)
+    s.sendall(hdr + masked)
+
+def open_decky_ws(timeout=5):
     token = get_decky_token()
     if not token:
-        return {"ok": False, "error": "no_token"}
+        return None
     try:
-        s = socket.create_connection(("127.0.0.1", 1337), timeout=5)
+        s = socket.create_connection(("127.0.0.1", 1337), timeout=timeout)
+        s.settimeout(timeout)
         key = base64.b64encode(os.urandom(16)).decode('ascii')
         req = (f"GET /ws?auth={token} HTTP/1.1\r\n"
                f"Host: 127.0.0.1:1337\r\n"
@@ -69,38 +125,168 @@ def decky_rpc(route, args=None):
                f"Sec-WebSocket-Key: {key}\r\n"
                f"Sec-WebSocket-Version: 13\r\n\r\n")
         s.sendall(req.encode('ascii'))
-        s.recv(4096)
-
-        msg = json.dumps({"type": 0, "route": route, "args": args or [], "id": 1}).encode('utf-8')
-        mask = os.urandom(4)
-        masked_data = bytes(b ^ mask[i % 4] for i, b in enumerate(msg))
-        header = bytearray([0x81])
-        if len(msg) < 126:
-            header.append(0x80 | len(msg))
-        else:
-            header.append(0x80 | 126)
-            header.extend(len(msg).to_bytes(2, 'big'))
-        header.extend(mask)
-        s.sendall(header + masked_data)
-
-        frame = s.recv(65536)
-        if len(frame) < 2:
-            s.close()
-            return {"ok": False, "error": "empty_frame"}
-        plen = frame[1] & 0x7F
-        idx = 2
-        if plen == 126:
-            plen = int.from_bytes(frame[2:4], 'big')
-            idx = 4
-        elif plen == 127:
-            plen = int.from_bytes(frame[2:10], 'big')
-            idx = 10
-        payload = frame[idx:idx+plen].decode('utf-8')
-        s.close()
-        res = json.loads(payload)
-        return {"ok": True, "result": res.get("result")}
+        resp = b""
+        while b"\r\n\r\n" not in resp:
+            chunk = s.recv(1024)
+            if not chunk:
+                break
+            resp += chunk
+        return s
     except Exception as e:
+        print(f"[DeckyBridge] WS connect error: {e}", file=sys.stderr)
+        return None
+
+def decky_rpc_call(route, args=None, timeout=5):
+    s = open_decky_ws(timeout=timeout)
+    if not s:
+        return {"ok": False, "error": "decky_not_running"}
+    try:
+        req_id = int(time.time() * 1000) % 100000
+        _send_ws_frame(s, {"type": 0, "route": route, "args": args or [], "id": req_id})
+        start = time.time()
+        while time.time() - start < timeout:
+            opcode, payload = _recv_ws_frame(s)
+            if opcode == 0x09:  # ping
+                _send_ws_frame(s, b"", opcode=0x0A)
+                continue
+            if opcode == 0x01:
+                msg = json.loads(payload.decode('utf-8'))
+                if msg.get("id") == req_id:
+                    s.close()
+                    if msg.get("type") == -1:
+                        err = msg.get("error", {})
+                        return {"ok": False, "error": err.get("message", "rpc_failed")}
+                    return {"ok": True, "result": msg.get("result")}
+        s.close()
+        return {"ok": False, "error": "timeout"}
+    except Exception as e:
+        try: s.close()
+        except Exception: pass
         return {"ok": False, "error": str(e)}
+
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=40):
+    s = open_decky_ws(timeout=timeout)
+    if not s:
+        return {"ok": False, "error": "decky_not_running"}
+    try:
+        req_id = 1
+        _send_ws_frame(s, {
+            "type": 0,
+            "route": "utilities/install_plugin",
+            "args": [url, name, version, hash_val, 0],
+            "id": req_id
+        })
+        start = time.time()
+        confirmed = False
+        while time.time() - start < timeout:
+            try:
+                opcode, payload = _recv_ws_frame(s)
+            except socket.timeout:
+                continue
+            if opcode == 0x08:  # close
+                break
+            if opcode == 0x09:  # ping
+                _send_ws_frame(s, b"", opcode=0x0A)
+                continue
+            if opcode == 0x01:
+                msg = json.loads(payload.decode('utf-8'))
+                ev = msg.get("event")
+                # Auto-confirm install prompt
+                if ev == "loader/add_plugin_install_prompt":
+                    args = msg.get("args", [])
+                    if len(args) >= 3:
+                        prompt_id = args[2]
+                        _send_ws_frame(s, {
+                            "type": 0,
+                            "route": "utilities/confirm_plugin_install",
+                            "args": [prompt_id],
+                            "id": 2
+                        })
+                        confirmed = True
+                elif ev == "loader/plugin_download_finish":
+                    s.close()
+                    return {"ok": True, "name": name}
+                elif ev == "loader/load_plugin" and confirmed:
+                    s.close()
+                    return {"ok": True, "name": name}
+                elif msg.get("type") == -1 and msg.get("id") == 2:
+                    err = msg.get("error", {})
+                    s.close()
+                    return {"ok": False, "error": err.get("message", "confirmation_failed")}
+        s.close()
+        return {"ok": False, "error": "install_timeout"}
+    except Exception as e:
+        try: s.close()
+        except Exception: pass
+        return {"ok": False, "error": str(e)}
+
+def decky_uninstall_plugin(name, timeout=10):
+    s = open_decky_ws(timeout=timeout)
+    if not s:
+        return {"ok": False, "error": "decky_not_running"}
+    try:
+        req_id = 9
+        _send_ws_frame(s, {
+            "type": 0,
+            "route": "utilities/uninstall_plugin",
+            "args": [name],
+            "id": req_id
+        })
+        start = time.time()
+        while time.time() - start < timeout:
+            try:
+                opcode, payload = _recv_ws_frame(s)
+            except socket.timeout:
+                continue
+            if opcode == 0x01:
+                msg = json.loads(payload.decode('utf-8'))
+                if msg.get("id") == req_id:
+                    s.close()
+                    if msg.get("type") == -1:
+                        err = msg.get("error", {})
+                        return {"ok": False, "error": err.get("message", "uninstall_failed")}
+                    return {"ok": True, "name": name}
+                if msg.get("event") == "loader/unload_plugin":
+                    s.close()
+                    return {"ok": True, "name": name}
+        s.close()
+        return {"ok": True, "name": name}
+    except Exception as e:
+        try: s.close()
+        except Exception: pass
+        return {"ok": False, "error": str(e)}
+
+# ==============================================================================
+# TorrentWolf Zip Packaging & Transmission RPC
+# ==============================================================================
+
+def ensure_torrentwolf_zip():
+    base_share = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins")
+    if not os.path.isdir(base_share):
+        base_share = "/usr/share/deckywolf/plugins"
+    zip_path = os.path.join(base_share, "TorrentWolf.zip")
+    src_dir = os.path.join(base_share, "TorrentWolf")
+
+    # If writeable in share, put it there, otherwise /tmp
+    if not os.path.isdir(os.path.dirname(zip_path)) or not os.access(os.path.dirname(zip_path), os.W_OK):
+        zip_path = "/tmp/TorrentWolf.zip"
+
+    if os.path.isdir(src_dir):
+        # Build zip with TorrentWolf/ as root
+        try:
+            with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+                for root, dirs, files in os.walk(src_dir):
+                    for f in files:
+                        full = os.path.join(root, f)
+                        rel = os.path.relpath(full, os.path.dirname(src_dir))
+                        z.write(full, rel)
+            return zip_path
+        except Exception as e:
+            print(f"[TorrentWolf] Error building zip: {e}", file=sys.stderr)
+
+    if os.path.isfile(zip_path):
+        return zip_path
+    return None
 
 def transmission_rpc_request(payload_bytes):
     global _tx_session_id
@@ -154,6 +340,10 @@ def get_installed_plugins_fs(hb_dir):
                 plugins.append({"name": name, "version": version, "disabled": False})
     return plugins
 
+# ==============================================================================
+# HTTP Request Handler
+# ==============================================================================
+
 class TorrentServiceHandler(BaseHTTPRequestHandler):
     def send_json(self, data, status=200):
         body = json.dumps(data, ensure_ascii=False).encode('utf-8')
@@ -175,6 +365,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         url = self.path.split("?")[0]
+
         if url == "/api/status":
             hb_dir = get_homebrew_dir()
             decky_installed = os.path.isdir(hb_dir)
@@ -203,6 +394,22 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 "downloads_dir": downloads_dir,
                 "watch_dir": watch_dir
             })
+            return
+
+        if url == "/plugins/TorrentWolf.zip":
+            zip_path = ensure_torrentwolf_zip()
+            if zip_path and os.path.isfile(zip_path):
+                with open(zip_path, "rb") as f:
+                    content = f.read()
+                self.send_response(200)
+                self.send_header("Content-Type", "application/zip")
+                self.send_header("Content-Length", str(len(content)))
+                self.send_header("Content-Disposition", 'attachment; filename="TorrentWolf.zip"')
+                self.end_headers()
+                self.wfile.write(content)
+                return
+            self.send_response(404)
+            self.end_headers()
             return
 
         # Serve static UI files
@@ -252,21 +459,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
         if url == "/api/install-torrentwolf":
             try:
-                hb_dir = get_homebrew_dir()
-                os.makedirs(os.path.join(hb_dir, "plugins"), exist_ok=True)
-                dest_plugin = os.path.join(hb_dir, "plugins", "TorrentWolf")
-
-                # Source plugin
-                src_plugin = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins", "TorrentWolf")
-                if not os.path.isdir(src_plugin):
-                    src_plugin = "/usr/share/deckywolf/plugins/TorrentWolf"
-
-                if os.path.isdir(src_plugin):
-                    if os.path.isdir(dest_plugin):
-                        shutil.rmtree(dest_plugin)
-                    shutil.copytree(src_plugin, dest_plugin)
-
-                # Set up transmission daemon
+                # 1. Set up transmission daemon for the user
                 home = os.path.expanduser("~")
                 pfx = os.path.join(home, ".local", "opt", "transmission")
                 cfgdir = os.path.join(home, ".config", "transmission-daemon")
@@ -280,7 +473,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 os.makedirs(os.path.dirname(unit_file), exist_ok=True)
                 os.makedirs(os.path.join(home, ".local", "bin"), exist_ok=True)
 
-                # Copy binaries if not already in pfx
+                # Copy bundled transmission binaries to ~/.local/opt/transmission if needed
                 src_tx = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "transmission")
                 if not os.path.isdir(src_tx):
                     src_tx = "/usr/share/deckywolf/transmission"
@@ -295,13 +488,13 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                         for f in os.listdir(os.path.join(src_tx, "lib")):
                             shutil.copy2(os.path.join(src_tx, "lib", f), os.path.join(pfx, "lib", f))
 
-                # Create transmission-remote wrapper
+                # Create wrapper for transmission-remote
                 wrapper = os.path.join(home, ".local", "bin", "transmission-remote")
                 with open(wrapper, "w") as f:
                     f.write('#!/bin/bash\nexport LD_LIBRARY_PATH="$HOME/.local/opt/transmission/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"\nexec "$HOME/.local/opt/transmission/bin/transmission-remote" "$@"\n')
                 os.chmod(wrapper, 0o755)
 
-                # Write settings.json
+                # Write transmission daemon settings
                 settings_path = os.path.join(cfgdir, "settings.json")
                 cfg = {}
                 if os.path.isfile(settings_path):
@@ -337,7 +530,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 with open(settings_path, "w") as f:
                     json.dump(cfg, f, indent=4, sort_keys=True, ensure_ascii=False)
 
-                # Write systemd service unit
+                # Write user systemd service unit
                 tx_bin = os.path.join(pfx, "bin", "transmission-daemon")
                 if not os.path.isfile(tx_bin):
                     tx_bin = shutil.which("transmission-daemon") or tx_bin
@@ -365,8 +558,43 @@ WantedBy=default.target
                 subprocess.run(["systemctl", "--user", "daemon-reload"], capture_output=True)
                 subprocess.run(["systemctl", "--user", "enable", "--now", "transmission-daemon"], capture_output=True)
 
-                # Notify Decky
-                decky_rpc("loader/reload_plugin", ["TorrentWolf"])
+                # 2. Install TorrentWolf plugin into Decky Loader
+                ensure_torrentwolf_zip()
+
+                decky_token = get_decky_token()
+                if decky_token:
+                    # Install via Decky Loader (root daemon) — avoids any Permission Denied!
+                    install_res = decky_install_plugin(
+                        f"http://127.0.0.1:{PORT}/plugins/TorrentWolf.zip",
+                        "TorrentWolf",
+                        "1.0.0",
+                        "",
+                        timeout=30
+                    )
+                    if install_res.get("ok"):
+                        self.send_json({"ok": True, "installed": True})
+                        return
+                    else:
+                        print(f"[TorrentWolf] Decky install failed: {install_res}", file=sys.stderr)
+
+                # Fallback if Decky Loader daemon is not running:
+                # Direct filesystem copy if user has write access
+                hb_dir = get_homebrew_dir()
+                dest_plugin = os.path.join(hb_dir, "plugins", "TorrentWolf")
+                src_plugin = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins", "TorrentWolf")
+                if not os.path.isdir(src_plugin):
+                    src_plugin = "/usr/share/deckywolf/plugins/TorrentWolf"
+
+                if os.path.isdir(src_plugin):
+                    if not os.access(os.path.join(hb_dir, "plugins"), os.W_OK) and not decky_token:
+                        self.send_json({
+                            "ok": False,
+                            "error": "Decky Loader не запущен. Пожалуйста, запустите службу Decky Loader для завершения установки."
+                        }, 500)
+                        return
+                    if os.path.isdir(dest_plugin):
+                        shutil.rmtree(dest_plugin)
+                    shutil.copytree(src_plugin, dest_plugin)
 
                 self.send_json({"ok": True, "installed": True})
             except Exception as e:
@@ -375,25 +603,32 @@ WantedBy=default.target
 
         if url == "/api/uninstall-torrentwolf":
             try:
-                hb_dir = get_homebrew_dir()
-                p1 = os.path.join(hb_dir, "plugins", "TorrentWolf")
-                p2 = os.path.join(hb_dir, "plugins", "DeckTorrent")
-                if os.path.isdir(p1):
-                    shutil.rmtree(p1)
-                if os.path.isdir(p2):
-                    shutil.rmtree(p2)
+                # 1. Uninstall plugin via Decky Loader
+                decky_uninstall_plugin("TorrentWolf")
+                decky_uninstall_plugin("DeckTorrent")
 
-                decky_rpc("utilities/uninstall_plugin", ["TorrentWolf"])
+                # Remove from filesystem if accessible
+                hb_dir = get_homebrew_dir()
+                for p_name in ["TorrentWolf", "DeckTorrent"]:
+                    p_path = os.path.join(hb_dir, "plugins", p_name)
+                    if os.path.isdir(p_path) and os.access(p_path, os.W_OK):
+                        try: shutil.rmtree(p_path)
+                        except Exception: pass
+
+                # Stop transmission-daemon
                 subprocess.run(["systemctl", "--user", "disable", "--now", "transmission-daemon"], capture_output=True)
                 self.send_json({"ok": True, "uninstalled": True})
             except Exception as e:
                 self.send_json({"ok": False, "error": str(e)}, 500)
             return
 
+        # ======================================================================
         # Decky Loader Bridge for deckyloader.ru
+        # ======================================================================
+
         if url == "/api/decky/status":
             hb_dir = get_homebrew_dir()
-            rpc_res = decky_rpc("loader/get_plugins", [])
+            rpc_res = decky_rpc_call("loader/get_plugins", [])
             plugins = []
             running = False
             if rpc_res.get("ok") and isinstance(rpc_res.get("result"), list):
@@ -410,30 +645,25 @@ WantedBy=default.target
             artifact_url = req_data.get("url")
             version = req_data.get("version", "latest")
             hash_val = req_data.get("hash", "")
-            if not name:
-                self.send_json({"ok": False, "error": "missing_name"}, 400)
+            if not name or not artifact_url:
+                self.send_json({"ok": False, "error": "missing_parameters"}, 400)
                 return
 
             token = get_decky_token()
             if token:
-                res = decky_rpc("utilities/install_plugin", [artifact_url, name, version, hash_val, 0])
+                res = decky_install_plugin(artifact_url, name, version, hash_val, timeout=45)
                 if res.get("ok"):
                     self.send_json({"ok": True, "name": name})
                     return
+                else:
+                    self.send_json({"ok": False, "error": res.get("error", "install_failed")}, 500)
+                    return
 
-            # Fallback: download and unzip directly to homebrew/plugins
-            try:
-                hb_dir = get_homebrew_dir()
-                dest_dir = os.path.join(hb_dir, "plugins", name)
-                os.makedirs(dest_dir, exist_ok=True)
-                tmp_zip = f"/tmp/{name}_{os.getpid()}.zip"
-                urllib.request.urlretrieve(artifact_url, tmp_zip)
-                subprocess.run(["unzip", "-o", "-q", tmp_zip, "-d", os.path.join(hb_dir, "plugins")], check=True)
-                if os.path.isfile(tmp_zip):
-                    os.remove(tmp_zip)
-                self.send_json({"ok": True, "name": name})
-            except Exception as e:
-                self.send_json({"ok": False, "error": str(e)}, 500)
+            # If Decky Loader is not running, we cannot write to root-owned plugins dir
+            self.send_json({
+                "ok": False,
+                "error": "Decky Loader не запущен. Запустите Decky Loader для установки плагина."
+            }, 500)
             return
 
         if url == "/api/decky/uninstall":
@@ -444,12 +674,15 @@ WantedBy=default.target
 
             token = get_decky_token()
             if token:
-                res = decky_rpc("utilities/uninstall_plugin", [name])
+                res = decky_uninstall_plugin(name, timeout=15)
                 if res.get("ok"):
                     self.send_json({"ok": True, "name": name})
                     return
+                else:
+                    self.send_json({"ok": False, "error": res.get("error", "uninstall_failed")}, 500)
+                    return
 
-            # Fallback: remove folder
+            # Direct fallback if writable
             try:
                 hb_dir = get_homebrew_dir()
                 target = os.path.join(hb_dir, "plugins", name)
@@ -464,6 +697,7 @@ WantedBy=default.target
         self.end_headers()
 
 def main():
+    ensure_torrentwolf_zip()
     server = HTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
     print(f"[DeckyWolf] Torrent & Decky service listening on http://127.0.0.1:{PORT}")
     try:

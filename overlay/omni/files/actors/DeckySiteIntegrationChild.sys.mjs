@@ -16,31 +16,42 @@ export class DeckySiteIntegrationChild extends JSWindowActorChild {
     if (doc._deckySiteInjected) return;
     doc._deckySiteInjected = true;
 
-    // Listen for events from page
-    win.addEventListener("deckywolf-get-status-request", async () => {
+    // Listen for messages from page via window.postMessage with JSON serialization
+    // This completely bypasses Gecko Xray wrappers and security boundaries
+    win.addEventListener("message", async (event) => {
+      if (!event.data || typeof event.data !== "string") return;
+      let msg;
       try {
-        let res = await this.sendQuery("GetDeckyStatus");
-        win.dispatchEvent(new win.CustomEvent("deckywolf-get-status-response", { detail: res }));
-      } catch (err) {
-        win.dispatchEvent(new win.CustomEvent("deckywolf-get-status-response", { detail: { ok: false, error: String(err) } }));
+        msg = JSON.parse(event.data);
+      } catch (_) {
+        return;
       }
-    });
 
-    win.addEventListener("deckywolf-install-request", async (e) => {
-      try {
-        let res = await this.sendQuery("DeckyInstall", e.detail);
-        win.dispatchEvent(new win.CustomEvent("deckywolf-install-response", { detail: res }));
-      } catch (err) {
-        win.dispatchEvent(new win.CustomEvent("deckywolf-install-response", { detail: { ok: false, error: String(err) } }));
+      if (msg.type === "deckywolf-get-status-request") {
+        try {
+          let res = await this.sendQuery("GetDeckyStatus");
+          win.postMessage(JSON.stringify({ type: "deckywolf-get-status-response", reqId: msg.reqId, data: res }), "*");
+        } catch (err) {
+          win.postMessage(JSON.stringify({ type: "deckywolf-get-status-response", reqId: msg.reqId, data: { ok: false, error: String(err) } }), "*");
+        }
       }
-    });
 
-    win.addEventListener("deckywolf-uninstall-request", async (e) => {
-      try {
-        let res = await this.sendQuery("DeckyUninstall", e.detail);
-        win.dispatchEvent(new win.CustomEvent("deckywolf-uninstall-response", { detail: res }));
-      } catch (err) {
-        win.dispatchEvent(new win.CustomEvent("deckywolf-uninstall-response", { detail: { ok: false, error: String(err) } }));
+      if (msg.type === "deckywolf-install-request") {
+        try {
+          let res = await this.sendQuery("DeckyInstall", msg.data);
+          win.postMessage(JSON.stringify({ type: "deckywolf-install-response", reqId: msg.reqId, data: res }), "*");
+        } catch (err) {
+          win.postMessage(JSON.stringify({ type: "deckywolf-install-response", reqId: msg.reqId, data: { ok: false, error: String(err) } }), "*");
+        }
+      }
+
+      if (msg.type === "deckywolf-uninstall-request") {
+        try {
+          let res = await this.sendQuery("DeckyUninstall", msg.data);
+          win.postMessage(JSON.stringify({ type: "deckywolf-uninstall-response", reqId: msg.reqId, data: res }), "*");
+        } catch (err) {
+          win.postMessage(JSON.stringify({ type: "deckywolf-uninstall-response", reqId: msg.reqId, data: { ok: false, error: String(err) } }), "*");
+        }
       }
     });
 
@@ -81,7 +92,7 @@ function PAGE_SCRIPT() {
       transform: translateY(100%);
       opacity: 0;
       transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease;
-      z-index: 10;
+      z-index: 20;
       pointer-events: none;
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
@@ -114,6 +125,7 @@ function PAGE_SCRIPT() {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       position: relative;
       overflow: hidden;
+      pointer-events: auto;
     }
 
     /* Green "Установить" */
@@ -188,7 +200,7 @@ function PAGE_SCRIPT() {
       background: rgba(255, 255, 255, 0.1);
       overflow: hidden;
       display: none;
-      z-index: 12;
+      z-index: 25;
     }
     .decky-progress-fill {
       width: 0%;
@@ -234,6 +246,12 @@ function PAGE_SCRIPT() {
       display: flex;
       align-items: center;
       gap: 4px;
+      pointer-events: none;
+    }
+
+    @keyframes decky-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
     }
   `;
   if (!document.getElementById("deckywolf-deckyloader-style")) {
@@ -241,31 +259,73 @@ function PAGE_SCRIPT() {
   }
 
   function norm(str) {
-    return (str || "").toLowerCase().replace(/[-_ ]/g, "").trim();
+    return (str || "").toLowerCase().replace(/[^a-z0-9]/g, "");
   }
 
-  function getInstalledInfo(pluginName) {
-    const key = norm(pluginName);
-    return installedPlugins[key] || null;
+  function stripPrefix(str) {
+    return (str || "").replace(/^(decky|sdh)/, "");
   }
 
-  function fetchStatus() {
-    window.addEventListener("deckywolf-get-status-response", (e) => {
-      let data = e.detail;
-      if (data && data.ok) {
-        deckyAvailable = true;
-        let list = data.plugins || [];
-        installedPlugins = {};
-        for (let p of list) {
-          let k = norm(p.name);
-          installedPlugins[k] = { name: p.name, version: p.version || "1.0.0" };
-        }
-        injectInstalledCategoryTab();
-        applyCardsIntegration();
+  function getInstalledInfo(pluginName, artifactUrl) {
+    if (!pluginName) return null;
+    let n1 = norm(pluginName);
+    let n2 = stripPrefix(n1);
+    if (installedPlugins[n1]) return installedPlugins[n1];
+    if (installedPlugins[n2]) return installedPlugins[n2];
+
+    if (artifactUrl) {
+      let m = artifactUrl.match(/\/([^/?#]+)\.zip(?:[?#]|$)/i);
+      if (m && m[1]) {
+        let an1 = norm(m[1]);
+        let an2 = stripPrefix(an1);
+        if (installedPlugins[an1]) return installedPlugins[an1];
+        if (installedPlugins[an2]) return installedPlugins[an2];
       }
-    }, { once: true });
+    }
+    return null;
+  }
 
-    window.dispatchEvent(new CustomEvent("deckywolf-get-status-request"));
+  let reqCounter = 0;
+  function sendRpc(type, data) {
+    return new Promise((resolve) => {
+      const curId = ++reqCounter;
+      const handler = (event) => {
+        if (!event.data || typeof event.data !== "string") return;
+        try {
+          const msg = JSON.parse(event.data);
+          if (msg.type === type + "-response" && msg.reqId === curId) {
+            window.removeEventListener("message", handler);
+            resolve(msg.data);
+          }
+        } catch (_) {}
+      };
+      window.addEventListener("message", handler);
+      window.postMessage(JSON.stringify({ type: type + "-request", reqId: curId, data }), "*");
+      // Timeout safety
+      setTimeout(() => {
+        window.removeEventListener("message", handler);
+        resolve({ ok: false, error: "timeout" });
+      }, 50000);
+    });
+  }
+
+  async function fetchStatus() {
+    let data = await sendRpc("deckywolf-get-status");
+    console.log("[DeckyWolf] Status received:", data);
+    if (data && data.ok) {
+      deckyAvailable = true;
+      let list = data.plugins || [];
+      installedPlugins = {};
+      for (let p of list) {
+        let raw = norm(p.name);
+        let clean = stripPrefix(raw);
+        let info = { name: p.name, version: p.version || "1.0.0" };
+        installedPlugins[raw] = info;
+        installedPlugins[clean] = info;
+      }
+      injectInstalledCategoryTab();
+      applyCardsIntegration();
+    }
   }
 
   function injectInstalledCategoryTab() {
@@ -311,7 +371,8 @@ function PAGE_SCRIPT() {
     if (!container || !window.__INITIAL_PLUGINS__) return;
 
     const installedList = window.__INITIAL_PLUGINS__.filter(p => {
-      return Boolean(getInstalledInfo(p.name));
+      let artifactUrl = (p.versions && p.versions[0]) ? p.versions[0].artifact : "";
+      return Boolean(getInstalledInfo(p.name, artifactUrl));
     });
 
     if (typeof window.renderPlugins === "function") {
@@ -321,9 +382,6 @@ function PAGE_SCRIPT() {
   }
 
   function applyOverlayToCard(card) {
-    if (card._deckyActionInjected) return;
-    card._deckyActionInjected = true;
-
     const pluginName = card.getAttribute("data-plugin-name") || 
                        (card.querySelector(".plugin-name") && card.querySelector(".plugin-name").textContent.trim());
     if (!pluginName) return;
@@ -331,33 +389,10 @@ function PAGE_SCRIPT() {
     const thumbWrapper = card.querySelector(".plugin-thumb-wrapper");
     if (!thumbWrapper) return;
 
-    thumbWrapper.style.position = "relative";
-    thumbWrapper.style.overflow = "hidden";
-
-    // Clear any previous overlay elements if re-applying
-    thumbWrapper.querySelectorAll(".decky-action-overlay, .decky-installed-badge, .decky-progress-bar").forEach(el => el.remove());
-
-    const installed = getInstalledInfo(pluginName);
-
-    if (installed) {
-      const badge = document.createElement("div");
-      badge.className = "decky-installed-badge";
-      badge.innerHTML = "✓ Установлен";
-      thumbWrapper.appendChild(badge);
-    }
-
-    const overlay = document.createElement("div");
-    overlay.className = "decky-action-overlay";
-
-    const progress = document.createElement("div");
-    progress.className = "decky-progress-bar";
-    progress.innerHTML = '<div class="decky-progress-fill"></div>';
-    thumbWrapper.appendChild(progress);
-
     // Find remote plugin metadata from window.__INITIAL_PLUGINS__
     let remotePlugin = null;
     if (Array.isArray(window.__INITIAL_PLUGINS__)) {
-      remotePlugin = window.__INITIAL_PLUGINS__.find(p => norm(p.name) === norm(pluginName));
+      remotePlugin = window.__INITIAL_PLUGINS__.find(p => norm(p.name) === norm(pluginName) || stripPrefix(norm(p.name)) === stripPrefix(norm(pluginName)));
     }
 
     let siteVer = "";
@@ -373,10 +408,64 @@ function PAGE_SCRIPT() {
       siteVer = verBadge ? verBadge.textContent.replace(/^v/, "").trim() : "1.0.0";
     }
 
+    const installed = getInstalledInfo(pluginName, artifactUrl);
+
+    // If already injected and state matches, skip re-injecting
+    const currentState = installed ? (installed.version || "installed") : "not_installed";
+    if (card._deckyActionInjected === currentState) return;
+    card._deckyActionInjected = currentState;
+
+    thumbWrapper.style.position = "relative";
+    thumbWrapper.style.overflow = "hidden";
+
+    // Clear any previous overlay elements
+    thumbWrapper.querySelectorAll(".decky-action-overlay, .decky-installed-badge, .decky-progress-bar").forEach(el => el.remove());
+
+    if (installed) {
+      const badge = document.createElement("div");
+      badge.className = "decky-installed-badge";
+      badge.innerHTML = "✓ Установлен";
+      thumbWrapper.appendChild(badge);
+    }
+
+    const overlay = document.createElement("div");
+    overlay.className = "decky-action-overlay";
+    overlay.setAttribute("title", ""); // Blank title stops inheritance of parent card tooltip
+
+    // Prevent parent GitFlic tooltip when hovering overlay/buttons
+    overlay.addEventListener("mouseenter", (e) => {
+      e.stopPropagation();
+      if (thumbWrapper.hasAttribute("title") && !thumbWrapper.dataset.savedTitle) {
+        thumbWrapper.dataset.savedTitle = thumbWrapper.getAttribute("title");
+        thumbWrapper.removeAttribute("title");
+      }
+      if (card.hasAttribute("title") && !card.dataset.savedTitle) {
+        card.dataset.savedTitle = card.getAttribute("title");
+        card.removeAttribute("title");
+      }
+    });
+
+    overlay.addEventListener("mouseleave", (e) => {
+      if (thumbWrapper.dataset.savedTitle) {
+        thumbWrapper.setAttribute("title", thumbWrapper.dataset.savedTitle);
+        delete thumbWrapper.dataset.savedTitle;
+      }
+      if (card.dataset.savedTitle) {
+        card.setAttribute("title", card.dataset.savedTitle);
+        delete card.dataset.savedTitle;
+      }
+    });
+
+    const progress = document.createElement("div");
+    progress.className = "decky-progress-bar";
+    progress.innerHTML = '<div class="decky-progress-fill"></div>';
+    thumbWrapper.appendChild(progress);
+
     if (!installed) {
       const btnInstall = document.createElement("button");
       btnInstall.type = "button";
       btnInstall.className = "decky-btn decky-btn-install";
+      btnInstall.setAttribute("title", "Установить плагин в Decky Loader");
       btnInstall.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <path d="M12 5v14M5 12h14"/>
@@ -395,6 +484,7 @@ function PAGE_SCRIPT() {
       btnPrimary.type = "button";
       if (isUpdate) {
         btnPrimary.className = "decky-btn decky-btn-update";
+        btnPrimary.setAttribute("title", `Обновить плагин до версии v${siteVer} в Decky Loader`);
         btnPrimary.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
@@ -404,6 +494,7 @@ function PAGE_SCRIPT() {
         `;
       } else {
         btnPrimary.className = "decky-btn decky-btn-reinstall";
+        btnPrimary.setAttribute("title", "Переустановить плагин в Decky Loader");
         btnPrimary.innerHTML = `
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
@@ -421,6 +512,7 @@ function PAGE_SCRIPT() {
       const btnDelete = document.createElement("button");
       btnDelete.type = "button";
       btnDelete.className = "decky-btn decky-btn-delete";
+      btnDelete.setAttribute("title", "Удалить плагин из Decky Loader");
       btnDelete.innerHTML = `
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
           <path d="M4 7h16M10 11v6M14 11v6M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12M9 7V4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"/>
@@ -437,69 +529,76 @@ function PAGE_SCRIPT() {
     thumbWrapper.appendChild(overlay);
   }
 
-  function triggerAction(card, action, pluginName, version, artifactUrl, hash, btn) {
+  async function triggerAction(card, action, pluginName, version, artifactUrl, hash, btn) {
     const origHtml = btn.innerHTML;
     btn.disabled = true;
     btn.style.opacity = "0.85";
     btn.innerHTML = `
-      <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" style="animation: spin 1s linear infinite;">
+      <svg width="15" height="15" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" style="animation: decky-spin 1s linear infinite;">
         <path d="M12 3a9 9 0 1 0 9 9"/>
       </svg>
-      ${action === "install" ? "Установка..." : (action === "delete" ? "Удаление..." : "Загрузка...")}
+      ${action === "install" ? "Установка..." : (action === "delete" ? "Удаление..." : "Обновление...")}
     `;
 
     const progressEl = card.querySelector(".decky-progress-bar");
     const fillEl = card.querySelector(".decky-progress-fill");
+    let interval = null;
     if (progressEl && fillEl) {
       progressEl.style.display = "block";
       fillEl.style.width = "0%";
       let p = 0;
-      const interval = setInterval(() => {
-        p += 12;
+      interval = setInterval(() => {
+        p += 6;
         if (p > 90) p = 92;
         fillEl.style.width = p + "%";
-      }, 120);
+      }, 100);
+    }
 
-      const finishUi = (success) => {
-        clearInterval(interval);
-        fillEl.style.width = "100%";
-        setTimeout(() => {
-          progressEl.style.display = "none";
-          fillEl.style.width = "0%";
-          btn.disabled = false;
-          btn.style.opacity = "1";
-          btn.innerHTML = origHtml;
-
-          if (success) {
-            if (action === "install" || action === "update" || action === "reinstall") {
-              installedPlugins[norm(pluginName)] = { name: pluginName, version: version || "latest" };
-            } else if (action === "delete") {
-              delete installedPlugins[norm(pluginName)];
-            }
-          }
-          card._deckyActionInjected = false;
-          applyOverlayToCard(card);
-        }, 250);
-      };
-
-      if (action === "delete") {
-        window.addEventListener("deckywolf-uninstall-response", (e) => {
-          finishUi(e.detail && e.detail.ok);
-        }, { once: true });
-        window.dispatchEvent(new CustomEvent("deckywolf-uninstall-request", { detail: { name: pluginName } }));
-      } else {
-        window.addEventListener("deckywolf-install-response", (e) => {
-          finishUi(e.detail && e.detail.ok);
-        }, { once: true });
-        window.dispatchEvent(new CustomEvent("deckywolf-install-request", {
-          detail: {
-            name: pluginName,
-            url: artifactUrl || `https://deckyloader.ru/store/plugins/${norm(pluginName)}.zip`,
-            version: version,
-            hash: hash
-          }
-        }));
+    let res;
+    if (action === "delete") {
+      res = await sendRpc("deckywolf-uninstall", { name: pluginName });
+    } else {
+      let finalUrl = artifactUrl;
+      if (!finalUrl) {
+        finalUrl = `https://deckyloader.ru/store/plugins/${norm(pluginName)}.zip`;
       }
+      res = await sendRpc("deckywolf-install", {
+        name: pluginName,
+        url: finalUrl,
+        version: version || "latest",
+        hash: hash
+      });
+    }
+
+    if (interval) clearInterval(interval);
+
+    if (res && res.ok) {
+      if (fillEl) fillEl.style.width = "100%";
+      setTimeout(() => {
+        if (progressEl) progressEl.style.display = "none";
+        if (fillEl) fillEl.style.width = "0%";
+
+        let raw = norm(pluginName);
+        let clean = stripPrefix(raw);
+        if (action === "install" || action === "update" || action === "reinstall") {
+          let info = { name: pluginName, version: version || "latest" };
+          installedPlugins[raw] = info;
+          installedPlugins[clean] = info;
+        } else if (action === "delete") {
+          delete installedPlugins[raw];
+          delete installedPlugins[clean];
+        }
+
+        card._deckyActionInjected = null;
+        applyOverlayToCard(card);
+      }, 300);
+    } else {
+      if (progressEl) progressEl.style.display = "none";
+      if (fillEl) fillEl.style.width = "0%";
+      btn.disabled = false;
+      btn.style.opacity = "1";
+      btn.innerHTML = origHtml;
+      alert("Ошибка операции: " + ((res && res.error) || "неизвестная ошибка"));
     }
   }
 
@@ -514,5 +613,8 @@ function PAGE_SCRIPT() {
 
   observer.observe(document.body, { childList: true, subtree: true });
 
+  // Initial fetch and retries if cards load asynchronously
   fetchStatus();
+  setTimeout(fetchStatus, 800);
+  setTimeout(fetchStatus, 2000);
 }

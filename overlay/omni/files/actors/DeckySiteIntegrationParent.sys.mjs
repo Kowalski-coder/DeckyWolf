@@ -11,10 +11,11 @@ export class DeckySiteIntegrationParent extends JSWindowActorParent {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({})
         });
-        if (resp.ok) {
-          return await resp.json();
+        let data = await resp.json().catch(() => ({}));
+        if (resp.ok && data.ok) {
+          return data;
         }
-        return { ok: false, error: "service_unavailable" };
+        return { ok: false, error: data.error || "service_unavailable" };
       }
 
       if (message.name === "DeckyInstall") {
@@ -23,10 +24,11 @@ export class DeckySiteIntegrationParent extends JSWindowActorParent {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(message.data || {})
         });
-        if (resp.ok) {
-          return await resp.json();
+        let data = await resp.json().catch(() => ({}));
+        if (resp.ok && data.ok) {
+          return data;
         }
-        return { ok: false, error: "install_failed" };
+        return { ok: false, error: data.error || "install_failed" };
       }
 
       if (message.name === "DeckyUninstall") {
@@ -35,10 +37,11 @@ export class DeckySiteIntegrationParent extends JSWindowActorParent {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(message.data || {})
         });
-        if (resp.ok) {
-          return await resp.json();
+        let data = await resp.json().catch(() => ({}));
+        if (resp.ok && data.ok) {
+          return data;
         }
-        return { ok: false, error: "uninstall_failed" };
+        return { ok: false, error: data.error || "uninstall_failed" };
       }
     } catch (e) {
       dump("[DeckyWolf] Error in DeckySiteIntegrationParent: " + e + "\n");
