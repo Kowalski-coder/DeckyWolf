@@ -496,7 +496,7 @@ function PAGE_SCRIPT() {
       setTimeout(() => {
         window.removeEventListener("message", handler);
         resolve({ ok: false, error: "timeout" });
-      }, 120000);
+      }, 3600000);
     });
   }
 
