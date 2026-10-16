@@ -379,52 +379,67 @@
       const isPaused = t.status === 0;
       const sizeStr = formatBytes(t.totalSize || t.sizeWhenDone || 0);
       const doneStr = formatBytes(t.downloadedEver || 0);
+      const etaStr = (!isPaused && t.status === 4 && t.eta > 0) ? ` • ETA: ${formatEta(t.eta)}` : "";
 
-      let statusBadge = "Ожидание";
-      let badgeClass = "badge-wait";
+      let statusText = "Ожидание";
+      let statusClass = "paused";
       if (isPaused) {
-        statusBadge = "Пауза";
-        badgeClass = "badge-paused";
+        statusText = "Пауза";
+        statusClass = "paused";
       } else if (t.status === 4) {
-        statusBadge = "Загрузка";
-        badgeClass = "badge-down";
+        statusText = "Загрузка";
+        statusClass = "downloading";
       } else if (t.status === 6) {
-        statusBadge = "Раздача";
-        badgeClass = "badge-seed";
+        statusText = "Раздача";
+        statusClass = "seeding";
+      } else if (t.percentDone >= 1.0) {
+        statusText = "Завершено";
+        statusClass = "completed";
       }
 
       return `
-        <div class="torrent-item" data-id="${t.id}">
-          <div class="torrent-header">
-            <span class="torrent-title" title="${escapeHtml(t.name)}">${escapeHtml(t.name)}</span>
-            <div class="torrent-controls">
-              <button class="btn-ctrl btn-toggle-state" data-id="${t.id}" data-action="${isPaused ? "start" : "stop"}" title="${isPaused ? "Возобновить" : "Приостановить"}">
+        <div class="torrent-card" data-id="${t.id}">
+          <div class="card-top">
+            <div class="card-title-group">
+              <span class="status-tag ${statusClass}">${statusText}</span>
+              <span class="torrent-title" title="${escapeHtml(t.name)}">${escapeHtml(t.name)}</span>
+            </div>
+            <div class="card-actions-quick">
+              <button class="btn-icon btn-toggle-state" data-id="${t.id}" data-action="${isPaused ? "start" : "stop"}" title="${isPaused ? "Возобновить" : "Приостановить"}">
                 ${isPaused ? "▶" : "⏸"}
               </button>
-              <button class="btn-ctrl btn-delete-torrent" data-id="${t.id}" data-name="${encodeURIComponent(t.name)}" title="Удалить">
+              <button class="btn-icon delete btn-delete-torrent" data-id="${t.id}" data-name="${encodeURIComponent(t.name)}" title="Удалить">
                 🗑
               </button>
             </div>
           </div>
 
-          <div class="torrent-progress-bar">
-            <div class="torrent-progress-fill" style="width: ${pct}%;"></div>
+          <div class="progress-container">
+            <div class="progress-fill ${isPaused ? "paused" : ""}" style="width: ${pct}%;"></div>
           </div>
 
-          <div class="torrent-stats">
-            <div class="torrent-stat-left">
-              <span class="badge ${badgeClass}">${statusBadge}</span>
-              <span>${pct}% • ${doneStr} из ${sizeStr}</span>
+          <div class="card-meta">
+            <div class="meta-stats">
+              <span>${pct}% • ${doneStr} / ${sizeStr}${etaStr}</span>
+              <span>Пиры: ${t.peersSendingToUs || 0} (${t.peersConnected || 0})</span>
             </div>
-            <div class="torrent-stat-right">
+            <div class="meta-speeds">
               ${t.rateDownload > 0 ? `<span class="speed-down">↓ ${formatSpeed(t.rateDownload)}</span>` : ""}
               ${t.rateUpload > 0 ? `<span class="speed-up">↑ ${formatSpeed(t.rateUpload)}</span>` : ""}
-              <span>Пиры: ${t.peersSendingToUs || 0} (${t.peersConnected || 0})</span>
             </div>
           </div>
         </div>
       `;
     }).join("");
+  }
+
+  function formatEta(seconds) {
+    if (!seconds || seconds <= 0 || seconds >= 864000) return "";
+    if (seconds < 60) return `${seconds}с`;
+    if (seconds < 3600) return `${Math.floor(seconds / 60)}м ${seconds % 60}с`;
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    return `${h}ч ${m}м`;
   }
 
   function formatBytes(bytes) {
@@ -497,16 +512,35 @@
     }
   });
 
+  async function addTorrentMetainfo(base64) {
+    const res = await rpcCall("torrent-add", { metainfo: base64 });
+    if (res && res.ok) {
+      const resultStr = res.data?.result;
+      const args = res.data?.arguments;
+      if (resultStr === "success" || args?.["torrent-added"] || args?.["torrent-duplicate"]) {
+        return { ok: true, duplicate: Boolean(args?.["torrent-duplicate"]) };
+      }
+      return { ok: false, error: resultStr || "неизвестный формат файла" };
+    }
+    return { ok: false, error: res?.error || "ошибка связи со службой" };
+  }
+
   // Adding Magnet
   btnAddMagnet.addEventListener("click", async () => {
     const val = magnetInput.value.trim();
     if (!val) return;
     const res = await rpcCall("torrent-add", { filename: val });
     if (res && res.ok) {
-      magnetInput.value = "";
-      fetchTorrents();
+      const resultStr = res.data?.result;
+      const args = res.data?.arguments;
+      if (resultStr === "success" || args?.["torrent-added"] || args?.["torrent-duplicate"]) {
+        magnetInput.value = "";
+        fetchTorrents();
+        return;
+      }
+      alert("Ошибка добавления торрента: " + (resultStr || "неверная ссылка"));
     } else {
-      alert("Ошибка добавления торрента: " + (res.error || "проверьте magnet-ссылку или статус службы"));
+      alert("Ошибка добавления торрента: " + (res?.error || "проверьте magnet-ссылку или статус службы"));
     }
   });
 
@@ -521,31 +555,48 @@
     if (!file) return;
     const reader = new FileReader();
     reader.onload = async () => {
-      const base64 = reader.result.split(",")[1];
-      const res = await rpcCall("torrent-add", { metainfo: base64 });
-      if (res && res.ok) {
+      try {
+        const parts = reader.result.split(",");
+        const base64 = parts[parts.length - 1];
+        const res = await addTorrentMetainfo(base64);
         filePicker.value = "";
-        fetchTorrents();
-      } else {
-        alert("Ошибка добавления файла: " + (res.error || "проверьте статус службы"));
+        if (res.ok) {
+          fetchTorrents();
+        } else {
+          alert("Ошибка добавления торрент-файла: " + res.error);
+        }
+      } catch (err) {
+        filePicker.value = "";
+        alert("Ошибка чтения файла: " + err);
       }
+    };
+    reader.onerror = () => {
+      filePicker.value = "";
+      alert("Не удалось прочитать выбранный файл.");
     };
     reader.readAsDataURL(file);
   });
 
   // Drag and Drop
   window.addEventListener("dragover", (e) => e.preventDefault());
-  window.addEventListener("drop", (e) => {
+  window.addEventListener("drop", async (e) => {
     e.preventDefault();
     if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
       const file = e.dataTransfer.files[0];
-      if (file.name.endsWith(".torrent")) {
+      if (file.name.toLowerCase().endsWith(".torrent")) {
         const reader = new FileReader();
         reader.onload = async () => {
-          const base64 = reader.result.split(",")[1];
-          const res = await rpcCall("torrent-add", { metainfo: base64 });
-          if (res && res.ok) {
-            fetchTorrents();
+          try {
+            const parts = reader.result.split(",");
+            const base64 = parts[parts.length - 1];
+            const res = await addTorrentMetainfo(base64);
+            if (res.ok) {
+              fetchTorrents();
+            } else {
+              alert("Ошибка добавления торрент-файла: " + res.error);
+            }
+          } catch (err) {
+            alert("Ошибка чтения файла: " + err);
           }
         };
         reader.readAsDataURL(file);

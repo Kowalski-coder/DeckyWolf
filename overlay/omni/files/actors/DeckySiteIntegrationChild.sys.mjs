@@ -210,14 +210,12 @@ function PAGE_SCRIPT() {
       align-items: center;
       justify-content: center;
       gap: 10px;
-      background: linear-gradient(to top, rgba(6, 9, 15, 0.96) 0%, rgba(6, 9, 15, 0.85) 65%, transparent 100%);
+      background: linear-gradient(to top, rgba(6, 9, 15, 0.98) 0%, rgba(6, 9, 15, 0.92) 75%, transparent 100%);
       transform: translateY(100%);
       opacity: 0;
-      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease;
+      transition: transform 0.22s ease, opacity 0.18s ease;
       z-index: 20;
       pointer-events: none;
-      backdrop-filter: blur(4px);
-      -webkit-backdrop-filter: blur(4px);
     }
 
     .plugin-thumb-wrapper:hover .decky-action-overlay,
@@ -546,7 +544,8 @@ function PAGE_SCRIPT() {
 
     const lang = getLang();
     const stateKey = (installed ? (installed.version || "installed") : "not_installed") + ":" + lang;
-    if (!forceUpdate && card._deckyActionInjected === stateKey) return;
+    const existingOverlay = thumbWrapper.querySelector(".decky-action-overlay");
+    if (!forceUpdate && card._deckyActionInjected === stateKey && existingOverlay) return;
     card._deckyActionInjected = stateKey;
 
     thumbWrapper.style.position = "relative";
@@ -569,24 +568,26 @@ function PAGE_SCRIPT() {
     // Prevent parent GitFlic tooltip when hovering overlay/buttons
     overlay.addEventListener("mouseenter", (e) => {
       e.stopPropagation();
+      const parentLink = card.closest("a") || card.querySelector("a") || card;
+      if (parentLink && parentLink.hasAttribute("title") && !parentLink.dataset.savedTitle) {
+        parentLink.dataset.savedTitle = parentLink.getAttribute("title");
+        parentLink.removeAttribute("title");
+      }
       if (thumbWrapper.hasAttribute("title") && !thumbWrapper.dataset.savedTitle) {
         thumbWrapper.dataset.savedTitle = thumbWrapper.getAttribute("title");
         thumbWrapper.removeAttribute("title");
       }
-      if (card.hasAttribute("title") && !card.dataset.savedTitle) {
-        card.dataset.savedTitle = card.getAttribute("title");
-        card.removeAttribute("title");
-      }
     });
 
-    overlay.addEventListener("mouseleave", (e) => {
+    overlay.addEventListener("mouseleave", () => {
+      const parentLink = card.closest("a") || card.querySelector("a") || card;
+      if (parentLink && parentLink.dataset.savedTitle) {
+        parentLink.setAttribute("title", parentLink.dataset.savedTitle);
+        delete parentLink.dataset.savedTitle;
+      }
       if (thumbWrapper.dataset.savedTitle) {
         thumbWrapper.setAttribute("title", thumbWrapper.dataset.savedTitle);
         delete thumbWrapper.dataset.savedTitle;
-      }
-      if (card.dataset.savedTitle) {
-        card.setAttribute("title", card.dataset.savedTitle);
-        delete card.dataset.savedTitle;
       }
     });
 
@@ -744,9 +745,42 @@ function PAGE_SCRIPT() {
     document.querySelectorAll(".plugin-card").forEach(c => applyOverlayToCard(c, forceUpdate));
   }
 
-  const observer = new MutationObserver(() => {
-    injectInstalledCategoryTab();
-    applyCardsIntegration();
+  let isUpdatingDOM = false;
+  let debounceTimer = null;
+
+  function debouncedApply() {
+    if (debounceTimer) clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      if (isUpdatingDOM) return;
+      isUpdatingDOM = true;
+      try {
+        injectInstalledCategoryTab();
+        applyCardsIntegration();
+      } finally {
+        setTimeout(() => { isUpdatingDOM = false; }, 40);
+      }
+    }, 80);
+  }
+
+  const observer = new MutationObserver((mutations) => {
+    if (isUpdatingDOM) return;
+    let relevant = false;
+    for (let m of mutations) {
+      if (m.addedNodes && m.addedNodes.length > 0) {
+        for (let n of m.addedNodes) {
+          if (n.nodeType === 1) {
+            if (n.classList?.contains("plugin-card") || n.id === "plugins-container" || n.querySelector?.(".plugin-card")) {
+              relevant = true;
+              break;
+            }
+          }
+        }
+      }
+      if (relevant) break;
+    }
+    if (relevant) {
+      debouncedApply();
+    }
   });
 
   observer.observe(document.body, { childList: true, subtree: true });

@@ -165,7 +165,7 @@ def decky_rpc_call(route, args=None, timeout=5):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=45):
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=50):
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
@@ -204,21 +204,34 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=45):
                             "id": 2
                         })
                         confirmed = True
-                elif ev == "loader/plugin_download_finish":
-                    time.sleep(0.3)
-                    s.close()
-                    decky_rpc_call("loader/reload_plugin", [name])
-                    return {"ok": True, "name": name}
-                elif ev == "loader/load_plugin" and confirmed:
-                    time.sleep(0.3)
-                    s.close()
+                elif ev in ("loader/plugin_download_finish", "loader/load_plugin", "loader/plugin_installed"):
+                    time.sleep(0.5)
+                    try: s.close()
+                    except Exception: pass
                     decky_rpc_call("loader/reload_plugin", [name])
                     return {"ok": True, "name": name}
                 elif msg.get("type") == -1 and msg.get("id") == 2:
                     err = msg.get("error", {})
-                    s.close()
+                    try: s.close()
+                    except Exception: pass
                     return {"ok": False, "error": err.get("message", "confirmation_failed")}
-        s.close()
+        try: s.close()
+        except Exception: pass
+
+        # Poll loader/get_plugins for up to 8 seconds in case event frame was missed
+        for _ in range(8):
+            res = decky_rpc_call("loader/get_plugins", timeout=3)
+            if res.get("ok"):
+                installed_names = [p.get("name") for p in res.get("result", [])]
+                if name in installed_names:
+                    return {"ok": True, "name": name}
+            time.sleep(1)
+
+        # Check file system
+        hb_dir = get_homebrew_dir()
+        if os.path.isdir(os.path.join(hb_dir, "plugins", name)):
+            return {"ok": True, "name": name}
+
         return {"ok": False, "error": "install_timeout"}
     except Exception as e:
         try: s.close()
@@ -385,21 +398,25 @@ WantedBy=default.target
 
 def transmission_rpc_request(payload_bytes, retry_on_failure=True):
     global _tx_session_id
-    req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, method="POST")
-    req.add_header("Content-Type", "application/json")
+    headers = {"Content-Type": "application/json", "Connection": "close"}
     if _tx_session_id:
-        req.add_header("X-Transmission-Session-Id", _tx_session_id)
+        headers["X-Transmission-Session-Id"] = _tx_session_id
+    req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=5) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
             return {"ok": True, "data": json.loads(resp.read().decode())}
     except urllib.error.HTTPError as e:
         if e.code == 409:
             _tx_session_id = e.headers.get("X-Transmission-Session-Id", "")
-            req2 = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, method="POST")
-            req2.add_header("Content-Type", "application/json")
-            req2.add_header("X-Transmission-Session-Id", _tx_session_id)
             try:
-                with urllib.request.urlopen(req2, timeout=5) as resp2:
+                e.read()
+                e.close()
+            except Exception:
+                pass
+            headers2 = {"Content-Type": "application/json", "Connection": "close", "X-Transmission-Session-Id": _tx_session_id}
+            req2 = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, headers=headers2, method="POST")
+            try:
+                with urllib.request.urlopen(req2, timeout=15) as resp2:
                     return {"ok": True, "data": json.loads(resp2.read().decode())}
             except Exception as e2:
                 return {"ok": False, "error": str(e2)}
@@ -409,7 +426,7 @@ def transmission_rpc_request(payload_bytes, retry_on_failure=True):
         if retry_on_failure:
             print("[Transmission] Connection refused, starting transmission-daemon...", file=sys.stderr)
             _ensure_transmission_running()
-            time.sleep(0.6)
+            time.sleep(1.2)
             return transmission_rpc_request(payload_bytes, retry_on_failure=False)
         return {"ok": False, "error": str(ex)}
     except Exception as ex:
@@ -575,13 +592,16 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                         "TorrentWolf",
                         "1.0.0",
                         "",
-                        timeout=35
+                        timeout=50
                     )
                     if install_res.get("ok"):
                         self.send_json({"ok": True, "installed": True})
                         return
                     else:
                         print(f"[TorrentWolf] Decky install failed: {install_res}", file=sys.stderr)
+                        err_msg = install_res.get("error", "Установка плагина через Decky Loader не удалась.")
+                        self.send_json({"ok": False, "error": err_msg}, 500)
+                        return
 
                 # Fallback if Decky Loader daemon is not running:
                 hb_dir = get_homebrew_dir()
@@ -591,10 +611,10 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                     src_plugin = "/usr/share/deckywolf/plugins/TorrentWolf"
 
                 if os.path.isdir(src_plugin):
-                    if not os.access(os.path.join(hb_dir, "plugins"), os.W_OK) and not decky_token:
+                    if not os.access(os.path.join(hb_dir, "plugins"), os.W_OK):
                         self.send_json({
                             "ok": False,
-                            "error": "Служба Decky Loader не запущена. Пожалуйста, запустите Decky Loader для завершения установки."
+                            "error": "Служба Decky Loader не активна. Пожалуйста, запустите Decky Loader для завершения установки."
                         }, 500)
                         return
                     if os.path.isdir(dest_plugin):
