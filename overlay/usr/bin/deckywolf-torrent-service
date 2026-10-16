@@ -176,7 +176,7 @@ def decky_rpc_call(route, args=None, timeout=5):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=60):
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
@@ -184,12 +184,16 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=60):
         # Synchronize WS state with Decky Loader
         _send_ws_frame(s, {"type": 4, "messages": []})
 
+        hb_dir = get_homebrew_dir()
+        is_installed = os.path.isdir(os.path.join(hb_dir, "plugins", name))
+        install_type = 4 if is_installed else 0
+
         req_id = int(time.time() * 1000) % 100000
         confirm_id = req_id + 1
         _send_ws_frame(s, {
             "type": 0,
             "route": "utilities/install_plugin",
-            "args": [url, name, version, hash_val, 0],
+            "args": [url, name, version, hash_val, install_type],
             "id": req_id
         })
         start = time.time()
@@ -260,9 +264,8 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=60):
         try: s.close()
         except Exception: pass
 
-        # Poll loader/get_plugins for up to 8 seconds in case event frame was missed
-        hb_dir = get_homebrew_dir()
-        for _ in range(8):
+        # Poll loader/get_plugins for up to 15 seconds in case event frame was missed or after socket close
+        for _ in range(15):
             res = decky_rpc_call("loader/get_plugins", timeout=3)
             if res.get("ok"):
                 installed_names = [p.get("name") for p in res.get("result", [])]

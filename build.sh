@@ -90,6 +90,11 @@ if [ -d "$OVERLAY_DIR/usr/bin/browser" ]; then
 fi
 if [ -f "$OVERLAY_DIR/usr/bin/application.ini" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/application.ini" "$SQUASHFS_TARGET/usr/bin/"
+    mkdir -p "$SQUASHFS_TARGET/usr/bin/browser"
+    cp -f "$OVERLAY_DIR/usr/bin/application.ini" "$SQUASHFS_TARGET/usr/bin/browser/"
+fi
+if [ -d "$SQUASHFS_TARGET/usr/bin/browser/chrome" ]; then
+    ln -sf browser/chrome "$SQUASHFS_TARGET/usr/bin/chrome" 2>/dev/null || true
 fi
 if [ -f "$OVERLAY_DIR/usr/bin/deckywolf" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/deckywolf" "$SQUASHFS_TARGET/usr/bin/"

@@ -4,6 +4,9 @@ export PATH="${CURRENTDIR}/usr/bin:${PATH}"
 export LD_LIBRARY_PATH="${CURRENTDIR}/usr/bin:${CURRENTDIR}/usr/lib:${LD_LIBRARY_PATH}"
 export MOZ_LEGACY_PROFILES=1          # Prevent per installation profiles
 export MOZ_APP_LAUNCHER="${APPIMAGE}" # Allows setting as default browser
+export MOZ_APP_NAME="deckywolf"
+export MOZ_APP_REMOTINGNAME="deckywolf"
+export MOZ_APP_DISPLAYNAME="DeckyWolf"
 
 # Start background controller daemon
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
@@ -37,7 +40,7 @@ if [ -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" ]; then
     fi
 fi
 
-"${CURRENTDIR}/usr/bin/deckywolf" "$@"
+"${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf "$@"
 EXIT_CODE=$?
 
 cleanup 2>/dev/null

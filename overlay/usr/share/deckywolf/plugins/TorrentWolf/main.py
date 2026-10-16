@@ -161,24 +161,24 @@ class Plugin:
     async def _uninstall(self):
         decky.logger.info("TorrentWolf удалён")
 
-    async def get_snapshot(self) -> dict:
+    async def get_snapshot(self, *args, **kwargs) -> dict:
         """Дёргается фронтендом раз в 2 с, пока панель открыта."""
         res = await _rpc("torrent-get", {"fields": FIELDS})
         if not res["ok"]:
             return {"ok": False, "error": res["error"]}
-        args = res["data"].get("arguments")
-        if args is None:
+        args_data = res["data"].get("arguments")
+        if args_data is None:
             return {"ok": False, "error": "rpc_failed"}
-        return _shape(args)
+        return _shape(args_data)
 
-    async def set_torrent(self, torrent_id: int, action: str) -> dict:
+    async def set_torrent(self, torrent_id: int, action: str, *args, **kwargs) -> dict:
         method = _METHODS.get(action)
         if method is None:
             return {"ok": False, "error": "bad_action"}
         res = await _rpc(method, {"ids": [torrent_id]})
         return {"ok": res["ok"], "error": res.get("error", "")}
 
-    async def remove_torrent(self, torrent_id: int, delete_data: bool) -> dict:
+    async def remove_torrent(self, torrent_id: int, delete_data: bool, *args, **kwargs) -> dict:
         """delete_data=True стирает скачанное с диска — необратимо, фронт спрашивает подтверждение."""
         res = await _rpc("torrent-remove", {
             "ids": [torrent_id],
@@ -188,7 +188,7 @@ class Plugin:
             self._seen_done.discard(torrent_id)
         return {"ok": res["ok"], "error": res.get("error", "")}
 
-    async def set_all(self, action: str) -> dict:
+    async def set_all(self, action: str, *args, **kwargs) -> dict:
         method = _METHODS.get(action)
         if method is None:
             return {"ok": False, "error": "bad_action"}

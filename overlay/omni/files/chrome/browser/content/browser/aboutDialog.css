@@ -6,15 +6,23 @@
   background-color: #0b111c !important;
   color: #e2e8f0 !important;
   border-bottom: #1098fe 3px solid !important;
-  min-width: 480px;
+  width: 520px !important;
+  max-width: 540px !important;
+  min-width: 420px !important;
+  height: 280px !important;
+  max-height: 320px !important;
+  margin: auto !important;
+  overflow: hidden !important;
 }
 
 #grid {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 28px;
-  min-height: 220px;
+  padding: 16px 24px;
+  width: 100% !important;
+  max-width: 520px !important;
+  box-sizing: border-box !important;
   background-color: #0b111c !important;
 }
 
