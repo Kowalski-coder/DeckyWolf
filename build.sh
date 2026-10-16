@@ -83,7 +83,7 @@ fi
 echo "==> Applying usr/lib (deckywolf-hook)..."
 mkdir -p "$SQUASHFS_TARGET/usr/lib"
 if [ -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" ]; then
-    gcc -shared -fPIC -O2 "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" -o "$SQUASHFS_TARGET/usr/lib/deckywolf-hook.so" -ldl 2>/dev/null || \
+    gcc -shared -fPIC -O2 "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" -o "$SQUASHFS_TARGET/usr/lib/deckywolf-hook.so" -lX11 -ldl 2>/dev/null || \
     cp -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.so" "$SQUASHFS_TARGET/usr/lib/"
 else
     cp -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.so" "$SQUASHFS_TARGET/usr/lib/"

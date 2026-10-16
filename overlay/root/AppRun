@@ -3,10 +3,28 @@ CURRENTDIR="$(dirname "$(readlink -f "$0")")"
 export PATH="${CURRENTDIR}/usr/bin:${PATH}"
 export LD_LIBRARY_PATH="${CURRENTDIR}/usr/bin:${CURRENTDIR}/usr/lib:${LD_LIBRARY_PATH}"
 export MOZ_LEGACY_PROFILES=1          # Prevent per installation profiles
+export MOZ_ALLOW_DOWNGRADE=1          # Prevent older version profile protection dialog
 export MOZ_APP_LAUNCHER="${APPIMAGE}" # Allows setting as default browser
 export MOZ_APP_NAME="deckywolf"
 export MOZ_APP_REMOTINGNAME="deckywolf"
 export MOZ_APP_DISPLAYNAME="DeckyWolf"
+
+# Register DeckyWolf desktop entry and icons for window manager / taskbar icon resolution
+if [ -f "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" ]; then
+    mkdir -p "${HOME}/.local/share/applications"
+    if [ -n "${APPIMAGE}" ]; then
+        sed "s|^Exec=.*|Exec=\"${APPIMAGE}\" %u|" "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" > "${HOME}/.local/share/applications/deckywolf.desktop"
+    else
+        sed "s|^Exec=.*|Exec=\"${CURRENTDIR}/AppRun\" %u|" "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" > "${HOME}/.local/share/applications/deckywolf.desktop"
+    fi
+    cp -f "${HOME}/.local/share/applications/deckywolf.desktop" "${HOME}/.local/share/applications/net.deckywolf.DeckyWolf.desktop"
+fi
+if [ -f "${CURRENTDIR}/deckywolf.png" ]; then
+    mkdir -p "${HOME}/.local/share/icons/hicolor/128x128/apps"
+    cp -f "${CURRENTDIR}/deckywolf.png" "${HOME}/.local/share/icons/hicolor/128x128/apps/deckywolf.png"
+    mkdir -p "${HOME}/.local/share/icons"
+    cp -f "${CURRENTDIR}/deckywolf.png" "${HOME}/.local/share/icons/deckywolf.png"
+fi
 
 # Start background controller daemon
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
@@ -40,7 +58,7 @@ if [ -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" ]; then
     fi
 fi
 
-"${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf "$@"
+"${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf --allow-downgrade "$@"
 EXIT_CODE=$?
 
 cleanup 2>/dev/null
