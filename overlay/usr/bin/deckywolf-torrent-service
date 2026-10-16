@@ -653,16 +653,85 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
         if url == "/api/decky/status":
             hb_dir = get_homebrew_dir()
-            rpc_res = decky_rpc_call("loader/get_plugins", [])
+            decky_installed = os.path.isdir(hb_dir)
+            token = get_decky_token()
+            running = token is not None
+
             plugins = []
-            running = False
-            if rpc_res.get("ok") and isinstance(rpc_res.get("result"), list):
-                plugins = rpc_res["result"]
-                running = True
-            else:
+            is_our_channel = False
+            store_channel = 0
+            store_url = ""
+
+            if running:
+                rpc_res = decky_rpc_call("loader/get_plugins", [])
+                if rpc_res.get("ok") and isinstance(rpc_res.get("result"), list):
+                    plugins = rpc_res["result"]
+                else:
+                    plugins = get_installed_plugins_fs(hb_dir)
+
+                st_res = decky_rpc_call("utilities/settings/get", ["store", 0])
+                if st_res.get("ok"):
+                    store_channel = st_res.get("result", 0)
+
+                url_res = decky_rpc_call("utilities/settings/get", ["store-url", ""])
+                if url_res.get("ok"):
+                    store_url = url_res.get("result", "")
+
+                if (store_channel == 2 and "deckyloader.ru" in str(store_url).lower()) or ("deckyloader.ru" in str(store_url).lower()):
+                    is_our_channel = True
+                else:
+                    # Also check loader.json on disk directly
+                    try:
+                        lj_path = os.path.join(hb_dir, "settings", "loader.json")
+                        if os.path.isfile(lj_path):
+                            with open(lj_path, "r", encoding="utf-8") as f:
+                                lj = json.load(f)
+                                if (lj.get("store") == 2 and "deckyloader.ru" in str(lj.get("store-url", "")).lower()) or ("deckyloader.ru" in str(lj.get("store-url", "")).lower()):
+                                    is_our_channel = True
+                    except Exception:
+                        pass
+            elif decky_installed:
                 plugins = get_installed_plugins_fs(hb_dir)
 
-            self.send_json({"ok": True, "running": running, "plugins": plugins})
+            self.send_json({
+                "ok": True,
+                "decky_installed": decky_installed,
+                "running": running,
+                "is_our_channel": is_our_channel,
+                "store_channel": store_channel,
+                "store_url": store_url,
+                "plugins": plugins
+            })
+            return
+
+        if url == "/api/decky/setup-channel":
+            token = get_decky_token()
+            if not token:
+                self.send_json({"ok": False, "error": "decky_not_running"}, 500)
+                return
+
+            channel_url = req_data.get("url", "https://deckyloader.ru/store/plugins")
+            r1 = decky_rpc_call("utilities/settings/set", ["store", 2])
+            r2 = decky_rpc_call("utilities/settings/set", ["store-url", channel_url])
+
+            # Also update loader.json on disk directly if accessible
+            try:
+                hb_dir = get_homebrew_dir()
+                loader_json_path = os.path.join(hb_dir, "settings", "loader.json")
+                if os.path.isfile(loader_json_path) and os.access(loader_json_path, os.W_OK):
+                    with open(loader_json_path, "r", encoding="utf-8") as f:
+                        lj = json.load(f)
+                    lj["store"] = 2
+                    lj["store-url"] = channel_url
+                    with open(loader_json_path, "w", encoding="utf-8") as f:
+                        json.dump(lj, f, indent=4, ensure_ascii=False)
+            except Exception as e:
+                print(f"[DeckyBridge] Error updating loader.json: {e}", file=sys.stderr)
+
+            if r1.get("ok") and r2.get("ok"):
+                self.send_json({"ok": True, "channel_configured": True, "url": channel_url})
+            else:
+                self.send_json({"ok": False, "error": "failed_to_set_settings"}, 500)
             return
 
         if url == "/api/decky/install":

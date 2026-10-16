@@ -43,6 +43,19 @@ export class DeckySiteIntegrationParent extends JSWindowActorParent {
         }
         return { ok: false, error: data.error || "uninstall_failed" };
       }
+
+      if (message.name === "DeckySetupChannel") {
+        let resp = await fetch("http://127.0.0.1:8404/api/decky/setup-channel", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(message.data || {})
+        });
+        let data = await resp.json().catch(() => ({}));
+        if (resp.ok && data.ok) {
+          return data;
+        }
+        return { ok: false, error: data.error || "channel_setup_failed" };
+      }
     } catch (e) {
       dump("[DeckyWolf] Error in DeckySiteIntegrationParent: " + e + "\n");
       return { ok: false, error: String(e) };

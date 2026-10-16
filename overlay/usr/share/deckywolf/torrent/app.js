@@ -715,8 +715,38 @@
     updateDashboard(torrentsData);
   });
 
+  // Handle auto-adding magnet or torrent URL passed in query params
+  async function handleInitialUrlParams() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const magnet = params.get("magnet");
+      const torrentUrl = params.get("torrent");
+      const toAdd = magnet || torrentUrl;
+      if (toAdd) {
+        // Clear search params in address bar without reload
+        const newUrl = window.location.pathname;
+        window.history.replaceState({}, document.title, newUrl);
+
+        // Wait until transmission RPC is available
+        let tries = 0;
+        while (tries < 15) {
+          tries++;
+          let res = await rpcCall("torrent-add", { filename: toAdd });
+          if (res && res.ok) {
+            fetchTorrents();
+            break;
+          }
+          await new Promise(r => setTimeout(r, 1000));
+        }
+      }
+    } catch (e) {
+      console.error("Error processing initial URL params:", e);
+    }
+  }
+
   // Initialize Language and Check Status
   renderLanguageDropdown();
   applyLanguage(currentLang);
   checkStatus();
+  handleInitialUrlParams();
 })();

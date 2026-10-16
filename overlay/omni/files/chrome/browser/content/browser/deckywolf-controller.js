@@ -51,6 +51,20 @@ var DeckyWolfController = {
       }
     }, true);
 
+    // Intercept magnet link clicks in browser window
+    window.addEventListener("click", (e) => {
+      let target = e.target;
+      let link = target && target.closest ? target.closest('a[href^="magnet:"]') : null;
+      if (link && link.href) {
+        e.preventDefault();
+        e.stopPropagation();
+        this.openTorrent(null, link.href);
+      }
+    }, true);
+
+    // Register DeckyWolf as handler for magnet: and .torrent files
+    this.registerTorrentHandlers();
+
     // Register DeckyLoader site integration actor
     try {
       ChromeUtils.registerWindowActor("DeckySiteIntegration", {
@@ -78,7 +92,63 @@ var DeckyWolfController = {
     } catch (_) {}
   },
 
-  openTorrent(e) {
+  registerTorrentHandlers() {
+    try {
+      let handlerSvc = Cc["@mozilla.org/uriloader/handler-service;1"].getService(Ci.nsIHandlerService);
+      let protoSvc = Cc["@mozilla.org/uriloader/external-protocol-service;1"].getService(Ci.nsIExternalProtocolService);
+      let mimeSvc = Cc["@mozilla.org/mime;1"].getService(Ci.nsIMIMEService);
+
+      let registered = false;
+      try {
+        registered = Services.prefs.getBoolPref("deckywolf.torrent_handlers_registered", false);
+      } catch (_) {}
+
+      // Register magnet protocol handler
+      if (!registered || !protoSvc.isConfigured("magnet")) {
+        let magnetInfo = protoSvc.getProtocolHandlerInfo("magnet");
+        let webApp = Cc["@mozilla.org/uriloader/web-handler-app;1"].createInstance(Ci.nsIWebHandlerApp);
+        webApp.name = "DeckyWolf";
+        webApp.uriTemplate = "http://127.0.0.1:8404/?magnet=%s";
+
+        // Avoid duplicates
+        for (let h of magnetInfo.possibleApplicationHandlers.enumerate(Ci.nsIHandlerApp)) {
+          if (h.equals(webApp)) {
+            magnetInfo.possibleApplicationHandlers.removeElement(h);
+          }
+        }
+        magnetInfo.possibleApplicationHandlers.appendElement(webApp);
+        magnetInfo.preferredApplicationHandler = webApp;
+        magnetInfo.alwaysAskBeforeHandling = false;
+        magnetInfo.preferredAction = Ci.nsIHandlerInfo.useHelperApp;
+        handlerSvc.store(magnetInfo);
+      }
+
+      // Register application/x-bittorrent MIME type
+      if (!registered) {
+        let mimeInfo = mimeSvc.getFromTypeAndExtension("application/x-bittorrent", "torrent");
+        let torrentWebApp = Cc["@mozilla.org/uriloader/web-handler-app;1"].createInstance(Ci.nsIWebHandlerApp);
+        torrentWebApp.name = "DeckyWolf";
+        torrentWebApp.uriTemplate = "http://127.0.0.1:8404/?torrent=%s";
+
+        for (let h of mimeInfo.possibleApplicationHandlers.enumerate(Ci.nsIHandlerApp)) {
+          if (h.equals(torrentWebApp)) {
+            mimeInfo.possibleApplicationHandlers.removeElement(h);
+          }
+        }
+        mimeInfo.possibleApplicationHandlers.appendElement(torrentWebApp);
+        mimeInfo.preferredApplicationHandler = torrentWebApp;
+        mimeInfo.alwaysAskBeforeHandling = false;
+        mimeInfo.preferredAction = Ci.nsIHandlerInfo.useHelperApp;
+        handlerSvc.store(mimeInfo);
+
+        Services.prefs.setBoolPref("deckywolf.torrent_handlers_registered", true);
+      }
+    } catch (e) {
+      console.error("[DeckyWolf] Error registering torrent handlers:", e);
+    }
+  },
+
+  openTorrent(e, magnetUrl = null) {
     if (e) {
       try { e.preventDefault(); } catch (_) {}
       try { e.stopPropagation(); } catch (_) {}
@@ -89,7 +159,10 @@ var DeckyWolfController = {
       }
     } catch (_) {}
 
-    const url = "http://127.0.0.1:8404/";
+    let url = "http://127.0.0.1:8404/";
+    if (magnetUrl) {
+      url += "?magnet=" + encodeURIComponent(magnetUrl);
+    }
     try {
       if (window.gBrowser) {
         // If already open, switch to that tab
@@ -97,6 +170,11 @@ var DeckyWolfController = {
           let browser = tab.linkedBrowser;
           if (browser && browser.currentURI && browser.currentURI.spec && browser.currentURI.spec.startsWith("http://127.0.0.1:8404")) {
             window.gBrowser.selectedTab = tab;
+            if (magnetUrl) {
+              browser.loadURI(Services.io.newURI(url), {
+                triggeringPrincipal: Services.scriptSecurityManager.getSystemPrincipal(),
+              });
+            }
             return;
           }
         }
