@@ -1,0 +1,117 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+#aboutDialog {
+  background-color: #0b111c !important;
+  color: #e2e8f0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  border-bottom: #1098fe 3px solid !important;
+  border-radius: 12px !important;
+  width: 540px !important;
+  max-width: 560px !important;
+  min-width: 480px;
+  margin: 0 auto !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.75) !important;
+}
+
+#grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 28px;
+  min-height: 220px;
+  background-color: #0b111c !important;
+  border-radius: 12px;
+}
+
+#left {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  margin-right: 24px;
+  background-image: url("chrome://branding/content/about-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+#wordmark {
+  color: #1098fe;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+#version {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #94a3b8;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+#versionNumber {
+  font-weight: 600;
+  color: #cbd5e1;
+  user-select: text;
+  -moz-user-focus: normal;
+  cursor: text;
+  margin-right: 4px;
+}
+
+#distribution,
+#distributionId {
+  font-size: 11px;
+  color: #64748b;
+}
+
+#aboutText {
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #94a3b8;
+}
+
+#websiteLink {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #1098fe;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#websiteLink:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.loader {
+  width: 0.9em;
+  height: 0.9em;
+  border: 1.5px solid #1098fe;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotate 0.6s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

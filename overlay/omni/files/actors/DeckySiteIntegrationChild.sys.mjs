@@ -189,16 +189,6 @@ function PAGE_SCRIPT() {
   const style = document.createElement("style");
   style.id = "deckywolf-deckyloader-style";
   style.textContent = `
-    /* Wrap category filters onto multiple lines without clipping (Issue 2) */
-    .categories-bar {
-      display: flex !important;
-      flex-wrap: wrap !important;
-      overflow-x: visible !important;
-      row-gap: 8px !important;
-      gap: 6px !important;
-      padding-bottom: 6px !important;
-    }
-
     /* DeckyWolf Action Slide-up Overlay */
     .decky-action-overlay {
       position: absolute;
