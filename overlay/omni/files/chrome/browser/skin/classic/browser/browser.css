@@ -339,6 +339,22 @@
   --autocomplete-popup-color: #f8fafc !important;
   --autocomplete-popup-highlight-background: rgba(16, 152, 254, 0.25) !important;
   --autocomplete-popup-highlight-color: #93c5fd !important;
+  --panel-item-hover-bgcolor: rgba(16, 152, 254, 0.25) !important;
+  --panel-item-active-bgcolor: rgba(16, 152, 254, 0.4) !important;
+  --button-background-color-hover: rgba(16, 152, 254, 0.22) !important;
+  --button-background-color-active: rgba(16, 152, 254, 0.38) !important;
+  --button-background-color-ghost-hover: rgba(16, 152, 254, 0.22) !important;
+  --button-background-color-ghost-active: rgba(16, 152, 254, 0.38) !important;
+}
+
+menupopup menu:hover,
+menupopup menuitem:hover,
+menupopup menu[_moz-menuactive="true"],
+menupopup menuitem[_moz-menuactive="true"],
+.subviewbutton:hover,
+.panel-subview-body > .subviewbutton:hover {
+  background-color: rgba(16, 152, 254, 0.25) !important;
+  color: #f8fafc !important;
 }
 
 ::selection {

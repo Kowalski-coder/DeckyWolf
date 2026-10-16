@@ -163,11 +163,27 @@ for patchfile in "$OVERLAY_DIR/omni/patches"/*.patch; do
 done
 
 # Repack omni.ja without compression (Firefox requirement: stored zip)
-echo "    Repacking omni.ja (store-only mode)..."
+echo "    Repacking browser/omni.ja (store-only mode)..."
 cd "$OMNI_TMP"
 rm -f "$OMNI_JA"
 zip -0 -q -r "$OMNI_JA" *
 cd "$SCRIPT_DIR"
+
+if [ -d "$OVERLAY_DIR/toolkit_omni/files" ]; then
+    echo "==> Patching and Updating toolkit omni.ja..."
+    TOOLKIT_OMNI="$SQUASHFS_TARGET/usr/bin/omni.ja"
+    if [ -f "$TOOLKIT_OMNI" ]; then
+        TOOLKIT_TMP="$BUILD_TMP/toolkit_omni_work"
+        mkdir -p "$TOOLKIT_TMP"
+        unzip -q "$TOOLKIT_OMNI" -d "$TOOLKIT_TMP"
+        cp -a "$OVERLAY_DIR/toolkit_omni/files"/* "$TOOLKIT_TMP/"
+        echo "    Repacking toolkit omni.ja (store-only mode)..."
+        cd "$TOOLKIT_TMP"
+        rm -f "$TOOLKIT_OMNI"
+        zip -0 -q -r "$TOOLKIT_OMNI" *
+        cd "$SCRIPT_DIR"
+    fi
+fi
 
 echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"

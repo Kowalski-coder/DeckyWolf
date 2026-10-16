@@ -1640,25 +1640,22 @@ setting-pane[onsearchpane] {
 
 /* DeckyWolf: Hide Homepage selection group, Related Settings, and Wallpaper buttons */
 #homepageGroup,
+#customHomepageGroup,
+#firefoxHomeCategory,
 #homepageAndNewWindowsOption,
 #newTabsOption,
 #restoreDefaultHomePageBtn,
 [data-srd-groupid="homepage"],
+[data-srd-groupid="customHomepage"],
+[groupid="homepage"],
+[groupid="customHomepage"],
 [data-srd-groupid="relatedSettings"],
 #relatedSettings,
 #related-settings-group,
-#category-appearance,
-moz-page-nav-button[id="category-appearance"],
-[data-category="paneAppearance"],
-#paneAppearance,
-#appearanceGroup,
-#appearanceCategory,
-[data-subcategory="appearance"],
 [data-setting="librewolfExternalWallpapers"],
 [data-setting="chooseWallpaper"],
 #chooseWallpaper,
 #librewolfExternalWallpapers,
-[data-srd-groupid="appearance"],
 [data-srd-groupid="browserTheme"],
 #web-appearance-chooser,
 #browserTheme,
@@ -1669,9 +1666,9 @@ moz-page-nav-button[id="category-appearance"],
   display: none !important;
 }
 
-
 /* DeckyWolf: Accent colors for Preferences & in-content pages */
-:root {
+:root,
+:host {
   --color-accent-primary: #1098fe !important;
   --color-accent-primary-hover: #38bdf8 !important;
   --color-accent-primary-active: #0284c7 !important;
@@ -1679,6 +1676,22 @@ moz-page-nav-button[id="category-appearance"],
   --button-background-color-primary: #1098fe !important;
   --button-background-color-primary-hover: #38bdf8 !important;
   --button-background-color-primary-active: #0284c7 !important;
+  --button-background-color-hover: rgba(16, 152, 254, 0.22) !important;
+  --button-background-color-active: rgba(16, 152, 254, 0.38) !important;
+  --button-background-color-ghost-hover: rgba(16, 152, 254, 0.22) !important;
+  --button-background-color-ghost-active: rgba(16, 152, 254, 0.38) !important;
+  --page-nav-button-background-color-hover: rgba(16, 152, 254, 0.22) !important;
+  --page-nav-button-background-color-active: rgba(16, 152, 254, 0.38) !important;
+  --page-nav-button-background-color-selected: #1098fe !important;
+  --page-nav-button-text-color-selected: #ffffff !important;
+  --color-violet-50: #1098fe !important;
+  --color-violet-60: #0284c7 !important;
+  --color-violet-70: #0369a1 !important;
+  --color-violet-30: #38bdf8 !important;
+  --color-violet-20: #7dd3fc !important;
+  --color-violet-10: #bae6fd !important;
+  --color-violet-desaturated-20: rgba(16, 152, 254, 0.15) !important;
+  --color-violet-desaturated-50: rgba(16, 152, 254, 0.22) !important;
   --in-content-accent-color: #1098fe !important;
   --in-content-link-color: #1098fe !important;
   --in-content-link-color-hover: #38bdf8 !important;
@@ -1689,6 +1702,29 @@ moz-page-nav-button[id="category-appearance"],
   --toggle-background-color-pressed: #1098fe !important;
   --toggle-background-color-pressed-hover: #38bdf8 !important;
   --toggle-background-color-pressed-active: #0284c7 !important;
+}
+
+#categories moz-page-nav-button:hover,
+#categories moz-page-nav-button button:hover:not([selected]),
+moz-page-nav-button:hover,
+moz-page-nav-button button:hover:not([selected]) {
+  background-color: rgba(16, 152, 254, 0.22) !important;
+  color: #f8fafc !important;
+}
+
+#categories moz-page-nav-button:active,
+#categories moz-page-nav-button button:active,
+moz-page-nav-button:active,
+moz-page-nav-button button:active {
+  background-color: rgba(16, 152, 254, 0.38) !important;
+}
+
+#categories moz-page-nav-button[selected],
+#categories moz-page-nav-button button[selected],
+moz-page-nav-button[selected],
+moz-page-nav-button button[selected] {
+  background-color: #1098fe !important;
+  color: #ffffff !important;
 }
 
 ::selection {

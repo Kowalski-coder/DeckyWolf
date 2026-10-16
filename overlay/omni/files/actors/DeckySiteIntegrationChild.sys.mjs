@@ -82,7 +82,6 @@ function PAGE_SCRIPT() {
   let installedPlugins = {};
   let lastKnownInstalledHash = "";
   let currentActiveLang = "ru";
-  const recentlyModified = {};
 
   // Full translations for all 15 languages on deckyloader.ru + en
   const I18N = {
@@ -245,20 +244,14 @@ function PAGE_SCRIPT() {
       pointer-events: none;
     }
 
-    .plugin-card:hover .decky-action-overlay:not(.is-hidden),
-    .plugin-thumb-wrapper:hover .decky-action-overlay:not(.is-hidden),
-    .decky-action-overlay.is-active {
+    .plugin-card:hover .decky-action-overlay,
+    .plugin-thumb-wrapper:hover .decky-action-overlay,
+    .plugin-card:focus-within .decky-action-overlay,
+    .plugin-card.decky-action-in-progress .decky-action-overlay {
       transform: translateY(0) !important;
       opacity: 1 !important;
       visibility: visible !important;
       pointer-events: auto !important;
-    }
-
-    .decky-action-overlay.is-hidden {
-      transform: translateY(100%) !important;
-      opacity: 0 !important;
-      visibility: hidden !important;
-      pointer-events: none !important;
     }
 
     .decky-version-select-row {
@@ -542,22 +535,17 @@ function PAGE_SCRIPT() {
     if (hash !== lastKnownInstalledHash || langChanged || !isBackgroundPoll) {
       lastKnownInstalledHash = hash;
       installedPlugins = {};
-      const now = Date.now();
       for (let p of list) {
         let raw = norm(p.name);
         let clean = stripPrefix(raw);
-        if (recentlyModified[raw]?.action === "delete" && now - recentlyModified[raw].time < 8000) {
-          continue;
-        }
         let info = { name: p.name, version: p.version || "1.0.0" };
         installedPlugins[raw] = info;
         installedPlugins[clean] = info;
-      }
-      for (const [k, mod] of Object.entries(recentlyModified)) {
-        if ((mod.action === "install" || mod.action === "reinstall" || mod.action === "update") && now - mod.time < 8000) {
-          if (!installedPlugins[k]) {
-            installedPlugins[k] = { name: mod.name || k, version: mod.version || "latest" };
-          }
+        if (p.folder) {
+          let rawF = norm(p.folder);
+          let cleanF = stripPrefix(rawF);
+          installedPlugins[rawF] = info;
+          installedPlugins[cleanF] = info;
         }
       }
       injectInstalledCategoryTab();
@@ -684,46 +672,6 @@ function PAGE_SCRIPT() {
     overlay.className = "decky-action-overlay";
     overlay.removeAttribute("title");
 
-    overlay.addEventListener("mouseenter", (e) => {
-      e.stopPropagation();
-      thumbWrapper.removeAttribute("title");
-      card.removeAttribute("title");
-      if (parentA) parentA.removeAttribute("title");
-    });
-
-    if (!card._deckyLeaveBound) {
-      card._deckyLeaveBound = true;
-      card.addEventListener("mouseleave", () => {
-        const myOv = card.querySelector(".decky-action-overlay");
-        if (myOv) {
-          myOv.classList.remove("is-active");
-          myOv.classList.add("is-hidden");
-        }
-        if (card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
-          document.activeElement.blur();
-        }
-      });
-      card.addEventListener("mouseenter", () => {
-        thumbWrapper.removeAttribute("title");
-        card.removeAttribute("title");
-        if (parentA) parentA.removeAttribute("title");
-        document.querySelectorAll(".decky-action-overlay").forEach(ov => {
-          if (!card.contains(ov)) {
-            ov.classList.remove("is-active");
-            ov.classList.add("is-hidden");
-          }
-        });
-        const myOv = card.querySelector(".decky-action-overlay");
-        if (myOv) {
-          myOv.classList.remove("is-hidden");
-          myOv.classList.add("is-active");
-        }
-        if (document.activeElement && !card.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
-          document.activeElement.blur();
-        }
-      });
-    }
-
     const progress = document.createElement("div");
     progress.className = "decky-progress-bar";
     progress.innerHTML = '<div class="decky-progress-fill"></div>';
@@ -844,6 +792,7 @@ function PAGE_SCRIPT() {
 
   async function triggerAction(card, action, pluginName, version, artifactUrl, hash, btn) {
     const origHtml = btn.innerHTML;
+    card.classList.add("decky-action-in-progress");
     btn.disabled = true;
     btn.style.opacity = "0.85";
     const actionLabel = action === "install" ? t("action_installing") :
@@ -867,60 +816,69 @@ function PAGE_SCRIPT() {
         p += 5;
         if (p > 90) p = 92;
         fillEl.style.width = p + "%";
-      }, 100);
+      }, 80);
     }
 
-    let res;
-    if (action === "delete") {
-      res = await sendRpc("deckywolf-uninstall", { name: pluginName });
-    } else {
-      let finalUrl = artifactUrl;
-      if (!finalUrl) {
-        finalUrl = `https://deckyloader.ru/store/plugins/${norm(pluginName)}.zip`;
+    try {
+      let res;
+      if (action === "delete") {
+        res = await sendRpc("deckywolf-uninstall", { name: pluginName });
+      } else {
+        let finalUrl = artifactUrl;
+        if (!finalUrl) {
+          finalUrl = `https://deckyloader.ru/store/plugins/${norm(pluginName)}.zip`;
+        }
+        res = await sendRpc("deckywolf-install", {
+          name: pluginName,
+          url: finalUrl,
+          version: version || "latest",
+          hash: hash
+        });
       }
-      res = await sendRpc("deckywolf-install", {
-        name: pluginName,
-        url: finalUrl,
-        version: version || "latest",
-        hash: hash
-      });
-    }
 
-    if (interval) clearInterval(interval);
+      if (interval) clearInterval(interval);
 
-    if (res && res.ok) {
-      if (fillEl) fillEl.style.width = "100%";
-      setTimeout(() => {
-        if (progressEl) progressEl.style.display = "none";
-        if (fillEl) fillEl.style.width = "0%";
-
+      if (res && res.ok) {
+        if (fillEl) fillEl.style.width = "100%";
         let raw = norm(pluginName);
         let clean = stripPrefix(raw);
-        const modInfo = { action, name: pluginName, version: version || "latest", time: Date.now() };
-        recentlyModified[raw] = modInfo;
-        recentlyModified[clean] = modInfo;
 
-        if (action === "install" || action === "update" || action === "reinstall") {
+        if (action === "delete") {
+          delete installedPlugins[raw];
+          delete installedPlugins[clean];
+        } else {
           let info = { name: pluginName, version: version || "latest" };
           installedPlugins[raw] = info;
           installedPlugins[clean] = info;
-        } else if (action === "delete") {
-          delete installedPlugins[raw];
-          delete installedPlugins[clean];
         }
 
-        card._deckyActionInjected = null;
-        applyOverlayToCard(card, true);
-        injectInstalledCategoryTab();
-        fetchStatus(true);
-      }, 300);
-    } else {
+        setTimeout(() => {
+          if (progressEl) progressEl.style.display = "none";
+          if (fillEl) fillEl.style.width = "0%";
+          card.classList.remove("decky-action-in-progress");
+          card._deckyActionInjected = null;
+          applyOverlayToCard(card, true);
+          injectInstalledCategoryTab();
+          fetchStatus(false);
+        }, 150);
+      } else {
+        if (progressEl) progressEl.style.display = "none";
+        if (fillEl) fillEl.style.width = "0%";
+        card.classList.remove("decky-action-in-progress");
+        btn.disabled = false;
+        btn.style.opacity = "1";
+        btn.innerHTML = origHtml;
+        alert("Ошибка операции: " + ((res && res.error) || "неизвестная ошибка"));
+      }
+    } catch (err) {
+      if (interval) clearInterval(interval);
       if (progressEl) progressEl.style.display = "none";
       if (fillEl) fillEl.style.width = "0%";
+      card.classList.remove("decky-action-in-progress");
       btn.disabled = false;
       btn.style.opacity = "1";
       btn.innerHTML = origHtml;
-      alert("Ошибка операции: " + ((res && res.error) || "неизвестная ошибка"));
+      alert("Ошибка: " + String(err));
     }
   }
 
@@ -968,8 +926,8 @@ function PAGE_SCRIPT() {
 
   observer.observe(document.body, { childList: true, subtree: true });
 
-  // Bi-directional live sync: periodic polling every 2.5s
-  setInterval(() => fetchStatus(true), 2500);
+  // Bi-directional live sync: periodic polling every 1.5s
+  setInterval(() => fetchStatus(true), 1500);
   window.addEventListener("focus", () => fetchStatus(true));
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible") fetchStatus(true);

@@ -18,6 +18,7 @@ import urllib.error
 import subprocess
 import time
 import threading
+import re
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 
 # Ensure stdlib paths for SteamOS 3.6+ / Python 3.13 compatibility
@@ -176,19 +177,61 @@ def decky_rpc_call(route, args=None, timeout=5):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
+def normalize_plugin_name(name):
+    if not name:
+        return ""
+    n = name.lower()
+    for prefix in ("sdh-", "sdh_", "sdh", "decky-", "decky_"):
+        if n.startswith(prefix):
+            n = n[len(prefix):]
+    return re.sub(r'[^a-z0-9]', '', n)
+
+def find_plugin_on_disk(hb_dir, query_name):
+    if not hb_dir:
+        hb_dir = get_homebrew_dir()
+    pdir = os.path.join(hb_dir, "plugins")
+    if not os.path.isdir(pdir) or not query_name:
+        return None
+    # 1. Exact directory match
+    exact = os.path.join(pdir, query_name)
+    if os.path.isdir(exact) and os.path.isfile(os.path.join(exact, "plugin.json")):
+        return query_name
+
+    target_norm = normalize_plugin_name(query_name)
+    # 2. Iterate all directories in plugins
+    for entry in os.listdir(pdir):
+        full = os.path.join(pdir, entry)
+        if not os.path.isdir(full):
+            continue
+        pjson = os.path.join(full, "plugin.json")
+        if not os.path.isfile(pjson):
+            continue
+        if entry.lower() == query_name.lower() or normalize_plugin_name(entry) == target_norm:
+            return entry
+        try:
+            with open(pjson, "r", encoding="utf-8") as f:
+                d = json.load(f)
+                manifest_name = d.get("name", "")
+                if manifest_name:
+                    if manifest_name.lower() == query_name.lower() or normalize_plugin_name(manifest_name) == target_norm:
+                        return entry
+        except Exception:
+            pass
+    return None
+
+def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=30):
     if name.startswith("http://") or name.startswith("https://"):
         url, name = name, url
+    hb_dir = get_homebrew_dir()
+    existing_folder = find_plugin_on_disk(hb_dir, name)
+    install_type = 4 if existing_folder else 0
+
     s = open_decky_ws(timeout=timeout)
     if not s:
         return {"ok": False, "error": "decky_not_running"}
     try:
         # Synchronize WS state with Decky Loader
         _send_ws_frame(s, {"type": 4, "messages": []})
-
-        hb_dir = get_homebrew_dir()
-        is_installed = os.path.isdir(os.path.join(hb_dir, "plugins", name))
-        install_type = 4 if is_installed else 0
 
         req_id = int(time.time() * 1000) % 100000
         confirm_id = req_id + 1
@@ -199,24 +242,24 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
             "id": req_id
         })
         start = time.time()
-        confirmed = False
         last_disk_check = time.time()
+        s.settimeout(0.3)
         while time.time() - start < timeout:
-            # Check disk every 1s: if plugin.json appeared, Decky Loader finished extracting!
+            # Check disk every 300ms: if plugin.json is present, it is done!
             now = time.time()
-            if now - last_disk_check >= 1.0:
+            if now - last_disk_check >= 0.3:
                 last_disk_check = now
-                p_dir = os.path.join(hb_dir, "plugins", name)
-                if os.path.isfile(os.path.join(p_dir, "plugin.json")):
-                    time.sleep(0.5)
+                found_folder = find_plugin_on_disk(hb_dir, name)
+                if found_folder:
+                    time.sleep(0.3)
                     try: s.close()
                     except Exception: pass
-                    decky_rpc_call("loader/reload_plugin", [name])
-                    return {"ok": True, "name": name}
+                    decky_rpc_call("loader/reload_plugin", [found_folder])
+                    return {"ok": True, "name": name, "folder": found_folder}
 
             try:
                 opcode, payload = _recv_ws_frame(s)
-            except socket.timeout:
+            except (socket.timeout, TimeoutError):
                 continue
             if opcode == 0x08:  # close
                 break
@@ -260,7 +303,6 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
                             "args": [prompt_id],
                             "id": confirm_id
                         })
-                        confirmed = True
                     elif ev == "loader/add_multiple_plugins_install_prompt":
                         prompt_id = args[0] if len(args) >= 1 else ""
                         _send_ws_frame(s, {
@@ -269,23 +311,24 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
                             "args": [prompt_id],
                             "id": confirm_id
                         })
-                        confirmed = True
                     elif ev in ("loader/plugin_download_finish", "loader/import_plugin", "loader/load_plugin", "loader/plugin_installed"):
-                        time.sleep(0.5)
+                        time.sleep(0.4)
                         try: s.close()
                         except Exception: pass
-                        decky_rpc_call("loader/reload_plugin", [name])
-                        return {"ok": True, "name": name}
+                        found_folder = find_plugin_on_disk(hb_dir, name) or name
+                        decky_rpc_call("loader/reload_plugin", [found_folder])
+                        return {"ok": True, "name": name, "folder": found_folder}
+
         try: s.close()
         except Exception: pass
 
         # Final check on disk or get_plugins
-        p_dir = os.path.join(hb_dir, "plugins", name)
-        if os.path.isfile(os.path.join(p_dir, "plugin.json")):
-            decky_rpc_call("loader/reload_plugin", [name])
-            return {"ok": True, "name": name}
+        found_folder = find_plugin_on_disk(hb_dir, name)
+        if found_folder:
+            decky_rpc_call("loader/reload_plugin", [found_folder])
+            return {"ok": True, "name": name, "folder": found_folder}
 
-        res = decky_rpc_call("loader/get_plugins", timeout=3)
+        res = decky_rpc_call("loader/get_plugins", timeout=2)
         if res.get("ok"):
             installed_names = [p.get("name") for p in res.get("result", [])]
             if name in installed_names:
@@ -297,52 +340,54 @@ def decky_install_plugin(url, name, version="1.0.0", hash_val="", timeout=90):
         except Exception: pass
         return {"ok": False, "error": str(e)}
 
-def decky_uninstall_plugin(name, timeout=15):
+def decky_uninstall_plugin(name, timeout=10):
+    hb_dir = get_homebrew_dir()
+    matched_folder = find_plugin_on_disk(hb_dir, name) or name
+
     s = open_decky_ws(timeout=timeout)
-    if not s:
-        return {"ok": False, "error": "decky_not_running"}
-    try:
-        _send_ws_frame(s, {"type": 4, "messages": []})
-        req_id = int(time.time() * 1000) % 100000
-        _send_ws_frame(s, {
-            "type": 0,
-            "route": "utilities/uninstall_plugin",
-            "args": [name],
-            "id": req_id
-        })
-        start = time.time()
-        while time.time() - start < timeout:
-            try:
-                opcode, payload = _recv_ws_frame(s)
-            except socket.timeout:
-                continue
-            if opcode == 0x08:
-                break
-            if opcode == 0x09:
-                _send_ws_frame(s, b"", opcode=0x0A)
-                continue
-            if opcode == 0x01:
-                msg = json.loads(payload.decode('utf-8'))
-                m_type = msg.get("type")
-                m_id = msg.get("id")
-                if m_type in (1, -1, 2) and m_id is not None:
-                    _send_ws_frame(s, {"type": 3, "id": m_id})
-                if m_id == req_id:
-                    s.close()
-                    if m_type == -1:
-                        err = msg.get("error", {})
-                        err_msg = err.get("error") or err.get("message") or "uninstall_failed"
-                        return {"ok": False, "error": err_msg}
-                    return {"ok": True, "result": msg.get("result")}
-                if m_type == 5 and msg.get("event") in ("loader/unload_plugin", "loader/disable_plugin"):
-                    s.close()
-                    return {"ok": True, "name": name}
-        s.close()
-        return {"ok": True, "name": name}
-    except Exception as e:
-        try: s.close()
-        except Exception: pass
-        return {"ok": False, "error": str(e)}
+    if s:
+        try:
+            _send_ws_frame(s, {"type": 4, "messages": []})
+            req_id = int(time.time() * 1000) % 100000
+            # Send uninstall for matched folder
+            _send_ws_frame(s, {
+                "type": 0,
+                "route": "utilities/uninstall_plugin",
+                "args": [matched_folder],
+                "id": req_id
+            })
+            if matched_folder != name:
+                _send_ws_frame(s, {
+                    "type": 0,
+                    "route": "utilities/uninstall_plugin",
+                    "args": [name],
+                    "id": req_id + 1
+                })
+            # Give Decky Loader up to 1.5 seconds to acknowledge or unload
+            s.settimeout(1.5)
+            start = time.time()
+            while time.time() - start < 1.5:
+                try:
+                    opcode, payload = _recv_ws_frame(s)
+                except Exception:
+                    break
+                if opcode in (0x08, 0x01):
+                    break
+            s.close()
+        except Exception:
+            try: s.close()
+            except Exception: pass
+
+    # If folder still on disk and writable, remove it directly
+    if matched_folder:
+        folder_path = os.path.join(hb_dir, "plugins", matched_folder)
+        if os.path.isdir(folder_path) and os.access(folder_path, os.W_OK):
+            try: shutil.rmtree(folder_path)
+            except Exception: pass
+
+    # Reload loader plugins
+    decky_rpc_call("loader/reload_plugins", [])
+    return {"ok": True, "name": name}
 
 # ==============================================================================
 # Transmission Daemon Setup & RPC Proxy
@@ -520,19 +565,19 @@ def get_installed_plugins_fs(hb_dir):
                 pkgjson = os.path.join(full_path, "package.json")
                 if os.path.isfile(pjson):
                     try:
-                        with open(pjson, "r") as f:
+                        with open(pjson, "r", encoding="utf-8") as f:
                             d = json.load(f)
                             name = d.get("name", entry)
                     except Exception:
                         pass
                 if os.path.isfile(pkgjson):
                     try:
-                        with open(pkgjson, "r") as f:
+                        with open(pkgjson, "r", encoding="utf-8") as f:
                             d = json.load(f)
                             version = d.get("version", "1.0.0")
                     except Exception:
                         pass
-                plugins.append({"name": name, "version": version, "disabled": False})
+                plugins.append({"name": name, "folder": entry, "version": version, "disabled": False})
     return plugins
 
 # ==============================================================================
@@ -567,8 +612,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
             decky_token = get_decky_token()
             decky_running = decky_token is not None
 
-            plugin_installed = os.path.isdir(os.path.join(hb_dir, "plugins", "TorrentWolf")) or \
-                               os.path.isdir(os.path.join(hb_dir, "plugins", "DeckTorrent"))
+            plugin_installed = bool(find_plugin_on_disk(hb_dir, "TorrentWolf") or find_plugin_on_disk(hb_dir, "DeckTorrent"))
 
             # Check transmission
             daemon_running = False
@@ -667,7 +711,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                         "TorrentWolf",
                         "2.1.0",
                         "",
-                        timeout=60
+                        timeout=30
                     )
                     if install_res.get("ok"):
                         self.send_json({"ok": True, "installed": True})
@@ -708,12 +752,6 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 decky_uninstall_plugin("DeckTorrent")
 
                 hb_dir = get_homebrew_dir()
-                # Wait up to 5 seconds for Decky Loader to remove the directory
-                for _ in range(10):
-                    if not os.path.isdir(os.path.join(hb_dir, "plugins", "TorrentWolf")) and not os.path.isdir(os.path.join(hb_dir, "plugins", "DeckTorrent")):
-                        break
-                    time.sleep(0.5)
-
                 # Remove from filesystem if accessible
                 for p_name in ["TorrentWolf", "DeckTorrent"]:
                     p_path = os.path.join(hb_dir, "plugins", p_name)
@@ -738,23 +776,30 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
             token = get_decky_token()
             running = token is not None
 
-            plugins = []
+            # Always scan filesystem first - it is the 0ms instant ground truth
+            fs_plugins = get_installed_plugins_fs(hb_dir) if decky_installed else []
+            plugins = list(fs_plugins)
+
             is_our_channel = False
             store_channel = 0
             store_url = ""
 
             if running:
-                rpc_res = decky_rpc_call("loader/get_plugins", [])
+                rpc_res = decky_rpc_call("loader/get_plugins", [], timeout=2)
                 if rpc_res.get("ok") and isinstance(rpc_res.get("result"), list):
-                    plugins = rpc_res["result"]
-                else:
-                    plugins = get_installed_plugins_fs(hb_dir)
+                    rpc_plugins = rpc_res["result"]
+                    known_names = {p["name"].lower() for p in plugins}
+                    for rp in rpc_plugins:
+                        rname = rp.get("name", "")
+                        if rname and rname.lower() not in known_names:
+                            plugins.append(rp)
+                            known_names.add(rname.lower())
 
-                st_res = decky_rpc_call("utilities/settings/get", ["store", 0])
+                st_res = decky_rpc_call("utilities/settings/get", ["store", 0], timeout=1)
                 if st_res.get("ok"):
                     store_channel = st_res.get("result", 0)
 
-                url_res = decky_rpc_call("utilities/settings/get", ["store-url", ""])
+                url_res = decky_rpc_call("utilities/settings/get", ["store-url", ""], timeout=1)
                 if url_res.get("ok"):
                     store_url = url_res.get("result", "")
 
@@ -771,8 +816,6 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                                     is_our_channel = True
                     except Exception:
                         pass
-            elif decky_installed:
-                plugins = get_installed_plugins_fs(hb_dir)
 
             self.send_json({
                 "ok": True,
@@ -826,7 +869,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
             token = get_decky_token()
             if token:
-                res = decky_install_plugin(artifact_url, name, version, hash_val, timeout=60)
+                res = decky_install_plugin(artifact_url, name, version, hash_val, timeout=30)
                 if res.get("ok"):
                     self.send_json({"ok": True, "name": name})
                     return
@@ -848,7 +891,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
             token = get_decky_token()
             if token:
-                res = decky_uninstall_plugin(name, timeout=15)
+                res = decky_uninstall_plugin(name, timeout=10)
                 if res.get("ok"):
                     self.send_json({"ok": True, "name": name})
                     return
