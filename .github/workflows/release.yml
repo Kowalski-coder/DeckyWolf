@@ -24,31 +24,21 @@ jobs:
       - name: Download official LibreWolf AppImage base
         run: |
           echo "Downloading LibreWolf 158.0-1 AppImage..."
-          wget -q -O /tmp/librewolf.AppImage https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/158.0-1/LibreWolf.x86_64.AppImage || \
-          wget -q -O /tmp/librewolf.AppImage https://github.com/librewolf-community/browser-appimage/releases/download/v158.0-1/LibreWolf.x86_64.AppImage || true
-          
-          # If download fails, report error
-          if [ ! -s /tmp/librewolf.AppImage ]; then
-            echo "Direct tag download failed, fetching latest..."
-            curl -s https://api.github.com/repos/librewolf-community/browser-appimage/releases/latest \
-              | grep "browser_download_url.*x86_64.AppImage\"" \
-              | head -n 1 \
-              | cut -d '"' -f 4 \
-              | xargs wget -q -O /tmp/librewolf.AppImage
-          fi
+          curl -L --fail --retry 3 -o /tmp/librewolf.AppImage "https://dl.librewolf.net/librewolf/158.0-1/librewolf-158.0-1-linux-x86_64-appimage.AppImage"
           chmod +x /tmp/librewolf.AppImage
 
       - name: Install appimagetool
         run: |
-          wget -q -O /usr/local/bin/appimagetool https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
-          chmod +x /usr/local/bin/appimagetool
-          sed -i 's|AI\x02|\x00\x00\x00|' /usr/local/bin/appimagetool 2>/dev/null || true
+          wget -q -O /tmp/appimagetool https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage
+          chmod +x /tmp/appimagetool
+          cd /tmp && /tmp/appimagetool --appimage-extract >/dev/null
+          sudo mv /tmp/squashfs-root /opt/appimagetool
+          sudo ln -sf /opt/appimagetool/AppRun /usr/local/bin/appimagetool
 
       - name: Build DeckyWolf AppImage
         run: |
           chmod +x build.sh
-          # Unpack and build using build.sh
-          ./build.sh /tmp/librewolf.AppImage
+          OUT_APPIMAGE="$PWD/deckywolf.AppImage" ./build.sh /tmp/librewolf.AppImage
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2

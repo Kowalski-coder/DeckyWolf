@@ -194,6 +194,9 @@ echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"
 ARCH=x86_64 appimagetool "$SQUASHFS_TARGET" "$OUT_APPIMAGE" >/dev/null
 chmod +x "$OUT_APPIMAGE"
+if [ "$OUT_APPIMAGE" != "$SCRIPT_DIR/deckywolf.AppImage" ]; then
+    cp -f "$OUT_APPIMAGE" "$SCRIPT_DIR/deckywolf.AppImage" 2>/dev/null || true
+fi
 echo "==> Build successful! Result: $OUT_APPIMAGE"
 ls -lh "$OUT_APPIMAGE"
 
