@@ -20,9 +20,9 @@ jobs:
 
       - name: Download official LibreWolf AppImage base
         run: |
-          echo "Downloading LibreWolf 157.0.1-1 AppImage..."
-          wget -q -O /tmp/librewolf.AppImage https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/157.0.1-1/LibreWolf.x86_64.AppImage || \
-          wget -q -O /tmp/librewolf.AppImage https://github.com/librewolf-community/browser-appimage/releases/download/v157.0.1-1/LibreWolf.x86_64.AppImage || true
+          echo "Downloading LibreWolf 158.0-1 AppImage..."
+          wget -q -O /tmp/librewolf.AppImage https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/158.0-1/LibreWolf.x86_64.AppImage || \
+          wget -q -O /tmp/librewolf.AppImage https://github.com/librewolf-community/browser-appimage/releases/download/v158.0-1/LibreWolf.x86_64.AppImage || true
           
           # If download fails, report error
           if [ ! -s /tmp/librewolf.AppImage ]; then
