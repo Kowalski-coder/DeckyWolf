@@ -11602,6 +11602,15 @@ class TopSiteLink extends (external_React_default()).PureComponent {
         backgroundColor: link.backgroundColor,
         backgroundImage: hasScreenshotImage ? `url(${this.state.screenshotImage.url})` : ""
       };
+    } else if (link.url && (link.url.includes("8404") || link.url.includes("TorrentWolf") || link.url.includes("torrentwolf"))) {
+      imageClassName = "top-site-icon rich-icon";
+      imageStyle = {
+        backgroundColor: "#1b2432",
+        backgroundImage: 'url("chrome://activity-stream/content/data/content/tippytop/images/torrentwolf@2x.png")'
+      };
+      smallFaviconStyle = {
+        backgroundImage: 'url("chrome://activity-stream/content/data/content/tippytop/favicons/torrentwolf.png")'
+      };
     } else if (tippyTopIcon || link.type === SPOC_TYPE || faviconSize >= MIN_RICH_FAVICON_SIZE) {
       // styles and class names for top sites with rich icons
       imageClassName = "top-site-icon rich-icon";

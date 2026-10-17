@@ -669,6 +669,8 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 content_type = "image/svg+xml"
             elif filepath.endswith(".png"):
                 content_type = "image/png"
+            elif filepath.endswith(".ico"):
+                content_type = "image/x-icon"
 
             with open(filepath, "rb") as f:
                 content = f.read()

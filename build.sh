@@ -83,7 +83,7 @@ fi
 echo "==> Applying usr/lib (deckywolf-hook)..."
 mkdir -p "$SQUASHFS_TARGET/usr/lib"
 if [ -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" ]; then
-    gcc -shared -fPIC -O2 "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" -o "$SQUASHFS_TARGET/usr/lib/deckywolf-hook.so" -lX11 -ldl 2>/dev/null || \
+    gcc -shared -fPIC -O2 "$OVERLAY_DIR/usr/lib/deckywolf-hook.c" -o "$SQUASHFS_TARGET/usr/lib/deckywolf-hook.so" -lwayland-client -lX11 -ldl 2>/dev/null || \
     cp -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.so" "$SQUASHFS_TARGET/usr/lib/"
 else
     cp -f "$OVERLAY_DIR/usr/lib/deckywolf-hook.so" "$SQUASHFS_TARGET/usr/lib/"
@@ -114,8 +114,13 @@ fi
 if [ -f "$OVERLAY_DIR/usr/bin/deckywolf" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/deckywolf" "$SQUASHFS_TARGET/usr/bin/"
     chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf"
-elif [ -f "$SQUASHFS_TARGET/usr/bin/librewolf" ]; then
-    ln -sf librewolf "$SQUASHFS_TARGET/usr/bin/deckywolf"
+elif [ -f "$SQUASHFS_TARGET/usr/bin/librewolf" ] && [ ! -L "$SQUASHFS_TARGET/usr/bin/librewolf" ]; then
+    mv -f "$SQUASHFS_TARGET/usr/bin/librewolf" "$SQUASHFS_TARGET/usr/bin/deckywolf"
+    ln -sf deckywolf "$SQUASHFS_TARGET/usr/bin/librewolf"
+fi
+if [ -f "$SQUASHFS_TARGET/usr/bin/librewolf-bin" ] && [ ! -L "$SQUASHFS_TARGET/usr/bin/librewolf-bin" ]; then
+    mv -f "$SQUASHFS_TARGET/usr/bin/librewolf-bin" "$SQUASHFS_TARGET/usr/bin/deckywolf-bin"
+    ln -sf deckywolf-bin "$SQUASHFS_TARGET/usr/bin/librewolf-bin"
 fi
 ln -sf deckywolf "$SQUASHFS_TARGET/usr/bin/deckywolf-bin" 2>/dev/null || true
 

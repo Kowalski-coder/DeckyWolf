@@ -19,6 +19,10 @@ if [ -f "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" ]; then
     fi
     cp -f "${HOME}/.local/share/applications/deckywolf.desktop" "${HOME}/.local/share/applications/net.deckywolf.DeckyWolf.desktop"
 fi
+if [ -d "${CURRENTDIR}/usr/share/icons/hicolor" ]; then
+    mkdir -p "${HOME}/.local/share/icons/hicolor"
+    cp -rn "${CURRENTDIR}/usr/share/icons/hicolor"/* "${HOME}/.local/share/icons/hicolor/" 2>/dev/null || true
+fi
 if [ -f "${CURRENTDIR}/deckywolf.png" ]; then
     mkdir -p "${HOME}/.local/share/icons/hicolor/128x128/apps"
     cp -f "${CURRENTDIR}/deckywolf.png" "${HOME}/.local/share/icons/hicolor/128x128/apps/deckywolf.png"
