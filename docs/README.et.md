@@ -32,11 +32,14 @@
 **DeckyWolf** on **LibreWolfi** brauseri optimeeritud versioon, mis on loodud spetsiaalselt **Steam Deck** käsikonsoolile.
 
 ### Põhifunktsioonid
-- 🎮 **Täielik pulditugi**: Kangid, suunanupud (D-pad), tegevusnupud, päästikud ja tagumised labad (L4, L5, R4, R5).
-- 🔄 **Ringkerimine vasaku puuteplaadiga koos haptilise tagasisidega**: Lehtede kerimine ringjate liigutustega ja hiire keskmine klõps vajutamisel.
-- 🔀 **Juhtimisrežiimi lüliti**: Kiire vahetamine režiimide "Pult" ja "Klaviatuur + hiir" vahel.
-- 💡 **Visuaalsed nupuvihjed**: Selged Xboxi, PlayStationi ja Steam Decki stiilis nupuikoonid liideses.
-- ⚙️ **"Pult" jaotis seadetes**: Tundlikkuse ja nuppude seadistamine lehel `about:preferences#controller`.
+- 🎮 **Täielik Steam Decki kontrolleri ja teiste mängupultide tugi**: Juhtimine kangide, D-padi, toimingunuppude, päästikute ja tagumiste labadega (L4, L5, R4, R5), ekraanivihjete stiilivalikuga (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Pöörlev puuteplaadi kerimine haptilise tagasisidega**: Vasak puuteplaat töötab kerimisrattana realistlike vibratsiooniklõpsudega ja hiire keskmise nupuna.
+- 🧩 **Pistikprogrammide haldamine deckyloader.ru kaudu**: Versiooni valik, paigaldamine, uuendamine ja eemaldamine otse [deckyloader.ru](https://deckyloader.ru) liidesest reaalajas Decky Loaderi sünkroonimisega.
+- 📥 **Integreeritud torrent-klient (TorrentWolf)**: Ühe klõpsuga paigaldatav pistikprogramm allalaadimiste haldamiseks otse brauseris. Allalaadimised jätkuvad taustal katkematult ka pärast brauseri sulgemist või mängurežiimi lülitumist.
+- 🛡️ **Kõik LibreWolfi standardfunktsioonid**: Sisseehitatud reklaamiblokeerija (uBlock Origin), Firefoxi laienduste tugi, privaatsus, kiirus ja Mozilla sünkroonimine.
+- 🔀 **Juhtimisrežiimi lüliti tööriistaribal**: Kiire ümberlülitus kontrolleri ja hiir+klaviatuur režiimide vahel.
+- ⚙️ **Kontrolleri seaded**: `about:preferences#controller` (105 keele tugi).
+- 🏷️ **Täielik iseseisvus**: DeckyWolf töötab eraldiseisva rakendusena oma ikooni ja `app_id`-ga.
 
 ### Paigaldamine
 Laadige `deckywolf.AppImage` alla jaotisest [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases), andke käivitusõigus ja avage:

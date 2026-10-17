@@ -31,12 +31,15 @@
 
 **DeckyWolf** — Valve **Steam Deck** və Linux portativ cihazları üçün xüsusi olaraq optimallaşdırılmış **LibreWolf** brauzeridir.
 
-### Əsas xüsusiyyətlər
-- 🎮 **Tam geympad dəstəyi**: Stiklər, D-pad, fəaliyyət düymələri, tətiklər və arxa qanadlar (L4, L5, R4, R5).
-- 🔄 **Sol trekpad ilə dairəvi sürüşdürmə və haptik rəy**: Səhifələri sürüşdürərkən real vibrasiya klikləri və sıxıldıqda siçanın orta düyməsi.
-- 🔀 **İdarəetmə rejimi dəyişdiricisi**: «Kontroller» və «Klaviatura+siçan» rejimləri arasında sürətli keçid.
-- 💡 **Dinamik düymə ipucları**: Ekran üzərində Xbox, PlayStation və Steam Deck üslubunda düymə göstəriciləri.
-- ⚙️ **Tənzimləmələrdə «Kontroller» bölməsi**: `about:preferences#controller` vasitəsilə həssaslıq və tərtibat parametrləri.
+### Əsas imkanlar
+- 🎮 **Steam Deck kontrolleri və digər geympadların tam dəstəyi**: Stiklər, D-pad, hərəkət düymələri, tətiklər və arxa düymələr (L4, L5, R4, R5), ekrandakı ipucu üslubunu seçmək imkanı (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Sol trekpad ilə fırlanma sürüşdürməsi və haptik rəy**: Trekpad fırlanma zamanı toxunma hissi və orta siçan düyməsi funksiyası ilə səhifələri rahat fırladır.
+- 🧩 **deckyloader.ru saytı vasitəsilə plaqinlərin idarə edilməsi**: Plaqin versiyasının seçilməsi, quraşdırılması, yenilənməsi və birbaşa [deckyloader.ru](https://deckyloader.ru) saytının interfeysindən silinməsi, Steam-i yenidən başlatmadan Decky Loader ilə anında sinxronlaşma.
+- 📥 **Brauzerə inteqrasiya olunmuş torrent müştərisi (TorrentWolf)**: Tək kliklə quraşdırılan plaqin vasitəsilə yükləmələri birbaşa brauzerdən idarə etmək, dayandırmaq və silmək mümkündür. Brauzer bağlandıqda və ya oyun rejiminə keçdikdə yükləmələr arxa planda fasiləsiz davam edir.
+- 🛡️ **Bütün standart LibreWolf funksiyaları**: Daxili reklam və izləyici bloklanması (uBlock Origin), Firefox əlavələrinin dəstəyi, sürət və məxfilik, Mozilla vasitəsilə məlumatların sinxronizasiyası.
+- 🔀 **Alətlər panelində idarəetmə rejimi keçidi**: Kontroller və «Klaviatura+siçan» rejimləri arasında sürətli keçid.
+- ⚙️ **Tənzimləmələrdə «Kontroller» bölməsi**: `about:preferences#controller` bölməsi (105 dil dəstəyi).
+- 🏷️ **Tam müstəqillik**: DeckyWolf öz loqosu və `app_id` ilə müstəqil tətbiq kimi işləyir.
 
 ### İdarəetmə cədvəli
 | İdarəetmə elementi | Standart fəaliyyət | Modifikator sıxıldıqda (L5 / L4 / R4 / R5 / View) |

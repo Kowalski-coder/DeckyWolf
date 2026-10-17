@@ -31,12 +31,15 @@
 
 **DeckyWolf** on optimoitu **LibreWolf**-selaimen versio, joka on luotu erityisesti **Steam Deck** -käsikonsolille.
 
-### Pääominaisuudet
-- 🎮 **Täysi ohjaintuki**: Sauvat, ristiohjain (D-pad), toimintonäppäimet, liipaisimet ja takaläpät (L4, L5, R4, R5).
-- 🔄 **Ympyrävieritys vasemmalla kosketuslevyllä haptisella palautteella**: Sivujen vieritys kosketuslevyä kiertämällä ja hiiren keskipainikkeen klikkaus painamalla.
-- 🔀 **Ohjaustilan vaihtopainike**: Nopea vaihto "Ohjain"- ja "Näppäimistö + hiiri" -tilojen välillä.
-- 💡 **Visuaaliset painikevihjeet**: Selkeät painikekuvakkeet näytöllä (Xbox-, PlayStation- ja Steam Deck -tyylit).
-- ⚙️ **"Ohjain"-osio asetuksissa**: Mukauta herkkyyttä ja painikkeita osoitteessa `about:preferences#controller`.
+### Tärkeimmät ominaisuudet
+- 🎮 **Täysi Steam Deck -ohjaimen ja muiden peliohjainten tuki**: Ohjaus sauvoilla, ristiohjaimella, toimintopainikkeilla, liipaisimilla ja takasiivekkeillä (L4, L5, R4, R5), painikevihjeiden tyylivalinnalla (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Kiertävä kosketuslevyvieritys haptisella palautteella**: Vasen kosketuslevy toimii vierityspyöränä aidoilla värähdyksillä ja hiiren keskipainikkeen painalluksella.
+- 🧩 **Lisäosien hallinta deckyloader.ru-sivuston kautta**: Valitse versio, asenna, päivitä ja poista lisäosia suoraan [deckyloader.ru](https://deckyloader.ru) -käyttöliittymästä reaaliaikaisella Decky Loader -synkronoinnilla.
+- 📥 **Integroitu torrent-asiakasohjelma (TorrentWolf)**: Yhdellä napsautuksella asennettava lisäosa mahdollistaa latausten hallinnan suoraan selaimessa. Lataukset jatkuvat taustalla keskeytyksettä myös selaimen sulkemisen tai pelitilaan siirtymisen jälkeen.
+- 🛡️ **Kaikki LibreWolfin vakiotoiminnot**: Sisäänrakennettu mainosten ja seurannan esto (uBlock Origin), tuki Firefox-laajennuksille, nopeus, yksityisyys ja valinnainen Mozilla-synkronointi.
+- 🔀 **Ohjaustilan vaihtaja työkalupalkissa**: Nopea vaihto ohjaintilan ja hiiri+näppäimistötilan välillä.
+- ⚙️ **Oma ohjainasetussivu**: `about:preferences#controller` (tukee 105 kieltä).
+- 🏷️ **Täysi itsenäisyys**: DeckyWolf toimii itsenäisenä sovelluksena omalla kuvakkeellaan ja `app_id`:llään.
 
 ### Asennus
 Lataa `deckywolf.AppImage` [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases) -osiosta, anna suoritusoikeudet ja käynnistä:

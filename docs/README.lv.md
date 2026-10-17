@@ -31,12 +31,15 @@
 
 **DeckyWolf** ir optimizēta pārlūka **LibreWolf** versija, kas izstrādāta īpaši **Steam Deck** konsolei.
 
-### Galvenās iezīmes
-- 🎮 **Pilns kontroliera atbalsts**: Kursorsviras, D-pad, darbības pogas, trigeri un aizmugurējās pogas (L4, L5, R4, R5).
-- 🔄 **Apļveida ritināšana ar kreiso skārienpaliktni un haptisko atgriezenisko saiti**: Reālistiski vibrācijas klikšķi un peles vidējā poga, nospiežot.
-- 🔀 **Vadības režīma pārslēdzējs**: Ātra pārslēgšanās starp režīmiem «Kontrolieris» un «Tastatūra + pele».
-- 💡 **Vizuālie pogu padomi**: Skaidri Xbox, PlayStation un Steam Deck stila apzīmējumi interfeisā.
-- ⚙️ **Sadaļa «Kontrolieris» iestatījumos**: Pielāgojiet jutību un pogas sadaļā `about:preferences#controller`.
+### Galvenās funkcijas
+- 🎮 **Pilns Steam Deck kontroliera un citu spēļu pults atbalsts**: Vadība ar kursorsvirām, D-pad, darbību pogām, mēlītēm un aizmugurējām pogām (L4, L5, R4, R5), ar ekrāna pogu stila izvēli (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Rotējoša skārienpaliktņa ritināšana ar haptisko atgriezenisko saiti**: Kreisais skārienpaliktnis nodrošina ritināšanu ar reālistiskiem vibrācijas klikšķiem un vidējās pogas nospiešanu.
+- 🧩 **Spraudņu pārvaldība caur deckyloader.ru**: Versijas izvēle, instalēšana, atjaunināšana un noņemšana tieši [deckyloader.ru](https://deckyloader.ru) saskarnē ar tūlītēju Decky Loader sinhronizāciju.
+- 📥 **Integrēts torrentu klients (TorrentWolf)**: Vienklikšķa spraudņa instalēšana ļauj pārvaldīt lejupielādes tieši pārlūkprogrammā. Lejupielādes nepārtraukti turpinās fonā pat pēc pārlūka aizvēršanas vai pārejas spēļu režīmā.
+- 🛡️ **Visas standarta LibreWolf funkcijas**: Iebūvēta reklāmu bloķēšana (uBlock Origin), Firefox paplašinājumu atbalsts, privātums, ātrums un sinhronizācija caur Mozilla.
+- 🔀 **Vadības režīma pārslēdzējs rīkjoslā**: Ātra pārslēgšanās starp kontrolieri un peli+tastatūru.
+- ⚙️ **Kontroliera iestatījumu sadaļa**: `about:preferences#controller` (105 valodu atbalsts).
+- 🏷️ **Pilnīga neatkarība**: DeckyWolf darbojas kā atsevišķa lietotne ar savu ikonu un `app_id`.
 
 ### Uzstādīšana
 Lejupielādējiet `deckywolf.AppImage` no sadaļas [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases), piešķiriet izpildes tiesības un palaidiet:

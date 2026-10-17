@@ -32,12 +32,13 @@
 **DeckyWolf** is an optimized fork of **LibreWolf** built for handheld gaming devices like Valve's **Steam Deck**. It seamlessly integrates hardware controls, trackpad gestures with tactile haptic feedback, on-screen controller hints, and custom handheld settings directly into the browser.
 
 ### Key Features
-- 🎮 **Full Controller Support**: Navigate the web effortlessly using the Steam Deck's sticks, D-pad, face buttons, triggers, and rear grip paddles (L4, L5, R4, R5).
+- 🎮 **Full Controller Support**: Effortlessly browse using the Steam Deck's sticks, D-pad, face buttons, triggers, and rear grip paddles (L4, L5, R4, R5), as well as third-party gamepads. Choose between **Xbox**, **Sony (PlayStation)**, and **Nintendo** on-screen button hint styles.
 - 🔄 **Rotational Trackpad Scrolling with Haptics**: The left trackpad functions like a circular iPod wheel / Desktop Mode scroll wheel with realistic tactile clicks and middle-click on press.
+- 🧩 **Direct Plugin Management via deckyloader.ru**: Seamlessly manage Decky Loader plugins right through the [deckyloader.ru](https://deckyloader.ru) site interface — select versions, install, update, and uninstall plugins with instant live synchronization.
+- 📥 **Integrated Torrent Client (TorrentWolf)**: One-click plugin installation enables downloading and managing torrents directly inside the browser (add magnet/torrent, pause, resume, delete with or without data). When closing the browser or switching to Gaming Mode, downloads continue uninterrupted in the background via the standalone plugin daemon.
+- 🛡️ **All Core LibreWolf Features**: Built-in ad and tracker blocking (uBlock Origin), support for third-party Firefox extensions, privacy-by-design, enhanced speed, and optional cross-device data synchronization via Mozilla accounts.
 - 🔀 **Control Mode Toolbar Switcher**: Quickly toggle between **Controller** mode and standard **Keyboard + Mouse** mode with a dedicated toolbar button.
-- 💡 **Dynamic UI Button Hints**: Displays intuitive on-screen prompts (A, B, X, Y, L1, R1, Triggers) directly on the browser interface with support for Xbox, PlayStation, and Steam Deck button styles.
-- ⚙️ **Dedicated Handheld Settings**: Integrated configuration page in `Settings -> Controller` (`about:preferences#controller`) with support for 105 languages.
-- 🛡️ **LibreWolf Core Privacy**: Includes all the best-in-class security features of LibreWolf with tweaked defaults for convenience (history retention enabled, cross-origin referrers limited, clean search).
+- ⚙️ **Dedicated Handheld Settings**: Integrated configuration in `Settings -> Controller` (`about:preferences#controller`) with support for 105 languages.
 - 🏷️ **Native Handheld Integration**: Runs as an independent application with custom icon, application ID, and desktop integration without interfering with LibreWolf.
 
 ### Controls Overview

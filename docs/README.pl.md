@@ -31,14 +31,15 @@
 
 **DeckyWolf** to zoptymalizowany fork przeglądarki **LibreWolf**, stworzony specjalnie dla konsoli **Steam Deck** i innych urządzeń przenośnych z systemem Linux. Przeglądarka łączy pełną obsługę kontrolera, przewijanie kołowe na trackpadzie z haptyką, podpowiedzi przycisków w interfejsie oraz dedykowany panel ustawień.
 
-### Główne cechy
-- 🎮 **Pełne wsparcie kontrolera**: Działają gałki analogowe, d-pad, przyciski akcji, triggery i tylne łopatki (L4, L5, R4, R5).
-- 🔄 **Przewijanie kołowe na lewym trackpadzie z wibracjami haptycznymi**: Lewy trackpad działa dokładnie tak jak w trybie pulpitu Steam Deck — ruch po okręgu przewija stronę z realistycznym kliknięciem haptycznym, a wciśnięcie emuluje środkowy przycisk myszy.
-- 🔀 **Przełącznik trybu na pasku narzędzi**: Wygodny przycisk do szybkiego przełączania między trybem „Kontroler” a „Klawiatura + mysz”.
-- 💡 **Wizualne podpowiedzi przycisków**: Czytelne ikony przycisków (A, B, X, Y, L1, R1, L5) na kartach i pasku nawigacji (style Xbox, PlayStation, Steam Deck).
-- ⚙️ **Dedykowana zakładka „Kontroler” w ustawieniach**: Sekcja `about:preferences#controller` do konfiguracji czułości, inwersji przewijania i przycisku modyfikatora (105 języków).
-- 🛡️ **Prywatność LibreWolf**: Najwyższe bezpieczeństwo LibreWolf ze zoptymalizowanymi ustawieniami domyślnymi.
-- 🏷️ **Niezależna aplikacja**: Działa jako odrębny program z własną ikoną, nazwą i `app_id`.
+### Główne funkcje
+- 🎮 **Pełne wsparcie dla kontrolera Steam Deck oraz innych gamepadów**: Nawigacja gałkami, D-padem, przyciskami akcji, spustami i tylnymi łopatkami (L4, L5, R4, R5), z wyborem stylu podpowiedzi ekranowych (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Rotacyjne przewijanie lewym trackpadem z haptyką**: Lewy trackpad działa jak kółko przewijania z realistycznymi kliknięciami haptycznymi i kliknięciem środkowym przyciskiem myszy.
+- 🧩 **Zarządzanie wtyczkami przez deckyloader.ru**: Wybór wersji wtyczki, instalacja, aktualizacja i usuwanie wtyczek bezpośrednio przez stronę [deckyloader.ru](https://deckyloader.ru) z natychmiastową synchronizacją z Decky Loader bez restartu Steam.
+- 📥 **Zintegrowany klient torrent (TorrentWolf)**: Instalacja wtyczki jednym kliknięciem umożliwia zarządzanie pobieraniem w przeglądarce (dodawanie, pauzowanie, usuwanie z plikami lub bez). Pobieranie trwa nieprzerwanie w tle nawet po zamknięciu przeglądarki lub przejściu do trybu gry.
+- 🛡️ **Wszystkie funkcje LibreWolf**: Wbudowane blokowanie reklam i śledzenia (uBlock Origin), obsługa rozszerzeń Firefox, ochrona prywatności, szybkość oraz opcjonalna synchronizacja przez Mozilla Sync.
+- 🔀 **Przełącznik trybu sterowania na pasku narzędzi**: Szybkie przełączanie między trybem kontrolera a klawiaturą z myszą.
+- ⚙️ **Dedykowana zakładka kontrolera w ustawieniach**: `about:preferences#controller` z konfiguracją czułości, inwersji i stylu podpowiedzi (105 języków).
+- 🏷️ **Pełna niezależność**: DeckyWolf działa jako oddzielna aplikacja z własną ikoną i `app_id`.
 
 ### Schemat sterowania
 | Element sterujący | Zwykła akcja | Z wciśniętym modyfikatorem (L5 / L4 / R4 / R5 / View) |

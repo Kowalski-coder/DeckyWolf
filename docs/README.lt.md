@@ -32,11 +32,14 @@
 **DeckyWolf** yra optimizuota naršyklės **LibreWolf** versija, sukurta specialiai **Steam Deck** konsolei.
 
 ### Pagrindinės funkcijos
-- 🎮 **Pilnas valdiklio palaikymas**: Vairasvirtės, kryžmė (D-pad), veiksmų mygtukai, gaidukai ir galiniai mygtukai (L4, L5, R4, R5).
-- 🔄 **Apskritiminis slinkimas kairiuoju jutikliniu kilimėliu su haptiniu atsaku**: Tikroviškas paspaudimo atsakas ir vidurinis pelės klavišas paspaudus.
-- 🔀 **Valdymo režimo perjungiklis**: Greitas perjungimas tarp „Valdiklis“ ir „Klaviatūra + pelė“ režimų.
-- 💡 **Vaizdiniai mygtukų patarimai**: Aiškūs „Xbox“, „PlayStation“ ir „Steam Deck“ stiliaus mygtukų ženklai sąsajoje.
-- ⚙️ **Skyrius „Valdiklis“ nustatymuose**: `about:preferences#controller` jautrumui ir mygtukams nustatyti.
+- 🎮 **Pilnas Steam Deck valdiklio ir kitų pultų palaikymas**: Valdymas vairasvirtėmis, D-pad, veiksmo mygtukais, gaidukais ir galiniais mygtukais (L4, L5, R4, R5), su mygtukų stiliaus pasirinkimu (**Xbox**, **Sony / PlayStation**, **Nintendo**).
+- 🔄 **Sukamasis jutiklinio kilimėlio slinkimas su haptika**: Kairysis jutiklinis kilimėlis veikia kaip slinkties ratukas su tikroviškais vibracijos spragtelėjimais ir vidurinio mygtuko paspaudimu.
+- 🧩 **Papildinių valdymas per deckyloader.ru**: Versijos pasirinkimas, diegimas, atnaujinimas ir šalinimas tiesiogiai per [deckyloader.ru](https://deckyloader.ru) svetainę su momentine sinchronizacija su Decky Loader.
+- 📥 **Integruotas torentų klientas (TorrentWolf)**: Vieno paspaudimo papildinio diegimas leidžia valdyti atsisiuntimus tiesiai naršyklėje. Siuntimai nepertraukiamai tęsiasi fone net uždarius naršyklę ar perjungus į žaidimų režimą.
+- 🛡️ **Visos standartinės LibreWolf funkcijos**: Integruotas reklamų blokavimas (uBlock Origin), Firefox plėtinių palaikymas, privatumas, greitis ir pasirinktinis sinchronizavimas per Mozilla.
+- 🔀 **Valdymo režimo perjungiklis įrankių juostoje**: Greitas perjungimas tarp valdiklio ir pelės+klaviatūros režimų.
+- ⚙️ **Valdiklio nustatymai**: `about:preferences#controller` (105 kalbų palaikymas).
+- 🏷️ **Visiškas nepriklausomumas**: DeckyWolf veikia kaip atskira programa su savo piktograma ir `app_id`.
 
 ### Diegimas
 Atsisiųskite `deckywolf.AppImage` iš [Releases](https://github.com/Kowalski-coder/DeckyWolf/releases) skilties, suteikite vykdymo leidimą ir paleiskite:
