@@ -473,16 +473,20 @@ def _ensure_transmission_running():
             "watch-dir-enabled": True,
             "start-added-torrents": True,
             "rename-partial-files": True,
-            "ratio-limit": 0,
-            "ratio-limit-enabled": True,
-            "idle-seeding-limit": 5,
-            "idle-seeding-limit-enabled": True,
+            "dht-enabled": True,
+            "pex-enabled": True,
+            "lpd-enabled": True,
+            "ratio-limit-enabled": False,
+            "idle-seeding-limit-enabled": False,
+            "peer-limit-global": 1000,
+            "peer-limit-per-torrent": 120,
+            "blocklist-enabled": False,
             "peer-port-random-on-start": False,
             "port-forwarding-enabled": True,
             "utp-enabled": True,
         })
         cfg.setdefault("peer-port", 51413)
-        cfg.setdefault("cache-size-mb", 16)
+        cfg.setdefault("cache-size-mb", 32)
         cfg.setdefault("encryption", 1)
 
         with open(settings_path, "w") as f:

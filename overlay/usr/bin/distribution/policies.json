@@ -59,6 +59,10 @@
                 "installation_mode": "normal_installed",
                 "private_browsing": true,
                 "default_area": "menupanel"
+            },
+            "vot-ext-store@firefox": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/voice-over-translation/latest.xpi",
+                "installation_mode": "normal_installed"
             }
         },
         "FirefoxHome": {

@@ -17,7 +17,8 @@ if [ -f "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" ]; then
     else
         sed "s|^Exec=.*|Exec=\"${CURRENTDIR}/AppRun\" %u|" "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" > "${HOME}/.local/share/applications/deckywolf.desktop"
     fi
-    cp -f "${HOME}/.local/share/applications/deckywolf.desktop" "${HOME}/.local/share/applications/net.deckywolf.DeckyWolf.desktop"
+    # Remove old duplicate desktop entry if present
+    rm -f "${HOME}/.local/share/applications/net.deckywolf.DeckyWolf.desktop" 2>/dev/null || true
 fi
 if [ -d "${CURRENTDIR}/usr/share/icons/hicolor" ]; then
     mkdir -p "${HOME}/.local/share/icons/hicolor"

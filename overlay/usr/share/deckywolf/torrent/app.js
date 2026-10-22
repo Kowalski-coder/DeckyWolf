@@ -60,6 +60,22 @@
   const deleteTorrentTitle = document.getElementById("delete-torrent-title");
   const deleteWithData = document.getElementById("delete-with-data");
 
+  // Files Modal Elements
+  const modalFiles = document.getElementById("modal-files");
+  const modalFilesTitle = document.getElementById("modal-files-title");
+  const btnCloseFiles = document.getElementById("btn-close-files");
+  const btnCancelFiles = document.getElementById("btn-cancel-files");
+  const btnSaveFiles = document.getElementById("btn-save-files");
+  const filesSummaryCount = document.getElementById("files-summary-count");
+  const filesSummarySize = document.getElementById("files-summary-size");
+  const btnFilesSelectAll = document.getElementById("btn-files-select-all");
+  const btnFilesDeselectAll = document.getElementById("btn-files-deselect-all");
+  const filesListContainer = document.getElementById("files-list-container");
+
+  let currentFilesTorrent = null;
+  let currentFilesIsNew = false;
+  let currentFilesData = [];
+
   // Language Dropdown Elements
   const langWrapper = document.getElementById("lang-selector-wrapper");
   const langBtn = document.getElementById("lang-selector-btn");
@@ -408,6 +424,9 @@
               <button class="btn-icon btn-toggle-state" data-id="${t.id}" data-action="${isPaused ? "start" : "stop"}" title="${isPaused ? "Возобновить" : "Приостановить"}">
                 ${isPaused ? "▶" : "⏸"}
               </button>
+              <button class="btn-icon btn-files-torrent" data-id="${t.id}" title="Выбор файлов">
+                📁
+              </button>
               <button class="btn-icon delete btn-delete-torrent" data-id="${t.id}" data-name="${encodeURIComponent(t.name)}" title="Удалить">
                 🗑
               </button>
@@ -521,12 +540,158 @@
     }
   });
 
+  const DEFAULT_TRACKERS = [
+    "udp://tracker.opentrackr.org:1337/announce",
+    "udp://open.tracker.cl:1337/announce",
+    "udp://9.rarbg.to:2920/announce",
+    "udp://tracker.openbittorrent.com:6969/announce",
+    "udp://opentracker.i2p.rocks:6969/announce",
+    "udp://tracker.torrent.eu.org:451/announce",
+    "udp://open.stealth.si:80/announce",
+    "udp://explodie.org:6969/announce",
+    "udp://tracker.tiny-vps.com:6969/announce",
+    "udp://tracker.theoks.net:6969/announce"
+  ];
+
+  function enrichMagnet(magnetUrl) {
+    if (!magnetUrl || !magnetUrl.startsWith("magnet:?")) return magnetUrl;
+    let enriched = magnetUrl;
+    for (const tr of DEFAULT_TRACKERS) {
+      if (!enriched.includes(encodeURIComponent(tr)) && !enriched.includes(tr)) {
+        enriched += "&tr=" + encodeURIComponent(tr);
+      }
+    }
+    return enriched;
+  }
+
+  function openFilesModal(torrent, isNew = false) {
+    currentFilesTorrent = torrent;
+    currentFilesIsNew = isNew;
+    currentFilesData = torrent.files || [];
+    const stats = torrent.fileStats || [];
+
+    modalFilesTitle.textContent = isNew ? `Добавление: ${torrent.name}` : `Файлы: ${torrent.name}`;
+    btnSaveFiles.textContent = isNew ? "Скачать" : "Сохранить";
+
+    filesListContainer.innerHTML = "";
+    if (currentFilesData.length === 0) {
+      filesListContainer.innerHTML = `<div style="padding: 24px; text-align: center; color: #94a3b8;">Метаданные файлов еще загружаются... Повторите открытие через несколько секунд.</div>`;
+      updateFilesSummary();
+      modalFiles.style.display = "flex";
+      return;
+    }
+
+    currentFilesData.forEach((f, idx) => {
+      const wanted = stats[idx] ? stats[idx].wanted : true;
+      const row = document.createElement("label");
+      row.className = "file-item-row";
+      row.innerHTML = `
+        <input type="checkbox" data-index="${idx}" ${wanted ? "checked" : ""} />
+        <span class="file-item-name" title="${escapeHtml(f.name)}">${escapeHtml(f.name)}</span>
+        <span class="file-item-meta">${formatBytes(f.length || 0)}</span>
+      `;
+      filesListContainer.appendChild(row);
+    });
+
+    filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
+      cb.addEventListener("change", updateFilesSummary);
+    });
+
+    updateFilesSummary();
+    modalFiles.style.display = "flex";
+  }
+
+  function updateFilesSummary() {
+    const checkboxes = filesListContainer.querySelectorAll("input[type='checkbox']");
+    const totalCount = checkboxes.length;
+    let selectedCount = 0;
+    let selectedSize = 0;
+
+    checkboxes.forEach(cb => {
+      if (cb.checked) {
+        selectedCount++;
+        const idx = parseInt(cb.getAttribute("data-index"));
+        if (currentFilesData[idx]) {
+          selectedSize += currentFilesData[idx].length || 0;
+        }
+      }
+    });
+
+    filesSummaryCount.textContent = `Выбрано: ${selectedCount} из ${totalCount} файлов`;
+    filesSummarySize.textContent = `Размер: ${formatBytes(selectedSize)}`;
+  }
+
+  btnFilesSelectAll.addEventListener("click", () => {
+    filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
+      cb.checked = true;
+    });
+    updateFilesSummary();
+  });
+
+  btnFilesDeselectAll.addEventListener("click", () => {
+    filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
+      cb.checked = false;
+    });
+    updateFilesSummary();
+  });
+
+  async function closeFilesModal(cancelled = false) {
+    if (cancelled && currentFilesIsNew && currentFilesTorrent) {
+      await rpcCall("torrent-remove", { ids: [currentFilesTorrent.id], "delete-local-data": true });
+    }
+    modalFiles.style.display = "none";
+    currentFilesTorrent = null;
+    currentFilesIsNew = false;
+    currentFilesData = [];
+    fetchTorrents();
+  }
+
+  btnCloseFiles.addEventListener("click", () => closeFilesModal(true));
+  btnCancelFiles.addEventListener("click", () => closeFilesModal(true));
+
+  btnSaveFiles.addEventListener("click", async () => {
+    if (!currentFilesTorrent) return;
+    const checkboxes = filesListContainer.querySelectorAll("input[type='checkbox']");
+    const wanted = [];
+    const unwanted = [];
+
+    checkboxes.forEach(cb => {
+      const idx = parseInt(cb.getAttribute("data-index"));
+      if (cb.checked) {
+        wanted.push(idx);
+      } else {
+        unwanted.push(idx);
+      }
+    });
+
+    const setArgs = { ids: [currentFilesTorrent.id] };
+    if (wanted.length > 0) setArgs["files-wanted"] = wanted;
+    if (unwanted.length > 0) setArgs["files-unwanted"] = unwanted;
+
+    await rpcCall("torrent-set", setArgs);
+    await rpcCall("torrent-start", { ids: [currentFilesTorrent.id] });
+    await closeFilesModal(false);
+  });
+
   async function addTorrentMetainfo(base64) {
-    const res = await rpcCall("torrent-add", { metainfo: base64 });
+    const res = await rpcCall("torrent-add", { metainfo: base64, paused: true });
     if (res && res.ok) {
       const resultStr = res.data?.result;
       const args = res.data?.arguments;
-      if (resultStr === "success" || args?.["torrent-added"] || args?.["torrent-duplicate"]) {
+      const tInfo = args?.["torrent-added"] || args?.["torrent-duplicate"];
+      if (resultStr === "success" || tInfo) {
+        const id = tInfo ? tInfo.id : null;
+        if (id) {
+          const gRes = await rpcCall("torrent-get", { ids: [id], fields: ["id", "name", "files", "fileStats"] });
+          const t = gRes.data?.arguments?.torrents?.[0];
+          if (t && t.files && t.files.length > 0) {
+            openFilesModal(t, true);
+            return { ok: true };
+          } else {
+            await rpcCall("torrent-start", { ids: [id] });
+          }
+        }
+        fetchTorrents();
         return { ok: true, duplicate: Boolean(args?.["torrent-duplicate"]) };
       }
       return { ok: false, error: resultStr || "неизвестный формат файла" };
@@ -536,15 +701,25 @@
 
   // Adding Magnet
   btnAddMagnet.addEventListener("click", async () => {
-    const val = magnetInput.value.trim();
-    if (!val) return;
+    const rawVal = magnetInput.value.trim();
+    if (!rawVal) return;
+    const val = enrichMagnet(rawVal);
     const res = await rpcCall("torrent-add", { filename: val });
     if (res && res.ok) {
       const resultStr = res.data?.result;
       const args = res.data?.arguments;
-      if (resultStr === "success" || args?.["torrent-added"] || args?.["torrent-duplicate"]) {
+      const tInfo = args?.["torrent-added"] || args?.["torrent-duplicate"];
+      if (resultStr === "success" || tInfo) {
         magnetInput.value = "";
         fetchTorrents();
+        const id = tInfo ? tInfo.id : null;
+        if (id) {
+          const gRes = await rpcCall("torrent-get", { ids: [id], fields: ["id", "name", "files", "fileStats"] });
+          const t = gRes.data?.arguments?.torrents?.[0];
+          if (t && t.files && t.files.length > 0) {
+            openFilesModal(t, false);
+          }
+        }
         return;
       }
       alert("Ошибка добавления торрента: " + (resultStr || "неверная ссылка"));
@@ -569,9 +744,7 @@
         const base64 = parts[parts.length - 1];
         const res = await addTorrentMetainfo(base64);
         filePicker.value = "";
-        if (res.ok) {
-          fetchTorrents();
-        } else {
+        if (!res.ok) {
           alert("Ошибка добавления торрент-файла: " + res.error);
         }
       } catch (err) {
@@ -587,9 +760,22 @@
   });
 
   // Drag and Drop
-  window.addEventListener("dragover", (e) => e.preventDefault());
+  window.addEventListener("dragenter", (e) => {
+    e.preventDefault();
+    document.body.classList.add("drag-over");
+  });
+  window.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    document.body.classList.add("drag-over");
+  });
+  window.addEventListener("dragleave", (e) => {
+    if (e.clientX <= 0 || e.clientY <= 0 || e.clientX >= window.innerWidth || e.clientY >= window.innerHeight) {
+      document.body.classList.remove("drag-over");
+    }
+  });
   window.addEventListener("drop", async (e) => {
     e.preventDefault();
+    document.body.classList.remove("drag-over");
     if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files.length > 0) {
       const file = e.dataTransfer.files[0];
       if (file.name.toLowerCase().endsWith(".torrent")) {
@@ -599,9 +785,7 @@
             const parts = reader.result.split(",");
             const base64 = parts[parts.length - 1];
             const res = await addTorrentMetainfo(base64);
-            if (res.ok) {
-              fetchTorrents();
-            } else {
+            if (!res.ok) {
               alert("Ошибка добавления торрент-файла: " + res.error);
             }
           } catch (err) {
@@ -632,6 +816,19 @@
       const action = toggleBtn.getAttribute("data-action");
       await rpcCall(action === "start" ? "torrent-start" : "torrent-stop", { ids: [id] });
       fetchTorrents();
+      return;
+    }
+
+    const filesBtn = e.target.closest(".btn-files-torrent");
+    if (filesBtn) {
+      const id = parseInt(filesBtn.getAttribute("data-id"));
+      const gRes = await rpcCall("torrent-get", { ids: [id], fields: ["id", "name", "files", "fileStats"] });
+      const t = gRes.data?.arguments?.torrents?.[0];
+      if (t) {
+        openFilesModal(t, false);
+      } else {
+        alert("Не удалось загрузить список файлов для этого торрента.");
+      }
       return;
     }
 

@@ -854,3 +854,104 @@ body {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+/* Drag & Drop Overlay */
+body.drag-over::after {
+  content: "Отпустите .torrent файл для добавления";
+  position: fixed;
+  inset: 12px;
+  background: rgba(16, 152, 254, 0.2);
+  border: 3px dashed var(--accent-blue, #1098fe);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  z-index: 9999;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+}
+
+/* Files Selection Modal */
+.modal-lg {
+  max-width: 720px;
+  max-height: 85vh;
+}
+
+.files-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.files-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.btn-sm {
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+.files-list-container {
+  max-height: 48vh;
+  overflow-y: auto;
+  border: 1px solid var(--border-color, #1e293b);
+  border-radius: 8px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.file-item-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: background 0.15s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.file-item-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.file-item-row input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: var(--accent-blue, #1098fe);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.file-item-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #f1f5f9;
+}
+
+.file-item-meta {
+  color: #94a3b8;
+  font-size: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
