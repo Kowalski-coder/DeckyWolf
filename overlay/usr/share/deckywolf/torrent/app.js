@@ -70,6 +70,8 @@
   const filesSummarySize = document.getElementById("files-summary-size");
   const btnFilesSelectAll = document.getElementById("btn-files-select-all");
   const btnFilesDeselectAll = document.getElementById("btn-files-deselect-all");
+  const btnFilesExpandAll = document.getElementById("btn-files-expand-all");
+  const btnFilesCollapseAll = document.getElementById("btn-files-collapse-all");
   const filesListContainer = document.getElementById("files-list-container");
 
   let currentFilesTorrent = null;
@@ -564,6 +566,205 @@
     return enriched;
   }
 
+  function buildFileTree(files, stats) {
+    const root = { name: "", isDir: true, children: {}, files: [], size: 0 };
+
+    files.forEach((f, idx) => {
+      const parts = f.name.split("/").filter(Boolean);
+      const wanted = stats[idx] ? stats[idx].wanted : true;
+      let curr = root;
+      curr.size += (f.length || 0);
+
+      for (let i = 0; i < parts.length - 1; i++) {
+        const part = parts[i];
+        if (!curr.children[part]) {
+          curr.children[part] = {
+            name: part,
+            isDir: true,
+            children: {},
+            files: [],
+            size: 0
+          };
+        }
+        curr = curr.children[part];
+        curr.size += (f.length || 0);
+      }
+
+      const fileName = parts[parts.length - 1] || f.name;
+      curr.files.push({
+        name: fileName,
+        fullName: f.name,
+        index: idx,
+        size: f.length || 0,
+        wanted: wanted
+      });
+    });
+
+    return root;
+  }
+
+  function renderTreeNode(node, isRoot = false) {
+    const container = document.createElement("div");
+    container.className = isRoot ? "tree-root" : "tree-folder-group";
+
+    // Subdirectories
+    const dirNames = Object.keys(node.children).sort((a, b) => a.localeCompare(b));
+    for (const dName of dirNames) {
+      const childDir = node.children[dName];
+
+      const folderItem = document.createElement("div");
+      folderItem.className = "tree-item tree-folder";
+
+      const header = document.createElement("div");
+      header.className = "tree-row folder-row";
+
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "tree-toggle";
+      toggle.title = "Свернуть / Развернуть";
+      toggle.innerHTML = `<svg class="arrow-icon" width="12" height="12" viewBox="0 0 24 24"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>`;
+
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.className = "folder-checkbox";
+
+      const icon = document.createElement("span");
+      icon.className = "tree-icon";
+      icon.textContent = "📁";
+
+      const nameSpan = document.createElement("span");
+      nameSpan.className = "tree-name folder-name";
+      nameSpan.title = childDir.name;
+      nameSpan.textContent = childDir.name;
+
+      const sizeSpan = document.createElement("span");
+      sizeSpan.className = "tree-size";
+      sizeSpan.textContent = formatBytes(childDir.size);
+
+      header.appendChild(toggle);
+      header.appendChild(cb);
+      header.appendChild(icon);
+      header.appendChild(nameSpan);
+      header.appendChild(sizeSpan);
+      folderItem.appendChild(header);
+
+      const childrenContainer = document.createElement("div");
+      childrenContainer.className = "tree-children";
+      childrenContainer.appendChild(renderTreeNode(childDir, false));
+      folderItem.appendChild(childrenContainer);
+
+      // Toggle click
+      const toggleCollapse = () => {
+        const isCollapsed = folderItem.classList.toggle("collapsed");
+        const svg = toggle.querySelector(".arrow-icon");
+        if (svg) svg.style.transform = isCollapsed ? "rotate(-90deg)" : "rotate(0deg)";
+      };
+
+      toggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleCollapse();
+      });
+
+      header.addEventListener("click", (e) => {
+        if (e.target === cb || e.target === toggle || toggle.contains(e.target)) return;
+        toggleCollapse();
+      });
+
+      // Folder checkbox logic
+      cb.addEventListener("change", () => {
+        const checked = cb.checked;
+        cb.indeterminate = false;
+        childrenContainer.querySelectorAll("input[type='checkbox']").forEach(childCb => {
+          childCb.checked = checked;
+          childCb.indeterminate = false;
+        });
+        updateParentFolderStates();
+        updateFilesSummary();
+      });
+
+      container.appendChild(folderItem);
+    }
+
+    // Files
+    node.files.sort((a, b) => a.name.localeCompare(b.name)).forEach(f => {
+      const fileRow = document.createElement("div");
+      fileRow.className = "tree-row file-row";
+
+      const spacer = document.createElement("span");
+      spacer.className = "tree-spacer";
+
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.className = "file-checkbox";
+      cb.setAttribute("data-index", f.index);
+      cb.checked = f.wanted;
+
+      const icon = document.createElement("span");
+      icon.className = "tree-icon";
+      icon.textContent = "📄";
+
+      const nameSpan = document.createElement("span");
+      nameSpan.className = "tree-name file-name";
+      nameSpan.title = f.fullName;
+      nameSpan.textContent = f.name;
+
+      const sizeSpan = document.createElement("span");
+      sizeSpan.className = "tree-size";
+      sizeSpan.textContent = formatBytes(f.size);
+
+      fileRow.appendChild(spacer);
+      fileRow.appendChild(cb);
+      fileRow.appendChild(icon);
+      fileRow.appendChild(nameSpan);
+      fileRow.appendChild(sizeSpan);
+
+      fileRow.addEventListener("click", (e) => {
+        if (e.target !== cb) {
+          cb.checked = !cb.checked;
+          cb.dispatchEvent(new Event("change"));
+        }
+      });
+
+      cb.addEventListener("change", () => {
+        updateParentFolderStates();
+        updateFilesSummary();
+      });
+
+      container.appendChild(fileRow);
+    });
+
+    return container;
+  }
+
+  function updateParentFolderStates() {
+    const folders = Array.from(filesListContainer.querySelectorAll(".tree-folder"));
+    // Update from deepest to root
+    for (let i = folders.length - 1; i >= 0; i--) {
+      const folder = folders[i];
+      const folderCb = folder.querySelector(":scope > .folder-row > .folder-checkbox");
+      if (!folderCb) continue;
+
+      const childFiles = folder.querySelectorAll(".tree-children .file-checkbox");
+      if (childFiles.length === 0) continue;
+
+      let checkedCount = 0;
+      childFiles.forEach(fcb => {
+        if (fcb.checked) checkedCount++;
+      });
+
+      if (checkedCount === childFiles.length) {
+        folderCb.checked = true;
+        folderCb.indeterminate = false;
+      } else if (checkedCount === 0) {
+        folderCb.checked = false;
+        folderCb.indeterminate = false;
+      } else {
+        folderCb.checked = false;
+        folderCb.indeterminate = true;
+      }
+    }
+  }
+
   function openFilesModal(torrent, isNew = false) {
     currentFilesTorrent = torrent;
     currentFilesIsNew = isNew;
@@ -581,28 +782,17 @@
       return;
     }
 
-    currentFilesData.forEach((f, idx) => {
-      const wanted = stats[idx] ? stats[idx].wanted : true;
-      const row = document.createElement("label");
-      row.className = "file-item-row";
-      row.innerHTML = `
-        <input type="checkbox" data-index="${idx}" ${wanted ? "checked" : ""} />
-        <span class="file-item-name" title="${escapeHtml(f.name)}">${escapeHtml(f.name)}</span>
-        <span class="file-item-meta">${formatBytes(f.length || 0)}</span>
-      `;
-      filesListContainer.appendChild(row);
-    });
+    const tree = buildFileTree(currentFilesData, stats);
+    const treeDom = renderTreeNode(tree, true);
+    filesListContainer.appendChild(treeDom);
 
-    filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
-      cb.addEventListener("change", updateFilesSummary);
-    });
-
+    updateParentFolderStates();
     updateFilesSummary();
     modalFiles.style.display = "flex";
   }
 
   function updateFilesSummary() {
-    const checkboxes = filesListContainer.querySelectorAll("input[type='checkbox']");
+    const checkboxes = filesListContainer.querySelectorAll(".file-checkbox");
     const totalCount = checkboxes.length;
     let selectedCount = 0;
     let selectedSize = 0;
@@ -624,16 +814,40 @@
   btnFilesSelectAll.addEventListener("click", () => {
     filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
       cb.checked = true;
+      cb.indeterminate = false;
     });
+    updateParentFolderStates();
     updateFilesSummary();
   });
 
   btnFilesDeselectAll.addEventListener("click", () => {
     filesListContainer.querySelectorAll("input[type='checkbox']").forEach(cb => {
       cb.checked = false;
+      cb.indeterminate = false;
     });
+    updateParentFolderStates();
     updateFilesSummary();
   });
+
+  if (btnFilesExpandAll) {
+    btnFilesExpandAll.addEventListener("click", () => {
+      filesListContainer.querySelectorAll(".tree-folder").forEach(folder => {
+        folder.classList.remove("collapsed");
+        const svg = folder.querySelector(":scope > .folder-row .arrow-icon");
+        if (svg) svg.style.transform = "rotate(0deg)";
+      });
+    });
+  }
+
+  if (btnFilesCollapseAll) {
+    btnFilesCollapseAll.addEventListener("click", () => {
+      filesListContainer.querySelectorAll(".tree-folder").forEach(folder => {
+        folder.classList.add("collapsed");
+        const svg = folder.querySelector(":scope > .folder-row .arrow-icon");
+        if (svg) svg.style.transform = "rotate(-90deg)";
+      });
+    });
+  }
 
   async function closeFilesModal(cancelled = false) {
     if (cancelled && currentFilesIsNew && currentFilesTorrent) {
@@ -651,7 +865,7 @@
 
   btnSaveFiles.addEventListener("click", async () => {
     if (!currentFilesTorrent) return;
-    const checkboxes = filesListContainer.querySelectorAll("input[type='checkbox']");
+    const checkboxes = filesListContainer.querySelectorAll(".file-checkbox");
     const wanted = [];
     const unwanted = [];
 

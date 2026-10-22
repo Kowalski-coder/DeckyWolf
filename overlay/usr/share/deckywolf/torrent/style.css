@@ -916,23 +916,82 @@ body.drag-over::after {
   gap: 2px;
 }
 
-.file-item-row {
+/* Tree View Styles */
+.tree-root, .tree-folder-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tree-children {
+  margin-left: 22px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.12);
+  padding-left: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tree-folder.collapsed > .tree-children {
+  display: none !important;
+}
+
+.tree-row {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 7px 10px;
+  gap: 8px;
+  padding: 5px 8px;
   border-radius: 6px;
   font-size: 13px;
   transition: background 0.15s;
-  cursor: pointer;
   user-select: none;
 }
 
-.file-item-row:hover {
+.tree-row:hover {
   background: rgba(255, 255, 255, 0.05);
 }
 
-.file-item-row input[type="checkbox"] {
+.folder-row {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.file-row {
+  cursor: default;
+}
+
+.tree-toggle {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.tree-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+}
+
+.arrow-icon {
+  transition: transform 0.2s ease;
+}
+
+.tree-spacer {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.tree-row input[type="checkbox"] {
   cursor: pointer;
   accent-color: var(--accent-blue, #1098fe);
   width: 16px;
@@ -940,7 +999,12 @@ body.drag-over::after {
   flex-shrink: 0;
 }
 
-.file-item-name {
+.tree-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.tree-name {
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -948,10 +1012,19 @@ body.drag-over::after {
   color: #f1f5f9;
 }
 
-.file-item-meta {
+.folder-name {
+  color: #e2e8f0;
+}
+
+.file-name {
+  color: #cbd5e1;
+}
+
+.tree-size {
   color: #94a3b8;
   font-size: 12px;
   white-space: nowrap;
   flex-shrink: 0;
+  margin-left: 8px;
 }
 
