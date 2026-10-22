@@ -35,6 +35,7 @@ def _ensure_stdlib_paths():
 
 _ensure_stdlib_paths()
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else "/usr/bin"
 PORT = 8404
 TRANSMISSION_RPC_URL = "http://127.0.0.1:9091/transmission/rpc"
 _tx_session_id = ""
@@ -396,7 +397,7 @@ def decky_uninstall_plugin(name, timeout=30):
 # ==============================================================================
 
 def ensure_torrentwolf_zip():
-    base_share = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins")
+    base_share = os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "plugins")
     if not os.path.isdir(base_share):
         base_share = "/usr/share/deckywolf/plugins"
     prebuilt_zip = os.path.join(base_share, "TorrentWolf.zip")
@@ -438,7 +439,7 @@ def _ensure_transmission_running():
         os.makedirs(os.path.join(pfx, "bin"), exist_ok=True)
         os.makedirs(os.path.join(pfx, "lib"), exist_ok=True)
 
-        src_tx = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "transmission")
+        src_tx = os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "transmission")
         if not os.path.isdir(src_tx):
             src_tx = "/usr/share/deckywolf/transmission"
 
@@ -658,7 +659,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
             return
 
         # Serve static UI files
-        base_dir = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "torrent")
+        base_dir = os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "torrent")
         if not os.path.isdir(base_dir):
             base_dir = "/usr/share/deckywolf/torrent"
 
@@ -733,7 +734,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                 # Fallback if Decky Loader daemon is not running:
                 hb_dir = get_homebrew_dir()
                 dest_plugin = os.path.join(hb_dir, "plugins", "TorrentWolf")
-                src_plugin = os.path.join(os.path.dirname(__file__), "..", "share", "deckywolf", "plugins", "TorrentWolf")
+                src_plugin = os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "plugins", "TorrentWolf")
                 if not os.path.isdir(src_plugin):
                     src_plugin = "/usr/share/deckywolf/plugins/TorrentWolf"
 

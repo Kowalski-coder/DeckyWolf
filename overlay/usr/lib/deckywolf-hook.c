@@ -9,33 +9,37 @@
 #include <X11/Xatom.h>
 
 /* Wayland hooks */
-struct wl_proxy *(*orig_wl_proxy_marshal_array_flags)(struct wl_proxy *proxy, uint32_t opcode, const struct wl_interface *interface,
-                                                      uint32_t version, uint32_t flags, union wl_argument *args) = NULL;
-
 struct wl_proxy *wl_proxy_marshal_array_flags(struct wl_proxy *proxy, uint32_t opcode, const struct wl_interface *interface,
                                               uint32_t version, uint32_t flags, union wl_argument *args) {
-    if (!orig_wl_proxy_marshal_array_flags) {
-        orig_wl_proxy_marshal_array_flags = dlsym(RTLD_NEXT, "wl_proxy_marshal_array_flags");
+    static struct wl_proxy *(*orig)(struct wl_proxy *, uint32_t, const struct wl_interface *, uint32_t, uint32_t, union wl_argument *) = NULL;
+    if (!orig) {
+        orig = dlsym(RTLD_NEXT, "wl_proxy_marshal_array_flags");
     }
-    const char *cls = wl_proxy_get_class(proxy);
-    if (cls && strcmp(cls, "xdg_toplevel") == 0 && opcode == 3) {
-        args[0].s = "deckywolf";
+    if (proxy && args) {
+        const char *cls = wl_proxy_get_class(proxy);
+        if (cls && strcmp(cls, "xdg_toplevel") == 0 && opcode == 3) {
+            args[0].s = "deckywolf";
+        }
     }
-    return orig_wl_proxy_marshal_array_flags(proxy, opcode, interface, version, flags, args);
+    if (orig) {
+        return orig(proxy, opcode, interface, version, flags, args);
+    }
+    return NULL;
 }
 
-void (*orig_wl_proxy_marshal_array)(struct wl_proxy *proxy, uint32_t opcode, union wl_argument *args) = NULL;
-
 void wl_proxy_marshal_array(struct wl_proxy *proxy, uint32_t opcode, union wl_argument *args) {
-    if (!orig_wl_proxy_marshal_array) {
-        orig_wl_proxy_marshal_array = dlsym(RTLD_NEXT, "wl_proxy_marshal_array");
+    static void (*orig)(struct wl_proxy *, uint32_t, union wl_argument *) = NULL;
+    if (!orig) {
+        orig = dlsym(RTLD_NEXT, "wl_proxy_marshal_array");
     }
-    const char *cls = wl_proxy_get_class(proxy);
-    if (cls && strcmp(cls, "xdg_toplevel") == 0 && opcode == 3) {
-        args[0].s = "deckywolf";
+    if (proxy && args) {
+        const char *cls = wl_proxy_get_class(proxy);
+        if (cls && strcmp(cls, "xdg_toplevel") == 0 && opcode == 3) {
+            args[0].s = "deckywolf";
+        }
     }
-    if (orig_wl_proxy_marshal_array) {
-        orig_wl_proxy_marshal_array(proxy, opcode, args);
+    if (orig) {
+        orig(proxy, opcode, args);
     }
 }
 
