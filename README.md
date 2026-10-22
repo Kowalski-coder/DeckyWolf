@@ -69,6 +69,10 @@ chmod +x deckywolf.AppImage
 ./deckywolf.AppImage
 ```
 
+## Documentation & Guides
+- 📖 [Upgrade Guide & Architecture Cheatsheet (Руководство по обновлениям)](docs/UPGRADE_GUIDE.md)
+- 🎮 [SteamOS Compatibility Notes](docs/STEAMOS_COMPATIBILITY.md)
+
 ---
 
 ## ☕ Support the Project / Поддержка проекта
