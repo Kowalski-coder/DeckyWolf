@@ -19,10 +19,6 @@ if [ -f "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" ]; then
     fi
     # Remove old duplicate desktop entry if present
     rm -f "${HOME}/.local/share/applications/net.deckywolf.DeckyWolf.desktop" 2>/dev/null || true
-    if [ -d "${HOME}/Desktop" ]; then
-        cp -f "${HOME}/.local/share/applications/deckywolf.desktop" "${HOME}/Desktop/DeckyWolf.desktop" 2>/dev/null || true
-        chmod +x "${HOME}/Desktop/DeckyWolf.desktop" 2>/dev/null || true
-    fi
 fi
 if [ -d "${CURRENTDIR}/usr/share/icons/hicolor" ]; then
     mkdir -p "${HOME}/.local/share/icons/hicolor"
