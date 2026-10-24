@@ -8,19 +8,14 @@ var gBelyLisPane = {
   _initted: false,
 
   init() {
-    if (this._initted) {
-      return;
-    }
-
     let showToolbarBtnCheckbox = document.getElementById("deckywolfBelylisShowToolbarBtn");
     let disableOnExitCheckbox = document.getElementById("deckywolfBelylisDisableOnExit");
     let rememberPasswordsCheckbox = document.getElementById("deckywolfBelylisRememberPasswords");
     let saveCacheCheckbox = document.getElementById("deckywolfBelylisSaveCache");
 
-    if (!showToolbarBtnCheckbox || !disableOnExitCheckbox) {
+    if (!showToolbarBtnCheckbox || !disableOnExitCheckbox || !rememberPasswordsCheckbox || !saveCacheCheckbox) {
       return;
     }
-    this._initted = true;
 
     let showToolbarBtn = true;
     let disableOnExit = true;
@@ -37,31 +32,53 @@ var gBelyLisPane = {
     }
 
     showToolbarBtnCheckbox.checked = showToolbarBtn;
-    showToolbarBtnCheckbox.addEventListener("change", (e) => {
-      try {
-        Services.prefs.setBoolPref("deckywolf.belylis.show_toolbar_button", e.target.checked);
-      } catch (err) {}
-    });
-
     disableOnExitCheckbox.checked = disableOnExit;
-    disableOnExitCheckbox.addEventListener("change", (e) => {
-      try {
-        Services.prefs.setBoolPref("deckywolf.belylis.disable_on_exit", e.target.checked);
-      } catch (err) {}
-    });
-
     rememberPasswordsCheckbox.checked = rememberPasswords;
-    rememberPasswordsCheckbox.addEventListener("change", (e) => {
+    saveCacheCheckbox.checked = saveCache;
+
+    if (this._initted) {
+      return;
+    }
+    this._initted = true;
+
+    showToolbarBtnCheckbox.addEventListener("change", (e) => {
+      let val = e.target.checked;
       try {
-        Services.prefs.setBoolPref("deckywolf.belylis.remember_passwords", e.target.checked);
-      } catch (err) {}
+        Services.prefs.setBoolPref("deckywolf.belylis.show_toolbar_button", val);
+        Services.prefs.savePrefFile(null);
+      } catch (err) {
+        console.error("[DeckyWolf] Error setting show_toolbar_button pref:", err);
+      }
     });
 
-    saveCacheCheckbox.checked = saveCache;
-    saveCacheCheckbox.addEventListener("change", (e) => {
+    disableOnExitCheckbox.addEventListener("change", (e) => {
+      let val = e.target.checked;
       try {
-        Services.prefs.setBoolPref("deckywolf.belylis.save_cache", e.target.checked);
-      } catch (err) {}
+        Services.prefs.setBoolPref("deckywolf.belylis.disable_on_exit", val);
+        Services.prefs.savePrefFile(null);
+      } catch (err) {
+        console.error("[DeckyWolf] Error setting disable_on_exit pref:", err);
+      }
+    });
+
+    rememberPasswordsCheckbox.addEventListener("change", (e) => {
+      let val = e.target.checked;
+      try {
+        Services.prefs.setBoolPref("deckywolf.belylis.remember_passwords", val);
+        Services.prefs.savePrefFile(null);
+      } catch (err) {
+        console.error("[DeckyWolf] Error setting remember_passwords pref:", err);
+      }
+    });
+
+    saveCacheCheckbox.addEventListener("change", (e) => {
+      let val = e.target.checked;
+      try {
+        Services.prefs.setBoolPref("deckywolf.belylis.save_cache", val);
+        Services.prefs.savePrefFile(null);
+      } catch (err) {
+        console.error("[DeckyWolf] Error setting save_cache pref:", err);
+      }
     });
   }
 };
