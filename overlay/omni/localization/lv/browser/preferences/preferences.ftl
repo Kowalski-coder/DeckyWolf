@@ -1104,5 +1104,18 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
-
+# DeckyWolf: Bely Lis Mode Settings
 pane-belylis-title = Белый Лис
+belylis-category-desc = Izolēta droša piekļuve pakalpojumiem ar Krievijas Digitālās attīstības ministrijas TLS sertifikātiem
+belylis-info-title = Kas ir «Белый Лис» režīms?
+belylis-info-desc1 = Šis režīms nodrošina drošu piekļuvi tīmekļa vietnēm, kurās tiek izmantoti Krievijas valsts TLS sertifikāti (Gosuslugi, Sberbank, VTB u.c.), kas nav pieejami standarta pārlūkprogrammās.
+belylis-info-desc2 = Sertifikāti darbojas tikai pārlūkprogrammā DeckyWolf un ir pilnībā izolēti no SteamOS sistēmas. Atspējojot režīmu, uzticība sertifikātiem tiek nekavējoties atsaukta un kešatmiņa iztīrīta.
+belylis-group-title = Drošības un darbības iestatījumi
+belylis-opt-show-toolbar = Rādīt pārslēgu rīkjoslā
+belylis-opt-show-toolbar-desc = Ļauj ar vienu klikšķi iespējot un atspējot «Белый Лис» režīmu tieši no rīkjoslas blakus kontrollera režīma pogai.
+belylis-opt-disable-on-exit = Atspējot Белый Лис režīmu, aizverot pārlūku
+belylis-opt-disable-on-exit-desc = Aizverot pārlūkprogrammu, režīms tiek automātiski deaktivizēts. Nākamajā palaišanas reizē pārlūks vienmēr startē standarta režīmā.
+belylis-opt-remember-passwords = Atcerēties paroles Белый Лис režīmā
+belylis-opt-remember-passwords-desc = Atļaut paroļu pārvaldniekam piedāvāt saglabāt akreditācijas datus vietnēs «Белый Лис» režīmā.
+belylis-opt-save-cache = Saglabāt lapu kešatmiņu Белый Лис režīmā
+belylis-opt-save-cache-desc = Atļaut lapu kešatmiņu diskā. Ja atspējots, kešatmiņa tiek glabāta tikai pagaidu atmiņā un izdzēsta tūlīt pēc «Белый Лис» režīma izslēgšanas.

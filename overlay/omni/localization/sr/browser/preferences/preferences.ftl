@@ -1939,5 +1939,18 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
-
+# DeckyWolf: Bely Lis Mode Settings
 pane-belylis-title = Белый Лис
+belylis-category-desc = Изоловани безбедан приступ сервисима са руским државним TLS сертификатима
+belylis-info-title = Шта је режим «Белый Лис»?
+belylis-info-desc1 = Овај режим омогућава безбедан приступ веб локацијама које користе руске државне TLS сертификате (Госуслуги, Сбербанк, ВТБ итд.), који нису доступни у стандардним прегледачима.
+belylis-info-desc2 = Сертификати раде искључиво унутар DeckyWolf прегледача и потпуно су изоловани од SteamOS система. Искључивањем режима поверење се одмах опозива, а кеш безбедних веза се брише.
+belylis-group-title = Безбедност и поставке рада
+belylis-opt-show-toolbar = Прикажи дугме на траци са алаткама
+belylis-opt-show-toolbar-desc = Омогућава укључивање и искључивање режима «Белый Лис» једним кликом директно са траке са алаткама поред дугмета за режим контролера.
+belylis-opt-disable-on-exit = Искључи режим Белый Лис при затварању прегледача
+belylis-opt-disable-on-exit-desc = При затварању прегледача режим се аутоматски деактивира. При следећем покретању прегледач увек стартује у стандардном режиму.
+belylis-opt-remember-passwords = Памти лозинке у режиму Белый Лис
+belylis-opt-remember-passwords-desc = Дозволи менаџеру лозинки да нуди чување лозинки на сајтовима у режиму «Белый Лис».
+belylis-opt-save-cache = Сачувај кеш страница у режиму Белый Лис
+belylis-opt-save-cache-desc = Дозволи кеширање страница на диску. Ако је искључено, кеш се брише одмах након искључивања режима «Белый Лис».

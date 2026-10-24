@@ -1983,5 +1983,18 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
-
+# DeckyWolf: Bely Lis Mode Settings
 pane-belylis-title = Белый Лис
+belylis-category-desc = Izolowany dostęp do usług z rosyjskimi certyfikatami cyfrowymi TLS
+belylis-info-title = Czym jest tryb «Белый Лис»?
+belylis-info-desc1 = Tryb ten zapewnia bezpieczny dostęp do serwisów internetowych korzystających z rosyjskich państwowych certyfikatów TLS (Gosuslugi, Sberbank, VTB itp.), które są niedostępne w standardowych przeglądarkach.
+belylis-info-desc2 = Certyfikaty działają wyłącznie wewnątrz przeglądarki DeckyWolf i są całkowicie odizolowane od systemu SteamOS. Po wyłączeniu trybu zaufanie do certyfikatów zostaje natychmiast cofnięte, a pamięć podręczna połączeń wyczyszczona.
+belylis-group-title = Parametry bezpieczeństwa i działania
+belylis-opt-show-toolbar = Pokazuj przełącznik na pasku narzędzi
+belylis-opt-show-toolbar-desc = Umożliwia włączanie i wyłączanie trybu «Белый Лис» jednym kliknięciem bezpośrednio z paska narzędzi obok przełącznika trybu kontrolera.
+belylis-opt-disable-on-exit = Wyłącz tryb Белый Лис przy zamykaniu przeglądarki
+belylis-opt-disable-on-exit-desc = Po zamknięciu przeglądarki tryb jest automatycznie dezaktywowany, a zaufanie do certyfikatów resetowane. Przy następnym uruchomieniu przeglądarka zawsze startuje w trybie standardowym.
+belylis-opt-remember-passwords = Zapamiętuj hasła w trybie Белый Лис
+belylis-opt-remember-passwords-desc = Zezwalaj menedżerowi haseł na oferowanie zapisywania danych logowania na stronach odwiedzanych w trybie «Белый Лис».
+belylis-opt-save-cache = Zapisuj pamięć podręczną stron w trybie Белый Лис
+belylis-opt-save-cache-desc = Zezwalaj na buforowanie stron na dysku. Jeśli wyłączone, pamięć podręczna jest zapisywana tylko w pamięci tymczasowej i usuwana natychmiast po wyłączeniu trybu «Белый Лис».

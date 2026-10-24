@@ -696,5 +696,18 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
-
+# DeckyWolf: Bely Lis Mode Settings
 pane-belylis-title = Белый Лис
+belylis-category-desc = Izoliuota saugi prieiga prie paslaugų su Rusijos skaitmeninės plėtros ministerijos TLS sertifikatais
+belylis-info-title = Kas yra „Белый Лис“ režimas?
+belylis-info-desc1 = Šis režimas suteikia saugią prieigą prie svetainių, naudojančių Rusijos valstybinius TLS sertifikatus (Gosuslugi, Sberbank, VTB ir kt.), kurie nepasiekiami standartinėse naršyklėse.
+belylis-info-desc2 = Sertifikatai veikia tik „DeckyWolf“ naršyklėje ir yra visiškai izoliuoti nuo „SteamOS“ sistemos. Išjungus režimą, pasitikėjimas sertifikatais iškart panaikinamas, o talpykla išvaloma.
+belylis-group-title = Saugumo ir veikimo parametrai
+belylis-opt-show-toolbar = Rodyti mygtuką įrankių juostoje
+belylis-opt-show-toolbar-desc = Leidžia vienu spustelėjimu įjungti ir išjungti „Белый Лис“ režimą tiesiai iš įrankių juostos šalia valdiklio režimo mygtuko.
+belylis-opt-disable-on-exit = Išjungti „Белый Лис“ režimą uždarant naršyklę
+belylis-opt-disable-on-exit-desc = Uždarius naršyklę režimas automatiškai išjungiamas. Kito paleidimo metu naršyklė visada startuoja standartiniu režimu.
+belylis-opt-remember-passwords = Įsiminti slaptažodžius „Белый Лис“ režimu
+belylis-opt-remember-passwords-desc = Leisti slaptažodžių tvarkyklei siūlyti išsaugoti prisijungimo duomenis svetainėse, lankomose „Белый Лис“ režimu.
+belylis-opt-save-cache = Išsaugoti puslapių talpyklą „Белый Лис“ režimu
+belylis-opt-save-cache-desc = Leisti talpinti puslapius į diską. Jei išjungta, talpykla saugoma tik laikinojoje atmintyje ir ištrinama iškart išjungus „Белый Лис“ režimą.

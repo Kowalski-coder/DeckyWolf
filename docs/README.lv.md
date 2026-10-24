@@ -36,6 +36,7 @@
 - 🔄 **Rotējoša skārienpaliktņa ritināšana ar haptisko atgriezenisko saiti**: Kreisais skārienpaliktnis nodrošina ritināšanu ar reālistiskiem vibrācijas klikšķiem un vidējās pogas nospiešanu.
 - 🧩 **Spraudņu pārvaldība caur deckyloader.ru**: Versijas izvēle, instalēšana, atjaunināšana un noņemšana tieši [deckyloader.ru](https://deckyloader.ru) saskarnē ar tūlītēju Decky Loader sinhronizāciju.
 - 📥 **Integrēts torrentu klients (TorrentWolf)**: Vienklikšķa spraudņa instalēšana ļauj pārvaldīt lejupielādes tieši pārlūkprogrammā. Lejupielādes nepārtraukti turpinās fonā pat pēc pārlūka aizvēršanas vai pārejas spēļu režīmā.
+- 🦊 **Izolēts «Белый Лис» režīms (Krievijas TLS sertifikāti)**: Papildu drošais režīms pakalpojumiem, kuriem nepieciešami Krievijas valsts TLS sertifikāti. Sertifikāti darbojas tikai pārlūkprogrammā un nekad netiek instalēti SteamOS sistēmā. Pārslēdzams ar vienu klikšķi rīkjoslā vai sadaļā `about:preferences#belylis`.
 - 🛡️ **Visas standarta LibreWolf funkcijas**: Iebūvēta reklāmu bloķēšana (uBlock Origin), Firefox paplašinājumu atbalsts, privātums, ātrums un sinhronizācija caur Mozilla.
 - 🔀 **Vadības režīma pārslēdzējs rīkjoslā**: Ātra pārslēgšanās starp kontrolieri un peli+tastatūru.
 - ⚙️ **Kontroliera iestatījumu sadaļa**: `about:preferences#controller` (105 valodu atbalsts).

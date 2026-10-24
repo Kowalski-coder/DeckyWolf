@@ -36,6 +36,7 @@
 - 🔄 **Rotacyjne przewijanie lewym trackpadem z haptyką**: Lewy trackpad działa jak kółko przewijania z realistycznymi kliknięciami haptycznymi i kliknięciem środkowym przyciskiem myszy.
 - 🧩 **Zarządzanie wtyczkami przez deckyloader.ru**: Wybór wersji wtyczki, instalacja, aktualizacja i usuwanie wtyczek bezpośrednio przez stronę [deckyloader.ru](https://deckyloader.ru) z natychmiastową synchronizacją z Decky Loader bez restartu Steam.
 - 📥 **Zintegrowany klient torrent (TorrentWolf)**: Instalacja wtyczki jednym kliknięciem umożliwia zarządzanie pobieraniem w przeglądarce (dodawanie, pauzowanie, usuwanie z plikami lub bez). Pobieranie trwa nieprzerwanie w tle nawet po zamknięciu przeglądarki lub przejściu do trybu gry.
+- 🦊 **Izolowany tryb «Белый Лис» (certyfikaty cyfrowe TLS)**: Opcjonalny, bezpieczny tryb zapewniający dostęp do usług wymagających państwowych rosyjskich certyfikatów TLS. Certyfikaty działają wyłącznie w piaskownicy przeglądarki i nigdy nie są instalowane w systemie SteamOS. Przełączany jednym kliknięciem na pasku narzędzi lub w `about:preferences#belylis`.
 - 🛡️ **Wszystkie funkcje LibreWolf**: Wbudowane blokowanie reklam i śledzenia (uBlock Origin), obsługa rozszerzeń Firefox, ochrona prywatności, szybkość oraz opcjonalna synchronizacja przez Mozilla Sync.
 - 🔀 **Przełącznik trybu sterowania na pasku narzędzi**: Szybkie przełączanie między trybem kontrolera a klawiaturą z myszą.
 - ⚙️ **Dedykowana zakładka kontrolera w ustawieniach**: `about:preferences#controller` z konfiguracją czułości, inwersji i stylu podpowiedzi (105 języków).

@@ -474,5 +474,18 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
-
+# DeckyWolf: Bely Lis Mode Settings
 pane-belylis-title = Белый Лис
+belylis-category-desc = Rossiya Raqamli rivojlanish vazirligi TLS sertifikatlariga ega servislarga xavfsiz izolyatsiyalangan kirish
+belylis-info-title = «Белый Лис» rejimi nima?
+belylis-info-desc1 = Ushbu rejim davlat rus TLS sertifikatlaridan (Gosuslugi, Sberbank, VTB va boshqalar) foydalanuvchi va standart brauzerlarda sozlashsiz ochilmaydigan saytlarga xavfsiz kirish uchun mo'ljallangan.
+belylis-info-desc2 = Sertifikatlar faqat DeckyWolf ichida ishlaydi va SteamOS operatsion tizimidan to'liq izolyatsiya qilingan. Rejim o'chirilganda, sertifikatlarga ishonch darhol bekor qilinadi va keshlangan xavfsiz ulanishlar tozalanadi.
+belylis-group-title = Xavfsizlik va ishlash parametrlari
+belylis-opt-show-toolbar = Asboblar panelida tugmani ko'rsatish
+belylis-opt-show-toolbar-desc = Boshqaruv rejimi tugmasi yonidagi asboblar panelidan to'g'ridan-to'g'ri bir marta bosish orqali «Белый Лис» rejimini yoqish va o'chirish imkonini beradi.
+belylis-opt-disable-on-exit = Brauzer yopilganda Белый Лис rejimini o'chirish
+belylis-opt-disable-on-exit-desc = Brauzer yopilganda rejim avtomatik ravishda o'chiriladi va sertifikatlarga ishonch bekor qilinadi. Keyingi ishga tushirishda brauzer doimo standart rejimda boshlanadi.
+belylis-opt-remember-passwords = Белый Лис rejimida parollarni eslab qolish
+belylis-opt-remember-passwords-desc = «Белый Лис» rejimida kirilgan saytlarda parollar menejeriga login va parollarni saqlashni taklif qilishga ruxsat berish. O'chirilgan bo'lsa — parollarni saqlash bloklanadi.
+belylis-opt-save-cache = Белый Лис rejimida sahifalar keshini saqlash
+belylis-opt-save-cache-desc = Sahifalarni diskda keshlashga ruxsat berish. Agar o'chirilgan bo'lsa, kesh faqat vaqtinchalik xotiraga yoziladi va «Белый Лис» rejimi o'chirilishi bilan darhol o'chiriladi.

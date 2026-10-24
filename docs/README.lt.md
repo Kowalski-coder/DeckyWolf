@@ -36,6 +36,7 @@
 - 🔄 **Sukamasis jutiklinio kilimėlio slinkimas su haptika**: Kairysis jutiklinis kilimėlis veikia kaip slinkties ratukas su tikroviškais vibracijos spragtelėjimais ir vidurinio mygtuko paspaudimu.
 - 🧩 **Papildinių valdymas per deckyloader.ru**: Versijos pasirinkimas, diegimas, atnaujinimas ir šalinimas tiesiogiai per [deckyloader.ru](https://deckyloader.ru) svetainę su momentine sinchronizacija su Decky Loader.
 - 📥 **Integruotas torentų klientas (TorrentWolf)**: Vieno paspaudimo papildinio diegimas leidžia valdyti atsisiuntimus tiesiai naršyklėje. Siuntimai nepertraukiamai tęsiasi fone net uždarius naršyklę ar perjungus į žaidimų režimą.
+- 🦊 **Izoliuotas „Белый Лис“ režimas (Rusijos TLS sertifikatai)**: Papildomas saugus režimas paslaugoms, reikalaujančioms Rusijos valstybinių TLS sertifikatų. Sertifikatai veikia tik naršyklės viduje ir niekada neįdiegiami į „SteamOS“ sistemą. Valdomas vienu spustelėjimu įrankių juostoje arba `about:preferences#belylis`.
 - 🛡️ **Visos standartinės LibreWolf funkcijos**: Integruotas reklamų blokavimas (uBlock Origin), Firefox plėtinių palaikymas, privatumas, greitis ir pasirinktinis sinchronizavimas per Mozilla.
 - 🔀 **Valdymo režimo perjungiklis įrankių juostoje**: Greitas perjungimas tarp valdiklio ir pelės+klaviatūros režimų.
 - ⚙️ **Valdiklio nustatymai**: `about:preferences#controller` (105 kalbų palaikymas).

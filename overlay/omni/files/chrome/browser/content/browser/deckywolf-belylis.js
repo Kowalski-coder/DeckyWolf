@@ -159,15 +159,89 @@ var DeckyWolfBelyLis = {
     }
   },
 
+  getLocalizedTooltip(active) {
+    let lang = "en";
+    try {
+      lang = (Services.locale.appLocaleAsBCP47 || "en").toLowerCase();
+    } catch (e) {}
+
+    const TOOLTIP_TEXTS = {
+      ru: {
+        active: "Режим «Белый Лис»: Активен (сертификаты Минцифры включены)",
+        inactive: "Режим «Белый Лис»: Отключен (стандартный режим DeckyWolf)"
+      },
+      en: {
+        active: "«Белый Лис» mode: Active (Russian TLS certificates enabled)",
+        inactive: "«Белый Лис» mode: Disabled (standard DeckyWolf mode)"
+      },
+      be: {
+        active: "Рэжым «Белый Лис»: Актыўны (сертыфікаты Мінлічбы ўключаны)",
+        inactive: "Рэжым «Белый Лис»: Адключаны (стандартны рэжым DeckyWolf)"
+      },
+      uk: {
+        active: "Режим «Белый Лис»: Увімкнений (сертифікати Мінцифри активні)",
+        inactive: "Режим «Белый Лис»: Вимкнений (стандартний режим DeckyWolf)"
+      },
+      kk: {
+        active: "«Белый Лис» режимі: Қосулы (Минцифры сертификаттары белсенді)",
+        inactive: "«Белый Лис» режимі: Өшірулі (DeckyWolf стандартты режимі)"
+      },
+      uz: {
+        active: "«Белый Лис» rejimi: Faol (Mintsifri sertifikatlari yoqilgan)",
+        inactive: "«Белый Лис» rejimi: O'chirilgan (standart DeckyWolf rejimi)"
+      },
+      az: {
+        active: "«Белый Лис» rejimi: Aktivdir (Mintsifra sertifikatları qoşulub)",
+        inactive: "«Белый Лис» rejimi: Söndürülüb (standart DeckyWolf rejimi)"
+      },
+      hy: {
+        active: "«Белый Лис» ռեժիմ. Ակտիվ է (Թվային զարգացման նախարարության վկայագրերը միացված են)",
+        inactive: "«Белый Лис» ռեժիմ. Անջատված է (DeckyWolf ստանդարտ ռեժիմ)"
+      },
+      ky: {
+        active: "«Белый Лис» режими: Иштеп жатат (Минцифры сертификаттары күйгүзүлгөн)",
+        inactive: "«Белый Лис» режими: Өчүрүлгөн (DeckyWolf стандарттык режими)"
+      },
+      tg: {
+        active: "Ҳолати «Белый Лис»: Фаъол (сертификатҳои Минсифрӣ фаъоланд)",
+        inactive: "Ҳолати «Белый Лис»: Хомӯш (ҳолати стандартии DeckyWolf)"
+      },
+      pl: {
+        active: "Tryb «Белый Лис»: Aktywny (certyfikaty cyfrowe włączone)",
+        inactive: "Tryb «Белый Лис»: Wyłączony (standardowy tryb DeckyWolf)"
+      },
+      sr: {
+        active: "Режим «Белый Лис»: Активан (руски TLS сертификати укључени)",
+        inactive: "Режим «Белый Лис»: Искључен (стандардни DeckyWolf режим)"
+      },
+      fi: {
+        active: "«Белый Лис» -tila: Päällä (Venäjän TLS-varmenteet käytössä)",
+        inactive: "«Белый Лис» -tila: Pois päältä (DeckyWolfin vakiotila)"
+      },
+      lt: {
+        active: "„Белый Лис“ režimas: Aktyvus (Rusijos TLS sertifikatai įjungti)",
+        inactive: "„Белый Лис“ režimas: Išjungtas (standartinis „DeckyWolf“ režimas)"
+      },
+      lv: {
+        active: "«Белый Лис» režīms: Aktīvs (Krievijas TLS sertifikāti iespējoti)",
+        inactive: "«Белый Лис» režīms: Atspējots (DeckyWolf standarta režīms)"
+      },
+      et: {
+        active: "«Белый Лис» režiim: Aktiivne (Venemaa TLS-sertifikaadid lubatud)",
+        inactive: "«Белый Лис» režiim: Keelatud (DeckyWolfi tavarežiim)"
+      }
+    };
+
+    let baseLang = lang.split("-")[0];
+    let strings = TOOLTIP_TEXTS[baseLang] || TOOLTIP_TEXTS.en;
+    return active ? strings.active : strings.inactive;
+  },
+
   updateUI() {
     let btn = document.getElementById("deckywolf-belylis-button");
     if (btn) {
       btn.setAttribute("data-deckywolf-belylis", this.enabled ? "true" : "false");
-      if (this.enabled) {
-        btn.setAttribute("tooltiptext", "Режим «Белый Лис»: Активен (сертификаты Минцифры включены)");
-      } else {
-        btn.setAttribute("tooltiptext", "Режим «Белый Лис»: Отключен (стандартный режим DeckyWolf)");
-      }
+      btn.setAttribute("tooltiptext", this.getLocalizedTooltip(this.enabled));
     }
 
     if (this.enabled) {

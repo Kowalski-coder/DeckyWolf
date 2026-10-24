@@ -36,6 +36,7 @@
 - 🔄 **Kiertävä kosketuslevyvieritys haptisella palautteella**: Vasen kosketuslevy toimii vierityspyöränä aidoilla värähdyksillä ja hiiren keskipainikkeen painalluksella.
 - 🧩 **Lisäosien hallinta deckyloader.ru-sivuston kautta**: Valitse versio, asenna, päivitä ja poista lisäosia suoraan [deckyloader.ru](https://deckyloader.ru) -käyttöliittymästä reaaliaikaisella Decky Loader -synkronoinnilla.
 - 📥 **Integroitu torrent-asiakasohjelma (TorrentWolf)**: Yhdellä napsautuksella asennettava lisäosa mahdollistaa latausten hallinnan suoraan selaimessa. Lataukset jatkuvat taustalla keskeytyksettä myös selaimen sulkemisen tai pelitilaan siirtymisen jälkeen.
+- 🦊 **Eristetty «Белый Лис» -tila (Venäjän TLS-varmenteet)**: Valinnainen suojattu tila verkkopalveluille, jotka vaativat Venäjän digitaalisen kehityksen TLS-varmenteita. Varmenteet toimivat vain selaimen sisällä eikä niitä koskaan asenneta SteamOS-käyttöjärjestelmään. Kytkettävissä työkalupalkista tai `about:preferences#belylis` -osiosta.
 - 🛡️ **Kaikki LibreWolfin vakiotoiminnot**: Sisäänrakennettu mainosten ja seurannan esto (uBlock Origin), tuki Firefox-laajennuksille, nopeus, yksityisyys ja valinnainen Mozilla-synkronointi.
 - 🔀 **Ohjaustilan vaihtaja työkalupalkissa**: Nopea vaihto ohjaintilan ja hiiri+näppäimistötilan välillä.
 - ⚙️ **Oma ohjainasetussivu**: `about:preferences#controller` (tukee 105 kieltä).

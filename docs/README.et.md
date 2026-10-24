@@ -36,6 +36,7 @@
 - 🔄 **Pöörlev puuteplaadi kerimine haptilise tagasisidega**: Vasak puuteplaat töötab kerimisrattana realistlike vibratsiooniklõpsudega ja hiire keskmise nupuna.
 - 🧩 **Pistikprogrammide haldamine deckyloader.ru kaudu**: Versiooni valik, paigaldamine, uuendamine ja eemaldamine otse [deckyloader.ru](https://deckyloader.ru) liidesest reaalajas Decky Loaderi sünkroonimisega.
 - 📥 **Integreeritud torrent-klient (TorrentWolf)**: Ühe klõpsuga paigaldatav pistikprogramm allalaadimiste haldamiseks otse brauseris. Allalaadimised jätkuvad taustal katkematult ka pärast brauseri sulgemist või mängurežiimi lülitumist.
+- 🦊 **Isoleeritud «Белый Лис» režiim (Venemaa TLS-sertifikaadid)**: Valikuline turvarežiim teenustele, mis nõuavad Venemaa riiklikke TLS-sertifikaate. Sertifikaadid töötavad ainult brauseris ega jõua kunagi SteamOS-süsteemi. Lülitatav ühe klõpsuga tööriistaribalt või menüüst `about:preferences#belylis`.
 - 🛡️ **Kõik LibreWolfi standardfunktsioonid**: Sisseehitatud reklaamiblokeerija (uBlock Origin), Firefoxi laienduste tugi, privaatsus, kiirus ja Mozilla sünkroonimine.
 - 🔀 **Juhtimisrežiimi lüliti tööriistaribal**: Kiire ümberlülitus kontrolleri ja hiir+klaviatuur režiimide vahel.
 - ⚙️ **Kontrolleri seaded**: `about:preferences#controller` (105 keele tugi).

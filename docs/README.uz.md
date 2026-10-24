@@ -36,6 +36,7 @@
 - 🔄 **Chap trekpad orqali aylanma varaqlash va tebranish hissi**: Trekpad ish stoli rejimidagidek taktil bosishlar bilan qulay varaqlash imkonini beradi.
 - 🧩 **deckyloader.ru sayti orqali plaginlarni boshqarish**: Plagin versiyasini tanlash, oʻrnatish, yangilash va toʻgʻridan-toʻgʻri [deckyloader.ru](https://deckyloader.ru) sayti orqali oʻchirish, Decky Loader bilan bir zumda sinxronlash.
 - 📥 **Brauzerga oʻrnatilgan torrent-mijoz (TorrentWolf)**: Bir bosishda plagin oʻrnatiladi va yuklamalarni brauzer orqali boshqarish, toʻxtatib turish va oʻchirish imkonini beradi. Brauzer yopilganda yoki oʻyin rejimiga oʻtganda ham yuklash fonda uzluksiz davom etadi.
+- 🦊 **Izolyatsiyalangan «Белый Лис» rejimi (Mintsifri sertifikatlari)**: Rossiya Raqamli rivojlanish vazirligi TLS sertifikatlarini talab qiluvchi servislarga xavfsiz kirish uchun ixtiyoriy rejim. Sertifikatlar faqat brauzer ichida ishlaydi va SteamOS tizimiga aslo o'rnatilmaydi. Asboblar panelidagi tugma orqali yoki `about:preferences#belylis` sozlamalarida bir marta bosish bilan yoqiladi va o'chiriladi.
 - 🛡️ **LibreWolf brauzerining barcha standart funksiyalari**: Reklama va trekerlarni bloklash (uBlock Origin), qoʻshimcha kengaytmalarni qoʻllab-quvvatlash, xavfsizlik va maxfiylik, Mozilla orqali sinxronlash.
 - 🔀 **Boshqaruv rejimini almashtirgich**: Kontroller va «Klaviatura+sichqoncha» rejimlari oʻrtasida tezkor almashish.
 - ⚙️ **Sozlamalarda «Kontroller» boʻlimi**: `about:preferences#controller` orqali qulay moslash (105 ta til qoʻllab-quvvatlanadi).

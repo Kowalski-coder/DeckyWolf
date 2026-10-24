@@ -36,6 +36,7 @@
 - 🔄 **Sol trekpad ilə fırlanma sürüşdürməsi və haptik rəy**: Trekpad fırlanma zamanı toxunma hissi və orta siçan düyməsi funksiyası ilə səhifələri rahat fırladır.
 - 🧩 **deckyloader.ru saytı vasitəsilə plaqinlərin idarə edilməsi**: Plaqin versiyasının seçilməsi, quraşdırılması, yenilənməsi və birbaşa [deckyloader.ru](https://deckyloader.ru) saytının interfeysindən silinməsi, Steam-i yenidən başlatmadan Decky Loader ilə anında sinxronlaşma.
 - 📥 **Brauzerə inteqrasiya olunmuş torrent müştərisi (TorrentWolf)**: Tək kliklə quraşdırılan plaqin vasitəsilə yükləmələri birbaşa brauzerdən idarə etmək, dayandırmaq və silmək mümkündür. Brauzer bağlandıqda və ya oyun rejiminə keçdikdə yükləmələr arxa planda fasiləsiz davam edir.
+- 🦊 **Təcrid olunmuş «Белый Лис» rejimi (Mintsifra sertifikatları)**: Rusiya Rəqəmsal İnkişaf Nazirliyinin TLS sertifikatlarını tələb edən xidmətlərə təhlükəsiz giriş üçün əlavə rejim. Sertifikatlar yalnız brauzer daxilində işləyir və SteamOS sisteminə əsla quraşdırılmır. Alətlər panelindəki düymə və ya `about:preferences#belylis` bölməsi vasitəsilə bir kliklə idarə olunur.
 - 🛡️ **Bütün standart LibreWolf funksiyaları**: Daxili reklam və izləyici bloklanması (uBlock Origin), Firefox əlavələrinin dəstəyi, sürət və məxfilik, Mozilla vasitəsilə məlumatların sinxronizasiyası.
 - 🔀 **Alətlər panelində idarəetmə rejimi keçidi**: Kontroller və «Klaviatura+siçan» rejimləri arasında sürətli keçid.
 - ⚙️ **Tənzimləmələrdə «Kontroller» bölməsi**: `about:preferences#controller` bölməsi (105 dil dəstəyi).
