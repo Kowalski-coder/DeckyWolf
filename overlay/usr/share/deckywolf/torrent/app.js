@@ -308,16 +308,36 @@
     stateDashboard.style.display = state === "dashboard" ? "block" : "none";
   }
 
-  async function rpcCall(method, args) {
-    try {
-      const res = await fetch("/api/transmission-rpc", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ method, arguments: args || {} })
-      });
-      return await res.json();
-    } catch (e) {
-      return { ok: false, error: String(e) };
+  async function rpcCall(method, args, retries = 2) {
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      try {
+        const res = await fetch("/api/transmission-rpc", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ method, arguments: args || {} })
+        });
+        const data = await res.json();
+        if (data && data.ok) {
+          return data;
+        }
+        const errMsg = String(data?.error || "");
+        const isTransient = errMsg.includes("Remote end closed") ||
+                            errMsg.includes("Connection reset") ||
+                            errMsg.includes("Connection refused") ||
+                            errMsg.includes("timed out") ||
+                            errMsg.includes("BadStatusLine");
+        if (isTransient && attempt < retries) {
+          await new Promise(r => setTimeout(r, 400 * (attempt + 1)));
+          continue;
+        }
+        return data;
+      } catch (e) {
+        if (attempt < retries) {
+          await new Promise(r => setTimeout(r, 400 * (attempt + 1)));
+          continue;
+        }
+        return { ok: false, error: String(e) };
+      }
     }
   }
 

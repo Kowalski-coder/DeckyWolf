@@ -15,6 +15,7 @@ import shutil
 import zipfile
 import urllib.request
 import urllib.error
+import http.client
 import subprocess
 import time
 import threading
@@ -523,41 +524,49 @@ WantedBy=default.target
     except Exception as e:
         print(f"[Transmission] Setup error: {e}", file=sys.stderr)
 
-def transmission_rpc_request(payload_bytes, retry_on_failure=True):
+def transmission_rpc_request(payload_bytes, max_attempts=3):
     global _tx_session_id
-    headers = {"Content-Type": "application/json", "Connection": "close"}
-    if _tx_session_id:
-        headers["X-Transmission-Session-Id"] = _tx_session_id
-    req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            return {"ok": True, "data": json.loads(resp.read().decode())}
-    except urllib.error.HTTPError as e:
-        if e.code == 409:
-            _tx_session_id = e.headers.get("X-Transmission-Session-Id", "")
-            try:
-                e.read()
-                e.close()
-            except Exception:
-                pass
-            headers2 = {"Content-Type": "application/json", "Connection": "close", "X-Transmission-Session-Id": _tx_session_id}
-            req2 = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, headers=headers2, method="POST")
-            try:
-                with urllib.request.urlopen(req2, timeout=15) as resp2:
-                    return {"ok": True, "data": json.loads(resp2.read().decode())}
-            except Exception as e2:
-                return {"ok": False, "error": str(e2)}
-        return {"ok": False, "error": f"HTTP {e.code}"}
-    except urllib.error.URLError as ex:
-        # Connection refused: transmission daemon might be stopped
-        if retry_on_failure:
-            print("[Transmission] Connection refused, starting transmission-daemon...", file=sys.stderr)
-            _ensure_transmission_running()
-            time.sleep(1.2)
-            return transmission_rpc_request(payload_bytes, retry_on_failure=False)
-        return {"ok": False, "error": str(ex)}
-    except Exception as ex:
-        return {"ok": False, "error": str(ex)}
+    last_error = None
+    for attempt in range(max_attempts):
+        headers = {"Content-Type": "application/json", "Connection": "close"}
+        if _tx_session_id:
+            headers["X-Transmission-Session-Id"] = _tx_session_id
+        req = urllib.request.Request(TRANSMISSION_RPC_URL, data=payload_bytes, headers=headers, method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+                return {"ok": True, "data": data}
+        except urllib.error.HTTPError as e:
+            if e.code == 409:
+                new_sid = e.headers.get("X-Transmission-Session-Id", "")
+                if new_sid:
+                    _tx_session_id = new_sid
+                try:
+                    e.read()
+                    e.close()
+                except Exception:
+                    pass
+                time.sleep(0.05)
+                continue
+            last_error = f"HTTP {e.code}"
+            return {"ok": False, "error": last_error}
+        except (http.client.RemoteDisconnected, http.client.BadStatusLine,
+                ConnectionResetError, BrokenPipeError, TimeoutError,
+                socket.error, urllib.error.URLError) as ex:
+            last_error = str(ex)
+            if attempt < max_attempts - 1:
+                _ensure_transmission_running()
+                time.sleep(0.3 * (attempt + 1))
+                continue
+            return {"ok": False, "error": last_error}
+        except Exception as ex:
+            last_error = str(ex)
+            if attempt < max_attempts - 1:
+                time.sleep(0.3 * (attempt + 1))
+                continue
+            return {"ok": False, "error": last_error}
+
+    return {"ok": False, "error": last_error or "Transmission RPC request failed"}
 
 def get_installed_plugins_fs(hb_dir):
     plugins = []
@@ -623,7 +632,7 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
 
             # Check transmission
             daemon_running = False
-            tx_res = transmission_rpc_request(b'{"method":"session-get"}', retry_on_failure=False)
+            tx_res = transmission_rpc_request(b'{"method":"session-get"}', max_attempts=1)
             if tx_res.get("ok"):
                 daemon_running = True
 

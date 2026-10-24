@@ -431,7 +431,6 @@ findbar {
 
 #deckywolf-belylis-button[data-deckywolf-belylis="true"] {
   list-style-image: url("chrome://browser/skin/belylis-btn.svg") !important;
-  color: #38bdf8 !important;
 }
 
 /* DeckyWolf: Gamepad Button Badges in Controller Mode */
