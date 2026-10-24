@@ -1965,3 +1965,5 @@ controller-hint-tabs-key = L1 / R1
 controller-hint-tabs-desc = Переключение на предыдущую / следующую вкладку
 controller-hint-close-tab-desc = Закрыть активную вкладку
 controller-hint-new-tab-desc = Открыть новую вкладку
+
+pane-belylis-title = Белый Лис

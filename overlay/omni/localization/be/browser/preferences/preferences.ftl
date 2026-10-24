@@ -1890,3 +1890,5 @@ controller-hint-tabs-desc = Пераключэнне на папярэднюю /
 controller-hint-close-tab-desc = Закрыць актыўную ўкладку
 controller-hint-new-tab-desc = Адкрыць новую ўкладку
 
+
+pane-belylis-title = Белый Лис

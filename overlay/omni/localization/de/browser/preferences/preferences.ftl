@@ -1971,3 +1971,5 @@ controller-hint-tabs-desc = Zum vorherigen / nächsten Tab wechseln
 controller-hint-close-tab-desc = Aktiven Tab schließen
 controller-hint-new-tab-desc = Neuen Tab öffnen
 
+
+pane-belylis-title = Белый Лис

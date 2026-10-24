@@ -1,10 +1,11 @@
 --- a/chrome/browser/content/browser/browser-main.js	2010-01-01 00:00:00.000000000 +0300
 +++ b/chrome/browser/content/browser/browser-main.js	2026-10-10 18:49:10.456068920 +0300
-@@ -31,6 +31,7 @@
+@@ -31,6 +31,8 @@
    Services.scriptloader.loadSubScript("chrome://browser/content/search/autocomplete-popup.js", this);
    Services.scriptloader.loadSubScript("chrome://browser/content/search/searchbar.js", this);
    Services.scriptloader.loadSubScript("chrome://browser/content/mullvadDoHNotification.js", this);
 +  Services.scriptloader.loadSubScript("chrome://browser/content/deckywolf-controller.js", this);
++  Services.scriptloader.loadSubScript("chrome://browser/content/deckywolf-belylis.js", this);
    if (AIWindow.isOpeningAIWindow(window)) {
      ChromeUtils.importESModule("chrome://browser/content/urlbar/SmartbarInput.mjs", { global: "current" });
    }

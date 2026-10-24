@@ -934,3 +934,5 @@ controller-hint-tabs-desc = Switch to previous / next tab
 controller-hint-close-tab-desc = Close active tab
 controller-hint-new-tab-desc = Open new tab
 
+
+pane-belylis-title = Белый Лис

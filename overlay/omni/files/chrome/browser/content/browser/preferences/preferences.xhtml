@@ -133,6 +133,11 @@
         iconsrc="chrome://browser/skin/deckywolf-controller.svg"
         data-l10n-id="pane-controller-title">
       </html:moz-page-nav-button>
+      <html:moz-page-nav-button id="category-belylis"
+        view="paneBelyLis"
+        iconsrc="chrome://browser/skin/preferences/category-belylis.svg"
+        data-l10n-id="pane-belylis-title">Белый Лис
+      </html:moz-page-nav-button>
       <html:moz-page-nav-button id="category-home"
         view="paneHome"
         iconsrc="chrome://browser/skin/home.svg"
@@ -1326,6 +1331,7 @@
 </html:template>
 
 <script src="chrome://browser/content/preferences/controller.js"/>
+<script src="chrome://browser/content/preferences/belylis.js"/>
 
 <vbox id="controllerCategory" class="subcategory" data-category="paneController" hidden="true" style="margin-bottom: 24px;">
   <html:h1 style="font-size: 24px; font-weight: 700; color: #f8fafc; margin: 0 0 6px 0;" data-l10n-id="pane-controller-title">Контроллер</html:h1>
@@ -1409,6 +1415,69 @@
     <hbox class="hint-item"><label class="hint-key" data-l10n-id="controller-hint-tabs-key">L1 / R1</label><label class="hint-desc" data-l10n-id="controller-hint-tabs-desc">Переключение на предыдущую / следующую вкладку</label></hbox>
     <hbox class="hint-item"><label class="hint-key badge-mod badge-mod-dynamic" data-action="close">L5 + B</label><label class="hint-desc" data-l10n-id="controller-hint-close-tab-desc">Закрыть активную вкладку</label></hbox>
     <hbox class="hint-item"><label class="hint-key badge-mod badge-mod-dynamic" data-action="new">L5 + Y</label><label class="hint-desc" data-l10n-id="controller-hint-new-tab-desc">Открыть новую вкладку</label></hbox>
+  </vbox>
+</groupbox>
+
+<vbox id="belylisCategory" class="subcategory" data-category="paneBelyLis" hidden="true" style="margin-bottom: 24px;">
+  <html:h1 style="font-size: 24px; font-weight: 700; color: #f8fafc; margin: 0 0 6px 0;" data-l10n-id="pane-belylis-title">Белый Лис</html:h1>
+  <description class="description-deemphasized" style="font-size: 13px; color: #94a3b8; margin: 0;">Изолированный доступ к сервисам с российскими TLS-сертификатами Минцифры</description>
+</vbox>
+
+<groupbox data-category="paneBelyLis" class="deckywolf-controller-groupbox" hidden="true">
+  <!-- Описание режима вверху над опциями -->
+  <hbox class="deckywolf-belylis-info-box" style="background: rgba(16, 152, 254, 0.12); border: 1px solid rgba(16, 152, 254, 0.35); border-radius: 8px; padding: 14px 16px; margin-bottom: 20px; align-items: flex-start; gap: 14px;">
+    <html:img src="chrome://browser/skin/belylis-btn.png" style="width: 32px; height: 32px; border-radius: 6px; flex-shrink: 0; margin-top: 2px;"/>
+    <vbox flex="1">
+      <label style="font-size: 14px; font-weight: 700; color: #38bdf8; margin: 0 0 4px 0;">Что такое режим «Белый Лис»?</label>
+      <description style="font-size: 12px; line-height: 1.5; color: #cbd5e1; margin: 0 0 6px 0;">
+        Режим предназначен для безопасного доступа к сайтам, использующим государственные российские TLS-сертификаты (Госуслуги, Сбербанк, ВТБ и др.), которые недоступны в стандартных браузерах без предварительной настройки.
+      </description>
+      <description style="font-size: 12px; line-height: 1.5; color: #94a3b8; margin: 0;">
+        Сертификаты Минцифры работают исключительно внутри браузера DeckyWolf и полностью изолированы от операционной системы SteamOS. При отключении режима доверие к сертификатам мгновенно снимается, а кэш защищенных соединений очищается.
+      </description>
+    </vbox>
+  </hbox>
+
+  <label><html:h2 style="font-size: 16px; font-weight: 600; color: #f8fafc; margin: 0 0 16px 0;">Параметры безопасности и работы</html:h2></label>
+
+  <!-- 1. Переключатель иконки на панели инструментов -->
+  <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
+    <checkbox id="deckywolfBelylisShowToolbarBtn"
+              label="Отображать переключатель на панели инструментов"
+              style="font-size: 14px; color: #f1f5f9; font-weight: 600;"/>
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 2px; margin-inline-start: 24px;">
+      Позволяет в один клик включать и отключать режим «Белый Лис» прямо во время серфинга на панели инструментов рядом с переключателем режима управления.
+    </description>
+  </vbox>
+
+  <!-- 2. Отключать при закрытии браузера -->
+  <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
+    <checkbox id="deckywolfBelylisDisableOnExit"
+              label="Отключать режим Белый Лис при закрытии браузера"
+              style="font-size: 14px; color: #f1f5f9; font-weight: 600;"/>
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 2px; margin-inline-start: 24px;">
+      При закрытии браузера режим автоматически деактивируется, а доверие к сертификатам сбрасывается. При следующем запуске браузер всегда стартует в стандартном защищенном режиме.
+    </description>
+  </vbox>
+
+  <!-- 3. Запоминать пароли в режиме Белый Лис -->
+  <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
+    <checkbox id="deckywolfBelylisRememberPasswords"
+              label="Запоминать пароли в режиме Белый Лис"
+              style="font-size: 14px; color: #f1f5f9; font-weight: 600;"/>
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 2px; margin-inline-start: 24px;">
+      Разрешать менеджеру паролей предлагать сохранение логинов и паролей на сайтах, посещаемых при включенном режиме «Белый Лис». Если выключено — автосохранение паролей блокируется.
+    </description>
+  </vbox>
+
+  <!-- 4. Сохранять кэш страниц в режиме Белый Лис -->
+  <vbox class="deckywolf-setting-row" style="margin-bottom: 6px;">
+    <checkbox id="deckywolfBelylisSaveCache"
+              label="Сохранять кэш страниц в режиме Белый Лис"
+              style="font-size: 14px; color: #f1f5f9; font-weight: 600;"/>
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 2px; margin-inline-start: 24px;">
+      Разрешать кэширование страниц на диск. Если опция отключена, кэш страниц пишется только во временную память и бесследно стирается сразу после отключения режима «Белый Лис».
+    </description>
   </vbox>
 </groupbox>
 

@@ -5,24 +5,28 @@
        this._initted = true;
        let template = document.getElementById("template-" + categoryName);
 -      if (template && !srdSectionPrefs.all) {
-+      if (template && (!srdSectionPrefs.all || categoryName === "paneController")) {
++      if (template && (!srdSectionPrefs.all || categoryName === "paneController" || categoryName === "paneBelyLis")) {
          // Replace the template element with the nodes inside of it.
          template.replaceWith(template.content);
  
-@@ -566,6 +566,7 @@
+@@ -566,6 +566,8 @@
    }
    register_module("paneSearch", gSearchPane);
    register_module("panePrivacy", gPrivacyPane);
 +  register_module("paneController", gControllerPane);
++  register_module("paneBelyLis", gBelyLisPane);
  
    // Restore the cached Firefox Labs nav button visibility so it shows
    // immediately when recipes are expected to be available, before
-@@ -636,6 +637,9 @@
+@@ -636,6 +638,12 @@
  
    gSearchResultsPane.init();
    gMainPane.preInit();
 +  if (typeof gControllerPane !== "undefined" && gControllerPane.init) {
 +    gControllerPane.init();
++  }
++  if (typeof gBelyLisPane !== "undefined" && gBelyLisPane.init) {
++    gBelyLisPane.init();
 +  }
  
    let categories = document.getElementById("categories");

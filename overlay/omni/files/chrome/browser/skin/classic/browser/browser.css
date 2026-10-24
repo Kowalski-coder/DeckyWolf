@@ -424,6 +424,22 @@ findbar {
   list-style-image: url("chrome://browser/skin/deckywolf-controller.svg") !important;
 }
 
+/* DeckyWolf: Bely Lis Mode Button */
+#deckywolf-belylis-button {
+  list-style-image: url("chrome://browser/skin/deckywolf-btn.png") !important;
+}
+
+#deckywolf-belylis-button[data-deckywolf-belylis="true"] {
+  list-style-image: url("chrome://browser/skin/belylis-btn.png") !important;
+  background: rgba(16, 152, 254, 0.22) !important;
+  border-radius: 4px !important;
+}
+
+#deckywolf-belylis-button .toolbarbutton-icon {
+  width: 18px !important;
+  height: 18px !important;
+}
+
 /* DeckyWolf: Gamepad Button Badges in Controller Mode */
 :root[deckywolf-controller-active] #back-button,
 :root[deckywolf-controller-active] #forward-button,
