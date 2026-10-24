@@ -139,6 +139,14 @@ if [ -d "$OVERLAY_DIR/omni/localization" ]; then
     cp -a "$OVERLAY_DIR/omni/localization"/* "$OMNI_TMP/localization/"
 fi
 
+# Rebrand brand.properties and brand.dtd across all locales so urlbar and identity badges show DeckyWolf
+echo "    Rebranding brand.properties and brand.dtd to DeckyWolf..."
+for f in "$OMNI_TMP"/chrome/*/locale/branding/brand.properties "$OMNI_TMP"/chrome/*/locale/branding/brand.dtd; do
+    [ -f "$f" ] || continue
+    sed -i 's/LibreWolf/DeckyWolf/g' "$f"
+    sed -i 's/librewolf/deckywolf/g' "$f"
+done
+
 # Apply patches to existing omni.ja files
 for patchfile in "$OVERLAY_DIR/omni/patches"/*.patch; do
     [ -e "$patchfile" ] || continue

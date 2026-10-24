@@ -1371,7 +1371,7 @@
   <!-- Инверсия прокрутки левым трекпадом -->
   <vbox class="deckywolf-setting-row" style="margin-top: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfInvertScroll" style="margin-right: 8px; width: 16px; height: 16px; accent-color: #1098fe; cursor: pointer;" />
+      <html:input type="checkbox" id="deckywolfInvertScroll" class="deckywolf-checkbox" />
       <label for="deckywolfInvertScroll" class="deckywolf-setting-label" style="font-size: 14px; color: #e2e8f0; font-weight: 500; cursor: pointer;" data-l10n-id="controller-invert-scroll-label">Инвертировать направление круговой прокрутки трекпада</label>
     </hbox>
   </vbox>
@@ -1443,10 +1443,10 @@
   <!-- 1. Переключатель иконки на панели инструментов -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisShowToolbarBtn" style="margin-right: 8px; width: 16px; height: 16px; accent-color: #1098fe; cursor: pointer;" />
+      <html:input type="checkbox" id="deckywolfBelylisShowToolbarBtn" class="deckywolf-checkbox" />
       <label for="deckywolfBelylisShowToolbarBtn" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;">Отображать переключатель на панели инструментов</label>
     </hbox>
-    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 24px;">
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;">
       Позволяет в один клик включать и отключать режим «Белый Лис» прямо во время серфинга на панели инструментов рядом с переключателем режима управления.
     </description>
   </vbox>
@@ -1454,10 +1454,10 @@
   <!-- 2. Отключать при закрытии браузера -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisDisableOnExit" style="margin-right: 8px; width: 16px; height: 16px; accent-color: #1098fe; cursor: pointer;" />
+      <html:input type="checkbox" id="deckywolfBelylisDisableOnExit" class="deckywolf-checkbox" />
       <label for="deckywolfBelylisDisableOnExit" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;">Отключать режим Белый Лис при закрытии браузера</label>
     </hbox>
-    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 24px;">
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;">
       При закрытии браузера режим автоматически деактивируется, а доверие к сертификатам сбрасывается. При следующем запуске браузер всегда стартует в стандартном защищенном режиме.
     </description>
   </vbox>
@@ -1465,10 +1465,10 @@
   <!-- 3. Запоминать пароли в режиме Белый Лис -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisRememberPasswords" style="margin-right: 8px; width: 16px; height: 16px; accent-color: #1098fe; cursor: pointer;" />
+      <html:input type="checkbox" id="deckywolfBelylisRememberPasswords" class="deckywolf-checkbox" />
       <label for="deckywolfBelylisRememberPasswords" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;">Запоминать пароли в режиме Белый Лис</label>
     </hbox>
-    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 24px;">
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;">
       Разрешать менеджеру паролей предлагать сохранение логинов и паролей на сайтах, посещаемых при включенном режиме «Белый Лис». Если выключено — автосохранение паролей блокируется.
     </description>
   </vbox>
@@ -1476,10 +1476,10 @@
   <!-- 4. Сохранять кэш страниц в режиме Белый Лис -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 6px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisSaveCache" style="margin-right: 8px; width: 16px; height: 16px; accent-color: #1098fe; cursor: pointer;" />
+      <html:input type="checkbox" id="deckywolfBelylisSaveCache" class="deckywolf-checkbox" />
       <label for="deckywolfBelylisSaveCache" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;">Сохранять кэш страниц в режиме Белый Лис</label>
     </hbox>
-    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 24px;">
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;">
       Разрешать кэширование страниц на диск. Если опция отключена, кэш страниц пишется только во временную память и бесследно стирается сразу после отключения режима «Белый Лис».
     </description>
   </vbox>

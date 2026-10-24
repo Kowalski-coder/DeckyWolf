@@ -1814,3 +1814,52 @@ a:hover, .text-link:hover {
   border: 1px solid #1098fe !important;
   color: #38bdf8 !important;
 }
+
+/* DeckyWolf: Custom Checkboxes with clear white checkmarks */
+.deckywolf-checkbox {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px !important;
+  min-height: 18px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.45) !important;
+  border-radius: 4px !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  cursor: pointer !important;
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin: 0 10px 0 0 !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+  transition: all 0.15s ease-in-out !important;
+}
+
+.deckywolf-checkbox:hover {
+  border-color: #1098fe !important;
+  background-color: rgba(16, 152, 254, 0.18) !important;
+}
+
+.deckywolf-checkbox:focus-visible {
+  outline: 2px solid #38bdf8 !important;
+  outline-offset: 2px !important;
+}
+
+.deckywolf-checkbox:checked {
+  background-color: #1098fe !important;
+  border-color: #1098fe !important;
+}
+
+.deckywolf-checkbox:checked::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 5px !important;
+  top: 1px !important;
+  width: 4px !important;
+  height: 9px !important;
+  border: solid #ffffff !important;
+  border-width: 0 2.5px 2.5px 0 !important;
+  transform: rotate(45deg) !important;
+  display: block !important;
+}
