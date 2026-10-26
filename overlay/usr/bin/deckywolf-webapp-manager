@@ -249,21 +249,24 @@ fi
 # Steam Deck Game Mode & Wayland Handling:
 # In Steam Game Mode (under Gamescope), Gamescope does not implement the full desktop
 # Wayland shell extensions required by Firefox/Gecko, causing a crash on startup.
-# We must use X11 under Gamescope, and native Wayland in desktop mode (KDE Plasma).
+# We must use X11 with EGL hardware acceleration under Gamescope, and native Wayland in desktop mode (KDE Plasma).
 if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
     unset WAYLAND_DISPLAY
     unset MOZ_ENABLE_WAYLAND
     export GDK_BACKEND=x11
+    export MOZ_X11_EGL=1
 elif [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
 
 # Detect display or gamescope resolution dynamically (universal for Steam Deck 800p, Ally 1080p, TV 4K)
 WINDOW_ARGS=()
-RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH}}"
-RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT}}"
-if [ -n "$RES_W" ] && [ -n "$RES_H" ]; then
+if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
+    RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH:-1280}}"
+    RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT:-800}}"
     WINDOW_ARGS=(-width "$RES_W" -height "$RES_H")
+elif [ -n "$STEAM_GAME_WIDTH" ] && [ -n "$STEAM_GAME_HEIGHT" ]; then
+    WINDOW_ARGS=(-width "$STEAM_GAME_WIDTH" -height "$STEAM_GAME_HEIGHT")
 fi
 
 # Launch in kiosk mode with isolated profile

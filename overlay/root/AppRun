@@ -12,11 +12,12 @@ export MOZ_APP_DISPLAYNAME="DeckyWolf"
 # Steam Deck Game Mode & Wayland Handling:
 # In Steam Game Mode (under Gamescope), Gamescope does not implement the full desktop
 # Wayland shell extensions required by Firefox/Gecko, causing a crash on startup.
-# We must use X11 under Gamescope, and native Wayland in desktop mode (KDE Plasma).
+# We must use X11 with EGL hardware acceleration under Gamescope, and native Wayland in desktop mode (KDE Plasma).
 if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
     unset WAYLAND_DISPLAY
     unset MOZ_ENABLE_WAYLAND
     export GDK_BACKEND=x11
+    export MOZ_X11_EGL=1
 elif [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
@@ -134,10 +135,33 @@ fi
 
 # Detect display or gamescope resolution dynamically (universal for Steam Deck 800p, Ally 1080p, TV 4K)
 EXTRA_ARGS=()
-RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH}}"
-RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT}}"
-if [ -n "$RES_W" ] && [ -n "$RES_H" ]; then
+if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
+    RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH:-1280}}"
+    RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT:-800}}"
     EXTRA_ARGS=(-width "$RES_W" -height "$RES_H")
+
+    # In Game Mode, ensure saved window size does not squish or stretch the Gamescope canvas
+    python3 -c "
+import glob, json, os
+for p in glob.glob(os.path.expanduser('~/.config/librewolf/librewolf/*')):
+    xs = os.path.join(p, 'xulstore.json')
+    if os.path.isfile(xs):
+        try:
+            with open(xs, 'r') as f:
+                d = json.load(f)
+            mw = d.setdefault('chrome://browser/content/browser.xhtml', {}).setdefault('main-window', {})
+            mw['sizemode'] = 'maximized'
+            mw['width'] = '${RES_W}'
+            mw['height'] = '${RES_H}'
+            mw['screenX'] = '0'
+            mw['screenY'] = '0'
+            with open(xs, 'w') as f:
+                json.dump(d, f)
+        except Exception:
+            pass
+" 2>/dev/null || true
+elif [ -n "$STEAM_GAME_WIDTH" ] && [ -n "$STEAM_GAME_HEIGHT" ]; then
+    EXTRA_ARGS=(-width "$STEAM_GAME_WIDTH" -height "$STEAM_GAME_HEIGHT")
 fi
 
 "${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf --allow-downgrade "${EXTRA_ARGS[@]}" "$@"
