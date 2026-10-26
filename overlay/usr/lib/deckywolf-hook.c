@@ -1,5 +1,6 @@
 #define _GNU_SOURCE
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 #include <dlfcn.h>
 #include <string.h>
@@ -74,6 +75,49 @@ void gtk_window_set_wmclass(void *window, const char *wmclass_name, const char *
     static void (*orig)(void *, const char *, const char *) = NULL;
     if (!orig) orig = dlsym(RTLD_NEXT, "gtk_window_set_wmclass");
     if (orig) orig(window, "deckywolf", "deckywolf");
+}
+
+static int is_gamescope_env(void) {
+    const char *g = getenv("GAMESCOPE_WAYLAND_DISPLAY");
+    const char *d = getenv("XDG_CURRENT_DESKTOP");
+    return ((g && g[0]) || (d && strcmp(d, "gamescope") == 0));
+}
+
+void gtk_window_set_decorated(void *window, int setting) {
+    static void (*orig)(void *, int) = NULL;
+    if (!orig) orig = dlsym(RTLD_NEXT, "gtk_window_set_decorated");
+    if (is_gamescope_env()) {
+        if (orig) orig(window, 0);
+        return;
+    }
+    if (orig) orig(window, setting);
+}
+
+typedef struct {
+    unsigned long flags;
+    unsigned long functions;
+    unsigned long decorations;
+    long input_mode;
+    unsigned long status;
+} DeckyMotifWmHints;
+
+#define DECKY_MWM_HINTS_DECORATIONS (1L << 1)
+
+int XMapWindow(Display *display, Window w) {
+    static int (*orig)(Display *, Window) = NULL;
+    if (!orig) orig = dlsym(RTLD_NEXT, "XMapWindow");
+    if (is_gamescope_env() && display) {
+        Atom prop = XInternAtom(display, "_MOTIF_WM_HINTS", False);
+        if (prop != None) {
+            DeckyMotifWmHints hints;
+            memset(&hints, 0, sizeof(hints));
+            hints.flags = DECKY_MWM_HINTS_DECORATIONS;
+            hints.decorations = 0;
+            XChangeProperty(display, w, prop, prop, 32, PropModeReplace, (const unsigned char *)&hints, 5);
+        }
+    }
+    if (orig) return orig(display, w);
+    return 0;
 }
 
 void gdk_wayland_window_set_application_id(void *window, const char *application_id) {

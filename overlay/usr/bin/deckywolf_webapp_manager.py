@@ -255,6 +255,11 @@ if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope"
     unset MOZ_ENABLE_WAYLAND
     export GDK_BACKEND=x11
     export MOZ_X11_EGL=1
+    export GTK_CSD=0
+    export GTK_OVERLAY_SCROLLING=0
+    export GTK_MODULES=""
+    export GDK_DPI_SCALE=1.0
+    export GDK_SCALE=1
 elif [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
@@ -262,8 +267,14 @@ fi
 # Detect display or gamescope resolution dynamically (universal for Steam Deck 800p, Ally 1080p, TV 4K)
 WINDOW_ARGS=()
 if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
-    RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH:-1280}}"
-    RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT:-800}}"
+    DETECTED_RES=$(xdpyinfo 2>/dev/null | awk '/dimensions:/ {print $2}')
+    if [ -n "$DETECTED_RES" ]; then
+        RES_W="${DETECTED_RES%x*}"
+        RES_H="${DETECTED_RES#*x}"
+    else
+        RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH:-1280}}"
+        RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT:-800}}"
+    fi
     WINDOW_ARGS=(-width "$RES_W" -height "$RES_H")
 elif [ -n "$STEAM_GAME_WIDTH" ] && [ -n "$STEAM_GAME_HEIGHT" ]; then
     WINDOW_ARGS=(-width "$STEAM_GAME_WIDTH" -height "$STEAM_GAME_HEIGHT")
