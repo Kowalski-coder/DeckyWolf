@@ -1,3 +1,38 @@
+## DeckyWolf v158.0.1-2.03
+
+A massive stability, SteamOS integration, and feature release introducing a native **WebApps Manager** directly built into the browser UI, comprehensive Steam Game Mode fixes (crystal-clear pixel-perfect rendering, zero blur, elimination of white window borders), full VSync input synchronization for trackpads, TorrentWolf service resilience, and complete Steam UI artwork assets.
+
+### Highlights
+
+- 🌐 **Native WebApps Integration (Built into Browser UI)**:
+  - Replaced the extension with a fully integrated, native browser feature.
+  - **Dynamic Toolbar Dropdown**: Clean monochrome SVG icon matching Firefox toolbar styling across dark and light themes.
+  - **Automatic Discovery**: Automatically captures current tab title, full URL, and real website favicon (with fallback to DeckyWolf branding).
+  - **Steam & System Integration**: Generates standalone non-Steam shortcuts (`shortcuts.vdf` with custom appid, launcher scripts, and dedicated isolated profile), desktop entries, and icon assets.
+  - **Multilingual Support**: WebApps popup UI adapts to all browser languages, and KDE's application menu category is localized based on system locale («Веб-приложения», «Web Apps», «Web-Anwendungen», etc.).
+  - **Context-Aware Safety**: Contextual help banner on `about:home` and settings without allowing invalid WebApp creation; shows a one-click **«Delete WebApp»** button when viewing a site for which a WebApp already exists.
+- 🎮 **SteamOS Game Mode & Gamescope Fixes**:
+  - **Eliminated White Window Border**: Intercepted Motif WM hints (`_MOTIF_WM_HINTS = 0`), disabled GTK client-side decorations (`GTK_CSD=0`, disabled `window-decorations-gtk-module`), and enabled ARGB visuals.
+  - **Crystal-Clear Native Resolution (Zero Blur)**: Dynamic resolution detection via `xdpyinfo`/`xrandr` automatically launches the window pixel-perfect on any display (1280×800 on Deck, 1440×900 / 1080p / 4K on docks/TVs) without needing Steam launch options.
+  - **Pixel-Perfect Font Rendering**: Locked `layout.css.devPixelsPerPx = 1.0` to eliminate fractional scaling blur.
+  - **Smooth Trackpad Input**: Restored VSync synchronization (`layout.frame_rate = -1`) preventing CPU/GPU starvation and cursor stuttering/skipping.
+  - **X11 + EGL Acceleration**: Native Mesa EGL acceleration on AMD VanGogh GPU, bypassing Gamescope Wayland subcompositor crashes.
+- 📥 **TorrentWolf Resilience**:
+  - Automatic background startup of `deckywolf-torrent-service` on port 8404 with systemd user unit registration (`deckywolf-torrent.service`).
+  - Added connection retries and automatic HTTP 409 session renegotiation.
+- 🖼️ **Steam UI Artwork Suite**:
+  - Bundled complete set of official community assets in `ForSteamUI/` (`vertical_capsule.png` 600×900, `horizontal_capsule.png` 920×430, `hero.png` 1920×620, `logo.png` 1280×720 transparent, `icon.png` 256×256 and multi-resolution `icon.ico`).
+- 🐧 **SteamOS Library & Runtime Compatibility**:
+  - Enforced `_ensure_stdlib_paths()` across all Python daemons for Python 3.10–3.14 compatibility across SteamOS 3.5 and 3.6+.
+  - Hook binary `deckywolf-hook.so` built against `GLIBC_2.34` (fully compatible with SteamOS 3.5's GLIBC 2.38).
+  - Maintained `LD_LIBRARY_PATH` priority ensuring bundled NSS/NSPR libraries take precedence over older host libraries.
+
+### Quick Start
+```bash
+chmod +x deckywolf.AppImage
+./deckywolf.AppImage
+```
+
 ## DeckyWolf v158.0.1-2.02
 
 A major feature update introducing the optional, fully isolated **«Белый Лис»** mode for secure access to Russian web services using Ministry of Digital Development TLS certificates, native monochrome toolbar vectors, TorrentWolf connection reliability fixes, and complete 105-language localization.
