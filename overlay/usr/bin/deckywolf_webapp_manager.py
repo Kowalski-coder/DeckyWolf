@@ -246,13 +246,15 @@ if [ -z "$DECKYWOLF_BIN" ]; then
     DECKYWOLF_BIN="deckywolf"
 fi
 
-# Steam Deck Game Mode & Wayland Sharpness Fix:
-# Always enable native Wayland rendering when running under Wayland or Game Mode.
-# This prevents Gamescope from applying blurry XWayland scaling filters.
-if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ]; then
-    export WAYLAND_DISPLAY="$GAMESCOPE_WAYLAND_DISPLAY"
-fi
-if [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+# Steam Deck Game Mode & Wayland Handling:
+# In Steam Game Mode (under Gamescope), Gamescope does not implement the full desktop
+# Wayland shell extensions required by Firefox/Gecko, causing a crash on startup.
+# We must use X11 under Gamescope, and native Wayland in desktop mode (KDE Plasma).
+if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope" ]; then
+    unset WAYLAND_DISPLAY
+    unset MOZ_ENABLE_WAYLAND
+    export GDK_BACKEND=x11
+elif [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
 
