@@ -52,6 +52,15 @@ for hdir in "${HOME}/.librewolf/native-messaging-hosts" "${HOME}/.mozilla/native
     echo "$NATIVE_HOSTS_JSON" > "$hdir/deckywolf_webapps.json" 2>/dev/null || true
 done
 
+# Ensure unsigned extensions are allowed for DeckyWolf WebApps
+for p in "${HOME}/.config/librewolf/librewolf"/*/; do
+    if [ -d "$p" ] && [ -f "$p/prefs.js" ]; then
+        if ! grep -q "xpinstall.signatures.required" "$p/prefs.js" 2>/dev/null; then
+            echo 'user_pref("xpinstall.signatures.required", false);' >> "$p/prefs.js"
+        fi
+    fi
+done
+
 # Start background controller daemon
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
     "${CURRENTDIR}/usr/bin/deckywolf-controller" &
