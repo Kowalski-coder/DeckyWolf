@@ -4458,6 +4458,179 @@
       </description>
     </vbox>
   </panel>
+
+  <panel id="deckywolf-webapp-panel"
+         class="panel-no-padding cui-widget-panel"
+         type="arrow"
+         orient="vertical"
+         role="group"
+         flip="slide"
+         position="bottomright topright"
+         noautofocus="false">
+    <div id="deckywolf-webapp-container" class="deckywolf-webapp-container">
+      <div class="deckywolf-webapp-header">
+        <div class="deckywolf-webapp-header-logo">
+          <svg class="deckywolf-webapp-brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="22" height="22" fill="#ffffff">
+            <g transform="translate(-0.7843, -0.7843) scale(0.068627)">
+              <path fill-rule="evenodd" d="M 114.810 27.043 C 65.280 32.819, 26.726 76.720, 26.589 127.500 C 26.510 156.950, 35.435 178.435, 56.500 199.500 C 77.419 220.419, 99.018 229.453, 128 229.404 C 168.507 229.337, 202.997 207.248, 220.676 170.050 C 231.767 146.713, 232.595 115.255, 222.756 91 C 204.973 47.161, 161.774 21.566, 114.810 27.043 M 110 42.485 C 76.791 49.111, 49.521 76.503, 42.305 110.483 C 39.716 122.673, 40.915 143.242, 44.900 155 C 48.046 164.284, 53.038 174.355, 56.789 178.988 C 60.844 183.995, 68.055 178.661, 75.940 164.821 C 78.846 159.720, 83.134 153.061, 85.470 150.023 C 87.806 146.986, 91.730 140.654, 94.190 135.954 L 98.663 127.408 93.792 121.969 C 84.365 111.445, 86.329 108.387, 104.033 106.026 C 111.389 105.044, 113.813 104.161, 122.500 99.292 C 131.163 94.436, 133.436 93.606, 139.500 93.078 C 147.632 92.370, 149.660 91.183, 168.296 76.226 C 174.784 71.019, 180.240 66.926, 180.419 67.130 C 184.332 71.568, 185.764 81.185, 183.518 87.946 C 181.678 93.486, 182.292 95.877, 184.653 92.367 C 185.942 90.452, 186.499 90.339, 190.123 91.259 C 194.812 92.449, 196.407 95.315, 195.392 100.725 C 194.747 104.164, 193.626 105.451, 183.721 114.124 C 178.280 118.888, 167.091 136.663, 163.837 145.711 C 162.322 149.926, 161.571 155.209, 161.074 165.142 C 160.396 178.715, 160.374 178.811, 156.757 184.142 C 154.758 187.089, 152.466 191.750, 151.665 194.500 C 150.121 199.800, 148.040 212.243, 148.591 212.876 C 148.771 213.083, 152.611 211.967, 157.124 210.396 C 218.566 189.007, 235.202 108.742, 187.438 64.135 C 166.992 45.041, 137.922 36.913, 110 42.485 M 141 97.732 C 137.773 98.112, 132 102.252, 132 104.187 C 132 106.565, 139.051 104.837, 141.945 101.750 C 144.346 99.188, 146.122 96.282, 144.750 97.160 C 144.613 97.248, 142.925 97.505, 141 97.732"/>
+            </g>
+          </svg>
+        </div>
+        <div class="deckywolf-webapp-header-title">
+          <h1 id="deckywolf-webapp-title-text">Веб-приложение</h1>
+          <span id="deckywolf-webapp-subtitle-text" class="deckywolf-webapp-subtitle">Интеграция DeckyWolf</span>
+        </div>
+      </div>
+
+      <!-- Info Section (shown on start page, settings, about:*) -->
+      <div id="deckywolf-webapp-info-section" class="deckywolf-webapp-section deckywolf-webapp-info-view" hidden="true" style="display: none !important;">
+        <div class="deckywolf-webapp-info-banner">
+          <svg class="deckywolf-webapp-info-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#00acff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </div>
+        <h2 id="deckywolf-webapp-info-title" class="deckywolf-webapp-info-heading">О веб-приложениях</h2>
+        <p id="deckywolf-webapp-info-desc" class="deckywolf-webapp-info-text">
+          Сохраняйте любимые сайты и сервисы как независимые приложения для удобного запуска на ПК и в игровом режиме Steam Deck:
+        </p>
+        <div class="deckywolf-webapp-features-list">
+          <div class="deckywolf-webapp-feature-item">
+            <span class="deckywolf-webapp-feature-bullet">✓</span>
+            <span id="deckywolf-webapp-feature-1">Запуск в отдельном окне без лишних панелей</span>
+          </div>
+          <div class="deckywolf-webapp-feature-item">
+            <span class="deckywolf-webapp-feature-bullet">✓</span>
+            <span id="deckywolf-webapp-feature-2">Интеграция в библиотеку Steam (Игровой режим)</span>
+          </div>
+          <div class="deckywolf-webapp-feature-item">
+            <span class="deckywolf-webapp-feature-bullet">✓</span>
+            <span id="deckywolf-webapp-feature-3">Ярлык в меню KDE (категория «Веб-приложения»)</span>
+          </div>
+        </div>
+        <div class="deckywolf-webapp-tip-box">
+          <span class="deckywolf-webapp-tip-icon">💡</span>
+          <span id="deckywolf-webapp-info-tip">Чтобы создать веб-приложение, откройте нужный сайт (например, YouTube или TorrentWolf) и нажмите эту кнопку.</span>
+        </div>
+        <button id="deckywolf-webapp-btn-info-close" class="deckywolf-webapp-btn-secondary" type="button">Закрыть</button>
+      </div>
+
+      <!-- Already Installed Section -->
+      <div id="deckywolf-webapp-installed-section" class="deckywolf-webapp-section deckywolf-webapp-installed-view" hidden="true" style="display: none !important;">
+        <div class="deckywolf-webapp-installed-card">
+          <div class="deckywolf-webapp-installed-icon-wrap">
+            <html:img id="deckywolf-webapp-installed-icon" class="deckywolf-webapp-icon-preview" src="" />
+            <svg id="deckywolf-webapp-installed-fallback" class="deckywolf-webapp-icon-fallback" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="28" height="28" fill="#00acff" hidden="true">
+              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm5.9 7.2h-2.5a10.9 10.9 0 0 0-1-4.7A6.8 6.8 0 0 1 13.9 7.2zM8 1.3c.7 1.2 1.4 3.5 1.6 5.9H6.4C6.6 4.8 7.3 2.5 8 1.3zM2.1 7.2A6.8 6.8 0 0 1 5.6 2.5a10.9 10.9 0 0 0-1 4.7H2.1zm0 1.6h2.5a10.9 10.9 0 0 0 1 4.7A6.8 6.8 0 0 1 2.1 8.8zm5.9 5.9c-.7-1.2-1.4-3.5-1.6-5.9h3.2c-.2 2.4-.9 4.7-1.6 5.9zm2.4-1.2a10.9 10.9 0 0 0 1-4.7h2.5a6.8 6.8 0 0 1-3.5 4.7z"/>
+            </svg>
+          </div>
+          <div class="deckywolf-webapp-installed-details">
+            <span class="deckywolf-webapp-installed-badge" id="deckywolf-webapp-badge-installed">✓ Веб-приложение установлено</span>
+            <strong id="deckywolf-webapp-installed-name" class="deckywolf-webapp-installed-name"></strong>
+            <span id="deckywolf-webapp-installed-url" class="deckywolf-webapp-installed-url"></span>
+          </div>
+        </div>
+
+        <div class="deckywolf-webapp-installed-actions">
+          <button id="deckywolf-webapp-btn-installed-launch" class="deckywolf-webapp-btn-primary" type="button">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M4 2.5a.5.5 0 0 1 .77-.42l9 5.5a.5.5 0 0 1 0 .84l-9 5.5A.5.5 0 0 1 4 13.5v-11z"/>
+            </svg>
+            <span id="deckywolf-webapp-btn-installed-launch-text">Запустить сейчас</span>
+          </button>
+          <button id="deckywolf-webapp-btn-installed-delete" class="deckywolf-webapp-btn-danger" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"></polyline>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              <line x1="10" y1="11" x2="10" y2="17"></line>
+              <line x1="14" y1="11" x2="14" y2="17"></line>
+            </svg>
+            <span id="deckywolf-webapp-btn-delete-text">Удалить веб-приложение</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Form Section -->
+      <div id="deckywolf-webapp-form-section" class="deckywolf-webapp-section">
+        <div class="deckywolf-webapp-preview-card">
+          <div class="deckywolf-webapp-preview-icon-wrap" id="deckywolf-webapp-icon-container" title="Нажмите, чтобы загрузить свою иконку">
+            <svg id="deckywolf-webapp-icon-fallback" class="deckywolf-webapp-icon-fallback" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="28" height="28" fill="#00acff">
+              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm5.9 7.2h-2.5a10.9 10.9 0 0 0-1-4.7A6.8 6.8 0 0 1 13.9 7.2zM8 1.3c.7 1.2 1.4 3.5 1.6 5.9H6.4C6.6 4.8 7.3 2.5 8 1.3zM2.1 7.2A6.8 6.8 0 0 1 5.6 2.5a10.9 10.9 0 0 0-1 4.7H2.1zm0 1.6h2.5a10.9 10.9 0 0 0 1 4.7A6.8 6.8 0 0 1 2.1 8.8zm5.9 5.9c-.7-1.2-1.4-3.5-1.6-5.9h3.2c-.2 2.4-.9 4.7-1.6 5.9zm2.4-1.2a10.9 10.9 0 0 0 1-4.7h2.5a6.8 6.8 0 0 1-3.5 4.7z"/>
+            </svg>
+            <html:img id="deckywolf-webapp-icon-preview" class="deckywolf-webapp-icon-preview" hidden="true" />
+            <div class="deckywolf-webapp-icon-overlay">
+              <span id="deckywolf-webapp-icon-change-text">Изменить</span>
+            </div>
+            <html:input type="file" id="deckywolf-webapp-file-input" accept="image/*" style="display:none;" />
+          </div>
+
+          <div class="deckywolf-webapp-preview-details">
+            <strong id="deckywolf-webapp-name-display" class="deckywolf-webapp-preview-name" contenteditable="true" spellcheck="false" title="Нажмите, чтобы изменить название"></strong>
+            <span id="deckywolf-webapp-url-display" class="deckywolf-webapp-preview-url"></span>
+          </div>
+        </div>
+
+        <div class="deckywolf-webapp-options-group">
+          <div id="deckywolf-webapp-row-kde" class="deckywolf-webapp-checkbox-row checked">
+            <input type="checkbox" id="deckywolf-webapp-check-kde" checked="checked" />
+            <span class="deckywolf-webapp-checkbox-custom"></span>
+            <span class="deckywolf-webapp-checkbox-label">
+              <strong id="deckywolf-webapp-kde-title">Меню приложений KDE</strong>
+              <small id="deckywolf-webapp-kde-desc">Категория «Веб-приложения»</small>
+            </span>
+          </div>
+
+          <div id="deckywolf-webapp-row-steam" class="deckywolf-webapp-checkbox-row checked">
+            <input type="checkbox" id="deckywolf-webapp-check-steam" checked="checked" />
+            <span class="deckywolf-webapp-checkbox-custom"></span>
+            <span class="deckywolf-webapp-checkbox-label">
+              <strong id="deckywolf-webapp-steam-title">Библиотека Steam</strong>
+              <small id="deckywolf-webapp-steam-desc">Игровой режим (Non-Steam)</small>
+            </span>
+          </div>
+        </div>
+
+        <div class="deckywolf-webapp-info-note">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 2.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM6.5 7h2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1 0-1h.5v-3h-.5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <span id="deckywolf-webapp-note-text">Открывается в отдельном окне без адресной строки и вкладок.</span>
+        </div>
+
+        <button id="deckywolf-webapp-btn-create" class="deckywolf-webapp-btn-primary" type="button">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 2a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2H9v4a1 1 0 1 1-2 0V9H3a1 1 0 0 1 0-2h4V3a1 1 0 0 1 1-1z"/>
+          </svg>
+          <span id="deckywolf-webapp-btn-create-text">Создать веб-приложение</span>
+        </button>
+
+        <div id="deckywolf-webapp-error-box" class="deckywolf-webapp-error-box" hidden="true" style="display: none !important;"></div>
+      </div>
+
+      <!-- Success Section -->
+      <div id="deckywolf-webapp-success-section" class="deckywolf-webapp-section deckywolf-webapp-success-view" hidden="true" style="display: none !important;">
+        <div class="deckywolf-webapp-success-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+        </div>
+        <h2 id="deckywolf-webapp-success-title">Готово!</h2>
+        <p id="deckywolf-webapp-success-desc">Веб-приложение успешно добавлено.</p>
+
+        <div class="deckywolf-webapp-success-actions">
+          <button id="deckywolf-webapp-btn-launch-now" class="deckywolf-webapp-btn-primary" type="button">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M4 2.5a.5.5 0 0 1 .77-.42l9 5.5a.5.5 0 0 1 0 .84l-9 5.5A.5.5 0 0 1 4 13.5v-11z"/>
+            </svg>
+            <span id="deckywolf-webapp-btn-launch-text">Запустить сейчас</span>
+          </button>
+          <button id="deckywolf-webapp-btn-done" class="deckywolf-webapp-btn-secondary" type="button">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </panel>
 </popupset>
 
 
@@ -6807,6 +6980,13 @@
                    label="Белый Лис"
                    tooltiptext="Режим «Белый Лис»: Отключен (стандартный режим DeckyWolf)"
                    data-deckywolf-belylis="false"/>
+
+    <toolbarbutton id="deckywolf-webapp-button"
+                   class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   removable="false"
+                   badged="false"
+                   label="Веб-приложение"
+                   tooltiptext="Создать веб-приложение"/>
 
     <toolbaritem id="PanelUI-button"
                  removable="false">

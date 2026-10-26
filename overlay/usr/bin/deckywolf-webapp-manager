@@ -110,7 +110,7 @@ def find_deckywolf_bin() -> str:
     return "deckywolf"
 
 def ensure_kde_webapps_category():
-    """Configures KDE Application menu with 'Веб-приложения' category and deckywolf icon."""
+    """Configures KDE Application menu with multilingual 'Веб-приложения' category and deckywolf icon."""
     os.makedirs(DESKTOP_DIRS_DIR, exist_ok=True)
     os.makedirs(MENUS_MERGED_DIR, exist_ok=True)
 
@@ -120,6 +120,25 @@ Type=Directory
 Name=Веб-приложения
 Name[ru]=Веб-приложения
 Name[en]=Web Applications
+Name[be]=Вэб-праграмы
+Name[uk]=Веб-додатки
+Name[de]=Web-Anwendungen
+Name[fr]=Applications Web
+Name[es]=Aplicaciones Web
+Name[it]=Applicazioni Web
+Name[pt]=Aplicações Web
+Name[zh_CN]=Web 应用程序
+Name[zh]=Web 应用程序
+Name[ja]=ウェブアプリ
+Comment=DeckyWolf Web Applications
+Comment[ru]=Веб-приложения DeckyWolf
+Comment[en]=DeckyWolf Web Applications
+Comment[be]=Вэб-праграмы DeckyWolf
+Comment[uk]=Веб-додатки DeckyWolf
+Comment[de]=DeckyWolf Web-Anwendungen
+Comment[fr]=Applications Web DeckyWolf
+Comment[es]=Aplicaciones Web DeckyWolf
+Comment[zh_CN]=DeckyWolf Web 应用程序
 Icon=deckywolf
 """
     with open(dir_file, "w", encoding="utf-8") as f:
@@ -195,9 +214,28 @@ fi
 
 APP_URL=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE'))['url'])")
 
+# If URL is TorrentWolf on localhost, ensure service is running
+if [[ "$APP_URL" == *"127.0.0.1:8404"* ]]; then
+    if command -v systemctl >/dev/null 2>&1; then
+        systemctl --user start deckywolf-torrent.service 2>/dev/null || true
+    fi
+    if ! python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null; then
+        for svc in "${HOME}/.local/bin/deckywolf-torrent-service" "/usr/bin/deckywolf-torrent-service"; do
+            if [ -x "$svc" ]; then
+                "$svc" &
+                break
+            fi
+        done
+        for _ in $(seq 1 40); do
+            python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null && break
+            sleep 0.05
+        done
+    fi
+fi
+
 # Find DeckyWolf executable
 DECKYWOLF_BIN=""
-for c in "${HOME}/Applications/deckywolf.AppImage" "${HOME}/Applications/DeckyWolf.AppImage" "${HOME}/Applications/deckywolf.appimage" "/usr/bin/deckywolf" "${HOME}/.local/bin/deckywolf"; do
+for c in "${HOME}/Desktop/deckywolf-test.appimage" "${HOME}/Desktop/deckywolf.AppImage" "${HOME}/Desktop/deckywolf.appimage" "${HOME}/Applications/deckywolf.AppImage" "${HOME}/Applications/DeckyWolf.AppImage" "${HOME}/Applications/deckywolf.appimage" "/usr/bin/deckywolf" "${HOME}/.local/bin/deckywolf"; do
     if [ -x "$c" ]; then
         DECKYWOLF_BIN="$c"
         break
@@ -211,17 +249,28 @@ fi
 # Steam Deck Game Mode & Wayland Sharpness Fix:
 # Always enable native Wayland rendering when running under Wayland or Game Mode.
 # This prevents Gamescope from applying blurry XWayland scaling filters.
+if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ]; then
+    export WAYLAND_DISPLAY="$GAMESCOPE_WAYLAND_DISPLAY"
+fi
 if [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
 
-# Set native Steam Deck window dimensions and isolated profile in kiosk mode
+# Detect display or gamescope resolution dynamically (universal for Steam Deck 800p, Ally 1080p, TV 4K)
+WINDOW_ARGS=()
+RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH}}"
+RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT}}"
+if [ -n "$RES_W" ] && [ -n "$RES_H" ]; then
+    WINDOW_ARGS=(-width "$RES_W" -height "$RES_H")
+fi
+
+# Launch in kiosk mode with isolated profile
 exec "$DECKYWOLF_BIN" \\
     --profile "$PROFILE_DIR" \\
     --new-instance \\
     --class "deckywolf-webapp-${APP_ID}" \\
     --name "deckywolf-webapp-${APP_ID}" \\
-    --window-size 1280,800 \\
+    "${WINDOW_ARGS[@]}" \\
     --kiosk \\
     "$APP_URL"
 """
@@ -316,17 +365,55 @@ user_pref("widget.wayland.opaque-region.enabled", true);
             print(f"[WebAppManager] Error decoding icon: {e}", file=sys.stderr)
 
     if not icon_saved:
-        # Fallback to DeckyWolf default icon
-        default_icon = os.path.join(ICONS_DIR, "deckywolf.png")
-        if os.path.isfile(default_icon):
-            shutil.copy(default_icon, icon_dest)
-        else:
-            # Create a simple colored fallback
-            subprocess.run([
-                "magick", "-size", "128x128", "xc:#00acff",
-                "-gravity", "center", "-pointsize", "64", "-fill", "white",
-                f"label:{name[0].upper()}", icon_dest
-            ], stderr=subprocess.DEVNULL)
+        # 1. Local TorrentWolf check
+        if "127.0.0.1:8404" in url:
+            for candidate in (
+                os.path.expanduser("~/.local/share/deckywolf/torrent/favicon.png"),
+                os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "torrent", "favicon.png"),
+                "/usr/share/deckywolf/torrent/favicon.png"
+            ):
+                if os.path.isfile(candidate):
+                    try:
+                        shutil.copy(candidate, icon_dest)
+                        icon_saved = True
+                        break
+                    except Exception:
+                        pass
+
+        # 2. Network favicon fetch from high-res service
+        if not icon_saved and (url.startswith("http://") or url.startswith("https://")):
+            try:
+                import urllib.parse
+                import urllib.request
+                parsed = urllib.parse.urlparse(url)
+                domain = parsed.netloc.split(":")[0]
+                if domain and domain not in ("127.0.0.1", "localhost"):
+                    fav_url = f"https://www.google.com/s2/favicons?domain={domain}&sz=128"
+                    req = urllib.request.Request(fav_url, headers={"User-Agent": "Mozilla/5.0"})
+                    with urllib.request.urlopen(req, timeout=4) as resp:
+                        if resp.status == 200:
+                            img_data = resp.read()
+                            if len(img_data) > 100:
+                                with open(icon_dest, "wb") as f:
+                                    f.write(img_data)
+                                icon_saved = True
+            except Exception as e:
+                print(f"[WebAppManager] Network favicon fetch error: {e}", file=sys.stderr)
+
+        # 3. Fallback to DeckyWolf default icon ONLY if site icon could not be determined
+        if not icon_saved:
+            default_icon = os.path.join(ICONS_DIR, "deckywolf.png")
+            if os.path.isfile(default_icon):
+                shutil.copy(default_icon, icon_dest)
+            else:
+                try:
+                    subprocess.run([
+                        "magick", "-size", "128x128", "xc:#00acff",
+                        "-gravity", "center", "-pointsize", "64", "-fill", "white",
+                        f"label:{name[0].upper()}", icon_dest
+                    ], stderr=subprocess.DEVNULL)
+                except Exception:
+                    pass
 
     # Register icon into system hicolor icons
     hicolor_128 = os.path.join(ICONS_DIR, "hicolor", "128x128", "apps")
@@ -407,6 +494,7 @@ def add_to_steam(name: str, app_id: str, launcher_path: str, app_dir: str, icon_
         if os.path.isfile(icon_path):
             shutil.copy(icon_path, os.path.join(grid_dir, f"{crc}_icon.png"))
             shutil.copy(icon_path, os.path.join(grid_dir, f"{crc}.png"))
+            shutil.copy(icon_path, os.path.join(grid_dir, f"{crc}p.png"))
 
         sc = {}
         root_name = "shortcuts"
@@ -423,14 +511,11 @@ def add_to_steam(name: str, app_id: str, launcher_path: str, app_dir: str, icon_
                 shutil.copy(shortcuts_file, shortcuts_file + ".deckywolf.bak")
             except Exception:
                 pass
-            except Exception as e:
-                print(f"[WebAppManager] Error reading shortcuts.vdf: {e}", file=sys.stderr)
-                sc = {}
 
         # Look for existing entry with same AppName or launcher
         entry_idx = None
         for k, entry in sc.items():
-            if entry.get("AppName") == name or entry.get("LaunchOptions") == f'"{app_id}"':
+            if entry.get("AppName") == name or entry.get("LaunchOptions") == app_id:
                 entry_idx = k
                 break
 
@@ -444,10 +529,10 @@ def add_to_steam(name: str, app_id: str, launcher_path: str, app_dir: str, icon_
             "appid": crc,
             "AppName": name,
             "Exe": f'"{launcher_path}"',
-            "StartDir": f'"{app_dir}"',
+            "StartDir": f"{app_dir}/",
             "icon": icon_path,
             "ShortcutPath": "",
-            "LaunchOptions": f'"{app_id}"',
+            "LaunchOptions": app_id,
             "IsHidden": 0,
             "AllowDesktopConfig": 1,
             "AllowOverlay": 1,
@@ -469,7 +554,130 @@ def add_to_steam(name: str, app_id: str, launcher_path: str, app_dir: str, icon_
         except Exception as e:
             print(f"[WebAppManager] Error saving shortcuts.vdf: {e}", file=sys.stderr)
 
+        # Set Native Resolution in localconfig.vdf for Game Mode
+        localconfig_file = os.path.join(config_dir, "localconfig.vdf")
+        if os.path.isfile(localconfig_file):
+            try:
+                with open(localconfig_file, "r", encoding="utf-8", errors="ignore") as f:
+                    lc_content = f.read()
+                shortcuts_marker = '"shortcuts"'
+                sc_pos = lc_content.find(shortcuts_marker)
+                if sc_pos != -1:
+                    open_brace = lc_content.find('{', sc_pos)
+                    if open_brace != -1 and str(crc) not in lc_content[open_brace:open_brace+500]:
+                        override_snippet = f'\n\t\t\t\t\t"{crc}"\n\t\t\t\t\t{{\n\t\t\t\t\t\t"ResolutionOverride"\t\t"Native"\n\t\t\t\t\t\t"ResolutionOverrideInternalDisplay"\t\t"1"\n\t\t\t\t\t}}'
+                        lc_content = lc_content[:open_brace+1] + override_snippet + lc_content[open_brace+1:]
+                        with open(localconfig_file, "w", encoding="utf-8") as f:
+                            f.write(lc_content)
+            except Exception as e:
+                print(f"[WebAppManager] Note: localconfig.vdf update: {e}", file=sys.stderr)
+
     return added_any
+
+def remove_from_steam(app_id: str) -> bool:
+    userdata_root = os.path.join(HOME, ".steam", "steam", "userdata")
+    if not os.path.isdir(userdata_root):
+        alt_root = os.path.join(HOME, ".local", "share", "Steam", "userdata")
+        if os.path.isdir(alt_root):
+            userdata_root = alt_root
+        else:
+            return False
+
+    user_dirs = [d for d in os.listdir(userdata_root) if os.path.isdir(os.path.join(userdata_root, d)) and d != "0"]
+    if not user_dirs:
+        return False
+
+    removed_any = False
+    for u in user_dirs:
+        config_dir = os.path.join(userdata_root, u, "config")
+        shortcuts_file = os.path.join(config_dir, "shortcuts.vdf")
+        if not os.path.isfile(shortcuts_file):
+            continue
+
+        try:
+            with open(shortcuts_file, "rb") as f:
+                root_name, sc = decode_vdf(f.read())
+        except Exception:
+            continue
+
+        keys_to_remove = []
+        for k, entry in sc.items():
+            launch_opts = str(entry.get("LaunchOptions", ""))
+            exe = str(entry.get("Exe", ""))
+            if f'"{app_id}"' in launch_opts or app_id == launch_opts.strip('"') or f"deckywolf-webapp-{app_id}" in exe:
+                keys_to_remove.append(k)
+
+        if keys_to_remove:
+            for k in keys_to_remove:
+                del sc[k]
+            new_sc = {}
+            idx = 0
+            for old_k in sorted(sc.keys(), key=lambda x: int(x) if str(x).isdigit() else str(x)):
+                new_sc[str(idx)] = sc[old_k]
+                idx += 1
+            try:
+                encoded = encode_vdf(root_name, new_sc)
+                with open(shortcuts_file, "wb") as f:
+                    f.write(encoded)
+                removed_any = True
+            except Exception as e:
+                print(f"[WebAppManager] Error updating shortcuts.vdf: {e}", file=sys.stderr)
+
+    return removed_any
+
+def list_webapps() -> list:
+    results = []
+    if not os.path.isdir(WEBAPPS_DIR):
+        return results
+    for entry in sorted(os.listdir(WEBAPPS_DIR)):
+        cfg_path = os.path.join(WEBAPPS_DIR, entry, "config.json")
+        if os.path.isfile(cfg_path):
+            try:
+                with open(cfg_path, "r", encoding="utf-8") as f:
+                    cfg = json.load(f)
+                icon_file = os.path.join(WEBAPPS_DIR, entry, "icon.png")
+                cfg["has_icon"] = os.path.isfile(icon_file)
+                if not cfg.get("id"):
+                    cfg["id"] = entry
+                results.append(cfg)
+            except Exception:
+                pass
+    return results
+
+def delete_webapp(app_id: str) -> dict:
+    app_id = sanitize_slug(app_id)
+    app_dir = os.path.join(WEBAPPS_DIR, app_id)
+    desktop_file = os.path.join(APPLICATIONS_DIR, f"deckywolf-webapp-{app_id}.desktop")
+    icon_128 = os.path.join(ICONS_DIR, "hicolor", "128x128", "apps", f"deckywolf-webapp-{app_id}.png")
+    icon_root = os.path.join(ICONS_DIR, f"deckywolf-webapp-{app_id}.png")
+
+    # 1. Remove from Steam
+    remove_from_steam(app_id)
+
+    # 2. Remove desktop file and registered icons
+    for path in (desktop_file, icon_128, icon_root):
+        if os.path.exists(path):
+            try:
+                os.remove(path)
+            except Exception:
+                pass
+
+    # 3. Remove webapp directory
+    if os.path.isdir(app_dir):
+        try:
+            shutil.rmtree(app_dir)
+        except Exception:
+            pass
+
+    # 4. Refresh KDE sycoca
+    sycoca = shutil.which("kbuildsycoca6") or shutil.which("kbuildsycoca5")
+    if sycoca:
+        try:
+            subprocess.run([sycoca, "--noincremental"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except Exception:
+            pass
+
+    return {"ok": True, "id": app_id, "message": "Веб-приложение успешно удалено"}
 
 # ----------------------------------------------------------------------
 # Native Messaging Protocol Stdio Loop

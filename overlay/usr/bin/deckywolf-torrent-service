@@ -651,6 +651,23 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
             })
             return
 
+        if url == "/api/webapps/list":
+            try:
+                import importlib.machinery
+                import importlib.util
+                mgr_path = os.path.join(SCRIPT_DIR, "deckywolf-webapp-manager")
+                if not os.path.isfile(mgr_path):
+                    mgr_path = os.path.expanduser("~/.local/bin/deckywolf-webapp-manager")
+                loader = importlib.machinery.SourceFileLoader("deckywolf_webapp_manager", mgr_path)
+                spec = importlib.util.spec_from_loader("deckywolf_webapp_manager", loader)
+                mgr = importlib.util.module_from_spec(spec)
+                loader.exec_module(mgr)
+                res = mgr.list_webapps()
+                self.send_json(res)
+            except Exception as e:
+                self.send_json([], 200)
+            return
+
         if url == "/plugins/TorrentWolf.zip":
             zip_path = ensure_torrentwolf_zip()
             if zip_path and os.path.isfile(zip_path):
@@ -670,9 +687,18 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
         # Serve static UI files
         base_dir = os.path.join(SCRIPT_DIR, "..", "share", "deckywolf", "torrent")
         if not os.path.isdir(base_dir):
+            base_dir = os.path.expanduser("~/.local/share/deckywolf/torrent")
+        if not os.path.isdir(base_dir):
             base_dir = "/usr/share/deckywolf/torrent"
 
-        filepath = os.path.join(base_dir, "index.html" if url in ["", "/"] else url.lstrip("/"))
+        req_path = url
+        if req_path.startswith("/torrent"):
+            req_path = req_path[len("/torrent"):]
+        req_path = req_path.lstrip("/")
+        if not req_path:
+            req_path = "index.html"
+
+        filepath = os.path.join(base_dir, req_path)
         if os.path.isfile(filepath):
             content_type = "text/html; charset=utf-8"
             if filepath.endswith(".css"):
@@ -729,6 +755,44 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
                     add_steam=req_data.get("add_steam", True)
                 )
                 self.send_json(res)
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        if url == "/api/webapps/delete":
+            try:
+                import importlib.machinery
+                import importlib.util
+                mgr_path = os.path.join(SCRIPT_DIR, "deckywolf-webapp-manager")
+                if not os.path.isfile(mgr_path):
+                    mgr_path = os.path.expanduser("~/.local/bin/deckywolf-webapp-manager")
+                loader = importlib.machinery.SourceFileLoader("deckywolf_webapp_manager", mgr_path)
+                spec = importlib.util.spec_from_loader("deckywolf_webapp_manager", loader)
+                mgr = importlib.util.module_from_spec(spec)
+                loader.exec_module(mgr)
+
+                app_id = req_data.get("app_id")
+                if not app_id:
+                    self.send_json({"ok": False, "error": "missing_app_id"}, 400)
+                    return
+                res = mgr.delete_webapp(app_id)
+                self.send_json(res)
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
+        if url == "/api/webapps/launch":
+            try:
+                app_id = req_data.get("app_id")
+                if not app_id:
+                    self.send_json({"ok": False, "error": "missing_app_id"}, 400)
+                    return
+                launcher = os.path.expanduser("~/.local/bin/deckywolf-webapp-launch")
+                if os.path.isfile(launcher):
+                    subprocess.Popen([launcher, app_id])
+                    self.send_json({"ok": True})
+                else:
+                    self.send_json({"ok": False, "error": "Launcher not found"}, 404)
             except Exception as e:
                 self.send_json({"ok": False, "error": str(e)}, 500)
             return
@@ -935,11 +999,17 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
         self.end_headers()
 
 def main():
-    ensure_torrentwolf_zip()
-    # Ensure transmission daemon is active
+    ThreadingHTTPServer.allow_reuse_address = True
+    try:
+        server = ThreadingHTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
+    except OSError as e:
+        print(f"[DeckyWolf] Port {PORT} already in use or active: {e}", file=sys.stderr)
+        return
+
+    # Background heavy initialization so port 8404 is bound and listening immediately (<10ms)
+    threading.Thread(target=ensure_torrentwolf_zip, daemon=True).start()
     threading.Thread(target=_ensure_transmission_running, daemon=True).start()
 
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), TorrentServiceHandler)
     print(f"[DeckyWolf] Multithreaded Torrent & Decky service listening on http://127.0.0.1:{PORT}")
     try:
         server.serve_forever()

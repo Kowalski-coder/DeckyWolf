@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="context-fill" fill-opacity="context-fill-opacity">
+  <!-- Right arc (Steam Deck / DeckyWolf silhouette) -->
+  <path d="M 7.8 1.6 A 6.4 6.4 0 0 1 14.2 8 A 6.4 6.4 0 0 1 7.8 14.4 L 7.8 11.8 A 3.8 3.8 0 0 0 11.6 8 A 3.8 3.8 0 0 0 7.8 4.2 Z" />
+  <!-- Plus centered in the opening -->
+  <path d="M 5.1 5.3 h 1.8 v 1.8 h 1.8 v 1.8 h -1.8 v 1.8 h -1.8 v -1.8 h -1.8 v -1.8 h 1.8 Z" />
+</svg>

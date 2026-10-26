@@ -12,7 +12,10 @@ export MOZ_APP_DISPLAYNAME="DeckyWolf"
 # Steam Deck Game Mode & Wayland Sharpness Fix:
 # Enable native Wayland rendering when running under Wayland or Gamescope session.
 # This eliminates blurriness/soapy scaling caused by XWayland in Game Mode.
-if [ -n "$WAYLAND_DISPLAY" ] || [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ]; then
+    export WAYLAND_DISPLAY="$GAMESCOPE_WAYLAND_DISPLAY"
+fi
+if [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
 fi
 
@@ -38,11 +41,20 @@ if [ -f "${CURRENTDIR}/deckywolf.png" ]; then
     cp -f "${CURRENTDIR}/deckywolf.png" "${HOME}/.local/share/icons/deckywolf.png"
 fi
 
-# Install DeckyWolf WebApp Manager and Native Messaging host
+if [ -d "${CURRENTDIR}/usr/share/deckywolf" ]; then
+    mkdir -p "${HOME}/.local/share/deckywolf"
+    cp -rn "${CURRENTDIR}/usr/share/deckywolf"/* "${HOME}/.local/share/deckywolf/" 2>/dev/null || true
+fi
+
+# Install DeckyWolf WebApp Manager and Torrent Service
 mkdir -p "${HOME}/.local/bin"
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-webapp-manager" ]; then
     cp -f "${CURRENTDIR}/usr/bin/deckywolf-webapp-manager" "${HOME}/.local/bin/deckywolf-webapp-manager"
     chmod +x "${HOME}/.local/bin/deckywolf-webapp-manager"
+fi
+if [ -x "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" ]; then
+    cp -f "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" "${HOME}/.local/bin/deckywolf-torrent-service"
+    chmod +x "${HOME}/.local/bin/deckywolf-torrent-service"
 fi
 
 # Register Native Messaging host manifest for LibreWolf & Firefox
@@ -61,24 +73,49 @@ for p in "${HOME}/.config/librewolf/librewolf"/*/; do
     fi
 done
 
+# Register DeckyWolf systemd user service for TorrentWolf & WebApp Bridge
+if command -v systemctl >/dev/null 2>&1; then
+    mkdir -p "${HOME}/.config/systemd/user"
+    cat << 'EOF' > "${HOME}/.config/systemd/user/deckywolf-torrent.service"
+[Unit]
+Description=DeckyWolf Torrent & WebApp Bridge Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/deckywolf-torrent-service
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+EOF
+    systemctl --user daemon-reload 2>/dev/null || true
+    systemctl --user enable --now deckywolf-torrent.service 2>/dev/null || true
+fi
+
 # Start background controller daemon
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
     "${CURRENTDIR}/usr/bin/deckywolf-controller" &
     CONTROLLER_PID=$!
 fi
 
-# Start background TorrentWolf service on port 8404
-if [ -x "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" ]; then
-    "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" &
-    TORRENT_PID=$!
+# Start background TorrentWolf service on port 8404 if not already running
+if ! python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null; then
+    if [ -x "${HOME}/.local/bin/deckywolf-torrent-service" ]; then
+        "${HOME}/.local/bin/deckywolf-torrent-service" &
+    elif [ -x "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" ]; then
+        "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" &
+    fi
+    for _ in $(seq 1 40); do
+        python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null && break
+        sleep 0.05
+    done
 fi
 
 cleanup() {
     if [ -n "${CONTROLLER_PID}" ]; then
         kill "${CONTROLLER_PID}" 2>/dev/null
-    fi
-    if [ -n "${TORRENT_PID}" ]; then
-        kill "${TORRENT_PID}" 2>/dev/null
     fi
 }
 trap cleanup EXIT INT TERM
@@ -93,7 +130,15 @@ if [ -f "${CURRENTDIR}/usr/lib/deckywolf-hook.so" ]; then
     fi
 fi
 
-"${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf --allow-downgrade "$@"
+# Detect display or gamescope resolution dynamically (universal for Steam Deck 800p, Ally 1080p, TV 4K)
+EXTRA_ARGS=()
+RES_W="${GAMESCOPE_WIDTH:-${STEAM_GAME_WIDTH}}"
+RES_H="${GAMESCOPE_HEIGHT:-${STEAM_GAME_HEIGHT}}"
+if [ -n "$RES_W" ] && [ -n "$RES_H" ]; then
+    EXTRA_ARGS=(-width "$RES_W" -height "$RES_H")
+fi
+
+"${CURRENTDIR}/usr/bin/deckywolf" --name deckywolf --class deckywolf --allow-downgrade "${EXTRA_ARGS[@]}" "$@"
 EXIT_CODE=$?
 
 cleanup 2>/dev/null
