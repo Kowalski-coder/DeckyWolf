@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Создать веб-приложение</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-logo">
+        <img src="../icons/icon-32.png" alt="DeckyWolf Logo" class="brand-icon">
+      </div>
+      <div class="header-title">
+        <h1>Веб-приложение</h1>
+        <span class="subtitle">Интеграция DeckyWolf</span>
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <div id="form-section" class="section">
+      <div class="icon-preview-row">
+        <div class="icon-container" id="icon-container" title="Нажмите, чтобы загрузить свою иконку">
+          <img id="icon-preview" src="../icons/icon-64.png" alt="Site Icon">
+          <div class="icon-overlay">
+            <span>Изменить</span>
+          </div>
+          <input type="file" id="file-input" accept="image/*" style="display:none">
+        </div>
+        <div class="icon-info">
+          <label class="field-label" for="app-name">Название</label>
+          <input type="text" id="app-name" placeholder="Название сайта" autofocus>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="field-label" for="app-url">URL-адрес сайта</label>
+        <input type="url" id="app-url" placeholder="https://...">
+      </div>
+
+      <div class="options-group">
+        <label class="checkbox-row">
+          <input type="checkbox" id="check-kde" checked>
+          <span class="checkbox-custom"></span>
+          <span class="checkbox-label">
+            <strong>Меню приложений KDE</strong>
+            <small>Категория «Веб-приложения»</small>
+          </span>
+        </label>
+
+        <label class="checkbox-row">
+          <input type="checkbox" id="check-steam" checked>
+          <span class="checkbox-custom"></span>
+          <span class="checkbox-label">
+            <strong>Библиотека Steam</strong>
+            <small>Игровой режим (Non-Steam)</small>
+          </span>
+        </label>
+      </div>
+
+      <div class="info-note">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 2.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM6.5 7h2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1 0-1h.5v-3h-.5a.5.5 0 0 1 0-1z"/>
+        </svg>
+        <span>Открывается без адресной строки и вкладок в нативном разрешении 1280x800.</span>
+      </div>
+
+      <button id="btn-create" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 2a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2H9v4a1 1 0 1 1-2 0V9H3a1 1 0 0 1 0-2h4V3a1 1 0 0 1 1-1z"/>
+        </svg>
+        <span>Создать веб-приложение</span>
+      </button>
+
+      <div id="error-box" class="error-box" style="display:none"></div>
+    </div>
+
+    <!-- Success Section -->
+    <div id="success-section" class="section success-view" style="display:none">
+      <div class="success-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+      </div>
+      <h2 id="success-title">Готово!</h2>
+      <p id="success-desc">Веб-приложение успешно добавлено в меню KDE и Steam.</p>
+
+      <div class="success-actions">
+        <button id="btn-launch-now" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M4 2.5a.5.5 0 0 1 .77-.42l9 5.5a.5.5 0 0 1 0 .84l-9 5.5A.5.5 0 0 1 4 13.5v-11z"/>
+          </svg>
+          <span>Запустить сейчас</span>
+        </button>
+        <button id="btn-done" class="btn-secondary">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

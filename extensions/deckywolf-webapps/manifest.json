@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "DeckyWolf WebApps",
+  "version": "1.0.0",
+  "description": "Создание веб-приложений для DeckyWolf с интеграцией в меню KDE («Веб-приложения») и раздел сторонних игр Steam.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_title": "Создать веб-приложение (DeckyWolf)",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "nativeMessaging",
+    "http://127.0.0.1:8404/*",
+    "<all_urls>"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "webapps@deckywolf.net",
+      "strict_min_version": "100.0"
+    }
+  }
+}

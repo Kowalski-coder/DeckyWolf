@@ -709,6 +709,28 @@ class TorrentServiceHandler(BaseHTTPRequestHandler):
         except Exception:
             req_data = {}
 
+        if url == "/api/webapps/create":
+            try:
+                import importlib.util
+                mgr_path = os.path.join(SCRIPT_DIR, "deckywolf-webapp-manager")
+                if not os.path.isfile(mgr_path):
+                    mgr_path = os.path.expanduser("~/.local/bin/deckywolf-webapp-manager")
+                spec = importlib.util.spec_from_file_location("deckywolf_webapp_manager", mgr_path)
+                mgr = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(mgr)
+
+                res = mgr.create_webapp(
+                    name=req_data.get("name"),
+                    url=req_data.get("url"),
+                    icon_b64=req_data.get("icon_b64"),
+                    add_kde=req_data.get("add_kde", True),
+                    add_steam=req_data.get("add_steam", True)
+                )
+                self.send_json(res)
+            except Exception as e:
+                self.send_json({"ok": False, "error": str(e)}, 500)
+            return
+
         if url == "/api/transmission-rpc":
             res = transmission_rpc_request(body)
             self.send_json(res)

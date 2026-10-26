@@ -97,6 +97,10 @@ if [ -f "$OVERLAY_DIR/usr/bin/deckywolf-torrent-service" ]; then
     cp -f "$OVERLAY_DIR/usr/bin/deckywolf-torrent-service" "$SQUASHFS_TARGET/usr/bin/"
     chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf-torrent-service"
 fi
+if [ -f "$OVERLAY_DIR/usr/bin/deckywolf-webapp-manager" ]; then
+    cp -f "$OVERLAY_DIR/usr/bin/deckywolf-webapp-manager" "$SQUASHFS_TARGET/usr/bin/"
+    chmod +x "$SQUASHFS_TARGET/usr/bin/deckywolf-webapp-manager"
+fi
 cp -f "$OVERLAY_DIR/usr/bin/librewolf.cfg" "$SQUASHFS_TARGET/usr/bin/"
 cp -a "$OVERLAY_DIR/usr/bin/distribution"/* "$SQUASHFS_TARGET/usr/bin/distribution/"
 if [ -d "$OVERLAY_DIR/usr/bin/browser" ]; then

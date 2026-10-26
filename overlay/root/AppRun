@@ -9,6 +9,13 @@ export MOZ_APP_NAME="deckywolf"
 export MOZ_APP_REMOTINGNAME="deckywolf"
 export MOZ_APP_DISPLAYNAME="DeckyWolf"
 
+# Steam Deck Game Mode & Wayland Sharpness Fix:
+# Enable native Wayland rendering when running under Wayland or Gamescope session.
+# This eliminates blurriness/soapy scaling caused by XWayland in Game Mode.
+if [ -n "$WAYLAND_DISPLAY" ] || [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+    export MOZ_ENABLE_WAYLAND=1
+fi
+
 # Register DeckyWolf desktop entry and icons for window manager / taskbar icon resolution
 if [ -f "${CURRENTDIR}/net.deckywolf.DeckyWolf.desktop" ]; then
     mkdir -p "${HOME}/.local/share/applications"
@@ -30,6 +37,20 @@ if [ -f "${CURRENTDIR}/deckywolf.png" ]; then
     mkdir -p "${HOME}/.local/share/icons"
     cp -f "${CURRENTDIR}/deckywolf.png" "${HOME}/.local/share/icons/deckywolf.png"
 fi
+
+# Install DeckyWolf WebApp Manager and Native Messaging host
+mkdir -p "${HOME}/.local/bin"
+if [ -x "${CURRENTDIR}/usr/bin/deckywolf-webapp-manager" ]; then
+    cp -f "${CURRENTDIR}/usr/bin/deckywolf-webapp-manager" "${HOME}/.local/bin/deckywolf-webapp-manager"
+    chmod +x "${HOME}/.local/bin/deckywolf-webapp-manager"
+fi
+
+# Register Native Messaging host manifest for LibreWolf & Firefox
+NATIVE_HOSTS_JSON="{\"name\":\"deckywolf_webapps\",\"description\":\"DeckyWolf WebApp Manager Host\",\"path\":\"${HOME}/.local/bin/deckywolf-webapp-manager\",\"type\":\"stdio\",\"allowed_extensions\":[\"webapps@deckywolf.net\"]}"
+for hdir in "${HOME}/.librewolf/native-messaging-hosts" "${HOME}/.mozilla/native-messaging-hosts"; do
+    mkdir -p "$hdir"
+    echo "$NATIVE_HOSTS_JSON" > "$hdir/deckywolf_webapps.json" 2>/dev/null || true
+done
 
 # Start background controller daemon
 if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
