@@ -32,6 +32,8 @@
 **DeckyWolf** yra optimizuota naršyklės **LibreWolf** versija, sukurta specialiai **Steam Deck** konsolei.
 
 ### Pagrindinės funkcijos
+- 🌐 **Integruota žiniatinklio programų (WebApps) tvarkyklė**: Vienu spustelėjimu paverskite bet kurią svetainę atskira programa su automatine integracija į „Steam“ ir sistemos meniu.
+- 🎮 **Visapusiškas „Steam Game Mode“ palaikymas (be suliejimo)**: Sklandus veikimas „Gamescope“ be baltų rėmelių, automatinis raiškos nustatymas (1280×800 „Deck“, 1080p/4K monitoriuose) ir sklandus jutiklinio kilimėlio valdymas.
 - 🎮 **Pilnas Steam Deck valdiklio ir kitų pultų palaikymas**: Valdymas vairasvirtėmis, D-pad, veiksmo mygtukais, gaidukais ir galiniais mygtukais (L4, L5, R4, R5), su mygtukų stiliaus pasirinkimu (**Xbox**, **Sony / PlayStation**, **Nintendo**).
 - 🔄 **Sukamasis jutiklinio kilimėlio slinkimas su haptika**: Kairysis jutiklinis kilimėlis veikia kaip slinkties ratukas su tikroviškais vibracijos spragtelėjimais ir vidurinio mygtuko paspaudimu.
 - 🧩 **Papildinių valdymas per deckyloader.ru**: Versijos pasirinkimas, diegimas, atnaujinimas ir šalinimas tiesiogiai per [deckyloader.ru](https://deckyloader.ru) svetainę su momentine sinchronizacija su Decky Loader.

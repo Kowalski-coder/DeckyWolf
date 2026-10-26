@@ -32,6 +32,8 @@
 **DeckyWolf** to zoptymalizowany fork przeglądarki **LibreWolf**, stworzony specjalnie dla konsoli **Steam Deck** i innych urządzeń przenośnych z systemem Linux. Przeglądarka łączy pełną obsługę kontrolera, przewijanie kołowe na trackpadzie z haptyką, podpowiedzi przycisków w interfejsie oraz dedykowany panel ustawień.
 
 ### Główne funkcje
+- 🌐 **Wbudowany menedżer aplikacji internetowych (WebApps)**: Przekształcaj dowolne strony w samodzielne aplikacje jednym kliknięciem z paska narzędzi, z automatyczną integracją ze Steam i menu systemowym.
+- 🎮 **Pełna obsługa trybu gier Steam (Game Mode bez rozmycia)**: Idealne działanie w Gamescope bez białych ramek, z automatycznym wykrywaniem rozdzielczości (1280×800 na Decku, 1080p/4K na monitorach) i płynnym sterowaniem gładzikiem.
 - 🎮 **Pełne wsparcie dla kontrolera Steam Deck oraz innych gamepadów**: Nawigacja gałkami, D-padem, przyciskami akcji, spustami i tylnymi łopatkami (L4, L5, R4, R5), z wyborem stylu podpowiedzi ekranowych (**Xbox**, **Sony / PlayStation**, **Nintendo**).
 - 🔄 **Rotacyjne przewijanie lewym trackpadem z haptyką**: Lewy trackpad działa jak kółko przewijania z realistycznymi kliknięciami haptycznymi i kliknięciem środkowym przyciskiem myszy.
 - 🧩 **Zarządzanie wtyczkami przez deckyloader.ru**: Wybór wersji wtyczki, instalacja, aktualizacja i usuwanie wtyczek bezpośrednio przez stronę [deckyloader.ru](https://deckyloader.ru) z natychmiastową synchronizacją z Decky Loader bez restartu Steam.

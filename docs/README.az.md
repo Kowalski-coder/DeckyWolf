@@ -32,6 +32,8 @@
 **DeckyWolf** — Valve **Steam Deck** və Linux portativ cihazları üçün xüsusi olaraq optimallaşdırılmış **LibreWolf** brauzeridir.
 
 ### Əsas imkanlar
+- 🌐 **Daxili veb-tətbiqlər meneceri**: İstənilən veb-saytı alətlər panelindən bir kliklə müstəqil veb-tətbiqə çevirin. Steam və sistem menyusu ilə avtomatik integruasiya.
+- 🎮 **Steam oyun rejiminə tam dəstək (bulanıqlıq olmadan Game Mode)**: Gamescope-da ağ çərçivələr olmadan, avtomatik qətnamə (Deck-də 1280×800, monitorlarda 1080p/4K) və hamar trekpad idarəetməsi ilə mükəmməl işləyir.
 - 🎮 **Steam Deck kontrolleri və digər geympadların tam dəstəyi**: Stiklər, D-pad, hərəkət düymələri, tətiklər və arxa düymələr (L4, L5, R4, R5), ekrandakı ipucu üslubunu seçmək imkanı (**Xbox**, **Sony / PlayStation**, **Nintendo**).
 - 🔄 **Sol trekpad ilə fırlanma sürüşdürməsi və haptik rəy**: Trekpad fırlanma zamanı toxunma hissi və orta siçan düyməsi funksiyası ilə səhifələri rahat fırladır.
 - 🧩 **deckyloader.ru saytı vasitəsilə plaqinlərin idarə edilməsi**: Plaqin versiyasının seçilməsi, quraşdırılması, yenilənməsi və birbaşa [deckyloader.ru](https://deckyloader.ru) saytının interfeysindən silinməsi, Steam-i yenidən başlatmadan Decky Loader ilə anında sinxronlaşma.

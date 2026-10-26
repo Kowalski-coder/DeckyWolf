@@ -32,6 +32,8 @@
 **DeckyWolf** on **LibreWolfi** brauseri optimeeritud versioon, mis on loodud spetsiaalselt **Steam Deck** käsikonsoolile.
 
 ### Põhifunktsioonid
+- 🌐 **Sisseehitatud veebirakenduste haldur (WebApps)**: Muutke mis tahes veebisait eraldiseisvaks veebirakenduseks ühe klõpsuga tegumiribalt koos automaatse Steami ja süsteemimenüü integratsiooniga.
+- 🎮 **Täielik Steam Game Mode tugi (ilma udususe ja raamideta)**: Sujuv kogemus Gamescope'is ilma valgete raamideta, automaatse eraldusvõime tuvastamisega (1280×800 Deckil, 1080p/4K monitoridel).
 - 🎮 **Täielik Steam Decki kontrolleri ja teiste mängupultide tugi**: Juhtimine kangide, D-padi, toimingunuppude, päästikute ja tagumiste labadega (L4, L5, R4, R5), ekraanivihjete stiilivalikuga (**Xbox**, **Sony / PlayStation**, **Nintendo**).
 - 🔄 **Pöörlev puuteplaadi kerimine haptilise tagasisidega**: Vasak puuteplaat töötab kerimisrattana realistlike vibratsiooniklõpsudega ja hiire keskmise nupuna.
 - 🧩 **Pistikprogrammide haldamine deckyloader.ru kaudu**: Versiooni valik, paigaldamine, uuendamine ja eemaldamine otse [deckyloader.ru](https://deckyloader.ru) liidesest reaalajas Decky Loaderi sünkroonimisega.
