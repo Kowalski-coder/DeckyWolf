@@ -14,6 +14,21 @@ import re
 import urllib.request
 import shutil
 import subprocess
+import glob
+
+# Ensure stdlib paths for SteamOS 3.5/3.6+ / Python 3.11-3.14 compatibility
+def _ensure_stdlib_paths():
+    patterns = [
+        "/usr/lib/python3*/",
+        "/usr/lib64/python3*/",
+        "/usr/lib/python3*/*-packages/",
+    ]
+    for pattern in patterns:
+        for path in sorted(glob.glob(pattern), reverse=True):
+            if path not in sys.path:
+                sys.path.append(path)
+
+_ensure_stdlib_paths()
 
 HOME = os.path.expanduser("~")
 APPLICATIONS_DIR = os.path.join(HOME, ".local", "share", "applications")

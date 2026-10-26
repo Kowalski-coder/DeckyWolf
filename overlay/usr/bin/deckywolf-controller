@@ -17,6 +17,20 @@ import base64
 import json
 import fcntl
 
+# Ensure stdlib paths for SteamOS 3.5/3.6+ / Python 3.11-3.14 compatibility
+def _ensure_stdlib_paths():
+    patterns = [
+        "/usr/lib/python3*/",
+        "/usr/lib64/python3*/",
+        "/usr/lib/python3*/*-packages/",
+    ]
+    for pattern in patterns:
+        for path in sorted(glob.glob(pattern), reverse=True):
+            if path not in sys.path:
+                sys.path.append(path)
+
+_ensure_stdlib_paths()
+
 try:
     import evdev
     from evdev import UInput, ecodes as e
