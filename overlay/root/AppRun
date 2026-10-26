@@ -47,7 +47,7 @@ fi
 
 # Register Native Messaging host manifest for LibreWolf & Firefox
 NATIVE_HOSTS_JSON="{\"name\":\"deckywolf_webapps\",\"description\":\"DeckyWolf WebApp Manager Host\",\"path\":\"${HOME}/.local/bin/deckywolf-webapp-manager\",\"type\":\"stdio\",\"allowed_extensions\":[\"webapps@deckywolf.net\"]}"
-for hdir in "${HOME}/.librewolf/native-messaging-hosts" "${HOME}/.mozilla/native-messaging-hosts"; do
+for hdir in "${HOME}/.librewolf/native-messaging-hosts" "${HOME}/.mozilla/native-messaging-hosts" "${HOME}/.deckywolf/native-messaging-hosts"; do
     mkdir -p "$hdir"
     echo "$NATIVE_HOSTS_JSON" > "$hdir/deckywolf_webapps.json" 2>/dev/null || true
 done
