@@ -1,3 +1,15 @@
+## DeckyWolf v158.0.1-2.05
+
+A targeted input reliability fix for SteamOS Game Mode that resolves double/duplicate character input when typing with physical keyboards or the Steam on-screen virtual keyboard (OSK).
+
+### Highlights
+
+- ⌨️ **Fix Double/Duplicate Typing in SteamOS Gamescope**:
+  - Enforced `GTK_IM_MODULE=simple`, `QT_IM_MODULE=simple`, and `XMODIFIERS="@im=none"` under Gamescope.
+  - Eliminates conflicting Input Method daemon (`ibus`) replay events that previously caused every key press on physical and on-screen keyboards to register twice (`a` -> `aa`) on official SteamOS installations.
+- 🔒 **Compatibility**:
+  - Fully compatible with both SteamOS 3.5/3.6+ and generic Linux distributions (CachyOS, Bazzite, Fedora, Arch).
+
 ## DeckyWolf v158.0.1-2.04
 
 A critical reliability update addressing clean installation issues in SteamOS Game Mode when installed via one-click store launchers (such as Decky Loader Россия).

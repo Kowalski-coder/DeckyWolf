@@ -21,6 +21,9 @@ if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope"
     export GTK_CSD=0
     export GTK_OVERLAY_SCROLLING=0
     export GTK_MODULES=""
+    export GTK_IM_MODULE=simple
+    export QT_IM_MODULE=simple
+    export XMODIFIERS="@im=none"
     export GDK_DPI_SCALE=1.0
     export GDK_SCALE=1
 elif [ -n "$WAYLAND_DISPLAY" ] || [ "$XDG_SESSION_TYPE" = "wayland" ]; then
