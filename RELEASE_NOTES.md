@@ -1,3 +1,16 @@
+## DeckyWolf v158.0.1-2.04
+
+A critical reliability update addressing clean installation issues in SteamOS Game Mode when installed via one-click store launchers (such as Decky Loader Россия).
+
+### Highlights
+
+- ⚡ **First-Run Fix in Steam Game Mode**:
+  - **Eliminated Gecko Profile Migrator Modal Dialog**: Disabled `EnableProfileMigrator` in `application.ini` and enforced `"DisableProfileImport": true` in `policies.json`. Gecko will no longer attempt to spawn invisible modal dialogs to import data from Google Chrome/Edge, preventing Gamescope from freezing or aborting on clean installations.
+  - **Zero Startup Stall**: Removed the blocking socket-polling loop from `AppRun` for the TorrentWolf background service. TorrentWolf now spins up fully asynchronously in the background, allowing the browser window to open instantly without triggering Steam's launch watchdog timeout.
+  - **Automated Profile Pre-Initialization**: In Game Mode, `AppRun` pre-creates the default profile folder and pre-seeds `xulstore.json` with the exact display resolution (1280×800 on Deck, or external display dimensions) and marks first-run migrations complete. The browser opens on the very first launch in Game Mode without requiring an intermediate run on the KDE Desktop.
+- 🔒 **SteamOS & Library Compatibility Preserved**:
+  - All existing features (WebApps, TorrentWolf, controller integration, pixel-perfect scaling, trackpad VSync synchronization, and multilingual branding) remain 100% intact.
+
 ## DeckyWolf v158.0.1-2.03
 
 A massive stability, SteamOS integration, and feature release introducing a native **WebApps Manager** directly built into the browser UI, comprehensive Steam Game Mode fixes (crystal-clear pixel-perfect rendering, zero blur, elimination of white window borders), full VSync input synchronization for trackpads, TorrentWolf service resilience, and complete Steam UI artwork assets.

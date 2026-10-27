@@ -32,6 +32,7 @@
         "DisableRemoteImprovements": true,
         "DisableSetDesktopBackground": false,
         "DisableTelemetry": true,
+        "DisableProfileImport": true,
         "DontCheckDefaultBrowser": true,
         "WebsiteFilter": {
             "Block": [
@@ -85,6 +86,7 @@
             "EnablePrompting": true
         },
         "NoDefaultBookmarks": true,
+        "OverrideFirstRunPage": "",
         "OverridePostUpdatePage": "",
         "SkipTermsOfUse": true,
         "SupportMenu": {

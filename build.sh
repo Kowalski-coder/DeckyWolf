@@ -11,7 +11,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
-VERSION="158.0.1-2.03"
+VERSION="158.0.1-2.04"
 OUT_APPIMAGE="${OUT_APPIMAGE:-$(dirname "$SCRIPT_DIR")/deckywolf.AppImage}"
 
 cleanup() {

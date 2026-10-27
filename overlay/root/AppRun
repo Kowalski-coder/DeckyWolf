@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 CURRENTDIR="$(dirname "$(readlink -f "$0")")"
 export PATH="${CURRENTDIR}/usr/bin:${PATH}"
 export LD_LIBRARY_PATH="${CURRENTDIR}/usr/bin:${CURRENTDIR}/usr/lib:${LD_LIBRARY_PATH}"
@@ -115,17 +115,13 @@ if [ -x "${CURRENTDIR}/usr/bin/deckywolf-controller" ]; then
     CONTROLLER_PID=$!
 fi
 
-# Start background TorrentWolf service on port 8404 if not already running
+# Start background TorrentWolf service on port 8404 asynchronously if not already running
 if ! python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null; then
     if [ -x "${HOME}/.local/bin/deckywolf-torrent-service" ]; then
         "${HOME}/.local/bin/deckywolf-torrent-service" &
     elif [ -x "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" ]; then
         "${CURRENTDIR}/usr/bin/deckywolf-torrent-service" &
     fi
-    for _ in $(seq 1 40); do
-        python3 -c "import socket; s = socket.socket(); s.connect(('127.0.0.1', 8404)); s.close()" 2>/dev/null && break
-        sleep 0.05
-    done
 fi
 
 cleanup() {
@@ -158,25 +154,53 @@ if [ -n "$GAMESCOPE_WAYLAND_DISPLAY" ] || [ "$XDG_CURRENT_DESKTOP" = "gamescope"
     fi
     EXTRA_ARGS=(-width "$RES_W" -height "$RES_H")
 
-    # In Game Mode, ensure saved window size perfectly matches display canvas
+    # In Game Mode, ensure saved window size perfectly matches display canvas and profile is pre-initialized
     python3 -c "
 import glob, json, os
-for p in glob.glob(os.path.expanduser('~/.config/librewolf/librewolf/*')):
+prof_dir = os.path.expanduser('~/.config/librewolf/librewolf')
+profiles = [p for p in glob.glob(os.path.join(prof_dir, '*')) if os.path.isdir(p)]
+if not profiles:
+    # First-run: pre-create default profile so Gecko never hangs or triggers first-run wizard in Game Mode
+    def_p = os.path.join(prof_dir, 'default.default-release')
+    os.makedirs(def_p, exist_ok=True)
+    ini_path = os.path.join(prof_dir, 'profiles.ini')
+    if not os.path.isfile(ini_path):
+        try:
+            with open(ini_path, 'w') as f:
+                f.write('[Profile0]\nName=default\nIsRelative=1\nPath=default.default-release\nDefault=1\n\n[General]\nStartWithLastProfile=1\nVersion=2\n')
+        except Exception:
+            pass
+    profiles = [def_p]
+
+for p in profiles:
+    if not os.path.isdir(p):
+        continue
+    pjs = os.path.join(p, 'prefs.js')
+    if not os.path.isfile(pjs):
+        try:
+            with open(pjs, 'w') as f:
+                f.write('user_pref(\"browser.migration.version\", 999);\nuser_pref(\"xpinstall.signatures.required\", false);\n')
+        except Exception:
+            pass
     xs = os.path.join(p, 'xulstore.json')
+    d = {}
     if os.path.isfile(xs):
         try:
             with open(xs, 'r') as f:
                 d = json.load(f)
-            mw = d.setdefault('chrome://browser/content/browser.xhtml', {}).setdefault('main-window', {})
-            mw['sizemode'] = 'normal'
-            mw['width'] = '${RES_W}'
-            mw['height'] = '${RES_H}'
-            mw['screenX'] = '0'
-            mw['screenY'] = '0'
-            with open(xs, 'w') as f:
-                json.dump(d, f)
         except Exception:
-            pass
+            d = {}
+    mw = d.setdefault('chrome://browser/content/browser.xhtml', {}).setdefault('main-window', {})
+    mw['sizemode'] = 'normal'
+    mw['width'] = '${RES_W}'
+    mw['height'] = '${RES_H}'
+    mw['screenX'] = '0'
+    mw['screenY'] = '0'
+    try:
+        with open(xs, 'w') as f:
+            json.dump(d, f)
+    except Exception:
+        pass
 " 2>/dev/null || true
 elif [ -n "$STEAM_GAME_WIDTH" ] && [ -n "$STEAM_GAME_HEIGHT" ]; then
     EXTRA_ARGS=(-width "$STEAM_GAME_WIDTH" -height "$STEAM_GAME_HEIGHT")
