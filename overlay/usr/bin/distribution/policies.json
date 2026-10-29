@@ -64,6 +64,18 @@
             "vot-ext-store@firefox": {
                 "install_url": "https://addons.mozilla.org/firefox/downloads/latest/voice-over-translation/latest.xpi",
                 "installation_mode": "normal_installed"
+            },
+            "{74145f27-f039-47ce-a470-a662b129930a}": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{74145f27-f039-47ce-a470-a662b129930a}/latest.xpi",
+                "installation_mode": "normal_installed"
+            },
+            "idcac-pub@guus.ninja": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/idcac-pub@guus.ninja/latest.xpi",
+                "installation_mode": "normal_installed"
+            },
+            "addon@fastforward.team": {
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/addon@fastforward.team/latest.xpi",
+                "installation_mode": "normal_installed"
             }
         },
         "FirefoxHome": {
