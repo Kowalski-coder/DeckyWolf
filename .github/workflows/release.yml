@@ -40,12 +40,32 @@ jobs:
           chmod +x build.sh
           OUT_APPIMAGE="$PWD/deckywolf.appimage" ./build.sh /tmp/librewolf.AppImage
 
+      - name: Extract Current Release Notes
+        run: |
+          python3 -c "
+          with open('RELEASE_NOTES.md', 'r', encoding='utf-8') as f:
+              lines = f.readlines()
+          extracted = []
+          started = False
+          for line in lines:
+              if line.startswith('## '):
+                  if not started:
+                      started = True
+                      extracted.append(line)
+                  else:
+                      break
+              elif started:
+                  extracted.append(line)
+          with open('/tmp/current_release_notes.md', 'w', encoding='utf-8') as out:
+              out.write(''.join(extracted).strip() + '\n')
+          "
+
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
           name: "DeckyWolf ${{ github.ref_name }}"
-          body_path: RELEASE_NOTES.md
+          body_path: /tmp/current_release_notes.md
           draft: false
           prerelease: false
           files: |
