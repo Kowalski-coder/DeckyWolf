@@ -24,7 +24,7 @@ ChromeUtils.defineESModuleGetters(this, {
     "resource://gre/modules/ExtensionSettingsStore.sys.mjs",
   ExtensionUtils: "resource://gre/modules/ExtensionUtils.sys.mjs",
   PrivateBrowsingUtils: "resource://gre/modules/PrivateBrowsingUtils.sys.mjs",
-  Referrals: "resource:///modules/referrals/Referrals.sys.mjs",
+  Referrals: "moz-src:///browser/components/referrals/Referrals.sys.mjs",
   ShellService: "moz-src:///browser/components/shell/ShellService.sys.mjs",
   URILoadingHelper: "resource:///modules/URILoadingHelper.sys.mjs",
 });
@@ -489,7 +489,8 @@ async function openPreferences(paneID, extraArgs) {
         replaceQueryString: true,
         triggeringPrincipal:
           Services.scriptSecurityManager.getSystemPrincipal(),
-      }
+      },
+      0
     );
     if (newLoad) {
       newLoad = !win.switchToTabHavingURI(
@@ -500,7 +501,8 @@ async function openPreferences(paneID, extraArgs) {
           replaceQueryString: true,
           triggeringPrincipal:
             Services.scriptSecurityManager.getSystemPrincipal(),
-        }
+        },
+        0
       );
     }
     browser = win.gBrowser.selectedBrowser;

@@ -28,7 +28,8 @@ ChromeUtils.defineESModuleGetters(lazy, {
   DownloadPaths: "resource://gre/modules/DownloadPaths.sys.mjs",
   EveryWindow: "resource:///modules/EveryWindow.sys.mjs",
   ExperimentAPI: "resource://nimbus/ExperimentAPI.sys.mjs",
-  MigrationUtils: "resource:///modules/MigrationUtils.sys.mjs",
+  MigrationUtils:
+    "moz-src:///browser/components/migration/MigrationUtils.sys.mjs",
   PrivateBrowsingUtils: "resource://gre/modules/PrivateBrowsingUtils.sys.mjs",
   setTimeout: "resource://gre/modules/Timer.sys.mjs",
   TelemetryUtils: "resource://gre/modules/TelemetryUtils.sys.mjs",
@@ -1629,7 +1630,7 @@ class SelectableProfileServiceClass extends EventEmitter {
       let path = this.groupToolkitProfile.rootDir;
       this.#currentProfile = await this.#createProfile(path, null);
 
-      // Do not set the profile selector window to show at startup by default.
+      // And also set the profile selector window to show at startup (bug 1933911).
       await this.setShowProfileSelectorWindow(false);
 
       // For first-run dark mode macOS users, the original profile's dock icon

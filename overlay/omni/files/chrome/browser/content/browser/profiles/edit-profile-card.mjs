@@ -59,6 +59,8 @@ import "chrome://global/content/elements/moz-segmented-control.mjs";
 // eslint-disable-next-line import/no-unassigned-import
 import "chrome://global/content/elements/moz-visual-picker.mjs";
 // eslint-disable-next-line import/no-unassigned-import
+import "chrome://global/content/elements/moz-fieldset.mjs";
+// eslint-disable-next-line import/no-unassigned-import
 import "chrome://browser/content/profiles/avatar.mjs";
 // eslint-disable-next-line import/no-unassigned-import
 import "chrome://browser/content/profiles/profiles-theme-card.mjs";
@@ -675,6 +677,14 @@ export class EditProfileCard extends MozLitElement {
           <div id="profile-content">
             ${this.headerTemplate()}${this.profilesNameTemplate()}
             ${this.themesTemplate()} ${this.desktopShortcutTemplate()}
+
+            <a
+              id="more-themes"
+              href="https://addons.mozilla.org/firefox/themes/"
+              target="_blank"
+              @click=${this.onMoreThemesClick}
+              data-l10n-id="edit-profile-page-explore-themes"
+            ></a>
 
             <moz-button-group>${this.buttonsTemplate()}</moz-button-group>
           </div>

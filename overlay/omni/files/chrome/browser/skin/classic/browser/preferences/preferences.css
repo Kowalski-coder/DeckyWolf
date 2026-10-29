@@ -1638,7 +1638,7 @@ setting-pane[onsearchpane] {
 
 
 
-/* DeckyWolf: Hide Homepage selection group, Related Settings, and Wallpaper buttons */
+/* DeckyWolf: Hide Homepage selection group, Related Settings, Wallpaper buttons, and Theme settings */
 #homepageGroup,
 #customHomepageGroup,
 #firefoxHomeCategory,
@@ -1656,13 +1656,31 @@ setting-pane[onsearchpane] {
 [data-setting="chooseWallpaper"],
 #chooseWallpaper,
 #librewolfExternalWallpapers,
+#category-appearance,
+moz-page-nav-button[id="category-appearance"],
+html|moz-page-nav-button[id="category-appearance"],
+[data-category="paneAppearance"],
+#paneAppearance,
+[groupid="appearance"],
+[data-srd-groupid="appearance"],
+setting-group[groupid="appearance"],
+html|setting-group[groupid="appearance"],
+[groupid="browserTheme"],
 [data-srd-groupid="browserTheme"],
+setting-group[groupid="browserTheme"],
+html|setting-group[groupid="browserTheme"],
 #web-appearance-chooser,
+setting-control[id="web-appearance-chooser"],
+setting-control[data-setting-id="web-appearance-chooser"],
 #browserTheme,
 #browser-theme-group,
 #websiteColorsGroup,
 #librewolfNova,
-#librewolfUserChrome {
+setting-control[id="librewolfNova"],
+#librewolfUserChrome,
+setting-control[id="librewolfUserChrome"],
+setting-control[id="web-appearance-manage-themes-link"],
+#deckywolf-dummy-never-match {
   display: none !important;
 }
 

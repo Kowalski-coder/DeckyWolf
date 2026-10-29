@@ -36,13 +36,21 @@
   margin-bottom: var(--space-xsmall);
 }
 
+#theme-group::part(label) {
+  font-weight: var(--font-weight);
+}
+
+#theme-group::part(inputs) {
+  margin-block-start: var(--space-xsmall);
+}
+
 #profile-name {
   width: min(400px, 100%);
   margin: 0;
   padding-inline: var(--space-medium);
   padding-block: 1px;
-  min-height: var(--input-text-min-height);
-  border: var(--input-text-border);
+  min-height: var(--input-min-height);
+  border: var(--input-border);
 
   &:focus-visible {
     outline-offset: unset;
@@ -90,13 +98,4 @@
 
 .theme-item {
   --visual-picker-item-border-radius: 10px;
-}
-
-#themes,
-theme-picker,
-moz-visual-picker,
-#more-themes,
-[data-l10n-id="edit-profile-page-theme-header-2"],
-.theme-item {
-  display: none !important;
 }

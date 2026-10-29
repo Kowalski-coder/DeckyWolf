@@ -43,6 +43,53 @@ export class NewProfileCard extends EditProfileCard {
 
     await Promise.all([
       this.setInitialInput(),
+      this.setRandomTheme(isInAutomation) {
+    return;
+  }/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+import { html } from "chrome://global/content/vendor/lit.all.mjs";
+import { EditProfileCard } from "chrome://browser/content/profiles/edit-profile-card.mjs";
+// eslint-disable-next-line import/no-unassigned-import
+import "chrome://global/content/elements/moz-support-link.mjs";
+
+const DEFAULT_THEME_ID = "default-theme@mozilla.org";
+const TEN_MINUTES_IN_MS = 10 * 60 * 1000;
+
+/**
+ * Element used for updating a profile's name, theme, and avatar.
+ */
+export class NewProfileCard extends EditProfileCard {
+  async init() {
+    if (this.initialized) {
+      return;
+    }
+
+    let {
+      currentProfile,
+      profiles,
+      profileCreated,
+      themes,
+      isInAutomation,
+      novaEnabled,
+    } = await RPMSendQuery("Profiles:GetNewProfileContent");
+
+    if (isInAutomation) {
+      this.updateNameDebouncer.timeout = 50;
+    }
+
+    if (!isInAutomation) {
+      this.maybeRedirectExistingProfile(profileCreated);
+    }
+
+    this.setProfile(currentProfile);
+    this.profiles = profiles;
+    this.themes = themes;
+    this.novaEnabled = novaEnabled;
+
+    await Promise.all([
+      this.setInitialInput(),
       this.setRandomTheme(isInAutomation),
     ]);
   }
@@ -64,8 +111,31 @@ export class NewProfileCard extends EditProfileCard {
     }
   }
 
-  async setRandomTheme() {
-    return;
+  async setRandomTheme(isInAutomation) {
+    if (this.profile.themeId !== DEFAULT_THEME_ID) {
+      return;
+    }
+
+    let possibleThemes = this.themes;
+    if (isInAutomation && !this.novaEnabled) {
+      possibleThemes = possibleThemes.filter(t => t.useInAutomation);
+    }
+    let newTheme =
+      possibleThemes[Math.floor(Math.random() * possibleThemes.length)];
+
+    if (this.novaEnabled) {
+      await this.updateComplete;
+      this.themesPicker.dispatchEvent(
+        new CustomEvent("themechange", {
+          bubbles: true,
+          composed: true,
+          detail: { property: "theme", value: newTheme.id },
+        })
+      );
+      return;
+    }
+
+    await super.updateTheme(newTheme.id);
   }
 
   async setInitialInput() {
