@@ -1990,11 +1990,14 @@ belylis-info-title = Czym jest tryb «Белый Лис»?
 belylis-info-desc1 = Tryb ten zapewnia bezpieczny dostęp do serwisów internetowych korzystających z rosyjskich państwowych certyfikatów TLS (Gosuslugi, Sberbank, VTB itp.), które są niedostępne w standardowych przeglądarkach.
 belylis-info-desc2 = Certyfikaty działają wyłącznie wewnątrz przeglądarki DeckyWolf i są całkowicie odizolowane od systemu SteamOS. Po wyłączeniu trybu zaufanie do certyfikatów zostaje natychmiast cofnięte, a pamięć podręczna połączeń wyczyszczona.
 belylis-group-title = Parametry bezpieczeństwa i działania
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Pokazuj przełącznik na pasku narzędzi
 belylis-opt-show-toolbar-desc = Umożliwia włączanie i wyłączanie trybu «Белый Лис» jednym kliknięciem bezpośrednio z paska narzędzi obok przełącznika trybu kontrolera.
 belylis-opt-disable-on-exit = Wyłącz tryb Белый Лис przy zamykaniu przeglądarki
 belylis-opt-disable-on-exit-desc = Po zamknięciu przeglądarki tryb jest automatycznie dezaktywowany, a zaufanie do certyfikatów resetowane. Przy następnym uruchomieniu przeglądarka zawsze startuje w trybie standardowym.
 belylis-opt-remember-passwords = Zapamiętuj hasła w trybie Белый Лис
 belylis-opt-remember-passwords-desc = Zezwalaj menedżerowi haseł na oferowanie zapisywania danych logowania na stronach odwiedzanych w trybie «Белый Лис».
-belylis-opt-save-cache = Zapisuj pamięć podręczną stron w trybie Белый Лис
-belylis-opt-save-cache-desc = Zezwalaj na buforowanie stron na dysku. Jeśli wyłączone, pamięć podręczna jest zapisywana tylko w pamięci tymczasowej i usuwana natychmiast po wyłączeniu trybu «Белый Лис».
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

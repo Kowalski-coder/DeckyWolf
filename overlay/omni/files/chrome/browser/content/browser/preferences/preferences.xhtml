@@ -128,16 +128,6 @@
         iconsrc="chrome://browser/skin/preferences/category-sync.svg"
         data-l10n-id="pane-sync-title3">
       </html:moz-page-nav-button>
-      <html:moz-page-nav-button id="category-controller"
-        view="paneController"
-        iconsrc="chrome://browser/skin/deckywolf-controller.svg"
-        data-l10n-id="pane-controller-title">
-      </html:moz-page-nav-button>
-      <html:moz-page-nav-button id="category-belylis"
-        view="paneBelyLis"
-        iconsrc="chrome://browser/skin/preferences/category-belylis.svg"
-        data-l10n-id="pane-belylis-title">Белый Лис
-      </html:moz-page-nav-button>
       <html:moz-page-nav-button id="category-home"
         view="paneHome"
         iconsrc="chrome://browser/skin/home.svg"
@@ -159,6 +149,8 @@
         data-l10n-id="pane-passwords-autofill-title2">
       </html:moz-page-nav-button>
       <html:moz-page-nav-button id="category-appearance"
+        hidden="true"
+        style="display: none !important;"
         view="paneAppearance"
         iconsrc="chrome://global/skin/icons/eye.svg"
         data-l10n-id="pane-appearance-title">
@@ -194,6 +186,18 @@
         iconsrc="chrome://browser/skin/permissions.svg"
         data-l10n-id="pane-permissions-data-title2">
       </html:moz-page-nav-button>
+            <html:moz-page-nav-button id="category-controller"
+        view="paneController"
+        iconsrc="chrome://browser/skin/preferences/category-controller.svg"
+        data-l10n-id="pane-controller-title">Режим управления
+      </html:moz-page-nav-button>
+
+      <html:moz-page-nav-button id="category-belylis"
+        view="paneBelyLis"
+        iconsrc="chrome://browser/skin/preferences/category-belylis.svg"
+        data-l10n-id="pane-belylis-title">Белый Лис
+      </html:moz-page-nav-button>
+
       <html:moz-page-nav-button id="category-experimental"
         hidden="true"
         view="paneExperimental"
@@ -228,8 +232,6 @@
       </html:moz-page-nav-button>
       <html:moz-page-nav-button id="helpButton"
         slot="secondary-nav"
-        hidden="true"
-        style="display: none !important;"
         support-page="preferences"
         iconsrc="chrome://global/skin/icons/help.svg"
         data-l10n-id="help-button-label2">
@@ -1440,10 +1442,21 @@
 
   <label><html:h2 style="font-size: 16px; font-weight: 600; color: #f8fafc; margin: 0 0 16px 0;" data-l10n-id="belylis-group-title">Параметры безопасности и работы</html:h2></label>
 
-  <!-- 1. Переключатель иконки на панели инструментов -->
+  <!-- 1. Автоматический режим -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisShowToolbarBtn" class="deckywolf-checkbox" />
+      <html:input type="checkbox" id="deckywolfBelylisAutoRu" class="deckywolf-checkbox" checked="true"/>
+      <label for="deckywolfBelylisAutoRu" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-auto-ru">Автоматический режим</label>
+    </hbox>
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-auto-ru-desc">
+      Принудительно включает режим «Белый Лис» для всех сайтов с доменами *.ru, *.рф, *.su и отключает его для остальных сайтов. Для ручного переключения режимов отключите данную опцию.
+    </description>
+  </vbox>
+
+  <!-- 2. Переключатель иконки на панели инструментов -->
+  <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
+    <hbox align="center">
+      <html:input type="checkbox" id="deckywolfBelylisShowToolbarBtn" class="deckywolf-checkbox" checked="true"/>
       <label for="deckywolfBelylisShowToolbarBtn" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-show-toolbar">Отображать переключатель на панели инструментов</label>
     </hbox>
     <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-show-toolbar-desc">
@@ -1451,10 +1464,10 @@
     </description>
   </vbox>
 
-  <!-- 2. Отключать при закрытии браузера -->
+  <!-- 3. Отключать при закрытии браузера -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisDisableOnExit" class="deckywolf-checkbox" />
+      <html:input type="checkbox" id="deckywolfBelylisDisableOnExit" class="deckywolf-checkbox" checked="true"/>
       <label for="deckywolfBelylisDisableOnExit" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-disable-on-exit">Отключать режим Белый Лис при закрытии браузера</label>
     </hbox>
     <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-disable-on-exit-desc">
@@ -1462,10 +1475,10 @@
     </description>
   </vbox>
 
-  <!-- 3. Запоминать пароли в режиме Белый Лис -->
+  <!-- 4. Запоминать пароли в режиме Белый Лис -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 18px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisRememberPasswords" class="deckywolf-checkbox" />
+      <html:input type="checkbox" id="deckywolfBelylisRememberPasswords" class="deckywolf-checkbox" checked="true"/>
       <label for="deckywolfBelylisRememberPasswords" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-remember-passwords">Запоминать пароли в режиме Белый Лис</label>
     </hbox>
     <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-remember-passwords-desc">
@@ -1473,14 +1486,14 @@
     </description>
   </vbox>
 
-  <!-- 4. Сохранять кэш страниц в режиме Белый Лис -->
+  <!-- 5. Сохранять куки в режиме Белый Лис -->
   <vbox class="deckywolf-setting-row" style="margin-bottom: 6px;">
     <hbox align="center">
-      <html:input type="checkbox" id="deckywolfBelylisSaveCache" class="deckywolf-checkbox" />
-      <label for="deckywolfBelylisSaveCache" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-save-cache">Сохранять кэш страниц в режиме Белый Лис</label>
+      <html:input type="checkbox" id="deckywolfBelylisSaveCookies" class="deckywolf-checkbox" checked="true"/>
+      <label for="deckywolfBelylisSaveCookies" class="deckywolf-setting-label" style="font-size: 14px; color: #f1f5f9; font-weight: 600; cursor: pointer;" data-l10n-id="belylis-opt-save-cookies">Сохранять куки в режиме Белый Лис</label>
     </hbox>
-    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-save-cache-desc">
-      Разрешать кэширование страниц на диск. Если опция отключена, кэш страниц пишется только во временную память и бесследно стирается сразу после отключения режима «Белый Лис».
+    <description class="description-deemphasized" style="font-size: 12px; color: #94a3b8; margin-top: 4px; margin-inline-start: 28px;" data-l10n-id="belylis-opt-save-cookies-desc">
+      Разрешать сайтам сохранять файлы cookie в режиме «Белый Лис». Если выключено — файлы cookie автоматически удаляются при выходе из режима «Белый Лис».
     </description>
   </vbox>
 </groupbox>

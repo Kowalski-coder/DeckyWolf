@@ -703,11 +703,14 @@ belylis-info-title = Kas yra „Белый Лис“ režimas?
 belylis-info-desc1 = Šis režimas suteikia saugią prieigą prie svetainių, naudojančių Rusijos valstybinius TLS sertifikatus (Gosuslugi, Sberbank, VTB ir kt.), kurie nepasiekiami standartinėse naršyklėse.
 belylis-info-desc2 = Sertifikatai veikia tik „DeckyWolf“ naršyklėje ir yra visiškai izoliuoti nuo „SteamOS“ sistemos. Išjungus režimą, pasitikėjimas sertifikatais iškart panaikinamas, o talpykla išvaloma.
 belylis-group-title = Saugumo ir veikimo parametrai
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Rodyti mygtuką įrankių juostoje
 belylis-opt-show-toolbar-desc = Leidžia vienu spustelėjimu įjungti ir išjungti „Белый Лис“ režimą tiesiai iš įrankių juostos šalia valdiklio režimo mygtuko.
 belylis-opt-disable-on-exit = Išjungti „Белый Лис“ režimą uždarant naršyklę
 belylis-opt-disable-on-exit-desc = Uždarius naršyklę režimas automatiškai išjungiamas. Kito paleidimo metu naršyklė visada startuoja standartiniu režimu.
 belylis-opt-remember-passwords = Įsiminti slaptažodžius „Белый Лис“ režimu
 belylis-opt-remember-passwords-desc = Leisti slaptažodžių tvarkyklei siūlyti išsaugoti prisijungimo duomenis svetainėse, lankomose „Белый Лис“ režimu.
-belylis-opt-save-cache = Išsaugoti puslapių talpyklą „Белый Лис“ režimu
-belylis-opt-save-cache-desc = Leisti talpinti puslapius į diską. Jei išjungta, talpykla saugoma tik laikinojoje atmintyje ir ištrinama iškart išjungus „Белый Лис“ režimą.
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

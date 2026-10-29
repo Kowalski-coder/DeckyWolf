@@ -782,11 +782,14 @@ belylis-info-title = Mis on «Белый Лис» režiim?
 belylis-info-desc1 = See režiim tagab turvalise juurdepääsu veebisaitidele, mis kasutavad Venemaa riiklikke TLS-sertifikaate (Gosuslugi, Sberbank, VTB jne) ja mis pole tavapärastes brauserites saadaval.
 belylis-info-desc2 = Sertifikaadid toimivad ainult DeckyWolfi sees ja on SteamOS-süsteemist täielikult isoleeritud. Režiimi väljalülitamisel sertifikaatide usaldus tühistatakse ja vahemälu puhastatakse.
 belylis-group-title = Turvalisuse ja töö parameetrid
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Kuva lüliti tööriistaribal
 belylis-opt-show-toolbar-desc = Võimaldab ühe klõpsuga lülitada režiimi «Белый Лис» sisse ja välja otse tööriistaribalt kontrollerirežiimi nupu kõrval.
 belylis-opt-disable-on-exit = Keela Белый Лис režiim brauseri sulgemisel
 belylis-opt-disable-on-exit-desc = Brauseri sulgemisel režiim deaktiveeritakse automaatselt. Järgmisel käivitamisel käivitub brauser alati tavarežiimis.
 belylis-opt-remember-passwords = Jäta paroolid meelde Белый Лис režiimis
 belylis-opt-remember-passwords-desc = Luba paroolihalduril pakkuda sisselogimisandmete salvestamist režiimis «Белый Лис» külastatud saitidel.
-belylis-opt-save-cache = Salvesta lehtede vahemälu Белый Лис režiimis
-belylis-opt-save-cache-desc = Luba lehtede vahemälu kettale. Kui see on keelatud, salvestatakse vahemälu ainult ajutisse mällu ja kustutatakse kohe pärast režiimi «Белый Лис» väljalülitamist.
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

@@ -1587,11 +1587,14 @@ belylis-info-title = Ի՞նչ է «Белый Лис» ռեժիմը:
 belylis-info-desc1 = Ռեժիմը նախատեսված է ՌԴ պետական TLS վկայագրեր օգտագործող կայքերին (Պետծառայություններ, Սբերբանկ, ՎՏԲ և այլն) անվտանգ մուտք գործելու համար, որոնք հասանելի չեն սովորական բրաուզերներում:
 belylis-info-desc2 = Վկայագրերն աշխատում են բացառապես DeckyWolf-ի ներսում և ամբողջությամբ մեկուսացված են SteamOS-ից: Ռեժիմն անջատելիս վկայագրերի վստահությունն անմիջապես չեղարկվում է, իսկ քեշը մաքրվում է:
 belylis-group-title = Անվտանգության և աշխատանքի պարամետրեր
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Ցուցադրել անջատիչը գործիքների վահանակում
 belylis-opt-show-toolbar-desc = Թույլ է տալիս մեկ սեղմումով միացնել և անջատել «Белый Лис» ռեժիմը գործիքների վահանակից:
 belylis-opt-disable-on-exit = Բրաուզերը փակելիս անջատել Белый Лис ռեժիմը
 belylis-opt-disable-on-exit-desc = Բրաուզերը փակելիս ռեժիմն ավտոմատ կերպով ապաակտիվանում է, իսկ վստահությունը չեղարկվում: Հաջորդ անգամ բրաուզերը միշտ բացվում է ստանդարտ ռեժիմով:
 belylis-opt-remember-passwords = Հիշել գաղտնաբառերը Белый Лис ռեժիմում
 belylis-opt-remember-passwords-desc = Թույլատրել գաղտնաբառերի կառավարչին առաջարկել պահպանել մուտքանուններն ու գաղտնաբառերը «Белый Лис» ռեժիմում այցելած կայքերում:
-belylis-opt-save-cache = Պահպանել էջերի քեշը Белый Лис ռեժիմում
-belylis-opt-save-cache-desc = Թույլատրել էջերի քեշավորումը սկավառակի վրա: Անջատված լինելու դեպքում քեշը գրվում է միայն ժամանակավոր հիշողության մեջ և ջնջվում «Белый Лис» ռեժիմն անջատելիս:
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

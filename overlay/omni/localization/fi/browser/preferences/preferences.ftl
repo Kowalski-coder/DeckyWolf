@@ -1975,11 +1975,14 @@ belylis-info-title = Mikä on «Белый Лис» -tila?
 belylis-info-desc1 = Tila tarjoaa turvallisen pääsyn verkkopalveluihin, jotka käyttävät Venäjän valtion TLS-varmenteita (Gosuslugi, Sberbank, VTB jne.) ja joita ei voi avata tavallisissa selaimissa ilman esiasetuksia.
 belylis-info-desc2 = Varmenteet toimivat ainoastaan DeckyWolf-selaimen sisällä ja ovat täysin eristettyjä SteamOS-käyttöjärjestelmästä. Kun tila poistetaan käytöstä, luottamus peruutetaan välittömästi ja välimuisti tyhjennetään.
 belylis-group-title = Turvallisuus- ja toiminta-asetukset
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Näytä kytkin työkalupalkissa
 belylis-opt-show-toolbar-desc = Mahdollistaa «Белый Лис» -tilan kytkemisen päälle ja pois yhdellä napsautuksella suoraan työkalupalkista ohjaintilan kytkimen vierestä.
 belylis-opt-disable-on-exit = Ota Белый Лис -tila pois käytöstä, kun selain suljetaan
 belylis-opt-disable-on-exit-desc = Kun selain suljetaan, tila poistetaan automaattisesti käytöstä. Seuraavalla käynnistyksellä selain käynnistyy aina vakiotilassa.
 belylis-opt-remember-passwords = Muista salasanat Белый Лис -tilassa
 belylis-opt-remember-passwords-desc = Salli salasanojen hallinnan ehdottaa kirjautumistietojen tallentamista sivustoilla «Белый Лис» -tilassa.
-belylis-opt-save-cache = Tallenna sivujen välimuisti Белый Лис -tilassa
-belylis-opt-save-cache-desc = Salli sivujen välimuisti levylle. Jos poistettu käytöstä, välimuisti tallennetaan vain tilapäiseen muistiin ja tyhjennetään heti «Белый Лис» -tilan sammuttamisen jälkeen.
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

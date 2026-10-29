@@ -437,11 +437,14 @@ belylis-info-title = What is «Белый Лис» mode?
 belylis-info-desc1 = This mode provides secure access to web services relying on Russian state TLS certificates (Gosuslugi, Sberbank, VTB, etc.), which are unreachable in standard browsers without manual configuration.
 belylis-info-desc2 = Certificates operate strictly within DeckyWolf and are fully isolated from the host SteamOS system. Disabling the mode immediately revokes certificate trust and flushes secure connection caches.
 belylis-group-title = Security & Operation Settings
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Show toggle button on toolbar
 belylis-opt-show-toolbar-desc = Enables one-click toggling of «Белый Лис» mode directly from the toolbar next to the controller mode switcher.
 belylis-opt-disable-on-exit = Disable «Белый Лис» mode when closing the browser
 belylis-opt-disable-on-exit-desc = Automatically deactivates the mode and revokes certificate trust when DeckyWolf is closed. The browser always starts in standard mode upon next launch.
 belylis-opt-remember-passwords = Remember passwords in «Белый Лис» mode
 belylis-opt-remember-passwords-desc = Allow the password manager to offer saving credentials on websites visited while «Белый Лис» mode is enabled. If disabled, credential saving is prevented.
-belylis-opt-save-cache = Save page cache in «Белый Лис» mode
-belylis-opt-save-cache-desc = Allow disk caching. If disabled, web cache is stored solely in volatile memory and purged immediately when «Белый Лис» mode is turned off.
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

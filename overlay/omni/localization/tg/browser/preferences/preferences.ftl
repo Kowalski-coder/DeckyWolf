@@ -1419,11 +1419,14 @@ belylis-info-title = Ҳолати «Белый Лис» чист?
 belylis-info-desc1 = Ин ҳолат барои дастрасии бехатар ба сомонаҳое пешбинӣ шудааст, ки сертификатҳои давлатии TLS-и Русияро (Хидматҳои давлатӣ, Сбербанк, ВТБ ва ғ.) истифода мебаранд.
 belylis-info-desc2 = Сертификатҳо танҳо дар дохили браузери DeckyWolf кор мекунанд ва аз системаи SteamOS комилан ҷудо мебошанд. Ҳангоми хомӯш кардани ҳолат боварӣ ба сертификатҳо фавран бекор мешавад.
 belylis-group-title = Параметрҳои амният ва кор
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Намоиши тугма дар сатри абзорҳо
 belylis-opt-show-toolbar-desc = Имкон медиҳад, ки ҳолати «Белый Лис» бо як клик аз сатри абзорҳо дар паҳлӯи тугмаи ҳолати идоракунӣ фаъол ва хомӯш карда шавад.
 belylis-opt-disable-on-exit = Ҳангоми пӯшидани браузер ҳолати Белый Лис хомӯш карда шавад
 belylis-opt-disable-on-exit-desc = Ҳангоми пӯшидани браузер ҳолат ба таври худкор хомӯш шуда, боварӣ ба сертификатҳо бекор мешавад. Дар оғози навбатӣ браузер ҳамеша дар ҳолати стандартӣ кушода мешавад.
 belylis-opt-remember-passwords = Дар ҳолати Белый Лис гузарвожаҳо ба хотир гирифта шаванд
 belylis-opt-remember-passwords-desc = Иҷозат додан ба мудири гузарвожаҳо барои пешниҳоди нигоҳдории воридшавӣ ва гузарвожаҳо дар сомонаҳое, ки дар ҳолати «Белый Лис» ворид шудаанд.
-belylis-opt-save-cache = Дар ҳолати Белый Лис кэши саҳифаҳо нигоҳ дошта шавад
-belylis-opt-save-cache-desc = Иҷозати кэшкунии саҳифаҳо дар диск. Агар хомӯш бошад, кэш танҳо дар хотираи муваққатӣ навишта шуда, пас аз хомӯш кардани ҳолати «Белый Лис» пок мешавад.
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.

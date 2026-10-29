@@ -1946,11 +1946,14 @@ belylis-info-title = Шта је режим «Белый Лис»?
 belylis-info-desc1 = Овај режим омогућава безбедан приступ веб локацијама које користе руске државне TLS сертификате (Госуслуги, Сбербанк, ВТБ итд.), који нису доступни у стандардним прегледачима.
 belylis-info-desc2 = Сертификати раде искључиво унутар DeckyWolf прегледача и потпуно су изоловани од SteamOS система. Искључивањем режима поверење се одмах опозива, а кеш безбедних веза се брише.
 belylis-group-title = Безбедност и поставке рада
+belylis-opt-auto-ru = Automatic mode
+belylis-opt-auto-ru-desc = Forces «Белый Лис» mode for all *.ru, *.рф, *.su domains and disables it for all other websites. To switch modes manually, disable this option.
 belylis-opt-show-toolbar = Прикажи дугме на траци са алаткама
 belylis-opt-show-toolbar-desc = Омогућава укључивање и искључивање режима «Белый Лис» једним кликом директно са траке са алаткама поред дугмета за режим контролера.
 belylis-opt-disable-on-exit = Искључи режим Белый Лис при затварању прегледача
 belylis-opt-disable-on-exit-desc = При затварању прегледача режим се аутоматски деактивира. При следећем покретању прегледач увек стартује у стандардном режиму.
 belylis-opt-remember-passwords = Памти лозинке у режиму Белый Лис
 belylis-opt-remember-passwords-desc = Дозволи менаџеру лозинки да нуди чување лозинки на сајтовима у режиму «Белый Лис».
-belylis-opt-save-cache = Сачувај кеш страница у режиму Белый Лис
-belylis-opt-save-cache-desc = Дозволи кеширање страница на диску. Ако је искључено, кеш се брише одмах након искључивања режима «Белый Лис».
+
+belylis-opt-save-cookies = Save cookies in «Белый Лис» mode
+belylis-opt-save-cookies-desc = Allow websites to save cookies in «Белый Лис» mode. If disabled, cookies will be automatically deleted upon exiting «Белый Лис» mode.
