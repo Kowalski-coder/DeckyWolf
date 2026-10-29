@@ -23,8 +23,8 @@ jobs:
 
       - name: Download official LibreWolf AppImage base
         run: |
-          echo "Downloading LibreWolf 158.0.1-2 AppImage..."
-          curl -L --fail --retry 3 -o /tmp/librewolf.AppImage "https://dl.librewolf.net/librewolf/158.0.1-2/librewolf-158.0.1-2-linux-x86_64-appimage.AppImage"
+          echo "Downloading LibreWolf 159.0-1 AppImage..."
+          curl -L --fail --retry 3 -o /tmp/librewolf.AppImage "https://dl.librewolf.net/librewolf/159.0-1/librewolf-159.0-1-linux-x86_64-appimage.AppImage"
           chmod +x /tmp/librewolf.AppImage
 
       - name: Install appimagetool
@@ -38,7 +38,8 @@ jobs:
       - name: Build DeckyWolf AppImage
         run: |
           chmod +x build.sh
-          OUT_APPIMAGE="$PWD/deckywolf.AppImage" ./build.sh /tmp/librewolf.AppImage
+          OUT_APPIMAGE="$PWD/deckywolf.appimage" ./build.sh /tmp/librewolf.AppImage
+          cp -f "$PWD/deckywolf.appimage" "$PWD/deckywolf.AppImage"
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
@@ -49,5 +50,6 @@ jobs:
           draft: false
           prerelease: false
           files: |
+            deckywolf.appimage
             deckywolf.AppImage
           generate_release_notes: false

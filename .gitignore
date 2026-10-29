@@ -1,6 +1,10 @@
 *.AppImage
+*.appimage
 *.squashfs
 *.zip
 Снимок экрана_*.png
 __pycache__/
 *.pyc
+ENGINE_UPGRADE_GUIDE.md
+*.local.md
+

@@ -1,3 +1,25 @@
+## DeckyWolf v159.0.1
+
+A major engine upgrade to LibreWolf 159.0 featuring pre-installed privacy extensions, updated «Белый Лис» Automatic Mode with domain filtering, default direct connection (no proxy), streamlined version numbering, and tab context menu fixes.
+
+### Highlights
+
+- 🛡️ **LibreWolf 159.0 Base**: Upgraded core browser engine to the latest upstream release with privacy, security, and stability patches.
+- 🦊 **«Белый Лис» Automatic Mode**:
+  - Automatically enables Russian Ministry of Digital Development TLS certificates for all `*.ru`, `*.рф`, and `*.su` domains.
+  - Strictly isolates and blocks Russian certificates for non-Russian domains (`*.com`, `*.uk`, etc.).
+  - BelyLis is strictly excluded on internal pages (`about:*`), new tab / home, and TorrentWolf.
+  - Toolbar widget indicates current certificate mode (`Автоматический режим сертификатов: Белый Лис` vs `Автоматический режим сертификатов: DeckyWolf`) with manual toggle locked when automatic mode is active.
+  - Replaced cache settings with cookie persistence policy (`deckywolf.belylis.save_cookies`).
+- 🧩 **Pre-installed Extensions**:
+  - ClearURLs (`{74145f27-f039-47ce-a470-a662b129930a}`)
+  - FastForward (`addon@fastforward.team`)
+  - I still don't care about cookies (`idcac-pub@guus.ninja`)
+- 🌐 **No Proxy Default**: Network proxy setting defaults to "No proxy" (`network.proxy.type = 0`).
+- 🏷️ **Streamlined Versioning**: Adopted clean version numbering without hyphens (`159.0.1`).
+- 🗂️ **Tab Context Menu Cleanup**: Fixed blank/unlabeled menu items caused by disabled AI features.
+- 🌍 **Multilingual Localization**: All 105 browser locales fully updated.
+
 ## DeckyWolf v158.0.1-2.05
 
 A targeted input reliability fix for SteamOS Game Mode that resolves double/duplicate character input when typing with physical keyboards or the Steam on-screen virtual keyboard (OSK).

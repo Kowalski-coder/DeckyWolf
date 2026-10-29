@@ -11,8 +11,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
-VERSION="158.0.1-2.05"
-OUT_APPIMAGE="${OUT_APPIMAGE:-$(dirname "$SCRIPT_DIR")/deckywolf.AppImage}"
+VERSION="159.0.1"
+OUT_APPIMAGE="${OUT_APPIMAGE:-$(dirname "$SCRIPT_DIR")/deckywolf.appimage}"
 
 cleanup() {
     rm -rf "$BUILD_TMP"
@@ -138,6 +138,31 @@ rm -f "$OMNI_TMP/chrome/browser/skin/classic/browser/projacktor.svg"
 # Copy standalone omni files
 cp -a "$OVERLAY_DIR/omni/files"/* "$OMNI_TMP/"
 
+# Patch activity-stream.bundle.js for TorrentWolf top site rich icon
+ACT_BUNDLE="$OMNI_TMP/chrome/browser/builtin-addons/newtab/data/content/activity-stream.bundle.js"
+if [ -f "$ACT_BUNDLE" ]; then
+    python3 -c "
+import os
+p = '$ACT_BUNDLE'
+with open(p, 'r', encoding='utf-8') as f:
+    s = f.read()
+old = 'backgroundImage: hasScreenshotImage ? \`url(\${this.state.screenshotImage.url})\` : \"\"\n      };'
+extra = '''    } else if (link.url && (link.url.includes(\"8404\") || link.url.includes(\"TorrentWolf\") || link.url.includes(\"torrentwolf\"))) {
+      imageClassName = \"top-site-icon rich-icon\";
+      imageStyle = {
+        backgroundColor: \"#1b2432\",
+        backgroundImage: \\'url(\"chrome://activity-stream/content/data/content/tippytop/images/torrentwolf@2x.png\")\\'
+      };
+      smallFaviconStyle = {
+        backgroundImage: \\'url(\"chrome://activity-stream/content/data/content/tippytop/favicons/torrentwolf.png\")\\'
+      };'''
+if old in s and 'torrentwolf' not in s:
+    s = s.replace(old, old + '\n' + extra)
+    with open(p, 'w', encoding='utf-8') as f:
+        f.write(s)
+"
+fi
+
 # Copy localization (all 105 languages)
 if [ -d "$OVERLAY_DIR/omni/localization" ]; then
     cp -a "$OVERLAY_DIR/omni/localization"/* "$OMNI_TMP/localization/"
@@ -208,9 +233,8 @@ echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"
 ARCH=x86_64 appimagetool "$SQUASHFS_TARGET" "$OUT_APPIMAGE" >/dev/null
 chmod +x "$OUT_APPIMAGE"
-if [ "$OUT_APPIMAGE" != "$SCRIPT_DIR/deckywolf.AppImage" ]; then
-    cp -f "$OUT_APPIMAGE" "$SCRIPT_DIR/deckywolf.AppImage" 2>/dev/null || true
-fi
+PARENT_DIR="$(dirname "$SCRIPT_DIR")"
+cp -f "$OUT_APPIMAGE" "$PARENT_DIR/deckywolf.AppImage" 2>/dev/null || true
 echo "==> Build successful! Result: $OUT_APPIMAGE"
 ls -lh "$OUT_APPIMAGE"
 
