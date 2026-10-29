@@ -39,7 +39,6 @@ jobs:
         run: |
           chmod +x build.sh
           OUT_APPIMAGE="$PWD/deckywolf.appimage" ./build.sh /tmp/librewolf.AppImage
-          cp -f "$PWD/deckywolf.appimage" "$PWD/deckywolf.AppImage"
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
@@ -51,5 +50,4 @@ jobs:
           prerelease: false
           files: |
             deckywolf.appimage
-            deckywolf.AppImage
           generate_release_notes: false
