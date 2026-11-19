@@ -1,3 +1,16 @@
+## DeckyWolf v160.0.1.1
+
+An engine upgrade to LibreWolf 160.0.1 upstream base bringing the latest web platform improvements, security fixes, and performance updates, while fully preserving all DeckyWolf custom features and optimizations for Steam Deck and Linux.
+
+### Highlights
+
+- 🛡️ **LibreWolf 160.0.1 Base**: Upgraded core browser engine to upstream 160.0.1 with the latest security and stability fixes.
+- 🎨 **DeckyWolf UI & Theme**: Preserved signature Decky dark theme (`#06090f` background, `#1098fe` accent), clean Settings menu, and custom start page with branded icons.
+- 🦊 **«Белый Лис» Mode**: Automatic TLS certificate isolation for Russian domains (`*.ru`, `*.рф`, `*.su`) and toolbar indicator.
+- 🎮 **Steam Deck Optimizations**: Gamescope pixel-perfect scaling, gamepad input daemon, and virtual keyboard input handling.
+- ⚡ **TorrentWolf Integration**: Built-in torrent client service and quick-launch tile on port 8404.
+- 🧩 **Bundled Privacy Extensions**: Voice Over Translation (VOT), uBlock Origin, ClearURLs, FastForward, and I still don't care about cookies.
+
 ## DeckyWolf v159.0.1
 
 A major engine upgrade to LibreWolf 159.0 featuring pre-installed privacy extensions, updated «Белый Лис» Automatic Mode with domain filtering, default direct connection (no proxy), streamlined version numbering, and tab context menu fixes.

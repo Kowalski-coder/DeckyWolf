@@ -11,7 +11,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OVERLAY_DIR="$SCRIPT_DIR/overlay"
 BUILD_TMP="/tmp/deckywolf_build_$$"
-VERSION="159.0.1"
+VERSION="160.0.1.1"
 OUT_APPIMAGE="${OUT_APPIMAGE:-$(dirname "$SCRIPT_DIR")/deckywolf.appimage}"
 
 cleanup() {
@@ -51,11 +51,12 @@ fi
 echo "==> Applying Root Files & Desktop Entries..."
 cp -f "$OVERLAY_DIR/root/AppRun" "$SQUASHFS_TARGET/AppRun"
 chmod +x "$SQUASHFS_TARGET/AppRun"
+rm -f "$SQUASHFS_TARGET/.DirIcon" "$SQUASHFS_TARGET/librewolf.png" "$SQUASHFS_TARGET/deckywolf.png"
 cp -f "$OVERLAY_DIR/root/deckywolf.png" "$SQUASHFS_TARGET/deckywolf.png"
-ln -sf deckywolf.png "$SQUASHFS_TARGET/.DirIcon"
-rm -f "$SQUASHFS_TARGET/librewolf.png"
-ln -sf deckywolf.png "$SQUASHFS_TARGET/librewolf.png"
+cp -f "$OVERLAY_DIR/root/deckywolf.png" "$SQUASHFS_TARGET/.DirIcon"
+cp -f "$OVERLAY_DIR/root/deckywolf.png" "$SQUASHFS_TARGET/librewolf.png"
 cp -f "$OVERLAY_DIR/root/net.deckywolf.DeckyWolf.desktop" "$SQUASHFS_TARGET/net.deckywolf.DeckyWolf.desktop"
+cp -f "$OVERLAY_DIR/root/net.deckywolf.DeckyWolf.desktop" "$SQUASHFS_TARGET/deckywolf.desktop"
 rm -f "$SQUASHFS_TARGET/net.librewolf.LibreWolf.desktop" "$SQUASHFS_TARGET/librewolf.desktop"
 ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/net.librewolf.LibreWolf.desktop"
 ln -sf net.deckywolf.DeckyWolf.desktop "$SQUASHFS_TARGET/librewolf.desktop"
@@ -206,6 +207,22 @@ for patchfile in "$OVERLAY_DIR/omni/patches"/*.patch; do
     fi
 done
 
+# Validate XML syntax before repacking omni.ja to prevent startup XML parse crashes
+echo "    Validating XML/XHTML syntax in browser/omni.ja..."
+python3 -c "
+import glob, sys, xml.parsers.expat
+has_error = False
+for fpath in glob.glob('$OMNI_TMP/**/*.xhtml', recursive=True):
+    try:
+        with open(fpath, 'r', encoding='utf-8') as f:
+            xml.parsers.expat.ParserCreate('utf-8').Parse(f.read(), True)
+    except Exception as e:
+        print(f'Error: XML syntax failure in {fpath}: {e}', file=sys.stderr)
+        has_error = True
+if has_error:
+    sys.exit(1)
+"
+
 # Repack omni.ja without compression (Firefox requirement: stored zip)
 echo "    Repacking browser/omni.ja (store-only mode)..."
 cd "$OMNI_TMP"
@@ -231,6 +248,7 @@ fi
 
 echo "==> Building final AppImage..."
 rm -f "$OUT_APPIMAGE"
+chmod -R a+rX "$SQUASHFS_TARGET"
 ARCH=x86_64 appimagetool "$SQUASHFS_TARGET" "$OUT_APPIMAGE" >/dev/null
 chmod +x "$OUT_APPIMAGE"
 PARENT_DIR="$(dirname "$SCRIPT_DIR")"

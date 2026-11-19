@@ -260,8 +260,6 @@
     --page-main-content-width: 664px;
     /** panel **/
     --panel-background-color: var(--popup-background-color);
-    --panel-border-color: var(--popup-border-color);
-    --panel-border-radius: var(--popup-border-radius);
     --panel-menuitem-border-radius: var(--border-radius-large);
     --panel-text-color: var(--text-color);
     /** popup **/
@@ -278,8 +276,8 @@
     --text-color-error: light-dark(var(--color-red-50), var(--color-red-20));
     /** toolbar **/
     --toolbar-background-color: light-dark(rgba(255, 255, 255, 40%), rgba(0, 0, 0, 20%));
-    --toolbar-field-background-color: var(--toolbar-background-color);
     --toolbar-field-background-color-focus: var(--background-color-box);
+    --toolbar-field-background-color: light-dark(var(--color-white-alpha-40), var(--color-black-alpha-20));
     --toolbar-field-border-color: light-dark(var(--color-gray-20), var(--color-gray-60));
     --toolbar-field-border-color-focus: var(--focus-outline-color);
     --toolbar-field-text-color: light-dark(var(--color-violet-desaturated-70), var(--color-violet-desaturated-10));
@@ -292,15 +290,16 @@
     --toolbarbutton-icon-fill-attention: var(--color-accent-primary);
     --toolbarbutton-opacity-disabled: 0.4;
     --toolbarbutton-outline-color: transparent;
+    --toolbarbutton-outline-color-disabled: transparent;
     --toolbarbutton-outline-color-selected: var(--toolbarbutton-outline-color-active);
     --toolbarbutton-outline-offset: -1px;
     /** toolbox **/
     --toolbox-background-color: light-dark(var(--color-white), var(--color-gray-70));
-    --toolbox-background-color-gradient-leading: light-dark(var(--color-violet-10), var(--color-violet-desaturated-70));
-    --toolbox-background-color-gradient-trailing: light-dark(var(--color-orange-10), var(--color-orange-70));
     --toolbox-background-color-inactive: transparent;
     /* This gradient is only used for Nova */
-    --toolbox-background-gradient: linear-gradient(96deg, color-mix(var(--toolbox-background-color-gradient-leading) 50%, transparent) 39.84%, color-mix(var(--toolbox-background-color-gradient-trailing) 50%, transparent) 101.72%);
+    --toolbox-background-gradient: linear-gradient(96deg, color-mix(var(--toolbox-background-gradient-leading) 50%, transparent) 39.84%, color-mix(var(--toolbox-background-gradient-trailing) 50%, transparent) 101.72%);
+    --toolbox-background-gradient-leading: light-dark(var(--color-violet-10), var(--color-violet-desaturated-70));
+    --toolbox-background-gradient-trailing: light-dark(var(--color-orange-10), var(--color-orange-70));
     --toolbox-text-color: var(--text-color);
     /* Figma aliases this to toolbox/text/color so designers see a real color, but CSS must use currentColor: the tab inherits --lwt-text-color under an lwtheme and --toolbox-text-color-inactive in a background window, neither of which --toolbox-text-color tracks. Listed in figma-import.mjs's FIGMA_IGNORES so the alias doesn't overwrite this. */
     --toolbox-text-color-current: var(--toolbox-text-color);
@@ -315,6 +314,7 @@
       --text-color: CanvasText;
       --text-color-error: inherit;
       /** toolbar **/
+      --toolbar-field-background-color: Field;
       --toolbar-field-border-color-focus: var(--focus-outline-color);
     }
   }
@@ -404,11 +404,12 @@
       --toolbarbutton-outline-color: var(--button-border-color);
       --toolbarbutton-outline-color-hover: var(--button-border-color-hover);
       --toolbarbutton-outline-color-active: var(--button-border-color-active);
+      --toolbarbutton-outline-color-disabled: var(--button-border-color-disabled);
       /** toolbox **/
-      --toolbox-background-color-gradient-leading: Canvas;
-      --toolbox-background-color-gradient-trailing: Canvas;
       /* This gradient is only used for Nova */
       --toolbox-background-gradient: image(transparent);
+      --toolbox-background-gradient-leading: Canvas;
+      --toolbox-background-gradient-trailing: Canvas;
     }
   }
 }
@@ -1250,6 +1251,29 @@ main.newtab-main section {
   margin-block: var(--space-xlarge);
 }
 
+.nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+  justify-self: center;
+  min-width: 324px;
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 7 * 0.75rem + 6 * 75px)) {
+  .nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: calc(6 * var(--col-width) + 5 * var(--space-medium));
+  }
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 11 * 0.75rem + 10 * 75px)) {
+  .nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: calc(10 * var(--col-width) + 9 * var(--space-medium));
+  }
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 7 * 0.75rem + 6 * 75px)) {
+  .nova-enabled.container:has(.search-inner-wrapper > moz-urlbar) .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: 80cqi;
+  }
+  .nova-enabled.container:has(.search-inner-wrapper > moz-urlbar).logo-in-content .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: 80%;
+  }
+}
+
 /**
  * Nova Grid System
  *
@@ -1332,6 +1356,24 @@ main.newtab-main section {
 
 .nova-enabled.container:has(> .search-wrapper) .content {
   grid-row: 4;
+}
+
+.nova-enabled.container.search-lowered > .sticky-search-sentinel {
+  grid-row: 3;
+}
+.nova-enabled.container.search-lowered > .search-wrapper {
+  grid-row: 3/span 2;
+}
+.nova-enabled.container.search-lowered > :is(.sticky-search-sentinel, .search-wrapper) {
+  margin-block-start: var(--search-card-overhang-block-start);
+}
+@media (height > 700px) {
+  .nova-enabled.container.search-lowered > :is(.sticky-search-sentinel, .search-wrapper) {
+    margin-block-start: calc(var(--search-card-overhang-block-start) - var(--space-xlarge));
+  }
+}
+.nova-enabled.container.search-lowered .content {
+  grid-row: 5;
 }
 
 .nova-enabled .content-full-width {
@@ -2786,6 +2828,7 @@ main.newtab-main section {
 }
 .nova-outer-wrapper.search-has-own-row {
   --search-card-overhang: 48px;
+  --search-card-overhang-block-start: calc(var(--space-small) + var(--size-item-xlarge) + var(--space-medium));
 }
 .nova-outer-wrapper.search-has-own-row moz-urlbar {
   --urlbar-card-display: none;
@@ -2795,7 +2838,7 @@ main.newtab-main section {
   content: "";
   position: absolute;
   position-anchor: --newtab-search-anchor;
-  inset-block-start: calc(anchor(start) - (var(--space-small) + var(--size-item-xlarge) + var(--space-medium)));
+  inset-block-start: calc(anchor(start) - var(--search-card-overhang-block-start));
   inset-block-end: calc(anchor(end) - var(--space-xlarge));
   inset-inline-start: calc(anchor(start) - var(--search-card-overhang));
   inset-inline-end: calc(anchor(end) - var(--search-card-overhang));
@@ -2886,17 +2929,13 @@ main.newtab-main section {
   pointer-events: none;
 }
 
-.nova-enabled ~ .confirmation-dialog {
-  border-radius: var(--border-radius-large);
-}
-
 .confirmation-dialog {
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-small);
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
   padding: 0;
   width: 400px;
-  box-shadow: var(--popup-box-shadow);
-  background: var(--newtab-background-color-secondary);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
+  background-color: var(--dialog-background-color, var(--popup-background-color));
 }
 .confirmation-dialog::backdrop {
   background: var(--newtab-overlay-color);
@@ -5045,16 +5084,13 @@ button.arrow-button:dir(rtl) {
 }
 
 .modalOverlayOuter {
-  border: none;
-  box-shadow: var(--popup-box-shadow);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
   padding: 0;
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
 }
 .modalOverlayOuter::backdrop {
   background: var(--newtab-overlay-color);
-}
-.nova-enabled .modalOverlayOuter {
-  border-radius: var(--border-radius-large);
 }
 
 .notification-wrapper {
@@ -5296,7 +5332,8 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .widgets-container:has([data-dragging]) {
   user-select: none;
 }
-.nova-enabled .widgets-container:has([data-dragging]) iframe {
+.nova-enabled .widgets-container:has([data-dragging]) iframe,
+.nova-enabled .widgets-container:has([data-dragging]) moz-widget {
   pointer-events: none;
 }
 
@@ -5494,6 +5531,19 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .widget-wrapper:has(> .large-widget) {
   grid-column: span 4;
   grid-row: span 4;
+}
+.nova-enabled .widget-wrapper > moz-widget {
+  inline-size: 100%;
+  block-size: var(--newtab-card-height-small);
+  transition: block-size var(--widget-size-transition-duration) var(--widget-size-transition-easing);
+}
+@media (prefers-reduced-motion: reduce) {
+  .nova-enabled .widget-wrapper > moz-widget {
+    transition: none;
+  }
+}
+.nova-enabled .widget-wrapper.large-widget > moz-widget {
+  block-size: var(--newtab-card-height);
 }
 
 .widget-error-fallback {
@@ -6595,9 +6645,7 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .focus-timer {
   --timer-focus-color: var(--color-orange-30, #FF8D5B);
   --timer-break-color: var(--color-violet-50, #764EDD);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   --timer-celebration-leading: #B89CFF;
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   --timer-celebration-trailing: #FF9565;
   --timer-ring-idle-color: light-dark(var(--color-gray-20), var(--color-gray-30));
   --timer-small-ring-size: 60px;
@@ -6966,7 +7014,6 @@ button.arrow-button:dir(rtl) {
   color: var(--text-color-deemphasized);
   font-size: var(--newtab-font-size-xsmall);
   font-weight: var(--font-weight);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   letter-spacing: 0.022em;
   text-transform: none;
   white-space: nowrap;
@@ -7034,7 +7081,6 @@ button.arrow-button:dir(rtl) {
   flex-shrink: 0;
   gap: var(--space-medium);
   justify-content: center;
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   min-inline-size: 180px;
 }
 .nova-enabled .focus-timer.medium-widget.is-active .focus-timer-body, .nova-enabled .focus-timer.medium-widget.is-complete .focus-timer-body, .nova-enabled .focus-timer.medium-widget.is-celebrating .focus-timer-body {
@@ -7085,7 +7131,6 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .focus-timer.large-widget .progress-circle-wrapper :is(.progress-circle-background, .progress-circle-background-break, .progress-circle, .progress-circle-complete, .progress-circle-cap-rotator) {
   inset-block-end: auto;
   inset-block-start: var(--space-medium);
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   block-size: var(--progress-circle-size);
 }
 .nova-enabled .focus-timer.large-widget :is(.progress-circle-background, .progress-circle-background-break, .progress-circle, .progress-circle-complete, .progress-circle-cap) {
@@ -7124,7 +7169,6 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .focus-timer .focus-timer-play-button::part(button) {
   background-color: transparent;
   border-color: transparent;
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   color: light-dark(#816297, #ECE0F5);
 }
 .nova-enabled .focus-timer .focus-timer-play-button:hover::part(button), .nova-enabled .focus-timer .focus-timer-play-button:focus::part(button), .nova-enabled .focus-timer .focus-timer-play-button:focus-visible::part(button), .nova-enabled .focus-timer .focus-timer-play-button:active::part(button) {
@@ -8204,6 +8248,9 @@ button.arrow-button:dir(rtl) {
   min-block-size: 0;
   gap: 0;
 }
+.nova-enabled .clocks-widget .clocks-edit-panel:focus {
+  outline: none;
+}
 .nova-enabled .clocks-widget .clocks-edit-item {
   display: flex;
   flex-direction: column;
@@ -8213,7 +8260,7 @@ button.arrow-button:dir(rtl) {
   padding-block: var(--space-xsmall);
   padding-inline-start: var(--space-xlarge);
   padding-inline-end: calc(var(--space-medium) * 4);
-  border-radius: var(--button-border-radius);
+  border-radius: var(--border-radius-small);
   transition: background-color 180ms ease;
   min-block-size: var(--size-item-xlarge);
 }
@@ -8265,7 +8312,7 @@ button.arrow-button:dir(rtl) {
 }
 .nova-enabled .clocks-widget .clocks-edit-item-button:hover::part(button),
 .nova-enabled .clocks-widget .clocks-edit-item-button:focus-visible::part(button) {
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/no-base-design-tokens, stylelint-plugin-mozilla/use-design-tokens */
+  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   border-color: rgba(255, 255, 255, 0.9);
 }
 .nova-enabled .clocks-widget .clocks-edit-subtitle {
@@ -13904,7 +13951,6 @@ button.arrow-button:dir(rtl) {
 .nova-enabled .wallpaper-feature-highlight .feature-highlight .wallpaper-feature-highlight-modal.inset-block-start::after {
   inset-inline-end: calc(var(--space-xlarge) / -2 + var(--border-width));
   background: var(--background-color-box);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   border: var(--border-width) solid var(--nova-highlight-border-gradient-end);
   border-start-end-radius: var(--border-radius-small);
   box-shadow: none;
@@ -14098,7 +14144,7 @@ button.arrow-button:dir(rtl) {
   border-end-end-radius: var(--border-radius-small);
   box-shadow: none;
   clip-path: polygon(100% 100%, 100% 2%, 2% 100%);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens, declaration-property-value-disallowed-list */
+  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   inset-block-end: calc(var(--space-medium) * -1 + 0.125px);
   inset-inline-start: 50%;
   transform: translateX(-50%) rotate(45deg);
@@ -14704,11 +14750,11 @@ button.arrow-button:dir(rtl) {
 .report-content-form {
   width: 500px;
   height: 270px;
-  box-shadow: var(--box-shadow-level-4);
-  border-radius: var(--border-radius-medium);
-  border: 1px solid var(--border-color);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
-  background-color: var(--newtab-background-color-secondary);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
+  background-color: var(--dialog-background-color, var(--popup-background-color));
+  padding: var(--dialog-padding, var(--space-large));
 }
 .report-content-form form {
   height: 100%;

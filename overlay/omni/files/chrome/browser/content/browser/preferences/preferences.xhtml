@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="chrome://browser/content/preferences/widgets/setting-group.css" />
   <link rel="stylesheet" href="chrome://browser/content/preferences/widgets/setting-pane.css" />
   <link rel="stylesheet" href="chrome://browser/content/preferences/widgets/setting-control.css" />
+  <link rel="stylesheet" href="chrome://browser/content/ipprotection/vpn-site-rules-list.css" />
 
   <link rel="localization" href="branding/brand.ftl"/>
   <link rel="localization" href="browser/browser.ftl"/>
@@ -102,6 +103,7 @@
   <script type="module" src="chrome://browser/content/preferences/widgets/update-information.mjs"></script>
   <script type="module" src="chrome://browser/content/preferences/widgets/update-state.mjs"></script>
   <script type="module" src="chrome://browser/content/ipprotection/bandwidth-usage.mjs"></script>
+  <script type="module" src="chrome://browser/content/ipprotection/vpn-site-rules-list.mjs"></script>
 </head>
 
 <html:body xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
@@ -186,7 +188,8 @@
         iconsrc="chrome://browser/skin/permissions.svg"
         data-l10n-id="pane-permissions-data-title2">
       </html:moz-page-nav-button>
-            <html:moz-page-nav-button id="category-controller"
+      
+      <html:moz-page-nav-button id="category-controller"
         view="paneController"
         iconsrc="chrome://browser/skin/preferences/category-controller.svg"
         data-l10n-id="pane-controller-title">Режим управления
@@ -198,7 +201,7 @@
         data-l10n-id="pane-belylis-title">Белый Лис
       </html:moz-page-nav-button>
 
-      <html:moz-page-nav-button id="category-experimental"
+<html:moz-page-nav-button id="category-experimental"
         hidden="true"
         view="paneExperimental"
         iconsrc="chrome://browser/skin/labs-16.svg"
@@ -1497,6 +1500,7 @@
     </description>
   </vbox>
 </groupbox>
+
 
 <script src="chrome://browser/content/preferences/librewolf.js"/>
 

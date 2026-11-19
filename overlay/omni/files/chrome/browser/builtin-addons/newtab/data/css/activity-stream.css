@@ -848,6 +848,29 @@ main.newtab-main section {
   margin-block: var(--space-xlarge);
 }
 
+.nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+  justify-self: center;
+  min-width: 324px;
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 7 * 0.75rem + 6 * 75px)) {
+  .nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: calc(6 * var(--col-width) + 5 * var(--space-medium));
+  }
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 11 * 0.75rem + 10 * 75px)) {
+  .nova-enabled.container .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: calc(10 * var(--col-width) + 9 * var(--space-medium));
+  }
+}
+@container outer-grid (inline-size >= calc(2 * 150px + 7 * 0.75rem + 6 * 75px)) {
+  .nova-enabled.container:has(.search-inner-wrapper > moz-urlbar) .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: 80cqi;
+  }
+  .nova-enabled.container:has(.search-inner-wrapper > moz-urlbar).logo-in-content .message-wrapper:has(> .asrouter-multistage-message-wrapper) {
+    width: 80%;
+  }
+}
+
 /**
  * Nova Grid System
  *
@@ -930,6 +953,24 @@ main.newtab-main section {
 
 .nova-enabled.container:has(> .search-wrapper) .content {
   grid-row: 4;
+}
+
+.nova-enabled.container.search-lowered > .sticky-search-sentinel {
+  grid-row: 3;
+}
+.nova-enabled.container.search-lowered > .search-wrapper {
+  grid-row: 3/span 2;
+}
+.nova-enabled.container.search-lowered > :is(.sticky-search-sentinel, .search-wrapper) {
+  margin-block-start: var(--search-card-overhang-block-start);
+}
+@media (height > 700px) {
+  .nova-enabled.container.search-lowered > :is(.sticky-search-sentinel, .search-wrapper) {
+    margin-block-start: calc(var(--search-card-overhang-block-start) - var(--space-xlarge));
+  }
+}
+.nova-enabled.container.search-lowered .content {
+  grid-row: 5;
 }
 
 .nova-enabled .content-full-width {
@@ -2501,49 +2542,48 @@ main.newtab-main section {
   row-gap: calc(3 * var(--space-medium));
   justify-content: center;
 }
-.nova-enabled .content-full-width.spaces.spaces-thematic .widgets-section-container {
+.nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.layout-content-column) .widgets-section-container {
   display: none;
 }
 @container outer-grid (inline-size >= calc(12 * 75px + 13 * 0.75rem)) {
   .nova-enabled .content-full-width.spaces.spaces-thematic .spaces-frame {
-    inline-size: calc(13 * var(--col-width) + 12 * var(--space-medium));
+    inline-size: calc(calc(12 * var(--col-width) + 11 * var(--space-medium)) + 2 * var(--space-medium));
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .widgets-section-container {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.layout-content-column) .widgets-section-container {
     display: grid;
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .layout-content-column.has-feed {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .layout-content-column.has-feed, .nova-enabled .content-full-width.spaces.spaces-thematic .space:not(:has(.layout-content-column)) :is(.widgets-section-container, .layout-highlights-column) {
     inline-size: calc(12 * var(--col-width) + 11 * var(--space-medium));
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) {
     grid-template-columns: calc(8 * var(--col-width) + 7 * var(--space-medium)) calc(4 * var(--col-width) + 3 * var(--space-medium));
-    /* stylelint-disable-next-line max-line-length */
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) :is(.widgets-section-container, .layout-content-column.has-feed, .layout-highlights-column) {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) :is(.widgets-section-container, .layout-content-column.has-feed, .layout-highlights-column) {
     inline-size: auto;
     justify-self: stretch;
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) .widgets-section-container {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) .widgets-section-container {
     align-self: start;
     grid-column: 2;
     grid-row: 1;
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) .layout-content-column.has-feed {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) .layout-content-column.has-feed {
     grid-column: 1;
     grid-row: 1;
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) .layout-highlights-column {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) .layout-highlights-column {
     grid-column: 1;
     grid-row: 2;
   }
 }
 @container outer-grid (inline-size >= calc(16 * 75px + 17 * 0.75rem)) {
   .nova-enabled .content-full-width.spaces.spaces-thematic .spaces-frame {
-    inline-size: calc(17 * var(--col-width) + 16 * var(--space-medium));
+    inline-size: calc(calc(16 * var(--col-width) + 15 * var(--space-medium)) + 2 * var(--space-medium));
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .layout-content-column.has-feed {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .layout-content-column.has-feed, .nova-enabled .content-full-width.spaces.spaces-thematic .space:not(:has(.layout-content-column)) :is(.widgets-section-container, .layout-highlights-column) {
     inline-size: calc(16 * var(--col-width) + 15 * var(--space-medium));
   }
-  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container) {
+  .nova-enabled .content-full-width.spaces.spaces-thematic .space:has(.widgets-section-container):has(.layout-content-column) {
     grid-template-columns: calc(12 * var(--col-width) + 11 * var(--space-medium)) calc(4 * var(--col-width) + 3 * var(--space-medium));
   }
 }
@@ -2607,82 +2647,322 @@ main.newtab-main section {
   justify-content: flex-start;
   gap: var(--space-small);
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows {
+.nova-enabled .content-full-width.spaces .spaces-tab {
+  anchor-name: var(--spaces-tab-anchor);
+}
+.nova-enabled .content-full-width.spaces .spaces-preview {
+  position: absolute;
+  position-anchor: var(--spaces-preview-anchor);
+  position-area: block-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-large);
+  margin-block-end: var(--space-xxlarge);
+  background-color: var(--panel-background-color);
+  color: var(--panel-text-color);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--border-radius-large);
+  pointer-events: none;
+  padding: var(--space-large);
+  box-sizing: border-box;
+  /* stylelint-disable stylelint-plugin-mozilla/use-design-tokens */
+  inline-size: 291px;
+  block-size: 296px;
+  /* stylelint-enable stylelint-plugin-mozilla/use-design-tokens */
+  --spaces-preview-border-color-leading: var(--color-violet-30);
+  --spaces-preview-border-color-trailing: var(--color-orange-30);
+  --spaces-preview-caret-border-color: var(--border-color);
+}
+@media (prefers-contrast: no-preference) {
+  .nova-enabled .content-full-width.spaces .spaces-preview {
+    --spaces-preview-caret-border-color: color-mix(in srgb, var(--spaces-preview-border-color-leading), var(--spaces-preview-border-color-trailing));
+    border-color: transparent;
+    background: linear-gradient(var(--panel-background-color), var(--panel-background-color)) padding-box, linear-gradient(96deg, var(--spaces-preview-border-color-leading) 20.68%, var(--spaces-preview-border-color-trailing) 79.34%) border-box;
+  }
+}
+.nova-enabled .content-full-width.spaces .spaces-preview::after {
+  content: "";
+  position: absolute;
+  inset-block-start: 100%;
+  inset-inline: 0;
+  margin-inline: auto;
+  translate: 0 -50%;
+  rotate: 45deg;
+  inline-size: var(--size-item-xsmall);
+  block-size: var(--size-item-xsmall);
+  border-inline-end: var(--border-width) solid var(--spaces-preview-caret-border-color);
+  border-block-end: var(--border-width) solid var(--spaces-preview-caret-border-color);
+  background-color: var(--panel-background-color);
+  color: var(--panel-text-color);
+}
+.nova-enabled .content-full-width.spaces .spaces-preview:dir(rtl)::after {
+  rotate: -45deg;
+}
+.nova-enabled .content-full-width.spaces .spaces-preview-item {
+  align-self: stretch;
+  flex: 1;
+  min-block-size: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nova-enabled .content-full-width.spaces .spaces-preview-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: var(--border-radius-large);
+  object-fit: none;
+  object-position: center;
+}
+.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-frame::before {
+  content: none;
+}
+.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-track.animate .space {
+  transition-duration: 150ms;
+}
+.nova-enabled .content-full-width.spaces.spaces-arrows {
   max-inline-size: none;
   inline-size: auto;
   justify-self: stretch;
   margin-inline: calc(-1 * var(--space-xlarge));
   grid-template-columns: 100%;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-frame {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-frame {
   container: content-grid/inline-size;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-frame::before {
-  content: none;
-}
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-container {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-container {
   position: relative;
   anchor-name: --spaces-panel;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-track.animate .space {
-  transition-duration: 150ms;
-}
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow-rail {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow-rail {
   position: absolute;
   inset-block-start: calc(-1 * (var(--space-medium) + var(--button-min-height) / 2));
   inset-block-end: 0;
   z-index: 1;
   pointer-events: none;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow-rail.prev {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow-rail.prev {
   inset-inline-start: 0;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow-rail.next {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow-rail.next {
   inset-inline-end: 0;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow {
   position: sticky;
   inset-block-start: 40vh;
   pointer-events: auto;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow::part(button) {
+.nova-enabled .content-full-width.spaces.spaces-arrows:not(.spaces-floating-arrows) .spaces-arrow {
+  inset-block-start: calc(70vh - var(--button-min-height) / 2);
+}
+.lightWallpaper .nova-enabled .content-full-width.spaces.spaces-arrows:not(.spaces-floating-arrows) .spaces-arrow {
+  color-scheme: light;
+}
+.darkWallpaper .nova-enabled .content-full-width.spaces.spaces-arrows:not(.spaces-floating-arrows) .spaces-arrow {
+  color-scheme: dark;
+}
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow::part(button) {
   padding-inline: var(--space-medium);
   transition: padding-inline 0.2s ease, gap 0.2s ease;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow:not(:hover, [focusvisible])::part(button) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow:not(:hover, [focusvisible])::part(button) {
   gap: 0;
   padding-inline: var(--space-small);
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow::part(moz-button-label) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow::part(moz-button-label) {
   max-width: 0;
   opacity: 0;
   overflow: hidden;
   white-space: nowrap;
   transition: max-width 0.2s ease, opacity 0.2s ease;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow:is(:hover, [focusvisible])::part(moz-button-label) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow:is(:hover, [focusvisible])::part(moz-button-label) {
   max-width: 30ch;
   opacity: 1;
 }
 @media (prefers-reduced-motion: reduce) {
-  .nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow::part(button),
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .spaces-arrow::part(moz-button-label) {
+  .nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow::part(button),
+.nova-enabled .content-full-width.spaces.spaces-arrows .spaces-arrow::part(moz-button-label) {
     transition: none;
   }
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .prev .spaces-arrow::part(button) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .prev .spaces-arrow::part(button) {
   border-start-start-radius: 0;
   border-end-start-radius: 0;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .next .spaces-arrow::part(button) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .next .spaces-arrow::part(button) {
   border-start-end-radius: 0;
   border-end-end-radius: 0;
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .prev .spaces-arrow:dir(rtl) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .prev .spaces-arrow:dir(rtl) {
   --button-icon-content: url("chrome://global/skin/icons/shaft-arrow-right.svg");
 }
-.nova-enabled .content-full-width.spaces.spaces-floating-arrows .next .spaces-arrow:dir(rtl) {
+.nova-enabled .content-full-width.spaces.spaces-arrows .next .spaces-arrow:dir(rtl) {
   --button-icon-content: url("chrome://global/skin/icons/shaft-arrow-left.svg");
+}
+.nova-enabled .content-full-width.spaces.spaces-peek {
+  --peek-gap: calc(2 * var(--space-medium) + 2 * var(--space-xxlarge));
+  --peek-slide: var(--space-xlarge);
+  --peek-push: calc(5 * var(--space-large));
+  --peek-duration: 150ms;
+  --peek-min-height: calc(
+    var(--newtab-card-height) + 2 * var(--space-xlarge)
+  );
+  --space-gap: var(--peek-gap);
+  max-inline-size: none;
+  inline-size: auto;
+  justify-self: stretch;
+  margin-inline: calc(-1 * var(--space-xlarge));
+  grid-template-columns: 100%;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame {
+  container: content-grid/inline-size;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-container {
+  --peek-sign: 1;
+  overflow-x: clip;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-container:dir(rtl) {
+  --peek-sign: -1;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-track {
+  overflow: visible;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-track,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame::before {
+  transition: translate var(--peek-duration) ease-out;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-next .spaces-track,
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-next .spaces-frame::before,
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-next .spaces-peek-box.prev {
+  translate: calc(-1 * var(--peek-sign) * var(--peek-push));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-next .spaces-peek-box.next {
+  translate: calc(-1 * var(--peek-sign) * (var(--peek-push) + var(--peek-slide)));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-prev .spaces-track,
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-prev .spaces-frame::before,
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-prev .spaces-peek-box.next {
+  translate: calc(var(--peek-sign) * var(--peek-push));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-prev .spaces-peek-box.prev {
+  translate: calc(var(--peek-sign) * (var(--peek-push) + var(--peek-slide)));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-next .space.peeking-next,
+.nova-enabled .content-full-width.spaces.spaces-peek .peek-hover-prev .space.peeking-prev {
+  translate: calc(var(--peek-sign) * var(--space-offset) * (100% + var(--peek-gap) - var(--peek-slide)));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek :is(.peek-hover-next, .peek-hover-prev) :is(.spaces-track, .spaces-peek-box, .space),
+.nova-enabled .content-full-width.spaces.spaces-peek :is(.peek-hover-next, .peek-hover-prev) .spaces-frame::before {
+  transition-delay: 50ms;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .space:not(.active, .peeking) {
+  visibility: hidden;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .space:not(.active) {
+  inset-block-end: 0;
+  min-block-size: var(--peek-min-height);
+  overflow-y: clip;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-track.animate .space {
+  transition-property: translate, opacity, visibility;
+  transition-duration: var(--peek-duration);
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+  position: relative;
+  isolation: isolate;
+  position: absolute;
+  inset-block: 0;
+  inline-size: 100vw;
+  min-block-size: var(--peek-min-height);
+  cursor: pointer;
+  transition-property: translate, opacity, visibility;
+  transition-duration: var(--peek-duration);
+  transition-timing-function: ease-out;
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box::before {
+  content: "";
+  position: absolute;
+  inset: calc(-1 * var(--space-medium));
+  z-index: -1;
+  border: var(--border-width) solid var(--card-border-color);
+  border-radius: var(--border-radius-large);
+}
+:is(.lightWallpaper, .darkWallpaper) .nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box::before {
+  border-color: transparent;
+  background-color: var(--newtab-layout-panel-background);
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box.next {
+  inset-inline-start: calc(100% + var(--peek-gap));
+}
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box.prev {
+  inset-inline-end: calc(100% + var(--peek-gap));
+}
+@media (prefers-reduced-motion: reduce) {
+  .nova-enabled .content-full-width.spaces.spaces-peek .spaces-track,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-track.animate .space,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame::before,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+    transition: none;
+  }
+  .nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+    --peek-push: 0px;
+    --peek-slide: 0px;
+  }
+}
+@container component (inline-size < calc(calc(4 * 75px + 3 * 0.75rem) + 2 * (5.5rem + 3rem))) {
+  .nova-enabled .content-full-width.spaces.spaces-peek :is(.spaces-peek-box, .space.peeking) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+    --peek-push: 0px;
+    --peek-slide: 0px;
+  }
+}
+@container outer-grid (inline-size >= calc(8 * 75px + 7 * 0.75rem)) {
+  @container component (inline-size < calc(calc(8 * 75px + 7 * 0.75rem) + 2 * (5.5rem + 3rem))) {
+    .nova-enabled .content-full-width.spaces.spaces-peek :is(.spaces-peek-box, .space.peeking) {
+      opacity: 0;
+      visibility: hidden;
+    }
+    .nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+      --peek-push: 0px;
+      --peek-slide: 0px;
+    }
+  }
+}
+@container outer-grid (inline-size >= calc(12 * 75px + 11 * 0.75rem)) {
+  @container component (inline-size < calc(calc(12 * 75px + 11 * 0.75rem) + 2 * (5.5rem + 3rem))) {
+    .nova-enabled .content-full-width.spaces.spaces-peek :is(.spaces-peek-box, .space.peeking) {
+      opacity: 0;
+      visibility: hidden;
+    }
+    .nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+      --peek-push: 0px;
+      --peek-slide: 0px;
+    }
+  }
+}
+@container outer-grid (inline-size >= calc(16 * 75px + 15 * 0.75rem)) {
+  @container component (inline-size < calc(calc(16 * 75px + 15 * 0.75rem) + 2 * (5.5rem + 3rem))) {
+    .nova-enabled .content-full-width.spaces.spaces-peek :is(.spaces-peek-box, .space.peeking) {
+      opacity: 0;
+      visibility: hidden;
+    }
+    .nova-enabled .content-full-width.spaces.spaces-peek .spaces-frame,
+.nova-enabled .content-full-width.spaces.spaces-peek .spaces-peek-box {
+      --peek-push: 0px;
+      --peek-slide: 0px;
+    }
+  }
 }
 
 .spaces-panel-backdrop {
@@ -2927,6 +3207,7 @@ main.newtab-main section {
 }
 .nova-outer-wrapper.search-has-own-row {
   --search-card-overhang: 48px;
+  --search-card-overhang-block-start: calc(var(--space-small) + var(--size-item-xlarge) + var(--space-medium));
 }
 .nova-outer-wrapper.search-has-own-row moz-urlbar {
   --urlbar-card-display: none;
@@ -2936,7 +3217,7 @@ main.newtab-main section {
   content: "";
   position: absolute;
   position-anchor: --newtab-search-anchor;
-  inset-block-start: calc(anchor(start) - (var(--space-small) + var(--size-item-xlarge) + var(--space-medium)));
+  inset-block-start: calc(anchor(start) - var(--search-card-overhang-block-start));
   inset-block-end: calc(anchor(end) - var(--space-xlarge));
   inset-inline-start: calc(anchor(start) - var(--search-card-overhang));
   inset-inline-end: calc(anchor(end) - var(--search-card-overhang));
@@ -3027,17 +3308,13 @@ main.newtab-main section {
   pointer-events: none;
 }
 
-.nova-enabled ~ .confirmation-dialog {
-  border-radius: var(--border-radius-large);
-}
-
 .confirmation-dialog {
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-small);
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
   padding: 0;
   width: 400px;
-  box-shadow: var(--popup-box-shadow);
-  background: var(--newtab-background-color-secondary);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
+  background-color: var(--dialog-background-color, var(--popup-background-color));
 }
 .confirmation-dialog::backdrop {
   background: var(--newtab-overlay-color);
@@ -4368,9 +4645,9 @@ button.arrow-button:dir(rtl) {
 }
 .weatherOptIn dialog {
   background: var(--newtab-background-color-secondary);
-  border: 1px solid var(--card-border-color);
-  border-radius: var(--border-radius-medium);
-  box-shadow: var(--card-box-shadow);
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
   display: flex;
   width: 332px;
 }
@@ -5912,16 +6189,13 @@ dialog:dir(rtl)::after {
 }
 
 .modalOverlayOuter {
-  border: none;
-  box-shadow: var(--popup-box-shadow);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
   padding: 0;
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
 }
 .modalOverlayOuter::backdrop {
   background: var(--newtab-overlay-color);
-}
-.nova-enabled .modalOverlayOuter {
-  border-radius: var(--border-radius-large);
 }
 
 .notification-wrapper {
@@ -6163,7 +6437,8 @@ dialog:dir(rtl)::after {
 .nova-enabled .widgets-container:has([data-dragging]) {
   user-select: none;
 }
-.nova-enabled .widgets-container:has([data-dragging]) iframe {
+.nova-enabled .widgets-container:has([data-dragging]) iframe,
+.nova-enabled .widgets-container:has([data-dragging]) moz-widget {
   pointer-events: none;
 }
 
@@ -6361,6 +6636,19 @@ dialog:dir(rtl)::after {
 .nova-enabled .widget-wrapper:has(> .large-widget) {
   grid-column: span 4;
   grid-row: span 4;
+}
+.nova-enabled .widget-wrapper > moz-widget {
+  inline-size: 100%;
+  block-size: var(--newtab-card-height-small);
+  transition: block-size var(--widget-size-transition-duration) var(--widget-size-transition-easing);
+}
+@media (prefers-reduced-motion: reduce) {
+  .nova-enabled .widget-wrapper > moz-widget {
+    transition: none;
+  }
+}
+.nova-enabled .widget-wrapper.large-widget > moz-widget {
+  block-size: var(--newtab-card-height);
 }
 
 .widget-error-fallback {
@@ -7462,9 +7750,7 @@ dialog:dir(rtl)::after {
 .nova-enabled .focus-timer {
   --timer-focus-color: var(--color-orange-30, #FF8D5B);
   --timer-break-color: var(--color-violet-50, #764EDD);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   --timer-celebration-leading: #B89CFF;
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   --timer-celebration-trailing: #FF9565;
   --timer-ring-idle-color: light-dark(var(--color-gray-20), var(--color-gray-30));
   --timer-small-ring-size: 60px;
@@ -7833,7 +8119,6 @@ dialog:dir(rtl)::after {
   color: var(--text-color-deemphasized);
   font-size: var(--newtab-font-size-xsmall);
   font-weight: var(--font-weight);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   letter-spacing: 0.022em;
   text-transform: none;
   white-space: nowrap;
@@ -7901,7 +8186,6 @@ dialog:dir(rtl)::after {
   flex-shrink: 0;
   gap: var(--space-medium);
   justify-content: center;
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   min-inline-size: 180px;
 }
 .nova-enabled .focus-timer.medium-widget.is-active .focus-timer-body, .nova-enabled .focus-timer.medium-widget.is-complete .focus-timer-body, .nova-enabled .focus-timer.medium-widget.is-celebrating .focus-timer-body {
@@ -7952,7 +8236,6 @@ dialog:dir(rtl)::after {
 .nova-enabled .focus-timer.large-widget .progress-circle-wrapper :is(.progress-circle-background, .progress-circle-background-break, .progress-circle, .progress-circle-complete, .progress-circle-cap-rotator) {
   inset-block-end: auto;
   inset-block-start: var(--space-medium);
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   block-size: var(--progress-circle-size);
 }
 .nova-enabled .focus-timer.large-widget :is(.progress-circle-background, .progress-circle-background-break, .progress-circle, .progress-circle-complete, .progress-circle-cap) {
@@ -7991,7 +8274,6 @@ dialog:dir(rtl)::after {
 .nova-enabled .focus-timer .focus-timer-play-button::part(button) {
   background-color: transparent;
   border-color: transparent;
-  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   color: light-dark(#816297, #ECE0F5);
 }
 .nova-enabled .focus-timer .focus-timer-play-button:hover::part(button), .nova-enabled .focus-timer .focus-timer-play-button:focus::part(button), .nova-enabled .focus-timer .focus-timer-play-button:focus-visible::part(button), .nova-enabled .focus-timer .focus-timer-play-button:active::part(button) {
@@ -9071,6 +9353,9 @@ dialog:dir(rtl)::after {
   min-block-size: 0;
   gap: 0;
 }
+.nova-enabled .clocks-widget .clocks-edit-panel:focus {
+  outline: none;
+}
 .nova-enabled .clocks-widget .clocks-edit-item {
   display: flex;
   flex-direction: column;
@@ -9080,7 +9365,7 @@ dialog:dir(rtl)::after {
   padding-block: var(--space-xsmall);
   padding-inline-start: var(--space-xlarge);
   padding-inline-end: calc(var(--space-medium) * 4);
-  border-radius: var(--button-border-radius);
+  border-radius: var(--border-radius-small);
   transition: background-color 180ms ease;
   min-block-size: var(--size-item-xlarge);
 }
@@ -9132,7 +9417,7 @@ dialog:dir(rtl)::after {
 }
 .nova-enabled .clocks-widget .clocks-edit-item-button:hover::part(button),
 .nova-enabled .clocks-widget .clocks-edit-item-button:focus-visible::part(button) {
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/no-base-design-tokens, stylelint-plugin-mozilla/use-design-tokens */
+  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   border-color: rgba(255, 255, 255, 0.9);
 }
 .nova-enabled .clocks-widget .clocks-edit-subtitle {
@@ -10215,7 +10500,6 @@ dialog:dir(rtl)::after {
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
-/* stylelint-disable stylelint-plugin-mozilla/use-design-tokens */
 .crossword {
   --widget-size-transition-duration: 180ms;
   --widget-size-transition-easing: ease;
@@ -10943,7 +11227,7 @@ dialog:dir(rtl)::after {
   background-repeat: no-repeat;
 }
 
-.picture-of-the-day.has-picture::before {
+.picture-of-the-day:has(.picture-of-the-day-image.loaded)::before {
   content: none;
 }
 
@@ -11085,6 +11369,10 @@ dialog:dir(rtl)::after {
   block-size: 100%;
   object-fit: cover;
   z-index: 0;
+  opacity: 0;
+}
+.picture-of-the-day-image.loaded {
+  opacity: 1;
 }
 
 .picture-of-the-day-title-row {
@@ -11169,6 +11457,15 @@ dialog:dir(rtl)::after {
   color: var(--color-white);
   font-size: var(--font-size-small);
   text-shadow: 0 1px 2px color-mix(in srgb, var(--color-black) 60%, transparent);
+}
+
+.picture-of-the-day-attribution-author {
+  display: inline-block;
+  max-inline-size: 100%;
+  overflow: hidden;
+  vertical-align: bottom;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .picture-of-the-day-attribution-link {
@@ -11283,6 +11580,281 @@ dialog:dir(rtl)::after {
     background: var(--background-color-canvas);
   }
 }
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+.horoscopes {
+  --widget-size-transition-duration: 180ms;
+  --widget-size-transition-easing: ease;
+  background: var(--newtab-background-card);
+  transition: opacity 0.2s ease;
+  padding: var(--space-medium);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-level-2);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: height var(--widget-size-transition-duration) var(--widget-size-transition-easing);
+}
+.horoscopes:hover {
+  background: var(--newtab-background-color-secondary);
+}
+.horoscopes.small-widget, .horoscopes.medium-widget {
+  height: var(--newtab-card-height-small);
+}
+.horoscopes.large-widget {
+  height: var(--newtab-card-height);
+}
+.horoscopes:hover, .horoscopes:focus-within {
+  outline: 1px solid var(--border-color-deemphasized);
+  box-shadow: var(--card-box-shadow-hover);
+}
+@media (prefers-reduced-motion: reduce) {
+  .horoscopes {
+    transition: none;
+  }
+}
+.horoscopes.medium-widget {
+  grid-row: span 2;
+}
+.horoscopes.large-widget {
+  grid-row: span 4;
+}
+
+.horoscopes-title-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horoscopes-badge-title-wrapper {
+  align-items: center;
+  display: flex;
+  gap: var(--space-small);
+  min-inline-size: 0;
+}
+
+.horoscopes-new-badge {
+  flex: none;
+  background-color: var(--badge-background-color-filled);
+  border-radius: var(--badge-border-radius);
+  text-transform: uppercase;
+  --badge-padding-block: 1px;
+  --badge-padding-inline: var(--space-small);
+  --badge-background-color-filled: var(--color-green-40);
+  --badge-text-color: var(--badge-text-color-filled);
+  --badge-border-color: transparent;
+}
+
+@media (forced-colors: active) {
+  .horoscopes-new-badge {
+    --badge-background-color-filled: AccentColor;
+  }
+}
+.horoscopes-context-menu-wrapper {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.horoscopes:hover .horoscopes-context-menu-wrapper,
+.horoscopes:focus-within .horoscopes-context-menu-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.horoscopes-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-small);
+  min-height: 0;
+}
+
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+.travel {
+  --widget-size-transition-duration: 180ms;
+  --widget-size-transition-easing: ease;
+  background: var(--newtab-background-card);
+  transition: opacity 0.2s ease;
+  padding: var(--space-medium);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-level-2);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: height var(--widget-size-transition-duration) var(--widget-size-transition-easing);
+}
+.travel:hover {
+  background: var(--newtab-background-color-secondary);
+}
+.travel.small-widget, .travel.medium-widget {
+  height: var(--newtab-card-height-small);
+}
+.travel.large-widget {
+  height: var(--newtab-card-height);
+}
+.travel:hover, .travel:focus-within {
+  outline: 1px solid var(--border-color-deemphasized);
+  box-shadow: var(--card-box-shadow-hover);
+}
+@media (prefers-reduced-motion: reduce) {
+  .travel {
+    transition: none;
+  }
+}
+.travel.medium-widget {
+  grid-row: span 2;
+}
+.travel.large-widget {
+  grid-row: span 4;
+}
+
+.travel-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-end: var(--space-xsmall);
+}
+
+.travel-badge-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  min-inline-size: 0;
+}
+
+.travel-new-badge {
+  flex: none;
+  background-color: var(--badge-background-color-filled);
+  border-radius: var(--badge-border-radius);
+  text-transform: uppercase;
+  --badge-padding-block: 1px;
+  --badge-padding-inline: var(--space-small);
+  --badge-background-color-filled: var(--color-green-40);
+  --badge-text-color: var(--badge-text-color-filled);
+  --badge-border-color: transparent;
+}
+
+@media (forced-colors: active) {
+  .travel-new-badge {
+    --badge-background-color-filled: AccentColor;
+  }
+}
+.travel-context-menu-wrapper {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.travel:hover .travel-context-menu-wrapper,
+.travel:focus-within .travel-context-menu-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.travel-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-small);
+  min-height: 0;
+}
+
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+.solitaire {
+  --widget-size-transition-duration: 180ms;
+  --widget-size-transition-easing: ease;
+  background: var(--newtab-background-card);
+  transition: opacity 0.2s ease;
+  padding: var(--space-medium);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-level-2);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: height var(--widget-size-transition-duration) var(--widget-size-transition-easing);
+}
+.solitaire:hover {
+  background: var(--newtab-background-color-secondary);
+}
+.solitaire.small-widget, .solitaire.medium-widget {
+  height: var(--newtab-card-height-small);
+}
+.solitaire.large-widget {
+  height: var(--newtab-card-height);
+}
+.solitaire:hover, .solitaire:focus-within {
+  outline: 1px solid var(--border-color-deemphasized);
+  box-shadow: var(--card-box-shadow-hover);
+}
+@media (prefers-reduced-motion: reduce) {
+  .solitaire {
+    transition: none;
+  }
+}
+.solitaire.medium-widget {
+  grid-row: span 2;
+}
+.solitaire.large-widget {
+  grid-row: span 4;
+}
+
+.solitaire-title-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: var(--space-xsmall);
+}
+
+.solitaire-badge-title-wrapper {
+  align-items: center;
+  display: flex;
+  gap: var(--space-small);
+  min-inline-size: 0;
+}
+
+.solitaire-new-badge {
+  flex: none;
+  background-color: var(--badge-background-color-filled);
+  border-radius: var(--badge-border-radius);
+  text-transform: uppercase;
+  --badge-padding-block: 1px;
+  --badge-padding-inline: var(--space-small);
+  --badge-background-color-filled: var(--color-green-40);
+  --badge-text-color: var(--badge-text-color-filled);
+  --badge-border-color: transparent;
+}
+
+@media (forced-colors: active) {
+  .solitaire-new-badge {
+    --badge-background-color-filled: AccentColor;
+  }
+}
+.solitaire-context-menu-wrapper {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.solitaire:hover .solitaire-context-menu-wrapper,
+.solitaire:focus-within .solitaire-context-menu-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.solitaire-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-small);
+  min-height: 0;
+}
+
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -17036,7 +17608,6 @@ dialog:dir(rtl)::after {
 .nova-enabled .wallpaper-feature-highlight .feature-highlight .wallpaper-feature-highlight-modal.inset-block-start::after {
   inset-inline-end: calc(var(--space-xlarge) / -2 + var(--border-width));
   background: var(--background-color-box);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
   border: var(--border-width) solid var(--nova-highlight-border-gradient-end);
   border-start-end-radius: var(--border-radius-small);
   box-shadow: none;
@@ -17230,7 +17801,7 @@ dialog:dir(rtl)::after {
   border-end-end-radius: var(--border-radius-small);
   box-shadow: none;
   clip-path: polygon(100% 100%, 100% 2%, 2% 100%);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens, declaration-property-value-disallowed-list */
+  /* stylelint-disable-next-line declaration-property-value-disallowed-list */
   inset-block-end: calc(var(--space-medium) * -1 + 0.125px);
   inset-inline-start: 50%;
   transform: translateX(-50%) rotate(45deg);
@@ -17836,11 +18407,11 @@ dialog:dir(rtl)::after {
 .report-content-form {
   width: 500px;
   height: 270px;
-  box-shadow: var(--box-shadow-level-4);
-  border-radius: var(--border-radius-medium);
-  border: 1px solid var(--border-color);
-  /* stylelint-disable-next-line stylelint-plugin-mozilla/use-design-tokens */
-  background-color: var(--newtab-background-color-secondary);
+  box-shadow: var(--dialog-box-shadow, var(--popup-box-shadow));
+  border-radius: var(--dialog-border-radius, var(--popup-border-radius));
+  border: var(--border-width) solid var(--dialog-border-color, var(--popup-border-color));
+  background-color: var(--dialog-background-color, var(--popup-background-color));
+  padding: var(--dialog-padding, var(--space-large));
 }
 .report-content-form form {
   height: 100%;
@@ -18360,8 +18931,6 @@ dialog:dir(rtl)::after {
     --page-main-content-width: 664px;
     /** panel **/
     --panel-background-color: var(--popup-background-color);
-    --panel-border-color: var(--popup-border-color);
-    --panel-border-radius: var(--popup-border-radius);
     --panel-menuitem-border-radius: var(--border-radius-large);
     --panel-text-color: var(--text-color);
     /** popup **/
@@ -18378,8 +18947,8 @@ dialog:dir(rtl)::after {
     --text-color-error: light-dark(var(--color-red-50), var(--color-red-20));
     /** toolbar **/
     --toolbar-background-color: light-dark(rgba(255, 255, 255, 40%), rgba(0, 0, 0, 20%));
-    --toolbar-field-background-color: var(--toolbar-background-color);
     --toolbar-field-background-color-focus: var(--background-color-box);
+    --toolbar-field-background-color: light-dark(var(--color-white-alpha-40), var(--color-black-alpha-20));
     --toolbar-field-border-color: light-dark(var(--color-gray-20), var(--color-gray-60));
     --toolbar-field-border-color-focus: var(--focus-outline-color);
     --toolbar-field-text-color: light-dark(var(--color-violet-desaturated-70), var(--color-violet-desaturated-10));
@@ -18392,15 +18961,16 @@ dialog:dir(rtl)::after {
     --toolbarbutton-icon-fill-attention: var(--color-accent-primary);
     --toolbarbutton-opacity-disabled: 0.4;
     --toolbarbutton-outline-color: transparent;
+    --toolbarbutton-outline-color-disabled: transparent;
     --toolbarbutton-outline-color-selected: var(--toolbarbutton-outline-color-active);
     --toolbarbutton-outline-offset: -1px;
     /** toolbox **/
     --toolbox-background-color: light-dark(var(--color-white), var(--color-gray-70));
-    --toolbox-background-color-gradient-leading: light-dark(var(--color-violet-10), var(--color-violet-desaturated-70));
-    --toolbox-background-color-gradient-trailing: light-dark(var(--color-orange-10), var(--color-orange-70));
     --toolbox-background-color-inactive: transparent;
     /* This gradient is only used for Nova */
-    --toolbox-background-gradient: linear-gradient(96deg, color-mix(var(--toolbox-background-color-gradient-leading) 50%, transparent) 39.84%, color-mix(var(--toolbox-background-color-gradient-trailing) 50%, transparent) 101.72%);
+    --toolbox-background-gradient: linear-gradient(96deg, color-mix(var(--toolbox-background-gradient-leading) 50%, transparent) 39.84%, color-mix(var(--toolbox-background-gradient-trailing) 50%, transparent) 101.72%);
+    --toolbox-background-gradient-leading: light-dark(var(--color-violet-10), var(--color-violet-desaturated-70));
+    --toolbox-background-gradient-trailing: light-dark(var(--color-orange-10), var(--color-orange-70));
     --toolbox-text-color: var(--text-color);
     /* Figma aliases this to toolbox/text/color so designers see a real color, but CSS must use currentColor: the tab inherits --lwt-text-color under an lwtheme and --toolbox-text-color-inactive in a background window, neither of which --toolbox-text-color tracks. Listed in figma-import.mjs's FIGMA_IGNORES so the alias doesn't overwrite this. */
     --toolbox-text-color-current: var(--toolbox-text-color);
@@ -18415,6 +18985,7 @@ dialog:dir(rtl)::after {
       --text-color: CanvasText;
       --text-color-error: inherit;
       /** toolbar **/
+      --toolbar-field-background-color: Field;
       --toolbar-field-border-color-focus: var(--focus-outline-color);
     }
   }
@@ -18504,11 +19075,12 @@ dialog:dir(rtl)::after {
       --toolbarbutton-outline-color: var(--button-border-color);
       --toolbarbutton-outline-color-hover: var(--button-border-color-hover);
       --toolbarbutton-outline-color-active: var(--button-border-color-active);
+      --toolbarbutton-outline-color-disabled: var(--button-border-color-disabled);
       /** toolbox **/
-      --toolbox-background-color-gradient-leading: Canvas;
-      --toolbox-background-color-gradient-trailing: Canvas;
       /* This gradient is only used for Nova */
       --toolbox-background-gradient: image(transparent);
+      --toolbox-background-gradient-leading: Canvas;
+      --toolbox-background-gradient-trailing: Canvas;
     }
   }
 }

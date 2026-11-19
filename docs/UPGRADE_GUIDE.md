@@ -1,189 +1,205 @@
-# DeckyWolf: Руководство по переносу и шпаргалка по обновлениям
+# DeckyWolf: Upgrade Guide and Architecture Reference
 
-Данный документ — полное руководство и архитектурная шпаргалка по адаптации будущих версий **LibreWolf** в **DeckyWolf**. Здесь описаны все компоненты, уникальные механизмы, контрольные точки и пошаговый алгоритм сборки.
+This document defines the procedure to upgrade the **LibreWolf** base version in **DeckyWolf**.
+Follow each section to preserve custom mechanisms, binary hooks, gamepad integrations, and build steps.
 
 ---
 
-## 🧭 Архитектура: из чего состоит DeckyWolf
+## 1. Architecture Overview
 
-DeckyWolf представляет собой надстройку (overlay) над официальным бинарным релизом LibreWolf AppImage. Все наши изменения изолированы в каталоге `DeckyWolf/overlay/` и автоматически накладываются скриптом `build.sh`.
+DeckyWolf operates as an overlay applied to the official LibreWolf AppImage binary release.
+All custom files reside in `DeckyWolf/overlay/` and apply automatically via `build.sh`.
 
 ```
 DeckyWolf/
-├── build.sh                                # Главный сборочный скрипт
-├── RELEASE_NOTES.md                        # Описание последнего релиза
-├── overlay/                                # Каталог со всеми нашими файлами
-│   ├── root/                               # Корневые файлы AppImage
-│   │   ├── AppRun                          # Скрипт запуска AppImage
-│   │   ├── deckywolf.png                   # Главный логотип 512x512
-│   │   └── net.deckywolf.DeckyWolf.desktop # Системный .desktop файл
+├── build.sh                                # Main build script
+├── RELEASE_NOTES.md                        # Current release notes
+├── overlay/                                # Custom overlay files
+│   ├── root/                               # AppImage root assets
+│   │   ├── AppRun                          # AppImage startup entry script
+│   │   ├── deckywolf.png                   # Main icon (512x512)
+│   │   └── net.deckywolf.DeckyWolf.desktop # Desktop entry file
 │   ├── usr/
 │   │   ├── bin/
-│   │   │   ├── application.ini             # Метаданные приложения (Name, Version, BuildID)
-│   │   │   ├── deckywolf-controller        # Python демон чтения геймпада (/dev/input/event*)
-│   │   │   ├── deckywolf-torrent-service   # Python веб-сервер TorrentWolf (порт 8404) и мост Decky
-│   │   │   ├── librewolf.cfg               # Настройки браузера (сохранение истории, IPv6 и др.)
+│   │   │   ├── application.ini             # App metadata (Name, Version, BuildID)
+│   │   │   ├── deckywolf-controller        # Python gamepad daemon (/dev/input/event*)
+│   │   │   ├── deckywolf-torrent-service   # Python TorrentWolf daemon (port 8404) & Decky RPC bridge
+│   │   │   ├── librewolf.cfg               # Browser configuration (history, IPv6, form fill)
 │   │   │   └── distribution/
-│   │   │       ├── policies.json           # Политики Firefox (расширения, меню поддержки)
+│   │   │       ├── policies.json           # Firefox policies (extensions, menus)
 │   │   │       └── extensions/
-│   │   │           └── vot-ext-store@firefox.xpi # Предустановленный VOT
+│   │   │           └── vot-ext-store@firefox.xpi # Bundled Voice Over Translation
 │   │   ├── lib/
-│   │   │   ├── deckywolf-hook.c            # Исходный код C перехватчика Wayland/X11
-│   │   │   └── deckywolf-hook.so           # Скомпилированная библиотека LD_PRELOAD
+│   │   │   ├── deckywolf-hook.c            # C source for Wayland/X11 class hooks
+│   │   │   └── deckywolf-hook.so           # Precompiled LD_PRELOAD library
 │   │   └── share/
-│   │       ├── applications/               # Системные desktop-файлы
-│   │       ├── icons/                      # Иконки всех разрешений (16x16 ... 512x512)
+│   │       ├── applications/               # System desktop entries
+│   │       ├── icons/                      # System icons (16x16 to 512x512)
 │   │       └── deckywolf/
-│   │           ├── torrent/                # Веб-интерфейс TorrentWolf (HTML/CSS/JS)
-│   │           └── plugins/TorrentWolf/    # Плагин для меню QAM Decky Loader
-│   └── omni/                               # Файлы и патчи для browser/omni.ja
-│       ├── files/                          # Добавляемые файлы в omni.ja (скрипты, иконки)
-│       └── patches/                        # diff-патчи к файлам Firefox
+│   │           ├── torrent/                # TorrentWolf Web UI (HTML, CSS, JS)
+│   │           └── plugins/TorrentWolf/    # Decky Loader QAM plugin
+│   └── omni/                               # Patches for browser/omni.ja
+│       ├── files/                          # Assets added to omni.ja (scripts, icons)
+│       └── patches/                        # Unified diff patches for Firefox UI
 ```
 
 ---
 
-## 📌 Что необходимо сохранять при каждом обновлении
+## 2. Mandatory Preservation Checklist
 
-### 1. Системная идентификация (Брендинг и иконки)
-* **`AppRun`**:
-  * Переменные окружения: `MOZ_APP_NAME="deckywolf"`, `MOZ_APP_REMOTINGNAME="deckywolf"`, `MOZ_APP_DISPLAYNAME="DeckyWolf"`, `MOZ_LEGACY_PROFILES=1`, `MOZ_ALLOW_DOWNGRADE=1`.
-  * Регистрация ярлыка: создаёт строго `~/.local/share/applications/deckywolf.desktop` и удаляет старый дубликат `net.deckywolf.DeckyWolf.desktop`. Не создаёт принудительных файлов на `~/Desktop`.
-  * Запуск демонов `deckywolf-controller` (порт 8403) и `deckywolf-torrent-service` (порт 8404).
-  * Подключение `LD_PRELOAD=/tmp/deckywolf-hook.so`.
-* **`deckywolf-hook.so`**:
-  * Перехватывает вызовы Wayland (`wl_proxy_marshal_array_flags` для `xdg_toplevel` opcode 3) и X11 (`XSetClassHint`), подставляя `deckywolf`.
-  * **Важно**: указатели на оригинальные функции должны быть `static` локальными с проверкой на `NULL` для предотвращения крашей в дочерних процессах (Plasma Browser Integration).
-* **`application.ini`**:
-  * Секция `[App]`: `Name=DeckyWolf`, `RemotingName=deckywolf`, `Profile=deckywolf`.
-  * При обновлении необходимо обновлять поля `Version` (например, `158.0.1`) и `BuildID` (из оригинального `application.ini` новой версии).
+Preserve all configurations below across every upstream version upgrade.
 
-### 2. Стартовая страница и визуальная тема
-* Внутри `browser/omni.ja`:
-  * Логотип DeckyWolf на странице `about:home` / `about:newtab`.
-  * Закреплённые ярлыки:
-    * Сайт сообщества **Decky Loader Russia** (`https://deckyloader.ru`).
-    * Встроенный торрент-клиент **TorrentWolf** (`http://127.0.0.1:8404`).
-  * Тёмная тема Steam Deck, кастомные стили адресной строки.
-  * Экранные подсказки кнопок контроллера (`A`, `B`, `X`, `Y`) на кнопках «Назад», «Вперед», «Обновить».
+### 2.1 Identity and Environment (`AppRun` & `deckywolf-hook.so`)
+* **Environment variables in `AppRun`:**
+  * Set `MOZ_APP_NAME="deckywolf"`.
+  * Set `MOZ_APP_REMOTINGNAME="deckywolf"`.
+  * Set `MOZ_APP_DISPLAYNAME="DeckyWolf"`.
+  * Set `MOZ_LEGACY_PROFILES=1`.
+  * Set `MOZ_ALLOW_DOWNGRADE=1`.
+* **Desktop entry management:**
+  * Create strictly `~/.local/share/applications/deckywolf.desktop`.
+  * Remove legacy `net.deckywolf.DeckyWolf.desktop` if present.
+  * Do not create desktop files in `~/Desktop`.
+* **Process management:**
+  * Start `deckywolf-controller` on port 8403.
+  * Start `deckywolf-torrent-service` on port 8404.
+  * Load hook: `LD_PRELOAD=/tmp/deckywolf-hook.so`.
+* **Hook implementation (`deckywolf-hook.c`):**
+  * Intercept Wayland (`wl_proxy_marshal_array_flags` for `xdg_toplevel` opcode 3) and set string to `deckywolf`.
+  * Intercept X11 (`XSetClassHint`) and set class to `deckywolf`.
+  * Declare `dlsym` pointers as `static` local variables.
+  * Validate `args` and `proxy` pointers for `NULL` before dereferencing.
+* **Application metadata (`application.ini`):**
+  * Section `[App]`: set `Name=DeckyWolf`, `RemotingName=deckywolf`, `Profile=deckywolf`.
+  * Synchronize `Version` and `BuildID` with upstream values.
 
-### 3. Управление геймпадом Steam Deck и подсказки
-* **`deckywolf-controller`**: читает события геймпада через `evdev` из `/dev/input/event*`, транслирует в WebSocket.
-* **`deckywolf-controller.js`**: внедрён в omni.ja (`browser.xhtml`), обрабатывает навигацию фокуса, скролл стиками, зум бамперами и клики.
-* **Настройки геймпада**: страница `about:preferences` содержит переключатель стиля экранных подсказок:
-  * **Xbox** (A/B/X/Y)
-  * **Sony PlayStation** (✕/○/□/△)
-  * **Nintendo Switch** (B/A/Y/X)
-* Полная локализация на 15+ языков в `overlay/omni/localization/`.
+### 2.2 Home Page and Visual Theme
+* Preserve in `browser/omni.ja`:
+  * DeckyWolf logo on `about:home` and `about:newtab`.
+  * Pinned shortcuts: Decky Loader Russia (`https://deckyloader.ru`) and TorrentWolf (`http://127.0.0.1:8404`).
+  * Dark theme styles and custom address bar styles.
+  * Controller button badges (`A`, `B`, `X`, `Y`) on Navigation buttons (Back, Forward, Reload).
 
-### 4. Встроенный торрент-клиент (TorrentWolf)
-* **Веб-интерфейс (`overlay/usr/share/deckywolf/torrent/`)**:
-  * `index.html`, `style.css`, `app.js`.
-  * **Древовидная структура файлов**: рекурсивное интерактивное дерево (`buildFileTree`, `renderTreeNode`) с кнопками `▼`/`▶`, индикацией размеров папок и трёхпозиционными чекбоксами (`checked`, `unchecked`, `indeterminate` `[-]`).
-  * **Drag & Drop**: перетаскивание `.torrent` файлов прямо в окно с подсветкой оверлея.
-  * **Кнопка файлов 📁 на карточках**: выбор файлов для активных и приостановленных торрентов.
-* **Служба Transmission**:
-  * Автоматический запуск `transmission-daemon` через `systemd --user`.
-  * В конфигурации **обязательно** включены `dht-enabled: true`, `pex-enabled: true`, `lpd-enabled: true`.
-  * Отключены блокирующие лимиты: `ratio-limit-enabled: false`, `idle-seeding-limit-enabled: false`.
-  * Автоматическое обогащение magnet-ссылок публичными трекерами (OpenTrackr, OpenBittorrent, RARBG и др.).
-* **Плагин для Decky Loader**:
-  * В каталоге `overlay/usr/share/deckywolf/plugins/TorrentWolf/`. При сборке пакуется в `TorrentWolf.zip` и передаётся при установке в 1 клик для непрерывного скачивания в фоне даже при закрытом браузере и в Game Mode.
+### 2.3 Gamepad Navigation and Input Mapping
+* **Daemon (`deckywolf-controller`):** Reads input events via `evdev` from `/dev/input/event*` and broadcasts JSON over WebSocket.
+* **Frontend (`deckywolf-controller.js`):** Injected into `browser.xhtml`. Maps stick scroll, bumper zoom, and button clicks.
+* **Badge styles in `about:preferences`:**
+  * Xbox layout: `A`, `B`, `X`, `Y`.
+  * PlayStation layout: `✕`, `○`, `□`, `△`.
+  * Nintendo Switch layout: `B`, `A`, `Y`, `X`.
+* Retain localization files in `overlay/omni/localization/` across 15+ languages.
 
-### 5. Интеграция с магазином Decky Loader Russia
-* В `deckywolf-torrent-service` реализованы API-маршруты:
-  * `/api/decky/status` — мгновенный статус службы и установленных плагинов (прямое чтение ФС + опрос WebSocket Decky).
-  * `/api/decky/setup-channel` — настройка репозитория на `deckyloader.ru`.
-  * `/api/decky/install` и `/api/decky/uninstall` — установка и удаление плагинов через официальные RPC-команды Decky Loader без перезагрузки SteamOS.
+### 2.4 Torrent Client (TorrentWolf)
+* **Web assets (`overlay/usr/share/deckywolf/torrent/`):**
+  * Maintain tree view logic (`buildFileTree`, `renderTreeNode`) with size badges and 3-state checkboxes (`checked`, `unchecked`, `indeterminate`).
+  * Support drag-and-drop of `.torrent` files.
+  * Keep file selection modal button (📁) on active and paused torrent cards.
+* **Transmission daemon settings:**
+  * Run via `systemd --user`.
+  * Enable DHT: `dht-enabled: true`.
+  * Enable Peer Exchange: `pex-enabled: true`.
+  * Enable Local Peer Discovery: `lpd-enabled: true`.
+  * Disable ratio and seeding limits: `ratio-limit-enabled: false`, `idle-seeding-limit-enabled: false`.
+  * Automatically append public trackers to magnet URIs.
+* **Decky Loader QAM plugin:**
+  * Package from `overlay/usr/share/deckywolf/plugins/TorrentWolf/` into `TorrentWolf.zip`.
 
-### 6. Расширения (Extensions)
-* **Voice Over Translation (VOT)**:
-  * Файл XPI: `overlay/usr/bin/distribution/extensions/vot-ext-store@firefox.xpi`.
-  * Запись в `overlay/usr/bin/distribution/policies.json`:
+### 2.5 Decky Loader Store Integration
+* Retain REST routes in `deckywolf-torrent-service`:
+  * `GET /api/decky/status` — Reports daemon status and installed plugin list.
+  * `POST /api/decky/setup-channel` — Sets repository URL to `deckyloader.ru`.
+  * `POST /api/decky/install` and `POST /api/decky/uninstall` — Manages plugins via Decky RPC.
+
+### 2.6 Extensions
+* Bundled Voice Over Translation (VOT):
+  * File: `overlay/usr/bin/distribution/extensions/vot-ext-store@firefox.xpi`.
+  * Policy entry in `overlay/usr/bin/distribution/policies.json`:
     ```json
     "vot-ext-store@firefox": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/voice-over-translation/latest.xpi",
         "installation_mode": "normal_installed"
     }
     ```
-* **uBlock Origin**: преднастроен через `policies.json`.
+* Preconfigure uBlock Origin policy.
 
-### 7. Настройки приватности и удобства (`librewolf.cfg`)
-* В `overlay/usr/bin/librewolf.cfg` сохранены критически важные для портативной консоли параметры:
-  * `privacy.sanitize.sanitizeOnShutdown = false` (не удалять сессии при закрытии).
-  * `places.history.enabled = true` и `browser.formfill.enable = true` (сохранять историю и автозаполнение).
-  * `network.dns.disableIPv6 = false` (поддержка IPv6).
-
----
-
-## 🛠️ Совместимость со SteamOS: технические правила
-
-1. **Python 3.10–3.14**:
-   Все python-скрипты в начале файла обязательно должны вызывать `_ensure_stdlib_paths()`, динамически сканируя `/usr/lib/python3*/`. Это гарантирует работу как на SteamOS 3.5 (Python 3.11), так и на SteamOS 3.6+ / CachyOS (Python 3.12–3.14).
-2. **Пути скриптов**:
-   Не полагаться на неявный `__file__`. Использовать:
-   ```python
-   SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else "/usr/bin"
-   ```
-3. **Безопасность хуков Wayland**:
-   В `deckywolf-hook.c` указатели на `dlsym` объявлять строго как локальные `static` внутри функций, а перед обращением к `args` и `proxy` проверять их на `NULL`.
+### 2.7 Session and Privacy Preferences (`librewolf.cfg`)
+* Retain required preferences:
+  * `privacy.sanitize.sanitizeOnShutdown = false` (keep active sessions).
+  * `places.history.enabled = true` (retain browser history).
+  * `browser.formfill.enable = true` (enable form autofill).
+  * `network.dns.disableIPv6 = false` (enable IPv6).
 
 ---
 
-## 🚀 Пошаговый алгоритм обновления на новую версию LibreWolf
+## 3. SteamOS System Compatibility Rules
 
-Когда выходит новая версия LibreWolf (например, `159.0-1`):
+1. **Python Multi-Version Compatibility (3.10–3.14):**
+   * Invoke `_ensure_stdlib_paths()` at the start of all Python scripts.
+   * Dynamically search `/usr/lib/python3*/` to support SteamOS 3.5 (Python 3.11) and SteamOS 3.6+ / CachyOS (Python 3.12–3.14).
+2. **Explicit Directory Resolution:**
+   * Do not rely on implicit `__file__`. Define script directory as follows:
+     ```python
+     SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals() else "/usr/bin"
+     ```
+3. **C Hook Pointer Safety:**
+   * In `deckywolf-hook.c`, declare function pointers as local `static`.
+   * Check all arguments and proxy handles for `NULL` prior to execution.
 
-### Шаг 1. Скачивание нового AppImage
-Скачать официальный AppImage с CDN LibreWolf:
+---
+
+## 4. Step-by-Step Upgrade Procedure
+
+Execute these steps when a new upstream LibreWolf release (for example `159.0-1`) becomes available.
+
+### Step 1: Download New Base AppImage
 ```bash
 cd "/home/viktor/Projects/Librewolf for deck"
 curl -L -O "https://dl.librewolf.net/librewolf/X.Y.Z-R/librewolf-X.Y.Z-R-linux-x86_64-appimage.AppImage"
 chmod +x librewolf-X.Y.Z-R-linux-x86_64-appimage.AppImage
 ```
 
-### Шаг 2. Обновление базового распакованного каталога `test/squashfs-root`
+### Step 2: Extract SquashFS Filesystem
 ```bash
 rm -rf test/squashfs-root
 ./librewolf-X.Y.Z-R-linux-x86_64-appimage.AppImage --appimage-extract
 mv squashfs-root test/
 ```
 
-### Шаг 3. Обновление номеров версий
-1. В `DeckyWolf/build.sh`:
-   Изменить строку `VERSION="X.Y.Z-R.01"`.
-2. В `DeckyWolf/overlay/usr/bin/application.ini`:
-   Посмотреть значения `Version`, `BuildID`, `SourceStamp` в распакованном `test/squashfs-root/usr/bin/application.ini` и перенести их в наш файл.
-3. В `DeckyWolf/.github/workflows/release.yml`:
-   Обновить URL скачивания базы для CI.
-4. В `DeckyWolf/RELEASE_NOTES.md`:
-   Обновить заголовок и описание релиза.
+### Step 3: Synchronize Version Identifiers
+1. Edit `DeckyWolf/build.sh`:
+   * Update variable: `VERSION="X.Y.Z-R.01"`.
+2. Inspect `test/squashfs-root/usr/bin/application.ini`:
+   * Copy `Version`, `BuildID`, and `SourceStamp` into `DeckyWolf/overlay/usr/bin/application.ini`.
+3. Update `DeckyWolf/.github/workflows/release.yml`:
+   * Update the base download URL for CI builds.
+4. Update `DeckyWolf/RELEASE_NOTES.md`:
+   * Record new version changes and release notes.
 
-### Шаг 4. Сборка нового DeckyWolf
+### Step 4: Build DeckyWolf Package
 ```bash
 cd "/home/viktor/Projects/Librewolf for deck/DeckyWolf"
 ./build.sh
 ```
-Скрипт автоматически:
-- Наложит брендинг, иконки и `.desktop` файлы;
-- Скомпилирует и встроит `deckywolf-hook.so`;
-- Скопирует контроллер, службу торрентов и расширения;
-- Распакует `browser/omni.ja`, накатит патчи интерфейса, добавит логотипы и 15 языков локализации, запакует обратно без сжатия (`zip -0`);
-- Сгенерирует финальный `deckywolf.AppImage`.
+The build script performs the following actions:
+* Applies branding, icons, and desktop entries.
+* Compiles `deckywolf-hook.so`.
+* Copies `deckywolf-controller`, `deckywolf-torrent-service`, and bundled extensions.
+* Extracts `browser/omni.ja`, applies UI patches, adds 15+ localization files, and repacks without compression (`zip -0`).
+* Generates `deckywolf.AppImage`.
 
-### Шаг 5. Проверка на Steam Deck
-Скопировать на консоль и протестировать:
+### Step 5: Test Build on Steam Deck Target
+Deploy and execute the AppImage:
 ```bash
 scp "/home/viktor/Projects/Librewolf for deck/deckywolf.AppImage" connect:~/Desktop/deckywolf.appimage
 ssh connect "systemd-run --user /home/viktor/Desktop/deckywolf.appimage"
 ```
-Убедиться, что:
-- Окно открылось с названием и иконкой DeckyWolf.
-- В меню «Пуск» отображается ровно одна иконка DeckyWolf.
-- Вкладка TorrentWolf открывается, дерево файлов работает, пиры подключаются.
-- Расширение Voice Over Translation активно в списке дополнений.
+Verify the following criteria:
+1. Application window displays DeckyWolf title and icon.
+2. System menu displays exactly one DeckyWolf desktop launcher.
+3. TorrentWolf tab opens, renders file trees, and connects to peers.
+4. Voice Over Translation displays as active in `about:addons`.
 
-### Шаг 6. Публикация релиза на GitHub
+### Step 6: Publish Release on GitHub
 ```bash
 cd "/home/viktor/Projects/Librewolf for deck/DeckyWolf"
 git add .
@@ -192,8 +208,8 @@ git tag -a "vX.Y.Z-R.01" -m "DeckyWolf vX.Y.Z-R.01"
 git push origin main
 git push origin "vX.Y.Z-R.01"
 
-# Создание релиза с вложением AppImage:
-GH_TOKEN="<токен_из_Documents/GitFlic-Tokens.md>" gh release create "vX.Y.Z-R.01" \
+# Create GitHub release:
+GH_TOKEN="$(grep -m1 'github_pat' /home/viktor/Documents/GitFlic-Tokens.md | awk '{print $NF}')" gh release create "vX.Y.Z-R.01" \
   "/home/viktor/Projects/Librewolf for deck/deckywolf.AppImage" \
   --repo Kowalski-coder/DeckyWolf \
   --title "DeckyWolf vX.Y.Z-R.01" \
