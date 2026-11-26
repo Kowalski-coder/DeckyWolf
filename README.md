@@ -27,6 +27,16 @@
   <a href="docs/README.et.md">Eesti</a>
 </p>
 
+> [!IMPORTANT]
+> ### ⚠️ Project Status: Development & Maintenance Discontinued
+> **Development and technical support for DeckyWolf have officially ended.**
+>
+> This repository remains completely public and open source. Anyone is welcome to use, fork, modify, or continue developing this project at their own discretion.
+>
+> 🚀 **New Browser for Steam Deck: [DeckyBird](https://github.com/Kowalski-coder/DeckyBird)**
+> 
+> Future development has moved to our new project — **[DeckyBird](https://github.com/Kowalski-coder/DeckyBird)** (based on the Ladybird engine). DeckyBird is now the primary, actively supported browser for Steam Deck with regular updates, modern architecture, and direct availability in **Decky Loader** and on **[deckyloader.ru](https://deckyloader.ru)**. We recommend switching to DeckyBird!
+
 ---
 
 **DeckyWolf** is an optimized fork of **LibreWolf** built for handheld gaming devices like Valve's **Steam Deck**. It seamlessly integrates hardware controls, trackpad gestures with tactile haptic feedback, on-screen controller hints, and custom handheld settings directly into the browser.
@@ -72,8 +82,12 @@ chmod +x deckywolf.AppImage
 ./deckywolf.AppImage
 ```
 
-## Documentation & Guides
-- 📖 [Upgrade Guide & Architecture Cheatsheet (Руководство по обновлениям)](docs/UPGRADE_GUIDE.md)
+## Documentation & Resources for Fork Authors
+- ⛔ [DO_NOT_BREAK: Architecture Rules & Restrictions](docs/DO_NOT_BREAK.md)
+- 📖 [Engine Upgrade Guide (Upgrading LibreWolf Base)](docs/ENGINE_UPGRADE_GUIDE.md)
+- 📖 [Upgrade Guide & Architecture Cheatsheet](docs/UPGRADE_GUIDE.md)
+- 🛠️ [Developer & Maintenance Tools (`tools/`)](tools/README.md)
+- 🦊 [BelyLis Architecture & Domain Whitelist Guide](docs/BELYLIS_IMPROVEMENTS.md)
 - 🎮 [SteamOS Compatibility Notes](docs/STEAMOS_COMPATIBILITY.md)
 
 ---

@@ -18,9 +18,9 @@ var DeckyWolfController = {
     this.initted = true;
 
     try {
-      this.mode = Services.prefs.getStringPref("deckywolf.controlMode", "controller");
+      this.mode = Services.prefs.getStringPref("deckywolf.controlMode", "keyboard");
     } catch (e) {
-      this.mode = "controller";
+      this.mode = "keyboard";
     }
 
     dump("[DeckyWolf] Controller JS init, mode=" + this.mode + "\n");
@@ -228,9 +228,9 @@ var DeckyWolfController = {
   observe(subject, topic, data) {
     if (topic === "nsPref:changed") {
       if (data === "deckywolf.controlMode") {
-        let newMode = "controller";
+        let newMode = "keyboard";
         try {
-          newMode = Services.prefs.getStringPref("deckywolf.controlMode", "controller");
+          newMode = Services.prefs.getStringPref("deckywolf.controlMode", "keyboard");
         } catch (e) {}
         this.applyMode(newMode);
         this.sendConfig();
@@ -241,9 +241,9 @@ var DeckyWolfController = {
   },
 
   toggleMode() {
-    let currentMode = "controller";
+    let currentMode = "keyboard";
     try {
-      currentMode = Services.prefs.getStringPref("deckywolf.controlMode", "controller");
+      currentMode = Services.prefs.getStringPref("deckywolf.controlMode", "keyboard");
     } catch (e) {}
     let nextMode = currentMode === "controller" ? "keyboard" : "controller";
     dump("[DeckyWolf] Toggling mode: " + currentMode + " -> " + nextMode + "\n");
@@ -293,7 +293,7 @@ var DeckyWolfController = {
         invertScroll = Services.prefs.getBoolPref("deckywolf.controller.invert_scroll", true);
         modifier = Services.prefs.getStringPref("deckywolf.controller.modifier_button", "L5");
         hintStyle = Services.prefs.getStringPref("deckywolf.controller.hint_style", "xbox");
-        mode = Services.prefs.getStringPref("deckywolf.controlMode", "controller");
+        mode = Services.prefs.getStringPref("deckywolf.controlMode", "keyboard");
       } catch (e) {}
 
       document.documentElement.setAttribute("deckywolf-hint-style", hintStyle);

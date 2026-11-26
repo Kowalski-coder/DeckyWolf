@@ -68,6 +68,7 @@ var DeckyWolfBelyLis = {
 
     try {
       Services.obs.addObserver(this, "http-on-examine-response");
+      Services.obs.addObserver(this, "http-on-modify-request");
     } catch (e) {
       console.error("[DeckyWolf] Failed to register http observer:", e);
     }
@@ -152,9 +153,26 @@ var DeckyWolfBelyLis = {
 
       try {
         Services.obs.removeObserver(this, "http-on-examine-response");
+        Services.obs.removeObserver(this, "http-on-modify-request");
       } catch (e) {}
     } else if (topic === "http-on-examine-response") {
       this.checkSecurityChannel(subject);
+    } else if (topic === "http-on-modify-request") {
+      try {
+        let channel = subject.QueryInterface(Ci.nsIHttpChannel);
+        let url = (channel && channel.URI) ? channel.URI.spec : "";
+        if (url && (url.includes("serp_land_no_serts") || url.includes("from=serp_land"))) {
+          let match = url.match(/[?&](?:url|target|retpath)=([^&]+)/);
+          if (match) {
+            let realTarget = decodeURIComponent(match[1]);
+            if (realTarget.startsWith("http://") || realTarget.startsWith("https://")) {
+              dump("[DeckyWolf] BelyLis: Bypassed Yandex serp_land_no_serts -> " + realTarget + "\n");
+              channel.redirectTo(Services.io.newURI(realTarget));
+              return;
+            }
+          }
+        }
+      } catch (e) {}
     }
   },
 
@@ -205,6 +223,27 @@ var DeckyWolfBelyLis = {
                         host === "xn--p1ai" || host.endsWith(".xn--p1ai") ||
                         host === "su" || host.endsWith(".su")) &&
                        host !== "localhost" && host !== "127.0.0.1";
+
+        if (!isRuHost) {
+          const RU_ALT_DOMAINS = [
+            "tochka.com",
+            "sberbank.com",
+            "alfabank.com",
+            "vtb.com",
+            "gazprombank.com",
+            "ingos.ru",
+            "rshb.com",
+            "gosuslugi.ru",
+            "nalog.ru",
+            "mos.ru"
+          ];
+          for (let d of RU_ALT_DOMAINS) {
+            if (host === d || host.endsWith("." + d)) {
+              isRuHost = true;
+              break;
+            }
+          }
+        }
 
         if (autoRu) {
           // When auto mode is active, strictly reject Russian CAs on all non-Russian hosts

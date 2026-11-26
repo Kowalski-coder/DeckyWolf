@@ -1,3 +1,21 @@
+## DeckyWolf v160.0.1.2
+
+The final release of DeckyWolf featuring transition guidance to DeckyBird, enhanced «Белый Лис» compatibility with extended Russian service domains and Yandex bypass, input daemon fallbacks, repository tools for fork authors, and overall stability polish.
+
+### Highlights
+
+- 📣 **Transition to DeckyBird**:
+  - Integrated informational startup banner announcing the conclusion of DeckyWolf development and recommending transition to the new, actively maintained [DeckyBird](https://github.com/Kowalski-coder/DeckyBird) browser for Steam Deck via Decky Loader and [deckyloader.ru](https://deckyloader.ru).
+  - Interactive controls with "Close" (current session) and "Don't show again" (persisted per profile).
+- 🦊 **«Белый Лис» Enhancements**:
+  - Whitelisted major Russian digital services operating on international TLDs (`tochka.com`, `sberbank.com`, `alfabank.com`, `vtb.com`, `gazprombank.com`, etc.) under automatic TLS certificate isolation.
+  - Added automatic bypass for Yandex `serp_land_no_serts` redirect pages to streamline Russian web browsing.
+- 🎮 **Input & Daemon Stability**:
+  - Standardized input mode default to prevent accidental gamepad button badge rendering on desktop.
+- 🛠️ **Repository & Fork Assets**:
+  - Added maintenance tools (`tools/`) and comprehensive guides for engine upgrades and architectural constraints for future fork authors.
+- 🧹 **Final Maintenance Polish**: Complete cleanup of overlay configs, styles, and handlers.
+
 ## DeckyWolf v160.0.1.1
 
 An engine upgrade to LibreWolf 160.0.1 upstream base bringing the latest web platform improvements, security fixes, and performance updates, while fully preserving all DeckyWolf custom features and optimizations for Steam Deck and Linux.

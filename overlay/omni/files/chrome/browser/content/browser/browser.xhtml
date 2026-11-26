@@ -7271,6 +7271,27 @@
   </html:template>
 </toolbox>
 
+  <vbox id="deckywolf-deprecation-banner" hidden="true" class="deckywolf-deprecation-banner">
+    <hbox class="deckywolf-deprecation-inner" align="start">
+      <html:div class="deckywolf-deprecation-icon-box">
+        <svg class="deckywolf-deprecation-icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+      </html:div>
+      <vbox flex="1" class="deckywolf-deprecation-content">
+        <html:div id="deckywolf-deprecation-title" class="deckywolf-deprecation-title">Внимание: Разработка браузера DeckyWolf прекращена</html:div>
+        <description id="deckywolf-deprecation-desc" class="deckywolf-deprecation-desc">
+          Разработка и поддержка DeckyWolf официально завершены. Для пользователей Steam Deck теперь создаётся новый браузер — <html:a id="deckywolf-deprecation-link" href="https://github.com/Kowalski-coder/DeckyBird" class="deckywolf-deprecation-link">DeckyBird</html:a>, который доступен для установки прямо из магазина плагинов Decky Loader, а также на сайте <html:a id="deckywolf-deprecation-site-link" href="https://deckyloader.ru" class="deckywolf-deprecation-link">deckyloader.ru</html:a>. Рекомендуем перейти на DeckyBird для получения регулярных обновлений и новых функций.
+        </description>
+        <hbox class="deckywolf-deprecation-actions">
+          <button id="deckywolf-deprecation-btn-close" class="deckywolf-deprecation-btn deckywolf-deprecation-btn-primary" type="button" label="Закрыть">Закрыть</button>
+          <button id="deckywolf-deprecation-btn-never" class="deckywolf-deprecation-btn deckywolf-deprecation-btn-secondary" type="button" label="Больше не показывать">Больше не показывать</button>
+        </hbox>
+      </vbox>
+    </hbox>
+  </vbox>
 
 <hbox flex="1" id="browser">
   <box context="sidebar-context-menu" id="sidebar-container" hidden="true">
